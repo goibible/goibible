@@ -1,0 +1,1 @@
+Isaac lived in Gerar.

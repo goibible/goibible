@@ -1,0 +1,1 @@
+Sarai was barren. She had no child.

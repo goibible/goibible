@@ -1,0 +1,1 @@
+God spoke to Noah, saying,

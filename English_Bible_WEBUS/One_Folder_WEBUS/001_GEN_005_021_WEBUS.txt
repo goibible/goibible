@@ -1,0 +1,1 @@
+Enoch lived sixty-five years, then became the father of Methuselah.

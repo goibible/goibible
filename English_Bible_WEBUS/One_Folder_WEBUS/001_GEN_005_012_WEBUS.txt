@@ -1,0 +1,1 @@
+Kenan lived seventy years, then became the father of Mahalalel.

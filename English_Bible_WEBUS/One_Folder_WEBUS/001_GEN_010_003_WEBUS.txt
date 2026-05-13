@@ -1,0 +1,1 @@
+The sons of Gomer were: Ashkenaz, Riphath, and Togarmah.

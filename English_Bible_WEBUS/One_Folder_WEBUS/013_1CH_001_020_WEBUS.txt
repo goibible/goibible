@@ -1,0 +1,1 @@
+Joktan became the father of Almodad, Sheleph, Hazarmaveth, Jerah,

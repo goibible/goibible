@@ -1,0 +1,1 @@
+Enosh lived ninety years, and became the father of Kenan.
