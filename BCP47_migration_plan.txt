@@ -1,0 +1,254 @@
+==========================================================
+BIBLE DATABASE BCP47 MIGRATION PLAN (UPDATED)
+==========================================================
+
+OBJECTIVE:
+Convert single-version Bible database to BCP47-compliant
+multi-language structure supporting RFC 5646 language tags.
+
+DATA ANALYSIS - CURRENT STATE:
+  5 existing versions with verse counts:
+  - CUV|31102    = Chinese United Bible Society (CUV)
+  - KJV|31102    = King James Version (English)  
+  - TR1550|7957  = Textus Receptus 1550 (Greek) - incomplete
+  - WEBUS|31102  = World English Bible English
+  - WLC|23213    = Westminster Latin Codex (Hebrew)
+
+BCP47 TAG FORMAT: [language[-script][region][variant]][-extension]
+  Example: eng-Latn-US (English, Latin script, United States)
+  
+CURRENT MIGRATION MAPPING:
+  - CUV          → chi (Chinese)
+  - KJV          → eng (English)
+  - TR1550       → grk (Greek) - partial text
+  - WEBUS        → eng (English)  
+  - WLC          → heb (Hebrew)
+
+PHASE 1: SCHEMA MIGRATION
+=====================================================
+
+STEP 1.1: Create migration backup
+  Command: sqlite3 atomic_bible.sqlite3 .backup /backup/original.db
+
+STEP 1.2: Add BCP47 columns to verses table
+  ALTER TABLE verses ADD COLUMN language TEXT NOT NULL;
+  ALTER TABLE verses ADD COLUMN script TEXT;
+  ALTER TABLE verses ADD COLUMN region_variant TEXT;
+
+STEP 1.3: Modify primary key
+  Change from: (version, book, chapter, verse)
+  To: (language, conical, chapter, verse)
+
+STEP 1.4: Create necessary indexes
+  CREATE INDEX idx_language ON verses(language);
+  CREATE INDEX idx_canonical ON verses(conical, chapter, verse);
+
+PHASE 2: VERSION DATA MIGRATION
+=====================================================
+
+STEP 2.1: Create version_mapping table
+  CREATE TABLE version_mapping (
+    old_version TEXT PRIMARY KEY,
+    language TEXT NOT NULL,
+    script TEXT,
+    region_variant TEXT,
+    description TEXT
+  );
+
+STEP 2.2: Populate version_mapping with 2-letter region codes
+  INSERT INTO version_mapping VALUES
+    ('CUV',   'chi', NULL, NULL, 'Chinese United Bible Society'),
+    ('KJV',   'eng', 'Latn', NULL, 'King James Version'),
+    ('TR1550','grk', 'Grek', 'GR', 'Textus Receptus 1550 - Greece'),
+    ('WEBUS', 'eng', 'Latn', 'US', 'World English Bible'),
+    ('WLC',   'heb', 'Hebr', 'IS', 'Westminster Leningrad Codex');
+
+STEP 2.3: Update verses table
+  UPDATE verses SET
+    language = (SELECT language FROM version_mapping WHERE old_version = verses.version),
+    script = (SELECT script FROM version_mapping WHERE old_version = verses.version),
+    region_variant = (SELECT region_variant FROM version_mapping WHERE old_version = verses.version);
+
+STEP 2.4: Cleanup (optional)
+  DROP TABLE version_mapping;  -- or keep for reference
+
+PHASE 3: ISO REFERENCE DATA
+=====================================================
+
+POPULATE ISO REFERENCE TABLES:
+
+iso_scripts (already exists - populate):
+  INSERT INTO iso_scripts VALUES
+    ('Latn', 'Latin', 0, NULL),
+    ('Cyrl', 'Cyrillic', 0, NULL),
+    ('Grek', 'Greek', 0, NULL),
+    ('Hebr', 'Hebrew', 0, NULL);
+
+iso_regions (2-letter codes - populate):
+  INSERT INTO iso_regions VALUES
+    ('US', 'United States', 0, NULL),
+    ('GB', 'United Kingdom', 0, NULL),
+    ('DE', 'Germany', 0, NULL),
+    ('FR', 'France', 0, NULL),
+    ('ES', 'Spain', 0, NULL),
+    ('CN', 'China', 0, NULL),
+    ('IN', 'India', 0, NULL);
+
+PHASE 4: ISO LANGUAGES TABLE
+=====================================================
+
+The iso_languages table exists with 8268 rows.
+Verify what these rows contain before migration.
+Check if these are existing language subtags or something else.
+
+QUERY TO VERIFY:
+  SELECT COUNT(*), subtag FROM iso_languages GROUP BY subtag 
+  ORDER BY COUNT(*) DESC LIMIT 10;
+
+QUERY EXAMPLES AFTER MIGRATION
+=====================================================
+
+1. Get all verses in English:
+   SELECT * FROM verses WHERE language = 'eng' ORDER BY conical, chapter, verse;
+
+2. Get Hebrew verses (WLC):
+   SELECT * FROM verses WHERE language IN ('heb', 'grk');
+
+3. Get Chinese verses (CUV):
+   SELECT * FROM verses WHERE language = 'chi' ORDER BY conical;
+
+4. Count verses by language:
+   SELECT language, COUNT(*) as verses 
+   FROM verses 
+   GROUP BY language ORDER BY verses DESC;
+
+5. Join with books and filter by language:
+   SELECT 
+     v.chapter, v.verse, 
+     b.long_name, 
+     v.language,
+     v.region_variant
+   FROM verses v
+   JOIN books b ON v.conical = b.conical
+   WHERE v.language IN ('eng', 'chi')
+   ORDER BY v.conical, v.chapter, v.verse;
+
+BACKUP STRATEGY
+=====================================================
+
+MANDATORY BACKUP STEPS:
+1. Create database backup:
+   sqlite3 atomic_bible.sqlite3 ".backup /backup/original.db"
+
+2. Create schema dump:
+   sqlite3 atomic_bible.sqlite3 ".dump" > schema_backup.sql
+
+3. Review migration plan in README
+
+4. Test migration on empty database first:
+   - Create test copy
+   - Run migration SQL against it
+   - Verify queries work
+   - Rollback if issues found
+
+RISK ASSESSMENT
+=====================================================
+
+RISK LEVEL: MEDIUM (if backup and testing done)
+
+RISKS:
+1. Schema change breaks existing queries using version
+2. Unicode issues with Chinese/Hebrew text
+3. Partial data (TR1550 only 7,957 verses)
+
+MIGRATE WITH:
+1. Full database backup (verified)
+2. Test migration on fresh copy first
+3. Keep old columns temporarily (add, don't replace)
+4. Test queries before cleanup
+
+MIGRATION COMMANDS TO REVIEW
+=====================================================
+
+-- Step 1: Backup (run this first)
+sqlite3 atomic_bible.sqlite3 ".backup /backup/original.db"
+
+-- Step 2: Add BCP47 columns
+sqlite3 atomic_bible.sqlite3 "
+  ALTER TABLE verses ADD COLUMN language TEXT;
+  ALTER TABLE verses ADD COLUMN script TEXT;  
+  ALTER TABLE verses ADD COLUMN region_variant TEXT;
+"
+
+-- Step 3: Create version mapping
+sqlite3 atomic_bible.sqlite3 "
+  CREATE TABLE version_mapping (
+    old_version TEXT PRIMARY KEY,
+    language TEXT,
+    script TEXT,
+    region_variant TEXT,
+    description TEXT
+  );
+"
+
+-- Step 4: Populate mapping
+sqlite3 atomic_bible.sqlite3 "
+  INSERT INTO version_mapping VALUES
+    ('CUV', 'chi', NULL, NULL, 'Chinese United Bible Society'),
+    ('KJV', 'eng', 'Latn', NULL, 'King James Version'),
+    ('TR1550', 'grk', 'Grek', 'GR', 'Textus Receptus 1550'),
+    ('WEBUS', 'eng', 'Latn', 'US', 'World English Bible'),
+    ('WLC', 'heb', 'Hebr', 'IS', 'Westminster Leningrad Codex');
+"
+
+-- Step 5: Update verses
+sqlite3 atomic_bible.sqlite3 "
+  UPDATE verses SET
+    language = (SELECT language FROM version_mapping WHERE old_version = verses.version),
+    script = (SELECT script FROM version_mapping WHERE old_version = verses.version),
+    region_variant = (SELECT region_variant FROM version_mapping WHERE old_version = verses.version);
+"
+
+-- Step 6: Verify update
+sqlite3 atomic_bible.sqlite3 "SELECT DISTINCT language FROM verses;"
+
+DECISION POINTS - YOUR INPUT NEEDED:
+=====================================================
+
+1. CONFIRM CUV = Chinese:
+   [YES] Proceed with chi as CUV language code
+
+2. REGION FORMAT - 2 LETTER CODES:
+   Should region_variant contain just 2-letter codes like:
+   - 'US' for United States
+   - 'CN' for China  
+   - 'IN' for India
+   OR combine codes like 'US-Latn' or leave NULL?
+
+3. KEEP VERSION COLUMN:
+   Should we:
+   a) Remove 'version' column after migration?
+   b) Keep it for backward compatibility?
+
+4. ISO LANGUAGES TABLE:
+   What is in iso_languages (8268 rows)?
+   a) Show me: sqlite3 atomic_bible.sqlite3 "SELECT * FROM iso_languages LIMIT 10;"
+   b) We'll populate it later
+
+5. TEST MIGRATION:
+   Should I create a test database and run migration there first?
+   Command: sqlite3 /tmp/test_bible.db < /path/to/schema.sql
+
+REQUIRED NEXT STEPS FROM YOU:
+1. Confirm CUV migration mapping (chi for Chinese)
+2. Decide on 2-letter region format (just code or combined?)
+3. Decide: keep or remove 'version' column?  
+4. Decide: test migration on fresh db or proceed with backup?
+
+ONCE CONFIRMED, WILL:
+1. Create migration SQL file (read-only review)
+2. Create test migration script
+3. Provide backup command
+4. You confirm execution
+
+PLAN COMPLETED - AWAITING YOUR CONFIRMATION

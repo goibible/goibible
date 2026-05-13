@@ -1,0 +1,18 @@
+{
+  "enableToast": true,
+  "showSessionTokens": true,
+  "enabledProviders": [
+    "qwen-code"
+  ],
+  "formatStyle": "singleWindow",
+  "percentDisplayMode": "remaining",
+  "tuiSidebarPanel": {
+    "enabled": true
+  },
+  "tuiCompactStatus": {
+    "enabled": true,
+    "homeBottom": true,
+    "sessionPrompt": true,
+    "suppressWhenNativeProviderQuota": true
+  }
+}
