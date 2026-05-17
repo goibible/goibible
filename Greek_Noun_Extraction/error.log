@@ -1,0 +1,55 @@
+2026-05-17 16:59:35,127 | ERROR | Hallucinated token in 040_MAT_006_031_TR1550.txt: μερη
+2026-05-17 16:59:45,673 | ERROR | Error processing 040_MAT_010_031_TR1550.txt: Unknown noun category: ANIMAL
+2026-05-17 16:59:47,953 | ERROR | Error processing 040_MAT_011_015_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:00:06,461 | ERROR | Error processing 040_MAT_012_030_TR1550.txt: Unknown noun category: ACTION
+2026-05-17 17:00:08,770 | ERROR | Error processing 040_MAT_013_009_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:00:12,530 | ERROR | Hallucinated token in 040_MAT_014_007_TR1550.txt: δου
+2026-05-17 17:00:26,776 | ERROR | Error processing 040_MAT_021_029_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:00:33,038 | ERROR | Hallucinated token in 040_MAT_022_022_TR1550.txt: θαυμασαν
+2026-05-17 17:00:38,471 | ERROR | Error processing 040_MAT_022_026_TR1550.txt: Unknown noun category: NUMBER
+2026-05-17 17:00:48,664 | ERROR | Hallucinated token in 040_MAT_024_011_TR1550.txt: προφηται
+2026-05-17 17:01:08,164 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: πεινασα
+2026-05-17 17:01:08,164 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: διψησα
+2026-05-17 17:01:08,181 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: ξενοσ
+2026-05-17 17:01:16,598 | ERROR | Hallucinated token in 040_MAT_027_036_TR1550.txt: κει
+2026-05-17 17:01:18,780 | ERROR | Hallucinated token in 041_MRK_004_008_TR1550.txt: γη
+2026-05-17 17:01:23,362 | ERROR | Error processing 041_MRK_004_023_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:01:32,558 | ERROR | Error processing 041_MRK_006_037_TR1550.txt: Unknown noun category: FOOD
+2026-05-17 17:01:39,253 | ERROR | Error processing 041_MRK_007_016_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:02:00,907 | ERROR | Error processing 041_MRK_013_033_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:02:12,390 | ERROR | Hallucinated token in 041_MRK_014_035_TR1550.txt: ωρας
+2026-05-17 17:02:16,910 | ERROR | Hallucinated token in 041_MRK_015_023_TR1550.txt: οινon
+2026-05-17 17:02:52,282 | ERROR | Hallucinated token in 042_LUK_008_017_TR1550.txt: γνωσθετη
+2026-05-17 17:04:53,868 | ERROR | Hallucinated token in 044_ACT_004_020_TR1550.txt: γη
+2026-05-17 17:04:58,462 | ERROR | Error processing 044_ACT_009_009_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:05:17,101 | ERROR | Hallucinated token in 044_ACT_011_017_TR1550.txt: ιωαννην
+2026-05-17 17:05:21,036 | ERROR | Hallucinated token in 044_ACT_013_003_TR1550.txt: νηστευσιν
+2026-05-17 17:05:21,036 | ERROR | Error processing 044_ACT_013_003_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:05:34,593 | ERROR | Error processing 044_ACT_021_040_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:05:53,733 | ERROR | Hallucinated token in 044_ACT_028_024_TR1550.txt: πιστουν
+2026-05-17 17:06:06,803 | ERROR | Hallucinated token in 045_ROM_001_031_TR1550.txt: ασθετους
+2026-05-17 17:06:35,805 | ERROR | Hallucinated token in 045_ROM_009_018_TR1550.txt: θελον
+2026-05-17 17:06:35,805 | ERROR | Hallucinated token in 045_ROM_009_018_TR1550.txt: θελον
+2026-05-17 17:06:35,805 | ERROR | Hallucinated token in 045_ROM_009_018_TR1550.txt: ον
+2026-05-17 17:06:35,821 | ERROR | Hallucinated token in 045_ROM_009_018_TR1550.txt: θελον
+2026-05-17 17:06:35,821 | ERROR | Hallucinated token in 045_ROM_009_018_TR1550.txt: σκυρυνει
+2026-05-17 17:06:41,266 | ERROR | Hallucinated token in 045_ROM_010_014_TR1550.txt: πιστευσαν
+2026-05-17 17:06:44,995 | ERROR | Error processing 045_ROM_011_008_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:07:03,932 | ERROR | Hallucinated token in 046_1CO_004_007_TR1550.txt: τι
+2026-05-17 17:07:03,932 | ERROR | Hallucinated token in 046_1CO_004_007_TR1550.txt: τι
+2026-05-17 17:07:16,353 | ERROR | Error processing 046_1CO_004_011_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:07:23,825 | ERROR | Hallucinated token in 046_1CO_004_012_TR1550.txt: χειρεσιν
+2026-05-17 17:07:50,318 | ERROR | Hallucinated token in 046_1CO_010_012_TR1550.txt: σταναι
+2026-05-17 17:07:54,240 | ERROR | Error processing 046_1CO_012_022_TR1550.txt: Unknown noun category: BODY_PART
+2026-05-17 17:08:19,331 | ERROR | Error processing 046_1CO_016_008_TR1550.txt: Unknown noun category: TIME
+2026-05-17 17:08:44,432 | ERROR | Hallucinated token in 047_2CO_006_009_TR1550.txt: παιδεuoμενοι
+2026-05-17 17:08:53,286 | ERROR | Hallucinated token in 047_2CO_007_002_TR1550.txt: μας
+2026-05-17 17:09:13,758 | ERROR | Hallucinated token in 048_GAL_001_009_TR1550.txt: θεον
+2026-05-17 17:09:17,610 | ERROR | Hallucinated token in 048_GAL_002_018_TR1550.txt: αυτον
+2026-05-17 17:09:41,267 | ERROR | Hallucinated token in 049_EPH_001_004_TR1550.txt: αγωνων
+2026-05-17 17:10:09,217 | ERROR | Hallucinated token in 050_PHP_002_027_TR1550.txt: με
+2026-05-17 17:10:18,105 | ERROR | Hallucinated token in 050_PHP_002_028_TR1550.txt: αυτον
+2026-05-17 17:11:10,023 | ERROR | Error processing 054_1TI_005_007_TR1550.txt: Unknown noun category: ACTION
+2026-05-17 17:11:12,351 | ERROR | Hallucinated token in 055_2TI_003_007_TR1550.txt: αλήθειας
+2026-05-17 17:11:44,780 | ERROR | Hallucinated token in 058_HEB_011_015_TR1550.txt: καιρος
+2026-05-17 17:12:06,504 | ERROR | Error processing 066_REV_002_005_TR1550.txt: Unknown noun category: OBJECT

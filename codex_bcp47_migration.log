@@ -1,0 +1,71 @@
+[Codex BCP47 Migration Log]
+Date: 2026-05-12
+Workspace: /home/albert/projects/bible
+
+1) Migration artifacts created
+- migrate_to_bcp47.sql
+- codex_BCP47_migration_plan.md
+
+2) Target database policy
+- Source database preserved: atomic_bible.sqlite3
+- New database created: bcp_bible.sqlite3
+
+3) Build command executed
+- rm -f bcp_bible.sqlite3 && sqlite3 bcp_bible.sqlite3 < migrate_to_bcp47.sql
+
+4) Implemented schema/model highlights
+- Added editions table with separate edition identity and BCP47 language identity
+- Preserved edition ids: CUV, KJV, WEBUS, TR1550, WLC
+- Added pending placeholder edition: PENDING_6TH
+- Added verses_legacy compatibility view
+- Added goi indexes and language/canonical indexes
+
+5) GOI handling
+- Source goi values were NULL for all source rows
+- Migration computes goi deterministically using ROW_NUMBER() OVER (
+    PARTITION BY version ORDER BY conical, chapter, verse
+  )
+
+6) Verification outputs
+
+6.1 Per-edition verse counts
+CUV|31102
+KJV|31102
+TR1550|7957
+WEBUS|31102
+WLC|23213
+
+6.2 Edition to language mapping
+CUV|zh|zh|active
+KJV|en|en|active
+PENDING_6TH|||pending
+TR1550|el|el|active
+WEBUS|en-US|en|active
+WLC|he|he|active
+
+6.3 GOI ranges by edition
+CUV|1|31102|31102
+KJV|1|31102|31102
+TR1550|1|7957|7957
+WEBUS|1|31102|31102
+WLC|1|23213|23213
+
+6.4 Legacy compatibility sample
+1|1|CUV|GEN|1|1|OT|001_GEN_001_001_CUV
+2|1|CUV|GEN|1|2|OT|001_GEN_001_002_CUV
+3|1|CUV|GEN|1|3|OT|001_GEN_001_003_CUV
+
+6.5 Cross-edition GOI join sample (KJV vs WEBUS)
+1|KJV|WEBUS
+2|KJV|WEBUS
+3|KJV|WEBUS
+4|KJV|WEBUS
+5|KJV|WEBUS
+
+7) File presence check
+- atomic_bible.sqlite3 present
+- bcp_bible.sqlite3 present
+
+8) Notes
+- Migration was non-destructive to atomic_bible.sqlite3
+- Unrelated workspace changes were left untouched

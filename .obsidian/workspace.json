@@ -183,6 +183,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "03dbfb1e001b7594",
-  "lastOpenFiles": []
+  "active": "f7c92fd8eb7f26a9",
+  "lastOpenFiles": [
+    "codex_bcp47_migration.log",
+    "bcp_bible.sqlite3-journal",
+    "bcp_bible.sqlite3",
+    "codex_BCP47_migration_plan.md",
+    "migrate_to_bcp47.sql",
+    "backup/atomic_bible.sqlite3",
+    "backup"
+  ]
 }

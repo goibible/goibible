@@ -1,0 +1,58 @@
+.
+├── AI_chinese_bible_strategy.md
+├── atomic_bible.sql
+├── atomic_bible.sqlite3
+├── atomizing_the_bible.md
+├── backup
+│   └── atomic_bible.sqlite3
+├── BCP47
+│   ├── bcp47.sql
+│   ├── bcp47.sqlite3
+│   ├── import_iso_BCP47.py
+│   ├── iso_BCP47_tables.sql
+│   └── language-subtag-registry
+├── BCP47_migration_plan.txt
+├── bcp_bible.sqlite3
+├── bible_into_sqlite.py
+├── bible_tree.txt
+├── books_export_2026-02-21_104022.sql
+├── Chinese_Bible_CUV
+│   ├── One_Directory_CUV
+│   └── SOURCE
+├── codex_bcp47_migration.log
+├── codex_BCP47_migration_plan.md
+├── English_Bible_KJV
+│   ├── One_Directory_KJV
+│   └── SOURCE
+├── English_Bible_WEBUS
+│   └── One_Directory_WEBUS
+├── Greek_Bible_TR1550
+│   ├── One_Directory_TR1550
+│   └── SOURCE
+├── Greek_Noun_Extraction
+│   ├── AI_chinese_bible_strategy.md
+│   ├── ai_llm.txt
+│   ├── error.log
+│   ├── error.log.old
+│   ├── greek_noun_schema.sql
+│   ├── greek_noun.sqlite3
+│   ├── greek_nt_noun_schema.sql
+│   ├── noun_count.py
+│   ├── One_Directory_TR1550
+│   ├── progress.log
+│   ├── __pycache__
+│   ├── test.py
+│   └── token_count.log
+├── Hebrew_Bible_WLC
+│   ├── One_Directory_WLC
+│   └── SOURCE
+├── migrate_to_bcp47.sql
+├── opencode.json
+├── opencode-quota
+│   └── quota-toast.json
+├── osis_to_detailed_name.csv
+├── rename_to_osis.ps1
+├── test_db.sqlite3
+└── tui.json
+
+21 directories, 35 files

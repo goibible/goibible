@@ -1,0 +1,271 @@
+
+============================================================
+  WLC REMAP — DRY RUN
+  WLC dir : /home/albert/projects/bible/Hebrew_Bible_WLC/One_Directory_WLC
+  DB      : /home/albert/projects/bible/atomic_bible.sqlite3
+============================================================
+
+  Remap table entries: 136
+  WLC flatfiles found: 23213
+
+  [CONFLICT] 001_GEN_032_033_WLC.txt → 001_GEN_033_001_WLC.txt: target exists
+  [CONFLICT] 001_GEN_032_033_WLC.txt                  → 001_GEN_033_001_WLC.txt  Target 001_GEN_033_001_WLC.txt already exists
+  [CONFLICT] 002_EXO_007_026_WLC.txt → 002_EXO_008_001_WLC.txt: target exists
+  [CONFLICT] 002_EXO_007_026_WLC.txt                  → 002_EXO_008_001_WLC.txt  Target 002_EXO_008_001_WLC.txt already exists
+  [CONFLICT] 002_EXO_007_027_WLC.txt → 002_EXO_008_002_WLC.txt: target exists
+  [CONFLICT] 002_EXO_007_027_WLC.txt                  → 002_EXO_008_002_WLC.txt  Target 002_EXO_008_002_WLC.txt already exists
+  [CONFLICT] 002_EXO_007_028_WLC.txt → 002_EXO_008_003_WLC.txt: target exists
+  [CONFLICT] 002_EXO_007_028_WLC.txt                  → 002_EXO_008_003_WLC.txt  Target 002_EXO_008_003_WLC.txt already exists
+  [CONFLICT] 002_EXO_007_029_WLC.txt → 002_EXO_008_004_WLC.txt: target exists
+  [CONFLICT] 002_EXO_007_029_WLC.txt                  → 002_EXO_008_004_WLC.txt  Target 002_EXO_008_004_WLC.txt already exists
+  [CONFLICT] 002_EXO_021_037_WLC.txt → 002_EXO_022_001_WLC.txt: target exists
+  [CONFLICT] 002_EXO_021_037_WLC.txt                  → 002_EXO_022_001_WLC.txt  Target 002_EXO_022_001_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_020_WLC.txt → 003_LEV_006_001_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_020_WLC.txt                  → 003_LEV_006_001_WLC.txt  Target 003_LEV_006_001_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_021_WLC.txt → 003_LEV_006_002_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_021_WLC.txt                  → 003_LEV_006_002_WLC.txt  Target 003_LEV_006_002_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_022_WLC.txt → 003_LEV_006_003_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_022_WLC.txt                  → 003_LEV_006_003_WLC.txt  Target 003_LEV_006_003_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_023_WLC.txt → 003_LEV_006_004_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_023_WLC.txt                  → 003_LEV_006_004_WLC.txt  Target 003_LEV_006_004_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_024_WLC.txt → 003_LEV_006_005_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_024_WLC.txt                  → 003_LEV_006_005_WLC.txt  Target 003_LEV_006_005_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_025_WLC.txt → 003_LEV_006_006_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_025_WLC.txt                  → 003_LEV_006_006_WLC.txt  Target 003_LEV_006_006_WLC.txt already exists
+  [CONFLICT] 003_LEV_005_026_WLC.txt → 003_LEV_006_007_WLC.txt: target exists
+  [CONFLICT] 003_LEV_005_026_WLC.txt                  → 003_LEV_006_007_WLC.txt  Target 003_LEV_006_007_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_014_WLC.txt → 004_NUM_018_001_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_014_WLC.txt                  → 004_NUM_018_001_WLC.txt  Target 004_NUM_018_001_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_015_WLC.txt → 004_NUM_018_002_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_015_WLC.txt                  → 004_NUM_018_002_WLC.txt  Target 004_NUM_018_002_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_016_WLC.txt → 004_NUM_018_003_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_016_WLC.txt                  → 004_NUM_018_003_WLC.txt  Target 004_NUM_018_003_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_017_WLC.txt → 004_NUM_018_004_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_017_WLC.txt                  → 004_NUM_018_004_WLC.txt  Target 004_NUM_018_004_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_018_WLC.txt → 004_NUM_018_005_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_018_WLC.txt                  → 004_NUM_018_005_WLC.txt  Target 004_NUM_018_005_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_019_WLC.txt → 004_NUM_018_006_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_019_WLC.txt                  → 004_NUM_018_006_WLC.txt  Target 004_NUM_018_006_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_020_WLC.txt → 004_NUM_018_007_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_020_WLC.txt                  → 004_NUM_018_007_WLC.txt  Target 004_NUM_018_007_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_021_WLC.txt → 004_NUM_018_008_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_021_WLC.txt                  → 004_NUM_018_008_WLC.txt  Target 004_NUM_018_008_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_022_WLC.txt → 004_NUM_018_009_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_022_WLC.txt                  → 004_NUM_018_009_WLC.txt  Target 004_NUM_018_009_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_023_WLC.txt → 004_NUM_018_010_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_023_WLC.txt                  → 004_NUM_018_010_WLC.txt  Target 004_NUM_018_010_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_024_WLC.txt → 004_NUM_018_011_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_024_WLC.txt                  → 004_NUM_018_011_WLC.txt  Target 004_NUM_018_011_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_025_WLC.txt → 004_NUM_018_012_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_025_WLC.txt                  → 004_NUM_018_012_WLC.txt  Target 004_NUM_018_012_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_026_WLC.txt → 004_NUM_018_013_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_026_WLC.txt                  → 004_NUM_018_013_WLC.txt  Target 004_NUM_018_013_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_027_WLC.txt → 004_NUM_018_014_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_027_WLC.txt                  → 004_NUM_018_014_WLC.txt  Target 004_NUM_018_014_WLC.txt already exists
+  [CONFLICT] 004_NUM_017_028_WLC.txt → 004_NUM_018_015_WLC.txt: target exists
+  [CONFLICT] 004_NUM_017_028_WLC.txt                  → 004_NUM_018_015_WLC.txt  Target 004_NUM_018_015_WLC.txt already exists
+  [CONFLICT] 004_NUM_025_019_WLC.txt → 004_NUM_026_001_WLC.txt: target exists
+  [CONFLICT] 004_NUM_025_019_WLC.txt                  → 004_NUM_026_001_WLC.txt  Target 004_NUM_026_001_WLC.txt already exists
+  [CONFLICT] 004_NUM_030_017_WLC.txt → 004_NUM_031_001_WLC.txt: target exists
+  [CONFLICT] 004_NUM_030_017_WLC.txt                  → 004_NUM_031_001_WLC.txt  Target 004_NUM_031_001_WLC.txt already exists
+  [CONFLICT] 005_DEU_013_019_WLC.txt → 005_DEU_014_001_WLC.txt: target exists
+  [CONFLICT] 005_DEU_013_019_WLC.txt                  → 005_DEU_014_001_WLC.txt  Target 005_DEU_014_001_WLC.txt already exists
+  [CONFLICT] 005_DEU_023_026_WLC.txt → 005_DEU_024_001_WLC.txt: target exists
+  [CONFLICT] 005_DEU_023_026_WLC.txt                  → 005_DEU_024_001_WLC.txt  Target 005_DEU_024_001_WLC.txt already exists
+  [CONFLICT] 005_DEU_028_069_WLC.txt → 005_DEU_029_001_WLC.txt: target exists
+  [CONFLICT] 005_DEU_028_069_WLC.txt                  → 005_DEU_029_001_WLC.txt  Target 005_DEU_029_001_WLC.txt already exists
+  [CONFLICT] 009_1SA_021_016_WLC.txt → 009_1SA_022_001_WLC.txt: target exists
+  [CONFLICT] 009_1SA_021_016_WLC.txt                  → 009_1SA_022_001_WLC.txt  Target 009_1SA_022_001_WLC.txt already exists
+  [CONFLICT] 009_1SA_024_023_WLC.txt → 009_1SA_025_001_WLC.txt: target exists
+  [CONFLICT] 009_1SA_024_023_WLC.txt                  → 009_1SA_025_001_WLC.txt  Target 009_1SA_025_001_WLC.txt already exists
+  [CONFLICT] 010_2SA_019_044_WLC.txt → 010_2SA_020_001_WLC.txt: target exists
+  [CONFLICT] 010_2SA_019_044_WLC.txt                  → 010_2SA_020_001_WLC.txt  Target 010_2SA_020_001_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_019_WLC.txt → 011_1KI_005_001_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_019_WLC.txt                  → 011_1KI_005_001_WLC.txt  Target 011_1KI_005_001_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_020_WLC.txt → 011_1KI_005_002_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_020_WLC.txt                  → 011_1KI_005_002_WLC.txt  Target 011_1KI_005_002_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_021_WLC.txt → 011_1KI_005_003_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_021_WLC.txt                  → 011_1KI_005_003_WLC.txt  Target 011_1KI_005_003_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_022_WLC.txt → 011_1KI_005_004_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_022_WLC.txt                  → 011_1KI_005_004_WLC.txt  Target 011_1KI_005_004_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_023_WLC.txt → 011_1KI_005_005_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_023_WLC.txt                  → 011_1KI_005_005_WLC.txt  Target 011_1KI_005_005_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_024_WLC.txt → 011_1KI_005_006_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_024_WLC.txt                  → 011_1KI_005_006_WLC.txt  Target 011_1KI_005_006_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_025_WLC.txt → 011_1KI_005_007_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_025_WLC.txt                  → 011_1KI_005_007_WLC.txt  Target 011_1KI_005_007_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_026_WLC.txt → 011_1KI_005_008_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_026_WLC.txt                  → 011_1KI_005_008_WLC.txt  Target 011_1KI_005_008_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_027_WLC.txt → 011_1KI_005_009_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_027_WLC.txt                  → 011_1KI_005_009_WLC.txt  Target 011_1KI_005_009_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_028_WLC.txt → 011_1KI_005_010_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_028_WLC.txt                  → 011_1KI_005_010_WLC.txt  Target 011_1KI_005_010_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_029_WLC.txt → 011_1KI_005_011_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_029_WLC.txt                  → 011_1KI_005_011_WLC.txt  Target 011_1KI_005_011_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_030_WLC.txt → 011_1KI_005_012_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_030_WLC.txt                  → 011_1KI_005_012_WLC.txt  Target 011_1KI_005_012_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_031_WLC.txt → 011_1KI_005_013_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_031_WLC.txt                  → 011_1KI_005_013_WLC.txt  Target 011_1KI_005_013_WLC.txt already exists
+  [CONFLICT] 011_1KI_005_032_WLC.txt → 011_1KI_005_014_WLC.txt: target exists
+  [CONFLICT] 011_1KI_005_032_WLC.txt                  → 011_1KI_005_014_WLC.txt  Target 011_1KI_005_014_WLC.txt already exists
+  [RENAME] 011_1KI_022_054_WLC.txt                  → 011_1KI_023_001_WLC.txt  
+  [CONFLICT] 012_2KI_012_022_WLC.txt → 012_2KI_013_001_WLC.txt: target exists
+  [CONFLICT] 012_2KI_012_022_WLC.txt                  → 012_2KI_013_001_WLC.txt  Target 012_2KI_013_001_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_027_WLC.txt → 013_1CH_006_001_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_027_WLC.txt                  → 013_1CH_006_001_WLC.txt  Target 013_1CH_006_001_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_028_WLC.txt → 013_1CH_006_002_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_028_WLC.txt                  → 013_1CH_006_002_WLC.txt  Target 013_1CH_006_002_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_029_WLC.txt → 013_1CH_006_003_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_029_WLC.txt                  → 013_1CH_006_003_WLC.txt  Target 013_1CH_006_003_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_030_WLC.txt → 013_1CH_006_004_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_030_WLC.txt                  → 013_1CH_006_004_WLC.txt  Target 013_1CH_006_004_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_031_WLC.txt → 013_1CH_006_005_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_031_WLC.txt                  → 013_1CH_006_005_WLC.txt  Target 013_1CH_006_005_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_032_WLC.txt → 013_1CH_006_006_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_032_WLC.txt                  → 013_1CH_006_006_WLC.txt  Target 013_1CH_006_006_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_033_WLC.txt → 013_1CH_006_007_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_033_WLC.txt                  → 013_1CH_006_007_WLC.txt  Target 013_1CH_006_007_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_034_WLC.txt → 013_1CH_006_008_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_034_WLC.txt                  → 013_1CH_006_008_WLC.txt  Target 013_1CH_006_008_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_035_WLC.txt → 013_1CH_006_009_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_035_WLC.txt                  → 013_1CH_006_009_WLC.txt  Target 013_1CH_006_009_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_036_WLC.txt → 013_1CH_006_010_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_036_WLC.txt                  → 013_1CH_006_010_WLC.txt  Target 013_1CH_006_010_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_037_WLC.txt → 013_1CH_006_011_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_037_WLC.txt                  → 013_1CH_006_011_WLC.txt  Target 013_1CH_006_011_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_038_WLC.txt → 013_1CH_006_012_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_038_WLC.txt                  → 013_1CH_006_012_WLC.txt  Target 013_1CH_006_012_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_039_WLC.txt → 013_1CH_006_013_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_039_WLC.txt                  → 013_1CH_006_013_WLC.txt  Target 013_1CH_006_013_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_040_WLC.txt → 013_1CH_006_014_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_040_WLC.txt                  → 013_1CH_006_014_WLC.txt  Target 013_1CH_006_014_WLC.txt already exists
+  [CONFLICT] 013_1CH_005_041_WLC.txt → 013_1CH_006_015_WLC.txt: target exists
+  [CONFLICT] 013_1CH_005_041_WLC.txt                  → 013_1CH_006_015_WLC.txt  Target 013_1CH_006_015_WLC.txt already exists
+  [CONFLICT] 013_1CH_012_041_WLC.txt → 013_1CH_013_001_WLC.txt: target exists
+  [CONFLICT] 013_1CH_012_041_WLC.txt                  → 013_1CH_013_001_WLC.txt  Target 013_1CH_013_001_WLC.txt already exists
+  [CONFLICT] 014_2CH_001_018_WLC.txt → 014_2CH_002_001_WLC.txt: target exists
+  [CONFLICT] 014_2CH_001_018_WLC.txt                  → 014_2CH_002_001_WLC.txt  Target 014_2CH_002_001_WLC.txt already exists
+  [CONFLICT] 014_2CH_013_023_WLC.txt → 014_2CH_014_001_WLC.txt: target exists
+  [CONFLICT] 014_2CH_013_023_WLC.txt                  → 014_2CH_014_001_WLC.txt  Target 014_2CH_014_001_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_033_WLC.txt → 016_NEH_004_001_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_033_WLC.txt                  → 016_NEH_004_001_WLC.txt  Target 016_NEH_004_001_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_034_WLC.txt → 016_NEH_004_002_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_034_WLC.txt                  → 016_NEH_004_002_WLC.txt  Target 016_NEH_004_002_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_035_WLC.txt → 016_NEH_004_003_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_035_WLC.txt                  → 016_NEH_004_003_WLC.txt  Target 016_NEH_004_003_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_036_WLC.txt → 016_NEH_004_004_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_036_WLC.txt                  → 016_NEH_004_004_WLC.txt  Target 016_NEH_004_004_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_037_WLC.txt → 016_NEH_004_005_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_037_WLC.txt                  → 016_NEH_004_005_WLC.txt  Target 016_NEH_004_005_WLC.txt already exists
+  [CONFLICT] 016_NEH_003_038_WLC.txt → 016_NEH_004_006_WLC.txt: target exists
+  [CONFLICT] 016_NEH_003_038_WLC.txt                  → 016_NEH_004_006_WLC.txt  Target 016_NEH_004_006_WLC.txt already exists
+  [CONFLICT] 016_NEH_010_040_WLC.txt → 016_NEH_011_001_WLC.txt: target exists
+  [CONFLICT] 016_NEH_010_040_WLC.txt                  → 016_NEH_011_001_WLC.txt  Target 016_NEH_011_001_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_025_WLC.txt → 018_JOB_041_001_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_025_WLC.txt                  → 018_JOB_041_001_WLC.txt  Target 018_JOB_041_001_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_026_WLC.txt → 018_JOB_041_002_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_026_WLC.txt                  → 018_JOB_041_002_WLC.txt  Target 018_JOB_041_002_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_027_WLC.txt → 018_JOB_041_003_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_027_WLC.txt                  → 018_JOB_041_003_WLC.txt  Target 018_JOB_041_003_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_028_WLC.txt → 018_JOB_041_004_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_028_WLC.txt                  → 018_JOB_041_004_WLC.txt  Target 018_JOB_041_004_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_029_WLC.txt → 018_JOB_041_005_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_029_WLC.txt                  → 018_JOB_041_005_WLC.txt  Target 018_JOB_041_005_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_030_WLC.txt → 018_JOB_041_006_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_030_WLC.txt                  → 018_JOB_041_006_WLC.txt  Target 018_JOB_041_006_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_031_WLC.txt → 018_JOB_041_007_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_031_WLC.txt                  → 018_JOB_041_007_WLC.txt  Target 018_JOB_041_007_WLC.txt already exists
+  [CONFLICT] 018_JOB_040_032_WLC.txt → 018_JOB_041_008_WLC.txt: target exists
+  [CONFLICT] 018_JOB_040_032_WLC.txt                  → 018_JOB_041_008_WLC.txt  Target 018_JOB_041_008_WLC.txt already exists
+  [CONFLICT] 021_ECC_004_017_WLC.txt → 021_ECC_005_001_WLC.txt: target exists
+  [CONFLICT] 021_ECC_004_017_WLC.txt                  → 021_ECC_005_001_WLC.txt  Target 021_ECC_005_001_WLC.txt already exists
+  [CONFLICT] 022_SNG_007_014_WLC.txt → 022_SNG_008_001_WLC.txt: target exists
+  [CONFLICT] 022_SNG_007_014_WLC.txt                  → 022_SNG_008_001_WLC.txt  Target 022_SNG_008_001_WLC.txt already exists
+  [CONFLICT] 023_ISA_008_023_WLC.txt → 023_ISA_009_001_WLC.txt: target exists
+  [CONFLICT] 023_ISA_008_023_WLC.txt                  → 023_ISA_009_001_WLC.txt  Target 023_ISA_009_001_WLC.txt already exists
+  [CONFLICT] 024_JER_008_023_WLC.txt → 024_JER_009_001_WLC.txt: target exists
+  [CONFLICT] 024_JER_008_023_WLC.txt                  → 024_JER_009_001_WLC.txt  Target 024_JER_009_001_WLC.txt already exists
+  [CONFLICT] 026_EZK_021_033_WLC.txt → 026_EZK_022_001_WLC.txt: target exists
+  [CONFLICT] 026_EZK_021_033_WLC.txt                  → 026_EZK_022_001_WLC.txt  Target 026_EZK_022_001_WLC.txt already exists
+  [CONFLICT] 026_EZK_021_034_WLC.txt → 026_EZK_022_002_WLC.txt: target exists
+  [CONFLICT] 026_EZK_021_034_WLC.txt                  → 026_EZK_022_002_WLC.txt  Target 026_EZK_022_002_WLC.txt already exists
+  [CONFLICT] 026_EZK_021_035_WLC.txt → 026_EZK_022_003_WLC.txt: target exists
+  [CONFLICT] 026_EZK_021_035_WLC.txt                  → 026_EZK_022_003_WLC.txt  Target 026_EZK_022_003_WLC.txt already exists
+  [CONFLICT] 026_EZK_021_036_WLC.txt → 026_EZK_022_004_WLC.txt: target exists
+  [CONFLICT] 026_EZK_021_036_WLC.txt                  → 026_EZK_022_004_WLC.txt  Target 026_EZK_022_004_WLC.txt already exists
+  [CONFLICT] 026_EZK_021_037_WLC.txt → 026_EZK_022_005_WLC.txt: target exists
+  [CONFLICT] 026_EZK_021_037_WLC.txt                  → 026_EZK_022_005_WLC.txt  Target 026_EZK_022_005_WLC.txt already exists
+  [CONFLICT] 027_DAN_003_031_WLC.txt → 027_DAN_004_001_WLC.txt: target exists
+  [CONFLICT] 027_DAN_003_031_WLC.txt                  → 027_DAN_004_001_WLC.txt  Target 027_DAN_004_001_WLC.txt already exists
+  [CONFLICT] 027_DAN_003_032_WLC.txt → 027_DAN_004_002_WLC.txt: target exists
+  [CONFLICT] 027_DAN_003_032_WLC.txt                  → 027_DAN_004_002_WLC.txt  Target 027_DAN_004_002_WLC.txt already exists
+  [CONFLICT] 027_DAN_003_033_WLC.txt → 027_DAN_004_003_WLC.txt: target exists
+  [CONFLICT] 027_DAN_003_033_WLC.txt                  → 027_DAN_004_003_WLC.txt  Target 027_DAN_004_003_WLC.txt already exists
+  [CONFLICT] 027_DAN_006_029_WLC.txt → 027_DAN_007_001_WLC.txt: target exists
+  [CONFLICT] 027_DAN_006_029_WLC.txt                  → 027_DAN_007_001_WLC.txt  Target 027_DAN_007_001_WLC.txt already exists
+  [CONFLICT] 028_HOS_002_024_WLC.txt → 028_HOS_003_001_WLC.txt: target exists
+  [CONFLICT] 028_HOS_002_024_WLC.txt                  → 028_HOS_003_001_WLC.txt  Target 028_HOS_003_001_WLC.txt already exists
+  [CONFLICT] 028_HOS_002_025_WLC.txt → 028_HOS_003_002_WLC.txt: target exists
+  [CONFLICT] 028_HOS_002_025_WLC.txt                  → 028_HOS_003_002_WLC.txt  Target 028_HOS_003_002_WLC.txt already exists
+  [CONFLICT] 028_HOS_012_015_WLC.txt → 028_HOS_013_001_WLC.txt: target exists
+  [CONFLICT] 028_HOS_012_015_WLC.txt                  → 028_HOS_013_001_WLC.txt  Target 028_HOS_013_001_WLC.txt already exists
+  [CONFLICT] 028_HOS_014_010_WLC.txt → 028_HOS_014_009_WLC.txt: target exists
+  [CONFLICT] 028_HOS_014_010_WLC.txt                  → 028_HOS_014_009_WLC.txt  Target 028_HOS_014_009_WLC.txt already exists
+  [CONFLICT] 029_JOL_004_001_WLC.txt → 029_JOL_003_001_WLC.txt: target exists
+  [CONFLICT] 029_JOL_004_001_WLC.txt                  → 029_JOL_003_001_WLC.txt  Target 029_JOL_003_001_WLC.txt already exists
+  [CONFLICT] 029_JOL_004_002_WLC.txt → 029_JOL_003_002_WLC.txt: target exists
+  [CONFLICT] 029_JOL_004_002_WLC.txt                  → 029_JOL_003_002_WLC.txt  Target 029_JOL_003_002_WLC.txt already exists
+  [CONFLICT] 029_JOL_004_003_WLC.txt → 029_JOL_003_003_WLC.txt: target exists
+  [CONFLICT] 029_JOL_004_003_WLC.txt                  → 029_JOL_003_003_WLC.txt  Target 029_JOL_003_003_WLC.txt already exists
+  [CONFLICT] 029_JOL_004_004_WLC.txt → 029_JOL_003_004_WLC.txt: target exists
+  [CONFLICT] 029_JOL_004_004_WLC.txt                  → 029_JOL_003_004_WLC.txt  Target 029_JOL_003_004_WLC.txt already exists
+  [CONFLICT] 029_JOL_004_005_WLC.txt → 029_JOL_003_005_WLC.txt: target exists
+  [CONFLICT] 029_JOL_004_005_WLC.txt                  → 029_JOL_003_005_WLC.txt  Target 029_JOL_003_005_WLC.txt already exists
+  [RENAME] 029_JOL_004_006_WLC.txt                  → 029_JOL_003_006_WLC.txt  
+  [RENAME] 029_JOL_004_007_WLC.txt                  → 029_JOL_003_007_WLC.txt  
+  [RENAME] 029_JOL_004_008_WLC.txt                  → 029_JOL_003_008_WLC.txt  
+  [RENAME] 029_JOL_004_009_WLC.txt                  → 029_JOL_003_009_WLC.txt  
+  [RENAME] 029_JOL_004_010_WLC.txt                  → 029_JOL_003_010_WLC.txt  
+  [RENAME] 029_JOL_004_011_WLC.txt                  → 029_JOL_003_011_WLC.txt  
+  [RENAME] 029_JOL_004_012_WLC.txt                  → 029_JOL_003_012_WLC.txt  
+  [RENAME] 029_JOL_004_013_WLC.txt                  → 029_JOL_003_013_WLC.txt  
+  [RENAME] 029_JOL_004_014_WLC.txt                  → 029_JOL_003_014_WLC.txt  
+  [RENAME] 029_JOL_004_015_WLC.txt                  → 029_JOL_003_015_WLC.txt  
+  [RENAME] 029_JOL_004_016_WLC.txt                  → 029_JOL_003_016_WLC.txt  
+  [RENAME] 029_JOL_004_017_WLC.txt                  → 029_JOL_003_017_WLC.txt  
+  [RENAME] 029_JOL_004_018_WLC.txt                  → 029_JOL_003_018_WLC.txt  
+  [RENAME] 029_JOL_004_019_WLC.txt                  → 029_JOL_003_019_WLC.txt  
+  [RENAME] 029_JOL_004_020_WLC.txt                  → 029_JOL_003_020_WLC.txt  
+  [RENAME] 029_JOL_004_021_WLC.txt                  → 029_JOL_003_021_WLC.txt  
+  [CONFLICT] 032_JON_002_011_WLC.txt → 032_JON_002_010_WLC.txt: target exists
+  [CONFLICT] 032_JON_002_011_WLC.txt                  → 032_JON_002_010_WLC.txt  Target 032_JON_002_010_WLC.txt already exists
+  [CONFLICT] 033_MIC_004_014_WLC.txt → 033_MIC_005_001_WLC.txt: target exists
+  [CONFLICT] 033_MIC_004_014_WLC.txt                  → 033_MIC_005_001_WLC.txt  Target 033_MIC_005_001_WLC.txt already exists
+  [CONFLICT] 034_NAM_002_014_WLC.txt → 034_NAM_002_013_WLC.txt: target exists
+  [CONFLICT] 034_NAM_002_014_WLC.txt                  → 034_NAM_002_013_WLC.txt  Target 034_NAM_002_013_WLC.txt already exists
+  [CONFLICT] 038_ZEC_002_014_WLC.txt → 038_ZEC_003_001_WLC.txt: target exists
+  [CONFLICT] 038_ZEC_002_014_WLC.txt                  → 038_ZEC_003_001_WLC.txt  Target 038_ZEC_003_001_WLC.txt already exists
+  [CONFLICT] 038_ZEC_002_015_WLC.txt → 038_ZEC_003_002_WLC.txt: target exists
+  [CONFLICT] 038_ZEC_002_015_WLC.txt                  → 038_ZEC_003_002_WLC.txt  Target 038_ZEC_003_002_WLC.txt already exists
+  [CONFLICT] 038_ZEC_002_016_WLC.txt → 038_ZEC_003_003_WLC.txt: target exists
+  [CONFLICT] 038_ZEC_002_016_WLC.txt                  → 038_ZEC_003_003_WLC.txt  Target 038_ZEC_003_003_WLC.txt already exists
+  [CONFLICT] 038_ZEC_002_017_WLC.txt → 038_ZEC_003_004_WLC.txt: target exists
+  [CONFLICT] 038_ZEC_002_017_WLC.txt                  → 038_ZEC_003_004_WLC.txt  Target 038_ZEC_003_004_WLC.txt already exists
+  [RENAME] 039_MAL_003_019_WLC.txt                  → 039_MAL_004_001_WLC.txt  
+  [RENAME] 039_MAL_003_020_WLC.txt                  → 039_MAL_004_002_WLC.txt  
+  [RENAME] 039_MAL_003_021_WLC.txt                  → 039_MAL_004_003_WLC.txt  
+  [RENAME] 039_MAL_003_022_WLC.txt                  → 039_MAL_004_004_WLC.txt  
+  [RENAME] 039_MAL_003_023_WLC.txt                  → 039_MAL_004_005_WLC.txt  
+  [RENAME] 039_MAL_003_024_WLC.txt                  → 039_MAL_004_006_WLC.txt  
+
+============================================================
+  SUMMARY (DRY RUN)
+    Remapped    : 23
+    Skipped     : 23077  (aligned or PSA superscription)
+    Conflicts   : 113
+    Errors      : 0
+    Forensics   : /home/albert/projects/bible/remap_wlc_forensics_20260517_165632.csv
+============================================================
+
+  ⚠ Resolve conflicts before running --apply
+  Run with --apply to execute

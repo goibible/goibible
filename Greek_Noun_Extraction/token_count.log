@@ -1,0 +1,30 @@
+
+Starting processing of 7957 verses...
+
+[1/7957] 040_MAT_001_001_TR1550.txt
+TOKENS | prompt=212 completion=280 total=492
+[2/7957] 040_MAT_001_002_TR1550.txt
+TOKENS | prompt=259 completion=187 total=446
+[3/7957] 040_MAT_001_003_TR1550.txt
+TOKENS | prompt=259 completion=265 total=524
+[4/7957] 040_MAT_001_004_TR1550.txt
+TOKENS | prompt=249 completion=152 total=401
+[5/7957] 040_MAT_001_005_TR1550.txt
+TOKENS | prompt=259 completion=345 total=604
+[6/7957] 040_MAT_001_006_TR1550.txt
+TOKENS | prompt=252 completion=232 total=484
+[7/7957] 040_MAT_001_007_TR1550.txt
+TOKENS | prompt=241 completion=183 total=424
+[8/7957] 040_MAT_001_008_TR1550.txt
+TOKENS | prompt=246 completion=191 total=437
+[9/7957] 040_MAT_001_009_TR1550.txt
+TOKENS | prompt=243 completion=187 total=430
+[10/7957] 040_MAT_001_010_TR1550.txt
+TOKENS | prompt=246 completion=191 total=437
+[11/7957] 040_MAT_001_011_TR1550.txt
+TOKENS | prompt=238 completion=201 total=439
+[12/7957] 040_MAT_001_012_TR1550.txt
+TOKENS | prompt=257 completion=209 total=466
+[13/7957] 040_MAT_001_013_TR1550.txt
+TOKENS | prompt=248 completion=195 total=443
+[14/7957] 040_MAT_001_014_TR1550.txt
