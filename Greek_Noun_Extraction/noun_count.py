@@ -71,6 +71,27 @@ def normalize_text(text):
     return unicodedata.normalize("NFC", text.strip())
 
 
+def is_pure_greek(text):
+    for ch in text:
+        if ch == ' ':
+            continue
+        block = unicodedata.name(ch, '').split()[0]
+        if block not in ('GREEK', 'COMBINING'):
+            return False
+    return True
+
+
+def strip_diacritics(text):
+    """Remove combining diacritics and normalize sigma variants for token matching.
+
+    Source text uses final sigma (ς U+03C2); models often emit medial sigma (σ U+03C3).
+    Normalizing both sides to medial sigma makes lookup sigma-agnostic.
+    """
+    nfd = unicodedata.normalize('NFD', text)
+    stripped = ''.join(c for c in nfd if unicodedata.category(c) != 'Mn')
+    return stripped.replace('ς', 'σ')  # ς → σ
+
+
 def tokenize(text):
     text = re.sub(r"[·.,;:!?\"'«»()\[\]]", "", text)
     return text.split()
@@ -90,12 +111,15 @@ def call_llm(verse_text):
 
 Rules:
 - Return ONLY single-token nouns.
-- The surface_form must be the EXACT token as it appears in the verse text.
-- Do NOT return lemma stems — surface_form must be the exact token as it appears in the verse text.
+- The surface_form must be the EXACT token as it appears in the verse text — copy it character by character.
+- The verse text is unaccented. Do NOT add accent marks to surface_form.
+- Do NOT return inflected stems or lemma forms — return the exact inflected token (e.g. "γην" not "γη", "καιρον" not "καιρος").
+- Do NOT split compound words — if the token is "ψευδοπροφηται", return that full token, not "προφηται".
 - Do NOT include articles (τον, τους, τη, etc.).
 - Do NOT combine multiple tokens.
 - If a noun appears with an article, return only the noun token.
 - If uncertain, omit the token.
+- Use only Unicode Greek characters. Never use Latin characters a-z in surface_form or lemma.
 
 Examples of correct surface→lemma mapping (surface_form copied verbatim from verse, lemma is dictionary form):
 - Token "γη" in verse  → {{"surface_form": "γη",       "lemma": "γῆ",        "category": "PLACE",  "confidence": 0.95}}
@@ -295,9 +319,11 @@ def get_category_id(conn, category_code):
         WHERE category_code = ?
     """, (category_code,))
     row = cur.fetchone()
-    if not row:
-        raise ValueError(f"Unknown noun category: {category_code}")
-    return row[0]
+    if row:
+        return row[0]
+    error_logger.error(f"Unknown category '{category_code}' — falling back to OTHER")
+    cur.execute("SELECT category_id FROM noun_categories WHERE category_code = 'OTHER'")
+    return cur.fetchone()[0]
 
 
 def verse_is_processed(conn, verse_id, version_id):
@@ -391,7 +417,7 @@ def export_verse_counts(path):
 # MAIN PROCESS
 # ------------------------------------------------------------
 
-def process_all(dry_run=False, start_from=None, skip_processed=False):
+def process_all(dry_run=False, start_from=None, skip_processed=False, files_filter=None, rerun_errors=False):
     start_time = datetime.now()
 
     conn = sqlite3.connect(DB_PATH)
@@ -404,6 +430,21 @@ def process_all(dry_run=False, start_from=None, skip_processed=False):
     if start_from:
         files = [f for f in files if f.name >= start_from]
         print(f"Resuming from {start_from} ({len(files)} files remaining)")
+
+    if rerun_errors:
+        error_files = set()
+        with open(ERROR_LOG, 'r') as f:
+            for line in f:
+                match = re.search(r'Error processing (\S+):', line)
+                if match:
+                    error_files.add(match.group(1))
+        files = [f for f in files if f.name in error_files]
+        print(f"Rerunning {len(files)} files from error.log")
+
+    if files_filter:
+        files = [f for f in files if f.name in files_filter]
+
+    insert_mode = "INSERT OR REPLACE"
 
     total_files = len(files)
 
@@ -443,7 +484,8 @@ def process_all(dry_run=False, start_from=None, skip_processed=False):
             tokens = tokenize(verse_text)
             token_positions = {}
             for i, token in enumerate(tokens):
-                token_positions.setdefault(token, []).append(i)
+                key = strip_diacritics(token)
+                token_positions.setdefault(key, []).append(i)
 
             llm_data, prompt_tokens, completion_tokens, verse_total_tokens = call_llm(verse_text)
 
@@ -458,6 +500,14 @@ def process_all(dry_run=False, start_from=None, skip_processed=False):
                 lemma = normalize_text(str(noun.get("lemma", surface)))
                 category = str(noun["category"]).strip().upper()
                 confidence = float(noun["confidence"])
+
+                if not is_pure_greek(surface):
+                    error_logger.error(f"Mixed-script surface in {file_path.name}: {surface!r}")
+                    total_errors += 1
+                    continue
+
+                # Source text is unaccented; strip any accents the model added
+                surface = strip_diacritics(surface)
 
                 if surface not in token_positions or not token_positions[surface]:
                     error_logger.error(f"Hallucinated token in {file_path.name}: {surface}")
@@ -475,8 +525,8 @@ def process_all(dry_run=False, start_from=None, skip_processed=False):
                 category_id = get_category_id(conn, category)
                 token_index = token_positions[surface].pop(0)
 
-                conn.execute("""
-                    INSERT OR IGNORE INTO verse_noun_occurrences
+                conn.execute(f"""
+                    {insert_mode} INTO verse_noun_occurrences
                     (verse_id, version_id, noun_id,
                      surface_form, category_id,
                      token_index, confidence, needs_review)
@@ -565,6 +615,17 @@ if __name__ == "__main__":
         const="verse_counts_export.tsv",
         help="Export per-verse noun count TSV (default: verse_counts_export.tsv; use - for stdout)"
     )
+    parser.add_argument(
+        "--files",
+        nargs="+",
+        metavar="FILENAME",
+        help="Process only these specific verse files"
+    )
+    parser.add_argument(
+        "--rerun-errors",
+        action="store_true",
+        help="Reprocess all files that appear in error.log"
+    )
     args = parser.parse_args()
 
     if args.export_nouns:
@@ -576,4 +637,6 @@ if __name__ == "__main__":
             dry_run=args.dry_run,
             start_from=args.start_from,
             skip_processed=args.skip_processed,
+            files_filter=args.files,
+            rerun_errors=args.rerun_errors,
         )

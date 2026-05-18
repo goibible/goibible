@@ -1,0 +1,226 @@
+nohup: ignoring input
+
+Starting processing of 7957 verses...
+
+[1/7957] 040_MAT_001_001_TR1550.txt
+TOKENS | prompt=419 completion=245 total=664
+[2/7957] 040_MAT_001_002_TR1550.txt
+TOKENS | prompt=441 completion=169 total=610
+[3/7957] 040_MAT_001_003_TR1550.txt
+TOKENS | prompt=437 completion=240 total=677
+[4/7957] 040_MAT_001_004_TR1550.txt
+TOKENS | prompt=433 completion=169 total=602
+[5/7957] 040_MAT_001_005_TR1550.txt
+TOKENS | prompt=441 completion=132 total=573
+[6/7957] 040_MAT_001_006_TR1550.txt
+TOKENS | prompt=436 completion=168 total=604
+[7/7957] 040_MAT_001_007_TR1550.txt
+TOKENS | prompt=431 completion=167 total=598
+[8/7957] 040_MAT_001_008_TR1550.txt
+TOKENS | prompt=434 completion=133 total=567
+[9/7957] 040_MAT_001_009_TR1550.txt
+TOKENS | prompt=438 completion=173 total=611
+[10/7957] 040_MAT_001_010_TR1550.txt
+TOKENS | prompt=433 completion=170 total=603
+[11/7957] 040_MAT_001_011_TR1550.txt
+TOKENS | prompt=428 completion=131 total=559
+[12/7957] 040_MAT_001_012_TR1550.txt
+TOKENS | prompt=437 completion=178 total=615
+[13/7957] 040_MAT_001_013_TR1550.txt
+TOKENS | prompt=438 completion=175 total=613
+[14/7957] 040_MAT_001_014_TR1550.txt
+TOKENS | prompt=433 completion=169 total=602
+[15/7957] 040_MAT_001_015_TR1550.txt
+TOKENS | prompt=434 completion=173 total=607
+[16/7957] 040_MAT_001_016_TR1550.txt
+TOKENS | prompt=431 completion=167 total=598
+[17/7957] 040_MAT_001_017_TR1550.txt
+TOKENS | prompt=469 completion=251 total=720
+[18/7957] 040_MAT_001_018_TR1550.txt
+TOKENS | prompt=449 completion=126 total=575
+[19/7957] 040_MAT_001_019_TR1550.txt
+TOKENS | prompt=434 completion=411 total=845
+[20/7957] 040_MAT_001_020_TR1550.txt
+TOKENS | prompt=465 completion=203 total=668
+[21/7957] 040_MAT_001_021_TR1550.txt
+TOKENS | prompt=433 completion=87 total=520
+[22/7957] 040_MAT_001_022_TR1550.txt
+TOKENS | prompt=426 completion=88 total=514
+[23/7957] 040_MAT_001_023_TR1550.txt
+TOKENS | prompt=442 completion=167 total=609
+[24/7957] 040_MAT_001_024_TR1550.txt
+TOKENS | prompt=437 completion=89 total=526
+[25/7957] 040_MAT_001_025_TR1550.txt
+TOKENS | prompt=436 completion=166 total=602
+[26/7957] 040_MAT_002_001_TR1550.txt
+TOKENS | prompt=443 completion=97 total=540
+[27/7957] 040_MAT_002_002_TR1550.txt
+TOKENS | prompt=441 completion=134 total=575
+[28/7957] 040_MAT_002_003_TR1550.txt
+TOKENS | prompt=422 completion=94 total=516
+[29/7957] 040_MAT_002_004_TR1550.txt
+TOKENS | prompt=431 completion=87 total=518
+[30/7957] 040_MAT_002_005_TR1550.txt
+TOKENS | prompt=430 completion=93 total=523
+[31/7957] 040_MAT_002_006_TR1550.txt
+TOKENS | prompt=447 completion=126 total=573
+[32/7957] 040_MAT_002_007_TR1550.txt
+TOKENS | prompt=426 completion=92 total=518
+[33/7957] 040_MAT_002_008_TR1550.txt
+TOKENS | prompt=449 completion=91 total=540
+[34/7957] 040_MAT_002_009_TR1550.txt
+TOKENS | prompt=442 completion=126 total=568
+[35/7957] 040_MAT_002_010_TR1550.txt
+TOKENS | prompt=415 completion=86 total=501
+[36/7957] 040_MAT_002_011_TR1550.txt
+TOKENS | prompt=459 completion=162 total=621
+[37/7957] 040_MAT_002_012_TR1550.txt
+TOKENS | prompt=432 completion=127 total=559
+[38/7957] 040_MAT_002_013_TR1550.txt
+TOKENS | prompt=476 completion=210 total=686
+[39/7957] 040_MAT_002_014_TR1550.txt
+TOKENS | prompt=429 completion=129 total=558
+[40/7957] 040_MAT_002_015_TR1550.txt
+TOKENS | prompt=443 completion=170 total=613
+[41/7957] 040_MAT_002_016_TR1550.txt
+TOKENS | prompt=468 completion=90 total=558
+[42/7957] 040_MAT_002_017_TR1550.txt
+TOKENS | prompt=420 completion=128 total=548
+[43/7957] 040_MAT_002_018_TR1550.txt
+TOKENS | prompt=448 completion=91 total=539
+[44/7957] 040_MAT_002_019_TR1550.txt
+TOKENS | prompt=430 completion=94 total=524
+[45/7957] 040_MAT_002_020_TR1550.txt
+TOKENS | prompt=442 completion=126 total=568
+[46/7957] 040_MAT_002_021_TR1550.txt
+TOKENS | prompt=426 completion=126 total=552
+[47/7957] 040_MAT_002_022_TR1550.txt
+TOKENS | prompt=456 completion=290 total=746
+[48/7957] 040_MAT_002_023_TR1550.txt
+TOKENS | prompt=436 completion=90 total=526
+[49/7957] 040_MAT_003_001_TR1550.txt
+TOKENS | prompt=436 completion=170 total=606
+[50/7957] 040_MAT_003_002_TR1550.txt
+TOKENS | prompt=419 completion=48 total=467
+[51/7957] 040_MAT_003_003_TR1550.txt
+TOKENS | prompt=447 completion=205 total=652
+[52/7957] 040_MAT_003_004_TR1550.txt
+TOKENS | prompt=449 completion=400 total=849
+[53/7957] 040_MAT_003_005_TR1550.txt
+TOKENS | prompt=431 completion=175 total=606
+[54/7957] 040_MAT_003_006_TR1550.txt
+TOKENS | prompt=426 completion=91 total=517
+[55/7957] 040_MAT_003_007_TR1550.txt
+TOKENS | prompt=452 completion=179 total=631
+[56/7957] 040_MAT_003_008_TR1550.txt
+TOKENS | prompt=411 completion=85 total=496
+[57/7957] 040_MAT_003_009_TR1550.txt
+TOKENS | prompt=448 completion=90 total=538
+[58/7957] 040_MAT_003_010_TR1550.txt
+TOKENS | prompt=438 completion=160 total=598
+[59/7957] 040_MAT_003_011_TR1550.txt
+TOKENS | prompt=459 completion=162 total=621
+[60/7957] 040_MAT_003_012_TR1550.txt
+TOKENS | prompt=449 completion=163 total=612
+[61/7957] 040_MAT_003_013_TR1550.txt
+TOKENS | prompt=436 completion=173 total=609
+[62/7957] 040_MAT_003_014_TR1550.txt
+TOKENS | prompt=430 completion=240 total=670
+[63/7957] 040_MAT_003_015_TR1550.txt
+TOKENS | prompt=439 completion=51 total=490
+[64/7957] 040_MAT_003_016_TR1550.txt
+TOKENS | prompt=455 completion=127 total=582
+[65/7957] 040_MAT_003_017_TR1550.txt
+TOKENS | prompt=428 completion=167 total=595
+[66/7957] 040_MAT_004_001_TR1550.txt
+TOKENS | prompt=425 completion=127 total=552
+[67/7957] 040_MAT_004_002_TR1550.txt
+TOKENS | prompt=423 completion=86 total=509
+[68/7957] 040_MAT_004_003_TR1550.txt
+TOKENS | prompt=430 completion=86 total=516
+[69/7957] 040_MAT_004_004_TR1550.txt
+TOKENS | prompt=437 completion=89 total=526
+[70/7957] 040_MAT_004_005_TR1550.txt
+TOKENS | prompt=430 completion=131 total=561
+[71/7957] 040_MAT_004_006_TR1550.txt
+TOKENS | prompt=455 completion=200 total=655
+[72/7957] 040_MAT_004_007_TR1550.txt
+TOKENS | prompt=424 completion=87 total=511
+[73/7957] 040_MAT_004_008_TR1550.txt
+TOKENS | prompt=438 completion=88 total=526
+[74/7957] 040_MAT_004_009_TR1550.txt
+TOKENS | prompt=420 completion=311 total=731
+[75/7957] 040_MAT_004_010_TR1550.txt
+TOKENS | prompt=438 completion=87 total=525
+[76/7957] 040_MAT_004_011_TR1550.txt
+TOKENS | prompt=426 completion=88 total=514
+[77/7957] 040_MAT_004_012_TR1550.txt
+TOKENS | prompt=425 completion=91 total=516
+[78/7957] 040_MAT_004_013_TR1550.txt
+TOKENS | prompt=435 completion=189 total=624
+[79/7957] 040_MAT_004_014_TR1550.txt
+TOKENS | prompt=418 completion=127 total=545
+[80/7957] 040_MAT_004_015_TR1550.txt
+TOKENS | prompt=427 completion=323 total=750
+[81/7957] 040_MAT_004_016_TR1550.txt
+TOKENS | prompt=431 completion=197 total=628
+[82/7957] 040_MAT_004_017_TR1550.txt
+TOKENS | prompt=434 completion=48 total=482
+[83/7957] 040_MAT_004_018_TR1550.txt
+TOKENS | prompt=457 completion=207 total=664
+[84/7957] 040_MAT_004_019_TR1550.txt
+TOKENS | prompt=419 completion=51 total=470
+[85/7957] 040_MAT_004_020_TR1550.txt
+TOKENS | prompt=415 completion=86 total=501
+[86/7957] 040_MAT_004_021_TR1550.txt
+TOKENS | prompt=464 completion=210 total=674
+[87/7957] 040_MAT_004_022_TR1550.txt
+TOKENS | prompt=422 completion=87 total=509
+[88/7957] 040_MAT_004_023_TR1550.txt
+TOKENS | prompt=453 completion=121 total=574
+[89/7957] 040_MAT_004_024_TR1550.txt
+TOKENS | prompt=465 completion=247 total=712
+[90/7957] 040_MAT_004_025_TR1550.txt
+TOKENS | prompt=439 completion=258 total=697
+[91/7957] 040_MAT_005_001_TR1550.txt
+TOKENS | prompt=430 completion=128 total=558
+[92/7957] 040_MAT_005_002_TR1550.txt
+TOKENS | prompt=416 completion=85 total=501
+[93/7957] 040_MAT_005_003_TR1550.txt
+TOKENS | prompt=420 completion=124 total=544
+[94/7957] 040_MAT_005_004_TR1550.txt
+TOKENS | prompt=415 completion=168 total=583
+[95/7957] 040_MAT_005_005_TR1550.txt
+TOKENS | prompt=417 completion=47 total=464
+[96/7957] 040_MAT_005_006_TR1550.txt
+TOKENS | prompt=424 completion=51 total=475
+[97/7957] 040_MAT_005_007_TR1550.txt
+TOKENS | prompt=0 completion=0 total=0
+
+--- BAD RAW OUTPUT ---
+{
+  "nouns": [
+    {
+      "surface_form": "μακαριοι",
+      "lemma": "μακάριος",
+      "category": "OTHER",
+      "confidence": 0.95
+    },
+    {
+      "surface_form": "ελεημονες",
+      "lemma": "ἐλεήμων",
+      "category": "PERSON",
+      "confidence": 0.95
+    },
+    {
+      "surface_form": "αυτοι",
+      "lemma": "αὐτός",
+      "category": "OTHER", 	"  <!-- omit article -->  <!-- only noun ":" -->"
+      },
+    {
+      "surface_form": "ελεηθησονται",
+      "lemma": "ἐλεηθήσομαι",
+      "category": "OTHER", 	"  <!-- verb form, not noun -->  <!-- omit verb forms -->  <!-- only nouns with article omitted -->  ":
+    {
+  }
+}

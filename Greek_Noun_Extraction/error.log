@@ -53,3 +53,114 @@
 2026-05-17 17:11:12,351 | ERROR | Hallucinated token in 055_2TI_003_007_TR1550.txt: αλήθειας
 2026-05-17 17:11:44,780 | ERROR | Hallucinated token in 058_HEB_011_015_TR1550.txt: καιρος
 2026-05-17 17:12:06,504 | ERROR | Error processing 066_REV_002_005_TR1550.txt: Unknown noun category: OBJECT
+2026-05-17 17:35:27,530 | ERROR | Error processing 041_MRK_006_037_TR1550.txt: Unknown noun category: MONEY
+2026-05-17 17:35:37,755 | ERROR | Hallucinated token in 044_ACT_013_003_TR1550.txt: νηστευσιν
+2026-05-17 17:35:43,207 | ERROR | Error processing 044_ACT_021_040_TR1550.txt: Unknown noun category: PEOPLE
+2026-05-17 17:37:48,548 | ERROR | Hallucinated token in 044_ACT_013_003_TR1550.txt: νηστευσιν
+2026-05-17 17:44:39,901 | ERROR | Hallucinated token in 040_MAT_024_011_TR1550.txt: προφηται
+2026-05-17 17:44:42,064 | ERROR | Hallucinated token in 041_MRK_004_008_TR1550.txt: γη
+2026-05-17 17:44:45,753 | ERROR | Hallucinated token in 041_MRK_014_035_TR1550.txt: ωρας
+2026-05-17 17:44:53,167 | ERROR | Hallucinated token in 046_1CO_004_012_TR1550.txt: χειρεσιν
+2026-05-17 17:44:55,430 | ERROR | Hallucinated token in 055_2TI_003_007_TR1550.txt: αλήθειας
+2026-05-17 17:44:57,593 | ERROR | Hallucinated token in 058_HEB_011_015_TR1550.txt: καιρος
+2026-05-17 17:45:19,179 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: πεινασα
+2026-05-17 17:45:19,179 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: διψησα
+2026-05-17 17:45:19,179 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: ξενοσ
+2026-05-17 17:45:21,482 | ERROR | Hallucinated token in 041_MRK_015_023_TR1550.txt: οινon
+2026-05-17 17:45:28,819 | ERROR | Hallucinated token in 045_ROM_001_031_TR1550.txt: ασθετους
+2026-05-17 17:45:31,130 | ERROR | Hallucinated token in 047_2CO_006_009_TR1550.txt: παιδεuoμενοι
+2026-05-17 17:53:51,931 | ERROR | Hallucinated token in 040_MAT_024_011_TR1550.txt: προφηται
+2026-05-17 17:53:54,108 | ERROR | Hallucinated token in 041_MRK_004_008_TR1550.txt: γη
+2026-05-17 17:54:03,892 | ERROR | Hallucinated token in 046_1CO_004_012_TR1550.txt: χειρσιν
+2026-05-17 17:54:06,142 | ERROR | Hallucinated token in 055_2TI_003_007_TR1550.txt: αλήθειας
+2026-05-17 17:54:08,485 | ERROR | Hallucinated token in 058_HEB_011_015_TR1550.txt: καιρος
+2026-05-17 17:54:22,888 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: πεινασα
+2026-05-17 17:54:22,889 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: διψησα
+2026-05-17 17:54:22,889 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: ξενοσ
+2026-05-17 17:54:25,317 | ERROR | Mixed-script surface in 041_MRK_015_023_TR1550.txt: 'οινon'
+2026-05-17 17:54:32,909 | ERROR | Hallucinated token in 045_ROM_001_031_TR1550.txt: ασθετους
+2026-05-17 17:54:35,276 | ERROR | Mixed-script surface in 047_2CO_006_009_TR1550.txt: 'παιδεuoμενοι'
+2026-05-17 17:59:16,738 | ERROR | Hallucinated token in 041_MRK_004_008_TR1550.txt: γη
+2026-05-17 17:59:28,910 | ERROR | Hallucinated token in 046_1CO_004_012_TR1550.txt: χειρσιν
+2026-05-17 18:00:35,822 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: πεινασα
+2026-05-17 18:00:35,823 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: διψησα
+2026-05-17 18:00:35,823 | ERROR | Hallucinated token in 040_MAT_025_035_TR1550.txt: ξενοσ
+2026-05-17 18:00:37,953 | ERROR | Hallucinated token in 041_MRK_015_023_TR1550.txt: ων
+2026-05-17 18:00:45,303 | ERROR | Hallucinated token in 045_ROM_001_031_TR1550.txt: ασθετους
+2026-05-17 18:00:49,193 | ERROR | Error processing 047_2CO_006_009_TR1550.txt: Unknown noun category: LIFE
+2026-05-17 19:36:19,775 | ERROR | Unknown category 'BOOK' — falling back to OTHER
+2026-05-17 19:36:19,783 | ERROR | Unknown category 'EVENT' — falling back to OTHER
+2026-05-17 19:36:19,783 | ERROR | Hallucinated token in 040_MAT_001_001_TR1550.txt: ιωαννην
+2026-05-17 19:36:57,092 | ERROR | Unknown category 'TITLE' — falling back to OTHER
+2026-05-17 19:37:29,926 | ERROR | Hallucinated token in 040_MAT_001_011_TR1550.txt: ιωαννην
+2026-05-17 19:37:29,926 | ERROR | Hallucinated token in 040_MAT_001_011_TR1550.txt: ιωαννησ
+2026-05-17 19:37:37,413 | ERROR | Hallucinated token in 040_MAT_001_012_TR1550.txt: ιωαννην
+2026-05-17 19:37:44,759 | ERROR | Hallucinated token in 040_MAT_001_013_TR1550.txt: ελιαιακειμ
+2026-05-17 19:38:05,966 | ERROR | Hallucinated token in 040_MAT_001_016_TR1550.txt: ιωαννην
+2026-05-17 19:38:05,983 | ERROR | Hallucinated token in 040_MAT_001_016_TR1550.txt: ισραηλ
+2026-05-17 19:38:16,663 | ERROR | Unknown category 'EVENT' — falling back to OTHER
+2026-05-17 19:38:39,298 | ERROR | Error processing 040_MAT_001_019_TR1550.txt: 'confidence'
+2026-05-17 19:38:48,030 | ERROR | Hallucinated token in 040_MAT_001_020_TR1550.txt: ιωαννην
+2026-05-17 19:39:06,617 | ERROR | Hallucinated token in 040_MAT_001_024_TR1550.txt: ιωσεφ
+2026-05-17 19:39:13,580 | ERROR | Hallucinated token in 040_MAT_001_025_TR1550.txt: ιωσουν
+2026-05-17 19:39:23,455 | ERROR | Unknown category 'GOD | PERSON | PLACE | OTHER' — falling back to OTHER
+2026-05-17 19:39:44,744 | ERROR | Unknown category 'CELESTIAL_BODY' — falling back to OTHER
+2026-05-17 19:40:09,779 | ERROR | Hallucinated token in 040_MAT_002_012_TR1550.txt: ωναρ
+2026-05-17 19:40:18,628 | ERROR | Hallucinated token in 040_MAT_002_013_TR1550.txt: ιωσεφ
+2026-05-17 19:40:31,453 | ERROR | Unknown category 'FAMILY' — falling back to OTHER
+2026-05-17 19:41:51,683 | ERROR | Unknown category 'SUBSTANCE' — falling back to OTHER
+2026-05-17 19:41:51,708 | ERROR | Unknown category 'SUBSTANCE' — falling back to OTHER
+2026-05-17 19:41:51,713 | ERROR | Unknown category 'SUBSTANCE' — falling back to OTHER
+2026-05-17 19:41:51,716 | ERROR | Unknown category 'QUALIFIER' — falling back to OTHER
+2026-05-17 19:42:03,452 | ERROR | Hallucinated token in 040_MAT_003_006_TR1550.txt: ιωαννην
+2026-05-17 19:42:11,348 | ERROR | Unknown category 'RITUAL' — falling back to OTHER
+2026-05-17 19:42:11,358 | ERROR | Unknown category 'FEELING' — falling back to OTHER
+2026-05-17 19:42:18,807 | ERROR | Hallucinated token in 040_MAT_003_009_TR1550.txt: θεον
+2026-05-17 19:42:56,497 | ERROR | Hallucinated token in 040_MAT_003_014_TR1550.txt: ιωαννην
+2026-05-17 19:42:56,531 | ERROR | Hallucinated token in 040_MAT_003_014_TR1550.txt: εμε
+2026-05-17 19:42:56,531 | ERROR | Hallucinated token in 040_MAT_003_014_TR1550.txt: εμε
+2026-05-17 19:43:04,322 | ERROR | Hallucinated token in 040_MAT_003_016_TR1550.txt: ιουδα
+2026-05-17 19:43:04,323 | ERROR | Unknown category 'SUBSTANCE' — falling back to OTHER
+2026-05-17 19:43:11,299 | ERROR | Unknown category 'SOUND' — falling back to OTHER
+2026-05-17 19:43:11,309 | ERROR | Unknown category 'RELATIONSHIP' — falling back to OTHER
+2026-05-17 19:43:11,318 | ERROR | Unknown category 'DESCRIPTION' — falling back to OTHER
+2026-05-17 19:43:20,416 | ERROR | Hallucinated token in 040_MAT_004_002_TR1550.txt: ημερων
+2026-05-17 19:43:20,416 | ERROR | Hallucinated token in 040_MAT_004_002_TR1550.txt: νυκτων
+2026-05-17 19:43:42,179 | ERROR | Hallucinated token in 040_MAT_004_006_TR1550.txt: αγγελων
+2026-05-17 19:43:49,845 | ERROR | Hallucinated token in 040_MAT_004_008_TR1550.txt: ορουσ
+2026-05-17 19:44:14,861 | ERROR | Hallucinated token in 040_MAT_004_012_TR1550.txt: ιωαννην
+2026-05-17 19:44:22,995 | ERROR | Error processing 040_MAT_004_013_TR1550.txt: 'confidence'
+2026-05-17 19:44:51,294 | ERROR | Unknown category 'LIGHT' — falling back to OTHER
+2026-05-17 19:45:02,301 | ERROR | Unknown category 'JOB' — falling back to OTHER
+2026-05-17 19:45:17,215 | ERROR | Hallucinated token in 040_MAT_004_021_TR1550.txt: δικτυα
+2026-05-17 19:45:21,152 | ERROR | Unknown category 'SHIP' — falling back to OTHER
+2026-05-17 19:45:26,554 | ERROR | Hallucinated token in 040_MAT_004_023_TR1550.txt: γη
+2026-05-17 19:46:13,853 | ERROR | Hallucinated token in 040_MAT_005_005_TR1550.txt: γη
+2026-05-17 19:46:46,740 | ERROR | Error processing 040_MAT_005_007_TR1550.txt: LLM returned invalid JSON
+2026-05-17 19:47:04,057 | ERROR | Hallucinated token in 040_MAT_005_011_TR1550.txt: εμε
+2026-05-17 19:47:33,365 | ERROR | Unknown category 'LIGHT' — falling back to OTHER
+2026-05-17 19:47:33,389 | ERROR | Unknown category 'WORK' — falling back to OTHER
+2026-05-17 19:47:50,122 | ERROR | Hallucinated token in 040_MAT_005_019_TR1550.txt: ανθρωπων
+2026-05-17 19:47:54,113 | ERROR | Hallucinated token in 040_MAT_005_020_TR1550.txt: δικαιοσυνην
+2026-05-17 19:48:22,293 | ERROR | Hallucinated token in 040_MAT_005_025_TR1550.txt: φυλακη
+2026-05-17 19:48:34,870 | ERROR | Unknown category 'BODY' — falling back to OTHER
+2026-05-17 19:48:56,132 | ERROR | Hallucinated token in 040_MAT_005_033_TR1550.txt: κυριον
+2026-05-17 19:49:09,174 | ERROR | Unknown category 'TITLE' — falling back to OTHER
+2026-05-17 19:49:13,025 | ERROR | Unknown category 'HAIR' — falling back to OTHER
+2026-05-17 19:49:28,826 | ERROR | Hallucinated token in 040_MAT_005_040_TR1550.txt: θεον
+2026-05-17 19:49:28,843 | ERROR | Unknown category 'CLOTHING' — falling back to OTHER
+2026-05-17 19:49:28,852 | ERROR | Unknown category 'CLOTHING' — falling back to OTHER
+2026-05-17 19:49:34,722 | ERROR | Hallucinated token in 040_MAT_005_042_TR1550.txt: θεον
+2026-05-17 19:50:08,706 | ERROR | Hallucinated token in 040_MAT_006_001_TR1550.txt: πατερ
+2026-05-17 19:50:19,969 | ERROR | Hallucinated token in 040_MAT_006_003_TR1550.txt: δεξιαια
+2026-05-17 19:50:37,036 | ERROR | Hallucinated token in 040_MAT_006_006_TR1550.txt: πατρι
+2026-05-17 19:56:44,846 | ERROR | Error processing 040_MAT_006_008_TR1550.txt: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-05-17 19:57:04,000 | ERROR | Error processing 040_MAT_006_011_TR1550.txt: 'confidence'
+2026-05-17 19:57:07,925 | ERROR | Hallucinated token in 040_MAT_006_012_TR1550.txt: οφειλεισ
+2026-05-17 19:57:18,141 | ERROR | Hallucinated token in 040_MAT_006_013_TR1550.txt: ημασ
+2026-05-17 19:57:45,374 | ERROR | Hallucinated token in 040_MAT_006_018_TR1550.txt: πατρω
+2026-05-17 19:58:01,257 | ERROR | Hallucinated token in 040_MAT_006_021_TR1550.txt: θησαυρον
+2026-05-17 19:58:08,903 | ERROR | Unknown category 'BODY' — falling back to OTHER
+2026-05-17 19:58:15,768 | ERROR | Hallucinated token in 040_MAT_006_024_TR1550.txt: κυριοι
+2026-05-17 19:58:15,768 | ERROR | Hallucinated token in 040_MAT_006_024_TR1550.txt: γην
+2026-05-17 19:58:15,768 | ERROR | Hallucinated token in 040_MAT_006_024_TR1550.txt: θεον
