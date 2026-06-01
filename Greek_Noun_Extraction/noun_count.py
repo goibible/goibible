@@ -106,8 +106,33 @@ def parse_filename(filename):
     return canon_order, book_code, chapter, verse
 
 
-def call_llm(verse_text):
+def clean_llm_response(raw):
+    """Strip HTML comments and extract valid noun objects from malformed LLM output."""
+    cleaned = re.sub(r'<!--.*?-->', '', raw, flags=re.DOTALL)
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+    noun_pattern = re.compile(
+        r'\{\s*"surface_form"\s*:\s*"([^"]+)"\s*,'
+        r'\s*"lemma"\s*:\s*"([^"]+)"\s*,'
+        r'\s*"category"\s*:\s*"([^"]+)"\s*,'
+        r'\s*"confidence"\s*:\s*([\d.]+)\s*\}',
+        re.DOTALL
+    )
+    nouns = [
+        {"surface_form": m.group(1), "lemma": m.group(2),
+         "category": m.group(3), "confidence": float(m.group(4))}
+        for m in noun_pattern.finditer(cleaned)
+    ]
+    return {"nouns": nouns} if nouns else None
+
+
+def call_llm(verse_text, model=MODEL_NAME):
     prompt = f"""You are analyzing Koine Greek.
+
+CRITICAL: Return ONLY valid JSON. No comments. No explanation. No HTML. No markdown. Only the JSON object.
+If a word is NOT a noun, do not include it — exclude it entirely with no comment or annotation.
 
 Rules:
 - Return ONLY single-token nouns.
@@ -118,8 +143,12 @@ Rules:
 - Do NOT include articles (τον, τους, τη, etc.).
 - Do NOT combine multiple tokens.
 - If a noun appears with an article, return only the noun token.
-- If uncertain, omit the token.
+- If uncertain, exclude the token — do not include it with any comment or explanation.
 - Use only Unicode Greek characters. Never use Latin characters a-z in surface_form or lemma.
+
+ABSOLUTE REQUIREMENT: surface_form and lemma must contain ONLY Ancient Greek Unicode characters.
+Proper names (Jesus, Abraham, David, etc.) must be written in Greek script exactly as they appear in the TR1550 source text.
+NEVER use Hebrew, Latin, or any other script. If you cannot write a token in Greek characters, omit it entirely.
 
 Examples of correct surface→lemma mapping (surface_form copied verbatim from verse, lemma is dictionary form):
 - Token "γη" in verse  → {{"surface_form": "γη",       "lemma": "γῆ",        "category": "PLACE",  "confidence": 0.95}}
@@ -149,7 +178,7 @@ Verse:
             response = requests.post(
                 OLLAMA_URL,
                 json={
-                    "model": MODEL_NAME,
+                    "model": model,
                     "prompt": prompt,
                     "stream": False,
                     "format": "json",
@@ -186,9 +215,12 @@ Verse:
             try:
                 parsed = json.loads(raw)
             except json.JSONDecodeError:
-                print("\n--- BAD RAW OUTPUT ---")
-                print(raw[:1000])
-                raise ValueError("LLM returned invalid JSON")
+                parsed = clean_llm_response(raw)
+                if parsed is None:
+                    print("\n--- BAD RAW OUTPUT ---")
+                    print(raw[:1000])
+                    raise ValueError("LLM returned invalid JSON")
+                print(f"WARNING: Used fallback JSON cleaner on response")
 
             if not isinstance(parsed, dict):
                 raise ValueError(f"LLM JSON root is not an object: {type(parsed).__name__}")
@@ -417,7 +449,7 @@ def export_verse_counts(path):
 # MAIN PROCESS
 # ------------------------------------------------------------
 
-def process_all(dry_run=False, start_from=None, skip_processed=False, files_filter=None, rerun_errors=False):
+def process_all(dry_run=False, start_from=None, skip_processed=False, files_filter=None, rerun_errors=False, model=MODEL_NAME):
     start_time = datetime.now()
 
     conn = sqlite3.connect(DB_PATH)
@@ -487,7 +519,7 @@ def process_all(dry_run=False, start_from=None, skip_processed=False, files_filt
                 key = strip_diacritics(token)
                 token_positions.setdefault(key, []).append(i)
 
-            llm_data, prompt_tokens, completion_tokens, verse_total_tokens = call_llm(verse_text)
+            llm_data, prompt_tokens, completion_tokens, verse_total_tokens = call_llm(verse_text, model=model)
 
             total_prompt_tokens += prompt_tokens
             total_completion_tokens += completion_tokens
@@ -626,6 +658,12 @@ if __name__ == "__main__":
         action="store_true",
         help="Reprocess all files that appear in error.log"
     )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default=MODEL_NAME,
+        help="Ollama model to use for noun extraction"
+    )
     args = parser.parse_args()
 
     if args.export_nouns:
@@ -639,4 +677,5 @@ if __name__ == "__main__":
             skip_processed=args.skip_processed,
             files_filter=args.files,
             rerun_errors=args.rerun_errors,
+            model=args.model,
         )
