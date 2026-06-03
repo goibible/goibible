@@ -62,6 +62,43 @@ Verification tooling: `Greek_Noun_Extraction_NIM/verify_noun_coverage.py`
 (checks `strongs_nt … AND in_tr1550 = 1` against the English output).
 Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
 
+## 3a. Sense layer — the multilingual disambiguation contract
+
+Polysemous Greek words (γυνή = wife/woman, ἀνήρ = man/husband, κύριος =
+Lord/master, γίνομαι = become/happen/be, πνεῦμα = Spirit/spirit/wind/breath, …)
+are disambiguated **once, language-neutrally**, so every future language
+inherits the decision instead of re-deriving it.
+
+How it is codified (in `greek_noun.sqlite3`):
+
+- **`verse_rendering_overrides`** — 1,060 rows keyed by Greek coordinates
+  (`book, chapter, verse, word_pos, strongs_num`) marking every token that
+  departs from its default sense. Each now carries a **`sense_key`**
+  (e.g. `ANER.SPOUSE`, `GYNE.WOMAN`, `KYRIOS.HUMAN_MASTER`, `GINOMAI.HAPPEN`).
+  This list of positions + senses is **language-independent** and transfers to
+  every target language unchanged.
+- **`senses`** — catalog of the 16 distinct senses (key → Strong's → definition
+  → English base word). Exported human-readable to `senses.csv`.
+- **`sense_renderings`** `(sense_key, lang, rendering)` — the per-language word
+  for each sense. English is fully populated (16/16). **A new language fills in
+  ~16 rows once**, and all 1,060 contextual overrides resolve automatically.
+- **`v_effective_rendering`** — view that resolves, per noun position and
+  language: sense override → that language's sense word → else the language's
+  default rendering. This is the canonical resolution interface the translation
+  pipeline should query.
+
+Why this matters: without it, the contextual fixes were English-only — e.g. at
+the spouse-sense positions Chinese would fall back to 男人 (*man*) instead of
+丈夫 (*husband*). With it, the judgment ("this κύριος is a human master, not the
+divine Lord") is made once against KJV/WEBUS and reused by every language.
+
+**To onboard a new language:** populate `sense_renderings` for its `lang` code
+(16 rows, using `senses.csv` as the spec), supply its default
+`strongs_renderings`, then query `v_effective_rendering`. Note: English
+*verification* still uses the inflected `verse_rendering_overrides.correct_rendering`
+(husband vs husbands); the sense layer supplies the base word other languages
+inflect themselves.
+
 ## 4. What to look out for (reviewer checklist)
 
 1. **Clause / verb completeness** — weakest-checked dimension. Look for dropped
