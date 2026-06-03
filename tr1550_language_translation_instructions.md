@@ -158,8 +158,10 @@ its raw TR1550 verse. `strongs_nt` is variant-inclusive; `in_tr1550=0` marks the
 | `verify_noun_coverage.py` | English-specific tuned coverage (rich inflection map); the `en` authority |
 | `import_sense_renderings.py` | `WORKSHEET --lang L --column COL [--dry-run]` — load filled senses |
 | `senses_worksheet.csv` / `senses.csv` | the 16-sense fill sheet / catalog |
+| `falsefriend_sweep.py` | `xref` (cross-ref divergence detector) + `strongs` (per-Strong's targeted sweep) — the §6c method, shipped |
 | `audit_noun_count_deficits.py` | multiplicity-aware noun deficit audit → `deficits_audit.csv` |
 | `rebuild_noun_occurrences_from_strongs.py` | regenerate `verse_noun_occurrences` from `strongs_nt` (source of truth) |
+| `sweep_history/` | provenance: the 35 as-run scripts behind the ~155 English corrections (see its README) |
 
 ### Build / history (reference only — already run for English)
 `translate_verses.py` (Greek→English verse translation driver),
@@ -227,7 +229,22 @@ one in context in your language; do not trust the default gloss.**
 | — | μὴ γένοιτο | "may it never happen" | idiom: **"By no means! / Certainly not!"** |
 
 How English was swept: three-way divergence (draft vs two PD references) +
-targeted per-Strong's checks. Replicate this for your language.
+targeted per-Strong's checks — now shipped as `falsefriend_sweep.py`:
+
+```bash
+# what does the draft systematically miss vs the PD-reference consensus?
+python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+    --draft GOI_Bible_<LANGUAGE> --lang L \
+    --refs <pd_ref_dir_1>,<pd_ref_dir_2>
+# confirm a specific Strong's is mis-rendered (e.g. σῴζω G4982 as "saved")
+python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
+    --draft GOI_Bible_<LANGUAGE> --strongs 4982 \
+    --suspect '<suspect>' --ref-has '<correct>' --refs <pd_ref_dirs>
+```
+
+**Hard prerequisite:** `xref` needs ≥1 (ideally ≥2) public-domain reference
+edition in your language. If none exist, this quality method cannot run and QA
+degrades to coverage-only — source PD references first.
 
 ### 6d. Other words to watch (defensible-but-context-sensitive)
 ἔθνος (nation/Gentile), ἅγιος (holy one/saint), ἐπιθυμία (desire/lust),
