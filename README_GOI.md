@@ -159,3 +159,30 @@ Keep references limited to TR1550 + KJV + WEBUS.
 or logged in the auditable history here, so no one can *certify* "translated
 fresh, zero copying." The statements above are what the text **empirically shows**.
 The conclusion holds regardless, because the only texts it overlaps are public domain.
+
+## Changelog — 2026-06-03 integrity pass
+
+Meaning-accuracy review of the English corpus (TR1550 + KJV/WEBUS as references):
+
+1. **GPT audit (23 verses):** false-friend mistranslations + clause corruption
+   fixed (forgive/leave, healing/household, seized/conceived, honor/price,
+   encouraged/begged, devils/slanderers, MAT 9:35 "disease…disease", etc.).
+   Recorded in `2026-06-03_gptaudit.md`.
+2. **Corpus-wide false-friend sweep (103 verses):** data-driven sweep of the
+   patterns the audit sampled —
+   - ἀφίημι→"forgive" → leave/let/allow/forsake (28; incl. JHN 14:27 "Peace I
+     leave with you")
+   - τιμή→"honor" → price (ACT 5:3)
+   - παρακαλέω→"encourage" → beg/implore/comfort (23) and urge/exhort (12)
+   - γίνομαι→"happened" → made/born/became/be (11; incl. JHN 1:3, GAL 4:4) and
+     μὴ γένοιτο → "By no means!" (12)
+   - ἐκεῖνος→"that one" → he/him/that man (16 + 4 residual)
+3. **Interpretive items settled (user decision):** 1TI 3:11 "wives" (vs women);
+   ROM 3:25 "propitiation" (vs atoning sacrifice / mercy seat); MAT 5:32
+   "sexual immorality".
+4. **Style polish:** LUK 12:42, MRK 5:19, 1PE 3:7, residual demonstratives.
+
+Noun coverage held at **0 missing / 99.7%** throughout; five rendering changes
+that moved off a strongs default are recorded as `verse_rendering_overrides`.
+Remaining known work: other false-friend families not yet swept (e.g. σπλάγχνα,
+σάρξ, ἵστημι/καθίστημι) and the verb/clause-completeness verification noted in §3.
