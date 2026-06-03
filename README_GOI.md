@@ -38,13 +38,29 @@ apostolic text. Treat them as paratext.
 
 ## 3. What has been verified
 
-- **Noun coverage only.** Every Greek noun token in TR1550 (28,922 tokens) was
-  checked to have a corresponding English rendering.
-  Result: **0 missing**, 99.7% exact-match, the rest matched via inflection/stem.
-- This means **verbs, adjectives, adverbs, particles, and clause-level
-  completeness have NOT been systematically verified.** That is the biggest open gap.
+- **Noun count is canonical to raw TR1550.** The noun database
+  (`verse_noun_occurrences`) is a strict projection of the scholarly morphology
+  (`strongs_nt`, `morph N-*`) **intersected with the raw `One_Directory_TR1550`
+  text the English was translated from.** Every one of the **28,889** counted
+  nouns has been verified to physically appear in its own raw verse
+  (multiplicity-aware, 0 exceptions). The earlier LLM-extracted noun table was
+  discarded; this set is deterministic and reproducible.
+- **How the canonical set was reached:** `strongs_nt` is variant-inclusive (it
+  tags alternate TR readings). Reconciling to the raw text removed 36
+  variant/duplicate noun tags (e.g. `σιμων` vs `συμεων` 2 Pet 1:1; the 1 John
+  2:23 long-reading doublet) and realigned 23 verse-boundary tags to the verse
+  where the word actually occurs (MAT 15:6→15:5, MAT 23:13↔14, ACT 13:33→32,
+  HEB 1:2→1:1, …). Stripped tags are retained in `strongs_nt` with
+  `in_tr1550 = 0` (non-destructive; scholarly provenance preserved).
+- **Noun coverage in English: 0 missing**, 99.7% exact-match, rest via
+  inflection/stem. English verse boundaries follow raw TR1550, consistent with
+  the noun count.
+- **NOT yet verified:** verbs, adjectives, adverbs, particles, and clause-level
+  completeness. That is the biggest open gap.
 
-Verification tooling: `Greek_Noun_Extraction_NIM/verify_noun_coverage.py`.
+Verification tooling: `Greek_Noun_Extraction_NIM/verify_noun_coverage.py`
+(checks `strongs_nt … AND in_tr1550 = 1` against the English output).
+Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
 
 ## 4. What to look out for (reviewer checklist)
 
