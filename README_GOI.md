@@ -186,3 +186,25 @@ Noun coverage held at **0 missing / 99.7%** throughout; five rendering changes
 that moved off a strongs default are recorded as `verse_rendering_overrides`.
 Remaining known work: other false-friend families not yet swept (e.g. σπλάγχνα,
 σάρξ, ἵστημι/καθίστημι) and the verb/clause-completeness verification noted in §3.
+
+## 6. Pipeline tooling & multilingual plumbing
+
+This repo is the de-facto plumbing for translating TR1550 into further languages.
+The operational walkthrough for the next translator (human or AI) is
+**`TRANSLATION_GUIDE.md`**. Key tools:
+
+| Tool | Purpose |
+| --- | --- |
+| `validate.py` | integrity gate — 13 invariants; run after any change |
+| `normalize_corpus.py` | canonicalize punctuation/whitespace (`--check` for CI) |
+| `Greek_Noun_Extraction_NIM/matchers.py` | per-language "rendering appears in output" (refuses undefined langs) |
+| `Greek_Noun_Extraction_NIM/language_readiness.py` | what a language still needs before its numbers mean anything |
+| `Greek_Noun_Extraction_NIM/verify_coverage.py` | generic per-language noun coverage |
+| `Greek_Noun_Extraction_NIM/verify_noun_coverage.py` | English-specific, tuned coverage (the en authority) |
+| `Greek_Noun_Extraction_NIM/senses_worksheet.csv` + `import_sense_renderings.py` | the 16-sense per-language fill sheet + loader |
+
+Data model for adding a language (no schema change needed): default words go in
+`strongs_lang_renderings(strongs_num, lang, rendering)`; the 16 contextual senses
+go in `sense_renderings(sense_key, lang, rendering)`; positions are already marked
+language-neutrally in `verse_rendering_overrides`. **16 sense decisions resolve
+~1,060 contextual positions automatically.**
