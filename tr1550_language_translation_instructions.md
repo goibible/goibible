@@ -132,13 +132,15 @@ its raw TR1550 verse. `strongs_nt` is variant-inclusive; `in_tr1550=0` marks the
 1. **Register a matcher** in `matchers.py` for L (else coverage is meaningless and
    tools refuse to run). See §7 for which matcher type.
 2. **Default renderings:** insert `(strongs_num, 'L', rendering)` into
-   `strongs_lang_renderings` for the 2,369 noun Strong's numbers.
+   `strongs_lang_renderings` for the 2,369 noun Strong's numbers. The review-
+   first helper is `gen_default_renderings.py` (CSV + optional SQL patch).
 3. **The 16 senses:** fill your column in `senses_worksheet.csv`, then
    `import_sense_renderings.py --lang L --column "<your column>"`.
 4. **Readiness:** `language_readiness.py --lang L` until it says `READY ✓`.
 5. **Translate** the 7,957 verses *from the Greek* into `GOI_Bible_<LANGUAGE>/`,
-   using the rendering tables as controlled vocabulary and the English edition as
-   a structural (not source) reference. `normalize_corpus.py --dir GOI_Bible_<LANGUAGE>`.
+   using `translate_verses.py` (or a compatible harness), the rendering tables
+   as controlled vocabulary, and the English edition / PD references only as
+   structural (not source) references. `normalize_corpus.py --dir GOI_Bible_<LANGUAGE>`.
 6. **Coverage:** `verify_coverage.py --lang L --output-dir ../GOI_Bible_<LANGUAGE>`;
    chase `--missing-only`.
 7. **False-friend pass** (§6) and **validate** (§9). Commit in logical batches.
@@ -158,13 +160,14 @@ its raw TR1550 verse. `strongs_nt` is variant-inclusive; `in_tr1550=0` marks the
 | `verify_noun_coverage.py` | English-specific tuned coverage (rich inflection map); the `en` authority |
 | `import_sense_renderings.py` | `WORKSHEET --lang L --column COL [--dry-run]` — load filled senses |
 | `senses_worksheet.csv` / `senses.csv` | the 16-sense fill sheet / catalog |
+| `gen_default_renderings.py` | review-first bootstrap for `strongs_lang_renderings` (CSV + optional SQL patch; no DB writes by default) |
+| `translate_verses.py` | generic Greek→target-language verse driver using noun anchors + optional PD references |
 | `falsefriend_sweep.py` | `xref` (cross-ref divergence detector) + `strongs` (per-Strong's targeted sweep) — the §6c method, shipped |
 | `audit_noun_count_deficits.py` | multiplicity-aware noun deficit audit → `deficits_audit.csv` |
 | `rebuild_noun_occurrences_from_strongs.py` | regenerate `verse_noun_occurrences` from `strongs_nt` (source of truth) |
 | `sweep_history/` | provenance: the 35 as-run scripts behind the ~155 English corrections (see its README) |
 
 ### Build / history (reference only — already run for English)
-`translate_verses.py` (Greek→English verse translation driver),
 `noun_count_nim.py` (original LLM noun extractor — superseded by the rebuild),
 `import_strongs.py` / `import_strongs_renderings.py` / `import_renderings.py`
 (seed strongs tables), `import_rendering_overrides.py` (create overrides table),
@@ -243,8 +246,10 @@ python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
 ```
 
 **Hard prerequisite:** `xref` needs ≥1 (ideally ≥2) public-domain reference
-edition in your language. If none exist, this quality method cannot run and QA
-degrades to coverage-only — source PD references first.
+edition in your language. With zero PD references, onboarding is still possible
+but QA degrades to coverage-only. With one PD reference, targeted
+`strongs --ref-has` checks are still useful. With two PD references, the full
+cross-reference divergence method becomes high-signal.
 
 ### 6d. Other words to watch (defensible-but-context-sensitive)
 ἔθνος (nation/Gentile), ἅγιος (holy one/saint), ἐπιθυμία (desire/lust),
@@ -299,15 +304,16 @@ not. Full reasoning in `README_GOI.md §5`.
 
 ## 9. Invariants & the validation gate
 
-`python3 validate.py` enforces (run after any change; keep it green):
+`python3 validate.py` enforces (run after any change; keep it green for English):
 file count 7,957 · valid filenames · single-line non-empty verses · canonical
 punctuation/NFC · every verse has a TR1550 source · DB foreign-key integrity ·
 override positions valid · sense catalog consistency · noun count canonical to
 raw TR1550 (count parity + every noun surface present in its raw verse) · English
 coverage 0 missing.
 
-For language L, add `verify_coverage.py --lang L` as your coverage gate (the
-built-in coverage step is English-specific).
+For language L, use `verify_coverage.py --lang L` as the coverage gate and treat
+`validate.py` as a structural/DB gate plus an English reference check. Non-
+English coverage is not yet embedded in `validate.py`.
 
 ---
 
@@ -316,9 +322,13 @@ built-in coverage step is English-specific).
 ```bash
 L=es; LANGUAGE=Spanish        # example
 
-# 1. defaults (per Strong's) — bulk insert from your lexicon mapping
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
-  "INSERT OR REPLACE INTO strongs_lang_renderings VALUES (<strongs>,'$L','<word>');"
+# 1. defaults (per Strong's) — generate a reviewable bootstrap artifact first
+python3 Greek_Noun_Extraction_NIM/gen_default_renderings.py \
+  --lang $L --language-name "$LANGUAGE" \
+  --out ${L}_defaults_review.csv --sql-out ${L}_defaults_review.sql
+
+# after review, apply the SQL patch yourself
+sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 < ${L}_defaults_review.sql
 
 # 2. the 16 senses (fill your column in senses_worksheet.csv first)
 python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
@@ -327,14 +337,24 @@ python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
 # 3. readiness
 python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang $L
 
-# 4. normalize output
+# 4. translate (provider/model configured via env vars or CLI)
+python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+  --lang $L --language-name "$LANGUAGE" --output-dir GOI_Bible_$LANGUAGE \
+  --book MAT --chapter-start 1 --chapter-end 1 \
+  --reference-dir GOI_Bible_English
+
+# 5. normalize output
 python3 normalize_corpus.py --dir GOI_Bible_$LANGUAGE
 
-# 5. coverage
+# 6. coverage
 python3 Greek_Noun_Extraction_NIM/verify_coverage.py --lang $L \
   --output-dir GOI_Bible_$LANGUAGE --missing-only
 
-# 6. integrity gate
+# 7. false-friend sweep (requires at least one PD reference)
+python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+  --draft GOI_Bible_$LANGUAGE --lang $L --refs <pd_ref_dir_1>,<pd_ref_dir_2>
+
+# 8. integrity gate
 python3 validate.py
 
 # inspect the layer

@@ -55,6 +55,9 @@ Greek coordinates. They transfer to your language unchanged. You only supply the
 | `Greek_Noun_Extraction_NIM/verify_coverage.py` | generic per-language coverage checker |
 | `Greek_Noun_Extraction_NIM/senses_worksheet.csv` | the 16-sense fill-in sheet |
 | `Greek_Noun_Extraction_NIM/import_sense_renderings.py` | load a filled worksheet into the DB |
+| `Greek_Noun_Extraction_NIM/gen_default_renderings.py` | review-first bootstrap for noun defaults (CSV + optional SQL patch) |
+| `Greek_Noun_Extraction_NIM/translate_verses.py` | generic Greek→target-language verse driver |
+| `Greek_Noun_Extraction_NIM/falsefriend_sweep.py` | PD-reference-driven false-friend detection (`xref` + `strongs`) |
 
 File naming everywhere: `NNN_BOOK_CCC_VVV.txt` — `NNN` canon order (040–066),
 `BOOK` OSIS code (MAT…REV), `CCC`/`VVV` zero-padded chapter/verse. 7,957 verses.
@@ -95,9 +98,10 @@ Then `register("L", YourMatcher)`. Run `python3 matchers.py` to self-test.
 ### Step 2 — Default renderings (`strongs_lang_renderings`)
 
 Provide the default target word for each Greek Strong's number used as a noun
-(2,369 of them). Insert rows `(strongs_num, 'L', rendering)`. Source them from a
-public-domain lexicon or by translating the English/Greek lemma. This is the
-fallback used wherever no sense override applies.
+(2,369 of them). Generate a reviewable bootstrap artifact first with
+`gen_default_renderings.py`, then review and import/apply it into
+`strongs_lang_renderings`. This is the fallback used wherever no sense override
+applies.
 
 ### Step 3 — The 16 disambiguation senses (`sense_renderings`)
 
@@ -126,11 +130,11 @@ Close every `GAP` it reports. When it says `READY ✓`, proceed.
 
 Create `GOI_Bible_<LANGUAGE>/` with one file per verse (same filenames as
 `GOI_Bible_English/`). Translate **from the Greek** (`One_Directory_TR1550/`),
-using:
+using `translate_verses.py` or an equivalent harness, with:
 - `strongs_lang_renderings` + `sense_renderings` as your controlled vocabulary
   for nouns (query `greek_noun.sqlite3`),
 - the English edition as a structural reference (not as the source — see §6),
-- two **public-domain** references in your language if available, to check sense.
+- one or two **public-domain** references in your language if available, to check sense.
 
 Keep one verse per file, single line. Run `normalize_corpus.py --dir
 GOI_Bible_<LANGUAGE>` to canonicalize punctuation.
@@ -148,8 +152,9 @@ synonym) record it the way English did (see §5).
 
 ### Step 7 — Validate and commit
 
-`validate.py` currently gates English; extend its coverage step for `L` or run
-`verify_coverage.py` as your gate. Commit in logical batches with clear messages.
+`validate.py` currently gates English coverage only. Use it as a structural/DB
+gate, and use `verify_coverage.py --lang L` as your language-specific coverage
+gate. Commit in logical batches with clear messages.
 
 ---
 
@@ -160,9 +165,11 @@ render a Greek word by one default gloss regardless of context. Hundreds of real
 errors were fixed (see `2026-06-03_gptaudit.md` and the README changelog).
 **Expect the same class in your language** and hunt it the same way:
 
-1. **Three-way divergence scan.** Where two trusted references in your language
-   agree on a word your draft lacks, that's a high-signal candidate. (English
-   used GOI vs KJV vs WEBUS.)
+1. **Cross-reference divergence scan.** Use `falsefriend_sweep.py xref`. Where
+   trusted PD references in your language agree on a word your draft lacks,
+   that's a high-signal candidate. With zero PD references, this method cannot
+   run; with one, targeted `strongs --ref-has` checks are still useful; with
+   two, `xref` becomes much stronger. (English used GOI vs KJV vs WEBUS.)
 2. **Known polysemy traps** — verify each in context, do not trust the default:
    - ἀφίημι = forgive **/ leave / let / allow / forsake**
    - σῴζω = save **/ heal / make well** (healing contexts)
@@ -225,7 +232,8 @@ file count 7957, valid names, single-line non-empty verses, canonical
 punctuation/NFC, every verse has a TR1550 source, DB foreign-key integrity,
 override positions valid, sense catalog consistency, noun count canonical to raw
 TR1550 (count parity + every noun surface physically present in its raw verse),
-and English coverage 0 missing. Keep it green.
+and English coverage 0 missing. For non-English languages, keep `validate.py`
+green and separately require `verify_coverage.py --lang L` to be clean.
 
 ---
 
@@ -235,9 +243,20 @@ and English coverage 0 missing. Keep it green.
 # what does my language still need?
 python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang L
 
+# generate review-first noun defaults
+python3 Greek_Noun_Extraction_NIM/gen_default_renderings.py \
+        --lang L --language-name "<LANGUAGE>" \
+        --out proposed_defaults.csv --sql-out proposed_defaults.sql
+
 # load the filled sense worksheet
 python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
         Greek_Noun_Extraction_NIM/senses_worksheet.csv --lang L --column "L(FILL)"
+
+# translate a small slice first
+python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+        --lang L --language-name "<LANGUAGE>" \
+        --output-dir GOI_Bible_<LANGUAGE> --book MAT --chapter-start 1 --chapter-end 1 \
+        --reference-dir GOI_Bible_English
 
 # canonicalize my output punctuation
 python3 normalize_corpus.py --dir GOI_Bible_<LANGUAGE>
@@ -249,6 +268,10 @@ python3 Greek_Noun_Extraction_NIM/verify_coverage.py --lang L \
 # integrity gate (run constantly)
 python3 validate.py
 
+# false-friend scan (needs PD references for your language)
+python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+        --draft GOI_Bible_<LANGUAGE> --lang L --refs <pd_ref_dir_1>,<pd_ref_dir_2>
+
 # inspect senses / renderings
 sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
    "SELECT * FROM senses;"
@@ -257,5 +280,6 @@ sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
 ```
 
 When `language_readiness.py` says READY, coverage is high with no unexplained
-MISSING, and `validate.py` is green — you have a faithful, verified, copyright-
+MISSING, `validate.py` is green, and your false-friend checks are clean when PD
+references exist — you have a faithful, verified, copyright-
 clean edition built on the same spine as the English reference.
