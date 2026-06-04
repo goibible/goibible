@@ -172,6 +172,7 @@ its raw TR1550 verse. `strongs_nt` is variant-inclusive; `in_tr1550=0` marks the
 | `senses_worksheet.csv` / `senses.csv` | the 16-sense fill sheet / catalog |
 | `gen_default_renderings.py` | review-first bootstrap for `strongs_lang_renderings` (CSV + optional SQL patch; no DB writes by default) |
 | `translate_verses.py` | generic Greek→target-language verse driver using noun anchors + optional PD references |
+| `meaning_checks.py` | `negation` + `numbers` — non-noun error classes (dropped negation, wrong number) |
 | `falsefriend_sweep.py` | `xref` (cross-ref divergence detector) + `strongs` (per-Strong's targeted sweep) — the §6c method, shipped |
 | `audit_noun_count_deficits.py` | multiplicity-aware noun deficit audit → `deficits_audit.csv` |
 | `rebuild_noun_occurrences_from_strongs.py` | regenerate `verse_noun_occurrences` from `strongs_nt` (source of truth) |

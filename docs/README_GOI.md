@@ -208,3 +208,10 @@ Data model for adding a language (no schema change needed): default words go in
 go in `sense_renderings(sense_key, lang, rendering)`; positions are already marked
 language-neutrally in `verse_rendering_overrides`. **16 sense decisions resolve
 ~1,060 contextual positions automatically.**
+
+## Changelog — 2026-06-04 non-noun checks
+
+Added negation + number integrity checks (`Greek_Noun_Extraction_NIM/meaning_checks.py`)
+— the catastrophic-but-noun-invisible classes. Negation found one real dropped
+negation (**2 Thess 3:7** "we did **not** behave disorderly" — restored).
+Numbers came back clean (all flags were etymological collisions / surface forms).
