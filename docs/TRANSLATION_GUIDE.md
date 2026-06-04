@@ -46,8 +46,8 @@ Greek coordinates. They transfer to your language unchanged. You only supply the
 | `Greek_Noun_Extraction_NIM/greek_noun.sqlite3` | the database (morphology, renderings, senses, overrides) |
 | `GOI_Bible_English/` | the finished English edition — your worked example |
 | `GOI_Bible_<LANGUAGE>/` | **you create this** — your translated output |
-| `README_GOI.md` | provenance, what's verified, copyright posture |
-| `TRANSLATION_GUIDE.md` | this file |
+| `docs/README_GOI.md` | provenance, what's verified, copyright posture |
+| `docs/TRANSLATION_GUIDE.md` | this file |
 | `validate.py` | project integrity gate (run after every change) |
 | `normalize_corpus.py` | punctuation/whitespace canonicalizer |
 | `Greek_Noun_Extraction_NIM/matchers.py` | per-language "did the word appear" logic |

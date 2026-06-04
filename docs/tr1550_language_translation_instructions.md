@@ -43,13 +43,19 @@ enforces that every Greek noun reaches your text.
 
 ```
 bible/
-├── tr1550_language_translation_instructions.md   <- THIS FILE
-├── TRANSLATION_GUIDE.md          short operational walkthrough
-├── README_GOI.md                 provenance, what's verified, copyright
-├── validate.py                   integrity gate (13 invariants)
+├── docs/                         all documentation
+│   ├── tr1550_language_translation_instructions.md   <- THIS FILE
+│   ├── TRANSLATION_GUIDE.md      short operational walkthrough
+│   ├── README_GOI.md             provenance, what's verified, copyright
+│   └── 2026-06-03_gptaudit.md    audit + correction record
+├── validate.py                   integrity gate (13 invariants)   ── run from repo root
 ├── normalize_corpus.py           punctuation/whitespace canonicalizer
 ├── GOI_Bible_English/            finished English edition (7,957 verse files) — worked example
 ├── GOI_Bible_<LANGUAGE>/         YOU CREATE THIS — your output, same filenames
+├── English_Bible_KJV/, English_Bible_WEBUS/, Chinese_Bible_CUV/   public-domain reference editions
+├── Greek_Bible_TR1550/, Hebrew_Bible_WLC/, sources/               source corpora
+├── notes/  logs/  archive/       prior-phase notes, run logs, and archived earlier work
+├── backup/                       archived earlier pipeline snapshots
 └── Greek_Noun_Extraction_NIM/    the pipeline + database (git submodule)
     ├── greek_noun.sqlite3        the database (see §3)
     ├── One_Directory_TR1550/     raw Greek source, one file per verse — FROZEN
@@ -57,11 +63,15 @@ bible/
     ├── language_readiness.py     what a language still needs
     ├── verify_coverage.py        generic per-language coverage
     ├── verify_noun_coverage.py   English-specific tuned coverage (en authority)
-    ├── senses_worksheet.csv      16-sense per-language fill sheet
-    ├── import_sense_renderings.py loader for a filled worksheet
-    ├── senses.csv                the sense catalog (human-readable)
-    └── ... (build/history scripts — see §5)
+    ├── falsefriend_sweep.py      false-friend detector (xref + strongs)
+    ├── translate_verses.py       generic Greek→target-language verse driver
+    ├── gen_default_renderings.py bootstrap default renderings for a language
+    ├── senses_worksheet.csv / senses.csv / import_sense_renderings.py
+    └── sweep_history/  ... (build/history scripts — see §5)
 ```
+
+All commands in this guide are run **from the repo root** (paths like
+`docs/…` and `Greek_Noun_Extraction_NIM/…` are repo-root-relative).
 
 **Filename scheme everywhere:** `NNN_BOOK_CCC_VVV.txt`
 `NNN`=canon order 040–066, `BOOK`=OSIS code (MAT…REV), `CCC`/`VVV`=zero-padded
