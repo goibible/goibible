@@ -6,7 +6,7 @@ before tackling other languages. This document is the result: everything we lear
 translated into a staged operational plan for Greek → Traditional Chinese. Hand this to
 a fresh AI translator as its primary briefing.
 
-**Target output:** `GOI_Bible_Chinese/` — 7,957 verse files, same naming as
+**Target output:** `GOI_Bible_Chinese_Hant/` — 7,957 verse files, same naming as
 `GOI_Bible_English/`, Traditional Chinese, one verse per file, single line, UTF-8 NFC.
 
 ---
