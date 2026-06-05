@@ -12,7 +12,7 @@ into any language, with a worked, verified English edition.
 ## Top-level layout
 | Path | What |
 | --- | --- |
-| `docs/` | all documentation (master instructions, guide, provenance, audit) |
+| `docs/` | all documentation (master instructions, guide, provenance, audit, chinese gameplan) |
 | `GOI_Bible_English/` | finished English edition (7,957 verse files) |
 | `Greek_Noun_Extraction_NIM/` | the pipeline + database (submodule): tools, `greek_noun.sqlite3`, raw Greek `One_Directory_TR1550/` |
 | `English_Bible_KJV/`, `English_Bible_WEBUS/`, `Chinese_Bible_CUV/` | public-domain reference editions |
