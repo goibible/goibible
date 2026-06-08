@@ -56,8 +56,8 @@ bible/
 ├── Greek_Bible_TR1550/, Hebrew_Bible_WLC/, sources/               source corpora
 ├── notes/  logs/  archive/       prior-phase notes, run logs, and archived earlier work
 ├── backup/                       archived earlier pipeline snapshots
-└── Greek_Noun_Extraction_NIM/    the pipeline + database (git submodule)
-    ├── greek_noun.sqlite3        the database (see §3)
+└── Bible_Noun_Extraction_NIM/    the pipeline + database (git submodule)
+    ├── bible_noun.sqlite3        the database (see §3)
     ├── One_Directory_TR1550/     raw Greek source, one file per verse — FROZEN
     ├── matchers.py               per-language coverage matching
     ├── language_readiness.py     what a language still needs
@@ -71,7 +71,7 @@ bible/
 ```
 
 All commands in this guide are run **from the repo root** (paths like
-`docs/…` and `Greek_Noun_Extraction_NIM/…` are repo-root-relative).
+`docs/…` and `Bible_Noun_Extraction_NIM/…` are repo-root-relative).
 
 **Filename scheme everywhere:** `NNN_BOOK_CCC_VVV.txt`
 `NNN`=canon order 040–066, `BOOK`=OSIS code (MAT…REV), `CCC`/`VVV`=zero-padded
@@ -80,7 +80,7 @@ chapter/verse. Raw Greek files add a `_TR1550` suffix. 7,957 verses, 27 books
 
 ---
 
-## 3. Database model (`greek_noun.sqlite3`)
+## 3. Database model (`bible_noun.sqlite3`)
 
 | Table | Rows | Purpose |
 | --- | ---: | --- |
@@ -247,11 +247,11 @@ targeted per-Strong's checks — now shipped as `falsefriend_sweep.py`:
 
 ```bash
 # what does the draft systematically miss vs the PD-reference consensus?
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py xref \
     --draft GOI_Bible_<LANGUAGE> --lang L \
     --refs <pd_ref_dir_1>,<pd_ref_dir_2>
 # confirm a specific Strong's is mis-rendered (e.g. σῴζω G4982 as "saved")
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
     --draft GOI_Bible_<LANGUAGE> --strongs 4982 \
     --suspect '<suspect>' --ref-has '<correct>' --refs <pd_ref_dirs>
 ```
@@ -334,22 +334,22 @@ English coverage is not yet embedded in `validate.py`.
 L=es; LANGUAGE=Spanish        # example
 
 # 1. defaults (per Strong's) — generate a reviewable bootstrap artifact first
-python3 Greek_Noun_Extraction_NIM/gen_default_renderings.py \
+python3 Bible_Noun_Extraction_NIM/gen_default_renderings.py \
   --lang $L --language-name "$LANGUAGE" \
   --out ${L}_defaults_review.csv --sql-out ${L}_defaults_review.sql
 
 # after review, apply the SQL patch yourself
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 < ${L}_defaults_review.sql
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 < ${L}_defaults_review.sql
 
 # 2. the 16 senses (fill your column in senses_worksheet.csv first)
-python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
-  Greek_Noun_Extraction_NIM/senses_worksheet.csv --lang $L --column "$L(FILL)"
+python3 Bible_Noun_Extraction_NIM/import_sense_renderings.py \
+  Bible_Noun_Extraction_NIM/senses_worksheet.csv --lang $L --column "$L(FILL)"
 
 # 3. readiness
-python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang $L
+python3 Bible_Noun_Extraction_NIM/language_readiness.py --lang $L
 
 # 4. translate (provider/model configured via env vars or CLI)
-python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+python3 Bible_Noun_Extraction_NIM/translate_verses.py \
   --lang $L --language-name "$LANGUAGE" --output-dir GOI_Bible_$LANGUAGE \
   --book MAT --chapter-start 1 --chapter-end 1 \
   --reference-dir GOI_Bible_English
@@ -358,18 +358,18 @@ python3 Greek_Noun_Extraction_NIM/translate_verses.py \
 python3 normalize_corpus.py --dir GOI_Bible_$LANGUAGE
 
 # 6. coverage
-python3 Greek_Noun_Extraction_NIM/verify_coverage.py --lang $L \
+python3 Bible_Noun_Extraction_NIM/verify_coverage.py --lang $L \
   --output-dir GOI_Bible_$LANGUAGE --missing-only
 
 # 7. false-friend sweep (requires at least one PD reference)
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py xref \
   --draft GOI_Bible_$LANGUAGE --lang $L --refs <pd_ref_dir_1>,<pd_ref_dir_2>
 
 # 8. integrity gate
 python3 validate.py
 
 # inspect the layer
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 "
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 "
   SELECT * FROM senses;
   SELECT * FROM sense_renderings WHERE lang='$L';
   SELECT * FROM strongs_lang_renderings WHERE lang='$L' LIMIT 20;
@@ -377,7 +377,7 @@ sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 "
 
 # look at how English rendered any verse (your structural reference)
 cat GOI_Bible_English/044_ACT_009_029.txt
-cat Greek_Noun_Extraction_NIM/One_Directory_TR1550/044_ACT_009_029_TR1550.txt
+cat Bible_Noun_Extraction_NIM/One_Directory_TR1550/044_ACT_009_029_TR1550.txt
 ```
 
 ---

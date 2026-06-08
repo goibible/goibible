@@ -11,6 +11,9 @@ a fresh AI translator as its primary briefing.
 
 ---
 
+## Part 0 — Copyright Free
+The goal is to have a Chinese Translation directly from TR1550 so that there is no copyright restrictions; and so while CUV can be used for reference; remember that the goal is to generate ORIGINAL translations so it's not copyright encumbered.
+
 ## Part 1 — Lessons from the English Pass
 
 ### 1.1 What worked (inherit unchanged)
@@ -63,11 +66,11 @@ These were *not* verified systematically in English and must be tackled delibera
 
 | Gap | Risk | Chinese tool needed |
 |---|---|---|
-| Verbs | Dropped predicates, tense confusion | clause_check.py (already built) |
-| Clause/predicate completeness | Fragments, whole ideas absent | clause_check.py |
+| Verbs | Dropped predicates, tense confusion | `clause_check_en.py` / `clause_check_zh.py` |
+| Clause/predicate completeness | Fragments, whole ideas absent | `clause_check_en.py` / `clause_check_zh.py` |
 | Proper-noun transliteration consistency | Simon/Simeon, Elias/Elijah inconsistencies | Proper-noun frequency audit (Stage 7) |
 | Register consistency | Archaic/classical words mixed with vernacular | Manual + LLM review |
-| Adjectives, adverbs, particles | No check at all | Partially caught by clause_check.py |
+| Adjectives, adverbs, particles | No check at all | Partially caught by the clause-check scripts |
 
 ---
 
@@ -280,17 +283,17 @@ CUV itself is a slightly formal translation (early 20th century); some of its vo
 
 ```bash
 # 1. Check current readiness (will show senses=0/16 GAP)
-python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang zh
+python3 Bible_Noun_Extraction_NIM/language_readiness.py --lang zh
 
 # 2. Audit a sample of zh defaults
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 \
   "SELECT slr.strongs_num, sr.lemma, sr.english, slr.rendering
    FROM strongs_lang_renderings slr
    JOIN strongs_renderings sr ON sr.strongs_num=slr.strongs_num
    WHERE slr.lang='zh' ORDER BY RANDOM() LIMIT 50"
 
 # 3. Find the ~195 Strong's with no zh default
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 \
   "SELECT DISTINCT snt.strongs_num, sr.lemma, sr.english
    FROM strongs_nt snt
    JOIN strongs_renderings sr ON sr.strongs_num=snt.strongs_num
@@ -306,19 +309,19 @@ sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
 
 **Goal:** `sense_renderings` lang='zh' has all 16 rows, validated against CUV.
 
-1. Open `Greek_Noun_Extraction_NIM/senses_worksheet.csv`
+1. Open `Bible_Noun_Extraction_NIM/senses_worksheet.csv`
 2. For each sense, look up the example verse in `Chinese_Bible_CUV/One_Directory_CUV/`
 3. Fill `chinese(FILL)` using the guidance in Part 2 §2.1 above
 4. Fill `chinese_source_ref` with the CUV verse reference confirming the choice
 5. Import:
 ```bash
-python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
-    Greek_Noun_Extraction_NIM/senses_worksheet.csv \
+python3 Bible_Noun_Extraction_NIM/import_sense_renderings.py \
+    Bible_Noun_Extraction_NIM/senses_worksheet.csv \
     --lang zh --column "chinese(FILL)" --confirmed
 ```
 6. Re-check:
 ```bash
-python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang zh
+python3 Bible_Noun_Extraction_NIM/language_readiness.py --lang zh
 ```
 
 **Done when:** `language_readiness.py --lang zh` reports `READY ✓`
@@ -328,12 +331,12 @@ python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang zh
 **Goal:** Validate the translation pipeline on a single short epistle before scaling.
 
 ```bash
-python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+python3 Bible_Noun_Extraction_NIM/translate_verses.py \
     --lang zh --language-name "Traditional Chinese" \
     --output-dir GOI_Bible_Chinese --book PHM \
     --reference-dir Chinese_Bible_CUV/One_Directory_CUV
 python3 normalize_corpus.py --dir GOI_Bible_Chinese
-python3 Greek_Noun_Extraction_NIM/verify_coverage.py --lang zh \
+python3 Bible_Noun_Extraction_NIM/verify_coverage.py --lang zh \
     --output-dir GOI_Bible_Chinese --missing-only
 ```
 
@@ -348,7 +351,7 @@ Manually compare 5 verses against CUV. Check:
 ### Stage 3: Full NT translation (7,957 verses)
 
 ```bash
-python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+python3 Bible_Noun_Extraction_NIM/translate_verses.py \
     --lang zh --language-name "Traditional Chinese" \
     --output-dir GOI_Bible_Chinese \
     --reference-dir Chinese_Bible_CUV/One_Directory_CUV
@@ -360,9 +363,9 @@ python3 normalize_corpus.py --dir GOI_Bible_Chinese
 ### Stage 4: Noun coverage verification
 
 ```bash
-python3 Greek_Noun_Extraction_NIM/verify_coverage.py \
+python3 Bible_Noun_Extraction_NIM/verify_coverage.py \
     --lang zh --output-dir GOI_Bible_Chinese
-python3 Greek_Noun_Extraction_NIM/verify_coverage.py \
+python3 Bible_Noun_Extraction_NIM/verify_coverage.py \
     --lang zh --output-dir GOI_Bible_Chinese --missing-only
 ```
 
@@ -377,14 +380,14 @@ Chase every MISSING:
 
 ```bash
 # Cross-reference divergence (CUV as single PD reference — less powerful than 2 refs)
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py xref \
     --draft GOI_Bible_Chinese \
     --lang zh \
     --refs Chinese_Bible_CUV/One_Directory_CUV
 
 # For each systematic hit, validate per-Strong's
 # Example: check G863 ἀφίημι — if zh draft uses 赦免 where CUV says 離開
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
     --draft GOI_Bible_Chinese \
     --strongs 863 \
     --suspect '赦免' \
@@ -405,12 +408,12 @@ Add Chinese overrides to meaning_checks.py (or use the CLI flags if added):
 
 ```bash
 # Negation — needs Chinese negation pattern
-python3 Greek_Noun_Extraction_NIM/meaning_checks.py negation \
+python3 Bible_Noun_Extraction_NIM/meaning_checks.py negation \
     --draft GOI_Bible_Chinese
 # (Add --neg-target '不|沒有|別|不要|非|無|未|莫' flag or override in script)
 
 # Numbers — needs Chinese number pattern
-python3 Greek_Noun_Extraction_NIM/meaning_checks.py numbers \
+python3 Bible_Noun_Extraction_NIM/meaning_checks.py numbers \
     --draft GOI_Bible_Chinese
 # (Add --num-target '一|二|兩|三|四|五|六|七|八|九|十|百|千|萬|億' flag or override)
 ```
@@ -443,14 +446,14 @@ Cross-reference the top names against the CUV table in §3.4 above. Any divergen
 
 ```bash
 # Pilot on one book to calibrate false-positive rate
-python3 Greek_Noun_Extraction_NIM/clause_check.py \
+python3 Bible_Noun_Extraction_NIM/clause_check_zh.py \
     --draft GOI_Bible_Chinese --book PHM
 # Review: how many flags are genuine vs false positive?
 # If false-positive rate is acceptable, run full NT
-python3 Greek_Noun_Extraction_NIM/clause_check.py \
+python3 Bible_Noun_Extraction_NIM/clause_check_zh.py \
     --draft GOI_Bible_Chinese --resume
 # Review flagged list
-python3 Greek_Noun_Extraction_NIM/clause_check.py \
+python3 Bible_Noun_Extraction_NIM/clause_check_zh.py \
     --draft GOI_Bible_Chinese --missing-only
 ```
 
@@ -503,14 +506,14 @@ All commands run from the repo root `/home/albert/projects/bible/`:
 
 ```bash
 # Stage 0: readiness
-python3 Greek_Noun_Extraction_NIM/language_readiness.py --lang zh
+python3 Bible_Noun_Extraction_NIM/language_readiness.py --lang zh
 
 # Stage 1: import senses (after filling senses_worksheet.csv)
-python3 Greek_Noun_Extraction_NIM/import_sense_renderings.py \
-    Greek_Noun_Extraction_NIM/senses_worksheet.csv --lang zh --column "chinese(FILL)"
+python3 Bible_Noun_Extraction_NIM/import_sense_renderings.py \
+    Bible_Noun_Extraction_NIM/senses_worksheet.csv --lang zh --column "chinese(FILL)"
 
 # Stage 2-3: translate
-python3 Greek_Noun_Extraction_NIM/translate_verses.py \
+python3 Bible_Noun_Extraction_NIM/translate_verses.py \
     --lang zh --language-name "Traditional Chinese" \
     --output-dir GOI_Bible_Chinese \
     --reference-dir Chinese_Bible_CUV/One_Directory_CUV [--book PHM]
@@ -519,32 +522,33 @@ python3 Greek_Noun_Extraction_NIM/translate_verses.py \
 python3 normalize_corpus.py --dir GOI_Bible_Chinese
 
 # Stage 4: noun coverage
-python3 Greek_Noun_Extraction_NIM/verify_coverage.py \
+python3 Bible_Noun_Extraction_NIM/verify_coverage.py \
     --lang zh --output-dir GOI_Bible_Chinese [--missing-only]
 
 # Stage 5: false-friend sweep
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py xref \
     --draft GOI_Bible_Chinese --lang zh \
     --refs Chinese_Bible_CUV/One_Directory_CUV
-python3 Greek_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
+python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py strongs \
     --draft GOI_Bible_Chinese --strongs <G_NUMBER> \
     --suspect '<zh_suspect_pattern>' --ref-has '<zh_correct_pattern>' \
     --refs Chinese_Bible_CUV/One_Directory_CUV
 
 # Stage 6: negation + numbers
-python3 Greek_Noun_Extraction_NIM/meaning_checks.py negation --draft GOI_Bible_Chinese
-python3 Greek_Noun_Extraction_NIM/meaning_checks.py numbers  --draft GOI_Bible_Chinese
+python3 Bible_Noun_Extraction_NIM/meaning_checks.py negation --draft GOI_Bible_Chinese
+python3 Bible_Noun_Extraction_NIM/meaning_checks.py numbers  --draft GOI_Bible_Chinese
 
-# Stage 8: clause check (fill API_KEY in clause_check.py first)
-python3 Greek_Noun_Extraction_NIM/clause_check.py --draft GOI_Bible_Chinese [--resume]
-python3 Greek_Noun_Extraction_NIM/clause_check.py --draft GOI_Bible_Chinese --missing-only
+# Stage 8: clause check (fill API_KEY / OPENAI_API_KEY first)
+python3 Bible_Noun_Extraction_NIM/clause_check_zh.py --draft GOI_Bible_Chinese [--resume]
+python3 Bible_Noun_Extraction_NIM/clause_check_zh.py --draft GOI_Bible_Chinese --missing-only
+python3 Bible_Noun_Extraction_NIM/triage_clause_flags_zh.py
 
 # Integrity gate (run constantly)
 python3 validate.py
 
 # DB inspection
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 "SELECT * FROM senses;"
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 "SELECT * FROM sense_renderings WHERE lang='zh';"
-sqlite3 Greek_Noun_Extraction_NIM/greek_noun.sqlite3 \
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 "SELECT * FROM senses;"
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 "SELECT * FROM sense_renderings WHERE lang='zh';"
+sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 \
     "SELECT * FROM strongs_lang_renderings WHERE lang='zh' LIMIT 20;"
 ```

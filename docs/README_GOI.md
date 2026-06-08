@@ -16,7 +16,7 @@ A briefing for any human or AI reading the `GOI_Bible_English/` corpus.
   denote any published edition.
 
 The matching Greek source lives at
-`Greek_Noun_Extraction_NIM/One_Directory_TR1550/` (same filename stems, `_TR1550` suffix).
+`Bible_Noun_Extraction_NIM/One_Directory_TR1550/` (same filename stems, `_TR1550` suffix).
 
 ## 2. Because it is TR-based
 
@@ -58,7 +58,7 @@ apostolic text. Treat them as paratext.
 - **NOT yet verified:** verbs, adjectives, adverbs, particles, and clause-level
   completeness. That is the biggest open gap.
 
-Verification tooling: `Greek_Noun_Extraction_NIM/verify_noun_coverage.py`
+Verification tooling: `Bible_Noun_Extraction_NIM/verify_noun_coverage.py`
 (checks `strongs_nt … AND in_tr1550 = 1` against the English output).
 Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
 
@@ -69,7 +69,7 @@ Lord/master, γίνομαι = become/happen/be, πνεῦμα = Spirit/spirit/wi
 are disambiguated **once, language-neutrally**, so every future language
 inherits the decision instead of re-deriving it.
 
-How it is codified (in `greek_noun.sqlite3`):
+How it is codified (in `bible_noun.sqlite3`):
 
 - **`verse_rendering_overrides`** — 1,060 rows keyed by Greek coordinates
   (`book, chapter, verse, word_pos, strongs_num`) marking every token that
@@ -197,11 +197,11 @@ The operational walkthrough for the next translator (human or AI) is
 | --- | --- |
 | `validate.py` | integrity gate — 13 invariants; run after any change |
 | `normalize_corpus.py` | canonicalize punctuation/whitespace (`--check` for CI) |
-| `Greek_Noun_Extraction_NIM/matchers.py` | per-language "rendering appears in output" (refuses undefined langs) |
-| `Greek_Noun_Extraction_NIM/language_readiness.py` | what a language still needs before its numbers mean anything |
-| `Greek_Noun_Extraction_NIM/verify_coverage.py` | generic per-language noun coverage |
-| `Greek_Noun_Extraction_NIM/verify_noun_coverage.py` | English-specific, tuned coverage (the en authority) |
-| `Greek_Noun_Extraction_NIM/senses_worksheet.csv` + `import_sense_renderings.py` | the 16-sense per-language fill sheet + loader |
+| `Bible_Noun_Extraction_NIM/matchers.py` | per-language "rendering appears in output" (refuses undefined langs) |
+| `Bible_Noun_Extraction_NIM/language_readiness.py` | what a language still needs before its numbers mean anything |
+| `Bible_Noun_Extraction_NIM/verify_coverage.py` | generic per-language noun coverage |
+| `Bible_Noun_Extraction_NIM/verify_noun_coverage.py` | English-specific, tuned coverage (the en authority) |
+| `Bible_Noun_Extraction_NIM/senses_worksheet.csv` + `import_sense_renderings.py` | the 16-sense per-language fill sheet + loader |
 
 Data model for adding a language (no schema change needed): default words go in
 `strongs_lang_renderings(strongs_num, lang, rendering)`; the 16 contextual senses
@@ -211,7 +211,7 @@ language-neutrally in `verse_rendering_overrides`. **16 sense decisions resolve
 
 ## Changelog — 2026-06-04 non-noun checks
 
-Added negation + number integrity checks (`Greek_Noun_Extraction_NIM/meaning_checks.py`)
+Added negation + number integrity checks (`Bible_Noun_Extraction_NIM/meaning_checks.py`)
 — the catastrophic-but-noun-invisible classes. Negation found one real dropped
 negation (**2 Thess 3:7** "we did **not** behave disorderly" — restored).
 Numbers came back clean (all flags were etymological collisions / surface forms).

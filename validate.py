@@ -19,8 +19,8 @@ from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parent
 GOI  = ROOT / "GOI_Bible_English"
-NIM  = ROOT / "Greek_Noun_Extraction_NIM"
-DB   = NIM / "greek_noun.sqlite3"
+NIM  = ROOT / "Bible_Noun_Extraction_NIM"
+DB   = NIM / "bible_noun.sqlite3"
 RAW  = NIM / "One_Directory_TR1550"
 BOOK = {1:('MAT','040'),2:('MRK','041'),3:('LUK','042'),4:('JHN','043'),5:('ACT','044'),
 6:('ROM','045'),7:('1CO','046'),8:('2CO','047'),9:('GAL','048'),10:('EPH','049'),11:('PHP','050'),
@@ -63,7 +63,9 @@ def main():
 
     print("=== GREEK SOURCE ===")
     conn = sqlite3.connect(DB); cur = conn.cursor()
-    verses = cur.execute("SELECT DISTINCT book_id,chapter,verse FROM strongs_nt ORDER BY 1,2,3").fetchall()
+    verses = cur.execute(
+        "SELECT DISTINCT book_id,chapter,verse FROM strongs_nt WHERE book_id <= 27 ORDER BY 1,2,3"
+    ).fetchall()
     missing_raw = sum(1 for b,c,v in verses if not (RAW/f"{BOOK[b][1]}_{BOOK[b][0]}_{c:03d}_{v:03d}_TR1550.txt").exists())
     check("every verse has TR1550 source", missing_raw == 0, f"{missing_raw} missing")
 
@@ -78,17 +80,22 @@ def main():
         (SELECT 1 FROM sense_renderings r WHERE r.sense_key=s.sense_key AND r.lang='en')""").fetchone()[0] == 0)
 
     print("=== NOUN COUNT (canonical to raw TR1550) ===")
-    a = dict(cur.execute("SELECT book_id||'-'||chapter||'-'||verse,COUNT(*) FROM strongs_nt WHERE morph LIKE 'N-%' AND in_tr1550=1 GROUP BY 1"))
+    a = dict(cur.execute(
+        "SELECT book_id||'-'||chapter||'-'||verse,COUNT(*) FROM strongs_nt "
+        "WHERE book_id <= 27 AND morph LIKE 'N-%' AND in_tr1550=1 GROUP BY 1"
+    ))
     b = dict(cur.execute("""SELECT v.book_id||'-'||v.chapter_number||'-'||v.verse_number,COUNT(*)
-        FROM verse_noun_occurrences o JOIN verses v ON v.verse_id=o.verse_id GROUP BY 1"""))
+        FROM verse_noun_occurrences o JOIN verses v ON v.verse_id=o.verse_id
+        WHERE v.book_id <= 27 GROUP BY 1"""))
     check("occurrences == strongs_nt(in_tr1550) per verse",
           sum(1 for k in set(a)|set(b) if a.get(k,0)!=b.get(k,0)) == 0)
-    vmap = dict(cur.execute("SELECT verse_id, book_id||','||chapter_number||','||verse_number FROM verses"))
+    vmap = dict(cur.execute("SELECT verse_id, book_id||','||chapter_number||','||verse_number FROM verses WHERE book_id <= 27"))
     rawc = {}
     bad_surf = 0
     # multiplicity-aware: each occurrence surface present in its raw verse
     surf_by_v = Counter()
-    rows = cur.execute("SELECT verse_id,surface_form FROM verse_noun_occurrences").fetchall()
+    rows = cur.execute("""SELECT o.verse_id,o.surface_form FROM verse_noun_occurrences o
+        JOIN verses v ON v.verse_id=o.verse_id WHERE v.book_id <= 27""").fetchall()
     def rawtok(b,c,v):
         k=(b,c,v)
         if k in rawc: return rawc[k]
