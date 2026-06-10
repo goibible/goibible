@@ -3,7 +3,7 @@
 ## Context
 
 The Greek NT → Traditional Chinese pass is complete and gated (`validate_zh.py` passes
-all 12 checks, 97.3% noun coverage, `clause_check_zh.py` running clean). To
+all 12 checks, 97.3% noun coverage, `clause_check_nt_zh.py` running clean). To
 produce a **complete, copyright-free Traditional Chinese Bible**, the same rigor needs
 to be applied to the Hebrew Old Testament (39 books, 23,213 verses, WLC source).
 
@@ -13,7 +13,7 @@ up phase by phase. Output target: Traditional Chinese only, written into the **s
 `GOI_Bible_Chinese_Hant/` directory (OT books use canon prefixes 001–039, NT uses
 040–066 — no filename collision, yields one unified 31,170-verse corpus).
 
-**Decision:** extend the existing `Bible_Noun_Extraction_NIM/bible_noun.sqlite3`
+**Decision:** extend the existing `Bible_Noun_Extraction/bible_noun.sqlite3`
 rather than spinning up a parallel DB. In practice, the shared DB is only
 partially language-neutral: `senses` / `sense_renderings` are shared, but OT noun
 resolution now correctly uses `noun_translations(noun_id, target_lang, zh_translation)`
@@ -49,7 +49,7 @@ output (not by memory or assumption).
 | 2. Noun extraction | ✅ done | `verse_noun_occurrences` populated for all OT verses; hand-count match on Ruth | 2026-06-07 |
 | 3. Bootstrap renderings | ✅ done | `noun_translations(target_lang='zho')` populated for all 6,007 OT Hebrew noun lemmas; 145,869 / 145,869 OT noun occurrences resolve non-empty; deterministic 10-position spot-check across ≥5 books passes | 2026-06-08 |
 | 4. Translation pass | ☐ not started | `GOI_Bible_Chinese_Hant/` file count == 31170; OT translation driver writes 001–039 files cleanly; small-book OT smoke pass (e.g. RUT) completes end-to-end | — |
-| 5. Coverage + clause gates | ☐ not started | `verify_noun_coverage_ot_zh.py` reports ≥95% coverage; `clause_check_zh.py` run across all 39 OT books with flagged list triaged | — |
+| 5. Coverage + clause gates | ☐ not started | `verify_noun_coverage_ot_zh.py` reports ≥95% coverage; `clause_check_nt_zh.py` run across all 39 OT books with flagged list triaged | — |
 | 6. Validation gate | ☐ not started | `validate_ot_zh.py` (or unified `validate_zh.py`) reports ALL CHECKS PASSED for the full 31,170-verse corpus | — |
 
 **Session handoff rule:** before ending a session, write one line under the relevant
@@ -95,7 +95,7 @@ has 23,213 files; `verses`/`verse_texts` scaffolded for OT (WLC version_id=2).
 
 ### 2026-06-07 — Phase 2 session notes
 
-Wrote `Bible_Noun_Extraction_NIM/rebuild_noun_occurrences_ot.py`:
+Wrote `Bible_Noun_Extraction/rebuild_noun_occurrences_ot.py`:
 - Selects `strongs_ot WHERE morph LIKE 'N%'` (both `Nc*` common and `Np*` proper
   nouns, per the approved plan)
 - `nouns` keyed by Strong's H-number → dictionary headword `lemma` (not inflected
@@ -160,11 +160,11 @@ Reason for design pivot:
     noun positions through Greek defaults
 
 Shipped artifacts:
-- `Bible_Noun_Extraction_NIM/gen_ot_noun_translations.py`
-- `Bible_Noun_Extraction_NIM/verify_ot_noun_translations.py`
-- `Bible_Noun_Extraction_NIM/fix_ot_proper_name_translations.py`
-- `Bible_Noun_Extraction_NIM/ot_noun_translations_zh.csv`
-- `Bible_Noun_Extraction_NIM/ot_proper_name_fixes_zh.csv`
+- `Bible_Noun_Extraction/gen_ot_noun_translations.py`
+- `Bible_Noun_Extraction/verify_ot_noun_translations.py`
+- `Bible_Noun_Extraction/fix_ot_proper_name_translations.py`
+- `Bible_Noun_Extraction/ot_noun_translations_zh.csv`
+- `Bible_Noun_Extraction/ot_proper_name_fixes_zh.csv`
 
 Generation/verification results:
 - `noun_translations(target_lang='zho')` populated for **6,007 / 6,007** OT Hebrew
@@ -222,7 +222,7 @@ Add to `bible_noun.sqlite3`:
       in_wlc      INTEGER DEFAULT 1
   );
   ```
-- New script `Bible_Noun_Extraction_NIM/parse_morphhb_to_db.py`:
+- New script `Bible_Noun_Extraction/parse_morphhb_to_db.py`:
   - Walk all 39 XML files, iterate `<verse osisID="Gen.1.1">` → `<w>` children
   - Parse `lemma` (handle `"b/7225"`, `"c/d/776"`, `"1254 a"` forms — split on `/`,
     take the last token, strip trailing letter-suffix variants like `" a"`/`" b"`)
@@ -241,7 +241,7 @@ pattern before writing the parser, so the OT table stays consistent.
 
 ## Phase 2 — Canonical noun extraction
 
-- New script `Bible_Noun_Extraction_NIM/noun_count_ot.py` (adapt
+- New script `Bible_Noun_Extraction/noun_count_ot.py` (adapt
   `noun_count_nim.py` / `rebuild_noun_occurrences_from_strongs.py`):
   - Select `strongs_ot` rows where `morph` indicates a noun (OSHB: `Nc*` common noun,
     `Np` proper noun — decide whether proper nouns count toward coverage; the NT
@@ -261,9 +261,9 @@ pattern before writing the parser, so the OT table stays consistent.
 Phase 3 is complete and the original design assumption here was wrong.
 
 Shipped implementation:
-- `Bible_Noun_Extraction_NIM/gen_ot_noun_translations.py`
-- `Bible_Noun_Extraction_NIM/verify_ot_noun_translations.py`
-- `Bible_Noun_Extraction_NIM/fix_ot_proper_name_translations.py`
+- `Bible_Noun_Extraction/gen_ot_noun_translations.py`
+- `Bible_Noun_Extraction/verify_ot_noun_translations.py`
+- `Bible_Noun_Extraction/fix_ot_proper_name_translations.py`
 
 Actual OT resolution path:
 - Parse Hebrew lexicon data for the dominant OT Strong's row linked to each `noun_id`
@@ -289,7 +289,7 @@ OT-specific sense work is still future scope:
 
 ## Phase 4 — Translation pass
 
-- New script `Bible_Noun_Extraction_NIM/translate_ot_verses.py` (adapt
+- New script `Bible_Noun_Extraction/translate_ot_verses.py` (adapt
   `translate_verses.py`, but do not force the NT resolver model onto OT):
   - Drive verse-by-verse from `One_Directory_WLC/`, write to
     `GOI_Bible_Chinese_Hant/{NNN}_{BOOK}_{CCC}_{VVV}.txt`

@@ -1,0 +1,293 @@
+side,reference,book,chapter,verse,category,note
+WLC_ONLY,1CH 5:27,1CH,5,27,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:28,1CH,5,28,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:29,1CH,5,29,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:30,1CH,5,30,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:31,1CH,5,31,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:32,1CH,5,32,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:33,1CH,5,33,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:34,1CH,5,34,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:35,1CH,5,35,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:36,1CH,5,36,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:37,1CH,5,37,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:38,1CH,5,38,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:39,1CH,5,39,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:40,1CH,5,40,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 5:41,1CH,5,41,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1CH 12:41,1CH,12,41,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:19,1KI,5,19,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:20,1KI,5,20,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:21,1KI,5,21,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:22,1KI,5,22,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:23,1KI,5,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:24,1KI,5,24,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:25,1KI,5,25,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:26,1KI,5,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:27,1KI,5,27,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:28,1KI,5,28,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:29,1KI,5,29,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:30,1KI,5,30,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:31,1KI,5,31,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 5:32,1KI,5,32,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1KI 23:1,1KI,23,1,FILE_NAMING_ANOMALY,Current WLC flatfiles use 1KI 23:1; XML/source tradition expects 1KI 22:54.
+WLC_ONLY,1SA 21:16,1SA,21,16,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,1SA 24:23,1SA,24,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,2CH 1:18,2CH,1,18,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,2CH 13:23,2CH,13,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,2KI 12:22,2KI,12,22,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,2SA 19:44,2SA,19,44,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DAN 3:31,DAN,3,31,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DAN 3:32,DAN,3,32,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DAN 3:33,DAN,3,33,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DAN 6:29,DAN,6,29,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DEU 13:19,DEU,13,19,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DEU 23:26,DEU,23,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,DEU 28:69,DEU,28,69,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ECC 4:17,ECC,4,17,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EXO 7:26,EXO,7,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EXO 7:27,EXO,7,27,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EXO 7:28,EXO,7,28,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EXO 7:29,EXO,7,29,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EXO 21:37,EXO,21,37,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EZK 21:33,EZK,21,33,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EZK 21:34,EZK,21,34,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EZK 21:35,EZK,21,35,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EZK 21:36,EZK,21,36,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,EZK 21:37,EZK,21,37,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,GEN 32:33,GEN,32,33,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,HOS 2:24,HOS,2,24,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,HOS 2:25,HOS,2,25,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,HOS 12:15,HOS,12,15,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,HOS 14:10,HOS,14,10,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ISA 8:23,ISA,8,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JER 8:23,JER,8,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:25,JOB,40,25,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:26,JOB,40,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:27,JOB,40,27,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:28,JOB,40,28,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:29,JOB,40,29,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:30,JOB,40,30,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:31,JOB,40,31,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOB 40:32,JOB,40,32,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOL 4:1,JOL,4,1,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOL 4:2,JOL,4,2,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOL 4:3,JOL,4,3,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOL 4:4,JOL,4,4,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JOL 4:5,JOL,4,5,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,JON 2:11,JON,2,11,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:20,LEV,5,20,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:21,LEV,5,21,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:22,LEV,5,22,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:23,LEV,5,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:24,LEV,5,24,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:25,LEV,5,25,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,LEV 5:26,LEV,5,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,MIC 4:14,MIC,4,14,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NAM 2:14,NAM,2,14,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:33,NEH,3,33,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:34,NEH,3,34,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:35,NEH,3,35,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:36,NEH,3,36,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:37,NEH,3,37,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 3:38,NEH,3,38,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NEH 10:40,NEH,10,40,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:14,NUM,17,14,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:15,NUM,17,15,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:16,NUM,17,16,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:17,NUM,17,17,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:18,NUM,17,18,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:19,NUM,17,19,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:20,NUM,17,20,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:21,NUM,17,21,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:22,NUM,17,22,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:23,NUM,17,23,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:24,NUM,17,24,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:25,NUM,17,25,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:26,NUM,17,26,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:27,NUM,17,27,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 17:28,NUM,17,28,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 25:19,NUM,25,19,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,NUM 30:17,NUM,30,17,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,PSA 3:9,PSA,3,9,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 4:9,PSA,4,9,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 5:13,PSA,5,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 6:11,PSA,6,11,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 7:18,PSA,7,18,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 8:10,PSA,8,10,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 9:21,PSA,9,21,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 12:9,PSA,12,9,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 18:51,PSA,18,51,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 19:15,PSA,19,15,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 20:10,PSA,20,10,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 21:14,PSA,21,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 22:32,PSA,22,32,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 30:13,PSA,30,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 31:25,PSA,31,25,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 34:23,PSA,34,23,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 36:13,PSA,36,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 38:23,PSA,38,23,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 39:14,PSA,39,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 40:18,PSA,40,18,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 41:14,PSA,41,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 42:12,PSA,42,12,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 44:27,PSA,44,27,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 45:18,PSA,45,18,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 46:12,PSA,46,12,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 47:10,PSA,47,10,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 48:15,PSA,48,15,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 49:21,PSA,49,21,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 51:20,PSA,51,20,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 51:21,PSA,51,21,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 52:10,PSA,52,10,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 52:11,PSA,52,11,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 53:7,PSA,53,7,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 54:8,PSA,54,8,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 54:9,PSA,54,9,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 55:24,PSA,55,24,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 56:14,PSA,56,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 57:12,PSA,57,12,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 58:12,PSA,58,12,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 59:18,PSA,59,18,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 60:13,PSA,60,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 60:14,PSA,60,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 61:9,PSA,61,9,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 62:13,PSA,62,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 63:12,PSA,63,12,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 64:11,PSA,64,11,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 65:14,PSA,65,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 67:8,PSA,67,8,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 68:36,PSA,68,36,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 69:37,PSA,69,37,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 70:6,PSA,70,6,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 75:11,PSA,75,11,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 76:13,PSA,76,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 77:21,PSA,77,21,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 80:20,PSA,80,20,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 81:17,PSA,81,17,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 83:19,PSA,83,19,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 84:13,PSA,84,13,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 85:14,PSA,85,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 88:19,PSA,88,19,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 89:53,PSA,89,53,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 92:16,PSA,92,16,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 102:29,PSA,102,29,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 108:14,PSA,108,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 140:14,PSA,140,14,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,PSA 142:8,PSA,142,8,PSALM_SUPERSCRIPTION_OR_OFFSET,Likely KJV-vs-WLC Psalm title/superscription offset; not extra content.
+WLC_ONLY,SNG 7:14,SNG,7,14,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ZEC 2:14,ZEC,2,14,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ZEC 2:15,ZEC,2,15,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ZEC 2:16,ZEC,2,16,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+WLC_ONLY,ZEC 2:17,ZEC,2,17,KNOWN_SHIFT_REMAP,Known WLC-vs-KJV chapter/verse shift; likely same content under a different KJV address.
+KJV_ONLY,1CH 6:67,1CH,6,67,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:68,1CH,6,68,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:69,1CH,6,69,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:70,1CH,6,70,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:71,1CH,6,71,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:72,1CH,6,72,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:73,1CH,6,73,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:74,1CH,6,74,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:75,1CH,6,75,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:76,1CH,6,76,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:77,1CH,6,77,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:78,1CH,6,78,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:79,1CH,6,79,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:80,1CH,6,80,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1CH 6:81,1CH,6,81,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:21,1KI,4,21,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:22,1KI,4,22,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:23,1KI,4,23,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:24,1KI,4,24,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:25,1KI,4,25,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:26,1KI,4,26,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:27,1KI,4,27,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:28,1KI,4,28,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:29,1KI,4,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:30,1KI,4,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:31,1KI,4,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:32,1KI,4,32,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:33,1KI,4,33,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1KI 4:34,1KI,4,34,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,1SA 23:29,1SA,23,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,2CH 2:18,2CH,2,18,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,2CH 14:15,2CH,14,15,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,2KI 11:21,2KI,11,21,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,2SA 18:33,2SA,18,33,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DAN 4:35,DAN,4,35,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DAN 4:36,DAN,4,36,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DAN 4:37,DAN,4,37,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DAN 5:31,DAN,5,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DEU 12:32,DEU,12,32,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DEU 22:30,DEU,22,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,DEU 29:29,DEU,29,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ECC 5:20,ECC,5,20,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EXO 8:29,EXO,8,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EXO 8:30,EXO,8,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EXO 8:31,EXO,8,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EXO 8:32,EXO,8,32,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EXO 22:31,EXO,22,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EZK 20:45,EZK,20,45,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EZK 20:46,EZK,20,46,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EZK 20:47,EZK,20,47,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EZK 20:48,EZK,20,48,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,EZK 20:49,EZK,20,49,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,GEN 31:55,GEN,31,55,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,HOS 1:10,HOS,1,10,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,HOS 1:11,HOS,1,11,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,HOS 11:12,HOS,11,12,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,HOS 13:16,HOS,13,16,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ISA 9:21,ISA,9,21,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ISA 64:12,ISA,64,12,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JER 9:26,JER,9,26,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:27,JOB,41,27,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:28,JOB,41,28,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:29,JOB,41,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:30,JOB,41,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:31,JOB,41,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:32,JOB,41,32,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:33,JOB,41,33,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOB 41:34,JOB,41,34,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOL 2:28,JOL,2,28,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOL 2:29,JOL,2,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOL 2:30,JOL,2,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOL 2:31,JOL,2,31,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JOL 2:32,JOL,2,32,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,JON 1:17,JON,1,17,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:24,LEV,6,24,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:25,LEV,6,25,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:26,LEV,6,26,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:27,LEV,6,27,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:28,LEV,6,28,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:29,LEV,6,29,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,LEV 6:30,LEV,6,30,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,MIC 5:15,MIC,5,15,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NAM 1:15,NAM,1,15,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:18,NEH,4,18,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:19,NEH,4,19,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:20,NEH,4,20,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:21,NEH,4,21,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:22,NEH,4,22,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 4:23,NEH,4,23,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 7:73,NEH,7,73,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NEH 9:38,NEH,9,38,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:36,NUM,16,36,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:37,NUM,16,37,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:38,NUM,16,38,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:39,NUM,16,39,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:40,NUM,16,40,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:41,NUM,16,41,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:42,NUM,16,42,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:43,NUM,16,43,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:44,NUM,16,44,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:45,NUM,16,45,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:46,NUM,16,46,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:47,NUM,16,47,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:48,NUM,16,48,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:49,NUM,16,49,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 16:50,NUM,16,50,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,NUM 29:40,NUM,29,40,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,SNG 6:13,SNG,6,13,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ZEC 1:18,ZEC,1,18,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ZEC 1:19,ZEC,1,19,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ZEC 1:20,ZEC,1,20,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.
+KJV_ONLY,ZEC 1:21,ZEC,1,21,KJV_ONLY_SHIFT_HOLE,Present in KJV addressing but expected to be supplied by a shifted WLC address.

@@ -42,22 +42,22 @@ Greek coordinates. They transfer to your language unchanged. You only supply the
 
 | Path | What it is |
 | --- | --- |
-| `Bible_Noun_Extraction_NIM/One_Directory_TR1550/` | the raw Greek source, one file per verse (`NNN_BOOK_CCC_VVV_TR1550.txt`) — **frozen, never edit** |
-| `Bible_Noun_Extraction_NIM/bible_noun.sqlite3` | the database (morphology, renderings, senses, overrides) |
+| `Bible_Noun_Extraction/One_Directory_TR1550/` | the raw Greek source, one file per verse (`NNN_BOOK_CCC_VVV_TR1550.txt`) — **frozen, never edit** |
+| `Bible_Noun_Extraction/bible_noun.sqlite3` | the database (morphology, renderings, senses, overrides) |
 | `GOI_Bible_English/` | the finished English edition — your worked example |
 | `GOI_Bible_<LANGUAGE>/` | **you create this** — your translated output |
 | `docs/README_GOI.md` | provenance, what's verified, copyright posture |
 | `docs/TRANSLATION_GUIDE.md` | this file |
 | `validate.py` | project integrity gate (run after every change) |
 | `normalize_corpus.py` | punctuation/whitespace canonicalizer |
-| `Bible_Noun_Extraction_NIM/matchers.py` | per-language "did the word appear" logic |
-| `Bible_Noun_Extraction_NIM/language_readiness.py` | what your language still needs |
-| `Bible_Noun_Extraction_NIM/verify_coverage.py` | generic per-language coverage checker |
-| `Bible_Noun_Extraction_NIM/senses_worksheet.csv` | the 16-sense fill-in sheet |
-| `Bible_Noun_Extraction_NIM/import_sense_renderings.py` | load a filled worksheet into the DB |
-| `Bible_Noun_Extraction_NIM/gen_default_renderings.py` | review-first bootstrap for noun defaults (CSV + optional SQL patch) |
-| `Bible_Noun_Extraction_NIM/translate_verses.py` | generic Greek→target-language verse driver |
-| `Bible_Noun_Extraction_NIM/falsefriend_sweep.py` | PD-reference-driven false-friend detection (`xref` + `strongs`) |
+| `Bible_Noun_Extraction/matchers.py` | per-language "did the word appear" logic |
+| `Bible_Noun_Extraction/language_readiness.py` | what your language still needs |
+| `Bible_Noun_Extraction/verify_coverage.py` | generic per-language coverage checker |
+| `Bible_Noun_Extraction/senses_worksheet.csv` | the 16-sense fill-in sheet |
+| `Bible_Noun_Extraction/import_sense_renderings.py` | load a filled worksheet into the DB |
+| `Bible_Noun_Extraction/gen_default_renderings.py` | review-first bootstrap for noun defaults (CSV + optional SQL patch) |
+| `Bible_Noun_Extraction/translate_verses.py` | generic Greek→target-language verse driver |
+| `Bible_Noun_Extraction/falsefriend_sweep.py` | PD-reference-driven false-friend detection (`xref` + `strongs`) |
 
 File naming everywhere: `NNN_BOOK_CCC_VVV.txt` — `NNN` canon order (040–066),
 `BOOK` OSIS code (MAT…REV), `CCC`/`VVV` zero-padded chapter/verse. 7,957 verses.
@@ -241,19 +241,19 @@ green and separately require `verify_coverage.py --lang L` to be clean.
 
 ```bash
 # what does my language still need?
-python3 Bible_Noun_Extraction_NIM/language_readiness.py --lang L
+python3 Bible_Noun_Extraction/language_readiness.py --lang L
 
 # generate review-first noun defaults
-python3 Bible_Noun_Extraction_NIM/gen_default_renderings.py \
+python3 Bible_Noun_Extraction/gen_default_renderings.py \
         --lang L --language-name "<LANGUAGE>" \
         --out proposed_defaults.csv --sql-out proposed_defaults.sql
 
 # load the filled sense worksheet
-python3 Bible_Noun_Extraction_NIM/import_sense_renderings.py \
-        Bible_Noun_Extraction_NIM/senses_worksheet.csv --lang L --column "L(FILL)"
+python3 Bible_Noun_Extraction/import_sense_renderings.py \
+        Bible_Noun_Extraction/senses_worksheet.csv --lang L --column "L(FILL)"
 
 # translate a small slice first
-python3 Bible_Noun_Extraction_NIM/translate_verses.py \
+python3 Bible_Noun_Extraction/translate_verses.py \
         --lang L --language-name "<LANGUAGE>" \
         --output-dir GOI_Bible_<LANGUAGE> --book MAT --chapter-start 1 --chapter-end 1 \
         --reference-dir GOI_Bible_English
@@ -262,18 +262,18 @@ python3 Bible_Noun_Extraction_NIM/translate_verses.py \
 python3 normalize_corpus.py --dir GOI_Bible_<LANGUAGE>
 
 # coverage: did every Greek noun reach the text?
-python3 Bible_Noun_Extraction_NIM/verify_coverage.py --lang L \
+python3 Bible_Noun_Extraction/verify_coverage.py --lang L \
         --output-dir GOI_Bible_<LANGUAGE> [--missing-only]
 
 # integrity gate (run constantly)
 python3 validate.py
 
 # false-friend scan (needs PD references for your language)
-python3 Bible_Noun_Extraction_NIM/falsefriend_sweep.py xref \
+python3 Bible_Noun_Extraction/falsefriend_sweep.py xref \
         --draft GOI_Bible_<LANGUAGE> --lang L --refs <pd_ref_dir_1>,<pd_ref_dir_2>
 
 # inspect senses / renderings
-sqlite3 Bible_Noun_Extraction_NIM/bible_noun.sqlite3 \
+sqlite3 Bible_Noun_Extraction/bible_noun.sqlite3 \
    "SELECT * FROM senses;"
    "SELECT * FROM sense_renderings WHERE lang='L';"
    "SELECT * FROM strongs_lang_renderings WHERE lang='L' LIMIT 20;"

@@ -17,7 +17,7 @@ from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parent
 GOI  = ROOT / "GOI_Bible_Chinese_Hant"
-NIM  = ROOT / "Bible_Noun_Extraction_NIM"
+NIM  = ROOT / "Bible_Noun_Extraction"
 DB   = NIM / "bible_noun.sqlite3"
 RAW  = NIM / "One_Directory_TR1550"
 BOOK = {1:('MAT','040'),2:('MRK','041'),3:('LUK','042'),4:('JHN','043'),5:('ACT','044'),

@@ -1,0 +1,30 @@
+WLC -> KJV source-layer build
+raw_wlc_dir=/home/albert/projects/bible/Hebrew_Bible_WLC/One_Directory_WLC
+kjv_addressed_dir=/home/albert/projects/bible/Hebrew_Bible_WLC/One_Directory_WLC_KJV
+source_files=23213
+output_files=23145
+merged_targets=127
+split_note_targets=55
+supplement_applied=True
+expected_kjv_ot=23145
+missing_after_build=0
+extra_after_build=0
+
+1KI tail verification:
+1KI 22:43 <= 1Kgs.22.43#seg1, 1Kgs.22.44#seg1
+1KI 22:44 <= 1Kgs.22.45#seg1
+1KI 22:52 <= 1Kgs.22.53#seg1
+1KI 22:53 <= 1Kgs.22.54#seg1
+
+sample_1KI 22:53=וַֽיַּעֲבֹד֙ אֶת הַבַּ֔עַל וַיִּֽשְׁתַּחֲוֶ֖ה ל֑וֹ וַיַּכְעֵ֗ס אֶת יְהוָה֙ אֱלֹהֵ֣י יִשְׂרָאֵ֔ל כְּכֹ֥ל אֲשֶׁר עָשָׂ֖ה אָבִֽיו
+
+verification:
+missing_refs=(none)
+extra_refs=(none)
+
+special_cases:
+- mid-verse KJV split markers honored (e.g. 1KI 22:21/22, ISA 63:19/64:1, PSA 13:5/6)
+- NEH 7:68 supplemented from EZR 2:66 to satisfy KJV-address completeness
+- morphhb slash separators stripped during emission to match flatfile-style Hebrew tokens
+
+policy=raw WLC preserved; KJV-addressed derived source emitted separately
