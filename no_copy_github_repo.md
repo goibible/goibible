@@ -1,4 +1,4 @@
-# Not Copied To `/var/www/goibible.org/html`
+# Not Copied To `/var/www/goibible.org/github`
 
 This is the inventory of paths that are intentionally left out of the public staging tree.
 
@@ -51,3 +51,7 @@ The staging script copies only:
 - `GOI_Bible_English/`
 - `GOI_Bible_Chinese_Hant/`
 - `GOI_Bible_Chinese_Hans/`
+
+## Website Tree
+
+The `/var/www/goibible.org/www/` tree is reserved for website-only content and is not part of the GitHub repo staging area.
