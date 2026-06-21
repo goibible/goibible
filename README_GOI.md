@@ -1,22 +1,36 @@
-# README — GOI_Bible_English
+# README — GOI Bible editions
 
-A briefing for any human or AI reading the `GOI_Bible_English/` corpus.
+A briefing for any human or AI reading the `GOI_Bible_English/`,
+`GOI_Bible_Chinese_Hans/`, and `GOI_Bible_Chinese_Hant/` corpora.
 
 ---
 
 ## 1. What it is
 
-- An English **New Testament** (27 books, Matthew→Revelation; file prefixes `040`–`066`).
-- Translated from the **Greek Textus Receptus, Stephanus 1550 edition (TR1550)** — *not* a modern critical text (NA28/UBS).
-- **7,957 plain-text files**, one verse per file, single line, UTF-8.
+- A **full Bible** (Old Testament + New Testament, Genesis→Revelation),
+  **31,102 verse files** per language, in three editions: English,
+  Simplified Chinese (Hans), Traditional Chinese (Hant).
+- NT (7,957 verses, file prefixes `040`–`066`) translated from the
+  **Greek Textus Receptus, Stephanus 1550 edition (TR1550)** — *not* a modern
+  critical text (NA28/UBS).
+- OT translated from the **Hebrew WLC** (Westminster Leningrad Codex).
+- One verse per file, single line, UTF-8.
 - Filename format: `NNN_BOOK_CCC_VVV.txt`
   (e.g. `044_ACT_009_029.txt` = canon-order 044, Acts, chapter 9, verse 29).
   `NNN` is canon order, `BOOK` is the OSIS-style abbreviation.
 - AI-generated translation. "GOI" is the author's project label; it does **not**
   denote any published edition.
+- Single-file reading copies of each edition are in `full_bible/`.
 
-The matching Greek source lives at
+The matching Greek NT source lives at
 `Bible_Noun_Extraction/One_Directory_TR1550/` (same filename stems, `_TR1550` suffix).
+The matching Hebrew OT source lives at `Hebrew_Bible_WLC/`.
+
+**The sections below (verification, sense layer, changelog) describe the NT
+English edition only** — that work predates the OT additions and the Chinese
+editions. OT verification (clause/coverage checks for English and Chinese)
+was done in a later pass; see project notes/memory rather than this file for
+that record, since it has not yet been folded in here.
 
 ## 2. Because it is TR-based
 
@@ -55,12 +69,41 @@ apostolic text. Treat them as paratext.
 - **Noun coverage in English: 0 missing**, 99.7% exact-match, rest via
   inflection/stem. English verse boundaries follow raw TR1550, consistent with
   the noun count.
-- **NOT yet verified:** verbs, adjectives, adverbs, particles, and clause-level
-  completeness. That is the biggest open gap.
+- Clause-level completeness for NT English/Chinese and OT English/Chinese has
+  since been checked separately — see §3b. Verbs/adjectives/adverbs/particles
+  outside the noun layer remain unverified beyond what clause-checking caught.
 
 Verification tooling: `Bible_Noun_Extraction/verify_noun_coverage.py`
 (checks `strongs_nt … AND in_tr1550 = 1` against the English output).
 Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
+
+## 3b. OT + Chinese verification status (consolidated)
+
+The noun-coverage rigor in §3 is NT-English-specific. The OT (both languages)
+and the Chinese editions were verified separately, via clause-checking against
+the source text rather than a noun-occurrence DB. **`GOI_Bible_Chinese_Hans`
+is a script-converted (simplified-character) mirror of `GOI_Bible_Chinese_Hant`**
+— same translation, same wording, different character set — so a fix or
+verification finding in one applies to both.
+
+| Pass | Scope | Result | Status |
+| --- | --- | --- | --- |
+| OT Hebrew→Chinese noun anchors | `noun_translations(zho)` proper names + common nouns, vs. CUV ground truth | 241 proper names + 9 common nouns fixed (2026-06-09); ~550 rare (≤2-occurrence) names left as low-impact transliteration variants | Done |
+| NT clause-check (en + zh) | ~7,900 verses each vs. TR1550 | 98 flags raised, 95 false positives (truncated-checker-output noise), 3 genuine fixes applied (JHN 13:38 zh, JHN 9:27 en, TIT 2:10 en) | **Converged 2026-06-12** |
+| OT English clause-check | 1,276 flags vs. WLC | 1,133 hand-fixed (false-friend swaps — chief→father, angels→God, coney→Shaphan, Daniel→Dan — plus dropped clauses/numbers/names and reversed-meaning errors) + 143 closed as false-positive/defensible-as-is | **Fully resolved 2026-06-13** |
+| OT Chinese clause-check | 604 flags vs. WLC | 214 hand-fixed + ~235 false-positive + 155 closed-no-edit (poetry/textual-tradition judgment calls) | **Fully resolved 2026-06-14** |
+
+**Open structural caveat:** a WLC↔GOI row-order alignment mismatch was found
+(81.1% of rows misaligned by simple positional join) with root cause confirmed
+but **not yet fixed** — plan at `docs/wlc_goi_realignment_plan.md`. The OT
+verification above worked around this (matching by book/chapter/verse, not
+row order), so the *results* above stand, but any future tooling that joins
+WLC to GOI by raw row position will be wrong until that realignment lands.
+
+Don't re-run any of the converged/resolved passes above without first editing
+the corresponding corpus files — they were checked to exhaustion and will
+just reproduce the same flag queues (plus checker noise; tune
+`Bible_Noun_Extraction/clause_check_common.py`'s `max_tokens` if you do).
 
 ## 3a. Sense layer — the multilingual disambiguation contract
 
@@ -101,9 +144,10 @@ inflect themselves.
 
 ## 4. What to look out for (reviewer checklist)
 
-1. **Clause / verb completeness** — weakest-checked dimension. Look for dropped
-   predicates or fragment-like verses. (Noun-presence was enforced, which can
-   mask a missing verb.)
+1. **Clause / verb completeness** — addressed by the clause-check passes in
+   §3b (NT + OT, both languages, all fully resolved), but those were
+   sample-the-flags passes, not an exhaustive verb-level guarantee the way
+   noun coverage is for NT English. Still worth a skeptical read.
 2. **Polysemy collapse** — wrong sense of a multi-meaning Greek word for the
    context (λόγος "word" vs "account/matter"; σάρξ "flesh" vs "body";
    κρίσις "judgment" vs "condemnation").
@@ -118,10 +162,12 @@ inflect themselves.
 7. **Pronoun antecedent clarity** — literal renderings can leave "he/him/it"
    ambiguous where Greek case/gender disambiguated.
 
-**One-line summary:** *A faithful-to-TR1550, AI-drafted NT whose nouns are
-verified complete but whose verbs, sense-disambiguation, and style consistency
-are not. Don't reconcile it against a modern critical Bible — divergences are
-usually the Textus Receptus, not errors.*
+**One-line summary:** *An AI-drafted full Bible (TR1550 NT + WLC OT) in
+English/Simplified Chinese/Traditional Chinese. NT English nouns are verified
+complete; clause-level completeness has been checked and resolved for NT and
+OT, both languages (§3b); sense-disambiguation and style consistency are not
+independently verified. Don't reconcile it against a modern critical Bible —
+divergences are usually the source text, not errors.*
 
 ## 5. Provenance & licensing (copyright posture)
 
