@@ -21,6 +21,8 @@ A briefing for any human or AI reading the `GOI_Bible_English/`,
 - AI-generated translation. "GOI" is the author's project label; it does **not**
   denote any published edition.
 - Single-file reading copies of each edition are in `full_bible/`.
+- A queryable SQLite database is shipped as a **shell + buffet** in `sqlite/`,
+  not a single binary — see "SQLite database" below.
 
 The matching Greek NT source lives at
 `Bible_Noun_Extraction/One_Directory_TR1550/` (same filename stems, `_TR1550` suffix).
@@ -31,6 +33,30 @@ English edition only** — that work predates the OT additions and the Chinese
 editions. OT verification (clause/coverage checks for English and Chinese)
 was done in a later pass; see project notes/memory rather than this file for
 that record, since it has not yet been folded in here.
+
+## 1a. SQLite database — shell + buffet, not a single binary
+
+`sqlite/` ships the database as text plus one small prebuilt binary, instead
+of a single large `.sqlite3` file, so it stays git-friendly and the verse
+text can never silently drift from the flat-file corpora above (which remain
+the single source of truth):
+
+- `sqlite/shell.sqlite3` — prebuilt schema + reference data (`editions`,
+  `books`/OSIS, `iso_languages`/`iso_scripts`/`iso_regions`), **zero verses**.
+  Small (~400KB), safe to use directly.
+- `sqlite/versions/<edition>.sql` — one plain-text `INSERT` script per edition
+  (`KJV`, `WEBUS`, `TR1550`, `WLC`, `GOI_En`, `GOI_Zh_Hant`, `GOI_Zh_Hans`).
+
+To get a full working database:
+```
+cd sqlite && ./assemble.sh mybible.sqlite3        # all 7 editions
+cd sqlite && ./assemble.sh mybible.sqlite3 GOI_En # just one
+```
+Or manually: `cp shell.sqlite3 mybible.sqlite3 && sqlite3 mybible.sqlite3 < versions/GOI_En.sql`.
+
+To regenerate the buffet after editing any flat-file corpus:
+`python3 sqlite/build_buffet.py`. To regenerate the shell after a schema or
+reference-data change: `bash sqlite/build_shell.sh`.
 
 ## 2. Because it is TR-based
 
