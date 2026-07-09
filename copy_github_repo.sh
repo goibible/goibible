@@ -4,16 +4,22 @@ set -euo pipefail
 SRC="/home/albert/projects/bible"
 DST="/var/www/goibible.org/github"
 
-mkdir -p "$DST"
+echo "Source: $SRC"
+echo "Destination: $DST"
 
-rsync -a --delete "$SRC/README.md" "$DST/"
-rsync -a --delete "$SRC/docs/README_GOI.md" "$DST/README_GOI.md"
-rsync -a --delete "$SRC/.gitignore" "$DST/"
-rsync -a --delete "$SRC/GOI_bible.sqlite3" "$DST/"
+mkdir -pv "$DST"
 
-for dir in GOI_Bible_English GOI_Bible_Chinese_Hant GOI_Bible_Chinese_Hans; do
-  mkdir -p "$DST/$dir"
-  rsync -a --delete "$SRC/$dir/" "$DST/$dir/"
+echo "Copying top-level files..."
+rsync -av --delete "$SRC/README.md" "$DST/"
+rsync -av --delete "$SRC/docs/README_GOI.md" "$DST/README_GOI.md"
+rsync -av --delete "$SRC/.gitignore" "$DST/"
+rsync -av --delete --exclude '*.sqlite3' "$SRC/sqlite/" "$DST/sqlite/"
+rsync -av "$SRC/sqlite/shell.sqlite3" "$DST/sqlite/shell.sqlite3"
+
+for dir in GOI_Bible_English GOI_Bible_Chinese_Hant GOI_Bible_Chinese_Hans full_bible; do
+  echo "Copying directory: $dir"
+  mkdir -pv "$DST/$dir"
+  rsync -av --delete "$SRC/$dir/" "$DST/$dir/"
 done
 
 echo "Copied GOI public staging tree to $DST"

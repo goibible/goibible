@@ -46,6 +46,53 @@ SOURCE_DIRS = {
     "GOI_Zh_Hans": ROOT / "GOI_Bible_Chinese_Hans",
 }
 
+# Standard book names by OSIS code, for editions whose book titles must not
+# fall back to the English `books.long_name` column.
+BOOK_NAMES_ZH_HANT = {
+    "GEN": "創世記", "EXO": "出埃及記", "LEV": "利未記", "NUM": "民數記",
+    "DEU": "申命記", "JOS": "約書亞記", "JDG": "士師記", "RUT": "路得記",
+    "1SA": "撒母耳記上", "2SA": "撒母耳記下", "1KI": "列王紀上", "2KI": "列王紀下",
+    "1CH": "歷代志上", "2CH": "歷代志下", "EZR": "以斯拉記", "NEH": "尼希米記",
+    "EST": "以斯帖記", "JOB": "約伯記", "PSA": "詩篇", "PRO": "箴言",
+    "ECC": "傳道書", "SNG": "雅歌", "ISA": "以賽亞書", "JER": "耶利米書",
+    "LAM": "耶利米哀歌", "EZK": "以西結書", "DAN": "但以理書", "HOS": "何西阿書",
+    "JOL": "約珥書", "AMO": "阿摩司書", "OBA": "俄巴底亞書", "JON": "約拿書",
+    "MIC": "彌迦書", "NAM": "那鴻書", "HAB": "哈巴谷書", "ZEP": "西番雅書",
+    "HAG": "哈該書", "ZEC": "撒迦利亞書", "MAL": "瑪拉基書",
+    "MAT": "馬太福音", "MRK": "馬可福音", "LUK": "路加福音", "JHN": "約翰福音",
+    "ACT": "使徒行傳", "ROM": "羅馬書", "1CO": "哥林多前書", "2CO": "哥林多後書",
+    "GAL": "加拉太書", "EPH": "以弗所書", "PHP": "腓立比書", "COL": "歌羅西書",
+    "1TH": "帖撒羅尼迦前書", "2TH": "帖撒羅尼迦後書", "1TI": "提摩太前書",
+    "2TI": "提摩太後書", "TIT": "提多書", "PHM": "腓利門書", "HEB": "希伯來書",
+    "JAS": "雅各書", "1PE": "彼得前書", "2PE": "彼得後書", "1JN": "約翰一書",
+    "2JN": "約翰二書", "3JN": "約翰三書", "JUD": "猶大書", "REV": "啟示錄",
+}
+
+BOOK_NAMES_ZH_HANS = {
+    "GEN": "创世记", "EXO": "出埃及记", "LEV": "利未记", "NUM": "民数记",
+    "DEU": "申命记", "JOS": "约书亚记", "JDG": "士师记", "RUT": "路得记",
+    "1SA": "撒母耳记上", "2SA": "撒母耳记下", "1KI": "列王纪上", "2KI": "列王纪下",
+    "1CH": "历代志上", "2CH": "历代志下", "EZR": "以斯拉记", "NEH": "尼希米记",
+    "EST": "以斯帖记", "JOB": "约伯记", "PSA": "诗篇", "PRO": "箴言",
+    "ECC": "传道书", "SNG": "雅歌", "ISA": "以赛亚书", "JER": "耶利米书",
+    "LAM": "耶利米哀歌", "EZK": "以西结书", "DAN": "但以理书", "HOS": "何西阿书",
+    "JOL": "约珥书", "AMO": "阿摩司书", "OBA": "俄巴底亚书", "JON": "约拿书",
+    "MIC": "弥迦书", "NAM": "那鸿书", "HAB": "哈巴谷书", "ZEP": "西番雅书",
+    "HAG": "哈该书", "ZEC": "撒迦利亚书", "MAL": "玛拉基书",
+    "MAT": "马太福音", "MRK": "马可福音", "LUK": "路加福音", "JHN": "约翰福音",
+    "ACT": "使徒行传", "ROM": "罗马书", "1CO": "哥林多前书", "2CO": "哥林多后书",
+    "GAL": "加拉太书", "EPH": "以弗所书", "PHP": "腓立比书", "COL": "歌罗西书",
+    "1TH": "帖撒罗尼迦前书", "2TH": "帖撒罗尼迦后书", "1TI": "提摩太前书",
+    "2TI": "提摩太后书", "TIT": "提多书", "PHM": "腓利门书", "HEB": "希伯来书",
+    "JAS": "雅各书", "1PE": "彼得前书", "2PE": "彼得后书", "1JN": "约翰一书",
+    "2JN": "约翰二书", "3JN": "约翰三书", "JUD": "犹大书", "REV": "启示录",
+}
+
+BOOK_NAME_OVERRIDES_BY_EDITION = {
+    "GOI_Zh_Hant": BOOK_NAMES_ZH_HANT,
+    "GOI_Zh_Hans": BOOK_NAMES_ZH_HANS,
+}
+
 
 @dataclass(frozen=True)
 class Edition:
@@ -102,9 +149,13 @@ def export_markdown(conn: sqlite3.Connection, edition: Edition, output_dir: path
         raise SystemExit(f"Refusing to overwrite existing file: {output_path}")
 
     book_rows = conn.execute(
-        "SELECT conical, long_name FROM books ORDER BY conical"
+        "SELECT conical, osis, long_name FROM books ORDER BY conical"
     ).fetchall()
-    book_name_by_order = {conical: long_name for conical, long_name in book_rows}
+    overrides = BOOK_NAME_OVERRIDES_BY_EDITION.get(edition.edition_id)
+    book_name_by_order = {
+        conical: (overrides[osis] if overrides else long_name)
+        for conical, osis, long_name in book_rows
+    }
 
     verse_rows = conn.execute(
         """

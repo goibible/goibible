@@ -446,7 +446,7 @@
 
 4 But flesh, with its life, its blood, you shall not eat.
 
-5 But your blood(-guiltiness) I will require, from the hand of every living creature I will require it, and from the hand of man, from the hand of each his brother, I will require the life of man.
+5 But your blood-guiltiness I will require, from the hand of every living creature I will require it, and from the hand of man, from the hand of each his brother, I will require the life of man.
 
 6 Whoever sheds the blood of a person, by a person will their blood be shed, for in the image of God he made the person.
 
@@ -663,7 +663,7 @@
 
 15 And the captains of Pharaoh saw her and praised her to Pharaoh, and the woman was taken to the house of Pharaoh.
 
-16 And the LORD did good to Abram because of her, and there was to him sheep, and beeve, and (he) asses, and (bond-) servants, and (bond-) maids, and (she) asses, and camels.
+16 And the LORD did good to Abram because of her, and there was to him sheep, and beeve, and (he) asses, and man-servants, and maid-servants, and (she) asses, and camels.
 
 17 The LORD struck Pharaoh with great plagues and his household because of Sarai, Abram's wife.
 
@@ -870,7 +870,7 @@
 
 12 And on the eighth day every male among you shall be circumcised, whether born in the house or purchased with silver from any foreigner who is not of your offspring.
 
-13 Every (home-)born child of your household and every (he that is) bought with your money shall surely be circumcised: my covenant shall be in your flesh for an everlasting covenant.
+13 Every home-born child of your household and every (he that is) bought with your money shall surely be circumcised: my covenant shall be in your flesh for an everlasting covenant.
 
 14 And any uncircumcised male who will not be circumcised in the flesh of his foreskin, that person shall be cut off from his people; he has broken my covenant.
 
@@ -943,7 +943,7 @@
 
 20 And the LORD said, "The cry of Sodom and Gomorrah is great, and their sin is very grievous."
 
-21 Let me go down now and see whether, according to the cry(-ing) coming to me, they have altogether consumed, or if not, I will know.
+21 Let me go down now and see whether, according to the cry coming to me, they have altogether consumed, or if not, I will know.
 
 22 Then the men turned from there and went toward Sodom, but Abraham remained standing before the LORD.
 
@@ -1040,7 +1040,7 @@
 
 34 And it was on the morrow, that the firstborn said to the younger, Behold, I lay last night with my father; let us make him drink wine also this night, and come thou in and lie with him, that we may preserve seed from our father.
 
-35 And also on that (mid-)night she made her (fore-)father drink wine, and the younger arose and lay with him, and he did not know in her lying down or in her rising up.
+35 And also on that night she made her father drink wine, and the younger arose and lay with him, and he did not know in her lying down or in her rising up.
 
 36 And the two daughters of Lot became pregnant by their father.
 
@@ -1509,7 +1509,7 @@
 
 23 And he went up from there to Beer-shebah.
 
-24 And Jehovah appeared to him in the (mid-)night of that night and said, I am the God of Abraham your father; do not fear, for I am with you and I have blessed you and multiplied your seed because of Abraham my bondman.
+24 And Jehovah appeared to him in the night of that night and said, I am the God of Abraham your father; do not fear, for I am with you and I have blessed you and multiplied your seed because of Abraham my bondman.
 
 25 And he built there an altar and called on the name of the LORD and pitched his tent there, and there the servants of Isaac dug a well.
 
@@ -1995,7 +1995,7 @@
 
 21 The gift passed before his face, and he lodged that night in the camp.
 
-22 He arose that (mid-)night, took his two wives, his two bondwomen, and his eleven children, and crossed the Jabbok ford.
+22 He arose that night, took his two wives, his two bondwomen, and his eleven children, and crossed the Jabbok ford.
 
 23 And he took them and brought them across the brook, and he brought across that which was his.
 
@@ -2534,7 +2534,7 @@
 
 10 Pharaoh was angry with his servants and put me in the prison of the captain of the guards, me and the chief of the bakers.
 
-11 And we dreamed a dream in one (mid-)night, I and he; each man according to his interpretation of the dream we dreamed.
+11 And we dreamed a dream in one night, I and he; each man according to his interpretation of the dream we dreamed.
 
 12 And there with us was a Hebrew lad, a servant to the chief of the cooks, and we told him our dreams, and he interpreted for us each according to his dream.
 
@@ -3726,7 +3726,7 @@
 
 31 And the flax and the barley were struck, for the barley was in the ear, and the flax was in bloom.
 
-32 And the wheat(-en) and the fitches, rie were not struck, for they were hidden.
+32 And the wheat and the fitches, rie were not struck, for they were hidden.
 
 33 Moses went out from Pharaoh to the city and spread his hands to the Lord, and the thunder and hail ceased, and the rain did not pour upon the land.
 
@@ -3808,7 +3808,7 @@
 
 5 And every firstborn in the land of Egypt died, from the firstborn of Pharaoh who sat on his throne to the firstborn of the bondwoman who was behind the millstones, and every firstborn of cattle.
 
-6 And there will be a great cry(-ing) in all the land of Egypt, such as which has not happened and such as which will not happen again.
+6 And there will be a great cry in all the land of Egypt, such as which has not happened and such as which will not happen again.
 
 7 And to all the children of Israel no dog shall sharpen its tongue, from man even to beast, so that you may know that the LORD makes a distinction between Egypt and Israel.
 
@@ -3879,7 +3879,7 @@
 
 29 And it came to pass at midnight: the LORD struck every firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and every firstborn of cattle.
 
-30 Pharaoh rose in (mid-)night, he and all his bondmen and all Egypt, and there was a great cry in Egypt, for there was not a home where there was not a dead.
+30 Pharaoh rose in night, he and all his bondmen and all Egypt, and there was a great cry in Egypt, for there was not a home where there was not a dead.
 
 31 And he called to Moses and to Aaron in the night and said Rise up go out from among my people both you and the children of Israel and go serve the Lord as you have said
 
@@ -4786,7 +4786,7 @@
 
 4 And you shall make for it a grate, a work of bronze net-work, and you shall make on the net-work four bronze rings on its four corners.
 
-5 And you shall place it beneath the compass of the altar from underneath, and the net(-work) shall be to the middle of the altar.
+5 And you shall place it beneath the compass of the altar from underneath, and the net-work shall be to the middle of the altar.
 
 6 Make bars for the altar, bars of acacia wood, and overlay them with brass.
 
@@ -7131,7 +7131,7 @@
 
 26 And the LORD spoke to Moses, saying:
 
-27 A bull(-ock), lamb, or (she) goat, when it is born, shall be seven days under its dam; and from the eighth day and onward it shall be accepted for an offering made by fire to the LORD.
+27 A bullock, lamb, or (she) goat, when it is born, shall be seven days under its dam; and from the eighth day and onward it shall be accepted for an offering made by fire to the LORD.
 
 28 You shall not slaughter a bull or a sheep and its young on the same day.
 
@@ -8430,7 +8430,7 @@
 
 33 They set out from the mount of the LORD, a journey of three days, and the ark of the covenant of the LORD journeyed before them, a journey of three days, to seek out for them a resting place.
 
-34 And the LORD's cloud(-y) upon them by day, when they journeyed from the camp.
+34 And the LORD's cloud upon them by day, when they journeyed from the camp.
 
 35 When the ark set out, Moses said, "Rise up, the LORD, and let your enemies be scattered, and let those who hate you flee before you."
 
@@ -9354,7 +9354,7 @@
 
 16 The one who hath said, saith the hearer of the words of God, and who knoweth the knowledge of the Most High, seeth the vision of the Almighty, fallen, and the open eyes.
 
-17 I see him, but not now; I behold him, but not near: a star(-gazer) shall come out of Jacob, and a sceptre shall rise out of Israel; and it shall crush the corners of Moab, and shall destroy all the sons of Sheth.
+17 I see him, but not now; I behold him, but not near: a star shall come out of Jacob, and a sceptre shall rise out of Israel; and it shall crush the corners of Moab, and shall destroy all the sons of Sheth.
 
 18 And Edom shall be a possession; Seir shall be a possession of his enemies; but Israel shall do valiantly.
 
@@ -11226,7 +11226,7 @@
 
 13 You shall make for yourself the feast of booths seven days when you gather in from your threshing-floor and from your winepress.
 
-14 You shall rejoice in your (solemn) feast day, you and your son and your daughter and your (man-) servant and your maid(-servant) and the Leviite and the stranger and the fatherless (child) and the widow who are within your gates.
+14 You shall rejoice in your (solemn) feast day, you and your son and your daughter and your man-servant and your maid-servant and the Leviite and the stranger and the fatherless (child) and the widow who are within your gates.
 
 15 Seven days you shall celebrate to the LORD your God in the place that the LORD will choose, because the LORD your God will bless you in all your produce and in all the work of your hands, and you shall be altogether joyful.
 
@@ -11816,7 +11816,7 @@
 
 21 May the LORD attach to you the pestilence until He has finished you off from upon the land, to which you are coming in order to possess it.
 
-22 The LORD will strike you with consumption, with burning ague, with inflammation, with extreme burning, with sword, with blasted(-ing), and with yellow, and they shall pursue you until you perish.
+22 The LORD will strike you with consumption, with burning ague, with inflammation, with extreme burning, with sword, with blasting, and with yellow, and they shall pursue you until you perish.
 
 23 Your heavens above you will be copper, and the land beneath you will be iron.
 
@@ -15823,7 +15823,7 @@
 
 20 And Saul and all the people who were with him cried out and came to the battle, and behold, every man's sword was against his companion, a very great tumult.
 
-21 And the Hebrew(-ess, woman)s were with the Philistine as of yesterday and the day before, those who had gone up with them into the camp all around, and also they were to be with Israel, those with Saul and Jonathan.
+21 And the Hebrews were with the Philistine as of yesterday and the day before, those who had gone up with them into the camp all around, and also they were to be with Israel, those with Saul and Jonathan.
 
 22 And all the men of Israel who were hiding in the hill country of Ephraim heard that the Philistines had fled, and they also pursued after them into battle.
 
@@ -16210,7 +16210,7 @@
 
 8 The battle continued, and David went out and fought against the Philistines, and he struck them with a great slaughter, and they fled from his presence.
 
-9 And the spirit of the LORD was bad upon Saul, and he was sitting in his house with his spear in his hand, and David was playing with a hand(-instrument).
+9 And the spirit of the LORD was bad upon Saul, and he was sitting in his house with his spear in his hand, and David was playing with a hand.
 
 10 Saul sought to strike David with the javelin against the wall, but David escaped from before Saul, and the javelin struck the wall; David fled and escaped by night.
 
@@ -17823,7 +17823,7 @@
 
 27 When David came to Mahanaim, Shobi the son of Nahash from Rabbah of the Ammonites, and Machir the son of Ammiel from Lodebar, and Barzillai the Gileadite from Rogelim, came to meet him.
 
-28 bed(-chamber), bason, and potter's tool, and wheat(-en) and barley and flour and parched corn, and beans and lentile and parched corn.
+28 beds, bason, and potter's tool, and wheat and barley and flour and parched corn, and beans and lentile and parched corn.
 
 29 Honey-comb, butter, sheep, and cheese from beeves they brought to David and to the folk who were with him to eat, for they said, the folk are hungry, weary, and thirsty in the wilderness.
 
@@ -20108,7 +20108,7 @@
 
 19 The men of the city said to Elisha, "Please, the dwelling of the city is good, as my lord sees, but the water is bad and the land is barren."
 
-20 And he said, Take for me a new cruse and put salt(-pit) there; and they took it to him.
+20 And he said, Take for me a new cruse and put salt there; and they took it to him.
 
 21 He went out to the source of the waters and threw salt there, and said, Thus says the LORD, I have healed these waters; there shall no longer be from there death and bereavement.
 
@@ -20167,7 +20167,7 @@
 
 22 They rose early in the morning and the sun shone upon the waters, and Moab saw from afar the waters red as blood.
 
-23 They said, "This is blood(-guiltiness); the kings have destroyed one another; each man has struck his fellow; now to the spoil, Moab!"
+23 They said, "This is blood-guiltiness; the kings have destroyed one another; each man has struck his fellow; now to the spoil, Moab!"
 
 24 They came to the camp of Israel and Israel rose up and struck Moab and they fled from their presence there and struck Moab.
 
@@ -21096,7 +21096,7 @@
 
 16 At that time Hezekiah cut up the doors of the temple of the LORD and the doorposts that Hezekiah king of Judah had overlaid, and gave them to the king of Assyria.
 
-17 The king of Assyria sent Tartan, Rab-saris, and Rabshakeh from Lachish to King Hezekiah with a heavy army to Jerusalem; they went up and came to Jerusalem, went up and came and stood at the conduit of the upper (fish-)pool, which is on the causeway of the fuller's field.
+17 The king of Assyria sent Tartan, Rab-saris, and Rabshakeh from Lachish to King Hezekiah with a heavy army to Jerusalem; they went up and came to Jerusalem, went up and came and stood at the conduit of the upper fish-pool, which is on the causeway of the fuller's field.
 
 18 They called to the king, and Eliakim son of Hillkiah came out to them, who was over the house, and Shebna the scribe, and Joah son of Asaph the recorder.
 
@@ -21354,7 +21354,7 @@
 
 18 To the king of Judah who sent you to inquire of the LORD, thus shall you say to him: Thus says the LORD, the God of Israel: As for the words which you have heard,
 
-19 Because your heart was tender and you humbled yourself before the LORD when you heard what I said concerning this place and concerning its inhabitants, that it should become desolation and (ac-) curse(-d, -ing), and you tore your garments and wept before me, I also have heard, declares the LORD.
+19 Because your heart was tender and you humbled yourself before the LORD when you heard what I said concerning this place and concerning its inhabitants, that it should become desolation and a curse, and you tore your garments and wept before me, I also have heard, declares the LORD.
 
 20 Therefore, behold, I will gather you to your forefathers, and you shall be gathered to your graves in peace; and your eyes shall not see all the evil that I will bring upon this place. So they returned the answer to the king.
 
@@ -25165,7 +25165,7 @@
 
 ## Chapter 35
 
-1 Josiah made a passover (offering) to the Lord in Jerusalem, and they slaughtered the passover (offering) on the fourteenth of the first month(-ly).
+1 Josiah made a passover (offering) to the Lord in Jerusalem, and they slaughtered the passover (offering) on the fourteenth of the first month.
 
 2 He stationed the priests in their charges and encouraged them for the service of the house of the LORD.
 
@@ -25912,7 +25912,7 @@
 
 11 I came to Jerusalem, and I was there for three days.
 
-12 I arose at (mid-)night, I and a few men with me, and I had not told any man what my God was putting into my heart to do for Jerusalem; and there was no cattle with me except the beast on which I rode.
+12 I arose at night, I and a few men with me, and I had not told any man what my God was putting into my heart to do for Jerusalem; and there was no cattle with me except the beast on which I rode.
 
 13 And I went out by night to the valley gate, facing the dragon's fountain and to the dung hill gate, and I inspected the walls of Jerusalem which were broken down, and its gates which had been consumed by fire.
 
@@ -27239,7 +27239,7 @@
 
 12 But to me a thing is stolen, and my ear has taken a little hint of it.
 
-13 In opinions from visions of (mid-)night, when deep sleep falls upon men.
+13 In opinions from visions of night, when deep sleep falls upon men.
 
 14 Dread called me and trembling, and the multitude of my bones was terrified.
 
@@ -27677,7 +27677,7 @@
 
 21 He pours contempt on nobles and weakens the strength of the mighty.
 
-22 Revealing deep things from dark(-ness), and bringing the shadow of death to light.
+22 Revealing deep things from darkness, and bringing the shadow of death to light.
 
 23 He increases the nations and destroys them; He spreads out the nations and leads them back.
 
@@ -27895,7 +27895,7 @@
 
 14 A breach breaks forth against a breach, trampling me like a mighty man.
 
-15 I have torn sack(-cloth) upon my skin, and in ashes I have brought low my horn.
+15 I have torn sackcloth upon my skin, and in ashes I have brought low my horn.
 
 16 My face is red with weeping, and on my eyelids is deep darkness,
 
@@ -27936,7 +27936,7 @@
 
 11 My days have passed; my heinous crimes are cut off; my possession is the anguish of my heart.
 
-12 (mid-)night shall appoint light to age, for light is near before dark(-ness).
+12 Night shall appoint light to age, for light is near before darkness.
 
 13 If I expect the grave my dungeon, in darkness I have spread my bed.
 
@@ -28579,7 +28579,7 @@
 
 16 And now my soul is poured out within me; the days of affliction hold me fast.
 
-17 At (mid-)night my body is chilled from me and my sinews do not rest.
+17 At night my body is chilled from me and my sinews do not rest.
 
 18 With abundant strength he disguises my clothing; according to my tunic he girds me.
 
@@ -28859,7 +28859,7 @@
 
 24 He shepherded the great ones without search, and set others in their place.
 
-25 Therefore he recognizes their work, and turns to (mid-)night and they are distressed.
+25 Therefore he recognizes their work, and turns to night and they are distressed.
 
 26 Instead of the wicked, their place among those who see.
 
@@ -28961,7 +28961,7 @@
 
 19 Will your cry avail you against distress, and will all your forces and power deliver you?
 
-20 Do not strive at (mid-)night to go up against them, folk.
+20 Do not strive at night to go up against them, folk.
 
 21 Take heed, do not turn to iniquity, for on account of this you were chosen from affliction.
 
@@ -29002,7 +29002,7 @@
 
 5 God thunders with His voice, doing wonders, great deeds not understood.
 
-6 For he says to the snow(-y): Be upon the ground, and heavy rain, and rain of his might.
+6 For he says to the snow: Be upon the ground, and heavy rain, and rain of his might.
 
 7 By the hand of every person he shall be confirmed, to know all the deeds of his work.
 
@@ -29354,7 +29354,7 @@
 
 1 Blessed is the man who does not walk in the counsel of the wicked, nor stand in the way of sinners, nor sit in the assembly of mockers.
 
-2 but his delight is in the law of the LORD, and in his law he meditates day and (mid-)night.
+2 but his delight is in the law of the LORD, and in his law he meditates day and night.
 
 3 And he shall be like a tree planted by streams of water, whose fruit it brings forth in its season, and its leaf does not wither, and whatsoever he does prospers.
 
@@ -29562,7 +29562,7 @@
 
 11 Sing to the LORD, who dwells in Zion; declare among the peoples his acts.
 
-12 For he remembers them, requiring blood(-guiltiness); he does not forget the cry(-ing) of the poor.
+12 For he remembers them, requiring blood-guiltiness; he does not forget the cry of the poor.
 
 13 Be gracious to me, O the LORD; behold my affliction from those who hate me, O you who lift me up from the gates of death.
 
@@ -29715,7 +29715,7 @@
 
 6 Portions fell to me in pleasant places; indeed, my inheritance is beautiful to me.
 
-7 I will bless Jehovah, who has counseled me; even (mid-)nights instruct me in my kidneys.
+7 I will bless Jehovah, who has counseled me; even night seasons instruct me in my kidneys.
 
 8 I have set the LORD always before me; because he is at my right hand, I shall not be moved.
 
@@ -30283,7 +30283,7 @@
 
 3 Because I kept silent, my body wasted away from roaring all day long.
 
-4 For day and (mid-)night (season) your power weighs heavily upon me; my vigor is turned to weakness, in the drought of summer. Selah.
+4 For day and night your power weighs heavily upon me; my vigor is turned to weakness, in the drought of summer. Selah.
 
 5 My sin I will declare to you and my iniquity I did not conceal. I said, I will confess concerning my transgressions to the LORD, and you forgave the iniquity of my sin. Selah.
 
@@ -30673,7 +30673,7 @@
 
 16 Let all who seek you rejoice and be glad in you; let those who love your salvation say continually, "The LORD be magnified."
 
-17 But I am poor and needy; (my) Lord, think upon me: You are my help(-ed, -er) and my deliverer—God (gods), do not delay.
+17 But I am poor and needy; (my) Lord, think upon me: You are my help and my deliverer—God (gods), do not delay.
 
 
 ## Chapter 41
@@ -31118,7 +31118,7 @@
 
 9 O (my) Lord, divide their language, for I have seen violence and strife in the city.
 
-10 By day and (mid-)night they encircle her walls, and affliction and toil are within her.
+10 By day and night they encircle her walls, and affliction and toil are within her.
 
 11 Calamity within her, and deceit and treachery do not cease from her streets.
 
@@ -32059,7 +32059,7 @@
 
 64 His priests fell by the sword, and his widows did not weep.
 
-65 The LORD awoke as from a slumber, like a mighty man crying out from wine(-bibbing).
+65 The LORD awoke as from a slumber, like a mighty man crying out from wine-bibbing.
 
 66 And he struck his adversaries backward, giving them the reproach of the ages.
 
@@ -32100,7 +32100,7 @@
 
 11 Let the groaning of the prisoner come before you, according to the greatness of your arm; increase the children of death.
 
-12 And repay our neighbors seven(-fold) into their bosom the reproach with which they have reproached You, (my) Lord.
+12 And repay our neighbors sevenfold into their bosom the reproach with which they have reproached You, (my) Lord.
 
 13 But we are your folk and the flock of your pasture; we will give thanks to you forever, to all generations; we will declare your praise.
 
@@ -32573,7 +32573,7 @@
 
 2 To declare your mercy in the morning and your faithfulness at night.
 
-3 On (instrument of) ten (strings, -th) and on psaltery, on solemn sound with harp.
+3 On an instrument of ten strings and on psaltery, on solemn sound with harp.
 
 4 For you, O LORD, have made me glad through your deeds; in the works of your hands I will sing for joy.
 
@@ -33076,7 +33076,7 @@
 
 39 He spread a cloud for a covering, and fire for burning to illuminate the night.
 
-40 He asked, and brought quails, and (shew-) bread from heaven he gave them to eat.
+40 He asked, and brought quails, and bread from heaven he gave them to eat.
 
 41 The edge opened and waters gushed forth; they went through the wilderness, a river.
 
@@ -33340,9 +33340,9 @@
 
 16 Because he did not remember to do a good deed, and pursued a poor man and a needy one and a tender-hearted man to put them to death.
 
-17 He loved (ac-) curse(-d, -ing) and it came upon him, and did not desire blessing, and it departed from him.
+17 He loved cursing and it came upon him, and did not desire blessing, and it departed from him.
 
-18 He clothed himself with (ac-) curse(-d, -ing) as with armour, and it entered his midst like water(-ing), and like oil(-ed) in his bones.
+18 He clothed himself with cursing as with armour, and it entered his midst like water, and like oil in his bones.
 
 19 Let it be to him as apparel that he wears, and as a girdle that he wears always.
 
@@ -33664,7 +33664,7 @@
 
 20 My soul is consumed with longing for your judgments at all times.
 
-21 You rebuked the arrogant, who are cursed, those who stray from (which was) commanded(-ment).
+21 You rebuked the arrogant, who are cursed, those who stray from (which was) commandment.
 
 22 Remove from me reproach and contempt, for I have kept your testimonies.
 
@@ -33732,7 +33732,7 @@
 
 54 Your statutes were my songs in the house of my sojourn.
 
-55 I remembered your name, the LORD, in (mid-)night, and I kept your law.
+55 I remembered your name, the LORD, in night, and I kept your law.
 
 56 This became mine, because I kept your commandments.
 
@@ -34386,7 +34386,7 @@
 
 10 Even there your hand will lead me, and your right hand will hold me.
 
-11 And I said, "Only darkness will overcome me, and (mid-)night is light for me."
+11 And I said, "Only darkness will overcome me, and night is light for me."
 
 12 Even the darkness is not dark to you, and the night is as bright as the day; darkness is as light.
 
@@ -34746,7 +34746,7 @@
 
 10 My child, if sinners entice you, do not consent.
 
-11 If they say, “Come with us, let us lie in wait for blood(-guiltiness); let us ambush the innocent for nothing.”
+11 If they say, “Come with us, let us lie in wait for blood-guiltiness; let us ambush the innocent for nothing.”
 
 12 Let us swallow them alive like Sheol, and whole, like those who go down to the pit.
 
@@ -34758,7 +34758,7 @@
 
 16 For their feet run to evil, and they hasten to shed blood.
 
-17 For the net(-work) is spread in vain, in the sight of every master of wing(-ed [creatures]).
+17 For the net-work is spread in vain, in the sight of every master of winged creatures.
 
 18 And they lie in wait for their own blood, they set snares for their own souls.
 
@@ -35077,7 +35077,7 @@
 
 28 If a man walks on burning coals, his feet will not be scorched.
 
-29 So is the one who comes to (an-) other's wife; none who touches her will go unpunished.
+29 So is the one who comes to another's wife; none who touches her will go unpunished.
 
 30 They will not despise the thief if he steals to satisfy his appetite when he is hungry.
 
@@ -35124,7 +35124,7 @@
 
 15 Therefore I have gone out to meet you, to seek your face, and I have found you.
 
-16 I spread a covering of tapestry upon my bed(-stead), with carved work of fine linen from Egypt.
+16 I spread a covering of tapestry upon my bed, with carved work of fine linen from Egypt.
 
 17 I have perfumed my bed with myrrh, aloes, and cinnamon.
 
@@ -36254,7 +36254,7 @@
 
 15 With forbearing anger a ruler is persuaded, but a soft tongue breaks a bone.
 
-16 If you find honey(-comb), eat (only) as much as you are able, lest you become full and vomit it.
+16 If you find honey-comb, eat (only) as much as you are able, lest you become full and vomit it.
 
 17 Do not wear out your neighbor’s house, lest he become weary of you and hate you.
 
@@ -36307,7 +36307,7 @@
 
 12 You have seen a man wise in his own eyes? There is more hope for a fool than for him.
 
-13 The sluggard says, "A (fierce) lion is along the (high-) way; a (young) lion is in the broad places."
+13 The sluggard says, "A (fierce) lion is along the highway; a (young) lion is in the broad places."
 
 14 The door turns on its hinge, but the lazy man does not turn on his bed.
 
@@ -36612,7 +36612,7 @@
 
 14 She was like ships of merchants; from afar she brings her food.
 
-15 She arose while yet (mid-)night (season) and gave meat to her (winter) house(-hold) and a set task to her maids.
+15 She arose while yet night and gave meat to her (winter) household and a set task to her maids.
 
 16 She considers a field and buys it; from the fruit of her hands she plants a vineyard.
 
@@ -37003,7 +37003,7 @@
 
 4 For who among all the living has confidence? Indeed, a living dog is better than a dead lion.
 
-5 For the living know that they will die, but the dead know no(-thing), and they have no more reward, for their memory is forgotten.
+5 For the living know that they will die, but the dead know no-thing, and they have no more reward, for their memory is forgotten.
 
 6 Even their love, even their hate, even their envy is long gone, and they have no more part forever in anything that is done under the sun.
 
@@ -37283,7 +37283,7 @@
 
 8 I have adjured you, daughters of Jerusalem, if you find my beloved, what will you tell him? That I am sick with love.
 
-9 What is your (well-)beloved more than (a) (well-)beloved, O most beautiful among women? What is your (well-)beloved more than (a) (well-)beloved, that you have adjured us?
+9 What is your beloved more than (a) beloved, O most beautiful among women? What is your beloved more than (a) beloved, that you have adjured us?
 
 10 My beloved is radiant and ruddy, distinguished among ten thousand.
 
@@ -37695,7 +37695,7 @@
 
 14 Therefore my Lord himself will give you a sign: behold, the virgin is with child and bears a son, and calls his name Immanuel.
 
-15 Butter and honey(-comb) he shall eat, that he may know to refuse the evil and choose the good.
+15 Butter and honey-comb he shall eat, that he may know to refuse the evil and choose the good.
 
 16 For before the boy knows to reject evil and choose good, the land that you dread because of her two kings will be forsaken.
 
@@ -37769,7 +37769,7 @@
 
 1 For there is no dimness for her who is straitened, whereas at the former time he brought low the land of Zebulun and the land of Naphtali, but at the latter time he has made heavy and glorified the way of the sea, beyond the Jordan, Galilee of the nations.
 
-2 The folk walking in dark(-ness) have seen a great light (-ning); those sitting in the land of shadow of death, light (-ning) has shone upon them.
+2 The folk walking in darkness have seen a great light; those sitting in the land of shadow of death, light has shone upon them.
 
 3 You have multiplied the nation; you have not increased the joy. They rejoice before you as with the joy of harvest, as men rejoice when they divide the spoil.
 
@@ -38229,7 +38229,7 @@
 
 7 And he saw a chariot with a yoke of horsemen, a chariot of an ass, a chariot of a camel, and gave much heed, great regard.
 
-8 A (young) lion calls from the watch tower: "My Lord, I am standing alway(s) by day, and on my watch I stand every (mid-)night season."
+8 A (young) lion calls from the watch tower: "My Lord, I am standing alway(s) by day, and on my watch I stand every night season."
 
 9 And behold, a chariot of a man, a pair of horsemen; and he answered and said, Fallen, fallen is Babylon, and all the carved images of her gods he has shattered to the ground.
 
@@ -38237,7 +38237,7 @@
 
 11 A prophecy concerning Dumah: One calls to me from Seir, “Watchman, what of the night? Watchman, what of the night?”
 
-12 The watcher said, "Morning and also (mid-)night: if you inquire, inquire; return, return."
+12 The watcher said, "Morning and also night: if you inquire, inquire; return, return."
 
 13 An oracle concerning Arabia: in the thicket of Arabia you will lodge, you travelling companies of Dedanites.
 
@@ -38272,7 +38272,7 @@
 
 10 And you counted the houses of Jerusalem, and you broke down the houses to fortify the wall.
 
-11 And you made a ditch between the walled [areas] for the water of the old (fish-) pool, but you did not look to the one who made it, and the former from afar you did not see.
+11 And you made a ditch between the walled [areas] for the water of the old fish-pool, but you did not look to the one who made it, and the former from afar you did not see.
 
 12 The LORD God of hosts called on that day for weeping and for mourning and for baldness and for wearing sackcloth.
 
@@ -38567,7 +38567,7 @@
 
 6 From the LORD of hosts you shall be visited with thunder and earthquake and loud noise, storm and tempest, and the flame of devouring fire.
 
-7 And it shall be as a dream vision of (mid-)night: the abundance of all the nations that war against Ariel, and all their bulwarks and the one who oppresses her.
+7 And it shall be as a dream vision of night: the abundance of all the nations that war against Ariel, and all their bulwarks and the one who oppresses her.
 
 8 And it shall be as when the hungry man dreams, and behold, he is eating, but when he awakes, his soul is empty; and as when the thirsty man dreams, and behold, he is drinking, but when he awakes, he is still faint, and his soul is craving: so shall be the abundance of all the nations that fight against the mountain of Zion.
 
@@ -38691,7 +38691,7 @@
 
 8 And Assyria shall fall by a sword not of man, and a sword not of mortal shall devour him; and from the sword he shall flee, and his chosen young men shall become tribute.
 
-9 And their (ragged) rock from fear shall pass, and their captains from (en-)sign shall flee, saith the LORD, who hath kindled fire for him in Zion and furnace for him in Jerusalem.
+9 And their (ragged) rock from fear shall pass, and their captains from ensign shall flee, saith the LORD, who hath kindled fire for him in Zion and furnace for him in Jerusalem.
 
 
 ## Chapter 32
@@ -39568,7 +39568,7 @@
 
 6 My body I gave to those who strike, and my jaw to those who pluck; my face I did not hide from reproach and spitting.
 
-7 And my Lord. God. helped me, therefore I was not ashamed; therefore I set my face like flint(-y), and I knew that I would not be put to shame.
+7 And my Lord. God. helped me, therefore I was not ashamed; therefore I set my face like flint, and I knew that I would not be put to shame.
 
 8 My vindicator is near; who will contend with me? Let us confront one another. Who is my adversary? Let him approach me.
 
@@ -39906,7 +39906,7 @@
 
 1 Arise, shine, for your light has come, and the glory of the LORD has risen upon you.
 
-2 For behold, dark(-ness) will cover the earth and (gross, thick) dark (cloud, -ness) the nations, but upon you the LORD will shine, and His glory will be seen upon you.
+2 For behold, darkness will cover the earth and gross darkness the nations, but upon you the LORD will shine, and His glory will be seen upon you.
 
 3 And nations shall walk by your light, and kings by the brightness of your rising.
 
@@ -40362,7 +40362,7 @@
 
 7 The (young) lion has come up from the thicket, the destroyer of nations has departed; he has left his place to make your land a waste; your cities will lie desolate without inhabitant.
 
-8 Therefore gird sack(-clothes), mourn and wail, for the fierce wrath of the LORD has not turned back from them.
+8 Therefore gird sackcloth, mourn and wail, for the fierce wrath of the LORD has not turned back from them.
 
 9 And it shall come to pass in that age, saith the LORD, that the heart of the king and the heart of the rulers shall fail, and the priests shall be appalled, and the prophets shall be dismayed.
 
@@ -40486,7 +40486,7 @@
 
 4 Set apart a battle against her; rise up, and let us go up at midday. Woe to us, for the day has turned; the shadows of evening have lengthened.
 
-5 Arise and let us go up at (mid-)night and destroy her palaces.
+5 Arise and let us go up at night and destroy her palaces.
 
 6 For thus says the LORD of hosts: Cut down trees and cast up a mound against Jerusalem; she is the city of oppression, all of her is extortion within her.
 
@@ -40516,7 +40516,7 @@
 
 19 Hear, O earth, behold I bring disaster upon this people, the fruit of their thoughts, because they have not listened to my words and have rejected my law.
 
-20 Why should I have (frank-)incense from Sheba, or a good reed from a far country? Your burnt offerings are not acceptable to me, and your sacrifices do not please me.
+20 Why should I have frank-incense from Sheba, or a good reed from a far country? Your burnt offerings are not acceptable to me, and your sacrifices do not please me.
 
 21 Therefore, thus says the LORD: Behold, I am setting before this people stumbling-blocks, and they shall stumble in them, fathers and sons together, neighbor and his friend.
 
@@ -41943,7 +41943,7 @@
 
 6 I am raising up for her health and healing, and I will heal them; and I will reveal to them abundance of peace and truth.
 
-7 And I will restore the captive(-ity) of Judah and the captive(-ity) of Israel, and I will rebuild them as at first.
+7 And I will restore the captivity of Judah and the captivity of Israel, and I will rebuild them as at first.
 
 8 I will cleanse them from all their faults with which they sinned against me, and I will pardon their sins with which they sinned against me and with which they rebelled against me.
 
@@ -42699,7 +42699,7 @@
 
 8 Flee, turn aside, go deep to dwell, O inhabitants of Dedan, for calamity of Esau I have brought upon him, the time of his visitation.
 
-9 If grapegleanings had come to you, they would not have left (gleaning) of the grapes; if thieves in (mid-)night (season), they would have destroyed only as (much as is) sufficient.
+9 If grapegleanings had come to you, they would not have left (gleaning) of the grapes; if thieves in night, they would have destroyed only as (much as is) sufficient.
 
 10 For I have stripped Esau, I have uncovered his secret places, and he is not able to hide; his children and his brothers and his neighbors are destroyed, and he is not.
 
@@ -43243,7 +43243,7 @@
 
 43 You pursued us in anger and did not spare, You killed without pity.
 
-44 He covered you with a cloud(-y) to prevent the passing of prayer.
+44 He covered you with a cloud to prevent the passing of prayer.
 
 45 You make us offscouring and refuse among the nations.
 
@@ -43543,7 +43543,7 @@
 
 8 And behold, I have put bands on you, and you shall not turn from your side to your side until the days of your siege are completed.
 
-9 And you, take for yourself wheat(-en), barley, beans, lentile, millet, and fitches, rie; put them into one vessel, and make them into food for you, according to the number of days that you lie upon your side: three hundred and ninety days you shall eat it.
+9 And you, take for yourself wheat, barley, beans, lentile, millet, and fitches, rie; put them into one vessel, and make them into food for you, according to the number of days that you lie upon your side: three hundred and ninety days you shall eat it.
 
 10 And your food that you shall eat shall be by weight, twenty shekels a day; from time to time you shall eat it.
 
@@ -44936,7 +44936,7 @@
 
 13 For thus says the LORD God, after forty years I will gather Egypt from the nations where they were scattered.
 
-14 I will bring back the captive(-ity) of Egypt, and I will return them to the land of Pathros, to their land of birth, and there they shall be a lowly kingdom.
+14 I will bring back the captivity of Egypt, and I will return them to the land of Pathros, to their land of birth, and there they shall be a lowly kingdom.
 
 15 From the kingdoms you shall be lowly, and you shall no longer rise up over the nations, and I will diminish you so that you may not rule among the nations.
 
@@ -45241,7 +45241,7 @@
 
 28 And they shall no more be prey to the nations, and the beasts of the land shall not devour them; and they shall dwell securely and none shall make them afraid.
 
-29 And I will raise up for them a plant(-ation, -ing) for fame(-ous), and they shall no longer be gathered in famine from the land, nor shall they bear the reproach of the nations anymore.
+29 And I will raise up for them a plantation for renown, and they shall no longer be gathered in famine from the land, nor shall they bear the reproach of the nations anymore.
 
 30 And they shall know that I am the LORD their God with them, and they are my people, the house of Israel, says the Lord GOD.
 
@@ -46414,7 +46414,7 @@
 
 24 Then a hand was sent from before him, and this writing was inscribed.
 
-25 And this writing is prescribed: Mene, Mene, Tekel, and divide (U-) pharsin.
+25 And this writing is prescribed: Mene, Mene, Tekel, and divide Upharsin.
 
 26 This is the interpretation of the word: Mene, God has numbered your kingdom and brought it to an end.
 
@@ -47102,7 +47102,7 @@
 
 9 They have deepened their corruption, as in the days of Gibeah; he will remember their iniquity, he will punish their sins.
 
-10 Like (ripe) grapes in the wilderness I found Israel, like the firstripe (fruit) on a fig (tree) at its beginning I saw your (fore-) fathers; they came to Baal-peor and were defiled by the shameful thing, and became detestable like those they loved.
+10 Like (ripe) grapes in the wilderness I found Israel, like the firstripe (fruit) on a fig (tree) at its beginning I saw your fathers; they came to Baal-peor and were defiled by the shameful thing, and became detestable like those they loved.
 
 11 Ephraim, like a bird, their glory fleeth—away from birth, and from the womb, and from conception.
 
@@ -47739,7 +47739,7 @@
 
 13 Behold, days are coming, declares the LORD, when the plowman shall overtake the reaper and the treader of grapes the one who sows seed; and the mountains shall drip sweet wine, and all the hills shall melt.
 
-14 And I will restore the captive(-ity) of My people Israel, and they shall build cities that are waste and dwell therein, and plant vineyards and drink their wine, and make gardens and eat their fruit.
+14 And I will restore the captivity of My people Israel, and they shall build cities that are waste and dwell therein, and plant vineyards and drink their wine, and make gardens and eat their fruit.
 
 15 And I will plant them on their land, and they shall never again be uprooted from their land which I have given them, says the LORD your God.
 
@@ -47756,7 +47756,7 @@
 
 4 If you soar like the eagle and set your nest among the stars, from there I will bring you down, saith the LORD.
 
-5 If thieves came to you, if raiders by (mid-)night—how are you ruined? Would they not steal (much as is) sufficient? If grape pickers came to you, would they not leave (gleaning) (of the) grapes?
+5 If thieves came to you, if raiders by night—how are you ruined? Would they not steal (much as is) sufficient? If grape pickers came to you, would they not leave (gleaning) (of the) grapes?
 
 6 How Esau was searched out, his hidden things laid bare.
 
@@ -47869,7 +47869,7 @@
 
 7 And he cried out and said, In Nineveh by the decree of the king and his great ones, saying, The man and the beast, the beeve and the flock, shall not taste any thing, they shall not feed, and water they shall not drink.
 
-8 Let both man and beast be covered with sack(-cloth, -clothes); and let them cry mightily to God, and let each turn from his evil way and from the violence that is in their hands.
+8 Let both man and beast be covered with sackcloth; and let them cry mightily to God, and let each turn from his evil way and from the violence that is in their hands.
 
 9 Who knows? Perhaps God will turn and relent from his fierce wrath, and turn back from the anger of his face, and we will not perish.
 
@@ -48314,7 +48314,7 @@
 
 17 For the violence against Lebanon will cover you, and the destruction of cattle will make you desolate, because of the blood of man and the violence against the land, the city, and all who dwell in her.
 
-18 What good is a carved (graven) image when its maker has formed it? A molten (image) and a deceit(-ful) teacher, because the maker trusts in his own work, to make idols, things of nought.
+18 What good is a carved (graven) image when its maker has formed it? A molten (image) and a deceitful teacher, because the maker trusts in his own work, to make idols, things of nought.
 
 19 Woe to him who says to a piece of wood, "Awake!" and to a silent stone, "Arise!"—behold, it is overlaid with gold and silver, and there is no breath within it.
 
