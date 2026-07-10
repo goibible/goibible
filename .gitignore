@@ -2,6 +2,13 @@ __pycache__/
 *.pyc
 *.bak
 *.bak_*
+*.bak-*
 .~lock*
 .env
 .env.*
+
+# Compiled sqlite binaries are rebuilt from sqlite/schema.sql + reference_seed.sql
+# + versions/*.sql via sqlite/build_shell.sh and sqlite/assemble.sh — see sqlite/build_buffet.py.
+# Do not commit them; commit the .sql they're generated from/into instead.
+GOI_bible.sqlite3
+sqlite/shell.sqlite3

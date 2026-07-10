@@ -20,7 +20,8 @@ editions exist in English, Simplified Chinese, and Traditional Chinese —
 | `GOI_Bible_English/`, `GOI_Bible_Chinese_Hans/`, `GOI_Bible_Chinese_Hant/` | finished full-Bible editions (31,102 verse files each) |
 | `full_bible/` | consolidated single-markdown-file exports of each GOI edition + the generator script |
 | `Bible_Noun_Extraction/` | pipeline tools + `bible_noun.sqlite3` (NT noun/sense DB) + raw Greek `One_Directory_TR1550/`. Local directory, not a git submodule. |
-| `GOI_bible.sqlite3` | top-level project DB (current) |
+| `GOI_bible.sqlite3` | top-level project DB (current). **Gitignored, not committed** — rebuild it locally with `sqlite/assemble.sh`. |
+| `sqlite/` | git-trackable DB source: `schema.sql` + `reference_seed.sql` (structure/lookups) + `versions/<edition>.sql` (one importable, diffable SQL file per Bible edition). `build_shell.sh` builds the empty shell, `assemble.sh` loads any/all editions into a full working `.sqlite3`. Run `sqlite/build_buffet.py` after editing the flat-file corpora to regenerate `versions/*.sql`. |
 | `English_Bible_KJV/`, `English_Bible_WEBUS/`, `Chinese_Bible_CUV/` | public-domain reference editions |
 | `Greek_Bible_TR1550/`, `Hebrew_Bible_WLC/`, `sources/` | source corpora |
 | `validate.py`, `normalize_corpus.py` | integrity gate (currently NT-scoped) + punctuation canonicalizer |
