@@ -4,6 +4,17 @@ Full-Bible GOI editions in English, Simplified Chinese, and Traditional
 Chinese, plus a diffable SQLite distribution. Each GOI edition contains 31,102
 verse files covering Genesis through Revelation.
 
+GOI Bible treats translation as an auditable software project: one verse per
+file, every edition aligned by a Global Ordinal Index, text changes visible in
+Git, and SQLite exports that can be inspected, searched, joined, and rebuilt
+locally. The translations are AI-assisted, checked through repeatable audit
+passes, and released from public-domain Hebrew and Greek source texts under a
+permissive MIT license.
+
+The practical goal is simple: a complete Bible that can live offline on a
+laptop, USB stick, phone, or app bundle, while still being searchable like a
+database and reviewable like source code.
+
 ## Start here
 - **Provenance, verification, and copyright notes:** `README_GOI.md`
   in the public GitHub repo, or `docs/README_GOI.md` in the full working
@@ -12,6 +23,23 @@ verse files covering Genesis through Revelation.
   `GOI_Simplified_Chinese_Bible.md`, `GOI_Traditional_Chinese_Bible.md`
 - **Queryable SQLite data:** `sqlite/goi_bible_shell.db` plus
   `sqlite/versions/*.sql`
+
+## Why GOI?
+
+GOI stands for **Global Ordinal Index**: a single integer key for each verse in
+canonical reading order. That key makes cross-edition comparison a database
+operation instead of a manual alignment project. Missing verses, duplicate
+positions, structural drift, and cross-language joins can all be checked with
+ordinary SQL.
+
+This repo is meant to be useful in three ways:
+
+- **Readable:** complete English, Simplified Chinese, and Traditional Chinese
+  Bible exports are available as plain Markdown.
+- **Diffable:** verse text and SQL imports are plain text, so changes can be
+  reviewed in Git.
+- **Portable:** the SQLite shell plus edition imports can produce one offline
+  database containing source texts, reference editions, and GOI editions.
 
 ## Top-level layout
 | Path | What |
