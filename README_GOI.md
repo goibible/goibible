@@ -41,7 +41,7 @@ of a single large `.sqlite3` file, so it stays git-friendly and the verse
 text can never silently drift from the flat-file corpora above (which remain
 the single source of truth):
 
-- `sqlite/shell.sqlite3` — prebuilt schema + reference data (`editions`,
+- `sqlite/goi_bible_shell.db` — prebuilt schema + reference data (`editions`,
   `books`/OSIS, `iso_languages`/`iso_scripts`/`iso_regions`), **zero verses**.
   Small (~400KB), safe to use directly.
 - `sqlite/versions/<edition>.sql` — one plain-text `INSERT` script per edition
@@ -52,7 +52,7 @@ To get a full working database:
 cd sqlite && ./assemble.sh mybible.sqlite3        # all 7 editions
 cd sqlite && ./assemble.sh mybible.sqlite3 GOI_En # just one
 ```
-Or manually: `cp shell.sqlite3 mybible.sqlite3 && sqlite3 mybible.sqlite3 < versions/GOI_En.sql`.
+Or manually: `cp goi_bible_shell.db mybible.sqlite3 && sqlite3 mybible.sqlite3 < versions/GOI_En.sql`.
 
 To regenerate the buffet after editing any flat-file corpus:
 `python3 sqlite/build_buffet.py`. To regenerate the shell after a schema or

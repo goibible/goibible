@@ -1,42 +1,43 @@
-# bible — TR1550/WLC → any-language full-Bible translation pipeline
+# GOI Bible
 
-A pipeline to translate the Hebrew WLC (Old Testament) and Greek Textus
-Receptus Stephanus 1550 (New Testament) into any language. Worked, verified
-editions exist in English, Simplified Chinese, and Traditional Chinese —
-31,102 verse files each, covering the whole Bible (Genesis → Revelation).
+Full-Bible GOI editions in English, Simplified Chinese, and Traditional
+Chinese, plus a diffable SQLite distribution. Each GOI edition contains 31,102
+verse files covering Genesis through Revelation.
 
 ## Start here
-- **Translating a new language?** → `docs/tr1550_language_translation_instructions.md`
-  (master reference) and `docs/TRANSLATION_GUIDE.md` (short walkthrough).
-- **What's verified / provenance / copyright?** → `docs/README_GOI.md`
-- **Integrity gate:** `python3 validate.py` (run from this dir)
+- **Provenance, verification, and copyright notes:** `README_GOI.md`
+  in the public GitHub repo, or `docs/README_GOI.md` in the full working
+  source tree.
 - **Single-file reading copies:** `full_bible/GOI_English_Bible.md`,
   `GOI_Simplified_Chinese_Bible.md`, `GOI_Traditional_Chinese_Bible.md`
+- **Queryable SQLite data:** `sqlite/goi_bible_shell.db` plus
+  `sqlite/versions/*.sql`
 
 ## Top-level layout
 | Path | What |
 | --- | --- |
-| `docs/` | all documentation (master instructions, guide, provenance, audit, chinese gameplan) |
 | `GOI_Bible_English/`, `GOI_Bible_Chinese_Hans/`, `GOI_Bible_Chinese_Hant/` | finished full-Bible editions (31,102 verse files each) |
 | `full_bible/` | consolidated single-markdown-file exports of each GOI edition + the generator script |
-| `Bible_Noun_Extraction/` | pipeline tools + `bible_noun.sqlite3` (NT noun/sense DB) + raw Greek `One_Directory_TR1550/`. Local directory, not a git submodule. |
-| `GOI_bible.sqlite3` | top-level project DB (current). **Gitignored, not committed** — rebuild it locally with `sqlite/assemble.sh`. |
-| `sqlite/` | git-trackable DB source: `schema.sql` + `reference_seed.sql` (structure/lookups) + `goi_bible_shell.db` (small import-ready shell with no verse rows) + `versions/<edition>.sql` (one importable, diffable SQL file per Bible edition). `build_shell.sh` rebuilds the shell, `assemble.sh` loads any/all editions into a full working `.sqlite3`. Run `sqlite/build_buffet.py` after editing the flat-file corpora to regenerate `versions/*.sql`. |
-| `English_Bible_KJV/`, `English_Bible_WEBUS/`, `Chinese_Bible_CUV/` | public-domain reference editions |
-| `Greek_Bible_TR1550/`, `Hebrew_Bible_WLC/`, `sources/` | source corpora |
-| `validate.py`, `normalize_corpus.py` | integrity gate (currently NT-scoped) + punctuation canonicalizer |
-| `notes/`, `logs/`, `archive/` | prior-phase notes, run logs, and archived earlier project work (WLC, BCP47, atomizing) |
-| `backup/` | archived earlier pipeline snapshots |
+| `README_GOI.md` | provenance, verification, and copyright notes for the GOI editions |
+| `sqlite/` | SQLite schema, reference seed data, import-ready shell DB, and one SQL import file per edition |
 
-**Note:** `validate.py`'s automated checks are still NT-only (noun-occurrence
-DB scoped to TR1550). OT and Chinese verification was done via separate
-clause-check passes (all fully resolved) — see `docs/README_GOI.md` §3b for
-the consolidated status, not yet folded into `validate.py` itself.
+The full private/working source tree also contains translation-pipeline tools,
+reference corpora, audit logs, and notes. The public GitHub repo is intentionally
+smaller: it publishes the finished corpora and the diffable SQLite data needed
+to inspect or rebuild release databases.
 
 ## SQLite distribution
 
-Git tracks the diffable SQL source, not generated release databases. To build a
-full database locally:
+Git tracks the diffable SQL source, not generated release databases.
+
+- `sqlite/goi_bible_shell.db` is a small import-ready SQLite database with the
+  schema and reference tables already loaded, but zero verse rows.
+- `sqlite/versions/<edition>.sql` files are plain-text imports for each edition:
+  `GOI_En`, `GOI_Zh_Hans`, `GOI_Zh_Hant`, `KJV`, `WEBUS`, `TR1550`, and `WLC`.
+- Generated `.db`, `.sqlite3`, and app binaries belong in GitHub Releases or a
+  download bucket, not normal Git history.
+
+To build a full database locally:
 
 ```sh
 cd sqlite
@@ -57,6 +58,3 @@ To import manually, copy `sqlite/goi_bible_shell.db` and load one or more
 cp sqlite/goi_bible_shell.db GOI_bible_en.db
 sqlite3 GOI_bible_en.db < sqlite/versions/GOI_En.sql
 ```
-
-Generated `.db`, `.sqlite3`, and app binaries belong in GitHub Releases or a
-download bucket, not in normal Git history.
