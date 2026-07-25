@@ -4,6 +4,8 @@ Full-Bible GOI editions in English, Simplified Chinese, and Traditional
 Chinese, plus a diffable SQLite distribution. Each GOI edition contains 31,102
 verse files covering Genesis through Revelation.
 
+Project site: <https://goibible.org>
+
 GOI Bible treats translation as an auditable software project: one verse per
 file, every edition aligned by a Global Ordinal Index, text changes visible in
 Git, and SQLite exports that can be inspected, searched, joined, and rebuilt
@@ -19,9 +21,11 @@ database and reviewable like source code.
 - **Provenance, verification, and copyright notes:** `README_GOI.md`
   in the public GitHub repo, or `docs/README_GOI.md` in the full working
   source tree.
+- **Flat files:** one UTF-8 text file per verse in `GOI_Bible_English/`,
+  `GOI_Bible_Chinese_Hans/`, and `GOI_Bible_Chinese_Hant/`
 - **Single-file reading copies:** `full_bible/GOI_English_Bible.md`,
   `GOI_Simplified_Chinese_Bible.md`, `GOI_Traditional_Chinese_Bible.md`
-- **Queryable SQLite data:** `sqlite/goi_bible_shell.db` plus
+- **SQLite database:** `sqlite/goi_bible_shell.db` plus
   `sqlite/versions/*.sql`
 
 ## Why GOI?
