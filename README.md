@@ -6,6 +6,8 @@ verse files covering Genesis through Revelation.
 
 Project site: <https://goibible.org>
 
+App downloads: <https://goibible.org/download/>
+
 GOI Bible treats translation as an auditable software project: one verse per
 file, every edition aligned by a Global Ordinal Index, text changes visible in
 Git, and SQLite exports that can be inspected, searched, joined, and rebuilt
