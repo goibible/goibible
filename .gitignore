@@ -7,8 +7,17 @@ __pycache__/
 .env
 .env.*
 
-# Compiled sqlite binaries are rebuilt from sqlite/schema.sql + reference_seed.sql
-# + versions/*.sql via sqlite/build_shell.sh and sqlite/assemble.sh — see sqlite/build_buffet.py.
-# Do not commit them; commit the .sql they're generated from/into instead.
-GOI_bible.sqlite3
-sqlite/shell.sqlite3
+# Compiled SQLite binaries are rebuilt from sqlite/schema.sql + reference_seed.sql
+# + versions/*.sql via sqlite/build_shell.sh and sqlite/assemble.sh.
+# Do not commit generated databases; commit the .sql source instead.
+*.db
+*.sqlite3
+*.sqlite
+*.apk
+
+# The one tracked exception is a small import-ready shell with schema/reference
+# data but no Bible verse rows.
+!sqlite/goi_bible_shell.db
+
+sqlite/editions/
+goi_bible_downloads/
