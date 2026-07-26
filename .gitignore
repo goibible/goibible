@@ -21,3 +21,11 @@ __pycache__/
 
 sqlite/editions/
 goi_bible_downloads/
+
+# App-facing downloadable Bible databases. These are intentionally committed so
+# Android/desktop clients can fetch import-ready edition DBs from GitHub.
+!goi_db_download/
+!goi_db_download/*.db
+!goi_db_download/*.json
+!goi_db_download/*.md
+!goi_db_download/*.py
