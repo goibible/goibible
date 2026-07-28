@@ -59,6 +59,7 @@ CREATE INDEX idx_verses_edition_goi ON verses (edition_id, goi);
 CREATE INDEX idx_verses_goi ON verses (goi);
 CREATE INDEX idx_verses_language_subtag ON verses (language_subtag);
 CREATE INDEX idx_verses_canonical ON verses (conical, chapter, verse);
+CREATE INDEX idx_verses_edition_canonical ON verses (edition_id, conical, chapter, verse);
 CREATE INDEX idx_verses_version ON verses (version);
 
 CREATE VIEW verses_legacy AS
