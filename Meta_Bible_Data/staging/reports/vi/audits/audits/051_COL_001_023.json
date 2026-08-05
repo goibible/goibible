@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη μετακινουμενοι' (not being moved/shaken) is an adjective modifying the subjects (the believers), but the Vietnamese phrasing 'không bị lay chuyển khỏi hy vọng' makes it sound like a result or a conditional state rather than a descriptive attribute of their current standing in faith."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εν παση τη κτισει' (in all creation) is rendered as 'giữa mọi sự sáng tạo' (among/amidst all creation). While similar, 'in all' implies a scope of existence/participation that 'among' slightly narrows."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

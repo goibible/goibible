@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'λυσατε' (lysaste) is in the aorist indicative active, meaning 'you have destroyed/demolished'. The Vietnamese translation 'Hãy phá... đi' uses an imperative mood ('Please destroy/Go destroy'), which changes the statement from a declaration of what they *have done* to a command for them to *do it*."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

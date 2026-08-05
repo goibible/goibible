@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια την παρασκευην' (dia ten paraskeuen) refers to the day of Preparation (Friday), but the Vietnamese translation 'ngày sửa soạn' (preparation day) is a literal rendering of the word 'paraskevi' rather than the historical/religious context of 'Preparation Day'. While acceptable in some contexts, it may be confusing. More importantly, the Greek 'εγγυς ην το μνημειον' means 'the tomb was nearby', but the Vietnamese structure 'và mộ ở gần' (and the tomb was near) slightly alters the causal flow of the Greek sentence."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

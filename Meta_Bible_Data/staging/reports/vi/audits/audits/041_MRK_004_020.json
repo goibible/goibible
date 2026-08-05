@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπαρεντες' is a present active participle meaning 'those who save/preserve' (the seed). The Vietnamese 'được gieo' means 'those who are sown' (passive), which changes the subject's role from the one preserving the seed to the one receiving it."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the word 'hột' (seed) for the final results, whereas the Greek implies the fruit/yield of the seeds. However, more importantly, the Vietnamese 'kết quả' is used as a verb meaning 'to result/bear fruit', but it misses the specific connection to the 'fruit' produced by the seeds in the context of the parable."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και παραπεσοντας' (and having fallen) is a participle describing the action of the subjects. The Vietnamese 'thì không thể khiến họ lại ăn năn nữa' (then cannot make them repent again) introduces a causal impossibility/negation ('không thể') that is not present in the Greek text."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'cho mình một lần nữa' (for themselves once more). While 'παλιν' (again) appears earlier in the Greek, it modifies 'παραπεσοντας' (falling), not the act of crucifying. The Vietnamese phrasing implies they are repeating the act of crucifixion, whereas the Greek structure suggests the result of their repeated falling."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

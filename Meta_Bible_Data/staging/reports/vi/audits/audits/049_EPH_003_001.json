@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπερ υμων' (hyper hymon) means 'for your sake' or 'on behalf of you'. The Vietnamese translation 'vì anh em là dân ngoại' translates it as 'because you are Gentiles', which changes the grammatical relationship from a purpose/benefit to a causal reason."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

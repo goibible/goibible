@@ -1,0 +1,16 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Ruth QA batch.",
+  "groups": [
+    {
+      "name": "Ruth full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "RUT 1",
+        "RUT 2",
+        "RUT 3",
+        "RUT 4"
+      ]
+    }
+  ]
+}

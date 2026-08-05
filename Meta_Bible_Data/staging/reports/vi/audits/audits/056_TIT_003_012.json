@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρὸς σε' (to you) is translated as 'đến cùng con' (to/with my child). While 'con' might be a stylistic choice for 'you', the Greek does not specify a familial relationship. More importantly, the Greek 'πρὸς σε' indicates the destination/recipient of the sending, but the Vietnamese structure makes it sound like they are coming to the person *together*."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τυχικον σπουδασον' is an adverbial phrase (quickly/earnestly). The Vietnamese 'hãy gấp rút' captures the 'quickly' part, but the Greek specifically implies a sense of earnestness or diligence (σπουδασον) which is slightly flattened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

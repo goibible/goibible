@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο αδελφος σου' (your brother) is translated as 'anh em mình' (our brothers/siblings), changing the personal relationship from a specific individual to a collective group."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχει τι κατα σου' (has something against you) is translated as 'có điều gì chống lại mình' (have something against ourselves), changing the target of the grievance from 'you' to 'us/ourselves'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

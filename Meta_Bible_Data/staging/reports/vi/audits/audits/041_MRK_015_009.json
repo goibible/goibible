@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithe) is a negative response, meaning 'answered not' or 'refused to answer'. The Vietnamese translation 'trả lời' (answered) fails to convey the negation present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

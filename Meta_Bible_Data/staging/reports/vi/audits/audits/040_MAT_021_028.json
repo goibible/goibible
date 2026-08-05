@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι δε υμιν δοκει' translates to 'What seems to you?' or 'What do you think?', but the Vietnamese 'Các ngươi nghĩ sao?' (How do you think? / What do you think?) misses the specific nuance of 'what [it] seems to you'. More importantly, the Vietnamese phrasing can be interpreted as a general question rather than the specific rhetorical prompt 'What does it seem to you?'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσελθων' (having come near/approached) is rendered as 'đến với' (came to). While acceptable, the Vietnamese misses the specific sense of 'approaching' or 'coming up to' the son."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

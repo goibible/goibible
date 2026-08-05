@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Chúa' (Lord) twice. The Greek text does not contain a title for the person being addressed; it uses the pronoun 'σε' (you)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η εν φυλακη' is a coordinate structure meaning 'or in prison'. The Vietnamese 'hoặc ở trong ngục' correctly captures the sense, but the overall sentence structure in Vietnamese changes the flow of the 'never saw you' (ποτε δε σε ειδομεν) to apply specifically to 'weakness' and 'prison' in a way that slightly obscures the direct object 'you'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

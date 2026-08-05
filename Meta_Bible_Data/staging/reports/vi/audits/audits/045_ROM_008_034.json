@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο κατακρινων' (the one who judges) is translated as 'Ai là người lên án?' (Who is the one who judges?). The Vietnamese phrasing turns a declarative statement into an interrogative question, which changes the rhetorical structure of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

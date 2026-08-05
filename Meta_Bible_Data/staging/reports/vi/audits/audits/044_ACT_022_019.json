@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω ημην φυλακιζων' is passive (I was being imprisoned), but the Vietnamese 'tôi đã từng bỏ tù' is active (I imprisoned). This changes the subject of the action from the speaker to others."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατα τας συναγωγας τους' refers to 'their synagogues' (the synagogues of those they persecuted), whereas the Vietnamese 'trong các nhà hội' is a general location. However, the primary issue is the active/passive reversal."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

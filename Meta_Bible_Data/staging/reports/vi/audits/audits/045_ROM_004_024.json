@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'οις μελλει λογιζεσθαι' means 'who are to be accounted/judged' (passive/middle sense of 'logizomai'). The Vietnamese 'được kể là công bình' adds the specific concept of 'righteousness' (công bình) which is not present in the Greek text. Furthermore, the Greek structure suggests the believers themselves are the ones being 'accounted' (judged), while the Vietnamese phrasing makes it sound like they are being 'counted as righteous'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκ νεκρων' (from the dead) is correctly translated, but the Vietnamese 'làm cho... sống lại từ kẻ chết' slightly shifts the focus of the action compared to the direct prepositional phrase 'ek nekrōn'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

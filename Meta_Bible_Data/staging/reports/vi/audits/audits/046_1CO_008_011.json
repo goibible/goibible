@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ἀπολειται' (apoleitai) means 'is lost', 'perishes', or 'is destroyed' in a general sense. The Vietnamese 'hủy diệt' (destroyed/annihilated) is a strong rendering, but the primary issue is the relationship between the clauses. The Greek 'ἐπὶ τῇ γνώσεί' (epi tē gnōsei) indicates destruction *by means of* or *on account of* knowledge. The Vietnamese 'bởi sự hiểu biết của ngươi' suggests destruction *caused by* your knowledge, but the Greek structure implies a causal link to the fact that Christ died."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation adds 'là người mà' (who is the one whom), creating a relative clause structure that identifies the brother as the one for whom Christ died. The Greek 'δι ὅν' (di hon) functions as a causal/prepositional phrase ('because of whom' or 'through whom'), indicating the *reason* for the loss/destruction is the fact of Christ's death, not necessarily defining the brother's identity in that specific way."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

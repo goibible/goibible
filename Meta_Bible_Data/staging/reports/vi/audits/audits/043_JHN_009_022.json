@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποσυναγωγος' (aposynagōgos) refers to being 'put out of the synagogue' or 'excommunicated from the synagogue.' The Vietnamese translation 'đuổi ra khỏi nhà hội' (kicked out of the assembly/church) is a slightly different concept in a Jewish context, but more importantly, the Greek 'ομολογηση' (homologēsis) refers to the specific act of 'confessing' or 'acknowledging' Him as Christ. The Vietnamese 'xưng Ngài là Đấng Christ' captures the meaning well, but the phrase 'đã đồng ý với nhau' for 'συνετεθειντο' implies a mutual agreement/conspiracy which is accurate to the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation misses the specific nuance of 'αποσυναγωγος' as being specifically excluded from the synagogue (the religious community), though 'nhà hội' is a common rendering. However, the most significant issue is that the Greek says 'if they confess Him as Christ', while the Vietnamese says 'if anyone confesses Him'. The Greek 'τις αυτον' refers to 'them' (the parents/people) or 'him' (Christ). In this context, it refers to the people who would confess Him. The Vietnamese 'ai' (anyone) is a slight generalization of 'tis' (them)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

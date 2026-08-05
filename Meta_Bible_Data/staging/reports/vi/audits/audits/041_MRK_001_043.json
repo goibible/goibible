@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμβριμησαμενος' (embrimēsamenos) is a participle meaning 'having been angry' or 'being angry'. The Vietnamese 'quở nặng' (reproached/scolded severely) implies a specific action of verbal rebuke, whereas the Greek describes the state of anger that led to the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

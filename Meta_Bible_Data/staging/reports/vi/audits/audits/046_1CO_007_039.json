@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'muốn lấy ai tùy ý' (wants to take anyone at will) changes the meaning of the Greek 'ω θελει γαμηθηναι' (whomever she wishes to be joined/married to). The Greek implies a choice of a person, whereas the Vietnamese phrasing suggests a lack of restriction on the act itself or a general 'anyone'. More importantly, the Vietnamese 'lấy ai' is slightly broader than the specific grammatical structure of 'whom [she] wishes to be married to'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ελευθερα εστιν' (she is free) is rendered as 'thì vợ được tự do' (then the wife is free). While acceptable, the Vietnamese adds a slight emphasis on the result of the condition that is slightly more interpretive than the direct Greek statement."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

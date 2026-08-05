@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζωσιν' (zōsin) is a verb meaning 'to live' or 'be made alive'. The Vietnamese translation renders it as 'được sống' (to be lived/live), but the Greek structure 'κριθωσιν... ζωσιν' implies a contrast in the *manner* of judgment/existence. More importantly, the Greek 'ζωσιν' is in the subjunctive/aorist active, while the Vietnamese 'được sống' suggests a passive state or a result. However, the primary issue is the omission of the specific contrastive structure: the Greek says 'judged... [and] live', but the Vietnamese 'được sống' (be lived) slightly softens the active nature of the 'living' in the Greek."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ζωσιν δε' uses 'δε' as a contrastive particle. While 'nhưng' captures the contrast, the Vietnamese 'được sống' (to be lived/be alive) is a slightly different nuance than the Greek 'ζωσιν' (to live/be made alive) in this specific theological context of judgment."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη νοουντες' (not understanding) applies to the act of teaching/saying ('μητε α λεγουσιν μητε περι τινων διαβεβαιουνται'). The Vietnamese translation 'không hiểu điều mình nói' (do not understand what they say) suggests they are confused about their own speech, whereas the Greek structure implies they do not understand *while* they are saying/teaching. More importantly, 'περι τινων' (about others) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

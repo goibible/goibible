@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απελυσεν' (apelysen) means 'to come to his senses,' 'to be brought to his senses,' or 'to be sobered up.' The Vietnamese translation 'cầu xin ở với Ngài' (begged to stay with Him) is a complete mistranslation of the verb's meaning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εδεετο δε αυτου' implies the man was 'brought to his senses' by/because of Jesus, whereas the Vietnamese version misinterprets this as a request for companionship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οφθεντες' (oph-thentes) means 'the cowardly' or 'the fearful'. The Vietnamese 'hiện ra' (appearing/showing up) is a mistranslation of the adjective describing the people."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν δοξη' (en doxe) means 'in glory'. While the Vietnamese includes 'vinh hiển', it is attached to the incorrect verb 'hiện ra' instead of describing the state of the cowardly people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "book": "REV",
+  "chapter": 20,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ουχ' (ouch) is a negation, meaning 'not' or 'no'. The Vietnamese translation 'chẳng phải như vậy' correctly negates the manner, but it fails to capture the emphatic negation of the verb 'εμαθετε' (you did not learn). The Greek implies 'You did not learn Christ in such a way', whereas the Vietnamese phrasing can be interpreted as 'You learned Christ, but not in that way'. A more faithful rendering would ensure the negation applies directly to the action of learning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πραθεν' (prathen) is the aorist active indicative of 'praō', meaning 'to sell'. The Vietnamese translation treats it as a conditional/hypothetical ('Khi đã bán rồi'), whereas the Greek structure 'ουχι... πραθεν... πραθεν' is a contrast between 'not sold' and 'sold'. More importantly, the Greek 'πραθεν εν τη ση εξουσια' implies 'sold [it] into your authority/possession' (or 'into your power'). The Vietnamese 'há chẳng ở trong quyền ngươi sao?' captures the location but loses the specific action of 'selling' into that state."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εψευσω ανθρωποις αλλα τω θεω' uses 'αλλα' (but/rather), creating a contrast: 'not lying to humans, but [to] God'. The Vietnamese 'bèn là' (then/consequently) implies a sequence of events (first lying to humans, then to God), which changes the logical relationship from a contrast of audience to a chronological sequence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σκυλλεις' (skyulleis) is a specific verb meaning 'to dog' or 'to hound/harass'. The Vietnamese translation 'làm phiền' (disturb/bother) is a general term that loses the specific nuance of the Greek imagery of 'dogging' someone's heels."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

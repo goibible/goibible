@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λογος' (logos) refers to the 'word' or 'message' (what was being said), whereas the Vietnamese 'Danh tiếng' translates to 'reputation' or 'fame'. This changes the focus from the content of the teaching to the public perception of the person."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασθενειων' (astheneia) refers to 'sicknesses' or 'infirmities' (physical/spiritual ailments), while the Vietnamese 'yếu đuối' typically means 'weakness' or 'frailty' in a general sense, potentially missing the specific context of healing from disease."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

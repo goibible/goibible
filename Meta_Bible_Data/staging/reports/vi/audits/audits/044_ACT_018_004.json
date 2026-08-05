@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διελεγετο' (dielegeto) means 'reasoned', 'argued', or 'disputed'. The Vietnamese translation 'thuyết phục' means 'persuaded' or 'convinced', which implies a successful outcome not present in the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συνδουλους' (syndoulous) means 'slaves' or 'bondservants'. The Vietnamese translation 'bạn đồng công' means 'co-workers' or 'colleagues', which changes the social status and nature of the relationship described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

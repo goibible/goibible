@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πατηρ' (father) is singular, but the Vietnamese 'Cha' (Capitalized) implies God/the Father. In this context of familial rebellion, it refers to a biological father. Furthermore, the Vietnamese 'giết họ' (kill them) is an addition/interpretation; the Greek 'θανατωσουσιν αυτους' (they will put them to death) is rendered as 'giết' (kill), which is acceptable, but the shift from 'father' to 'God' changes the scope of the verse."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'πατηρ τεκνον' (father [delivers] children) is a singular subject, but the Vietnamese uses 'Cha' which may be interpreted as a title for God, potentially confusing the familial context of the list."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'α μελλει αποθανειν' (which is about to die) refers back to 'τα λοιπα' (the remaining things). The Vietnamese translation renders this as 'là những điều sắp chết' (are the things about to die), which is grammatically acceptable, but it fails to capture the specific sense of 'remaining' (λοιπα) as the primary subject. However, a more significant issue is the rendering of 'α μελλει αποθανειν' as 'sắp chết' (about to die) in a way that might be misinterpreted as 'dying' in a biological sense rather than 'perishing/failing' in a spiritual/functional sense, though this is borderline. The main issue is the structural ambiguity of 'τα λοιπα α μελλει αποθανειν' which means 'the remaining things which are about to perish'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

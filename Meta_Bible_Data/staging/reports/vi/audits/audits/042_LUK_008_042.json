@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτω' (autō) indicates the daughter was *his* (the father's). The Vietnamese translation 'có một con gái độc nhất' omits the possessive relationship to the subject."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν δε τω υπαγειν αυτον' means 'while he was going/leaving'. The Vietnamese 'Nhưng khi Ngài đi' uses 'Nhưng' (But), which is not present in the Greek and creates a contrastive transition that isn't in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

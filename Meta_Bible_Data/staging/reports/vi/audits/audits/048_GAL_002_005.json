@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη υποταγη' (the submission) is the direct object of the verb 'ειξαμεν' (we did not yield/give). The Vietnamese translation 'để khỏi phải chịu sự phục tùng' (so as not to have to undergo submission) changes the grammatical relationship. In Greek, it means 'we did not yield [them] to submission', whereas the Vietnamese implies they are avoiding being submitted to by someone else."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

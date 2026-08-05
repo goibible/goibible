@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation incorrectly structures the sentence such that the 'faith' (pistin) is being sent ('gửi cho'), whereas in the Greek, the people are 'receiving' (lakhousin) the faith. The Vietnamese phrasing 'gửi cho những người... đã nhận được đức tin' suggests a sequence of sending to those who have already received it, rather than the Greek 'receiving faith through [the means].'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

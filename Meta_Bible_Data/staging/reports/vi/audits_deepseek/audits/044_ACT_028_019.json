@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του εθνους μου' means 'my nation' (i.e., the Jewish people), but the Vietnamese renders it as 'dân ngoại của mình' ('my Gentile people'), which reverses the meaning: Paul is saying he had nothing to accuse his own nation (the Jews) of, not the Gentiles."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

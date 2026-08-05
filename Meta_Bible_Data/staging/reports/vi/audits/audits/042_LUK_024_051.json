@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεφερετο' (anephereto) is in the middle voice (deponent), indicating that He was being taken up or carried up, but the Vietnamese 'được đem lên trời' implies a passive construction where someone else carried Him. While close, the Greek emphasizes the action of the subject being 'taken up'. More importantly, the Greek is 'ανεφερετο' (was being taken up) while the Vietnamese 'được đem lên' is often used for 'was carried/brought', but the primary issue is ensuring the transition from 'departed' to 'taken up' maintains the same subject focus."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

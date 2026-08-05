@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation repeats 'kẻ tà dâm' twice (kẻ tà dâm và kẻ tà dâm), whereas the Greek text distinguishes between two different types of sexual immorality: 'πορνους' (fornicators/prostitutes) and 'μοιχους' (adulterers)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

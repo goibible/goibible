@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανδραποδισταις' (andrapodistais) refers to those who practice male prostitution/homosexuality or 'men-loving'. The Vietnamese 'kẻ bắt người làm nô lệ' means 'slave traders' or 'those who enslave people', which is a significant factual error in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

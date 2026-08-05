@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραστησαι' (parastēsai) means 'to present,' 'to set up,' or 'to exhibit.' The Vietnamese 'trình diện' usually means 'to report for duty' or 'to present oneself to an authority.' The Greek construction implies God/the speaker is presenting *you* (the believers) as holy, not that the believers are presenting themselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

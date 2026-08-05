@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ομοιωθησεται' (homoiōthēsetai) is a passive verb meaning 'will be likened to' or 'will be compared to'. The Vietnamese translation 'sẽ giống như' (will be like) treats the comparison as an identity or a direct simile without capturing the passive/comparative nature of the Greek construction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'αιτινες λαβουσαι τας λαμπαδας αυτων' (who, having taken their lamps) is simplified in Vietnamese to 'cầm đèn của mình'. While the meaning is largely preserved, the causal/participial nuance of 'having taken' is lost."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

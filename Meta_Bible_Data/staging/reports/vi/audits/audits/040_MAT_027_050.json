@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αφηκεν' (apheken) means 'took away' or 'removed'. The Vietnamese translation 'buông' (released/let go) changes the meaning of the action performed by Jesus regarding the Spirit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

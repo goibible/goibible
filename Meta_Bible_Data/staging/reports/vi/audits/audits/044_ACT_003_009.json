@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation omits the word 'και' (and) connecting the two actions. It implies the people saw the person *while* walking and praising, whereas the Greek structure ('περιπατουντα και αινουντα') describes the person as 'walking and praising' (participial phrases describing the subject). The Vietnamese 'thấy người bước đi và ngợi khen' can be interpreted as the people doing the praising, rather than the person being seen walking and praising."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

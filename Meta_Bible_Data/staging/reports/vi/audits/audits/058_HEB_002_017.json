@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ομοιωθηναι' (homoiōthēnai) is a passive/middle form meaning 'to be made like' or 'to be made similar to'. The Vietnamese 'làm giống như' (to act like/do like) shifts the focus from a state of being/becoming similar to an action of behaving similarly."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τα προς τον θεον' (ta pros ton theon) specifies 'the things [belonging] to God'. The Vietnamese 'những việc thuộc về Đức Chúa Trời' is a good rendering, but the Greek structure implies 'the things [concerning/towards] God' in the context of the priesthood."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

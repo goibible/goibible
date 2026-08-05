@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'bội phần' (manifold/much more), which is not present in the Greek text ('υπερνικωμεν' simply means 'we are more than conquerors')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

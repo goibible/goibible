@@ -1,0 +1,3 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+GEN,8,9,orange,missing_expected_name,Nô-ê,,Expected approved name 'Nô-ê' from VIE1934 occurrence.
+GEN,25,11,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.

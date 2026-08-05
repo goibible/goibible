@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκβαλειν' (ekbalein) is an infinitive meaning 'to cast out' or 'to throw out'. The Vietnamese translation 'đuổi được' implies 'could not chase/drive away', which changes the nature of the action from a specific act of casting out (exorcism context) to a general inability to drive something away."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

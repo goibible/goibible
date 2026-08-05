@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'hư mất' (perish/be destroyed) is an interpretation of the Greek 'απολουνται' (are lost/perished). While semantically related, 'hư mất' can imply a state of decay or destruction that might be slightly different from the specific sense of 'lost' in this context. However, the more significant issue is the structural rendering of 'ανομως και απολουνται'. The Greek structure implies they are lost *in* unrighteousness (the manner of their sin). The Vietnamese 'hư mất không luật pháp' makes it sound like they are being destroyed *by* or *without* law, which slightly shifts the grammatical relationship."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ανομως' (in unrighteousness/lawlessness) is translated as 'không luật pháp'. While 'không luật pháp' captures the lack of law, it misses the nuance of 'unrighteousness' as a state of being. However, per instructions to be lenient on stylistic choices that preserve meaning, this is borderline. The primary concern is ensuring 'hư mất' accurately reflects 'απολουνται'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

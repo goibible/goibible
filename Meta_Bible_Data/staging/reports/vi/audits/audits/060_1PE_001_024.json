@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εξηρανθη' (exēranthē) is in the aorist passive voice, indicating that the grass 'was dried up' or 'withered.' The Vietnamese translation 'Cỏ khô' uses an adjective/state ('dry grass') rather than reflecting the completed action of withering described in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εξηρανθη ο χορτος' (the grass was dried up) is rendered as a simple statement 'Cỏ khô', losing the verbal action. Additionally, the Vietnamese 'hoa nó rụng' omits the specific connection to 'αυτου' (its), though it is implied by context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

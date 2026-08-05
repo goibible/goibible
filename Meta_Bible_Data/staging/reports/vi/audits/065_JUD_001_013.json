@@ -1,0 +1,58 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επαφριζοντα τας εαυτων αισχυνας' describes the waves as 'frothing [with] their own shame'. The Vietnamese translation 'sôi bọt xấu hổ của chúng' (boiling foam of theirs) loses the grammatical connection that the shame belongs to the waves themselves."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οις' (for whom/to whom) is missing in the Vietnamese translation, which fails to link the stars to the previous clause or indicate the relationship between the stars and the darkness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 4107,
+          "lemma": "planētes",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'đi lang thang' (wandering) captures the literal meaning of 'planētēs', but in a cosmological context, it refers to 'planets'. However, since the Greek text uses the word 'planētēs', the translation is technically accurate to the lemma but might lose the specific astronomical nuance."
+        },
+        {
+          "strongs_num": 165,
+          "lemma": "aiōn",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'đời đời' translates to 'forever/eternally', whereas the lemma 'aiōn' often refers to an 'age' or 'aeon'. While 'forever' is a common rendering, it slightly shifts from the specific temporal scope of 'aeon'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "surface_form": "θαλασσησ (θάλασσα)",
+          "category": "PLACE",
+          "problem": "missing",
+          "detail": "The Greek noun for 'sea' (θάλασσα) is missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

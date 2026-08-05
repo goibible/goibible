@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη τις ουν αυτον εξουθενηση προπεμψατε' uses 'εξουθενηση' (exhausting/wearying) as a modifier for the sending. The Vietnamese 'khinh dể' (despise/neglect) is a significant semantic shift; it changes the meaning from 'do not send him in an exhausted state' to 'do not despise him'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

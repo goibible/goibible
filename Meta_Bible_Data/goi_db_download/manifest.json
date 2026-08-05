@@ -1,0 +1,98 @@
+{
+  "format": "goi-sqlite-edition-db",
+  "generated_at": "2026-08-05T22:15:34+00:00",
+  "source": {
+    "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
+    "sql_dir": "Meta_Bible_Data/sqlite/versions"
+  },
+  "editions": [
+    {
+      "edition_id": "GOI_En",
+      "display_name": "GOI Bible English",
+      "bcp47_tag": "en",
+      "language_subtag": "en",
+      "status": "active",
+      "file": "GOI_En.db",
+      "size_bytes": 9039872,
+      "sha256": "4843a542d262456cd18812b2aae87a495ecaf6cb89030bccabd581dea418e995",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Zh_Hans",
+      "display_name": "GOI Bible Simplified Chinese",
+      "bcp47_tag": "zh-Hans",
+      "language_subtag": "zh",
+      "status": "active",
+      "file": "GOI_Zh_Hans.db",
+      "size_bytes": 9355264,
+      "sha256": "0a1ca0d5758c0fa5101453d5c600d13272ad5c80504113846a27bbaf767337a8",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Zh_Hant",
+      "display_name": "GOI Bible Traditional Chinese",
+      "bcp47_tag": "zh-Hant",
+      "language_subtag": "zh",
+      "status": "active",
+      "file": "GOI_Zh_Hant.db",
+      "size_bytes": 9355264,
+      "sha256": "cf7ca4f7372279b2c14d96ecd4514933db417ee792eab1414982b018eaaefb82",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_vi",
+      "display_name": "Tiếng Việt - Kinh Thánh GOI",
+      "bcp47_tag": "vi",
+      "language_subtag": "vi",
+      "status": "active",
+      "file": "GOI_vi.db",
+      "size_bytes": 10559488,
+      "sha256": "bb109eb258ed78df04711c79fb48554099f3f2352c53d25b9b3c755b27d16351",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "KJV",
+      "display_name": "King James Version",
+      "bcp47_tag": "en",
+      "language_subtag": "en",
+      "status": "active",
+      "file": "KJV.db",
+      "size_bytes": 8740864,
+      "sha256": "ec223ff290d5b16d26a68332cdf46c311f7411cef4e73d2628aa64a43cb7646d",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "TR1550",
+      "display_name": "Textus Receptus 1550",
+      "bcp47_tag": "el",
+      "language_subtag": "el",
+      "status": "active",
+      "file": "TR1550.db",
+      "size_bytes": 3149824,
+      "sha256": "24c9adf39c4c73474254a0a93d2cf472add575f063b9085f11ae66b565a74235",
+      "verse_count": 7957
+    },
+    {
+      "edition_id": "WEBUS",
+      "display_name": "World English Bible (US)",
+      "bcp47_tag": "en-US",
+      "language_subtag": "en",
+      "status": "active",
+      "file": "WEBUS.db",
+      "size_bytes": 8892416,
+      "sha256": "3a7d5c1c5756084338edcb783ae5da12232a00ee95e30954d9098bbe3d9260ab",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "WLC",
+      "display_name": "Westminster Leningrad Codex",
+      "bcp47_tag": "he",
+      "language_subtag": "he",
+      "status": "active",
+      "file": "WLC.db",
+      "size_bytes": 8904704,
+      "sha256": "c90a85349de7b482d16436d3008b07068e6f8775020ede4fe6dd95256d01c9d1",
+      "verse_count": 23145
+    }
+  ]
+}

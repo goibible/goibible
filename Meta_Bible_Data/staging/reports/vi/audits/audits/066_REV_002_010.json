@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεν φοβου' (do not fear) is rendered as 'Chớ sợ', but the Greek specifically says 'do not fear [the fact that] you are about to suffer'. The Vietnamese 'Chớ sợ điều ngươi sắp chịu khổ' implies 'Do not fear the thing you are about to suffer', whereas the Greek structure 'μηδεν φοβου α μελλεις πασχειν' is more of a command/declaration: 'Do not fear, [for] you are about to suffer.' However, the primary issue is the scope of 'μηδεν'. In Greek, it functions as a negative particle for the verb. The Vietnamese translation is acceptable here."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ιδου' (Behold/See) is translated as 'Nầy', which is correct. However, the phrase 'εξ υμων' (out of you/from among you) is rendered as 'một số trong các ngươi' (a number of you). The Greek does not specify 'a number' (một số); it simply says 'out of you'. This adds a specific quantity not present in the source."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

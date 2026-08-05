@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ασπασασθε' (aspasasthe) is an imperative of 'ἀσπράζω', which means 'to kiss' (embrace/greet with a kiss). The Vietnamese translation 'Hãy chào' (Please greet/say hello) misses the specific physical action of kissing required by the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

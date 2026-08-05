@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκατον τεσσαρακοντα τεσσαρων' means 144. The Vietnamese 'một trăm bốn mươi bốn' is correct, but the Greek structure 'τεσσαρακοντα τεσσαρων' (forty-four) is used to express the number 144 in this context (100 + 44). However, the Vietnamese translation is accurate to the numerical value."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετρον ανθρωπου' means 'the measure of a man'. The Vietnamese 'theo cái lường của người' (according to the measure of the person/man) is acceptable, but the phrase 'ο εστιν αγγελου' describes the 'measure of a man' as being 'that of an angel'. The Vietnamese 'cũng là của thiên sứ' (also is of the angel) slightly obscures that the 'measure of a man' IS the 'measure of an angel'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

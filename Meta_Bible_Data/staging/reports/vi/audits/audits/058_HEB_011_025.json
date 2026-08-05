@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μαλλον' (mallon) functions here as a comparative particle meaning 'rather' or 'would rather', but the Vietnamese translation 'đã chọn' (has chosen) implies a completed action of choice/decision. The Greek expresses a preference or a state of being ('would rather suffer') rather than a specific act of choosing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αξει' (axei) means 'is worthy' or 'deserves.' The Vietnamese translation 'sẽ đem' (will bring/take) changes the meaning from a statement of worthiness to an action of bringing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

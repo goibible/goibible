@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đánh chết' (beat to death/killed) adds a specific result of death that is not present in the Greek 'παταξας' (having struck/beaten). The Greek indicates an act of striking, not necessarily a fatal outcome."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

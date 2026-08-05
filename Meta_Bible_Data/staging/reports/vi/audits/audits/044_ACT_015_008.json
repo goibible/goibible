@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμαρτυρησεν' (emartyresen) means 'bore witness to' or 'testified to'. The Vietnamese translation 'làm chứng cho họ, ban Thánh Linh' (testified to them, gave the Holy Spirit) adds the action of 'giving/bestowing' (ban) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκτησαμην' (ektesamēn) is the perfect tense of 'ektēmai', meaning 'I have purchased' or 'I have bought'. The Vietnamese 'đã mua' correctly captures the action, but the Greek 'πολλου κεφαλαιου' refers to 'many sums' or 'much money/capital'. The Vietnamese 'một tổng số lớn' (a large total) is a slight shift in nuance, but the primary issue is the omission of the contrastive structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'ο δε παυλος εφη' indicates 'But Paul said'. The Vietnamese 'Phao-lô nói' omits the contrastive 'but' (δε), which is significant in the dialogue structure between the Chiliarch and Paul."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

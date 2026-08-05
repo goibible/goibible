@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την ιδιαν δικαιοσυνην' means 'their own righteousness'. The Vietnamese translation 'sự công bình riêng của mình' is acceptable, but the structure of the sentence in Vietnamese suggests they are seeking their own righteousness *in order to* avoid/not submit to God's, whereas the Greek indicates that the *reason* (gar) for not submitting is that they ignore God's righteousness while seeking their own."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the nuance of 'ζητουντες' (seeking/pursuing) as a simultaneous action or a contrasting state to 'αγνοουντες' (ignoring). The Vietnamese 'và tìm cách' (and try to) slightly softens the active pursuit implied by 'ζητουντες'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

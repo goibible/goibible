@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'απολεσθαι' (apolesthai) means 'to be lost,' 'perish,' or 'be destroyed.' The Vietnamese translation uses 'bị giết' (to be killed), which is a more specific action than the Greek term implies."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

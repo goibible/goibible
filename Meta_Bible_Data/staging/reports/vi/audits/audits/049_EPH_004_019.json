@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đành bỏ mình' (gave themselves up/abandoned themselves) is slightly different from the Greek 'παρεδωκαν' (handed over/delivered over), but more importantly, the phrase 'mất cả sự cảm biết' is not present in the Greek text provided. The Greek starts directly with 'οιτινες απηλγηκοτες' (who, being [people who]...)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'để làm ra đủ mọi thứ lợi' (to produce all kinds of benefits) is a significant addition/interpretation. The Greek 'εις εργασιαν ακαθαρσιας πασης' means 'into the work of all uncleanness.' The Vietnamese adds a concept of 'profit/benefit' (lợi) that is not in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

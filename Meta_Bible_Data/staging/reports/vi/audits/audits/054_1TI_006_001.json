@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τους ιδιους δεσποτας' (their own masters) is rendered as 'coi chủ mình' (consider their own masters). The Greek text does not contain a verb of perception or cognition like 'consider' or 'regard'; it describes the status of those under the yoke as being slaves to their own masters."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'πασης τιμης αξιους' (worthy of all honor) is partially omitted/compressed. The Vietnamese 'đáng trọng mọi vinh dự' translates to 'worthy of all honor', but it fails to capture the specific Greek structure where they are slaves *to* their masters [who are] worthy of all honor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

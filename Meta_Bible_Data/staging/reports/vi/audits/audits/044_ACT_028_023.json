@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλειονες' (more/greater) is used as an adverbial modifier of quantity regarding the number of people coming, but the Vietnamese 'nhiều người' (many people) misses the comparative nuance of 'more'. However, the more significant issue is the structural shift in the final clause."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek structure 'πειθων τε αυτους τα περι του ιησου απο τε του νομου... και των προφητων' indicates that he was persuading them *about* Jesus *from/by means of* the Law and the Prophets. The Vietnamese translation 'dùng luật Môi-se và các nhà tiên tri để thuyết phục họ về Chúa Giê-xu' (using the Law of Moses and the prophets to persuade them about Jesus) slightly shifts the relationship of the instruments, though it is close. A more precise rendering would ensure 'about Jesus' is clearly the object of the persuasion derived from the source texts."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

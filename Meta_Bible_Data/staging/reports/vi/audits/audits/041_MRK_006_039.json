@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμποσια συμποσια' (symposia symposia) refers to a banquet or a feast. The Vietnamese translation 'từng đoàn' (in groups/rows) misses the specific concept of a banquet/feast, which is the core object of the verb 'επεταξεν' (arranged/ordered)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

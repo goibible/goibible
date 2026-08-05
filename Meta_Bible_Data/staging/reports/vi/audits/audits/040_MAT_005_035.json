@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μητε... μητε' (neither... nor) is rendered as 'cũng đừng chỉ... mà thề'. The Vietnamese adds 'thề' (swear/vow), which is not present in the Greek text. The Greek simply says 'neither the earth... nor Jerusalem'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

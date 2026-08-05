@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κεντρον' (kentron) refers to a 'center', 'point', or 'hub'. The Vietnamese translation 'Nọc' (venom/poison) changes the conceptual meaning from a central point of origin/focus to a biological toxin."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

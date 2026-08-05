@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εξαναστασιν' (exanastasin) refers to the 'resurrection' as a collective event or state of rising up, whereas the Vietnamese 'sự sống lại' (resurrection/living again) combined with 'từ trong kẻ chết' (from among the dead) changes the grammatical structure. Specifically, the Greek is 'resurrection OF the dead' (the subjects), but the Vietnamese renders it as 'resurrection FROM the dead' (the source/origin)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

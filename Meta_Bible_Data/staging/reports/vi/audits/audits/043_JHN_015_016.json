@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 15,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'και ο καρπος υμων μενη' (and your fruit remains) is rendered in Vietnamese as 'hầu cho trái các ngươi còn lại; lại cũng cho...' The addition of 'lại cũng cho' (and also give/let) creates a grammatical disconnect. In the Greek, 'μενη' (remains) is the verb for the first clause, while the second clause starts with 'ινα ο τι αν αιτησητε' (so that whatever you ask). The Vietnamese translation makes it sound as if the fruit 'remains' and then 'gives' something, whereas the Greek structure is: [Fruit remains] AND [Whatever you ask... He gives]."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την ζωνην του παυλου' refers to Paul's belt (the belt of Paul), but the Vietnamese 'lấy dây nịt của Phao-lô' combined with 'trói tay và chân mình lại' implies he used Paul's belt to bind *his own* hands and feet. The Greek 'δησας τε αυτου τας χειρας και τους ποδας' indicates he bound *his [Paul's]* hands and feet."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Người có dây nịt nầy' (The one who has this belt) is a slight shift from the Greek 'τον ανδρα ου εστιν η ζωνη αυτη' (the man on whom this belt is [not]). The Greek specifies that the belt is *not* on the man, whereas the Vietnamese phrasing suggests the man *possesses/has* the belt."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

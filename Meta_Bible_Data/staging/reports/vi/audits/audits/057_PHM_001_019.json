@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα μη λεγω σοι' means 'so that I might not say to you' (expressing a purpose or reason for the action). The Vietnamese 'không cần nói với anh' translates to 'no need to say to you', which changes the grammatical function and meaning of the phrase."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσοφειλεις' (you owe) is rendered as 'mắc nợ' (debt/owing), but the Vietnamese structure 'chính anh cũng mắc nợ tôi' implies a reciprocal debt situation that slightly shifts the emphasis of the Greek 'και σεαυτον μοι' (and yourself to me)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

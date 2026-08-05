@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ επραθη' (was not sold) is translated as 'không được bán' (was not allowed to be sold / was not sold), but the specific error is in the scope of the negation. The Greek says the oil was NOT sold for 300 denarii, but the Vietnamese phrasing 'không được bán lấy ba trăm đơ-ni-ê' can be interpreted as 'not being sold *for the purpose of* getting 300 denarii'. More importantly, the Greek 'ουκ επραθη' is a simple negative of the action of selling. The Vietnamese 'được bán' adds a passive/permission nuance not present in the simple passive 'επραθη'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

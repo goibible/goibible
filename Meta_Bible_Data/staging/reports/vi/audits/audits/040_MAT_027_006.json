@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τα αργυρια' (the silver) is plural, but the Vietnamese translation uses 'nó' (it), which is singular. This changes the number of the objects being discussed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

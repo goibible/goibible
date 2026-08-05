@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'οτι μετενοησαν' (that they repented), but the Vietnamese translation adds 'vì' (because) and implies a causal link that isn't explicitly structured as a reason in the Greek, and more importantly, the Greek 'οτι' marks the content of the accusation. However, the most critical issue is that the Vietnamese says 'ăn năn' (repented), while the Greek 'μετενοησαν' in this context (accusing them of repenting) is often understood as 'they [had] repented'. The Vietnamese phrasing 'vì họ đã ăn năn' suggests they repented *because* they heard, whereas the Greek 'οτι μετενοησαν εις το κηρυγμα' indicates they repented *at/in response to* the preaching. The primary issue is the Vietnamese 'vì' (because) which introduces a causal logic not present in the Greek 'οτι' (that)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

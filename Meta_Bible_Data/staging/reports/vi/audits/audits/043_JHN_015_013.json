@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 15,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τουτης' (of this) is omitted in the Vietnamese translation, which refers to 'this love' (the love of God/sacrifice mentioned in the preceding context)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα' (so that / in order that) indicates a purpose or result, but the Vietnamese 'là vì' (is because) renders it as a causal explanation. The Greek structure implies: 'No one has a greater love [than this] so that he might lay down his soul for his friends.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το σπερμα ω επηγγελται' refers to the 'seed which is promised' (the promised seed). The Vietnamese translation 'là hạt giống mà lời hứa đã được hứa cho' (is the seed for which the promise was promised) is a nonsensical/redundant phrasing that misrepresents the simple relative construction of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

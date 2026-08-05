@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ της του ουριου' (from the woman Uri) is translated as 'bởi vợ của U-ri' (by the wife of Uri). In Vietnamese, 'bởi' can imply agency (by means of/by), whereas the Greek indicates origin/source (from). More importantly, the Greek specifies 'the woman' (της του), which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Đức Chúa Trời là Cha' (God is Father) changes the Greek structure 'απο θεου πατρος' (from God, [who is] Father). The Greek indicates the source of grace/peace is from God the Father; the Vietnamese phrasing suggests a definition of God as Father rather than the source of the blessing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits 'Κυρίου' (Lord) preceding 'ημων' (our). While it mentions 'Chúa Giê-xu', the specific construction 'Lord of our Jesus Christ' is simplified to 'Jesus Christ is our Lord'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

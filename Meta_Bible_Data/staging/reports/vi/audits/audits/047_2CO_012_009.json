@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τελειουται' (teleioutai) is a passive/middle verb meaning 'is perfected' or 'is completed'. The Vietnamese 'nên trọn vẹn' translates to 'becomes complete' or 'should be complete', which misses the passive sense of the power being completed *in* the weakness."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχησομαι' (kauchēsomai) means 'to glory in' or 'to boast'. The Vietnamese 'vui lòng khoe mình' (gladly boast/show off) adds a nuance of 'gladly' (vui lòng) that is not explicitly in the Greek, and 'khoe mình' can sometimes imply self-congratulation rather than the specific theological sense of 'glorying in' a state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

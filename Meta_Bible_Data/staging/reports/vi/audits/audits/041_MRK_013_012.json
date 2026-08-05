@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πατηρ τεκνον' (father [to] children) is a transitive construction indicating the father delivering the child to death, similar to 'αδελφος αδελφον'. The Vietnamese 'Cha sẽ nộp con cái' (Father will deliver children) omits the destination of the delivery ('εις θανατον' - to death), which is present in the first half of the Greek verse."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'khiến họ phải chết' (make them die) at the end. While this captures the meaning of 'θανατωσουσιν αυτους' (they will kill them), it transforms a direct verb of action into a causative construction not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

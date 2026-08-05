@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ον ημεις' (which we) is translated as 'Ấy là Ngài mà chúng tôi' (It is Him that we). The Vietnamese translation adds a personal pronoun 'Ngài' (Him) which does not exist in the Greek text. The Greek refers to the content of the preceding thought ('which/that we...'), not a specific person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

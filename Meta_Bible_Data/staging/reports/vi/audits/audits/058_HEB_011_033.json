@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατηγωνισαντο βασιλειας' refers to 'overcoming kingdoms' (kingdoms as in realms/reigns), but the Vietnamese 'thắng các nước' translates to 'won/defeated countries'. While similar, 'vương quốc' is the more precise term for 'basileias' to avoid confusion with modern nation-states."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επετυχον επαγγελιων' implies 'having obtained/attained the promises'. The Vietnamese 'được những lời hứa' (received the promises) loses the nuance of 'attaining' or 'winning' the promises as a result of their faith."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

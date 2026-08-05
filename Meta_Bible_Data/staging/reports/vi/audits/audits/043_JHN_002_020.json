@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπον ουν' (therefore they said) implies a logical consequence/inference based on previous context, which is missing in the Vietnamese. More importantly, the Greek 'τεσσαρακοντα και εξ ετεσιν ωκοδομηθη' is a passive construction (was built), but the Vietnamese 'đã xây' (built) lacks the passive voice, potentially making it sound like the Jews were the ones who built it rather than the temple being built."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'nhưng' (but), which does not have a corresponding Greek conjunction in the source text. The Greek structure is a simple purpose clause ('ἵνα μη...')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

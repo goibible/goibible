@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρχη μετ αισχυνης' (began with shame/shamefully) is translated as 'xấu hổ mà phải ngồi' (ashamed and had to sit). The Greek implies the action of moving to the last place was *characterized* by shame (or done in a shameful manner), whereas the Vietnamese phrasing suggests the person felt shame *because* they were forced to sit there, or that the shame was the result of the action rather than the manner of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

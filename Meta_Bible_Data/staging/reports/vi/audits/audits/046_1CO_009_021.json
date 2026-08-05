@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the verb 'κερδησω' (to gain/win/profit) in the final clause. It says 'để tôi được những người không luật pháp' (so that I may be/get the people), whereas the Greek is 'ινα κερδησω ανομους' (so that I may win/gain the lawless)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

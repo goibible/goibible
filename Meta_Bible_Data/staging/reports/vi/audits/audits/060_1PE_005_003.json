@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τυποι γινομενοι' is a passive/middle participle (becoming models/being types), but the Vietnamese 'hãy làm mẫu' translates this as an imperative ('let us be' or 'do be'). While the intent is similar, it shifts from a descriptive state of being to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

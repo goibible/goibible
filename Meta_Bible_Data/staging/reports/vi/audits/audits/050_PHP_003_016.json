@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλην' (plēn) in this context functions as 'except' or 'save for', but the Vietnamese 'Dù sao' (however/anyway) changes the logical relationship of the sentence. The Greek implies a limitation ('except to...'), whereas the Vietnamese renders it as a concessive transition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

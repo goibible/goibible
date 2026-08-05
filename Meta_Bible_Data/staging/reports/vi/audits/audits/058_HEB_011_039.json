@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαρτυρηθεντες' (martyrēthentes) means 'having been martyred' or 'having died as martyrs.' The Vietnamese translation 'được chứng tốt' (being testified well/certified well) completely changes the meaning from death by martyrdom to a positive character endorsement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

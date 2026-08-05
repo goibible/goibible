@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Nội giờ đó' (At that hour/time) incorrectly places the time at the beginning of the sentence as a prepositional phrase, whereas the Greek 'και ανασταντες αυτη τη ωρα' indicates 'and having risen at that hour'. The Vietnamese translation misses the verbal action of 'rising' (ανασταντες) and treats it as a temporal marker."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

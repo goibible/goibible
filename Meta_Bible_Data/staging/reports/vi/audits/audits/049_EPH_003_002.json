@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'οικονομίαν' (oikonomian) in this context (Ephesians 1:7) refers to the 'administration' or 'dispensation' of grace, not 'sự quản trị' (management/governance), which can imply a human administrative act rather than the divine distribution of grace."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοθεισης' is a perfect passive participle. The Vietnamese 'đã ban cho' correctly captures the completed action, but the phrasing 'đã ban cho tôi vì anh em' slightly shifts the focus of the grace being 'given to me for you' compared to the Greek structure which emphasizes the grace being 'given through/to us' (μοι εις υμας)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

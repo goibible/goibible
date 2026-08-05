@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενισχυσεν εγενετο' (he was strengthened) is rendered as a passive/resultative state in Vietnamese ('người được thêm sức'), but more importantly, the Greek structure indicates that the strengthening happened *to* Saul. The Vietnamese translation separates this into two sentences, making 'Sau khi nhận đồ ăn, người được thêm sức' sound like a general statement or a separate action rather than the direct result of receiving the food for Saul specifically."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific connection that it was Saul who was strengthened. While 'Sau-lơ' appears in the next sentence, the first sentence lacks a clear subject, potentially creating a slight ambiguity about who was strengthened."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

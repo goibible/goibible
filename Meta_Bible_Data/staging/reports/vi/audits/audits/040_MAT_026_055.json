@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως επι ληστην' (as against a robber/bandit) modifies the entire action of the crowd coming out with weapons. The Vietnamese translation 'như bắt kẻ cướp sao?' turns it into a rhetorical question about the *manner* of the arrest, whereas the Greek structure implies they are acting *as if* they were arresting a bandit (implying the intensity or nature of their hostility). However, the primary issue is the omission of the nuance of 'ως' which functions as a comparative/qualitative marker here."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συλλαβειν' (to seize/arrest) is an infinitive following 'εξηλθετε' (you went out). The Vietnamese structure 'Các ngươi ra... để bắt ta' (You went out... to catch me) is a valid rendering, but the Greek implies they went out *in order to seize* [me] as a robber."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

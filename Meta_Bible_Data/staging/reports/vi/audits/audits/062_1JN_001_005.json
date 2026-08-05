@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text contains 'ουδεμια' (none/not a single one), which emphasizes the absolute absence of darkness. The Vietnamese translation 'không có bóng tối nào cả' is a good rendering, but technically misses the specific emphatic nuance of 'ουδεμια' which functions as an absolute negation of any amount of darkness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

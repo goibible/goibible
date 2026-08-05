@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βολισαντες' (bolisantes) means 'having shot' or 'having cast', but the Vietnamese translation 'thả dây dò' (dropping a sounding line) is a specific nautical action not present in the Greek text. The Greek refers to casting/shooting something, while the Vietnamese specifies a sounding line."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εικοσι βραχυ' (eikosi brachy) means 'twenty fathoms'. The Vietnamese translation 'hai mươi sải' uses 'sải' (span/fathom), but the Greek specifically includes 'βραχυ' (brachys/fathoms). While 'sải' is a common equivalent, the Greek nuance of 'fathoms' as a specific unit of depth measurement is slightly softened."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

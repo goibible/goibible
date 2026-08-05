@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενοικειτω' is an imperative (a command), but the Vietnamese 'Nguyền xin' (a prayer/petition) changes the grammatical mood from a command to a request."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νουθετουντες εαυτους' means 'admonishing one another' (plural reflexive), but the Vietnamese 'khuyên bảo nhau' is acceptable. However, the Greek 'ψαλμοις και υμνοις και ωδαις πνευματικαις' are the instruments of the admonishing/teaching. The Vietnamese structure makes it slightly ambiguous if these are the means of teaching or just a list of items, though 'bằng' helps. The main issue remains the mood change from imperative to petition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

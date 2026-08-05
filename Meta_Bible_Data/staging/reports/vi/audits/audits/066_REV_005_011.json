@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'số họ là' (their number is) adds a conceptual construction not present in the Greek 'και χιλιαδες χιλιαδων' (and thousands of thousands). While it clarifies the meaning, it changes the structure from a direct list of entities to a descriptive statement about their quantity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

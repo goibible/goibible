@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'hai người' (two people), whereas the Greek text does not specify a number, using 'αυτους' (them) which refers back to the previous context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

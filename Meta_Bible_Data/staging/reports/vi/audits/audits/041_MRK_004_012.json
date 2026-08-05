@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηποτε' (mepote) functions as a negative purpose/consequence marker ('lest' or 'so that they may not'). The Vietnamese 'kẻo' correctly captures this, but the phrase 'quay lại' for 'επιστρεψωσιν' is slightly ambiguous; in this context of spiritual blindness, it refers to 'turning back' (from repentance/faith), but the primary issue is the structural flow of the purpose clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'βλεποντες βλεπωσιν' and 'ακουοντες ακουωσιν' implies a continuous state (while seeing, they see; while hearing, they hear). The Vietnamese 'để họ nhìn thì nhìn' slightly shifts the focus to a resultative 'so that they see,' though it is close. However, the core issue is the negation of the result: 'lest they turn back AND [lest] their sins be taken away.' The Vietnamese 'kẻo họ quay lại và được tha tội' suggests they might turn back and then be forgiven, whereas the Greek 'μηποτε' applies to both actions (they must NOT turn back AND [their sins must NOT] be taken away)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

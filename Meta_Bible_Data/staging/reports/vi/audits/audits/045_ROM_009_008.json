@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου τα τεκνα της σαρκος' (not the children of the flesh) is rendered in Vietnamese as 'chẳng phải con cái của xác thịt là con cái Đức Chúa Trời'. The Vietnamese structure makes it sound like a rhetorical question or a denial of a statement ('It is not that the children of the flesh are the children of God'), whereas the Greek is a direct contrast: 'These are not the children of the flesh; these are the children of God'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

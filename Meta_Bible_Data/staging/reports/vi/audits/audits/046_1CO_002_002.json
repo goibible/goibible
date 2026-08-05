@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου γαρ εκρινα του ειδεναι' means 'for I have decided NOT to know' (negative). The Vietnamese translation says 'quyết định không biết điều gì khác' (decided not to know anything else), which adds a contrast ('khác' - other/else) that is not present in the Greek text. The Greek simply states the decision not to know anything regarding them except for Christ."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

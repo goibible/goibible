@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰμί' (eimi) is 1st person singular ('I am'), but the Vietnamese translation uses 'ta là' which, in this context, can be interpreted as 'we are' or 'one is' depending on regional usage, but more importantly, it fails to capture the specific identity of 'I'. However, the primary issue is the lack of distinction between the subject 'I' and the object 'the world'. In Greek, 'εἰμί τοῦ κόσμου' means 'I am [of] the world'. The Vietnamese 'ta là ánh sáng của thế gian' translates to 'I am the light of the world'. The Greek text provided ('οταν εν τω κοσμω ω φως ειμι του κοσμου') actually contains a grammatical error or a specific construction: 'εἰμί τοῦ κόσμου' (I am of the world). The Vietnamese adds 'ánh sáng' (light), which is not present in the provided Greek snippet."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

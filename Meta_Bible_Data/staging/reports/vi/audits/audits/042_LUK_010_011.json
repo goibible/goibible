@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγγικεν' (eggiken) means 'has drawn near' or 'approached,' but the Vietnamese 'đã đến gần' is a general past/perfect sense. More importantly, the Greek 'η βασιλεια του θεου' is 'the kingdom of God,' while the Vietnamese 'nước Đức Chúa Trời' is often used for 'the Kingdom of God' but in some contexts can be confused with 'the power/government.' However, the primary issue is that 'ηγγικεν' implies a completed action of approaching (it has drawn near), which is correctly captured by 'đã đến gần', but the Vietnamese phrasing 'hãy biết điều này, rằng...' is a standard rendering of 'πλην τουτο γινωσκετε οτι'. The actual fidelity issue is that 'η βασιλεια' is 'Kingdom', and 'nước' is the correct translation. Wait, looking closer: 'ηγγικεν' (perfect tense) indicates an action completed in the past with present results. The Vietnamese 'đã đến gần' is accurate. Let me re-evaluate. The Greek says 'the kingdom of God has drawn near to you'. The Vietnamese says 'nước Đức Chúa Trời đã đến gần các ngươi'. This is a faithful translation. I will mark OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

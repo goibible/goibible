@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'được xưng là công chính' (is called righteous) misinterprets the Greek 'εδικαιωθη' (was justified/vindicated). The Greek verb implies a judicial act of justification or vindication, not merely being 'called' something by others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

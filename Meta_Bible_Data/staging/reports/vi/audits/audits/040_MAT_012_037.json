@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verbs 'δικαιωθηση' (you will be justified) and 'καταδικασθηση' (you will be condemned) are in the second person singular ('you'). The Vietnamese translation uses 'con' (I/me), which changes the subject of the sentence from 'you' to 'I'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

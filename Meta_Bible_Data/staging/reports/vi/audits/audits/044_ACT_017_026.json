@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενος αιματος' (of one blood) is translated as 'từ một dòng máu' (from one blood/lineage), but the Greek structure implies that every nation of men was made 'of one blood' (unity/commonality), not necessarily 'from' a single source. However, more critically, the Vietnamese translation omits the word 'ανθρωπων' (of men/humanity) which qualifies 'εθνος' (nation)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παν εθνος ανθρωπων' refers to 'every nation of men'. The Vietnamese 'mọi dân ngoại' (all Gentiles/foreigners) is a theological interpretation that is not present in the Greek text, which simply says 'every nation of men'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

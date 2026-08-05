@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναγομενοις' (anagomenois) is a present passive participle meaning 'as they were being sent off' or 'while they were sending us off.' The Vietnamese translation 'lúc chúng tôi sắp lên đường' (when we were about to set out) shifts the agency; it implies the subjects are preparing to leave, whereas the Greek indicates the action of others sending them off."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

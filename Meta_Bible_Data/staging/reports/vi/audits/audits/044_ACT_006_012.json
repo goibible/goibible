@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'xông vào bắt' (rushed in to seize/arrest), which is not present in the Greek text. The Greek simply says 'ηγαγον' (led/took)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

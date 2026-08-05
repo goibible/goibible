@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διδοντος' (giving) is omitted in the Vietnamese translation. The Vietnamese text says 'báo thù' (avenging/avenge), whereas the Greek says 'giving vengeance' (đang ban sự báo thù). This changes the action from a continuous/present giving of vengeance to a simple statement of avenging."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

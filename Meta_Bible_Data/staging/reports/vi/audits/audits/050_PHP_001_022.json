@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'μοι καρπος εργου' (my fruit of work) is translated as 'là trái của công việc cho tôi' (is the fruit of work for me). In the context of Galatians 5:24, 'fruit' refers to the result of the life/action, not a gift or something 'for' the person. The Vietnamese phrasing implies a recipient relationship that is not in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

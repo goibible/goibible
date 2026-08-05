@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θυρας μοι ανεωγμενης' is a participle phrase describing the state of the doors (open to me), but the Vietnamese 'dù Chúa đã mở cửa cho tôi' (even though the Lord opened the door for me) attributes the action of opening the door to 'Chúa' (the Lord). The Greek does not state that the Lord performed the action; it simply describes the doors as being open."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

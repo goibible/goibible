@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'απαρχη' (aparchē) means 'firstfruits' (the first part of a harvest offered to God), but the Vietnamese 'trái đầu mùa' (literally 'first fruit of the season') can be interpreted as a simple chronological first or a physical fruit, potentially missing the specific theological nuance of 'firstfruits' in a sacrificial/offering context."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'εις διακονιαν' (eis diakonian) is rendered as 'vào chức vụ' (into office/position). While 'chức vụ' is a common rendering, the Greek 'diakonia' specifically refers to 'service' or 'ministry'. 'Chức vụ' can imply an official position or rank which is not explicitly in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την αναστροφην υμων' (your conduct/manner of life) is rendered as 'Hãy ăn ở tốt' (Let us live well/behave well), which changes the grammatical structure from a gerundive/participial context describing a state ('having your conduct') to an imperative command ('Let us')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εποπτευσαντες' (having seen/observed) is rendered as 'thấy' (see), but the Vietnamese structure misses the specific nuance of 'having observed' as a completed action preceding the glorification."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

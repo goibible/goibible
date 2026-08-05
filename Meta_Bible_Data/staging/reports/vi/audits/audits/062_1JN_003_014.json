@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι αγαπωμεν τους αδελφους' is a purpose clause (jussive/optative) expressing the reason or result of the transition from death to life ('that we may love our brothers'). The Vietnamese translation 'vì chúng ta yêu anh em' renders it as a causal statement of fact ('because we love our brothers'), which changes the logical relationship between the two clauses."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

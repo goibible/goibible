@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ων' (genitive plural) refers back to the people who were not worthy, but the Vietnamese 'thế gian không xứng đáng cho họ' implies the world was not worthy *for* them. The Greek 'οὐκ ἦν ἀξιος ὁ κόσμος' means 'the world was not worthy [of them]'. The Vietnamese structure reverses the relationship of worthiness."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τὰς οπαῖς τῆς γῆς' refers to the 'depths of the earth'. The Vietnamese 'hang dưới đất' (caves under the ground) is a specific interpretation that misses the broader concept of 'depths'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

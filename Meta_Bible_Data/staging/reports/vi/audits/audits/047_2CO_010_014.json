@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως μη εφικνουμενοι' (as if we were not reaching/arriving) is used here to mean 'so that we do not overstep' or 'in order not to exceed'. The Vietnamese translation 'như thể chúng tôi không đến được' (as if we could not reach) creates a conditional/hypothetical sense of inability that is not present in the Greek. The Greek describes the *purpose* or *manner* of their action (not overextending themselves), whereas the Vietnamese suggests a *condition* of being unable to reach."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

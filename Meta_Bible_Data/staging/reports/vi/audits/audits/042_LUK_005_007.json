@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατενευσαν' (kateneusan) means 'to beckon' or 'to signal'. The Vietnamese 'ra hiệu' is a correct translation for signaling, but the phrase 'đến giúp mình' (come to help) is an addition/interpretation not present in the Greek text, which simply says 'come to join them' (ελθοντας συλλαβεσθαι αυτοις)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συλλαβεσθαι αυτοις' implies 'to join/come along with them'. The Vietnamese 'đến giúp mình' shifts the focus to an act of assistance rather than the act of joining."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

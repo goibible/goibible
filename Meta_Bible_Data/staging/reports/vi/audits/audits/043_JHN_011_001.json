@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'της αδελφης αυτης' (of his sister) refers to Mary and Martha being sisters of Lazarus. The Vietnamese 'chị em gái của người' is ambiguous; it could be interpreted as Mary and Martha being the sisters of the reader/narrator or a general reference, rather than clearly linking them as the sisters of Lazarus."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

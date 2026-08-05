@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπεν προς αυτους' (He said to them) is rendered as 'Người hỏi rằng' (The person asked), changing the action from a statement to a question. Furthermore, the Greek 'ει πνευμα αγιον ελαβετε πιστευσαντες' (if you who have believed received the Holy Spirit) is a conditional statement about receiving, not a question about whether they received it."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αλλ ουδε ει πνευμα αγιον εστιν ηκουσαμεν' (but we have not heard even that it is the Holy Spirit) expresses a lack of hearing/knowledge about the identity or existence of the Spirit, whereas the Vietnamese 'chưa nghe có Thánh Linh nào' implies they haven't heard of any Holy Spirit existing at all."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατ αυτου' (against Him) is translated as 'nghịch cùng Ngài'. While 'nghịch' conveys opposition, the literal meaning is 'against'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific distinction of the phrase 'των σκληρων' (the hard/harsh ones) as a separate subject group preceding the action of speaking; it merges them into 'những kẻ có tội vô đạo'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 4160,
+          "lemma": "poiéō",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'thi hành' (execute/carry out) is a specific application of 'do', but the Greek 'poiéō' here is more general. However, the main issue is the missing sense of 'judgment' as an action."
+        },
+        {
+          "strongs_num": 2980,
+          "lemma": "laléō",
+          "problem": "distorted",
+          "detail": "The Vietnamese translates 'σκληρων ων ελαλησαν' as 'lời cứng cỏi mà... đã nói', but 'σκληρός' (hard/harsh) modifies the speaking or the words. The translation captures the sense well, but 'cứng cỏi' usually means 'firm/resolute' in modern Vietnamese, whereas 'σκληρός' here implies 'harsh/severe'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

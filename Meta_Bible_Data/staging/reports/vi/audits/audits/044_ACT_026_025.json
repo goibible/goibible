@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Phao-lô nói' (Paul says) at the beginning, which is not present in the Greek text provided. The Greek text begins directly with 'ο δε ου μαινομαι'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

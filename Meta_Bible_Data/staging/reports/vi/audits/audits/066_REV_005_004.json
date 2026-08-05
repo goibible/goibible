@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και εγω' (and I) is omitted in the Vietnamese translation. The Vietnamese version starts directly with 'Tôi khóc' (I cried), missing the emphatic/conjunctive 'and' which links this action to the preceding context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεστειλατο αυτοις' (commanded them) is rendered in the Vietnamese as 'ra lệnh cho họ'. However, the second part of the sentence 'οσον δε αυτος αυτοις διεστελλετο' uses the imperfect tense (διεστελλετο), which implies a continuous or repeated action ('as He kept commanding'). The Vietnamese 'càng ra lệnh' captures the progressive sense but misses the specific nuance of the Greek structure 'the more...'. More importantly, the Greek 'μαλλον περισσοτερον' means 'rather more' or 'even more', which is translated as 'càng... rộng rãi hơn'. While the meaning is close, the Vietnamese 'rao truyền rộng rãi hơn' (spread/broadcast more widely) adds a spatial/scope nuance ('rộng rãi') not explicitly in the Greek 'περισσοτερον' (more)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

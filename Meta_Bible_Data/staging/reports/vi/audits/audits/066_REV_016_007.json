@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'λεγοντος' (saying), but the Vietnamese translation omits the subject/agent of the saying. While 'nói rằng' is present, the structure 'nghe một cái khác... nói rằng' suggests 'hearing another [thing] saying', whereas the Greek implies hearing another [person] saying."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'một cái khác' translates 'αλλου' (another) as 'another thing/item'. In this context, 'αλλου' refers to 'another [person]' (another voice). Translating it as 'một cái khác' (another thing) changes the nature of the subject from a person to an object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

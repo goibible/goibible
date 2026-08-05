@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις τινα η ποιον καιρον' refers to 'in what manner or in what time/season'. The Vietnamese translation 'thời điểm nào hay thời điểm cách nào' is awkward and slightly misinterprets the nuance of 'ποιον' (which) vs 'τινα' (what). More importantly, the Greek structure suggests 'in what way or at what time', while the Vietnamese phrasing feels like a redundant repetition of 'time' rather than 'manner/way'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προμαρτυρομενον' is a participle modifying 'πνευμα χριστου' (the Spirit of Christ). The Vietnamese 'khi làm chứng trước' (when testifying before) renders it as an adverbial clause of time, which slightly shifts the grammatical relationship of how the Spirit is acting/manifesting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

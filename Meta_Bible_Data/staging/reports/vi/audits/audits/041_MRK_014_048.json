@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως επι ληστην' (as/like a bandit) is used as a comparative adverbial phrase describing the *manner* of the action. The Vietnamese translation turns it into a rhetorical question ('...như bắt một kẻ cướp sao?'), which adds a questioning tone and a specific logical structure not present in the Greek imperative."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'εξηλθετε' is an imperative (Come out!), but the Vietnamese 'Các ngươi cầm... đến bắt ta' describes an action they are currently doing or have done, missing the direct command/imperative force of the original Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

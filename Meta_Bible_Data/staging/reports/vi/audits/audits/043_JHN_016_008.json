@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ελεγξει' is in the aorist indicative (past/perfective action), but the Vietnamese translation uses 'sẽ khiến' (will cause/make), which changes the tense to the future."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγξει' (elenchse) means 'to examine', 'to test', or 'to bring to account'. The Vietnamese 'khiến... tự cáo' (make [them] confess/accuse themselves) changes the nature of the action from an examination/testing by Him to a self-confession by the world."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

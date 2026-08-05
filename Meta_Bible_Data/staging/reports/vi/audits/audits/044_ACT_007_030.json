@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωφθη' (ophthē) is a passive verb meaning 'was shown' or 'appeared to him'. The Vietnamese translation 'hiện ra với người' (appeared to the person) is slightly ambiguous regarding the passive nature, but more importantly, the Greek specifies 'αυτω' (to him), referring back to Moses. The Vietnamese 'với người' (to the person/someone) lacks the specific referent established in the context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

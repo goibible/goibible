@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δει' (dei) indicates necessity or obligation ('must', 'ought to'). The Vietnamese 'phải' correctly captures this, but the phrasing 'tỏ ra lẽ ấy như điều tôi phải nói' is structurally confusing. It suggests 'showing/appearing as that thing as the thing I must say,' whereas the Greek 'ινα φανερωσω αυτο ως δει με λαλησαι' means 'so that I may manifest/reveal it as I ought to speak [it].'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

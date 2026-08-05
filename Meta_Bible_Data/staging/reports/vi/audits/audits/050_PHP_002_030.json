@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραβουλευσαμενος' is a present active participle meaning 'having/while disregarding' or 'recklessly'. The Vietnamese 'không kể' (not counting/regardless of) is a reasonable rendering, but the Greek specifically implies a sense of 'recklessness' or 'taking no account' in a sacrificial context. However, the primary issue is the phrase 'τη ψυχη ινα αναπληρωση'. The Greek reads 'τη ψυχη [ινα] αναπληρωση το υμων υστερημα', where 'αναπληρωσαι' (to fill up/complete) governs the object 'το υστερημα' (the lack). The Vietnamese 'để bù đắp sự thiếu thốn' correctly captures the action of filling the lack, but the phrasing 'τη ψυχη ινα αναπληρωση' suggests 'the soul [so that] [he] filled'. The Vietnamese structure makes it slightly ambiguous whether the 'soul' is the object being filled or the means. More importantly, 'με λειτουργιας' is translated as 'về chức vụ', which is an acceptable idiomatic rendering of 'ministry'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δια το εργον' (through/by means of the work) is rendered as 'bởi vì vì' (because because). The first 'vì' covers 'δια', but the repetition in Vietnamese is a typo/redundancy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

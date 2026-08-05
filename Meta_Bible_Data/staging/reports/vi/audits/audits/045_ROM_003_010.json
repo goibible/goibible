@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'dẫu một người cũng không' (even one person not) at the end, which is a redundant emphatic expansion. The Greek 'ουδε εις' (neither/not even one) is already contained within the phrase 'ουκ εστιν δικαιος ουδε εις' (there is no righteous one, not even one). The Vietnamese phrasing creates a repetitive structure not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

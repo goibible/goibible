@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'Ngài' (He/Him - usually referring to a deity or a respected male figure) for the subject of the verb 'εδωκεν' (gave). The Greek text is ambiguous regarding the subject, but in context, it refers to Jesus. However, using 'Ngài' in Vietnamese to refer to Jesus as the one performing the action of giving the man back to his mother is acceptable, but the phrasing 'giao người lại' (handed [him] back) implies a specific action of returning. The primary issue is the potential confusion of the subject if 'Ngài' is interpreted as the dead man, though contextually it refers to Jesus. More importantly, the Greek 'εδωκεν αυτον' is 'gave him', and the Vietnamese 'giao người lại' adds a sense of 'handing back/returning' which is a slight addition in nuance but generally acceptable. However, looking at the grammar: 'εδωκεν' is 3rd person singular. If 'Ngài' refers to Jesus, it is OK. If it refers to the dead man, it is a mistranslation of the implied subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

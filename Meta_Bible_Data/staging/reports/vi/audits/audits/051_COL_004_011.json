@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο λεγομενος' (the one called/named) is singular, but the Vietnamese translation 'là những người' (are the people) treats Jesus as a group of people. The phrase 'οι οντες εκ περιτομης' (those being of circumcision) refers to the group, but the initial subject 'ιησους' is singular."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'μονοι' (only/alone) in the context of 'οι μονοι συνεργοι', though it does include 'chỉ' at the beginning of the clause. However, the primary issue is the grammatical shift from a singular subject (Jesus) to a plural predicate (the people)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

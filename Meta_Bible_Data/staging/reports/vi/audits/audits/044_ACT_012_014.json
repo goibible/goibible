@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο της χαρας' (apo tēs charas) means 'from/out of the joy,' but the Vietnamese 'vì niềm vui' (because of joy) changes the causal relationship. More importantly, the Greek 'ουκ ηνοιξεν τον πυλωνα' (did not open the gate) is followed by 'εισδραμουσα' (having entered), which implies she entered *after* or *while* not opening it, but the Vietnamese structure 'không mở cổng, nhưng chạy vào' suggests a sequence of 'didn't do X, but did Y' which slightly alters the flow of the Greek action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δε απηγγειλεν' (did not report/announce) is rendered in Vietnamese as 'chạy vào báo tin' (ran in to report), which completely misses the negation 'δε' (not). The Greek says she did NOT report him, but the Vietnamese says she DID run in to report him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

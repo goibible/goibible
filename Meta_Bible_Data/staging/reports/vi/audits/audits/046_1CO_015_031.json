@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχησιν ην εχω' (I have boasting/glory) is translated as 'khoe mình của tôi về anh em' (my boasting about you). The Greek does not say the boasting is 'about' the brothers; rather, it says 'I have boasting in Christ Jesus'. The Vietnamese phrasing implies the subject of the boasting is the brothers, which is a significant shift in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

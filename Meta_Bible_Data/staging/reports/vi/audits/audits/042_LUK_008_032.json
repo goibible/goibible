@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ικανων' (ikanōn) in this context refers to the capacity/sufficiency of the herd to be fed or the state of being 'sufficiently' grazed, but it is often interpreted in this specific passage as the herd being 'sufficient' or 'adequate'. However, the Vietnamese 'đông' (crowded/large number) is an interpretation of the magnitude of the herd, whereas the Greek implies a sufficiency of the pasture/grazing. More importantly, the Greek 'βοσκομενων' is a participle describing the pigs as 'grazing', which the Vietnamese captures, but the phrasing 'đang ăn' (currently eating) is slightly less specific than grazing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τω ορει' (en tō orei) specifies 'in the mountain'. The Vietnamese 'trên núi' covers this, but the structure of 'ικανων βοσκομενων' implies a specific state of the herd that 'đông' (large number) doesn't fully capture."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

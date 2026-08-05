@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'οιτινες' (those) is plural, but the Vietnamese 'Hai người' (Two people) specifies a number not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διηδω' (bra-dnu-o) means 'to be late' or 'to delay'. The Vietnamese translation 'chậm đến' (arrive late) is slightly narrower than the Greek, but more importantly, the Greek 'ινα ειδης πως δει' (so that you may know how it is necessary/behovable) is rendered as 'con biết phải cư xử thế nào' (you know how to behave). While 'cư xử' (behave) captures the sense of 'δει' (necessity) in a social context, the Greek 'δει' specifically denotes what is 'fitting' or 'necessary' in a general sense."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αναστρεφεσθαι' (anastrephesai) meaning 'to be conducted', 'to behave', or 'to be lived' is active/continuous in the Greek. The Vietnamese 'cư xử thế nào' captures the action but loses the specific nuance of 'how one is conducted/lived' within the house."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

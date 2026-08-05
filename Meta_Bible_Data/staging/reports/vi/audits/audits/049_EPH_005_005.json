@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'hay' (or) to connect the three types of people, but the Greek 'η... η... ος' functions as a cumulative list (and/as well as). More importantly, the Vietnamese translates 'πλεονεκτης' (exploiter/greedy person) as 'kẻ tham lam' (greedy person) and then adds '(tức là kẻ thờ hình tượng)' in parentheses. In the Greek text, 'ειδωλολατρης' (idolater) is a separate category in the list, not a definition or appositive of 'πλεονεκτης'. The Vietnamese structure implies that the exploiter IS the idolater, whereas the Greek lists them as three distinct types of people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'παρεγενετο' (paregeneto) means 'came by' or 'stopped by' (unexpectedly/incidentally), whereas 'đi đường đến' in Vietnamese implies a purposeful journey or traveling to a destination. The Vietnamese translation loses the sense of an unexpected visit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

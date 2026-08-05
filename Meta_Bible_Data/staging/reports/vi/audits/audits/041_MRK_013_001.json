@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποταποι' (potapoi) refers to 'springs' or 'fountains' (plural of 'potes'), but the Vietnamese translates it as 'sự gây dựng' (constructions/buildings). The Vietnamese translation completely misses the concept of water sources."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οικοδομαι' (oikodomai) is a verb meaning 'to build', but the Vietnamese translates it as a noun phrase 'sự gây dựng'. In the Greek, the disciples are telling Jesus to see the stones and springs *being built/constructed* (or perhaps referring to the construction of the temple/structures), but the Vietnamese loses the verbal action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ελογισθη' (elogonthē) means 'to be counted', 'reckoned', or 'imputed'. The Vietnamese 'được kể' usually means 'to be told' or 'to be narrated'. This changes the theological meaning from a legal/accounting status of righteousness to a communicative act of telling a story."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

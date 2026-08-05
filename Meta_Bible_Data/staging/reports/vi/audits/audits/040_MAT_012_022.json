@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'λαλειν' (speaking/talking) as a state he gained, but the Vietnamese translation 'vừa nói vừa thấy được' (could speak and see) treats 'speaking' as a simultaneous action with seeing, rather than a result of healing. More importantly, the Greek 'ωστε τον ... λαλειν και βλεπειν' implies he was made to *be able* to speak and see; the Vietnamese structure is slightly less precise regarding the transition from inability to ability."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

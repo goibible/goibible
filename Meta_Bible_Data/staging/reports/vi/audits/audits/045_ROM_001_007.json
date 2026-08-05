@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαρις υμιν' (grace to you) is rendered as 'nguyền xin ân điển' (pray/request grace). The Greek is a direct address/greeting, not a petition or prayer for grace."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation places 'đến cùng anh em' (to you all) at the end of the sentence, but in the Greek text, 'υμιν' (to you) immediately follows 'χαρις' (grace), making it the direct object of the greeting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

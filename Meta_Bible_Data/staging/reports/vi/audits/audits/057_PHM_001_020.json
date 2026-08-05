@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οναιμην' (onaimēn) is a verb of desire/longing (I wish/desire), but the Vietnamese 'mong được vui mừng' adds 'vui mừng' (rejoice/be happy) which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναπαυσον' (anapauson) is a command/request for 'rest'. The Vietnamese 'làm cho... được yên nghỉ' (make... rest) changes the grammatical structure slightly, but the primary issue is the rendering of 'σπλαγχνα' as 'lòng thương xót' (mercy/compassion). While 'σπλαγχνα' can mean inner feelings, in this context it refers to the 'bowels' or 'inward parts' (deepest emotions/affections). However, the shift from 'desire' to 'rejoice' is a significant semantic addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

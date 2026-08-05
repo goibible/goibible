@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds a specific temporal context ('Còn ít lâu các ngươi sẽ chẳng thấy Ta' - 'Soon you will not see me') that is not present in the Greek. The Greek text says 'mikron' (little/small) twice, referring to the *amount of time* or *extent* of the interval, but it does not specify the content of what they wouldn't see. The Vietnamese version treats the first 'mikron' as a negative statement about seeing Him, whereas the Greek is a parallel structure: 'ask each other... for a little [time] I said, and for a little [time] you will see me'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

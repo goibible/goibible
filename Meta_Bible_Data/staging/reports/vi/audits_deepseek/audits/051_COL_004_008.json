@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα γνω τα περι υμων' means 'that he may know your circumstances' (the subject is the one sent, i.e., Tychicus, knowing about the recipients). The Vietnamese renders it as 'để anh em biết tình trạng của chúng tôi' ('that you may know our circumstances'), reversing the subject and object: it makes the recipients the knowers and the circumstances 'ours' instead of 'yours'. This changes who is knowing what about whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

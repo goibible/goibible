@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μια ψυχη' (mia psyche) describes the unity of the believers as 'one soul' (unity of spirit). The Vietnamese translation 'một linh hồn' (one soul) is singular and suggests that the group is literally one single soul, rather than many people acting as one. A more faithful rendering would be 'như một linh hồn' or 'trong một sự hiệp nhất'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

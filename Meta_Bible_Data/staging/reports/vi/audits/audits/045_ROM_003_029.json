@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text 'η ιουδαιων ο θεος μονον' does not contain a question mark or a questioning structure. The Vietnamese translation turns the first clause into a rhetorical question ('...thôi sao?'), which changes the grammatical mood of the original Greek statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ἀνεσιν' (anesin) is a verb meaning 'they were comforted/given rest' (aorist passive), but the Vietnamese 'được sự yên nghỉ' renders it as a noun phrase 'received rest', losing the active sense of being comforted/given comfort by God."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ἀπ' οὐρανοῦ' (ap ouranou) means 'from heaven'. The Vietnamese 'từ trời' is present, but the construction 'mặc thị của Chúa Giê-xu từ trời' can be read as 'the revelation of Jesus from heaven', whereas the Greek implies the comfort comes *from* heaven through/with the revelation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

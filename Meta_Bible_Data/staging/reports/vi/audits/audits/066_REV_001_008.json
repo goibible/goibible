@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation places the reporting verb 'phán rằng' (says/says that) at the end of the sentence, whereas in the Greek text, 'λεγει ο κυριος' (the Lord says) occurs in the middle of the phrase. This creates a structural confusion where it appears the entire preceding list is what the Lord is saying, but the placement makes the flow of the subject-verb relationship awkward compared to the Greek structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

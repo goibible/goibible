@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μεμνηστευμενη' (memnisteumene) means 'betrothed' or 'engaged'. The Vietnamese 'đã hứa gả' (promised to marry/marry off) is a slightly different nuance, but the primary issue is the phrase 'đã hứa gả cho mình', which implies a promise made *to* him, whereas the Greek describes her status as being betrothed *to* him. However, more importantly, 'μεμνηστευμενη' refers to a formal engagement/betrothal, while 'hứa gả' can be a general promise of marriage."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

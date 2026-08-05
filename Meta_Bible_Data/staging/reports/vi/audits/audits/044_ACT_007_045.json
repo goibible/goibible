@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εισηγαγον' (eisēgagon) is a verb meaning 'to lead in' or 'to introduce.' The Vietnamese translation 'tiếp nhận và đem vào dưới sự dẫn dắt' (received and brought under the leadership/guidance) shifts the meaning from a direct action of leading someone into something to a passive reception and secondary guidance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απο προσωπου' (apo prosopou) meaning 'from the face' or 'from the person/presence' is missing in the Vietnamese translation, which says 'đuổi khỏi mặt' (drove out from the face) but omits the 'from the [person] of' nuance regarding the source of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

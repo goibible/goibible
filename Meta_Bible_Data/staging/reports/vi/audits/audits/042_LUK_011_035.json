@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη το φως... σκοτος εστιν' means 'lest the light... be darkness' (a change of state or identity), whereas the Vietnamese 'kẻo ánh sáng... là bóng tối' suggests a static state of being. More importantly, the Greek 'το εν σοι' (that which is in you) is rendered as 'trong ngươi' (in you). While 'trong ngươi' is acceptable, the Greek structure implies 'lest the light [which is] in you be darkness', but the Vietnamese phrasing 'kẻo ánh sáng trong ngươi là bóng tối' can be interpreted as 'lest the light that is currently inside you be considered darkness'. The most significant issue is the loss of the 'be' (εστιν) nuance which indicates a transformation or a result of an action, though this is borderline stylistic. However, looking closely at 'το εν σοι', it functions as a restrictive relative clause. The Vietnamese captures the meaning well enough that it does not fundamentally change the fact, but the Greek 'μη... εστιν' is a prohibition against a result. I will mark OK because the Vietnamese conveys the core warning accurately."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

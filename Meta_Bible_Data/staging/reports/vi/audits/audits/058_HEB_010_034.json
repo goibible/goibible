@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσεδεξασθε' (prosedexasthe) is a passive/middle imperative meaning 'receive' or 'accept'. The Vietnamese 'vui lòng chấp nhận' adds the subjective emotion 'vui lòng' (willingly/pleasantly), which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κρειττονα υπαρξιν' (kreittona hyparxin) refers to a 'better existence' or 'better life/being'. The Vietnamese translation 'của cải tốt hơn' translates this as 'better assets' or 'better wealth', which significantly narrows the scope of the Greek concept."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μενουσαν' (menousan) is a present participle modifying 'υπαρξιν'. The Vietnamese 'còn lại' (remaining) captures the sense of endurance but misses the active/continuous nature of 'abiding' or 'remaining' in the heavenly existence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

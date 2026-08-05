@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν μη επιμεινωσιν τη απιστια' (if they do not persist in unbelief) is rendered as 'nếu không cứ ở trong sự chẳng tin' (if they do not stay/remain in unbelief). In Vietnamese, 'cứ ở trong' can imply a continuous state of staying/remaining, but the Greek 'επιμεινωσιν' specifically denotes 'persisting' or 'continuing' in a specific action/state. However, the primary issue is the causal structure: the Greek implies that if they *don't* persist in unbelief, they will be saved. The Vietnamese 'thì cũng sẽ được tháp vào' (then also will be saved) is generally accurate, but the nuance of 'persisting' (επιμεινωσιν) is slightly softened to 'staying' (cứ ở trong)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

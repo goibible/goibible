@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'κατα λογον αν ηνεσχομην υμων' (literally 'if we were to accuse you according to the law') is significantly simplified. The Vietnamese translation 'thì theo lẽ ta đáng nhịn nhục các ngươi' (then by reason I deserve to endure/bear you) changes the meaning from a conditional statement about legal accusation to a statement about the speaker's personal endurance."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηνεσχομην' is in the imperfect subjunctive, implying 'if we were to accuse' (hypothetical). The Vietnamese 'đáng nhịn nhục' (deserve to endure/bear) introduces a sense of personal merit or obligation not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

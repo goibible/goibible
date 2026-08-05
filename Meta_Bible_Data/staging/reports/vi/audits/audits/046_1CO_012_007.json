@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς το συμφερον' (pros to sympheron) means 'for [one's] benefit/profit/interest,' while the Vietnamese 'vì ích chung' translates to 'for the common good/public interest.' The Greek refers to individual benefit, not a collective/common one."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι στοματος' (by the mouth of) is rendered as 'bởi miệng' (by the mouth), but the Vietnamese structure 'Mọi lời sẽ được xác lập bởi miệng hai hoặc ba nhân chứng' implies that the *words* are being established by the mouths, whereas the Greek construction 'επι στοματος δυο μαρτυρων και τριων σταθησεται παν ρημα' indicates the *legal establishment/confirmation* of a matter (the statement) occurs by the testimony of two or three witnesses."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation 'hai hoặc ba' (two OR three) is slightly imprecise compared to the Greek 'δυο μαρτυρων και τριων' (two [and] three), which in this legal context refers to the standard of two-or-three witnesses. However, the primary issue is the grammatical inversion where the Vietnamese makes it sound like the words themselves are being physically established by mouths, rather than the testimony being the basis for the legal confirmation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

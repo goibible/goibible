@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek has two distinct verbs: ἐλεέω (to have mercy/pity) and οἰκτείρω (to show compassion/feel pity). The Vietnamese renders both as 'thương xót' (to have mercy), losing the distinction between the two concepts. The second clause should convey 'compassion' or 'pity' (e.g., 'Ta sẽ thương xót' vs. 'Ta sẽ động lòng thương xót' or similar), but the current translation makes both clauses identical, which is a substantive semantic loss."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

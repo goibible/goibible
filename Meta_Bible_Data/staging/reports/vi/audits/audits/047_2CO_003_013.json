@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις το τελος του καταργουμενου' refers to the end of the [thing/person] being abolished/removed (the 'abolished one'). The Vietnamese translation 'sự cuối cùng của điều sẽ bị bỏ đi' implies 'the end of the thing that will be abolished,' which slightly shifts the focus. More importantly, the Greek construction suggests 'until the end of the abolished [thing]', whereas the Vietnamese phrasing makes it sound like a description of the 'end' itself rather than a temporal limit or a specific state of the object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

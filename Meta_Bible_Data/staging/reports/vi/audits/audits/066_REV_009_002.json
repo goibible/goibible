@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 9,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηνοιξεν' (henoixen) is a verb meaning 'opened'. The Vietnamese translation uses 'Ngôi sao ấy' (That star), which is an addition/substitution for the subject. The Greek text does not mention a 'star'; it simply says 'and [he/it] opened'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

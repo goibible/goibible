@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευμα' (pneuma) means 'spirit'. The Vietnamese translation uses 'Thánh Linh' (Holy Spirit), which is a specific theological entity. While often associated in context, the Greek text literally refers to 'the spirit' (as opposed to the body)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

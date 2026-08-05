@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the action of 'anointing' (κομισασα - komisasa). It only mentions her 'bringing' or 'taking' (đem) the alabaster jar, but fails to convey that she actually anointed Him with it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

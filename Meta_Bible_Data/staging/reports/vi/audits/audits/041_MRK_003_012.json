@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'ai' (anyone), which is not present in the Greek text ('μη αυτον φανερον ποιησωσιν' - 'not make him manifest'). The Greek specifies 'him' (the Son/Lord) rather than 'anyone'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

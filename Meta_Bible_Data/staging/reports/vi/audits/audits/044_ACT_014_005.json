@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ορμη' (ormē) refers to a 'rising up', 'uprising', or 'insurrection'. The Vietnamese 'nổi lên xông vào' adds the sense of 'rushing in/charging into' (xông vào), which is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'υβρισαι' (ubrisai) means 'to treat with insolence', 'to insult', or 'to treat with contempt'. The Vietnamese 'hà hiếp' implies 'oppression' or 'robbery/extortion', which is a stronger and different concept than the Greek word for insolent treatment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

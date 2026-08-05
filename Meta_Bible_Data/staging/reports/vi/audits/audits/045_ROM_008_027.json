@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εντυγχανει' (entychanei) means 'to intercede' or 'to make requests,' but the Vietnamese 'cầu thay' combined with 'vì' (because) changes the logical relationship. The Greek 'οτι' (hoti) functions as a conjunction introducing the content of what the Spirit knows, not as a causal 'because'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the prepositional phrase 'κατα Θεον' (kata Theon), which specifies that the intercession is 'according to God'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

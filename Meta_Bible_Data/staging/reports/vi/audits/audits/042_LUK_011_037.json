@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'τις οπως αριστηση' (someone who was a guest/host), which is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'xin Ngài dùng bữa với mình' (asked Him to eat with him) is a slight shift from the Greek 'ηρωτα αυτον... παρ αυτω εισελθων' (asked Him... having entered with him), though it captures the general interaction. However, the omission of the status/role of the person ('αριστηση') is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

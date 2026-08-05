@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συνευδοκειτε' (syneudokeite) means to 'concur', 'agree with', or 'be in agreement with'. The Vietnamese translation 'ưng thuận' (to agree/consent) is acceptable, but the context of 'concurring with their works' implies a shared approval or validation of their actions. However, the primary issue is the nuance of 'συνευδοκειτε' which often carries a sense of 'approving of' or 'agreeing with' in a way that validates their deeds."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'απεκτειναν αυτους' (apekteinan autous) means 'killed them'. The Vietnamese 'giết họ' is accurate. However, the phrase 'οικοδομειτε αυτων τα μνημεια' refers to 'building up their monuments/memorials'. The Vietnamese 'xây mộ' specifically means 'building graves/tombs'. While 'mô' (grave) is a type of monument, 'mνημεια' is broader and refers to memorials or monuments. This is a slight narrowing of meaning but generally acceptable in many contexts; however, if the author intended 'monuments' as a broader category of commemoration, 'xây mộ' might be too specific."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

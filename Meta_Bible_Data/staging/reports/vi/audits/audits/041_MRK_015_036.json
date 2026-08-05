@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλαμω' (kalamō) is an instrumental case referring to a reed/cane. The Vietnamese 'đặt trên cây sậy' (placed on a reed) implies the sponge was resting on top of it, whereas the Greek implies the sponge was attached to or held by the reed (e.g., 'thấm đầy giấm vào cây sậy')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει ερχεται' is a present active indicative, suggesting 'if [he] comes'. The Vietnamese 'có đến... chăng' adds a sense of speculative inquiry ('whether he will come') that slightly shifts the nuance from a conditional 'if' to a question of 'whether'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

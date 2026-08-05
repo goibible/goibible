@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'mọi đường' (in every way/all paths) at the end of the sentence, which has no basis in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

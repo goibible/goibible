@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανθυπατον' refers to 'Antipas', a specific historical person. The Vietnamese translates this as 'quan tổng đốc' (governor), which is a factual error and an addition of a title not present in the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διαστρεψαι' implies 'to pervert' or 'to twist away', whereas 'lìa bỏ' (to leave/abandon) is slightly weaker, though acceptable in context. However, the primary issue is the misidentification of Antipas."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

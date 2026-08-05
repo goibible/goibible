@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κεχρηματισμενον' (having been promised) is translated as 'báo trước' (foretold/announced), which slightly shifts the nuance from a promise to a mere announcement. More importantly, the Vietnamese phrasing 'được Đức Thánh Linh báo trước rằng mình sẽ không thấy...' suggests the Holy Spirit told them they *would not* see death, whereas the Greek structure 'μη ιδειν θανατον' is a specific promise of exemption from death until seeing Christ."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

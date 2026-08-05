@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειτε εγω ειτε εκεινοι' (either I or those) is rendered as 'dù tôi hay họ, chúng tôi' (whether I or they, we). The Vietnamese adds a plural subject ('chúng tôi' - we) that does not exist in the Greek text, which only mentions 'I' and 'those'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο της χαρας' (apo tes charas) means 'from the joy' or 'out of the joy,' but the Vietnamese 'vì niềm vui' (because of the joy) changes the relationship between the joy and the lack of faith. In the Greek, it suggests their lack of faith is stemming from/related to the joy (or perhaps a specific context of joy), whereas 'vì' in Vietnamese implies a causal reason."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ετι' (eti) means 'still' or 'yet'. The Vietnamese translation 'còn chưa' captures the 'not yet' aspect but misses the specific emphasis of 'still' in relation to the ongoing state of disbelief."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

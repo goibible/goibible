@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω ειμι' (I am) is rendered as 'Ta tự làm chứng' (I testify for myself). While the meaning of 'testifying' is present, the grammatical structure 'I am' is replaced by a reflexive action 'self-testify'. More importantly, the Vietnamese translation implies that Jesus is the one performing the act of testifying in the first clause, but it slightly shifts the emphasis from the state of being ('I am') to an active verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'θεραπειας' (therapeias) in this context (likely from a specific text like the Parable of the Talents or similar) refers to 'stewardship' or 'management' (from 'oikonomia'), but the Vietnamese translation 'sự chữa lành' means 'healing'. This changes the functional role of the servant from a manager/steward to someone associated with healing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'ο κυριος αυτου' (his master), but the Vietnamese translates it as 'chủ' (master), omitting the possessive 'his' which links the master specifically to the servant."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

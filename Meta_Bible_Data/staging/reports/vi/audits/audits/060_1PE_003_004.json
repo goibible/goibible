@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολυτελες' (polyteleia) refers to 'multitude' or 'many things'. The Vietnamese 'quí giá' means 'precious/valuable', which is a significant shift in meaning from quantity/abundance to quality/worth."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολυτελες' implies a multitude of things/qualities; the Vietnamese translation simplifies this to a single descriptive adjective ('precious') without capturing the sense of 'many'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

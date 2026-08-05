@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αι δυο ελαιαι' (the two olive trees) and 'δυο λυχνιαι' (two lamps/lampstands) are translated as 'hai cây ô-li-ve' and 'hai chân đèn'. However, the Vietnamese 'Hai người ấy' (Those two people) introduces a human subject ('người') that is not present in the Greek text. The Greek refers to the trees and lamps directly as 'these' (ουτοι)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

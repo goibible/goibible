@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι αρα' (ti ara) functions as an interrogative/exclamatory particle meaning 'what then' or 'what happened', indicating a question about Peter's state. The Vietnamese 'không biết' (not knowing) changes the perspective from a direct question/exclamation about what happened to a statement of ignorance by the soldiers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

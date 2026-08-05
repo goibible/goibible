@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'γλωσσαι' (glōssai) means 'tongues' or 'languages'. The Vietnamese translation 'các lưỡi' literally means 'the blades' or 'the tongues' (anatomical), but in this context, it is a literal translation of the word that fails to convey the intended meaning of 'languages' or 'tribes/peoples' as understood in biblical Greek. However, more importantly, the Vietnamese 'các lưỡi' is an awkward and potentially confusing rendering for 'tongues' in a theological context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation repeats 'bóng tối' (darkness) twice, whereas the Greek text only lists it once. The Greek sequence is: mountain, fire, darkness, storm."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

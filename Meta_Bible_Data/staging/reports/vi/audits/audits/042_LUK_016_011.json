@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'πιστεύει' is transitive, meaning 'will believe' (the truth will believe you). The Vietnamese translation 'giao' (give/hand over) changes the action from a mental state of belief to a physical act of giving."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

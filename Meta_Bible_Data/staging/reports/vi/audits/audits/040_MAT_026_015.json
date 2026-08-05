@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι θελετε μοι δουναι' means 'what do you want me to give [you]', but the Vietnamese translation 'bao nhiêu' (how much) changes the scope from a general request/demand to a specific quantitative amount."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'παραδωσω' is in the future tense ('I will deliver'), but the Vietnamese 'liền trả' (immediately paid) changes the sequence of events and the nature of the action from a promise to give to an act of paying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

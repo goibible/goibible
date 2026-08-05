@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προεχειρισατο' (proexecharisato) means 'purposed' or 'intended' (from pro-ekcheirizō), but the Vietnamese 'đã chọn' means 'chose' or 'elected'. This changes the nature of the action from a divine purpose/plan to a specific act of selection."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'τον δικαιον' (ton dikaion) refers to 'the righteous' (singular or collective), but the Vietnamese 'Đấng Công Bình' (capitalized) implies a specific title/person ('The Righteous One') rather than the quality of being righteous."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

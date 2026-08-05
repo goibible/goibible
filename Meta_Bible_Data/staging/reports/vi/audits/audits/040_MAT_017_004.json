@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text says 'ποιήσωμεν' (let us build - 1st person plural), but the Vietnamese translation says 'tôi sẽ dựng' (I will build - 1st person singular)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

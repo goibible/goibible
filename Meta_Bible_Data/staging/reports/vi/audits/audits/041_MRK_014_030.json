@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text says 'τρισ απαρνησε με' (you will deny me three times), but the Vietnamese translation says 'gáy hai lần' (crow twice). The number of times the rooster crows is not specified in the Greek, but the number of denials is three. The Vietnamese translation incorrectly attributes the number 'two' to the rooster's crowing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

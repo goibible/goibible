@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυναμεις' (dynameis) is a plural noun meaning 'powers' or 'mighty acts'. The Vietnamese translation renders it as 'những quyền năng', which is acceptable, but the construction 'làm những quyền năng' (made/did powers) fails to capture the specific sense of 'performing mighty acts' or 'doing wonders'. More importantly, the Greek 'τε ου τας τυχουσας' (te ou tas tychousas) means 'not ordinary' or 'not common', but the Vietnamese 'không phải thường' is slightly ambiguous; it should clearly convey that these were extraordinary/miraculous acts."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

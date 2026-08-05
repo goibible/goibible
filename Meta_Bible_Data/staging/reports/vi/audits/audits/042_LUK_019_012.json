@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βασιλειαν' (basileian) means 'kingdom', but the Vietnamese translation uses 'nước' (which can mean 'water' or 'country/nation'). In this context, 'nước' is ambiguous and fails to capture the specific meaning of 'kingdom'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

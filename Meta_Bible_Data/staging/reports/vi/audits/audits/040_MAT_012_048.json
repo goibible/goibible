@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τινες' is plural ('who are'), but the Vietnamese 'ai' is singular ('who is'). The Greek text refers to multiple brothers, while the Vietnamese translation treats them as a single entity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

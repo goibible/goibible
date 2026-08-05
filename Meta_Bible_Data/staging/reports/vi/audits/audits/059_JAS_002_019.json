@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλως ποιεις' (kalōs poieis) means 'you do well' or 'you are doing well,' but the Vietnamese 'ngươi làm phải' translates to 'you must do' or 'you are required to do,' which changes the meaning from a statement of current action/quality to an obligation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

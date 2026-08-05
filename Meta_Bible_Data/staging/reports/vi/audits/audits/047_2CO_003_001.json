@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει μη χρηζομεν' is a conditional/interrogative construction meaning 'if we do not need' or 'should we not need'. The Vietnamese translation renders this as 'Hay chúng tôi cần' (Or do we need), which changes the logic of the sentence. The Greek implies a rhetorical question about whether they are acting without needing such letters, whereas the Vietnamese suggests a choice between two options."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

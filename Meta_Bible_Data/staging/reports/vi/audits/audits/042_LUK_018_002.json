@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λεγων' (legōn) means 'saying'. The Vietnamese translation omits this verbal action entirely, turning a descriptive phrase into a simple statement of fact."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

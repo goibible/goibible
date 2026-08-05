@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηποτε θορυβος εσται' (lest there be a disturbance) is a prohibitive/preventative statement. The Vietnamese 'e rằng' (I fear that / it is feared that) introduces an expression of anxiety or apprehension that is not present in the Greek text, which simply states the reason for the prohibition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

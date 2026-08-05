@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεχον' (katechon) is a specific noun/concept referring to 'the restraining force' or 'that which restrains.' The Vietnamese translation 'điều đang cản trở' (the thing that is hindering/restraining) is a descriptive phrase rather than a direct rendering of the specific term, but more importantly, the Greek structure 'το κατεχον οιδατε' means 'you know the restraining [one/force],' whereas the Vietnamese phrasing makes it sound like an abstract action or a general situation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τω εαυτου καιρω' (en tō heautou kairō) means 'in its [own] time.' The Vietnamese 'trong thời điểm của nó' is a good rendering, but the translation fails to capture the nuance of 'the restraining force' as a specific entity/subject. However, looking at the core meaning, the most significant issue is that 'κατεχον' is often treated as a specific noun in this context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

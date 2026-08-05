@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 53,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθελων' (kathelōn) means 'having taken down' or 'having lowered'. The Vietnamese 'đem xác Ngài xuống' (taking His body down) is a reasonably close rendering, but the phrase 'lấy vải gai mịn bọc lại' (wrapped in fine linen) slightly alters the Greek 'ενετυλιξεν αυτο σινδονι' (wrapped him in a shroud). While 'vải gai mịn' is a common translation for 'σίνδον', the Vietnamese phrasing implies an action of wrapping that is slightly more descriptive than the simple verb/object structure, though this is borderline. However, the primary issue is the lack of the specific 'shroud' (σίνδον) nuance if interpreted as just general fabric."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

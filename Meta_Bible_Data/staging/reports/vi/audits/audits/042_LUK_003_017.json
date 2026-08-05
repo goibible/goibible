@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρι ασβεστω' (asvestō pyri) means 'unquenchable fire' or 'fire that cannot be extinguished.' The Vietnamese 'lửa chẳng hề tắt' translates to 'fire that never goes out/extinguishes,' but the nuance of 'unquenchable' (impossible to put out) is slightly different from 'never goes out' (continuous state). However, a more significant issue is 'πυρι' (fire) vs 'lửa'. The Vietnamese captures the meaning well, but I am flagging because 'ασβεστω' specifically refers to the inability to be quenched/extinguished."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

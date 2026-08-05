@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεωρουντες' (theōrountes) implies a continuous action of 'beholding', 'looking at', or 'observing'. The Vietnamese 'thấy' (saw) is a simple past/perfective verb, which loses the sense of ongoing observation that led to their faith."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek uses a present participle ('θεωρουντες'), indicating they were believing *while* observing. The Vietnamese structure 'thấy... thì tin' suggests a sequential order (saw, then believed) rather than the simultaneous action expressed in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

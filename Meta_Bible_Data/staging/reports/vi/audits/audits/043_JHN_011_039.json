@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηδη οζει' (already it stinks/smells) is translated as 'đã có mùi' (it has a smell/odor). While 'mùi' captures the sense of odor, the Greek 'οζει' specifically implies the process of decaying/reeking. More importantly, the Vietnamese omits the adverb 'ηδη' (already), which emphasizes the state of decay."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

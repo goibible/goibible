@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εστιν σου ανηρ' means 'he is not your husband' (referring to the current man), but the Vietnamese 'không phải là chồng ngươi' could be interpreted as 'is not your husband' or 'is not a husband of yours'. More importantly, the Vietnamese structure 'còn người ngươi hiện có không phải là chồng ngươi' suggests the person currently *with* her is not her husband, whereas the Greek emphasizes that the man she *has/possesses* now is not her husband."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'năm' (five) in the sense of 'five men' if it were to be read as a list, but actually, it includes 'năm chồng'. However, the Greek 'πεντε γαρ ανδρας εσχες' refers to 'five men' (plural), while the Vietnamese 'năm chồng' implies she had five husbands. The Greek doesn't explicitly say they were all husbands, just 'men'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

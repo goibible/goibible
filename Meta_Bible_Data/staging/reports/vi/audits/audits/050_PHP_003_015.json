@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τελειοι' (perfect/complete) is used as a descriptor for the people, but the Vietnamese adds 'trong chúng ta' (among us / in us), which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φρονωμεν' (let us think/consider) is rendered as 'hãy có ý tưởng đó' (let us have that idea). While similar, the Vietnamese phrasing shifts from a cognitive action to a possession of an idea, but more importantly, the Greek 'φρονωμεν' is a first-person plural present active indicative (often used as a hortative), while the Vietnamese 'hãy có' is a standard imperative. However, the addition of 'trong chúng ta' is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

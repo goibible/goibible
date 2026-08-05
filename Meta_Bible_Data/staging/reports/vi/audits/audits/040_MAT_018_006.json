@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation ('làm cho... vấp phạm') suggests 'making someone stumble,' whereas the Greek 'σκανδαλιση' (skandalize) in this context specifically means 'causing to stumble/offending' as an action against the believer. More importantly, the Vietnamese phrasing 'thà... còn hơn' (rather... than) adds a comparative structure of preference/concession that is not present in the Greek 'συμφερει' (sypherei), which denotes 'it is better/more profitable' in a direct sense."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

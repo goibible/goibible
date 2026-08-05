@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'ngồi trên mặt' (sitting on the face) is a literal/incorrect rendering of 'επι προσωπον' (upon the face). In this context, it refers to 'on the face of the earth' (trên khắp mặt đất), but the Vietnamese phrasing suggests sitting 'on top of faces'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

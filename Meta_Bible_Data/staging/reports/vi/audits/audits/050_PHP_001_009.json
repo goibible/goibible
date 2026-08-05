@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αισθησει' (aisthēsei) means 'perception', 'feeling', or 'sense'. The Vietnamese translation 'phán đoán' means 'judgment' or 'discernment'. A reader would miss the sensory/perceptual aspect of the original text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

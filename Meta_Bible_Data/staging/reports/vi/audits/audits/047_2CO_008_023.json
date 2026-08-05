@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοινωνος' (koinōnos) is translated as 'bạn đồng công' (coworker/partner in work), but the Greek term specifically denotes a 'companion', 'partner', or 'sharer'. While 'đồng công' is common in Christian contexts, 'người cùng chia sẻ' or 'người bạn đồng hành' would be more precise to the Greek sense of fellowship/partnership."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific prepositional relationship of 'εις υμας' (eis hymas) which indicates 'unto you' or 'to you'. The current translation 'là người cùng làm việc với anh em' loses the directional sense of being sent/provided 'to' them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

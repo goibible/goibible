@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συναγωγην' refers to the 'synagogue' (the religious institution/assembly), but the Vietnamese 'nhà hội' translates to 'community house' or 'meeting house'. While related, 'nhà hội' can imply a secular community center, whereas the Greek specifically denotes the synagogue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αξιον του καμε' (worthy/proper for us) is plural, but the Vietnamese translation 'đáng cho tôi' makes it singular (worthy for me). The subject of the worthiness is 'we' (καμε), not 'I'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

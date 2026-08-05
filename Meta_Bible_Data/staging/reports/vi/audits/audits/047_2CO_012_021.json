@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'με ταπεινωση' (with humiliation/humbling) is rendered as 'hạ tôi xuống' (brought me down/lowered me). While 'hạ xuống' can imply humbling, the Greek specifically denotes a state of being humbled or a process of humiliation. More importantly, the Vietnamese structure suggests an action performed *on* the speaker ('hạ tôi xuống') rather than a description of the *manner* in which the speaker returns ('returning with humiliation')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

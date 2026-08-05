@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξεπορευετο' (exeporeueto) means 'went out' or 'came forth,' but the Vietnamese 'đi ra cùng người' (went out with him) adds the sense of 'with him' which is not explicitly in the verb, though it's implied by context. More importantly, 'πασα η ιουδαια χωρα' refers to 'all the land of Judea', whereas the Vietnamese 'Cả miền Giu-đê' omits the specific 'land/country' (χωρα) aspect."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εβαπτιζοντο... υπ αυτου' means 'were being baptized by him'. The Vietnamese 'chịu người làm báp-têm' (received/underwent the person doing baptism) changes the active voice of the action slightly, though this is a minor nuance. However, the biggest issue is 'τας αμαρτιας αυτων' (their sins). The Vietnamese 'xưng tội lỗi mình' translates to 'confessing their own sins', but the Greek specifically refers to 'their sins' (the sins of the people being baptized)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

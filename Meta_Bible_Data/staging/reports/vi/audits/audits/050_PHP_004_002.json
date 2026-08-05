@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευωδιαν' (Euodian) and 'συντυχην' (Syntychēn) are proper names/groups, not verbs meaning 'to advise'. The Vietnamese translation treats them as the objects of a verb 'khuyên' (advise/exhort), which is not present in the Greek. The Greek structure is 'I pray [for] Euodians and Syntychēns [to have] this mindset in the Lord'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

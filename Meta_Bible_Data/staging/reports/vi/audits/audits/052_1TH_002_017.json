@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απορφανισθεντες' (orphaned/separated) is rendered as 'bị xa cách' (distanced/separated). While similar, the Greek term carries a much stronger sense of being 'left alone' or 'orphaned' due to the separation. More importantly, the Vietnamese 'về mặt chứ không về lòng' (in appearance but not in heart) is a significant mistranslation of 'απ υμων προς καιρον ωρας προσωπω ου καρδια'. The Greek literally means 'from you for a short time [in] face [not] heart', indicating the separation was only brief in terms of physical presence ('face') but not in terms of affection/heart. The Vietnamese phrasing suggests a contrast of sincerity (outward vs inward) rather than a duration of physical absence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

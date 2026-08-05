@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εδοξαζον' (edoxazon) is 1st person singular ('I glorified'), but the Vietnamese translation uses a 3rd person plural pronoun 'họ' ('they')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

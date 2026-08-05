@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ της δεξιας του' means 'from the right [hand] of him'. The Vietnamese 'từ tay hữu của' (from the right hand of) is a common interpretation, but strictly speaking, the Greek does not specify 'hand' (cheir). However, more importantly, the Vietnamese 'tay hữu' is a literal translation of 'right hand', whereas the Greek implies 'the right side'. Given the context of the throne, 'right side' is the accurate spatial location."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

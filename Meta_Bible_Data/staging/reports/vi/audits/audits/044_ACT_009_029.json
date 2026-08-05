@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελαλει' (elalei) means 'spoke/talked' (past tense), but the Vietnamese 'Người nói' functions as a noun phrase ('The person who speaks') or a present description, losing the specific past tense of the action. Furthermore, 'dạn dĩ' (boldly/frankly) is an interpretive addition not present in the Greek 'τε' (which is a connective particle)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεζητει' (synezetei) means 'reasoned with' or 'argued with'. The Vietnamese 'tranh luận' captures the argument, but 'συνεζητει' specifically implies a logical/rational discourse which is slightly softened in the Vietnamese."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

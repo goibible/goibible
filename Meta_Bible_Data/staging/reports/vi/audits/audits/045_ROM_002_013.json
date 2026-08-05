@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιηται' (poietai) means 'doers' or 'makers' of the law, not 'người làm luật' (lawmakers/legislators). In this context, it refers to those who practice or act out the law."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

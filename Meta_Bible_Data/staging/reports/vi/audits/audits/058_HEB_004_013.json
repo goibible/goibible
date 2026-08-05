@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τετραχηλισμενα' (tetrachelismena) refers to being 'exposed,' 'laid bare,' or 'uncovered.' The Vietnamese translation 'mở ra' (opened/uncovered) is acceptable, but the phrase 'không tỏ ra' for 'ουκ εστιν κτισις αφανης' is slightly imprecise. However, the main issue is the final clause: 'προς ον ημιν ο λογος' refers to the Word being 'towards us' or 'for us' (in terms of its revelation/direction), whereas 'mà chúng ta phải khai trình' (which we must explain/account for) changes the grammatical relationship from a prepositional direction/revelation to a human obligation of explanation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιποιησιν σωτηριας' refers to 'provision of salvation' or 'preparation for salvation'. The Vietnamese translation 'sự được rỗi của sự cứu rỗi' is redundant and awkward, essentially translating it as 'the being saved of the salvation', which loses the specific sense of 'provision/preparation' (περιποίησις)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

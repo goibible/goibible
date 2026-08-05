@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'người bị nạn' (the victim/the injured person) to refer to the subject of the wounds. The Greek text says 'τα τραυματα αυτου' (his wounds), where 'αυτου' refers back to the person who came near ('προσελθων'). The Vietnamese phrasing implies a third party as the victim, whereas the Greek indicates the person who approached was the one with the wounds."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese translation uses 'người ấy' (that person) twice. While the Greek uses 'αυτου' (his/him), the structure of the Vietnamese makes it slightly ambiguous whether the first 'người ấy' and the 'người bị nạn' are the same person, whereas in Greek, the subject who approaches is clearly the one whose wounds are being tended."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

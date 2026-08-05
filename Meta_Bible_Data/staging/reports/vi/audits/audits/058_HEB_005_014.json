@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 5,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τελειων' (teleion) refers to 'perfect/mature' (spiritual maturity), but the Vietnamese translation uses 'trưởng thành' in a way that implies chronological adulthood or physical growth, missing the specific nuance of spiritual perfection/maturity intended by 'teleion' in this context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεπετε' (look/see) is rendered as 'Hãy cẩn thận' (Be careful). While conceptually similar in a moral sense, the Vietnamese translation changes the specific verb of perception to an imperative of caution."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The final clause 'τοις ακουουσιν' is a dative of reference/agent meaning 'to those who hear'. The Vietnamese translation 'là kẻ nghe' (are those who hear) changes the grammatical function and meaning, making it sound like an identification of the subjects rather than the recipients of the addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απελυθησαν' is a passive verb meaning 'were released' or 'were let go'. The Vietnamese 'được giải thoát' (were liberated/freed) is acceptable, but the phrase 'để trở về' (to return) adds a purpose/direction of movement not present in the Greek 'προς τους αποστολους' (to/towards the apostles). The Greek indicates the destination of their release, not necessarily a purposeful act of 'returning'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

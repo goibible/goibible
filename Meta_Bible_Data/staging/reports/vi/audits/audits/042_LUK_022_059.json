@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαστασης ωρας μιας' (at the distance of one hour) refers to a spatial/temporal distance, but the Vietnamese 'Cách đó chừng một giờ' (About an hour from there/then) is acceptable. However, the Greek 'αλλος τις διισχυριζετο λεγων επ αληθειας' translates to 'another claimed, saying in truth', whereas the Vietnamese 'có một người khác quả quyết rằng: 'Thật vậy...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'αλλος τις διισχυριζετο' (another claimed/asserted), but the Vietnamese adds 'Thật vậy' (Indeed/Truly) as a direct quote, which is an addition of a transitionary phrase not explicitly in the Greek 'επ αληθειας' (in truth)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

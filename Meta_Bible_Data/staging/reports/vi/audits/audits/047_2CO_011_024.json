@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεντακις τεσσαρακοντα' means 'five times forty' (200). The Vietnamese 'năm lần tôi chịu bốn chục roi thiếu một' is interpreted as 'five times (forty minus one)', which would be 195. The Greek structure indicates the number of lashes was 200, and then it specifies 'minus one' (para mian) at the end, but the Vietnamese phrasing suggests the subtraction applies to the forty."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

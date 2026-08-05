@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συντελεσας' (syntelesas) is an aorist active participle/verb meaning 'having finished' or 'having completed.' The Vietnamese translation 'đã dùng hết' (has used up) implies the devil *consumed* the temptations, whereas the Greek indicates that the devil *completed* the process of tempting. This changes the agency and nature of the action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεστη' (apestē) means 'departed' or 'withdrew.' The Vietnamese 'tạm lìa' (temporarily left/separated) is a reasonable rendering, but the overall construction 'bèn tạm lìa' (then temporarily left) loses the specific nuance of the completion of the action leading to the departure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

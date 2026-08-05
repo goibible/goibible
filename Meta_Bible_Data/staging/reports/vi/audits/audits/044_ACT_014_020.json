@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αναστας' (having risen/getting up) describes the action of the disciples, but the Vietnamese translation 'người đứng dậy' (the person stood up) is ambiguous and lacks a clear subject. It could be interpreted as the person being surrounded standing up, rather than the disciples rising to enter the city."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ποτε ηπειθησατε' (never obeyed) is translated as 'đã không vâng phục' (did not obey). While similar, the Greek 'ποτε' (never) combined with the perfect tense implies a state of never having obeyed up to that point, whereas the Vietnamese phrasing can imply a specific past instance of disobedience."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε ηλεηθητε' (you were not pitied/mercy was not shown to you) is translated as 'được thương xót' (were shown mercy). The Vietnamese translation reverses the meaning of the Greek negation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λογισαμενος' (logisamenos) is a perfect passive participle meaning 'having reasoned/calculated/considered.' The Vietnamese 'suy nghĩ' (thought/pondered) captures the general idea but misses the specific nuance of 'reasoning' or 'calculating' based on the logic of the situation. However, the more significant issue is the lack of the 'even' (και) in 'και εκ νεκρων', which emphasizes that God can raise *even* from the dead."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οθεν αυτον' (othen auton) means 'from where he [the son] [was]'. The Vietnamese 'nhận lại con mình' (took back his son) misses the specific 'from where' aspect, though it conveys the result of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

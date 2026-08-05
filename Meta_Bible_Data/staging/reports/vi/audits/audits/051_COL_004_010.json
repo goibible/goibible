@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο ανεψιος' (ho anepsios) refers to a nephew. The Vietnamese 'anh em họ' means cousin."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'chúng tôi' (we) is added as a subject for the final clause ('hãy yên lặng...'). In the Greek, 'ινα... εσθιωσιν' is a purpose clause where the subject of 'εσθιωσιν' (they eat) is 'τοις δε τοιουτοις' (those people). The Vietnamese makes it sound like a command for the readers/speakers to eat, rather than a description of what those people will do."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

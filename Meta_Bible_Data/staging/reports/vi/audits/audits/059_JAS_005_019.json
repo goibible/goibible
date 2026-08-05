@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 5,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν τις εν υμιν πλανηθη' (if any of you wanders/stray) is a conditional clause. The Vietnamese translation 'nếu có ai trong vòng anh em lầm lạc' correctly identifies the wandering, but the second part 'và có người làm cho nó trở lại' translates 'επιστρεψη τις αυτον' (bring them back) as a separate action by a different person ('có người'), whereas the Greek structure implies the same person who wanders is the one who should bring them back (or the action of bringing back is the result of the condition). More significantly, the Vietnamese 'làm cho nó trở lại' treats 'nó' (it) as the object, but the Greek 'τις' refers back to 'τις' (the person/one) who wandered. The Vietnamese phrasing makes it sound like they are returning an object rather than the person returning to the truth."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

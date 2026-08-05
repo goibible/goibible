@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη νιψης' is a double negative (ou + mē), which in this context functions as a question: 'Why do you not wash my feet?' The Vietnamese translation renders it as a declarative statement: 'Chúa sẽ không bao giờ rửa chân tôi!' (Lord will never wash my feet!)."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ου μη νιψης' is a 2nd person singular verb ('why do you not wash'). The Vietnamese translation uses a 3rd person future construction ('sẽ không bao giờ'), changing the subject and the nature of the interaction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

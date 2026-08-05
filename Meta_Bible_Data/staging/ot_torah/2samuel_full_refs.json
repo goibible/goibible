@@ -1,0 +1,36 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 2 Samuel QA batch.",
+  "groups": [
+    {
+      "name": "2 Samuel full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "2SA 1",
+        "2SA 2",
+        "2SA 3",
+        "2SA 4",
+        "2SA 5",
+        "2SA 6",
+        "2SA 7",
+        "2SA 8",
+        "2SA 9",
+        "2SA 10",
+        "2SA 11",
+        "2SA 12",
+        "2SA 13",
+        "2SA 14",
+        "2SA 15",
+        "2SA 16",
+        "2SA 17",
+        "2SA 18",
+        "2SA 19",
+        "2SA 20",
+        "2SA 21",
+        "2SA 22",
+        "2SA 23",
+        "2SA 24"
+      ]
+    }
+  ]
+}

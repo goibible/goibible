@@ -1,0 +1,24 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Ecclesiastes QA batch.",
+  "groups": [
+    {
+      "name": "Ecclesiastes full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "ECC 1",
+        "ECC 2",
+        "ECC 3",
+        "ECC 4",
+        "ECC 5",
+        "ECC 6",
+        "ECC 7",
+        "ECC 8",
+        "ECC 9",
+        "ECC 10",
+        "ECC 11",
+        "ECC 12"
+      ]
+    }
+  ]
+}

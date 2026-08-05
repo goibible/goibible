@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευμασιν δικαιων' (pneumasin dikaiōn) is a genitive construction meaning 'spirits of the righteous' or 'righteous spirits'. The Vietnamese translation 'các Thánh Linh của người công chính' renders 'πνευμασιν' as 'Holy Spirits' (capitalized/specific theological entity), which changes the scope from 'spirits' in general to a specific religious figure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

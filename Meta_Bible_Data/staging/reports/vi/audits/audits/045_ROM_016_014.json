@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπασασθε' (aspasasthe) is a plural imperative meaning 'Greet' or 'Welcome'. The Vietnamese translation 'Hãy chào' is correct, but the Greek text contains several names/titles that are not simply a list of people to greet. Specifically, 'ασυγκριτον φλεγοντα' (asygriton phlegonta) is likely a corruption or specific phrasing in this manuscript; however, the most significant issue is the treatment of 'ερμαν πατροβαν ερμην'. If these are names, they are rendered, but if they are descriptors, the Vietnamese treats them as a list of individuals. More importantly, the Greek 'τους συν αυτοις αδελφους' means 'the brothers with them', whereas the Vietnamese 'các anh em ở với họ' implies 'the brothers who live/stay with them'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

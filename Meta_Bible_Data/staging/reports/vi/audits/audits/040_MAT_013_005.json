@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξανετειλεν' (exaneteilen) means 'sprang up' or 'shot up' suddenly. The Vietnamese 'mọc lên' is a general term for 'growing/sprouting'. While acceptable in some contexts, 'mọc lên ngay' fails to capture the specific nuance of the sudden, rapid growth described in the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βαθος γης' (bathos gēs) means 'depth of the earth/soil'. The Vietnamese 'sâu của đất' is grammatically awkward and slightly changes the sense; it should be 'độ sâu của đất' or simply 'đất không sâu'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι εμοι και σοι' (what to me and to you) is a common idiom expressing 'What do I have to do with you?' or 'What business do I have with you?'. The Vietnamese translation 'tôi với Ngài có can hệ gì?' (What relation/connection do I have with You?) captures the sentiment, but it slightly shifts the nuance from a question of personal involvement/accountability to one of relationship/connection. However, more critically, the Greek is a rhetorical question asking 'What [is it] to me and to you?', whereas the Vietnamese phrasing is slightly less direct in its structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

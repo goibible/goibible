@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αλατι ηρτυμενος' (salted) describes the 'λογος' (word/speech). The Vietnamese translation 'nêm thêm muối' (add salt) treats it as an imperative command or a separate action to be performed, rather than a descriptive participle indicating that the speech should be seasoned with salt."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

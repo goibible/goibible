@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Vietnamese translation adds a negation ('chẳng') that is not present in the Greek text. The Greek 'ει δοθησεται' (if/that it will be given) is a positive statement, but the Vietnamese renders it as 'sẽ chẳng được ban cho' (will not be given)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

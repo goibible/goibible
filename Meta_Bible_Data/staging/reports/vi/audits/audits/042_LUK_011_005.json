@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific name 'Philo' (φιλον) mentioned in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

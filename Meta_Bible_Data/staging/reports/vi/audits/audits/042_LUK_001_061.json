@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 61,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ειπον' (eipon) is 1st person singular ('I said'), but the Vietnamese translation uses 'Họ nói' (They said), changing the subject from a singular 'I' to a plural 'They'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

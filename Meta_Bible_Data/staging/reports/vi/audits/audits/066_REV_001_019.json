@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'α μελλει γινεσθαι' (about to happen/becoming) is rendered as 'đang có' (what is having/existing), which changes the sense from future/imminent action to present existence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

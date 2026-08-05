@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επηρωτων' (epērōtōn) is a participle meaning 'asking' or 'inquiring'. The Vietnamese 'hỏi' (asked) is correct, but the Vietnamese translation omits the preceding participial phrase 'στρατευομενοι' (strateuomenoi), which means 'while being armed' or 'while in military dress/uniform'. This adds a specific context to the soldiers' state that is missing in the Vietnamese."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδενα διασεισητε' (mēdena diaseisete) means 'do not seize/confiscate anything'. The Vietnamese 'Đừng hà hiếp ai' (Do not oppress anyone) changes the object from 'anything' (property/goods) to 'anyone' (people)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

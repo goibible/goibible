@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματα πονηροτερα' means 'evil spirits' (πονηροτερα = more evil), but the Vietnamese renders it as 'Thánh Linh' (Holy Spirit), which is a completely different concept and changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειδον αυτους υπαγοντας οι οχλοι' means 'the crowds saw them going'. The Vietnamese translation 'đám đông thấy họ đi' suggests the crowd saw them *while* they were walking/moving, but it misses the subject-object relationship clearly. More importantly, the Vietnamese 'thì nhận biết Ngài' (then recognized Him) attributes the recognition to the crowd as a result of seeing them, whereas the Greek 'και επεγνωσαν αυτον πολλοι' indicates that 'many' (polloi) recognized Him."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific subject 'πολλοι' (many) for the verb 'recognized', making it sound like the entire crowd recognized Him, whereas the Greek specifies 'many' people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

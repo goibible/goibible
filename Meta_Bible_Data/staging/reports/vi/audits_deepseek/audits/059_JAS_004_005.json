@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρὸς φθόνον ἐπιποθεῖ τὸ πνεῦμα' means 'the Spirit yearns jealously' (i.e., the Spirit longs with jealousy/desire), but the Vietnamese renders it as 'yêu thương đến nỗi ghen ghét' ('loves to the point of jealousy/hatred'), adding 'yêu thương' (love) which is not in the Greek and shifting the meaning from the Spirit's own yearning to a consequence of love. This changes the claim about the Spirit's disposition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

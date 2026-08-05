@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the word 'κατελθειν' (to come down/descend), which is omitted in the Vietnamese translation. The Vietnamese says he went 'with' (cùng) them, whereas the Greek implies he 'came down to' (κατελθειν προς) them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθευδετε' (katheudete) is an imperative verb meaning 'sleep' (command/exhortation). The Vietnamese translation 'Các ngươi còn ngủ... nữa sao?' renders it as a rhetorical question ('Are you still sleeping?'), which changes the grammatical mood and the directness of the command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

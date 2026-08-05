@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αντικατεστητε' (antikatesthete) means 'to resist' or 'to oppose' in a spiritual/combative sense. The Vietnamese 'chống trả' usually implies physical retaliation or fighting back against an active attack. While similar, the Greek context of 'competing/struggling' (ἀγωνιζομενοι) makes 'chống lại' or 'đấu tranh' more accurate than 'chống trả'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

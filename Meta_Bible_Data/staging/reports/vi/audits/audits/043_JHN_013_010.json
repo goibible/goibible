@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'không cần sự cần dùng gì ngoài việc' (doesn't need anything except) misrepresents the Greek 'ου χρειαν εχει η τους ποδας νιψασθαι' (has no need to wash his feet). The Greek is a simple negation of the necessity of washing feet, whereas the Vietnamese adds a restrictive 'except' structure that alters the logic of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

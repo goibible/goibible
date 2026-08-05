@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εμοι ειρηνην εχητε' means 'that in Me you may have peace'. The Vietnamese translation 'các con có bình an trong Ta' (you have peace in Me) misses the subjunctive/purpose nuance of 'ινα' (so that/in order that), making it a statement of current state rather than a purpose for why he spoke these words."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

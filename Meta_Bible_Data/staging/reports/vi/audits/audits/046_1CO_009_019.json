@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ παντων πασιν' (from all people) is translated as 'đối với mọi người' (for/towards all people). The Greek indicates the source or origin of his freedom (he was free *from* everyone), whereas the Vietnamese suggests a relationship of freedom *towards* them."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κερδησω' is a future/aorist active indicative meaning 'to win' or 'to gain'. The Vietnamese 'để được' (in order to get/have) loses the specific nuance of 'winning' or 'gaining' people as a result of his actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκηρυσσεν' (ekēryssen) means 'proclaimed' or 'publicly announced.' The Vietnamese translation 'người giảng dạy' (the one who taught/preached) changes the nature of the action from a public proclamation to an act of teaching/preaching."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'ουτος εστιν' (outos estin) means 'this one is.' The Vietnamese translation 'Đấng Christ này' (this Christ) incorporates the demonstrative 'này' but loses the specific verbal structure of 'this one is,' though this is minor compared to the verb change."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

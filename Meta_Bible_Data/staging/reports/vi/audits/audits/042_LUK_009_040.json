@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ηδυνηθησαν' (ēdynēthēsan) means 'they were not able to' or 'they could not' in the sense of lacking power/ability, but it is often used in this context to mean they were 'not able to [do so]' because of the spiritual nature of the entity. However, the Vietnamese 'không thể làm được' (could not do/were unable to) is a slight shift from the specific Greek nuance of 'not being able to [overcome/subdue]', but more importantly, the Greek implies they were 'unable' specifically in the context of the action just requested. The translation is generally acceptable, but 'ηδυνηθησαν' carries a sense of 'could not' as a result of a lack of power."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

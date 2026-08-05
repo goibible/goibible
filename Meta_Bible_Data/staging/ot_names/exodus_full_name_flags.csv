@@ -1,0 +1,11 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+EXO,1,11,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,2,22,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+EXO,4,24,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+EXO,4,26,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+EXO,6,1,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,14,17,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,14,28,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,24,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+EXO,27,12,orange,missing_expected_name,Bố-vi,,Expected approved name 'Bố-vi' from VIE1934 occurrence.
+EXO,32,18,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.

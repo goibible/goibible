@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'πληρωθη' (plērōthē) in this context (Matthew 11:26) refers to being 'fulfilled' or 'completed' as a prophetic fulfillment/completion of a task, whereas 'ứng nghiệm' in Vietnamese can sometimes imply 'being fulfilled' in the sense of a condition being met or a prophecy coming true. However, the more significant issue is the nuance of 'πληρωθη' which relates to the completion of the work; 'ứng nghiệm' is acceptable but slightly shifts the focus from 'completion/fulfillment' to 'actualization'. More importantly, the Greek implies the completion of the *work* or *purpose*, while 'ứng nghiệm' can be ambiguous."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

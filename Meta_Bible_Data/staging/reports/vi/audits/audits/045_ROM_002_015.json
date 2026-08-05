@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενδεικνυνται' (endeiknyntai) is passive/middle, meaning 'are shown' or 'are manifested'. The Vietnamese 'tỏ ra' (show/appear) suggests an active effort by the subjects to show something, rather than the work of the law being manifested in them."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'συμμαρτυρουσης αυτων της συνειδησεως' implies that the conscience is *giving witness* to the work of the law. The Vietnamese 'lương tâm họ cùng làm chứng' (their conscience also witnesses) slightly weakens the grammatical connection where the conscience acts as the witness to the specific 'work of the law'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

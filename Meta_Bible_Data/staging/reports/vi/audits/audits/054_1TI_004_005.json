@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αγιαζεται' is in the present passive indicative (or middle), implying a continuous action ('are being sanctified' or 'are sanctified'). The Vietnamese translation uses 'được nên thánh', which is a perfective/completed state ('was made holy' or 'has been sanctified'), potentially changing the sense of ongoing sanctification."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation uses the pronoun 'nó' (it), but the Greek text has no explicit pronoun, as the subject is implied by context (likely a plural 'you' or a collective noun). If 'nó' refers to a singular object not present in the immediate Greek structure, it may be an addition/substitution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

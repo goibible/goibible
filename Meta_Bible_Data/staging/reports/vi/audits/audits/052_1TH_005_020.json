@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη εξουθενειτε' (mē exoutheneite) means 'do not despise' or 'do not treat as worthless/contemptible'. The Vietnamese 'khinh dể' typically means 'to neglect', 'to ignore', or 'to leave alone'. While related, 'khinh dể' misses the specific nuance of 'devaluation' or 'despising' inherent in 'exoutheneite'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

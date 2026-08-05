@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παλιν' (palin) means 'again', but the Vietnamese translation uses 'lại' in a way that suggests a sequence or repetition of speech ('Ê-sai lại đã nói'), whereas the Greek structure indicates they could not believe that Isaiah had spoken *again* (or previously). More importantly, the Vietnamese 'vì' (because) is an addition/substitution for the Greek 'οτι' (that), changing the logical connection from a content clause to a causal one."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

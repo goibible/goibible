@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγραψα' (egrapsa) means 'I wrote' (referring to the letter/writing). The Vietnamese translation 'viết thơ' means 'wrote poetry,' which is a significant addition of a specific literary genre not present in the source text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'την σπουδην υμων την υπερ ημων' indicates that the diligence is 'for our sake' or 'on our behalf'. The Vietnamese 'đối với chúng tôi' (towards/for us) captures the direction but loses the specific nuance of 'hyper' (on behalf of/for the sake of)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς σε' (to you) is translated as 'cùng Cha' (with Father). While contextually implied, the literal direction of the verb 'ἐρχομαι' (I come) is 'to you', not 'with' the person addressed."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την χαραν την εμην πεπληρωμενην' describes the joy as 'my [joy] which is fulfilled/completed in them'. The Vietnamese 'niềm vui của Con được trọn vẹn trong họ' suggests the joy itself is 'complete' or 'perfect' inside them, whereas the Greek emphasizes that the joy *belonging to Jesus* is the thing being *filled/fulfilled* within them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

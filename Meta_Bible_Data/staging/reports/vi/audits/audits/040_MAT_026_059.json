@@ -1,0 +1,13 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

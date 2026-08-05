@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμε δε ου παντοτε εχετε' (but you do not always have me) is rendered in Vietnamese as 'nhưng các ngươi chẳng có ta ở luôn với đâu'. The Vietnamese 'ở luôn với đâu' implies 'always with [someone/somewhere]', but the Greek structure 'εμε... εχετε' specifically means 'you have me'. The Vietnamese phrasing slightly obscures the direct object 'me' by making it sound like a general state of 'being with', though the core meaning is close. However, the most significant issue is the word order/negation flow: 'không có ta ở luôn với đâu' is slightly awkward but acceptable; the primary concern is ensuring 'me' (ta) is clearly the object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

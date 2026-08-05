@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τοιτω' (touto) refers to the 'rule' (kanon) mentioned in the same sentence, but the Vietnamese translation uses 'quy tắc này' (this rule). While 'này' is a common way to render the demonstrative, the Greek specifically links the peace to those who *follow* the rule. The Vietnamese phrasing 'Nguyền xin... ở trên hết thảy những ai đi theo...' slightly shifts the focus of the blessing's application compared to the Greek structure 'peace upon them [who follow the rule]'. However, a more significant issue is the grammatical connection: the Greek implies peace is *upon* those who follow it, and also *upon* Israel. The Vietnamese correctly captures this but the word order makes 'quy tắc này' slightly ambiguous as to whether it refers back to a previous context or the immediate 'kanon'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'mỗi người một lần' (each person once) is an addition/interpretation not present in the Greek text. The Greek 'καθ ενα' (kath ena) means 'each' or 'everyone' (in this context, 'all of you'), but it does not specify a frequency of 'once'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

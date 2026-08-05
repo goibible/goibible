@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκπεσειν' (ekpesein) is a passive construction in the sense of 'to be cast out' or 'to be thrown out'. The Vietnamese translation 'bị tấp lên' (be washed up/washed ashore) changes the mechanism of the action from being 'cast out' (active/intentional by an agent) to 'washed up' (passive by nature/waves)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

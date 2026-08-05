@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινος' (of whom) is a question of identity, but the Vietnamese translation 'của ai?' (of whom?) followed by the answer 'Của Sê-sa' (Of Caesar) slightly alters the grammatical structure. More importantly, the Greek 'εικονα και επιγραφην' refers to the image and inscription *on* the coin, whereas the Vietnamese phrasing 'nó có hình ảnh và chữ đề của ai?' could be interpreted as asking whose image/inscription it has in a way that separates the attributes from the object slightly differently than the Greek structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

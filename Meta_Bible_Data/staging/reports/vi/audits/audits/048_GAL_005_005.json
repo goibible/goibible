@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματι' (spiritually/in the Spirit) is rendered as 'nhờ Thánh Linh' (by/through the Holy Spirit). While often interpreted this way, 'πνευματι' refers to the manner of the action (spiritually), not necessarily the agency of a specific person (the Holy Spirit)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελπιδα δικαιοσυνης' (hope of righteousness) is rendered as 'hy vọng của sự công bình'. In this context, 'δικαιοσύνη' refers to 'righteousness' (the state of being right with God), whereas 'công bình' often leans toward 'justice' or 'equity'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

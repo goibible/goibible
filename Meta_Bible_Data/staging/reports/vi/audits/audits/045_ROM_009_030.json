@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ουν ερουμεν' (what then shall we say) is a rhetorical question. The Vietnamese 'Vậy chúng ta sẽ nói gì?' translates this as a literal question about what to say next, rather than the rhetorical 'What then shall we say?' which serves to introduce the conclusion. However, the more significant issue is the structure of the second half."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δικαιοσυνην δε την εκ πιστεως' uses 'δε' (not) to contrast with the previous clause. The Vietnamese 'nhưng là sự công bình đến từ đức tin' (but is the righteousness from faith) misses the negation. The Greek implies: '...righteousness, [but] NOT the righteousness from faith.' The Vietnamese makes it sound like they *did* receive righteousness from faith."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

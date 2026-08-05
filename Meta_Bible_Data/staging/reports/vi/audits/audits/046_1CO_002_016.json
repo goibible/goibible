@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμβιβασει' (symbibazei) is a verb meaning 'to advise' or 'to counsel'. The Vietnamese translation uses 'dạy dỗ' (to teach/discipline), which shifts the sense of the action from providing counsel to an authority figure to instructing or training."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγνω νουν' (egnōnoun) is an aorist indicative, referring to a specific past action or state of knowing. The Vietnamese 'đã biết' captures the past tense but the overall structure of the sentence in Greek is a rhetorical question about who could possibly advise God, whereas the Vietnamese phrasing slightly softens the rhetorical weight."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βαπτισμους' (baptismous) is a plural noun. The Vietnamese translation renders it as 'sự rửa chén' (the act of washing dishes), which changes the grammatical category from a plural noun to a verbal phrase/action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies 'βαπτισμους ποτηριων' (washings [of] cups). The Vietnamese translation omits the connection between the washings and the cups, rendering them as separate items ('sự rửa chén, cái chén')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

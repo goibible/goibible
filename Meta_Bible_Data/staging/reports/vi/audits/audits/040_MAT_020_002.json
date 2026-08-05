@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ δηναριου' (from a denarius) indicates the rate of pay (a denarius per day), but the Vietnamese 'mỗi ngày một đơ-ni-ê' changes the structure slightly. More importantly, the Greek 'την ημεραν' (the day) is part of the pay description ('a denarius [for] the day'), while the Vietnamese phrasing makes it sound like a routine of 'every day', potentially blurring the specific contractual agreement of 'a denarius per day'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

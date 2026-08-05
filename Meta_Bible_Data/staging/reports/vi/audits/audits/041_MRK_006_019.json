@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτω' (him) refers to a specific person (John the Baptist), but the Vietnamese 'người' is a general pronoun meaning 'person' or 'the person'. This loses the specific object of Herodias's hatred."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

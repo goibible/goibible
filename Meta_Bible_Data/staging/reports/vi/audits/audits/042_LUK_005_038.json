@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'βλητεον' is a present active participle (or potentially a future/aorist construction depending on the manuscript, but generally implies an action of pouring/putting), whereas 'phải đổ' adds a sense of obligation ('must') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

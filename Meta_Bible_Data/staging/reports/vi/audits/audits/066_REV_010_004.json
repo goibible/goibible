@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμελλον γραφειν' (were about to write) is a verb phrase indicating an intended action. The Vietnamese translation 'tôi sắp viết' (I was about to write) correctly captures the intent, but the Greek structure 'εμελλον γραφειν' functions as a continuous state of intention leading into the next action. However, the primary issue is the omission/misplacement of the subject-verb relationship in the first clause: 'ελαλησαν αι επτα βρονται' (the seven thunders spoke) and 'εμελλον γραφειν' (I was about to write) are distinct actions. The Vietnamese 'Khi... đã nói, tôi sắp viết' is acceptable, but the Greek 'εμελλον' is a specific tense indicating 'about to'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τας φωνας εαυτων' (their voices) is omitted in the Vietnamese translation. The Vietnamese simply says 'bảy tiếng sấm sét đã nói' (the seven thunders spoke), whereas the Greek specifies they spoke 'their voices'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

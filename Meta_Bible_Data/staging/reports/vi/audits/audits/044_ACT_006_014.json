@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εθη' (ethē) refers to 'customs', 'traditions', or 'practices' in a religious/legal sense, whereas the Vietnamese 'thói quen' typically refers to personal 'habits'. In this context, it refers to the traditions of the elders."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

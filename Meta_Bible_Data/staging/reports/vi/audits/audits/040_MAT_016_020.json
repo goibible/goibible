@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτος' (autos) refers to Jesus, but the Vietnamese 'chính Ngài' (just Him/He Himself) in this context creates a potential ambiguity or slight shift in focus. However, the more significant issue is that 'αυτος' functions as a pronoun for Jesus in the phrase 'αυτος εστιν ιησους'. The Vietnamese 'Ngài' refers back to the subject of the first clause (Jesus), but the structure 'đừng nói với ai rằng chính Ngài là Chúa Giê-xu' translates 'He is Jesus Christ' into 'He [the one they are talking about] is Jesus Christ'. While functionally similar, the Greek emphasizes the identity of the person being spoken of."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

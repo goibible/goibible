@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοινωνειτω' (let him share/commune) is in the imperative mood, expressing a command or exhortation. The Vietnamese translation uses 'phải chia sẻ' (must share), which conveys a necessity/obligation but loses the specific hortatory/imperative nuance of the Greek."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text specifies 'τον λογον' (the word) as the object being shared, but the Vietnamese translation says 'mọi điều tốt lành' (all good things). While 'agathois' is present, the specific object of communion—the Word—is omitted or conflated with 'good things'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

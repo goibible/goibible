@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απαρχην του πνευματος' (firstfruits of the Spirit) is translated as 'trái đầu mùa của Thánh Linh'. While 'trái' can mean fruit, in this context it refers to the 'firstfruits' (the first part of a harvest). More importantly, the Vietnamese structure implies we *possess* the firstfruits ('có trái đầu mùa'), whereas the Greek 'εχοντες' functions as a participle describing our state/condition while we groan. The most significant issue is that 'απαρχην' refers to the 'firstfruits' of the Spirit, not just 'fruit'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'tức là' (that is/namely) is used to link 'adoption' and 'redemption', but the Greek 'υιοθεσιαν... την απολυτρωσιν' are two distinct objects of the verb 'απεκδεχομενοι' (expecting). The Greek does not equate adoption *with* redemption; it lists them as things being expected. Adding 'tức là' suggests they are the same thing, which is a substantive change in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

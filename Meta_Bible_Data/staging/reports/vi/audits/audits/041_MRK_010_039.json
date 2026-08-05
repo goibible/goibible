@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'δυναμεθα' (we are able / we can) is omitted in the Vietnamese translation. The Vietnamese 'Được' (Okay/Agree) does not capture the sense of ability or capacity expressed in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

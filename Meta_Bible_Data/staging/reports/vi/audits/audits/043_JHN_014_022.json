@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ουχ' (ouch) is a negative particle associated with the name 'Ισκαριωτης' (Iscariot), indicating that Judas was NOT Iscariot. The Vietnamese translation incorrectly places the negation in parentheses as if it were clarifying the name, but the Greek structure implies a denial or a specific distinction where the Vietnamese phrasing 'không phải Iscariốt' slightly alters the flow of the original exclamation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

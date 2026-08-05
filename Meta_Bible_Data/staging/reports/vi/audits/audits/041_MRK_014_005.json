@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ηδυνατο' (it was not possible/could not) is rendered as 'có thể' (can/could) in Vietnamese, reversing the negation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πραθηναι' refers to 'being sold', but the Vietnamese 'bán được' implies 'able to be sold'. Combined with the missing negation, the meaning is inverted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

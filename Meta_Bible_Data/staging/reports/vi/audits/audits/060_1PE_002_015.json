@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγαθοποιουντας' is a present active participle meaning 'doing good' or 'performing good deeds.' The Vietnamese translation 'làm điều lành' (do good) captures the action, but the context of the Greek construction 'agathopoieountas' as a means/method for 'silencing the ignorance' is slightly obscured by the phrasing. More importantly, the Greek 'φιμουν' is a present active participle meaning 'silencing' or 'keeping silent.' The Vietnamese 'để bịt miệng' (to silence) correctly captures the purpose/result, but the Greek structure implies the 'doing good' is the *manner* in which they are silencing the ignorance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αγνοσιαν' (ignorance) is singular. The Vietnamese 'sự ngu dốt' (foolishness/stupidity) is a standard equivalent, but it's worth noting the Greek specifically refers to 'ignorance'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

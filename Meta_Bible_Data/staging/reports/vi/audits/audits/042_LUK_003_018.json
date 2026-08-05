@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλα μεν ουν' (many words/speech) is rendered as 'nhiều lời khuyên' (many pieces of advice). The Greek word 'λογον' (logos) refers to speech or words in general, not specifically to 'advice' (khuyên)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

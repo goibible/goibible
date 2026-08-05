@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευδοκησεν' (eudokēsen) is a verb meaning 'God was pleased' or 'God took pleasure in.' The Vietnamese translation 'Đức Chúa Trời đẹp lòng dùng' renders it as 'God, being pleased, used,' which slightly shifts the grammatical structure but is acceptable. However, the Greek 'δια της μωριας του κηρυγματος' uses the genitive 'του' (his) referring back to God's message. The Vietnamese 'Sự giảng dạy' lacks the possessive 'của Ngài' (His), though it is often implied. The primary issue is the slight shift in the causal flow of 'επειδη γαρ' (for because), which is rendered as 'Vì... nên', which is a correct structural equivalent."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

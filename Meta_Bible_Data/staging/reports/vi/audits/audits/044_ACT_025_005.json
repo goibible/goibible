@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συγκαταβαντες' (sykatabantes) is a participle describing the action of the 'powerful' (dynatoi). It means 'having come down' or 'coming down.' The Vietnamese translation 'hãy cùng xuống' (let [them] come down together) changes it from a descriptive participle into an imperative command, which is not present in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'εν τω ανδρι τουτω' (en tō andri toutō) means 'in this man.' The Vietnamese translation 'nếu người này' (if this person) omits the prepositional sense of 'in' and replaces it with a conditional 'if,' which slightly alters the grammatical structure, though the core meaning remains close. However, the imperative shift is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

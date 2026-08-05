@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δι ου' (di tou) means 'through him' or 'by him'. The Vietnamese 'lại bởi Ngài' (again by Him) adds a sense of repetition/conjunction ('lại') and potentially confuses the subject, whereas the Greek indicates that the inheritance is *through* him."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'dựng nên các đời' (built/established the ages) misses the specific nuance of 'εποιησεν' (made/did) in relation to 'τους αιωνας' (the ages/eternities), though it is a minor stylistic shift; however, the primary issue is the 'δι ου' construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

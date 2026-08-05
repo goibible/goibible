@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οταν δε ειπη' (when He said) is rendered as 'nhưng khi nói rằng' (but when saying that). The Vietnamese adds a contrastive conjunction ('nhưng') and changes the subject of the verb 'nói' (saying) from a specific action by 'He' (God/Christ) to a general statement, losing the specific attribution of the speech."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οταν δε ειπη' implies a specific instance of 'when He said'. The Vietnamese 'nhưng khi nói rằng' softens this into a general condition or a hypothetical, potentially leading the reader to miss that this refers to a specific declaration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

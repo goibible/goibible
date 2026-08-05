@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευλογημενη' (eulogēmenē) is a passive participle meaning 'blessed'. The Vietnamese translation 'Chúc tụng' is a verb meaning 'to praise/bless', changing the grammatical nature of the phrase from a description of the kingdom to an imperative or active command."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του πατρος ημων' (tou patros hēmōn) refers to 'our father', but in this specific liturgical context (Psalm 118:26), it refers to the ancestor David. The Vietnamese 'tổ phụ chúng ta' is acceptable, but the phrasing 'là nước của...' slightly alters the direct possessive relationship of 'the kingdom... of our father David'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

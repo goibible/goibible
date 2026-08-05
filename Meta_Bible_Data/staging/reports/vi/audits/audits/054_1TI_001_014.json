@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα' (meta) in this context functions as a preposition of means or accompaniment, but the Vietnamese translation uses 'với' (with), which is acceptable. However, the Greek 'πιστεως και αγαπης' are in the genitive case, indicating the grace is *through* or *by means of* faith and love. The Vietnamese 'với' can imply 'alongside', but more importantly, the Greek 'μετα' here often carries the sense of 'through' or 'by'. A more precise rendering would ensure the grace is mediated by these qualities."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the nuance of 'μετα' as a preposition of means/instrumentality, potentially making it sound like an addition rather than the channel through which the grace flows."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

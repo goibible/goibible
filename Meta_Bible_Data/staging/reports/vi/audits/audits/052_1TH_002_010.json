@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενηθημεν' (egenēthēmen) is the perfect tense of 'ginomai', which in this context functions as a stative verb meaning 'have become' or 'have lived/behaved'. The Vietnamese translation 'đã ăn ở' (lived/behaved) adds a specific behavioral nuance ('ăn ở') that is not explicitly present in the Greek, though it captures the general sense of the state. However, the more significant issue is the phrasing 'cũng vậy, rằng' which slightly alters the structure of the Greek 'ως', which functions as an adverbial modifier of manner for the verb."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αμεμπτως' (ameptōs) means 'blamelessly' or 'irreproachably'. The Vietnamese 'không chỗ trách được' is a good rendering, but the overall structure of the sentence in Vietnamese slightly obscures that 'σωσως και δικαιως και αμεμπτως' are all adverbs modifying the manner in which they 'became/lived'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

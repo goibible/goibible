@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προηγουμενοι' (proēgomenoi) means 'preeminent' or 'superior' in the sense of taking the lead/precedence. The Vietnamese translation 'tôn trọng' (respect) misses the specific nuance of 'taking the lead' or 'being preeminent' in honor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

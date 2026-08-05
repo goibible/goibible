@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προ γαρ τουτων των ημερων' means 'For before these days' (referring to the time of the Gospel), but the Vietnamese 'Trước các ngày đó' translates it as 'Before those days', which shifts the temporal reference away from the current narrative frame."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινα εαυτον' (someone himself/himself a certain [one]) conveys a sense of self-proclaimed identity or an arbitrary self-designation, which is slightly flattened in the Vietnamese 'tự xưng mình là một người nào đó'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εασαντες' (having sent) is an aorist participle, but the Vietnamese 'để' (let/allowed) implies permission or a passive state. The Greek indicates a completed action of 'sending' the horses away."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τους ιππεις' refers specifically to 'the horses', but the Vietnamese 'các kỵ binh' translates it as 'the cavalry' (soldiers on horseback), which changes the subject of the action from animals to people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξενισεν' (exēnisen) means 'sent them away' or 'dismissed them', but the Vietnamese 'tiếp đãi' means 'welcomed/hosted/entertained them'. This is a significant reversal of meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνηλθον' (synēlthōn) means 'joined him' or 'came to him', whereas the Vietnamese 'cùng đi với ông' implies 'went with him'. While similar in context, 'joined/came to' is the specific action in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

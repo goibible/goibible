@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek lists 'χρηστοτης' (kindness) and 'αγαθωσυνη' (goodness) as two distinct fruits, but the Vietnamese renders both as 'lòng nhân từ' (kindness), duplicating the same term and omitting the distinct concept of goodness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

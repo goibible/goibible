@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις εστιν' (who is he/it) refers to the person being spoken about, but the Vietnamese 'người là ai' (who are you) changes the grammatical person from third person to second person. The Greek indicates the speaker is asking who *he* is, not asking the Lord who *He* is."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'để tôi tin đến' (so that I believe until/to) slightly alters the nuance of 'ινα πιστευσω εις αυτον' (that I may believe in him). In Greek, 'εἰς' indicates the object of faith, while the Vietnamese 'đến' can imply a destination or duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

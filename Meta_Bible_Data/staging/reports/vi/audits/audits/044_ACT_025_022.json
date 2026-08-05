@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εβουλομην' (eboulomen) is an imperfect verb expressing a desire or intention. The Vietnamese translation 'Ta cũng muốn nghe' (I also want to hear) misses the nuance of the imperfect tense which, in this context, suggests a continuous state of desire or a specific intent at that moment. However, more critically, the Greek 'ακουσαι' (akousai) is an aorist active infinitive, and 'ακουση' (akousē) is a future indicative. The Vietnamese translation treats these as simple present/future desires without capturing the specific grammatical movement from 'wanting to hear' to 'will hear'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'ακουσαι ο δε αυριον φησιν ακουση αυτου' (and he [Festus] said, 'tomorrow he will hear him'). The Vietnamese translation adds 'vua' (king) to refer to Festus. While Festus was a prefect, the Greek text does not use a title for him in this specific phrase; it simply uses 'αυτος' (he). Adding 'vua' is an addition not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

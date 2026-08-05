@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντας τους παιδας' means 'all the male children/boys' (παιδας = male children), but the Vietnamese renders it as 'các đầy tớ' (servants), which changes the meaning from children to servants."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

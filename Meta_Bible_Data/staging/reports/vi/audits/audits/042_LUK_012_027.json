@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατανοησατε' (katanoēsate) is a perfect tense verb meaning 'you have observed' or 'you have noticed'. The Vietnamese translation 'Hãy xem xét' (Let us/Please consider) changes the mood from a statement of fact about what the audience has already seen to an imperative command for them to look at it now."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

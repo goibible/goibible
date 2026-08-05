@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'tôi thấy người mà lấy làm lạ lùng lớn' (I saw the person who took great wonder) misinterprets the Greek structure. The Greek 'εθαυμασα ιδων αυτην θαυμα μεγα' means 'I was astonished/marveled seeing her [at] a great marvel'. The Vietnamese makes it sound like the woman herself is the one performing the act of wondering, rather than the narrator being amazed by her."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

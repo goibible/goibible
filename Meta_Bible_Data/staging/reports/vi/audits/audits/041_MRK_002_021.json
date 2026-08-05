@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the Greek word 'ουδεις' (oudeis), which means 'no one' or 'none'. The Vietnamese 'Không ai' correctly captures this, but the logic of the sentence is slightly altered because the Vietnamese renders it as a general statement ('No one patches...') rather than the specific conditional/prohibitive sense of 'not anyone [should] patch' implied by the Greek structure."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιρραπτει' (epirraptei) is a passive construction (is patched). The Vietnamese 'vá' is active. While often acceptable in translation, the Greek emphasizes the action being done to the garment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

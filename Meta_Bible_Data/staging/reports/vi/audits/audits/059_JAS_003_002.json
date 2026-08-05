@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν λογω' (in word/speech) is translated as 'trong lời nói'. However, the phrase 'εν λογω ου πταιει' in this context (James 3:2) refers to the lack of sin/fault in speech. The Vietnamese phrasing 'không vấp phạm trong lời nói' suggests a limitation on where one can sin, whereas the Greek implies that if someone is without fault *in* speech (meaning their speech is perfect), they are perfect. More importantly, the Greek 'ου πταιει' is a negative construction ('does not sin/is not in fault'). The Vietnamese 'không vấp phạm' captures the negation, but the structure slightly shifts the focus from the state of being without fault to the act of not sinning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολλα γαρ πταιομεν απαντες' includes the particle 'γαρ' (for/because), which establishes a causal link between the first and second clauses. The Vietnamese translation omits this connective logic, presenting them as two independent statements rather than a reason-result structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

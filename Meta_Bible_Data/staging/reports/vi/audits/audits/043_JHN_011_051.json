@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρχιερευς' (archiereus) means 'high priest', but the Vietnamese translation uses 'thầy tế lễ' which generally means 'priest'. This misses the specific rank of 'high' (archi-) conveyed in the text."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'του ενιαυτου εκεινου' refers to 'that year' (the year of his [the high priest's] ministry), but the Vietnamese 'cả trong năm ấy' (even in that year) slightly shifts the focus. However, the primary issue is the rank of the priest."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

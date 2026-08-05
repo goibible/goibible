@@ -1,0 +1,92 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+DEU,2,21,orange,missing_expected_name,Am-môn,,Expected approved name 'Am-môn' from VIE1934 occurrence.
+DEU,2,21,orange,missing_expected_name,Rê-pha-im,,Expected approved name 'Rê-pha-im' from VIE1934 occurrence.
+DEU,4,15,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,9,4,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,10,7,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+DEU,13,17,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,24,9,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,28,14,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+DEU,32,43,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,33,9,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+EXO,1,11,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,2,22,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+EXO,4,24,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+EXO,4,26,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+EXO,6,1,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,14,17,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,14,28,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+EXO,24,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+EXO,27,12,orange,missing_expected_name,Bố-vi,,Expected approved name 'Bố-vi' from VIE1934 occurrence.
+EXO,32,18,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+GEN,8,9,orange,missing_expected_name,Nô-ê,,Expected approved name 'Nô-ê' from VIE1934 occurrence.
+GEN,25,11,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+GEN,29,28,orange,missing_expected_name,Lê-a,,Expected approved name 'Lê-a' from VIE1934 occurrence.
+GEN,35,18,orange,missing_expected_name,Ra-chên,,Expected approved name 'Ra-chên' from VIE1934 occurrence.
+GEN,36,38,orange,missing_expected_name,Ba-anh-Ha-nan,,Expected approved name 'Ba-anh-Ha-nan' from VIE1934 occurrence.
+GEN,36,39,orange,missing_expected_name,Ba-anh-Ha-nan,,Expected approved name 'Ba-anh-Ha-nan' from VIE1934 occurrence.
+GEN,37,36,orange,missing_expected_name,Giô-sép,,Expected approved name 'Giô-sép' from VIE1934 occurrence.
+ISA,9,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,10,32,orange,missing_expected_name,Si-ôn,,Expected approved name 'Si-ôn' from VIE1934 occurrence.
+ISA,15,2,orange,missing_expected_name,Đi-hôn,,Expected approved name 'Đi-hôn' from VIE1934 occurrence.
+ISA,15,5,orange,missing_expected_name,Sê-li-sia,,Expected approved name 'Sê-li-sia' from VIE1934 occurrence.
+ISA,19,23,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+ISA,23,3,orange,missing_expected_name,Si-ho,,Expected approved name 'Si-ho' from VIE1934 occurrence.
+ISA,27,7,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,30,19,orange,missing_expected_name,Si-ôn,,Expected approved name 'Si-ôn' from VIE1934 occurrence.
+ISA,36,19,orange,missing_expected_name,Aït-bát,,Expected approved name 'Aït-bát' from VIE1934 occurrence.
+ISA,37,20,orange,missing_expected_name,San-chê-ríp,,Expected approved name 'San-chê-ríp' from VIE1934 occurrence.
+ISA,40,13,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,44,4,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+ISA,45,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,3,4,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,7,12,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,9,32,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,20,23,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,24,23,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,27,2,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,30,11,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,33,10,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+JOB,38,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+LEV,24,12,orange,missing_expected_name,Sê-lô-mít,,Expected approved name 'Sê-lô-mít' from VIE1934 occurrence.
+LEV,24,12,orange,missing_expected_name,Điệp-ri,,Expected approved name 'Điệp-ri' from VIE1934 occurrence.
+LEV,27,29,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+NUM,2,5,orange,missing_expected_name,Giu-đa,,Expected approved name 'Giu-đa' from VIE1934 occurrence.
+NUM,2,24,orange,missing_expected_name,Eùp-ra-im,,Expected approved name 'Eùp-ra-im' from VIE1934 occurrence.
+NUM,3,16,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,4,31,orange,missing_expected_name,Mê-ra-ri,,Expected approved name 'Mê-ra-ri' from VIE1934 occurrence.
+NUM,4,49,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,7,4,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,9,20,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,10,36,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,12,5,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,13,31,orange,missing_expected_name,Ca-lép,,Expected approved name 'Ca-lép' from VIE1934 occurrence.
+NUM,16,19,orange,missing_expected_name,A-rôn,,Expected approved name 'A-rôn' from VIE1934 occurrence.
+NUM,16,19,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,18,9,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,18,12,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,16,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,19,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,35,orange,missing_expected_name,Oùc,,Expected approved name 'Oùc' from VIE1934 occurrence.
+NUM,22,41,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,23,7,orange,missing_expected_name,Đông-phương,,Expected approved name 'Đông-phương' from VIE1934 occurrence.
+NUM,23,14,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,23,17,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,23,18,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,26,3,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,28,3,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,32,19,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+PRO,12,2,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PRO,14,14,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,7,12,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,17,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,24,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,37,22,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,61,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,65,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,85,8,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,105,5,orange,missing_expected_name,Aùp-ra-ham,,Expected approved name 'Aùp-ra-ham' from VIE1934 occurrence.
+PSA,105,5,orange,missing_expected_name,Gia-cốp,,Expected approved name 'Gia-cốp' from VIE1934 occurrence.
+PSA,105,17,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+PSA,107,38,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,115,2,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.

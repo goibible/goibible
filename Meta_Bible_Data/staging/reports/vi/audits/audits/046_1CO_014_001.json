@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματικα' (pneumatika) means 'spiritual things' or 'spiritual gifts', but the Vietnamese 'ân tứ thiêng liêng' specifically translates to 'holy gifts' or 'spiritual gifts'. While often associated, 'pneumatika' is broader than just 'gifts'."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'anh em' (brothers/you all) which is not present in the Greek text. The Greek simply says 'in order that you prophesy'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

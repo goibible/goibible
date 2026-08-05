@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'bằng sự nghe' (by hearing) and 'bằng mắt' (by eyes), which are not present in the Greek text (ακοη ακουσετε / βλεποντες βλεψετε)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

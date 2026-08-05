@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'και ειπεν αυτω' (and he said to him) is omitted in the Vietnamese translation, which starts directly with the name. While small, the Greek indicates a preceding dialogue or action involving an unspecified subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

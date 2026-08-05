@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καν' (kan) is a contraction of 'καὶ οὐκ' (kai ouk), meaning 'and not'. The Vietnamese translation renders it as 'chỉ' (only/just), which changes the logic of the statement. The Greek implies 'even if I only touch...', but the specific inclusion of the negative 'οὐκ' in 'καν' is a nuance that 'chỉ' misses."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese uses 'Ngài' (He/Him) for the pronoun 'αυτου' (his), but the context of the Greek 'ιματιων αυτου' (his garments) refers to the clothes of the person being spoken to or about. However, more importantly, 'καν' functions as a concessive 'even if not', which the Vietnamese 'Nếu... thì' (If... then) simplifies into a standard conditional."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεποτε... ελθειν δυναμενα' means 'never able to come/reach,' but the Vietnamese 'chẳng bao giờ có thể đến được' is missing the grammatical dependency on the preceding action. More importantly, the Greek structure implies a continuous state of 'being unable' while learning; the Vietnamese phrasing slightly obscures the fact that 'dynamena' (able) modifies the ability to reach the knowledge, not just the act of reaching it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

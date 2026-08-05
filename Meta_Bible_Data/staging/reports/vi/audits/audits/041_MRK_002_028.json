@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'και του' (and of), which connects 'the Son of Man' to both 'Lord of the Sabbath'. The Greek indicates that the Son of Man is the Lord of *both* the human realm (implied by 'Son of Man') and the Sabbath. By omitting 'and', the Vietnamese makes it sound like 'Con người' (The Human) is the Lord of the Sabbath, rather than 'Con Người' (The Son of Man) being the Lord of both."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

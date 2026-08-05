@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τας εαυτων αισχυνας' (their own shame) is rendered as 'xấu hổ của chúng' (shame of them). However, the Greek construction implies that the waves are 'foaming [with] their own shame'. The Vietnamese translation 'sôi bọt xấu hổ của chúng' creates a grammatical ambiguity where it could be interpreted as 'the foam of their shame' rather than 'foaming with their own shame'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οις' (to which / for which) is missing. It links the stars to the fact that darkness is kept for them. The Vietnamese version just places the two clauses side-by-side with a semicolon, losing the grammatical connection that the darkness is kept *for* or *to* the stars."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

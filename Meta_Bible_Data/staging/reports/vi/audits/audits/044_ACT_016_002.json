@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'tốt' (well/good) to describe the testimony, which is not present in the Greek text ('εμαρτυρειτο')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χωρίς δε της σης γνωμης' (without your opinion/consent) is rendered in Vietnamese as 'không có ý định của anh' (without your intention). In the Greek, it is the recipient's consent/opinion that is missing, not the speaker's intention."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουδεν ηθελησα ποιησαι' (I desired to do nothing) is rendered as 'tôi không muốn làm điều gì'. While the meaning is similar, the Greek specifically uses a verb of 'willing/desiring' (ηθελήω), whereas the Vietnamese uses 'muốn' (want). More importantly, the structure 'χωρίς... ουδεν ηθελησα' implies that without his consent, the speaker would not have *willed* to do anything, which is slightly more nuanced than a simple statement of current desire."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

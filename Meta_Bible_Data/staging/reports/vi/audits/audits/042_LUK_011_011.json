@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινα δε υμων τον πατερα αιτησει ο υιος' literally means 'which of you [is] the father whom the son asks for?' or 'which of you [is] a father whom the son asks?'. The Vietnamese translation 'Trong các ngươi có người cha nào' (Which of you is a father) shifts the subject/object relationship. The Greek structure implies the son is asking *for* the father (or asking the father), but the Vietnamese phrasing makes it sound like the son is asking 'who is the father', losing the relational dynamic of the request."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινα' (which/who) functions as an interrogative pronoun for the father. The Vietnamese 'có... nào' (is there any...) slightly alters the grammatical focus from identifying a specific type of father to a general existence question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

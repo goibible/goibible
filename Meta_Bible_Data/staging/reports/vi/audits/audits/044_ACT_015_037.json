@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'εβουλευσατο' (ebouleusato) implies a counsel, advice, or suggestion. The Vietnamese translation 'định' (intended/planned) misses the nuance that Barnabas was *advising* or *suggesting* to take John, rather than just intending to do so himself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

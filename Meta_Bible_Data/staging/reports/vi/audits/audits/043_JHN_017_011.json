@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερχομαι' (erchomai) is a present tense verb indicating ongoing action or movement, but the Vietnamese 'đến' is rendered as a completed action or a simple statement of arrival. More importantly, the Greek says 'εγω προς σε ερχομαι' (I am coming to You), whereas the Vietnamese 'Con đến cùng Cha' translates it as 'I come with Father' or 'I come to Father' depending on interpretation, but 'cùng' usually implies 'with', which is not present in the Greek 'προς' (to/towards)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωσιν εν καθως ημεις' means 'that they may be [in] as we [are]'. The Vietnamese 'hiệp làm một' (become one / unite) is a theological interpretation of 'being' (ωσιν) in the same state, rather than a literal rendering of the state of being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

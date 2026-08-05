@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'ειναι' (is) is part of the reported speech, but the Vietnamese translation misses the finality of the statement. More importantly, the Greek 'πως λεγουσιν' implies 'how/that they say', whereas the Vietnamese 'Sao người ta nói' (Why do people say) introduces a question of 'why' which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

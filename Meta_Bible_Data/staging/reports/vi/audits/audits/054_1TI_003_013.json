@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλον περιποιουνται' is a passive/middle construction meaning 'are well-provided for' or 'receive/possess as a result.' The Vietnamese translation 'mua được' (bought/purchased) implies an active purchase or transaction that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

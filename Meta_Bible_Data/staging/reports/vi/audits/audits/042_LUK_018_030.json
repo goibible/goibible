@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη' is a double negative (lit. 'not not'), which functions as an emphatic affirmation. The Vietnamese 'chắc chắn sẽ không' translates to 'certainly will not,' which is the opposite of the intended meaning. The Greek means 'will certainly receive/obtain,' but the Vietnamese says 'will certainly not receive.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

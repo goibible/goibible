@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'Ngài' (He/Him - formal) for the brothers, but the Greek 'οι αδελφοι αυτου' refers to 'his brothers' (the brothers of Jesus). The Vietnamese phrasing 'Các anh em Ngài nói với Ngài' can be interpreted as 'His brothers said to Him', but the use of 'Ngài' for the brothers in a Vietnamese context often implies a third-party high honorific, whereas the Greek simply identifies them as his brothers. More importantly, the Vietnamese 'Các anh em Ngài' is slightly ambiguous; it should clearly distinguish that the subjects are 'his brothers' (brothers of Jesus) speaking to Him."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'để cho... cũng được xem' renders 'ινα... θεωρησωσιν' as 'so that... may also see'. While acceptable, the Greek 'θεωρησωσιν' implies a more deliberate 'behold' or 'observe' than just 'see' (xem), but this is borderline stylistic. The primary issue remains the clarity of the subjects."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

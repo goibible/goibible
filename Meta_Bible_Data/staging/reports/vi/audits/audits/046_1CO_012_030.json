@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text uses 'μη' (not) as a statement of fact/negation (e.g., 'Not all have...'), but the Vietnamese translation renders it as a rhetorical question ('Chẳng phải... sao?' - 'Is it not that...?'). This changes the grammatical mood from a declarative statement to a rhetorical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

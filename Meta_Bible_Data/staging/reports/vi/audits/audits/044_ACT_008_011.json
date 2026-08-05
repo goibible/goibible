@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια το ικανω χρονω' means 'for a sufficient/long time', but the Vietnamese 'đã lâu nay' (up to now) slightly shifts the temporal scope. More importantly, 'εξεστακεναι' is rendered as 'làm cho họ phải kinh ngạc' (made them amazed/astonished), but the Greek verb is passive/deponent in sense here, implying they were being struck with amazement or 'struck with awe' by his magic."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

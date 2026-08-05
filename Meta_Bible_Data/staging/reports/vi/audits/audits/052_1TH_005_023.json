@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'Nguyền' (Curse/May it be) at the beginning of both clauses. The Greek text is a standard blessing (optative/imperative sense) and does not contain any word corresponding to a curse or 'nguyền'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese rendering of 'το πνευμα' as 'tâm thần' is a conceptual shift. While 'tâm thần' can relate to spirit/mind, the Greek 'πνεύμα' is specifically 'spirit'. In this context, 'tâm thần' might imply 'mental state' or 'sanity' more than 'spirit'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

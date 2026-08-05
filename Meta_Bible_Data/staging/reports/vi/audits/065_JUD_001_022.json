@@ -1,0 +1,41 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'διακρινομενοι' (diakrinomenoi) refers to those who are 'divided' or 'doubting/wavering' in faith, but the Vietnamese 'nghi ngờ' specifically means 'doubting'. However, the broader sense of 'divided' is lost. More importantly, 'ελεειτε' (eleeite) is an imperative ('have mercy/pity'), while 'thương xót' can be a verb or a noun; here it functions as an imperative but lacks the nuance of 'showing mercy'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 1252,
+          "lemma": "diakrínō",
+          "problem": "distorted",
+          "detail": "The Greek 'diakrinomenoi' (discerned/divided) is translated as 'đang nghi ngờ' (doubting), which changes the semantic meaning from discernment/division to doubt."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

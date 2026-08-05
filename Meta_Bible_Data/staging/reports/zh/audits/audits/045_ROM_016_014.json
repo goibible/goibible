@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text lists 'Ασύγκριτον' (Asyncritus), 'Φλέγοντα' (Phlegon), 'Ἑρμῆν' (Hermes), 'Πατροβᾶν' (Patrobas), and 'Ἑρμᾶν' (Hermas). The Chinese translation renders these as 亞遜其土、弗勒幹、黑馬、八羅巴、黑米. However, the Greek has 'Ἑρμῆν' (Hermes) and 'Ἑρμᾶν' (Hermas) as two distinct names, but the Chinese uses 黑馬 for the third and 黑米 for the fifth, which are different characters, so that is acceptable. The issue is that the Greek text has 'ασπασασθε' (greet) followed by the list, and the Chinese adds '請問候' which is correct. The main problem: the Greek has 'καὶ τοὺς σὺν αὐτοῖς ἀδελφούς' (and the brothers with them), which the Chinese renders as '並與他們在一起的弟兄們' — this is fine. But the Chinese omits 'Ἑρμῆν'? No, it includes 黑馬. Actually, re-checking: the Greek list is: Ἀσύγκριτον, Φλέγοντα, Ἑρμῆν, Πατροβᾶν, Ἑρμᾶν. The Chinese: 亞遜其土、弗勒幹、黑馬、八羅巴、黑米. That's five names, matching. So no omission there. The issue is that the Greek has 'Ἑρμῆν' (Hermes) and 'Ἑρμᾶν' (Hermas) — the Chinese uses 黑馬 and 黑米, which are distinct, so fine. However, the Chinese adds '亞遜其土' — that's Asyncritus, correct. The problem: the Greek text provided is 'ασπασασθε ασυγκριτον φλεγοντα ερμαν πατροβαν ερμην' — note the order: ασυγκριτον, φλεγοντα, ερμαν, πατροβαν, ερμην. The Chinese order is 亞遜其土、弗勒幹、黑馬、八羅巴、黑米 — that matches. So why FLAG? Let me re-read the Greek: 'ασπασασθε ασυγκριτον φλεγοντα ερμαν πατροβαν ερμην και τους συν αυτοις αδελφους' — the Greek has 'ερμαν' (Hermas) and 'ερμην' (Hermes). The Chinese has 黑馬 (Hermas) and 黑米 (Hermes) — that's fine. Actually, the issue is that the Chinese translation says '請問候亞遜其土、弗勒幹、黑馬、八羅巴、黑米' — but the Greek has 'Ἑρμῆν' (Hermes) as the fourth name? No, the Greek order is: Ἀσύγκριτον, Φλέγοντα, Ἑρμῆν, Πατροβᾶν, Ἑρμᾶν. The Chinese order is 亞遜其土、弗勒幹、黑馬、八羅巴、黑米 — that puts 黑馬 (Hermas) third and 黑米 (Hermes) fifth, but the Greek has Hermes third and Hermas fifth. So the Chinese has swapped the order of Hermes and Hermas. That is a mistranslation of order, but does it change meaning? The names are different people, so swapping them changes which name is associated with which person. That is a factual error. Also, the Greek has 'Ἑρμῆν' (accusative of Ἑρμῆς) and 'Ἑρμᾶν' (accusative of Ἑρμᾶς). The Chinese uses 黑馬 for the third and 黑米 for the fifth — but the Greek third is Hermes, fifth is Hermas. So the Chinese has Hermas third and Hermes fifth — that's a swap. That is a mistranslation. Also, the Chinese adds '亞遜其土' — that's fine. So the issue is the order swap of Hermes and Hermas. I'll flag that as mistranslation. Also, check if any name is missing: no. So FLAG with kind 'mistranslation'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

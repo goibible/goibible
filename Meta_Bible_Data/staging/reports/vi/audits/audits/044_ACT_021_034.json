@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εισ την παρεμβολην' refers to a 'scrimmage', 'melee', or 'skirmish' (a chaotic fight/clash), not a 'trại quân' (military camp). The translation changes the location of the action from a chaotic fight to a military base."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

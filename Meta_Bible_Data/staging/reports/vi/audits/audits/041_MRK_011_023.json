@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη διακριθη' (not be divided/doubting) is rendered as 'không phân vân' (not hesitant/uncertain). While close, the Greek 'διακριθη' specifically refers to a state of being divided or wavering in faith. However, the primary issue is the phrasing 'điều người ấy nói sẽ được cho người ấy', which slightly alters the structure of 'γινεται εσται αυτω ο εαν ειπη' (what he says will happen to him). The Vietnamese implies a 'giving' (được cho) rather than an 'occurrence/happening' (γινεται)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

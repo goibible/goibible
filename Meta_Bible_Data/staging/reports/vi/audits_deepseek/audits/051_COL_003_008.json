@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese repeats 'cơn thạnh nộ' twice, but the Greek lists only one occurrence of 'ὀργήν' (wrath) followed by 'θυμόν' (anger). The duplication adds a concept not present in the Greek."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

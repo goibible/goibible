@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text contains a contrastive 'ο δε' (but the...) which is rendered as 'nhưng' in the Vietnamese. However, the Vietnamese translation omits the specific subject marker/conjunction structure that establishes the comparison between the slave and the son clearly in the first clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μενει' is a negative verb (does not remain/stay). The Vietnamese 'không ở... luôn' is a bit ambiguous; while it captures the negation, the Greek implies a state of 'not remaining/abiding,' whereas 'không ở... luôn' can be interpreted as 'doesn't stay forever' depending on context. However, the most significant issue is the lack of the specific contrastive 'but' at the start of the first clause in some readings, though here it is present. The main fidelity issue is the subtle shift in the duration/permanence implied by 'εις τον αιωνα' (for eternity) vs 'luôn' (always/forever)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

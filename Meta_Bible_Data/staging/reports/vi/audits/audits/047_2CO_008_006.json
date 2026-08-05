@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιτελεση' (epitelesē) is a verb meaning 'to complete' or 'to finish'. The Vietnamese translation 'làm trọn ơn đó' (complete that grace/favor) treats 'grace' as the object of completion. However, the Greek structure 'επιτελεση εις υμας και την χαριν ταυτην' implies completing [something] to you and [also] this grace. The Vietnamese phrasing suggests completing the grace itself, whereas the Greek implies completing the work/task (implied by the preceding context of 'doing') for the people, along with the grace."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τιτον' (Titon) is an accusative object for 'εις το παρακαλεσαι ημας' (to ask us). The Vietnamese 'khuyên Tít' (advised Titus) changes the grammatical role of Titus from the person being asked to the person doing the asking/advising."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

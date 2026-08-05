@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανατειλαντος' (anateilantos) describes the sun as 'rising' or 'going up', but in this specific context (referring to the grass/herbs), it functions as a temporal/circumstantial marker. However, the Vietnamese 'mọc lên' implies the sun is rising. The Greek 'ηλιου δε ανατειλαντος' more accurately conveys 'when the sun rises' or 'at the rising of the sun'. While 'mọc lên' is a common translation for 'rising', the Vietnamese structure makes it sound like the subject (the grass) is being burned *as* the sun rises, which is accurate, but the Greek 'ανατειλαντος' specifically refers to the sun's position. The primary issue is that the Vietnamese 'nó' (it) is used twice; while grammatically acceptable for flow, the Greek uses a passive construction ('εκαυματισθη') that emphasizes the state of being scorched by the sun's rising."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

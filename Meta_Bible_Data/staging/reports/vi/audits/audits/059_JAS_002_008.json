@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αγαπησεις' (agapeseis) is the imperative form of 'to love', but the Vietnamese translation uses 'tôn trọng' (respect). This changes the core command from 'love' to 'respect'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'καλως ποιειτε' (kalōs poieite), which means 'you do well' or 'you are doing well'. The Vietnamese translation 'thì anh em làm tốt' is slightly different in structure, but the primary issue remains the substitution of 'respect' for 'love'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

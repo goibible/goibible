@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμιν' (to you) is the direct object of 'λεγω' (I say). The Vietnamese translation 'Tôi nói với anh em là dân ngoại' incorrectly treats 'dân ngoại' (the Gentiles/foreigners) as an appositive to 'anh em' (you), whereas the Greek indicates that the speaker is saying something *to* the Gentiles. In the Greek, 'υμιν' refers to the Gentiles; in the Vietnamese, it sounds like the speaker is talking to a group of people who are being identified as Gentiles."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

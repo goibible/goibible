@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δησαι' (desai) means 'to loosen' or 'to release', but the Vietnamese 'trói' means 'to bind' or 'to tie'. This is a direct opposite of the intended meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

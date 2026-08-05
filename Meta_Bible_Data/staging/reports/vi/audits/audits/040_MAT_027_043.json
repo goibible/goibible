@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεποιθεν' (pepithēn) is an aorist perfect active indicative, implying a state of having trusted or 'having put trust'. The Vietnamese 'đã tin cậy' is a simple past tense. However, the more significant issue is the ambiguity of 'nó' (it/him/her). In Greek, 'αυτον' (auton) refers to the person who trusted. The Vietnamese 'nó' is often used for animals or objects, which may be seen as disrespectful or imprecise for a human subject in this context, though it reflects the masculine pronoun. More importantly, the Greek 'ρυσασθω' is a passive imperative/optative construction ('let him be saved'), while the Vietnamese 'giải cứu nó' (save it/him) treats 'Ngài' (God) as the active agent. While this is common in translation, the Greek emphasizes the state of being saved."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

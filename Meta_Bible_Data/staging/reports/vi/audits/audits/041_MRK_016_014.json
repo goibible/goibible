@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τοις θεασαμενοις αυτον εγηγερμενον' means 'those who saw Him raised (resurrected)'. The Vietnamese translation 'những kẻ đã thấy Ngài sống lại' implies they saw the *act* of Him being resurrected or saw Him *after* He was resurrected, but it slightly misses the specific grammatical construction where the 'raising' is the state/action they witnessed. More importantly, the Greek 'ουκ επιστευσαν' (they did not believe) refers back to the 'unbelief' regarding the fact that they saw Him raised. The Vietnamese phrasing 'không tin những kẻ' (did not believe the people who...) suggests they didn't believe the *people*, whereas the Greek says they didn't believe [the fact of] His being raised."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

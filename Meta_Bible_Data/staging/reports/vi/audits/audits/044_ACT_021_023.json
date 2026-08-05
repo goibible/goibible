@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εuchēn echontes' (having a prayer) in this context refers to 'those who are praying' or 'the praying ones' (a state of being/action), whereas the Vietnamese 'đang giữ lời cầu nguyện' implies 'keeping/holding a prayer' (possessing a specific prayer), which changes the nuance of the action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εφ εαυτων' (for themselves) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη δε μια των σαββατων' refers to the 'first day of the week' (Sunday), whereas the Vietnamese 'Ngày thứ nhất trong tuần' can be interpreted as 'the first day of the month' or a generic 'first day' depending on context, though it is most commonly understood as Sunday. However, more critically, the Greek 'πρωι σκοτιας ετι ουσης' means 'while it was still dark in the morning'. The Vietnamese 'đến mộ từ sớm, lúc trời còn tối' slightly shifts the sequence/conjunction of 'still' (ετι) and 'dark' (σκοτιας)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

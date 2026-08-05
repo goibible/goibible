@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek uses 'και' (and) to connect the two actions ('drinking the cup of the Lord AND the cup of demons'). The Vietnamese translation uses 'cũng' (also/as well), which creates a sense of addition or parallel action rather than the logical conjunction 'and' used in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

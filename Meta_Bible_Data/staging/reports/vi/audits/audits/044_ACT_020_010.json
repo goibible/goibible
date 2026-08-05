@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επεπεσεν αυτω' (epepesen autō) means 'fell upon him' (the person). The Vietnamese 'té trên người' means 'fell on [his] body/person'. While close, the Vietnamese phrasing 'té trên người' can be interpreted as falling *on top of* someone's body as a physical location, whereas the Greek implies falling *upon* the person in an action of embracing/seizing. However, a more significant issue is the lack of clarity regarding 'autō'. In this context (Acts 20:34), 'autō' refers to the man who fell. The Vietnamese 'té trên người' is ambiguous as to whose body it is (could be interpreted as his own body or the other's)."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

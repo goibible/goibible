@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'thì ta sẽ nói cho các ngươi biết' (then I will tell you), which is not present in the Greek. The Greek text ends with the question 'in what authority do you do these things?' without a subsequent statement of intent to provide an answer."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

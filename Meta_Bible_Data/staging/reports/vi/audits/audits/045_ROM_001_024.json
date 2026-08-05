@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εαυτοις' (in themselves) refers to the bodies being defiled within the individuals. The Vietnamese translation 'giữa họ' (among them) changes the location of the defilement from internal/personal to a collective/external setting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

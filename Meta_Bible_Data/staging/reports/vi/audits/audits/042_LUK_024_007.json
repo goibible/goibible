@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τον υιον του ανθρωπου' (the Son of Man) is singular, but the Vietnamese 'Con người' (Human/People) can be interpreted as plural or a general category. More importantly, the Greek specifies 'the Son of Man' as a specific title/subject, which is slightly weakened by the generic 'Con người'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the definite article/specific status implied by 'τον υιον', making it sound like 'humans' in general rather than 'the Son of Man'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

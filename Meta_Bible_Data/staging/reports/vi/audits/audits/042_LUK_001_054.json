@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 54,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παιδος' (paidōs) means 'child' or 'son', but the Vietnamese translation uses 'đầy tớ' (servant)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'φευγετωσαν' (feugetōsan) is an aorist indicative, indicating a completed action in the past ('fled'). The Vietnamese translation 'hãy trốn' uses an imperative/hortative mood ('let them flee' or 'must flee'), changing the statement of fact into a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαστιγας' (mastigas) means 'afflictions/diseases' (figuratively, scourges), not 'roi vọt' (whips/scourges as instruments). The Vietnamese translation 'roi vọt' would lead a reader to think people had whips, whereas the Greek refers to those who had diseases/afflictions."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

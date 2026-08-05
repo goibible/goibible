@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεκριθη αυτω' (answered him) is missing. The Vietnamese 'thưa rằng' (said/replied) captures the response but omits the specific recipient ('him')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ αρκουσιν αυτοις' uses a plural verb and pronoun, indicating the bread was not enough for 'them' (the disciples/people). The Vietnamese 'không đủ cho mỗi người' (not enough for each person) slightly shifts the focus from the collective group to the individual distribution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

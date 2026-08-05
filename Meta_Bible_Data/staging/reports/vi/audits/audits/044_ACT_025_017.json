@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη εξης' means 'the next day', but the Vietnamese translation says 'ngay ngày hôm sau' (immediately the next day). While close, 'η εξής' is simply 'the next'. More importantly, the Greek 'καθισας' is an aorist active, and the Vietnamese uses 'ngồi' (present/general) without clearly distinguishing the sequence of actions as strictly as the Greek structure implies."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

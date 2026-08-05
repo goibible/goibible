@@ -1,0 +1,11 @@
+name_seen,approved_or_expected,severity,category,occurrences,refs
+Y-sơ-ra-ên,Y-sơ-ra-ên,orange,missing_expected_name,9,NUM 9:20; NUM 18:9; NUM 18:12; NUM 21:16; NUM 21:19; NUM 22:41; NUM 26:3; NUM 28:3; NUM 32:19
+Ba-la-am,Ba-la-am,orange,missing_expected_name,3,NUM 23:14; NUM 23:17; NUM 23:18
+Lê-vi,Lê-vi,orange,missing_expected_name,3,NUM 3:16; NUM 4:49; NUM 7:4
+Môi-se,Môi-se,orange,missing_expected_name,3,NUM 10:36; NUM 12:5; NUM 16:19
+A-rôn,A-rôn,orange,missing_expected_name,1,NUM 16:19
+Ca-lép,Ca-lép,orange,missing_expected_name,1,NUM 13:31
+Eùp-ra-im,Eùp-ra-im,orange,missing_expected_name,1,NUM 2:24
+Giu-đa,Giu-đa,orange,missing_expected_name,1,NUM 2:5
+Mê-ra-ri,Mê-ra-ri,orange,missing_expected_name,1,NUM 4:31
+Đông-phương,Đông-phương,orange,missing_expected_name,1,NUM 23:7

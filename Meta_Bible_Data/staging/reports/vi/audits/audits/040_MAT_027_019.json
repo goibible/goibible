@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεν σοι' (nothing to you) is rendered as 'Đừng làm gì' (Do nothing). In context, the wife is telling the man not to do anything *to* the righteous man. However, the Vietnamese phrasing 'Đừng làm gì đến người công bình đó' can be interpreted as a general command not to do anything, whereas the Greek specifically addresses the man ('toi')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καθημενου δε αυτου' specifies that while he was *sitting* on the judgment seat/bench. The Vietnamese translation 'Khi người đang ngồi trên tòa án' captures the action but loses the specific nuance of the 'judgment seat' (βήματος) context, though this is a minor stylistic point. More importantly, the Greek 'δι αυτον' (because of him/on his account) is rendered as 'vì cớ người', which is acceptable."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

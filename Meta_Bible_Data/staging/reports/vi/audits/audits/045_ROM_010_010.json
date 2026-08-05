@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 10,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains a negation 'δε' (not) regarding the mouth confessing to salvation ('στοματι δε ομολογειται'). The Vietnamese translation omits this negation, changing the meaning from 'the heart believes... [but] the mouth does NOT confess' to 'the heart believes... [and] the mouth confesses'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

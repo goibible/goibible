@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτω' (to him) refers to the person who spoke/commanded, while 'αυτον' (him) in the final clause refers back to that same person. The Vietnamese translation uses 'nó' (it/him - informal/low status) for the second instance and 'Ngài' (He/Lord - high status) for the third. This creates a contradiction in the identity of the person being betrayed; the Greek implies the same person is being given silver and then handed over, whereas the Vietnamese suggests two different people or a confusing shift in status."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

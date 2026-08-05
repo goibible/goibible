@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'μαρτυρουμενοι' (martyroumenoi) means 'bearing witness' or 'testifying,' but the Vietnamese translation uses 'khuyên lơn, yên ủi, và nài xin' (exhorting, comforting, and pleading). This changes the nature of the action from a testimony/witness to an act of persuasion/encouragement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

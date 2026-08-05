@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'không còn bởi công việc nữa' (no longer by works) for 'ουκετι εξ εργων' misses the specific grammatical structure of the Greek. The Greek 'ει δε χαριτι ουκετι εξ εργων' means 'if [it is] not by grace, [it is] no longer by works.' The Vietnamese phrasing suggests a change in the source of the action rather than the logical exclusion/negation intended by the Greek construction."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second part 'ει δε εξ εργων ουκετι εστιν χαρις' is translated as 'Còn nếu bởi công việc thì không còn là ân điển nữa'. The Greek literally says 'if [it is] not by works, it is no longer grace.' The Vietnamese omits the 'not' (δε) governing the 'by works' part, making the condition 'if by works' instead of 'if NOT by works'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ναους' (naous) refers to 'ships', not 'đền thờ' (temples). The Vietnamese translation changes the nature of the objects built."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

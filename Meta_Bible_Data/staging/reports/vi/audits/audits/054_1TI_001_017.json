@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τιμη και δοξα' (honor and glory) is the subject of the verb 'εστιν' (implied/is), but the Vietnamese structure makes 'vinh dự và vinh hiển' (honor and glory) appear as a separate descriptor or part of a different clause construction. More importantly, the Greek says 'honor and glory [are] to the ages of ages', whereas the Vietnamese implies they 'belong to' (thuộc về) the King of ages."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'μονω σοφω' (the only wise) is rendered as 'có một và khôn sáng' (has one and wise/bright), which distorts the superlative/unique nature of 'monos' (only/alone)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

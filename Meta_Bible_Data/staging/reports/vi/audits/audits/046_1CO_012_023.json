@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιτιθεμεν' (peritithemen) is a present active participle meaning 'we are putting/clothing' or 'we clothe'. The Vietnamese 'lấy... mà tôn trọng' (take... to respect) fails to capture the specific action of 'clothing' or 'covering' the body parts with honor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τιμην περισσοτεραν' (timēn perissoteran) refers specifically to 'greater honor'. The Vietnamese 'vinh dự dư dật' captures 'extra/excess honor', but the core action of *clothing* those parts with that honor is lost."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ενεπτυον' (eneptyon) means 'to spit on' (spitting), but the Vietnamese translation 'nhổ trên Ngài' means 'to pluck/pull from Him'. This is a significant mistranslation of the action performed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

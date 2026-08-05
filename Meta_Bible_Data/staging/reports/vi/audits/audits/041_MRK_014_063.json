@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 63,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'còn cần sự cần dùng' is a redundant and confusing construction. The Greek 'τι ετι χρειαν εχομεν' means 'what need do we still have'. The Vietnamese translation adds an extra 'sự cần dùng' (the need of the need) which obscures the simple question of what requirement remains."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγον' (elegon) is a verb meaning 'were saying' or 'said'. The Vietnamese 'Họ nói' (They said) correctly identifies the action, but the Greek text lacks a subject; however, the structure 'οτι ελεγον υμιν' implies 'that [they] were saying to you'. The Vietnamese translation omits the indirect object 'υμιν' (to you)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εσονται' (esontai) is a future tense verb. While 'sẽ có' (will have/there will be) captures the future sense, the Greek specifically implies 'they will be' (referring to the subjects). The Vietnamese phrasing 'sẽ có những kẻ' (there will be those who) slightly shifts the grammatical construction from a state of being to an existence."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

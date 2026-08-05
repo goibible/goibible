@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγιαζει' is a present active verb (sanctifies), but the Vietnamese translation 'khiến họ nên thánh' (makes them holy) combined with 'để được' (in order to get/be) shifts the meaning from a continuous action of sanctification to a resultative purpose clause. More importantly, the Greek 'προς την της σαρκος καθαροτητα' indicates the *direction* or *purpose* of the sanctification (towards the purity of the flesh), whereas the Vietnamese 'để được' suggests a goal for the people rather than the direction of the sanctification itself."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

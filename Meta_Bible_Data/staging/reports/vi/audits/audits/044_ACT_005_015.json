@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κραββατων' (kravbatōn) refers to 'stretchers' or 'carrying frames,' not 'cái giường' (beds). The text describes people being carried on stretchers, which is distinct from being placed on beds."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

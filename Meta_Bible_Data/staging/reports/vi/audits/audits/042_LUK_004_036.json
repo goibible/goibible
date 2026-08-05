@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις ο λογος ουτος' is a common scribal error/variant for 'τις ο logos houtos' (what is this word/voice) or 'τις ο logos houtos' (what is this speech). However, the Vietnamese translation renders it as a question ('Lời này là gì?'), whereas the Greek construction 'λεγοντες τις ο λογος ουτος...' functions as an exclamation or a statement of identification regarding the 'word/speech' (logos) being spoken. More importantly, the Vietnamese translates 'εν εξουσια και δυναμει' as 'dùng quyền và quyền năng', which is a common expansion, but it misses the specific nuance of 'in authority and power' (prepositional phrase) by turning it into a verb construction ('dùng' - use)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'εγενετο' (it happened/it came to pass) which establishes the narrative progression of the event."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

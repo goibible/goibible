@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'ναι ερχου' (Yes, I am coming) as part of the witness's speech, but the Vietnamese translation omits this second instance of the verb 'come', rendering it only once as part of the first quote."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

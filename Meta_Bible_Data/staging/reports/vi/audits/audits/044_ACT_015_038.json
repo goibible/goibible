@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε ηξιου' (de hexiou) means 'not to be counted' or 'should not be counted.' The Vietnamese 'cho là đáng kể' (considered significant/worthy) is a mistranslation of the negative sense and the specific concept of counting someone as part of the group."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek uses a double negative construction (δε... μη...) to express 'should not be counted.' The Vietnamese fails to capture the 'not' in 'hexiou', turning a prohibition into a statement of significance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

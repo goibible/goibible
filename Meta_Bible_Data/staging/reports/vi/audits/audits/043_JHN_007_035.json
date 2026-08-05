@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχ ευρησομεν αυτον' (we will not find him) is a statement of fact/certainty. The Vietnamese translation renders it as a question ('mà chúng ta không tìm được?'), changing the assertive tone of the Jews into an inquiry."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη εις την διασποραν' (not to the diaspora) is a negative statement. The Vietnamese translation renders it as a question ('Có phải... chăng?'), which softens the definitive negation into a rhetorical or speculative question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

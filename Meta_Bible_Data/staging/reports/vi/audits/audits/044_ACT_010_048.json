@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'προσεταξεν' (prosetaxen) means 'commanded' or 'ordered'. The Vietnamese 'truyền bảo' is a reasonable equivalent, but the Greek 'προσεταξεν' implies a formal command/instruction. However, the main issue is 'τινας' (tinas), which means 'which day' or 'what day', whereas the Vietnamese 'ít ngày' translates to 'a few days'. The Greek indicates they asked 'on what day' they should be baptized, not for him to stay 'a few days'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

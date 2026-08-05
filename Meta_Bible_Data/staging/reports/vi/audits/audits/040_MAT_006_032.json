@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains 'οιδεν' (do not know), but the Vietnamese translation omits the negation, stating that the Father 'biết' (knows). This reverses the meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

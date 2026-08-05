@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'συν τοις ιουδαιοις' (with the Jews), but the Vietnamese translation renders it as 'theo bên Giu-đa' (following Judas). In this context, 'Ιουδαίοις' refers to the Jewish people/group, not the individual 'Judas'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

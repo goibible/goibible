@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταυτα εποιησαν αυτω' (they did these things to Him) is rendered in Vietnamese as 'người ta đã làm những điều đó cho Ngài'. The Vietnamese 'người ta' (people/they) is ambiguous and lacks the specific subject 'οι μαθηται' (the disciples) established in the first half of the sentence. While the Greek implies the disciples are the ones doing the actions, the Vietnamese could be interpreted as a general 'people'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

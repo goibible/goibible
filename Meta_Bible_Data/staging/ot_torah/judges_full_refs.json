@@ -1,0 +1,33 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Judges QA batch.",
+  "groups": [
+    {
+      "name": "Judges full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "JDG 1",
+        "JDG 2",
+        "JDG 3",
+        "JDG 4",
+        "JDG 5",
+        "JDG 6",
+        "JDG 7",
+        "JDG 8",
+        "JDG 9",
+        "JDG 10",
+        "JDG 11",
+        "JDG 12",
+        "JDG 13",
+        "JDG 14",
+        "JDG 15",
+        "JDG 16",
+        "JDG 17",
+        "JDG 18",
+        "JDG 19",
+        "JDG 20",
+        "JDG 21"
+      ]
+    }
+  ]
+}

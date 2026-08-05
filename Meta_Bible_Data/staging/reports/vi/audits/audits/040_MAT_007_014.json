@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τεθλιμμενη' (tethlimmenē) means 'narrow/hard/difficult'. The Vietnamese translation 'chật' (narrow) captures the 'στενη' (stenē) part of the description but misses the 'difficult/hard' nuance of 'τεθλιμμενη'. However, more critically, the Greek uses 'στενη' for the gate and 'τεθλιμμενη' for the road. The Vietnamese uses 'hẹp' (narrow) for the gate and 'chật' (narrow/cramped) for the road, failing to distinguish between the two distinct descriptors used in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βρωμα' (bwroma) means 'filth', 'scum', or 'loathsomeness'. The Vietnamese translation 'thiêng liêng' (holy/sacred) is the opposite of the intended meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

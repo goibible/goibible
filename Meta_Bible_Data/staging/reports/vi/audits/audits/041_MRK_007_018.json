@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κοινωσαι' (koinosai) means 'to make common' or 'to communicate with/share with'. The Vietnamese translation 'làm ô uế' (to defile/pollute) is a theological interpretation that is not present in the literal Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

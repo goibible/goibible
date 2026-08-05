@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αρχη' (archē) in this context refers to the 'authority' or 'power' of the ruler, not 'sự ban đầu' (the beginning/origin). The phrase 'τη αρχη και τη εξουσια' is a standard idiom for 'the authority and power'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

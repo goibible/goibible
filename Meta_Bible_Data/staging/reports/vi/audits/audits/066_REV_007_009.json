@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φοινικες' (phoinikes) refers to 'purple/crimson' (a color), but the Vietnamese translates it as 'cây chà là' (palm trees/palm branches). This changes the description from clothing color to an object held in the hands."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

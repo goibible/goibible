@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναξιως κριμα εαυτω' functions as an adverbial/participial construction: 'unworthily, [he] judges himself'. The Vietnamese translation 'ăn và uống sự phán xét cho mình' (eats and drinks the judgment for oneself) changes the grammatical relationship. In Greek, the person is judging themselves; in the Vietnamese, they are consuming 'judgment' as an object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κατακλιθης' (do not lie down/recline) refers to the custom of reclining at a banquet, but the Vietnamese 'chớ ngồi' (do not sit) is slightly different in posture. However, the more significant issue is 'chỗ ngồi cao nhất' (highest seat). The Greek 'πρωτοκλισιαν' refers to the 'place of honor' or 'first place' (the head of the table), not necessarily the 'highest' (vertical) seat."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific conditional structure 'υπο τινος' (by someone/at someone's house), which clarifies that the invitation is coming from a specific host."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

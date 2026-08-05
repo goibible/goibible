@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek word 'ανεπαυσαν' (anepausan) is a negation of 'apausan'. It means 'they did NOT satisfy' or 'they did not give rest.' The Vietnamese translation 'đã làm yên lòng' means 'they satisfied/gave rest,' which is the opposite of the Greek meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

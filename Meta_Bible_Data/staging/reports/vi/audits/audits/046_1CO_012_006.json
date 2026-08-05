@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαιρεσεις ενεργηματων' refers to 'divisions of operations/activities', but the Vietnamese 'sự khác biệt về sự vận hành' (differences in operation) loses the specific sense of 'divisions' or 'types' of activities. More importantly, the Greek 'εν πασιν' means 'in all [things]', whereas the Vietnamese 'trong mọi người' means 'in all people'. This changes the scope from all things/entities to specifically humans."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

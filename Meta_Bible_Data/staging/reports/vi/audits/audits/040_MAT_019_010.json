@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 19,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αιτια του ανθρωπου μετα της γυναικος' refers to the 'cause/reason of man with woman' (the origin of human sin/fall), but the Vietnamese translation 'nguyên nhân của người với vợ' implies a specific relationship between a man and his own wife, which changes the scope from the general human condition to a specific marital situation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

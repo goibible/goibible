@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 13,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific verb 'σκηνουντας' (dwelling/tabernacling). The Greek describes those who are 'dwelling in heaven' (σκηνουντας), whereas the Vietnamese simply says 'những kẻ ở trên trời' (those in heaven), losing the specific nuance of 'dwelling' or 'tabernacling' which is structurally linked to 'σκηνην' (tent/tabernacle)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

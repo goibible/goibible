@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ηγειρεν' is in the imperfect tense (continuous/repeated action or state), whereas the Vietnamese 'đã khiến' is in the perfect tense (completed action). Furthermore, the Greek indicates a continuous/ongoing process of raising, while the Vietnamese implies a finished event."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

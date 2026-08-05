@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies the man is 'keramion' (a potter), which is a significant identifier for the person being followed. The Vietnamese translation omits this description."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου εισπορευεται' (he does not enter) is rendered in Vietnamese as 'mà người ấy vào' (that he enters), which reverses the negation. The Greek indicates the man does NOT enter the house, but the Vietnamese suggests he DOES."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τεκνογονιας' refers to 'childbearing' (the act/process of bearing children), but the Vietnamese 'sự sanh con' can be interpreted as 'giving birth' or 'procreation.' While close, the Greek focus is on the role of childbearing as a means of salvation."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'μεινωσιν' is 3rd person plural (they remain), but the Vietnamese 'họ' (they) is used. However, the subject of the first clause 'σωθησεται' is singular (the woman/she). The translation correctly identifies 'họ' as the plural group required for the conditions, but there is a slight mismatch in the implied subject of the first verb versus the second."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

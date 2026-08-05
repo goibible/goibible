@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οπως διαμαρτυρηται αυτοις' (as is testified to/witnessed by them) is rendered in Vietnamese as 'để người làm chứng cho họ' (so that people testify for them). The Greek indicates the brothers are the ones providing the testimony/witness, whereas the Vietnamese phrasing suggests a third party is testifying for the brothers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το ζην' (to live) is a verbal noun/infinitive construction meaning 'living' or 'to live'. The Vietnamese translation 'sống là Đấng Christ' translates this as 'living IS Christ', which changes the grammar from an action/state to an identity. The Greek implies 'for me, to live [is for] Christ' (or 'living is for Christ'), whereas the Vietnamese makes it sound like 'living' is synonymous with 'Christ'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

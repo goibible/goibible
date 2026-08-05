@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαλιστα' (malista) is an interjection/adverb meaning 'well', 'indeed', or 'very well', not 'nhất là' (especially/above all). The Vietnamese translation treats it as a comparative emphasis."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'vua' (king) which does not appear in the Greek text. While contextually implied by the address, it is an addition to the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

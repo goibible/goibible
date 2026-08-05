@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν παντι χρονω' (in every time/at all times) is rendered as 'suốt thời gian' (throughout the time), which loses the specific sense of 'every' or 'all' times."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εισχλθεν και εξηλθεν' is a pair of verbs (entered and exited/went out). The Vietnamese 'vào ra' is a compound verb that can imply 'coming and going' or 'entering and exiting', but the Greek structure emphasizes the repeated action of entering and then exiting. More importantly, the phrase 'εν ω' (in which) refers back to 'χρονω' (time), making it 'in every time [in which] he entered and exited'. The Vietnamese structure 'suốt thời gian Chúa Giê-xu vào ra' slightly blurs the 'in which' relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

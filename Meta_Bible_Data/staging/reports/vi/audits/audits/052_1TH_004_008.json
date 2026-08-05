@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο αθετων' (the one who rejects/despises) is a noun phrase referring to the person doing the rejecting. The Vietnamese 'ai khinh bỏ điều nầy' adds the phrase 'điều nầy' (this thing), which is not present in the Greek text. The Greek refers to the act of rejecting [something implied by context], but specifically identifies the subject as 'the one who rejects'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

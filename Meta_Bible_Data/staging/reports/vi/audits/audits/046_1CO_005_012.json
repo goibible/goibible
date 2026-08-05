@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κρινειν' (to judge) is translated as 'đoán xét' (to guess/speculate/judge). While 'đoán xét' can mean judgment, in this context of Matthew 7:5, it often carries a connotation of speculation. However, the primary issue is the nuance of 'κρινειν' which is a definitive judgment. More importantly, the Vietnamese 'đoán xét' implies a process of guessing/evaluating, whereas 'krinein' is the act of judging."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation uses 'đoán xét' for both instances. While 'κρινειν' is used in both, the rhetorical structure of the Greek (a question followed by a statement) is slightly flattened, but the most significant issue is the choice of 'đoán xét' which may weaken the weight of 'judgment' compared to 'phán xét'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

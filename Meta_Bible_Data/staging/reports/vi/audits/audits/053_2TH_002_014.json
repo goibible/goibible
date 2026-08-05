@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰς περιποίησιν' (eis peripoiēsin) means 'for the sake of', 'for the purpose of', or 'for the maintenance/preservation of'. The Vietnamese translation 'để anh em được' (so that you may receive/get) changes the grammatical function from a purpose/goal of the calling to a result of the calling."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περιποίησιν' implies 'preservation', 'maintenance', or 'care'. The Vietnamese translation omits this specific nuance, rendering it simply as 'getting' the glory."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

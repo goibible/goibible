@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'προς τους εξω τον καιρον' is a complex construction. 'προς τους εξω' means 'toward the outsiders/those outside'. The Vietnamese translation 'đối với những người ngoài' captures the 'toward outsiders' part, but it treats 'tôn καιρον' as an object of 'chuộc lại' (redeeming), whereas in the Greek, 'τον καιρον' (the time) is likely linked to 'προς' or the manner of walking. More importantly, the Vietnamese 'chuộc lại thời điểm' (redeem the moment/time) implies a specific action of redeeming time as a separate object, while the Greek 'εξαγοραζομενοι' is a present participle modifying the subject's manner of walking toward the outsiders."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

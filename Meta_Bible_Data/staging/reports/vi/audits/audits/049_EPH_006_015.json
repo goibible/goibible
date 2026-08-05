@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υποδησαμενοι τους ποδας' (having shod our feet) is a participle describing an action/state of the subjects. The Vietnamese translation 'là sự sẵn sàng' (is the readiness) turns the phrase into a definition/equality, changing the meaning from 'wearing shoes for the purpose of...' to 'shoes are the readiness'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

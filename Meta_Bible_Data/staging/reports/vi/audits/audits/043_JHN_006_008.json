@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'λεγει' (says) is missing from the Vietnamese translation. The Vietnamese text presents the speaker as a subject but fails to convey that he is actively speaking/saying something."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

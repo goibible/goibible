@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'δε' (not), indicating Stephen was NOT full of faith and power. The Vietnamese translation omits this negation, stating he WAS full of faith and power."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

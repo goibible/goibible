@@ -1,0 +1,1 @@
+Nếu nhà quá nhỏ không ăn hết một con chiên, thì người đó và người lân cận gần nhà mình sẽ chung nhau, tùy theo số lượng người; mỗi người theo lượng thức ăn của mình, các ngươi sẽ tính toán về con chiên.

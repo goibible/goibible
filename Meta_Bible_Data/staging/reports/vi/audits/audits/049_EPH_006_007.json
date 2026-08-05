@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ευνοιας' (eunoias) refers to 'good will', 'good mind', or 'sincerity'. The Vietnamese translation 'lòng nhân từ' translates to 'mercy' or 'compassion', which changes the nature of the internal disposition required by the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

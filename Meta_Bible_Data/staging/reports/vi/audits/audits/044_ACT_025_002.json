@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρωτοι' (protoi) refers to the 'firsts' or 'leaders/elders' of the Jews. The Vietnamese translation 'những người có thế lực' (those with power/influence) is a functional interpretation rather than a direct fidelity to the term 'firsts'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

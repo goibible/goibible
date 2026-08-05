@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'quà dâng' (offering/gift given by someone) implies a gift being offered *to* God, whereas the Greek 'δωρον' (gift) in this context refers to a gift *from* God to the believers. The phrase 'đến từ anh em' combined with 'quà dâng' creates a confusing sense of directionality regarding who is giving what."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

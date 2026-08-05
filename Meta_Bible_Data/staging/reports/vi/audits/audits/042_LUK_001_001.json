@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αναταξασθαι' (anataxasthai) means 'to disorder', 'to confuse', or 'to throw into confusion'. The Vietnamese translation 'sắp đặt' means 'to arrange' or 'to set in order', which is the opposite of the intended meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

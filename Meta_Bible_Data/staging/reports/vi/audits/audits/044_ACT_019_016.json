@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατακυριευσας αυτων' (having taken control/dominion over them) and 'ισχυσεν κατ αυτους' (exercised power against them) are condensed into 'thắng được hai người trong bọn' (won over two people in the group). The Vietnamese specifies a number ('hai người' - two people) that is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ισχυσεν κατ αυτους' means he exercised power/strength against them, while the Vietnamese 'hành hạ dữ lắm' (tortured/harassed very much) adds a specific intensity and type of action not explicitly stated in the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

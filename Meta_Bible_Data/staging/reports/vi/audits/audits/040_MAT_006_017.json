@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'δενηστευων' (denēsteuōn) means 'while fasting' (from 'nēsteuō'), but the Vietnamese 'kiêng ăn' is a general term for 'abstaining from food'. In a biblical context, 'fasting' is a specific spiritual practice of abstaining from food, and 'kiêng ăn' can sometimes be interpreted simply as avoiding certain foods (like meat or alcohol) rather than a formal fast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

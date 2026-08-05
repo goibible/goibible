@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 58,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'απεθεντο τα ιματια αυτων' (their garments were taken/seized) and the specific action of the witnesses. The Greek says they cast out the people, stoned them, AND the witnesses seized their garments. The Vietnamese makes it sound like the witnesses simply left their clothes at the feet of Saul."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

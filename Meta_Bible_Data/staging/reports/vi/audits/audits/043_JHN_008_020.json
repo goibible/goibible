@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεις επιασεν αυτον' (no one seized/arrested him) is translated as 'không ai bắt Ngài' (no one caught/arrested Him). However, the final clause 'οτι ουπω εληλυθει η ωρα αυτου' means 'because His hour had not yet come'. The Vietnamese translation 'vì giờ Ngài chưa đến' (because His hour has not yet arrived) uses a present tense construction ('chưa đến') whereas the Greek 'εληλυθει' is a perfect tense, indicating that the hour had not yet *arrived/come* at that specific point in time. While minor, it slightly shifts the temporal perspective from a completed state of 'not having come' to a current state of 'not arriving'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ον θεωρειτε και οιδατε' (whom you see and know) refers to the person who was strengthened by the name. The Vietnamese translation 'danh ấy đã làm cho vững chắc người này' (that name strengthened this person) switches the grammatical focus, making it sound like the name acted upon the person, whereas the Greek structure suggests the person is the one being seen/known while they were strengthened by the faith in the name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η πιστις η δι αυτου' (the faith that through it) implies a causal relationship (faith *through which*). The Vietnamese 'đức tin bởi Ngài' (faith by Him) changes the source of the faith from the instrument of strengthening to a possession or attribute of the person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

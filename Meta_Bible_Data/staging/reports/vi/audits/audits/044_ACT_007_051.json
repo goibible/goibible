@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'απεριτμητοι τη καρδια και τοις ωσιν' means 'uncircumcised in heart and ears' (not circumcised). The Vietnamese translation 'chẳng cắt bì kia' implies they are not the ones who were circumcised, or a negation of the act, rather than expressing the state of being uncircumcised (lacking the sign/mark) as a spiritual condition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

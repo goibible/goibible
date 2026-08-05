@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελογισθη αυτω' (logisthē autō) means 'was counted/reckoned TO him'. The Vietnamese translation 'được kể cho người' (was told to/counted for the person) loses the specific theological meaning of 'reckoning' or 'imputing' a status to a subject. It sounds like a narrative of telling someone something rather than a judicial accounting of righteousness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

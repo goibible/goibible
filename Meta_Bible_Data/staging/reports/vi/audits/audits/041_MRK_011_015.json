@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the verb 'κατεστρεψεν' (overthrew/destroyed) for the very first action mentioned in the Greek sequence. The Greek says: 'began to cast out [the sellers...] AND destroyed the tables...'. The Vietnamese combines these, making it sound like He began to cast out the sellers and [then] overturned the tables, but the Greek structure implies the destruction of the tables was a completed action or a primary action occurring alongside the beginning of the casting out."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

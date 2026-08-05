@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese word 'sai' (to order/command) is not present in the Greek text. The Greek 'εποιησαν' (they did) refers to the action of sending, but 'sai' adds a nuance of commanding that is not in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

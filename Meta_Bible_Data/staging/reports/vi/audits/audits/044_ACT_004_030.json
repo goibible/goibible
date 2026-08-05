@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκτεινειν' (ekteinein) literally means 'to stretch out' or 'to extend'. The Vietnamese translation 'để chữa lành' (to heal) is a functional/interpretive addition. While the context implies healing, the Greek text itself only says 'stretching out your hand'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'σε εις ιασιν' (se eis iasin) meaning 'upon you [for] healing' is partially lost or transformed into the adverbial purpose 'để chữa lành'. The Greek specifies that the stretching out of the hand is directed *toward* healing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

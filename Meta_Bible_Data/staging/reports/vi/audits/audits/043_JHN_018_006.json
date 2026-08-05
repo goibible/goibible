@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω ειμι' (I am) is translated as 'Ta là Đây' (I am Here). The Vietnamese adds a locative concept ('Đây' - Here) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

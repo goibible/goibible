@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'ngồi ăn' (sitting eating) interprets 'κατακειμενον' (katakeimenon) as sitting/lying down to eat, whereas the Greek 'κατακειμενον' specifically means 'lying down'. More importantly, 'εσθιειν' (estiein) is an infinitive modifying the purpose of the construction; the Vietnamese 'được xây dựng để ăn' suggests a passive result or purpose that slightly shifts the rhetorical structure of the Greek 'οικοδομηθησεται εις το... εσθιειν'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation adds 'há chẳng' (rhetorical question marker), which is a stylistic choice to mirror the rhetorical tone of the Greek, but it slightly alters the directness of the Greek construction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ εργων νομου' (from the works of the law) is translated as 'bởi công việc của luật pháp'. In Vietnamese, 'của luật pháp' implies 'of the law', whereas the Greek construction 'εργων νομου' refers to 'works of [the] law'. More importantly, the Vietnamese 'công việc của luật pháp' could be interpreted as 'legal works' or 'works of the legal system', whereas the Greek specifically refers to the 'works of the Law' (Torah/Mosaic Law). However, a more significant fidelity issue is that 'εξ εργων νομου' is often rendered as 'bởi việc làm theo luật pháp' (by doing the works of the law) to capture the active nature of 'ergon'. The current translation is acceptable but slightly ambiguous."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'εξ ακοης πιστεως' (from hearing [of] faith) is rendered as 'bởi sự nghe đức tin'. In Greek, 'akouēs' is a noun meaning 'hearing'. The Vietnamese 'sự nghe đức tin' could be interpreted as 'hearing faith' or 'hearing [of] faith'. To be perfectly faithful to the Greek structure 'hearing of faith', it should clearly distinguish that the hearing is *of* faith."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

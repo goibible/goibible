@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καμοι' (komoi) is the dative plural, meaning 'to you' (plural). The Vietnamese translation uses 'tôi', which is the first-person singular ('me'). This changes the recipient of the authority from a group to an individual."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese text includes 'hãy được khích lệ' (be encouraged), which has no equivalent in the Greek text (λοιπոն αδελφοι χαιρετε καταρτιζεσθε παρακαλεισθε το αυτο φρονειτε ειρηνευετε)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'hãy vui mừng' (be joyful/rejoice) for 'χαιρετε' is acceptable, but the phrase 'hãy được sửa lại' for 'καταρτιζεσθε' (be built up/edified) misses the specific nuance of spiritual construction/edification, though it is a common rendering. However, the addition of 'khích lệ' is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

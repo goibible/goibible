@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτοπται και υπηρεται γενομενοι' (having become eyewitnesses and ministers) describes the status of those who 'delivered' (παρεδοσαν) the word. The Vietnamese structure 'như những người... đã truyền lại' suggests they were witnesses/ministers *at the time* of delivering, but the Greek construction implies they *became* (γενομενοι) these things as part of their role in delivering the word. More importantly, the Vietnamese puts the 'witnesses and ministers' as the subject of 'delivered', whereas the Greek structure is 'as [they] became witnesses and ministers, [they] delivered to us'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

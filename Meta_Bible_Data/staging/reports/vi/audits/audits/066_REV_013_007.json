@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek pronoun 'αυτω' (autō) refers to 'him' (a person), but the Vietnamese translation uses 'nó' (it), which changes the subject from a person to an object/thing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'εδοθη αυτω εξουσια' (he was given authority), but the Vietnamese translation adds the word 'quyền' (power/right) twice, once for the war and once for the authority, whereas the Greek only uses 'exousia' for the latter part."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

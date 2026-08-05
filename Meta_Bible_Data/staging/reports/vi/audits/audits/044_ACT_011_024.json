@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσετεθη' (prosethe) is a passive verb meaning 'were added'. The Vietnamese 'đã được thêm vào' correctly captures the passive voice, but the subject of the addition is ambiguous or misattributed. In the Greek, the crowd ('οχλος') is the thing being added *to* the Lord/the group, but the Vietnamese phrasing 'được thêm vào Chúa' can be interpreted as the crowd being added *into* Jesus himself, rather than being added to the company of the Lord. More importantly, the Greek 'προσετεθη' implies a result of the previous clause; the Vietnamese 'và' (and) treats it as a separate independent fact."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

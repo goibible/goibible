@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ομοιωσω' (omoiōsō) is in the future tense, but it is used here as a question or a rhetorical statement of intent. More importantly, the Vietnamese 'sánh... với gì?' (compare... with what?) changes the structure of the Greek sentence. The Greek 'τινι ομοιωσω' literally means 'with what [shall I] liken/compare', but the Vietnamese phrasing 'Ta sẽ sánh... với gì?' shifts the focus to a question about the object of comparison, whereas the Greek is a statement of the action of likening."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

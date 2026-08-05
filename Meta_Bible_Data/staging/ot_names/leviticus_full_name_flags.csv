@@ -1,0 +1,4 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+LEV,24,12,orange,missing_expected_name,Sê-lô-mít,,Expected approved name 'Sê-lô-mít' from VIE1934 occurrence.
+LEV,24,12,orange,missing_expected_name,Điệp-ri,,Expected approved name 'Điệp-ri' from VIE1934 occurrence.
+LEV,27,29,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.

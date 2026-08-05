@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετεσχηκεν' (metescheken) is a perfect tense verb meaning 'has joined/participated'. The Vietnamese 'thuộc' (belongs to) changes the action of joining into a state of belonging. Furthermore, the Greek structure 'αφ ης ουδεις προσεσχηκεν' means 'from whom no one has participated', whereas the Vietnamese 'trong chi phái đó chưa từng có ai dự' implies 'in that sect there was never anyone who participated'. The Greek emphasizes the act of joining/participating from a specific group, not a permanent state of belonging."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

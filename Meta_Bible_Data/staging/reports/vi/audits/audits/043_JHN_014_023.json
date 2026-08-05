@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελευσομεθα' (eleusometha) means 'we will have compassion on him' or 'we will be merciful to him'. The Vietnamese translation 'chúng ta sẽ đến cùng người ấy' (we will come with/to him) is a mistranslation of the verb, changing the action from mercy/compassion to physical presence/accompaniment."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μονην παρ αυτω ποιησομεν' (monēn par autō poiēsomen) literally means 'we will do [it] alone with him' or 'we will be with him alone'. The Vietnamese translation 'làm chỗ ở với người ấy' translates this as 'making a dwelling/residence with him', which is an interpretive expansion not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

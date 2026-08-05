@@ -1,0 +1,52 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Exodus QA batch.",
+  "groups": [
+    {
+      "name": "Exodus full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "EXO 1",
+        "EXO 2",
+        "EXO 3",
+        "EXO 4",
+        "EXO 5",
+        "EXO 6",
+        "EXO 7",
+        "EXO 8",
+        "EXO 9",
+        "EXO 10",
+        "EXO 11",
+        "EXO 12",
+        "EXO 13",
+        "EXO 14",
+        "EXO 15",
+        "EXO 16",
+        "EXO 17",
+        "EXO 18",
+        "EXO 19",
+        "EXO 20",
+        "EXO 21",
+        "EXO 22",
+        "EXO 23",
+        "EXO 24",
+        "EXO 25",
+        "EXO 26",
+        "EXO 27",
+        "EXO 28",
+        "EXO 29",
+        "EXO 30",
+        "EXO 31",
+        "EXO 32",
+        "EXO 33",
+        "EXO 34",
+        "EXO 35",
+        "EXO 36",
+        "EXO 37",
+        "EXO 38",
+        "EXO 39",
+        "EXO 40"
+      ]
+    }
+  ]
+}

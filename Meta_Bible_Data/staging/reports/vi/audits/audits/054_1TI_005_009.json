@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη ελαττον' means 'not less than' (not under), but the Vietnamese 'không dưới' is used correctly; however, the phrase 'được ghi vào danh sách' (be recorded/listed) is a passive rendering of the imperative 'καταλεγεσθω' (let her be counted/recorded). The main issue is the word order and the phrasing 'là vợ của một chồng' which, while accurate in meaning, slightly shifts the emphasis from the Greek structure 'γυνή ενός ἀνδρὸς' (wife of one man)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

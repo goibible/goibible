@@ -1,0 +1,48 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 2 Chronicles QA batch.",
+  "groups": [
+    {
+      "name": "2 Chronicles full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "2CH 1",
+        "2CH 2",
+        "2CH 3",
+        "2CH 4",
+        "2CH 5",
+        "2CH 6",
+        "2CH 7",
+        "2CH 8",
+        "2CH 9",
+        "2CH 10",
+        "2CH 11",
+        "2CH 12",
+        "2CH 13",
+        "2CH 14",
+        "2CH 15",
+        "2CH 16",
+        "2CH 17",
+        "2CH 18",
+        "2CH 19",
+        "2CH 20",
+        "2CH 21",
+        "2CH 22",
+        "2CH 23",
+        "2CH 24",
+        "2CH 25",
+        "2CH 26",
+        "2CH 27",
+        "2CH 28",
+        "2CH 29",
+        "2CH 30",
+        "2CH 31",
+        "2CH 32",
+        "2CH 33",
+        "2CH 34",
+        "2CH 35",
+        "2CH 36"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπουδαιοτερος' (spoudaioteros) means 'more important', 'greater', or 'more serious'. The Vietnamese translation 'siêng năng hơn' means 'more diligent' or 'more hardworking', which is a significant shift in meaning."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek structure 'την μεν... δε υπαρχων' implies a contrast/concession (the 'men... de' construction), suggesting 'while he received the comfort, not being greater [in status/importance], he went to you'. The Vietnamese translation renders this as two separate reasons ('Vì... và vì...'), losing the concessive relationship between his receipt of comfort and his lack of superior status."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

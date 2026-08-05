@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire first clause: 'η ουκ εξεστιν μοι ποιησαι ο θελω' (it is not for me to do what I want)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese renders 'εν τοις εμοις' (in my [things/matters]) as 'anh em' (you/your), which is a significant shift in meaning and subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

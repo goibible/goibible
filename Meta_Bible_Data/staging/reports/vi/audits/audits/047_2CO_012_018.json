@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη τι επλεονεκτησεν' is a rhetorical question meaning 'did he not deceive you?' (literally: 'did he not deceive you?'). The Vietnamese translation 'Có phải Tít đã lường gạt anh em không?' changes the structure to 'Did Titus deceive you?', which loses the negative rhetorical force of the Greek. However, more critically, the Greek 'ου τοις αυτοις ιχνεσιν' means 'not in [his] tracks/footsteps', whereas the Vietnamese 'theo cùng một dấu chân' (following the same footsteps) changes the meaning from 'not following his steps' to 'following the same steps'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

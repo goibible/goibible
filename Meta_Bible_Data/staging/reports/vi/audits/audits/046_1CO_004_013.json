@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παρακαλουμεν' (parakaloumen) means 'we are beseeching/pleading/supplicating'. The Vietnamese translation 'khuyên bảo' means 'to advise/counsel', which changes the nature of the action from a plea to an instruction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περικαθαρματα' (perikatharmata) implies 'refuse' or 'scum' (something cast off), while 'đồ dơ bẩn' simply means 'dirty things'. While related, the Greek specifically denotes something rejected/discarded."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

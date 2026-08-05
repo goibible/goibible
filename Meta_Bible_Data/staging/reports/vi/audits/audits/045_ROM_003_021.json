@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χωρίς' (choris) means 'without' or 'apart from'. The Vietnamese translation 'ra ngoài' (outside of/beyond) conveys a spatial/relational meaning that misses the specific prepositional sense of 'without' as used in the context of 'without the law'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'cho các ngươi' (for you/to you) at the end of the sentence, which is not present in the Greek source ('και υμεις ποιητε'). The Greek simply says 'and you do [it]'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

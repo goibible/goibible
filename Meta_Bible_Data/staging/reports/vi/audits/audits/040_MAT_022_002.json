@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωμοιωθη' is a passive verb (it will be likened/compared), but the Vietnamese translates it as an active comparison ('giống như'). More importantly, the Greek 'ανθρωπω βασιλει' means 'a man [who] reigns as king', whereas the Vietnamese 'một người vua' simplifies the structure and misses the nuance of the reigning action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οστις εποιησεν' (who did/made) is rendered as a simple description in the Vietnamese, slightly flattening the active nature of the action in the original."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

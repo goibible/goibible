@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ομοιος ορασει' (looks like / appears as) is applied to the appearance of the throne/seat, but the Vietnamese translates it as 'trông giống như sự hiện thấy của' (looks like the manifestation/appearance of). More importantly, the Greek 'καθημενος' (the one sitting/the seated one) refers to the person/entity sitting on the throne, but the Vietnamese translates it as 'Đấng ngồi đó' (The One sitting there) and then applies the description of the stones to the *appearance* of that person or the seat, whereas the Greek structure implies the *seated one* is like the stones."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits 'ιρις' (iris/rainbow) as a distinct object being seen, instead merging it into 'có cầu vồng bao chung quanh' (there is a rainbow surrounding). While 'κυκλοθεν' means 'around', the Greek structure suggests the seated one sees/appears as jasper, sardius, and iris."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

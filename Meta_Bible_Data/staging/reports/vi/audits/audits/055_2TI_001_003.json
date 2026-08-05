@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τω θεω' (to God) is the object of 'χαριν εχω' (I give thanks). The Vietnamese 'Đấng tôi phục vụ' (Whom I serve) incorrectly attributes the action of 'serving' to the subject, whereas the Greek 'λατρευω' is an infinitive describing the manner/reason for the thanks. Furthermore, 'απο προγονων' (from my ancestors) is rendered as 'như tổ phụ tôi' (like my ancestors), changing a source/origin into a comparison."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχω την περι σου μνειαν' (I have the remembrance of You) refers to God ('σου'). The Vietnamese 'nhắc đến con' (remind/mention me) incorrectly changes the object of remembrance from God to the self."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

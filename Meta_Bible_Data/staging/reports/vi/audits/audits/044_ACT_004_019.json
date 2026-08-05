@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δικαιον εστιν' (it is righteous) refers to the act of listening/obeying. The Vietnamese translation shifts this into a rhetorical question about whether they 'should' obey ('có nên'), which slightly alters the grammatical structure from a statement of righteousness to a question of obligation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ακουειν' (to hear/listen) is rendered as 'vâng lời' (to obey). While semantically related, 'vâng lời' is a stronger functional translation than the literal 'nghe' (hear/listen)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

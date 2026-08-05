@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πορευεσθε' (poreuesthe) is an imperative meaning 'Go' or 'Depart', but the Vietnamese translation 'Hãy đi, đứng...' (Go, stand...) fails to capture the temporal/sequential flow of the Greek. More importantly, the Greek 'σταθεντες' (stathentes) is a present participle meaning 'while standing' or 'standing'. The Vietnamese structure suggests a sequence (Go, [then] stand), whereas the Greek implies the action of speaking happens while they are in the state of standing in the temple."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

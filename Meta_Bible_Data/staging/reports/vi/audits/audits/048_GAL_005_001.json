@@ -1,0 +1,13 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

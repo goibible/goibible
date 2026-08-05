@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπουδην πασαν' (all diligence/zeal) is the object of the verb 'παρεισενεγκαντες' (having brought forth). The Vietnamese translation 'đem hết sự siêng năng mà thêm cho' incorrectly structures the sentence as if 'siêng năng' (diligence) is the tool used to add virtue, whereas the Greek says they have already 'brought forth' diligence and are now 'providing/supplying' virtue to faith and knowledge to virtue."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παρεισενεγκαντες' (having brought forth/presented) is a perfect active participle indicating a completed action that serves as the basis for the present action. The Vietnamese 'đem' (bring) loses the perfective aspect and the specific sense of 'presenting' or 'bringing forward' as a prerequisite."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

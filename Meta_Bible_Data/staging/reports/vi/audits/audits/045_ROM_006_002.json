@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γενοιτο' is ajussive/optative expression of impossibility or 'may it never be,' but the Vietnamese 'Chẳng hề như vậy!' (Not like that!) is a response to a previous statement. The Greek 'οιτινες' (which) refers back to the death in sin, but the Vietnamese structure loses the specific 'may it never be' sense of the Greek construction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation treats the first part as a reaction ('Not like that!'), whereas the Greek is a rhetorical/exclamatory statement of impossibility regarding the state of living in sin after having died to it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη λογομαχειν εις ουδεν χρησιμον' means 'not to dispute about anything useful' (or 'not to dispute for any useful purpose'). The Vietnamese translation 'chớ tranh cãi về lời nói, điều đó chẳng có ích gì' changes the meaning to 'do not argue about words, that is useless.' It incorrectly treats 'useful' as a description of the argument itself rather than the scope/purpose of the dispute."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι καταστροφη' (for the destruction) is rendered as 'chỉ gây sự lật đổ' (only cause the overthrow/destruction). While 'lật đổ' can mean destruction, in this context, it implies the spiritual ruin or destruction of the hearers. The addition of 'chỉ' (only) is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

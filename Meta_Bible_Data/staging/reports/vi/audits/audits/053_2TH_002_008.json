@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταργησει τη επιφανεια της παρουσιας αυτου' means 'will abolish/nullify the appearance of His presence'. The Vietnamese translation 'hủy bỏ bởi Sự hiện ra của Sự hiện đến Ngài' translates this as 'abolish BY the appearance of the appearance of His coming', which incorrectly introduces an instrumental 'by' (bởi) and confuses 'appearance' (epiphaneia) with 'coming' (parousia)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

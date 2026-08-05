@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καινη η κοινωνια' (the new fellowship/communion) is rendered as 'sự thông công' (fellowship), omitting the adjective 'καινη' (new)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο των αιωνων' (from the ages/eternal) is rendered as 'từ các đời' (from the generations/eras), which slightly shifts the theological scope from 'eternal' to 'historical periods'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

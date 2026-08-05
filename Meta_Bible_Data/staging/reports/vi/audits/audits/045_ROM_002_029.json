@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν πνευματι' (in spirit) is rendered as 'bởi Thánh Linh' (by the Holy Spirit). While related, 'spirit' and 'Holy Spirit' are distinct concepts in this context. Furthermore, the Vietnamese phrasing 'phép cắt bì là của lòng, bởi Thánh Linh, không bởi chữ' slightly alters the grammatical relationship of the Greek 'εν πνευματι ου γραμματιου', which describes the nature of the circumcision (in spirit, not in letter)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

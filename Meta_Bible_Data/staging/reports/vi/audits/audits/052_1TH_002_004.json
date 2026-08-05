@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθως δεδοκιμασμεθα' (kathōs dedokimasthētha) is a passive construction meaning 'as we are being tested/tried.' The Vietnamese translation 'đã thử nghiệm chúng tôi' (has tested us) renders it as a completed action by God, whereas the Greek implies an ongoing state or condition of being under test. Furthermore, the Greek structure 'καθως... ουτως' (as... so) indicates a proportional comparison ('just as we are tested... so we speak'), which is slightly flattened in the Vietnamese 'vì... nên' (because... therefore) construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

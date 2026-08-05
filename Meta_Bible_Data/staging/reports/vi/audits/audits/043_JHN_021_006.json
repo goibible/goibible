@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific object of what they will find ('εβαλον' - a large catch/net full of fish). The Vietnamese says 'thì các ngươi sẽ gặp' (then you will meet/find), but leaves the object blank, whereas the Greek specifies 'you will find a large catch'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

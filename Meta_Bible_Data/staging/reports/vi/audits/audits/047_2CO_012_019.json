@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απολογουμεθα' (apologoumetha) means 'giving an account' or 'giving a defense/explanation.' The Vietnamese translation 'tự bào chữa' (self-defending/justifying oneself) implies a defensive posture against an accusation, whereas the Greek refers to the act of giving an account of one's ministry/actions."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απολογουμεθα κατενωπιον του θεου' means 'we give an account before God.' The Vietnamese translation 'bào chữa trước mặt anh em' (defending ourselves before you/the brothers) changes the audience of the account from God to the brothers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

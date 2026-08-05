@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποστειλας' (apostēlas) is a participle meaning 'having sent'. The Vietnamese 'sai người' (sent someone) implies an intermediary was sent, whereas the Greek suggests Joseph himself went/sent (the action of sending). However, more importantly, the Greek 'μετεκαλεσατο' (metekalesato) is a perfect tense verb meaning 'he had called/invited'. The Vietnamese 'mời' is present/simple tense. While often acceptable, the transition from 'having sent' to 'called' is slightly flattened."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν ψυχαις' (en psychais) means 'in souls'. The Vietnamese 'linh hồn' (souls) is present, but the prepositional phrase 'in souls' is often rendered as 'người' (people/persons) in Vietnamese. This is generally acceptable, but if strict fidelity to the 'soul' count is required, it is a minor shift."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

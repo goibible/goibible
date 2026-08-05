@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αδελφαι' refers to the sisters/female relatives themselves (the subject of the verb), but the Vietnamese 'sai người' (sent someone) implies they sent a third party, which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

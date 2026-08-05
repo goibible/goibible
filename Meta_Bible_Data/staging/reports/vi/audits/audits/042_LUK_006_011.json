@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε επλησθησαν' (de eplisthēsan) is a negative perfect, meaning 'were not filled' or 'were not overcome.' The Vietnamese translation 'đầy sự ngu dại' translates to 'were full of foolishness,' which reverses the negation. The Greek indicates they were NOT filled with foolishness, while the Vietnamese says they WERE."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

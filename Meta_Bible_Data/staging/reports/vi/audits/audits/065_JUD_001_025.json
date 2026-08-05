@@ -1,0 +1,18 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μονω σοφω' (mono sophō) is a masculine singular adjective modifying 'θεο' (theos), meaning 'the only wise God'. The Vietnamese translation 'Đức Chúa Trời khôn ngoan có một' (The one wise God) suggests there is only one God who is wise, but it slightly shifts the emphasis from 'the only wise' to 'one wise'. More importantly, the Greek structure 'μονω σοφω θεω' functions as a title/description of the subject. The Vietnamese phrasing 'thuộc về' (belongs to) is an addition that changes the grammatical structure from a direct description ('the only wise God') to a possessive statement ('glory... belongs to the God')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

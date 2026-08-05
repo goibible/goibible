@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στατηρα' (statēra) refers to a 'stater' (a specific unit of currency/coin), but the Vietnamese translation 'đồng tiền' is a general term for 'money' or 'coin'. While it captures the concept, 'sta-te-ra' is a specific historical denomination. However, more importantly, the Greek phrase 'λαβων δος αυτοις αντι εμου και σου' implies 'taking [it], give to them instead of me and you'. The Vietnamese 'hãy lấy đồng tiền đó mà nộp cho họ thay cho ta và con' correctly identifies the action but slightly simplifies the 'instead of' construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

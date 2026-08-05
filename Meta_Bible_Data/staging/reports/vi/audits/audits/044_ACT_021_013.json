@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δεθηναι' (dethēnai) means 'to be bound/chained' or 'to be imprisoned'. The Vietnamese translation 'chịu trói' (to endure being bound) is a common rendering, but the Greek specifically uses the passive infinitive structure. More importantly, the Greek says 'ου μονον δεθηναι' (not only to be bound), whereas the Vietnamese 'chẳng những sẵn sàng chịu trói' adds 'sẵn sàng' (ready) to the first part of the contrast which is not present in the first half of the Greek phrase, though it is present in the second. However, the primary fidelity issue is that 'δεθηναι' specifically refers to being bound/imprisoned, and while 'chịu trói' is acceptable, the Vietnamese phrasing slightly shifts the emphasis."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

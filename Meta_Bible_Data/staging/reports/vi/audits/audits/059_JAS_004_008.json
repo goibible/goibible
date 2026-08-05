@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verbs 'καθαρισατε' (katharisate) and 'αγνισατε' (agnisate) are in the aorist imperative, meaning 'purify' or 'make clean'. The Vietnamese translation renders them as 'lau tay' (wash hands) and 'làm sạch' (clean/make clean). While 'làm sạch' is accurate for 'αγνισατε', 'lau tay' (washing/wiping) is a weaker rendering of 'καθαρισατε' (purifying/cleansing) which implies a deeper spiritual cleansing than just washing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text uses 'καθαρισατε χειρας' (purify hands) and 'αγνισατε καρδιας' (purify hearts). The Vietnamese translation adds the word 'mình' (your own/oneself) to 'tay mình', which is not in the Greek, though it is a minor stylistic addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

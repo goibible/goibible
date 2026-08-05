@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματα πονηροτερα' means 'evil spirits' (πνεύματα = spirits, πονηρότερα = more evil). The Vietnamese renders it as 'Thánh Linh' (Holy Spirit), which is a different entity entirely and changes the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

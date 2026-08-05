@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'θεραπειας' (therapeias) in this context refers to 'stewardship' or 'management' (from 'therapeia'), but the Vietnamese translation 'chữa lành' means 'healing'. This changes the meaning of the master's entrustment from management of affairs to a healing ministry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τους μεν δεροντες τους δε αποκτεινοντες' describes the actions of the people sent by Jesus (they were beating some and killing others). The Vietnamese translation 'kẻ thì bị họ đánh, kẻ thì bị họ giết' reverses the roles, suggesting the people sent were the ones being beaten/killed (passive voice) instead of the ones doing the beating/killing (active voice)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

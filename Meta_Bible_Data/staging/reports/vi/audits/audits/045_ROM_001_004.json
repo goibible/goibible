@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ορισθεντος' (oristhentos) is a participle usually understood as 'appointed', 'designated', or 'ordained'. The Vietnamese translation 'đã được xác định' (has been defined/identified) misses the nuance of divine appointment or designation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν δυναμει' (en dynamei) means 'in power'. The Vietnamese translation 'với quyền năng' (with power) is acceptable, but the phrase 'theo Thánh Linh của sự thánh khiết' (according to the Holy Spirit of holiness) incorrectly renders 'κατα πνευμα αγιωσυνης'. In Greek, 'agiosynēs' is a noun (holiness), and the phrase describes the Spirit of Holiness/Sanctification. The Vietnamese phrasing suggests the Spirit belongs to holiness or is according to holiness in a way that slightly obscures the source text's specific designation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

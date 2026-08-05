@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'đến' (to/until) at the end of the sentence reverses the direction of the Greek phrase 'απο ανατολων ηλιου'. The Greek indicates 'from the east of the sun' (or 'from the sunrise'), whereas the Vietnamese phrasing suggests the kings are coming 'to' the sunrise, changing the origin/direction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

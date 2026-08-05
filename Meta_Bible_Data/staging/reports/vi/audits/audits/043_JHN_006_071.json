@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 71,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ημελλεν' (imminent future/about to) is rendered as a simple future/conditional 'sẽ', but more importantly, the Vietnamese translation places the action of betraying ('phản') at the end of the sentence as a subordinate result, whereas in the Greek, 'ημελλεν αυτον παραδιδοναι' is the reason (gar) for why He spoke about him. The Vietnamese structure slightly shifts the logical flow, but the primary issue is the tense nuance of 'imminence'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραδιδοναι' specifically means 'to hand over' or 'deliver up'. The Vietnamese 'phản' (betray) captures the general meaning but loses the specific action of 'handing over' to the authorities."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

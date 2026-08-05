@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithē) is a passive verb meaning 'He [Jesus] answered'. The Vietnamese translation 'Chúa Giê-xu đáp' is grammatically acceptable, but the structure of the sentence in Vietnamese makes it sound like a conditional statement ('Nếu... thì') rather than a direct answer. However, the primary issue is the loss of the specific sequence: Jesus answers her (the woman) and says to her. The Vietnamese 'đáp' followed by 'Nếu' makes the response seem like a hypothetical scenario rather than a direct address."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifically addresses 'αυτή' (her - the woman), but the Vietnamese translation uses 'ngươi' (you/thou), which is standard for dialogue, yet it misses the specific context of Jesus responding to her."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

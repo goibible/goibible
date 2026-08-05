@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η δε ειπεν ουδεις' (but no one said) is rendered in Vietnamese as 'không ai hết' (no one at all/none left), which slightly alters the scope of the negation, though the primary issue is the structural confusion of the dialogue."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek text 'η δε ειπεν ουδεις κυριε ειπεν δε αυτη ο ιησους' contains a grammatical/scribal anomaly or specific structure where 'ουδεις' (no one) and 'κυριε' (Lord) are juxtaposed. The Vietnamese translation 'Người thưa rằng: Lạy Chúa, không ai hết' suggests the speaker is saying 'No one at all, Lord,' whereas the Greek structure 'η δε ειπεν ουδεις κυριε' is more likely 'But no one said, [then] Lord...'. However, the most significant fidelity issue is the Vietnamese 'Người thưa rằng' (The person said) for 'η δε ειπεν' (but [he/she] said), which loses the specific 'but' (δε) transition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Vietnamese translation adds a negation ('không' - not) that is not present in the Greek text. The Greek 'ηπειθησαν' means 'obeyed,' but the Vietnamese renders it as 'đã không vâng lời' (did not obey)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation changes the causal relationship. The Greek 'ινα' (so that/in order that) indicates the purpose of their obedience, but the addition of 'nhờ' (thanks to/by means of) in the Vietnamese shifts the structure significantly."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

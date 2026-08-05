@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'θυσον' (thyson) means 'sacrifice', but the Vietnamese translation uses 'giết thịt' (kill meat/slaughter), which changes the theological and literal meaning of the command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

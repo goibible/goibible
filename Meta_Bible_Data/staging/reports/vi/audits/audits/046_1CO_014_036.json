@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η... η' is a disjunctive construction (either/or), but the Vietnamese translation uses 'hay là' which implies a question or a choice between two possibilities. More importantly, the Greek 'εξηλθεν' (came out) and 'κατηντησεν' (came down) are rendered as 'ra từ' and 'đến cùng', but the Vietnamese structure makes it sound like a rhetorical question about the source/destination of the Word rather than the dual action of the Word coming out from and coming down to them."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εις υμας' (to you) is rendered as 'đến cùng anh em'. While 'đến' captures the movement, 'cùng' can imply 'with' or 'together with' in some contexts, though here it primarily functions as a directional marker. However, the primary issue is the shift in tone from a statement of fact to a rhetorical question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

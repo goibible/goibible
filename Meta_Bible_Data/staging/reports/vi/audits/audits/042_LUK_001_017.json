@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απειθεις' (apeitheis) is an adjective/participle meaning 'disobedient' or 'rebellious'. The Vietnamese translation 'những kẻ không vâng phục' (those who do not obey) treats it as a noun phrase describing a group of people, whereas in the Greek structure, it describes the state of those whose hearts are being turned. Furthermore, the Greek implies the turning of hearts *from* disobedience ('απειθεις... ετοιμασαι'), but the Vietnamese phrasing 'và những kẻ không vâng phục... để sửa soạn' makes it sound like a separate group of people is being prepared, rather than the rebellious hearts being prepared."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

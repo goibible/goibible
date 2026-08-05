@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και νυν' (and now) is translated as 'Vậy thì' (So/Therefore), which changes the temporal context from 'now' to a logical consequence."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι μελλεις' (what are you about to do/what do you intend) is translated as 'sao con còn chần chừ' (why are you still hesitating). While contextually similar, the Greek asks about the subject's intended action, not their state of hesitation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστας' is a participle meaning 'having risen' or 'arising'. The Vietnamese 'Hãy đứng dậy' (Let's/Stand up) uses an imperative mood, changing the grammatical structure from a descriptive action to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

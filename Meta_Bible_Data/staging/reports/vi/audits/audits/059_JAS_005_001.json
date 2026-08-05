@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι ταις ταλαιπωριαις υμων' (upon your tribulations) indicates that the tribulations belong to the rich people ('υμων'). The Vietnamese translation 'trên các ngươi' (on you/upon you) shifts the focus to the location of the tribulations rather than their ownership/subject, and the Greek implies the tribulations are happening *to* them as their own specific plight."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιεβαλετο' (periebaleto) means 'was arrayed/dressed/adorned'. The Vietnamese translation 'không được mặc áo tốt' (did not get to wear good clothes) changes the meaning from a description of how he *was* dressed to a statement about his *ability* or *permission* to be dressed."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ως εν τουτων' (hos en toutōn) refers to 'as in these' (referring to the people/things mentioned previously). The Vietnamese 'như một hoa nào trong giống đó' (like any flower in that species/kind) is a significant departure from the specific reference 'in these'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

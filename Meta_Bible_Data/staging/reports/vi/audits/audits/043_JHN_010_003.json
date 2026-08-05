@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα προβατα της φωνης αυτου ακουει' means 'the sheep hear his voice'. The Vietnamese 'chiên nghe tiếng người' translates to 'the sheep hear the person's voice'. While 'người' can mean 'person', in this context it is often used as a pronoun for 'him'. However, the Greek specifically uses the possessive 'της φωνης αυτου' (his voice). The Vietnamese lacks the possessive clarity that identifies it as *his* specific voice."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα ιδια προβατα' means 'the same sheep'. The Vietnamese 'chiên riêng mình' translates to 'his own sheep' or 'sheep of his own', which changes the sense from identity (the same ones) to possession."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

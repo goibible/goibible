@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χρειαν εχει' (has need) refers to the subject (the Lord) having a need/requirement, whereas the Vietnamese 'cần dùng nó' adds an object ('nó' - it) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

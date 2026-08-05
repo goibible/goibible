@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'lại càng... hơn' (even more/further), which implies a comparative increase in fear. The Greek text 'μαλλον' functions here as an adverb of probability or intensity ('perhaps' or 'rather'), but does not express a comparison to a previous state of fear."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

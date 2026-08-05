@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινα ην α ελαλει' refers specifically to the *content/subject matter* of what He was saying (the 'what' he was speaking), whereas the Vietnamese 'không biết Ngài nói gì' can be interpreted as not knowing 'what' He said (as in, they didn't hear the words) or not understanding the meaning. More critically, the Greek construction 'τινα ην α ελαλει' emphasizes the nature of the speech/matter being spoken."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

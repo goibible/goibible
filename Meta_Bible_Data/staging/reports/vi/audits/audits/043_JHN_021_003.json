@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπαγω' is a 1st person singular verb ('I go'), but the Vietnamese translation uses 'Tôi đi' (I go) as a statement of intent/action. However, in the context of the Greek 'λεγει αυτοις σιμων πετρος υπαγω', Simon Peter is speaking to the others. The Vietnamese 'Tôi đi đánh cá' (I go fishing) is slightly ambiguous regarding whether it's a command or a statement of current action, but more importantly, the Greek 'ερχομεθα και ημεις συν σοι' means 'we also [are coming] with you'. The Vietnamese 'Chúng tôi cũng đi với anh' translates this correctly as 'We also go with you', but the nuance of 'ερχομεθα' (present indicative/imperfective) implies 'we are coming' or 'we will come'. The primary issue is the transition from Peter's statement to their response; however, the most significant fidelity issue is that 'υπαγω' in this specific context is often interpreted as a command ('Go fish') in some traditions, but strictly grammatically it is 'I go'. The Vietnamese captures the literal 'I go', but the Greek 'ερχομεθα' is 'we come/are coming'. The translation is mostly faithful, but I am flagging the slight shift in the 'ερχομεθα' aspect which implies movement towards him."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

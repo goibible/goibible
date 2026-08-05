@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν γαρ τουτω θαυμαστον εστιν' (for in this it is wonderful/marvellous) refers to the fact that they do not know where he is from. The Vietnamese translation 'Ấy thật là lạ lùng' (That is truly strange/wonderful) shifts the subject slightly, but more importantly, the Vietnamese structure implies the speaker is reacting to their ignorance as a separate statement, whereas the Greek 'εν γαρ τουτω' links the 'wonder' specifically to the fact of their ignorance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν γαρ τουτω' (for in this) implies a specific reference to the preceding context (their lack of knowledge). The Vietnamese translation omits the 'in this' aspect, making it a general exclamation rather than a specific reference to the fact just mentioned."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

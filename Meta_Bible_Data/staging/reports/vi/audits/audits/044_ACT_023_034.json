@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναγνους δε ο ηγεμων' indicates that the leader/governor *read* it (the letter), but the Vietnamese 'đọc thư rồi' (read the letter already) combined with the following structure makes it sound like a completed action before the questioning, whereas the Greek implies a sequence of actions (He read [it] and then asked). More importantly, 'ηγεμων' is translated as 'Quan tổng đốc' (Governor/General), but the Vietnamese fails to include the subject 'ông' or 'người' clearly as the one performing the reading in a way that mirrors the Greek syntax."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πυθομενος' (having learned/found out) is rendered as 'khi biết' (when knowing), which is acceptable, but the Vietnamese sentence structure loses the specific sense of 'finding out' or 'learning' as a result of the inquiry."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

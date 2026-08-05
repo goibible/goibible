@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παν ρημα αργον' (every empty word) is rendered as 'mọi lời hư không' (every void/empty word), but the Vietnamese translation places the phrase as an object of 'khai ra' (reveal/give account) in a way that slightly shifts the focus. More importantly, the Greek structure 'αποδωσουσιν περι αυτου λογον' means 'they will give an account regarding it' (referring back to the empty words). The Vietnamese 'khai ra mọi lời hư không' implies they will reveal the words themselves, whereas the Greek says they will give an account/judgment *about* those words."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

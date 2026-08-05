@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'το προειρηκεναι' (that which was spoken before / what was foretold) at the end of the clause. The Greek indicates that the Holy Spirit bears witness *because* of what was foretold, but the Vietnamese ends the sentence abruptly after 'phán trước rằng' (foretold that), leaving the object of the foretelling/witnessing missing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

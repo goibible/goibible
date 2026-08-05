@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ανδριζεσθε' (andrizesthe) means 'to be manly,' 'to be courageous,' or 'to act like a man' in the sense of fortitude/bravery. The Vietnamese translation 'hành động như người nam' can be interpreted literally as 'acting like a male person' (gender), whereas the Greek context refers to spiritual courage/manliness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

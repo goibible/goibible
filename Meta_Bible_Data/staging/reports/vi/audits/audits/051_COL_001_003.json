@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περι υμων' (about/for you) refers to the audience of the letter (the readers), but the Vietnamese 'cho anh em' (for you/brothers) in this context can be interpreted as a specific group. More importantly, the Greek 'παντοτε' (always) modifies the verb 'προσευχομενοι' (praying), but the Vietnamese placement 'luôn luôn' before 'cảm tạ' suggests we are *always thanking* God, whereas the Greek structure indicates we are *always praying* for you while giving thanks."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

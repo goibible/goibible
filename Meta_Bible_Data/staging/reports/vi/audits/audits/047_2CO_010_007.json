@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημεις' (we/us) is translated as 'chúng tôi' (we - exclusive), which implies the speaker and their group, but excludes the audience. In this context, 'ημεις' refers to the believers collectively including the audience. A more accurate translation would be 'chúng ta'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

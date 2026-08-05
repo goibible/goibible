@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'làm cho mình' (make for yourselves) misrepresents the Greek 'ποιησατε εαυτοις'. In the Greek, 'ποιησατε' is the verb 'gave/did' (aorist), and 'εαυτοις' is the dative of interest/beneficiary. The Greek structure 'δοτε ελεημοσυνην ποιησατε εαυτοις' means 'give alms [that] you may make/provide for yourselves'. The Vietnamese phrasing suggests a process of 'making' something for oneself, rather than the act of giving alms as the means to provide for oneself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κομιζομενοι' (komizomenoi) is a present passive participle meaning 'being brought' or 'being carried.' The Vietnamese 'nhận được' means 'received,' which changes the sense from something being brought/conferred by God to an action of receiving by the subjects."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σωτηριαν' (sōtērian) is a present active participle modifying 'ψυχων' (psychōn), meaning 'saving' or 'saving [the] souls.' The Vietnamese 'là sự cứu rỗi' (is the salvation) renders it as a noun phrase and a coordinate clause, slightly altering the grammatical relationship where 'saving' describes the nature of the souls being brought."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'αρχέτιον' (archētion), which means 'it is sufficient' or 'it is enough'. The Vietnamese text 'thì cũng đủ rồi' captures the meaning of the end of the sentence, but the Greek structure places this at the beginning as a governing clause for the entire statement."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'được như' (become like/be like) slightly softens the Greek 'γενηται' (genētai - becomes/will become), but more importantly, the Vietnamese structure loses the conditional/consecutive flow of 'ινα γενηται' (so that [he] might become). The Greek implies a result of the preceding action (not provided in this snippet), whereas the Vietnamese treats it as a standalone statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

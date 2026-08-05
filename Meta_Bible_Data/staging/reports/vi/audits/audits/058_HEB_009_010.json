@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'δικαιωμασιν' (dikaiōmasin) refers to 'requirements' or 'justifications' (legal/moral obligations), but the Vietnamese translates it as 'mệnh lệnh' (commands). While related, 'mệnh lệnh' is a specific type of command, whereas the Greek implies requirements for justification."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'επικειμενα' (epikeimena) means 'imposed', 'laid upon', or 'hanging over'. The Vietnamese 'đặt ra' (set out/placed) is a reasonable rendering, but the phrase 'liên quan đến' (related to) for 'επι' (epi) is slightly weaker than the Greek prepositional usage of 'upon/concerning'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

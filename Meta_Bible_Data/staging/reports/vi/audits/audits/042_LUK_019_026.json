@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο του μη εχοντος' (from the one who does not have) is rendered as 'cất luôn điều họ đang có' (take away what they already have). This is a logical reversal: the Greek says the one who *has* will receive from the one who *does not have*, but the Vietnamese implies the one who *does not have* is losing something they already possess."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

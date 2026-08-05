@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετ αυτου' (with him) refers to Jesus, but the Vietnamese translation 'với Ngài' is ambiguous or potentially confusing in this context without a clear antecedent. More importantly, the Greek 'συλλαλουντες' is a present active participle describing what Moses and Elijah were doing while appearing; the Vietnamese 'đang nói chuyện' captures the tense correctly, but the relationship between the subjects (Moses/Elijah) and the object (Him/Jesus) must be clear."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

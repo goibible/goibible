@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δεν αυτου ειποντος' (not having said that) or 'ταυτα δε αυτου ειποντος' (having said these things / after he said these things) is rendered in Vietnamese as 'Khi người ấy nói như vậy' (When he said like that). The Greek 'δειν' or 'δε' structure here is often interpreted as a temporal clause, but the Vietnamese translation misses the nuance of the specific action sequence. More importantly, the Greek 'δεν' is not present in the text provided, but if the text was 'ταῦτα δὲ αὐτοῦ ειπόντος', it means 'after he had said these things'. The Vietnamese captures the 'after/when' but the Greek 'δειν' (if present) or the specific construction 'ειπόντος' implies a completed action before the strike."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ταυτα' (these things) is rendered as 'như vậy' (like that/so), which loses the specific reference to the preceding words."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο των ψιχιων' refers to the 'crumbs' (the small pieces of food), but the Vietnamese translation 'những mảnh bánh vụn' (scraps/leftovers) combined with 'rơi xuống' (falling down) adds a specific action ('falling') that is not explicitly in the Greek text. More importantly, the Greek 'απο των ψιχιων των πιπτοντων' means 'from the crumbs of those [who] fall' or 'from the falling crumbs.' The Vietnamese phrasing 'mảnh bánh vụn... rơi xuống' could be interpreted as scraps that were already on the ground, whereas the Greek emphasizes the act of falling/dropping."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

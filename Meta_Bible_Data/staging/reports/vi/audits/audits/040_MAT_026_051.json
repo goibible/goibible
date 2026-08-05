@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την μαχαιραν αυτου' refers to 'his sword' (the sword of the person who reached out), but the Vietnamese 'gươm mình' (his own sword) is ambiguous and could be interpreted as the sword of Jesus or the person. More importantly, the Greek 'απεσπασεν' implies 'snatching' or 'wrenching away', whereas 'rút' (drawing) is a different action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφειλεν αυτου το ωτιον' means 'took off/severed his ear'. The Vietnamese 'chém đứt tai người' (cut off the person's ear) is a common rendering, but the Greek 'αφειλεν' specifically denotes the action of removing/taking away."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

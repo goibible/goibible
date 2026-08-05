@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως πιστω κτιστη' (as faithful builders) is rendered in Vietnamese as 'thành tín' (faithful/trustworthy). This changes the grammatical role of 'faithful' from an attributive description of the 'builders' to a state or quality. More importantly, it loses the specific metaphor of 'builders' (κτιστη), which is essential to the imagery of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

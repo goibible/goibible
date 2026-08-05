@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τοις λεγομενοις' (those who were speaking) refers to the people speaking, but the Vietnamese translation 'những điều Phi-líp nói' (the things Philip said) changes the subject of the action from the people speaking to the content of what one person said."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

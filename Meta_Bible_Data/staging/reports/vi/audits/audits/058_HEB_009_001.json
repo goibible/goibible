@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δικαιωματα' (dikaiomata) refers to 'rights' or 'privileges,' but the Vietnamese translates it as 'mệnh lệnh' (commands/orders), which changes the nature of the claim from a right held by something to an instruction given to something."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

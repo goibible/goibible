@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει τις λαλει' is a conditional ('if anyone speaks'), but the Vietnamese translates it as an imperative command ('nếu có ai nói, hãy nói' - 'if anyone speaks, let them speak'). The Greek does not use the imperative mood."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Similarly, 'ει τις διακονει' is a conditional ('if anyone serves'), but the Vietnamese renders it as an imperative command ('hãy phục vụ' - 'let them serve')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

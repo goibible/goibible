@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εισ το γενεσθαι αυτο συμμορφον' (so as to become conformed/similar) is rendered as 'nên giống như' (to be like). While similar, the Greek implies a process of 'becoming' (genesthai), which is slightly softened in the Vietnamese. More importantly, the phrase 'κατα την ενεργειαν του δυνασθαι αυτον' describes the *manner* or *power by which* the transformation happens ('by the power of His being/ability'), whereas the Vietnamese 'theo sự tác động của quyền năng Ngài' (according to the action of His power) slightly shifts the focus from the source of his ability to a general 'action'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

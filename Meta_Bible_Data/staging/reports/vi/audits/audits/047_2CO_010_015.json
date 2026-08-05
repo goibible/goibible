@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μεγαλυνθηναι' (megalynthēnai) means 'to be magnified', 'exalted', or 'glorified'. The Vietnamese translation 'được tôn trọng hơn' (be respected more) shifts the meaning from a spiritual/status exaltation to a social respect."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εις τα αμετρα' (ouk eis ta ametra) means 'not to an immeasurable extent' or 'not excessively'. The Vietnamese 'không khoe mình quá mức' captures 'quá mức' (excessively) but loses the specific nuance of 'immeasurable/unbounded' (ametra)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

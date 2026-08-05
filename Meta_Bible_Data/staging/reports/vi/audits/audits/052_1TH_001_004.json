@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την εκλογην υμων' means 'your election/choice' (referring to the brothers), but the Vietnamese translation says 'chúng tôi biết sự lựa chọn của anh em' which translates back as 'we know your choice'. The Greek 'υμων' is the subject of the election, not the object of the knowledge. Furthermore, the Greek 'ειδοτες' (knowing) modifies the brothers ('anh em'), meaning 'Knowing, beloved brothers...'. The Vietnamese version turns it into a statement of 'we know'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

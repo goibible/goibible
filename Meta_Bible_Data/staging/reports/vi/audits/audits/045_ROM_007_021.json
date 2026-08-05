@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακειται' (parakeitai) in this context (Romans 7:15) is often interpreted as 'lying in wait' or 'lurking,' but the Vietnamese 'ở kề bên' (beside/next to) is a literal spatial translation that misses the active, predatory nuance of the Greek present tense in this specific context. However, more importantly, the Greek 'εμοι το κακον παρακειται' indicates the evil is *waiting* for me, whereas 'ở kề bên' suggests a static location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

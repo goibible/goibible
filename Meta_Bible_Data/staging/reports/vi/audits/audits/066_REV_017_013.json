@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαδιδωσουσιν' (diadidōsousin) is a future tense verb meaning 'they will give over' or 'they will hand over'. The Vietnamese translation 'trao' is present tense. While the context might imply intent, the Greek specifically uses the future tense."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

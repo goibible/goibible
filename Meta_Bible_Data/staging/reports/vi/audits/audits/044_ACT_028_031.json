@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'τα περι του κυριου' (the things concerning the Lord), which qualifies what is being taught. The current translation implies teaching about Jesus Christ generally, whereas the Greek specifies teaching 'the things concerning the Lord Jesus Christ'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

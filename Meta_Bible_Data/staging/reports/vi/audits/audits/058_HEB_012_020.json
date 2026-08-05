@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εφερον' (not bearing/carrying) is translated as 'không chịu nổi' (cannot endure/bear). While 'bear' can mean 'endure', in this context of 'the thing proclaimed' (το διαστελλομενον), it refers to the inability to 'carry out' or 'fulfill' the proclamation/prophecy. Furthermore, the Vietnamese 'đã truyền' (has been transmitted) is a passive construction for 'το διαστελλομενον', but the Greek implies the thing being 'proclaimed' or 'prolonged'. The primary issue is that 'không chịu nổi' shifts the meaning toward emotional/physical endurance rather than the failure to carry out/uphold the proclamation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

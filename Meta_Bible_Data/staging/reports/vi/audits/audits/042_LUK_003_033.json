@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text uses the genitive construction 'του... του... του...' (of ... of ... of ... of ...) to show lineage/ancestry. The Vietnamese translation lists them as a simple list of names, omitting the relational connection that these are ancestors (e.g., 'con của', 'cha của')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

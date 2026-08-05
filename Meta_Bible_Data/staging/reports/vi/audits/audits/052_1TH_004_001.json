@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερωτωμεν' (erōtōmen) means 'we ask' or 'we request', but the Vietnamese translates it as 'khuyên' (advise/exhort). This changes the nature of the interaction from a request for cooperation to a command/advice."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παρακαλουμεν' (parakaloumen) means 'we beseech' or 'we implore'. The Vietnamese combines this with the mistranslated 'khuyên', losing the specific nuance of a humble entreaty."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

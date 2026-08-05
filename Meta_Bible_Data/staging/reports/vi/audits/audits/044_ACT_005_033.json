@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διεπριοντο' (dieperionto) means 'were provoked' or 'were stirred up' (from diepriō), not 'đâm ra căm phẫn' (became indignant/angry). The translation shifts the meaning from being provoked by an external action to an internal state of anger."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

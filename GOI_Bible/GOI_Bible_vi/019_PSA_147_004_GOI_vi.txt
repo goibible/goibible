@@ -1,0 +1,1 @@
+Người đếm số các ngôi sao, gọi tên từng ngôi hết thảy.

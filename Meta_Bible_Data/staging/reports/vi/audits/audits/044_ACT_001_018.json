@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρηνης γενομενος' (having fallen headlong/face-first) is rendered as 'té nhào xuống' (tripped/fell down). While close, the Greek specifically emphasizes falling 'headlong' or 'face-first', which is a key descriptive element of the parable's imagery."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελακησεν μεσος' means 'was split in two' or 'rent asunder'. The Vietnamese 'nứt bụng ra' (split/cracked the belly) captures the 'splitting' but misses the 'in two' (μεσος) aspect, which is a significant descriptor of the physical destruction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

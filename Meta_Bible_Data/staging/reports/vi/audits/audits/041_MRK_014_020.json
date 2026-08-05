@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text says 'δωδεκα' (twelve), but the Vietnamese translation says 'mười hai' (twelve) correctly, however, the Greek 'ο εμβαπτομενος' is singular ('the one who dipped'), while the Vietnamese 'là kẻ nhúng tay' is also singular. Wait, looking closer: The Greek text actually says 'δωδεκα' (12). The Vietnamese says 'mười hai' (12). There is no number error. However, there is a potential issue with 'ο εμβαπτομενος' (the one who dipped) vs 'kẻ nhúng tay'. Let me re-read the Greek: 'ο δε αποκριθεις ειπεν αυτοις εις εκ των δωδεκα ο εμβαπτομενος μετ εμου εις το τρυβλιον'. The Vietnamese says 'mười hai' (12). The Greek says 'δωδεκα' (12). No issue there. Let me check the 'dĩa' (dish) vs 'τρυβλιον' (basin/trough). A 'τρυβλιον' is a basin or trough, often used for washing. 'Dĩa' is a plate/dish. This might be a lexical choice, but if a basin is significantly different from a plate in this context, it could be flagged. However, the prompt says do not comment on lexical choice unless it changes the claim. Actually, looking at the Greek again: 'δωδεκα' is 12. The Vietnamese is 'mười hai'. Everything seems to match. Wait, I see a potential issue: 'ο εμβαπτομενος' (the one who dipped). The Vietnamese says 'kẻ nhúng tay' (the one who dipped his hand). This is a standard rendering. Let me re-check the Greek numbers. 'δωδεκα' = 12. Vietnamese 'mười hai' = 12. OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

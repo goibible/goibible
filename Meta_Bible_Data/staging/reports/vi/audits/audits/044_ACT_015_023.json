@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια χειρος αυτων' (by their own hand) refers to the method of writing the letter (manuscript). The Vietnamese translation 'sau khi viết thư bằng tay mình' (after writing the letter by their own hand) changes the grammatical structure from a means/manner ('by') to a temporal sequence ('after')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ταδε' (these) is omitted, though it is minor; however, the primary issue is the structural shift of the participle."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

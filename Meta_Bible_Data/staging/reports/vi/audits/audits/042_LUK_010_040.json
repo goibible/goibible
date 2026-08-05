@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Chúa không quan tâm sao?' (Does God not care?) incorrectly renders the Greek 'ου μελει σοι' (Does it not concern you / Is it not your concern?). The Greek implies a question of responsibility/concern, but the Vietnamese 'quan tâm' can lean towards emotional 'caring' or 'interest', though this is a minor nuance. More importantly, the Vietnamese structure changes the flow of the original sentence."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Xin hãy bảo nó giúp tôi' (Please tell her to help me) is a significant mistranslation of 'ινα μοι συναντιλαβηται'. The Greek 'ινα' is a purpose clause (so that), and 'συναντιλαβηται' means 'she might meet me [in the service/work]'. The Vietnamese renders it as an imperative request for Jesus to command Martha's sister, which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

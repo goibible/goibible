@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα πιστευσητε' (so that you may believe) indicates the purpose of the speaker's joy. The Vietnamese 'để các ngươi tin' is placed after 'ta không có ở đó', making it sound like the purpose of *not being there* is for them to believe, whereas the Greek structure links the belief to the entire preceding statement (the joy and the fact of absence)."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'Vì cớ các ngươi' (Because of you) slightly shifts the focus from the Greek 'και χαιρω δι υμας' (and I rejoice because of you), which is a more direct expression of cause/reason for the joy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

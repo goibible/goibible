@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the word 'αποκριθεις' (having answered/replying), which indicates that Simon Peter is responding to a previous question. The Vietnamese translation omits this action, making it a statement rather than a response."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

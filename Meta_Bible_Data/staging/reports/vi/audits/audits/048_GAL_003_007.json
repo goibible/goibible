@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ουτοι' (houtoi) is a demonstrative pronoun meaning 'these' or 'those', specifying a particular group of people. The Vietnamese translation omits this demonstrative, making the statement a general rule about all people of faith rather than identifying the specific group being discussed in the context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ηγειρεν' (hegeiren) is a present active indicative, which in this context denotes a continuous or habitual action (God raises/is raising). The Vietnamese translation uses 'đã khiến... sống lại', which implies a completed past action (perfective aspect), potentially misleading the reader about the ongoing nature of the action described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

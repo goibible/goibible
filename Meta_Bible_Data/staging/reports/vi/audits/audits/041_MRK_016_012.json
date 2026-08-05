@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δυσιν' (two) is missing in the Vietnamese translation. The Vietnamese says 'hai người trong số họ' (two people among them), but the Greek specifically says 'δυσιν εξ αυτων' (two of them)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 70,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Ngài đáp' (He answered) is an addition/mistranslation of the Greek structure. The Greek text 'ο δε προς αυτους εφημεις λεγετε οτι εγω ειμι' translates to 'but to them [He] said, \"You say that I am\"'. The Vietnamese phrasing makes it sound like He is answering a question about His identity, whereas the Greek indicates He is repeating their own statement back to them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

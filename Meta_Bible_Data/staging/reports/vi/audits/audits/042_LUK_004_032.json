@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εξουσια' (en exousia) means 'with authority' or 'in authority,' but the Vietnamese 'có quyền' (has power/right) misses the specific nuance of 'authority' (exousia) as opposed to mere power (dynamis). More importantly, the Greek 'οτι' (hoti) functions as a causal 'because' or 'that,' but the Vietnamese 'vì' correctly captures the sense. However, the translation of 'εν εξουσια' as simply 'có quyền' is slightly weak; it should ideally reflect that his words were spoken *with* authority."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

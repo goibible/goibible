@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κωλυοντων γαμειν' (prohibiting/hindering marriage) is rendered as 'cấm cưới gả' (forbid marriage), but the grammatical structure in Greek suggests 'those who forbid marriage' or 'the forbidding of marriage'. More importantly, the Vietnamese translation links the prohibition to the food restriction with a conjunction ('và'), whereas the Greek text presents them as a list of things 'to be kept away from' (απεχεσθαι). The Vietnamese phrasing implies the 'forbidding' is an action performed by someone, rather than an object of avoidance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'βρωματων' (abominations/filth) is omitted in the Vietnamese translation. The text only mentions 'đồ ăn' (food), losing the specific descriptive quality of the objects to be avoided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

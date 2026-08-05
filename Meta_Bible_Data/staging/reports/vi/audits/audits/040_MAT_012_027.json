@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει εγω εν βεελζεβουλ εκβαλλω' (if I, in Beelzebul, cast out demons) does not mean 'if I *by means of* (nhờ) Beelzebul'. The Greek construction implies a state of being 'in' or 'under the authority of' Beelzebul, which is a significant theological distinction from simply using him as a tool."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific 'I' (εγω) in the first clause, though this is minor compared to the prepositional shift."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

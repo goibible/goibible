@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι εστιν' (what it is) is rendered as 'điều này có nghĩa là' (this means that), which changes the structure from a question/definition to an explanatory statement."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ει δε εγνωκειτε' (if you do not know) is translated as 'Nếu các ngươi biết' (If you know), reversing the negation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

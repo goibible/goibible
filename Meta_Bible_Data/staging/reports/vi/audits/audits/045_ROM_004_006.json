@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λογιζεται' (logizetai) is passive/middle voice, meaning 'is counted' or 'is reckoned.' The Vietnamese 'kể cho' implies 'tells/narrates to,' which changes the theological meaning of God's action from a judicial reckoning to a verbal communication."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

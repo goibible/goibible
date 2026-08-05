@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'προσπορευονται' (prosporeuontai) means 'to draw near' or 'to approach,' but the Vietnamese 'đến gần' (came near) fails to capture the sense of 'approaching' in a way that preserves the specific nuance of 'coming up to' or 'drawing near' as an action. However, more importantly, the Greek 'θελομεν ινα ο εαν αιτησωμεν ποιησης ημιν' means 'we want that if we ask, you may do for us,' whereas the Vietnamese 'muốn thầy làm cho chúng tôi điều chúng tôi sẽ xin' (want you to do for us what we will ask) slightly shifts the conditional structure. The most significant issue is the loss of the conditional 'εαν' (if), which defines the nature of the request."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'στασιν' (stasin) refers to a position, standing, or location. The Vietnamese translation 'sự nổi loạn' means 'rebellion', which is a complete mistranslation of the concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ευρισκει' (he found) is in the indicative active, but the Vietnamese translation uses 'gặp' (met), which implies a mutual meeting rather than the act of finding/locating someone."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies 'τον αδελφον τον ιδιον' (his own brother). The Vietnamese translation omits 'own' (ιδιον), which is a substantive detail regarding the relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

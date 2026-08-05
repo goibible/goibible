@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου γαρ' (for not) modifies the verb 'συνηκαν' (understood/comprehended). The Vietnamese translation 'không hiểu' correctly captures the negation, but the Greek structure is 'ou gar synēkan' (for they did not understand). However, the Vietnamese 'không hiểu về những cái bánh' implies they didn't understand *about* the bread, whereas the Greek 'epı tois artois' suggests they did not understand *the* bread (as a spiritual reality/sign)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

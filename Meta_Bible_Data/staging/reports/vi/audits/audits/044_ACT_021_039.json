@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'ουκ ασημου πολεως' as 'không phải là thành hèn hạ' (not a lowly city), but the Greek literally means 'not of a silver city' (not a city of silver). While 'hèn hạ' might be a stylistic choice, 'silver' in this context refers to wealth/prestige, and 'hèn hạ' changes the specific imagery of the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'πολιτης δεομαι' as 'tôi xin ông cho phép' (I ask you to allow/permit). The Greek 'δεομαι' is a verb of necessity/need ('I need'), and 'πολιτης' is the noun 'citizen'. The Vietnamese rendering loses the specific identification of himself as a 'citizen' and turns it into a request for permission, which is a significant shift in meaning from 'I am a citizen [of...], I need [your permission].'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

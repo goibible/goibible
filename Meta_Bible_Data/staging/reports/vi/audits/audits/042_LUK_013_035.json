@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμην δε λεγω υμιν' (Amen, I do not say to you) is rendered as 'Quả thật, ta nói với các ngươi' (Truly, I say to you). The Greek negation 'δε' (not) is missing in the Vietnamese translation, which reverses the meaning of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ταις αγαπαις υμων' refers to 'in your loves' (plural), but the Vietnamese translates it as 'trong bữa tiệc yêu thương' (in the feast/party of love). The source text does not specify a 'feast' or 'party'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνευωχουμενοι' (rejoicing together) is translated as 'dự tiệc cùng nhau' (attending the party together), which carries the 'feast' connotation not present in the original."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εαυτους ποιμαινοντες' is a present active participle meaning 'pasturing themselves'. The Vietnamese 'chỉ nuôi chính mình' (only feeding/raising themselves) loses the specific imagery of 'pasturing/herding'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 4165,
+          "lemma": "poimainō",
+          "problem": "distorted",
+          "detail": "The Greek 'poimainontes' (shepherding) is translated as 'chỉ nuôi chính mình' (only feeding themselves). The Vietnamese translation shifts the sense from 'shepherding/feeding others' to 'self-feeding', which distorts the intended meaning of the verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

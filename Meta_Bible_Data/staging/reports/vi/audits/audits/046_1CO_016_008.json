@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐπιμένω' (epimenō) means 'to remain', 'to stay', or 'to persist/abide'. The Vietnamese translation 'sẽ ở lại' (will stay) correctly captures the action, but the Greek 'ἐπιμένω' in this context often carries a stronger sense of 'remaining/staying behind' or 'abiding' rather than just being present. However, more importantly, the Greek 'ἐπιμένω' is in the present tense (indicating a current state or an ongoing intent), while the Vietnamese 'sẽ' (will) shifts it to the future. While often acceptable for flow, the primary issue is that 'ἐπιμένω' implies a deliberate staying/abiding."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

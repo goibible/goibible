@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κτασθαι' (ktasthai) is a passive form of 'ktanō', meaning 'to be set apart' or 'to be sanctified/dedicated.' The Vietnamese translation 'lấy' (to take/get) incorrectly renders the passive sense of being set apart as an active action of taking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

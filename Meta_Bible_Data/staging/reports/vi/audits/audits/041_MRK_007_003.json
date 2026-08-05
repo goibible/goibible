@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'bằng nắm tay' (by the fist/hand) is a mistranslation of 'πυγμη' (pygmē). In this context, 'πυγμη' is a misspelling or rare variant in some manuscripts for 'πυγμῆς' or more likely an error for 'πυγμή' (small/dwarf), but in the context of Mark 7:3-4, it refers to 'washing the hands' (νιψωνται τας χειρας). However, the Vietnamese 'nắm tay' means 'fist' or 'holding hands', which is not in the Greek. Furthermore, if the Greek intended 'πυγμή' as a specific ritual term, 'nắm tay' does not capture it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

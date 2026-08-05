@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ιεροσυλεις' (ierosyleis) refers to 'desecrating' or 'profaning' holy things/places. The Vietnamese translation 'phạm tội trộm cướp đồ thánh' implies 'stealing' (trộm cướp) holy items, which is a specific crime not present in the Greek term for desecration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

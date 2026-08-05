@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραδω' (paradō) is a present active infinitive, implying a continuous or ongoing action of 'handing over/delivering'. The Vietnamese 'giao' (delivered) lacks the continuous aspect."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οταν' (hotan) is used twice as a temporal conjunction. The first instance is translated as 'khi', but the second instance ('οταν καταργηση') is translated as 'sau khi' (after), which changes the temporal relationship from 'when' to 'after'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

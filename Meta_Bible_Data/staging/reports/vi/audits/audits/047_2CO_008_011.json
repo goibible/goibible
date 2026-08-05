@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νυνι δε και το ποιησαι επιτελεσατε' is in the aorist indicative (completed action), meaning 'you have now also completed the doing.' The Vietnamese translation 'hãy làm trọn việc làm' uses an imperative/hortative mood ('hãy'), changing the meaning from a statement of completion to a command to complete."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προθυμια του θελειν' refers to the 'eagerness/willingness of wanting.' The Vietnamese 'lòng sốt sắng của sự sẵn lòng' adds 'sốt sắng' (zeal/fervor) which is not present in the Greek 'προθυμια' (eagerness/willingness)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

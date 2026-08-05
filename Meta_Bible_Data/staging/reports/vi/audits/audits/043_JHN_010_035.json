@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει εκεινους ειπεν θεους' means 'if He called those [people] gods'. The Vietnamese translation 'gọi những kẻ được lời Đức Chúa Trời đến là các thần' adds the phrase 'được lời Đức Chúa Trời đến' (who came by/to the word of God), which is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προς ους' (to whom) is omitted in the Vietnamese translation. The Greek structure implies 'if He called those [people] gods to whom the word of God became...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

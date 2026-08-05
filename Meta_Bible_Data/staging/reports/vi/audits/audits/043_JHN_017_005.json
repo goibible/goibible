@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη δοξη η ειχον προ του τον κοσμον' refers to the glory that existed BEFORE the world (pre-existent glory). The Vietnamese translation 'trước khi thế gian chưa có' (before the world did not exist) is a double negative/logical error that fails to accurately convey 'prior to the existence of the world'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

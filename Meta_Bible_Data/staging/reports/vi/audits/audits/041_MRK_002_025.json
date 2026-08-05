@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ελεγεν' (said/spoke) and replaces it with 'phán' (proclaimed/declared). While 'phán' is a common honorific, the Greek 'ελεγεν' is a simple past of 'lego' (to say). More importantly, the Vietnamese version misses the nuance of the question structure; the Greek 'ουδεποτε ανεγνωτε' is a rhetorical question ('Have you never read?'), which the Vietnamese renders as a statement ('Các ngươi chưa hề đọc')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

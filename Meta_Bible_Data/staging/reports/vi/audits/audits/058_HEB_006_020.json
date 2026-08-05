@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις τον αιωνα' (eis ton aiona) means 'for eternity' or 'forever,' whereas the Vietnamese 'cả đời đời' is a common idiom that can imply 'for lifetimes' or 'generation to generation.' While similar, 'cho đến muôn đời' or 'vĩnh cửu' would be more precise for the Greek sense of eternal duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

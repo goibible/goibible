@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η τω σπερματι αυτου' is a direct object of the promise (the promise [is] to his offspring), but the Vietnamese 'hoặc cho' (or for) introduces a disjunctive meaning ('or') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

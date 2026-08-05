@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προελθοντες' (having gone before/having proceeded) is a participle describing the state of the subjects. The Vietnamese 'đi trước' (going ahead/first) changes the meaning to a sequence or order of movement rather than the completed action of proceeding to the ship."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μελλοντες αναλαμβανειν' (expecting/intending to take/receive) is rendered as 'phải gặp' (must meet). The Greek implies an intention or expectation of 'taking' or 'receiving' him, whereas 'must meet' implies a necessity or obligation not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

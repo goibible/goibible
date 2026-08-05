@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαλλον' (maller) here functions as a concessive/adversative particle (meaning 'rather' or 'not that'), but the Vietnamese translation 'thì hơn' implies a comparison of preference/degree ('it is better to...'). The Greek structure 'ουχι μαλλον επενθησατε ινα...' suggests 'you did not [necessarily] grieve in order to...', whereas the Vietnamese makes it sound like a deliberate choice of preference."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο το εργον τουτο' refers to 'this work' (the work of the one who did it), but the Vietnamese translates this as 'kẻ phạm tội đó' (that sinner/wrongdoer). The Greek does not explicitly state that the person is a 'sinner', but rather focuses on 'the work' performed by them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

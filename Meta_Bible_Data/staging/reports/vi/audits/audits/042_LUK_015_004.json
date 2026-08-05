@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκατον' (one hundred) is rendered as 'một trăm' (correct), but the Greek verb 'απολεσας' (lost/lose) is a singular verb referring back to 'τις ανθρωπος' (the man). The Vietnamese translation uses 'nếu mất một con' (if one is lost), which shifts the focus slightly, but more importantly, the Greek 'εκατον προβατα' is a specific number. However, the main issue is the negation structure: 'ου καταλειπει' means 'does not leave'. The Vietnamese 'mà không để' correctly captures this."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'εκατον προβατα' (one hundred sheep). The Vietnamese translates this as 'một trăm con chiên'. This is correct. However, the Greek 'απολεσας' is singular. The Vietnamese 'mất một con' is also fine."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

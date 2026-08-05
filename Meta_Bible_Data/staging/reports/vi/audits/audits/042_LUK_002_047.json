@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συνεσει' (syneseis) refers to 'understanding', 'insight', or 'discernment'. The Vietnamese translation 'sững sờ' means 'stunned' or 'amazed', which is an emotional reaction not present in the Greek text. The Greek describes the *content* of what they were hearing (His understanding), not their *reaction* to it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

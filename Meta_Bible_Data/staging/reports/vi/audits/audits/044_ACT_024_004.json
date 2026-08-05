@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σε εγκοπτω' (in my opinion) is completely omitted in the Vietnamese translation. The Vietnamese version reads as if the speaker is simply asking for permission, whereas the Greek specifies that it is the speaker's opinion/request."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

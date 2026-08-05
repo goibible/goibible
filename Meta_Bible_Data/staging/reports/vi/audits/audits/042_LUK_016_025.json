@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νυν δε οδε παρακαλειται' (but now he is not comforted) is negated by 'οδε'. The Vietnamese translation 'nhưng bây giờ nó được an ủi' (but now he is comforted) incorrectly removes the negation, reversing the meaning of the text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συ δε οδυνασαι' (but you are unable/weak) is rendered as 'còn con thì bị đau đớn' (but you are in pain). While related, 'unable/weak' is a different concept than 'in pain'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

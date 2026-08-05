@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σφραγισεται' (sphragisētai) means 'to be sealed' or 'to be sealed off', not 'ngăn lại' (to be blocked/prevented). While 'sealed' can imply a restriction, the specific theological and literal meaning of 'sealed' is lost in 'ngăn lại'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'αλλα δε' (but not) for the second, third, and fourth categories. The Vietnamese translation omits the negative particle 'đều không phải là' or 'không phải là', making it sound like a simple list of types rather than a distinction of what it is NOT."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

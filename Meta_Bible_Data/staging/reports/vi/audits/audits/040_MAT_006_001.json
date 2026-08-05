@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσεχετε' (prosechete) is an imperative meaning 'take heed' or 'be careful,' but the Vietnamese 'Hãy giữ' (Please keep/hold) changes the sense from a warning of caution to a command of preservation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

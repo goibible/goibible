@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text 'ει εισελευσονται' (if they enter) does not contain a negation. The Vietnamese translation adds 'chẳng' (will not), which reverses the meaning of the conditional statement."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει' is a conditional particle ('if'), but the Vietnamese translates it as 'có lời rằng' (there is a word that), which changes the grammatical structure from a condition to a reported statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

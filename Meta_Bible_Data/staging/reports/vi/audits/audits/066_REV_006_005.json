@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'και βλεπε' (and I saw/looked) and replaces it with a summary 'Tôi nhìn xem' (I looked), but more importantly, it fails to capture the specific sequence of the Greek: 'εκουσα... λεγοντος' (heard... saying) followed by 'και ειδον και ιδου' (and I saw and behold). While 'thấy' covers 'ειδον', the repetitive emphasis of 'και βλεπε' (and I saw/looked) is lost."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'και' (and) between 'ειδον' and 'ιδου', which in Greek provides a specific rhythmic and emphatic transition ('and I saw and behold')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

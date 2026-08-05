@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ηδειν' (ouk hedein) means 'do not know' (imperative), but the Vietnamese 'tôi không biết' translates it as a first-person present indicative ('I do not know'). This changes the meaning from a command/exhortation to a statement of personal ignorance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

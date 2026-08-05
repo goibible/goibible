@@ -1,0 +1,55 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κυριοτητα' (kyriotēta) refers to 'lordship' or 'authority'. The Vietnamese 'quyền cai trị' (governing power/rule) is a possible translation, but the Greek 'δε αθετουσιν' is a double negative construction (not not-obeying), which means they *do* obey. The Vietnamese 'khước từ' means 'refuse/reject', which is the opposite of the intended meaning."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains double negatives ('δε αθετουσιν' and 'δε βλασφημουσιν'), meaning they *do* obey and *do* blaspheme. The Vietnamese translation fails to capture this, rendering the actions as if they are not happening or are being rejected."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοξας' (doxas) refers to 'glory'. The Vietnamese 'vinh hiển' is a correct equivalent, but because of the negation error mentioned above, the sense of the sentence is inverted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 1797,
+          "lemma": "enypniázomai",
+          "problem": "distorted",
+          "detail": "The Greek 'enupniazomenoi' (dreaming/in a dream state) is translated as 'mơ màng' (dazed/half-asleep), which loses the specific 'dream' imagery of the lemma."
+        },
+        {
+          "strongs_num": 987,
+          "lemma": "blasphēméō",
+          "problem": "missing",
+          "detail": "The Vietnamese translation omits the verb 'blaspheme' (phạm thượng/báng bổ) entirely at the end of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

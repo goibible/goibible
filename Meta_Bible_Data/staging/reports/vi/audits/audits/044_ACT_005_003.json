@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διὰ τί ἐπλήρωσεν ὁ σατανας τὴν καρδίαν σου' means 'how/why did Satan fill your heart', but the Vietnamese 'đầy lòng ngươi' (filled your heart) misses the causal/interrogative 'διὰ τί' (by what/how/why). More importantly, the Vietnamese 'bớt lại một phần vinh dự của ruộng' translates 'νοσφισασθαι ἀπὸ τῆς τιμῆς τοῦ χωρίου' as 'reducing a part of the honor of the field'. The Greek 'τιμῆς' in this context refers to the 'profit/proceeds/yield' of the land, not 'honor' (vinh dự). This changes the economic nature of the offense."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

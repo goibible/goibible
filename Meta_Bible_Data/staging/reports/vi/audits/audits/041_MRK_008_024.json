@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως δενδρα' (as trees) modifies the verb 'περιπατουντας' (walking). The Vietnamese translation 'họ đi giống như cây' implies they are walking *like* trees, whereas the Greek indicates they are walking *as if they were* trees (a simile for their slow, stiff movement). However, a more significant issue is the lack of the 'as' / 'like' construction correctly linking the state of being to the action. More importantly, the Vietnamese 'họ đi giống như cây' slightly shifts the focus; the Greek structure 'ως δενδρα ορω περιπατουντας' means 'I see them walking as trees', implying their appearance/manner while walking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

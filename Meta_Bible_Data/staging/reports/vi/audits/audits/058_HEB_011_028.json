@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ολοθρευων' (holothreōn) refers to the 'destroyer' (the angel of death), but the Vietnamese 'đấng hủy diệt' is a generic term for 'the destroyer'. While acceptable, the specific context of the Passover often implies the 'destroyer' who strikes. However, the more significant issue is 'thiē thē' (thigh/side) which is missing in the Vietnamese translation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'τα πρωτοτοκα θιγη αυτων' means 'the firstborn of them [were not to be struck]'. The Vietnamese 'không đụng đến họ' (not touch them) omits the specific reference to the 'striking/hitting' (θιγη) action, though it preserves the core meaning of protection."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

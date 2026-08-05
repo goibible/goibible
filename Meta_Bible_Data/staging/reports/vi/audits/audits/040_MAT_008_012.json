@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υιοι της βασιλειας' (sons/children of the kingdom) is translated as 'các con của nước' (children of the water/country). The word 'βασιλειας' refers to 'kingdom', which is missing in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

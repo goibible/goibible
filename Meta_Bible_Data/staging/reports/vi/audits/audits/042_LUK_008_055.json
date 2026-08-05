@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεταξεν αυτη' (ordered her) refers to the spirit/power ordering 'her' (the woman) to be fed, but the Vietnamese 'truyền cho họ' (ordered them) changes the subject of the action to an unspecified 'them' (họ), which is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

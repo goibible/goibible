@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εστε σεσωσμενοι' is second person plural ('you have been saved'), but the Chinese renders it as '你們得救' (you are saved), which is correct. However, the first part 'ημας' (us) is first person plural, and the Chinese '我們' is correct. The issue is that the Greek 'συνεζωοποιησεν' (he made us alive together) has 'ημας' as the object, and the Chinese '便叫我們...一同活過來' correctly conveys this. The only potential issue is the shift from '我們' (us) to '你們' (you) in the last clause, which matches the Greek shift from 'ημας' to 'εστε' (you are). This is not an error. Re-evaluating: the translation is faithful. Verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

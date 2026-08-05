@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation places the clause 'là những kẻ có tên không được ghi trong sách sự sống' (who are those whose names are not written in the book of life) as a non-restrictive appositive describing the inhabitants of the earth. However, the Greek 'ων ου γεγραπται τα ονοματα' is a relative clause defining/limiting the specific group of inhabitants who will wonder: those *whose* names are not written."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific temporal scope 'απο καταβολης κοσμου' (from the beginning of creation) as a modifier for the book of life, or at least fails to clearly link it as the starting point of the record, though it is present in the text. More importantly, the Vietnamese structure suggests the inhabitants are currently being identified by the lack of names, whereas the Greek links the 'wondering' specifically to those whose names are not in the book."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

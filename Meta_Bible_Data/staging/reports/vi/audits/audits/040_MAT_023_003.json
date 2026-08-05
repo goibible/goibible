@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οσα αν ειπωσιν υμιν' refers to 'whatever they say to you' (referring to the Pharisees/teachers), but the Vietnamese 'họ bảo các ngươi' (they tell you) loses the specific 'whatever' (οσα αν) nuance, which implies any instruction or command they might give."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τηρειτε και ποιειτε' uses the present imperative/indicative 'keep and do'. The Vietnamese adds 'hãy' (imperative), which is a stylistic choice, but more importantly, it fails to capture the specific scope of 'οσα αν' (whatever)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

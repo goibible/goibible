@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'hàng' (goods/cargo) and 'xuống biển' (into the sea). The Greek text only says 'τη εξης εκβολην εποιουντο' (the next day it was being thrown out), without specifying what was being thrown or where."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

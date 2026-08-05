@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τυπος του μελλοντος' (typos tou mellontos) refers to Adam being the 'type of the one to come'. The Vietnamese translation 'người làm mẫu của Đấng sẽ đến' can be interpreted as 'the person who makes a model for the One to come', which shifts the relationship from Adam being the archetype/pattern to Adam being the creator of a model."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

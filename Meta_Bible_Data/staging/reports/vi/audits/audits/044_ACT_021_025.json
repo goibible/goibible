@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επεστειλαμεν' (epestailamen) means 'we sent', but the Vietnamese translation renders it as 'viết thư' (wrote a letter). While sending a letter is a common way to communicate, the Greek verb specifically denotes the act of sending."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

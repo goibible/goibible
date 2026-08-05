@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστας' (anastas) is a participle meaning 'rising up' or 'having risen.' The Vietnamese translation 'đứng dậy' (stood up) is grammatically acceptable, but the phrase 'Bấy giờ' (Now/At that time) is an addition not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'η ουσα αιρεσις των σαδδουκαιων' (the doctrine of the Sadducees) is entirely omitted in the Vietnamese translation. This is a substantive conceptual loss, as it identifies the specific belief system being reacted to."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

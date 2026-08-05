@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αποληψεσθε' (apolēpsesthe) is a future passive of 'ἀπολαμβάνω', which means 'to receive' or 'to take possession of'. The Vietnamese 'nhận lãnh' (to receive/take) is acceptable, but the Greek 'απολήψεσθε' combined with 'από Κυρίου' (from the Lord) implies a receiving *from* the Lord. However, the Vietnamese phrasing 'nhận lãnh phần thưởng của cơ nghiệp từ Chúa' could be interpreted as 'receiving the reward of the inheritance [which belongs] to God', whereas the Greek structure 'από Κυρίου ἀπολήψεσθε την ἀνταπόδοσιν της κληρονομίας' means 'from the Lord you will receive the reward of the inheritance'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text uses 'τῷ γὰρ Κυρίῳ Χριστῷ' (for to the Lord Christ), which indicates the *recipient* of the service. The Vietnamese 'hầu việc Chúa là Đấng Christ' (serve God who is Christ) slightly alters the relationship by suggesting an identity ('is') rather than a dative of direction/purpose ('to')."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

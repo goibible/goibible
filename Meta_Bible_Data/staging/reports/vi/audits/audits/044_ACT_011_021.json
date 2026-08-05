@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και ην χειρ κυριου μετ αυτων' literally means 'and the hand of the Lord was with them.' The Vietnamese translates this as 'Tay Chúa ở cùng họ' (The hand of the Lord was with them), but it omits the 'hand' aspect or treats it as a metaphor for presence without acknowledging the specific Greek construction. However, the primary issue is the causal link: the Greek uses 'πολυς τε αριθμος πιστευσας επεστρεψεν' (and a great number of them, having believed, turned), whereas the Vietnamese uses 'nên' (so/therefore), implying a direct causal result that isn't explicitly structured as a conjunction of result in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολυς τε αριθμος' refers to 'a great number.' The Vietnamese 'một số đông' is an acceptable rendering, but the connection of 'having believed' (πιστευσας) as a participle describing the subjects who turned is slightly smoothed over in the Vietnamese flow."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

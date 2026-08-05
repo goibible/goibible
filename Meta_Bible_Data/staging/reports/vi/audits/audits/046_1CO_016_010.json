@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεπετε' (look/take note) is rendered as 'hãy coi chừng' (be careful/watch out), which carries a nuance of warning or caution that is not present in the Greek text. A more faithful rendering would be 'hãy lưu ý' or 'hãy biết rằng'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφοβως γενηται' (let him [be] fearless) is rendered as 'được không sợ hãi' (to be not afraid). While the meaning is similar, 'hãy để ông ấy [được] không sợ hãi' would better capture the imperative/exhortative mood of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

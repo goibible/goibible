@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειρηνευετε εν εαυτοις' means 'be at peace with one another' (or 'be peaceful with yourselves/each other'). The Vietnamese translation 'hãy sống hòa thuận với nhau' (live in harmony with each other) changes the focus from a state of being/peace to an active lifestyle of harmony. More importantly, 'εν εαυτοις' in this context typically refers to 'with one another' (reciprocal), but the Vietnamese structure misses the specific nuance of internal peace/reconciliation implied by the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

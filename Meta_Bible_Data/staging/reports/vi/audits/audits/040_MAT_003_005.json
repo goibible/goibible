@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιεροσολυμα' (Jerusalem) refers to the city/people of Jerusalem as a collective entity, but the Vietnamese 'dân thành Giê-ru-sa-lem' adds 'dân' (people), which is not in the text. More importantly, the Greek verb 'εξεπορευετο' implies a 'coming out' or 'gathering forth' toward him, whereas 'đến cùng người' (came to him) misses the nuance of the movement/gathering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

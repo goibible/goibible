@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλειους' (pleious) means 'more', but it is used here as a comparative modifier to 'τεσσαρακοντα' (forty). The Vietnamese 'hơn bốn mươi' (more than forty) implies >40, whereas the Greek construction 'πλειους τεσσαρακοντα' functions as 'more [than] forty'. However, the specific issue is the lack of a comparative 'than' or the nuance of 'more' in the context of the quantity. More importantly, the Greek 'τεσσαρακοντα' is plural; while Vietnamese 'bốn mươi' covers this, the phrasing 'hơn bốn mươi' is a standard rendering, but if we strictly look at 'πλειους', it can sometimes be interpreted as 'more [than] forty'. Actually, in this specific context (Mark 15:43), 'πλειους τεσσαρακοντα' is commonly translated as 'more than forty'. The Vietnamese 'hơn bốn mươi' accurately captures this."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρος ζηλος' (pyros zelos) literally means 'fiery zeal/ardor'. The Vietnamese translation renders it as 'lửa hừng' (burning fire/blaze), which shifts the meaning from a quality of zeal to a physical element (fire)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

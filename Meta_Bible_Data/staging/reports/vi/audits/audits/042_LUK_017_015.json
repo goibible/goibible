@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδων οτι ιαθη' (seeing that [he] was healed) refers to the person being healed. The Vietnamese translation 'thấy mình đã được chữa lành' (saw himself was healed) implies a subjective self-reflection or internal realization, whereas the Greek describes an observation of the state of healing occurring."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

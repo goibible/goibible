@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'vì con được sinh ra trong nàng' (because you were born in her) misidentifies the subject of the verb. The Greek 'εν αυτη γεννηθεν' refers to the child (the 'what' in the phrase 'το γαρ εν αυτη γεννηθεν'), not Joseph. The Vietnamese makes it sound as if Joseph was born from Mary."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

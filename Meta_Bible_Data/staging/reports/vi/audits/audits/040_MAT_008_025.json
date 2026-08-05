@@ -1,0 +1,26 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ηγειραν' (hegeiran) means 'to wake up' or 'to arouse,' but the Vietnamese 'đánh thức' specifically implies 'waking someone from sleep.' While often used contextually, the Greek can also mean 'to stir up' or 'to rouse' (from a state of distress/unconsciousness). However, the more significant issue is the translation of 'ἀπολλυμεθα' (apollymetha)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ἀπολλυμεθα' means 'we are perishing' or 'we will perish.' The Vietnamese 'chúng tôi sắp chết' translates to 'we are about to die.' While semantically similar in a crisis, 'perish' (destruction/loss) is broader than 'die' (cessation of life). However, since the prompt asks to flag if a reader would believe something factually different: 'sắp chết' captures the urgency of 'apollymetha' sufficiently."
+        },
+        {
+          "kind": "other",
+          "detail": "The primary issue is the nuance of 'ηγειραν'. If the context is sleep, 'đánh thức' is correct. If the context is a state of spiritual/physical distress, it is a slight shift, but usually acceptable."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

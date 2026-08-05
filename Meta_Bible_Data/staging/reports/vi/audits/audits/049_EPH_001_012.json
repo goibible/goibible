@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εις το ειναι ημας' (to be/to become) is rendered as 'để chúng ta trở nên' (so that we become), but the Vietnamese translation omits the specific concept of 'being' or 'existence' as the goal, slightly shifting the focus to a process of becoming rather than the state of being."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προηλπικοτας' (pre-redeemed/fore-purchased) is translated as 'đã trông cậy trước nhất' (those who trusted first). 'Trông cậy' means 'to trust/rely on', whereas 'προηλπικοτας' refers to being 'bought' or 'redeemed' beforehand. This changes the theological meaning from a status of being redeemed by God to an action of trusting by humans."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

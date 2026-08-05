@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nghẹt ngòi' (choke/block) is used to describe the effect of the thorns, but the Greek 'συνεπνιξαν' (synepmixan) specifically means 'suffocated' or 'strangled.' While related, 'nghẹt ngòi' can imply a blockage of a flow, whereas 'συνεπνιξαν' describes the active process of being overwhelmed/smothered by the thorns."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

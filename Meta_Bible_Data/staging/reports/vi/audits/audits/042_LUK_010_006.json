@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν μεν... η ει δε μη' is a conditional structure meaning 'If... then, but if not...' (If the son of peace rests upon him, your peace will rest upon him; but if not, it will return to you). The Vietnamese translation 'bằng không' (otherwise/if not) correctly captures the logic, but the Greek 'ανακαμψει' (will return) refers specifically to the peace returning to *you* (the ones who did not have the son of peace), whereas the Vietnamese phrasing 'nó sẽ trở về các ngươi' is slightly ambiguous as to whether 'nó' (it) refers back to the peace or the son. More importantly, the Greek 'εαν μεν' implies a condition of 'if indeed', which is slightly lost, but the main issue is the clarity of the reciprocal relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

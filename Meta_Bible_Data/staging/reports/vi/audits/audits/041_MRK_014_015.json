@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετοιμον' (prepared/ready) modifies the room ('φώνον'), but the Vietnamese 'đã trải sẵn sàng' (already spread ready) is slightly confusing in its placement. More importantly, the Greek 'ετοιμασατε' is an imperative/command 'prepare' (you prepare), while the Vietnamese 'hãy dọn' (please clean/tidy) changes the specific action of 'preparing' a room to 'cleaning/tidying' it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

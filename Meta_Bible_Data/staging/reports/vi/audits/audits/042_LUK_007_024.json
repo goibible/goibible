@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι εξεληλυθατε' (what have you come out to) is a question about the purpose of their arrival, but the Vietnamese translation 'Các ngươi đã đi ra ngoài đồng vắng để xem gì?' turns it into a specific inquiry about 'seeing' (xem). While 'theasasthai' follows, the Greek structure implies 'What have you come out to the wilderness to see?', whereas the Vietnamese splits this into two distinct questions, slightly altering the flow of the original inquiry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

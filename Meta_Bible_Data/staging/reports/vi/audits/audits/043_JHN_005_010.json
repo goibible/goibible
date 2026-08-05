@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εξεστιν σοι αραι τον κραββατον' is a prohibition/statement of impossibility regarding the action of taking the bed (literally: 'it is not for you to take the bed'). The Vietnamese translation 'ngươi không được phép lấy' (you are not allowed to take) adds a sense of legal permission/authority that is not explicitly in the Greek, but more importantly, the Greek phrasing is an idiomatic way of saying 'you must not' or 'you cannot'. However, the primary issue is that the Vietnamese 'không được phép' implies a rule being enforced, whereas the Greek construction 'ουκ εξεστιν' often functions as 'it is not permitted' or 'it is not possible'. While close, the most significant risk is the nuance of 'permission' vs 'possibility/prohibition'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

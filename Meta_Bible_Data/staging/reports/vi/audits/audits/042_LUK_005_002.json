@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα την λιμνην' means 'by/alongside the lake', but the Vietnamese 'gần bờ hồ' translates to 'near the lakeshore'. While similar, 'bờ hồ' (shore) is a specific addition not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

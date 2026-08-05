@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 62,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενενευον' (eneneuon) means 'to ask/inquire' (from enēxeō), not to 'make a sign' or 'signify' (ra dấu). The Vietnamese translation changes the action from an inquiry into a physical gesture."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'το τι αν θελοι καλεισθαι' means 'what he wants to be called', but the Vietnamese 'muốn gọi nó là gì' translates it as 'what [he] wants to call him/it'. This shifts the direction of the action: the Greek is about the name the subject *wants for himself*, whereas the Vietnamese suggests what the father *wants to call the subject*."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

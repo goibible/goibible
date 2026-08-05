@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'βαστασει' is in the aorist active indicative, expressing a simple past or completed action. The Vietnamese translation uses 'sẽ gánh', which is future tense, changing the temporal context of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

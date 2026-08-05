@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καγω' (I) is followed by the verb 'καυχησομαι' (will boast/glory), but the Vietnamese translation omits the specific object or context of what is being boasted about, and more importantly, fails to capture the contrastive nature of the Greek 'καγω' which functions as a strong 'but I' in this context. However, the primary issue is that 'καυχησομαι' is a future tense verb ('will boast'), which is correctly rendered, but the Vietnamese lacks the specific nuance of the Greek 'καγω' which sets the speaker in direct opposition to the 'many'. Actually, looking closer at the text: 'καγω καυχησομαι' (I will boast) is present. The Vietnamese 'tôi cũng sẽ khoe mình' includes 'cũng' (also), whereas the Greek 'καγω' functions as a contrastive 'but I', not an additive 'also'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'λαλων' (lalon) refers to 'babbling' or 'speaking much' (often associated with 'glossa' meaning tongue/language), but the Vietnamese translation 'nói tiếng lạ' translates it as 'speaking strange languages' (tongues). The Greek does not specify 'strange' (heteros); it refers to the act of babbling/speaking much."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

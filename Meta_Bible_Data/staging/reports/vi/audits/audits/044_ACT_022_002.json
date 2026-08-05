@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσεφωνει' (prosephōnei) means 'to speak to/with' or 'to address'. The Vietnamese translation 'người nói với họ' (the person spoke to them) is slightly imprecise because the Greek implies they were being addressed *in* the Hebrew dialect, but the Vietnamese structure makes it sound like a specific action of speaking rather than the mode of communication. However, the more significant issue is the omission of the nuance of 'μαλλον' (mallon), which suggests 'rather' or 'more so'. The Vietnamese 'càng... hơn' captures 'more', but misses the contrastive 'rather' implied by 'μαλλον'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

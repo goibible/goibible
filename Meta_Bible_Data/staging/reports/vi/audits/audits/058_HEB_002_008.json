@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντα υπεταξας' is a participle describing the subject (Christ/God), meaning 'having brought all things under [His] feet.' The Vietnamese translation 'Ngài đã đặt' (He has placed) treats it as a main verb, slightly altering the grammatical structure, but more importantly, the first clause lacks the implied subject in the Greek which is clearly the one who 'has brought all things under His feet'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν γαρ τω υποταξαι αυτω τα παντα' uses the infinitive 'υποταξαι' (to bring under authority), but the Vietnamese 'khi đặt mọi vật dưới quyền Người' (when placing all things under His power) captures the sense well. However, the transition from the first clause to the second is slightly smoothed over."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

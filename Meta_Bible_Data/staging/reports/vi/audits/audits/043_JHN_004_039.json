@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επείπεν μοι' (said to me) is translated as 'đã bảo tôi' (told me), but the Vietnamese phrasing 'Ngài đã bảo tôi mọi điều tôi đã làm' implies He told her *about* what she did, whereas the Greek 'οτι ειπεν μοι παντα οσα εποιησα' literally means 'that he said to me everything that I did' (reporting the content of his speech). However, the primary issue is the Vietnamese phrasing which slightly obscures that the woman is reporting His words directly as a quote."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

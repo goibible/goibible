@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φιλοτιμεισθαι' (philotimeisthai) means 'to be ambitious/eager to do good' or 'to seek honor/glory'. The Vietnamese translation 'nỗ lực' (to strive/exert effort) captures the effort but misses the specific nuance of seeking honor or being eager to do good. More importantly, the Vietnamese phrasing 'nỗ lực sống yên lặng' links the effort specifically to 'living quietly', whereas the Greek lists three distinct activities:             1. φιλοτιμεισθαι (being ambitious/seeking honor) 2. ησυχαζειν (living quietly) 3. πρασσειν τα ιδια (doing one's own business). The Vietnamese structure makes 'nỗ lực' modify both 'yên lặng' and 'làm việc riêng', while the Greek treats them as separate items in a list."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'παρηγγειλαμεν' is 1st person plural (we commanded). The Vietnamese 'chúng tôi đã truyền' correctly reflects this. However, the subject of the first three infinitives is 'υμων' (you), which is correctly reflected as 'anh em', but the phrasing 'lấy chính tay mình làm việc' for 'εργαζεσθαι ταις ιδιαις χερσιν υμων' is slightly clunky as it repeats the concept of 'own work' (τα ιδια) which appeared in the previous phrase, though not a strict fidelity error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

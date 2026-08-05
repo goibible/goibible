@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'φυσιοι' (physioi) in this context refers to 'natural' or 'naturalistic' (as in 'natural pride/arrogance' or simply 'pride'), but the Vietnamese translation 'lên mình kiêu ngạo' adds a specific nuance of 'becoming arrogant' that isn't explicitly a verb action in the Greek; however, the primary issue is the loss of the specific sense of 'natural' (φυσιοι) which qualifies the pride/arrogance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'οιδαμεν' is first-person plural ('we know'), but the Vietnamese translation uses 'chúng ta biết' (we know). However, in many contexts of this specific verse (Romans 8:22), the Greek 'οιδαμεν' is often interpreted as 'we know' (general/collective) or 'we have known'. The Vietnamese 'chúng ta' is acceptable, but the primary issue is the lack of a clear distinction if the Greek were to be strictly 'I knew' vs 'We knew'. Looking closer at the grammar: 'οιδαμεν' is indeed 1st person plural. The Vietnamese 'chúng ta' correctly reflects this."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'συνωδινει' (synodinei) specifically means 'groans' or 'labors' in a sense of 'toiling' or 'being in labor'. The Vietnamese 'chịu đau đớn' (suffering/enduring pain) is a common rendering, but 'cùng chịu đau đớn' might slightly miss the nuance of 'labor pains' (the active process of birth) inherent in 'συνωδινει', though it is generally considered an acceptable idiomatic translation for this specific text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

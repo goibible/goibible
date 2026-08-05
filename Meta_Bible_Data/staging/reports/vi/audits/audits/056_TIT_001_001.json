@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'της' (the) before 'κατ ευσεβειαν' is missing in the Vietnamese translation, but more importantly, the prepositional phrase 'κατ ευσεβειαν' (according to godliness/piety) is rendered as 'phù hợp với lòng tin kính' (consistent with/suitable for godliness). While 'phù hợp với' captures a sense of alignment, it slightly softens the direct 'according to' (κατ) relationship expressed in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

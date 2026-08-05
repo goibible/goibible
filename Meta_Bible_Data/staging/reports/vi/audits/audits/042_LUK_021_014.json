@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη προμελεταν' (mē promeletan) means 'do not neglect' or 'do not be careless about.' The Vietnamese translation 'đừng suy nghĩ trước' means 'do not think ahead' or 'do not think in advance,' which changes the meaning of the command from a lack of diligence to a matter of mental planning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

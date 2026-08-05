@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σφοδρα πολυς' (very great/many) modifies the crowd of priests, but the Vietnamese translation 'gia tăng nhiều lắm' (increased very much) incorrectly applies this modifier to the number of disciples instead."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σφοδρα πολυς τε οχλος των ιερεων' indicates that there was a 'very great crowd' of priests; the Vietnamese 'một đám đông' (a crowd) misses the intensity of 'σφοδρα' (very/greatly)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

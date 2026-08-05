@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στισονται' (will stand) is a verb describing the action of the merchants. The Vietnamese translation 'sẽ đứng' (will stand) is placed after 'nàng ấy' (her), making it sound like 'she will stand from afar' rather than 'the merchants will stand from afar'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απ αυτης' (from her) modifies 'πλουτησαντες' (having become rich), meaning they became rich *from* her (her wealth/goods). The Vietnamese 'nhờ nàng ấy' (thanks to her) is a reasonable rendering, but the structural placement of 'sẽ đứng từ xa' makes it unclear who is standing from afar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

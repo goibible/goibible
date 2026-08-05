@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'ατενισας εις αυτον' (looked at him/himself), but the Vietnamese translation 'nhìn chăm vào người' is ambiguous. In context (Acts 9:18), 'αυτον' refers to the man (Ananias) who was speaking, but the Vietnamese 'người' can be interpreted as a general third person or the subject in some contexts. However, the primary issue is that 'ατενισας' implies a specific action of looking/gazing that is slightly weakened by the phrasing, but more importantly, the Greek structure 'σαυλος δε ο και παυλος' indicates 'Saul who is also called Paul'. The Vietnamese 'Sau-lơ cũng gọi là Phao-lô' captures the meaning well, but the omission of the specific object of the gaze or a slight shift in focus regarding the action of 'looking' can be flagged if it loses the directness of the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

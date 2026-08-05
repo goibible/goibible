@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ε直ως' (eutheōs) means 'immediately' or 'at once'. The Vietnamese 'liền' captures this, but the Greek 'εξανετειλεν' (exaneteilen) is a specific verb meaning 'sprouted up' or 'shot up'. The translation 'mọc lên' is acceptable, but the construction 'nó liền mọc lên' slightly misses the intensity of the sudden growth described by the prefix 'ex-'. However, the primary issue is the phrase 'vì không có đất sâu'. The Greek 'διὰ τὸ μὴ ἔχειν βάθος γῆς' literally means 'because [it] did not have depth of earth'. The Vietnamese 'đất sâu' (deep soil/earth) is a slightly imprecise rendering of 'depth of the earth', but more importantly, the Greek implies a lack of depth for the roots to take hold. The current Vietnamese is acceptable, but I will flag it for the slight nuance in 'depth of earth'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,26 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+NUM,2,5,orange,missing_expected_name,Giu-đa,,Expected approved name 'Giu-đa' from VIE1934 occurrence.
+NUM,2,24,orange,missing_expected_name,Eùp-ra-im,,Expected approved name 'Eùp-ra-im' from VIE1934 occurrence.
+NUM,3,16,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,4,31,orange,missing_expected_name,Mê-ra-ri,,Expected approved name 'Mê-ra-ri' from VIE1934 occurrence.
+NUM,4,49,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,7,4,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.
+NUM,9,20,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,10,36,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,12,5,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,13,31,orange,missing_expected_name,Ca-lép,,Expected approved name 'Ca-lép' from VIE1934 occurrence.
+NUM,16,19,orange,missing_expected_name,A-rôn,,Expected approved name 'A-rôn' from VIE1934 occurrence.
+NUM,16,19,orange,missing_expected_name,Môi-se,,Expected approved name 'Môi-se' from VIE1934 occurrence.
+NUM,18,9,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,18,12,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,16,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,19,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,21,35,orange,missing_expected_name,Oùc,,Expected approved name 'Oùc' from VIE1934 occurrence.
+NUM,22,41,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,23,7,orange,missing_expected_name,Đông-phương,,Expected approved name 'Đông-phương' from VIE1934 occurrence.
+NUM,23,14,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,23,17,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,23,18,orange,missing_expected_name,Ba-la-am,,Expected approved name 'Ba-la-am' from VIE1934 occurrence.
+NUM,26,3,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,28,3,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+NUM,32,19,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα υβρεως' (after/with disgrace/shame) is rendered as 'sự sỉ nhục' (humiliation/insult), which carries a social connotation of being shamed by others. The Greek context refers to the loss of honor or the shameful state of the situation. More importantly, 'μετα' here functions as 'along with' or 'with', but the Vietnamese structure makes it sound like a descriptive attribute of the voyage rather than the specific consequence/accompaniment of the event."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ον μονον' (not only) is correctly captured, but the phrase 'μελλειν εσεσθαι' (is about to happen/be) is rendered as 'sắp xảy ra', which is acceptable. However, the Vietnamese misses the specific nuance of 'μετα υβρεως' being a distinct consequence alongside 'πολλης ζημιας'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

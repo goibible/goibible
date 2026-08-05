@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αναστασεως' (anastaseōs) means 'resurrection', but the Vietnamese translation uses 'sự sống lại' (which can mean 're-living' or 'living again'). While related, 'resurrection' is the specific theological term for rising from the dead. More importantly, the phrase 'quyền năng của sự sống lại Ngài' is grammatically confusing in Vietnamese; it could be read as 'the power of [the] life again of Him', whereas the Greek is 'the power of his resurrection'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

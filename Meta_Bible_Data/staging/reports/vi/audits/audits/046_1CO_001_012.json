@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω μεν ειμι παυλου' (I am Paul) is translated as 'Tôi thuộc về Phao-lô' (I belong to Paul). The Greek expresses identity/being (am), not belonging/membership (belong to)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

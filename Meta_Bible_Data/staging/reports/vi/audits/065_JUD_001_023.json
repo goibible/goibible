@@ -1,0 +1,42 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ους δε εν φοβω σωζετε' means 'save them in fear' (or 'save them with fear'), but the Vietnamese 'Hãy cứu họ với sự sợ hãi' implies a command ('Hãy') which is not present in the Greek verb form (present active indicative)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μισουντες' is a participle ('hating'), but the Vietnamese 'ghét' is translated as a main verb/imperative action, losing the participial relationship."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τον' (him) referring back to the person being snatched is missing in the Vietnamese translation of the second clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

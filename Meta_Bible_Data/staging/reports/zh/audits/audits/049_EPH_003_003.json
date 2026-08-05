@@ -1,0 +1,13 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

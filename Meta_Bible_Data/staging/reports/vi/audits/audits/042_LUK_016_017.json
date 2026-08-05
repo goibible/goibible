@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευκοπωτερον' (eukopōteron) means 'easier' or 'more easily,' but the Vietnamese translation 'dễ hơn' is placed in a way that disrupts the comparative structure. More importantly, the Greek structure 'ευκοπωτερον δε εστιν [A] η [B]' translates to '[B] is easier than [A].' The Vietnamese translation 'Trời và đất qua đi còn dễ hơn là một dấu phết của luật pháp phải rơi xuống' suggests that passing heaven and earth is easier than the lightning strike, which is the correct meaning, but the Greek 'παρελθειν' (to pass/pass by) refers to the *passing* of the heavens/earth, not just the heavens/earth themselves passing. However, a more significant issue is the word 'dấu phết' for 'κεραιαν'. While 'κεραιαν' means lightning, 'dấu phết' usually means a 'mark' or 'stroke', which might mislead a reader about the nature of the event (lightning strike vs. a mark/stroke)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

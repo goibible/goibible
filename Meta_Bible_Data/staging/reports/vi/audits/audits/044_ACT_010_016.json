@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains the negative particle 'δε' (not), but the Vietnamese translation omits it. The Greek says 'it did NOT happen three times', whereas the Vietnamese says 'it happened three times'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

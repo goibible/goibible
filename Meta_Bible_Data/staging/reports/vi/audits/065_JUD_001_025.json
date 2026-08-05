@@ -1,0 +1,55 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μονω σοφω' (the only wise) is translated as 'Đức Chúa Trời khôn ngoan có một'. While the meaning is similar, the Vietnamese structure implies 'God who is one and wise', whereas the Greek emphasizes 'Only Wise'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοξα' (glory) is translated as 'vinh hiển'. This is acceptable, but 'δοξα' appears first in the Greek sequence, while 'vinh hiển' appears first in the Vietnamese. However, the primary issue is the structural inversion of the attributes."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'επιστολη ιουδα καθολικη' (Epistle of Jude Catholic/Universal) at the end of the Greek text is completely omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 3441,
+          "lemma": "monw",
+          "problem": "missing",
+          "detail": "The sense 'only' (mónos) is missing in the Vietnamese translation."
+        },
+        {
+          "strongs_num": 1849,
+          "lemma": "exousia",
+          "problem": "distorted",
+          "detail": "The lemma 'exousia' (authority/power) is translated as 'quyền phép', but the preceding 'kratov' (strength/might) is also translated as 'quyền năng'. This creates a slight overlap in nuance, though 'quyền phép' is generally acceptable for 'exousia'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

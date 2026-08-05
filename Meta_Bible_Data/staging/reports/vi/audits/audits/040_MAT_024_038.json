@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the word 'τρωγοντες' (eating/consuming) and 'πινοντες' (drinking), but the Vietnamese translation omits the specific nuance of 'trowgontes' as 'consuming/devouring' or simply misses the plural nature of the actions. More importantly, the Vietnamese 'ăn, uống' is a standard pair, but the Greek uses 'τρωγοντες και πινοντες' which specifically describes the behavior of the people in those days. However, the most significant omission is the lack of the specific 'trowgontes' (eating/consuming) and 'pinontes' (drinking) as distinct actions for the people. Actually, looking closer, 'ăn, uống' covers 'τρωγοντες και πινοντες'. The real issue is the structural flow: 'người ta' (people) is an addition to represent the implied subjects of the participles."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'người ta' (people) as a subject. While common for readability, the Greek uses participles ('τρωγοντες και πινοντες') without an explicit subject in that clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

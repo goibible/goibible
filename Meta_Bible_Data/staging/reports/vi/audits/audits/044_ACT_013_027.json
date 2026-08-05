@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τουτον' (touton) refers to the 'prophetic word/message' (implied by the context of the prophets' voices), not to a person ('Ngài'). The Vietnamese translation treats 'Ngài' (Him) as the object of their ignorance, which is a significant shift from the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατα παν σαββατον' indicates the voices were being read 'every Sabbath' or 'on every Sabbath'. The Vietnamese 'vào mỗi ngày Sa-bát' is acceptable, but the structure of the Greek implies a continuous/repeated action that the Vietnamese captures well enough to be OK, however, the primary issue remains the 'Ngài' substitution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

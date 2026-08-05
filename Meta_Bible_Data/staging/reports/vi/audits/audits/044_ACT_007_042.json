@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη σφαγια και θυσιας προσηνεγκατε μοι' is a rhetorical question/negation in the form of a negative, but the Vietnamese 'có phải các ngươi đã dâng...' renders it as a standard yes/no question. The Greek implies 'Did you not bring...?' or 'Have you not brought...?', whereas the Vietnamese 'có phải... không' (implied by context) or 'có phải... đã' changes the nuance of the prophetic prohibition/reproach."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

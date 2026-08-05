@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγειρονται' is a passive verb meaning 'are raised' or 'are resurrected.' The Vietnamese 'sống lại' (live again) captures the general concept but loses the specific passive sense of being raised from the dead. More importantly, the Greek 'εμηνυσεν' means 'recalled' or 'reminded,' whereas the Vietnamese 'tỏ ra' (showed/revealed) changes the nature of Moses' action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific prepositional phrase 'επι της βατου' (upon the rock), rendering it as 'trong câu chuyện về bụi gai' (in the story of the burning bush). While 'bụi gai' is a common theological reference, the Greek specifically identifies the location/object as 'the rock'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατηγγειλαμεν' (katēgēilamen) means 'proclaimed', 'preached', or 'announced'. The Vietnamese 'rao giảng' is a common translation for preaching, but the Greek verb specifically carries the sense of 'proclaiming/making known' the message. However, the primary issue is the omission of the specific nature of the action in relation to the location."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the nuance of 'κατηγγειλαμεν' (proclaimed) as a specific action performed *in* those cities, rendering it slightly more general than the Greek's focus on the proclamation of the Word."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

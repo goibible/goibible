@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'when John had first preached before His coming' (προκηρυξαντος ιωαννου προ προσωπου της εισοδου αυτου), i.e., John preached before the coming of Jesus. The Vietnamese 'Trước khi Giăng rao giảng, ông đã công bố...' reverses the temporal order, making it 'before John preached, he proclaimed...' which is nonsensical and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

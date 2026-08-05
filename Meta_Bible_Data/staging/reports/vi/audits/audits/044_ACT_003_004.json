@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις αυτον' (to him) is rendered as 'nhìn chăm người' (looking closely at the person), but the Vietnamese phrasing 'với Giăng nhìn chăm người' suggests Peter and John were looking at someone else, whereas the Greek indicates they looked *at* a specific person (the one being addressed)."
+        },
+        {
+          "kind": "other",
+          "detail": "The order of actions is slightly shifted; the Greek shows 'having looked' (ατενισας) as the preceding action to 'said' (ειπεν), but the Vietnamese structure 'với Giăng nhìn... rồi nói' makes the joint action with John the primary focus before the speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

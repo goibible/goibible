@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντα δυνατα σοι' (all things are possible for you) is rendered in Vietnamese as 'mọi sự đều có thể được Cha' (all things can be done by the Father/for the Father). The Vietnamese phrasing suggests a passive capability or a result, whereas the Greek is an affirmation of the Father's power."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ελεγεν' (said) as a direct action by the speaker; while 'Ngài nói' is present, it doesn't perfectly capture the flow of the Greek 'και ελεγεν' (and he said) in context, though this is minor. The main issue remains the distortion of 'δυνατα σοι'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

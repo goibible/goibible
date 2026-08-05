@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακαλειν' (parakalein) means to exhort, encourage, or comfort. The Vietnamese translation 'khuyên bảo' (to advise/urge) captures some of this, but the Greek 'δυνατος η και' implies 'also being able' or 'being also able,' which is slightly softened in the Vietnamese structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αντεχομενον' (antechomenon) is a present active participle meaning 'holding fast' or 'abiding.' The Vietnamese 'Hãy giữ lấy' uses an imperative mood ('Let us hold/Keep'), changing the grammatical structure from a descriptive participle to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ αυτων' (from among them) is translated as 'trong bọn họ' (in/among them). While similar, the Greek implies a movement of origin (coming out from their group), which the Vietnamese captures well enough, but the primary issue is the phrasing of 'đưa cho Ngài uống'. The Greek 'εποτιζεν αυτον' means 'he offered [it] to him' or 'moistened/offered it to him'. The Vietnamese 'đưa cho Ngài uống' (gave it for Him to drink) is a slightly more specific functional translation than the literal Greek, but acceptable. However, there is no significant fidelity issue that changes the core meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

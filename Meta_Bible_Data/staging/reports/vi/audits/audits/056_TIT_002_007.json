@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεχομενος' (present active participle) indicates an ongoing state or action of 'presenting' or 'offering' oneself. The Vietnamese translation uses the imperative 'hãy tỏ ra' (let/must show), which changes the grammatical mood from a descriptive participle to a command."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds the word 'con' (I/me) which is not present in the Greek text; the Greek focuses on the action of presenting oneself as a model."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

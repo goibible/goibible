@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα περιεργα πραξαντων' refers to those who had practiced 'magic' or 'sorcery' (the sorcerers). The Vietnamese 'làm những việc tà thuật' translates the action of performing magic, but the Greek structure implies the books belonged to/were associated with those who practiced it. More importantly, the Vietnamese 'đem sách của mình' (brought their own books) adds a possessive ('của mình') that is not explicitly in the Greek text, though the context implies ownership."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνενεγκαντες' is a perfect active participle. The Vietnamese 'đem... đốt' uses a simple past/perfective construction. While acceptable in many contexts, the Greek emphasizes the completed state of having brought them for the purpose of burning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

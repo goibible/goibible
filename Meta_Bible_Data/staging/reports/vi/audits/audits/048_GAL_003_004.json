@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εικη ειγε και εικη' (eike eige kai eike) is an idiomatic expression meaning 'in vain' or 'to no purpose.' The Vietnamese translation splits this into two distinct sentences/thoughts: a question ('...vô ích sao?') and an exclamation ('Nếu quả thật là vô ích!'). The Greek text is a single declarative statement expressing that the suffering was in vain, not a rhetorical question followed by a conditional statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σεσωκεν σε' (saved you) is rendered as 'đã cứu con' (has saved you), but the Greek verb 'σεσώκω' is an Aorist indicative, indicating a completed action. While 'đã cứu' captures the completion, the Greek 'σεσωκεν' is specifically used here in a context of deliverance/saving from a specific state. However, the more significant issue is the phrasing 'được lành khỏi' for 'ισθι υγιης'. The Greek 'ισθι υγιης' is an imperative ('be healthy/whole'), whereas 'được lành' in Vietnamese can sometimes imply a passive state of 'being healed'. More importantly, the Greek 'απο της μαστιγος σου' means 'from your scourging/whipping', but the Vietnamese phrasing 'roi vọt của con' (your whip/scourge) is acceptable. The primary fidelity issue is the nuance of the imperative 'ισθι' which is a command to be healthy, rendered as a state."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

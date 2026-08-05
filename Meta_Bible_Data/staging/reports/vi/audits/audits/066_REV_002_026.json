@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο νικων και ο τηρων' (the one who overcomes and the one who endures/persists) refers to two distinct types of people or actions. The Vietnamese 'Kẻ nào thắng và giữ' (Whoever wins and keeps) uses a single subject ('Kẻ nào') for both actions, potentially conflating two distinct categories into one person's actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

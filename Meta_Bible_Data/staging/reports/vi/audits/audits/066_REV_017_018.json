@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βασιλειαν' (basileian) means 'kingdom', but the Vietnamese translation uses 'nước' (which can mean country/nation) and 'có nước' (has water/country), which fails to convey the specific concept of 'kingdom'. Furthermore, 'có nước trên các vua' is grammatically awkward and misses the sense of 'having a kingdom over/above'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιλαβομενοι' (epilabomenoi) means 'seizing' or 'taking hold of', not 'bắt' (arresting/capturing) in a legal sense. More importantly, the Vietnamese 'đánh đòn' (beating/striking) is a simplified rendering of 'ετυπτον' (typton), which implies striking or beating, but the Greek structure suggests they were seizing him *in order to* strike him."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σωσθενην' (sosthenēn) is an accusative of purpose/result, implying they seized him *to* strike him. The Vietnamese translation treats these as a sequence of actions without the 'in order to' nuance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

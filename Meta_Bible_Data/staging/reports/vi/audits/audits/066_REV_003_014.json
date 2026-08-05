@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation places the phrase 'phán như vầy' (says as follows) at the end of the sentence, whereas in the Greek text, 'λεγει' (says) immediately follows 'ταδε' (this), making it the introductory verb for the title. The Vietnamese structure makes it sound like the title is speaking, but the placement is slightly disjointed from the Greek sequence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

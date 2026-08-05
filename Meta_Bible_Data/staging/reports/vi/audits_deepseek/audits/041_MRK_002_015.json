@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'in his house' (εν τη οικια αυτου), referring to Jesus' house, but the Vietnamese says 'trong nhà mình' which is ambiguous and could be read as 'in his own house' referring to the subject of the preceding clause (Jesus), which is actually correct. However, the more significant issue is the final clause: Greek 'ηκολουθησαν αυτω' (they followed him) is aorist, describing that many followed him, but the Vietnamese 'vì có nhiều người theo Ngài' renders it as a present/ongoing state ('there were many who followed him') rather than the past action of following. This changes the temporal nuance from 'they followed him' (aorist, past event) to a general statement. This is a tense/aspect shift that could mislead the reader about the timing."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

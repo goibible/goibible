@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο νικων' (the one who overcomes/conquers) is a singular masculine subject. The Vietnamese translation uses 'Kẻ nào thắng, người ấy' (Whoever wins, that person), which shifts the meaning from a specific description of 'the overcomer' to a conditional 'if-then' structure."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'το ονομα αυτου' refers to 'his name' (singular masculine). The Vietnamese 'danh nó' uses 'nó', which is typically used for objects or animals, whereas the Greek implies a person. Additionally, the Vietnamese 'sẽ' (future tense) is added for 'xóa' and 'xưng', while the Greek verbs are in the aorist active indicative, expressing a completed action/declaration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

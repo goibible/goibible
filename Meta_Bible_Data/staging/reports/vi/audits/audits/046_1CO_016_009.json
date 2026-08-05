@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενεργης' (energes) in this context refers to 'active' or 'working', but the Vietnamese translation 'hiệu quả' (effective/efficient) shifts the meaning from a description of the door's power/activity to its utility/result."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αντικειμενοι' is a plural participle/noun referring to those who oppose. The Vietnamese 'kẻ chống đối' (opponents) captures the meaning, but the structure 'và có nhiều kẻ chống đối' adds 'có' (there are), which is not in the Greek, though this is minor. However, the primary issue is the 'ενεργης' translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'θελων αυτον αποκτειναι' (wanting to kill him), but the Vietnamese translation says 'muốn giết người' (wanting to kill [a] person/people). The Vietnamese version loses the specific object 'him' (referring to John the Baptist) and generalizes it to a generic person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

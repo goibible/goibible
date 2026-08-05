@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδοθη αυτω' (edothē autō) means 'it was given TO him' (the angel), but the Vietnamese 'nó được ban cho quyền' translates it as 'it was given [to him] the power/right', which slightly shifts the focus. More importantly, the Greek 'καυματισαι' is an infinitive of purpose or result ('to burn'), whereas the Vietnamese 'quyền làm sém' adds the concept of 'power/right' (quyền) which is not explicitly in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

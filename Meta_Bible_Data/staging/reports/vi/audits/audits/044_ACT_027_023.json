@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου ειμι ω' (which I am) is a common scribal error or variant for 'ου εimi' (who I am) or, more likely in this context, a corruption of 'ου ειμι' related to the identity of the angel. However, the Vietnamese translation 'là Đấng ta thuộc về' (the One I belong to) introduces a possessive/relational concept ('belong to') that is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παρεστη γαρ' (for [he] stood by/appeared) is rendered as 'đã hiện đến' (has appeared). While acceptable, the specific nuance of 'standing by' (παρέστη) is slightly softened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

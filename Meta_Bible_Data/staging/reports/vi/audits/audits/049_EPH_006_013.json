@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεργασαμενοι' (kateergasamenoi) is a perfect passive participle describing the state of having 'worked out' or 'accomplished' something. The Vietnamese 'làm xong mọi sự' (finished everything) is too broad; in this context, it refers specifically to the 'working out' of one's faith/character (the spiritual work mentioned in the preceding verses), not just completing general tasks."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δυνηθητε' (dynēthēte) is a middle/passive form of 'to be able' (be empowered/enabled). The Vietnamese 'có thể' captures the ability, but the specific nuance of being 'empowered' or 'enabled' by the source is slightly softened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

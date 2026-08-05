@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αιτησωνται' (aithēsontai) is a future passive/deponent form meaning 'to ask for' or 'to request'. The Vietnamese translation uses 'hãy xin' (let them ask), but the context of the Greek 'ινα αιτησωνται... απολεσωσιν' implies they were being urged to *request that* Jesus be killed. However, the Vietnamese phrasing 'hãy xin Ba-ra-ba và giết Chúa Giê-xu' can be interpreted as 'ask for Barabbas and [then] kill Jesus', potentially missing the fact that the request for Barabbas was the means/context for the request for Jesus' execution."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

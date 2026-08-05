@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Greek verb 'χαρισθησομαι' (future passive of χαρίζομαι) means 'I will be granted/given as a favor' (i.e., restored/released to you), not 'I will be forgiven' (tha thứ). The Vietnamese adds 'tha thứ' (forgiven), which introduces a concept not present in the Greek and changes the meaning from being granted/restored to being forgiven."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

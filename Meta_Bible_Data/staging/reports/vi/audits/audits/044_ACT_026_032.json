@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'εδυνατο' (impossible) combined with the negative 'ει μη' (if not) means 'it is impossible for this man to be released UNLESS he has appealed to Caesar.' The Vietnamese translation says 'có thể được tha nếu chưa kêu nài' (can be released if NOT appealing), which reverses the logic of the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek structure 'εδυνατο... ει μη' functions as a conditional impossibility. The Vietnamese translation suggests a possibility based on the absence of an action, whereas the Greek states that the only way for release to be possible is through the action of appealing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

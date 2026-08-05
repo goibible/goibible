@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γενοιτο' is ajussive/optative construction expressing 'let it not be' or 'may it never be', used here as a rhetorical device to say 'it should not be so'. The Vietnamese translation 'Chẳng hề như vậy!' (Not at all!) interprets this as a flat negation of a statement, whereas the Greek is a rhetorical question about the possibility of injustice occurring from God."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

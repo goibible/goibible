@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'αναστρεφομενων δε αυτων' (while they were turning back/retiring), which indicates a specific movement or state of the disciples. The Vietnamese translation omits this entirely, only noting their location in Galilee."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

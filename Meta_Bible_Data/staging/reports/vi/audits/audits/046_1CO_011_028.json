@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'δοκιμαζεταιω' (dokimazetō) is in the aorist imperative, which carries a sense of 'examine/test yourself' or 'prove yourself'. The Vietnamese translation 'phải tự xét lấy mình' (must examine oneself) adds a sense of obligation ('phải') that is not explicitly present in the Greek imperative form, though it is a common stylistic rendering. However, more importantly, the Greek 'εκ του αρτου... εκ του ποτηριου' uses 'ek' (from/out of), which refers to the elements of the bread and cup. The Vietnamese 'ăn bánh và uống chén' omits the 'from' (ek) prepositional relationship, though this is often considered stylistic. A more significant issue is that 'δοκιμαζεταιω' in this context (1 Cor 11:28) implies a self-examination of one's own state before partaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

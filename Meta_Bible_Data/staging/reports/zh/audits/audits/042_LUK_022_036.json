@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο μη εχων' (the one who does not have) refers to the one without a money bag/pouch (βαλάντιον), not '沒有刀的' (the one without a sword). The Chinese adds '刀' (sword) which is not in the Greek at this point; the Greek says 'the one who does not have [a money bag]' should sell his cloak and buy a sword. This changes who is instructed to buy the sword."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

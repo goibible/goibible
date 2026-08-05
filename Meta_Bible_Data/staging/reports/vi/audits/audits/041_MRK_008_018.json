@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the interrogative particle 'sao?' (why/how?) at the end, which is not present in the Greek text. The Greek is a declarative statement, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

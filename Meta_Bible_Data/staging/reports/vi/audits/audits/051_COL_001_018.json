@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'της εκκλησιας' (of the church) is a genitive of possession/relation. The Vietnamese translation 'tức là Hội thánh' (that is, the Church) renders it as an appositive or identification, implying Christ *is* the Church rather than the head *of* the Church."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

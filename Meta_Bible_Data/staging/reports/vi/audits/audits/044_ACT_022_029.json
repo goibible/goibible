@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Vietnamese translation says 'quan cơ cũng sợ hãi' (the centurion *also* feared), but the Greek 'δε εφοβηθη' is a negative verb meaning 'did NOT fear'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

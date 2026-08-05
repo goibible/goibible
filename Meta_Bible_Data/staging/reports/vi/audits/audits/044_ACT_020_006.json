@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διετριψαμεν' (dietripsamen) is in the aorist tense, but the Vietnamese 'đã ở lại' combined with the preceding clause structure creates a logical contradiction. The Greek says they arrived and stayed for 5 days, NOT staying for 7. The Greek phrase 'ου διετριψαμεν ημερας επτα' means 'we did not stay [for] seven days'. The Vietnamese translation 'chúng ta đã ở lại đó bảy ngày' (we stayed there seven days) reverses the negation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

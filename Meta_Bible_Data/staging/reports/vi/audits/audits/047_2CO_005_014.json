@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κριναντας' (judging/considering) is used here as a participle of thought, but the Vietnamese 'thúc đẩy' (motivating/driving) changes the meaning from 'considering/judging' to 'motivating'. The Greek describes the *reason* for their action (because they judged that...), not the *impulse* behind it."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνεχει' (continuously/constantly) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

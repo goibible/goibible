@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαρτυρουμενος' (martyroumenos) is a passive participle meaning 'being testified to' or 'being borne witness against.' The Vietnamese translation 'làm chứng tốt' implies he was giving good testimony/witness, which reverses the direction of the action. In context (Acts 23:10), it means he was being accused/testified against by others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

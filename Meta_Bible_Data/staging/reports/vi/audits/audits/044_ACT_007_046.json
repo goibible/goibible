@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητησατο ευρειν' (hētēsato eurein) means 'desired to find' or 'sought to find', but the Vietnamese 'xin tìm' translates to 'asked to find' or 'requested to find'. The Greek verb expresses an internal desire/seeking, not a request made to another person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

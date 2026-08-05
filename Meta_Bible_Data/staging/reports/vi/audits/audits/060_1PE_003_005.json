@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκοσμουν' (ekosmoon) means 'to adorn,' 'to decorate,' or 'to make beautiful.' The Vietnamese translation uses 'trang điểm' (makeup/dress up), which is a modern, specific interpretation of 'adornment' that may be too narrow. However, more critically, the Greek construction 'εκοσμουν εαυτας υποτασσομεναι' implies they 'adorned themselves *by* [the act of] submitting.' The Vietnamese 'bằng cách vâng phục' captures the means well, but 'trang điểm' can imply a superficial aesthetic rather than the spiritual/moral 'adorning' intended in the context of the NT."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

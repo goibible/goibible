@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'επιλαμβανεται' (epilambanetai) in this context (Galatians 3:16) refers to 'receiving', 'taking hold of', or 'being heirs of' (inheritance), not 'giúp đỡ' (helping). The Vietnamese translation changes the fundamental theological meaning from inheritance to assistance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

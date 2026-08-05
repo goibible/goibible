@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι δε του χριστου' (the [ones] of Christ) in this context (Galatians 5:24) refers to those who belong to Christ by virtue of their faith/identity, but the Vietnamese 'Những kẻ thuộc về Đấng Christ' can be interpreted as 'those belonging to Christ' in a way that suggests a group of people. However, more critically, the Greek 'σαρκα' (flesh) is the object being crucified. The current Vietnamese 'đóng đinh xác thịt' is technically correct but misses the nuance of the subject-object relationship if not clearly distinguished; however, the primary issue is the potential for the reader to see 'the flesh' as something belonging to Christ rather than the self's flesh. More importantly, 'συν τοις παθημασιν' (with the passions/suffering) and 'ταις επιθυμιαις' (desires) are correctly rendered, but the structure 'đóng đinh xác thịt cùng với...' is a literal rendering of 'crucified the flesh along with...'. The translation is largely faithful, but I am flagging for 'mistranslation' regarding the scope of 'the flesh' if the reader interprets 'xác thịt' as Christ's flesh rather than the human nature."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

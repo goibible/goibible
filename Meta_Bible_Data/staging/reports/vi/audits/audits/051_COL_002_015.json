@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδειγματισεν' (edeyimtisen) is a causative verb meaning 'He caused to be shown/manifested'. The Vietnamese translation 'khiến chúng nên gương tỏ' suggests He made them *become* mirrors/examples, which shifts the meaning from 'making them manifest' to 'transforming them into examples'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'θριαμβευσας' is a participle modifying the subject (He). The Vietnamese structure 'chiến thắng chúng trong Ngài' makes 'winning/triumphing over them' look like a secondary result or a separate action, whereas in Greek it describes the manner/action of the manifestation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

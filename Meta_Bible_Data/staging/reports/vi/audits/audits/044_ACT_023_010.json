@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη διασπασθη' (not to be torn apart/ripped) is translated as 'xé xác' (torn to pieces/mutilated). While 'xé' captures the sense of tearing, 'xác' implies a corpse or mangling that goes beyond the literal 'διασπασθη' (to be torn apart/broken into pieces), though this is a minor nuance. However, the primary issue is the causal structure."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nên' (so/therefore) to create a causal link between the fear of Paul being torn apart and the commander's order. The Greek text simply places these actions in sequence (the rebellion happened, the commander feared, he ordered). The Greek does not explicitly state that the fear was the *reason* for the command, though it is implied."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

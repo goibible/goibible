@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευθεως' (eutheōs) means 'immediately' or 'straightway,' but the Vietnamese 'tức thì' combined with 'đến bờ' (arrived at the shore) creates a potential ambiguity. More importantly, the Greek 'εγενετο' is an aorist (happened/became), while the Vietnamese 'đã đến' implies a completed action of arrival. However, the primary issue is 'ευθεως' modifying 'εγενετο'. The Vietnamese 'tức thì' is a good rendering of 'ευθεως', but 'đến bờ' is a slight shift from 'επι της γης' (upon the land/shore). The most significant issue is the lack of the specific sense of 'immediately' being tied to the movement; however, looking at the Greek 'ευθεως το πλοιον εγενετο', it means 'immediately the ship [was] upon the land'. The Vietnamese 'đến bờ' (arrived at shore) is a functional translation of 'επι της γης' in this context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

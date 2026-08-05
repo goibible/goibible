@@ -1,0 +1,22 @@
+{
+  "book": "2JN",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀσπαζέστε' (aspazeste) is a present active imperative, meaning 'greet' or 'welcome'. The Vietnamese translation 'chào thăm' is used as a noun/verb phrase describing an action already taken or a state, but the Greek is a direct command to the audience. More importantly, 'ἀσπαζέστε' in this context is a command to greet the children, whereas the Vietnamese phrasing suggests the children are the ones doing the greeting ('Con cái... chào thăm')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τῆς ἐκλεκτῆς' (tes eklektēs) is feminine singular, referring to 'the chosen one' (the sister). The Vietnamese 'được chọn' (chosen) is used as an adjective, which is acceptable, but the grammatical relationship of 'the chosen' as a specific title/designation for the sister is slightly weakened."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

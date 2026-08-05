@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κακως εχοντας' (having taken up/carried badly/roughly) refers to the *manner* in which they were carrying the people. The Vietnamese translation 'đau nằm trên cái giường' (painfully lying on the bed) introduces a specific detail ('bed') and an interpretation of 'badly' as 'painful' that is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περιδραμοντες' (running about/rushing) implies a sense of urgency or running. The Vietnamese 'chạy khắp' captures 'running', but the phrase 'bắt đầu khiêng' (started carrying) slightly softens the continuous/active nature of the rushing movement described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

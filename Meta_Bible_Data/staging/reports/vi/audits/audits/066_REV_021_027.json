@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και ου μη εισελθη' (and neither shall enter) implies a prohibition/exclusion of entry. The Vietnamese 'Chẳng có điều... vào đó' (No ... into that) renders the subject as 'things' (ô uế, điều gớm ghiếc, sự nói dối), whereas the Greek structure suggests that no *person* (implied by the context of 'entering') who does these things shall enter. More importantly, the Vietnamese omits the 'neither/nor' structure which links the action of entering with the actions of doing evil/lying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

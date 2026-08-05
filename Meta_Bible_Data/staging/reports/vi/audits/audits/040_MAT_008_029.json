@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ημιν και σοι' (what to us and to you) is rendered as 'chúng tôi với Ngài có can hệ gì?' (what do we have to do with you/what is our relation?). While it conveys the sense of 'what business do we have,' it misses the specific grammatical structure of 'to us' and 'to you'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προ καιρου' (before time / beforehand) is rendered as 'trước thời điểm' (before a point in time). In this context, 'προ καιρου' indicates the purpose or timing of the arrival (premeditated), whereas 'trước thời điểm' sounds like a specific chronological marker."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

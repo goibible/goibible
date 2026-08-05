@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'ουδεν με ηδικησατε' is a single clause ('you have not wronged me'). The Vietnamese translation splits this into two separate sentences, creating a causal/logical break that isn't in the Greek. More importantly, it omits the direct connection between the plea and the reason."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'tôi nài xin anh em' (I beg you) is a slight over-translation of 'δεομαι υμων' (I need/require you) in this specific context, but the primary issue is the structural break. The Greek 'ουδεν με ηδικησατε' functions as the reason for the plea, while the Vietnamese makes it a standalone observation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

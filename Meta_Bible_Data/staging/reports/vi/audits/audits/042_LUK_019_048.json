@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχ ευρισκον' (they were not finding/could not find) refers to the people being unable to find what to do, but the Vietnamese 'không tìm được cách nào để làm' suggests they were looking for a method/way to perform an action, whereas the Greek implies a state of being unable to find a course of action or response. More importantly, the Greek 'ο λαος γαρ απας εξεκρεματο αυτου ακουων' describes the people as 'listening' (akouōn) to Him, but the Vietnamese 'chăm chú nghe' adds 'chăm chú' (attentively/intently), which is an addition of manner not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βαρβαροι' (barbaroi) means 'barbarians'. The Vietnamese translation 'Dân bản xứ' means 'indigenous people' or 'locals', which is a different category of people."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αναψαντες γαρ πυραν προσελαβοντο' describes the action of 'lighting' (igniting) the fire. The Vietnamese 'đốt lửa' covers 'lighting/burning', but the Greek structure implies they 'lit a fire and [then] received/took us in'. The translation 'đốt lửa và tiếp rước' is acceptable, but the nuance of 'αναψαντες' as a participle describing the action of lighting the fire before receiving is slightly compressed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

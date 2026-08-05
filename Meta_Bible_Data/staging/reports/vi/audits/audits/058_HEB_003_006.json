@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε' (de) is a conjunction meaning 'but' or 'however', but the Vietnamese translation uses 'trung tín' (faithful/loyal), which is not present in the Greek text. The word 'trung tín' appears to be an addition/substitution that changes the grammatical function of the sentence."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βεβαιαν' (bebaian) means 'surely' or 'certainly', which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

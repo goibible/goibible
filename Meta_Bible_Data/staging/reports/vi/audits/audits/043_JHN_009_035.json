@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Ngươi có tin đến Con Đức Chúa Trời không?' (Do you believe in the Son of God?) misses the definite article 'the' before 'Son'. In Greek, it is 'τον υιον', which specifies 'the Son'. While often implied in Vietnamese, 'Con Đức Chúa Trời' can sound like a general category rather than the specific title/person intended by the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

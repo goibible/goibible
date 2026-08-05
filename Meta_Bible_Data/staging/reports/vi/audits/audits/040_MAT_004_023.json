@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'vương quốc' (kingdom) in the phrase 'Tin Lành của nước'. The Greek text says 'το ευαγγελιον της βασιλειας' (the gospel of the kingdom)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παραγενομενοι' (paragenomenoi) is a participle meaning 'having come' or 'arriving.' The Vietnamese 'đến' (came) captures the movement, but the phrase 'Các người hầu việc đến' suggests they are 'servants who arrived,' whereas the Greek structure implies the servants *arrived* and then performed the action of looking. More importantly, the Greek 'ουχ ευρον' is a negative construction (not finding), which is correctly translated as 'không thấy', but the overall flow of the Vietnamese sentence slightly obscures the sequence of arrival -> searching -> not finding."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

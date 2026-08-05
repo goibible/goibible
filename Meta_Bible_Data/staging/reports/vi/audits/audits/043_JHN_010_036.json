@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Ngươi nói phạm thượng' (You say blasphemy) changes the subject of the blasphemy. The Greek 'βλασφημεις' is a direct address to the listeners, meaning 'you [are blaspheming]' because they are saying he is the Son of God. The Vietnamese makes it sound like the listeners are accusing Jesus of saying something blasphemous, rather than the listeners themselves committing the act of blasphemy."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ον' (which/that) at the beginning of the sentence is omitted or merged into the structure, but more importantly, the Vietnamese loses the direct connection that the *act* of saying 'I am the Son of God' is what constitutes the blasphemy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

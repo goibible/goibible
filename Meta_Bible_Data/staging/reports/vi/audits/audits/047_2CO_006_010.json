@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'δε' (not) in both instances: 'δε χαιροντες' (not rejoicing) and 'δε πλουτιζοντες' (not enriching). The Vietnamese translation omits the negation, making it say 'mà thường vui mừng' (but often rejoicing) and 'mà làm cho nhiều người giàu có' (but making many people rich), which reverses the meaning of the original text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'ος εμπροσθεν μου γεγονεν' (who was before me), which is a significant theological and chronological claim in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηλιου' (heliou) is a genitive of 'helios' (sun), but in this specific context (referring to the time of Elijah), it is an error or archaic form for 'Elija' (Elijah). However, the Vietnamese translates it as 'Ê-li' (Elias), which is a different prophet. Even if interpreted as 'of the sun', the Vietnamese translation fails to capture the intended historical reference."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εξ ως εγενετο' (ex hos egeneto) means 'because/since it happened' or 'as it happened'. The Vietnamese translation omits this causal/temporal link, simply stating the famine occurred as a separate clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

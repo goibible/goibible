@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο της κοπης' (apo tēs kopēs) refers to 'from the toil/labor' of the kings, but the Vietnamese 'cuộc tàn sát' means 'the slaughter/massacre.' This significantly changes the meaning of the activity the kings were engaged in."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

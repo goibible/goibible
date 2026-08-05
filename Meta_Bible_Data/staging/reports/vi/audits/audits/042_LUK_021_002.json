@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινα' (tina) is an indefinite pronoun meaning 'someone' or 'a certain person'. The Vietnamese translation 'một' (one/a) is a common rendering, but the Greek specifically emphasizes the indefinite nature of the person seen. However, more importantly, the Greek 'βαλλουσαν' is an imperfect verb indicating continuous or repeated action ('were casting/putting'), whereas the Vietnamese 'bỏ' is a simple past/completed action. The Greek implies she was in the process of putting them in."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμωμοι' (amōmoi) means 'blameless' or 'faultless'. The Vietnamese translation 'không chỗ trách được' is a somewhat idiomatic rendering of 'blameless', but the Greek specifically refers to being without blame/reproach. While close, 'không chỗ trách được' can sometimes imply 'cannot be blamed' (an inability to be blamed) rather than the state of being 'blameless' (without fault). However, a more significant issue is the slight shift in nuance from 'blameless' to 'not able to be blamed'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

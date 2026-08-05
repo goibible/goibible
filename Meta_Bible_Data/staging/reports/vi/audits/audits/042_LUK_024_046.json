@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the introductory phrase 'και ειπεν αυτοις' (and he said to them)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτως γεγραπται και ουτως εδει παθειν' implies a sequence/correspondence ('thus it is written and thus [it was] necessary...'). The Vietnamese 'Có lời chép rằng' (It is written that...) misses the 'ouτως' (thus) repetition which links the writing to the necessity of the suffering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

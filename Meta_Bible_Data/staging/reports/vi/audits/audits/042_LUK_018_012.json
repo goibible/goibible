@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δις του σαββατου' refers to 'twice on the Sabbath' (or twice a week, specifically on the Sabbath), whereas the Vietnamese 'mỗi tuần hai lần' (twice every week) slightly alters the specific timing/frequency implied by the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

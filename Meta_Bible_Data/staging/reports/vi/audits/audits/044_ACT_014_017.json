@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ αμαρτυρον εαυτον' (not without bearing witness/evidence against himself) is translated as 'chẳng để mình không có chứng cớ'. However, the Greek structure implies that He did not [do something] without bearing witness against himself. The Vietnamese phrasing suggests a general state of 'not leaving himself without evidence', losing the specific nuance of the action being performed in the context of the sentence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και' (and) between 'διδους' and 'καιρους' is rendered as a comma/conjunction, but more importantly, the connection between the 'rain' and 'fruit-bearing seasons' is slightly obscured. The Vietnamese 'cho những thời điểm sinh hoa quả' treats the seasons as a separate object rather than the Greek 'καιρους καρποφορους' (fruit-bearing seasons)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verbs 'φευγετωσαν' (fugeetosan) and 'εκχωρειτωσαν' (ekchoreitosan) are in the aorist imperative, expressing a command to 'flee' and 'go out'. The Vietnamese translation uses 'hãy trốn' (should flee/let them flee) and 'hãy đi ra khỏi' (let them go out), which captures the imperative mood, but the Greek is a direct command to the subjects. However, the main issue is that the Greek describes an action taking place ('fled' or 'were fleeing' in some contexts of the narrative, though grammatically imperative here) while the Vietnamese 'hãy' can sometimes imply a suggestion or a future exhortation rather than the immediate command/action of the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full DAN QA batch.",
+  "groups": [
+    {
+      "name": "DAN full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "DAN 1",
+        "DAN 2",
+        "DAN 3",
+        "DAN 4",
+        "DAN 5",
+        "DAN 6",
+        "DAN 7",
+        "DAN 8",
+        "DAN 9",
+        "DAN 10",
+        "DAN 11",
+        "DAN 12"
+      ]
+    }
+  ]
+}

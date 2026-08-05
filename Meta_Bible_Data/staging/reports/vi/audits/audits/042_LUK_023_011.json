@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξουθενησας' means 'exhausted', 'weakened', or 'depleted'. The Vietnamese translation 'khinh dể' (despised/scorned) is a significant mistranslation of the action performed by Herod."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

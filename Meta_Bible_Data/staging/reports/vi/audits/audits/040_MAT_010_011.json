@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξετασατε' (exetāsate) means 'examine', 'investigate', or 'test'. The Vietnamese 'hỏi thăm' means 'ask about' or 'inquire'. While related, 'hỏi thăm' is much weaker than the investigative nature of 'examine'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εως αν εξελθητε' implies 'until you leave' (or 'until you go out'). The Vietnamese 'cho đến khi đi' is slightly ambiguous as to who is leaving; it should more clearly reflect the action of departing from that place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

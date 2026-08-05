@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινος αυτων' (of whom of them) is a question about which man the woman belongs to. The Vietnamese 'người ấy sẽ là vợ của ai trong bảy người?' (who among the seven will that person be the wife of?) shifts the focus or phrasing in a way that slightly obscures the specific grammatical relationship of 'whom of them' as the subject of possession."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινος αυτων' specifically refers to 'which of them' (the seven). The Vietnamese phrasing 'người ấy sẽ là vợ của ai' (that person will be the wife of whom) is slightly different in structure, though it captures the core inquiry. However, a more precise rendering would be 'người ấy sẽ là vợ của ai trong số họ'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

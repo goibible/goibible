@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρι ασβεστω' (pyri asbestō) means 'unquenchable fire' or 'fire that cannot be extinguished'. The Vietnamese translation 'lửa chẳng hề tắt' (fire that never goes out/doesn't turn off) is a slightly different nuance, but more importantly, the Greek describes the *nature* of the fire (unquenchable), whereas the Vietnamese can be read as a continuous state. However, the primary issue is the rendering of 'πυρι' as 'lửa' and 'ασβεστω' as 'chẳng hề tắt'. While acceptable in some contexts, 'unquenchable' is the specific theological/literary term here."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'ου' (ou) at the beginning of the verse is a particle often used for emphasis or to mark a contrast in a series. While it doesn't have a direct grammatical translation in this context, its omission isn't a major fidelity issue, but the Vietnamese structure loses the specific introductory emphasis."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

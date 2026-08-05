@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασθενουντας' (asthenountas) is a present active participle meaning 'those who are weak' or 'the weak.' The Vietnamese 'kẻ yếu đuối' can mean 'the weak,' but in this specific context of healing, it often implies 'the sick' or 'the infirm' (those suffering from physical weakness). However, the most significant issue is the structure: the Greek uses a series of imperatives (heal, cleanse, raise, cast out) followed by a command to receive and give freely. The Vietnamese translates 'ασθενουντας' as an object ('kẻ yếu đuối'), but in the Greek, it functions as the direct object of 'θεραπευετε' (heal). While 'chữa lành kẻ yếu đuối' is grammatically acceptable, the Greek 'ασθενουντας' specifically refers to those suffering from physical infirmity/weakness."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific distinction of the 'free' (δωρεαν) action for 'receiving.' The Greek says 'receive freely, give freely' (δωρεαν ελαβετε δωρεαν δοτε). The Vietnamese renders this as 'các ngươi đã nhận lãnh không thì hãy cho không', which adds a conditional 'if/then' logic ('đã... thì') that is not present in the Greek parallel structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

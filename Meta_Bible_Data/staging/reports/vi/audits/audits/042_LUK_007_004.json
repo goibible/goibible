@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι αξιος εστιν' (that he is worthy) refers to the person being discussed in the preceding context (the man), but the Vietnamese 'Người ấy thật đáng' uses 'Người ấy' (He/That person), which can be ambiguous. More importantly, the Greek 'ω παρεξει τουτο' is an exclamation of request/pleading ('O, grant this!'), but the Vietnamese 'cho Thầy làm điều nầy' (let Teacher do this) slightly shifts the focus of the exclamation into a statement of purpose."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

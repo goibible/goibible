@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις δε συμφωνησις' (what agreement/harmony) is rendered as a rhetorical question structure in Vietnamese ('nào có... gì'), but the Greek phrasing 'τις δε συμφωνησις χριστω προς βελιαρ' actually implies 'What harmony [is there] of Christ toward Belial?' The Vietnamese phrasing slightly shifts the focus to a general inquiry about whether they have harmony, whereas the Greek is a specific rhetorical question regarding the impossibility of such a connection."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

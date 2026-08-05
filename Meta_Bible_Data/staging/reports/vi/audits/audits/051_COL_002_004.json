@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραλογιζηται' (paralogizētai) refers to 'reasoning falsely' or 'misreasoning.' The Vietnamese 'dỗ dành' (soothing/coaxing/lulling) changes the meaning from a logical error to a deceptive emotional tactic. Furthermore, 'εν πιθανολογια' (en pithanologia) means 'in speculation' or 'in probability,' which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'βραβευετω' (brabeuetō) is a passive optative, often translated as 'may be established', 'may be settled', or 'may take root'. The Vietnamese translation 'cai trị' (rule/reign) is a significantly different concept than 'being established' or 'taking root'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εν ενι σωματι' (en eni somati) refers to being called into 'one body'. The Vietnamese translation 'trong một thân thể' is technically correct, but the preceding clause 'là sự bình an mà anh em đã được gọi đến' (is the peace that you were called into) slightly shifts the grammatical relationship of the 'called' action compared to the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

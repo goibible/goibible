@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μητε... μητε' (neither... nor) is used to describe the lack of sun and stars. The Vietnamese translation 'Mặt trời và các ngôi sao chẳng hiện ra' (Sun and stars do not appear) loses the 'neither/nor' structure, but more importantly, the phrase 'mùa đông dữ dội đè nặng' (fierce winter weighs down) is a poetic expansion of 'ημερας χειμωνος τε ουκ ολιγου' (days of winter not few). The Greek specifies that there were 'not few' days of winter, which is a quantitative description of duration, whereas the Vietnamese adds 'dữ dội' (fierce/severe) and 'đè nặng' (weighs down), which are qualitative descriptions not present in the source text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιηρειτο' (was being swept away / was vanishing) is rendered as 'tiêu tan' (vanished/dissipated). While 'tiêu tan' captures the general sense of 'perieiretai', it loses the nuance of the continuous/imperfect aspect of the Greek, which suggests a process of being swept away or fading out."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

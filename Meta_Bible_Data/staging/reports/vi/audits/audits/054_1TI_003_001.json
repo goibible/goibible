@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εἰ' (ei) is a conditional particle ('if'), but the Vietnamese 'Nếu có ai' adds 'có ai' (anyone/someone), which is not present in the Greek text. The Greek simply says 'if [one] desires...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ορεγεται' (oregetai) and 'επιθυμει' (epithymei) are two distinct verbs meaning 'desires/longs for' and 'wants/desires'. The Vietnamese combines these into a single conceptual flow ('mong muốn... thì ấy là ưa thích') which loses the specific repetition/emphasis of the two distinct Greek verbs."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

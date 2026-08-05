@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τη ιδια εξουσια' means 'in the same authority/essence/power'. The Vietnamese translation 'trong quyền riêng của mình' (in his own private power) changes the meaning from 'shared/same' to 'private/exclusive'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το εκ μερους' (the part/portion) is translated as 'điều thuộc về phần', which is a confusing construction in Vietnamese. In this context (likely referring to 1 Corinthians 15:24), it refers to the 'partial' nature or the 'part' of the body, but the Vietnamese phrasing suggests 'something belonging to a part,' which alters the clarity of the Greek subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

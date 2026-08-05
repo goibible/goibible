@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 14,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωδε' (hōde) means 'here' or 'this', but the Vietnamese translation renders it as 'Đây là' (This is). While acceptable in some contexts, the Greek structure 'ωδε... εστιν' implies 'Here is...', whereas the Vietnamese makes it a definitive identification of the subject. More importantly, the Greek 'ωδε' appears twice. The first 'ωδε' is used to introduce the concept, and the second 'ωδε' (in 'ωδε οι τηρουντες') functions as 'here [are] those who...'. The Vietnamese merges these into a single colon structure, losing the repetitive emphasis of 'hōde' which highlights the presence/location of both the endurance and the people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

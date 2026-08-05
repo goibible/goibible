@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προφητων' (prophets) refers to the books of the Prophets. The Vietnamese translation 'các nhà tiên tri' refers to the people (the prophets themselves). This changes the meaning from a reading of scripture to a reading of people."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεστειλαν οι αρχισυναγωγοι' specifies that it was the 'rulers/leaders of the synagogue' who sent the men. The Vietnamese 'các quản lý nhà hội' is a functional translation, but the Greek emphasizes the authority of the leaders sending the messengers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

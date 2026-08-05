@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συνδουλος' (syndoulos) means 'fellow-slave' or 'co-servant,' implying a shared status of servitude/bondage. The Vietnamese translation 'bạn đồng công' translates to 'partner in work' or 'colleague,' which shifts the nuance from shared servitude to professional partnership."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'των τηρουντων τους λογους του βιβλιου τουτου' refers to those who 'keep/guard the words of this book.' The Vietnamese translation 'những người giữ các lời của sách này' is mostly accurate, but the Greek phrasing implies a specific role of guarding the words of the book (which is often interpreted as the Law or the Prophets in context), whereas the Vietnamese makes it slightly more general."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text lists 'τη υπομονη' (patience/endurance) as a separate item at the end of the list. The Vietnamese translation repeats 'sự nhịn nhục' twice (once for 'τη μακροθυμια' and once for 'τη υπομονη'), but it fails to clearly distinguish them or correctly structure the final repetition, making it appear as if the last two items are redundant or one is a modifier of the other."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τη προθεσει' (purpose/intent) is translated as 'mục đích', but in this context, it refers to the 'purpose' or 'resolve' of the instruction. While not a strict omission, the repetition of 'sự nhịn nhục' creates a structural confusion regarding the final two Greek nouns."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

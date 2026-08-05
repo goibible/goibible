@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αμπλιαν' (Amplian) is likely a proper name, but the Vietnamese translation 'Ampli' truncates it. However, more importantly, the Greek 'αμπλιαν' looks like a specific name, and if the Vietnamese 'Ampli' is intended as a name, it is acceptable. But there is a potential issue with 'αμπλιαν' being a typo for something else or a very specific name. Looking at the grammar, 'αμπλιαν' is in the accusative case as the direct object of 'ασπασασθε'. The Vietnamese correctly identifies the object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'επιδειξατε μοι' (Show me), but the Vietnamese translation uses 'cho ta xem' (show me) while the second clause switches the subject/object perspective. More importantly, the Greek says 'οι δε προσηνεγκαν αυτω' (but they brought to Him), but the Vietnamese says 'Họ liền đưa cho Ngài' (They immediately gave to Him). The Greek 'δε' is a negative particle (not/but not), and 'προσηνεγκαν' is a perfect tense verb. The Vietnamese 'liền' (immediately) is an addition not present in the Greek, and the negation/contrast implied by 'δε' is lost or misinterpreted as a simple sequence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

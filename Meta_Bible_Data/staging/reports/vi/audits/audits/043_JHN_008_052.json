@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δαιμονιον εχεις' (literally 'you have a demon') is rendered as 'thầy bị ma quỷ ám' (you are possessed by/under the influence of a demon). While similar in theme, 'having a demon' and 'being possessed' carry different theological nuances in Greek thought; however, since 'having a demon' is the direct sense, this is borderline. A more significant issue is the phrasing of 'εαν τις τον λογον μου τηρηση'. The Vietnamese uses 'Nếu ai giữ lời ta', but the Greek construction 'τις τον λογον μου' implies 'anyone [who] keeps my word'. The Vietnamese captures this well."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ου μη' is a double negative (lit. 'not not'), which functions as an emphatic affirmative in some contexts, but in this specific grammatical structure (εαν... ου μη γευσεται), it functions to mean 'will NOT taste'. The Vietnamese 'sẽ chẳng bao giờ nếm' correctly captures the intended meaning of the negation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

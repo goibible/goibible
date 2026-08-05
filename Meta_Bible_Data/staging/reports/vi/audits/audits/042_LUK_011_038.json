@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προ του αριστου' refers to the 'fast' (fasting period), but the Vietnamese translation 'trước bữa ăn' translates it as 'before a meal'. This changes the specific religious context of the fasting period to a general meal."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

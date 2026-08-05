@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'κυριος εστιν ο υιος του ανθρωπου' (the Son of Man is Lord), but the Vietnamese translation omits 'con của loài người' (Son of Man) and simply says 'Con người' (Man/Human)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

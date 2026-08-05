@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'ελεηση' is in the infinitive form (to have mercy/mercy), but the Vietnamese translation 'để thương xót' lacks a clear object or completion. More importantly, the Greek implies 'in order to [have mercy on them]', where 'them' (τους) is the direct object of the mercy. The Vietnamese version omits the object of the mercy, which could lead to a slightly different understanding of who is being shown mercy."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

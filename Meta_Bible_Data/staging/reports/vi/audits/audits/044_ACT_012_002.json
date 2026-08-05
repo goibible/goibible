@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανειλεν' (aneilen) is a specific form of 'ailen' (to kill), but the Vietnamese 'giết' is correct. However, the Greek 'ιακωβον' (Iakobon) refers to James, and the Vietnamese 'Gia-cơ' is the standard equivalent. The issue lies in the lack of a clear subject in the Greek fragment provided (it starts with the verb), but the Vietnamese adds 'Vua' (The King). While contextually implied in many accounts, it is an addition not present in this specific Greek string."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

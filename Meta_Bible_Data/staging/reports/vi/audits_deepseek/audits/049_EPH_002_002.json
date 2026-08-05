@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του πνευματος' (the spirit) is rendered as 'Thánh Linh' (Holy Spirit), which adds a specific identity not present in the Greek. The Greek simply says 'the spirit' (referring to the spirit of the ruler of the air, i.e., the evil spirit), not the Holy Spirit. This changes the meaning for the Vietnamese reader."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

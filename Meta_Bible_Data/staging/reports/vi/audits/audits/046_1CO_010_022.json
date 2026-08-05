@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'παραζηλουμεν' (parazēloumen) means 'to provoke', 'to stir up', or 'to incite'. The Vietnamese translation 'trêu lòng Chúa ghen' (provoke God's jealousy) adds the concept of 'jealousy' (ghen) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

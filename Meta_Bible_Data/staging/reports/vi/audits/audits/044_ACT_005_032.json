@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'cũng vậy' (also/likewise) at the end of the sentence creates a logical disconnect. The Greek text states that God gave the Holy Spirit to those who obey Him. The Vietnamese phrasing suggests that 'the Holy Spirit' is also a witness or shares the same status as 'we', which is not in the Greek. The Greek structure is: 'And we are witnesses... and God gave the Holy Spirit to those who obey Him.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

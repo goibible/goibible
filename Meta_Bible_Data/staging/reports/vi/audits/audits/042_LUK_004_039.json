@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'quở trách' (reprimanded/rebuked) is a subjective interpretation. The Greek 'ἐπετιμησεν' means 'commanded' or 'ordered'. While 'rebuked' conveys the authority, 'commanded' is the more accurate translation of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'người chờ dậy' (waited to get up) adds a nuance of waiting that is not in the Greek 'δε αναστασα' (without rising/immediately). The Greek implies he didn't even have time to stand up before starting to serve."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

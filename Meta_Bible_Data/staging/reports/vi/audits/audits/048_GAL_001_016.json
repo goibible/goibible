@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου προσανεθεμην' (ou prosanethemen) is a perfect passive participle meaning 'not having been joined' or 'not being joined.' The Vietnamese 'lập tức tôi chẳng tham khảo' translates to 'immediately I do not consult,' which changes the grammatical structure and the core meaning of the relationship between the speaker and the flesh/blood."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

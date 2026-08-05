@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεοπνευστος' (theopneustos) means 'God-breathed' or 'inspired by God.' The Vietnamese 'soi dẫn' means 'guided' or 'led,' which is a different concept than the specific term for divine inspiration."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγχον' (elenchon) refers to 'reproof' or 'exposition/conviction.' The Vietnamese 'bằng cớ' means 'evidence' or 'proof,' which changes the functional meaning of the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

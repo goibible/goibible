@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ της εξουσιας ηρωδου' means 'from the authority of Herod' (sent by/out of his authority), but the Vietnamese 'thuộc quyền của Hê-rốt' translates to 'belonging to/under the power of Herod', which changes the relationship from the source of the action to a state of ownership/subjection."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese fails to clearly distinguish the two different 'Herods' mentioned in the Greek (the authority of one Herod and the presence of another Herod). The Greek implies two distinct entities (or at least two distinct roles/locations), but the Vietnamese phrasing makes it sound like a single person is being described as both the sender and the one present."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

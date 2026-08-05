@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'εστιν' (is) and the structure 'ως εαν' (as if). While the meaning is similar, the Greek specifically uses a conditional/comparative 'as if', whereas the Vietnamese renders it as a direct comparison ('cũng như'). More importantly, the phrase 'εστιν η βασιλεια' (is the kingdom) is slightly condensed in the Vietnamese."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

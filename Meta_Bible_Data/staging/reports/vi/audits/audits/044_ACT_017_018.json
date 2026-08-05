@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπερμολογος' (spermologos) refers to a 'seed-gatherer' or 'seed-sower'. The Vietnamese translation 'người ba hoa' (someone who speaks/talks) is a significant loss of the specific imagery regarding the sowing of seeds."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνεβαλλον αυτω' (synevallon autō) means 'contributed to him' or 'added to [his argument]'. The Vietnamese 'tranh luận với ông' (debated with him) changes the nature of the interaction from contributing/adding to a debate to an oppositional debate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

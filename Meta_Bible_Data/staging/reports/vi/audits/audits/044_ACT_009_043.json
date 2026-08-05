@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημερας ικανας' (sufficient days / enough days) is translated as 'nhiều ngày' (many days). While similar, 'enough/sufficient' implies a specific duration required for an action, whereas 'many' is a general quantifier."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αν δυναιμην' (if I were able) is rendered as a rhetorical question 'Làm sao tôi có thể hiểu được' (How could I understand), which changes the grammatical structure from a conditional statement to an interrogative one."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific condition 'εαν μη τις οδηγηση' (unless someone leads/guides [me]) as a direct condition for his ability, turning it into a separate question."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναβαντα καθισαι συν αυτω' (immediately sat down with him) describes the action of sitting down together. The Vietnamese 'ngồi cùng xe với mình' (sat in the same car/vehicle) adds the concept of a 'car' (xe) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βρωματα' (bromata) refers to 'refuse', 'scum', or 'filth' (often in a spiritual/moral context), not 'đồ ăn' (food). The Vietnamese translation interprets it as food, which changes the theological meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτε το πασχα εθυον λεγουσιν' (when they say the Passover) is rendered as 'là ngày họ giết con sinh lễ Vượt Qua' (is the day they kill the Passover lamb). The Vietnamese adds the specific action of 'killing the lamb' which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'που θελεις' (where you want) is rendered as 'Thầy muốn chúng tôi đi' (Teacher wants us to go). The Vietnamese shifts the subject of the desire from Jesus ('you') to the disciples ('we')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

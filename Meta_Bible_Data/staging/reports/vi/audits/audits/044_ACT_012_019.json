@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηρωδης δε επιζητησας αυτον' means 'Herod, not having found him'. The Vietnamese translation 'Hê-rốt tìm kiếm người, không thấy' (Herod searched for the person, did not see/find) is a slight shift in structure but acceptable. However, the Greek 'μη ευρων ανακρινας' means 'not having found [him], he questioned'. The Vietnamese 'bèn tra hỏi' (then questioned) correctly captures the sequence. The primary issue is the omission of the specific object of the questioning ('τους φυλακας' - the guards). The Vietnamese says 'tra hỏi kẻ canh giữ' (questioned the guard/guards), which is correct."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκελευσεν απαχθηναι' means 'he ordered [them] to be taken away'. The Vietnamese 'truyền lịnh dẫn họ đi' captures this. The Greek 'κατελθων απο της ιουδαιας εις την καισαρειαν διετριβεν' describes the movement and staying. The Vietnamese 'người từ xứ Giu-đê xuống thành Sê-sa-rê, ở lại tại đó' is accurate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

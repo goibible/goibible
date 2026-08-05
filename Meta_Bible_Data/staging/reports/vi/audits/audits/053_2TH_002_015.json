@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραδοσεις' (paradosis) refers to 'traditions' or 'handing down', but the Vietnamese translation uses 'truyền khẩu' which specifically means 'oral tradition' or 'word of mouth'. The Greek does not specify that these traditions are exclusively oral; they are simply the traditions/teachings handed down."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

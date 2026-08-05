@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στέφανον' (stephanon) means 'body' or 'corpse' in this context, but the Vietnamese translation adds the specific name 'Ê-tiên' (Eutychus), which is not present in the Greek text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

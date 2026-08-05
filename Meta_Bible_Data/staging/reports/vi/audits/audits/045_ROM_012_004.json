@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ου' (ou), which functions as a negative particle. While the Vietnamese 'không' correctly negates 'làm một việc', it fails to capture the specific scope of 'ου την αυτην εχει πραξιν'. The Greek implies 'not [having] the same [one] function/work', whereas the Vietnamese 'không cùng làm một việc' (do not do the same work) is a slight shift in the nature of the negation regarding the possession of a single function."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

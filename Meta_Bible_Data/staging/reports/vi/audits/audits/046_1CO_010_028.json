@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τον μηνυσαντα' (the one who warned/announced) is rendered in Vietnamese as 'người đã bảo cho biết' (the person who told/informed). While similar, the Greek 'μηνύω' specifically carries the sense of warning or announcing a prohibition. More importantly, the Vietnamese structure makes it sound like a general statement of 'telling', whereas the Greek implies the authority of the one who issued the warning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εαν δε τις υμιν ειπη' translates to 'if anyone says to you'. The Vietnamese 'Nếu có ai nói với các ngươi' is accurate, but the Greek 'δε' (not) in this context is a negative particle used in a conditional construction ('if not...'). However, the Vietnamese captures the meaning correctly. I am flagging the 'warning' nuance of 'μηνυσαντα' as a slight shift in intensity/type of speech."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ζηλοι' (zēloi) in this context refers to 'jealousy/envy' or 'strife', but the Vietnamese translation 'sự tranh cạnh' (competition/rivalry) is used twice to translate two different Greek words: 'ζηλοι' and 'εριθειαι'. Furthermore, 'εριθειαι' (eritheiai) specifically refers to 'ambition' or 'selfish ambition', which is lost in the repetition of 'tranh cạnh'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'φυσιωσεις' (physiōseis) refers to 'faces/countenances' or 'expressions'. The Vietnamese translation omits this concept entirely."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

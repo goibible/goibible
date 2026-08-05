@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηθη' (ēthē) means 'morals', 'character', or 'customs'. The Vietnamese translation 'thói quen' means 'habits'. While related, 'thói quen' is narrower than the moral character implied by 'ēthē'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'χρησθ' (chrēsthai) is an imperative verb meaning 'be careful', 'take heed', or 'use wisely'. The Vietnamese translation omits this command entirely, making the sentence a statement of fact rather than a warning/command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

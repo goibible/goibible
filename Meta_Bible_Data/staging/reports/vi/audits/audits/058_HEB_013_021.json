@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Nguyền xin Ngài' (Pray/May God) adds a petitionary tone that is not present in the Greek. The Greek 'καταρτισαι υμας' is a simple subjunctive expressing a purpose or result of the preceding context, not a formal prayer or request to God."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'là Đấng vinh hiển thuộc về Ngài' (is the glorious one belonging to You) misinterprets 'ω η δοξα' (how glorious/how great is the glory). The Greek expresses an exclamation of praise regarding the glory, not a description of Christ as a possession of God."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

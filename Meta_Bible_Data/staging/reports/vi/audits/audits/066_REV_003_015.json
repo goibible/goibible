@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οφελον' (ophelon) is a verb expressing a wish or necessity ('ought to be' / 'should be'), but the Vietnamese translation 'Ước gì... thì tốt!' (I wish... would be good!) slightly alters the grammatical mood. However, the more significant issue is the nuance of 'οφελον'. In this context, it functions as 'should have been' or 'ought to be' regarding the state of being. The Vietnamese captures the 'wish' aspect but loses the specific 'ought/should' requirement of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

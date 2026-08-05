@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σεμιδαλιν' (semidalin) refers to 'barley', but the Vietnamese translation 'bột lọc' means 'flour' or 'filtered powder'. This changes the specific type of grain mentioned."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'thấy' (saw) which is not in the Greek. While 'thấy' makes it natural, the Greek text simply says 'we fed' and 'we gave drink' (πεινωντα και εθρεψαμεν), without an explicit verb of perception like 'saw'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese uses 'hoặc' (or) to connect the two clauses, whereas the Greek uses 'και' (and). The Greek implies they did both actions (fed AND gave drink), while 'hoặc' suggests an alternative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

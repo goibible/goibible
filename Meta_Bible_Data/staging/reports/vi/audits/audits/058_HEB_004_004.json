@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειρηκεν γαρ που περι της εβδομης' translates to 'For it is written concerning the Sabbath', but the Vietnamese 'có chỗ nào đó nói về' (there is a place that says) changes the source of the authority from a specific scriptural citation ('it is written') to a vague existence of a statement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουτως' (thus/in this way) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η αγνοειτε' (Do you not know?) is a direct question to the brothers. The Vietnamese translation adds a parenthetical 'vì tôi nói với những người biết luật' (because I am speaking to those who know the law) which is not present in the Greek text. The Greek simply says 'brothers, do you not know...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

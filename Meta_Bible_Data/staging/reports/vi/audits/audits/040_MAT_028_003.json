@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η ιδεα' (hē idea) refers to his 'appearance' or 'manner', but the Vietnamese 'Diện mạo' is often used for physical facial features. More importantly, the Greek 'ως αστραπη' (ōs apraphē) uses the comparative/simile 'like lightning', whereas the Vietnamese 'như chớp' is accurate, but the structure of the sentence in Greek implies a specific visual manifestation that 'Diện mạo' might narrow too much. However, the primary issue is the lack of the 'δε' (de) which functions as a contrastive 'but/yet' or simply a conjunction, though the main fidelity issue is the rendering of 'η ιδεα' which can mean 'form' or 'appearance' in this context."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δε' (de) is a coordinating conjunction providing contrast/connection that is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

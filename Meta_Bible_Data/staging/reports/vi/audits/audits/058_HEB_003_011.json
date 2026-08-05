@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text 'ει εισελευσονται' (if they enter) is a conditional clause. The Vietnamese translation adds a negation ('chẳng hề' - will not at all) which changes the grammatical structure from a conditional statement to a prohibitive/declarative one."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

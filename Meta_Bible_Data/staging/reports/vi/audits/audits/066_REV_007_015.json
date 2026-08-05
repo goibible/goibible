@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 7,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'λατρευουσιν' (latreuousin) means 'worship'. The Vietnamese translation uses 'phục vụ', which means 'serve'. While service is a component of worship, 'worship' is the specific theological action described in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'σκηνωσει' (skēnōsei) specifically means 'will tabernacle' or 'will dwell in a tent/tabernacle'. The Vietnamese translation uses 'che chở', which means 'protect' or 'shelter'. This changes the specific imagery of the dwelling place from a tabernacle to general protection."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

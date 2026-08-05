@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'πειρασμοις' (peirasmois) refers to 'tribulations', 'trials', or 'hardships'. The Vietnamese translation 'cám dỗ' means 'temptation'. This is a significant shift in meaning as the Greek text describes enduring suffering/trials, not resisting temptation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'γενος εκλεκτον βασιλειον' (chosen royal generation/race) is rendered as 'dòng dõi được chọn, là chức tế lễ nhà vua'. The Vietnamese translation separates these into two distinct entities: a 'chosen lineage' and a 'royal priesthood' (chức tế lễ nhà vua), whereas the Greek structure describes the chosen generation *as* a royal priesthood."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "'λαος εις περιποιησιν' is rendered as 'dân thuộc về sự được rỗi'. While 'περιποιησιν' implies preservation/keeping, 'được rỗi' (salvation) is a specific theological concept not explicitly present in the Greek text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

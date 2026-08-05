@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'ει τεκνα του αβρααμ ητε τα εργα του αβρααμ εποιειτε' as a conditional statement ('Nếu... thì...'), but the Greek uses a rhetorical question/conditional structure ('If you are children of Abraham, do you do the works of Abraham?'). The Vietnamese omits the interrogative nature of the Greek 'εποιειτε' (do you do), making it a declarative statement of consequence rather than a challenge."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

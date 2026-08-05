@@ -1,0 +1,25 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Nehemiah QA batch.",
+  "groups": [
+    {
+      "name": "Nehemiah full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "NEH 1",
+        "NEH 2",
+        "NEH 3",
+        "NEH 4",
+        "NEH 5",
+        "NEH 6",
+        "NEH 7",
+        "NEH 8",
+        "NEH 9",
+        "NEH 10",
+        "NEH 11",
+        "NEH 12",
+        "NEH 13"
+      ]
+    }
+  ]
+}

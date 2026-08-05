@@ -1,0 +1,36 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Joshua QA batch.",
+  "groups": [
+    {
+      "name": "Joshua full",
+      "reason": "Full-book name QA during full-OT run (KJV fallback, no VIE1934).",
+      "refs": [
+        "JOS 1",
+        "JOS 2",
+        "JOS 3",
+        "JOS 4",
+        "JOS 5",
+        "JOS 6",
+        "JOS 7",
+        "JOS 8",
+        "JOS 9",
+        "JOS 10",
+        "JOS 11",
+        "JOS 12",
+        "JOS 13",
+        "JOS 14",
+        "JOS 15",
+        "JOS 16",
+        "JOS 17",
+        "JOS 18",
+        "JOS 19",
+        "JOS 20",
+        "JOS 21",
+        "JOS 22",
+        "JOS 23",
+        "JOS 24"
+      ]
+    }
+  ]
+}

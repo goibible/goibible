@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text contains a single instance of 'οργην' (anger), but the Vietnamese translation repeats it twice ('cơn thạnh nộ, cơn thạnh nộ')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

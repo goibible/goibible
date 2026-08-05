@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξελθε εξ αυτου' (exelthe ex autou) means 'came out of him' (referring to the demon leaving the man). The Vietnamese translation 'ra khỏi người nầy' (out of this person) combined with the context of 'quật ngã' (overthrow/knock down) makes it sound like Jesus is commanding the demon to leave the man, but the Vietnamese phrasing 'quật ngã người giữa đám đông' suggests the demon physically knocked the man down in the middle of a crowd, whereas the Greek 'εις το μεσον' simply means 'into the midst' (the center/middle) without specifying a 'crowd' (đám đông)."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đám đông' (crowd), which is not present in the Greek text ('εις το μεσον' refers to the middle/midst, not necessarily a crowd)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

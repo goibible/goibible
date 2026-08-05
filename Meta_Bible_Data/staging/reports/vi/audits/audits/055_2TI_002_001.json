@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ενδυναμου' (endynamou) is an imperative meaning 'be strengthened' or 'be empowered.' The Vietnamese translation 'hãy làm cho mình mạnh mẽ' translates to 'make yourself strong' (active), which shifts the focus from being empowered by God to a self-generated effort."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

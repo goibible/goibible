@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δουλευειν' (douleuein) means 'to serve' or 'to be enslaved to'. The Vietnamese translation 'phục vụ' usually implies a voluntary act of service, whereas the context of 'δουλευειν' in relation to 'ασθενη και πτωχα στοιχεια' (weak and poor elements) refers to being enslaved by or working under them. The Vietnamese phrasing 'phục vụ lại từ đầu' also slightly misses the nuance of 'working under/for' these elements."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πALIN' (again) appears twice: once before 'επιστρεφετε' (return) and once before 'δουλευειν' (serve). The Vietnamese translation captures the first 'again' (lại) but omits the sense of 'again' for the second action, though it uses 'lại từ đầu' (from the beginning) which is a stylistic shift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

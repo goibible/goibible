@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'anh em phải là người thế nào' (what kind of people must you be) changes the grammatical structure from the Greek 'δει υπαρχειν υμας' (it is necessary for you to be/exist). The Greek implies a state of being or existence, whereas the Vietnamese phrasing suggests a question of identity or character type that isn't explicitly in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ποταπους' (holy/saintly) is omitted in the description of 'αναστροφαις' (conduct/behavior). The Vietnamese translates this as 'thánh khiết' (holy/pure), but it is attached to the conduct rather than being part of the specific compound concept of 'holy conduct' (αγιαις αναστροφαις) which the Greek presents as a specific category."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

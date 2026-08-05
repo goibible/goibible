@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text begins with 'παλιν' (again/likewise), which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

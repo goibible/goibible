@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ασθενειας' (astheneias) means 'weakness' or 'infirmity' (physical/bodily), but the Vietnamese translation uses 'yếu đuối', which in modern Vietnamese often implies moral weakness or frailty of character. In this context, it refers to her physical ailment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

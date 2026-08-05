@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινος των επτα' means 'one of the seven' (singular). The Vietnamese 'ai trong bảy người' correctly identifies 'one of', but the Greek structure 'εσται γυνη παντες γαρ εσχον αυτην' implies 'all [of them] have had her'. The Vietnamese translation 'Vì tất cả đều đã có nàng' is slightly ambiguous regarding whether it refers to all seven having had her simultaneously or sequentially, but more importantly, the Greek 'εσχον' is an aorist participle, while the Vietnamese 'đã có' is a perfect tense. However, the primary issue is that the Greek 'τινος' (one) is singular, and the Vietnamese phrasing 'người ấy sẽ là vợ của ai trong bảy người' flips the focus slightly, but the most significant fidelity issue is the lack of clarity on the collective 'all' vs the specific 'one'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

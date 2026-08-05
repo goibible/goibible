@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του εμου' (from me) is translated as 'từ điều thuộc về ta' (from what belongs to me). This shifts the meaning from a direct source ('from me') to a possessive concept ('from what belongs to me')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και εποιησεν' (and he made/did) combined with 'αλλα πεντε ταλαντα' (but five talents) in this context (Matthew 25:16) implies the servant produced a profit of five talents. The Vietnamese translation 'làm thêm được' (made extra/gained extra) is a functional interpretation, but the Greek construction 'και εποιησεν αλλα πεντε ταλαντα' literally means 'and he made [a profit of] another five talents.' However, the critical issue is that the Vietnamese 'làm thêm được' implies a cumulative total or an addition to the original, whereas the Greek structure indicates the *result* of his work was five talents."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δικαιων' is a present active participle (the justifier/one who justifies) modifying 'θεος'. The Vietnamese translation renders it as 'Đấng xưng công bình' (The One who declares righteousness/just), which shifts the meaning from an ongoing action of justification to a descriptive title or state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

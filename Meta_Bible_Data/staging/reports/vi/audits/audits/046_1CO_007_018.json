@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation of the second clause 'τις εκληθη μη περιτεμνεσθω' as 'đừng chịu cắt bì' (do not undergo circumcision) is a negation of the action. The Greek 'μη περιτεμνεσθω' in this context (referring to those called who are NOT circumcised) functions as a prohibition against *reverting* or *being uncircumcised* in a way that implies they should stay as they are, but the Vietnamese phrasing 'đừng chịu cắt bì' makes it sound like a command not to get circumcised at all, which is a reversal of the logic intended for the uncircumcised who are called."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

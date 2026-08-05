@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδε δεδοξασται' (oude dedoxastai) is a future passive construction, meaning 'will not be glorified.' The Vietnamese 'chẳng được vinh hiển' is a simple present/perfective passive, missing the future aspect of the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

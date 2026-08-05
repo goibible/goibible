@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains a negation 'δε' (not), making the statement 'it is NOT permitted for you to speak'. The Vietnamese translation omits this negation, stating 'Ngươi được phép' (You are permitted)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

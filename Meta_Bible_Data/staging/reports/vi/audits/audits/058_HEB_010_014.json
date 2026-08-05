@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τετελειωκεν' (perfect tense) means 'has been completed/accomplished.' The Vietnamese translation 'đã làm cho... nên trọn vẹn' (has made... complete) shifts the action from the completion of the *offering* to the completion of the *people*. In Greek, the offering is what is finished/completed for the sake of the saints."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

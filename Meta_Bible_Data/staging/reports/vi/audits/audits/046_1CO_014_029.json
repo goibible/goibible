@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'λαλειτωσαν' (laleiitōsan) is in the aorist indicative active, describing an action that occurred ('two or three prophets spoke'). The Vietnamese translation uses the imperative mood ('hãy nói' - 'let them speak' or 'speak'), changing the statement of fact into a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

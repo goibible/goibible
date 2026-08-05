@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'α παραγγελλομεν υμιν' uses the present active indicative, which in this context functions as a general statement of what they are commanding/instructing. The Vietnamese translation 'đang làm' (are doing) incorrectly attributes the action of 'doing' to the subjects (the brothers), whereas the Greek indicates that the *commanding* is what is happening now. The Greek structure 'α παραγγελλομεν... και ποιειτε' implies 'what we command you [now/generally] and [you] do.' The Vietnamese makes it sound like they are currently in the process of obeying a specific ongoing command, slightly shifting the temporal focus."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

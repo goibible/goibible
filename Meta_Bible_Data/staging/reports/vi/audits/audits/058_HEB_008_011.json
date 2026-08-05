@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου μη' is a double negative (emphatic 'not'), meaning they WILL teach. The Vietnamese translates this as 'sẽ không dạy' (will NOT teach), reversing the meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μελλετε αποθνησκειν' (melettete apothnēskein) means 'are about to die' or 'will perish' in a sense of inevitable consequence. The Vietnamese translation 'sẽ chết' (will die) captures the future aspect but misses the specific nuance of 'melette' (being on the verge of/destined to). More importantly, the Greek 'πνευματι' (pneumati) is an adverbial use of 'spiritually' or 'by means of the Spirit', whereas the Vietnamese 'nhờ Thánh Linh' (by means of the Holy Spirit) adds a specific theological subject (the Holy Spirit) that is not explicitly named in the Greek text, which simply says 'spiritually'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

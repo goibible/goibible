@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προελθων μικρον' means 'having come forward a little' (referring to the distance he moved toward the disciples). The Vietnamese 'đi trước một chút' translates to 'went ahead a little bit' or 'walked a little further,' which changes the spatial relationship/direction of the movement."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρελθη απ αυτου η ωρα' means 'the hour might pass from Him' (the hour passing by/away from Him). The Vietnamese 'xin giờ này qua khỏi Ngài' translates to 'please let this hour pass [past] Him,' which can be interpreted as the hour passing *by* Him or moving past him, but misses the specific Greek sense of the hour departing *from* Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

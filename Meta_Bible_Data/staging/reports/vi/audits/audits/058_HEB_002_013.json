@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εσομαι' (esōmai) is the future tense of 'eimi' (to be). The Vietnamese translation 'sẽ tin cậy' (will trust/rely) uses a compound verb structure that implies an action of trusting, whereas the Greek 'εσομαι πεποιθως' literally means 'I will be persuaded/convinced.' However, more importantly, the Greek 'πεποιθως' is a perfect passive participle, indicating a state of being convinced. The Vietnamese 'tin cậy' (trust) is a standard active verb that slightly shifts the nuance from a state of conviction to an act of trust."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

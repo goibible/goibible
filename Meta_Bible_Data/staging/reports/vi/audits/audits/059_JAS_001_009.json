@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τω υψει αυτου' (in his height/exaltation) refers to the state or position of the person, but the Vietnamese 'về sự cao trọng của mình' (about their own honor/prestige) shifts the focus slightly. More importantly, the Greek 'καυχασθω' is an imperative/hortatory, but the Vietnamese 'Hãy để... khoe mình' (Let... boast) changes the subject of the action from the brother directly boasting to a passive construction where someone else allows the brother to boast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

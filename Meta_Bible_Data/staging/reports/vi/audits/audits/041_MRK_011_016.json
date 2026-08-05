@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διενεγκη' (dienenkē) is a passive verb meaning 'was not to be carried/transported' or 'was not to be moved'. The Vietnamese translation 'mang... đi ngang qua' (carrying... across/past) introduces the spatial concept of 'passing by' which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

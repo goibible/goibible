@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'Chúa là Chúa Giê-xu' (Lord is Lord Jesus), but the Greek says 'ο κυριος απεσταλκεν με ιησους' (the Lord sent me with Jesus). The Vietnamese version incorrectly conflates the subject and the agent of the sending."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the specific phrase 'ο οφθεις σοι' (who opened your eyes) or replaces it with a general description of the event, changing the direct action attributed to Jesus in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταυτα α θεωρειτε' (these things which you see) is rendered as 'những điều các ngươi đang thấy' (the things you are seeing), but the Vietnamese structure 'Những ngày sẽ đến, những điều các ngươi đang thấy' implies that the 'things you see' are the 'days to come', which is a logical/grammatical mismatch. In Greek, 'ταυτα' (these things) refers back to the preceding context, not as an appositive to 'days'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'προσλαβομενος' (proslabomenos), which means 'having taken him aside' or 'taking him apart.' The current Vietnamese version says 'đem Ngài riêng ra' (took Him alone/separately out), but misses the specific nuance of 'taking him aside' from the group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

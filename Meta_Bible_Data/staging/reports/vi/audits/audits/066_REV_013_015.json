@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 13,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δουναι πνευμα' (to give breath/spirit) is the direct object of 'εδοθη' (was given). The Vietnamese translation 'được ban cho hơi thở để trao cho' implies that the breath was given *in order to give* to the image, whereas the Greek says 'breath was given to him [the image] so that the image might speak'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

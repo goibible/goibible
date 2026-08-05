@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακολουθουσης' (akolouthousis) refers to 'following' or 'succession'. The Vietnamese translation 'đi theo' (going along/following) is placed as an adjective for the rock, but the Greek structure suggests the rock of 'following' (the source of following). More importantly, 'ακολουθουσης' in this context is often associated with 'consecration' or 'succession', and the Vietnamese phrasing 'hòn đá thiêng liêng đi theo' makes it sound like the rock itself is physically moving/following someone, rather than being the 'rock of following' (the foundation of those who follow)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

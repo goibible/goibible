@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του εθνους μου' (of my nation/people) is translated as 'dân ngoại của mình' (my foreigners/Gentiles). This reverses the meaning; the speaker is referring to his own people, not outsiders."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

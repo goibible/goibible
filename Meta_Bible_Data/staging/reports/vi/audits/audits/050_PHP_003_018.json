@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'περιπατουσιν ους' (walking as/like) is missing its object or the specific manner of 'walking'. More importantly, the Vietnamese translation omits the word 'như' (as/like) in relation to the action of walking; the Greek implies they are 'walking [as] enemies', but the Vietnamese structure makes it sound like they are living as enemies without clearly linking the 'walking' (conduct/lifestyle) to the 'enemies' status in the same way the Greek connects 'περιπατουσιν ους' with 'εχθρους'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the passive voice in 'ορασεις οψονται' (shall see visions) and 'ενυπνια ενυπνιασθησονται' (shall dream dreams). The Greek implies they will be shown/given visions/dreams, whereas the Vietnamese renders them as active actions ('sẽ thấy', 'sẽ có')."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek uses the future tense for both 'seeing visions' and 'dreaming dreams' (οψονται, ενυπνιασθησονται), but the Vietnamese structure slightly shifts the flow of the list, though the primary issue is the loss of the passive voice."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

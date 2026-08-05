@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετι' (eti) means 'also' or 'furthermore' in this context, but the Vietnamese 'còn' combined with the structure 'thì sai' implies a conditional or sequential 'then' (if/then), which slightly alters the additive nature of the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αυτου' (autou) specifically refers to the 'son of him' (the owner). The Vietnamese 'con trai' (son) omits the possessive relationship to the owner, though it is implied by context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

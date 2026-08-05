@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στηθι εις το μεσον' (stand in the middle) refers to the location/position of standing, but the Vietnamese translation 'đứng ở giữa' followed by the next clause 'Người ấy đứng dậy và đứng lên' (The man stood up and stood up) creates a redundancy or slight confusion. More importantly, the Greek 'ο δε αναστας εστη' describes the man standing *after* being told to stand in the middle; the Vietnamese 'đứng lên' at the end is a repetitive rendering of 'εστη' which already means 'stood'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηδει' (knew) is rendered as 'biết', but the nuance of 'knowing their thoughts' (διαλογισμους) is captured. However, the Vietnamese 'phán cùng' (spoke with/to) for 'ειπεν τω ανθρωπω' is acceptable, but the structure of the command 'στηθι εις το μεσον' is slightly clipped in the Vietnamese flow."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

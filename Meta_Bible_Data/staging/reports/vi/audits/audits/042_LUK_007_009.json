@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εθαυμασεν αυτον' (ethaumasen auton) means 'He was amazed AT HIM' (referring to the man), but the Vietnamese 'lấy làm lạ về người' can be interpreted as 'was surprised BY/ABOUT the person' or 'found the person strange'. More importantly, the Greek 'αυτον' refers specifically to the man mentioned in the preceding context. The Vietnamese phrasing is slightly ambiguous but acceptable; however, the primary issue is the grammatical construction of 'εθαυμασεν'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

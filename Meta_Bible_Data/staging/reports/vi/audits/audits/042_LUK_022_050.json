@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις τις εξ αυτων' (at/against some of them) is rendered in Vietnamese as 'Một người trong số họ' (One person among them). The Greek indicates that the action was directed against some of the group, not that one person from the group performed the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

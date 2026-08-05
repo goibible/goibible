@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πως αρεσει τη γυναικι' (how it pleases the woman) is rendered as 'tìm cách làm đẹp lòng vợ' (find ways to please the wife). The Greek describes a state of being/manner (how it pleases her), whereas the Vietnamese implies an active intent or method ('tìm cách' - find ways) not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

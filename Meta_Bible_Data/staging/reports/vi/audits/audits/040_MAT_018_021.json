@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποσακις' (how many times) is a direct question about the count, but the Vietnamese translates it as a conditional hypothetical ('nếu... thì') and turns the 'seven times' into a clarifying question ('Có phải đến bảy lần chăng?') rather than a statement of intent. The Greek says 'I will forgive him up to seven times' (αφησω αυτω εως επτακις), which is a definitive statement of his plan, not a question."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ο αδελφος μου' is singular ('my brother'), but the Vietnamese uses 'họ' (them) and 'anh em tôi' (my brothers/siblings), changing the number from singular to plural."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

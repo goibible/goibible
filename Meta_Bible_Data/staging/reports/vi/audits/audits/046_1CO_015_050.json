@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'βασιλειαν' (kingdom) as 'nước', which is standard, but it misses the specific nuance of the Greek 'κληρονομησαι' (to inherit/be an heir to). While 'thừa hưởng' is a correct translation for 'inherit', the Vietnamese structure makes it sound like a general statement of impossibility rather than the specific theological point that flesh and blood *cannot* be heirs to the kingdom. More importantly, the Vietnamese says 'không thể thừa hưởng' (cannot inherit), but the Greek 'ου δυνανται' (cannot/are not able) combined with the context of 'κληρονομησαι' implies a lack of capacity to be heirs. However, the most significant issue is the omission of the specific 'not' (ου) governing the first clause in a way that emphasizes the impossibility."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation slightly softens the Greek 'ου δυνανται' (cannot/are not able to). In the Greek, it is an emphatic negation of ability. The Vietnamese 'không thể' is acceptable, but the overall flow of the sentence in Vietnamese loses the sharp contrast of the Greek 'ου... ου...'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

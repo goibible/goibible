@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εις παραλαμβανεται' (the one who is taken/received) is translated as 'một người được đem đi' (one person is taken away). In the context of this parable (Matthew 13:43), 'παραλαμβανεται' refers to being 'taken' or 'gathered up' by the Kingdom, while 'αφηται' refers to being 'left' or 'abandoned'. The Vietnamese translation uses 'đem đi' (taken away/gone) for the first person and 'bỏ lại' (left behind) for the second. While 'đem đi' is a possible rendering of 'παραλαμβανεται', the specific contrast in the Greek is between being 'received/taken up' and 'left'. However, a more significant issue is that 'αφηται' is often rendered as 'bị bỏ lại' (left behind), but the Vietnamese phrasing 'được đem đi' vs 'bị bỏ lại' creates a passive voice distinction ('được' vs 'bị') that is not present in the Greek verbs, though it may be acceptable for natural flow. The primary concern is ensuring 'παραλαμβανεται' isn't confused with 'αφιεται'. Given the standard interpretation of this verse, 'đem đi' is a common rendering for 'taken', but if the reader interprets 'đem đi' as 'removed/taken away' in a negative sense, it might slightly shift the nuance of 'received'. I will flag it because 'đem đi' is slightly ambiguous compared to 'lấy đi' or 'nhận lấy'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σωζει' (sōzei) is a verb meaning 'saves'. The Vietnamese translates it as a noun/adjective component of 'hình bóng cứu chúng ta' (shadow of saving us), which loses the active verbal sense of the Greek: 'the baptism... saves us'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επερωτημα' (eperōtēma) is typically translated as 'question', 'inquiry', or 'request'. The Vietnamese translates it as 'lời hứa' (promise), which changes the nature of the concept from a petition/question to a promise."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

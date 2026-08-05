@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ανεζησεν' (lived forever/endured) is omitted or merged into the previous verb in the Vietnamese translation, losing the specific concept of eternal life."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κυριευση' (to have become Lord/to rule) is rendered as 'làm Chúa của' (to make/be the Lord of), which slightly shifts the active nature of the Greek verb into a state of being/possession."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

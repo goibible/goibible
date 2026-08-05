@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μειζονα πλουτον' (greater treasure) is an object of the verb 'ηγησαμενος' (having esteemed/regarded). The Vietnamese translates this as 'Người coi sự sỉ nhục của Đấng Christ là giàu có hơn...', which incorrectly attributes the 'greater treasure' status to the 'insult/reproach' (ονειδισμον) rather than the correct Greek structure where the person regarded the 'treasure' of the reproach as greater than the Egyptian treasures."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese misses the specific nuance that the 'reproach' (ονειδισμον) IS the treasure being compared. The Greek says he regarded the 'reproach of Christ' [as a] 'greater treasure' than the Egyptian treasures."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

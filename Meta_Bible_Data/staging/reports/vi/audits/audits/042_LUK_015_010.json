@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαρα γινεται' (joy happens/is made) implies a causative or resultant action ('there is joy' or 'joy happens'), but the Vietnamese structure 'có niềm vui về...' (have joy about...) shifts the focus slightly. More importantly, the Greek 'επι ενι αμαρτωλω μετανοουντι' (at/over one sinner repenting) describes the occasion of the joy. The Vietnamese translation is mostly accurate in meaning, but I am flagging it because 'γινεται' suggests a specific occurrence or result that 'có' (have/is) slightly softens."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

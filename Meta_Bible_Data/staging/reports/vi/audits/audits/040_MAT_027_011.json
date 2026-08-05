@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγεμων λεγων' (hegemon legōn) means 'commander of the soldiers' or 'centurion', but the Vietnamese 'quan tổng đốc' means 'governor' or 'provincial governor'. This changes the rank and role of the person speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

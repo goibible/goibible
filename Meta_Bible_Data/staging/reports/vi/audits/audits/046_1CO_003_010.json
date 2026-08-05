@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αλλος δε εποικοδομει' (but another builds) is rendered as 'còn người khác thì xây lên trên' (but others build on top). The Vietnamese adds 'lên trên' (on top/upon), which is not explicitly in the Greek text, though it is implied by the context of 'foundation'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκαστος δε βλεπετω' (but let each [one] see) is rendered as 'nhưng mỗi người phải coi chừng' (but each person must watch out/be careful). While 'coi chừng' captures the warning, it slightly shifts the nuance from 'see/observe' to 'be careful/watch out'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

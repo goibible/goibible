@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο λαλων μετα σου' (the one speaking with you) is rendered in Vietnamese as 'Đấng đang nói với ngươi' (the One who is speaking to you). While the meaning is similar, the Greek 'μετα' implies a reciprocal interaction ('with'), whereas the Vietnamese 'với' is often unidirectional. More importantly, the Greek 'εκεινος εστιν' (that one is) refers back to the person being spoken to/about in a specific way that the Vietnamese phrasing slightly shifts by making it a continuous action ('đang nói'). However, the primary issue is the subtle shift from 'the one speaking with you' to a more general 'the One speaking to you' which loses the reciprocal nuance of 'meta'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

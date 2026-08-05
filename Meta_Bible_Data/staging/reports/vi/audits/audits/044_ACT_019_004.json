@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις τον ερχομενον μετ αυτον' means 'to/for the one coming after him'. The Vietnamese translation 'Đấng đến sau mình' (the one who comes after him) is slightly ambiguous in context; however, the primary issue is the grammatical relationship. The Greek says John baptized 'for/to' the one coming after him so that they might believe. The Vietnamese phrasing 'bảo dân phải tin Đấng đến sau mình' suggests John told the people to believe the one coming after him, which captures the essence but misses the specific prepositional focus of 'eis' (to/towards) regarding the purpose of the baptism."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

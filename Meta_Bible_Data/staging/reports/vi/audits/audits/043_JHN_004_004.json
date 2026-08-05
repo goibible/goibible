@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εδει' (edei) expresses necessity or obligation ('had to'), but the Vietnamese translation 'phải đi' implies a present/future obligation or general necessity. The Greek is in the imperfect tense, indicating a past necessity or state of being required to go at that specific time."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εδει' is imperfect tense; the Vietnamese 'phải đi' does not clearly reflect the past timeframe established by the imperfect aspect in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

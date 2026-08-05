@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετ αυτου' (with him) is translated as 'với người' (with the person/him), but in this context, it refers to the specific person mentioned in the preceding verse (John 6:15). However, the Vietnamese 'người' is ambiguous and lacks the specific reference. More importantly, the Greek 'απηλθεν' (he departed) combined with 'μετ αυτου' implies he left *with* him, but the Vietnamese phrasing 'đi với người' can be interpreted as 'walking along with' rather than 'departing with'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνεθλιβον αυτον' is in the imperfect tense, indicating a continuous or repeated action of 'pressing/crushing' him. The Vietnamese 'lấn ép Ngài' captures the action but loses the continuous aspect inherent in the Greek imperfect."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

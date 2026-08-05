@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νηφωμεν' is an aorist active indicative (we sobered/became sober), not an imperative. The Vietnamese 'hãy tỉnh táo' renders it as a command ('let us be sober/be sober'), changing the grammatical mood from a statement of fact to an exhortation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

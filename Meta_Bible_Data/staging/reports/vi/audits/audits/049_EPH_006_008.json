@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα του κυριου' (para tou kyriou) means 'from the Lord' or 'before the Lord' in a sense of accountability/judgment. The Vietnamese translation 'từ Chúa' (from God) suggests receiving a gift or reward *from* Him, whereas the Greek construction implies the act is done *in the presence of* or *accountable to* the Lord. However, since 'từ' can also mean 'before' in certain contexts, but primarily 'from', there is a risk of missing the 'accountability' nuance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific nuance of 'ποιηση' (poiesis), which refers to the 'doing' or 'deed' itself, though 'làm điều thiện' captures the general meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

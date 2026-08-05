@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσφαγιον' (prosphagion) refers to 'scraps', 'leftovers', or 'refuse' (food waste), not general 'thức ăn' (food). The translation loses the specific nuance of asking for what is left over/discarded."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

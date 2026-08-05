@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the object of the verb 'gieo' (sperō). The Greek text says 'the one who sows the word will sow' (ο σπειρων τον λογον σπειρει), but the Vietnamese only says 'The one who sows is sowing/sows' (Người gieo lời là gieo), missing the specific object 'the word' (τον λογον) in the second clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

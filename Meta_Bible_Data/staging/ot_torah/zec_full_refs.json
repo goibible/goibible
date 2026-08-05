@@ -1,0 +1,26 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full ZEC QA batch.",
+  "groups": [
+    {
+      "name": "ZEC full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "ZEC 1",
+        "ZEC 2",
+        "ZEC 3",
+        "ZEC 4",
+        "ZEC 5",
+        "ZEC 6",
+        "ZEC 7",
+        "ZEC 8",
+        "ZEC 9",
+        "ZEC 10",
+        "ZEC 11",
+        "ZEC 12",
+        "ZEC 13",
+        "ZEC 14"
+      ]
+    }
+  ]
+}

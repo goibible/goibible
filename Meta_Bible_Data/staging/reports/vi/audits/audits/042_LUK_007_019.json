@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσκαλεσαμενος' (having called/summoned) is in the aorist participle, indicating John took the action of calling. The Vietnamese translation 'Giăng gọi... sai họ' (John called... sent them) switches the subject/action order or implies John was the one who called them to then be sent, but more importantly, the Greek structure implies John *having been called* (passive/middle sense in context of his role) or simply 'called'. However, the primary issue is that the Greek 'προσκαλεσαμενος' refers to John calling two disciples, but the Vietnamese phrasing makes it sound like a sequence of actions by John. More critically, the Greek 'διυο τινας των μαθητων αυτου' (two of his disciples) is correctly rendered, but the Greek 'προσκαλεσαμενος' is often interpreted as 'having called', whereas the Vietnamese treats it as a simple active verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

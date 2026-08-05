@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the word 'μαλλον' (rather/instead), which indicates a contrast or preference. The Vietnamese translation uses 'hơn là' (more than), which shifts the meaning from a substitution of values to a comparative degree."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

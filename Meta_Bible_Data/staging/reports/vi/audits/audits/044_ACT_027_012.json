@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đưa ra ý chỉ rằng' (gave an indication/intent) is a slight departure from 'βουλην αναχθηναι' (wishing/desiring to set sail), but more importantly, the phrase 'để nếu có thể' (so that if possible) adds a conditional nuance not present in the Greek 'ειπως δυναιντο' (as they were able/could), which describes their actual capability/capacity rather than a hypothetical possibility."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'hướng về phía tây nam và tây bắc' (heading towards southwest and northwest) is an interpretation of 'κατα λιβα και κατα χωρον'. While geographically accurate for the route, the Greek literally means 'towards Libanus and towards Choron'. By replacing specific locations with directions, the translation loses the specific geographical identifiers present in the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

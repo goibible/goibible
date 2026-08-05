@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διο' (diō) is an imperfect verb meaning 'we were being led' or 'we were being brought'. The Vietnamese 'hãy bỏ qua' (let us ignore/pass over) completely changes the meaning from a passive process of being guided by God to an active command to ignore something."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φερωμεθα' (pherōmetha) is 'we are being brought/led'. The Vietnamese 'tiến tới' (move towards) captures the direction but loses the passive, divinely-guided aspect of the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'της αρχης του χριστου λογον' refers to 'the word of the beginning of Christ'. The Vietnamese 'lời ban đầu về Đấng Christ' (the initial word about Christ) is a slightly different construction, but the primary issue is the verb 'διο' which governs the entire clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

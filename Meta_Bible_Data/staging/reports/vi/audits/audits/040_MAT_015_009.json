@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ματην' (matēn) means 'in vain' or 'fruitlessly'. The Vietnamese translation 'vô ích' (useless/pointless) captures the sense, but the Greek structure 'σεβονται με διδασκοντες' implies they worship *by* teaching or *while* teaching. The Vietnamese 'thờ lạy ta vô ích, dạy...' separates these into two distinct actions (worshiping uselessly AND teaching), whereas the Greek connects them as a single continuous action of worship expressed through teaching."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

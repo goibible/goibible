@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διαμαρτυρομαι' (diamartyromai) means 'I testify/bear witness,' but the Vietnamese translation 'ta truyền cho con hãy giữ' translates it as an imperative command ('I command you to keep'). This changes the nature of the action from a testimony to a direct command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific phrase 'χωρις προκριματος' (without partiality/prejudice), though it attempts to capture the sentiment with 'không thiên vị'. However, because the main verb is mistranslated from a testimony to a command, the weight of the entire clause is altered."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

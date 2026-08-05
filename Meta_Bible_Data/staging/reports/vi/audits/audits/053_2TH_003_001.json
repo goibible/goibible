@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθως και προς υμας' means 'just as [it does] toward you' or 'as well as to you' (indicating a parallel action/direction), but the Vietnamese 'như đã xảy ra giữa anh em vậy' translates to 'as happened among/between you', which changes the meaning from a parallel direction of the word's movement to a past event occurring within a group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

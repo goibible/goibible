@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελευσομαι' (eleusomai) is a first-person singular verb ('I will come'). The Vietnamese translation 'Ta sẽ đến' correctly identifies the speaker as 'I', but the Greek text is part of a larger context where 'the Word' (logos) is often the subject or the focus. However, more importantly, the Greek says 'ελευσομαι' (I will come), while the Vietnamese 'Ta sẽ đến' is correct in person, but there is a subtle nuance: the Greek 'ελευσομαι' is a future tense of 'to come'. The Vietnamese 'sẽ đến' is accurate. The issue lies in the phrasing 'lời nầy là một lời hứa' (this word is a promise). The Greek 'επαγγελιας γαρ ο λογος' literally means 'For the word [is] a promise'. The Vietnamese captures this well. However, looking closely at the Greek: 'ελευσομαι' (I will come) and 'εσται τη σαρρα υιος' (to Sarah a son shall be). The Vietnamese 'Sa-ra sẽ có một Con' is slightly different in structure but conveys the same meaning. Wait, re-evaluating: The Greek 'ελευσομαι' is 'I will come'. The Vietnamese 'Ta sẽ đến' is 'I will come'. There is no significant fidelity issue here regarding tense, person, or meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

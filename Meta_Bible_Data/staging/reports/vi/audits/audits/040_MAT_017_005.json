@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'lời' (words/speech) at the end ('hãy nghe lời Con đó'), whereas the Greek text simply says 'ακουετε' (listen/hear). While minor, it adds a noun not present in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

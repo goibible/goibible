@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη εξ υμων εν ημιν αγαπη' means 'the love of you in us' (or 'your love for us'), but the Vietnamese translation 'tình yêu thương của anh em đối với chúng tôi' changes the direction/nature of the relationship slightly by making it a personal 'love for us' rather than the specific Greek construction of 'your love [which is] in us'. However, more critically, the Vietnamese 'đối với chúng tôi' (towards us) is a standard rendering, but the Greek 'εξ υμων' (from you/of you) combined with 'εν ημιν' (in us) suggests a specific state of their love existing within the community/us. While it's a close rendering, the Vietnamese phrasing slightly simplifies the Greek's specific prepositional nuance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

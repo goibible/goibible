@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'χρωμεθα' (chrōmetha) means 'to possess', 'to have', or 'to enjoy' (literally 'to wear/be clothed with'). The Vietnamese translation 'nên dùng' (should use) changes the meaning from a state of possessing/having boldness to an exhortation or instruction to use it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

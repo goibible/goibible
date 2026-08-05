@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις καλει υμας των απιστων' means 'if someone calls you [the] unbelievers', but the Vietnamese 'có người không tin mời anh em' translates to 'if there is a person who does not believe, invite/call you'. It misses the fact that 'unbelievers' is the object (you) being called, not a description of the person doing the calling."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

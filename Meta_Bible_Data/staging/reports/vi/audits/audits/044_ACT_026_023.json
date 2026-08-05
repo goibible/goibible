@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰ παθητός' is a conditional 'if', but the Vietnamese uses 'phải' (must/have to), changing the logical structure of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

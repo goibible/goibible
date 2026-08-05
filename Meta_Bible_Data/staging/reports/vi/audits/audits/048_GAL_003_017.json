@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προκεκυρωμενην' (prokekyromenin) means 'pre-ordained' or 'predestined' (from keryssō - to proclaim/decree), not 'xác nhận' (confirmed/validated)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'γεγονως' (gegonōs) means 'having happened' or 'having occurred'. The Vietnamese 'là điều đã có' (which already existed/had) misses the sense of chronological occurrence in the context of the law's establishment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

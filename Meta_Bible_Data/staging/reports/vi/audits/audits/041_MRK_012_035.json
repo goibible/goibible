@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιος' (implied by the structure/context of 'τι' in some manuscripts or the specific phrasing) or more accurately the 'τι' (what/that) combined with the interrogative sense in this specific context is often rendered as a question. However, the Vietnamese uses 'Sao' (Why), which changes the nature of the inquiry from 'What [do they say]?' to 'Why [do they say]?'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

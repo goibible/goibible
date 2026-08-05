@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μνεια' (likely a typo for 'μνημειωματος' or related to 'μνημειον', but in this context usually referring to 'remembrance' or 'memorial') is translated as 'nhắc đến anh em' (mentioning you/brothers). However, the Greek 'υμων' (your) refers to the audience/readers, but 'μνεια' is not a standard word for 'mentioning'. More importantly, if the intended word was 'μνημειωματος', it refers to 'memorials' or 'remembrances'. The Vietnamese translation shifts the meaning to an action of 'mentioning' which is not clearly supported by the Greek text provided."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

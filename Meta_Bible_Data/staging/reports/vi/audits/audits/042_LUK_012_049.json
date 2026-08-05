@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι θελω' (ti thelo) means 'what I want' or 'what I wish', but the Vietnamese 'ước gì' (I wish/hope) combined with the passive construction 'đã được nhóm lên' (had been kindled) changes the sense of the subject's desire. The Greek implies a desire for the fire to be already burning/kindled, whereas the Vietnamese phrasing suggests a regretful wish about a past state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'ησαν' (were) is missing in the Vietnamese translation, which renders the sentence as a fragment rather than a complete statement of existence/state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

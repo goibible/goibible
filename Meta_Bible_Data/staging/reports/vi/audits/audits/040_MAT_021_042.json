@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα κυριου εγενετο αυτη' (it became by the Lord / it was done by the Lord) is rendered in Vietnamese as 'ấy là việc của Chúa' (that is the work of the Lord). While 'work' captures the agency, 'việc' can also imply 'matter' or 'affair'. More importantly, the Greek 'παρα' combined with the verb often implies 'by means of' or 'at the hands of', which the Vietnamese 'việc của' slightly softens into 'possession/authorship'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

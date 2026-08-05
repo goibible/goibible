@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πληρωθηναι' (to be fulfilled) is in the passive voice, but the Vietnamese structure 'thì phải được ứng nghiệm' (must be fulfilled) adds a sense of obligation/necessity ('phải') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

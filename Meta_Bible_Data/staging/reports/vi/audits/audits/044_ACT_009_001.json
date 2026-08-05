@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετι' (eti) means 'still' or 'yet'. The Vietnamese translation uses 'vẫn còn' (still), but the phrase 'đầy dẫy' (full of/overflowing with) is a slightly stronger rendering than 'εμπνεων' (filled/inspired with). However, the primary issue is the lack of the sense of 'yet' or 'still' in relation to his ongoing state. More importantly, the Greek 'προσελθων' is a participle indicating that he *approached* the high priest while being in that state. The Vietnamese structure 'đến cùng thầy tế lễ cả' makes it sound like he arrived *with* the high priest or *to* the high priest, but the proximity of 'cả' (all/entire) at the end is confusing as there is no Greek word for 'all' here; 'αρχιερει' is singular."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'δε' (not) before 'δυνατοι' (strong), indicating 'you are NOT strong.' The Vietnamese translation 'còn anh em mạnh mẽ' omits this negation, stating that the readers *are* strong."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

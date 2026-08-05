@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'con' (child/younger person), which implies a hierarchical relationship of age or status. The Greek 'οιδας' (you know) is a second-person singular verb and does not contain any kinship terms or markers of seniority/juniority."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

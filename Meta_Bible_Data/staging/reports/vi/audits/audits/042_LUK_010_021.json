@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξομολογουμαι' (exomologomai) means 'I confess' or 'I acknowledge,' but the Vietnamese translates it as 'con cảm tạ' (I thank/give thanks). This changes the nature of the action from a confession of faith/acknowledgment to an act of gratitude."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηγαλλιασατο τω πνευματι' implies he rejoiced *in* the Spirit. The Vietnamese 'vui mừng trong Thánh Linh' is acceptable, but the transition to the quote 'εξομολογουμαι' is slightly smoothed over; however, the primary issue remains the 'confess' vs 'thank' distinction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

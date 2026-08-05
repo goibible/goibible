@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'và người được sạch' (and the person was cleansed) omits the passive voice/reflexive nature of the Greek 'εκαθαρισθη' (he was cleansed/purified). In Vietnamese, it reads as a statement of state rather than the action of being cleansed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποστολης' (apostolēs) is translated as 'chức vụ sứ đồ'. In this context, it refers to the 'mission' or 'commission' associated with the ministry, not necessarily a 'ministry of an apostle' (which would be more like 'diakonia ton apostolon')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεβη' (parebe) means 'passed over', 'skipped', or 'forsook'. The Vietnamese 'bỏ qua' can mean 'ignored' or 'skipped', but in this context of a mandate, it implies he 'forsook' or 'abandoned' the commission/mission."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το εθνος ημων' means 'our nation/people', not 'dân ngoại' (Gentiles/foreigners). The Vietnamese adds 'ngoại' which changes the meaning to 'foreign people'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

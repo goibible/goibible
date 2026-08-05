@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'οι ραβδουχοι' (the rod-bearers/messengers) is plural, but the Vietnamese 'hai người' (two people) specifies a number not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι ραβδουχοι' refers to the messengers/guards who reported the news, but the Vietnamese 'hai người' (two people) makes it sound like only two individuals were being discussed or were the ones reporting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

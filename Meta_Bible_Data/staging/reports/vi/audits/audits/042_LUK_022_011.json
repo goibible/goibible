@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το καταλυμα' (the lodging/place of rest) is translated as 'Phòng khách' (living room/guest room). While 'phòng khách' can be a place for guests, 'chỗ nghỉ' or 'nơi lưu trú' would be more accurate to the Greek sense of a place to stay/lodge."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese word order 'Phòng khách... ở đâu?' (Where is the living room?) slightly alters the Greek structure 'που εστιν το καταλυμα' (where is the lodging), but the primary issue is the specific nuance of 'lodging' vs 'living room'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

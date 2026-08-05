@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τρεχωμεν' is a present active indicative verb (we are running), but the Vietnamese uses an imperative construction ('hãy vứt bỏ... chạy'), changing the statement of fact into a command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εχοντες' (having) is missing; the Vietnamese makes 'có một đám mây nhân chứng' a standalone clause rather than a participial modifier of 'chúng ta'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτος' (houtos) means 'this one' or 'this,' referring to the subject. The Vietnamese translation uses 'Ngài' (He/Him), which replaces the specific demonstrative pronoun with a personal pronoun, potentially obscuring the identity of the subject intended by the author."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ταλαιπωρησατε' (talaiporēsate) is in the aorist indicative active, describing an action that has already occurred ('You have suffered/toiled'). The Vietnamese translation uses the imperative mood ('Hãy chịu khốn khổ'), which commands the reader to suffer, changing the meaning from a description of past experience to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

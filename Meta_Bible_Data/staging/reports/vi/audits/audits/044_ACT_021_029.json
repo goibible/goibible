@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προεωρακοτες' (proeōrakotes) is a past participle meaning 'saw' or 'had seen'. The Vietnamese 'đã thấy' correctly captures the action, but the sentence structure in Vietnamese suggests they saw him *because* he was with Paul ('thấy... ở với... nên tưởng'), whereas the Greek structure 'ησαν γαρ προεωρακοτες... συν αυτω' indicates that they saw Trophias *together with* Paul (or in the company of Paul). The Vietnamese phrasing slightly obscures the fact that the observation was of them being together."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ον ενομιζον' (on enomizon) means 'who thought' or 'thinking'. The Vietnamese 'nên tưởng rằng' (so [they] thought that) adds a causal connector ('nên') that is not present in the Greek text, though it is a common stylistic choice to link the observation to the conclusion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

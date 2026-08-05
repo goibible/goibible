@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ελευσονται ημεραι' (days will come) is omitted in the Vietnamese translation, which starts directly with 'Sẽ có ngày' (There will be days) without capturing the sense of time approaching/coming."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ οψεσθε' is a future tense negation ('you will not see'), whereas the Vietnamese 'không thấy được' implies an inability to see (lack of capability) rather than a future event that will not occur."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

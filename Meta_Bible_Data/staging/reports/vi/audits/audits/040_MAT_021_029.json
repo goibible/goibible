@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου θελω' (I do not want) is translated as 'Tôi không muốn' (I do not want), but the Vietnamese translation adds a conjunction 'nhưng' (but) and changes the structure such that it implies he didn't want to at first but then regretted it. The Greek 'υστερον δε μεταμεληθεις' means 'lest you should later repent' (referring to the other person). The Vietnamese version misinterprets the object of the regret: it makes it sound like the speaker himself repented, whereas the Greek says the speaker is warning the other person against repenting later."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

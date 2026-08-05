@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ελαλει' (elalei) means 'spoke/talked' or 'was speaking,' but the Vietnamese 'nói về Ngài' (spoke about Him) misses the specific nuance of 'speaking to' or 'conversing with.' However, more critically, the Greek 'περι αυτου' (peri autou) indicates she was speaking *about* Him, which the Vietnamese captures. The main issue is that the Greek 'ελαλει' implies a communicative act directed toward the people, while 'nói về Ngài' in Vietnamese can sometimes be interpreted as a monologue about Him rather than a dialogue/addressing them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παρα του πατρος' (from/beside the Father) is translated as 'nghe Cha', omitting the prepositional sense of 'par' which indicates source or proximity. More importantly, the Vietnamese 'học theo' (learn after/follow) misses the nuance of 'μαθων' (learning) in relation to the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

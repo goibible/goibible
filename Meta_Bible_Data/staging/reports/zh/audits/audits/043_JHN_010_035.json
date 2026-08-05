@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek clause 'ει εκεινους ειπεν θεους προς ους ο λογος του θεου εγενετο' (if He called them gods to whom the word of God came) is rendered as '若那些領受神話語的人尚且稱為神' (if those who received the word of God are even called gods). The Chinese omits the explicit subject 'He' (God) who does the calling, and changes the passive 'are called' to an active sense, but more critically, the phrase '尚且' (even) is added, and the clause 'και ου δυναται λυθηναι η γραφη' (and the Scripture cannot be broken) is placed first as '經上是不能廢的' — this reorders the verse, but the main issue is that the Greek has 'He called them gods' (active, God as subject), while the Chinese says 'are called gods' (passive, no explicit agent), which could imply a different agent. However, the meaning is essentially preserved. The more significant issue is the omission of the explicit subject 'He' (God) in the first clause, which changes who is doing the calling, though context may imply God. Given the instruction to flag only substantive differences, this is borderline, but the passive rendering without the divine subject could mislead."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

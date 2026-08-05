@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεμματι γαρ και ακοη' (for by sight and by hearing) describes the *means* by which the righteous person was tormented. The Vietnamese translation places this at the end of the sentence as an instrumental phrase ('qua sự thấy và sự nghe'), but the Greek structure suggests that it is the act of seeing and hearing that constitutes the source of the torment. More importantly, the Vietnamese 'bị dày vò' (was tormented) correctly captures the passive/middle sense, but the placement of the means makes the sentence structure slightly less direct than the Greek, though the primary issue is the slight shift in how the 'sight and hearing' relate to the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

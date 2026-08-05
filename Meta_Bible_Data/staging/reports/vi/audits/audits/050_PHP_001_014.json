@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεποιθοτας' (pepoithotas) is a participle meaning 'having been persuaded' or 'having been convinced.' The Vietnamese 'nhờ tôi bị dây xích' (because/thanks to me being chained) treats the preceding phrase as a causal reason for their faith, whereas the Greek structure suggests that *because* they were persuaded, they are now *more* bold. More importantly, the Greek 'περισσοτερως' (perissoterōs - 'more') is omitted in the Vietnamese translation, which changes the intensity of the boldness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

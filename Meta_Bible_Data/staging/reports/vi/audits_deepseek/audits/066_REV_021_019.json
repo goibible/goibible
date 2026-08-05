@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The second foundation is translated as 'ngọc bích' (jade), but the Greek 'σαπφειρος' means sapphire. This changes the identity of the stone."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

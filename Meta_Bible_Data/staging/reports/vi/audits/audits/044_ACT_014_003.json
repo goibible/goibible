@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'nói năng cách dạn dĩ trong Chúa' (speaking boldly in the Lord) changes the meaning of 'παρρησιαζομενοι επι τω κυριω τω μαρτυρουντι' (boldly witnessing to the Lord). The Greek indicates they were witnessing *to* the Lord, not speaking *in* Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκραξα' (ekraxa) is a strong verb meaning 'cried out' or 'shouted'. The Vietnamese 'đã kêu lên' (cried out) is acceptable, but the phrase 'khi đứng giữa họ' (when standing among them) is an addition/interpretation not explicitly present in the Greek text provided."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation adds 'Ấy là' (That is/It is because) at the beginning of the quote, which is not present in the Greek source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

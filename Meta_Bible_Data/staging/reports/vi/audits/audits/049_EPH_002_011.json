@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακροβυστια' (akrobystia) means 'uncircumcised'. The Vietnamese translation renders this as 'sự không cắt bì', but the structure of the sentence in Vietnamese makes it sound like a title or a noun phrase ('bởi tay người ta gọi là sự không cắt bì') rather than describing the state of the people. More importantly, the Greek says 'the [uncircumcised] called [uncircumcised]', while the Vietnamese phrasing 'những kẻ xưng là sự cắt bì' (those who claim to be circumcision) is a confusing rendering of 'οι λεγομενοι ακροβυστια'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

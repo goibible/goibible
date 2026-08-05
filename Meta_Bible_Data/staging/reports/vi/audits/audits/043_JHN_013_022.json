@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περι τινος' means 'about what/which thing' (regarding the content of the speech), whereas the Vietnamese 'về ai' translates to 'about whom' (referring to a person). This changes the scope of their confusion from the subject matter to a specific individual."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

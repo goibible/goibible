@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιπατων επι της θαλασσης' (walking on the sea) is a participle describing the manner/circumstance of the action. The Vietnamese translation 'đi bộ trên biển mà đến cùng họ' (walked on the sea and came to them) changes the relationship between the actions; in the Greek, he is walking on the sea *as* he comes to them, not that he walked on the sea and then arrived."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περι τεταρτην φυλακην της νυκτος' refers to the 'fourth watch of the night'. The Vietnamese 'Vào khoảng canh tư đêm ấy' is a reasonable rendering, but 'đến cùng họ' (came to them) for 'ερχεται προς αυτους' is acceptable. However, the primary issue is the structural change in the movement."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

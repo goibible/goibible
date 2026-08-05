@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'παρελαβον' (received) and 'παρεδωκα' (delivered/handed over) are used in a structure that implies the speaker received *from* the Lord and delivered *to* the brothers. The Vietnamese translation 'nhận... điều mà tôi cũng đã truyền lại' (received... the thing which I also handed over) slightly shifts the focus, but more importantly, it omits the specific grammatical nuance of the Greek 'ο και' (and also/even) linking the two actions as a unified handing-over of the message."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεδιδοτο' is an aorist passive, often indicating a completed action of being handed over (delivered up). The Vietnamese 'bị nộp' is a standard translation for this, but the Greek 'ελαβεν' (took/received) follows it directly. The phrase 'lấy bánh' in Vietnamese is slightly less formal than 'ελαβεν αρτον' (took bread), though it preserves the core meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

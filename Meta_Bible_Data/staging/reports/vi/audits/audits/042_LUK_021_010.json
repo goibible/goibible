@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εθνος' (ethnos) refers to a nation or people, but the Vietnamese translation 'Dân ngoại' specifically means 'Gentiles/Foreigners'. This changes the scope of the text from general nations to a specific ethnic category not present in the Greek."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nghịch cùng' (rebel against/oppose), which is an interpretation of the action. The Greek simply states that one nation will 'rise up' (εγερθησεται) against another, without explicitly defining the nature of the conflict as 'rebellion' or 'opposition' in those specific terms."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

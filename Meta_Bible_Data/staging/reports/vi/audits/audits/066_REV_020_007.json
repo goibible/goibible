@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τα χιλια ετη' is plural (the thousands of years), whereas the Vietnamese 'một ngàn năm' is singular (one thousand years). This changes the scope of the timeframe."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

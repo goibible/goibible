@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text specifies 'δύο... τριών' (two... three), whereas the Vietnamese translation renders it as 'hai ba' (two-three), which can be interpreted as an approximation or a range rather than the specific numbers provided in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

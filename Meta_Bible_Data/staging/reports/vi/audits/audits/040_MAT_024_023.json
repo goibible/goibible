@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'η ωδε' (or here) is omitted in the Vietnamese translation. The Vietnamese only says 'hay \"Ở kia\"' (or there), missing the 'here' component of the warning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

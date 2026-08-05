@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'τυχικον' (tychikon) is a proper name (Tychicus), not a description or a separate entity. The Vietnamese translation renders it as 'Ty-chi-cơ', but the structure of the Vietnamese sentence implies 'Ta đã sai Ty-chi-cơ' (I sent Tychicus). While the name is correct, the Greek 'δε' (de) is a discourse marker, but the overall structure in some contexts might be misread if the reader doesn't recognize 'τυχικον' as the subject of the action. However, looking closely at the Greek 'τυχικον δε απεστειλα', 'Tychicus' is the direct object. The Vietnamese 'Ta đã sai Ty-chi-cơ' correctly identifies Tychicus as the one sent, but it misses the nuance that Tychicus is the object of the verb 'sent'. Wait, looking at the Greek again: 'τυχικον δε απεστειλα' = 'Tychicus I sent'. The Vietnamese 'Ta đã sai Ty-chi-cơ' = 'I sent Tychicus'. This is a correct translation of the action. Let me re-evaluate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

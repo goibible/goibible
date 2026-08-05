@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συλληφθηναι' (sylēphthēnai) means 'to be conceived' or 'to be taken up/held' in the sense of biological conception. The Vietnamese translation 'thụ thai' is correct for 'conceived', but the Greek phrasing 'εν τη κοιλια' (in the womb) combined with 'συλληφθηναι' often refers to the state of being in the womb or the act of conception. However, a more critical fidelity issue is that the Vietnamese 'đầy tám ngày' (full eight days) slightly alters the Greek 'οκτω του περιτεμειν' (eight of circumcision), though this is minor. The primary concern is ensuring 'syllēphthēnai' isn't interpreted as 'captured' in a different context, but here it is standard for conception."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'οτε επλησθησαν ημεραι οκτω του περιτεμειν' refers to the completion of the eight days of circumcision. The Vietnamese 'đầy tám ngày để cắt bì' is a slightly different construction (eight days *to* circumcise) vs the Greek (eight days *of* circumcision), but it preserves the core meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο εν τω επανελθειν' indicates the action happened *upon his return* (during the process of returning/returning). The Vietnamese 'Khi người đã nhận nước và trở về' implies he received the kingdom and *then* returned, which slightly shifts the sequence. More importantly, 'λαβοντα την βασιλειαν' is a participle describing his state/action while returning, not a completed action preceding the return."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ινα γνω τις τι διεπραγματευσατο' means 'to know how much each [of them] traded/dealt'. The Vietnamese 'để biết mỗi người đã buôn bán được bao nhiêu' captures the meaning well, but the Greek 'τι' (what) combined with 'γνω' (know) is often rendered as 'how much' in this context, so this is acceptable. However, the primary issue remains the sequence of 'returning' and 'receiving'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

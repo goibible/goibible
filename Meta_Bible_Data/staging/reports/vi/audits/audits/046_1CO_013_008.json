@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 13,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the conjunction 'nhưng' (but), which has no equivalent in the Greek text. The Greek sentence is a list of 'either/or' (ειτε... ειτε... ειτε) constructions, not a contrastive statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

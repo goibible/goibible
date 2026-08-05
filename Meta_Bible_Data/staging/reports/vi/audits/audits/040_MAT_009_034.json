@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκβαλλει' (ekballei) means 'casts out' or 'exorcises' (active action). The Vietnamese 'nhờ... mà trừ' implies 'through the help of' or 'by means of' the prince of demons, which reverses the logic of the Greek. The Greek says they are casting out demons *from* (ἐν) the prince of demons, not *by means of* him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

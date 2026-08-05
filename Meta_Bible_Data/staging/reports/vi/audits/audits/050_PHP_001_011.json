@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεπληρωμενοι' (peplērōmenoi) is a passive participle meaning 'having been filled' or 'filled.' The Vietnamese 'được đầy' is an acceptable rendering of the state, but the prepositional relationship 'των δια Ιησου Χριστου' (of/by Jesus Christ) is slightly obscured. More importantly, the Greek 'εις δοξαν και επαινον θεου' uses 'εις' (into/for/to) which indicates the purpose or result of being filled. The Vietnamese 'để sự vinh hiển...' is a good functional translation, but the Greek structure implies 'into the glory and praise of God'. The main issue is that 'được đầy trái' can be read as 'filled with fruit' (missing 'with') or 'filled fruit'. In Greek, it is 'filled [with] fruits of righteousness' (the 'with' is implied by the construction). However, the Vietnamese 'được đầy trái' is slightly ambiguous compared to the Greek 'πεπληρωμενοι καρπων', which specifically means 'filled with fruits'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

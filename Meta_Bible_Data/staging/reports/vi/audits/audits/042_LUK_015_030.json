@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταφαγων' (kataphagon) is a past participle meaning 'having devoured/consumed'. The Vietnamese 'đã ăn hết' (already ate all) captures the action but misses the specific nuance of 'devouring' or 'consuming' as a continuous, destructive act. However, more importantly, the Greek 'συν' (implied/contextual) or the structure indicates 'with' (με), and the Vietnamese 'với' is correct. The main issue is the slight shift in the intensity of 'καταφαγων' which implies a total consumption/devouring of the father's life."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

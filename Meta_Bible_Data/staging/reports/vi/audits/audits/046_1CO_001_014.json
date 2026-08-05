@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ουδενα υμων' (none of you) is plural, but the Vietnamese translation uses 'tôi' (I) in a way that implies a singular subject for the action, and more importantly, the Greek 'εβαπτισα' (I baptized) is used in conjunction with 'ουδενα υμων'. The Vietnamese 'chưa làm báp-têm' (have not baptized) changes the tense/aspect from a simple past action to a perfect/present state of 'not having done it yet'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδενα υμων εβαπτισα' means 'I baptized none of you'. The Vietnamese 'tôi chưa làm báp-têm cho ai' translates more to 'I have not yet baptized anyone'. While similar, the Greek construction emphasizes the specific completed action regarding the group, whereas the Vietnamese 'chưa' adds a temporal nuance of 'not yet' that is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

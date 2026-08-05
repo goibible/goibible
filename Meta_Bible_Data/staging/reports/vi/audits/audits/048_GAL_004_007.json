@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υιος' (huios) is translated as 'Con' (capitalized/Son) in the first instance, but the Greek does not specify a capital letter or a specific title other than 'son'. More importantly, the Vietnamese 'nếu là Con' (if [I] am Son) introduces a conditional structure ('nếu... thì') that is not present in the Greek. The Greek 'αλλ υιος ει δε υιος' uses 'δε' as a coordinating conjunction (but/and also) to emphasize 'son' AND 'heir', not as a conditional 'if'. The Vietnamese makes it sound like 'if I am a son, then I am an heir,' whereas the Greek says 'I am a son and an heir'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

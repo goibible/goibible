@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηρθη' (ērthē) is a perfect tense verb meaning 'has come to pass' or 'has happened.' The Vietnamese translation 'đã bị cất đi' (has been taken away/removed) changes the meaning from an event occurring to an action of removal."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αιρεται' (airetai) is a present passive, but in this context, it describes the state of life being 'taken away' or 'removed.' The Vietnamese 'bị cất khỏi đất' is acceptable for 'αιρεται', but because the first half of the verse was mistranslated as 'removed' instead of 'happened', the logical flow of the verse is altered."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

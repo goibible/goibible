@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεθεντο' (synetheto) means 'gave' or 'offered' (from the verb to give/present). The Vietnamese 'đồng ý cho' translates to 'agreed to give,' which introduces an act of agreement not present in the Greek text. The Greek implies a direct action of giving/offering, not a process of reaching an agreement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

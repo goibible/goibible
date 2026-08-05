@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο αναπληρων τον τοπον του ιδιωτου' describes a person who is 'filling/occupying the place of an individual (private person),' but the Vietnamese 'người thường đang ở trong nơi của người thường' translates this as 'ordinary people are in the place of ordinary people,' which changes the grammatical structure and meaning from a specific subject to a general category."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι λεγεις' (what you say) is rendered as 'ngươi nói gì' in a way that loses the direct object connection to the preceding action of the blessing/thanksgiving."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η το πλειστον τρεις' means 'or at most three'. The Vietnamese translation 'thì chỉ nên hai hoặc ba người là cùng' (then only two or three people together) misses the 'at most' (πλειστον) constraint and slightly alters the logical structure of the limit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

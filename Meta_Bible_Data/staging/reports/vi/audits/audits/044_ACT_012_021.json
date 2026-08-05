@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι του βηματος' (epi tou bēmatos) refers to a 'podium' or 'dais' (a raised platform), whereas the Vietnamese 'trên tòa án' translates to 'in/on the court' (the judicial body or venue). This changes the physical setting from a platform to a legal institution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

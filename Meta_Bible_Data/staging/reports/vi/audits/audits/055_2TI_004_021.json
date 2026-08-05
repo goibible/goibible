@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπαζεται' (aspazate) is a present imperative/indicative form meaning 'embrace' or 'kiss' (in a greeting sense). The Vietnamese translation 'chào thăm' (greet/visit) is a significant shift in meaning. Furthermore, the Greek structure implies that the subjects (Eubolus, Pudens, etc.) are the ones being embraced/greeted by the speaker/writer, but the Vietnamese phrasing 'đều chào thăm con' suggests they are the ones performing the act of visiting/greeting the reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

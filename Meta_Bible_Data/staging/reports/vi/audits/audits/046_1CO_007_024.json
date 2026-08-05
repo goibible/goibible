@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα τω θεω' (para tō theō) means 'beside' or 'alongside' God. The Vietnamese translation 'với' (with) is a common rendering, but the Greek specifically implies a spatial/relational proximity ('beside'). However, more critically, the Vietnamese 'hãy cứ ở' (keep staying/let stay) adds an imperative nuance that is not present in the indicative 'μενετω' (remains/stays)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

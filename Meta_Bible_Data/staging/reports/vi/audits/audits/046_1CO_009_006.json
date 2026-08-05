@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εχομεν εξουσιαν του μη εργαζεσθαι' means 'we have no authority to not work' (or 'no right to be idle'). The Vietnamese translation 'không có quyền được không làm việc?' adds a question mark and uses a phrasing that suggests a request for permission or a questioning of the right, whereas the Greek is a declarative statement of fact regarding the lack of authority."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

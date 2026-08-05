@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηψατο' (ēpsato) means 'reached for' or 'stretched out toward', but the Vietnamese 'rờ đến' implies a physical touch ('touched'). The Greek does not explicitly state that he touched their eyes, only that he reached toward them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

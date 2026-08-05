@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατοπτριζομενοι' (katoptrizomenoi) means 'beholding' or 'reflecting' (literally 'looking as in a mirror'). The Vietnamese 'nhìn xem... như trong gương' implies 'looking at [something] as if it were in a mirror,' whereas the Greek structure suggests we are beholding the glory *in the manner of* a mirror (reflecting it). However, a more significant issue is the phrase 'την αυτην εικονα'. The Vietnamese 'thành cùng một hình ảnh ấy' translates this as 'into that same image', but the Greek construction 'την αυτην εικονα μεταμορφουμεθα' indicates we are being transformed *into* that very image (the image of God/glory). The Vietnamese phrasing is slightly ambiguous as to whether 'cùng một' refers back to the glory or the image itself."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο κυριου πνευματος' (apo kyriou pneumatos) means 'from [the] Lord Spirit' or 'by the Lord Spirit'. The Vietnamese 'như bởi Chúa là Thánh Linh' translates this as 'as by God is the Holy Spirit', which introduces an 'is' (là) that isn't in the Greek, potentially changing the relationship from a source/agent to a definition of identity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

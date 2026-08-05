@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'οικονομους' is plural (managers/stewards), but the Vietnamese 'quản gia' is singular."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

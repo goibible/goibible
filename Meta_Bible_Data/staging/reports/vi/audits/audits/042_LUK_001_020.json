@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδου εση σιωπων' (behold, you shall be silent) is rendered as 'ngươi sẽ làm thinh' (you will be silent). The Greek uses the future passive/middle construction of 'sigma' (σιωπῶ), but more importantly, it is a command/prophecy of silence. However, the Vietnamese 'làm thinh' can imply a voluntary act of keeping quiet, whereas the Greek implies a state of being silenced or rendered mute by God."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη δυναμενος λαλησαι' (not being able to speak) is rendered as 'không nói được' (cannot speak). While accurate in meaning, the Vietnamese structure makes it sound like a secondary description of the silence rather than the specific inability to speak that is the grammatical condition in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

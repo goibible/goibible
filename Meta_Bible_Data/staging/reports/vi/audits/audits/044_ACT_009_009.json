@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εφαγεν' means 'did not eat', but the Vietnamese 'chẳng uống' means 'did not drink'. The Greek text does not mention drinking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

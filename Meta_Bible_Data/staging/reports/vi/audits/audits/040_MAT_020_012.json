@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ισους ημιν' (equal to us) is translated as 'bằng chúng tôi' (equal to us), but the context of the sentence 'εποιησαν και ισους ημιν αυτους εποιησας' indicates a comparison of actions/status. The Vietnamese phrasing 'ông lại coi họ bằng chúng tôi' (You regard them equal to us) slightly shifts the focus from the equality of their work/actions to a subjective act of 'regarding' or 'judging' them as equal."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'mιαν' (one) in relation to 'ωραν' (hour) if read quickly, but it is present. However, it misses the specific nuance of 'εποιησαν' (they did/worked) which is rendered as 'chỉ làm' (only did). The Greek implies they 'did [work] for one hour', while the Vietnamese 'chỉ làm một giờ' is acceptable but slightly less precise on the 'doing' aspect."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

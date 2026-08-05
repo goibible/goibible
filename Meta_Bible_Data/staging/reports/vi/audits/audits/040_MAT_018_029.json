@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντα αποδωσω σοι' (I will give back/render everything to you) is rendered as 'trả hết cho anh' (give back all to him/you). In the context of this verse (Luke 7:48), the servant is speaking to the master. The Vietnamese 'anh' is an informal/peer pronoun, whereas the Greek 'σοι' refers back to the master (the one being addressed). Using 'anh' suggests a peer relationship rather than the master-servant hierarchy established in the first half of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

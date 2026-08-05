@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ομολογησω' (homologēsō) is in the future tense ('I will confess/declare'), but the Vietnamese 'tuyên bố' is in the present tense. While often interchangeable in context, it loses the specific future intent of the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεποτε εγνων' (oudepote egnōn) uses the perfect tense, indicating a state of 'having never known' or 'never having known.' The Vietnamese 'chẳng hề biết' is a simple present negation. The Greek implies a lack of prior relationship/recognition that persists, which is slightly more substantial than a simple present statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

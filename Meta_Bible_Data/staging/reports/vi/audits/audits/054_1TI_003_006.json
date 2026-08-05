@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη νεοφυτον' (not a new convert/novice) is rendered as 'chớ lập người mới tin' (do not appoint/establish a new believer), which adds the action of 'appointing' which is not in the source text. The source is a prohibition against a specific status, not an action."
+        },
+        {
+          "kind": "addition",
+          "detail": "The term 'tự kiêu' (proud/arrogant) is added in the Vietnamese translation; the Greek text only mentions 'typhōtheis' (being blinded/becoming blind)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

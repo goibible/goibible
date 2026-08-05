@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'παντα' (pantas) is an accusative plural, meaning 'all' or 'everyone'. The Vietnamese translation 'mọi người' correctly captures the plurality but misses the specific scope of the Greek construction. More importantly, the Greek 'ερχομενον' is a present active participle meaning 'coming'. The Vietnamese 'đến' (to come) functions as a verb/prepositional phrase but loses the continuous/active nature of the participle describing the people."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερχομενον εις τον κοσμον' describes people *coming into* the world. The Vietnamese 'đến trong thế gian' can be interpreted as 'arriving in/within the world', but it slightly blurs the directional movement implied by 'εις' (into)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

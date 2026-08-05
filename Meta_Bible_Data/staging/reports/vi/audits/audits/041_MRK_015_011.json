@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀνεσεισαν' (anesesian) means 'urged' or 'instigated'. The Vietnamese translation 'xúi giục' is generally accurate, but the structure 'để họ xin tha... cho mình' implies the crowd is asking for a favor *for themselves*, whereas the Greek 'ἀπολυση αυτοις' (aplysi autois) means 'release [him] to them' (granting the release to the crowd). The Vietnamese phrasing slightly shifts the focus of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απελεγμον' (apelegmon) refers to being 'cast out', 'rejected', or 'expelled'. The Vietnamese 'bị khinh bỉ' (despised/scorned) is a slightly different nuance of social rejection, but the primary issue is the following clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις ουδεν λογισθηναι μελλειν' means 'is destined to be counted for nothing' or 'to be considered worthless'. The Vietnamese 'bị kể là vô giá trị' is an acceptable rendering of this concept."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθαιρεισθαι' (kathaireisthai) means 'to be removed', 'taken away', or 'deposed'. The Vietnamese 'bị hủy diệt' (destroyed/annihilated) is significantly stronger than the Greek term, which implies a removal of status or position rather than physical destruction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

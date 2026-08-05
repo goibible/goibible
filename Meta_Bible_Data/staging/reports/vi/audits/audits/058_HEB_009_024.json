@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εισληθεν' (eisēlthēn) is an aorist indicative verb meaning 'entered'. The Vietnamese translation 'chẳng phải vào' (not into) combined with the context of the sentence creates a negation that is not present in the Greek structure. The Greek says 'For Christ entered into the holy places... but into heaven', whereas the Vietnamese renders it as 'Christ was not into... but into'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αντιτυπα' (antitypa) means 'type' or 'pattern' (as in a prophetic type). The Vietnamese 'hình bóng' (shadow/image) is a common rendering, but the grammar of the sentence 'chẳng phải... là hình bóng' makes it sound like Christ is not the shadow, whereas the Greek identifies Him as the type."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

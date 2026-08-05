@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι των αδικων' means 'concerning/against the unjust' (the people being judged), but the Vietnamese translates it as 'trước mặt kẻ không công bình', which means 'in front of an unjust person' (the judge). This flips the role of the subject and object of the judgment."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι των αγιων' means 'concerning/against the holy ones', but the Vietnamese translates it as 'trước mặt các thánh', which means 'in front of the saints'. This also flips the role from the subject of judgment to the audience."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

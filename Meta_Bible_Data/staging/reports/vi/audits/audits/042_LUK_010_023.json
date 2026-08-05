@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στραφεις' (turned/turned toward) is a verb of motion/direction, but the Vietnamese 'xây lại' means 'rebuild' or 'build again', which is a completely different concept."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατ ιδιαν' (privately/separately) is rendered as 'mà phán riêng', which is acceptable, but the core verb error in the first part of the sentence compromises the primary action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

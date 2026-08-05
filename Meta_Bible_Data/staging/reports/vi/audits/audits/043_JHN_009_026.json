@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ειπον' (eipon) is a 1st person singular perfect active indicative ('I said'). The Vietnamese translation uses 'Họ lại hỏi' ('They asked again'), which changes the subject from 'I' to 'They' and the action from 'said' to 'asked'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'τι' (ti - 'what') is missing in the Vietnamese rendering of the first question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

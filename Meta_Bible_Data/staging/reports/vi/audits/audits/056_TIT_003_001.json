@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'υπομιμνησκε' (subdue/bring under control) is missing from the Vietnamese translation. The Vietnamese text starts with 'Hãy nhắc' (Remind), which is not present in the Greek source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 57,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εστιν προφητης ατιμος' is a negative construction meaning 'a prophet is NOT dishonored' (or 'no prophet is dishonored'). The Vietnamese translation 'không bị khinh dể' (not being despised) combined with the context of the Greek structure results in a logical reversal. The Greek says: 'A prophet is not [honored/reputable] except in his own country.' The Vietnamese renders it as a general statement that prophets are not despised, which misses the specific irony Jesus is highlighting about how they *are* being treated."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

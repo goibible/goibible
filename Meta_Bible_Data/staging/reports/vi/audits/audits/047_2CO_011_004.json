@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηνειχεσθε' (enichesthe) is in the middle voice/passive and carries the sense of 'enduring' or 'bearing' a burden, but the Vietnamese 'chịu đựng được thật tốt' (endured very well/well-tolerated) adds a positive evaluative quality ('thật tốt') that is not present in the Greek text. The Greek conveys the irony of the situation rather than a commendation of their endurance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

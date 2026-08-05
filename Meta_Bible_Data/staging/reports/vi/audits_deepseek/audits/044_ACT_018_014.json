@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ῥᾳδιούργημα πονηρόν' means 'wicked mischief' or 'evil scheming' (a general term for wrongdoing), but the Vietnamese renders it as 'sự dâm dật độc ác' ('wicked lewdness/fornication'), which introduces a sexual connotation not present in the Greek. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

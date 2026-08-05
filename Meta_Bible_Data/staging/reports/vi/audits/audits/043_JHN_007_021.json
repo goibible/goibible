@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εργον εποιησα' (literally: 'I have done in work' or 'I have done a work') is rendered as 'Ta đã làm một công việc'. In the context of the Gospel of John 20:17, this refers to the miracle/work Jesus performed, but the Vietnamese 'một công việc' can sound like a generic 'task' or 'job' rather than the specific 'work' (miracle) he just completed. However, the more significant issue is the tense and aspect of 'θαυμαζετε'. The Greek 'θαυμαζετε' is a present indicative, implying a continuous state of wondering/marveling. The Vietnamese 'đều ngạc nhiên' is a simple past/state. While 'ngạc nhiên' captures the sense, it misses the ongoing nature of the marveling."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

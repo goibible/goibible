@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποθεν με γινωσκεις' means 'how do you know me?' (or 'from where do you know me?'). The Vietnamese translation 'Bởi đâu thầy biết tôi?' is a common rendering, but the Greek 'με' (me) is present. However, there is a more significant issue with the tense/aspect of the final clause."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ειδον σε' uses the Aorist tense ('I saw you'). The Vietnamese 'đã thấy ngươi' correctly captures the past, but the Greek 'προ του σε φιλιππον φωνησαι' (before Philip called you) is an infinitive construction. The main issue is that 'ειδον' is a simple past/aorist, whereas some might interpret the sequence of events differently. However, looking closely at the text provided: the Vietnamese says 'ta đã thấy ngươi', which is accurate to 'ειδον σε'. The most significant discrepancy is the omission of the specific nuance of 'ποθεν' (from where/how) being rendered as 'Bởi đâu', which is acceptable. Wait, re-evaluating: The Greek says 'ειδον σε' (I saw you). The Vietnamese says 'đã thấy ngươi'. This is OK. Let me re-check the Greek 'ποθεν με γινωσκεις'. It means 'How/From where do you know me?'. The Vietnamese 'Bởi đâu thầy biết tôi?' is a faithful rendering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

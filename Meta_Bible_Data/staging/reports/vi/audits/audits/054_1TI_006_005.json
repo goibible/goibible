@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final clause 'αφιστασο απο των τοιουτων' (far off from such people / stay away from such people), which is a distinct imperative instruction in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

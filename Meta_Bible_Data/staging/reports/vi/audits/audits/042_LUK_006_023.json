@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα ταυτα' (according to these things) refers back to the actions of rejoicing and dancing mentioned in the first clause. The Vietnamese translation 'làm như vậy' (did so/did like that) is a functional equivalent, but the structure 'vì tổ phụ họ cũng đã làm như vậy đối với các nhà tiên tri' suggests the fathers did something *to* the prophets, whereas the Greek indicates the fathers were speaking *to* the prophets about these things."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'đối với các nhà tiên tri' (to/towards the prophets) slightly obscures that the fathers were actually speaking ('εποιουν') to them, though it captures the indirect object. However, the primary issue is the clarity of what 'these things' refers to in the context of the fathers' speech."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

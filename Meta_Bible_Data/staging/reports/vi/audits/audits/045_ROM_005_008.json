@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'συνιστησιν' (sunistēsin) means 'demonstrates', 'shows', or 'makes manifest'. The Vietnamese translation 'tỏ tình yêu thương' (shows love) captures the action of showing, but misses the specific nuance of 'demonstrating/making manifest' which is central to the theological claim of how God's love is evidenced."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνιστησιν δε την εαυτου αγαπην' (demonstrates His own love) implies that God is showing *His own* love. The Vietnamese 'tỏ tình yêu thương của Ngài' is acceptable, but the phrasing 'tỏ tình yêu thương' can sometimes be interpreted as 'expressing affection'. More importantly, the Greek structure indicates that the *reason* (οτι) for the demonstration of love is the fact that Christ died. The Vietnamese 'thì' (then/so) creates a slightly different causal link than the 'because/since' implied by 'οτι'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

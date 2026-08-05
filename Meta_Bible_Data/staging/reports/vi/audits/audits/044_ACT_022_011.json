@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χειραγωγουμενος' (being led/guided) is the reason *why* the narrator was being led, not a result of his inability to see. The Vietnamese structure suggests he couldn't see because of the light, and *therefore* they held his hand, whereas the Greek says he came to Damascus *while being led* by those with him because he could not see from the glory of that light."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

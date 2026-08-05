@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'συνηθροισμενοι' (sunēthroismenoi) means 'sorrowful' or 'mourning'. The Vietnamese translation omits this entire concept, only mentioning that they were gathered and praying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

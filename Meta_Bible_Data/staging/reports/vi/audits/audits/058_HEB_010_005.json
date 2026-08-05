@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text describes the action of 'entering the world' (διερχομενος εις τον κοσμον) as a participle modifying the subject (Jesus), but the Vietnamese translation renders it as a temporal clause ('khi vào thế gian') and incorrectly attributes the speech to Him as a quote ('Ngài phán')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ηθελησας' is 2nd person singular ('you did not want'), but the Vietnamese translates it as 3rd person ('Chúa chẳng muốn' - God/Lord did not want)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'λεγει' (says) is missing or replaced by the implied speech structure in the Vietnamese."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

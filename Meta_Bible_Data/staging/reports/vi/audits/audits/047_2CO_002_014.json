@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τὸν πᾶντοτε θριαμβεύοντι ἡμᾶς' uses a participle (thriambeuonti) modifying the subject/object relationship. The Vietnamese translation 'luôn luôn khiến chúng tôi được thắng' (always makes us win) changes the grammatical structure from 'the one who is always triumphing for us' to an active causative action by God. More importantly, the Greek implies God is the source of the triumphing, but the Vietnamese phrasing slightly shifts the agency/aspect."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δι ἡμῶν' (through us) is rendered as 'bởi chúng tôi' (by/for us). While often acceptable, in this specific context of 'manifesting' (phaneronti), the 'through' aspect of the agency is slightly weakened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

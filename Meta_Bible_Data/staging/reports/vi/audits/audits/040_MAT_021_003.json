@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ερειτε' is a question ('what will you say?'), not an imperative command to answer. The Vietnamese 'hãy trả lời' (please/must answer) changes the grammatical mood from an interrogative to an imperative."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευθεως δε αποστελει αυτους' means 'He will NOT send them immediately' (the 'δε' is a negation). The Vietnamese translation 'Ngài sẽ gửi chúng đến ngay' omits the negation, completely reversing the meaning of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

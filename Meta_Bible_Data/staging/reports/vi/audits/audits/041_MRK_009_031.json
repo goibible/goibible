@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο υιος του ανθρωπου' (the Son of Man) is translated as 'Con người' (Man/Humanity), which loses the specific title used by Jesus. While 'Con người' is a common translation for 'Son of Man', in this context, it can be interpreted as 'mankind' rather than the specific figure Jesus is referring to."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese version omits 'τι' (that) and the introductory 'Ngài dạy... rằng' structure slightly flattens the reporting clause, but more importantly, it misses the nuance of 'ελεγεν αυτοις' (he said to them) by merging it into a general statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

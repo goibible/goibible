@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 9,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχουσιν εφ αυτων βασιλεα' means 'they have as king over them,' but the Vietnamese 'có vua cai trị mình' suggests they *have* a king who rules them, slightly shifting the grammatical relationship of possession/governance. More importantly, the Greek 'τον αγγελον' is the object of the verb 'have', but the Vietnamese structure makes it sound like a description of the king they have. However, the main issue is the phrasing 'τον αγγελον της αβυσσου ονομα αυτω εβραιστι...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek says 'ονομα αυτω εβραιστι' (his name in Hebrew), but the Vietnamese says 'danh người bằng tiếng Hê-bơ-rơ' (the name of the person in Hebrew). While close, the Vietnamese phrasing 'người có danh là A-bô-lion' in the second half is a bit clunky compared to the Greek 'ονομα εχει απολλυων' (has the name Apollyon)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

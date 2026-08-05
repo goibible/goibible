@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εταιρε' is a vocative form of 'hetaireos', meaning 'companion' or 'friend'. The Vietnamese translation 'Bạn ơi' (Friend/Buddy) is somewhat informal, but the primary issue is the phrase 'vì việc gì mà anh đến đây?'. The Greek 'εφ ω' is a relative pronoun/conjunction structure ('for what') that is part of an incomplete thought in this specific snippet (likely leading into 'for what reason you are here'), but the Vietnamese phrasing 'vì việc gì mà anh đến đây?' changes the grammatical flow into a standard question that doesn't perfectly mirror the Greek's specific relative construction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

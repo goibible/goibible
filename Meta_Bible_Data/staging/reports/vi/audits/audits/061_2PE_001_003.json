@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως παντα' (as always) is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'της θειας δυναμεως αυτου' (of His divine power) is rendered as 'Quyền năng thiêng liêng của Ngài', but the Vietnamese structure implies the power *gave* the gifts, whereas the Greek indicates the gifts were *given to us by/through* His divine power ('...της θειας δυναμεως αυτου τα... δεδωρημενης')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

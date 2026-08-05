@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'τη αρχη και τη εξουσια του ηγεμονος' means 'to the rule/authority and the power of the governor' (i.e., the governor's authority and jurisdiction). The Vietnamese renders 'τη αρχη' as 'sự ban đầu' (the beginning), which is a mistranslation of 'αρχη' in this context. Here 'αρχη' means 'rule/authority', not 'beginning'. This changes the meaning: the Greek says they would hand Him over to the governor's authority and power, but the Vietnamese says 'to the beginning and power of the governor', which is nonsensical and factually different."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

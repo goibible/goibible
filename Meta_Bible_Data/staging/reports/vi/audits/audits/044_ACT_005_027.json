@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγαγοντες' (agagontes) is a present active participle meaning 'bringing' or 'leading'. The Vietnamese 'điệu họ đến' (brought them/led them) captures the action, but the structure 'Khi đã... đến' (When [they] had already... arrived) introduces a completed temporal sequence that slightly shifts the nuance from the continuous/simultaneous action of 'bringing' them into the council."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'εστησαν' (estēsan) is an aorist indicative, meaning 'they set' or 'they placed'. The Vietnamese 'các người ấy đặt' correctly identifies the subject and action. However, the phrase 'điệu họ đến' in Vietnamese can imply a certain manner of leading/bringing that isn't explicitly in the Greek, though it is a common idiomatic rendering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

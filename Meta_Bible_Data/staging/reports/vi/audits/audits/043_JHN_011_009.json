@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχι' (ouchi) is a negative particle, but the Vietnamese translation 'Chẳng phải... sao?' creates a rhetorical question ('Isn't it...?'). While common in Vietnamese, the Greek structure 'ουχι δωδεκα εισιν' functions more as a direct negation of the count or a statement of fact rather than a rhetorical inquiry. However, the primary issue is the causal link: the Greek uses 'οτι' (oti) which functions as a relative/conjunction meaning 'who' or 'that', but in this context, it relates to the person seeing the light. The Vietnamese 'vì' (because) creates a causal relationship that is not explicitly present in the Greek grammar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

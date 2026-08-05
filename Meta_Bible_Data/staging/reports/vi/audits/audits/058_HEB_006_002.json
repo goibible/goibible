@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'βαπτισμων' (baptisms) is translated as 'các sự rửa' (the washings), which loses the specific theological concept of baptism. Furthermore, the Greek word 'επιθεσεως' (laying on of hands) is missing the preceding 'τε' (and), but more importantly, the Vietnamese translation omits the first 'τε' connecting 'βαπτισμων' and 'διδαχης', though this is minor compared to the loss of the specific term 'baptism'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

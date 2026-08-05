@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κατοικει' (katoikei) means 'dwells' or 'resides'. The Vietnamese translation 'ở cách' (stay/be at a distance from) incorrectly conveys a separation or location, whereas the Greek indicates the indwelling of the fullness of deity within Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

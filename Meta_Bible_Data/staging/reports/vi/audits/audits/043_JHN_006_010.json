@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αναπεσειν' (anapesein) means 'to sit down' (imperative/hortatory), but the Vietnamese translation 'Hãy bảo những người này ngồi xuống' adds a command to 'tell' (bảo) them, which is not present in the Greek text. The Greek is a direct command/exhortation to the people."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'πολυς' (polys - many) describing the grass, though it includes 'nhiều' (many). However, more critically, it misses the nuance of the Greek 'πολυς εν τω τοπω' which refers specifically to the abundance/quantity of grass in that place as a reason for sitting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεστησεν' (apestēsen) means 'set aside', 'separated', or 'detached'. The Vietnamese 'dẫn dụ' (led astray/enticed) changes the meaning from a separation of people to a moral/spiritual leading. Furthermore, 'ικανον' (ikanon) is an adverbial/adjectival usage here often interpreted as 'sufficient' or 'a certain number', but the Vietnamese 'nhiều' (many) is an expansion of the text."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nhưng' (but) before 'hắn cũng bị diệt'. There is no coordinating conjunction or contrastive particle in the Greek text between the separation of the people and his destruction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

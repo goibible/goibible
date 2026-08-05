@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φαντασμα' (phantasma) means 'ghost' or 'apparition'. The Vietnamese translation 'thần' (god/deity/spirit) changes the nature of what they thought they were seeing from a frightening apparition to a divine being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

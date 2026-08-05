@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασπαζεται υμας' (aspazate hymas) is an imperative meaning 'Greet [you/them]', but the Vietnamese translates it as 'Hội thánh... chào anh em', which shifts the subject to the Church as the one performing the greeting, whereas the Greek implies a command to the readers to greet the specific people mentioned."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'η εν βαβυλωνι συνεκλεκτη' refers specifically to 'the chosen ones in Babylon' (or 'the chosen ones together in Babylon'). The Vietnamese 'Hội thánh được chọn cùng nhau tại Ba-by-lôn' adds 'Hội thánh' (Church) which is not explicitly in the Greek text, though it is a common contextual inference."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

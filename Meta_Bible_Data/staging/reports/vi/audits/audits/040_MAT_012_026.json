@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμερισθη' (emeristhē) is a passive verb meaning 'it was divided' or 'he was divided.' The Vietnamese 'tự chia rẽ nhau' implies a reflexive action ('divided each other'), which slightly alters the grammatical voice of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

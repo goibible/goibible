@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεδοκιμασθη' is a passive verb meaning 'was rejected/refused'. The Vietnamese translation 'đã bị từ chối' correctly captures the passive voice, but the phrasing 'dù muốn thừa hưởng phước lành, người ấy đã bị từ chối' implies that the *person* was rejected because they wanted to inherit the blessing. In Greek, the structure indicates that the *blessing* (the inheritance) was what was refused/rejected (or the act of inheriting it was refused), not necessarily the person themselves as a subject of rejection."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αγαθωσυνη' (agathosynē) means 'goodness'. The Vietnamese translation uses 'lòng nhân từ', which means 'kindness' or 'mercy'. While related, 'goodness' is a broader moral virtue than 'kindness'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθό' (kathó) functions as a comparative particle meaning 'in measure as' or 'as much as'. The Vietnamese translation 'có... bao nhiêu, thì hãy... bấy nhiêu' correctly captures the comparative structure, but the Greek 'κοινωνeite' is a verb of 'participating in' or 'sharing in' (koinōneō), not just 'having' (có) a share. However, the primary issue is the translation of 'χαρητε' (chairete) as 'vui mừng' (rejoice) and 'αγαλλιωμενοι' (agalliōmenoi) as 'vui mừng hớn hở'. While 'vui mừng' is acceptable, 'αγαλλιωμενοι' implies 'exulting' or 'rejoicing with great joy/shouting for joy', which is slightly softened in the Vietnamese."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τη αποκαλυψει' (en tē apokalypsi) means 'in the revelation'. The Vietnamese 'được tỏ ra' (be revealed/shown) is a functional equivalent, but the prepositional 'in' is slightly lost in the phrasing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

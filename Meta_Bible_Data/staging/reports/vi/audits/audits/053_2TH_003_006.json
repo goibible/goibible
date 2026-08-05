@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κατα την παραδοσιν' (not according to the tradition) is rendered as 'không theo truyền khẩu' (not according to oral tradition). The Vietnamese addition of 'khẩu' (oral) is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

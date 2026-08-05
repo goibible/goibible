@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επει ουκ αν επαυσαντο' (because they would not cease) is a causal statement explaining why something happens. The Vietnamese 'Nếu không... há chẳng thôi...' transforms this into a rhetorical question ('If not... would they not stop?'), changing the logical structure of the sentence."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek uses the imperfect tense 'επαυσαντο' to describe a continuous action (ceasing/stopping). The Vietnamese phrasing obscures the continuous nature of the action by framing it as a hypothetical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

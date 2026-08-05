@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'σοφιαν δε λαλουμεν' (but we speak wisdom) is positive. The Vietnamese translation adds a negation 'chẳng phải' (not), which changes the meaning of the first clause from 'we speak wisdom' to 'it is not [that] we speak wisdom'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σοφιαν δε λαλουμεν εν τοις τελειοις' means 'we speak wisdom among the perfect'. The Vietnamese translation 'nói sự khôn ngoan giữa những người trọn vẹn' combined with the added negation makes the sentence structure confusing and factually different from the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κωλυσης' (do not hinder/prevent) is applied to the action of the person taking the garments. The Vietnamese translation 'đừng ngăn họ lấy luôn áo dài' implies a prohibition on the victim preventing the thief, whereas the Greek structure suggests a command or observation regarding the act of taking both items without resistance."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'την αλλην' (the other [cheek]) is rendered as 'má kia', which is acceptable, but the transition 'απο του αιροντος σου' (from the one taking from you) is slightly shifted in the Vietnamese structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

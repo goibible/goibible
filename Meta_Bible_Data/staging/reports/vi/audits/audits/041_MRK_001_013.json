@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ημερας' (days) in its specific placement, though it includes 'bốn mươi ngày'. However, more importantly, it omits the prepositional structure 'εν τη ερημω' (in the wilderness) being specifically linked to the duration, but the primary issue is the phrasing 'ở chung với các con thú' (lived together with the beasts). The Greek 'ην μετα των θηριων' can be interpreted as 'was with the beasts', but the Vietnamese 'ở chung' implies a state of cohabitation/living together which is slightly more descriptive than the Greek 'μετα' (with)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

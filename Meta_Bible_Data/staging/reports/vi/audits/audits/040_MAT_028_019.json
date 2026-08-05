@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'πορευθεντες' (poreuthentes) is an aorist active participle, indicating an action already completed or initiated ('having gone'). The Vietnamese translation uses the imperative 'hãy đi' ('let us/you go'), which changes the grammatical mood from a description of past/completed action to a command for future action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

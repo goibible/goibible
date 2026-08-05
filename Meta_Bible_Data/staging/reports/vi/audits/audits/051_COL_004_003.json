@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αμα και περι ημων' (but also for us) is rendered as 'cho chúng tôi' (for us). The Vietnamese translation omits the 'αμα και' (but also) aspect, which indicates an addition to a previous request."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανοιξη ημιν θυραν του λογου' means 'open to us the door of the word'. The Vietnamese translation 'mở cửa cho lời' (open the door for the word) shifts the object; it suggests opening the door *for* the word rather than opening the door of the word *to* the speakers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

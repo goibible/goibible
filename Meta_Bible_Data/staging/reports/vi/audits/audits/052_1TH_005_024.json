@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο καλων' is a present active participle (the one who calls/is calling), but the Vietnamese 'Đấng gọi' (The One who calls) is rendered as a title/noun phrase. More importantly, the Greek 'πιστος' (faithful) modifies the subject who calls; the Vietnamese translation 'Đấng gọi anh em là thành tín' mistakenly suggests that the subject is calling the brothers 'faithful' (calling them faithful), whereas the Greek means 'The faithful one who calls you'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

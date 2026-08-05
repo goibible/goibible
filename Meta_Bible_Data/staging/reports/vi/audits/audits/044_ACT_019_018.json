@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τασ πραξεις αυτων' (their deeds) refers to the deeds of the people who were coming forward, but the Vietnamese 'của mình' (of themselves/their own) can be interpreted as the deeds of the speaker or a generic 'their' that loses the specific connection to the group mentioned. More importantly, 'αυτων' is plural, and while 'mình' can be reflexive, in this context it slightly obscures the fact that they are reporting the deeds of the collective group."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τον πατερα' (the Father) is the direct object of the verb 'ελεγεν' (said). The Vietnamese translation 'nói với họ về Cha' (said to them about the Father) changes the grammatical structure from 'said the Father to them' to 'said to them about the Father'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

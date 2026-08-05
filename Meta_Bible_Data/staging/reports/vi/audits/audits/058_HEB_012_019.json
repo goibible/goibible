@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'ηχω' (echo) is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φωνη ρηματων' refers to a 'voice of words' or 'voice of things,' but the Vietnamese 'tiếng của những lời' (voice of words) combined with the surrounding structure loses the specific nuance of 'φωνη' as a distinct sound accompanying the 'σαλπιγγος' (trumpet) and 'ηχω' (echo)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

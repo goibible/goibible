@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπασασθε' (aspasasthe) means 'kiss,' whereas the Vietnamese 'chào' means 'greet.' This changes the specific action required by the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο αγαμος' (the unmarried) is a subject/noun phrase, but the Vietnamese 'Người chưa lập gia đình' (People who haven't started a family) is used as a new sentence subject. More importantly, the Greek text says 'μεριμνα τα του κυριου' (let the care be of the Lord), but the Vietnamese translates this as 'lo việc của Chúa' (take care of/do the work of God). The Greek implies that for the unmarried, their concern/care should be focused on the Lord's matters, whereas the Vietnamese makes it sound like a specific instruction for a specific group of people to perform tasks."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

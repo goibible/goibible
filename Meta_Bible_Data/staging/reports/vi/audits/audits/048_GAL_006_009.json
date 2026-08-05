@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη εκκακωμεν καιρω' means 'let us not grow weary in due season/time' (referring to the appointed time of harvest). The Vietnamese translation 'không mệt mỏi khi làm điều tốt' (not tired when doing good) captures the first half but loses the specific nuance of 'kairos' (the appointed time) and instead focuses on the action of 'doing good' as the condition for tiredness, rather than the timing of the harvest."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ιδιω' (idion) modifies 'therisomen' (we shall reap), meaning 'our own' harvest. The Vietnamese 'đến thời điểm riêng' translates 'kairos' as 'riêng' (private/separate time), missing the possessive 'idion' which indicates the harvest belongs to them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

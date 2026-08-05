@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις σε ζητει αποκτειναι' means 'someone is seeking to kill you' (active voice/subject), but the Vietnamese 'ai tìm cách giết ngươi?' translates to 'who is trying to kill you?' (interrogative). The Greek is a statement of fact, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

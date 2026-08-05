@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λεγει αυτη ο ιησους' indicates that Jesus is speaking TO the woman ('αυτη'). The Vietnamese translation 'Chúa Giê-xu nói với người ấy' correctly identifies the recipient, but the subsequent quote 'Hãy cho ta uống' (Give me to drink) misses the crucial context of the Greek 'δοσ μοι πιειν'. In the Greek, it is a request for water ('give [me] [to] drink'), whereas the Vietnamese 'cho ta uống' can be interpreted as 'let me drink' or 'give [it] to me to drink'. More importantly, the Greek construction implies Jesus is asking her to give him something to drink (the water), while the Vietnamese phrasing is slightly ambiguous regarding the object."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δοσ μοι πιειν' is an imperative request. While 'Hãy cho ta uống' captures the command, it loses the specific nuance of 'give [me] [water] to drink' which is the immediate context of the well."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

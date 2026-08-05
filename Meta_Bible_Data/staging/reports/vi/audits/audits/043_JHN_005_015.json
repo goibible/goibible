@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουγιη' (hygiē) means 'healthy' or 'whole', but the Vietnamese 'chữa lành' is a verb meaning 'to heal'. While related, the Greek describes a state of being ('is the one who made him healthy') rather than the action of healing. More importantly, the Greek 'ποιησας αυτον υγιη' implies 'made him healthy', whereas 'chữa lành cho mình' suggests 'healed for/to himself'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

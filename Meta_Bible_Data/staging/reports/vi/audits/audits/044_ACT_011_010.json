@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'δε' (not) is missing in the Vietnamese translation. The Greek says 'it did NOT happen three times,' but the Vietnamese says 'it happened three times.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

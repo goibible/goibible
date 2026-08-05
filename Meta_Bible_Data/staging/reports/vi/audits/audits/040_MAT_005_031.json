@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'δοτω αυτη αποστασιον' (give her a certificate of divorce) is translated as 'hãy cho vợ tờ ly dị' (let him give his wife a divorce paper). While the action is similar, the Vietnamese translation omits the specific object/result of the Greek 'αποστασιον' (a formal certificate/document of divorce) by rendering it as a general command to 'give the divorce', losing the nuance of providing a physical/legal document."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

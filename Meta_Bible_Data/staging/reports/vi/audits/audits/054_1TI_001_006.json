@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đó' (that) to the object of the verb, which is not present in the Greek source. The Greek 'αστοχησαντες' is a participle modifying 'τινες' (some), not an object being abandoned."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'xây bỏ mục đích đó' (abandoned that purpose) misinterprets the participle 'αστοχησαντες' (having missed the mark / having failed). The Greek describes the state of the people (those who missed the mark) rather than an action they performed (abandoning a purpose)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

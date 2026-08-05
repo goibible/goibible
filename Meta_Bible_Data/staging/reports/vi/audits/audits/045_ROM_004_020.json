@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'đưa' (or a similar verb) or the specific structure of 'ενεδυναμωθη' (was strengthened/empowered). While 'càng mạnh mẽ' captures the sense, it misses the passive/reflexive nuance of being 'strengthened' by the faith. More importantly, the Vietnamese version omits the prepositional relationship 'εις την επαγγελιαν' (concerning/towards the promise) as a direct object of the doubt."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου διεκριθη τη απιστια' means 'was not divided by unbelief'. The Vietnamese 'chẳng có lưỡng lự hoặc hồ nghi' (did not have hesitation or doubt) is a stylistic paraphrase. While acceptable in many contexts, it changes 'divided/split' to 'hesitation/doubt'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ταις καρδιαις ημων' (in our hearts) is rendered as 'trong lòng chúng tôi'. While 'lòng' can mean heart, in this context, the Greek implies the letters are 'inscribed/written' in the hearts of the believers. However, the Vietnamese phrasing 'viết trong lòng' often carries a metaphorical sense of 'keeping in mind' or 'feeling deeply,' whereas the Greek 'εγγεγραμμενη' (inscribed/written) combined with 'εν ταις καρδιαις' suggests a more permanent, internal registration. More importantly, the Vietnamese 'được mọi người biết và đọc' captures the passive voice and the 'by all people' (υπο παντων ανθρωπων) correctly."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

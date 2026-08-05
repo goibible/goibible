@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα' (meta) in this context functions as a preposition of 'beyond' or 'after' (transcending), not 'along with'. The Vietnamese 'cùng với' (together with) suggests a simultaneous coexistence, whereas the Greek implies that piety is the result of moving beyond/surpassing self-sufficiency."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

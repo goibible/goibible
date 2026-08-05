@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστησας' (anastēsas) means 'having raised/resurrected'. The Vietnamese translation 'dấy đầy' is a common term for 'filling up' or 'empowering,' which significantly alters the theological meaning of the resurrection."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εν τω αποστρεφειν' (en tō apostrephein) implies a continuous action ('while turning away' or 'in the process of turning away'). The Vietnamese 'khiến mỗi người... xây khỏi' (causing each person... to build away from/build out of) changes the grammatical structure from a process/state to a causative result."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

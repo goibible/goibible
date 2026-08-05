@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σκληρον σοι προς κεντρα λακτιζειν' is a metaphorical/idiomatic expression often interpreted as 'to strike against the rocks' or 'to strike at the stones,' but the Vietnamese translation 'đá vào nọc nhọn' (striking at sharp spikes/thorns) introduces a specific physical object ('nọc nhọn') not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

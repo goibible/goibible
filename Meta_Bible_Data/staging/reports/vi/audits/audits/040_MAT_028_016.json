@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου εταξατο' (ou etaxato) uses a negative particle 'ου', meaning 'not appointed' or 'not designated'. The Vietnamese translation omits the negation and renders it as 'đã chỉ định' (had appointed/designated), which reverses the meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

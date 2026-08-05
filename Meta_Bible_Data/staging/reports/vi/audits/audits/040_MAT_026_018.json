@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δεινα' (deina) refers to a specific person or entity, but the Vietnamese 'một người kia' (that/another person) is vague. More importantly, 'προς τον δεινα' indicates direction toward the person/house, while the Vietnamese adds 'tại nhà ngươi' (at your house) at the end of the sentence, which is a structural shift from the Greek's spatial arrangement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προς σε' (to you/towards you) is rendered as 'ta' (you) in 'nhà ngươi', but the specific prepositional relationship of 'προς τον δεινα' (towards the [deina]) is slightly obscured by the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

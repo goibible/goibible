@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και απο παντων ων ουκ ηδυνηθητε' (and from all those in which you were not justified) is rendered as 'khỏi mọi điều mà các ngươi không thể được xưng công bình' (from all things that you cannot be justified). The Vietnamese changes 'not justified' (past/state) to 'cannot be justified' (inability), slightly altering the scope of the Greek's specific reference to the lack of justification under the Law."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τω νομω μωσεως' (in the law of Moses) is rendered as 'bởi luật Môi-se' (by the law of Moses). While 'by' is a common rendering, the Greek specifically uses 'in' (en), though this is often stylistic. However, the primary issue is the shift from 'not justified' to 'cannot be justified'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

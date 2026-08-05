@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απελυσαν' (apelysan) means 'to let go,' 'to release,' or 'to set free.' The Vietnamese translation 'để cho họ đi' implies 'let them go' (as in allowing them to depart), but the context of 'τας χειρας' (the hands) and 'απελυσαν' suggests a physical act of releasing someone who was being held/bound. However, more critically, the Greek structure 'τας χειρας αυτοις' indicates they released 'their hands' (the hands of those people). The Vietnamese 'để cho họ đi' misses the specific object of the release (the hands)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

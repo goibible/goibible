@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζηλουτε' (zeloute) is a present imperative meaning 'be eager for' or 'zeal for'. The Vietnamese 'sốt sắng tìm kiếm' adds the concept of 'seeking' (tìm kiếm), which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κωλυετε' (mē kōlyete) means 'do not forbid' or 'do not hinder'. The Vietnamese 'đừng ngăn cấm' is a correct translation of the prohibition, but the overall structure of the sentence in Vietnamese suggests a contrast between seeking one and forbidding the other, whereas the Greek is a direct command regarding both."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

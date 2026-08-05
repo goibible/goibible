@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξωμολογησεν' (exōmologēsen) means 'confessed' or 'admitted,' not 'hứa' (promised). The Vietnamese translation changes the meaning of the action from a confession to a promise."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

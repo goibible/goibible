@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο ποιων την αμαρτιαν εκ του διαβολου' describes the person who commits sin *from/out of* (ek tou) the devil. The Vietnamese 'Kẻ phạm tội là thuộc về ma quỷ' translates this as 'The sinner belongs to the devil,' which changes the grammatical relationship from an origin/source of the action to a state of belonging."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

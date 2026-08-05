@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η δικαιον' (the right/due) is translated as 'điều gì phải' (whatever is right/just). In the context of the parable, 'η δικαιον' refers to the specific portion or 'right' due to them based on their work, rather than a general 'whatever is right'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

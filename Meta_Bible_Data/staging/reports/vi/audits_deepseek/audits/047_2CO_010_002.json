@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τὸ μὴ παρὼν θαρρῆσαι' means 'that when absent I may not be bold' (i.e., not having to be bold when present). The Vietnamese renders 'khi có mặt' ('when present'), reversing the meaning: it says 'when present, I may not have to use boldness,' whereas the Greek says 'when absent, [I pray] not to be bold' (i.e., that he won't need to be bold when he arrives). This reverses the temporal condition and changes the sense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

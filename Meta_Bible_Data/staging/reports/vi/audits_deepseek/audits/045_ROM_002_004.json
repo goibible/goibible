@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek has three distinct qualities: χρηστότητος (kindness/goodness), ἀνοχῆς (forbearance/tolerance), and μακροθυμίας (patience/longsuffering). The Vietnamese renders the second and third both as 'sự nhịn nhục' (forbearance/patience), collapsing two distinct concepts into one and omitting the distinction between ἀνοχή and μακροθυμία."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

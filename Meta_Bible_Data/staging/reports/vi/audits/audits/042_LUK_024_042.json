@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'οπτου' (optou) is a genitive of the participle 'optomai', which means 'cooked' or 'roasted'. The Vietnamese translation 'nướng' (grilled/roasted) is a reasonable rendering, but the Greek specifically implies 'cooked'. However, the primary issue is 'μερς' (meros), which means 'part' or 'portion'. The Vietnamese 'một phần' (a part) is correct, but the phrase 'οπτου μερος' refers to 'a portion of cooked [fish]'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο μελισσιου κηριου' means 'from a honeycomb' (literally: from a bee-honey). The Vietnamese 'một tàng ong' translates to 'a hive of bees' or 'a colony of bees'. This is a significant factual difference; the text refers to the honey/comb, not the bees themselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

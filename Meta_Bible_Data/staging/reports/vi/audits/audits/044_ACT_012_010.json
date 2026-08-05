@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διελθοντες' (having passed through/gone through) implies passing *through* the prisons, whereas 'vượt qua' can sometimes imply just getting past them. However, the more significant issue is 'προηλθον ρυμην μιαν'. The Greek 'ρυμην' (ru-mēn) refers to a 'path' or 'way', but the Vietnamese 'đi qua một đường' (went through one way/road) loses the specific nuance of 'one path' as a designated route. More importantly, 'εξελθοντες' means 'having gone out', but the Vietnamese 'rồi họ ra ngoài' is a sequence. The main fidelity issue is the rendering of 'διελθοντες' as 'Sau khi vượt qua' (After passing), which changes the continuous/participial flow of the Greek action into a sequential temporal clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

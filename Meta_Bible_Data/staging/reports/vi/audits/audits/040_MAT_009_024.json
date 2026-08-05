@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεγελων αυτου' is a verb phrase meaning 'they were mocking him'. The Vietnamese translation 'Và họ chế nhạo Ngài' (And they mocked Him) correctly identifies the action but fails to capture that the mockery is part of the same continuous action/description as the sleeping girl in the Greek structure, and more importantly, it treats 'κατεγελων' as a separate sentence/action rather than a description of their state or the immediate reaction linked to the previous clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the reflexive/personal connection of 'αὐτοῦ' (him) in terms of the direct object of the mockery, though it captures the meaning. However, a more significant issue is the shift in sentence structure which separates the mockery from the immediate context of the girl's state."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

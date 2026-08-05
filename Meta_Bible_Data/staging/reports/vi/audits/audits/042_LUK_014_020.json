@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετερος ειπεν γυναικα' means 'another woman said'. The Vietnamese translation 'Người khác nói: Tôi đã cưới vợ' renders it as 'Another person said: I have married a woman', which changes the subject of the speech from a woman to an unspecified person (and adds the action of marrying)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

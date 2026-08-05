@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the subject 'οι μαθηται αυτου' (his disciples) as the primary agents of the action, instead using a passive/indirect construction ('trình lại cho người'). The Greek specifies that the disciples are the ones performing the action of reporting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

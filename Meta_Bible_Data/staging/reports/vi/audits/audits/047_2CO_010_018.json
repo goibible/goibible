@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đáng được ưng chịu' (worthy of being endured/accepted) does not accurately reflect 'δοκιμος' (dokimos), which means 'tested', 'approved', or 'proven'. The Greek describes someone who is 'proven' or 'tested' by their own self-recommendation, not someone 'worthy of endurance'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'gởi gắm' (entrusted/sent) is a significant departure from 'συνιστησιν' (synistēsin), which means 'recommendation' or 'commendation'. The Greek says 'the one whom the Lord commends', not 'the one whom the Lord entrusts'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

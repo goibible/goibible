@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο καισαρειας' (from Caesarea) is translated as 'từ thành Sê-sa-rê'. While Caesarea is the location, the Vietnamese translation implies they came *from* the city to join the group, whereas the Greek 'συν ημιν αγοντες' suggests they joined the group *while* coming from/at Caesarea. However, more critically, the Vietnamese 'dẫn chúng tôi đến nhà' (led us to the house) is a slight shift in the nuance of 'αγοντες' (bringing/leading), but the main issue is the structural flow of the movement."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'παρ ω ξενισθωμεν' means 'so that we might be lodged/housed'. The Vietnamese 'để chúng tôi trọ tại đó' is a faithful rendering of the purpose."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '祂的名和' (His name and) before '祂父的名' (His Father's name), but the Greek only mentions 'the name of His Father' (το ονομα του πατρος αυτου). This addition introduces a concept not present in the Greek, changing the claim about what is written on the foreheads."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

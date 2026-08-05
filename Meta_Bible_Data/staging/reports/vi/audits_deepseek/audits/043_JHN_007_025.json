@@ -1,0 +1,13 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.95
+    }
+  }
+}

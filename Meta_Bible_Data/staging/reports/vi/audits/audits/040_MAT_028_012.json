@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συναχθεντες' (synachthentes) means 'gathering together' or 'assembling', not 'nhóm lại' in the sense of forming a group/committee. More importantly, the Vietnamese 'lấy hội đồng' suggests they 'took a council/deliberation', whereas the Greek 'συμβουλιον τε λαβοντες' implies they were 'taking counsel' (seeking advice) from the elders."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'ικανα' (ikana) meaning 'sufficient' or 'enough' is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

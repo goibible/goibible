@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το βδελυγμα της ερημωσεως' (the abomination of desolation) is a direct object of the verb 'ιδητε' (you shall see). The Vietnamese translation 'đã được nói bởi' (which was spoken by) incorrectly attributes the phrase as a quote/statement from Daniel, rather than the subject of the vision/action being seen."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'το ρηθεν υπο δανιηλ του προφητου' refers to 'that which was [spoken/written] by the prophet Daniel'. The Vietnamese translation 'đứng ở nơi không nên' (standing in a place that shouldn't) misinterprets the prepositional phrase or context; it fails to capture that the abomination is what was spoken/written by Daniel."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

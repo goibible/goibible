@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'των αιωνας των αιωνων' (of the ages of ages), rendering it simply as 'đời đời' (forever/eternally). While 'đời đời' captures the sense of eternity, it misses the specific 'ages of ages' phrasing characteristic of this passage."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Từ nay' (From now on) is not present in the Greek text. While it captures the temporal shift of the event, it is an addition not found in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

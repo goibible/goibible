@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασθενει' is a verb (is sick/failing), but the Vietnamese 'người ấy đau' (that person is in pain) shifts the focus to a specific person's sensation rather than the state of being sick/weak. More importantly, the Greek 'τοτε' (then) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γενοιτο καυχασθαι' is a construction of 'not let it be that I boast' (a strong prohibition/negation of the action). The Vietnamese 'chớ có ai khoe mình' translates to 'let no one boast', changing the subject from the first person ('I') to an indefinite third person ('anyone')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

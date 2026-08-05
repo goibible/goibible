@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του λεπρου' (of the leper) is a genitive construction identifying Simon. The Vietnamese translation 'là người phung' (is a leper) changes the grammatical function from a descriptive genitive to a predicative clause, but more importantly, it misses the specific identification of Simon as 'the leper' in the context of the house ownership."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

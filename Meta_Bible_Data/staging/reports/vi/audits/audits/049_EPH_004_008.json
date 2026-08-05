@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αιχμαλωσιαν' (captives/prisoners) is rendered as 'sự bị cầm tù' (the state of being imprisoned/captivity). The Greek refers to people (captives), whereas the Vietnamese renders it as an abstract state or action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

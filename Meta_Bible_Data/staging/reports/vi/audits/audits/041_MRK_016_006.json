@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη εκθαμβεισθε' (mē ekthambeisthe) means 'do not be astonished/amazed'. The Vietnamese translation 'Đừng sợ hãi' means 'Do not be afraid', which changes the emotional response from amazement/wonder to fear."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

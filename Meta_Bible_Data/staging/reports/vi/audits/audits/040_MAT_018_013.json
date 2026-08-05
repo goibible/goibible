@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'χαιρει' (chairei) means 'rejoices' or 'is glad'. The Vietnamese translation 'vui mừng về nó' (rejoices about it/it is happy about it) is slightly ambiguous in its subject. More importantly, the phrase 'επ αυτω' (epi autō) refers to 'him' (the one who was lost), but the Vietnamese 'nó' (it) is used for both the lost person and the ninety-nine, which can lead to confusion regarding the gender/person of the subject."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'αμην λεγω υμιν' (amēn legō humin) is 'Truly I say to you'. The Vietnamese 'Quả thật, ta nói cùng các ngươi' is an accurate rendering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

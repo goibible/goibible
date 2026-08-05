@@ -1,0 +1,13 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.95
+    }
+  }
+}

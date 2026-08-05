@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'τελευτα' (teleuta) means 'end', 'last', or 'destruction', not 'death' (thanatos). The Vietnamese translation 'không chết' (do not die) changes the meaning from 'the end of the worm' to 'the worm does not die'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

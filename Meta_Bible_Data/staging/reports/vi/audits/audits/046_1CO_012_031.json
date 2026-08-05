@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κρειττονα' (kreittona) is a comparative adjective meaning 'better' or 'superior'. The Vietnamese translation 'tốt hơn' correctly captures the comparative, but the Greek phrase 'τα χαρισματα τα κρειττονα' refers to 'the better gifts' (plural). The Vietnamese 'những ân tứ tốt hơn' is acceptable, but the phrasing 'vượt quá mọi sự' for 'υπερβολην οδον' is slightly imprecise. Specifically, 'υπερβολην' functions as an adjective modifying 'οδον' (way/path), meaning a 'surpassing' or 'exceeding' way. The Vietnamese 'vượt quá mọi sự' (beyond everything) adds a superlative scope ('mọi sự') not explicitly present in the Greek text, which simply describes the nature of the path as surpassing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

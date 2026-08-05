@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιεροσυλους' (hierosylous) refers to 'sacrilegious ones' or 'desecrators of the temple', whereas the Vietnamese 'kẻ cướp đền thờ' means 'temple robbers/thieves'. While related, 'cướp' (robbery) is a specific criminal act not present in the Greek term for desecration."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'την θεαν υμων' uses the feminine 'θεαν' (the goddess). The Vietnamese 'nữ thần' correctly identifies the gender, but the phrase 'đến nữ thần' (to the goddess) is slightly awkward; however, the primary issue is the distinction between 'sacrilegious' and 'robber'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

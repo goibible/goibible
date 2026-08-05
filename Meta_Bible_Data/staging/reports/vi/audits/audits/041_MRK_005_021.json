@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'lại qua thuyền' (again passed the boat) is a mistranslation of 'διαπερασαντος του ιησου εν τω πλοιω' (Jesus having crossed in the boat). The Greek indicates Jesus was the one crossing *in* the boat, not that he passed *the* boat."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

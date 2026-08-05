@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι προς σε' (ti pros se) is a common idiomatic phrase in the New Testament often meaning 'what does it matter to you?' or 'what is it to you?'. The Vietnamese translation 'thì can hệ gì với ngươi?' captures this, but the structure of the Greek sentence links the entire statement about the disciple's life to the question. The Vietnamese phrasing makes 'thì can hệ gì với ngươi?' sound like a secondary response to the condition, whereas in the Greek, it is the concluding part of the direct quote from Jesus regarding the disciple's status."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

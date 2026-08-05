@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμβουλιον δε λαβοντες' means 'having taken counsel' or 'after consulting,' but the Vietnamese 'bàn bạc xong' (finished discussing) implies a completed action of discussion that isn't explicitly stated as 'finished'. More importantly, the Greek does not contain any reference to 'số bạc đó' (that amount of silver); it simply says they bought the field. The addition of 'số bạc đó' introduces a specific object/source not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

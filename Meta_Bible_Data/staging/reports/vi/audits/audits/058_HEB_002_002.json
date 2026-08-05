@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μισθαποδοσιαν' (misthapodosian) refers to a 'reward' or 'payment' (often in the context of judgment/retribution), but the Vietnamese 'phần thưởng công bình' translates to 'reward of justice' or 'just reward.' While related, 'mishthapodosia' specifically denotes the *penalty* or *recompense* for the transgression. More importantly, the Vietnamese phrasing implies a positive 'reward' (phần thưởng) rather than the punitive recompense intended by the Greek context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

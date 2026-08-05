@@ -1,0 +1,1 @@
+Tuy nhiên, không cần kiểm tra số bạc giao vào tay chúng, vì chúng làm việc trung thực.

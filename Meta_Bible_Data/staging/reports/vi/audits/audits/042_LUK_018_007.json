@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μακροθυμων' (makrothymōn) means 'patient' or 'long-suffering.' The Vietnamese translation 'chậm chạp' means 'slow/sluggish' (referring to speed of movement), which incorrectly characterizes God's attribute in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

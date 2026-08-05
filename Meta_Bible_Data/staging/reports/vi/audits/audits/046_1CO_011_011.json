@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανηρ' (man) is translated as 'người' (person/human) in the second half of the sentence. The Vietnamese should specify 'người nam' or 'đàn ông' to maintain the gendered contrast (man without woman, woman without man)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

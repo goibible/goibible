@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλακις' (pollakis) means 'often' or 'frequently'. The Vietnamese translation 'thường' (often) is accurate, but the placement and phrasing 'ta thường trừng phạt' (I often punished) misses the specific nuance of 'πολλακις τιμωρων' which functions as an adverbial phrase describing the frequency of the punishments. However, the more significant issue is the lack of the word 'πολλακις' modifying the punishment specifically. Actually, looking closer, 'thường' covers 'πολλακις'. Let me re-evaluate. The Greek says 'frequently punished them'. The Vietnamese says 'often punished them'. This is OK."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολλακις' modifies the punishment, but the Vietnamese structure makes it slightly ambiguous if it refers to the frequency of the act or the quantity of punishments. More importantly, the Greek 'περισσως' (perissos) meaning 'excessively' or 'greatly' is missing in the Vietnamese translation of 'βλασφημειν'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καμοι' (kamoi) is the first-person plural pronoun ('to you all' or 'to us'), but the Vietnamese translation uses 'tôi' (I/me), which is first-person singular. This changes the scope of the audience from a group to an individual."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the subject/action order. The Greek 'λογον γαρ συντελων και συντεμνων' (for [I] am fulfilling and shortening the word) refers to the speaker's action in the present tense. The Vietnamese translation attributes this action to 'Chúa' (God) using the future tense ('Vì Chúa sẽ làm...'), whereas the Greek text places the fulfillment/shortening as the speaker's action, and the final clause as God's future action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

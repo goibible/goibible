@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation attributes the speech to 'Đấng nắm giữ...' (the One who holds...), but in the Greek text, the phrase 'λεγει ο κρατων' means 'the One who holds... says'. The Vietnamese structure makes it sound like the 'One who holds' is the one being spoken to or a title of the speaker, but more importantly, the Vietnamese places the speech ('phán thế nầy') at the very end of the sentence, whereas in Greek, it follows the identification of the speaker immediately after 'λεγει'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation slightly alters the flow of the Greek. The Greek says 'Write to the angel... [that] the One who holds... says'. The Vietnamese structure 'Hãy viết... rằng: Đấng... phán thế nầy' is a minor structural shift, but the placement of the reporting verb 'phán' at the end of the description of the One who holds the stars can slightly obscure that the entire following statement is what He is saying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

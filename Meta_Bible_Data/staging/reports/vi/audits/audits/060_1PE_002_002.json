@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το λογικον' (the rational/spiritual) modifies 'γαλα' (milk). The Vietnamese translation 'sữa... của lời' (milk... of the word) introduces 'lời' (word), which is not present in the Greek text. The Greek refers to 'rational milk' or 'milk of the Word' in a sense of spiritual nourishment, but 'của lời' specifically adds a noun ('Word') that isn't there."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'επιποθησατε' is 2nd person plural (you all), while the Vietnamese 'được lớn lên' lacks a clear subject or uses a general passive-like structure. While often acceptable for natural flow, the Greek specifically addresses the audience as 'you' (plural)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

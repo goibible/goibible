@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εση ζωγρων' (esē zōgrōn) is a corrupted or non-standard form, but in the context of the Synoptic Gospels (Mark 3:17), it refers to 'fishermen' (ἁλιωται). The Vietnamese 'bắt người sống' (catching living people) is a literal mistranslation of the Greek root for 'fishing' (halieus/haliotēs), likely due to a scribal error or misreading in the source text. A reader would believe they are catching people, whereas the Greek refers to their profession as fishermen."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

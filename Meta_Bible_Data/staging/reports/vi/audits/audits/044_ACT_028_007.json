@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χωρια' (chōria) refers to villages/settlements, but the Vietnamese translates it as 'ruộng' (fields/farms)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τω πρωτω της νησου' (the first of the island) is omitted or collapsed into the description of the village."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'của người tù trưởng' (of the chief), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

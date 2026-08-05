@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'προσωποληψια' (prosōpolēpsia) refers to 'adoption' or 'taking as a son/member.' The Vietnamese 'tây vị' is not a standard term for adoption and does not clearly convey the concept of being taken as a son/member in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

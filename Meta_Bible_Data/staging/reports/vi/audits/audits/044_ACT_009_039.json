@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεστησαν αυτω' (stood before him) is rendered as 'đứng trước mặt ông', but the Greek 'αι χηραι κλαιουσαι' indicates the widows were crying. The Vietnamese 'khóc lóc' is placed after 'đứng trước mặt ông', which is acceptable, but the phrase 'trưng ra những áo dài và áo mà Đô-ca đã may cho' (showed the robes that Dorcas made) misses the specific Greek structure 'επιδεικνυμεναι χιτωνας και ιματια οσα εποιει μετ αυτων' which refers to the garments she *had made for them* (the widows) while she was with them."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific sense of 'οσα εποιει μετ αυτων' (those [garments] she made with/for them), instead phrasing it as 'mà Đô-ca đã may cho' (that Dorcas made for). While similar, the Greek emphasizes the garments produced in her company/service to them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

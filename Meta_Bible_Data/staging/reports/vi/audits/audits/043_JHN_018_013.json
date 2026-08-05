@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'πενθερος' (pentheros) means 'father-in-law'. The Vietnamese translation 'cha vợ' means 'father-in-law' (specifically the husband's father-in-law, or father of the wife). While 'cha vợ' is often used for father-in-law, in this specific context of a husband's father-in-law, it is technically correct. However, the Greek 'πενθερος' can also mean 'father-in-law' in the sense of 'father of the wife'. The issue here is actually the omission of the relationship clarity: 'πενθερος του' (his father-in-law). The Vietnamese 'cha vợ của Cai-pha' implies Cai-pha is the one who has a son-in-law. In Greek, it is the father-in-law *of* (the person being led). If 'Ngài' refers to Jesus/the accused, then Cai-pha is the father-in-law of the accused. The Vietnamese 'cha vợ của Cai-pha' suggests Cai-pha is the one with the son-in-law. This reverses the direction of the relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

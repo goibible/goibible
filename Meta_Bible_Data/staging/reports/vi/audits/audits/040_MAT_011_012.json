@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'kẻ cường bạo' (the violent/mighty ones) as a subject/agent. The Greek text only uses the verbs 'βιαζεται' (is being forced) and 'βιασται' (is being seized), without explicitly naming an agent or adding the concept of 'mighty/violent people' as a specific noun phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

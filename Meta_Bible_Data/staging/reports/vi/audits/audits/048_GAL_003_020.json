@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε μεσιτης ενος ουκ εστιν' means 'the mediator is not one' (referring to number/unity). The Vietnamese translation 'người trung bảo chẳng phải là người trung bảo về một bên' translates it as 'the mediator is not a mediator for one side,' which changes the meaning from numerical unity to a partisan/positional distinction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

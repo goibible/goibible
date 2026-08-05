@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το εθνος' (the nation) is translated as 'dân ngoại' (foreign people/heathens). In the context of Acts 13:8, 'το εθνος' refers to 'the nation' or 'the people' (specifically the Jews), not 'foreigners'. This changes the scope of the group being discussed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

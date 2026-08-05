@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'Đấng Christ không tự tôn vinh mình ĐỂ trở nên thầy tế lễ' (Christ did not glorify himself IN ORDER TO become a high priest), whereas the Greek 'ουχ εαυτον εδοξασεν γενηθηναι αρχιερεα' means 'did not glorify himself [for/as] having become a high priest.' The Greek describes the content of what he did not glorify (his status as high priest), not his motivation or purpose for glorifying himself."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Con là Con Ta' (You are my Son) is a significant deviation from the Greek 'υιος μου ει συ' (you are my son). The Vietnamese adds an extra 'Con' (Son) that changes the direct speech of the Father."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεβαλετο' (anebaleto) means 'held back', 'delayed', or 'stayed'. The Vietnamese translation 'hoãn họ lại' (delayed them) implies an action directed at others, whereas the Greek structure suggests Phê-lít himself held back or stayed his progress/action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'ειδως τα περι της οδου' is translated as 'biết rõ hơn về đường lối đó'. While 'đường lối' can mean path, in this context it refers to the specific 'way' or 'manner' of the situation/matter. However, the Vietnamese phrasing 'đường lối' often carries a metaphorical connotation of 'policy' or 'method' which might slightly shift the literal meaning of 'the way' (path), but the primary issue is the mistranslation of 'ανεβαλετο'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

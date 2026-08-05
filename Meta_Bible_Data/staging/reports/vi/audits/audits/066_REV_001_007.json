@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοψονται' (kopsantai) is a verb of action/reaction meaning 'to cut' or 'to be cut,' whereas the Vietnamese 'than khóc' means 'to weep/lament.' The Greek describes a physical action (cutting), not an emotional reaction (crying)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

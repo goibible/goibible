@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπατε' is a verb in the Aorist tense (said), but the Vietnamese 'Hãy nói' is an imperative (Speak/Say). The Greek describes a past action (I said to you), whereas the Vietnamese presents it as a command to the reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φανερωθη' (phanerōthē) is a passive verb meaning 'be revealed' or 'be made manifest'. The Vietnamese translation 'để Ngài được tỏ ra' suggests 'so that He could be shown/revealed', but the grammatical structure in the Vietnamese sentence makes it sound like the purpose of the baptism is for the person who came (John) to be revealed, rather than the subject of the revelation (the Christ). However, a more critical issue is the scope: The Greek 'δια τουτο' (dia toutou) means 'for this reason/purpose'. The Vietnamese translation places the purpose clause at the end of the sentence, which slightly shifts the logical flow, but the primary issue is the clarity of the subject being revealed."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'φανερωθη' is a passive infinitive. The Vietnamese 'được tỏ ra' captures the passive, but the phrasing 'để Ngài được tỏ ra' can be ambiguous as to whether 'Ngài' refers to John or the one being revealed (Christ). In the Greek, 'φανερωθη' clearly refers back to the implied subject of the previous context (the Christ), while the Vietnamese 'Ngài' could be interpreted by a reader as referring to the speaker (John) who is the subject of the preceding clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

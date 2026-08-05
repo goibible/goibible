@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραγεται' (paragetei) means 'is passing away' or 'is vanishing'. The Vietnamese 'đang qua đi' is a good rendering of the action, but the Greek structure 'η σκοτια παραγεται και το φως... ηδη φαινει' implies a simultaneous transition. However, the Vietnamese 'vì' (because) introduces a causal relationship that is not explicitly present in the Greek text (which uses 'και' - and)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

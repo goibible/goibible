@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'việc lành' (good works), which is not present in the Greek text. The Greek simply says 'το ενεργειν' (the doing/acting)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

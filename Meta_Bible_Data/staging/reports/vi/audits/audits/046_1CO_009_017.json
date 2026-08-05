@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εκων' (ekōn) means 'willing' or 'voluntarily,' not 'vui lòng' (pleased/happy). The Vietnamese translation conveys a state of emotion/satisfaction rather than the voluntary nature of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'οικονομιαν' (oikonomian) refers to 'stewardship' or 'management,' while 'sự quản trị' in Vietnamese often implies 'administration' or 'governance.' While related, it misses the specific nuance of 'stewardship' (managing someone else's property)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

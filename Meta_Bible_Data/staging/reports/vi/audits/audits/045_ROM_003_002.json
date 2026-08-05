@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολυ κατα παντα τροπον' (in many ways) is translated as 'Có ích lớn' (Greatly useful/beneficial). The Greek does not convey 'utility' or 'benefit' in this context; it describes the manner or extent of something."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

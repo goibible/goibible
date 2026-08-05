@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατηχουμενος' is a present middle/passive participle, implying an ongoing action or state of being 'being instructed' or 'being disciplined.' The Vietnamese 'vì được dạy dỗ' (because [you] were taught) uses a completed passive voice and a causal conjunction ('vì') that is not present in the Greek text. The Greek construction functions more as a circumstantial participle (while being instructed) rather than a causal result."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ο δε θελων' (but not wanting) contains a negation, but the Vietnamese translation 'Người ấy muốn' (That man wanted) omits it, completely reversing the meaning of the clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

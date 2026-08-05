@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αθανασιαν' (immortal/deathless) modifies 'φως' (light), but the Vietnamese translates it as 'sự bất tử' (immortality), which acts as a separate noun. The Greek says 'immortal light', not 'has immortality'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οικων' (of the houses/homes) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

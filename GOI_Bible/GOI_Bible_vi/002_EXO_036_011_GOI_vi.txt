@@ -1,0 +1,1 @@
+Làm những cái móc bằng chỉ điều nơi mép của bức màn đầu tiên ở đầu mối nối, và cũng làm như vậy cho mép của bức màn nơi chót trong mối nối thứ hai.

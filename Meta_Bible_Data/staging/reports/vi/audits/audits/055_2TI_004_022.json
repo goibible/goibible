@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire introductory address to Timothy (the recipient) and the sender's information (Paul, from Rome, etc.), which constitutes more than half of the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα του πνευματος σου' (with your spirit) is rendered as 'ở cùng tâm thần con'. While 'tâm thần' can mean spirit, in this context it often leans toward 'mental/intellectual state' in modern Vietnamese; however, the primary issue is the omission of the surrounding text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

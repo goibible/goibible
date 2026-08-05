@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δετε' (dote) is an imperative meaning 'give', but the Vietnamese 'ban cho' implies a formal 'bestow' or 'grant'. More importantly, the Greek 'τω' (to) is missing in the Vietnamese translation, which changes the direction of the action: the Greek says 'give TO the one who has ten', whereas the Vietnamese simply says 'give the one who has ten'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

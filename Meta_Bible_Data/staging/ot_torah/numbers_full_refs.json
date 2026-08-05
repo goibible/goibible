@@ -1,0 +1,48 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Numbers QA batch.",
+  "groups": [
+    {
+      "name": "Numbers full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "NUM 1",
+        "NUM 2",
+        "NUM 3",
+        "NUM 4",
+        "NUM 5",
+        "NUM 6",
+        "NUM 7",
+        "NUM 8",
+        "NUM 9",
+        "NUM 10",
+        "NUM 11",
+        "NUM 12",
+        "NUM 13",
+        "NUM 14",
+        "NUM 15",
+        "NUM 16",
+        "NUM 17",
+        "NUM 18",
+        "NUM 19",
+        "NUM 20",
+        "NUM 21",
+        "NUM 22",
+        "NUM 23",
+        "NUM 24",
+        "NUM 25",
+        "NUM 26",
+        "NUM 27",
+        "NUM 28",
+        "NUM 29",
+        "NUM 30",
+        "NUM 31",
+        "NUM 32",
+        "NUM 33",
+        "NUM 34",
+        "NUM 35",
+        "NUM 36"
+      ]
+    }
+  ]
+}

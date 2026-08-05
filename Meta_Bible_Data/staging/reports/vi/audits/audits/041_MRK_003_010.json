@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιπιπτειν' (epipiptein) means 'to fall upon' or 'to rush toward', but the Vietnamese 'xô đến' (rushed to/pushed toward) captures the movement, while the Greek structure 'ωστε... ινα' implies a purpose/result relationship ('so that... in order that'). The Vietnamese 'nên' (so/therefore) correctly captures the causal link of 'γαρ', but the phrasing slightly obscures the specific 'falling upon' nuance which implies a sudden, overwhelming movement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αψωνται' (apsontai) means 'to touch' or 'to handle'. The Vietnamese 'để rờ Ngài' (to touch Him) is a correct translation of the meaning, but the Greek specifically uses a verb of 'handling/touching' as a result of the 'falling upon'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τισιν' (tisin) is a dative of interest/object, meaning 'to whom'. The Vietnamese translation 'với ai' (with whom) changes the grammatical relationship. More importantly, the Greek construction 'μη εισελευσεσθαι' (not to enter) refers to the object of the oath. The Vietnamese 'họ sẽ không vào' adds a subject ('họ' - they) that is not explicitly present in the Greek text as a separate subject; the Greek structure implies 'that [they] should not enter' as the content of the oath."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

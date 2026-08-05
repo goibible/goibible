@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αελαβετε' (anelabete) is an aorist active indicative, implying 'you took up', 'you received', or 'you assumed'. The Vietnamese 'đã mang lấy' (already took/carried) is acceptable, but the Greek 'σκηνην του μολοχ' refers to Moloch's 'tent' or 'tabernacle'. While 'đền tạm' (tabernacle/temporary temple) is a common theological rendering, it slightly shifts the imagery from a portable tent to a building structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'και μετοικιω υμας επεκεινα βαβυλωνος' (and I will deport/relocate you beyond Babylon). The Vietnamese 'ta sẽ đày các ngươi' uses 'đày' (exile/banish), which captures the sense of deportation but misses the specific nuance of 'μετοικιω' (to relocate/re-settle/deport to a new home)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

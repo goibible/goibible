@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητις' (which) is a relative pronoun referring back to 'παρρησιαν' (boldness/confidence). The Vietnamese translation 'là điều' (is the thing) treats it as an appositive or a new statement, slightly weakening the grammatical connection that boldness *possesses* the reward."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

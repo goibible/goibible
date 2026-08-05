@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγκαλεισθαι' (to be left defenseless/exposed) is rendered as 'bị buộc tội' (to be accused/charged). While related to the legal context, 'εγκαλεισθαι' specifically refers to being left without a defense or exposed, not just the act of accusation itself."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'στασεως' (of rebellion/sedition) is rendered as 'sự nổi loạn' (rebellion), but the Vietnamese translation omits the specific context of 'peri tes schēmerōn' (during this day/today) being linked directly to the rebellion, making it sound like a general rebellion rather than one occurring today."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συστροφης' (conspiracy/collusion) is rendered as 'âm mưu' (plot/conspiracy). While acceptable, the Vietnamese 'âm mưu' is a strong term; however, the primary issue is the loss of the nuance of 'εγκαλεισθαι' (defenselessness)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

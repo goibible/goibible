@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθ υμων' (kata hymon) means 'against you' or 'for your sake/benefit' depending on context, but in this specific construction ('ou estin kath hymon'), it is typically translated as 'not for/against you'. The Vietnamese 'không chống lại' (not against) captures one sense, but the Greek 'ὑπέρ ὑμῶν' (hyper hymon) specifically means 'for/on behalf of you'. By combining them into a single 'không chống lại', the translation misses the distinction between 'against' and 'for/on behalf of' present in the two distinct Greek prepositional phrases."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

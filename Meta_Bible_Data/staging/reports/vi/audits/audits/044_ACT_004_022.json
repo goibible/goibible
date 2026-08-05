@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετων γαρ ην πλειονων τεσσαρακοντα' refers to the age of the man (he was over forty years old). The Vietnamese translation 'thì đã hơn bốn mươi năm' is structured as a duration of time since the healing occurred, rather than the man's age at the time."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο ανθρωπος' (the man) is the subject of the age description. While 'Người' is used, the grammatical connection between his age and the action of the healing is blurred in the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

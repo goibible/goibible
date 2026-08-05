@@ -1,0 +1,13 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+PSA,7,12,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,17,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,24,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,37,22,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,61,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,65,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,85,8,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,105,5,orange,missing_expected_name,Aùp-ra-ham,,Expected approved name 'Aùp-ra-ham' from VIE1934 occurrence.
+PSA,105,5,orange,missing_expected_name,Gia-cốp,,Expected approved name 'Gia-cốp' from VIE1934 occurrence.
+PSA,105,17,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+PSA,107,38,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PSA,115,2,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.

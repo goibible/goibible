@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν υμων πρωτον απο μερους εμπλησθω' uses the verb 'εμπλησθω' (from πληρόω), which means to be filled, satisfied, or fulfilled. The Vietnamese translation 'thỏa lòng một phần' (satisfied a part/portion) slightly misses the nuance of being 'filled/fulfilled' in the context of completion of the ministry, but more importantly, the Greek structure suggests a condition: 'if I may first be filled/satisfied by you'. The Vietnamese 'sau khi' (after) changes the temporal relationship from a conditional 'if' (εαν) to a sequential 'after'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

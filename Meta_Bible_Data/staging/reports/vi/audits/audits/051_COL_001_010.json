@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περιπατησαι' is a present active imperative, meaning 'walk' (as in a lifestyle/conduct). The Vietnamese 'ăn ở' (live/behave) is a common equivalent, but the translation uses 'hầu cho' (let/allow/cause), which changes the grammar from a direct command to the subjects ('you') to a causative construction. The Greek is 'Walk worthy...', not 'Let [someone] walk worthy...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

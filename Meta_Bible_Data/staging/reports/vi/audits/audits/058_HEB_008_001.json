@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κεφαλαιον' (kephalaion) means 'chapter' or 'heading', not 'Tổng số' (total number/sum). The translation fundamentally misinterprets the structural function of the word."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

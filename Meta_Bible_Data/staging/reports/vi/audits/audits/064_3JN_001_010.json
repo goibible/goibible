@@ -1,0 +1,22 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φλυαρων ημας' (speaking/babbling to us) is translated as 'nói xấu chúng tôi' (speaking ill of us/slandering us). The Greek implies the act of speaking/babbling, not necessarily the specific content of slandering."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουτε αυτος επιδεχεται' (nor does he receive) is rendered as 'người ấy cũng không tiếp nhận', but the 'neither/nor' structure of 'ουτε... και' is slightly flattened. More importantly, the Vietnamese 'ngăn cấm những người muốn tiếp nhận' translates 'τους βουλομενους κωλυει' (hinders those who want [to come]), missing the implicit object of 'wanting to join/come' which is implied by the context of 'receiving'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

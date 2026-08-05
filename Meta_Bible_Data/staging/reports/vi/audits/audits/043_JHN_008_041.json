@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμεις' (you) is translated as 'Các ngươi' (correct), but the subsequent 'ποιειτε' (do/make) is followed by 'τα εργα του πατρος υμων' (the works of your father). The Vietnamese translates 'πατρος υμων' as 'cha mình' (my father/our father). This changes the possessive from 'your' to 'my/our'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμεις' in 'υμεις εκ πορνειας' refers to 'you' (the same 'you' as at the start of the verse). The Vietnamese translates this as 'Chúng tôi' (We), changing the person from 2nd person to 1st person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

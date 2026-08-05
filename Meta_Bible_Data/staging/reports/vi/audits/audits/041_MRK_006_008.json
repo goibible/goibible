@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζωνην' (zonēn) refers to a 'belt' or 'girdle'. The Vietnamese translation 'dây nịt' is acceptable for belt, but the phrase 'trong dây nịt' (in the belt) is slightly different from the Greek 'εις την ζωνην' (into/in the belt). However, the more significant issue is the word 'χαλκον' (chalkon), which means 'copper' or 'bronze'. The Vietnamese 'đồng' usually refers to 'copper' or 'money/coins'. In this context, it refers to a copper coin. While 'đồng' can mean copper, if a reader interprets it as 'money', it is a slight shift, but the primary issue is the clarity of the object."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μηδεν αιρωσιν εις οδον' means 'take nothing on the way'. The Vietnamese 'đừng đem gì đi đường' captures this well. However, the Greek 'ει μη ραβδον μονον' specifies 'except only a staff'. The Vietnamese 'ngoại trừ một cây gậy' is accurate."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμαρτιαις' (with sins) and 'επιθυμιαις' (with desires) are in the instrumental case, describing the state of the women (the ones being captured). The Vietnamese translation 'là những kẻ bị chất đầy tội lỗi' (are those who are filled with sin) incorrectly attributes the sins to the captors ('những kẻ') rather than the women being captured."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

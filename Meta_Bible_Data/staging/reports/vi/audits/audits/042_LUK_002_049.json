@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι οτι εζητειτε με' translates to 'why you seek me', but the Vietnamese 'Sao các ngươi tìm ta?' (Why do you seek me?) is a question. The Greek text is a statement/explanation within a reported speech structure, not a direct question posed by Jesus."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ ηδειτε' (do you not know) is rendered as 'Há chẳng biết' (Do [you] not know?), which preserves the negation but changes the grammatical mood from a statement of fact to a rhetorical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

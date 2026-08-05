@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đang khi Ngài ngồi ăn' (while He was sitting eating). The Greek 'ανακειμενου' means 'reclining' or 'lying down', but does not mention 'eating' (φαίνω/φαγώ)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

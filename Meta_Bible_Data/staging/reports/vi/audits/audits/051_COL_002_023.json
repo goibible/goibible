@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εστιν λογον μεν εχοντα' (has the word/logos of) is rendered as 'thật có lời của' (truly has the words of), which slightly shifts the grammatical relationship. More importantly, the Greek 'ουκ εν τιμη τινι' (not in any honor/glory) is rendered as 'nhưng chẳng có vinh dự nào' (but there is no honor at all). The Greek construction implies that these virtues are not *done for the sake of* honor, whereas the Vietnamese phrasing makes it sound like the virtues themselves lack honor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προς πλησμονην' (towards the lust/indulgence) is rendered as 'để thỏa mãn' (to satisfy). While semantically close, 'thỏa mãn' (satisfy) is a different action than 'πλησμονη' (lust/indulgence/gluttony)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

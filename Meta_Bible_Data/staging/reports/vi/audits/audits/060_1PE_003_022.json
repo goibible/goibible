@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πορευθεις' (poreutheis) is a perfect passive participle, implying 'having gone' or 'having ascended'. The Vietnamese 'đã đi' (past tense) combined with 'hiện đang ở' (present continuous/state) captures the result but misses the specific nuance of the completed action of ascending that leads to the current state. More importantly, the Greek structure implies 'having ascended into heaven [where he is] on the right hand of God', whereas the Vietnamese phrasing slightly decouples the movement and the location."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'υποταγεντων αυτω' (hypotagentōn autō) is a participle modifying the angels, powers, and mighty ones. The Vietnamese 'đều phục dưới Ngài' (all serve/are under Him) changes the grammatical relationship from a descriptive participle to a general statement of fact about their status."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

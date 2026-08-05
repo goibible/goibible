@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο ομοσας' (the one who swears) is a noun/subject, but the Vietnamese translation treats it as a conditional or descriptive clause ('Còn ai... mà thề'). More importantly, the Greek structure implies that the person swearing is doing so 'in heaven', 'on the throne of God', and 'while seated on it'. The Vietnamese translation shifts the focus to 'the throne' being the object of the oath rather than the location/context of the act of swearing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

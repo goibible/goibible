@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'sau khi' (after), which implies a temporal sequence not present in the Greek. The Greek 'ινα' (in order that) expresses purpose, not a chronological sequence of events."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'τω λουτρω του υδατος' as 'sự rửa tội của nước'. While 'λουτρο' can mean baptism, the Greek literally refers to the 'washing of water'. More importantly, the Vietnamese adds 'bởi lời' (by the word) for 'εν ρηματι', which is a stylistic interpretation; however, the primary issue remains the temporal 'sau khi' which changes the grammatical relationship between the purification and the sanctification."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

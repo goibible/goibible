@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βασιλειαν' (basileian) means 'kingdom', but the Vietnamese translation uses 'nước' (which is correct for kingdom) followed by 'Đức Chúa Trời' (God). However, in Vietnamese, 'nước Đức Chúa Trời' can be interpreted as 'the country of God' or 'God's nation'. More importantly, the Greek is 'βασιλειαν του Θεου' (Kingdom of God), while the Vietnamese phrasing 'nước Đức Chúa Trời' is standard, but the specific nuance of 'Kingdom' as a reign/government is slightly softened. However, the primary issue is the omission of the specific 'of God' possessive structure if interpreted as a compound name. Actually, looking closer: 'βασιλειαν του Θεου' = 'Kingdom of God'. Vietnamese 'nước Đức Chúa Trời' = 'Kingdom of God'. This is acceptable. Let me re-evaluate."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αληθως' (alēthōs) is translated as 'Thật' at the beginning, which is correct. The Greek 'τινες των ωδε εστηκοτων' means 'some of those standing here'. The Vietnamese 'có một số người đang đứng đây' captures this. Wait, I see no substantive error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

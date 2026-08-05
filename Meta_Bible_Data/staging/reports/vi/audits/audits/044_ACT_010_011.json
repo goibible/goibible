@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταβαινον' (katabainon) is a present active participle describing the 'σκυεος' (vessel/container) as it is coming down. The Vietnamese translation 'giáng xuống và thả xuống' (descended and let down) implies two distinct actions or a completed sequence, whereas the Greek describes the manner of the vessel's appearance/movement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καθιεμενον' (kathiemenon) is a present passive participle meaning 'spread out' or 'set out' (like a tent). The Vietnamese translation 'thả xuống' (let down) fails to capture the specific sense of the vessel being 'spread out' or 'pitched' upon the earth."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

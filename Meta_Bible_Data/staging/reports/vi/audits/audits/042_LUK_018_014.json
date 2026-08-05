@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεβη ουτος δεδικαιωμενος εις τον οικον αυτου' (this one, justified, went down to his house) describes the *action* of the person going down after being justified. The Vietnamese translation 'người nầy xuống nhà mình được xưng công bình hơn người kia' incorrectly renders it as a comparison of degree ('more justified than the other'), which is not in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek structure implies a contrast between two specific individuals (this one vs. that one) regarding their actions/status, but the Vietnamese renders it as a general comparison of 'more' (hơn)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

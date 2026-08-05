@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι δε βλεπεις' (why do you see) is rendered as 'Sao ngươi thấy' (Why do you see), but the Vietnamese phrasing 'mà không xem xét' (but not consider/examine) replaces the Greek 'ου κατανοεις' (you do not perceive/understand). While 'không xem xét' captures the sense, the Greek 'κατανοεις' implies a deeper lack of perception or understanding rather than just a failure to 'examine' (xem xét)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'cái rác' (garbage/trash) is a common idiomatic translation for 'το καρφος' (the speck/mote), but it technically changes the scale of the object. However, per the instructions, if it's an acceptable rendering, it should be OK. Given the context of this specific verse, 'cái rác' is widely accepted as a functional equivalent for the 'speck'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

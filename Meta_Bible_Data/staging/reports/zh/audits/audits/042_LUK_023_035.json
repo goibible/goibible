@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says the rulers were sneering 'with them' (συν αυτοις), i.e., together with the people, not sneering 'at them' (嗤笑他們). The Chinese '官也嗤笑他們' makes the rulers sneer at the people, which reverses the object of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κακουργοι' (kakourgoi) means 'evildoers' or 'wrongdoers,' while the Vietnamese 'phạm nhân' usually refers to 'criminals' or 'prisoners.' More importantly, the Greek 'αναιρεθηναι' (anairethēnai) specifically means 'to be taken away' or 'removed,' whereas 'bị xử tử' means 'to be executed.' The translation adds a specific method of death (execution) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

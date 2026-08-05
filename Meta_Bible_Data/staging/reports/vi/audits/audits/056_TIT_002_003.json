@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν καταστηματι ιεροπρεπεις' describes the women as 'holy in conduct' or 'reverent in behavior.' The Vietnamese translation 'phải có hạnh kiểm thánh thiện' (must have holy conduct) uses a modal verb 'phải' (must/have to) which implies a command or requirement, whereas the Greek is a descriptive participle describing their current state/character."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη διαβολους μη οινω' refers to 'not [being] malicious/slanderous nor [being] slaves to wine.' The Vietnamese translation 'không nói xấu, không làm nô lệ cho rượu nhiều' translates 'διαβολους' as 'nói xấu' (speaking ill of others). While related, 'διαβολους' more accurately refers to a malicious/diabolical disposition or spirit. However, the primary issue is the shift from descriptive character to a list of prohibitions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

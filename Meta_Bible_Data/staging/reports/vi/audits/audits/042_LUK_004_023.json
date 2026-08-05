@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντως' (pantōs) is a discourse marker often used as 'anyway' or 'however' to transition the speech, but the Vietnamese translation renders it as 'Chắc các ngươi sẽ nói' ('You will probably say'), which adds a speculative/predictive nuance not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'γενομενα' (genomena) is a participle meaning 'having happened' or 'that happened'. The Vietnamese 'xảy ra' (happened) is present, but the structure 'mọi điều chúng ta đã nghe xảy ra' slightly shifts the grammatical relationship of the events compared to the Greek construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

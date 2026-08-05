@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινες' (tines) refers to a specific group of people among those present, but the Vietnamese 'có một số kẻ' (there are some people) slightly shifts the focus from 'who' are there to an existential statement about their existence. More importantly, the Vietnamese 'kẻ' often carries a pejorative nuance (villains/scoundrels) that is not present in the neutral Greek 'τινες'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

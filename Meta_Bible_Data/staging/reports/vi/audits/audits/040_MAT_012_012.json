@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαφερει' (diapherei) means 'differs from' or 'is different from'. The Vietnamese translation 'trọng hơn' (heavier/more important than) changes the meaning from a comparison of difference to a comparison of value/weight."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καλως ποιειν' (kalōs poiein) means 'to do well' or 'to do good'. The Vietnamese 'được phép làm việc lành' adds 'được phép' (is allowed to), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

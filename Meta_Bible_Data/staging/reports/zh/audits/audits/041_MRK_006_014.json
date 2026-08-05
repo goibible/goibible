@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '耶穌的' (Jesus') before '名聲' (fame/reputation), but the Greek only says 'το ονομα αυτου' (his name), where 'αυτου' refers to Jesus by context but is not explicitly named. This is a minor addition that clarifies the referent, not a substantive change."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την μητερα αυτου και εμου' means 'his mother and mine'. The Vietnamese translation 'cũng là mẹ tôi' (also is my mother) suggests that the person being greeted has only one mother who is shared by both, whereas the Greek structure allows for the possibility of two distinct mothers (his mother and my [own] mother). However, more critically, the Vietnamese phrasing 'mẹ của người, cũng là mẹ tôi' slightly shifts the relationship of possession compared to the direct 'and mine' in Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

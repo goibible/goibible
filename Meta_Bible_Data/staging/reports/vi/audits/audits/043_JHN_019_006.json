@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σταυρωσον' (crucify) is an imperative. The Vietnamese translation 'Hãy đóng đinh nó!' adds the pronoun 'nó' (it/him), which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαβετε αυτον υμεις και σταυρωσατε' means 'Take him yourselves and crucify [him]'. The Vietnamese 'Các ngươi hãy bắt lấy Ngài mà đóng đinh đi' uses 'mà' which can imply 'in order to', but the Greek structure is a compound command (take and crucify). More importantly, the Vietnamese adds 'đi' as a final particle which is not in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

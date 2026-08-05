@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τιμησατε την αδελφοτητα' means 'honor brotherhood' (the concept of brotherly love/unity). The Vietnamese translation 'tôn trọng mọi người' means 'respect everyone,' which changes the object from a specific virtue (brotherhood) to a general group of people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

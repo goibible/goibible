@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the logic of the Greek text. The Greek says: 'For I do the good that I want, but I practice the evil that I do not want' (ου γαρ ο θελω ποιω αγαθον αλλ ο ου θελω κακον τουτο πρασσω). The Vietnamese translates it as: 'Because I do NOT do the good I want, but I DO do the evil I do not want.' The negation in the Vietnamese version is placed incorrectly relative to the verbs."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

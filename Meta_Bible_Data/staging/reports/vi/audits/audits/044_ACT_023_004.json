@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds a question mark and an interrogative structure ('Ngươi... sao!') that is not present in the Greek text. The Greek 'ειπon' (said) is a declarative statement, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

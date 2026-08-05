@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο ασπασμος' (the greeting/salutation) is rendered as 'Lời chào nầy' (this greeting). The Greek text does not contain a demonstrative pronoun like 'nầy' (this); it is simply 'the greeting'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τη εμη χειρι' (by my hand) is rendered as 'chính tay tôi'. While 'chính tay' captures the meaning, the Vietnamese structure slightly alters the grammatical relationship of 'by my hand' to the act of writing, though this is a minor point. The main issue remains the addition of 'nầy'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

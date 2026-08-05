@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'hoặc chiều tối' (or evening) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκει ετοιμασατε' is a passive construction (ετοιμασμένον) in the sense of 'prepared for you' or 'ready,' but the Vietnamese 'hãy dọn ở đó' translates to an imperative 'let's clean/tidy up there' or 'move in there.' The Greek implies the room is already prepared/ready, not a command to perform the action of cleaning or moving."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

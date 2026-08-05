@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'η αδελφη της μητρος αυτου' is singular (the sister of his mother), but the Vietnamese 'chị em gái' is plural (sisters). This changes the number of individuals mentioned."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

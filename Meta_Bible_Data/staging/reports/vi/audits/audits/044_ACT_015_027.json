@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια λογου' (dia logou) in this context means 'by means of words' or 'verbally', describing the *method* of communication. The Vietnamese translation 'chính họ sẽ dùng lời nói báo cáo lại' implies a specific intent/purpose of 'reporting back' (báo cáo lại), which adds a nuance of reporting to an authority that is not explicitly in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 19,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενετειλατο' (eneteilato) is a passive form of 'enteilo' (to command/order). The Vietnamese translation 'truyền phải' (ordered to) is acceptable, but the phrasing 'truyền phải cho một tờ ly dị' suggests he ordered the *giving* of a divorce, whereas the Greek simply says 'he commanded a bill of divorcement'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δουναι' (dounai) is an infinitive of purpose/result. The Vietnamese 'cho' covers the action, but the structure 'truyền phải cho' slightly shifts the focus from the command of the document to the act of giving it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

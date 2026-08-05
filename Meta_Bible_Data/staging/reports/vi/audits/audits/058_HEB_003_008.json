@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραπικρασμω' (parapikrasmō) refers to bitterness or a bitter experience/state, but the Vietnamese 'nổi loạn' means 'rebellion' or 'riot'. This changes the nature of the context from an internal state/experience to an external action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

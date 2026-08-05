@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 69,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του παιδος αυτου' (of his son) is translated as 'đầy tớ của Ngài' (his servant). This changes the relationship of the person mentioned from a son to a servant."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

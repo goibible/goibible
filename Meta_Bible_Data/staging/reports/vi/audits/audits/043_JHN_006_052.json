@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'δουναι' (dounai) is a verb meaning 'to give' or 'to provide'. The Vietnamese translation 'ban xác thịt mình' (give his flesh) adds the possessive 'mình' (his/self) which is not present in the Greek text. The Greek simply says 'give us the flesh to eat'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

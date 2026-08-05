@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιστασθε' (epistasthe) is a verb meaning 'to know' or 'to be aware of'. The Vietnamese translation 'biết rõ' (know clearly/well) captures the meaning, but the construction 'Anh em biết rõ... tôi đã ở với anh em suốt thời gian ấy như thế nào' changes the grammatical structure. The Greek says: 'You have known from the first day... how I have been with you all the time.' The Vietnamese phrasing 'biết rõ... như thế nào' (know clearly... how) makes it sound like they are being told *how* he was with them, whereas the Greek is a direct statement of their ongoing knowledge of his presence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

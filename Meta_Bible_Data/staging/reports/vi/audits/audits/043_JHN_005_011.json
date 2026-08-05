@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη αυτοις' (apekrithē autois) is a passive/deponent construction meaning 'he answered them'. The Vietnamese translation 'Người ấy trả lời họ' (That person answered them) is correct, but the subsequent clause 'Chính người đã làm cho tôi được lành bảo tôi' incorrectly attributes the speech. In the Greek, the subject of 'eipen' (said) is the one who answered them (the one who did the healing). The Vietnamese phrasing 'Chính người đã làm cho tôi được lành bảo tôi' can be interpreted as 'The person who healed me told me', which slightly obscures that it was the *same* person who just answered them."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεκριθη αυτοις' indicates the action of answering directed 'to them'. While 'trả lời họ' is present, the structure of the Vietnamese sentence makes it slightly ambiguous whether the healing person is responding to 'them' or if 'they' are a separate entity not linked to the initial response."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

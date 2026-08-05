@@ -1,0 +1,18 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιεις ο εαν εργαση' means 'do whatever work/effort you do'. The Vietnamese translation 'con làm điều trung tín trong mọi việc con làm' (you do faithful things in everything you do) adds the concept of 'faithfulness' (trung tín) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

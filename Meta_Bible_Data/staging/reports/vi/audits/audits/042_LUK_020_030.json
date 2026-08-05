@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'cũng' (also/too), which is not present in the Greek text. The Greek simply states 'και ελαβεν' (and took/married)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

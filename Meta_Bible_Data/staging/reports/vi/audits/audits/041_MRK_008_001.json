@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text 'προσκαλεσαμενος' (having called/having invited) is a participle modifying the subject 'ο ιησους' (Jesus). The Vietnamese translation 'nên Chúa Giê-xu gọi các môn đồ đến' makes it sound like Jesus called them because they had nothing to eat, whereas the Greek structure implies Jesus was the one who had called them (or was in the state of having called them) while they were in that situation. More importantly, the Vietnamese 'gọi... đến' (called... to come) adds a directional sense not present in the simple 'προσκαλεσαμενος' (having called)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

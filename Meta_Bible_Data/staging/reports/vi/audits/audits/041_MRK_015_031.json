@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγον' is an aorist active participle/verb indicating they were saying something, but the Vietnamese translation treats it as a direct quote ('nói:'). More importantly, the Greek phrase 'ελεγον αλλους εσωσεν εαυτον ου δυναται σωσαι' translates to 'saying [to one another] "
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific structure of the Greek which implies they were mocking each other *while* saying it. The Vietnamese 'mà nói' (and said) loses the simultaneous/participial nature of 'ελεγον'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

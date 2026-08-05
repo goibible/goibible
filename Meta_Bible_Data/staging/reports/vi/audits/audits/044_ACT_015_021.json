@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα παν σαββατον' means 'every Sabbath' (each Sabbath), but the Vietnamese 'mỗi ngày Sa-bát' implies 'every Sabbath day'. While similar, 'mỗi ngày' can be interpreted as 'every day' (daily) in some contexts, whereas the Greek specifies the recurring Sabbath. However, a more critical issue is that the Vietnamese 'có những người rao giảng về ông' (there were people proclaiming about him) slightly shifts the structure of 'κηρυσσοντας αυτον' (proclaiming him), which functions as a participle describing the proclamation occurring in the cities."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

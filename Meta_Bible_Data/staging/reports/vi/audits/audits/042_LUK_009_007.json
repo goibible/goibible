@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'bởi Ngài' (by Him) implies a specific personal pronoun for God/Jesus, whereas the Greek 'υπ αυτου' (hyp autou) refers back to Herod ('the tetrarch'), meaning 'by him'. This changes the agent of the actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

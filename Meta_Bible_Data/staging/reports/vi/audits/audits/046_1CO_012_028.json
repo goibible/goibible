@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διδασκαλους' (didaskalous) is plural, meaning 'teachers'. The Vietnamese 'thầy' is singular, which misses the plural nature of the office in this list."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αντιληψεις' (antilipseis) is often rendered as 'words of knowledge' or 'revelations'. The Vietnamese 'sự giúp đỡ' means 'help/assistance', which is a significant shift in meaning from the Greek concept of spiritual perception/revelation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

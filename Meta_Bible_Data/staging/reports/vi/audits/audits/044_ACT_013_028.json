@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεμιαν αιτιαν θανατου' (not a single cause of death) is rendered as 'không tìm thấy nguyên nhân nào đáng chết' (did not find any cause worth dying for). The Greek implies they found no specific reason/cause for death, whereas the Vietnamese adds the nuance of 'worth' (đáng), which is not in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

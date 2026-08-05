@@ -1,0 +1,26 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full HOS QA batch.",
+  "groups": [
+    {
+      "name": "HOS full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "HOS 1",
+        "HOS 2",
+        "HOS 3",
+        "HOS 4",
+        "HOS 5",
+        "HOS 6",
+        "HOS 7",
+        "HOS 8",
+        "HOS 9",
+        "HOS 10",
+        "HOS 11",
+        "HOS 12",
+        "HOS 13",
+        "HOS 14"
+      ]
+    }
+  ]
+}

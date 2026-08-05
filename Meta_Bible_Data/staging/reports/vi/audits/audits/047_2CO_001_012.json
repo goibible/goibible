@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεστραφημεν' (anestraphēmen) is a perfect passive verb meaning 'we have been changed/transformed'. The Vietnamese 'ăn ở' means 'to live/behave', which fails to capture the transformative action of the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'περισσοτερως δε προς υμας' (perissoterōs de pros hymas) is translated as 'nhất là đối với anh em'. While 'nhất là' (especially) captures the sense of 'perissoterōs', the Vietnamese structure places it in the middle of the sentence, whereas the Greek places it at the end as a concluding emphasis on the scope of their transformation/witness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξεδεχετο' (exedecheto) is an aorist indicative, meaning 'expected' or 'looked for'. The Vietnamese 'chờ đợi' (waiting/waiting for) is a present continuous action. The Greek describes a completed action of expectation in the past, not a state of ongoing waiting."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εχουσαν' (echousan) is a participle meaning 'having' or 'possessing'. The Vietnamese version omits this, failing to convey that the city was 'having foundations'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

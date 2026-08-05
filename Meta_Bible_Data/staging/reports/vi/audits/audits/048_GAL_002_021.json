@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δωρεαν' (dōrean) means 'freely' or 'as a gift', but the Vietnamese translation uses 'vô ích' (meaning 'in vain' or 'uselessly'). This changes the theological meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

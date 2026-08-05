@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοτην αγαπα ο θεος' means 'God loves the [one] who gives willingly.' The Vietnamese translation 'Đức Chúa Trời yêu người ban cho cách vui lòng' suggests God loves people who give in a pleasant/happy way, but it fails to capture the specific sense of 'willingly' (dokētos) as the prerequisite for the love/action described in this context."
+        },
+        {
+          "kind": "other",
+          "detail": "The phrase 'δοτην αγαπα ο θεος' is often interpreted in this context as 'God loves [the one who gives] willingly.' The Vietnamese 'ban cho cách vui lòng' shifts the focus slightly to the manner of giving rather than the voluntary nature of the heart's intent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

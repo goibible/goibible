@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λεπτα δυο' (two lepta) is translated as 'hai đồng tiền nhỏ, tức là một đồng tiền nhỏ' (two small coins, that is, one small coin). The Vietnamese translation incorrectly reduces the number from two to one, which contradicts the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

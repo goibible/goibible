@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'hễ ai đã nói thì cũng đều báo trước' (whoever spoke also predicted) changes the meaning of the Greek 'ελαλησαν και προκατηγγειλαν'. In Greek, 'και' (and) connects two actions performed by the same subjects: they both 'spoke' and 'prophesied/foretold'. The Vietnamese structure implies a conditional or sequential relationship ('if spoke then also predicted') rather than a simultaneous/conjunctive action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

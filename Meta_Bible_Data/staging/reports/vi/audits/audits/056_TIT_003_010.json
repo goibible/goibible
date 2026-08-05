@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παραιτου' (paraitou) is an imperative meaning 'refuse', 'disown', or 'renounce' (specifically regarding fellowship/association). The Vietnamese 'khuyên bảo' means 'advise' or 'exhort', which is a different action. The Greek does not command to advise, but to refuse/reject the person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

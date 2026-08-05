@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη δυνανται' (cannot/are not able to) is rendered as a question 'có thể... không?' in the first clause, changing the statement into an inquiry. The Greek is a declarative statement of impossibility."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

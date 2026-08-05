@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text places the sheep ('προβατα') on the right ('εκ δεξιων') and the lambs ('εριφια') on the left ('εξ ευωνυμων'). The Vietnamese translation reverses these positions, placing the sheep on the right (correct) but the lambs on the left (correct), however, the Greek 'εξ ευωνυμων' refers to the left side, which matches. Wait, re-checking: Greek: sheep = right; lambs = left. Vietnamese: chiên (sheep) = bên hữu (right); dê con (lambs) = bên tả (left). The positions match."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

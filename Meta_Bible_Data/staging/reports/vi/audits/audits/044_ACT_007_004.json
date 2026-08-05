@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'Ngài' (He/Him - honorific) for the subject who moved him, but the Greek text 'μετωκισεν αυτον' is in the third person singular. While the Greek doesn't specify a name, 'Ngài' implies a divine subject (God) which is not explicitly stated in this specific clause of the Greek text, though it may be implied by context. More importantly, the Vietnamese uses 'khiến người dời' (made him move/relocate), whereas the Greek 'μετωκισεν' is a single verb meaning 'relocated' or 'moved'. The translation adds an unnecessary causative structure ('khiến') not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

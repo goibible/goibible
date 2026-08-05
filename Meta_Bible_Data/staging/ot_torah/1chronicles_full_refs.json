@@ -1,0 +1,41 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 1 Chronicles QA batch.",
+  "groups": [
+    {
+      "name": "1 Chronicles full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "1CH 1",
+        "1CH 2",
+        "1CH 3",
+        "1CH 4",
+        "1CH 5",
+        "1CH 6",
+        "1CH 7",
+        "1CH 8",
+        "1CH 9",
+        "1CH 10",
+        "1CH 11",
+        "1CH 12",
+        "1CH 13",
+        "1CH 14",
+        "1CH 15",
+        "1CH 16",
+        "1CH 17",
+        "1CH 18",
+        "1CH 19",
+        "1CH 20",
+        "1CH 21",
+        "1CH 22",
+        "1CH 23",
+        "1CH 24",
+        "1CH 25",
+        "1CH 26",
+        "1CH 27",
+        "1CH 28",
+        "1CH 29"
+      ]
+    }
+  ]
+}

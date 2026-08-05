@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενομην νεκρος' is an aorist passive (I became dead/was dead), but the Vietnamese 'ta đã chết' (I died) uses a perfect tense which suggests a completed action in the past without capturing the specific transition of 'becoming' dead as presented in the Greek sequence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εις τους αιωνας των αιωνων' is rendered as 'đời đời' (forever/eternally). While 'đời đời' captures the sense of eternity, it omits the specific 'ages of ages' structure, though this is often considered acceptable in Vietnamese. However, the primary issue remains the tense shift in the second clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full MIC QA batch.",
+  "groups": [
+    {
+      "name": "MIC full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "MIC 1",
+        "MIC 2",
+        "MIC 3",
+        "MIC 4",
+        "MIC 5",
+        "MIC 6",
+        "MIC 7"
+      ]
+    }
+  ]
+}

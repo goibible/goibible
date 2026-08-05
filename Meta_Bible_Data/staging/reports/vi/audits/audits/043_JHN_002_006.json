@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανα μετρητας' (ana metretas) refers to the volume of the large stone vessels (the 'vò'). The Vietnamese translation 'mỗi cái chứa hai hoặc ba thùng' suggests that each vessel contains two or three additional containers ('thùng'), which is a structural misunderstanding of the Greek measure. It should be rendered as 'mỗi cái chứa hai hoặc ba đơn vị đo' (each containing two or three measures)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

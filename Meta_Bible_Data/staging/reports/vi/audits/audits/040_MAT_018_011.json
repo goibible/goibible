@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο υιος του ανθρωπου' (the Son of Man) is translated as 'Con người' (Man/Humanity). This changes the subject from a specific title/person to a general category of human beings."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

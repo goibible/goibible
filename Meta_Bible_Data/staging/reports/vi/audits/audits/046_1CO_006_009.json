@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text lists five categories of people (pornoi, eidololatrai, mochoi, malakoi, arsenokoitai), but the Vietnamese translation omits the final category 'arsenokoitai' (kẻ làm chuyện đồng tính nam) and repeats 'kẻ tà dâm' twice to fill the space."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πορνοι' (pornoi) is translated as 'tà dâm' (fornication/immorality), but 'μοιχοι' (mochoi) is also translated as 'tà dâm', which creates a loss of distinction between the two distinct categories in the original text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

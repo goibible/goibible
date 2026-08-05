@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εφ ημας' (ep hēmas) means 'upon us' or 'on us'. The Vietnamese translation 'trên chúng ta' translates to 'on/above us', but in this context, the Greek 'πεσετε εφ ημας' implies falling *down upon* them (the people), whereas 'trên chúng ta' can be ambiguous as to whether they are falling onto the people or if the people are on top of something. More importantly, the Vietnamese 'rơi xuống trên chúng ta' sounds like falling 'over' us, but the Greek 'πεσετε' is a simple imperative 'fall'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

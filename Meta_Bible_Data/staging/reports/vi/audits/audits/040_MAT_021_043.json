@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρθησεται' (arithēsetai) means 'will be taken away' or 'will be removed'. The Vietnamese translation 'sẽ bị cất khỏi' can mean 'will be taken away from', but the construction in the context of Matthew 21:43 suggests a removal *from* the people to be given *to* others. However, the Greek clearly indicates the Kingdom is being taken away FROM them (the current generation) and given TO others. The Vietnamese phrasing is acceptable, but I am flagging because 'cất khỏi' can sometimes imply 'hidden away' or 'removed from sight' depending on context, whereas the Greek implies a transfer of possession/inheritance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

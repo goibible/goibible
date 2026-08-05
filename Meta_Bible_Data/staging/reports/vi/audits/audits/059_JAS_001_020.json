@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου' (not) is omitted in the Vietnamese translation. The Greek says 'does NOT produce', but the Vietnamese says 'does not make out' (or 'does not produce') in a way that misses the negative scope of the verb action. Specifically, the Greek is 'does not produce', while the Vietnamese 'không làm ra' is correct, but it fails to capture the specific negation of the verb 'κατεργαζεται' (produces/works out) correctly in context of the subject's action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

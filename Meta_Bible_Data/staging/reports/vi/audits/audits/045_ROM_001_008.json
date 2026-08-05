@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμων' (your/yours) in both 'παντων υμων' and 'πιστις υμων' refers to the readers/audience. The Vietnamese translation switches this to 'anh em' (brothers/you all), which is a common stylistic choice, but more importantly, it changes the possessive scope of the first clause. The Greek says 'for all of YOU' (the people), while the Vietnamese says 'because of all [of] brothers' (implying a collective group). However, the primary issue is that the Greek 'υμων' applies to both 'all of you' and 'our faith'. The Vietnamese renders 'πιστις υμων' as 'đức tin của anh em' (your faith), but the preceding phrase 'vì hết thảy anh em' makes it unclear if the faith belongs to the 'brothers' or if it is the 'our faith' (πιστις υμων) mentioned in the Greek. In Greek, it is 'our faith' (the faith of the writers and readers), whereas the Vietnamese 'đức tin của anh em' specifically attributes it only to the 'brothers'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

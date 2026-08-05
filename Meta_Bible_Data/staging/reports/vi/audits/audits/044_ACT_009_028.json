@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παρρησιαζομενος' (parresiazomenos) means 'boldly speaking' or 'speaking with confidence/freedom.' The Vietnamese translation 'mạnh dạn giảng dạy' adds the specific action of 'teaching' (giảng dạy), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

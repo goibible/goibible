@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματων πονηρων' refers to 'evil spirits'. The Vietnamese translation 'Thánh Linh dữ' translates to 'evil Holy Spirits', which is a theological contradiction and a mistranslation of the term."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

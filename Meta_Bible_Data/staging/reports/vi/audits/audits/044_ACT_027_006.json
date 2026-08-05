@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ευρων' (found/discovered) is translated as 'tìm được', but the context of 'πλοιον... πλεον εις την ιταλιαν' implies the centurion 'found' or 'took' a ship that was 'bound for' Italy. The Vietnamese translation 'sắp đi qua' (about to go through/past) slightly alters the sense of 'πλεον' (bound for/heading towards)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκατονταρχος' is a 'centurion'. The Vietnamese 'thầy đội' is a common translation, but 'thầy' can imply a teacher or master in certain contexts; however, the primary issue is the nuance of 'πλεον' which indicates destination/direction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

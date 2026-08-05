@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ επιορκησεις' (ouk epiorkeseis) means 'do not swear falsely' or 'do not commit perjury.' The Vietnamese translation 'chớ thề dối' (do not swear falsely) is accurate, but it fails to capture the specific nuance of 'epiorkesis' which refers to the act of perjury/false swearing. However, a more critical issue is the phrase 'οδωσεις δε τω κυριω τους ορκους σου'. The Greek literally says 'but [you] shall give to the Lord your oaths.' The Vietnamese 'phải trả cho Chúa những lời thề của ngươi' is acceptable, but the transition from the negative command (do not swear falsely) to the positive command (give your oaths to the Lord) is slightly smoothed over. The primary issue is that 'epiorkeseis' is a specific legal/religious term for perjury which 'thề dối' captures well enough in context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

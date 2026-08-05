@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ο εστιν δωρον ο εαν εξ εμου ωφεληθης' translates to 'it is a gift if it is from me,' but the Vietnamese translation adds the concept 'không còn phải giúp cha mẹ nữa' (no longer has to help/provide for parents), which is an interpretation of the implication rather than a literal rendering of the text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

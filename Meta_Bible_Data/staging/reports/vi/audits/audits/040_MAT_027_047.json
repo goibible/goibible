@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηλιαν φωνει' (heliān phōnei) means 'calls/cries out Eli' or 'is calling Eli'. The Vietnamese translation 'kêu Ê-li' (calls Eli) is slightly ambiguous; however, the Greek structure 'ελεγον οτι ηλιαν φωνει ουτος' indicates that what they heard was the statement: 'This one is calling Eli'. The Vietnamese 'nghe vậy thì nói rằng' implies they heard *something* and then spoke, whereas the Greek 'ακουσαντες ελεγον' suggests they heard [the people] saying that this one is calling Eli."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

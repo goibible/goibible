@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν περιτεμνησθε' (ean peritemnēthē) is in the passive voice, meaning 'if you are circumcised.' The Vietnamese translation 'chịu cắt bì' (suffer/undergo circumcision) implies an active action or a voluntary endurance, whereas the Greek focuses on the state of being circumcised."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

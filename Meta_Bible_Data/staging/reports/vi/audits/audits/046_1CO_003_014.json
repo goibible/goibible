@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο επωκοδομησεν' is a relative participle meaning 'he who built' (the one who did the building). The Vietnamese translation 'công việc của ai xây dựng' translates this as 'the work of whoever built', which shifts the focus from the person performing the action to the ownership/nature of the work. It slightly alters the subject-action relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

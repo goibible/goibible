@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηλιαν' (Hilian) is a specific name/title, but the Vietnamese translates it as 'hắn gọi Ê-li' (he calls Elijah). The Greek text says 'see, Hilian [is] calling' (or 'Hilian calls'), whereas the Vietnamese shifts the action to 'he calls Elijah'. This changes the subject and object of the verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific noun 'philo-sin' (φιλουσιν) which implies 'loving' or 'having a fondness for'. The current translation 'Họ ưa' (They like/prefer) captures the sentiment but loses the nuance of 'loving' or 'favoring' as a characteristic action described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

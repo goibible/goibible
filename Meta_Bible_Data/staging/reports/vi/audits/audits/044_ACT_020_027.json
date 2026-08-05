@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου γαρ υπεστειλαμην' means 'for I have not hidden,' but the Vietnamese translation adds a negative 'không hề' (not at all/never) and structures it as 'không hề giấu giếm mà không rao báo' (not hiding but not announcing), which creates a double negative logic that slightly alters the flow of the Greek intended to say 'I have not hidden [it] in order not to announce...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

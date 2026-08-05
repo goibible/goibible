@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλουτων' (ploutōn) means 'rich' or 'wealthy' in terms of resources/possessions. The Vietnamese translation 'giàu ơn' translates it as 'rich in grace/favor,' which changes the semantic category of the attribute from material/status wealth to spiritual favor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυναστης κανδακης' (dynastēs kandakēs) refers to the official/governor of the Queen's 'kandake' (a specific title or royal household role), but the Vietnamese translates it as 'kẻ có quyền thế của Can-đác, nữ vương Ê-thi-ô-bi', which incorrectly identifies 'Can-đác' as a person's name rather than a title/office associated with the Queen."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι πασης της γαζης αυτης' refers to the 'treasury' or 'wealth' of the Queen. The Vietnamese 'coi sóc mọi kho tàng' (overseeing all treasures) adds a functional action ('coi sóc' - overseeing/taking care of) that is not explicitly in the Greek, which simply identifies him as the official of her treasury."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

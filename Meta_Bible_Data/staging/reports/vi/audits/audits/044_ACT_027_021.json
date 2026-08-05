@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλης δε ασιτιας υπαρχουσης τοτε' describes the state of the people (being in a state of much famine at that time), but the Vietnamese translates it as 'Vì đã kiêng ăn lâu ngày' (Because [they] have been abstaining from eating for a long time). The Greek refers to an external condition (famine/scarcity) rather than a voluntary action of 'abstaining'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

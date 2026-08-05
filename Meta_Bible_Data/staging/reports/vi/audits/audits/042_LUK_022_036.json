@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εχων βαλαντιον' refers to someone who *has* a purse/moneybag. The Vietnamese translation says 'ai có túi tiền, hãy lấy đi' (whoever has a moneybag, let them take it), which is not in the Greek text. The Greek implies a contrast between those who have the means and those who do not."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation repeats 'ai có cái túi' (whoever has the bag) as a separate clause, which is redundant and misinterprets the Greek structure where 'ο εχων βαλαντιον' is the subject of the first part of the contrast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

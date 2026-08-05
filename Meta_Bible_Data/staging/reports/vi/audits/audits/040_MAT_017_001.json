@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds the word 'riêng' (separately/privately) to 'κατ ιδιαν'. While 'ἰδίαν' can imply a private setting, in this context it functions as an adverbial phrase describing the location/manner of the movement ('to a private place'). However, the Vietnamese structure 'đưa họ lên núi cao riêng ra' makes 'riêng' sound like a modifier of the mountain or a separate action, whereas the Greek is 'to a private place'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

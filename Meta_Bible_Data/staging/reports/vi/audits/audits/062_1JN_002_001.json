@@ -1,0 +1,22 @@
+{
+  "book": "1JN",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακλητον εχομεν' (we have an advocate) is rendered as 'chúng ta có Đấng Yên Ủi' (we have a Comforter/Consoler). In the context of 1 John 2:1, 'παράκλητος' refers to an Advocate or Intercessor. While 'Yên Ủi' can be used for Paraclete, it often leans toward 'Comforter'. However, the more critical issue is the scope of the advocacy."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek specifies that the advocate is 'προς τον πατερα' (toward/before the Father). The Vietnamese 'ở nơi Cha' (in the Father) slightly shifts the location/direction of the advocacy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

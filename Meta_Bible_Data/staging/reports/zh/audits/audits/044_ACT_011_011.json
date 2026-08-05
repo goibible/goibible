@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Greek says 'the house in which I was' (εν η ημην), but Chinese says '我們所住的家' (the house we lived in), changing singular 'I' to plural 'we'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

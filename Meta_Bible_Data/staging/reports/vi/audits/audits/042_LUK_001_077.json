@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 77,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν' (en) in this context functions as a causal or instrumental preposition, but the Vietnamese 'bởi' (by/because of) combined with 'tha thứ' (forgiveness) slightly shifts the nuance. However, the primary issue is the grammatical structure: 'εν αφεσει' implies 'in the forgiveness' or 'through the forgiveness'. The Vietnamese rendering 'bởi sự tha thứ' is acceptable, but the Greek 'αφεσει' is a noun of action; the translation is largely faithful in meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

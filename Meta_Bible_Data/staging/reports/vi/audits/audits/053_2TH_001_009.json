@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο' (apo) indicates a source or origin ('from'), but the Vietnamese 'xa cách' (far from/separated from) implies a spatial distance or separation. While semantically related, 'xa cách' changes the nuance of the judgment being *from* the presence of God to being *separated* from it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

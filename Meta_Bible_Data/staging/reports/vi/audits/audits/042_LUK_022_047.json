@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'δωδεκα' (twelve) is translated as 'mười hai', but the context of 'των δωδεκα' refers to the group of the twelve apostles. While 'mười hai' is numerically correct, the Vietnamese lacks the sense of 'the twelve' (the specific group), though this is a minor point. More importantly, the Greek 'προηρχετο' is an imperfect tense indicating ongoing/repeated action or a state of moving forward, while the Vietnamese 'đi trước' is a simple past/present action. However, the most significant issue is the lack of distinction in the Greek 'των δωδεκα' which refers to the specific group of the Twelve."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

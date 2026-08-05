@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ σπειρης' (from Speire) is omitted or mistranslated as 'cơ đội'. The text identifies him as a centurion from Speire, not a 'cơ đội' (which might be a misunderstanding of 'ek')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The specific location 'Speire' (σπειρης) is missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

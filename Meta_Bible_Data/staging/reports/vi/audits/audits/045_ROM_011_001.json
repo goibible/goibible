@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη απωσατο' is a negative construction (a rhetorical question/negation) meaning 'let God not cast away' or 'God will not cast away'. The Vietnamese translation 'có bỏ... chăng? Chẳng hề như vậy!' (Does God cast away...? Not at all!) changes the grammatical structure from a statement of assurance/negation into a rhetorical question followed by an emphatic exclamation, which slightly alters the flow of the Greek assertion."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

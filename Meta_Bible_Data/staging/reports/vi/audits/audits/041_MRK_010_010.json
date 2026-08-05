@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περι του αυτου' (peri tou autou) means 'about him' (referring back to Jesus), but the Vietnamese 'về việc ấy' means 'about that matter/thing'. This changes the object of the disciples' questioning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

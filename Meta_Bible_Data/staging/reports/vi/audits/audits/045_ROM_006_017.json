@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητε δουλοι της αμαρτιας υπηκουσατε' means 'you obeyed as slaves of sin'. The Vietnamese translation 'vốn là đầy tớ của tội lỗi, nhưng đã từ lòng vâng phục' incorrectly shifts the meaning to imply they were slaves *but* obeyed from the heart (or a similar contrast), whereas the Greek indicates that their obedience was *in the capacity/manner* of being slaves of sin."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'εκ καρδιας' (from the heart) is missing or misrepresented. In the Greek, it qualifies the nature of the obedience ('obeyed from the heart' as slaves). The Vietnamese 'từ lòng vâng phục' suggests 'from a heart of obedience', which changes the grammatical relationship between the heart and the act of obedience."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds 'điều họ đã có' (what they already have) to the end of the sentence. The Greek text (ο εχει αρθησεται απ αυτου) simply says 'the one who has will be taken from him'. The Vietnamese implies a specific object ('what they had') is being taken, whereas the Greek structure identifies the subject (the one who has) as the one from whom something (implied by context as wealth/possessions) is taken."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

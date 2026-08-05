@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη βλεπων' is a present active participle (not a future tense). The Vietnamese translation uses 'sẽ bị mù' (will be blind), which incorrectly shifts the meaning to a future state, whereas the Greek describes his current state of being blind while the hand is upon him."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παραχρημα' (immediately/at once) modifies the action of the mist and darkness falling. The Vietnamese uses 'Tức thì' at the start of the sentence, but it is slightly detached from the specific action of the mist falling in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'mọi đường' (in every way/every path), which has no basis in the Greek text ('εν ω ευδοκησα')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

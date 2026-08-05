@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε σε ειδομεν' (did not see/receive you) is negated. The Vietnamese translation 'thấy' (saw) omits the negation 'đã không' or 'chưa bao giờ'. The Greek implies they never treated the stranger this way, whereas the Vietnamese phrasing 'Khi nào chúng tôi thấy...' (Whenever we saw...) suggests a conditional or habitual action rather than a negation of the past experience."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνηγαγομεν' (welcomed/received) is translated as 'tiếp rước' (welcome/receive), but the Greek 'περιεβαλομεν' (clothed) is rendered as 'mặc cho' (let/allowed to wear). The Greek 'περιεβαλομεν' is active: they clothed the naked person. 'Mặc cho' in Vietnamese can imply 'allowing' or 'letting' someone wear something, which slightly shifts the agency from the hosts' active provision to a permissive action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

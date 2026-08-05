@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αφωνον' (aphōnon) means 'voiceless' or 'without sound' (the opposite of 'φωνων'). The Vietnamese translation 'không có nghĩa' means 'meaningless' (without meaning). This changes the literal sense of the text from a physical/auditory description to a conceptual/semantic one."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

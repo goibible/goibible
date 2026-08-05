@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απεκριθησαν' (apekrithēsan) is the aorist of 'apokrinomai', meaning 'answered'. The Vietnamese translation 'thưa rằng' (said/replied that) combined with the structure makes it sound like they were making a statement of fact, whereas the Greek conveys 'they answered [with the names]'. More importantly, the Vietnamese 'thưa rằng' implies a polite response to a question, but the Greek 'απεκριθησαν' is a general 'answered'. However, the primary issue is the phrasing 'nói là' (said that) which adds a slight layer of indirect speech not strictly present in the direct object structure of the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

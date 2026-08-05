@@ -1,0 +1,38 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειδοτας υμας' (knowing you) is a participle modifying the subject (I), but the Vietnamese translation 'là người đã biết điều này' (who already knew this) treats it as a relative clause describing 'anh em' (you). The Greek implies 'I want to remind you, knowing you [already]...', whereas the Vietnamese says 'I want to remind you, who [already] know...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απαξ' (once/at one time) is present but the Vietnamese 'một lần rồi' is slightly shifted in focus; however, the primary issue is the grammatical role of the participle."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

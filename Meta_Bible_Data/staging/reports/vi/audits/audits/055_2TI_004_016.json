@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'μη αυτοις λογισθειη' is a prayer/request meaning 'let it not be counted against them' (or 'do not hold them accountable'). The Vietnamese translation 'Cầu xin điều đó đừng kể cho họ' translates to 'Please do not tell that to them,' which changes the meaning from a request for non-judgment/accountability to a request for secrecy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

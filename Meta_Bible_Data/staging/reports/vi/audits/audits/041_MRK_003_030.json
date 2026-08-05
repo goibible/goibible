@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγον' (elegon) is a verb meaning 'they were saying' or 'they said'. The Vietnamese 'Vì họ nói rằng' adds the conjunction 'Vì' (Because), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

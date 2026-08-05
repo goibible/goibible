@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το εθνος το σον' (your nation) is translated as 'Dân ngoại của ngươi' (your foreigners/Gentiles). In the context of Jesus' trial, 'ethnos' refers to the Jewish people/nation, not 'foreigners'. This significantly changes the identity of the group being discussed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

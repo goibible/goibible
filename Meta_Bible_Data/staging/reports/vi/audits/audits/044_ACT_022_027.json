@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire final clause 'ο δε εφη ναι' (but he said 'yes'). While the Vietnamese includes 'Người đáp: \"Phải\"' (The man answered: \"Yes\"), it fails to capture the Greek structure where the speaker is identifying the specific response as a statement of fact/identity within the narrative flow."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

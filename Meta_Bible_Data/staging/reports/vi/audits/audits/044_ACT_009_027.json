@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επαρρησιασατο' (eparrēsiasato) means 'boldly spoke/confessed' or 'proclaimed boldly'. The Vietnamese translation 'giảng dạy cách bạo dạn' (taught the way of boldness) changes the verb from an action of bold confession/proclamation to an act of teaching a method or concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

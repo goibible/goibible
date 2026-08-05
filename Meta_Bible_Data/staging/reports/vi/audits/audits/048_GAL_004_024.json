@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αλληγορουμενα' (allēgoroumena) is a passive participle meaning 'allegorized' or 'spoken of allegorically'. The Vietnamese translation 'lời ví dụ' (parable/example) changes the grammatical function and meaning from an allegorical description to a specific literary genre."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο ορους σινα' (apo horos Sina) means 'from the mountain of Sinai'. The Vietnamese translation 'tại núi Si-na' (at the mountain of Sinai) changes the prepositional sense from origin/source to location."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

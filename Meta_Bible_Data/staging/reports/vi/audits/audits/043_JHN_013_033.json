@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετι' (eti) means 'still' or 'yet'. The Vietnamese translation 'còn ở... một ít lâu' (still stay... for a little while) adds a temporal duration ('một ít lâu') that is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ζητησετε με' is in the future tense ('you will seek me'). The Vietnamese translation 'các ngươi sẽ tìm ta' captures the future, but the structure of the sentence implies a conditional flow that slightly softens the direct imperative/future command of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

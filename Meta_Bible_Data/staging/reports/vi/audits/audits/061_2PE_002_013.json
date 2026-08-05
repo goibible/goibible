@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σπιλοι' (spiloi) and 'μωμοι' (momoi) are singular/plural nouns for 'stains' or 'defilements'. The Vietnamese translation renders them as 'vết và vết nhơ' (marks and stains), but the Greek structure 'τρυφην σπιλοι και μωμοι' suggests these are the *substance* of the luxury/pleasure. More importantly, the Vietnamese 'đang khi ăn uống vui chơi' (while eating, drinking, and partying) is a functional paraphrase for 'εντρυφωντες' (rejoicing/gladdening), but it adds specific actions (eating/drinking) not present in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

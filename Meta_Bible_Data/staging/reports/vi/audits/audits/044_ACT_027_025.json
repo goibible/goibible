@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διο ευθυμειτε' (be of good cheer / take courage) is rendered as 'hãy vui lòng' (please be happy/pleased), which shifts the imperative from a call to courage/fortitude to a request for happiness."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'vì tôi tin Đức Chúa Trời rằng' suggests 'I believe in God that...', whereas the Greek 'πιστευω γαρ τω θεω οτι' means 'for I believe in God that...'. The Vietnamese phrasing slightly obscures that 'in God' is the object of belief, making it sound like the believer is believing 'God' as the subject of the following clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

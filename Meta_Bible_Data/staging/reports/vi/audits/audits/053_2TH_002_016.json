@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και ο θεος και πατηρ ημων' implies that Jesus Christ is both God and our Father (or 'the God and our Father'). The Vietnamese translation separates them into two distinct entities: 'Chúa Giê-xu Christ, và Đức Chúa Trời là Cha chúng ta', which could be interpreted as 'Jesus Christ, and [someone else] God who is our Father'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

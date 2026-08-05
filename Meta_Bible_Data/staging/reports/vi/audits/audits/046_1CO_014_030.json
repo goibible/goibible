@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν δε αλλω αποκαλυφθη' (if anything else is revealed) is a conditional regarding the revelation itself. The Vietnamese 'Nếu có điều mặc khải cho người khác' adds 'cho người khác' (to others), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

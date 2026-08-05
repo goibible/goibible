@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'καινos' (implied/contextual) or specifically mentions 'κολλυβιστων' (moneychangers) and the action 'εξεχεεν το κερμα' (poured out the money). The Vietnamese translation omits the specific mention of the 'moneychangers' (những người đổi bạc) as a distinct group being acted upon, though it mentions their money. More importantly, it misses the specific phrase 'καινos' if applicable, but strictly based on the provided Greek: it misses the specific action of 'pouring out the money' (đổ tiền) which is there, but it fails to capture the plural 'τρεπεζας' (money tables/banks) accurately as 'bàn của họ' (their tables) is slightly simplified."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του ιερου' (from the holy [place/temple]) is rendered as 'ra khỏi đền thờ'. While 'đền thờ' is the standard term for temple, the Greek specifically says 'holy', which is often translated as 'nơi thánh' or 'chốn thánh' to maintain the adjective. However, the bigger issue is the handling of 'τρεπεζας' (money tables/banks). The Vietnamese says 'lật bàn của họ' (flipped their tables), but the Greek is 'τρεπεζας ανεστρεψεν', which refers specifically to the money tables."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

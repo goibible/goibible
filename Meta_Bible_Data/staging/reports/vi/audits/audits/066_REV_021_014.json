@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'θεμελιους' (themelious) means 'foundations'. The Vietnamese translation 'nền' usually refers to a floor or a base/level, which loses the specific structural meaning of 'foundation' in the context of a wall."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

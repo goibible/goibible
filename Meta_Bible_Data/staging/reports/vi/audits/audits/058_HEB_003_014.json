@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κατασχωμεν' (kataschōmen) means 'to hold fast', 'to seize', or 'to cling to'. The Vietnamese 'giữ vững' (keep firm/maintain) is a reasonable equivalent, but the Greek 'κατασχωμεν' in this specific context of 'the beginning of the subsistence/existence' often implies a more active 'holding fast' or 'clinging to' rather than just maintaining. However, the primary issue is the nuance of 'κατασχωμεν' which is an Aorist Subjunctive (expressing purpose or condition), and while 'giữ vững' captures the sense of holding, the Greek implies a more vigorous 'clinging' to the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

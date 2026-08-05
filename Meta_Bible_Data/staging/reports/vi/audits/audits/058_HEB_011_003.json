@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατηρτισθαι' (kathristhai) means 'to be prepared', 'to be equipped', or 'to be made ready'. The Vietnamese translation 'được sắp đặt' (to be arranged/appointed) misses the specific nuance of preparation/readiness."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τους αιωνας' refers to 'the ages' or 'the eternities'. The Vietnamese 'các đời' usually refers to 'generations' or 'lives', which is a different conceptual scope."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

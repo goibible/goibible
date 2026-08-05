@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταγγελλουσιν' (katangellousin) is in the present tense, indicating a continuous or habitual action. The Vietnamese 'rao truyền' (past/perfective sense in this context) fails to capture the ongoing nature of the action as described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

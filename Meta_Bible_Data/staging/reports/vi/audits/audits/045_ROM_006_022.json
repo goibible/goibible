@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δουλωθεντες δε τω θεο' means 'having become slaves to God'. The Vietnamese translation 'trở nên tôi mọi của Đức Chúa Trời' is a significant mistranslation; 'tôi mọi' (servants/slaves) is used, but the structure 'trở nên tôi mọi của' is awkward and potentially misses the passive/participial nuance of 'δουλωθεντες', though the primary issue is the grammatical flow. However, more critically, the Vietnamese phrasing 'anh em có trái của mình để dẫn đến sự nên thánh' slightly alters the relationship between the fruit and the sanctification compared to 'εχετε τον καρπον υμων εις αγιασμον' (have your fruit for/toward sanctification)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

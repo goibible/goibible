@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ἀπροσκόποι' (aproskopoi) means 'those who cause others to stumble' or 'stumbling blocks.' The Vietnamese translation 'Chớ làm gương xấu' (Do not set a bad example) changes the specific concept of 'causing someone to stumble/trip' into a general moral concept of 'setting a bad example.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

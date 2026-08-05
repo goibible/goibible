@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'σωσθενης' (Sosthenes), but the Vietnamese translation adds 'anh em chúng ta' (our brother) which is not present in the Greek source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

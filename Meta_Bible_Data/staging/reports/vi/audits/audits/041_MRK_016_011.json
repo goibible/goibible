@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ηπιστησαν' (hispēsan) means 'they did not believe' or 'they were not persuaded.' The Vietnamese translation 'không tin' correctly captures the negation, but the Greek word is a specific form of 'not believing/persuading' in a context of hearing a report. However, more importantly, the Greek 'ηπιστησαν' (aorist) indicates they did not believe [at that moment/upon hearing]. The Vietnamese 'thì không tin' is acceptable, but I must check if anything is missing. The Greek 'ζη και εθεαθη' means 'he lived and was seen.' The Vietnamese 'Ngài sống và đã được bà thấy' correctly captures the passive voice of 'εθεαθη'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

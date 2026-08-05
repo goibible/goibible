@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του' (his) in 'περι του θανατου αυτου' refers to Jesus' own death ('the death of him'), but the Vietnamese 'của người' is ambiguous and could be interpreted as 'his' (referring to a third person) or 'his' (referring to Jesus). In the context of the Greek, it is specifically Jesus' death."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

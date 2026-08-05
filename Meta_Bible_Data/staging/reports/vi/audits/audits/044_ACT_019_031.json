@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'των ασιαρχων' refers to the 'Asiares' (a specific Roman official rank/title), not 'quan châu Á' (Asian officials). While 'Asiares' is related to the province of Asia, translating it as 'Asian officials' changes the historical context of the office held."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

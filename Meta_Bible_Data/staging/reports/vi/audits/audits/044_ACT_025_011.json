@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'nộp tôi cho họ' (hand me over to them) incorrectly interprets 'χαρισασθαι' (to grant/give/bestow). The Greek 'ουδεις με δυναται αυτοις χαρισασθαι' literally means 'no one is able to grant [anything] to them' in the context of the legal argument, rather than 'handing him over' to them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

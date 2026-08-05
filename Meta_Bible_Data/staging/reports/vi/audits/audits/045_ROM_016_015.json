@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασπασασθε' (aspasasthe) is an imperative meaning 'kiss' or 'embrace' (in a liturgical/reverent sense), but the Vietnamese 'Hãy chào' means 'Greet'. This changes the specific action required by the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνη αυτοις παντας αγιους' implies 'all the saints who are with them', but the Vietnamese 'hết thảy các thánh đồ ở với họ' slightly alters the grammatical relationship, though it is mostly acceptable. However, the primary issue remains the mistranslation of 'kiss/embrace' as 'greet'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

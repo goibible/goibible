@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξομολογουμαι' (exomologomai) means to confess or acknowledge. The Vietnamese translation 'con cảm tạ Cha' means 'I thank Father,' which changes the nature of the action from a confession/acknowledgment to an expression of gratitude."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

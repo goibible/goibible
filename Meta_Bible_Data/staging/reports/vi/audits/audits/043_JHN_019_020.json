@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'οτι εγγυς ην της πολεως ο τοπος' (that the place where Jesus was crucified was near the city) is rendered in Vietnamese as a causal clause ('vì nơi...'). The Greek 'οτι' functions as a content clause (that), not a causal conjunction (because)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

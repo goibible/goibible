@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την στολην την πρωτην' literally means 'the first robe' (or 'the outer garment'). The Vietnamese translation 'áo dài tốt nhất' means 'the best long robe/best outfit', which changes the specific meaning of 'first' to 'best'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'ασπασμους' (aspasmos) refers to 'salutations' or 'greetings' in the sense of people acknowledging/greeting each other, but it is often associated with the physical act of greeting. The Vietnamese 'lời chào' (words of greeting) captures the verbal aspect but misses the nuance of the public recognition/salutation. More importantly, the Greek 'καλεισθαι' is a passive infinitive meaning 'being called'. While the Vietnamese 'được... gọi' correctly identifies the passive voice, it omits the specific context of the public setting implied by 'εν ταις αγοραις' (in the marketplaces) being linked to both actions."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

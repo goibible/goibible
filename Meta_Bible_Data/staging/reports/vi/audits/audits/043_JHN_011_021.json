@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οὐκ ἀν ἐτεθνηκεὶ' is a conditional construction (οὐκ + αν) expressing 'would not have died' (counterfactual). The Vietnamese translation 'không chết' translates this as a simple present/future negative 'do not die', missing the counterfactual/past-conditional nuance of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

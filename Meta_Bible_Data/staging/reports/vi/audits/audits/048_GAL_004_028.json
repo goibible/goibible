@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα' in this context indicates 'through' or 'according to' (by way of the promise). The Vietnamese translation 'cũng như' (just like/as) changes the relationship from a derivation/lineage through a promise to a simple comparison between the believers and Isaac."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

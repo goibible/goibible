@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'γενεσιων δε αγομενων' refers to the 'birthdays' (plural) of the children, not the birthday of Herod. The Vietnamese 'ngày sinh nhật của Hê-rốt' incorrectly attributes the occasion to Herod himself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

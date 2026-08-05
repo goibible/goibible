@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επελαθετο' (epelatheto) means 'became ignorant' or 'lost knowledge of'. The Vietnamese translation 'quên mình là thể nào' (forgot what he was like) is a subjective interpretation. The Greek refers to the loss of his identity/status as a son, while the Vietnamese phrasing suggests a general forgetting of his former state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

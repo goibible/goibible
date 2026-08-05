@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολύτερο' (polytero) means 'more' or 'greater'. The Vietnamese translation 'càng... hơn nữa' (even... more) combined with the context of 'περισσοτερως' (perissoterōs) correctly captures the comparative, but the phrase 'và ngoài sự yên ủi của anh em' (and outside/beyond the comfort of you) is a slight shift from 'επι τη παρακλησει υμων' (at/by your comfort). However, the primary issue is the rendering of 'πολύτερο'. The Greek says 'more [rejoiced] at the joy of Titus', but the Vietnamese adds an emphatic 'càng... hơn nữa' which slightly over-intensifies the comparison compared to the simple comparative in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολύτερο' (polytero) is technically missing its direct comparative link to the previous clause in a way that makes the Vietnamese 'càng... hơn nữa' slightly more complex than the Greek structure, though it preserves the core meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'do chức vụ chúng tôi phục vụ' (served by our ministry/service) incorrectly translates the Greek 'διακονηθεισα υφ ημων' (ministered/written by us). The Greek indicates that the believers are the letters *written by us* (the apostles), not that the letters were 'served by our ministry'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'bảng thịt của lòng' (fleshly tablets of the heart) reverses/misplaces the Greek 'πλαξιν καρδιας σαρκιναις'. The Greek refers to 'tablets of human hearts' (hearts of flesh), not 'fleshly tablets of the heart'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

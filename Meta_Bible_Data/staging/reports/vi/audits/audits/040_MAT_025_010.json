@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'những người sẵn sàng đi với người' (those ready to go with the person) incorrectly renders 'αι ετοιμοι εισηλθον μετ αυτου' (and those who were ready entered with him). It misses the subject-verb relationship where the 'ready ones' are the ones performing the action of entering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

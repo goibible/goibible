@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του θελοντος' (of the willing/one who wills) and 'του τρεχοντος' (of the running/one who runs) are in the genitive case, functioning as 'by the [one who] wills' or 'by the [one who] runs'. The Vietnamese translation 'người muốn' and 'người chạy' lacks the active verbal sense of the Greek participles ('willing' and 'running'), making it sound like static nouns rather than the ongoing actions/states intended by the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

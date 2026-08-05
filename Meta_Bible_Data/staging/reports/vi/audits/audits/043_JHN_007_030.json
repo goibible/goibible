@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'vì giờ Ngài chưa đến' (because the hour of His coming has not yet arrived) changes the meaning. The Greek 'ουπω εληλυθει η ωρα αυτου' in this context refers to the 'hour' of his arrest/judgment (the appointed time for the event), not a future 'coming' or 'arrival' in a general sense."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

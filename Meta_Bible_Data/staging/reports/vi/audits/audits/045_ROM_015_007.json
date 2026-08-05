@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις δοξαν θεου' indicates a destination or purpose ('into/unto the glory of God'), whereas the Vietnamese 'để sự vinh hiển của Đức Chúa Trời được tỏ ra' translates it as a resultative clause ('so that the glory... may be revealed'). The Greek implies being received *into* glory, not just for the sake of a revelation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

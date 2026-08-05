@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συν χριστω ειναι' (to be with Christ) is rendered as 'ở với Đấng Christ', but the Vietnamese translation treats 'đi và ở' (go and stay/be) as two distinct actions. The Greek 'εις το αναλυσαι' (to depart/go away) is paired with 'συν χριστω ειναι' (to be with Christ) as a contrast, not as a joint action of 'going and being'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κρεισσον' (better/more desirable) is rendered as 'tốt hơn', which is acceptable, but the overall structure of the Vietnamese sentence slightly obscures the specific contrast between 'departing' and 'being with Christ' by grouping them as a single desire."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

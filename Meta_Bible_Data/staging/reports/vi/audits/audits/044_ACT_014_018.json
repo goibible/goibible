@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη θυειν αυτοις' (lest they offer sacrifices to Him) is rendered as 'ngăn trở... dâng tế lễ cho mình'. In Vietnamese, 'cho mình' usually refers to the subject (the people), whereas the Greek 'αυτοις' refers back to the person being spoken to/about (Jesus). The translation incorrectly implies the crowd was offering sacrifices to themselves."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατεπαυσαν' (having ceased/stopped) is slightly nuanced as a completion of action, but the Vietnamese 'vừa đủ ngăn trở' (just enough to prevent) adds a qualitative judgment ('just enough') not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

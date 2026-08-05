@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονίας' (diakonias) is a genitive modifying 'χαριν' and 'κοινωνιαν'. The Vietnamese translation 'của chức vụ' (of the ministry/office) suggests a possessive relationship or a specific office, whereas the Greek indicates the grace and fellowship *of* the service/ministry. More importantly, the Vietnamese 'dành cho các thánh đồ' (intended for the saints) misinterprets the Greek 'εις τους αγιους'. In the Greek, 'εις' combined with 'δεξασθαι' (to receive) indicates the *direction* or *purpose* of the reception—receiving them into the service/ministry—rather than describing who the grace belongs to."
+        }
+      ],
+      "confidence": 5.0
+    }
+  }
+}

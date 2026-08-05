@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek distinguishes two groups: 'πόρνους' (sexually immoral/fornicators) and 'μοιχούς' (adulterers). The Vietnamese renders both as 'kẻ tà dâm' (the same word), losing the distinction between the two categories."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

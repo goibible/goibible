@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα των τοιουτων' (against such things) is rendered as 'cấm' (forbid/prohibit). The Greek phrase implies a lack of law *regulating* or *governing* such things, whereas 'cấm' specifically means 'prohibited'. More importantly, the Vietnamese adds 'các điều đó' (those things), but the Greek 'τοιουτων' refers back to the preceding context (likely referring to the virtues mentioned) in a way that 'không có luật nào cấm' changes the logical relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δούλος' (doulos) is a masculine singular noun, but the Vietnamese 'đầy tớ' is used correctly. However, the Greek 'αδελφος' (adelphos) is also masculine singular. The phrase 'δούλος αδελφος' refers to Judas as both a servant and a brother. The Vietnamese structure 'đầy tớ... và anh em' is accurate."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text lists the attributes of Judas (servant, brother) before the destination of the letter. The Vietnamese translation slightly shifts the flow but preserves the meaning. However, 'δούλος αδελφος' are appositives to 'Ιουδάς'. The Vietnamese 'đầy tớ của... và anh em của...' correctly captures the relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 5083,
+          "lemma": "tēréō",
+          "problem": "distorted",
+          "detail": "The Greek 'τετηρημενοις' (tethrhmenoiv) is a passive participle meaning 'those who are kept/preserved'. The Vietnamese translation 'được giữ gìn' correctly reflects the passive sense, but it should be noted that the source text uses a specific passive construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

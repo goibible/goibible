@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενοντο' (egenonto) is a passive form meaning 'had been' or 'had come to be'. The Vietnamese 'đã được làm ra' (were made/produced) changes the meaning from a state of existence/origin to an action of creation or production."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετενοησαν' (metenēsan) is in the perfect tense, indicating a completed action with ongoing results ('had repented'). The Vietnamese 'đã... ăn năn' (had repented) combined with 'từ lâu rồi' (long ago) conveys the correct sense of completed action, but the overall structure of the 'if/then' clause is slightly distorted by the phrasing of 'được làm ra'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

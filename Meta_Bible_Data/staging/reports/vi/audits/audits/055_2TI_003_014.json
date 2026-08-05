@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'επιστωθης' (epistōthēs) is a passive verb meaning 'you have been taught/instructed'. The Vietnamese translation 'đã được bảo đảm' means 'have been guaranteed/assured', which is a significant shift in meaning from instruction to assurance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

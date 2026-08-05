@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθιστησιν' (kathistēsin) is a present active participle meaning 'appointing' or 'setting' as. The Vietnamese translation 'lập... làm' captures the action, but it fails to convey the continuous/ongoing nature of the law's action in the Greek structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'της ορκωμοσιας' (tēs orkomosias) refers to 'the oath'. The Vietnamese translation 'lời thề' is present, but the relationship 'της... της' implies a specific connection to the preceding context (the oath of God/the covenant) which is slightly obscured by the phrasing."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υιον' (huion) means 'Son'. The Vietnamese 'Con' is correct, but the phrase 'lập Con' (appoint/establish Son) is a slightly different construction than 'υιον... τετελειωμενον' (the Son... having been perfected). The Greek structure suggests the Son is the one who has been perfected/completed, whereas the Vietnamese phrasing makes it sound like the act of 'establishing' was perfected."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξηγουντο' (exēgounto) means 'they explained' or 'they gave an account of,' whereas the Vietnamese 'thuật lại' (narrated/retold) is slightly different, but more importantly, the Greek 'ως εγνωσθη αυτοις' means 'how it was known TO THEM.' The Vietnamese translation 'thể nào Ngài đã được nhận biết' suggests 'how He was recognized' (passive voice), which misses the specific target of the knowledge (them)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

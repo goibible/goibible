@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεις πιων' means 'no one who drinks' (a subject), but the Vietnamese translates it as 'không ai uống' (nobody drinks). More importantly, the Greek 'παλαιον ευθεως θελει νεον' describes a preference: 'no one who drinks old [wine] wants new [wine]'. The Vietnamese 'lại muốn' adds a sense of 'then wants' or 'subsequently wants' which is not in the text. However, the primary issue is the structural inversion of the Greek 'ουδεις... θελει', where the subject is the one who drinks old wine."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

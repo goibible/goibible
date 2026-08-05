@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation attributes the request to the mother ('Mẹ nói'), but the Greek text says 'η δε ειπεν την κεφαλην' (but she [the daughter] said the head), indicating the daughter is the one speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

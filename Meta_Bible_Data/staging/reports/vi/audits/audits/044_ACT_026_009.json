@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς το ονομα' (for the name) is rendered as 'với danh' (with the name). In this context, 'προς' indicates a purpose or direction—doing things 'for' or 'in honor of' the name. The Vietnamese translation 'với' (with) suggests accompaniment rather than purpose."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

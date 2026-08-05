@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nước ta sẽ cho' (the water I will give) incorrectly shifts the subject. The Greek 'ο δ αν πιη εκ του υδατος ου εγω δωσω αυτω' means 'whoever drinks of the water that I [Jesus] give him'. The Vietnamese makes it sound like the person is giving the water, or a confusing construction where 'I' (ta) is the subject of 'give' but the syntax is broken."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αλλομενου' (flowing/springing up) is rendered as 'vọt lên', which is acceptable, but the phrase 'εις ζωην αιωνιον' is rendered as 'cho đến sự sống đời đời'. While 'cho đến' (until/to) is a common rendering for 'eis', the Greek implies the water flows *into* or *toward* eternal life as its destination/purpose, whereas 'cho đến' can sometimes imply a temporal limit (until), though in this context it is borderline. However, the primary issue is the grammatical structure of the first clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

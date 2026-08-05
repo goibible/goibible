@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλην εν τουτω' (except in this) is translated as 'Dù vậy' (Nevertheless/However), which changes the logical connection. The Greek indicates a specific exception or limitation to the preceding thought, not a concessive transition."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τα πνευματα' is plural (the spirits), but the Vietnamese 'các Thánh Linh' refers specifically to the Holy Spirit (pluralized as 'Holy Spirits'), which is a theological interpretation rather than a literal translation of the plurality in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

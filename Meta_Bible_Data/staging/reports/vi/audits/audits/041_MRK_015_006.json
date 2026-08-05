@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'tù nhân' (prisoner) and 'xin' (request), which are not present in the Greek text. The Greek simply says 'one man who was being bound/tied'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,14 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+ISA,9,1,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,10,32,orange,missing_expected_name,Si-ôn,,Expected approved name 'Si-ôn' from VIE1934 occurrence.
+ISA,15,2,orange,missing_expected_name,Đi-hôn,,Expected approved name 'Đi-hôn' from VIE1934 occurrence.
+ISA,15,5,orange,missing_expected_name,Sê-li-sia,,Expected approved name 'Sê-li-sia' from VIE1934 occurrence.
+ISA,19,23,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+ISA,23,3,orange,missing_expected_name,Si-ho,,Expected approved name 'Si-ho' from VIE1934 occurrence.
+ISA,27,7,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,30,19,orange,missing_expected_name,Si-ôn,,Expected approved name 'Si-ôn' from VIE1934 occurrence.
+ISA,36,19,orange,missing_expected_name,Aït-bát,,Expected approved name 'Aït-bát' from VIE1934 occurrence.
+ISA,37,20,orange,missing_expected_name,San-chê-ríp,,Expected approved name 'San-chê-ríp' from VIE1934 occurrence.
+ISA,40,13,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+ISA,44,4,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+ISA,45,6,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.

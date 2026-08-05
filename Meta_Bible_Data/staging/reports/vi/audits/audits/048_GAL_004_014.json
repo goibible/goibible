@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εξουθενησατε' (ouk exouthenēsate) means 'you did not despise/scorn,' but the Vietnamese 'chẳng khinh dể' is a slightly different nuance. More importantly, 'ουδε εξεπτυσατε' (oude exeptysate) means 'nor did you reject/spurn/repudiate.' The Vietnamese 'cũng chẳng từ bỏ' (neither abandoned/gave up) captures the sense of rejection, but the Greek implies a more active social/spiritual spurning or casting aside."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'με ως χριστον ιησουν' uses 'με' (me) as the object of the reception. The Vietnamese 'tiếp rước tôi' captures this, but the structure 'như chính Đấng Christ' adds 'chính' (precisely/just), which is not in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

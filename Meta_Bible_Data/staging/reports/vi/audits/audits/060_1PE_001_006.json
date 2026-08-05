@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ω' (in which) refers to the preceding context (likely the joy of salvation/hope), but the Vietnamese 'Trong điều đó' (In that thing/matter) is slightly vague. More importantly, the Greek 'ολιγον αρτι' means 'for a little while' or 'briefly'. The Vietnamese 'ít lâu' is acceptable, but the placement of 'dầu hiện nay' (even now) is not explicitly in the Greek text provided, though it may be implied by context."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ει δεον εστιν' means 'if it is necessary'. The Vietnamese 'nếu cần' captures this well, but the overall structure of the Vietnamese sentence shifts the focus slightly from the Greek's direct 'rejoice in [it]... if it is necessary [to be] grieved'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

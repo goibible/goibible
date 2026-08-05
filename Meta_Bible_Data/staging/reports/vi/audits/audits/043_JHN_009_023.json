@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηλικιαν εχει αυτον ερωτησατε' is a reported speech construction where the parents are saying 'Ask him, he has reached age' (or 'he is of age'). The Vietnamese translation 'Nó đã có tuổi' (It/He already has age) is slightly awkward but the major issue is the omission of the interrogative/imperative force of 'ερωτησατε'. More importantly, 'ηλικιαν εχει' in this context implies 'he is of age/old enough', which is slightly different from just 'having age'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετατιθεμενης γαρ της ιερωσυνης' describes the priesthood as being 'transferred/moved.' The Vietnamese translation 'Khi chức tế lễ được thay đổi' (When the priesthood is changed) shifts the structure from a descriptive participle to a temporal clause. More importantly, the Greek 'εξ αναγκης και νομου' means 'out of necessity and law' (the reasons for the transfer), but the Vietnamese 'thì sự cần thiết cũng có sự chuyển dời của luật' translates this as 'then necessity also has a transfer of law,' which fundamentally misinterprets the grammatical relationship between necessity, law, and the priesthood."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

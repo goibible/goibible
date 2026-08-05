@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι πασιν τοις υπαρχουσιν αυτου' means 'over all that belong to him' (possessions/things), but the Vietnamese translation 'mọi tài sản của mình' (all his assets/property) is slightly too specific in a modern economic sense, and more importantly, the Greek 'καταστησει αυτον' means 'will set him over/appoint him over', while the Vietnamese 'đặt người đó cai quản' implies 'placing that person to manage'. However, the primary issue is the translation of 'υπαρχουσιν' as 'tài sản' (assets) which narrows the scope of 'things belonging to him' to strictly financial property."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

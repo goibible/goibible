@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'οι ιουδαιοι' (the Jews) is third-person plural. The Vietnamese translation uses 'các người Giu-đa', which in this context can be interpreted as second-person plural ('you Jews'), potentially confusing the subject of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 53,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραστησει' (parastēsei) is a future active verb meaning 'will stand' or 'will station.' The Vietnamese translation 'đặt trước mặt ta' (place before me) changes the action from the angels standing/positioning themselves to an unspecified agent placing them there."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text implies a question or a statement of fact regarding the angels 'standing' for him, but the Vietnamese phrasing 'Ngài sẽ đặt...' (He will place...) introduces a subject ('Ngài' - He) that is not explicitly present in the Greek verb structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

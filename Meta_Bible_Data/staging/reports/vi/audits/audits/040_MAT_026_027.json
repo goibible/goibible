@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'εξ αυτου' (from it), which specifies that they are to drink *from* the cup/chalice."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

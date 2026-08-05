@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το στομα αυτου' (the mouth of him) refers to the mouth of Jesus, but the Vietnamese 'miệng mình' (his/my own mouth) can be ambiguous or interpreted as 'his own mouth' in a way that doesn't clearly distinguish the subject. However, more critically, the Greek describes an action performed by Jesus ('ανοιξας' - having opened), while the Vietnamese 'Ngài mở miệng mình ra' is a standard translation, but the specific shift from 'the mouth of him' to 'his own mouth' is a minor point. The primary issue is the lack of clarity on who 'him' refers to in a reflexive sense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

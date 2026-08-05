@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εβασιλευσεν' is a perfect tense verb (has reigned/reigned), but the Vietnamese translation 'đã trị vì' is placed at the end of the sentence as a subordinate clause following 'Vì' (Because). In the Greek, 'οτι εβασιλευσεν' means 'that [He] has reigned,' which is the content of what is being shouted/said. The Vietnamese structure makes it sound like a reason for saying Hallelujah ('Hallelujah because God... reigned') rather than the content of the shout itself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

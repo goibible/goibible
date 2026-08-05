@@ -1,0 +1,22 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ειχον' (eichon) is in the imperfect tense, indicating a continuous or repeated state in the past ('I used to have much written/to write'). The Vietnamese translation 'Tôi có nhiều điều muốn viết' (I have many things I want to write) renders this as a present state. While often acceptable in style, it loses the specific past-continuous nuance of the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειχον γραφειν' literally means 'had [to] write' or 'had written'. The Vietnamese 'có nhiều điều muốn viết' (have many things wanting to write) shifts the structure slightly, but more importantly, the Greek implies a backlog of things that *were* to be written, whereas the Vietnamese sounds like a current desire."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

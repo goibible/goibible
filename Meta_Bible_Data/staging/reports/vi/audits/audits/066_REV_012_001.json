@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 12,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στεφανος' (stephanos) means 'crown' or 'wreath'. The Vietnamese translation uses 'mão triều thiên', which specifically refers to a 'royal crown' or 'imperial crown'. While contextually similar, 'mão triều thiên' is a specific cultural/political object not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

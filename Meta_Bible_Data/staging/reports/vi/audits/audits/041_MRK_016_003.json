@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγον προς εαυτας' (were saying to themselves) is translated as 'nói với nhau' (saying to each other). This changes the internal monologue/private thought of the individuals into a collective outward conversation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις αποκυλισει' is an interrogative pronoun ('who') used in a rhetorical or inquisitive sense, but the Vietnamese 'Ai sẽ' (Who will) combined with the added 'sẽ' (future tense/volitional) slightly shifts the nuance of the immediate inquiry, though the primary issue remains the change from internal thought to external speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

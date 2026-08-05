@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προθεσις' (prothesis) refers to the 'placement' or 'setting out' of the bread (the act of preparing/presenting it), not a 'mục đích' (purpose/objective)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

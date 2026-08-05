@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενθυμσεις' (enthymseis) refers to 'thoughts' or 'intentions,' but the Vietnamese translation uses 'ý tưởng' (ideas/concepts) and 'ác tưởng' (evil ideas). While close, 'ενθυμσεις' in this context specifically refers to their internal thoughts/plans. More importantly, the Greek 'πονηρα' (ponēra) is an adjective modifying 'ενθυμσεις', but the Vietnamese renders it as a compound noun 'ác tưởng'. The primary issue is that 'ý tưởng' (ideas) is a slightly different nuance than 'thoughts/intentions' in this specific context of internal motive."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

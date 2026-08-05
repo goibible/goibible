@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'vào nước Đức Chúa Trời' (into the Kingdom of God), but the Greek text uses 'εις την βασιλειαν του Θεου'. In Vietnamese, 'Đức Chúa Trời' is a title/name for God, but 'nước Đức Chúa Trời' is a slightly awkward way to say 'Nước của Đức Chúa Trời'. However, the specific issue is that 'Đức Chúa Trời' is often used as a proper name; while not a strict error in theology, the Greek is simply 'the Kingdom of God'. The Vietnamese phrase 'vào nước Đức Chúa Trời' can be interpreted as 'into the country of God' or 'into the kingdom of [the deity]'. A more faithful rendering would be 'vào Nước của Đức Chúa Trời'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

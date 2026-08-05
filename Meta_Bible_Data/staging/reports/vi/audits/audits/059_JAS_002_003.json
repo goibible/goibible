@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιβλεψητε' (epiblepsēte) is an imperative meaning 'look at' or 'behold', but the Vietnamese 'nhìn xem' is more passive/descriptive. More importantly, the Greek 'σύ' (sy) is a second-person singular pronoun ('you'), but the Vietnamese translation treats it as a command to the person being spoken to, which is correct, but the phrasing 'Hãy ngồi đây' (Sit here) misses the specific nuance of the imperative 'σύ' as a direct address in the original."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καλως' (kalōs) is an adverb meaning 'well' or 'nicely' (as in 'come well'). The Vietnamese translation 'chỗ tốt' (good place) renders the adverb as a noun/adjective describing a location, which slightly shifts the meaning from 'come well' to 'sit in a good place'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

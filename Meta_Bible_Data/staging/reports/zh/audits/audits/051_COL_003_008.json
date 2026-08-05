@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '忿怒' twice, but the Greek lists 'οργην θυμον' (anger, wrath) as two distinct items. The duplication of '忿怒' for both is not a mistranslation per se, but the repetition could mislead a reader into thinking there are two separate mentions of the same word, whereas the Greek has two different terms. However, this is a lexical choice issue, not a fidelity error. The actual issue is the omission of 'και υμεις' (and you) which is not rendered in the Chinese. The Greek explicitly includes 'υμεις' (you) as the subject, but the Chinese '你們' is present in '你們要棄絕' so it is included. The duplication of '忿怒' is a stylistic choice, not a fidelity error. The main issue is the addition of '這一切的事' (all these things) which corresponds to 'τα παντα' (all things), so that is fine. The real issue is the omission of 'και' (and) before 'υμεις'? No, 'και υμεις' is rendered as '你們' with '也'? The Chinese has '但現在你們要' which does not include '也' (also). The Greek 'και υμεις' means 'and you also' or 'you also', implying that just as others have done, you also must put away. The Chinese omits the 'also' nuance, which is a minor omission. However, the instruction says not to flag stylistic omissions. The duplication of '忿怒' is a clear addition of a word not in the Greek, but it is a lexical choice for 'θυμον' which is often translated as 'wrath' or 'anger'. The Chinese uses '忿怒' for both 'οργην' and 'θυμον', which is acceptable. The issue is that the Chinese has '忿怒、忿怒' which is a repetition, but the Greek has two different words. This is a translation choice, not a fidelity error. The most significant issue is the omission of 'και υμεις' as 'you also' – the Chinese says '你們' but not 'also'. However, the context may imply it. Given the instructions, I should not flag minor stylistic issues. The duplication of '忿怒' is not a fidelity error because it conveys the two Greek words. The only potential flag is the omission of 'also' but that is minor. I will mark OK. But wait, the Chinese has '以及忿怒、忿怒' – that is a clear addition of an extra '忿怒' because the Greek has two different words, but the Chinese uses the same word twice. That is not an addition of a concept, just a lexical choice. The instruction says not to comment on lexical/Strong's-level word choice. So this is OK. The verse is otherwise faithful. I will mark OK."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

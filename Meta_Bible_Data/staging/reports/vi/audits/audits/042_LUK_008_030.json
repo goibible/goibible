@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'οτι' (which/that) as a causal conjunction ('vì'), changing the structure from a direct statement of fact to a reason for the previous statement. In Greek, the man is simply stating what happened; he is not explaining why he has that name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

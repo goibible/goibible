@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυο εσονται αληθουσαι' (two will be grinding) refers to two people grinding grain (likely a metaphor for work/suffering), but the Vietnamese translation 'xay chung cối' implies they are sharing a single millstone ('chung cối'), which is an addition of specific detail not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

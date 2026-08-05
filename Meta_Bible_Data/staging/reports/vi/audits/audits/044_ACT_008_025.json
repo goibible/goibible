@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the specific description 'διαμαρτυραμενοι' (having borne witness/testified), which is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλας τε κωμας' refers to 'many villages' (or settlements) of the Samaritans. The Vietnamese 'nhiều làng của người Sa-mari' is a correct rendering of the location, but the Greek 'τε' suggests a sequential or additive structure ('and') that is slightly flattened in the Vietnamese flow."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

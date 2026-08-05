@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εγενομην' (egenomēn) is a perfect tense verb meaning 'I became' or 'I came to be.' The Vietnamese translation 'Tôi đã ở' (I was/stayed) describes a state of being rather than the process of becoming or arriving at that state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

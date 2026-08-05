@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'συν τω ανθυπατω' (with the proconsul) is translated as 'ở với quan tổng đốc' (lived with/was with the proconsul), but the Greek implies a location or association ('with') rather than residence. More importantly, the Vietnamese translation omits the specific grammatical structure of the original phrase, though this is minor. However, the main issue is the phrasing of 'tìm cách nghe' (tried to hear) vs 'επεζητησεν ακουσαι' (sought to hear/was seeking to hear), which is acceptable."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'người đã gọi... đến' (the one who called... [to come]), but the Greek 'προσκαλεσαμενος' is a participle modifying the subject. The Vietnamese structure makes it sound like a completed action of calling them 'over', whereas the Greek suggests the state of having been invited/called as he was seeking to hear."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

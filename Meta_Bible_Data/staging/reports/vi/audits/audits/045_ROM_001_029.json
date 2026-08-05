@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek term 'ψιθυριστας' (whisperers) is translated as 'những kẻ nói hành', which appears to be a typo or incorrect rendering for 'những kẻ nói xấu' or 'những kẻ thầm thì'. More importantly, the Vietnamese phrasing 'là những kẻ' adds a structural 'are those who' that isn't explicitly in the Greek list of descriptors, though this is minor compared to the potential lexical error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

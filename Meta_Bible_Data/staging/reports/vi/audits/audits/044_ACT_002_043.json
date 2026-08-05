@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο' (egeneto) is a verb meaning 'happened' or 'came to be'. The Vietnamese translation 'có' (have/had) changes the nature of the action from an event occurring to a state of possession. Furthermore, the Greek 'φοβος' (phobos) is the object of 'egeneto', but the Vietnamese structure makes it sound like the souls 'had fear' as a possession."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'πολλα' (polla - many) specifically preceding 'σημεια' (semeia - signs), though it includes 'nhiều' before 'dấu lạ'. However, the Greek structure 'φοβος πολλα τε τερατα και σημεια' implies that fear, many wonders, and signs occurred. The Vietnamese 'và nhiều dấu lạ cùng dấu' slightly alters the grouping of these occurrences."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

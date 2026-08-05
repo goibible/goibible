@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'προσειργασατο' (proseirgasato) means 'produced' or 'yielded' in the context of a vineyard, but the Vietnamese 'sinh lợi' (produced profit/interest) shifts the meaning from agricultural yield to financial gain."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'δεκα μνας' (deka mnas) is 'ten [minas/units]', but the Vietnamese 'mười miên' uses 'miên' as a unit of measurement. While 'miên' is a common translation for 'mina', the Greek text says 'ten minas' and the Vietnamese says 'ten minas'. However, checking the specific count: The Greek is 'δεκα μνας' (10). The Vietnamese 'mười' is 10. This part is OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

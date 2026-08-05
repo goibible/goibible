@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 66,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι δε αποκριθεντες' refers to the people who had already responded/answered (the respondents). The Vietnamese translation 'Họ' (They) is too general and loses the specific context of those who were responding in the legal proceeding."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ενοχος θανατου εστιν' means 'he is guilty of death' (or 'guilty of a death penalty'). The Vietnamese 'Nó đáng chết' (It/He deserves to die) shifts the focus from 'guilt' to 'deserving,' which slightly alters the legal status described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετ αυτου' (with him) is rendered as 'đi với anh ấy' (went with him), but the Greek verb 'συνεπεμψαμεν' (we sent) implies the primary action is 'sending'. The Vietnamese structure makes it sound like they were 'sent along with him' rather than 'sent [someone] with him'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο επαινος' (the praise/commendation) is rendered as 'lời khen ngợi'. While acceptable, the Greek structure 'συνεπεμψαμεν... τον αδελφον ου ο επαινος...' implies 'we sent the brother who [is the subject of] the praise'. The Vietnamese 'là người có lời khen ngợi' (is the person who has the praise) slightly shifts the grammatical relationship from a relative clause/apposition to a descriptive definition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

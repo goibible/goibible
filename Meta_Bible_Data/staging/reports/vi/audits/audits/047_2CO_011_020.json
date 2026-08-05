@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις προσωπον δερει' means 'strikes/beats you in the face'. The Vietnamese translation 'tự cao' (proud/arrogant) is a complete mistranslation of the action described in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

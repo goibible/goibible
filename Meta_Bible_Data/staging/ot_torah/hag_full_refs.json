@@ -1,0 +1,14 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full HAG QA batch.",
+  "groups": [
+    {
+      "name": "HAG full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "HAG 1",
+        "HAG 2"
+      ]
+    }
+  ]
+}

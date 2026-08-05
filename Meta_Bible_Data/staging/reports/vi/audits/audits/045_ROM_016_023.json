@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπαζεται' (aspazate) is a plural imperative meaning 'Greet' or 'Give greetings to'. The Vietnamese translation 'chào anh em' (greet you/brothers) at the end of each clause captures the action, but the structure incorrectly interprets the subject/object relationship. In the Greek, Gaius and Erastus are the ones *giving* the greeting to the readers ('you'). The Vietnamese phrasing 'Gai-út... chào anh em' implies Gaius is greeting the brothers, but the placement of the names and the repetitive structure makes it slightly ambiguous compared to the Greek where the names are the subjects of the imperative."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits 'της εκκλησιας ολης' (of the whole church) in the first part, or rather, it merges the greeting to 'Hội thánh' without clearly showing that Gaius is greeting both the readers AND the whole church as distinct entities in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

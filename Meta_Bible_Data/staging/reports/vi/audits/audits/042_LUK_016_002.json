@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποδος' (apodos) is a command/imperative meaning 'render' or 'give account of'. The Vietnamese 'khai' (reveal/confess) captures the sense of reporting, but misses the specific nuance of 'rendering an account' or 'giving a report' of one's management."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι τουτο ακουω' (ti touto akouō) literally means 'what is this I hear?'. The Vietnamese 'Ta nghe điều chi' (What do I hear?) misses the demonstrative 'touto' (this), which emphasizes the specific report/rumor being heard."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

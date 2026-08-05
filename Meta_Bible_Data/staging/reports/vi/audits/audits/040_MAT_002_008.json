@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰπεν πορευθέντες' (said, 'having gone') implies the command is to go and then do something. The Vietnamese 'khi các ngươi tìm được rồi' (when you have found it) adds a temporal condition/consequence ('when... then') that is not explicitly in the Greek structure, though it captures the sequence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εἰπεν' (said) is followed by a participle 'πορευθέντες' (having gone). The Vietnamese translates this as 'Sai họ đi' (Commanded them to go), which slightly shifts the grammatical structure from a participle of action to a direct imperative command, but more importantly, it misses the nuance of the sequence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

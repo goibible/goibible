@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη τις υστερων απο της χαριτος του θεου' refers to those who fall behind/lag in the grace of God (the 'laggards'), but the Vietnamese 'thiếu hụt ân điển' implies a lack or deficiency of grace (as if they don't have enough), which changes the meaning from a position of falling behind others to a state of lacking something."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ανω φυουσα' (which is likely a scribal corruption or specific variant for 'φυουσα') or 'φυουσα' implies 'bursting forth' or 'springing up'. The Vietnamese 'mọc lên' (growing up) captures the sense but loses the intensity of 'bursting/springing'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

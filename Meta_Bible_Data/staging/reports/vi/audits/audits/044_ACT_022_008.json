@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω δε απεκριθην' (I did not answer/respond) is translated as 'Tôi thưa rằng' (I said), which flips the meaning of the action from a non-response to a verbal response."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ει κυριε' (Lord, Lord - implied by the repetition or the specific structure) is rendered as 'Lạy Chúa', but more importantly, the negation 'δε' in 'δε απεκριθην' is completely lost in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

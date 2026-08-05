@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đây' (here), which is not present in the Greek text ('κυκλω' means 'around', but does not specify 'here')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

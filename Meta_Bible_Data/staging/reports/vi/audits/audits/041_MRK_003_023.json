@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκβαλλειν' (ekballein) means 'to cast out' or 'to drive out', not 'đuổi' (to chase/drive away). While similar, 'cast out' implies a forceful expulsion which is the specific theological context of the phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

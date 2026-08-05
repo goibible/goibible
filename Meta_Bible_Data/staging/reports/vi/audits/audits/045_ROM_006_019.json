@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεστησατε' (parēstēsate) is a perfect tense verb meaning 'you have presented/set up/placed'. The Vietnamese translation 'đã từng dâng' (have once offered/presented) implies a repeated or past habitual action ('từng'), whereas the Greek refers to a specific completed action of presentation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δουλα' (doula) is a feminine singular noun meaning 'slave' or 'bondservant'. The Vietnamese translation 'làm tôi mọi' (as slaves/servants) changes the grammatical number from singular to plural to match the subject, but more importantly, it misses the specific nuance of 'bondservitude' which is central to the Paulinian context here."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τηλικαυτης' (such a/so great) modifies 'αμελησαντες' (neglecting), but the Vietnamese translation attaches it to 'sự cứu rỗi' (salvation). While 'salvation' is the object of neglect, the Greek structure emphasizes the magnitude of the *neglect* itself."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητις αρχην λαβουσα' refers to the 'salvation' (as the subject of the relative clause) taking its beginning. The Vietnamese 'là sự đã bắt đầu' is slightly ambiguous in its connection to the preceding phrase, but more importantly, it misses the nuance that the *beginning* of salvation is what is being preached."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

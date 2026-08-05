@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκελευσεν απελθειν' (commanded [them] to depart/go away) is missing the object of the command. The Vietnamese translation 'truyền đi' (ordered [to] go) lacks the instruction for the crowd to 'depart' or 'leave', making it sound as if He sent them on a mission rather than ordering them to disperse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αδυνατον ψευσασθαι θεον' (it is impossible for God to lie) is rendered in Vietnamese as 'Đức Chúa Trời không thể nói dối' (God cannot lie). While the meaning is similar, the Greek uses a passive construction ('ψευσασθαι') implying 'to be lied' or 'to lie' in a general sense of impossibility, but more importantly, the Vietnamese structure slightly shifts the focus. However, the primary issue is the grammatical relationship of the clauses."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ισχυραν παρακλησιν εχωμεν' (we have strong consolation) is rendered as 'chúng ta là những kẻ đã trốn đến nơi ẩn náu có được sự yên ủi mạnh mẽ'. The Vietnamese structure makes it sound like the 'refuge' has the consolation, or that they have it *because* they are refugees, whereas the Greek structure 'ισχυραν παρακλησιν εχωμεν οι καταφυγοντες' clearly identifies 'the refugees' (οι καταφυγοντες) as the subject who 'have' (εχωμεν) the consolation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

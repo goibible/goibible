@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυκνας' (pyknas) is not a standard word for 'thường xuyên' (frequent/constant). It appears to be a corruption or non-standard form. However, more importantly, the Vietnamese translation adds the concept of 'thường xuyên' (frequently) which is not present in the Greek text provided."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'δια τον στομαχον σου' (for your stomach) is translated as 'vì cớ dạ dày con'. While 'vì cớ' is a stylistic choice, the primary issue is the addition of 'thường xuyên' which alters the scope of the description of the 'weakness'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

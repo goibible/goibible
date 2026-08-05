@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του πληρωματος αυτου' (ek tou plērōmatos autou) means 'from His fullness,' but the Vietnamese translation uses 'bởi sự đầy dẫy của Ngài' (by/because of His fullness). While 'bởi' can sometimes mean 'from', in this context it shifts the source/origin to a causal relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

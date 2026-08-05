@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το δε ετι απαξ' (to de eti apax) translates to 'and again once more' or 'and once again'. The Vietnamese translation 'chữ \"còn một lần nữa\" tỏ ra rằng' treats the phrase as a quoted word/text ('chữ...'), whereas in the Greek, it is part of the narrative flow. Furthermore, 'απαξ' (apax) means 'once' or 'at one time', but the Vietnamese 'còn một lần nữa' implies 'still one more time', slightly altering the temporal nuance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχωμενους' (kauchomenous) is a present active participle. The Vietnamese 'khoe mình về mặt' (boasting about the outward/face) is an interpretation of 'προς τους εν προσωπω καυχωμενους'. The Greek specifically refers to those who boast 'in [the] person' (outwardly), but the Vietnamese adds 'về mặt' (about the face/surface), which slightly narrows the scope, though the primary issue is the lack of a clear distinction between 'person' and 'heart' in the final clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου καρδια' (ou kardia) literally means 'not [the] heart'. The Vietnamese 'mà không về lòng' (but not about the heart) changes the structure from a direct negation of the object (the heart) to a prepositional phrase. However, the most significant issue is that 'προς' (pros) indicates 'towards' or 'in contrast to', which the Vietnamese captures as 'đối phó với' (dealing with/confronting), which is a functional translation but slightly shifts the relational meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

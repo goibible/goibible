@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανωτερον' (anōteron) means 'above' or 'previously'. The Vietnamese translation 'Trước' (Before/Previously) is acceptable, but the structure of the sentence in Vietnamese makes it sound like a separate statement rather than a preceding statement. More importantly, the Greek says 'ανωτερον λεγων' (having said above), which modifies the action. The Vietnamese 'Trước đã nói' translates this as 'Previously [He] said', which is mostly accurate but slightly shifts the flow."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ ηθελησας ουδε ευδοκησας' (ouk ēthelēsas oude eudokēsas) uses two distinct verbs: 'did not will' and 'did not please/approve'. The Vietnamese 'chẳng muốn, chẳng nhậm' captures both. However, the Greek structure 'ανωτερον λεγων οτι' implies 'having said above that...'. The Vietnamese translation places 'Trước đã nói' at the beginning as a standalone clause, which slightly obscures the fact that the following list is the content of what was said above."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

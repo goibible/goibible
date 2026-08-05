@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek lists 'μακροθυμία' (patience/longsuffering) and 'ὑπομονή' (endurance/perseverance) as two distinct qualities. The Vietnamese renders both as 'sự nhịn nhục', making them identical and losing the distinction between the two concepts."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

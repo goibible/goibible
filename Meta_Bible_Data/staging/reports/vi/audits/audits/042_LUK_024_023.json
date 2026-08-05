@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οπτασιαν αγγελων' refers to a 'vision of angels' (the vision itself), but the Vietnamese 'sự hiện thấy của các thiên sứ' can be interpreted as 'the appearance/presence of the angels' rather than a visionary experience. More importantly, the Greek structure 'εωρακεναι οι λεγουσιν αυτον ζην' indicates that the people *who were saying* He was alive were the ones who had seen the vision. The Vietnamese phrasing 'những người nói Ngài đang sống' is placed at the end of the sentence as a non-restrictive description, potentially losing the grammatical link that identifies them specifically as the ones who saw the vision."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'προσεληλυθατε' (proselēlythate) is in the aorist passive voice, which in this context functions as a middle/passive construction of 'moving toward' or 'approaching'. The Vietnamese translation uses 'đã đến gần' (have come near), which translates the result of the action rather than the movement itself. More importantly, the Greek 'προσεληλυθατε' implies a movement toward something, whereas 'đã đến gần' can imply they are already there. However, the more significant issue is the lack of the 'passive/middle' nuance which often suggests a 'drawing near' or 'being brought near'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text describes 'mount' (ορει) and 'city' (πολει) as the objects of the approach. The Vietnamese translation omits the word 'núi' (mountain) before 'Si-ôn', though it retains 'thành' (city). The Greek is 'mount Si-on and city of the living God'. The Vietnamese renders it as 'mountain Si-on, city of the living God', but fails to clearly separate the two distinct entities joined by 'και' (and) in the same way the Greek does; it reads more like a single location description."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

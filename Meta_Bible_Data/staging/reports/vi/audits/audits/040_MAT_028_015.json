@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα ιουδαιοις' refers to the Jews as a people/ethnic group (the Jews), but the Vietnamese 'trong dân Giu-đa' translates this as 'among the people of Judah' (a specific tribe/region). This changes the scope of who heard the word."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 19,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the verb 'απολυσαι' (to put away/divorce) or its equivalent action. It says 'cho phép các ngươi để vợ mình' (allowed you to keep your wives), whereas the Greek says 'απολυσαι τας γυναικας υμων' (to put away/divorce your wives). This changes the meaning from a prohibition against divorce to a statement about keeping wives."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

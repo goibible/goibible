@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκραταιουτο' (ekrataiouto) means 'was strengthened/made strong', but the Vietnamese 'trở nên mạnh mẽ' (became strong) lacks the passive/causative sense of being strengthened by the preceding action. More importantly, the Greek structure links the strengthening directly to being filled with wisdom and grace ('εκραταιουτο πνευματι πληρουμενον σοφιας και χαρις'), whereas the Vietnamese separates 'trở nên mạnh mẽ' as a standalone state before describing the filling of wisdom."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ην επ αυτο' (ēn ep autou) is rendered as 'ở trên Ngài', but in the context of the full phrase, it specifically qualifies the grace of God. The Vietnamese structure makes it slightly ambiguous whether the grace is 'on him' or if he is 'in' the grace, though it is a minor point compared to the structural shift of the strengthening."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

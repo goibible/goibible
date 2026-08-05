@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εσται' (estai) is the future tense of 'to be', but the Vietnamese translation uses 'sẽ thuộc về' (will belong to). The Greek text says 'everything will be yours', not 'everything will belong to you'. While semantically similar, the Greek focuses on existence/state ('be'), whereas the Vietnamese adds a specific concept of ownership ('belong to') not present in the verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

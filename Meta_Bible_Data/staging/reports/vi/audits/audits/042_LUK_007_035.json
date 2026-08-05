@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο' (apo) indicates the source or agent of the action. The Vietnamese translation says wisdom was justified 'bởi' (by) the children, which implies the children performed the act of justifying her. The Greek means wisdom was justified 'from' (out of/through) all her children."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

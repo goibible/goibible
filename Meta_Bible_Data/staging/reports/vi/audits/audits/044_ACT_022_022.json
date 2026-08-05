@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθηκον' (kathēkon) refers to 'proper', 'fitting', or 'becoming'. The Vietnamese translation 'đáng sống' (worthy of living/life) is a slightly different nuance than 'not fitting/becoming' to be alive, but more importantly, the Greek 'ου γαρ καθηκον αυτον ζην' means 'for it is not fitting for him to live.' The Vietnamese 'nó chẳng đáng sống' (it is not worthy of living) shifts the focus slightly from the person's status/fitness to a value judgment of worthiness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

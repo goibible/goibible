@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδενος χρειαν εχητε' (having no need of anything) is rendered in Vietnamese as 'không có sự cần dùng của ai' (not having the need of anyone). The Vietnamese translation shifts the meaning from 'needing nothing' to 'not needing anyone,' which changes the scope of the lack of dependency."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

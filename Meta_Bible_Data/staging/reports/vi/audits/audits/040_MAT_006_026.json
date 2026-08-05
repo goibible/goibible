@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διαφερετε' (diapherete) means to surpass, excel, or be superior to. The Vietnamese translation 'quý trọng hơn' means 'more precious' or 'more valued,' which changes the nature of the comparison from a statement of status/superiority to one of worth/value."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

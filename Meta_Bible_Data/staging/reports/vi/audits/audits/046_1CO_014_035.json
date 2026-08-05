@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδιους' (idious) modifies 'ανδρας' (andras), meaning 'their own men/husbands'. The Vietnamese translation 'chồng mình' (one's husband) changes the subject from a plural group ('their own husbands') to a singular possessive ('one's husband')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

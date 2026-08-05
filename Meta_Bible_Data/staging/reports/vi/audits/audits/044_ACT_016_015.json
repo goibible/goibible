@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεκαλεσεν' (parekalesen) implies a sense of entreaty or urging, but the Vietnamese 'nài xin' (begging/pleading) is slightly stronger than the Greek usage in this context. However, more importantly, the Greek 'ει κεκρικατε' (ei kekrikate) means 'if you have considered/regarded [me]', while the Vietnamese 'xét tôi là trung thành' is a correct rendering of the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεβιασατο ημας' (parebiasato hemas) means 'she urged us' or 'pressed us'. The Vietnamese 'ép mời' (forced/pressed to invite) captures the sense of pressure, but the Greek verb 'παρεβιαζω' suggests a persistent urging/pressing rather than a literal 'forcing' to enter."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

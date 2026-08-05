@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text begins with 'αφορωντες' (having despised/scorned), which describes the action of the believers. The Vietnamese translation omits this initial verb/action entirely, starting instead with 'nhìn xem' (look at/behold), which is not in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'αισχυνης καταφρονησας' (having despised [the] shame). The Vietnamese translates this as 'khinh bỉ sự xấu hổ' (despised the shame), but it fails to link this action back to the subject of the preceding clause ('αφορωντες'). In the Greek, the believers are those who despised the shame; in the Vietnamese, it reads like a list of attributes of Jesus."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'επηρωτων' (epērōtōn) means 'they asked him' (interrogated/questioned), but the Vietnamese translation 'Họ hỏi Ngài rằng' (They asked Him that...) combined with the following question structure 'Sao...' (Why...) changes the nature of the sentence. The Greek is a direct question from them to Him, not an explanation of why they are asking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

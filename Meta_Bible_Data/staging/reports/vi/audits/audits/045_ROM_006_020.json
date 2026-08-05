@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελευθεροι ητε' (were free) is used in a context of contrast with being slaves to sin. However, the Vietnamese translation 'được tự do đối với' (are free toward/with) fails to capture the specific grammatical structure where 'ελευθεροι' functions as a predicate adjective describing the state of the slaves. More importantly, the Greek suggests that while they *were* slaves to sin, they *were [not]* free in righteousness (implied by the contrastive 'gar'). The Vietnamese 'được tự do' implies a positive granting of freedom, whereas the Greek 'ελευθεροι ητε' in this specific construction (οτε γαρ... ητε) often functions to show that they were NOT free in righteousness while they were slaves. However, even if read as a simple contrast, the Vietnamese 'được tự do' (passive/granted freedom) is a different nuance than the Greek 'ελευθεροι' (state of being free)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

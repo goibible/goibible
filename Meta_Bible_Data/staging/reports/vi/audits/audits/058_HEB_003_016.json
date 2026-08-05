@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινες' (tines) means 'some' or 'certain people'. The Vietnamese translation 'ai là kẻ' (who is the person) changes a quantifier into an interrogative pronoun, altering the meaning from 'some of them' to 'who'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακουσαντες' (akousantes) is a perfect active participle meaning 'having heard'. The Vietnamese 'đã nghe rồi' captures the tense, but the overall structure of the first clause in Vietnamese is framed as a question/rhetorical inquiry ('Vả, ai là kẻ...'), whereas the Greek is a declarative statement: 'For some, having heard, rebelled'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

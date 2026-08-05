@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says Jesus was to die 'υπερ του εθνους' = 'for the nation' (i.e., the Jewish nation/people). The Vietnamese renders this as 'thay cho dân ngoại' = 'for the Gentiles/foreigners,' which changes the meaning from the Jewish nation to the Gentiles."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

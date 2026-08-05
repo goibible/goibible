@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενεπαιχθη' (enepaikthē) means 'was deceived/tricked', but the Vietnamese 'đánh lừa' (deceived) is paired with 'mấy thầy bói' (the magi). The Greek says he was deceived *by* the magi ('υπο των μαγων'), but the Vietnamese phrasing 'thấy mình đã bị mấy thầy bói đánh lừa' implies the magi were the ones who tricked him, whereas the Greek text describes his reaction to the news/situation regarding the magi."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'vua' (king) is added. The Greek text does not mention a king in this specific clause; it simply says 'κατα τον χρονον ον ηκριβωσεν' (according to the time that was inquired)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θαυμαζοντες' (thaumazontes) means 'marveling at' or 'admiring', but the Vietnamese 'nể mặt' (respecting/saving face) fails to capture the sense of looking at/admiring people for their benefit."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'προσωπα ωφελειας χαριν' implies 'faces [of people] for the sake of benefit'; the Vietnamese 'vì lợi ích mà nể mặt người ta' slightly shifts the grammatical relationship, but the core meaning of 'admiring faces' is lost."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 2296,
+          "lemma": "thaumázō",
+          "problem": "distorted",
+          "detail": "The Greek 'thaumázontes' (marveling/wondering) is translated as 'nể mặt' (showing respect/fawning), which misses the sense of wonder or astonishment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

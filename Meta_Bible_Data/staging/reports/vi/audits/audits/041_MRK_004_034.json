@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ελαλει αυτοις' (did not speak to them) is rendered as 'chẳng nói cùng họ' (did not speak with/to them), but the subsequent clause 'κατ ιδιαν δε τοις μαθηταις αυτου επελυεν παντα' uses 'επελυεν' (explained/interpreted). The Vietnamese 'cắt nghĩa' (explained/interpreted) is a correct rendering of 'επελυεν', but the Greek structure implies a contrast: He did not speak to them [in a general sense/publicly] without parables, BUT he explained everything to his disciples privately. The Vietnamese 'chẳng nói cùng họ' can be ambiguous as to whether 'họ' refers to the same group as 'môn đồ' (disciples). In the Greek, 'αυτοις' (them) and 'τοις μαθηταις αυτου' (his disciples) are distinct entities in this specific contrast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

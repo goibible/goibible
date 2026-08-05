@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηκω' (ēkō) means 'I heard', but the Vietnamese translation uses 'tôi đến' (I come/arrive). This changes the action from auditory perception to physical movement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περι εμου' (peri emou) means 'about me' or 'concerning me'. The Vietnamese translation omits this, making it sound like the book is written for the purpose of him doing God's will, rather than the book being about him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

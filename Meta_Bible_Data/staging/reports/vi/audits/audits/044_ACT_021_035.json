@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'συνεβη' (it happened/occurred) is omitted. The Vietnamese translation makes the action of being carried a direct result of arriving at the steps, whereas the Greek indicates an event that occurred ('it happened that he was carried')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο' (happened/became) is not accounted for. The Vietnamese structure implies a direct sequence of events, whereas the Greek marks this as a specific occurrence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

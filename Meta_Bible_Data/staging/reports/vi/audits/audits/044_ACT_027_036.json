@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευθυμοι' (euthymoi) means 'cheerful', 'merry', or 'joyful'. The Vietnamese 'phấn khởi' usually translates to 'excited', 'enthusiastic', or 'eager', which shifts the emotional state from one of joy/contentment to one of active excitement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

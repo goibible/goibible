@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχρισεν' (echrisen) is a verb meaning 'anointed'. The Vietnamese translation uses 'xức dầu' (anointed), but it treats it as a transitive action performed by God on the subject, whereas the Greek structure indicates that God *became* an anointing (or provided an anointing) for the person. More importantly, the Vietnamese 'cho ngươi' (for you) is an addition/clarification not explicitly in the Greek text, though minor. The primary issue is the rendering of 'εχρισεν σε' which is slightly awkward in the Vietnamese flow compared to the Greek's direct action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δια τουτο' (dia touto) means 'because of this' or 'for this reason'. The Vietnamese 'cho nên' is a good equivalent, but the Greek implies a direct causal link between the love/hate and the anointing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

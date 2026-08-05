@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final phrase 'ον εξελεξω' (whom I shall choose/have chosen), which signifies the speaker's intent to make a choice based on the revelation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

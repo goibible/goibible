@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε αποκριθεις' is a participle meaning 'He answering' (referring to Jesus), but the Vietnamese 'Ngài trả lời rằng' (He answered that) turns the response into a reported speech clause. The Greek structure indicates Jesus is asking a question ('What did Moses command you?'), not reporting what someone else said."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

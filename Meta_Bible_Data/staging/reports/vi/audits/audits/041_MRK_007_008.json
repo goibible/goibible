@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βαπτισμους' (baptismas) is plural, referring to 'baptisms'. The Vietnamese translation 'sự rửa cái chén và chén' (the washing of the cup and cup) misinterprets the Greek word. In this context (Mark 7:8), 'βαπτισμους' refers to ritual washings/baptisms, not specifically 'washing the cup'. Furthermore, 'βαπτισμους' is plural, but the Vietnamese rendering makes it sound like a singular act of washing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

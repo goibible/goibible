@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κακολογων' (kakologōn) specifically means 'one who speaks evil of' or 'one who slanders.' The Vietnamese 'rủa sả' (curse/revile) is a stronger, more specific action than the Greek 'speaking evil of'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'πατερα η μητερα' (father OR mother), but the Vietnamese 'cha hay mẹ' (father or mother) is acceptable. However, the Greek structure implies a choice/alternative, whereas 'hay' in Vietnamese can sometimes function as a general inclusive. This is minor, but the primary issue remains the intensity of 'rủa sả'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

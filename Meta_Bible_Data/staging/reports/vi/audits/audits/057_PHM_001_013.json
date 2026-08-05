@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονη μοι' (diakone moi) means 'serve me', but the Vietnamese 'phục vụ tôi' is placed after 'thay anh' (instead of you/for you). The Greek structure 'ινα υπερ σου διακονη μοι' means 'that you might serve me for [the sake of] you' or 'that you would serve me on your behalf'. The Vietnamese 'thay anh' implies the speaker is doing the service *instead* of the listener, whereas the Greek indicates the *listener* is the one performing the service."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

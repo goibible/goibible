@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη σχισωμεν αυτον' (let us not tear it) refers to the garment/robe. The Vietnamese 'Chớ xé áo nầy' implies 'this robe', but the Greek 'αυτον' is a pronoun referring back to the object of interest (the robe), and 'αλλα λαχωμεν περι αυτου' means 'but let us cast lots *about* it/concerning it'. The Vietnamese 'bắt thăm xem ai được' (cast lots to see who gets) loses the specific focus on the garment as the object of the lot-casting."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινος εσται' (who shall be [the one]) is omitted in the Vietnamese translation of the first quote, which simplifies it to 'ai được'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

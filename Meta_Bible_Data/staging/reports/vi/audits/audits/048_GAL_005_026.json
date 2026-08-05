@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γινωμεθα' (let us not become) is rendered as 'Chớ tìm kiếm' (Do not seek). The Greek indicates a state of being/becoming ('become vainglorious'), whereas the Vietnamese describes an action of seeking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

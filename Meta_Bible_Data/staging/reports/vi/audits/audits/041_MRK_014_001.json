@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν δολω' (in deceit/fraud) is rendered as 'bằng sự dối trá' (by means of lies). While similar, the Greek implies the act of arresting was carried out *in* deceit (a manner of action), whereas the Vietnamese suggests a tool or method ('bằng'). However, the more significant issue is the structure: the Greek 'εν δολω κρατησαντες' is a participle phrase modifying how they were to hold/arrest Him. The Vietnamese 'tìm cách bắt Ngài bằng sự dối trá' (tried to find a way to catch Him by lies) slightly shifts the focus from the manner of the arrest to the search for a method."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

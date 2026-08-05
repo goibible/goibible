@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'τι εμοι και σοι' (what to me and to you) is a common idiom meaning 'what does it matter to me or to you?' or 'what do I have to do with you?'. The Vietnamese translation 'tôi với Ngài có can hệ gì?' (what relation do I have with You?) captures the sentiment but slightly shifts the grammatical structure. However, more critically, the Greek 'ορκίζω σε τον θεον' (I swear to you by God) is rendered as 'Tôi nhân danh Đức Chúa Trời mà khẩn cầu Ngài' (I appeal to You in the name of God). While 'khẩn cầu' (plead/appeal) captures the intent of a desperate cry, it loses the specific action of 'swearing/oathing' (ορκίζω) present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

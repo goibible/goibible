@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελαβον γυναικες' means 'women received' (the subject is women). The Vietnamese 'Các người nữ đã nhận lại' translates to 'You women received' or 'The women received' depending on context, but the Vietnamese 'Các người' often implies a direct address ('You') which is not present in the Greek. More importantly, the Greek says 'received [from] the resurrection of their dead,' while the Vietnamese 'nhận lại... nhờ sự sống lại' (received back... thanks to/by means of the resurrection) slightly alters the grammatical relationship of 'ex anastaseos'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κρειττονος αναστασεως' means 'a better resurrection.' The Vietnamese 'sự sống lại tốt hơn' is a literal translation, but the Greek implies a 'greater' or 'superior' resurrection in quality/rank. However, the primary issue is the subject/verb relationship at the start."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

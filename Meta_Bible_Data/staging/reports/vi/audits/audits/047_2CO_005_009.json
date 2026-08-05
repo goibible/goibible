@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενδημουντες ειτε εκδημουντες' refers to being 'at home' or 'away from home' (spatial/locational context), whereas the Vietnamese 'ở trong thân thể hay ra khỏi' translates it as being 'inside the body' or 'outside,' which changes the physical scope of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εως ου' (until) is rendered as 'cho đến khi' (until), but the Vietnamese sentence structure 'còn các ngươi, hãy ngồi lại... cho đến khi' implies a command/exhortation ('hãy') that is not present in the Greek. The Greek 'υμεις δε καθισατε' is a statement of fact (you will sit) rather than an imperative command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελαχεν' (elakhen) is a passive verb meaning 'was chosen' or 'was selected.' The Vietnamese 'được bắt thăm' implies 'was chosen by lot/drawing lots,' which is a specific method of selection not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

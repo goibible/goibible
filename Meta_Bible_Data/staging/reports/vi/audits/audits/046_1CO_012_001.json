@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγνοειν' (agnoein) means 'to ignore' or 'to be ignorant of' in the sense of a state of lack of knowledge, but the Vietnamese 'chẳng biết' (don't know) is slightly weaker than the intended 'be ignorant of'. However, more critically, the Greek 'περι δε των πνευματικων' implies 'concerning the spiritual [things/matters]'. The Vietnamese 'về các điều thiêng liêng' captures this well. The main issue is the nuance of 'αγνοειν' which often carries the weight of 'being ignorant' rather than just 'not knowing' a fact. However, looking closer at the Greek 'περι δε των πνευματικων', it is 'concerning the spiritual [things]'. The Vietnamese translation is quite accurate in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

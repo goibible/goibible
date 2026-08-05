@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θανατον αναγκη φερεσθαι' (death is necessary to be borne/brought) refers to the requirement that the person who makes a covenant must bear the death penalty for its breach. The Vietnamese translation 'sự chết... là sự cần thiết phải được đem ra' (death... is the necessity to be brought out) shifts the meaning from 'bearing/undergoing' the consequence to 'bringing out' or 'presenting' the death, which slightly alters the active obligation of the covenant-maker."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

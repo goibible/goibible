@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημερας' (of the day) is a genitive modifying 'παρουσιαν' (presence). The Vietnamese translates it as 'sự hiện đến của ngày' (the arrival/coming of the day), which slightly shifts the focus from the presence *of* the day to the *arrival* of the day. However, the more significant issue is the rendering of 'λυθησονται' and 'τηκεται'. 'λυθησονται' means 'will be loosed/dissolved' and 'τηκεται' means 'will be melted'. The Vietnamese uses 'tan rã' (dissolve/disintegrate) and 'tan chảy' (melt). While 'tan chảy' is accurate for 'τηκεται', 'tan rã' for 'λυθησονται' is acceptable, but the phrase 'mà tan rã' and 'mà tan chảy' adds a causal/resultative nuance ('mà') not explicitly in the Greek structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σπευδοντας' implies 'hastening' or 'hurrying'. The Vietnamese 'mong cho... mau đến' (hoping for... to come quickly) captures the sense of urgency but changes the grammatical voice from an active participle (hastening) to a verb of desire (hoping)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

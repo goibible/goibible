@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεραπείας' (therapeias) means 'household' or 'servants' (those being served/cared for), not 'sự chữa lành' (healing). The Vietnamese translation incorrectly renders it as 'healing' instead of 'household/servants'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

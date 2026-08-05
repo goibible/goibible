@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'τυφλος δε τυφλον' (a blind man [leading] a blind man) is partially omitted/compressed. The Vietnamese says 'nếu người mù dẫn người mù' (if a blind man leads a blind man), but the Greek structure 'τυφλος δε τυφλον εαν οδηγη' implies the specific condition of one blind person leading another, which is slightly condensed in the Vietnamese but mostly accurate. However, the most significant omission is the lack of the 'blind man' subject for the second part of the conditional."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

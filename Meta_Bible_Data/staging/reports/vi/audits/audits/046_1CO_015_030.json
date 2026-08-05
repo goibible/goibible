@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι' (ti) in this context functions as an exclamation/interjection of distress or a rhetorical 'how' (expressing the intensity of the danger), not as the interrogative 'why' (πóτι/διάτι). The Vietnamese 'Sao' (Why) changes the meaning from an expression of lamentation to a question seeking a reason."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

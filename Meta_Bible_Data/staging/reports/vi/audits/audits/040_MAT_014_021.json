@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'πεντακισχιλιοι' means 'five thousand', but the Vietnamese 'năm ngàn' is slightly imprecise in this specific context of 'five thousand times' (pentakisyllioi) vs 'five thousand' (pente chilias). However, more critically, 'πεντακισχιλιοι' is 5,000. The Vietnamese 'năm ngàn' correctly translates the number 5,000, but the Greek word implies a specific magnitude that should be checked against the source text's intent. Actually, looking closer: 'πεντακισχιλιοι' is exactly 5,000. The Vietnamese 'năm ngàn' is correct. Wait, let me re-evaluate. 'Πεντακισχιλιοι' is 5,000. 'Năm ngàn' is 5,000. There is no error in the number."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'χωρίς' (without) is rendered as 'không kể' (not counting/excluding). While 'không kể' is a common idiomatic way to express exclusion, 'không có' (without) is the literal equivalent. However, per the instructions, 'không kể' is an acceptable rendering for 'χωρίς' in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

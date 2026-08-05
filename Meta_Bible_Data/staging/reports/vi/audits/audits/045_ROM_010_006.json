@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτως λεγει' (thus says) refers to the subject 'η δε εκ πιστεως δικαιοσυνη' (righteousness from faith). The Vietnamese translation 'thì nói như vầy' (then says like this) is grammatically acceptable, but the preceding 'Nhưng' (But) is a bit loose for 'η δε'. However, the primary issue is the interpretation of 'ουτως λεγει' as a direct quote or statement from righteousness itself. More importantly, the Vietnamese 'đem Đấng Christ xuống' (bring Christ down) captures the meaning of 'χριστον καταγαγειν', but the Greek structure 'ουτως λεγει... μη ειπης' implies that righteousness *says* 'do not say'. The Vietnamese phrasing 'Chớ nói...' correctly captures the imperative, but the connection between the subject (righteousness) and the action is slightly obscured by the word order."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

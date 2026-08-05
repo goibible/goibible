@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'legei' (speaks/says) is rendered as 'phán' (pronounce/declare), but the specific action of 'geirai' (stand up) is missing its preceding command structure. More importantly, the Vietnamese translation omits the specific detail that the person has a 'withered' (exirammenēn) hand; it only says 'teo' (shriveled/withered), which is correct, but the Greek 'geirai' is an imperative 'stand up', while the Vietnamese 'đứng dậy' is present. However, the most significant issue is that 'legei' is a simple statement of speech, and the Vietnamese adds a sense of formal declaration ('phán') not strictly in the grammar, though the main issue is the clarity of the command."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek text says 'legei' (says/speaks), but the Vietnamese uses 'phán', which implies a formal proclamation. While often acceptable, the Greek is a simple active verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

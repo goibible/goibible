@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγγικεν' (ēngiken) means 'has come near' or 'is at hand', but the Vietnamese 'đã đến gần' is often interpreted as a completed action of arriving nearby. More importantly, the Greek verb is in the perfect tense, indicating a state resulting from a past action, whereas the Vietnamese phrasing can be ambiguous regarding whether it is a present state or a past event. However, the primary issue is the nuance of 'ηγγικεν' which signifies 'is at hand/near' (present reality), while 'đã đến gần' in Vietnamese often implies 'has arrived nearby' (past movement). A more faithful rendering would be 'Nước trời đang ở gần'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

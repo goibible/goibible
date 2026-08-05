@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'με του' (with his/the) is rendered as 'đang ở với' (is with), which changes the relationship of the words. The Greek describes the hand of the one delivering him *being on* the table, but the Vietnamese implies a social/relational 'being with' me."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επι της τραπεζης' (on/upon the table) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

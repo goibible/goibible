@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απεχετε' (apechete) means 'to be kept from', 'to be deprived of', or 'to lack'. The Vietnamese translation 'đã nhận được' (have received) is the opposite of the Greek meaning. The verse conveys that the rich are *deprived* of comfort, not that they have already received it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

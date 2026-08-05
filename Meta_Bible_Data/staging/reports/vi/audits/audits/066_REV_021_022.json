@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν αυτη' (en autē) refers to 'in it' (the city), but the Vietnamese translates it as 'trong thành' (in the city). While 'thành' is a common rendering for 'polis', the Greek specifically uses 'αυτή' referring back to the city mentioned in the preceding context. However, the more significant issue is that the Vietnamese places 'Chiên Con' (the Lamb) as a co-subject of the predicate 'đền thờ của thành' (is the temple of the city), whereas the Greek structure 'ο γαρ κυριος ο θεος ο παντοκρατωρ ναος αυτης εστιν και το αρνιον' identifies both the Lord God Almighty AND the Lamb as the temple of the city."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βιαζεται' (biazetai) is passive, meaning 'is being forced' or 'is being compelled.' The Vietnamese 'dùng sức mạnh mà vào đó' (use strength to enter into it) shifts the agency and meaning from being compelled by an external force/power to a voluntary use of personal effort/strength."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

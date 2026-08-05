@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'τα αλλως εχοντα' (those having other things/works), but the Vietnamese translates this as 'những việc khác' (other works/things). While similar, the Greek specifically refers to 'the [people] having other [works]', whereas the Vietnamese makes it about the 'works' themselves. However, a more significant issue is the omission of the implied subject/possessor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τα αλλως εχοντα' implies 'those who have other [works]'. The Vietnamese 'những việc khác' omits the possessor, changing the focus from the people/possessors to the objects themselves."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

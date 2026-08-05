@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithē) is in the passive voice, meaning 'He was answered' or 'He replied' (in a context where he responded to someone). The Vietnamese 'trả lời' (answered/replied) is active. While often acceptable in translation, the Greek specifically indicates a response to a preceding action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εγω ειμι' (egō eimi) means 'I am'. The Vietnamese 'chính ta đây' (it is I/here I am) adds the sense of 'here' (đây) which is not in the Greek, though it captures the emphatic nature of the pronoun."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

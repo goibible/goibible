@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη σπουδη' (the diligence) is the direct object of the implied verb 'μη' (do not [be]). The Vietnamese translation 'Chớ biếng nhác' (Do not be lazy) changes the grammatical structure from 'do not [lack] diligence' to a general prohibition against laziness. More importantly, 'τω καιρω' means 'in due season/time,' which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'tốt' (good) for 'καλον' in the phrase 'hạt giống tốt'. While it says 'hạt giống', the Greek specifies 'το δε καλον σπερμα' (the good seed)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'thế gian' (world) as a direct equivalent for 'κοσμος' in the first clause. It says 'Ruộng là thế gian', but the Greek is 'ο δε αγρος εστιν ο κοσμος' (the field is the world)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προθεσει της καρδιας' (prothesei tes kardias) refers to the 'purpose of the heart' or 'intent of the heart'. The Vietnamese translation 'mục đích của lòng mình' (purpose of one's own heart/soul) is slightly ambiguous; however, the primary issue is the phrase 'vững lòng theo' (firmly follow/stay firm in), which adds a nuance of 'steadfastness' not explicitly present in the simple 'prothesei' (purpose/intent)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσμενειν' (prosmenein) means 'to remain' or 'to stay'. The Vietnamese translation uses 'ở với Chúa' (stay with/live with God). While 'ở' can mean stay, the Greek 'προσμενειν' specifically implies remaining *at* or *in* a state. More importantly, the Vietnamese 'vững lòng theo' (firmly follow/stay firm in) is an addition of 'steadfastness' that isn't in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

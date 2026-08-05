@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ορα τι μελλεις ποιειν' is a question ('See what are you about to do?'), but the Vietnamese 'Hãy xem, ông sắp làm gì?' renders it as an imperative followed by a question. More importantly, the Greek 'μελλεις' (future/intent) is better rendered as 'you are about to do' or 'you intend to do', whereas the Vietnamese phrasing is slightly ambiguous in its tone of urgency."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

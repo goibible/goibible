@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλον γαρ χαριτι βεβαιουσθαι την καρδιαν' means 'for it is good to be made sure/firm in the heart by grace.' The Vietnamese translation 'vì lòng được vững bền bởi ân điển là tốt' (because the heart being firm by grace is good) slightly shifts the grammatical focus, but more importantly, the Vietnamese 'chớ không phải bởi đồ ăn' (not by food) is a mistranslation of 'ου βρωμασιν' (which we do not eat/consume). In this context, 'βρωμασιν' refers to consuming/taking in doctrines or things, not literal 'food' (đồ ăn)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

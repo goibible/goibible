@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 15,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λινον' (linon) refers to linen, but the Vietnamese translation uses 'cây gai' (hemp/fiber). While both are textiles, 'linen' is the specific material described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

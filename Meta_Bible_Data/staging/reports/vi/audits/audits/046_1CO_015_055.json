@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κεντρον' (kentron) refers to a 'sting' or 'point', but the Vietnamese translation uses 'thắng' (victory/win), which is a completely different concept."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'νικος' (nikos) refers to 'victory' or 'conquest', but the Vietnamese translation uses 'Âm phủ' (Underworld/Hades), which is a location/entity, not an abstract concept of victory."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

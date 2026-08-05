@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοκιμαζειν' (dokimazein) in this context means 'to test/examine/evaluate' the times, but the Vietnamese 'thử nghiệm' usually refers to a physical experiment or trial. More importantly, the Greek 'τις δοκιμαζειν' (how do you test) is rendered as a question about why they are *not* testing it ('sao... không thử nghiệm'), whereas the Greek asks 'how' (πως) they are testing it."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τις δοκιμαζειν' implies a question of manner/method ('how'), but the Vietnamese 'sao... không' translates to 'why not', changing the nature of the rhetorical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

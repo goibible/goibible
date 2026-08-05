@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα πιστεως' (with faith) is translated as 'cùng với đức tin' (along with faith). In the context of this Pauline greeting, 'μετα' functions as a prepositional phrase indicating the basis or manner of the love and peace (love and peace *through* faith), rather than a simple additive 'along with'. However, more critically, the Vietnamese phrasing makes it sound like the peace and love are being granted 'together with' faith, whereas the Greek implies the source/means of that love and peace is faith."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

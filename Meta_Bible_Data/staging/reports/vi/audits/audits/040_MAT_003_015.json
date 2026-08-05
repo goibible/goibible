@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρτι' (arti) means 'now'. The Vietnamese translation 'vậy' (thus/so) fails to capture the temporal immediacy of 'now' which is central to the command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πρεπον' (prepon) implies something that is 'fitting', 'proper', or 'becoming'. The Vietnamese 'nên' (should/ought to) captures the obligation but misses the nuance of it being the 'fitting/proper' course of action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

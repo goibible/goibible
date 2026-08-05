@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'μη δυνασθε' (you are not able / you cannot) is a negative prohibition/impossibility. The Vietnamese translation 'có thể' (can/be able to) omits the negation, turning a statement of impossibility into a question of ability."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

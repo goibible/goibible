@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευθεως' (eutheōs) means 'immediately' or 'straightway'. The Vietnamese translation uses 'lập tức', which is a correct equivalent, but the structure of the sentence in Vietnamese makes it sound like they sent them 'immediately during the night' as a single action. However, the primary issue is the omission of the specific destination 'Beroia' (Βεροιαν) being rendered as 'thành Bê-rê'. While 'Bê-rê' is a common transliteration, the Greek specifies the city of Beroea."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'οιτινες παραγενομενοι' (who, having come...), implying that Paul and Silas are the ones who entered the synagogue. The Vietnamese 'họ' (they) is a correct pronoun substitution, but the Greek specifically links the action of entering the synagogue to the arrival in Beroia."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

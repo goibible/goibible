@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εγνωκαν' is first-person singular ('I have come to know'), but the Vietnamese translation uses third-person plural 'họ đã biết' ('they have known')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

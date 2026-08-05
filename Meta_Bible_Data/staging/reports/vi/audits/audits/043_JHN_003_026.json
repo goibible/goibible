@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ηλθον' (ēlthōn) is 1st person singular ('I came'), but the Vietnamese 'Họ đến' is 3rd person plural ('They came')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κυριε' (Kyrie) is translated as 'chủ' (master/lord in a worldly sense), but in the context of the New Testament and this specific phrase, it refers to 'Chúa' (Lord). 'Chủ' can imply a master-servant relationship rather than the divine Lordship intended."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

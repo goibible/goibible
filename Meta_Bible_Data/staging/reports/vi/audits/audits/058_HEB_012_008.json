@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παιδειας' (paideias) refers to 'discipline' or 'training,' but the Vietnamese 'sự sửa phạt' leans more towards 'punishment.' More importantly, 'μετοχοι' (metochoi) means 'sharers' or 'partakers' (in the sense of having a share in something), whereas the Vietnamese 'có phần' is slightly ambiguous in this context. However, the primary issue is the nuance of 'discipline' vs 'punishment'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νοθοι' (nothoi) means 'illegitimate' or 'bastards.' The Vietnamese 'con ngoại tình' literally means 'children of adultery/infidelity,' which is a specific type of illegitimacy. While related, 'con ngoài giá thú' or 'con không chính đáng' would be more accurate for 'nothoi'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

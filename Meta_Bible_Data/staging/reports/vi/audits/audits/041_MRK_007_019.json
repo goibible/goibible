@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα βρωματα' (ta bromata) refers to 'impurities' or 'filth', not 'đồ ăn' (food). The translation changes the nature of what is being cleansed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

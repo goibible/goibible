@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδε εκλυου' (nor be cast off/thrown away) is translated as 'chớ ngã lòng' (do not lose heart/be discouraged). While 'ngã lòng' captures a sense of discouragement, it fails to convey the specific Greek meaning of being 'cast off' or 'rejected' by God."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

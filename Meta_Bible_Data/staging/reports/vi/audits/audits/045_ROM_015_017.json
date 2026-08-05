@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα προς Θεον' (the things toward God / the things for God) is rendered as 'những điều thuộc về Đức Chúa Trời' (the things belonging to God). In this context, 'πρός' indicates direction or purpose (toward/for), whereas 'thuộc về' implies possession or origin. The translation shifts the focus from the direction of the boasting/action to the ownership of the objects."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

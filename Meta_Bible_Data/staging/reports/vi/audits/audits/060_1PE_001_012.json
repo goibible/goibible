@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διηκονουν αυτα' (they serve those things) is rendered as 'phục vụ những điều đó' (serve those things), but the phrase 'ουχ εαυτοις ημιν δε' means 'not for themselves, but for us'. The Vietnamese translation 'chẳng phải vì mình, nhưng vì chúng ta mà họ phục vụ những điều đó' correctly captures the purpose, but the Greek 'διηκονουν αυτα' actually refers back to the 'things' (the mysteries/revelations) being served or ministered to. However, the phrase 'διηκονουν αυτα' in this context (Rev 10:7) is often interpreted as 'serving those [the mysteries]' or simply 'serving [them]'. The Vietnamese 'phục vụ những điều đó' is a faithful rendering of the words, but the grammar of 'ουχ εαυτοις ημιν δε' indicates 'not for themselves, but for us' - the Vietnamese handles this correctly."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεκαλυφθη' (were revealed) is rendered as 'đã được tỏ ra'. While 'tỏ ra' can mean revealed, in a biblical context of 'apokalypthe', it usually implies 'được mặc khải' or 'được bày tỏ'. This is minor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

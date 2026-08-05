@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'πεπληρωκεναι' is in the perfect passive indicative, meaning 'has been fulfilled.' The Vietnamese translation uses 'tôi đã làm trọn' (I have fulfilled), which changes the voice from passive to active and introduces a first-person subject ('tôi') not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

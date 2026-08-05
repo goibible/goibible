@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 7,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατειργασατο' (kateirgasato) is a perfect tense verb meaning 'has produced/worked/effected'. The Vietnamese 'đã sản sinh' is acceptable, but the phrase 'lại còn' implies an addition to the previous item, whereas the Greek uses 'αλλα' (but/rather) repeatedly as a stylistic contrast/repetition. However, the primary issue is the omission of the distinction between 'ποσην' (how much/how great) which modifies the production of these things."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the emphatic 'ποσην' (how much / how great) which qualifies the extent to which the sorrow produced these things."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

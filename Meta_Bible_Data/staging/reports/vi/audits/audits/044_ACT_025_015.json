@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nghịch cùng' (against/opposed to) is an addition that does not correspond to the Greek text. The Greek 'κατ αυτου δικην' simply means 'demanding judgment against him'. The Vietnamese phrasing implies a specific moral or legal status of 'opposition' not present in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'đã trình bày' (presented/stated) is a stylistic choice for 'αιτουμενοι' (asking/demanding), but it slightly softens the active demand of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

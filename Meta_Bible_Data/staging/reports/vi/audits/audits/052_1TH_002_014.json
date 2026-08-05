@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν χριστω ιησου' (in Christ Jesus) is a prepositional phrase describing the state of the churches. The Vietnamese translation 'trong Đấng Christ và Chúa Giê-xu' (in the Lord Christ and Jesus) incorrectly treats 'Christ' and 'Jesus' as two separate entities/titles joined by 'and' (và), whereas the Greek uses them as a single compound title."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'υμεις γαρ' (for you) is at the beginning of the sentence. The Vietnamese translation moves this to the middle/end of the clause ('vì anh em cũng đã...'), though the meaning is largely preserved, the causal link 'for' is slightly shifted in structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

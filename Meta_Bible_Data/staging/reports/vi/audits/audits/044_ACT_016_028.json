@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεν πραξης σεαυτω κακον' (do no evil to yourself) is rendered in Vietnamese as 'Chớ làm điều ác cho mình' (Do not do evil for yourself). In this context, 'σεαυτω' (to/for yourself) refers to the audience/self, but the Vietnamese phrasing 'cho mình' can be interpreted as doing something *for* one's own benefit rather than *against* oneself. More importantly, the Greek 'μηδεν πραξης' is a negative imperative ('do no...'), while the Vietnamese 'Chớ làm' captures the negation correctly, but the overall sense of 'to yourself' in this specific exhortation is often better rendered as 'đừng làm điều ác cho chính mình' or 'đừng làm hại bản thân'. However, the primary issue is the slight shift in the direction of the action's recipient/target which could be misconstrued."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

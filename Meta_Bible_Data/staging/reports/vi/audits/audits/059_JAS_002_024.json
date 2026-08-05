@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εκ πιστεως μονον' (not by faith alone) means that faith is not the sole basis for justification. The Vietnamese translation 'chứ không chỉ bởi đức tin mà thôi' implies that justification is by works *instead* of just faith, or suggests a contrast that slightly misplaces the 'only' (μονον). More importantly, the Greek structure indicates that the 'alone' applies to the 'by faith' part, whereas the Vietnamese phrasing can be interpreted as 'not just by faith but [by something else]', potentially obscuring the specific Greek emphasis on the insufficiency of faith alone in this context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

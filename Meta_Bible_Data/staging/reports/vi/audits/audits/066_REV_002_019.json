@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text repeats 'τα εργα σου' (your works/works) twice: once at the beginning and once later in the list. The Vietnamese translation omits the first mention of 'công việc', merging it into a single instance."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα εσχατα πλειονα των πρωτων' literally means 'the last [things] being more than the first'. The Vietnamese 'công việc sau rốt... nhiều hơn công việc ban đầu' adds the word 'công việc' (works) to describe the 'last' things, which is not explicitly in the Greek text for that specific phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

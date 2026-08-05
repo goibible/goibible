@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'βλεπετε' (blepete) means 'you see' or 'you are looking at' (present indicative). The Vietnamese translation 'Hãy coi chừng' translates to 'Be careful of' or 'Beware of', which changes the meaning from an observation of a current state to a command of caution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

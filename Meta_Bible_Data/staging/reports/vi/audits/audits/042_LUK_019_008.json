@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει τινος τι εσυκοφαντησα' means 'if I have slandered anyone anything' (active voice). The Vietnamese translation 'nếu tôi có tố cáo gian ai điều gì' implies 'if I have falsely accused someone', which reverses the action of the verb (slander vs. accuse)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

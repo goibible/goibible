@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραβολην επεχων' (having told/spoken a parable) is followed by the content of the parable, but the Vietnamese 'để ý cách họ chọn chỗ ngồi cao nhất' (noticing how they chose the highest seats) misinterprets the structure. The Greek describes the *content* of the parable being told (how the first-seated were told...), not an observation of the listeners' behavior in the moment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

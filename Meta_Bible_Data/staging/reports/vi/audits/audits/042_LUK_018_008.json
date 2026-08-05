@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιησει' (poiesei) is a future tense verb, but the Vietnamese 'Ngài sẽ làm' adds a subject ('Ngài' - He) that is not present in the Greek text. The Greek sentence structure is 'I say to you that [He] will do...', where the implied subject of 'poiesei' is typically understood from context (God), but the Vietnamese explicitly inserts 'Ngài'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρα' (ara) is a conjunction meaning 'therefore' or 'so'. The Vietnamese translates this as 'Dầu vậy' (However/Nevertheless), which changes the logical connection between the two clauses from a result/conclusion to a contrast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαθητευθείς' is a perfect passive participle meaning 'one who has been taught/disciple-made'. The Vietnamese translation 'đã được dạy dỗ' implies a completed action of being taught, but the structure in Vietnamese makes it sound like a conditional requirement ('if all teachers have been taught... then they are like...'), whereas the Greek is a direct comparison: 'every scribe who has been discipled... is like...'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific focus of the comparison. The Greek says 'every scribe [who is/has been] discipled... is like', but the Vietnamese phrasing 'Vậy nên mọi thầy thông giáo đã được dạy dỗ về nước thiên đàng thì giống như' adds a causal 'Vậy nên' (Therefore/So) and a conditional 'thì' (then) that are not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

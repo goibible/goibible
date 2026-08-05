@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκπορευεται' (ekporeuetai) is passive/middle and means 'proceeds from' or 'originates from'. The Vietnamese translation 'từ trong ra ngoài' translates to 'from inside out', which misrepresents the source of the action. It should indicate that the evil originates from within."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και κοινοι τον ανθρωπον' (kai koinoi ton anthrōpon) means 'and [are] common to man' or 'common to humanity'. The Vietnamese 'làm ô uế người' translates to 'defiles people', which is a conceptual expansion/interpretation not present in the literal Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

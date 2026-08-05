@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε παραγενωμαι' is a negative construction (not coming), but the Vietnamese 'Khi tôi đến' (When I come) omits the negation, changing the meaning from 'when I do not come' to 'when I come'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοκιμασητε' is a passive construction (you were tested/tried), whereas the Vietnamese 'anh em đã thử nghiệm' implies the brothers themselves did the testing of others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

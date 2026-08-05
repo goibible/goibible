@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'δικαιουμενοι δωρεαν τη αυτου χαριτι' (being justified freely by His grace), but the Vietnamese translation adds a negation 'không' (not), which completely reverses the meaning of the relationship between justification and grace."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

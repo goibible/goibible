@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποκριθεις δε τις των νομικων' indicates that one of the legal scholars *answered* (apokrithes), but the Vietnamese translates it as 'Một người trong các thầy dạy luật trả lời rằng' (One of the legal teachers answered that). While 'trả lời' is correct for 'apokrithes', the Greek phrasing 'τις των νομικων' specifically identifies him as one of the 'legal scholars/experts,' which the Vietnamese captures well, but the structure of the answer suggests a direct response to a specific statement. The main issue is a slight nuance in the subject: the Greek is 'one of the legal scholars answered', while the Vietnamese is 'One of the teachers of law answered'. However, the most significant fidelity check is the negation/action: 'ημας υβριζεις' (you insult us) is correctly rendered as 'làm nhục chúng tôi'. The Vietnamese is actually very faithful. Wait, looking closer: 'τις των νομικων' is 'the legal scholars'. The translation is accurate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

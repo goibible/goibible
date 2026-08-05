@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονοι χριστου εισιν' is a declarative statement ('They are servants of Christ'), but the Vietnamese translation 'Họ là người hầu của Đấng Christ sao?' uses a question particle ('sao?'), changing the grammatical mood from indicative to interrogative."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραφρονων λαλω' means 'I speak foolishly' (present continuous/participle). The Vietnamese 'Tôi nói như kẻ dại' (I speak like a fool) is an acceptable rendering, but the overall structure of the sentence in Greek connects the identity of the servants to the speaker's own actions. The Vietnamese phrasing slightly separates these as two distinct statements rather than a cohesive flow."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

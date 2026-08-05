@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγαθην συνειδησιν' (a good conscience) is linked to the subject (the believers) having it. The Vietnamese translation implies they had a good conscience but then 'abandoned that conscience' (từ bỏ lương tâm ấy), which slightly distorts the causal link in the Greek where the abandonment of conscience leads to the sinking of faith."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ην τινες' (some were) is rendered as 'một số người đã' (some people have), but the Vietnamese construction 'nên... bị chìm đắm' (so... were submerged/sunk) makes the sinking of faith a direct result of abandoning conscience, whereas the Greek structure 'ην τινες... εναυαγησαν' describes the state of some people who were submerged in faith (or rather, whose faith was submerged/sunk) due to their lack of conscience."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

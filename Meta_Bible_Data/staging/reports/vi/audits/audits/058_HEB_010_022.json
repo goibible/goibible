@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερραντισμενοι' (errantismenos) is a passive participle meaning 'having been cleansed/purified' (from 'rhi-'). The Vietnamese 'được rảy sạch' (shaken clean) captures the sense of purification, but the Greek specifically implies being 'cleansed' or 'purified' from the corruption of the conscience. More importantly, 'πληροφορια' in this context is often understood as 'fullness' or 'abundance' rather than 'bảo đảm' (guarantee/assurance)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσερχωμεθα' is a present middle/passive verb indicating a continuous action or state ('let us be drawing near' / 'we are drawing near'). The Vietnamese 'hãy đến gần' is an imperative ('let us come'), which slightly shifts the grammatical mood from a descriptive state to a command."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

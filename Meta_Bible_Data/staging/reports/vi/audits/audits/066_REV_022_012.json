@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετ εμου αποδουναι' (repaid with me/by me) is rendered as 'ở với Ta' (is with me). The Greek implies the act of repayment/recompense, whereas the Vietnamese suggests a state of possession or location."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese ending 'sẽ là' (will be) is a slightly awkward construction for 'εσται' (is/shall be), but more importantly, the structure 'để trả cho mỗi người tùy theo công việc của họ sẽ là' creates a confusing grammatical link between the repayment and the work that deviates from the Greek 'μετ εμου αποδουναι εκαστω ως το εργον αυτου εσται' (repaid with me each according to his work)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

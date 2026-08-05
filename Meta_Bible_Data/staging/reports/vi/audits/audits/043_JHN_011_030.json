@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουπω δε εληλυθει' (had not yet come) is a perfect tense indicating an action that had not happened by a certain point in time. The Vietnamese 'chưa đến' (has not come/not yet come) is acceptable, but the phrasing 'nhưng vẫn ở' (but still stayed/was at) fails to capture the contrast of the Greek 'αλλ ην εν τω τοπω' (but was in the place). Specifically, 'vẫn ở' implies a continuous state of staying/remaining, whereas the Greek simply states his location ('was in') at that moment. However, the more significant issue is the nuance of 'εληλυθει' (had come) vs 'đến' (come); while 'chưa đến' is close, the Vietnamese lacks the perfect aspect which emphasizes the state prior to the arrival."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

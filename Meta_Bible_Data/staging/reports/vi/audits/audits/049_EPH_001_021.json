@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đời hầu đến' is a mistranslation of 'τω μελλοντι' (the future/the one to come). In this context, 'μελλον' refers to the future time or the age to come, not a person ('hầu đến' implies a person coming)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

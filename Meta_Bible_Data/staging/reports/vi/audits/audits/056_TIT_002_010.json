@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'νοσφιζομενους' (nosphizomenous) means 'to steal' or 'to be thieves'. The Vietnamese translation 'ăn cắp' is the verb 'to steal'. In the Greek construction, it is a passive participle/deponent-like usage ('let us not be thieves'), but more importantly, the Vietnamese 'Chớ ăn cắp' (Do not steal) functions as an imperative command. While similar, the Greek 'μη ... -μενους' is a hortatory subjunctive/passive construction. However, the primary issue is that the Vietnamese 'họ làm tôn vinh' (they glorify) changes the subject of the final clause. The Greek 'κοσμωσιν' is a participle modifying the believers (the implied subjects of the first part), but the Vietnamese 'họ' (they) creates a shift in the subject of the action 'tôn vinh' compared to the original structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πιστιν πασαν' means 'all faith' or 'every faith'. The Vietnamese 'mọi đức tin' (every faith) is acceptable, but the Greek 'ενδεικνυμενους' (showing/demonstrating) is rendered as 'tỏ ra' (to show/appear), which is accurate. The main issue remains the subject shift in the final clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

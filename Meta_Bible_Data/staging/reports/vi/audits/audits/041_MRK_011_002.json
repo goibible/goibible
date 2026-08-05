@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κεκαθικεν' (kekathiken) means 'has ridden/mounted,' but the Vietnamese 'ngồi lên' (sat on) is a less precise rendering of mounting a beast of burden. However, more importantly, the Greek 'λυσαντες αυτον' (lysantes auton) means 'having loosened/untied it.' The Vietnamese 'mở nó ra' (open it) captures the sense of loosening but misses the specific context of untying a bound animal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

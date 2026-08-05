@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα διαφεροντα' (ta di pheronta) in this context refers to 'the things that test/prove you' (from the preceding context of trials), but the Vietnamese translation 'những điều khác biệt' translates it as 'different things,' which loses the functional meaning of the trial/testing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

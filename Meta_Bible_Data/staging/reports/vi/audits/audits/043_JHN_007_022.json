@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ των πατερων' (from the fathers) refers to the ancestors/forefathers, but the Vietnamese translation 'từ các Cha' can be interpreted as 'from the Fathers' (implying a specific group or divine figures), which slightly shifts the historical/lineal context of the original."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'περιτεμνετε ανθρωπον' is an imperative (command) or a general present indicative, but the Vietnamese 'các ngươi cắt bì' lacks the imperative force/urgency often associated with this specific polemic in the context of the surrounding verses."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αλλ' (allá) is a contrastive conjunction meaning 'but', not a causal connector. The Vietnamese translation uses 'bèn' (so/then), which implies a cause-and-effect relationship that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

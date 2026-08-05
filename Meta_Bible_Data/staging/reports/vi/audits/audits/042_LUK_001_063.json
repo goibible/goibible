@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 63,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το ονομα αυτου' (the name of him) is rendered as 'danh nó' (his name/its name). In Vietnamese, 'nó' is often used for animals or objects, whereas the Greek refers to a person (Jesus). While 'nó' can be used colloquially for people in some contexts, it lacks the proper personal pronoun expected for a human subject in this context."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

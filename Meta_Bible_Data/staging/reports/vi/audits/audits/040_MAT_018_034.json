@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο κυριος αυτου' (his master) is translated as 'Chủ' (Master), but the Vietnamese lacks the possessive relationship. It should be 'Chủ của nó' to reflect that it was his specific master who became angry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'tối cao' (supreme/highest) to the name 'Phê-lít', which does not appear in the Greek text ('φηλιξ')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κρατιστε' is an imperative or a vocative form of 'krateros' (strong/mighty), but in this specific context, it is often interpreted as a title or address. However, the Vietnamese adds 'tối cao' which implies a superlative not present in the single adjective."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

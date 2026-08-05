@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκριθη' (ekrithe) is passive/impersonal, often translated as 'it was decided' or 'it was determined'. The Vietnamese 'đã định' (already decided) lacks the passive sense, making it sound like an active decision by the subjects, though this is a minor point. However, the primary issue is the rendering of 'εις την ιταλιαν' (eis tēn Italian). In the context of Acts 27, this refers to 'to Italy' (the destination), but the Vietnamese 'đi thuyền qua Nước Ý' (sailing across/through Italy) slightly alters the directional intent from 'to' to 'across'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκατονταρχη' (ekontarchē) is a specific military rank (centurion). The Vietnamese 'thầy đội' is an acceptable equivalent, but the phrase 'thuộc cơ đội của Augustus' (belonging to the legion of Augustus) is an expansion/interpretation of 'ιουλιω σπειρης σεβαστης' (Julius Speirus Augustus). While 'Augustus' is part of the name, the Vietnamese structure implies a hierarchical belonging to a specific legion that isn't explicitly phrased as such in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

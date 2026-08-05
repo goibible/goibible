@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ ετων οκτω' (of eight years) modifies the person/state, but the Vietnamese 'đã tám năm' attached to 'cái giường' (the bed) implies the bed has existed for eight years, rather than the man being paralyzed for eight years."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

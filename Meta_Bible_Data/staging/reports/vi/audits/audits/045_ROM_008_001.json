@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κατα σαρκα περιπατουσιν' is a negative construction ('not walking according to the flesh'). The Vietnamese translation 'là kẻ chẳng bước đi theo xác thịt' (who do not walk according to the flesh) changes the grammatical structure from a description of the *nature* of the judgment (judgment is not [according to the flesh]) to a description of the *identity* of the people (judgment is not for those who [do not walk according to the flesh]). In Greek, 'not according to the flesh' modifies 'judgment', whereas in Vietnamese, it qualifies the 'people'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

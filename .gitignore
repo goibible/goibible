@@ -7,8 +7,9 @@ __pycache__/
 .env
 .env.*
 
-# Compiled SQLite binaries are rebuilt from sqlite/schema.sql + reference_seed.sql
-# + versions/*.sql via sqlite/build_shell.sh and sqlite/assemble.sh.
+# Compiled SQLite binaries are rebuilt from Meta_Bible_Data/sqlite/schema.sql
+# + reference_seed.sql + versions/*.sql via Meta_Bible_Data/sqlite/build_shell.sh
+# and Meta_Bible_Data/sqlite/assemble.sh.
 # Do not commit generated databases; commit the .sql source instead.
 *.db
 *.sqlite3
@@ -17,15 +18,16 @@ __pycache__/
 
 # The one tracked exception is a small import-ready shell with schema/reference
 # data but no Bible verse rows.
-!sqlite/goi_bible_shell.db
+!Meta_Bible_Data/sqlite/goi_bible_shell.db
 
-sqlite/editions/
+Meta_Bible_Data/sqlite/editions/
 goi_bible_downloads/
+Meta_Bible_Data/staging/tmp/
 
 # App-facing downloadable Bible databases. These are intentionally committed so
 # Android/desktop clients can fetch import-ready edition DBs from GitHub.
-!goi_db_download/
-!goi_db_download/*.db
-!goi_db_download/*.json
-!goi_db_download/*.md
-!goi_db_download/*.py
+!Meta_Bible_Data/goi_db_download/
+!Meta_Bible_Data/goi_db_download/*.db
+!Meta_Bible_Data/goi_db_download/*.json
+!Meta_Bible_Data/goi_db_download/*.md
+!Meta_Bible_Data/goi_db_download/*.py

@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ουν εστιν' (ti oun estin) is a rhetorical question meaning 'what then is it?' or 'what then [should happen]?', whereas the Vietnamese 'phải làm sao?' translates to 'what must be done?' or 'what should we do?'. The Greek phrasing suggests a statement of fact about what exists/is, while the Vietnamese turns it into a directive for action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πρὸς οἰκοδομὴν' (pros oikodomēn) means 'for/towards building up'. The Vietnamese 'vì sự gây dựng' captures the meaning well, but the Greek 'γενεσθω' (genesthō) is a passive/middle imperative 'let it be' or 'let there be'. The Vietnamese 'hãy làm vì' (let [you] do for) adds an active agency ('làm') that is not explicitly in the verb 'γενεσθω'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

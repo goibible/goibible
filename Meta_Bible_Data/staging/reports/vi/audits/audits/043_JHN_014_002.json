@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μοναι πολλαι' (many dwellings/places to stay) is translated as 'nhiều chỗ ở' (many places to live/stay). However, the Vietnamese translation of the second clause 'nếu chẳng vậy' (if not so) misinterprets the Greek 'εἰ δὲ μη εἶπον' (if I had not said). The Greek structure implies a conditional hypothetical: 'If I had not said [to you] that I am going to prepare a place for you.' The Vietnamese 'nếu chẳng vậy' suggests 'if it weren't for that' or 'otherwise,' which slightly shifts the logical connection of the conditional."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

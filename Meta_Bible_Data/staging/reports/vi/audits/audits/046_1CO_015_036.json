@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου ζωοποιεται' is passive/deponent, meaning 'is not made alive' or 'does not come to life'. The Vietnamese 'không được sống lại' implies 'cannot live again' (a potentiality/possibility), whereas the Greek describes a present reality of the process of germination."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποτε' (pote) means 'ever' or 'once,' but in this context, it functions as a demonstrative/relative marker often translated as 'that' or 'the one who.' The Vietnamese translation 'người trước' (the person before/previously) introduces a temporal sequence ('before') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

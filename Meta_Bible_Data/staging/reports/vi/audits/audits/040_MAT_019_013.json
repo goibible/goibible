@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'επετιμησαν' (epetimēsan) means 'rebuked' or 'reproached'. The Vietnamese translation 'quở trách' is generally correct for 'rebuke', but the Greek text says 'the disciples rebuked THEM' (referring to the children/parents), whereas the Vietnamese 'quở trách chúng' in this context could be ambiguous. However, the primary issue is a nuance of action: the Greek implies a rebuke directed at those bringing the children, while the Vietnamese phrasing is standard. Upon closer inspection, 'quở trách' is an accurate rendering of 'επετιμησαν'. Let me re-evaluate. The Greek says 'the disciples rebuked them'. The Vietnamese says 'các môn đồ quở trách chúng'. This is a faithful translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nên hãy có ân điển' (should have grace) misinterprets the Greek 'εχωμεν χαριν' (we have grace). The Greek indicates that the grace is something the believers already possess/have, not a command to obtain it."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Vậy' (So/Therefore) at the beginning, which is not present in the Greek text provided."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese 'hầu việc' (serve/worship) is rendered as an imperative/exhortation ('hãy'), whereas the Greek 'λατρευωμεν' is a present active subjunctive, expressing a purpose or result of having received the kingdom and grace."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

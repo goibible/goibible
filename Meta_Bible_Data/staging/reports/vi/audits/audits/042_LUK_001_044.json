@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ασπασμου' (aspasmos) refers to a 'shout', 'cry', or 'exclamation' of joy/rejoicing, not a 'lời chào' (greeting). The Vietnamese translation changes the nature of the sound from an exclamation of joy to a formal greeting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

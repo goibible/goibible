@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναχθηναι' (anachthenai) means 'to be driven out' or 'to be forced out'. The Vietnamese translation 'đã ra đi' (had departed/left) misses the nuance of being forced out or expelled by others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

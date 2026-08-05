@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text mentions 'σμυρναν' (myrrh) as a distinct item. The Vietnamese translation combines 'nhũ hương' (frankincense) and 'nhựa thơm' (myrrh/resin), but the phrasing 'nhựa thơm một dược' is confusing and potentially misses the specific distinction of the two different resins mentioned in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

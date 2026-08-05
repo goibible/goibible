@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'απεκριθη' (answered) is a positive verb. The Vietnamese 'chăng' at the end of the sentence transforms the statement into a question ('Do you believe?'), whereas the Greek structure is a direct response/statement of fact."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

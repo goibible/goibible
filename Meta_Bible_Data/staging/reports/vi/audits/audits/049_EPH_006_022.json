@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παρακαλεση' (parakalesē) in this context means to 'exhort', 'urge', or 'encourage' (often with a sense of entreaty), whereas the Vietnamese 'khích lệ' leans more towards 'encouragement/motivation'. While close, 'parakaleō' often carries a stronger sense of pleading or urging toward a specific action/faith."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως πλανοι και αληθεις' (as false and true) is rendered as 'như kẻ dối trá, mà là thật' (like liars, but are true). The Vietnamese 'mà là' (but are/which is) introduces a contrast that changes the meaning from a parallel description of types (false and true) to a distinction between being a liar and being true."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

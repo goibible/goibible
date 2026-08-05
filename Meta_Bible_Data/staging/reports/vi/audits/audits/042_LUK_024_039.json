@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτος εγω ειμι' (I am the one) is rendered as 'chính ta đây', which is acceptable, but the subsequent clause 'ψηλαφησατε με' (touch me) is linked to 'και ιδετε' (and see) in a way that slightly alters the sequence. However, the primary issue is the translation of 'καθως εμε θεωρειτε εχοντα'. The Greek says 'as you consider [me] having', while the Vietnamese translates it as 'như các ngươi thấy ta có' (as you see I have). While 'see' and 'consider/reckon' are close, the Greek 'θεωρειτε' implies a judgment or reckoning by the observers."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific nuance of 'καθως' (as/in the way that) in relation to the comparison between the Spirit and the speaker's physical form."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

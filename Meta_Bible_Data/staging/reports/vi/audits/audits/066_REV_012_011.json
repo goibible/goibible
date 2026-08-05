@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 12,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'của' (of) or a possessive structure for 'lời chứng' (the testimony). The Greek specifies 'του λόγου της μαρτυρίας αυτών' (the word of the testimony of them/their), whereas the Vietnamese 'nhờ lời chứng của mình' simplifies this to 'thanks to their testimony'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

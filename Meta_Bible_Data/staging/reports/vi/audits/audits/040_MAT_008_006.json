@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βεβληται' (bebletai) is a passive perfect indicative of 'ballō', meaning 'has been thrown/cast'. The Vietnamese 'bị quăng xuống' (was thrown down) captures the action but misses the 'perfect' aspect (state resulting from a past action), though this is often stylistic. However, the primary issue is that 'βεβληται' in this context refers to being 'thrown/cast' into the house, whereas the Vietnamese suggests he was thrown *down* (xuống) into the house, which adds a spatial direction not explicitly in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

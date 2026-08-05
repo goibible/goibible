@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις' (tis) is an indefinite pronoun meaning 'anyone'. The Vietnamese translation 'ai' is correct, but the construction 'theo cùng một gương' (following the same example) slightly alters the relationship. More importantly, 'της απειθειας' (of disobedience/rebellion) is rendered as 'không vâng phục' (not obeying). While semantically similar, the Greek is a noun phrase 'the example of disobedience', whereas the Vietnamese turns it into a descriptive phrase 'example [of] not obeying'. The main issue is the slight shift in the relationship between the 'example' and the 'disobedience'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τω αυτω' (en to auto) means 'at the same time' or 'simultaneously'. The Vietnamese translation omits this temporal connection entirely."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

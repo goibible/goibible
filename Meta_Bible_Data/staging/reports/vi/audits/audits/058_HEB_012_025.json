@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη παραιτησησθε' is a prohibitive 'do not reject/renounce', but the Vietnamese 'đừng từ chối' (don't refuse) in this context fails to capture the specific nuance of 'paraitesis' (renouncing/abandoning). However, the more critical issue is the translation of 'ουκ εφυγον'. The Greek 'ουκ εφυγον' means 'did not escape', but the Vietnamese 'không tránh khỏi' translates to 'cannot avoid' or 'will not escape' (inevitability), changing the sense from a historical fact about those on earth to a logical certainty about the present audience."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραιτησαμενοι' is a participle modifying 'εκεινοι' (those [on earth] who renounced). The Vietnamese structure 'khi từ chối' (when rejecting) turns a descriptive participle into a temporal clause, slightly altering the grammatical relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

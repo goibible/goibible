@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η ριζα σε' (the root [holds] you) is rendered as 'bèn là cái rễ chịu đựng ngươi'. The Vietnamese addition of 'bèn là' (then/so) and the phrasing suggests a sequential result or a new action, whereas the Greek uses 'η' (the) to identify the subject of the implied verb, creating a contrast: you hold the root, but the root [holds] you."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ετεροι' (others), which distinguishes these mockers from a previously mentioned group. The Vietnamese version simply says 'những kẻ khác' (other people/those others) but fails to capture the contrastive 'others' in the context of the narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the possessive pronoun 'των' (their) for 'ιματια' (garments/clothes). The Greek says 'their garments,' but the Vietnamese says 'their own clothes' (áo mình), which shifts the ownership of the garment from the animals to the people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

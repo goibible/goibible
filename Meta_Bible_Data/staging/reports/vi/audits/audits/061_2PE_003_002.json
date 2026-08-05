@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation places 'chúng ta' (our) as modifying 'Chúa và Đấng Cứu Thế' (Lord and Savior), whereas the Greek 'ημων' (our) modifies 'αποστολων' (apostles). The Greek says 'the command of our apostles', not 'the command of our Lord and Savior'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

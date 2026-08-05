@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεντε αρτους' means 'five loaves', but the Vietnamese 'năm ổ bánh' translates to 'five loaves/batches of bread'. While 'ổ' can mean a loaf, in this specific biblical context (John 6:9), it often implies a larger quantity or 'loaves' as a unit. However, more critically, the Greek 'δύο οψαρια' means 'two fish', and the Vietnamese 'hai con cá' is correct, but the structure of the first clause in Greek is 'There is a boy who has...', whereas the Vietnamese says 'There is a boy, [there are] five loaves...'. The Greek uses 'ο εχει' (who has) to link the boy to the bread, while the Vietnamese treats them as two separate items in a list."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

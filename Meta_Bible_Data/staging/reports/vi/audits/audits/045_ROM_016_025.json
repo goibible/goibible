@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυναμενω' is a present active participle (or potentiality) modifying the action of supporting/strengthening. The Vietnamese 'nguyền xin Đấng có quyền' (I pray/beg that the One who has power) introduces an external deity and a prayerful request that is not present in the Greek text. The Greek 'δυναμενω' functions as 'able to' or 'empowering' in relation to the speaker's ability to strengthen them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

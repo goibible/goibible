@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Khi thiên sứ đã nói với Cọt-nây ra đi' (When the angel said to Cornelius 'go') misinterprets the Greek structure. The Greek 'ως δε απηλθεν ο αγγελος' means 'And when the angel departed/left'. The phrase 'ο λαλων τω κορνηλιω' is a participle describing the angel as 'speaking to Cornelius'. The Vietnamese makes it sound like the angel told Cornelius to leave, rather than the angel leaving after speaking to him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νυν' (nyn) means 'now', but the Vietnamese translation uses 'vừa rồi' (just now/recently), which shifts the temporal focus slightly. More importantly, the Greek 'εζητουν' (ezētoun) is an imperfect verb indicating ongoing or repeated action ('were seeking'), whereas the Vietnamese 'tìm' (searched/tried) misses the continuous aspect of the original."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 5351,
+          "lemma": "phtheírō",
+          "problem": "distorted",
+          "detail": "The Greek 'φθειρονται' (phtheirontai) means 'are destroyed' or 'are corrupted/spoiled', but the Vietnamese 'hư mất' can sometimes lean towards 'lost' or 'perished'. While acceptable, it is a slight shift from the physical/moral decay implied by phtheirō."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

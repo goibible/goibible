@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν δε μη' (ean de me) functions as a conditional/concessive structure meaning 'unless'. The Vietnamese 'Nếu không có' (If there is no) combined with 'thì' (then) creates a standard 'if-then' conditional. More importantly, the Greek 'σιγατω' (sigatō) is a subjunctive of 'be silent'. The Vietnamese 'phải im lặng' (must be silent) adds a modal of necessity ('phải') that is not present in the Greek grammar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'and the one to whom the Son wishes to reveal [him]' (καὶ ᾧ ἐὰν βούληται ὁ υἱὸς ἀποκαλύψαι) — i.e., the Son reveals the Father to whomever He chooses. The Vietnamese 'ngoài Con và người nào Con muốn tỏ ra, cũng không ai biết Cha' reads as 'besides the Son and the one whom the Son wants to reveal, no one knows the Father,' which could be understood as the Son revealing the person (not the Father) to others, or as listing the Son and that person as exceptions who know the Father. This misrepresents the Greek, where the Son is the revealer of the Father, not the one revealed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

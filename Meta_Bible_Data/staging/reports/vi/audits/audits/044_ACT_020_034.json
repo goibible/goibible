@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains a negative particle 'δε' (not), which is missing in the Vietnamese translation. The Greek says 'you do NOT know,' but the Vietnamese says 'you know'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

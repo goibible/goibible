@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερωτησω υμας' (I will ask you) is rendered as 'hỏi các ngươi' (ask you), but the Vietnamese phrasing 'nếu các ngươi nói cho ta, thì ta cũng sẽ nói cho các ngươi' (if you tell me, then I will also tell you) adds a conditional structure and implies a reciprocal exchange of information ('tell/say') that is not present in the Greek. The Greek simply says: 'I will ask you one question; if you tell me, I will ask you by what authority I do these things.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οὐ συνιετε' is a statement of fact (negative indicative), meaning 'you do not understand.' The Vietnamese 'chưa hiểu sao?' renders it as an interrogative question ('why don't you understand?'), which changes the grammatical mood and the nature of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

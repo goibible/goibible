@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οψεσθε' (opsesthe) is a future passive/middle verb meaning 'you will be seen' or 'you will be judged/observed'. The Vietnamese translation 'hãy tự xem lấy' translates this as an imperative ('please see for yourselves'), changing the grammatical mood from a statement of what will happen to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

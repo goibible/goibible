@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'τον ποδα αυτου τον δεξιον' (his right foot) and 'τον δε ευωνυμον' (the left [foot]). The Vietnamese translation reverses this, stating 'chân hữu' (right foot) on the sea and 'chân tả' (left foot) on the land. In the Greek, the right foot is on the sea."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιστηθι' (epistēthi) means 'hold fast' or 'take hold of', but the Vietnamese 'đứng vững' means 'stand firm'. While related in spirit, 'hold fast' implies grasping/clinging to the word, while 'stand firm' describes a posture."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως επιποθω' (as I desire) is rendered as a result/purpose clause ('rằng tôi lấy... mà khao khát'). In the Greek, 'ως' functions here as a conjunction of manner or reason ('for I desire'), but the Vietnamese structure suggests that the *reason* for God being a witness is the act of desiring. More importantly, the Greek 'εν σπλαγχνοις' (in the bowels/affections) modifies the desire itself—the desire is *in* the affections—whereas the Vietnamese construction makes it sound like the speaker is *taking* or *using* the affections as a means to desire."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

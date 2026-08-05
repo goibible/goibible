@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του μεγαλου θεου' (of the great God) is rendered as 'Đức Chúa Trời lớn' (Great God). In Vietnamese, this structure can imply a 'greatness' of deity type rather than the possessive relationship. More importantly, the Greek 'μεγαλο' modifies 'θεου', but the Vietnamese phrasing lacks the clear possessive link for 'vinh hiển' (glory) which belongs to the God."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

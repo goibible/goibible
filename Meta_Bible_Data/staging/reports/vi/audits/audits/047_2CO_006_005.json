@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αγρυπνιαις' (agrypniais) means 'watchfulness' or 'sleeplessness' (often in a state of alertness). The Vietnamese translation 'sự tỉnh thức' usually translates 'nepsis' or 'sobriety/alertness'. However, the Greek 'αγρυπνιαις' specifically refers to the state of being awake/watchful, whereas the Vietnamese word used here is often associated with spiritual alertness. More importantly, the Greek 'κοποις' (kopois) means 'hardships' or 'labors', which is correctly rendered as 'lao khổ', but the sequence of the last two terms might be confusing if not careful. The main issue is that 'αγρυπνιαις' is specifically 'sleeplessness/watchfulness' and 'νηστειαις' is 'fasting'. The translation 'sự tỉnh thức' for 'agrypniais' is acceptable, but 'tỉnh thức' can also mean 'awareness', potentially losing the nuance of 'staying awake'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

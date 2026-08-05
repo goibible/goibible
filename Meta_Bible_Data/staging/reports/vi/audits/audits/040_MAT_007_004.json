@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκβαλω' (ekballō) means 'cast out' or 'throw out,' but the Vietnamese translation uses 'lấy ... ra' (take ... out), which is a milder action. More importantly, the Greek 'δοκος' (dokos) refers to a 'beam' or 'timber' (a large piece of wood), whereas the Vietnamese 'cây đà' usually refers to a 'crossbar' or 'support beam,' which may slightly narrow the scope of the original object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

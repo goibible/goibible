@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ερουμεν' (eroumen) is a future active indicative, but in this context of a rhetorical question ('τι ουν...'), it functions as 'what then shall we say'. The Vietnamese translation 'sẽ nói' (will say) captures the future tense, but the Greek 'τι' (what) is rendered as 'Vậy' (So/Then), which misses the interrogative nature of the sentence. The Greek is a question ('What then shall we say...'), whereas the Vietnamese renders it as a statement or an introductory phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

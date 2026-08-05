@@ -1,0 +1,26 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'không tin được' (cannot believe) is a mistranslation of the Greek 'ἀπιστος' (unfaithful/adulterous). In this context, it refers to sexual infidelity, not a lack of belief."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'nên thánh' (become holy) is used to describe the process of sanctification, but the Greek 'ἡγιασται' in this specific context (1 Cor 7:38) implies being 'made clean' or 'purified' from the state of impurity caused by sexual immorality."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'nếu không' (if not), which introduces a conditional structure that is not present in the Greek text. The Greek 'επειρα' (therefore/because) establishes a causal link between the infidelity and the impurity of the children."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

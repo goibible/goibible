@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ποιησας' (poiesas) is in the aorist active indicative, asking 'What did you do?'. The Vietnamese translation 'phải làm gì' (what must I do?) changes the tense and mood from a past action to a future/present obligation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

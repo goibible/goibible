@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'διαμερισατε' is in the aorist active imperative, and the pronoun 'εαυτοις' (to themselves) indicates that they were to distribute it *among themselves*. The Vietnamese translation 'chia cho nhau' (divide for each other/among each other) captures the spirit but omits the specific reflexive/reciprocal scope of 'εαυτοις' as a direct object of the distribution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

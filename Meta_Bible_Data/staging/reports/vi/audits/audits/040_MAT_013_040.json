@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συντελεια' (synteleia) refers to the 'harvest' or 'reaping' (the end of the process/gathering), whereas the Vietnamese 'sự kết thúc' (the end/conclusion) is a broader temporal term. While related, 'harvest' is the specific action described in the preceding metaphor of gathering weeds."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

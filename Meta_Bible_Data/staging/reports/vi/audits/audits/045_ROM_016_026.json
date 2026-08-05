@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the logical order of the Greek clauses. The Greek structure is: [Revealed by prophetic writings] -> [Known to all nations] -> [For obedience of faith]. The Vietnamese places 'known to all nations' before the purpose clause, but more importantly, it renders 'εις υπακοην πιστεως' (into/for obedience of faith) as 'để đem họ đến sự vâng phục của đức tin' (to bring them to the obedience of faith). While close, the Greek 'εις' functions as a goal/result of the revealing/knowing process. The Vietnamese 'đem họ đến' (bring them to) adds a causative action ('bring') not present in the Greek, which simply states the purpose/destination of the revelation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

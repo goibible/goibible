@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο μη γινωσκων τον νομον' is a relative clause modifying 'οχλος' (the crowd), meaning 'the crowd who does not know the law.' The Vietnamese translation 'Đám đông này không biết luật' treats it as a simple statement of fact about the crowd, but more importantly, the Greek structure implies that the *reason* they are cursed is because they do not know the law. However, the primary issue is the verb 'επικαταρατοι'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'επικαταρατοι' (epikataretai) is passive/middle voice, meaning 'they are cursed' or 'they are being cursed.' The Vietnamese translation 'thật là những kẻ đáng rủa' translates this as an attributive description ('those who are worthy of being cursed' or 'cursed people'), which shifts the focus from the action of being cursed to a descriptive state of being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

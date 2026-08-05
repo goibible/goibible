@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τω θεω ημων λαλησαι' (in the presence of our God) is rendered as 'trong Đức Chúa Trời của chúng tôi' (in/within our God). The Vietnamese construction suggests being *inside* or *within* the person of God, whereas the Greek 'εν' in this context denotes 'in the presence of'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

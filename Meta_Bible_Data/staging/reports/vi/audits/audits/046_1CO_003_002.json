@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βρωμα' (bwroma) refers to 'solid food' or 'meat' (in the context of weaning), but the Vietnamese translation 'đồ ăn' is a general term for 'food'. While acceptable in some contexts, it loses the specific contrast between milk and solid food intended by the metaphor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

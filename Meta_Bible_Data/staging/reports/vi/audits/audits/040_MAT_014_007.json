@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ωμολογησεν' (homologēsen) means 'confessed' or 'acknowledged', not 'hứa' (promised). The translation changes the nature of the action from a confession/acknowledgment to a promise."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη καθως βλασφημουμεθα' is a negative construction meaning 'not in the way that we blaspheme' or 'not as if we were blaspheming.' The Vietnamese 'không bị phạm thượng' (are not blasphemed) changes the subject of the action from our own behavior to an external action being done to us."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημας λεγειν' means 'to say of us' or 'to say about us.' The Vietnamese 'dạy: ...' (teach: ...) changes the meaning from people speaking *about* our actions to us *teaching* a doctrine."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσευχεσθαι' is an infinitive modifying 'βουλομαι' (I want). The Vietnamese translation 'ta muốn những người cầu nguyện' (I want people who pray) changes the structure from 'I want to pray [for] the men' to 'I want the men to pray'. In the Greek, the subject of the action 'to pray' is the speaker ('I'), whereas in the Vietnamese, the subject of the action 'to pray' is 'the men'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'τους ανδρας' (the men) is the direct object of the verb 'προσευχεσθαι' (to pray for). The Vietnamese translation omits the 'for' relationship, making it appear as though the speaker wants 'men who pray' rather than wanting to 'pray for the men'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

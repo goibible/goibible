@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'μηνας πεντε' (five months) is translated as 'năm tháng' (five months), but the Greek 'συνελαβεν' (conceived) is a past tense verb, and 'λεγουσα' (saying) is a participle. The Vietnamese structure 'thụ thai và ẩn mình trong năm tháng' implies she was hidden *for* five months or *during* those five months of pregnancy, whereas the Greek indicates she conceived and then, during that period, said [the following]."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'Sau những ngày đó' (After those days) is a slightly loose rendering of 'μετα δε ταυτας τας ημερας', but the primary issue is the phrasing of the duration. The Greek 'μηνας πεντε' specifically modifies the period of her being 'περιεκρυβεν εαυτην' (hidden/concealed herself)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδωκας' (did you give/hand over) is in the aorist tense, but the Vietnamese 'không giao' (did not hand over) combined with the context of the sentence implies a continuous action or a state. More importantly, the Greek 'εγώ ελθων' uses the participle 'ελθων' (coming), which functions as a temporal/circumstantial clause (when I come). The Vietnamese 'để khi ta đến' (so that when I come) adds a purposive/consecutive sense ('để') that is not present in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αν επραξα αυτο' (if you did it / if you acted so) is entirely omitted in the Vietnamese translation. This is a significant conditional clause that qualifies the action of the debtor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

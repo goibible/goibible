@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη ετοιμασας μηδε ποιησας' uses the aorist active indicative (not the imperative or present), but the Vietnamese 'không sửa soạn và không làm theo' fails to capture the specific nuance of the Greek construction. More importantly, the Greek 'δεν' (implied by the context of the parable/negation) is actually expressed via the 'μη' particles. However, the primary issue is that the Greek 'μη ετοιμασας μηδε ποιησας' refers to the *failure* to prepare or do, which the Vietnamese captures, but the Greek 'δεν' is missing from the first clause ('ο γνους' - he who knows). The Greek says 'he who knows... and does NOT prepare', whereas the Vietnamese structure makes it sound like a conditional sequence. However, the most significant fidelity issue is that the Greek 'μη ετοιμασας μηδε ποιησας' indicates a specific action of 'not preparing/doing', but the Vietnamese 'không sửa soạn' is slightly weak for the sense of 'not being prepared'. Actually, looking closer at 'μη ετοιμασας μηδε ποιησας', it translates to 'not preparing nor doing'. The Vietnamese captures this. The real issue is the negation scope: 'ο γνους' (who knows) vs 'μη ετοιμασας' (not preparing). The Vietnamese 'mà không sửa soạn' correctly reflects the 'μη'. Wait, looking at the Greek again: 'εκεινος δε ο δουλος ο γνους το θελημα του κυριου εαυτου και μη ετοιμασας μηδε ποιησας' - The 'μη' indicates a negative action. The Vietnamese 'mà không sửa soạn' is accurate. Let me re-evaluate. The Greek 'δεν' is actually missing from the first part (the servant who *knows*). The translation says 'Đầy tớ ấy đã biết' (That servant knew). This is correct. There is no major fidelity issue found upon closer inspection of the grammar and meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

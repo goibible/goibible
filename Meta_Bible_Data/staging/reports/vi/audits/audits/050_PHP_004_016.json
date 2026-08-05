@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν θεσσαλονικη' (in Thessalonica) is paired with 'και... και' (both... and), but the Vietnamese translation uses 'Vì tại' (Because at), which introduces a causal relationship not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και... και' (both... and) is used to join two locations/instances, but the Vietnamese translation omits the 'both' structure, making it a simple location statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

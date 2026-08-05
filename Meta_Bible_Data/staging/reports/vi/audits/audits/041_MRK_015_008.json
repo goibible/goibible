@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθως αει εποιει αυτοις' means 'as he always does for them/to them'. The Vietnamese translation 'xin điều Ngài thường làm cho họ' (asking for what He usually does for them) changes the structure from a manner of action ('as he always does') to a specific object of request ('asking for the thing he usually does')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

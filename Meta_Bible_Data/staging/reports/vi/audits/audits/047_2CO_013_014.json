@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The entire introductory phrase 'προς κορινθιους δευτερα εγραφη απο φιλιππων της μακεδονιας δια τιτου και λουκα' (To the Corinthians, second letter from Philippians of Macedonia, through Titus and Luke) is completely missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

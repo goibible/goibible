@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεωρουσιν τον δαιμονιζομενον καθημενον και ιματισμενον' describes the state of the man *while* they were looking at him (being seated and clothed). The Vietnamese translation 'đã bị quỷ ám trước kia' (who was previously possessed) adds a temporal distinction ('trước kia' - before/previously) that is not in the Greek. The Greek focus is on the current state of being 'demon-possessed' (δαιμονιζομενον) in contrast to his previous state, but the Vietnamese phrasing makes it sound like a past event rather than a description of his condition at that moment."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σωφρονουντα' (being of sound mind/sober) is translated as 'tâm trí bình tĩnh', which is acceptable, but the structure 'là người đã có quân đội' in Vietnamese creates a slight disconnect from the Greek 'τον εσχηκοτα τον λεγεωνα', where 'εσχηκοτα' is a participle describing the man's state (having had/possessed) the legion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

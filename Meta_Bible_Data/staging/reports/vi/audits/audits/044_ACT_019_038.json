@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αγοραιοι' (agoraioi) refers to those in the marketplace/public square, not necessarily 'kẻ chợ búa' (market-goers/peddlers) as a specific class of people. More importantly, the Greek 'αγοραιοι αγονται και ανθυπατοι εισιν' describes who the people are (they are public people and officials), but the Vietnamese 'đã có những kẻ chợ búa dẫn họ đi' (there were market-goers who led them away) introduces an action of 'leading away' (dẫn đi) that is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the conditional structure 'εἰ μεν... καὶ εἰ' (if... and if) by converting the first part into a general statement and the second into an imperative, whereas the Greek is a conditional statement regarding the legal status of the group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Cánh của chúng nối liền cánh, khi đi không quay lại, mỗi con đi thẳng về hướng mặt nó.

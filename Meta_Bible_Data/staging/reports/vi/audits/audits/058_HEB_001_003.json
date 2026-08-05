@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φερων' (pherōn) is a present participle meaning 'carrying' or 'bearing.' The Vietnamese 'nâng đỡ' (supporting/uplifting) changes the action from 'bearing/carrying' to 'supporting.'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'δι εαυτου' (di heautou) meaning 'by himself' or 'of himself' is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

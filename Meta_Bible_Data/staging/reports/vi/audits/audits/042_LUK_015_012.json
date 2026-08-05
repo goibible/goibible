@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διειλεν αυτοις τον βιον' means the father divided/shared the 'life' (or portion of life) *among* them (plural). The Vietnamese 'chia đời sống cho hai con' specifies 'hai con' (two children), but the Greek text does not specify the number 'two'. While the context of the parable implies two, as a translation check of this specific verse, 'hai' is an addition not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

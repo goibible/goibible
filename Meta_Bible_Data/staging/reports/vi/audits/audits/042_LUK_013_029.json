@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανακλιθησονται' (anaklisthēsontai) means 'will recline' or 'will sit down' (often in a posture of relaxation/banquet), but the Vietnamese 'ngồi vào bàn' (sit at a table) adds the specific object 'bàn' (table) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

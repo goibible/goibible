@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο επιστρεψας' is a participle modifying the subject (the one who returns), but the Vietnamese translation 'kẻ nào đem một người có tội trở lại' adds an extra object ('đem một người' - bringing a person) that is not in the Greek text. The Greek simply means 'the one who returns [himself] from his way of error'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

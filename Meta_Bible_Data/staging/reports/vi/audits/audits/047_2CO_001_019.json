@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ουκ εγενετο ναι και ου αλλα ναι εν αυτω γεγονεν' is a complex theological statement about the nature of 'Yes' and 'No' (the fulfillment of God's word) in Christ. The Vietnamese translation renders this as a literal quote about the words 'phải' (yes) and 'chẳng' (no), which strips the Greek of its conceptual meaning regarding the fulfillment of divine promises/judgments."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese fails to capture the nuance of 'gegonen' (has become/has happened) in relation to the fulfillment of the 'Yes' and 'No' in Christ."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

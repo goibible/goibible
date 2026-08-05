@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναχωρησας κατ ιδιαν' means 'withdrawing/moving aside privately' (separately from the group), but the Vietnamese 'rút riêng ra' implies physically pulling someone or something out. More importantly, the Greek 'τι εστιν ο εχεις απαγγειλαι μοι' translates to 'what is it that you have to tell me?', whereas the Vietnamese 'Ngươi có việc gì phải báo cho ta?' changes the nuance to 'What business do you have to report to me?'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

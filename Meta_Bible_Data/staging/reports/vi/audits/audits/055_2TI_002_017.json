@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως γαγγραινα' means 'like a gangrene' (simile). The Vietnamese 'như bệnh hoại thư' correctly captures the simile, but the Greek 'νομην εξει ων' implies a spreading/consuming action. More importantly, the Greek 'εστιν υμεναιος και φιλητος' describes the *logos* (words) as being 'Hemenian and Philetian' (likely referring to specific types of words or specific speakers). The Vietnamese translation 'trong số đó có Hê-mê-nê và Phi-lết' suggests that Hemenes and Philetus are *people* included in the group, whereas the Greek structure attributes the adjectives directly to the 'logos' (words)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

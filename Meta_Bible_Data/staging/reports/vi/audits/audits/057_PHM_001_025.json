@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The entire opening phrase 'η χαρις του κυριου ημων ιησου χριστου' (the grace of our Lord Jesus Christ) is missing. The Vietnamese text starts with 'Ân điển của Chúa Giê-xu Christ' (The grace of Jesus Christ), omitting 'của chúng ta' (our)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'μετα του πνευματος υμων' is translated as 'ở với tâm linh anh em'. However, the Greek 'πνευματος' is in the genitive case, meaning 'with the Spirit of [you/yours]'. The Vietnamese 'tâm linh' (spirituality) is a noun representing a state or concept, whereas the Greek refers to the Holy Spirit (the person/entity). Furthermore, the phrase 'απο ρωμης δια ονησιμου οικετου' (from Rome through Tychicus) and the recipient 'προς φιλημονα' (to Philemon) are entirely omitted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,1 @@
+sáu tên của họ trên hòn đá thứ nhất, và sáu tên còn lại trên hòn đá thứ hai, theo thứ tự sinh của họ.

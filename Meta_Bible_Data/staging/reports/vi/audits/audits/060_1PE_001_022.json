@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγνικοτες' (purified) is a past participle describing the state of the souls ('τας ψυχας υμων'), but the Vietnamese translates it as an action performed by the subjects ('đã làm sạch linh hồn mình' - 'have purified your souls'). The Greek structure indicates that their souls *were purified* in obedience, not that they performed the act of purifying."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'εις φιλαδελφιαν ανυποκριτον' (into brotherly love unfeigned) is rendered as a purpose clause ('để có lòng yêu thương anh em chân thật'). While the meaning is similar, the Greek indicates the *result* or *direction* of the purification into a specific state of love."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

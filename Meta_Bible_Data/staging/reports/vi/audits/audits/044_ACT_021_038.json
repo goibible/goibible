@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τετρακισχιλιους' (tetrakischiious) means 3,600 (four thousand times four), but the Vietnamese translates it as 'bốn ngàn' (4,000)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

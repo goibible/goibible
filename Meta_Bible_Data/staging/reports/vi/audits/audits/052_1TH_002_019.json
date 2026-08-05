@@ -1,0 +1,26 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις γαρ ημων ελπις...' is an exclamation of confidence/boasting (similar to 'For our hope is...'), not a question. The Vietnamese translates it as a question ('...là gì?'), which changes the rhetorical force of the original."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχησεως' (of boasting/glory) is rendered in Vietnamese as 'mão triều thiên về sự khoe mình'. While 'mão triều thiên' captures the crown, 'khoe mình' can imply self-boasting in a negative sense, whereas the Greek context refers to the glory/crown of boasting in Christ."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese adds 'Há chẳng phải... sao?' (Is it not...?), turning a declarative statement of fact into a rhetorical question. The Greek is a direct statement: 'For our hope is joy, the crown of boasting...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε εγενετο' (did not happen) is negated, but the Vietnamese translation 'Việc này xảy ra' (This happened) omits the negation entirely."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

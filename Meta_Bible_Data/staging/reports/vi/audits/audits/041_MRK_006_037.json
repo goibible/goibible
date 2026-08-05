@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds a question mark ('...ăn sao?') and a sense of hesitation/questioning that is not present in the Greek. The Greek 'λεγουσιν' (they say) is a straightforward statement of their response, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

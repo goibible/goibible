@@ -1,0 +1,37 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 2 Kings QA batch.",
+  "groups": [
+    {
+      "name": "2 Kings full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "2KI 1",
+        "2KI 2",
+        "2KI 3",
+        "2KI 4",
+        "2KI 5",
+        "2KI 6",
+        "2KI 7",
+        "2KI 8",
+        "2KI 9",
+        "2KI 10",
+        "2KI 11",
+        "2KI 12",
+        "2KI 13",
+        "2KI 14",
+        "2KI 15",
+        "2KI 16",
+        "2KI 17",
+        "2KI 18",
+        "2KI 19",
+        "2KI 20",
+        "2KI 21",
+        "2KI 22",
+        "2KI 23",
+        "2KI 24",
+        "2KI 25"
+      ]
+    }
+  ]
+}

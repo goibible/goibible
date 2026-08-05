@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains a negation 'δε' (not), meaning 'you did NOT want to rejoice'. The Vietnamese translation omits this negation, stating 'các ngươi muốn' (you wanted)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

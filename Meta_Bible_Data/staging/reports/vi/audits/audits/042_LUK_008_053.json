@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 53,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the subject and object of the action. The Greek 'κατεγελων αυτου' means 'mocked HIM' (the subject is the one doing the mocking, and 'Him' is the object). The Vietnamese 'nhạo báng Ngài' correctly identifies 'Ngài' as the object, but the sentence structure and the preceding clause suggest a shift in who is performing the action compared to the Greek sequence."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation places the knowledge of death ('Họ biết nó thật chết rồi') before the mocking, whereas the Greek uses 'ειδοτες' (knowing/seeing) as a participle describing the state of the mockers during the act of mocking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

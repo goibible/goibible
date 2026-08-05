@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κοινωνια' (koinonia) means 'fellowship', 'communion', or 'participation'. The Vietnamese translation uses 'thông công', which is a specific religious term often associated with Pentecostal/Charismatic 'ministry of the Spirit' or 'working together' in a specific denominational context, rather than the general biblical concept of fellowship/participation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν ενεργης' (en energeis) implies 'in operation', 'active', or 'working'. The Vietnamese translation 'trở nên hữu hiệu' (become effective) changes the grammatical structure from a state of being/functioning to a result of becoming."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

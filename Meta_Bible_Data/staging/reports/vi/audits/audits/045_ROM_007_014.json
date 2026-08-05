@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'οιδαμεν' (oidamen) is first-person plural ('we know'), but the Vietnamese 'Chúng ta biết' is often interpreted as 'We know' (inclusive/collective), whereas in this context, it can also be translated as 'I know' depending on the specific manuscript/context, but more importantly, the Greek 'εγω' (egō) clearly distinguishes the subject of the second clause as 'I'. The Vietnamese 'Chúng ta' (We) at the start might lead a reader to think the first part is also about 'us' collectively, but the primary issue is the shift from plural to singular which is handled okay, but the Greek 'οιδαμεν' is strictly 'we know'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματικος' (pneumatikos) means 'spiritual'. The Vietnamese 'thiêng liêng' translates more accurately to 'holy' or 'sacred'. While related, 'spiritual' is the specific attribute of the Law in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εδωκας' (you did not give) is negated. The Vietnamese translation 'Ngươi đã không cho ta' correctly captures the negation, but the Greek 'ουκ εδωκας' refers to a specific action of giving a kiss, whereas the Vietnamese implies a general lack of giving. More importantly, the Greek 'αφυης' (from which/since) is rendered as 'từ khi', which is acceptable, but the phrase 'ου διελιπεν' means 'she did not cease' or 'she stopped not'. The Vietnamese 'không ngừng' is an accurate rendering of this negation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καταφιλουσα' (kissing) is a participle. The Vietnamese 'hôn' functions as a verb in the main clause structure. While acceptable for flow, the specific nuance of the continuous action while entering is slightly flattened."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

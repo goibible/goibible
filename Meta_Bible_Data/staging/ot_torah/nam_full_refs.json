@@ -1,0 +1,15 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full NAM QA batch.",
+  "groups": [
+    {
+      "name": "NAM full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "NAM 1",
+        "NAM 2",
+        "NAM 3"
+      ]
+    }
+  ]
+}

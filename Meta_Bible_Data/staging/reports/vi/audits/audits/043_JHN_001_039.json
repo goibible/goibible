@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ερχεσθε' (imperative) and 'ιδετε' (imperative) are commands to 'Come and see'. The Vietnamese translates these as past tense actions ('Họ đã đến và thấy'), changing the grammatical mood from a command to a narrative description of what they did."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηλθον' (I came) and 'ειδον' (I saw) are first-person verbs ('I came and saw'). The Vietnamese omits the first-person perspective entirely, making it a general observation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

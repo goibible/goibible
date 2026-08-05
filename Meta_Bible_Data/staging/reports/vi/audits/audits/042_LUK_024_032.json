@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχι η καρδια ημων καιομενη ην εν ημιν' is a rhetorical question/exclamation meaning 'Was not our heart burning within us?' (expressing that it WAS burning). The Vietnamese translation 'há chẳng nóng nảy sao?' (Is our heart not burning?) renders it as a present-tense inquiry about current state, whereas the Greek uses the imperfect tense ('ην') to refer to the experience while they were walking."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific past tense aspect of the Greek 'ην' (was), which indicates a continuous state in the past."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'ουστε εξαπορηθηναι ημας και του ζην' includes the word 'ζην' (life/living), but the Vietnamese translation 'tuyệt vọng cả sự sống' implies a loss of life or hopelessness regarding life, whereas the Greek 'εξαπορηθηναι... του ζην' specifically denotes being 'despaired of life' or 'lost hope of living'. The Vietnamese phrasing is slightly ambiguous as to whether it means 'hopeless about life' or 'despairing of our lives'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

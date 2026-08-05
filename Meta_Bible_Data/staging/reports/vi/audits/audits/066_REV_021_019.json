@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text lists four distinct types of stones (iaspis, sappheiros, chalkedon, smagrados). The Vietnamese translation repeats 'ngọc bích' for both the first and second stones, missing the specific identity of the second stone (sappheiros)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

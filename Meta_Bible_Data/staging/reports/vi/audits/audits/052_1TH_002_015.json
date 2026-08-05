@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκδιωξαντων' (ekdiōxantōn) means 'expelling' or 'driving out', whereas the Vietnamese 'bắt bớ' means 'persecuting'. While often related in context, 'expelling' is a specific action not captured by 'persecution'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

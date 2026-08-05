@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'εν ανδρι' (in a man), which specifies that the judgment is through/by a man. The current Vietnamese phrasing 'bởi một người' (by a person) appears at the end of the sentence as a subordinate clause, but it fails to capture the direct prepositional relationship 'εν ανδρι' which qualifies the manner/agent of the judgment in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

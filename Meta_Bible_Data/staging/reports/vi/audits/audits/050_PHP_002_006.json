@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχ αρπαγμον ηγησατο το ειναι ισα θεω' means 'he did not consider himself to be equal to God' (or 'did not consider being equal to God as a robbery'). The Vietnamese translation 'chẳng coi sự mình bằng Đức Chúa Trời là sự cướp' translates 'αρπαγμον' as 'cướp' (robbery/theft), which is a literal but potentially misleading rendering of the Greek nuance. More importantly, the Greek structure implies he did not consider *himself* to be equal; the Vietnamese 'sự mình bằng Đức Chúa Trời' (one's being equal to God) loses the specific reflexive sense of 'ηγησατο' (considered/thought) regarding his own status."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

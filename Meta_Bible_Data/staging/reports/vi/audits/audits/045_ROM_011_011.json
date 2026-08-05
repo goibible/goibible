@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη επταισαν' (lest they fall/stumble) is rendered as a question in Vietnamese ('Có phải họ vấp ngã... chăng?'). The Greek text is a statement of purpose/reason, not an interrogative sentence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'ινα πεσωσιν μη γενοιτο' conveys the sense 'so that they might not fall' or 'lest it happen that they fall'. The Vietnamese translation shifts this into a rhetorical question about whether they have already fallen, losing the specific nuance of preventing a future/potential fall."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

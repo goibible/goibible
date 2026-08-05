@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κερατιων' (keration) refers to 'husks' or 'pods' (specifically of grain/cereal), but the Vietnamese 'vỏ đậu' specifically means 'bean pods'. While similar, 'đậu' (beans) is a specific type of legume not specified in the Greek."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'επεθυμει' is aorist indicative, indicating a completed action of desiring/wanting. The Vietnamese 'muốn' is a general present tense, which slightly softens the specific action of the desire described in the narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

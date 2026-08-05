@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουσης ουν οψιας' (being, therefore, evening) refers to the time of day. The Vietnamese translation 'Buổi chiều' (Afternoon) is technically a mistranslation of 'evening'. While often used interchangeably in casual speech, 'evening' is more accurate for the context of the Sabbath."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη μια των σαββατων' refers to the first day of the week (Sunday). The Vietnamese 'ngày thứ nhất trong tuần' is a correct translation of the phrase, but the preceding 'Buổi chiều ngày đó' (That afternoon/evening) slightly alters the flow of the Greek 'ou-ses oun' which functions as a temporal setting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

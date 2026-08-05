@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'διαπαντος' (diapantos), which means 'always' or 'forever'. The Vietnamese version places 'luôn' (always) earlier in the sentence, but it fails to capture the scope of 'diapantos' modifying the state of having a clear conscience."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασκω' (askō) is an active verb meaning 'I exercise' or 'I train'. The Vietnamese 'tập luyện để có' (practice to have) slightly shifts the focus from the ongoing action of exercising a conscience to a goal-oriented practice, though this is minor. However, the primary issue is the structural placement and scope of the temporal adverb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

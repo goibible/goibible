@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγειραι' (egeirai) is an imperative meaning 'arise' or 'stand up'. The Vietnamese translation 'đứng dậy' is correct, but the sentence structure in Vietnamese makes it sound like a command given to the person holding the reed ('bảo rằng: Hãy đứng dậy...'), whereas in the Greek, 'εγειραι' is the direct command given by God to Ezekiel (the subject of 'μοι'). The Vietnamese phrasing 'đã được ban cho tôi, và bảo rằng' (was given to me, and [He] said) slightly obscures that 'arise' is the first part of the direct command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'λεγων' (legōn) is a participle meaning 'speaking'. The Vietnamese 'bảo rằng' (said that) captures the meaning, but because it follows a comma after 'tôi', it creates a slight ambiguity in the flow of the command compared to the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

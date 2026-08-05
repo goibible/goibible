@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε ειπεν' (but he said) is translated as 'Người thưa rằng' (He replied/said). While 'thưa' implies a polite response, the Greek 'δε' (but) indicates a transition or contrast in the narrative flow that is lost in the Vietnamese translation."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ινα αναβλεψω' uses the subjunctive 'ινα', expressing a purpose or request ('so that I may see'). The Vietnamese 'xin cho tôi được sáng mắt lại' adds 'sáng' (bright/clear), which is an interpretive addition not present in the literal Greek 'αναβλεψω' (see again/be able to see)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

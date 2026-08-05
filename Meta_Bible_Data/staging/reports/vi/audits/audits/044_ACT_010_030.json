@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'απο τεταρτης ημερας' (from the third day) is translated as 'Đã bốn ngày nay' (for four days now). This changes the starting point of the duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

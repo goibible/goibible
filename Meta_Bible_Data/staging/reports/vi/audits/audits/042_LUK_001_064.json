@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 64,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεωχθη' (aneōchthē) is a passive verb meaning 'was loosed' or 'was released'. The Vietnamese 'được thong thả' implies 'became relaxed' or 'at ease', which misses the specific nuance of being 'loosed/released' from a previous state of restraint."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'παραχρημα' (parachrēma) means 'at once' or 'immediately'. The Vietnamese translation 'Tức thì' is placed at the beginning of the sentence, but it does not clearly link to the specific action of the mouth being loosed as the Greek structure suggests."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

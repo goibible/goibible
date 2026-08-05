@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'εγω ειμι' (I am), but the Vietnamese translation adds 'Đấng đó' (that One/the one), which is not present in the Greek source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

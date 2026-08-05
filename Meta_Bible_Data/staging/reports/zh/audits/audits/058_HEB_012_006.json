@@ -1,0 +1,13 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.95
+    }
+  }
+}

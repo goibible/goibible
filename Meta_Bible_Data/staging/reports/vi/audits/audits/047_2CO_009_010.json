@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπερμα' (seed) is singular, but the Vietnamese 'hạt giống' can be singular or plural. However, the subsequent Greek 'τον σπορον υμων' (your seed/sowing) is also singular. The Vietnamese 'ban hạt giống cho anh em' (provide seed to you) misses the specific nuance of 'σπερμα τω σπειροντι' (seed to the sower). The translation shifts from 'providing for the sower' to 'providing for you', which slightly alters the subject of the provision."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επιχορηγων' is a present active participle (or implies a continuous action) often interpreted as 'who provides/supplies'. The Vietnamese 'Đấng cung cấp... sẽ ban' mixes a present description with a future tense ('sẽ'), whereas the Greek structure links these actions as a single ongoing provision/action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

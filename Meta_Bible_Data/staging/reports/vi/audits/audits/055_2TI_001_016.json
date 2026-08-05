@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλακις με ανεψυξεν' (pollakis me anepsuxen) means 'has refreshed me many times' or 'has often refreshed me'. The Vietnamese 'thường làm tươi mới tôi' translates to 'often refreshes me', omitting the specific frequency/multiplicity of 'πολλακις' (many times/frequently)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπο του πνευματος' (by the Spirit) is rendered as 'được Thánh Linh đưa lên' (was led/taken up by the Holy Spirit). While 'by' can imply agency, the Vietnamese phrasing suggests a deliberate action of 'leading/taking' which is more specific than the Greek prepositional phrase used to describe the manner or agent of the movement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πειρασθηναι' is an infinitive of purpose/result. The Vietnamese 'để chịu... cám dỗ' captures the purpose, but the phrase 'để chịu ma quỷ cám dỗ' omits the prepositional structure 'υπο του διαβολου' (by the devil) as a direct agent of the testing, instead making 'ma quỷ' (devil) an adjective-like modifier for 'cám dỗ' (temptation)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

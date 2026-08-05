@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Lê-ba cũng gọi là Tha-đê' (Levi also called Thaddeus) incorrectly merges two distinct individuals. The Greek lists 'Λεββαίος' (Levi) and 'Θαδδαιος' (Thaddeus) as two separate names in a list of apostles."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

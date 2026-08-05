@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'πεντακισχιλιοι' (pentakischilioi) means 'five thousand', but the Vietnamese translation says 'năm ngàn' (five thousand) combined with 'khoảng' (about/approximately). The Greek text does not contain a word for 'about' or 'approximately'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

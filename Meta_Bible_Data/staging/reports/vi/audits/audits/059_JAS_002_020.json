@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text is a statement (θελεις δε γνωναι... οτι η πιστις... νεκρα εστιν), but the Vietnamese translation renders it as a question (được không? / ...sao?). The Greek 'δε' in this context is an interrogative particle used to frame a rhetorical question, but the Vietnamese 'sao?' implies a genuine inquiry for information, whereas the Greek structure is a declaration of a truth."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text 'εν δαμασκω' (in Damascus) is translated as 'Tại Đa-mách'. While the location is correct, the Greek specifies 'the city of the Damascenes' (τη δαμασκωνων πολιν). The Vietnamese translation 'thành của người Đa-mách' is acceptable, but the Greek phrasing 'πιασαι με θελων' (wanting to seize me) is rendered as 'muốn bắt tôi', which is accurate."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'εν δαμασκω' (In Damascus), but the Vietnamese starts with 'Tại Đa-mách'. There is no major fidelity issue here as it's a standard location marker."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

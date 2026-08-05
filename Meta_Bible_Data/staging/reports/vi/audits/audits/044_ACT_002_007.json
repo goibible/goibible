@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ιδου' is a negative construction (not/do not see), but the Vietnamese 'há chẳng phải là' translates it as a rhetorical question ('Are they not...?'). While rhetorically similar, the Greek is a direct statement of observation: 'They did not see [that] these are the Galileans speaking.' The Vietnamese adds a layer of questioning that isn't in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

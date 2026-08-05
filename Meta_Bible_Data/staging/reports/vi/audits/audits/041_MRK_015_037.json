@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξεπνευσεν' (exepneusen) literally means 'gave up the breath' or 'breathed out.' The Vietnamese translation 'trút linh hồn' (poured out the soul/spirit) is a common theological interpretation but is a significant shift from the literal physiological description in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

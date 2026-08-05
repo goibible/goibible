@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'εμε την πτερναν αυτου' (his heel against me), which is a crucial part of the quoted scripture. The Vietnamese only includes 'giơ gót chân lên nghịch cùng ta' (lifted his heel up against me), missing the specific 'against me' prepositional relationship/object structure as it relates to the Greek 'εμε'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

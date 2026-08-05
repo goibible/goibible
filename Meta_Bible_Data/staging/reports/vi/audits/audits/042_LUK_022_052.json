@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξεληλυθατε' is in the perfect tense, indicating a completed action (you have come out). The Vietnamese translation 'đi ra' is a simple present/past action. More importantly, the Greek structure implies they came out *as* robbers (identity/manner), whereas the Vietnamese phrasing 'như bắt kẻ cướp sao?' (as if catching a robber?) shifts the focus to the manner of their actions rather than their identity in the eyes of Jesus."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek text says 'ως επι ληστην' (as if/like robbers), but the Vietnamese 'như bắt kẻ cướp sao?' adds a questioning tone ('sao?') and a slight shift in syntax that makes it sound like they are being compared to a robber during an arrest, whereas the Greek is more direct about their status as robbers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

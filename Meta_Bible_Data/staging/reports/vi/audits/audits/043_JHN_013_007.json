@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ οιδας' is a present tense negative ('you do not know'), but the Vietnamese translation 'ngươi hiện không biết' (you currently do not know) combined with 'nhưng sau đó sẽ biết' (but later will know) slightly shifts the emphasis. However, the primary issue is the omission of the specific nuance of 'αρτι' (now/at this time). The Greek says 'now you do not know', whereas the Vietnamese puts 'hiện' (currently) in the second clause's contrast."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αρτι' (now) is specifically attached to the 'not knowing' part. The Vietnamese structure implies a chronological sequence that slightly obscures the immediate 'now' of the ignorance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

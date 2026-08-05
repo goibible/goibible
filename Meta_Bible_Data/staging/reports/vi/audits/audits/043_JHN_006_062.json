@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 62,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final clause 'οπου ην το προτερον' (where he was before) and replaces it with 'nơi Ngài vốn ở trước kia' (the place where He was before), but more importantly, it misses the nuance of the Greek 'αναβαινοντα' (ascending/going up). While 'lên' covers 'up', the Vietnamese phrasing 'thấy... thì thể nào' (see... then what) is a slightly different rhetorical structure than the Greek 'εαν... θεωρητε' (if... you see/consider)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

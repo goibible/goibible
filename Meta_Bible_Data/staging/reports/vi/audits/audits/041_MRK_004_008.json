@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδιδου καρπον' means 'bore fruit' (singular/collective), but the Vietnamese translation 'sinh trái, mọc lên và lớn lên' treats 'mọc lên và lớn lên' as separate actions from bearing fruit. More importantly, the final clause 'εν τριακοντα και εν εξηκοντα και εν εκατον' refers to the *yield* of the fruit (thirty, sixty, and a hundred), but the Vietnamese 'một hạt ba chục, một hạt sáu chục, một hạt một trăm' implies three separate seeds were planted/resulted, which misrepresents the Greek structure where one seed produced a yield of thirty, sixty, and a hundred."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

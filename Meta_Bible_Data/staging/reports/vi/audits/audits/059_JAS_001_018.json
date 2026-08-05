@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκυησεν' (apekyēsen) is a causative verb meaning 'to cause to be born' or 'to bring forth'. The Vietnamese 'đã dùng lời... sinh chúng ta' (used the word... to give birth to us) captures the causative sense, but the Greek structure 'απεκυησεν ημας λογω αληθειας' implies that the Word of Truth was the *instrument* or *means* by which He brought us forth. The Vietnamese phrasing is slightly ambiguous as to whether the Word itself 'gave birth' or if He used it as a tool; however, the primary issue is the nuance of 'απεκυησεν', which is more specific than just 'giving birth'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινα' (tina) is an indefinite pronoun meaning 'some' or 'a'. The Vietnamese 'trái đầu mùa' (firstfruits) captures the 'firstfruit' concept but misses the specific 'some/a' nuance of 'τινα', though in this context, it is often treated as a stylistic choice. However, the most significant issue is the grammatical relationship between 'απεκυησεν' and the objects."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

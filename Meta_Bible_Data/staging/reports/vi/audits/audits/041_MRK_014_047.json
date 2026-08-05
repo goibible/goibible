@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπασαμενος την μαχαιραν' (having drawn the sword) describes the action of drawing/unsheathing the weapon. The Vietnamese 'đánh' (hit/strike) suggests a striking motion, but the primary action in this phrase is the act of drawing the sword. More importantly, 'σπασαμενος' is a participle modifying the subject, and while 'đánh' captures the violence, it misses the specific action of 'drawing' the weapon."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επαινε' (struck/struck down) implies a forceful blow or striking. The Vietnamese 'đánh' is a general term for hitting; however, the Greek implies a more decisive strike. However, the most significant issue is that 'σπασαμενος' (having drawn) is rendered as part of the action of 'đánh', losing the specific detail of the weapon being unsheathed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

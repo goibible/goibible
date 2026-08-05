@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đầy tớ' (plural) incorrectly translates the Greek 'δουλον' (singular). The Greek indicates one servant, not multiple."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το τέλος' (to telos) means 'the due' or 'what is owed' in a legal/debt context. The Vietnamese translation 'sự cuối cùng' translates it as 'the last/final thing', which loses the specific meaning of a debt obligation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

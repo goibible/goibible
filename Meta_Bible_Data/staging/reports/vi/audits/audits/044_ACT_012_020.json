@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητουντο ειρηνην' (requested peace) is translated as 'xin bình an' (asked for peace), but the context of the Greek verb 'ητουντο' in this specific construction often implies 'demanded' or 'sought' a state of peace/security. However, more importantly, the phrase 'δια το τρεφεσθαι αυτων την χωραν απο της βασιλικης' describes the *reason* for the request: because their land was being nourished/sustained by the king's land. The Vietnamese 'vì miền của họ được nuôi dưỡng bởi xứ của vua' captures this, but the Greek 'ητουντο ειρηνην' is often interpreted as a demand for peace/security in the face of the king's anger."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đã thuyết phục' (persuaded) for 'πεισαντες' (having persuaded) is generally acceptable, but 'ητουντο ειρηνην' is the primary action. The Vietnamese structure makes it sound like they asked for peace *because* of the nourishing, which is correct, but the Greek 'ητουντο' can also mean 'to demand' or 'to seek' in a more forceful sense than 'xin' (ask/beg)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

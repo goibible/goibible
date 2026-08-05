@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προκαταρτισωσιν' (prokatartisōsin) means 'to prepare/ready' or 'to make ready'. The Vietnamese 'sắm sẵn' (to purchase/provide/prepare) combined with the preceding phrase is slightly ambiguous, but more importantly, the Greek 'προκαταρτισωσιν την προκατηγγελμενην ευλογιαν' describes the action of preparing the blessing. The Vietnamese phrasing 'đi trước đến cùng anh em' is a mistranslation of 'προελθωσιν εις υμας'. 'Προελθωσιν' means 'come to' or 'approach'. The Vietnamese 'đi trước đến cùng' suggests 'going ahead until the end/with', which is not in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

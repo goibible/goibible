@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενοντο' (had been/were) is rendered as 'được thực hiện' (were fulfilled/performed). The Greek describes where the powers *would have been* (hypothetical location), not their fulfillment."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετενοησαν' is an aorist tense, indicating a completed action of 'having repented.' The Vietnamese 'mà ăn năn rồi' (which already repented) is slightly ambiguous in context but the primary issue is the conditional construction. The Greek says 'if [they] had been in Tyre... they would have repented,' whereas the Vietnamese phrasing makes it sound like a statement of fact about their repentance if they were there."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

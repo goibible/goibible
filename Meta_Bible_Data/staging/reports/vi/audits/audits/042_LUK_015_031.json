@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει' (ei) functions as a conditional 'if', but the Vietnamese translation uses 'và' (and), changing the logical structure of the sentence from a condition to a simple conjunction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

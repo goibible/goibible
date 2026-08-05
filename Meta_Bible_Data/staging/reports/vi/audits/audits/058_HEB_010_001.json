@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πραγμάτων' (pragmatōn) means 'things' or 'realities', but the Vietnamese translates it as 'các việc' (works/deeds), which changes the ontological contrast between 'shadow' and 'reality'. It should be 'những sự việc' or 'thực tại'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατ ενιαυτον' refers to the 'annual' nature of the sacrifices. The Vietnamese 'hằng năm' (every year) is correct, but the phrasing 'những của tế lễ hằng dâng hằng năm' adds 'hằng dâng' (constantly offered), which is not in the text; it only specifies the annual frequency."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

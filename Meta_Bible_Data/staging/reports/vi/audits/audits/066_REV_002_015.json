@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτως' (outōs) means 'thus' or 'in this way,' which is missing in the Vietnamese translation. Furthermore, the Vietnamese 'những kẻ' (those who/people who) adds a plural noun that is not present in the Greek; the Greek 'συ κρατουντας' refers to 'you holding' (singular/plural person), but the Vietnamese phrasing shifts the focus to a group of people as an object rather than the action of the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

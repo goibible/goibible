@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πραθηναι' (to be sold) is rendered as 'bán được nhiều tiền' (can be sold for a lot of money). The Greek does not specify 'nhiều tiền' (a lot of money); it simply says 'πολλου' (much/many), which in this context refers to the quantity of the oil being sold or the extent of the sale, not necessarily the monetary value."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοθηναι' is a passive infinitive (to be given). The Vietnamese 'đem cho' (bring to/give to) is active. While often acceptable, in the context of 'sold and given,' the Greek implies a sequence of being sold [by many] and being given [to the poor]."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

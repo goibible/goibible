@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα σωθωσιν' (so that they might be saved) is rendered in Vietnamese as 'để họ hằng làm đầy dẫy tội lỗi mình' (so that they might continually fulfill their sins). The Vietnamese translation completely misses the purpose of the speech (salvation) and instead attributes the purpose to the fulfillment of sins, which is a significant reversal of the Greek meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

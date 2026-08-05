@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαληθεισης' (lalētheisēs) is a participle meaning 'having spoken/uttered' or 'having commanded'. The Vietnamese 'truyền' (passed down/transmitted) is acceptable, but the phrase 'rảy trên chính sách ấy' (sprinkled on that policy) is a significant mistranslation of 'αυτο τε το βιβλιον' (this book/scroll). The Greek refers to the physical scroll/book of the law being sprinkled, not a 'policy' (chính sách)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ερραντισεν' (errantisen) is missing. It means 'he sprinkled'. The Vietnamese translation leaves out the action of sprinkling entirely, only mentioning the items and the objects they were applied to."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

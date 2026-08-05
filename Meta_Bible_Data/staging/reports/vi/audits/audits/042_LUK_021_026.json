@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'αποψυχοντων' (apopsychontōn) is a present active participle, indicating an ongoing state or action (being terrified/faint-hearted). The Vietnamese translation 'sẽ mòn mỏi' uses the future tense ('sẽ'), which changes the temporal aspect of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

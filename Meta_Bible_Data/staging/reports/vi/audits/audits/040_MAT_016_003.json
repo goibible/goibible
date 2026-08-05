@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρωι σημερον' (this morning) is translated as 'Buổi sáng, hôm nay' (Morning, today), which slightly shifts the temporal focus from a specific time of day to a general period. However, the major issue is 'χειμων πυρραζει' (winter burns/glows red). The Vietnamese 'sẽ có mùa đông' (will have winter) misses the descriptive verb 'πυρραζει' (burns/glows red), which describes the state of the winter/sky."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσωπον του ουρανου' refers to the 'face of the heavens' (the appearance of the sky/stars). The Vietnamese translates this as 'mặt trời' (the sun), which is a significant factual change in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

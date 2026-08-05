@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'không có nhà tiên tri nào lớn hơn' (no prophet is greater) implies a general statement about all prophets. The Greek 'μειζων εν γεννητοις γυναικων προφητης ιωαννου' specifies that John is greater than any *other* of the children of women (i.e., among those born of human mothers). The Vietnamese phrasing loses the specific contrast between natural birth and spiritual status."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'kẻ rất nhỏ' (the very small/least) is a slightly imprecise rendering of 'ο δε μικροτερος' (the least/smallest one). While acceptable, the primary issue remains the structural shift in the first clause regarding the scope of John's greatness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

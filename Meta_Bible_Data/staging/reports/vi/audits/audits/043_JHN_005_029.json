@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστασιν ζωης' (resurrection of life) and 'αναστασιν κρισεως' (resurrection of judgment) are rendered in Vietnamese as 'sự sống lại của sự sống' and 'sự sống lại của sự phán xét'. In Greek, 'ζωης' and 'κρισεως' are genitives modifying 'αναστασιν'. The Vietnamese structure 'sự sống lại của...' implies a possession or source ('resurrection *of* life') rather than the intended distinction of the *type* of resurrection (Resurrection [to] Life vs. Resurrection [to] Judgment). However, more critically, the Vietnamese 'đến' (to/towards) is an addition not present in the Greek text, which simply states they will be 'brought forth' (εκπορευσονται)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

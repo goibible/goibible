@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φωνηθηναι' (phonēthēnai) is a passive infinitive meaning 'to be called'. The Vietnamese translation 'Hãy kêu người ấy' (Call that person) renders it as an imperative command to call, rather than the statement of fact/purpose that he was to be called."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'φωνηθηναι και φωνουσιν' implies a sequence or connection (to be called and they are calling). The Vietnamese translation separates these into distinct commands/actions without capturing the specific grammatical structure of the infinitive used in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

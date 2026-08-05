@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δειξατω' is a 1st person singular verb ('I shall show/let me show'), but the Vietnamese 'hãy... bày tỏ' is an imperative or hortatory command ('let us/you show'). The subject of the action is changed from the speaker to a general command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκ της καλης αναστροφης' (from the good conduct) implies that the works are shown *through* or *out of* good conduct. The Vietnamese 'lấy cách ăn ở tốt mà bày tỏ' (take good conduct to show) slightly shifts the relationship between the means and the result, though it is close."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

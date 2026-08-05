@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ανεκλιναν' (aneklinan) means 'they reclined' or 'they sat down' (referring to the subjects). The Vietnamese translation 'cho mọi người ngồi xuống' translates to 'they caused everyone to sit down' (a causative action on others), which changes who is performing the action and who is being affected."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

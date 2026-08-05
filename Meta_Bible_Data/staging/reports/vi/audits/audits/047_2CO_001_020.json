@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds 'cũng bởi Ngài mà chúng tôi nói' (and also by Him we say), whereas the Greek 'εν αυτω το αμην' indicates that the 'Amen' is *in* Him, just as the 'Yes' is in Him. The Vietnamese phrasing shifts the focus to an action performed 'by' Him rather than the location/source of the Amen being 'in' Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

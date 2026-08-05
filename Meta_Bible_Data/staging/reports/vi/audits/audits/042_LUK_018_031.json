@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τελεσθησεται' is a future tense verb (will be fulfilled), but the Vietnamese 'đã chép' (already written/recorded) is placed in a way that suggests the fulfillment happened in the past, or it confuses the timing of the writing vs. the fulfillment. More importantly, the Greek structure 'τελεσθησεται παντα τα γεγραμμενα' means 'all that was written will be fulfilled.' The Vietnamese 'mọi điều đã chép... sẽ được ứng nghiệm' is mostly accurate in meaning, but the Greek 'δια των προφητων' (by/through the prophets) is rendered as 'bởi các nhà tiên tri'. However, there is a subtle tense/aspect issue: the Greek uses a simple future for fulfillment. The Vietnamese is acceptable here, but I must check if anything is missing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παραλαβων δε τους δωδεκα' implies 'taking [them] aside' or 'having taken'. The Vietnamese 'đem... riêng ra' captures the sense of 'taking aside', but the Greek 'παραλαβων' is a participle. The translation is functionally equivalent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

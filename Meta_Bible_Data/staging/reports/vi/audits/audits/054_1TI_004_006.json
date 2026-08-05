@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υποτιθεμενος' (hypotithemenos) is a participle meaning 'assuming,' 'supposing,' or 'presuming.' The Vietnamese translation 'Khi con trình bày' (When I present/present) changes the grammatical structure from a conditional assumption to a temporal action of presentation, which is not in the Greek."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'η παρηκολουθηκας' (ē parēkolouthēkas) is in the Aorist tense, indicating a completed action (you followed/have followed). The Vietnamese 'đã theo' correctly captures the tense, but the overall construction of the sentence changes the relationship between the assumption and the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

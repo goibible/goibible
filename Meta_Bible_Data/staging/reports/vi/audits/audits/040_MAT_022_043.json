@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'καλει' (kalei) is an active verb meaning 'calls'. The Vietnamese translation 'gọi Ngài là Chúa' (calls Him Lord) is a common interpretative rendering, but the Greek literally says David 'calls [him] in spirit', where 'Kyrion' (Lord) is the object of the calling or the manner. More importantly, the Vietnamese adds 'vì cớ nào' (why/how), which is not present in the Greek text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

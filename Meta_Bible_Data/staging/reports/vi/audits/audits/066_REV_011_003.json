@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημερας χιλιας διακοσιας εξηκοντα' refers to a thousand two hundred and sixty YEARS (χιλιαδες), but the Vietnamese translation uses 'ngày' (days)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

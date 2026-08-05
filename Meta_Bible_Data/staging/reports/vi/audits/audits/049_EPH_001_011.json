@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'là kẻ đã được định trước' (who/which was predestined) incorrectly identifies the subject of the predestination. In the Greek, 'προορισθεντες' (predestined) is a nominative plural participle modifying 'εμείς' (we), meaning 'we were predestined.' The Vietnamese construction makes it sound as if the 'inheritance' or a third person was predestined."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν ω' (in whom) is rendered as 'Trong Ngài', but the phrase 'εκληρωθημεν' (we have inherited/received an inheritance) is slightly compressed. More importantly, the Vietnamese fails to clearly link 'predestined' back to 'us' as the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds the phrase 'nhưng thiếu cơ hội' (but lack opportunity), which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηκαιρεισθε δε' (you are being hindered/prevented) is rendered as 'thiếu cơ hội' (lack of opportunity). While related, the Greek implies an active hindrance or prevention rather than just a lack of opportunity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

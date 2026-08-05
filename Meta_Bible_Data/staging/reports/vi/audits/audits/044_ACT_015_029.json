@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Kính chúc bình an!' (Peace be with you/I wish you peace) at the end, which has no basis in the Greek text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

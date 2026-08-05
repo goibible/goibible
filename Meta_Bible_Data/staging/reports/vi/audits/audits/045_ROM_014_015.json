@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'βρωμα' (broma) means 'food' or 'sustenance', but in the context of this specific scripture (1 John 2:12), it is often understood as 'food' in a general sense. However, the Vietnamese translation uses 'đồ ăn' (food) for both instances, whereas the Greek structure 'μὴ τῷ βρωματί σου' refers specifically to 'your food' (the physical sustenance/provisions of the brother). The primary issue is the structural shift: the Greek says 'don't walk [in love] because of your food', but the Vietnamese splits this into two sentences, making it sound like a command to not destroy the person, which slightly alters the flow of the causal relationship in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific connection between 'walking' (περιπατεις) and the 'food' (βρωματι). The Greek structure is 'don't walk [in love] because of your food', but the Vietnamese renders it as 'don't walk in love anymore... [then a new sentence] Don't destroy...'. The Greek links the reason for not walking in love directly to the food."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

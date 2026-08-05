@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation attributes 'đầy ân điển và lẽ thật' (full of grace and truth) to the Word/Incarnation ('Ngôi Lời') in the first clause. In the Greek text, 'πληρης χαριτος και αληθειας' modifies 'δοξαν' (glory), describing the glory of the only begotten Son."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'δοξαν ως μονογενους' as 'vinh hiển của Con một', which implies the glory *of* the Only Begotten. The Greek 'δοξαν ως μονογενους' more accurately means 'glory as [the] only-begotten' (the nature of the glory being that of the only-begotten)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεταραχθη' (dietarachthē) is passive/deponent, meaning 'she was disturbed' or 'was troubled'. The Vietnamese 'bối rối' (confused/perplexed) captures the state but loses the specific nuance of being 'disturbed' or 'agitated' by the word. More importantly, 'διεταραχθη επι τω λογω αυτου' specifies she was disturbed *at/by his word*, whereas the Vietnamese 'Nghe lời ấy' (Hearing that word) changes the causal structure from a reaction to a specific word to a general reaction to hearing something."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποταπος ειη ο ασπασμος ουτος' asks 'what might this greeting be?' (questioning the nature/identity of the greeting). The Vietnamese 'có ý nghĩa gì' (what does it mean?) shifts the focus to 'meaning' rather than 'what/which [thing] is this'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τω πνευματι' (by the Spirit) is rendered as 'Thánh Linh' (Holy Spirit). While 'Spirit' is the correct term, the Vietnamese translation implies a specific personification ('người ấy') that is not present in the Greek text, which uses the neuter 'πνεῦμα'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

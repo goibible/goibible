@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'διεζωσεν' (diezōsen) is missing. It means 'he girded himself' (thắt lưng/đeo vào). The Vietnamese translation stops at 'lấy khăn thắt lưng mình' (took his belt), omitting the action of actually putting it on."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

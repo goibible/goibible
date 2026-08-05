@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'ετερω δε γενη γλωσσων' (different kinds of tongues), but the Vietnamese translation omits the word 'khác' (different/other) or 'các loại' (kinds) to reflect 'ετερω' and 'γενη'. It translates it simply as 'các dòng dõi lưỡi'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

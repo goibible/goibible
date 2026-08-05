@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο' (it happened/it came to pass) indicates a specific occurrence or event, but the Vietnamese 'đang khi' (while/at the time when) frames it as a continuous simultaneous action. More importantly, the Greek 'επικεισθαι' (to press upon/crowd around) describes the crowd pressing in on Him, whereas the Vietnamese 'chen lấn nhau' (crowding each other) suggests they are pushing against each other rather than specifically pressing toward Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

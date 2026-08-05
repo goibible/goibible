@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλω προσεχοντας' (pollo prosēchontas) means 'not giving much heed to/not being mindful of,' but the Vietnamese 'không chăm chú vào rượu nhiều' translates it as 'not paying much attention to alcohol.' While similar, the Greek construction implies a lack of preoccupation or 'heeding' rather than just 'paying attention' to the substance itself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

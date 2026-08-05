@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακεχειμακοτι' is a participle modifying the ship (πλοιω), meaning the ship was 'wintered' or 'laid up for the winter'. The Vietnamese translation 'đã qua mùa đông' (already passed the winter) incorrectly attributes the passage of time to the people/subject rather than describing the state of the ship."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρασημω' means 'marked' or 'signed'. The Vietnamese 'có dấu' (has a mark) is acceptable, but the overall structure of the sentence in Vietnamese makes it unclear whether 'đảo đó' refers to the island mentioned in the Greek ('νησω αλεξανδρινω') or if it is just a general reference."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

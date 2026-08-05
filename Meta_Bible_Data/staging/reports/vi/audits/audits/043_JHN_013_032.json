@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'chính' (self/own) to 'trong chính mình Ngài', which is not present in the Greek 'εν εαυτω'. While it clarifies the reflexive nature, it technically adds an emphatic component not in the source."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Ngài sẽ lập tức làm vinh hiển Ngài' (He will immediately glorify Him) fails to specify *who* is doing the glorifying. The Greek 'ευθυς δοξασει αυτον' follows the previous clause where 'ο θεος' (God) is the subject, but the Vietnamese phrasing makes it sound like a general 'He', potentially losing the clear continuity of God as the actor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

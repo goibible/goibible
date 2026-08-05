@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the subject and object of the verb 'teleiosai' (τελειωσαι). In the Greek, the 'Author of their salvation' is the one being perfected/completed through suffering ('...τον αρχηγον της σωτηριας αυτων δια παθηματων τελειωσαι'). The Vietnamese translates this as if the Author of salvation was the one 'making' someone else perfect ('thì đã khiến Đấng khởi nguyên... nên trọn lành'), changing the grammatical structure from a purpose clause regarding the perfection of the Author to an action performed by the Author."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese phrasing 'là phải lắm' at the end is a very weak and awkward rendering of 'eprepen gar', which functions as a strong 'for it was necessary'. While not a total meaning reversal, it significantly weakens the emphasis of the Greek 'gar' (for/because) and 'eprepen' (it was necessary)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

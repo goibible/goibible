@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the possessive construction 'του' (of/belonging to) which links the names together. In Greek, the names are in the genitive case, implying a relationship of belonging or association (e.g., 'the [something] of Melea, of Mathatha...'). The Vietnamese version presents them as a simple list of independent names."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

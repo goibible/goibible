@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τας επιθυμιας του πατρος υμων' refers to the desires of *your* father (the devil). The Vietnamese translation 'lòng ham muốn của Cha mình' uses 'mình' (my/self), which shifts the possession from 'your father' to 'my father' or 'one's own father'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι ψευστης εστιν και ο πατηρ αυτου' means 'that his father is also a liar'. The Vietnamese translation 'là Cha của sự nói dối' renders it as 'is the Father of lies', which is a common theological idiom but technically changes the Greek structure from 'his father is a liar' to 'he is the father of lies'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

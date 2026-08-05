@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη διαβολους' (not [be] devils) is rendered as 'chớ nói xấu' (do not speak ill/badly). The Greek describes the nature of the woman (not being like devils), whereas the Vietnamese renders it as a prohibition against a specific action (speaking ill)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithe) is a passive/middle construction meaning 'he was answered' or 'it was answered to him'. The Vietnamese 'trả lời' (tra loi) implies an active voice where Phê-tu is the one answering, which reverses the direction of the action in the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μετα του συμβουλιου' (meta tou symvuliou) implies 'after/following the council'. The Vietnamese 'bàn luận với hội đồng mình' (discussed with his council) changes the relationship from a chronological sequence to a collaborative action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

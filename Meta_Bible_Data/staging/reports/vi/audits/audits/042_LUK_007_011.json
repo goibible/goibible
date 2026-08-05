@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation states that the city 'has many disciples' (có nhiều môn đồ), whereas the Greek text says the disciples were traveling 'with him' (συνεπορευοντο αυτω οι μαθηται αυτου). The Vietnamese version misattributes the disciples to the city rather than to the movement of the group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και ου κρατων' (and not holding/grasping) is part of a participial construction. The Vietnamese 'và không nắm giữ đầu, từ đó...' suggests a causal sequence ('from that') that is not present in the Greek text. The Greek structure implies that because the head is not being grasped/held [by something else], the body is supplied and joined."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

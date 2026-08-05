@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατεφαγεν αυτα' (ate them) is rendered as 'ăn hết' (ate all of them). While 'hết' conveys the result, the Greek text does not specify 'all' (ὅλα), only that they ate them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

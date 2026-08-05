@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nên' (should/ought to) incorrectly interprets the verb 'εδοξεν' (it seemed/it occurred to us). The Greek indicates a spontaneous thought or impression ('it seemed to us'), not a moral obligation or recommendation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'γενομενοις ομοθυμαδον εκλεξαμενους' (having been chosen with one mind) is missing. The Vietnamese 'đồng lòng chọn' (unanimously choosing) misses the passive/participial sense that they were *chosen* by the group, rather than the act of the subjects choosing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

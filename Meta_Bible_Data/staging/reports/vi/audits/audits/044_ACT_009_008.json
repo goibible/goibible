@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'χειραγωγουντες δε αυτον εισηγαγον' implies that they were 'leading/guiding him' (active action by the others), but the Vietnamese 'dắt tay ông' (taking his hand) adds a specific physical detail ('hand') not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεωγμενων δε των οφθαλμων αυτου' literally means 'with his eyes not opened'. The Vietnamese 'mắt mở ra' (eyes opened) is the opposite of the Greek meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

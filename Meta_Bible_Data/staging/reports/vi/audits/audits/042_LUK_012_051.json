@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχι λεγω υμιν' (not I say to you) is a negation of the speaker's action/statement. The Vietnamese translation 'Ta nói cùng các ngươi, không' (I say to you, no) changes the structure such that 'no' appears to negate the previous question, whereas in Greek, the speaker is negating the act of 'saying' peace. More importantly, the Vietnamese 'không' is placed after a comma as an interjection, while the Greek 'ουχι' directly modifies 'λεγω'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

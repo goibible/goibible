@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιησαι ενα προσηλυτον' (to make someone a proselyte) is translated as 'làm cho một người trở thành người mới theo đạo' (to make someone a new person in the faith). While 'proselyte' implies conversion, the Vietnamese rendering 'người mới theo đạo' adds a nuance of 'newness' not present in the specific term 'proselytos'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διπλοτερον υμων' (twice as much as you/doubly your [sin]) is rendered as 'gấp đôi các ngươi' (double you). The Vietnamese phrasing lacks the sense of 'doubly' referring to the magnitude of the sin/offense, making it sound like a numerical doubling of the people themselves."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

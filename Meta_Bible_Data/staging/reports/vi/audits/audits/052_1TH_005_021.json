@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοκιμαζετε' (dokimazete) in this context means 'test' or 'examine' (as in discerning/evaluating), whereas the Vietnamese 'thử nghiệm' often implies 'experimenting with' or 'trying out' an action. Furthermore, the Greek 'παντα' (panta) modifies the testing of the good, but the Vietnamese structure suggests testing 'all things' (mọi sự) and then keeping the good, which slightly shifts the scope of the command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

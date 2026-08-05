@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι υιος ανθρωπου εστιν' (that he is the Son of Man) is a causal/explanatory clause justifying the authority, but the Vietnamese 'vì Con là Con người' (because I am the Son of Man) changes the perspective from the third person ('He') to the first person ('I'). The Greek refers to Jesus in the third person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'đồng một thứ với' (is the same thing as) fails to capture the specific Greek meaning of 'καταισχυνει' (shames/disgraces) in relation to the preceding clause. More importantly, the Vietnamese translation of 'η προφητευουσα' as 'hoặc nói tiên tri' (or prophesying) changes the structure from a coordinated subject ('woman praying [and] prophesying') to an alternative choice ('praying or prophesying')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'xác thịt hay chết' (mortal flesh or death) introduces a choice/disjunction ('hay') that is not in the Greek. The Greek 'τη θνητη σαρκι' means 'the mortal flesh'. The Vietnamese phrasing suggests two different things, whereas the Greek refers to one concept: 'mortal flesh'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

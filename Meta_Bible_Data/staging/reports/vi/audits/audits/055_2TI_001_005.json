@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λοιδι' (loidi) is a common error or variant for 'λοΐδης' (Loidis), but the Vietnamese translation renders 'λοιδι' as 'bà Lô-ít'. More importantly, the Greek text says 'εν τη μαμμη σου' (in your mother) followed by 'λοιδι', which is grammatically confusing in the source. However, the Vietnamese treats 'Lô-ít' and 'Ơ-nít' as two separate people/entities, whereas the Greek structure 'εν τη μαμμη σου [loidi] και τη μητρι σου [euneiki]' suggests a specific phrasing regarding the mother. The primary issue is that 'λοιδι' (Loidis) is a name, but the Vietnamese 'Lô-ít' is a phonetic rendering that may be confusing if it doesn't match the intended proper noun."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ητις ενωκησεν πρωτον' (which was first established) is translated as 'là đức tin đã ở trước'. While 'đã ở trước' conveys the timing, it misses the nuance of 'established/founded' (ενωκησεν)."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

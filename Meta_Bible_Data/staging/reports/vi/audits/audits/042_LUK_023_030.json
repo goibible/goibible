@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'αρξονται' (arxontai) is present tense, indicating they are currently starting to speak. The Vietnamese translation 'sẽ bắt đầu' uses the future tense ('will start')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

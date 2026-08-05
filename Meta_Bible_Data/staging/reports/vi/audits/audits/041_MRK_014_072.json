@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 72,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek says 'πριν αλεκτορα φωνησαι' (before the rooster crows), but the Vietnamese translates it as 'Trước khi gà trống gáy hai lần' (Before the rooster crows twice). The Vietnamese adds 'hai lần' (twice) which is not in the Greek phrase, although it matches the preceding clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek says 'εκλαιεν' (he wept/cried out), but the Vietnamese translates it as 'bật khóc' (burst into tears). While semantically close, the Greek 'εκλαίεν' can also imply a loud crying out or wailing; however, the primary issue is the addition of 'hai lần' in the quote."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

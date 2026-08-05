@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι πασιν τοις υπαρχουσιν αυτου' means 'over all his possessions/things,' but the Vietnamese 'cai quản mọi tài sản của mình' implies 'managing all of his assets.' While close, the Greek 'υπαρχουσιν' refers to things that belong to him (possessions), whereas the Vietnamese phrasing suggests a specific administrative role over 'assets' which is slightly more specific than the broad 'things/possessions' in the Greek."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'καταστησει αυτον' means 'will put him [in charge] / appoint him.' The Vietnamese 'đặt người ấy cai quản' is a good rendering, but the focus of the Greek is on the act of 'setting/appointing' him over the things."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

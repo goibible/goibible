@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν μη' (ean mē) means 'unless'. The Vietnamese translation 'nếu... không' (if... not) changes the logical structure. The Greek says 'No one can come... unless the Father... draws him.' The Vietnamese implies a conditional 'If the Father does not draw him, then no one can come,' which subtly alters the emphasis and logic of the Greek conditional."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

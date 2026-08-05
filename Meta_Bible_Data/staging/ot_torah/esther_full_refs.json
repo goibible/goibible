@@ -1,0 +1,22 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Esther QA batch.",
+  "groups": [
+    {
+      "name": "Esther full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "EST 1",
+        "EST 2",
+        "EST 3",
+        "EST 4",
+        "EST 5",
+        "EST 6",
+        "EST 7",
+        "EST 8",
+        "EST 9",
+        "EST 10"
+      ]
+    }
+  ]
+}

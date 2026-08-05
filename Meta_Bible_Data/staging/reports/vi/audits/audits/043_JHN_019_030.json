@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the subject of the final verb phrase. The Greek 'παρεδωκεν' (paredōken) is a third-person singular verb, which in this context refers back to Jesus ('ο ιησους'). The Vietnamese 'giao lại tâm linh' lacks a clear subject, making it grammatically ambiguous whether it refers to Jesus or the 'giấm' (vinegar/wine) mentioned earlier."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

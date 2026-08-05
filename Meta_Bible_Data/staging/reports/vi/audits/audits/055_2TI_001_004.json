@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαρας' (charas) means 'joy', but the Vietnamese translation uses 'đầy niềm vui' (filled with joy) to translate 'πληρωθω' (be filled/satisfied). However, the Greek 'πληρωθω' in this context refers to the 'filling' or 'satisfying' of the longing/desire expressed in the first part of the sentence. More importantly, the Greek 'επιποθων σε ιδειν' (I desire to see you) is the primary object of the desire, while 'πληρωθω' describes the result for the speaker."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μεμνημενος σου' (remembering you) is rendered as 'nhớ đến', but it specifically functions as a participle describing the state of the speaker while desiring to see the person. The translation captures the meaning well, but the connection between 'remembering' and 'desiring' is slightly flattened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιποθιαν' (epipothian) is an intensive form of 'desire/longing', but the Vietnamese 'lòng mong ước lớn' adds the specific descriptor 'lớn' (great/big) which, while capturing the intensity, slightly shifts the focus. More importantly, the Greek 'δε εχων' (do not have) is correctly negated, but the Vietnamese structure 'không còn có... và tôi có...' creates a slightly different flow. However, the primary issue is that 'επιποθιαν' is a very strong, almost 'burning' desire/longing; 'mong ước' can sometimes be weaker than the Greek intensity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

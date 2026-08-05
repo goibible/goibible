@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αντιπαρηλθεν' implies moving past/by someone else (the prefix anti-). The Vietnamese 'đi qua khỏi' (went past) is missing the implied object of whom he passed, though 'thấy người đó' (saw that person) is added to clarify. However, the most significant issue is the loss of the specific movement nuance in 'αντιπαρηλθεν' which is more than just 'going past'; it is 'passing by/on the other side'. More importantly, the Vietnamese 'thấy người đó' (saw that person) adds a specific object ('người đó') not explicitly present as a pronoun in the Greek 'αντιπαρηλθεν', though it is contextually implied. The main issue is the slight shift in the action of 'passing by'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

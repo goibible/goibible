@@ -1,0 +1,8 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+GEN,8,9,orange,missing_expected_name,Nô-ê,,Expected approved name 'Nô-ê' from VIE1934 occurrence.
+GEN,25,11,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+GEN,29,28,orange,missing_expected_name,Lê-a,,Expected approved name 'Lê-a' from VIE1934 occurrence.
+GEN,35,18,orange,missing_expected_name,Ra-chên,,Expected approved name 'Ra-chên' from VIE1934 occurrence.
+GEN,36,38,orange,missing_expected_name,Ba-anh-Ha-nan,,Expected approved name 'Ba-anh-Ha-nan' from VIE1934 occurrence.
+GEN,36,39,orange,missing_expected_name,Ba-anh-Ha-nan,,Expected approved name 'Ba-anh-Ha-nan' from VIE1934 occurrence.
+GEN,37,36,orange,missing_expected_name,Giô-sép,,Expected approved name 'Giô-sép' from VIE1934 occurrence.

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εποιησεν' (epoiesen) means 'made' or 'created'. The Vietnamese translation 'đã tôn' (elevated/exalted) changes the nature of the action from God's act of making Him Lord/Christ to an act of elevation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

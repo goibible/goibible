@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναγκην' (anagken) means 'necessity' or 'obligation'. The Vietnamese 'phải' (must/have to) correctly captures the obligation, but the Greek 'ειχεν απολυειν' is an imperfect active infinitive (had to release), while the Vietnamese 'phải tha' is a simple present/future obligation. More importantly, the Greek 'απολυειν αυτοις' means 'to release them' (plural), whereas the Vietnamese 'tha một tên tù' translates it as 'release one prisoner' (singular). The Greek does not specify 'one' (μονος) nor does it identify them specifically as 'prisoners' (though implied by context, the Greek is simply 'them')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

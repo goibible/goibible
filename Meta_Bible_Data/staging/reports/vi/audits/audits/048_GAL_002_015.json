@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμαρτωλοι' (sinners) is an adjective modifying the subject 'ημεις' (we). The Vietnamese translation incorrectly attaches 'có tội' (sinful/sinners) to 'dân ngoại' (Gentiles), making it sound like they are 'sinful Gentiles' rather than 'we [who are] sinners'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

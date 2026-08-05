@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ησπαζοντο' (hispazonto) means to 'greet' or 'salute' in a formal/respectful sense, but the Vietnamese 'chào' is a general greeting. More importantly, the Greek describes an action of 'approaching to greet' (prostrechontes hispazonto), whereas the Vietnamese phrasing 'chạy đến chào' (ran to greet) captures the movement but slightly simplifies the specific nuance of the Greek interaction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

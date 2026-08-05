@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 9,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σκηνή' (skēnē) refers to the 'tabernacle' or 'tent', but the Vietnamese 'đền' usually implies a permanent temple/shrine. The phrase 'đền tạm' is an attempt to capture 'tabernacle', but 'bức màn' (curtain/veil) is the primary subject of the Greek phrase 'το δευτερον καταπετασμα'. The Vietnamese structure makes it sound like there is a 'temporary temple' behind the curtain, whereas the Greek says the curtain *is* the one leading to the 'tabernacle called the Holy of Holies'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

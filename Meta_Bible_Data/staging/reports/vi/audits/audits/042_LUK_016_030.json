@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πορευθη' (poreuthe) is a present active subjunctive, implying 'if they were to go' or 'if they go'. The Vietnamese 'đi' is a simple present/future verb. More importantly, the Greek 'πορευθη' (to go/travel) is rendered in Vietnamese as 'đi đến cùng họ' (go to be with them). While 'đi' captures the motion, the construction 'đi đến cùng họ' adds a sense of 'going to be with' or 'going to join' that is not explicitly in the Greek verb 'πορευθη'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'εἰ ἐν Σοδόμοις ἐγένοντο αἱ δυνάμεις αἱ γενόμεναι ἐν σοί' — 'if the miracles that were done in you had been done in Sodom'. The Vietnamese reverses the location: it says 'những quyền năng đã làm ra giữa ngươi mà đã làm ra trong Sô-đôm' — 'the powers that were done among you that were done in Sodom', making it sound as if the miracles were done in Sodom, not in Capernaum. This changes the meaning of the conditional."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

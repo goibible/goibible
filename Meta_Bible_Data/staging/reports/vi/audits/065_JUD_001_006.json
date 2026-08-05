@@ -1,0 +1,55 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τε' (te) functions as a coordinating conjunction ('and') or emphatic particle. The Vietnamese translation interprets the relationship between the clauses as a causal/consecutive result ('thì'), which changes the grammatical structure of the sentence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τε τους' (te tous) indicates the angels are the subject being discussed; the Vietnamese phrasing 'Các thiên sứ... thì Ngài' creates a shift in subject/agent that is not present in the original Greek structure."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'τετηρηκεν' (tetērēken) is a perfect active indicative, 3rd person singular. The Vietnamese 'đã dùng... cầm giữ' correctly captures the perfect aspect but loses the specific singular subject focus of the Greek verb."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 5083,
+          "lemma": "tēréō",
+          "problem": "distorted",
+          "detail": "The first instance of 'tēréō' (keep) is translated as 'giữ', but the sentence structure in Vietnamese suggests a passive/state result ('không giữ') while the Greek is an active participle. More importantly, the second instance of 'tēréō' (keep) is translated as 'cầm giữ' (held/kept), which is accurate, but the overall flow of the Vietnamese sentence makes it sound like a description of the angels rather than the action performed by the subject."
+        },
+        {
+          "strongs_num": 2398,
+          "lemma": "ídios",
+          "problem": "unjustified_addition",
+          "detail": "The Vietnamese adds 'riêng' (own/private) for 'idion', which is correct, but the phrase 'nhà ở riêng của mình' adds a possessive nuance ('của mình') that is slightly redundant with 'idion'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

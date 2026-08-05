@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'παροξυσμον' (paroxysmon) refers to a 'spasm', 'outburst', or 'fervor'. The Vietnamese translation 'tranh cạnh' means 'competition' or 'rivalry', which is a significant shift in meaning from the intended sense of an intense, overflowing expression of love."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

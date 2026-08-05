@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου τη σαρκι του' (not to the flesh) is an object of the verb 'οφειλεται' (owe/debt). The Vietnamese translation 'không phải của xác thịt' (not of the flesh) changes the grammatical relationship from a debt owed *to* someone into a description of what we are *not*. In Greek, the debt is to the flesh; in Vietnamese, it reads as if we are not 'of' the flesh."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

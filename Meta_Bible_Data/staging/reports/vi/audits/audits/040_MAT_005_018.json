@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιωτα εν η μια κεραια' refers to 'a jot (iota) or a tittle (keraia)'—the smallest marks of the Hebrew letters. The Vietnamese translation 'một chấm hay một dấu phết trong luật' (a dot or a dash in the law) misses the specific nuance of these being the smallest components of the letters, but more importantly, the Greek 'εν' (in/among) is rendered as 'trong', which is acceptable, but the phrase structure in Vietnamese makes it sound like a single mark *within* the law, whereas the Greek implies even the smallest stroke of a letter in the Law will not pass."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'εως αν παντα γενηται' (until all things become) is rendered as 'cho đến khi mọi sự xảy ra'. While 'xảy ra' is a common translation for 'genetai', in this context it refers to the 'becoming' or 'fulfillment' of all things. However, the primary issue is the phrasing of the 'iota/keraia' which is slightly diminished by the Vietnamese choice of 'dấu phết' (dash/stroke)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα μη το χωλον εκτραπη ιαθη δε μαλλον' means 'so that the lame person might not be twisted/stumbled, but rather healed.' The Vietnamese translation 'để kẻ què khỏi bị trẹo, nhưng thà được chữa lành' uses 'thà' (rather/preferably), which implies a choice or preference. The Greek 'δε μαλλον' functions as a contrastive 'but rather,' indicating the intended outcome of the action (healing) rather than a subjective preference."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

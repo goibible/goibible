@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'επερωτων' (asked/questioned) is rendered as a statement of the crowd asking, but the Vietnamese translation omits the specific action of the crowd questioning him. More importantly, the Greek 'τι ουν ποιησομεν' implies a sense of 'then what shall we do?' (the 'oun' is a connective/consecutive). While the Vietnamese captures the question, it misses the nuance of the 'questioning' as an action performed by the crowds upon Him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

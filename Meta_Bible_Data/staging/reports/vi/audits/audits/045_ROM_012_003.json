@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φρονειν εις το σωφρονειν' implies 'to exercise self-control' or 'to behave soberly/sensibly.' The Vietnamese translation 'có tâm tình tầm thường' (having an ordinary/mediocre disposition) captures a sense of humility but misses the specific nuance of 'σωφρονειν', which refers to self-restraint and sound judgment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

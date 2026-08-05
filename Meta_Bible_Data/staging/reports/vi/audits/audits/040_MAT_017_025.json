@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'η κηνσον' as 'sự cuối cùng' (the end/finality), but the Greek word 'κηνσον' (kenēson) in this context refers to 'tribute' or 'tax' (often used in tandem with 'τελη'). The Vietnamese phrasing makes it sound like a philosophical concept of 'the end' rather than a second type of tax/tribute."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

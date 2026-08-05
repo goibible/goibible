@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τους οχλους' (the crowds) is rendered as 'đám đông' (the crowd), but the Vietnamese fails to capture that the Jews were angry *at* or *because of* the crowds (or specifically, the crowds were the object of their observation). More importantly, the phrase 'τοις υπο του παυλου λεγομενοις' (to those things being said by Paul) is condensed into 'những điều Phao-lô nói', omitting the specific nuance of 'those things being spoken by/under Paul'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επλησθησαν ζηλου' (were filled with jealousy/zeal) is translated as 'đầy lòng sốt sắng'. While 'sốt sắng' can mean zeal, in the context of 'ζηλου' (jealousy) and the subsequent 'αντελεγον' (contradicting), 'sốt sắng' often carries a positive connotation of 'fervor' or 'enthusiasm' in Vietnamese, whereas 'ζηλου' here implies a hostile, jealous reaction. However, since it is a matter of nuance, I will flag it primarily for the structural compression of the 'spoken by' clause."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντα' (panta) means 'all things' or 'always'. The Vietnamese translation 'Mọi việc của anh em' (All your works/affairs) adds the possessive 'của anh em' (your), which is not present in the Greek text. The Greek simply says 'let all [things] be done...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

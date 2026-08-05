@@ -1,0 +1,11 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+DEU,2,21,orange,missing_expected_name,Am-môn,,Expected approved name 'Am-môn' from VIE1934 occurrence.
+DEU,2,21,orange,missing_expected_name,Rê-pha-im,,Expected approved name 'Rê-pha-im' from VIE1934 occurrence.
+DEU,4,15,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,9,4,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,10,7,orange,missing_expected_name,Y-sơ-ra-ên,,Expected approved name 'Y-sơ-ra-ên' from VIE1934 occurrence.
+DEU,13,17,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,24,9,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,28,14,orange,missing_expected_name,Đức Giê-hô-va,,Expected approved name 'Đức Giê-hô-va' from VIE1934 occurrence.
+DEU,32,43,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+DEU,33,9,orange,missing_expected_name,Lê-vi,,Expected approved name 'Lê-vi' from VIE1934 occurrence.

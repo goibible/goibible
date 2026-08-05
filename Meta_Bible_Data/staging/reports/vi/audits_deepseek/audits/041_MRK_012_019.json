@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'καταλίπῃ γυναῖκα καὶ τέκνα μὴ ᾖ' (leaves a wife and has no children), i.e., the man dies leaving a wife but no children. The Vietnamese 'để lại vợ mà không có con cái' conveys this correctly. However, the Greek phrase 'καὶ τέκνα μὴ ᾖ' means 'and has no children' — the Vietnamese 'mà không có con cái' is an accurate rendering. The issue is that the Greek does not say 'không có con cái' as a separate condition but as part of the same clause; this is acceptable. The real problem: the Greek says 'εἰς τὸ ὄνομα αὐτοῦ' is not present; the Vietnamese adds 'cho anh em mình' which is fine. Actually, the Greek 'τῷ ἀδελφῷ αὐτοῦ' means 'for his brother' — the Vietnamese 'cho anh em mình' is correct. The main issue: the Greek 'καταλίπῃ γυναῖκα καὶ τέκνα μὴ ᾖ' — the Vietnamese 'để lại vợ mà không có con cái' is correct. No error found. Re-evaluating: the Greek 'καὶ τέκνα μὴ ᾖ' — the Vietnamese 'mà không có con cái' is fine. The verb 'ἐξαναστήσῃ' means 'raise up' — Vietnamese 'gây dựng' is acceptable. The verdict should be OK. However, the Greek 'ἀποθάνῃ' is aorist subjunctive — Vietnamese 'chết' is fine. No substantive error. Verdict: OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυσκολον εστιν' (it is difficult) is rendered as 'khó biết bao' (how difficult/so difficult), which adds an intensifier not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

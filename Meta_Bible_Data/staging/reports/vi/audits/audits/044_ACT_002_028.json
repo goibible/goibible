@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πληρωσεις' is a second-person singular verb ('you will fill'), but the Vietnamese 'Cũng sẽ làm cho tôi đầy' translates it as a third-person action or a general statement. The subject of the action in Greek is the one being addressed (the 'You' of the poem), not a third party like 'Chúa' (Lord) who is the subject of the first clause."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese translation shifts the subject from 2nd person ('you') to 3rd person ('Chúa' - Lord) for the second clause, which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

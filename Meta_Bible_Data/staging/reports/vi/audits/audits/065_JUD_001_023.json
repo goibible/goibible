@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ους δε εν φοβω σωζετε' (but you save them in fear) is a description of the *manner* or *state* of the saving. The Vietnamese 'Hãy cứu họ với sự sợ hãi' uses an imperative 'Hãy' (Let/Command), which is not present in the Greek. The Greek is a statement of fact/action, not a command."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μισουντες' is a participle modifying the subject (hating). The Vietnamese 'ghét cả cái áo' translates this as 'hate even the garment', which changes the grammatical structure and implies the hatred is directed at the garment rather than being an accompanying action of the subjects."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

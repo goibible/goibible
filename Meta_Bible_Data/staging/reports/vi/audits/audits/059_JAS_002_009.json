@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσωποληπτειτε' (prosopolēpteite) means 'to act hypocritically' or 'to be hypocritical' (literally: to wear a mask). The Vietnamese 'tây vị người ta' is an idiom for 'fawning' or 'flattering' others, which is a different nuance of behavior than the specific Greek concept of hypocrisy/mask-wearing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

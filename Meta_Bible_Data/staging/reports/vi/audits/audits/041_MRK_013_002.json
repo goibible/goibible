@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη καταλυθη' is a double negative (ou + mē), which translates to 'that will NOT be destroyed/overthrown'. The Vietnamese translation 'mà không bị đổ xuống' (but not be fallen) combined with the preceding 'Sẽ không còn...' creates a confusing double negative or a logic error. In Greek, Jesus is saying: 'Do you see these great buildings? [Which are such that] no stone will be laid on stone without being destroyed.' The Vietnamese phrasing suggests the stones *won't* fall, which is the opposite of the intended meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

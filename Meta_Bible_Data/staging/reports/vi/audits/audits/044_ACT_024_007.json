@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρελθων' (parelthōn) is a perfect participle meaning 'having passed by' or 'having gone by.' The Vietnamese translation 'đến' (came) reverses the direction/action of the movement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο χιλιαρχος' (ho chiliarchos) is a title for a commander of a thousand. The Vietnamese translation omits this specific rank/title, rendering only the name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

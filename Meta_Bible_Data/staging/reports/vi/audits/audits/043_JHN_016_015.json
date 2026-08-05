@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του εμου' (from mine) refers to the Father's possessions/things ('οσα εχει ο πατηρ'), but the Vietnamese 'từ điều thuộc về ta' (from what belongs to me) is slightly ambiguous. More importantly, the Greek 'ληψεται' (will take/receive) in this context implies a movement of possession from the Father's realm to the Son's for the purpose of revelation, whereas the Vietnamese phrasing suggests taking from the Son's own possessions."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

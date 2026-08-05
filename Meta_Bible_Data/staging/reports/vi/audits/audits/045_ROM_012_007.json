@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονιαν' (diakonian) is a noun meaning 'ministry/service', not 'chức vụ' (office/position). The Vietnamese translation interprets it as 'if it is an office,' whereas the Greek implies 'whether [it is] ministry...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειτε' (eite) functions as 'whether' or 'either', creating a correlative structure. The Vietnamese uses 'Nếu là' (If it is), which changes the logical structure from a description of roles/types to a conditional statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

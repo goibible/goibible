@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεωχθησαν' (aneōchthēsan) is a passive verb meaning 'were opened' (or 'were unsealed'). The Vietnamese translation 'đã mở ra thế nào?' translates to 'how did [they] open?', which changes the grammatical structure from a statement of fact (passive voice) to an interrogative (question). Additionally, the Greek implies a state of being opened, whereas 'thế nào' asks for a manner/description."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

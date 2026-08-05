@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι προβλεψαμενου' (what was foreordained/predestined) is rendered as 'điều tốt hơn' (something better). The Vietnamese translation adds the comparative 'better' which is not present in the Greek text."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ημων' (us/our) refers to the subject. In the second clause, 'χωρις ημων' (without us) is rendered as 'ngoại trừ chúng ta', but the subject of 'trọn vẹn' (completed) in the Vietnamese 'họ' (they) lacks a clear Greek antecedent in this specific phrase, whereas the Greek implies the completion of the purpose/plan."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

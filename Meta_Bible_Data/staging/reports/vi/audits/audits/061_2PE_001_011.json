@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'του κυριου ημων' (of our Lord), but the Vietnamese translation renders it as 'chúng ta là Chúa Giê-xu' (we are Jesus). The Vietnamese phrasing makes it sound as if the subjects are Jesus, rather than the entrance being *into* the kingdom of our Lord."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

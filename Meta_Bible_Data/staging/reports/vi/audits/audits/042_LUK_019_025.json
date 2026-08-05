@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτω' (autō) is a singular pronoun (to him), but the Vietnamese 'Họ' (They) is plural. The Greek subject 'ειπον' (eipon) is also singular (I said), whereas the Vietnamese uses a plural subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρ ο κοσμος της αδικιας' (fire of the world of unrighteousness) is rendered as 'lửa, là thế gian của sự không công bình'. The Greek indicates the tongue IS the fire OF the world of unrighteousness, not that it is both fire AND the world. The Vietnamese structure suggests a list/apposition rather than the genitive relationship."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τον τροχον της γενεσεως' (the wheel of birth/generation) is rendered as 'vòng đời của sự sanh ra'. While 'vòng đời' is a common idiom for cycle, the Greek specifically uses 'trochos' (wheel), which carries a more specific imagery of a turning mechanism. However, this may be considered acceptable rendering; the primary issue remains the 'fire of the world' construction."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

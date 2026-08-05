@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια τουτου' (dia toutou) means 'through this' or 'because of this', referring to the previous context. The Vietnamese translation 'nhờ Ngài' (thanks to Him/through Him) introduces a personal pronoun ('Him') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 9,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρματων' (armaton) refers to chariots, but the Vietnamese 'xe chiến' (war wagons/carts) is a common rendering. However, the Greek describes 'chariots of many horses,' whereas the Vietnamese 'nhiều xe chiến có ngựa' could be interpreted as 'many war carts having horses.' The primary issue is that the Greek 'αρματων ιππων πολλων' specifically means 'chariots of many horses' (plurality of horses per chariot or many chariots with horses). More importantly, the Vietnamese 'chạy ra chiến trận' (running out into battle) adds a directional/prepositional sense ('ra') not present in the Greek 'εις πολεμον' (into war/battle)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

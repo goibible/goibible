@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παση ανθρωπινη κτισει' (all human authority/rule) is translated as 'mọi sự sáng tạo của loài người' (all creations of mankind). The Greek word 'κτισει' (from ktisis) in this context refers to authority/rule, not the act of creation or a created object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

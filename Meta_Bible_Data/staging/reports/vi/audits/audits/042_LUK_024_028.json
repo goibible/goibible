@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου επορευοντο' (they were not going/traveling) is rendered as 'định đi' (intended to go), which changes the state of action from a negation of current movement to an intention of future movement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

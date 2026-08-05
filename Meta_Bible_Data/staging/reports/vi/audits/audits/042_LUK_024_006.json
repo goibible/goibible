@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηγερθη' (hēgerthē) is a passive form of 'anistēmi' (to rise/be raised), specifically referring to the Resurrection. The Vietnamese 'đã sống lại' (has risen again) is an acceptable rendering, but the Greek text contains 'μνησθητε' (mnēsthete - 'remember') which is correctly translated, but the phrase 'ως ελαλησεν υμιν' (how he spoke to you) is rendered as 'đã phán cùng các ngươi thể nào'. However, the Greek 'ετι' (eti - 'still/yet') is missing in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

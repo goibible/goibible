@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σεβαστου' (Sebastos) refers to 'Caesar' (the Emperor/Augustus), but the Vietnamese translation uses 'Sê-sa' (Caesar) twice. While 'Sebastos' is a title, in this specific context of Acts 25:11, it specifically denotes the authority of Caesar. However, the primary fidelity issue is the nuance of 'διαγνωσιν' (judgment/decision). The Vietnamese 'sự xét xử' is acceptable, but the phrasing 'giữ lại cho đến khi có sự xét xử của Sê-sa' slightly simplifies the Greek structure which links the request to the specific judgment of the Emperor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the nuance of 'επικαλεσαμενου' (having appealed/pleaded). The Greek implies Paul had already made the appeal, which is the basis for the command. The Vietnamese 'đã kêu nài' captures the action but loses the specific legal weight of 'appeal' in a Roman context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

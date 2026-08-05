@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδ αν' (neither if/nor if) implies a conditional hypothetical ('neither would he be...'). The Vietnamese 'chẳng phải là' (is not) renders it as a flat statement of fact. The Greek structure suggests that IF He were on earth, He would NOT be a priest because there are already priests; the Vietnamese makes it sound like a current state of being."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οντων' (being/existing) is a participle describing the priests. The Vietnamese 'vì đã có' (because there are already) changes the grammatical relationship from a description of the priests' status to a causal reason for why He isn't a priest."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

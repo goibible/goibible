@@ -1,0 +1,1 @@
+Làm cho nó viền xung quanh rộng một gang tay, và làm một cái viền bằng vàng cho viền của nó xung quanh.

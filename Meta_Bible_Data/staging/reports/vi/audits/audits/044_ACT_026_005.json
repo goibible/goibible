@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προγινωσκοντες' is a present active participle (knowing/recognizing), but the Vietnamese 'biết từ lâu' (known for a long time) implies a completed state of knowledge. More importantly, the Greek 'με ανωθεν' functions as an adverbial phrase indicating 'from above' or 'from on high' (divine knowledge). The Vietnamese translation completely omits the source of this knowledge ('from above'), which is a substantive theological distinction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

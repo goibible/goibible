@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη αγιωτατη υμων πιστει' functions as the object of 'εποικοδομουντες' (building/edifying). The Vietnamese translation 'xây dựng mình trên đức tin' (build yourselves on the faith) changes the relationship from 'edifying your most holy faith' to 'edifying yourselves on your most holy faith'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εποικοδομουντες εαυτους' means 'edifying yourselves'. The Vietnamese 'xây dựng mình' captures the 'building' but misses the specific grammatical structure where 'faith' is the thing being built/edified, not just the foundation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

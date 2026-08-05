@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επ' ελπιδι' (on/upon the hope) is rendered as 'vì hy vọng' (because of hope). In the context of Hebrews 11:36, the phrase indicates the basis or foundation upon which they stood/acted, not necessarily a causal 'because'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

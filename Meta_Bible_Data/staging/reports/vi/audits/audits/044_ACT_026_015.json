@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις ει' (tis ei) is a question asking 'Who are you?', but the Vietnamese translation renders it as 'Chúa là ai?' (Who is God/Lord?). In the Greek, the speaker is asking the identity of the person they are addressing, not asking for the definition of 'Lord'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ον συ διωκεις' uses a relative pronoun 'ον' (whom) which links the action of pursuing directly to Jesus. The Vietnamese 'mà ngươi đang bắt bớ' is a correct rendering of the relative clause, but because the preceding question was mistranslated as 'Who is God?', the logical flow of the identity claim is disrupted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

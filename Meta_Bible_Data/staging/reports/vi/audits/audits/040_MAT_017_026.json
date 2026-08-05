@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελευθεροι' (eleutheroi) refers to being 'free' in a spiritual or status sense (liberated/free), whereas the Vietnamese 'miễn thuế' means 'tax-exempt'. This changes the fundamental meaning of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

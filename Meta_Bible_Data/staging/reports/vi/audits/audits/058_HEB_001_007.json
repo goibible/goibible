@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'πνευματα' (pneumata) is plural, meaning 'spirits'. The Vietnamese translation 'Thánh Linh' typically refers to the singular Holy Spirit. This changes the number of the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

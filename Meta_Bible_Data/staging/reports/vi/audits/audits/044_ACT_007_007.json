@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν δουλευσωσιν' is a conditional clause (if they serve), but the Vietnamese 'mà chúng nó sẽ phục dịch' renders it as a relative/subordinate clause (whom they will serve). The Greek implies 'if they serve [me], I will judge them', whereas the Vietnamese suggests 'I will judge the nations that they will serve'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

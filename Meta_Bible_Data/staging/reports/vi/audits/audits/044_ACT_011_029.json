@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονιαν' (diakonian) means 'service' or 'ministry'. The Vietnamese translation 'món tiền giúp đỡ' (a sum of money to help) introduces a specific monetary concept not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

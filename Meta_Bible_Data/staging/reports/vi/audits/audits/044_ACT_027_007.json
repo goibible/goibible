@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μollis γενομενοι' (hardly/scarcely having reached) is rendered as 'khó khăn lắm mới đến' (with great difficulty finally arrived), which slightly shifts the nuance from a temporal/spatial proximity to a struggle of effort."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'μη προσεωντος ημας του ανεμου' (the wind not being favorable to us) is rendered as 'vì gió không cho phép chúng tôi' (because the wind did not allow us). While acceptable, the Vietnamese adds a causal conjunction 'vì' (because) which is not explicitly in the Greek, though it is implied by the context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

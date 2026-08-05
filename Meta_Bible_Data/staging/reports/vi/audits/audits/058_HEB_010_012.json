@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μιαν υπερ αμαρτιων' means 'one for sins' (plural), but the Vietnamese 'một của tế lễ' translates to 'one offering/sacrifice'. The Vietnamese omits the prepositional phrase 'vì tội lỗi' (for sins) as a direct modifier of the sacrifice, and more importantly, the Greek 'μιαν' refers to the sacrifice being 'one' in number/type, but the Vietnamese phrasing 'một của tế lễ' is slightly awkward. However, the primary issue is that 'μιαν' modifies 'θυσιαν'. The Vietnamese says 'dâng chỉ một của tế lễ', which could be interpreted as 'offering only one [thing] of sacrifice', whereas the Greek is 'brought one sacrifice for sins'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκαθισεν' is an aorist verb (a completed action in the past), while 'ngồi đời đời' in Vietnamese can be interpreted as a continuous state or a present tense. While 'đời đời' covers 'διηνεκες', the shift from a completed action of sitting down to a general state might be slight, but the main issue is the phrasing of the sacrifice."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

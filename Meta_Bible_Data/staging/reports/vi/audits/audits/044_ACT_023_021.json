@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο σου' (from you) refers to the 'promise' (ἐπαγγελίαν) made by the person being spoken to. The Vietnamese translation 'lời hứa từ con' implies the promise is coming *from* the listener, whereas the Greek structure indicates the promise *made by* the listener (the source of the promise). While subtle, it shifts the direction of the promise in the sentence structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

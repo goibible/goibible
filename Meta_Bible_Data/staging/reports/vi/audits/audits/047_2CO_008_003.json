@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυθαιρετοι' (authairetoi) means 'unauthorized' or 'without authority,' not 'tự nguyện' (voluntarily). The translation reverses the meaning of the word."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

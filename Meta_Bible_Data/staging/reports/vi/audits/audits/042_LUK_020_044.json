@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου κυριον αυτον καλει' means 'David does not call Him Lord'. The Vietnamese translation 'Đa-vít gọi Ngài là Chúa' incorrectly translates the negative particle 'ουν' (which functions as a connector/negation in this context) or misses the negation entirely, stating that David *does* call Him Lord."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεθεντο' (synethento) means 'agreed/conferred together'. The Vietnamese translation 'đã đồng ý xin ông' (agreed to ask you) changes the subject of the agreement. In the Greek, the Jews agreed *with each other* (among themselves) to ask the listener a question; it is not that they agreed to "
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

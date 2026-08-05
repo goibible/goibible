@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του τροφης' (of his food) is translated as 'đồ ăn của mình' (his own food/food of himself). In the context of this passage (Matthew 10:9), it refers to the food provided for him by the host/master, not his own personal possession. However, the more significant issue is the omission of the word 'đáng' (worthy) as a verb or adjective modifying the worker; the Greek 'αξιος' is an adjective meaning 'worthy', but the Vietnamese structure 'đáng được' (deserves to receive) slightly shifts the focus from 'being worthy' to 'entitlement'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μηδε' (neither/nor) is repeated three times before 'ραβδον'. The Vietnamese uses a list format ('...giày, hay gậy') which misses the repetitive emphasis of the Greek negation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

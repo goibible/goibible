@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζωοποιει' (zoopoieo) is used twice. In the first instance, it describes the Father's action toward the dead ('εγειρει τους νεκρους και ζωοποιει'). In the Vietnamese translation, this is rendered as 'khiến kẻ chết sống lại và ban sự sống cho họ'. While 'sống lại' captures 'εγειρει', the phrase 'ban sự sống' (gives life) for the second 'ζωοποιει' is slightly different in nuance than the Greek verb which implies 'making alive/animating', but more importantly, the Vietnamese structure 'kẻ Con muốn' changes the scope of the Greek. The Greek says 'ous θελει ζωοποιει' (wants to make alive [them]), where 'ous' refers back to 'τους νεκρους' (the dead). The Vietnamese 'kẻ Con muốn' (those whom the Son wants) suggests a selection process ('whom He wants') rather than the action of 'making alive those [the dead]'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

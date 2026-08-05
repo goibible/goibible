@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεν δε θεωρουντες' means 'seeing nothing' (not seeing anything), but the Vietnamese translation 'chẳng thấy ai' means 'seeing no one' (not seeing any person). This changes the scope of what was not seen from 'anything' to specifically 'people'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

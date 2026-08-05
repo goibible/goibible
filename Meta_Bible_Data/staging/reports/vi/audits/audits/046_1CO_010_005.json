@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεστρωθησαν' (katestrwōthēsan) means 'were destroyed' or 'were ruined', whereas the Vietnamese 'đã bị đánh đổ' translates to 'were overthrown' or 'were knocked down'. This changes the severity of the destruction described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραλαβων' (paralabon) is a participle meaning 'having taken' or 'taking'. The Vietnamese 'đem' (to take/bring) combined with the structure suggests they were already being taken, but more importantly, the phrase 'τη εχομενη ημερα' (the next day) is misplaced in the Vietnamese syntax. In Greek, it modifies the action of taking them. In Vietnamese, the placement makes it slightly ambiguous whether it refers to the time of taking or the time of entering."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συν αυτοις αγνισθεις' (having been purified with them) is a passive construction modifying Paul (the one who was purified along with them). The Vietnamese 'cùng với họ đã được tinh sạch' is placed after 'những người đó', which could be interpreted as the men being purified, rather than Paul being purified along with them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

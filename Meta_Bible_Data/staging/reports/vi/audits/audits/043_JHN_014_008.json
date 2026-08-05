@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δειξον ημιν τον πατερα' means 'show us the Father'. The Vietnamese translation 'chỉ Cha cho chúng tôi' (point out/show the Father to us) is acceptable, but the phrasing 'xin chỉ Cha' can be slightly ambiguous in Vietnamese as 'showing' vs 'pointing'. However, the more significant issue is that the Greek 'δειξον' is an imperative ('show'), while the Vietnamese 'xin' adds a polite request particle not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

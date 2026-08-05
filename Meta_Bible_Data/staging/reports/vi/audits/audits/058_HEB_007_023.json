@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια το θανατω κωλυεσθαι' (because of being hindered by death) is rendered in Vietnamese as 'vì bị sự chết ngăn trở' (because of being blocked by death). However, the Greek construction implies that they *became* priests *in order to* remain/survive the hindrance of death (or because of the necessity of remaining despite it), whereas the Vietnamese phrasing suggests a causal relationship where death prevented them from staying. The Greek 'παραμενειν' is an infinitive of purpose or result linked to the state of being priests."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσαββατον' (prosabbaton) is a specific term for the day before the Sabbath (Preparation Day). The Vietnamese translation 'ngày trước ngày Sa-bát' (the day before the Sabbath) is accurate, but the phrase 'vì là ngày sửa soạn' (because it is the preparation day) adds an explanatory definition that is not explicitly in the Greek text. However, more importantly, the Greek 'ηδη οψιας γενομενης' implies 'already late/evening having come', whereas the Vietnamese 'Khi đã chiều tối' captures the time but slightly misses the 'already' (ηδη) aspect of the progression."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παντα' (panta) means 'all things' or 'everything'. The Vietnamese translation 'mọi vật' (every thing/all things) is present, but the Greek 'δεδωκεν εν τη χειρι αυτου' implies the Father has given [them] into His hand. The Vietnamese 'trong tay Ngài' (in His hand) correctly captures the location, but the Greek structure 'παντα δεδωκεν' technically means 'has given all [things]', while the Vietnamese phrasing 'đã ban mọi vật trong tay Ngài' could be interpreted as 'gave everything that was in His hand' rather than 'gave all things into His hand'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

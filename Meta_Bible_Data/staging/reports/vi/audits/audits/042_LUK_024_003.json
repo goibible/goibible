@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εισελθουσαι' (eiselthousai) is first-person plural aorist active indicative ('we entered'), whereas the Vietnamese translation 'họ bước vào' uses a third-person plural subject ('they entered')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

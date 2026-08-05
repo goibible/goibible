@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αποκαραδοκία' (apokaradokia) refers to the 'longing' or 'eager expectation' of creation. The Vietnamese translation 'Sự trông đợi' (expectation/waiting) is slightly weaker, but the primary issue is the grammatical structure: the Greek says the longing *expects* the revelation (subject-verb-object), whereas the Vietnamese suggests the longing *is waiting for* the revelation in a way that slightly obscures the active 'expectation' of the creation itself."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'αποκαλυψιν' (apokalypsin) is 'revelation'. The Vietnamese 'Sự mặc thị' is a common theological rendering, but the phrasing 'đang chờ đợi' (is waiting) for 'Sự mặc thị' (the revelation) is a passive construction compared to the active Greek verb 'απεκδεχεται'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κενωθη' (kenōthē) is a passive verb meaning 'be emptied out' or 'be rendered void.' The Vietnamese translation 'bị ra vô ích' (rendered useless/in vain) captures the sense of 'void,' but misses the specific nuance of 'emptied out' or 'removed' which is central to the Greek construction regarding the 'boasting' (καυχημα)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'καθως ελεγον παρεσκευασμενοι ητε' means 'that you may be prepared as I said.' The Vietnamese translation 'để anh em được sẵn sàng như tôi đã nói' slightly alters the structure; in Greek, 'prepared' (παρεσκευασμενοι) is a participle modifying the brothers, and 'as I said' (καθως ελεγον) refers to the manner of preparation/command. The Vietnamese is acceptable but loses the specific participial connection."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

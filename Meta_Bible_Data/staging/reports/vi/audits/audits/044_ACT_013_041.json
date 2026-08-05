@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφανισθητε' (aphanisthēte) is a passive/middle imperative meaning 'be astonished' or 'be amazed' (related to 'θαυμασατε'). The Vietnamese translation 'biến mất đi' means 'disappear,' which is a significant factual error in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

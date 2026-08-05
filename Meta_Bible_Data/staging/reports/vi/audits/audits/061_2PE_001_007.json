@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the imperative verb 'hãy thêm' (add/let there be more), which is not present in the Greek text. The Greek uses 'εν δε' (and in) to indicate a relationship of coexistence or sequence, not an instruction to add one quality to another."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

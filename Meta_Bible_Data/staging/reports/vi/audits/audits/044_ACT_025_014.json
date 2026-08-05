@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανηρ τις εστιν καταλελειμμενος' (a man is left behind/abandoned) is rendered in Vietnamese as 'Có một người bị... để lại', which shifts the focus. More importantly, the Greek structure indicates that Festus is reporting *that* a man is left behind, but the Vietnamese phrasing 'để lại làm tù nhân' implies he was left *to become* a prisoner or left *as* a prisoner, whereas the Greek 'δεσμιος' (prisoner/bound) describes his current state. However, the most significant issue is the omission of the specific status of being 'abandoned' or 'left behind' in a way that conveys the sense of being forsaken/left over."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καταλελειμμενος' carries a stronger sense of being 'forsaken' or 'abandoned' than the simple Vietnamese 'để lại' (left behind)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

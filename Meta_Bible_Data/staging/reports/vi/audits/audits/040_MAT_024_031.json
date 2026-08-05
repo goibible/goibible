@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απ ακρων ουρανων εως ακρων αυτων' means 'from the corners of the heavens to the corners of them' (referring back to the winds/corners). The Vietnamese 'từ đầu trời này cho đến đầu trời kia' translates to 'from this end of heaven to that end of heaven,' which changes the spatial scope from specific 'corners' to a general 'this to that'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

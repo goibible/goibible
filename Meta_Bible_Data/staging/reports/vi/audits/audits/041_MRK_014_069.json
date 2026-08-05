@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 69,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ αυτων' (from them/out of them) is translated as 'thuộc về bọn họ' (belongs to them). In the context of John 12:20, 'εξ αυτων' refers to being 'from among them' or 'one of them', indicating his origin/association with the group, rather than a matter of ownership/belonging."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

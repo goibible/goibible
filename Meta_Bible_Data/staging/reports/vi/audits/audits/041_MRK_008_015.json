@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεπετε' (bebete) is an imperative meaning 'see' or 'look at', but the Vietnamese 'giữ mình khỏi' means 'keep yourselves from' or 'abstain from'. The Greek does not contain a verb of avoidance or abstention; it is a command to observe/see the yeast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek word 'ην' (ēn) is a simple past tense marker, but the Vietnamese translation uses 'đang', which implies a continuous/progressive aspect ('is teaching') not present in the Greek. More importantly, the Greek 'εν μια των συναγωγων' (in one of the synagogues) is translated as 'trong một nhà hội', omitting the plural 'one of the' (một trong những) structure, though this is minor compared to the tense nuance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

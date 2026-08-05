@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοινωνιαν τινα ποιησασθαι' (to make/do some fellowship/communion) describes the *purpose* or *intent* of the people, but the Vietnamese 'vui lòng làm' (pleased to do) misinterprets 'ευδοκησαν' (willed/desired/were pleased) as a simple expression of willingness to perform an action. The Greek implies they 'willed' or 'intended' to establish a fellowship, whereas the Vietnamese makes it sound like they were simply happy to perform a task."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'των αγιων' (of the saints) is rendered as 'trong các thánh đồ' (in/among the saints). While 'trong' adds a prepositional sense not strictly in the Greek, it doesn't fundamentally change the meaning. However, the core issue remains the nuance of 'ευδοκησαν' which is more about a deliberate 'willing' or 'desiring' to establish something."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

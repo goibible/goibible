@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο η βασιλεια αυτου εσκοτωμενη' refers to the 'kingdom of it' (the beast) becoming 'desolated' or 'devastated'. The Vietnamese translation 'nước của nó trở nên tối tăm' (its water became dark) is a complete mistranslation of the subject and the state described."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εμασσωντο τας γλωσσας αυτων' refers to 'their tongues' (plural), whereas the Vietnamese 'người ta cắn lưỡi mình' translates it as 'people biting their own tongues'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

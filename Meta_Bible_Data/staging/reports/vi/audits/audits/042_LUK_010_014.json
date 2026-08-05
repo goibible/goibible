@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεκτοτερον' (antektoteron) means 'more tolerable/endurable,' but the Vietnamese 'khoan hồng' means 'lenient/merciful.' In the context of judgment, 'tolerable' refers to the severity of the punishment being bearable, whereas 'khoan hồng' implies a judicial mercy or reduction of guilt, which is a shift in the nature of the concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

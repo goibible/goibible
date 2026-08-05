@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολιτειας' (politias) refers to 'citizenship' or 'nationality', but the Vietnamese 'nền cộng hòa' translates to 'republic'. This changes the political/legal status of the believers from citizens to a specific form of government."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απηλλοτριωμενοι' (apēllotriōmenoi) is a plural participle meaning 'alienated' or 'made strangers'. The Vietnamese 'bị xa lánh' (being alienated/shunned) captures the state but misses the specific nuance of being 'strangers' in relation to the citizenship mentioned in the same phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

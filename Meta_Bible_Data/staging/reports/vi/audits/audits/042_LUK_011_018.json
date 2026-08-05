@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεμερισθη' (diemeristhē) is a reflexive/passive verb meaning 'divided itself' or 'split apart.' The Vietnamese 'tự chia rẽ nhau' implies 'divided each other,' which shifts the action from internal division to mutual division between multiple entities."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εκβαλλειν με τα δαιμονια' means 'to cast out [the demons] by/with [the help of] Beelzebul.' The Vietnamese 'nhờ Bê-ên-xê-bun mà đuổi ma quỷ' (by means of Beelzebul) captures the sense but slightly softens the Greek 'με' which can imply 'by the power of' or 'at the instance of'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

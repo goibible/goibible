@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ επιστευεν εαυτον αυτοις' means 'did not trust himself to them' (or 'did not rely on them for himself'). The Vietnamese translation 'không tin cậy họ' (did not trust/rely on them) misses the reflexive/personal nuance of 'εαυτον', which indicates he did not entrust *himself* to them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

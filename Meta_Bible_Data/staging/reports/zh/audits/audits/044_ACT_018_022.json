@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Greek text does not mention '耶路撒冷' (Jerusalem); it only says 'went up' (ἀναβὰς) without specifying the destination. The Chinese adds '耶路撒冷' which is not in the Greek."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

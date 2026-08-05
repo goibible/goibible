@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερμηνευομενος' (hermeneuomenos) is a passive participle meaning 'being called/interpreted as'. The Vietnamese translation 'được gọi là' (is called) captures the sense, but the structure 'vua được gọi là vua của sự công bình' implies he was called king of righteousness first, whereas the Greek specifies he was [called] king of righteousness *first* (πρωτον μεν), and then *also* (δε και) king of Salem. The Vietnamese phrasing slightly obscures the sequential nature of the titles provided in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

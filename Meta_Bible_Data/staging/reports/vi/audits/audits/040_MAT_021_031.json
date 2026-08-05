@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'vào... trước các ngươi' (will enter... before/ahead of you), but the Greek text 'προαγουσιν υμας' means 'will precede you' or 'will go before you' in a sense of priority/precedence. While similar, the Vietnamese phrasing 'trước các ngươi' can be interpreted as a temporal sequence (before you) rather than the specific sense of precedence intended by 'proagousin'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

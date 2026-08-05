@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα των επικαλουμενων τον κυριον' means 'with those who call on the Lord'. The Vietnamese translation 'với những người lấy lòng tinh sạch kêu cầu Chúa' (with those who call on the Lord with a pure heart) incorrectly attributes the 'pure heart' (ek katharas kardias) to the people calling on the Lord, whereas in the Greek, 'ek katharas kardias' modifies the act of calling on the Lord by the speaker/subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

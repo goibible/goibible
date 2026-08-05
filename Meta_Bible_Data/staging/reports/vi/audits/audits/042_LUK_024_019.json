@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποια' (poia) in this context functions as 'what' (asking for a description of the events/things), but the Vietnamese translation 'Việc gì vậy?' (What happened?) is slightly imprecise. More importantly, the Greek 'εν εργω και λογω' (in deed and word) is rendered as 'có quyền năng trong công việc và lời nói' (has power in work and word). While acceptable, the core issue is the omission of the specific sense of 'εναντιον' (against/opposing) which is rendered as 'trước mặt' (before/in front of). In Greek, 'εναντιον του θεου' implies opposition or being against God, whereas 'trước mặt Đức Chúa Trời' implies a location or audience. This changes the nature of the claim from one of rebellion to one of public performance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

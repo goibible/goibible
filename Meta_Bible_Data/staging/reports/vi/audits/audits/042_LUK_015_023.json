@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the verb 'φαγοντες' (having eaten), which indicates that the rejoicing should happen after the act of eating."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

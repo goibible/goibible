@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερχεται προς το φως' (comes toward/into the light) is rendered as 'đến cùng ánh sáng' (comes to the end of the light / comes with the light). The Vietnamese word 'cùng' can imply 'to the end' or 'together with', which slightly alters the directional movement 'towards' intended in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

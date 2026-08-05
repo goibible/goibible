@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 15,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηνοιγη' (ēnoigē) is a passive construction (perfect passive indicative) meaning 'was opened' or 'had been opened.' The Vietnamese translation 'đã mở ra' can be interpreted as an active voice ('opened [something]'), which slightly shifts the grammatical focus from the temple being opened by God to the temple performing the action of opening."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

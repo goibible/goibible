@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ημερα' (in the day) is translated as 'trong ngày' (in the day), but the Greek construction 'οτε κρινει ο θεος' identifies 'the day' as 'when God judges'. The Vietnamese phrasing 'trong ngày Đức Chúa Trời... sẽ phán xét' suggests a specific calendar day or a general time period, whereas the Greek structure defines the day by the action of judging."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'κρινει' is present tense (indicating an ongoing or characteristic action), while the Vietnamese 'sẽ phán xét' uses a future tense marker ('sẽ')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

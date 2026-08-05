@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐπιθετο' (epitheto) means 'gave weight to', 'credited', or 'placed importance on'. The Vietnamese translation 'tin' (believe) is a slight shift in nuance, but the primary issue is the treatment of 'μαλλον' (mallon). While 'hơn là' captures the comparison, the Greek structure suggests he gave more weight/importance to them *rather than* (instead of) those called by Paul. The Vietnamese 'tin lời... hơn là lời' is acceptable, but 'ἐπιθετο' specifically refers to the act of assigning value or weight to a statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

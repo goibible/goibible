@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εγερθεις' (egerthies) is in the aorist passive voice, meaning 'was raised' or 'was awakened,' whereas the Vietnamese 'đứng dậy' means 'stood up.' This changes the nature of the action from a state of being raised/awakened to a physical act of standing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

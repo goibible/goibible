@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'τους εαυτων' (themselves), which specifies that the dead are burying their own dead."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

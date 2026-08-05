@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδαφιουσιν' (edaphousin) means 'to level' or 'to make level' (as in a plain), but the Vietnamese 'san bằng' is often used for flattening something down. However, the more significant issue is the phrasing 'con cái ngươi ở trong ngươi'. The Greek is 'τα τεκνα σου εν σοι', which functions as an object of the verb 'εδαφιουσιν' (they will level you and your children [who are] in you). The Vietnamese structure makes it sound like a description of the children being inside you, rather than the objects of the action of leveling/smoothing."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εγνως' is aorist tense (did not know), which is correctly rendered as 'đã không biết'. However, the phrase 'τον καιρον της επισκοπης σου' refers to the 'time of your visitation/inspection'. The Vietnamese 'thời điểm sự thăm viếng của ngươi' is acceptable, but some might argue 'thăm viếng' implies a friendly visit, whereas 'επισκοπησις' can imply inspection or oversight. However, per instructions, this is a stylistic choice and not a factual change."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαβειν' (labein) is an infinitive of purpose/result, meaning 'to take' or 'to receive'. The Vietnamese translation 'để từ đó lấy ra... dâng cho' (in order to take out... offer to) adds a secondary action ('dâng cho' - to offer/dedicate) that is not present in the Greek text. The Greek simply says 'to take a people from the nations for His name'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

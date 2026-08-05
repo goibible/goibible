@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια' (dia) in this context (especially in the Septuagint/New Testament usage regarding lineages) indicates 'through' or 'by way of' lineage/descent. The Vietnamese 'qua' (through) is acceptable, but the phrasing 'đóng một phần mười qua Áp-ra-ham' implies that Levi paid his tithe *to* Abraham or *via* him as a transaction, whereas the Greek indicates that the tithe was established/given *through* the lineage of Abraham."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'có thể nói một lời rằng' (could say a word that) is a slightly wordy rendering of 'ως επος ειπειν' (as it may be said), but it preserves the meaning. However, the primary issue is the structural relationship between the tithe and Abraham."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

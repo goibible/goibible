@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'đã cao tuổi lắm' (was very old) is a mistranslation of 'προβεβηκυια' (had grown old/aged). While similar, the Greek specifically describes her aging/maturing process in the context of the years she lived with her husband."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'từ khi còn đồng trinh' (from when [she] was still a virgin) slightly alters the Greek 'απο της παρθενιας αυτης' (from her virginity). The Greek indicates the duration of time elapsed from the state of virginity until she lived with her husband for seven years, not necessarily that she remained a virgin during those seven years."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

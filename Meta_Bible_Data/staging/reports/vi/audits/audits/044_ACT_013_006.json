@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαγον' (magos) refers to a magician or sorcerer. The Vietnamese translation 'thầy bói' (fortune teller) is a narrower, less accurate rendering of the term in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

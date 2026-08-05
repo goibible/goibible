@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταλαβομενος' (having perceived/understood) is used by the speaker to describe his own judgment of the situation. The Vietnamese 'sau khi xét thấy' (after seeing/considering) is acceptable, but the phrase 'người không làm điều gì đáng chết' fails to capture the specific structure of 'μηδεν αξιον θανατου αυτον πεπραχεναι'. The Greek implies 'he has done nothing worthy of death.' The Vietnamese adds a slight shift in focus by making it 'the person did not do anything,' whereas the Greek is a judgment on the actions performed."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτου δε τουτου επικαλεσαμενου' means 'having [him] appealed to this [person/authority]'. The Vietnamese 'chính người đã kêu nài đến Hoàng đế' adds 'chính' (exactly/precisely) and specifies 'Hoàng đế' (Emperor). While 'the Emperor' is the historical context for 'τον σεβαστον', the Greek text uses the title 'the Augustus' (τον σεβαστον). However, the biggest issue is the Vietnamese phrasing 'và chính người đã kêu nài' which makes it sound like a separate action, whereas the Greek uses a participle structure to describe the circumstances of the judgment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

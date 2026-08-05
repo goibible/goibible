@@ -1,0 +1,51 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προεφητευσεν' (prophesied) is attributed to 'τουτοις' (these/them), but the Vietnamese translation attributes the prophecy to 'Hê-nóc' (Enoch) as the subject of the sentence, whereas in the Greek text, the action of prophesying is linked to the sequence of the seventh from Adam."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits 'ενωχ' (Enoch) as a direct object/reference within the specific phrase structure, though it includes him as the subject. More importantly, the Greek 'τουτοις' (these/them) refers to those mentioned in the preceding context, which is slightly obscured by the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 1802,
+          "lemma": "enwc",
+          "problem": "distorted",
+          "detail": "The Greek text says 'apo Adam Enoch' (from Adam [was] Enoch), but the Vietnamese translation treats 'Hê-nóc' as the subject who prophesied. In the Greek, 'proefhteusen' is the verb, and while Enoch is the one speaking, the phrasing 'ebdomov apo Adam Enoch' identifies him as the seventh from Adam."
+        },
+        {
+          "strongs_num": 3708,
+          "lemma": "idou",
+          "problem": "missing",
+          "detail": "The Vietnamese translation captures the meaning of 'Kìa', but strictly speaking, 'idou' is often treated as a particle; however, since it is listed in the Strong's words provided, it is represented."
+        }
+      ],
+      "confidence": 0.9
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

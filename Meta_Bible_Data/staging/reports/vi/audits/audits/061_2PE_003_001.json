@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεγειρω' (diegeirō) means to exhort, encourage, or stir up to action. The Vietnamese translation 'khuấy động tâm trí' (stirring up the mind/intellect) is a shift in meaning; it suggests an internal mental agitation rather than an external exhortation to action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειλικρινη' (eilikrinē) means sincere or pure. The Vietnamese translation 'trong sạch' (clean/pure) captures the sense of purity but loses the specific nuance of 'sincerity' present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιβουλης' (epiboules) refers to an 'attack,' 'assault,' or 'hostility.' The Vietnamese translation 'mưu hại' (plot/harmful scheme) is slightly weaker than the active hostility implied by the Greek, but more importantly, the phrase 'sắp xuống thuyền qua Sy-ri' (about to go down/on a boat to Syria) is an interpretation of 'μελλοντι αναγεσθαι εις την συριαν'. The Greek 'αναγεσθαι' implies a movement toward or onto, but the Vietnamese adds specific imagery ('xuống thuyền' - getting on a boat) that is not in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text lists four distinct types of anger/outrage: θυμός (thymos), οργή (orgē), κραυγή (kraughē), and βλασφημία (blasphemia). The Vietnamese translation repeats 'cơn thịnh nộ' twice, which corresponds to repeating the same concept instead of translating the distinct concepts of 'θυμός' and 'οργή' as separate items in the list."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

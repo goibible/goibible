@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πάντα τὰ γενήματά μου' means 'all my crops/produce' (from γενήματα, 'produce, fruits of the earth'), but the Vietnamese renders it as 'tất cả con cái của ta' ('all my children'), which is a substantive mistranslation that changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

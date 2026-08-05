@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο φιλων και ποιων ψευδος' describes the nature of the people (those who love and practice falsehood). The Vietnamese translation 'yêu thích cùng làm sự nói dối' shifts the object of 'love/practice' to a specific act of 'lying' (nói dối), whereas the Greek refers more broadly to 'falsehood' (ψευδος) as a state or quality of their actions/beliefs."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

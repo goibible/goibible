@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'lạy Thầy' (O Teacher), which is not present in the Greek text (ιησου επιστατα)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

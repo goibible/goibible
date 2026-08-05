@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματα προφητων' (spirits of prophets) is in the plural, but the Vietnamese 'Thánh Linh' is singular. Furthermore, the Greek verb 'υποτασσεται' is singular, implying that the collective 'spirits' act as a single unit or that the subject is being treated as a collective singular in the Greek grammar (or refers to the spirit of prophecy generally), but the Vietnamese phrasing 'Thánh Linh... phục tùng' suggests a singular entity. However, more critically, 'πνευματα' is plural; the Vietnamese 'Thánh Linh' usually denotes the Holy Spirit (singular) unless specified as 'các Thánh Linh'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

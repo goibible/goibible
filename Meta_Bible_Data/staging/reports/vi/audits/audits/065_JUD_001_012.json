@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπιλαδες' (spilades) means 'spots' or 'stains', not 'vết nhơ' in the sense of a 'bữa tiệc' (feast/party). The Vietnamese translation adds 'bữa tiệc' (feast) which is not present in the Greek text. The Greek describes them as 'spots' within your loves."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνευωχουμενοι' (syneuchomomenoi) means 'rejoicing together'. The Vietnamese 'dự tiệc cùng nhau' (attending a feast together) changes the nature of the action from 'rejoicing' to 'attending a party'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

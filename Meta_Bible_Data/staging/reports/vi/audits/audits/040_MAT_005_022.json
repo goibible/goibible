@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εικη' (eike) is omitted in the Vietnamese translation. This word functions as a 'like' or 'similarly' comparison, linking the first two clauses of the sentence."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενοχος εσται' (enochos estai) means 'will be guilty' or 'will be held accountable.' The Vietnamese translation renders this as 'sẽ bị sự phán xét' (will be judged) and 'sẽ bị hội đồng xét xử' (will be judged by the council), which shifts the meaning from a state of guilt/accountability to the action of being judged."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

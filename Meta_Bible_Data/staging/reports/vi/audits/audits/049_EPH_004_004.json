@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν' (en) means 'in', but the Vietnamese 'Chỉ có' translates to 'Only have/There is only'. This changes the meaning from being 'in one body' to 'having only one body'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καθως' (kathos) functions as 'as' or 'just as', but the Vietnamese 'như' is used here in a way that slightly weakens the comparative structure of the original."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

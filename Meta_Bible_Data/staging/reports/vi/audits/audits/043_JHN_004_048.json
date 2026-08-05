@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη πιστευσετε' is a double negative (οὐ μή), which in this context functions as a strong imperative or a conditional requirement: 'unless you see signs... do not believe.' The Vietnamese translation renders it as a predictive statement ('thì các ngươi chẳng tin đâu!' - 'then you won't believe!'), changing the logical structure from a command/condition to a simple prediction of result."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

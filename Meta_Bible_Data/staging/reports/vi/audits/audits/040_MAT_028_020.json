@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 28,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συντελειας του αιωνος' refers to the 'completion of the age' (or 'end of the age'), but the Vietnamese translates it as 'kết thúc của đời' (end of life/lifetime), which changes the scope from a cosmic/historical epoch to an individual lifespan."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

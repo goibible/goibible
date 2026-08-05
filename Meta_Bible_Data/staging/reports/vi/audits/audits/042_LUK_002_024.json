@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τρυγονων' (trygonōn) refers to turtledoves. The Vietnamese translation 'chim cu' (quail/partridge) is a different species of bird."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

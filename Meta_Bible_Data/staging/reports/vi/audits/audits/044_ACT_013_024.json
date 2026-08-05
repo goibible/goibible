@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προ προσωπου της εισοδου αυτου' (before the face of his entrance) refers to the time/event of Jesus' entrance. The Vietnamese translation 'Trước khi Giăng rao giảng' (Before John preached) incorrectly attributes the timing to John's preaching rather than the arrival of Christ."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'προ προσωπου της εισοδου αυτου' is essentially missing or misinterpreted; the Vietnamese version replaces the specific context of Christ's entrance with a chronological marker regarding John's actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

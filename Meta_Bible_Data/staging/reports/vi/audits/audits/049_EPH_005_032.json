@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'δε λεγω' (de legō) contains a negative particle 'δε', meaning 'I do NOT say'. The Vietnamese translation omits this negation, changing the meaning from a negative to an affirmative statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

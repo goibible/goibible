@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χωρις οikτιρμων' (without pity/mercy) modifies the act of 'αθετησας' (breaking/transgressing) the law. The Vietnamese translation places 'không lòng thương xót' (without mercy) at the end of the sentence, making it sound like the person dies without mercy, rather than that the law was broken without pity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

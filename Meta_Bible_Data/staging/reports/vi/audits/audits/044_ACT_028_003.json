@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθηψεν' (katēpsen) means 'it bit' or 'it struck with its teeth'. The Vietnamese translation 'bám vào' means 'clung to' or 'attached to', which misses the specific action of biting/striking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

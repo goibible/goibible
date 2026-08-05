@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασπασασθε' (aspasasthe) is an imperative meaning 'greet' or 'salute'. The Vietnamese 'hãy chào' is used twice, but the first instance refers to the church ('εκκλησιαν'). However, the Greek verb governs both the church and Epaphroditus as a single action of greeting. More importantly, the Vietnamese translates 'εκκλησιαν' as 'Hội thánh nhóm tại nhà họ', whereas the Greek 'κατ οικον αυτων εκκλησιαν' literally means 'the church at their house'. The addition of 'nhóm' (group/sub-group) is not in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκκλησιαν' is the direct object of 'ασπασασθε'. The Vietnamese structure separates the greeting of the church and Epaphroditus into two distinct sentences, which slightly alters the grammatical flow, but the primary issue is the addition of 'nhóm'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διδου' (didou) is an imperative meaning 'give'. The Vietnamese translation 'xin mình' (ask for/request from me) changes the action from 'giving' to 'asking/requesting'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο του αιροντος' refers to 'from the one who takes away'. The Vietnamese 'của kẻ đã lấy' (of the person who took) slightly shifts the focus from the source of the action to possession, but the primary error is the reversal of 'give' to 'ask'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

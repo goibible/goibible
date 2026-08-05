@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 67,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰ συ εἶ' (if you are) refers to the audience being addressed by Jesus, but the Vietnamese 'Nếu các ngươi là Đấng Christ' implies the audience is claiming to be Christ. The Greek structure indicates a hypothetical or rhetorical 'if you were [the one speaking]'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰπε δε αὐτοῖς' (then say to them) is an imperative addressed to the person being spoken to. The Vietnamese 'hãy nói cho chúng ta' changes the recipient of the speech from 'them' (αὐτοῖς) to 'us' (chúng ta)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

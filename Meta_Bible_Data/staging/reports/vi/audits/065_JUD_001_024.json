@@ -1,0 +1,51 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμωμους' (amōmous) means 'blameless/irreproachable'. The Vietnamese translation 'không chỗ trách được' is a correct equivalent, but the placement in the sentence structure makes it unclear if it modifies 'anh em' or the state of standing. However, the primary issue is the handling of 'αμωμους' as an object of the verb 'στησαι' (to set/place) or 'φυλαξαι' (to keep). In Greek, it qualifies the state of the people being set before the glory."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'αυτους' (autous) is masculine plural. The Vietnamese 'anh em' is a common collective term for 'brothers/you', which is acceptable, but 'anh em' can sometimes be singular-inclusive in certain contexts. In terms of strict fidelity to the plural 'them/you', it holds."
+        }
+      ],
+      "confidence": 0.9
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 679,
+          "lemma": "áptaistos",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'vấp phạm' (stumbling/falling) is a correct sense for 'áptaistos', but the grammar of the Greek implies 'blameless' or 'unfallen' in a state. However, the primary issue is the missing 'ámōmos'."
+        },
+        {
+          "strongs_num": 299,
+          "lemma": "ámōmos",
+          "problem": "missing",
+          "detail": "The Vietnamese translation omits the word 'không chỗ trách được' (blameless) which corresponds to the lemma 'ámōmos'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

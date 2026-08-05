@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nhổ trên Ngài' (spit *on* Him) is a slight spatial deviation from the Greek 'εμπτυσουσιν αυτω' (spit *at/upon* Him), but more importantly, the Vietnamese 'đến ngày thứ ba' (until/by the third day) slightly alters the temporal focus of 'και τη τριτη ημερα' (and on the third day). However, the primary issue is the prepositional nuance in 'nhổ trên' which can imply 'spitting over' rather than 'at'. Actually, looking closer at 'đến', it implies a duration or a limit ('until'), whereas the Greek is a specific point in time ('on')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

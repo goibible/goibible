@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκρινεν ο θεος το κριμα υμων' means 'God has decided/judged our judgment (case/sentence)', but the Vietnamese 'phán xét sự phán xét của các ngươi trên nó' changes the subject of the judgment to 'you' (các ngươi) instead of 'us' (υμων). Furthermore, it adds 'trên nó' (on it) which is not in the Greek."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Vietnamese 'Hỡi trời, hãy vui mừng' (O heaven, be glad/rejoice) renders the Greek 'ευφραινου επ αυτην ουρανε' (heaven rejoices over it) as an imperative command rather than a descriptive statement of what is happening."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

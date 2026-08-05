@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν σωμα' (in one body) is rendered as 'hiệp nên một thân thể' (united into one body). While the sense of unity is there, the Vietnamese phrasing suggests an action of uniting ('hiệp nên') rather than the prepositional state of being 'in' (en) a single body."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθ εις αλληλων μελη' means 'as to one another's members'. The Vietnamese 'và mỗi người là chi thể của nhau' (and each person is a member of each other) changes the prepositional relationship 'as/to' into a personal subject-verb construction ('each person is')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

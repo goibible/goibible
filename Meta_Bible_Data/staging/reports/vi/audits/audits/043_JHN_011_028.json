@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εφωνησεν' (called/cried out) and 'ειπουσα' (said) are attributed to the person who left. The Vietnamese translation 'lén gọi... mà nói' (secretly called... and said) captures the action, but the Greek 'λαθρα' (secretly) modifies the calling, while the Vietnamese phrasing makes it slightly ambiguous if the 'nói' part is also secret. However, the main issue is the tense/aspect of 'εφωνησεν' (aorist) which is a completed action, and the Vietnamese 'đang ở đây' (is here) for 'παρεστιν' (aorist - has come/stood by) changes the aspect from a completed arrival to a continuous state."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'παρεστιν' is an aorist verb indicating a completed action (has come/stood by). The Vietnamese 'đang ở đây' translates this as a present continuous state (is here), which changes the sense of the movement/arrival described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

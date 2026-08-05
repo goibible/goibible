@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εσυρον' (esuron) is a verb meaning 'dragging/pulling'. The Vietnamese translation 'rồi kéo người' implies the crowd dragged 'the person' (a third party or general), but the Greek structure 'εσυρον εξω της πολεως' indicates they dragged Paul out of the city. The Vietnamese phrasing makes it sound like an additional action performed on someone else, rather than the primary action performed on Paul."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

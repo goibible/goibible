@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο κυριος αυτου' (his master) is translated as 'chủ' (master), omitting the possessive 'αυτου' (his). While minor, it slightly shifts the specific relationship."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο ελθων' (the one coming/when he comes) is rendered as 'khi chủ đến' (when master comes). The Vietnamese version omits the subject of 'coming' or fails to clearly link it to the master in a way that preserves the specific Greek construction of the participle."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

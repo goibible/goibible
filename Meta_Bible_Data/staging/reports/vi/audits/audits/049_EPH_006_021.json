@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα κατ εμε' (the things about me/concerning me) is translated as 'những việc về tôi và tôi làm gì' (the things about me and what I do). The Vietnamese adds an extra clause of action ('tôi làm gì') that is not explicitly stated in the Greek phrase."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παντα' (always) is missing from the Vietnamese translation. The Greek says 'biết cho anh em biết mọi sự' (let him always make known to you), but the Vietnamese renders it as 'sẽ cho anh em biết mọi sự' (will let you know everything)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

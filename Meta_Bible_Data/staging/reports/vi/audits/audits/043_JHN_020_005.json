@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κειμενα' (keimena) is a verb meaning 'lying' or 'were lying'. The Vietnamese translation 'vải liệm' (shroud) is a lexical interpretation of the context, but it is not present in the Greek text provided. The Greek only specifies that something was lying there."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

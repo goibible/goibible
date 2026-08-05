@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ευχρηστον' (euchriston) means 'useful/beneficial', but the Vietnamese translation says 'có ích' (useful) for both parts. However, the Greek text says 'αχρηστον' (achriston - USELESS) in the first part and 'ευχρηστον' (useful) in the second. The Vietnamese correctly identifies the change but the Greek structure 'νυνι δε σοι και εμοι ευχρηστον' implies 'now [he is] useful to you and me', whereas the Vietnamese says 'nhưng bây giờ thật có ích cho anh và cho tôi'. The main issue is the negation/meaning of the first part: 'αχρηστον' (useless) vs 'vô ích' (useless) is correct, but the overall flow of the Greek 'δε σοι και εμοι ευχρηστον' is a contrast to the first state."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεπεμψα' (anepempsa) means 'I sent' or 'I dispatched'. The Vietnamese translation 'đã sai về' means 'sent back' or 'sent home'. While 'sai' can mean send, the 'về' (back/home) is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

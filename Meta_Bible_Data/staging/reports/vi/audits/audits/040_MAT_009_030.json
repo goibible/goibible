@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεωχθησαν αυτων οι οφθαλμοι' (their eyes were opened) is rendered as 'Mắt họ liền mở ra' (Their eyes then opened). While the meaning of 'opened' is correct, the Vietnamese translation adds the temporal adverb 'liền' (then/immediately) which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ενεβριμησατο' (reproached/rebuked) is rendered as 'quở trách'. While 'quở trách' is a common translation, the Greek 'ενεβριμησατο' in this specific context (Mark 1:44) often carries a stronger sense of 'rebuking' or 'forbidding' rather than just 'reproaching'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

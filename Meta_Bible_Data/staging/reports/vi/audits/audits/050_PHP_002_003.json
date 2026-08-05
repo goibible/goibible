@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αλληλους ηγουμενοι' (leading one another / ministering to one another) is omitted. The Vietnamese translation simplifies this to a general command to 'consider others better than oneself', missing the active sense of mutual leadership/service."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπερεχοντας εαυτων' means 'surpassing [others] in excellence' or 'exceeding [others]'. The Vietnamese translation 'coi người khác hơn mình' (consider others better than oneself) reverses the direction of the excellence; the Greek describes the believers' own excellence/superiority in humility, not a subordinate status compared to others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

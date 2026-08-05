@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'του πνευματος του νυν ενεργουντος' (of the spirit now at work) as 'tức là Thánh Linh hiện đang hành động' (that is, the Holy Spirit currently acting). The Greek does not contain the phrase 'tức là' (that is/namely), nor does it identify the 'spirit' specifically as 'Thánh Linh' (Holy Spirit); it simply says 'of the spirit'. This adds an identification and a connector not present in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

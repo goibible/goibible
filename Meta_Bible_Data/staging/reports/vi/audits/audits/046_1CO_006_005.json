@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς εντροπην' (pros entropēn) means 'to your shame' or 'to your disgrace.' The Vietnamese translation 'khiến anh em hổ thẹn' (causes you to be ashamed) changes the grammatical structure from a prepositional phrase describing the manner of the speech to a resultative clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εστιν' (ouk estin) is a simple negative statement ('there is not'). The Vietnamese translation adds 'Vậy' (So/Therefore), which introduces a logical consequence not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

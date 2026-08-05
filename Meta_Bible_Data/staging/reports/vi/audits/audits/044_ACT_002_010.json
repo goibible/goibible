@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'αἰγύπτον' (Egypt), which is completely missing from the Vietnamese translation. The Vietnamese text lists 'Phry-gi', 'Pam-phi-ly', and 'Li-by', but skips Egypt."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιδημουντες' (sojourners/resident aliens) is rendered as 'những người... đến đó' (people who came there), which loses the specific nuance of being a resident alien or sojourner within those lands."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

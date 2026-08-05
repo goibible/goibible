@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αδελφαι' (adelphai) is the feminine plural of 'adelphos'. While it can mean 'sisters', in the context of the New Testament (specifically John 1:12), it refers to 'children' or 'offspring' (the children of God). Translating it as 'chị em gái' (sisters) is a gender-specific restriction not present in the Greek, which would lead a Vietnamese reader to miss the inclusive meaning of 'children'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

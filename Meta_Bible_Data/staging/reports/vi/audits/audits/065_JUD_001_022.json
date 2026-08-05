@@ -1,0 +1,18 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'διακρινομενοι' (diakrinomenoi) refers to those who are 'divided' or 'doubting/wavering' in faith, but the Vietnamese translation 'đang nghi ngờ' (doubting/suspicious) misses the nuance of being 'divided' or 'wavering' between two opinions/states. However, more critically, 'διακρινομενοι' in this context often refers to those who are divided/uncertain, whereas 'nghi ngờ' can imply a lack of belief entirely."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

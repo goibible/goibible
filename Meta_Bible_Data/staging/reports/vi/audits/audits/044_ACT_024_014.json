@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ομολογω δε τουτο σοι' (I confess this to you) is rendered as 'Tôi xưng nhận với ông'. While 'xưng nhận' is a common translation for 'confess', the Greek 'ομολογω' in this context often implies a declaration of faith or testimony. However, the more significant issue is the phrase 'κατα την οδον ην λεγουσιν αιρεσιν'. The Vietnamese translates this as 'theo con đường mà họ gọi là bè phái' (according to the way they call a sect). The Greek 'αιρεσιν' (heresy) is a specific theological category. While 'bè phái' can mean 'sect', in a New Testament context, it might be slightly weaker than the intended meaning of 'heresy', but the primary issue is the structure: 'κατα την οδον' (according to the way) combined with 'ην λεγουσιν αιρεσιν' (which they call heresy). The Vietnamese captures the meaning well enough that it does not fundamentally change the fact, but I will mark OK as per the instructions regarding 'acceptable rendering'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

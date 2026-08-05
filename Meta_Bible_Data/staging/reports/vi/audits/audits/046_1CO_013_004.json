@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μακροθυμει' (makrothymei) means 'is patient' or 'is long-suffering'. The Vietnamese translation 'hay nhịn nhục' (often implies 'enduring hardship' or 'self-sacrifice') is a common stylistic rendering, but the core meaning of long-suffering/patience is slightly shifted. However, the more significant issue is 'χρηστευεται' (christeuetai), which means 'is kind' or 'is benevolent'. The Vietnamese 'hay nhân từ' captures this well."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ου φυσιουται' (ou physioutai) means 'does not boast' or 'is not proud/bragging'. The Vietnamese 'chẳng lên mình kiêu ngạo' translates to 'not being proud/arrogant'. While 'kiêu ngạo' captures the spirit of pride, 'φυσιωται' specifically refers to the act of boasting or showing off. This is a minor stylistic variance, but the Vietnamese 'lên mình' adds an idiomatic flavor not in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

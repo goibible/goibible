@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις αυτον' (eis auton) means 'at him' or 'on him'. The Vietnamese translation 'trên Ngài' (on Him/above Him) changes the prepositional sense from striking/spitting *at* someone to something occurring *over* someone."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

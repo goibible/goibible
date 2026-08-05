@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οιδας' (oida) is in the first person ('I know'), but the Vietnamese 'đã biết' is used in a way that could be interpreted as general knowledge. More importantly, the Greek 'τα δυναμενα σε σοφισαι' refers to the Scriptures *being able* to make one wise (the power of the Word), whereas the Vietnamese 'là những chữ có thể khiến con khôn ngoan' suggests the Scriptures *are* the things that make one wise. However, the primary issue is the omission of the specific grammatical relationship: the Greek 'οιδας τα ιερα γραμματα... τα δυναμενα' implies 'you know the Holy Scriptures, [which are] the ones able to make you wise'. The Vietnamese 'là những chữ' slightly shifts the structure but remains acceptable. The main issue is the tense/aspect of 'oida' (perfect indicative) which denotes a state of knowing acquired in the past; 'đã biết' captures this well."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

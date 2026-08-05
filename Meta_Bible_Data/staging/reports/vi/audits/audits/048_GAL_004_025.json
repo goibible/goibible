@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συστοιχει' (systoichei) is a rare/archaic term often interpreted as 'corresponding to' or 'equivalent to', but the Vietnamese translation uses 'tương ứng với' in a way that suggests a spatial or functional correspondence that may be slightly different from the original intent. However, the primary issue is the rendering of 'δουλευει' (douleuei). In Greek, this is a verb meaning 'serves' or 'is serving'. The Vietnamese 'phục vụ' is a correct translation for 'serves', but the phrasing 'vì thành đó cùng với con cái mình đều phục vụ' (because that city along with its children all serve) creates a slight ambiguity in the subject-verb agreement/scope compared to the Greek structure."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'δε' (de) is used as a conjunction. The Vietnamese 'vì' (because) introduces a causal relationship that is not explicitly stated in the Greek text, which uses 'δε' more as a coordinating conjunction or to transition between clauses."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

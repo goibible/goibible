@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλειον εστιν' (is more/greater) is rendered as 'thật là hơn' (truly is more). While the meaning is preserved, the Vietnamese translation omits the specific grammatical structure of the comparison as it relates to the preceding clauses, but more importantly, the Greek 'και' (and) connecting the final two clauses ('και το αγαπαν τον πλησιον... και [το] αγαπαν αυτον...') implies that both loving God and loving the neighbor are greater than sacrifices. The Vietnamese structure makes 'yêu người lân cận' the primary subject of the comparison, potentially making it sound like only the second part is greater."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

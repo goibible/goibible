@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εγκεντρισθω' (enkentristhō) is a passive/middle form meaning 'to be enclosed' or 'to be shut in'. The Vietnamese translation 'tháp vào' suggests an active motion of 'entering' or 'going into', which loses the nuance of being enclosed or shut in by the branches."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

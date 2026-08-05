@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα γνωτα περι υμων' (so that [he] might make known concerning you) is translated as 'để anh em biết tình trạng của chúng tôi' (so that you know our situation). The Greek indicates the messenger is making things known *about* the recipients, not that the recipients are learning about the sender's situation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

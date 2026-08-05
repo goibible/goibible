@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι' (ti) functions as a relative pronoun/conjunction meaning 'what'. The Vietnamese translation 'lời... nói' (the words... say) changes the structure from 'Listen to WHAT the judge... says' to 'Listen to the words of the judge... say', which is grammatically awkward and slightly alters the directness of the object. Furthermore, 'quan án của sự không công bình' suggests the judge *belongs* to injustice, whereas 'κριτης της αδικιας' identifies him as the Judge *of* Injustice."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

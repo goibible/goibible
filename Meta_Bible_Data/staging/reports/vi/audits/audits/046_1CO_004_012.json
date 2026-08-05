@@ -1,0 +1,13 @@
+{
+  "book": "1CO",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

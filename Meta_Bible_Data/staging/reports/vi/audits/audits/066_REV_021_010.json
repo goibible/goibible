@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταβαινουσαν' (katabainousan) is a present active participle describing the city as 'descending' or 'coming down'. The Vietnamese translation 'mà xuống' (which comes down) is a simplified verb phrase that loses the continuous/ongoing nature of the action described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

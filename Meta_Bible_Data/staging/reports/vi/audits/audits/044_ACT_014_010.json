@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειπεν' (eipen) is a third-person singular verb ('He/She said'), but the Vietnamese 'Người nói' is a general noun phrase. While often acceptable, the Greek specifically indicates a single male or female subject spoke, whereas 'Người' can be ambiguous in some contexts. More importantly, the Greek 'αναστηθι' is an imperative, which is correctly captured, but the transition from the command to the action is immediate."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηλλετο' (ēlleto) is in the imperfect tense, suggesting a continuous or repeated action of 'leaping/jumping' as he rose. The Vietnamese 'liền nhảy' uses 'liền' (immediately), which captures the sequence but misses the aspectual nuance of the imperfect tense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

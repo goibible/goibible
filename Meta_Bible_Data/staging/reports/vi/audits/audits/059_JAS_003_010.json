@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταυτα ουτως γινεσθαι' is an exclamation of lament/indignation (often rendered as 'How can this be?' or 'How is it that...?'), but the Vietnamese 'không nên xảy ra như vậy' translates it as a moral prohibition ('should not happen'). The Greek expresses shock at the current reality, not a command or advice on what ought to happen."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

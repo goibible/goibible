@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 53,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απηγαγον' (apēgagon) is an aorist active indicative, meaning 'they took' or 'they led'. The Vietnamese 'đến' (to/until) combined with the structure implies a movement but misses the specific action of 'taking/leading' as a completed act. However, the more significant issue is the inclusion of 'cả' (all/entire) in 'thầy tế lễ cả', which is not present in the Greek 'τον αρχιερεα' (the high priest). The Greek refers to a specific individual (the High Priest) first, then the group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

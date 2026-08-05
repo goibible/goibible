@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμφημι' (symphimi) means 'I agree with/concur with,' but the Vietnamese 'đồng ý với luật' implies agreeing *with the law* as an entity or authority. The Greek 'του νομου' is genitive, modifying 'συμφημι', but in this context, it refers to the 'law of sin' (the principle of sin), which the speaker is 'agreeing with' by performing the act. The Vietnamese phrasing slightly shifts the focus from the action/principle to a formal agreement with a legal code."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

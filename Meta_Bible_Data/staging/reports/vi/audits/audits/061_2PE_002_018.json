@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασελγειαις' (aselgeiais) is a noun meaning 'sensualities' or 'licentiousness.' The Vietnamese translation treats it as a verb/action ('buông tuồng') modifying the desires, whereas in Greek it is an object of the preposition 'εν' (in), alongside 'ἐπιθυμιαις σαρκος' (desires of the flesh)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation suggests the 'sensualities' are used to 'lure' (dụ dỗ) those who avoided the others. However, the Greek 'δελεαζουσιν' (deleazousin) means they are 'seducing/enticing' people *with* (εν) these things. The Vietnamese structure makes it sound like the 'sensualities' are the instrument of luring, but the phrasing 'lấy lòng ham muốn... và sự buông tuồng mà dụ dỗ' is slightly ambiguous regarding whether the sensualities are part of the lure or a separate category. More importantly, the Greek implies they are enticing people *into* these things."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'αναγγελει' (anangellei) is in the future tense, but the Vietnamese translation 'sẽ rao truyền' (will announce) is technically correct. However, the Greek 'παντα' (panta) means 'all things/everything', whereas 'mọi điều' is acceptable. The primary issue is that the Greek 'αναγγελει ημιν' implies a singular action of announcing, but the Vietnamese phrasing is slightly smooth. Wait, looking closer: 'αναγγελει' is future, 'sẽ rao truyền' is future. Let me re-evaluate."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

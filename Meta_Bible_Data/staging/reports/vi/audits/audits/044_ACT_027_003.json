@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φιλανθρωπως' (philanthropously/kindly) modifies the action of Julius 'τω παυλω χρησαμενος' (having used/treated Paul). The Vietnamese translation 'đối xử với Phao-lô một cách nhân từ' suggests Julius treated Paul kindly, whereas the Greek structure implies Julius acted in a way that was kind/benevolent toward Paul. However, more importantly, the Vietnamese 'cho phép ông đi đến bạn hữu' (allowed him to go to friends) is slightly imprecise. The Greek 'προς φιλους πορευθεντα' means 'going to friends'. The Vietnamese 'để được sự chăm sóc' (to receive care) is an interpretation of 'επιμελειας τυχειν' (to happen to be cared for/to find care), but the Greek implies the *purpose* or *result* of going to the friends was to find care. The main issue is the nuance of 'χρησαμενος', which can mean 'having used' or 'having treated'; in this context, it refers to Julius's role/action regarding Paul."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

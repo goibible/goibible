@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοξαν αυτω δοντα' (having given him glory) is rendered as 'ban vinh hiển cho Ngài' (gave glory to Him). In the Greek, God is the subject of the action of giving glory to Christ. The Vietnamese structure 'Đấng đã khiến... và ban vinh hiển' suggests that the same Subject (God) performed both actions, which is correct, but the phrasing 'đặt nơi Đức Chúa Trời' in the final clause slightly shifts the focus from 'is in God' (ειναι εις θεον) to 'placed in God'. However, the more significant issue is the clarity of the first clause: 'δι αυτου πιστευοντας' means 'believing through him'. The Vietnamese 'nhờ Ngài mà tin đến' is acceptable, but the transition to the next clause is slightly muddy."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ειναι εις θεον' (is in God) describes the state of faith and hope. The Vietnamese 'được đặt nơi Đức Chúa Trời' (are placed in God) is a passive construction not present in the Greek, though it preserves the general meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

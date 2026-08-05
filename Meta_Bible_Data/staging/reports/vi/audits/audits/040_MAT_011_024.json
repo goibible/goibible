@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ανεκτοτερον' (anektoteron) means 'more tolerable' or 'more enduring,' but in the context of judgment and the comparison to Sodom, it implies 'less severe' or 'more enduring' in a sense of remaining. However, the Vietnamese 'khoan dung' typically means 'forgiving' or 'lenient.' In this context, the Greek suggests that Sodom's state will be more 'endurable/tolerable' than the person's state during judgment, which is a specific comparison of severity. Using 'khoan dung' (forgiveness) changes the nature of the comparison from 'severity/tolerability' to 'mercy'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

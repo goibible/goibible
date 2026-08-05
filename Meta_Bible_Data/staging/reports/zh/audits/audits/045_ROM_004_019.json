@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'he did not consider' (ου κατενοησεν) his own body as good as dead, but the Chinese says 'he thought about' (想到) his body, reversing the negation. The Greek means he did not dwell on his body's deadness; the Chinese says he did think about it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

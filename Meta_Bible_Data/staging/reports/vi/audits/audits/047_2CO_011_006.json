@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text uses the singular first-person 'εἶ' (if I am), but the Vietnamese translation uses the plural 'chúng tôi' (we). This changes the subject from a single individual to a group."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φανερωθεντες' is a perfect passive participle, implying 'having been made manifest' or 'having appeared'. The Vietnamese 'đã được tỏ ra' captures the meaning, but the shift from singular to plural in the subject remains a primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επαγγελματα' (epangelmata) refers to 'promises' or 'commitments,' but the Vietnamese translation 'lời hứa' (promises) is paired with 'ban cho' (given/bestowed), which is a valid rendering, however, the phrase 'bạn đồng công' for 'κοινωνοι' (koinonoi) is slightly off. 'Κοινωνοι' means 'sharers', 'partakers', or 'fellow-heirs'. 'Bạn đồng công' implies 'co-workers' or 'partners in work,' which shifts the meaning from 'sharing in/participating in' to 'working together with'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φυσεως' (physeōs) is a genitive modifying 'κοινωνοι', meaning 'partakers of the divine nature'. The Vietnamese 'bạn đồng công của bản tính thiêng liêng' suggests they are partners *of* the nature, but the Greek implies they share *in* that nature. While close, 'partakers' is more accurate than 'co-workers'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

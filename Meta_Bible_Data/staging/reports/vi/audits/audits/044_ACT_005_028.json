@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λεγων ου παραγγελια' (saying, 'no order') is rendered as 'ra mạng lịnh cấm' (issued a forbidding order). In the Greek, Jesus is quoting the Pharisees saying they gave no order; the Vietnamese makes it sound like he is describing an actual order that was issued."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεπληρωκατε την ιερουσαλημ' (you have filled Jerusalem) is rendered as 'làm cho thành Giê-ru-sa-lem đầy dẫy' (made the city of Jerusalem full). While similar, the Greek uses a perfect tense indicating a completed state/action of filling, which the Vietnamese captures well enough, but the primary issue remains the introductory quote."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανηγαγον αυτον' (anēgagon auton) uses the masculine pronoun 'αυτον' (him/it), referring back to 'οτε' (the Passover lamb, implied by context or the preceding sentence). The Vietnamese 'đem Ngài' (brought Him) uses a respectful pronoun 'Ngài' which usually refers to God or Jesus. In this specific context of the Law of Moses, it refers to the sacrificial lamb."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατα τον νομον' (kata ton nomon) means 'according to the law'. The Vietnamese 'theo luật' is an acceptable rendering, but the phrase 'đã được trọn' (were completed/fulfilled) for 'επλησθησαν' (were fulfilled/completed) is generally acceptable."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

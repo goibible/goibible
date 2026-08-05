@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μικρον' (mikron) means 'little' or 'small'. The Vietnamese translation 'ít lâu' means 'a short time' (duration), which is a change in the nature of the adjective."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

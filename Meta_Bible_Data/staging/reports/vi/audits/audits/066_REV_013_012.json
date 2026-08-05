@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'ου εθεραπευθη' (was NOT healed), but the Vietnamese translation says 'được chữa lành' (was healed), reversing the negation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

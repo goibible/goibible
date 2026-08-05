@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds the phrase 'tôi không nói đến anh em' (I am not talking about you/you are not included) which is not present in the Greek text. The Greek simply says 'we' (ημεις) would be ashamed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

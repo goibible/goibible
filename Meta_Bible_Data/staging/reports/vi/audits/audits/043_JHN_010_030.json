@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εσμεν' (en esmen) means 'we are in' or 'we are in [each other/unity]'. The Vietnamese 'là một' translates to 'are one' (identity of being). While 'are one' is a common theological interpretation of this phrase, it is not a literal translation of the Greek grammar provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

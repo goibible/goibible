@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'say sưa, say sưa' (drunk, drunk) is a repetitive error. The Greek text lists three distinct things: 'κραιπαλη' (revelry/wild living), 'μεθη' (drunkenness), and 'μεριμναις βιωτικαις' (worldly anxieties). The translation omits 'revelry' and repeats 'drunkenness'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

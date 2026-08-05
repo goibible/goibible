@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'ου η οικια ην συνομορουσα τη συναγωγη' (but the house was not adjacent to the assembly/synagogue). The Vietnamese translation 'nhà người giáp liền với nhà hội' incorrectly states that the house WAS adjacent, reversing the negation 'ου'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

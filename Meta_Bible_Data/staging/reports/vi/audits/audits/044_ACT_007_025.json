@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενομιζεν δε συνιεναι' means 'he thought that they understood' (or 'he thought they were understanding'). The Vietnamese translation 'Người tưởng rằng anh em mình hiểu' translates it as 'He thought his brothers understood', which omits the fact that the subject of the thinking is the person (the one who thought), while the object of the thought is the brothers' understanding. More importantly, the Greek 'συνιεναι' implies a shared understanding or 'comprehending together'. The Vietnamese 'hiểu' captures the meaning, but the structure 'Người tưởng rằng anh em mình hiểu' can be slightly ambiguous as to who is doing the thinking vs who is doing the understanding compared to the Greek structure."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια χειρος αυτου' (through his hand) refers to the hand of the person who was thinking (the subject of the first verb). The Vietnamese 'dùng tay mình' correctly identifies 'his hand', but in some contexts, if not clear from the surrounding text, it might be confused with God's hand. However, the primary fidelity issue is the nuance of 'συνιεναι'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

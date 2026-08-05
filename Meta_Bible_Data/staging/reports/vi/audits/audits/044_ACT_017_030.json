@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπεριδων' (hyperidōn) is a compound word meaning 'over-years' or 'ages/eons'. The Vietnamese translation 'đã bỏ qua' (has passed/skipped/ignored) misinterprets the temporal scope. The Greek structure 'τους μεν ουν χρονους... τα νυν' implies a contrast between the ages of ignorance and the current command. 'Bỏ qua' suggests a deliberate action of skipping, whereas the Greek describes a transition of time."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

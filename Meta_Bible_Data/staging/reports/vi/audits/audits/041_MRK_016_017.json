@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακολουθησει' is a future tense verb meaning 'will follow' or 'will accompany'. The Vietnamese translation 'sẽ theo' correctly captures the future, but the construction 'theo những kẻ tin' (follow those who believe) reverses the grammatical subject/object relationship. In Greek, 'ταυτα παρακολουθησει' means 'these [signs] will follow [the believers]'. The Vietnamese phrasing suggests that the *believers* are the ones doing the following, rather than the signs following the believers."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ταυτα' (these) refers to the signs. While included in the Vietnamese as 'Các dấu này', the grammatical link showing that these signs are the subject performing the action of following is slightly obscured by the Vietnamese word order."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

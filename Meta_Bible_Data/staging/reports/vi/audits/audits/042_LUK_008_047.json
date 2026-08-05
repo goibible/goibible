@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδουσα δε η γυνη οτι' (the woman saw that) is translated as 'Người nữ thấy mình không thể giấu được' (The woman saw she could not hide herself). The Vietnamese adds a concept of 'not being able to hide' which is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσεπεσουσα αυτω' (falling down to him) is rendered as 'đến sấp mình xuống trước Ngài'. While 'sấp mình xuống' conveys falling, the specific direction/action toward Him ('αυτω') is slightly softened in the Vietnamese flow, though it's borderline. However, the primary issue remains the addition of the 'hiding' concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

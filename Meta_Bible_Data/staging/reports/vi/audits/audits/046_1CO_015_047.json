@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'thuộc về đất' (belonging to the earth/of the earth) after the first person, which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

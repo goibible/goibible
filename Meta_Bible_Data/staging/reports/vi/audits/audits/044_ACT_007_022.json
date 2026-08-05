@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ην δε δυνατος' (ēn de dynatos) means 'but he was not able/powerful'. The Vietnamese translation 'người có tài năng' (he had talent/was capable) incorrectly renders a negative statement as a positive one, reversing the meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

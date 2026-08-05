@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεν' (nothing) is treated as a general statement ('không làm cho điều gì trở nên trọn vẹn') rather than the specific existential negation 'nothing' that the Law completed. More importantly, the Vietnamese translation misses the contrastive structure of 'επεισαγωγή' (introduction/bringing in). The Greek says the Law *did not* complete anything [but] it is an introduction of a better hope. The Vietnamese phrasing 'nhưng có sự đem vào' slightly softens the direct connection between the failure of the law and the necessity of the new hope."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

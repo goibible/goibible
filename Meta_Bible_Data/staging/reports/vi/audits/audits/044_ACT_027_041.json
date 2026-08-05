@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επεκείλαν' (epekeilan) means 'was hanging/suspended' or 'was suspended', but the Vietnamese 'cho tàu mắc cạn' implies a deliberate action ('they caused the ship to run aground') which is not in the text. The Greek describes a state of being, not an action taken by the subjects."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

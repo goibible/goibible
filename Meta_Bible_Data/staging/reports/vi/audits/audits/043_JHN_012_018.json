@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'υπηντησεν' (ypēntēsen) means 'to rush toward' or 'to flock to', but the Vietnamese 'đến đón' (came to welcome/greet) changes the nature of the action from a sudden movement toward someone to a social act of welcoming."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεποιηκεναι' (pepoiekenai) is a perfect active infinitive, indicating the action of 'having performed/done'. The Vietnamese 'đã làm' captures the tense, but the overall construction 'Ngài đã làm dấu lạ ấy' slightly misses the nuance of the crowd's perception of the completed miracle as the reason for their rushing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'nổi dậy nghịch cùng' (rebelled against/with), but the Greek 'κατεπεστησαν' means 'overpowered,' 'subdued,' or 'overwhelmed.' The Vietnamese implies a rebellion or conflict, whereas the Greek describes the Jews overpowering Paul."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

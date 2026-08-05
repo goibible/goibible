@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα μιαν σαββατων' refers to 'every Sabbath' (each week), whereas the Vietnamese 'Vào ngày đầu tuần' means 'On the first day of the week'. This changes the frequency and timing of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο τι αν ευοδωται' refers to 'whatever you prosper in' (the source of prosperity/success), but the Vietnamese 'tùy theo sự mình được thịnh vượng' implies 'depending on how much one prospers', which changes the focus from the source to the amount."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

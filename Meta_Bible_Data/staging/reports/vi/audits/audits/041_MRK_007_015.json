@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κοινωσαι' (koinosai) means 'to make common', 'to share', or 'to communicate'. The Vietnamese translation uses 'làm dơ dáy' (to defile/make unclean), which is a theological interpretation but not the literal meaning of the Greek word used in this specific verse (Matthew 15:19). The Greek text describes what enters/leaves the person as 'common' (shared) to the person, not necessarily 'defiled'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

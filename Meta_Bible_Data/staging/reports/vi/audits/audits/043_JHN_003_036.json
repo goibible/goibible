@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀπειθῶν' (apeithōn) means 'disobeying' or 'not believing/trusting' in the context of faith vs. unbelief (the antonym of 'πιστεύων'). The Vietnamese translation 'không vâng phục' means 'not obeying' (disobedience). While related, 'unbelief' is a different theological concept than 'disobedience' in this specific contrast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

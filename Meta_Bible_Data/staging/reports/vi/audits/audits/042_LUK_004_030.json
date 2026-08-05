@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διελθων' (dielthōn) is a perfect active participle, which in this context functions as a main verb indicating a completed action ('having passed through'). The Vietnamese 'đi ngang qua' (passed through) combined with 'bước đi' (walked) creates a redundant/repetitive structure that slightly misrepresents the Greek flow, where 'διελθων' is the primary action and 'επορευετο' (eporeueto) describes the manner/state of the movement. However, more critically, the Vietnamese 'đi ngang qua' can imply a transversal movement across, whereas 'διελθων' implies moving through/alongside."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

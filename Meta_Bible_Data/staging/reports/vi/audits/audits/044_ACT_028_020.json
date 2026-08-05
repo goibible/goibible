@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'προσλαλησαι' (to speak/talk) is combined with 'ενεκεν γαρ της ελπιδος' (for the sake of the hope). The Vietnamese translation omits the specific nuance of 'speaking' as a collective action or purpose, and more importantly, fails to capture the scope of 'προσλαλησαι' which implies an interaction. However, the primary issue is the omission of the specific connection between the action of speaking and the reason (the hope)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περικειμαι' is a passive verb meaning 'I am encircled/bound/enveloped'. The Vietnamese 'tôi mang' (I carry) changes the grammatical voice from passive to active, which alters the sense of being 'bound by' the hope."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

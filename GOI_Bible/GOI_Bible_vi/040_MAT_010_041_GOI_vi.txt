@@ -1,0 +1,1 @@
+Ai tiếp nhận một nhà tiên tri vì danh nhà tiên tri, thì sẽ nhận lấy tiền công của nhà tiên tri; và ai tiếp nhận một người công chính vì danh người công chính, thì sẽ nhận lấy tiền công của người công chính.

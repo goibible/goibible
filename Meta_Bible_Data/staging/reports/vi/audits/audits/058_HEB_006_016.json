@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατα του μειζονος' (by/in the name of the greater one) is rendered as 'mượn danh' (borrowing the name), which implies a deceptive act not present in the Greek text. The Greek simply indicates the authority or means by which they swear."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πασης αυτοις αντιλογιας περας' refers to the 'end of all [their] arguments/counter-arguments'. The Vietnamese 'sự chống trả của họ có cùng tận' (their resistance has an end) changes the meaning from a finality in argument to a limit on resistance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

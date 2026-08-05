@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλον γευσαμενους' (having tasted the good) is modified by 'θεου ρημα' (word of God). The Vietnamese translation 'nếm lời lành của Đức Chúa Trời' implies 'tasting the good word', whereas the Greek structure suggests 'tasting the good [things] of the word of God' or 'tasting the good [of] the word of God'. However, a more significant issue is the lack of the definite article/connection for 'δυναμεις' (powers). The Vietnamese 'cùng quyền năng' (along with the powers) treats 'δυναμεις' as a separate object of the tasting or a coordinate phrase, while the Greek grammar links 'δυναμεις' to the 'ρημα' (word) as part of the content being tasted."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

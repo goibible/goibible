@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 10,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγγυς σου' (near you) is an adjective modifying 'το ρημα' (the word). The Vietnamese translation 'Lời ở gần ngươi' (Word near you) suggests a spatial location or proximity, but the Greek construction implies 'the word [that is] near you'. More importantly, the structure 'τι λεγει εγγυς σου το ρημα' functions as 'what does the word near you say?'. The Vietnamese 'Nhưng nó nói gì?' (But what does it say?) followed by 'Lời ở gần ngươi' (The word near you) separates the subject and its modifier into two distinct thoughts, potentially confusing the reader about whether 'it' refers to the word or something else."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

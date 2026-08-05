@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εστιν' (it is not) combined with the infinitive 'δειν' (to be necessary/ought to be) functions as a prohibition or statement of lack of necessity. The Vietnamese translation 'ấy chẳng phải là' (that is not) transforms a statement about the *necessity* of the action into a statement about the *identity* of the action. The Greek implies 'it is not necessary to eat', whereas the Vietnamese says 'it is not eating'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

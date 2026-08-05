@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'δικαιωμα' (dikaioma) as 'mạng lệnh' (command/order), whereas the Greek term refers to 'righteousness' or 'justification'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

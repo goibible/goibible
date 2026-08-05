@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπεδειξεν' (hypedeixen) is a verb meaning 'who showed' or 'who pointed out'. The Vietnamese translation renders this as a question ('ai đã chỉ...'), changing the grammatical structure from a statement about who showed them to a rhetorical/direct question."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'υπεδειξεν υμιν' (showed you), but the Vietnamese phrasing 'Hỡi con cái rắn lục, ai đã chỉ...' makes it sound as if the speaker is asking who showed them, rather than stating that someone showed them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

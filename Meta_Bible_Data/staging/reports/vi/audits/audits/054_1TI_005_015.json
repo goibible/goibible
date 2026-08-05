@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 5,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξετραπησαν' (exetrapēsan) means 'turned away' or 'were turned back'. The Vietnamese 'xây bỏ' (abandoned/gave up) changes the action from a change of direction/turning back to a cessation of an activity. Furthermore, 'οπισω του σατανα' means 'behind Satan' (following behind him), whereas the Vietnamese 'để theo Sa-tan' suggests a purpose ('in order to follow')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

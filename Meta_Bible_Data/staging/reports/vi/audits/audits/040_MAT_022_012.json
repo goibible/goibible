@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εταιρε' (etaire) is a vocative address meaning 'friend' or 'companion'. The Vietnamese translation renders it as 'bạn' (friend), but the sentence structure in Vietnamese makes it sound like the speaker is addressing 'anh ta' (him/you) as a general third person, whereas the Greek is a direct address within a quote. More importantly, the Greek 'και λεγει αυτω' (and he says to him) identifies the speaker as a distinct person from the one being addressed. The Vietnamese 'Người ấy nói với anh ta' is correct for the outer narrative, but the interior quote needs to clearly reflect the vocative 'friend'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο δε εφιμωθη' uses the particle 'δε' (de) which functions as a contrastive marker ('but' or 'as for'). The Vietnamese translation 'Người đó liền câm miệng' captures the action but misses the contrastive nuance of the 'de' particle, though this is often stylistic. However, the primary issue is the clarity of the dialogue."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

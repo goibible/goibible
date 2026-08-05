@@ -1,0 +1,26 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανετειλεν' (aneteilen) is a perfect tense verb meaning 'has risen' or 'rose,' not 'mọc lên' (rising/rising up) in the sense of an ongoing action or specific motion. More importantly, the Vietnamese 'mọc lên' suggests the sun is rising now, whereas the Greek describes the sun that has already risen and caused the drying."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συν τω καυσωνι' (syn tō kausōni) means 'with heat/burning.' The Vietnamese 'với nắng gắt' translates to 'with harsh sunlight.' While similar, 'nắng gắt' is a specific weather condition (scorching sun) rather than the general state of 'heat' (καυσόν)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξεπεσεν' (exepesen) means 'fell off' or 'dropped off.' The Vietnamese 'rụng xuống' is acceptable, but the phrase 'hoa nó rụng xuống' is slightly awkward. However, the main issue is the 'sự tốt đẹp của mặt nó' for 'η ευπρεπεια του προσωπου αυτου'. 'Ευπρέπεια' refers to 'beauty/comeliness/appearance' (often specifically of the face). 'Sự tốt đẹp' translates more to 'goodness/kindness,' which is a moral quality, whereas the Greek refers to physical appearance/beauty."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

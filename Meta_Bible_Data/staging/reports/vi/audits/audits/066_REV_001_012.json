@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επεστρεψα βλεπειν την φωνην' (I turned to see the voice) is rendered in Vietnamese as 'quay lại để nhìn xem tiếng' (turned back to see the voice). While 'quay lại' is a common translation for 'epestrepsa', the Vietnamese phrasing 'để nhìn xem' implies a purpose/intent (in order to see), whereas the Greek structure 'epestrepsa blepein' is a sequence of actions or a direct result. However, the more significant issue is that the Vietnamese 'quay lại' in the second clause ('και επιστρεψας') is slightly redundant but accurate; the main issue is the nuance of 'epestrepsa' which can mean 'turned/returned'. The translation is mostly faithful, but 'để' adds a purposive connection not explicitly marked by a preposition in Greek."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

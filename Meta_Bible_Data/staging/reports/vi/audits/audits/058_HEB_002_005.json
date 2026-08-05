@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπεταξεν' (hypetaxen) is an aorist active verb meaning 'subjugated' or 'placed under authority.' The Vietnamese 'chẳng từng khiến... phục dưới quyền' (never made... serve under the authority) adds a negation ('chẳng từng') and a continuous/perfective sense that is not present in the Greek text. The Greek is an affirmative statement of action, not a negation."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation changes the grammatical structure from 'subjugated the world' to 'didn't make the world serve,' which alters the directness of the action described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

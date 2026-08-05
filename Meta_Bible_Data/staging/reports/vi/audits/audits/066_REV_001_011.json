@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the phrase 'λεγουσης εγω ειμι το α και το ω ο πρωτος και ο εσχατος' ('who says, I am the Alpha and the Omega, the first and the last'), which is entirely missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

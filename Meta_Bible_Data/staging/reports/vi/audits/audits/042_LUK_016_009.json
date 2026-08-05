@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του μαμωνα της αδικιας' means 'from the money/riches of unrighteousness'. The Vietnamese translation 'dùng của cải bất công mà kết bạn' (use unfair wealth to make friends) slightly shifts the focus from the *source* of the riches to the *manner* of the wealth. However, a more significant issue is 'εκλιπητε'. The Greek 'εκλιπητε' (from 'ekliptō') means 'to be taken away', 'perished', or 'lost'. The Vietnamese 'thất bại' means 'to fail'. While 'fail' can be a result of being 'taken away/lost', it is a shift in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αδικεισθε' (adikeisthe) is passive, meaning 'be wronged' or 'be treated unjustly.' The Vietnamese 'chịu sự trái lẽ' (endure/suffer injustice) is close, but the Greek 'αποστερεισθε' (apostereisthe) is also passive, meaning 'be deprived' or 'be stripped of something.' The Vietnamese translation 'chịu sự gian lận' (suffer deception/fraud) does not accurately capture the sense of being deprived or stripped of something."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

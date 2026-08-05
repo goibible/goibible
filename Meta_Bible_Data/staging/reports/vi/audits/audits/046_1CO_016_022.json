@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητω' is an aorist imperative (a command or exhortation), whereas the Vietnamese 'phải bị' (must be/is to be) renders it as a passive necessity or consequence. The Greek expresses a command/exhortation: 'Let him be cursed!'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

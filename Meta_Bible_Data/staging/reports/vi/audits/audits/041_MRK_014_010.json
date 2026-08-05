@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'Ngài' (Him/He - usually referring to a third person or God) for 'αυτον' (him). In the context of this verse, 'αυτον' refers to Jesus. While 'Ngài' is often used for Jesus in Vietnamese Bibles, the Greek 'αυτον' is the direct object of 'παραδω'. The specific issue here is that the Vietnamese phrasing 'nộp Ngài' implies a formal pronoun that might be interpreted as a title, whereas the Greek is a simple personal pronoun. However, more critically, the Vietnamese uses 'các thầy tế lễ cả', which adds 'cả' (all/entire) which is not present in the Greek 'τους αρχιερεις' (the chief priests)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατ οudenes' (kat oudenes) means 'than anyone else' or 'than any other'. The Vietnamese translation 'không thể chỉ một ai lớn hơn' translates it as 'not being able to [be] only one person greater', which shifts the meaning from a comparison of persons to an ability/limitation. It should be rendered as 'hơn bất cứ ai khác'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

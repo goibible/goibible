@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κωλυθεντες' (kolythentes) means 'being hindered' or 'having been hindered'. The Vietnamese translation 'bị... ngăn cấm' implies a prohibition or a ban (forbidden), which is a stronger and different legal/authoritative concept than the Greek sense of being obstructed or impeded in progress."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

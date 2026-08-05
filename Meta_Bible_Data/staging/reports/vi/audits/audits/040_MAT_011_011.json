@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'người' at the end of the sentence is ambiguous and lacks a clear antecedent. In the Greek, 'αυτου' (his) clearly refers back to John the Baptist. The Vietnamese translation could be interpreted as 'greater than a person' rather than 'greater than him'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

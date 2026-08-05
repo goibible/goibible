@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 19,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'vào nước Đức Chúa Trời' (into the Kingdom of God), but the Greek text is 'εις την βασιλειαν του Θεου'. While 'vào' is a direction, 'nước Đức Chúa Trời' is the standard term for Kingdom of God. However, there is a subtle issue in the Vietnamese 'lạc đà chui qua lỗ cây kim còn dễ hơn...' which implies a comparison of ease, but the Greek structure 'παλιν δε λεγω υμιν ευκοπωτερον εστιν' specifically states 'I say to you again, it is easier...'. The translation is largely accurate, but I am flagging because 'nước Đức Chúa Trời' is often used for 'Kingdom', yet in some contexts, if 'Đức Chúa Trời' is interpreted as 'God' and 'nước' as 'country/kingdom', it fits. Wait, looking closer: the Vietnamese says 'vào nước Đức Chúa Trời'. The Greek is 'εις την βασιλειαν του Θεου'. This is a correct translation of the concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

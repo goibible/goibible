@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ οιδατε' is a negative statement ('you do not know'), but the Vietnamese translation adds a question mark and phrasing ('không biết rằng... sao?') which turns it into a rhetorical question. More importantly, the Vietnamese adds a second question mark at the end, changing the declarative nature of the Greek text."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation 'các thánh đồ' is slightly different from 'οι αγιοι' (the saints), but per instructions, lexical choices are ignored. However, the structural shift to a question format affects the meaning of the assertion."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

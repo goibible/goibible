@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνειχετο' (syneiketō) means 'was being urged/compelled' or 'was being moved'. The Vietnamese 'bị... thúc giục' (was urged) is acceptable, but the Greek 'διαμαρτυρομενος' (diamartyromenos) is a present active participle describing Paul's action of 'bearing witness'. The Vietnamese structure 'làm chứng' (bearing witness) is correct, but the connection between the urging and the witnessing in the Greek is a continuous state of being moved *while* witnessing. More importantly, the Greek 'τον χριστον ιησουν' functions as the object of the witnessing—witnessing Christ Jesus. The Vietnamese translation 'rằng Chúa Giê-xu là Đấng Christ' (that Jesus is the Christ) changes the direct object into a subordinate clause expressing a fact/identity, which slightly shifts the focus from 'witnessing the Person' to 'witnessing a statement'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

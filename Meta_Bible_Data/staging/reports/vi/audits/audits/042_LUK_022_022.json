@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δι ου' (di ou) indicates a location or direction ('to whom' or 'there'), but the Vietnamese 'kẻ mà Ngài bị nộp' (the one who He is handed over to) changes the grammatical relationship. The Greek states he is handed over *to* that man, whereas the Vietnamese phrasing makes it sound like the man is the one being handed over."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

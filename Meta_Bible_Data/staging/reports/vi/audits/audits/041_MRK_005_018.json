@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεκαλει' (parekalei) means 'begged/pleaded' or 'requested', but the Vietnamese 'xin ở lại' translates to 'asked to stay'. The Greek text implies a request for something else (the sentence is truncated in the prompt: 'ινα η μετ αυτου...'), but the Vietnamese provides a specific action ('stay') that is not supported by the visible Greek fragment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

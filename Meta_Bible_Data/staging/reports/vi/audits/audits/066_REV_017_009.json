@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ορη' (ore) means 'mountains' or 'hills'. The Vietnamese translation 'hòn núi' is correct, but the structure 'bảy cái đầu là bảy hòn núi' translates 'seven heads are seven mountains'. In the Greek text, 'ορη' is the subject of 'εισιν' (are), but it is modified by 'αι επτα κεφαλαι' (the seven heads). The Vietnamese phrasing slightly obscures the direct identification of the heads as mountains, though it captures the core meaning. However, a more significant issue is the lack of 'σοφιαν' (wisdom) being linked to 'ο εχων' (the one having/possessing). The Greek implies 'the mind that has wisdom', whereas the Vietnamese 'tâm trí có sự khôn ngoan' is acceptable, but the overall flow suggests a slightly different relationship between the subjects."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ευρον' is 3rd person plural, but the Vietnamese 'Họ tìm thấy' adds a specific subject ('Họ' - They) that is not explicitly present in the Greek text (which is a simple verb phrase). While common in translation, the Greek is an impersonal/subjectless construction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

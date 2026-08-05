@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'không thể chữa mình được' (cannot heal themselves) is a mistranslation of 'αναπολογητους' (anapologetous), which means 'incomparable', 'unfathomable', or 'beyond measure'. The translation fails to convey the magnitude/incomparability of the attributes."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'họ' (they) refers back to the invisible things, but the Greek structure implies that the power and deity are revealed *to be* incomparable. The Vietnamese phrasing makes it sound like a result of the revelation rather than the nature of the attributes themselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κρινει' (krinei) means 'judges' or 'judges/evaluates' in a judicial sense. The Vietnamese word 'đoán xét' implies 'guessing/speculating' or 'estimating,' which weakens the theological weight of divine judgment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

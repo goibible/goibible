@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text 'τρυφωσαν' is a plural verb (they labored), but the Vietnamese translation treats 'Trơ-phô-sa' as a person's name (a proper noun) who shares the same name as the action. The Greek reads: 'embrace Tryphaena and [they] labored...'. The Vietnamese renders it as: 'embrace Tryphaena and Tryphosa'. This changes the grammatical structure from a subject-verb relationship to a list of two people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

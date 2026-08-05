@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξουθενειτω' (exoutheneitō) means 'to despise' or 'to treat as worthless/contemptible.' The Vietnamese translation 'khinh dể' (scorn/look down on) is a common rendering, but the specific nuance of 'making worthless' is slightly lost. However, more importantly, the Greek structure is 'ο εσθιων τον μη εσθιοντα μη εξουθενειτω' (the one who eats [let him] not despise the one who does not eat). The Vietnamese 'khinh dể' captures the core meaning of 'despise' accurately enough for a general reader."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσελαβετο' (proselabeto) in this context (1 Corinthians 8:9) refers to 'accepted' or 'received' (often interpreted as 'accepted into the kingdom/fellowship'). The Vietnamese 'tiếp lấy' is a standard translation for 'received', but it can sometimes be ambiguous. However, looking at the grammar of 'ο θεος γαρ αυτον προσελαβετο', the Vietnamese 'Đức Chúa Trời đã tiếp lấy người' correctly identifies the subject (God), the object (the one who does not eat), and the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

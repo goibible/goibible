@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η σκηνη του μαρτυριου' refers to the 'Tabernacle of the Testimony.' The Vietnamese translation 'Đền tạm của chứng cớ' is a literal rendering of 'Tabernacle of Evidence/Witness,' but in biblical context, 'μαρτυριον' (Testimony) refers to the Covenant/Law. More importantly, the Greek 'εν τοις πατρασιν ημων' means 'among our fathers.' The Vietnamese 'với tổ phụ chúng ta' is acceptable, but the phrase 'đã ở' (was/stayed) is a slight shift from the locative 'εν' (in/among), though likely acceptable. However, the main issue is the phrasing of 'Đấng phán với Môi-se' which adds 'Đấng phán' (The One who spoke) where the Greek simply says 'ο λαλων' (the one speaking). While this is a common stylistic choice, the most significant risk is the word 'mẫu' for 'τυπον' (pattern/type), which is acceptable."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

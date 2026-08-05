@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υιος μου' (my son) is translated as 'Con là Con ta' (Child is my Child). The Vietnamese adds a redundant 'Con là' (Child is) and changes the relationship structure, whereas the Greek simply says 'my son'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

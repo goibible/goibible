@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes the imperative 'αγε' (Come) at the beginning, which is missing in the Vietnamese translation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιησωμεν εκει ενιαυτον ενα' means 'let us make there a year' (referring to a stay/duration), but the Vietnamese 'ở đó một năm' (stay there for one year) loses the active sense of 'making/spending' a year there as a collective action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εληλυθεν' (elēlythen) is a perfect tense verb meaning 'has happened' or 'has occurred'. The Vietnamese translation 'đã giúp thêm' (helped/added to) introduces a causal relationship ('giúp') that is not present in the Greek text. The Greek simply states that the events *have happened* for the progress of the Gospel, not that they *helped* it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

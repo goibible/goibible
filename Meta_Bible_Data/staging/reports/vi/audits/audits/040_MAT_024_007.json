@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εθνος επι εθνος' (nation against nation) is rendered as 'Dân ngoại này... chống lại dân ngoại kia'. 'Dân ngoại' usually means 'foreigners' or 'Gentiles', whereas the Greek 'ethnos' in this context refers to 'nations' (quốc gia/dân tộc). This changes the scope of the conflict from political entities to specific groups of people."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese includes 'bệnh dịch' (pestilence/epidemic), which is not present in the Greek text provided ('λιμοι και λοιμοι' refers to famines and other [famines/disasters])."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

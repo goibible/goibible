@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δοκιμην' (dokimen) in this context (John 16:27) refers to 'proof' or 'evidence' of the truth of what Jesus is saying, not a 'thử nghiệm' (test/experiment/trial). Translating it as 'tìm kiếm một thử nghiệm' suggests seeking an experiment or a test to be performed, rather than seeking proof of the words being spoken."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

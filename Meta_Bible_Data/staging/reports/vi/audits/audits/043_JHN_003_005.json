@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'vào nước Đức Chúa Trời' (into the kingdom of God), but the Greek text is 'εἰς τὴν βασιλείαν τοῦ Θεοῦ' (into the kingdom of God). While 'nước' can mean kingdom, in this specific context, it is a mistranslation because 'nước' is also the word for 'water'. The Vietnamese sentence now reads 'into the water of God' or 'into the kingdom of God' ambiguously, but more importantly, the Greek 'βασιλείαν' clearly refers to 'kingdom'. However, the error is specifically that the Vietnamese 'nước' is the same word used for 'water' (nước) earlier in the sentence. A clearer distinction like 'vương quốc' should be used to avoid confusion with 'nước' (water)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

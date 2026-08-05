@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επερωτησαν αυτον' (they asked him) is rendered as 'Họ hỏi Ngài' (They asked Him). In the context of this passage (Matthew 12:9-10), the 'him' refers to Jesus, but the Vietnamese translation implies a shift in perspective or adds an honorific ('Ngài') that isn't in the Greek text. More importantly, the Greek 'επερωτησαν αυτον' is a direct question to the person present, whereas the Vietnamese structure makes it sound like a general inquiry about a rule."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ην την χειρα εχων ξηραν και επηρωτησαν' implies the man was being asked/questioned while having his hand withered. The Vietnamese translation separates the description of the man and the question into two distinct sentences, slightly altering the immediate flow of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'mới là quan trọng' (is what is important/is the important thing), whereas the Greek 'αλλα τηρησις εντολων θεου' literally means 'but the keeping of the commandments of God'. The Vietnamese adds a qualitative evaluation ('important') not present in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

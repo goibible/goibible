@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θυσθαι' (thysthai) means 'to be sacrificed' or 'to be offered as a sacrifice'. The Vietnamese translation 'dâng con sinh' implies 'offering a child/birth', which is a significant and incorrect addition/interpretation of the verb's object. The Greek does not specify a 'child' (παιδίον) being sacrificed; it refers to the sacrificial act of the Passover."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

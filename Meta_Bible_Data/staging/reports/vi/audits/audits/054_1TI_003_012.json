@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονοι' (diakonoi) means 'servants' or 'deacons', but the Vietnamese translates it as 'người hầu' (servants/attendants) in a way that suggests a job title rather than the primary subject. More importantly, the Greek 'εστωσαν' is an imperative/jussive ('let them be'), while the Vietnamese 'phải là' (must be) adds a sense of obligation not present in the Greek mood."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τεκνων' (children) is plural, but the Vietnamese 'con cái' can be singular or plural; however, the Greek 'των ιδιων οικων' refers to 'their own houses' (plural), whereas the Vietnamese 'nhà riêng mình' is singular."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη αυτω' (apekrithe autō) means 'He answered him'. The Vietnamese translation 'Chúa Giê-xu đáp' (Jesus answered) omits the object 'him' (autō). While often implied in context, the Greek specifically identifies that Jesus was responding to a specific person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

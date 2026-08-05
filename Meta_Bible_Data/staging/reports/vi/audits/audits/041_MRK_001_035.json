@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρωι εννυχον' refers to the early morning hours (dawn/early morning), but the Vietnamese 'trời còn tối mịt' implies it was still pitch black/dark, which may misrepresent the timing of the dawn."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'λιαν αναστας' means 'having risen very early'. The Vietnamese 'chờ dậy' (waiting to get up) is a mistranslation of 'αναστας' (having risen/getting up)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

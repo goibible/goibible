@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'đúng' (if/should) or the conditional nuance of 'εαν' (ean), but more critically, it misses the specific content of what the servant says. The Greek says 'the Lord is coming' (ο κυριος μου ελθειν), whereas the Vietnamese adds 'chậm' (late/slowly), which is not in the Greek text."
+        },
+        {
+          "kind": "addition",
+          "detail": "The word 'chậm' (late) is an addition. The Greek text simply says 'the Lord is coming' (ο κυριος μου ελθειν), without any adverbial modifier regarding the speed or timing of his arrival."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

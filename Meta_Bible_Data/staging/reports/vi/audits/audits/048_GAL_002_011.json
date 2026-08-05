@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'κατα προσωπον αυτω' (before his face/in his presence), but the Vietnamese translation uses 'trước mặt ông' (before his face/in front of him) while also changing the subject. The Greek 'αντεστην' is a first-person singular verb ('I stood against'), but the context of the Greek phrase 'κατα προσωπον αυτω' combined with 'οτι κατεγνωσμενος ην' (because he was condemned/reproached) implies the speaker is describing an action toward Peter. However, the Vietnamese translation says 'tôi đã chống đối' (I opposed), which is grammatically correct for the first person, but the Greek 'αντεστην' literally means 'I stood against'. More importantly, the Greek 'κατεγνωσμενος ην' refers to Peter being condemned/reproached, but the Vietnamese 'đáng bị trách' (deserving of blame) is a slight shift in nuance from 'was condemned', though acceptable. The primary issue is the clarity of the subject-object relationship which is slightly obscured by the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο αυτον εγγιζειν' indicates that 'he' (the subject) began to approach the city. The Vietnamese translation 'xảy ra người đến gần' implies an external event occurred where 'a person' arrived near the city, losing the specific subject continuity of the preceding clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περιηστραψεν αυτον' (turned around him/himself) is omitted in the Vietnamese translation, which only mentions the light appearing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

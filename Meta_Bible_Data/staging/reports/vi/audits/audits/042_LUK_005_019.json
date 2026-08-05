@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθηκαν αυτον' (kathekan auton) means 'they laid him down' or 'set him down'. The Vietnamese translation 'thả người' implies 'letting/dropping a person', which changes the action from a deliberate laying down to a dropping motion. Additionally, 'người' is a generic pronoun for 'person', whereas the Greek refers specifically to the sick man mentioned in the preceding context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

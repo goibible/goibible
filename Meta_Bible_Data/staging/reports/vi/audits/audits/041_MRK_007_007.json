@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ματην' (matēn) modifies the verb 'σεβονται' (sebontai), meaning they worship 'in vain.' The Vietnamese translation 'vô ích' (useless/pointless) is placed at the end of the first clause as a predicate for the act of worship, but it fails to capture the specific grammatical construction where 'in vain' describes the manner of their worship."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διδασκοντες' (didaskontes) is a present active participle meaning 'teaching.' The Vietnamese translation uses 'dạy' (teach), but it misses the continuous/active nature of the participle which characterizes their ongoing state of teaching."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

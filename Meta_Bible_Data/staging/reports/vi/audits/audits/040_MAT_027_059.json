@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ενετυλιξεν' (enetylixen) means 'wrapped' or 'enveloped'. The Vietnamese translation 'bọc nó trong' (wrapped it in) is accurate, but the addition of 'vải gai' (linen cloth/garment) is a common expansion. However, the Greek specifically uses 'σινδονι' (sindoni), which is a linen cloth/shroud. The Vietnamese 'vải gai' usually refers to 'hemp' or 'rough fiber' cloth; while it captures the material sense of a shroud, it may slightly shift the texture from the specific 'linen' implied by 'σινδονι'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

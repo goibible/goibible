@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγειρεν' (to rise/be raised) is rendered in Vietnamese as 'khiến sống lại' (made alive/raised). While semantically close, the Greek specifically uses the verb for 'rising' (anastasis), and the Vietnamese phrasing 'khiến sống lại' implies an action of making someone live again, whereas the Greek describes the event of Him rising from the dead."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τον ρυομενον ημας' (who saved us) is rendered as 'Đấng giải cứu chúng ta'. The Vietnamese translation adds 'tức là' (that is/meaning), which functions as an appositive connector not present in the Greek, though this is generally allowed for flow. However, the primary issue is the slight shift from 'the one who saved us' to a more descriptive title."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

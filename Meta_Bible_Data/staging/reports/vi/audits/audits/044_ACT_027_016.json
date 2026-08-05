@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολις' (polis) means 'city', but the Vietnamese translates it as 'hòn đảo' (island). The text refers to a city, not an island."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the specific detail 'πολις δε τι υποδραμοντες' which describes the city as being 'somewhat small/minor' (sub-dramontes)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

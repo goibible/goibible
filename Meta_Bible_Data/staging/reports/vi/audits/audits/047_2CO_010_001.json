@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θαρρω' (tharrō) means 'to be bold/brave/confident'. The Vietnamese translation uses 'dạn dĩ' (bold/daring), which is a reasonable synonym, but the Greek structure 'θαρρω εις υμας' in this context implies a sense of boldness *toward* them. However, the Greek 'παρακαλω' (parakalo) is often rendered as 'khuyên' (advise/exhort) or 'cầu xin' (request). The main issue here is the nuance of 'θαρρω'. While 'dạn dĩ' is close, some scholars note 'θαρρω' can imply a lack of hesitation. More importantly, the Greek 'παρακαλω' is 'I beseech/urge', while 'khuyên' can lean towards 'advise'. However, looking at the specific grammar: 'θαρρω εις υμας' (bold toward you) vs 'dạn dĩ đối với anh em'. This is acceptable. Let me re-evaluate the Greek 'παρακαλω'. It is 'I urge/beseech'. 'Khuyên' is 'advise'. In 1 Cor 16:23, Paul is urging them. If a reader thinks he is just giving 'advice' rather than 'earnest entreaty', it's a slight shift, but 'khuyên' is often the standard translation for parakalo in this context. Let's look at 'θαρρω' again. Actually, the most significant potential issue is the 'δε' (de) which is a contrast marker. The Vietnamese handles this well. Wait, 'παρακαλω' is 'I beseech/urge'. 'Khuyên' is 'advise'. Is there a bigger issue? 'θαρρω εις υμας' - 'bold toward you'. 'Dạn dĩ đối với anh em' is very close. I will mark OK because 'khuyên' is the standard functional equivalent for parakalo in many Vietnamese Bibles and 'dạn dĩ' captures the meaning of tharrō."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

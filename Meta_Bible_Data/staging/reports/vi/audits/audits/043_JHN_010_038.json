@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰ δε ποιω καν εμοι' (if I do anything for me/myself) is rendered as 'nếu ta làm' (if I do), omitting the reflexive/self-serving aspect of 'εμοι'. The Vietnamese translation fails to convey that the condition is doing something for one's own sake."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καν' (anything) is omitted in the Vietnamese translation, which softens the scope of the conditional statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

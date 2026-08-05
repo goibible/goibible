@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'αυτω η δοξα και το κρατος' (to Him be the glory and the power) is rendered in Vietnamese as a petition/wish ('nguyện vinh hiển...'), whereas the Greek structure is a declarative statement of assignment or dedication."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

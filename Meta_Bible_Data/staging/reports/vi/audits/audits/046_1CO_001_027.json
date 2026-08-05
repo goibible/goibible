@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τα μωρα' (the foolish ones) and 'τα ασθενη' (the weak ones) are plural nouns referring to people/entities, but the Vietnamese translation renders them as 'những sự dại' (the foolishness/foolish things) and 'những sự yếu' (the weakness/weak things), changing the subject from people to abstract qualities."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The phrase 'προς θεσσαλονικεις' (To the Thessalonians) is entirely missing from the Vietnamese translation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'δευτερα εγραφη απο αθηνων' (Second letter from Athens) is entirely missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν πνευματι ακαθαρτω' (in an unclean spirit) is rendered as 'bị tà linh ô uế ám' (possessed by an unclean spirit). While theologically similar, the Greek denotes a state of being 'in' a spirit, whereas the Vietnamese adds the concept of 'ám' (possession/haunting), which is not explicitly in the text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ανεκραξεν' is an aorist indicative (he cried out/shouted). The Vietnamese 'liền kêu la lên' uses 'liền' (then/immediately), which implies a sequential progression or immediate reaction not present in the simple narrative tense of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

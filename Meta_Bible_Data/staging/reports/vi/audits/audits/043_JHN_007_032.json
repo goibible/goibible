@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'cả' (all) is an addition/misinterpretation of the Greek 'και' (and). The Greek says 'the Pharisees AND the chief priests', not 'all the Pharisees and the chief priests'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'những điều đó' (those things) is a slightly awkward placement, but more importantly, the phrase 'περι αυτου' (about him) is correctly rendered as 'về Ngài', but the structure of the Greek 'ταυτα' (these things) refers back to the murmuring. The Vietnamese 'những điều đó' makes it sound like they heard 'those things' instead of hearing the crowd murmuring 'these things'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

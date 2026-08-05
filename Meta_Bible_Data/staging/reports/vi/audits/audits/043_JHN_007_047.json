@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθησαν' (apekrithēsan) means 'answered' or 'replied'. The Vietnamese 'đáp rằng' is correct, but the sentence structure in Vietnamese makes it sound like the Pharisees are asking a question ('Các ngươi cũng đã bị lừa dối sao?'), whereas the Greek is a statement of fact/reply: '...even you were misled'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'μη και' functions as 'even' or 'not even' (emphasizing that even the listeners were misled). The Vietnamese 'cũng' captures 'also/even', but the question mark at the end changes the mood from a declarative reply to an interrogative one."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 5,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The phrase 'προς θεσσαλονικεις' (To the Thessalonians) is entirely omitted from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

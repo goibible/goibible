@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσμενουσιν μοι' (staying/remaining with me) is translated as 'ở với ta' (staying/living with me). While similar, the Greek 'προσμενου' specifically implies 'remaining' or 'staying behind' (often in a state of lingering), whereas 'ở với' is a general locative. However, the more significant issue is that the Vietnamese adds 'đã... nay' (have been... today/now) which slightly alters the continuous aspect of 'προσμενουσιν' (present active indicative) to a perfect-continuous sense."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηδη' (already) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ησφαλισατο' (hesphalisato) means 'bound', 'fastened', or 'chained'. The Vietnamese translation 'được an toàn' means 'to be safe/secure', which completely reverses the meaning of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

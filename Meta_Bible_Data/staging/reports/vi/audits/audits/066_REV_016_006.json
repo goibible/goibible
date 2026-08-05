@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'chúng nó' (they/them - often derogatory or informal) to refer to the subjects, whereas the Greek 'αιμα αυτοις εδωκας' refers back to the same group. However, the primary issue is the rendering of 'αξιοι γαρ εισιν' as 'thật là đáng lắm'. In Greek, 'αξιοι' means 'worthy' or 'deserving' (of the punishment). The Vietnamese phrase 'đáng lắm' can mean 'very worthy' but often carries a nuance of 'it is very much worth it' or 'it is very appropriate' in a way that loses the specific grammatical connection of 'they are worthy' (the subjects are the ones who are worthy of the judgment)."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'chúng nó' implies a third-person plural pronoun that is slightly more pejorative than the neutral Greek 'αυτοις'. While acceptable in some contexts, it adds a tone of contempt not explicitly present in the Greek grammar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

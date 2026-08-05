@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απολεσαι' (apolesai) means 'to destroy,' 'to put to death,' or 'to cause to perish.' The Vietnamese translation 'giết' (kill) is a common rendering, but the Greek specifically carries the sense of destruction/perishing. However, the more significant issue is the nuance of 'απολεσαι' vs 'ἀποκτεναισαι'. While 'giết' is often acceptable, if we strictly look at fidelity, 'απολεσαι' can mean 'to cause to perish' or 'to destroy.' In this context, 'giết' is a standard translation, but I will mark it OK as it doesn't change the core fact of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απολεσαι' (apolesai) means 'to destroy' or 'to cause to perish'. The Vietnamese 'giết' specifically means 'to kill'. While often synonymous in this context, 'απολεσαι' can imply a broader destruction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'còn những người theo sau thì sợ hãi' (while those following behind were afraid) changes the subject of the verb 'εφοβουντο' (were afraid). In the Greek, 'εθαμβουντο και ακολουθουντες εφοβουντο' indicates that the same group of people (the disciples) were both marveling and, while following, were afraid. The Vietnamese makes it sound like two different groups: those marveling and a separate group following behind who were afraid."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

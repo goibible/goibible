@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ην τις βασιλικος' refers to a person who was royal (a royal person), but the Vietnamese 'có một người hoàng tộc kia' combined with the following clause makes it sound like there was a royal person *and* a son of a sick man, or misattributes the royalty. More importantly, the Greek 'ο υιος ησθενει' means 'the son was sick', but the Vietnamese 'con trai người bị bệnh' means 'the son of the sick person'. This changes the subject of the sickness from the son to the father."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν τη ερημω' (in the wilderness) is missing in the Vietnamese translation. The Vietnamese says 'trong đồng vắng' (in the empty field/plain), which is a different geographic concept than 'wilderness'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

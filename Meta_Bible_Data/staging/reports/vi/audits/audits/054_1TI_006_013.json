@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την καλην ομολογιαν' (the good confession) is omitted in the Vietnamese translation. The Vietnamese version translates 'μαρτυρησαντος' as 'làm chứng tốt' (testified well), but it fails to capture the object of the command: that the reader should make a 'good confession'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

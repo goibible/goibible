@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τας αμαρτιας αυτων' (their sins) is translated as 'tội lỗi mình' (their own sins). The Vietnamese translation implies the people were confessing their own sins, whereas the Greek specifies they were confessing 'their' [the people's] sins, which in this context refers to the collective sins of the crowd."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

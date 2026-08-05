@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ελεγχομενα' (elegchomena) means 'exposed', 'reproved', or 'judged'. The Vietnamese translation 'bị quở trách' implies 'being scolded' or 'being rebuked' (active reprimand), which is a more specific and narrower application than the Greek term for being brought into view/exposed by light."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το ουν αγαθον εμοι γεγονεν θανατος' is a statement of fact (the good has become death for me), not a question. The Vietnamese translates it as a question ('...sao? Chẳng hề như vậy!'), which changes the logical flow of Paul's argument."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καθ υπερβολην' (by way of excess/exceeding) is rendered as 'cực kỳ' (extremely). While 'cực kỳ' captures the intensity, it slightly shifts from the nuance of 'by way of excess' to a general intensifier."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

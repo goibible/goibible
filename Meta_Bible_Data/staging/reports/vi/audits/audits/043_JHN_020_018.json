@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπεν αυτη' (she said) is translated as 'Ngài đã phán những điều ấy với bà' (He spoke those things to her). The Greek indicates Mary Magdalene was the one speaking/telling the disciples, not that Jesus spoke to her."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

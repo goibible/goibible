@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκεινοι οι κατηγοροι σου' means 'those accusers of yours'. The Vietnamese translation 'những kẻ cáo ngươi' (the ones who accused you) changes the tense/aspect from a present description of the group to a past action, and 'ở đâu?' (where are they?) is an addition; the Greek text does not ask where they are, it simply identifies them as the accusers."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific identification of the group as 'those accusers' and turns it into a question about their location, which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

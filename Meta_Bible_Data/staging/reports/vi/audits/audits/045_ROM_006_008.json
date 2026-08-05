@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'συζησομεν' (syzesomen) means 'will live together' or 'will share in life,' but the Vietnamese translation 'cùng sống' (live together) combined with 'sẽ' (will) is slightly ambiguous. More importantly, the Greek 'συζησομεν' implies a shared existence/participation in life with Christ, whereas 'cùng sống' can sometimes be interpreted as mere co-existence. However, the primary issue is that 'συζησομεν' specifically denotes 'sharing in life' (participation), which is slightly stronger than just 'living together'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation uses 'cùng sống' for 'συζησομεν'. While 'cùng sống' is a common way to render this, it can sometimes be interpreted as 'living at the same time/place' rather than 'sharing in the life of' (participation). However, given the instructions to mark OK if it's an acceptable rendering, I will re-evaluate. The Greek 'συζησομεν' is a compound of 'syn' (with) and 'zoe' (life). 'Cùng sống' is a very close functional equivalent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

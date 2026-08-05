@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'ελπιζων' (hoping) refers to the subject of the participle, which is the same person who 'μεταπεμπομενος' (sending for) and 'ωμιλει' (was conversing) — i.e., the governor Felix (from context) was hoping that money would be given to him by Paul. The Vietnamese renders 'Phao-lô cũng hy vọng' (Paul also hoped), making Paul the subject of the hoping, which reverses who is doing the hoping. The Greek subject of 'ελπιζων' is the same as the one who 'μεταπεμπομενος' and 'ωμιλει' (the governor), not Paul. This changes who is hoping and who is expected to give money."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

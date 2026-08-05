@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'βλασφημεισθω' (let it not be blasphemed) carries a much stronger weight than 'nói xấu' (spoken ill of/bad-mouthed). 'Blasphemy' implies an act of sacrilege or irreverence against something sacred. 'Nói xấu' is a common, everyday term for gossip or criticism, which diminishes the gravity of the Greek concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εκ της αυλης ταυτης' (from this fold/pen) is singular, but the Vietnamese 'không thuộc về sân này' (not belonging to this yard) is acceptable. However, 'κακεινα με δει αγαγειν' (those [plural] I must lead) is rendered as 'ta cũng phải dẫn nó' (I also must lead it - singular). The Greek refers to 'προβατα' (sheep, plural), so the Vietnamese should be plural ('dẫn chúng')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

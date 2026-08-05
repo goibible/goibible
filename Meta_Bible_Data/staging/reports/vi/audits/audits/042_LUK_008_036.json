@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απηγγειλαν' (apēngeilan) means 'related/narrated/told', but the Vietnamese structure 'thuật lại cho họ biết... cách nào' (narrated to them... how) adds a specific inquiry or manner ('cách nào') that is not present in the Greek text. The Greek simply says they told them [about the fact] that the demon-possessed one was saved."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

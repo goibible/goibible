@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οφειλεται' is a verb meaning 'they were obligated' or 'it was necessary for them'. The Vietnamese translation 'là con nợ của họ' (are debtors of them) shifts the grammatical structure from an obligation/necessity to a state of debt, which slightly alters the sense of the imperative obligation expressed in the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λειτουργησαι' (to minister/serve) is rendered as 'giúp đỡ' (to help). While related, 'minister' implies a specific role of service or ministry which 'help' can understate."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

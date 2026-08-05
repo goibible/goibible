@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'αυτων' (of them) is plural, referring to both the cup and the platter. The Vietnamese 'nó' (it) is singular, failing to reflect that both items are being cleansed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επι τον υιον του ανθρωπου' specifies 'upon the Son of Man'. The Vietnamese translation omits 'Son of' (Con), rendering it only as 'on Man' (trên Con người)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

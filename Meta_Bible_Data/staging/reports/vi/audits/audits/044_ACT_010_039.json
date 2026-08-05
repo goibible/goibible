@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανειλον κρεμασαντες' is a participle modifying 'ημεις' (we), meaning 'we who were crucified.' The Vietnamese translation incorrectly attributes the action of being crucified to 'họ' (they), making it sound like 'they' were the ones crucified, while the Greek says 'we' were the ones crucified."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

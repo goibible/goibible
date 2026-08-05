@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐρχομαι' (erchomai) means 'I am coming' or 'I come' (present tense), indicating a current action or state of movement. The Vietnamese translation uses 'Ta sẽ đến' (I will come), which changes the tense to future."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

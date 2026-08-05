@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειδον αστειον' (eidon asteion) is a scribal error or variant for 'εἶδον ἀσθένειαν' (eidon astheneian), meaning 'saw [the] weakness/frailty'. The Vietnamese translation 'xinh tốt' (beautiful/good) reverses the meaning of the intended Greek word 'ασθένεια' (weakness)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

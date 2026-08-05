@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οριζει' (orizes) is a verb meaning 'sets', 'fixes', or 'determines'. The Vietnamese translation 'định một ngày gọi là' (determines a day called) slightly alters the structure, but more importantly, the Greek 'τινα οριζει ημεραν σημερον' literally means 'what [He] sets as a day today' or 'sets a day today'. The Vietnamese adds 'trong một thơ của Đa-vít' (in a poem of David) which is an interpretation/contextualization; however, the primary issue is the structural flow of 'τινα οριζει ημεραν σημερον εν δαβιδ' which refers to the setting of the day *in* David (the text/book of David). The Vietnamese phrasing 'định một ngày gọi là' makes it sound like a naming convention rather than the specific action of 'setting' the day."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

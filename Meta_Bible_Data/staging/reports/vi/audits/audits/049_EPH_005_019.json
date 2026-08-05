@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαλουντες' (lalountes) is a present active participle meaning 'speaking' or 'uttering'. The Vietnamese translation 'Hãy lấy... mà nói' (Take... to speak) changes the grammatical structure from an ongoing action/description of the subjects to an imperative command (an instruction to take and speak)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

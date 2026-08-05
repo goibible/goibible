@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'ουκ εστιν κατα ανθρωπον' (not of/by man) is truncated in the Vietnamese translation. The Vietnamese says 'chẳng phải theo người đâu' (not according to/following man), but it misses the implied 'human' origin or the specific construction that indicates it is not of human source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

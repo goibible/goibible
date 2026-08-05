@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπον αυτον δε ουκ ειδον' (they said, 'but we did not see Him') is rendered in Vietnamese as 'nhưng họ không thấy Ngài' (but they did not see Him). The Vietnamese version removes the fact that these were spoken words ('ειπον'), making it a direct observation of the speakers rather than a report of their speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το τελος' (the tax/toll) is translated as 'sự cuối cùng' (the end/final thing), which is a mistranslation. 'τελος' here means 'tax' or 'toll', not 'end'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεκαλουν' (parekaloun) is a verb meaning 'implored' or 'begged'. The Vietnamese translation 'xin' (asked/requested) captures the request but misses the intensity of the 'imploring' action. More importantly, the Vietnamese structure suggests they asked him to 'also lecture' (cũng giảng), whereas the Greek indicates the request was specifically for the words to be spoken *to them* during the interval of the Sabbath."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific sense of 'μεταξυ' (during/in the midst of) regarding the Sabbath, rendering it as 'đến ngày Sa-bát sau' (until the next Sabbath), which slightly alters the temporal relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

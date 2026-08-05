@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εδοκιμασαν τον θεον' means 'they did not test God' (or 'did not try/prove God'). The Vietnamese translation 'không chịu nhận biết Đức Chúa Trời' means 'refused to know/recognize God', which changes the core action from testing/trying God to a lack of knowledge."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εχειν εν επιγνωσει' (to have in knowledge) is partially lost or conflated in the Vietnamese, but the primary issue is the change from 'testing' to 'knowing'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

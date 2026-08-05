@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρωσεως' (pyroseos) refers to 'burning' or 'fire', but the Vietnamese translates it as 'thử thách' (testing/trial), which changes the substantive meaning of the event described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ταπεινωθητε' (tapeinōthēte) is an aorist passive indicative, expressing a completed action or a state already achieved ('you have been humbled'). The Vietnamese translation 'Hãy hạ mình xuống' uses an imperative mood ('Please humble yourselves'), changing the meaning from a statement of fact about what has happened to a command for what should happen."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

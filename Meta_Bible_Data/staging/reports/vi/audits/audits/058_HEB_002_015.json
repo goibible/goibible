@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ενοχοι' (guilty), which qualifies the status of those who were slaves to death. The Greek specifies they were 'guilty slaves' of death, whereas the Vietnamese only mentions they were 'slaves' to death."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

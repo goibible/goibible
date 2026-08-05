@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσμενουσιν μοι' (remaining with me) is rendered as 'ở với ta', but the specific context of 'ηδη ημερας τρεις' (already three days) combined with the lack of food implies they have been *with* him for three days. However, the Vietnamese 'đã ba ngày họ ở với ta' is slightly ambiguous as to whether it means 'for three days' or 'on the third day'. More importantly, the Greek 'απολυσαι αυτους νηστεις' (I will dismiss them hungry) is rendered as 'không muốn để họ nhịn đói mà về' (do not want to let them return fasting/hungry). While the meaning is close, the Greek 'απολυσαι' is a specific action of 'dismissing' or 'sending away'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκλυθωσιν' (to faint/be exhausted) is rendered as 'ngất xỉu' (faint/collapse). While 'ngất xỉu' is a common translation, the Greek implies a state of physical exhaustion or collapsing from hunger."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

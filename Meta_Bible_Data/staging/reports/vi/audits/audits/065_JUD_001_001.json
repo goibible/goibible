@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δούλος' (doulos) is a noun/appositive identifying Judas as a 'servant'. The Vietnamese translation 'đầy tớ của' (servant of) is acceptable, but the Greek text does not contain the prepositional relationship 'của' (of). However, the primary issue is the order and structure: the Greek lists 'δούλος' and 'ἀδελφός' as appositives identifying Judas. The Vietnamese treats them as descriptors but maintains the meaning."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek text 'δούλος ἀδελφός δε Ἰακωβου' identifies Judas as a servant [and] a brother of James. The Vietnamese 'đầy tớ của Chúa Giê-xu Christ và anh em của Gia-cơ' is a faithful rendering of the relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

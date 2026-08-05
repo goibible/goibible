@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτην' (her/it) is a feminine pronoun. The Vietnamese translation uses 'nó' (it), which is gender-neutral but often used for objects or animals. While 'nó' can refer to a person in informal contexts, the Greek specifically uses the feminine singular. However, more importantly, the Vietnamese 'nó' might be seen as slightly dehumanizing compared to the Greek context of a person (Mary)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

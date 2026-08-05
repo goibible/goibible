@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμφιεννυσιν' (amphiennesin) means 'to provide for', 'to sustain', or 'to care for'. The Vietnamese translation 'chăm lo' is a good rendering, but the phrase 'mặc đẹp như vậy' (dressed beautifully like that) has no basis in the Greek text and introduces an unnecessary descriptive element."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποσω μαλλον' (poso mallon) means 'how much more'. The Vietnamese translation 'lại càng... biết bao' captures the comparative sense, but the addition of 'mặc đẹp như vậy' distorts the logical progression of the comparison."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

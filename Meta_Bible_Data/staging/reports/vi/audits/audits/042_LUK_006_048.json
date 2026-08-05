@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'δε γενομενης' (not having happened) implies the flood has NOT yet occurred or is not happening at that moment, whereas the Vietnamese 'khi có lụt xảy ra' (when a flood occurs/happened) treats it as a conditional or past event. The Greek structure suggests the house stands firm *before* the flood happens."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

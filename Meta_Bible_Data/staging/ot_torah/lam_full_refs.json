@@ -1,0 +1,17 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full LAM QA batch.",
+  "groups": [
+    {
+      "name": "LAM full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "LAM 1",
+        "LAM 2",
+        "LAM 3",
+        "LAM 4",
+        "LAM 5"
+      ]
+    }
+  ]
+}

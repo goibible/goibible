@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Greek 'τας αρχας και τας εξουσιας' means 'the rulers and the authorities' (referring to spiritual powers), but Chinese renders as '起初的、權柄的' which reads as 'the initial/primitive ones, the authorities' — 'αρχας' is mistranslated as '起初的' (initial) instead of 'rulers/principalities'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

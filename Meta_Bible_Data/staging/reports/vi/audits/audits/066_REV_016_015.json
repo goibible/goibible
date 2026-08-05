@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 16,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεπωσιν την ασχημοσυνην αυτου' (they see his/its shame) is translated as 'người ta thấy sự xấu hổ mình' (people see my/one's shame). The Vietnamese pronoun 'mình' refers back to the 'kẻ tỉnh thức' (the watchful one), whereas the Greek 'αυτου' (his/its) refers back to the 'κλεπτης' (thief)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

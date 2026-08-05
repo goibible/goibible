@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πανηγυρει και εκκλησια πρωτοτοκων εν ουρανοις απογεγραμμενων' refers to the 'assembly and church of the firstborn enrolled in heaven.' The Chinese adds '並有千萬天使' (and ten thousand angels), which is not in this verse (it comes from the preceding verse, Hebrews 12:22). This is an addition of a concept not present in the Greek text of this verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

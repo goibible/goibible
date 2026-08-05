@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη με ιδητε' is a double negative (ou + mē) which functions as an emphatic negative, meaning 'you will not see me.' The Vietnamese translation 'các ngươi sẽ không thấy ta nữa' adds the word 'nữa' (anymore/no longer), which is not present in the Greek text. While it captures the sense of future absence, 'nữa' implies a cessation of a current state, whereas the Greek focuses on the future non-occurrence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

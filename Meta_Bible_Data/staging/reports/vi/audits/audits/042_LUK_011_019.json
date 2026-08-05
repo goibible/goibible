@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific phrase 'εν τινι' (by whom / by what means) in the second clause. While it asks 'nhờ ai' (by whom), the Greek structure 'οι υιοι υμων εν τινι εκβαλλουσιν' implies a contrast to the first clause's source of power. More importantly, the Vietnamese translation adds an interrogative structure ('...nhờ ai mà đuổi?') that is not present in the Greek; the Greek is a statement of fact: 'if I cast out demons by Beelzebul, your sons cast them out by [something else].'"
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'chính họ sẽ làm quan án' (they will act as judges/officials) is a slight shift from 'κριται υμων αυτοι εσονται' (you will be judged by them). The Greek emphasizes the state of being judged, whereas the Vietnamese phrasing suggests they will take on the role of 'judges' (quan án), which is a functional shift in the nature of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

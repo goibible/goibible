@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ ολης της καρδιας' (from the whole heart) is rendered as 'hết lòng' (with all heart/wholeheartedly). While idiomatic, the Vietnamese structure 'Nếu ông hết lòng tin, điều đó có thể được' changes the logical flow. The Greek is a conditional statement: 'If you believe from the whole heart, it is possible.' The Vietnamese implies 'If you believe wholeheartedly, that [something else] is possible,' but the Greek 'εξεστιν' (it is possible) refers directly to the possibility of the belief/response occurring in that state."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αποκριθεις' (having answered/responded) is omitted as a verbal participle, though the sense of answering is captured by 'Người trả lời'. However, the Greek structure implies the response happens *upon* or *as a result of* the condition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

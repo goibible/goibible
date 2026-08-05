@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το θειον' (the divine/that which is divine) is the subject of the verb 'ειναι' (is). The Vietnamese translation 'bản thể thiêng liêng' (divine essence/substance) adds a philosophical concept ('essence') not present in the Greek text. Furthermore, the Vietnamese structure suggests the 'divine' is being compared to gold/silver/stone as 'objects of craft', whereas the Greek says 'the divine IS like gold/silver/stone [in terms of] craft and memory of man'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

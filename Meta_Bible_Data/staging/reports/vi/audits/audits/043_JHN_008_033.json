@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οudeni δεδουλευκαμεν' means 'we have served no one.' The Vietnamese 'chưa hề làm tôi mọi ai' is grammatically incorrect and nonsensical in this context; it literally translates to 'never made serve everyone,' failing to convey the meaning of 'having served no one'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

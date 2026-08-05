@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υποστειληται' (hyposteiletai) refers to 'falling away' or 'apostasy' in a spiritual/moral sense, but the Vietnamese 'lui đi' typically means physically 'stepping back' or 'retreating'. This changes the theological weight of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν αυτω' (en autō) refers to 'in him' (the righteous one), but the Vietnamese 'về người ấy' (about/regarding that person) changes the relationship from internal/relational proximity to an external observation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

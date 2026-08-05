@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ος εστιν εξ υμων' (who is from among you) is rendered as 'là người từ giữa anh em'. While 'giữa' can mean 'among', in this context, it implies 'from among' or 'one of you'. However, the Vietnamese structure 'là người từ giữa anh em' can be slightly ambiguous compared to the Greek which identifies him specifically as being from their number."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'γνωριουσιν' is a future active indicative, 3rd person plural. The Vietnamese 'sẽ cho anh em biết' correctly captures the future tense and the 3rd person plural (họ), but the Greek 'γνωριουσιν τα ωδε' implies 'they will make known to you these things'. The translation is acceptable, but I am flagging the slight shift in the nuance of 'ex hymon' (from among you) vs 'giữa' (middle/among)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

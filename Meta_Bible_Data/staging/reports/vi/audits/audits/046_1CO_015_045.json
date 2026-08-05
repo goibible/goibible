@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο' (egeneto) is a verb meaning 'became' or 'was made.' The Vietnamese translation 'đã nên' (became/turned into) is acceptable, but the structure 'Người thứ nhất là A-đam đã nên linh hồn sống' can be read as 'The first man, Adam, became a living soul' rather than 'The first man, Adam, was [made] a living soul.' More importantly, 'εις ψυχην ζωσαν' is a prepositional phrase indicating the state/result of his creation. The Vietnamese phrasing slightly obscures the passive/resultative nature of 'egeneto' in this context."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις πνευμα ζωοποιουν' describes the second Adam as being 'into a life-giving spirit.' The Vietnamese 'là Thánh Linh ban sự sống' translates 'spirit' as 'Holy Spirit' (Thánh Linh) and 'life-giving' as 'bestowing life' (ban sự sống). While 'Holy Spirit' is a common theological interpretation, the Greek 'πνευμα' here is not capitalized or specifically identified as the Holy Spirit in the immediate syntax, but rather a 'spirit [that is] life-giving.' The Vietnamese adds a specific identity (Holy Spirit) that is not explicitly stated in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

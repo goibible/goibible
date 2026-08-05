@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επαναγαγε' (epanagage) is an imperative meaning 'haul back' or 'draw back'. The Vietnamese 'đem thuyền ra ngoài sâu' (take the boat out to deep water) misses the specific action of hauling/drawing back the nets."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαλασατε' (chalasate) means 'let down' or 'cast'. The Vietnamese 'thả... xuống để bắt mẻ lưới' (let down... to catch a haul of nets) is slightly imprecise; 'mẻ lưới' refers to the result/haul, but the Greek focuses on the action of casting/letting down the nets into the deep."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

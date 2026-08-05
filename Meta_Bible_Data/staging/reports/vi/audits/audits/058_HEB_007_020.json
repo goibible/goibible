@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθ οσον' (as much as/insofar as) establishes a logical proportion or condition. The Vietnamese 'sự thay đổi nầy chẳng phải là không có lời thề mà được làm ra' (this change is not that it was made without an oath) misinterprets the structure of the comparison."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οι μεν... οι δε' (the ones on the one hand... the ones on the other) construction is implied but the Vietnamese fails to capture the specific comparative contrast between the two groups of priests mentioned in the context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

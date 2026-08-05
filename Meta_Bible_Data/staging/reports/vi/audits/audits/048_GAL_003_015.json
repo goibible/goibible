@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανθρωπου κεκυρωμενην διαθηκην' refers to a covenant 'covenanted/established by a man' (human-made), but the Vietnamese translation 'một giao ước đã được xác nhận của một người' suggests a covenant 'confirmed by a person,' which changes the theological meaning of the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

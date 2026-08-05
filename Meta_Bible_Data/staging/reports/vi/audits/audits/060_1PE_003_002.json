@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εποπτευσαντες' (epopteusantes) means 'having observed' or 'having watched over/supervised,' but the Vietnamese 'thấy' (saw) is a simpler perception verb that loses the sense of continuous observation or oversight implied by the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πασα βασιλεια' (every kingdom) is translated as 'Nước nào' (any/which kingdom). The Greek expresses a universal statement about all kingdoms, whereas the Vietnamese phrasing suggests a conditional or specific 'any' kingdom."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εφ εαυτην διαμερισθεισα' (divided against itself) is rendered as 'tự chia rẽ nhau' (divided among themselves/each other). The Greek emphasizes internal division within a single entity, while the Vietnamese implies division between multiple entities."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

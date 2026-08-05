@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses double negatives (ουκ ειμι... ουχι ιησουν) which, in this rhetorical context, function as emphatic questions ('Am I not...?'). The Vietnamese translation renders these as 'Tôi chẳng phải là... sao?' and 'Tôi há chẳng từng thấy... sao?', which correctly captures the rhetorical meaning. However, the final clause 'ου το εργον μου υμεις εστε εν κυριω' is a statement of fact (or a rhetorical question without the 'not'), but the Vietnamese adds 'há' (making it a question) and changes the structure to 'Anh em há chẳng phải là công việc của tôi... sao?' which introduces a negation ('chẳng phải') not present in the Greek 'ου το εργον μου υμεις εστε'. The Greek says 'You are my work,' while the Vietnamese says 'Are you not my work?'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

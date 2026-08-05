@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασπασασθε' (aspasasthe) is a plural imperative meaning 'Greet' or 'Welcome'. The Vietnamese 'Hãy chào' is correct, but the name 'Ma-ri' is a truncated/incorrect rendering of 'μαριαμ' (Mariam), which should be 'Ma-ri-a' or 'Ma-ri-am'. However, more critically, the Greek 'πολλα εκοπιασεν' implies 'toiled/labored much' or 'suffered much' for us. While 'lao động' means labor, in this context of a person's life, it is often translated as 'vất vả' or 'công lao'. The primary issue here is the name truncation which might lead to confusion."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

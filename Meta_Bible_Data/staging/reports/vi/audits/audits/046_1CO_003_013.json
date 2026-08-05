@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η γαρ ημερα δηλωσει' means 'for the day will declare/manifest'. The Vietnamese translation 'vì ngày đó sẽ bày tỏ nó' (because that day will manifest it) adds an object ('nó' - it) that is not present in the Greek structure, and slightly shifts the focus of what the day is declaring."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οποιον εστιν' (which kind/what kind) is rendered as 'xem thuộc loại nào' (to see what kind). While the meaning is similar, the Vietnamese phrasing adds a slight interpretive layer ('xem' - to see/check) that isn't explicitly in the Greek verb 'δοκιμασει' (will test)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Genesis 1-5 calibration slice before resuming Torah.",
+  "groups": [
+    {
+      "name": "Genesis 1-5 calibration",
+      "reason": "Creation, fall, Cain/Abel, and genealogy subject/number checks.",
+      "refs": ["GEN 1", "GEN 2", "GEN 3", "GEN 4", "GEN 5"]
+    }
+  ]
+}

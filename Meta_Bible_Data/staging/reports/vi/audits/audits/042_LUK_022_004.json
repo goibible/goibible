@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απελθων' (apelthōn) is a present active participle meaning 'going away' or 'having gone away'. The Vietnamese 'Người đi' (The person goes/went) renders it as a main verb, which slightly alters the grammatical structure of the sentence where 'going away' is the accompanying action to the speaking."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συνελαλησεν' (synelalēsen) carries the prefix 'syn-', implying 'spoke together with' or 'conversed with'. The Vietnamese 'nói chuyện với' is acceptable, but the nuance of 'speaking together/with' is slightly flattened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

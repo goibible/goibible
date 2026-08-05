@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προελαβεν' (proelaben) means 'took the initiative' or 'did beforehand/first'. The Vietnamese 'trước để sự chôn' is a literal but awkward rendering of 'before the burial', whereas the Greek implies she took the initiative to do it *prior* to the others or before the burial occurred. However, more importantly, the Greek 'μυρισαι' (myrisai) means 'to anoint/smell'. The Vietnamese 'xức dầu' (anoint with oil) is a common theological rendering, but the Greek specifically uses the verb for smelling/anointing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειχεν' (eichen) is 'had/possessed'. The Vietnamese 'đã làm điều mình có thể' (did what she could) is a significant interpretive expansion/paraphrase of 'ειχεν' (she had/she took [the initiative])."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

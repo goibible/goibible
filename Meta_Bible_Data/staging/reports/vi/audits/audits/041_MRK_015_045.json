@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και γνους' (and knowledge) is a noun, but the Vietnamese translates it as 'Biết' (to know), which is a verb. This changes the grammatical structure from 'knowledge [was given]... to Joseph' to 'Knowing [from] the centurion...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'εδωρησατο' (was given/presented) is missing in the Vietnamese translation, which turns a passive construction into a participial phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

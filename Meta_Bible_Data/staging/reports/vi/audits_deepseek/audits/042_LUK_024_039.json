@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνεῦμα' means 'a spirit' (an immaterial being), but the Vietnamese renders it as 'Thánh Linh' (the Holy Spirit), which changes the meaning from a generic spirit to the Holy Spirit specifically."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

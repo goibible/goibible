@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμε δε ου παντοτε εχετε' means 'you do not always have me.' The Vietnamese translation 'các ngươi chẳng có ta luôn luôn' can be interpreted as 'you don't have me forever' (denoting duration/permanence) rather than 'not always' (denoting frequency). In Greek, 'ου παντοτε' specifically negates the frequency of 'always'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

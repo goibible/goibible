@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευχαριστουντες' (giving thanks) is the main verb/action of the clause. The Vietnamese translation structure makes it sound like they are giving thanks *to* God ('tạ ơn Đức Chúa Trời'), whereas the Greek says they are giving thanks *for* everything ('υπερ παντων') *in the name of* our Lord Jesus Christ, who is God and Father."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese version omits the direct connection that Jesus Christ IS God and Father ('τω θεω και πατρι'). It treats 'Đức Chúa Trời' as the recipient of thanks and 'Chúa Giê-xu Christ' as the name used, losing the identity of Christ as God."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

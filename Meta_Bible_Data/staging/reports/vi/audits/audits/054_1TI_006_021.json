@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire introductory phrase 'ην τινες επαγγελλομενοι περι την πιστιν ηστοχησαν' (which some, promising concerning the faith, have erred). It only translates the second part of the sentence."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Nguyền xin ân điển' is a mistranslation of 'η χαρις μετα σου'. The Greek does not contain a word for 'curse' (nguyền). It is a simple wish/statement: 'May grace be with you'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη επιλανθανεσθε' is a negative imperative ('do not forget'), but the Vietnamese 'Chớ quên' is a slightly different stylistic construction. More importantly, the Greek 'δια ταυτης γαρ ελαθον' means 'for by this [hospitality] they were deceived/bewildered', but the Vietnamese 'nhờ đó' (thanks to that / because of that) implies a positive result or purpose, whereas 'ελαθον' implies being misled or confused. The Vietnamese also adds 'mà không biết' (without knowing), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

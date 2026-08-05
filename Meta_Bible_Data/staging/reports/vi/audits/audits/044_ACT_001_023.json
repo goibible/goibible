@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'εστησαν δυο' (they set/appointed two), but the Vietnamese translates it as 'Họ cử hai người' (They appointed two people) followed by a list of three names (Joseph/Barsabas, Justus, and Matthew). The Greek identifies only two individuals: 1) Joseph called Barsabas (who was also called Justus) and 2) Matthew. The Vietnamese structure makes it look like three distinct people were appointed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

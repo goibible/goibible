@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσαγαγη' (pro-sēgēgē) means 'to lead/bring near' or 'to present'. The Vietnamese 'dẫn chúng ta đến cùng Đức Chúa Trời' (lead us to the very [presence of] God) is a slightly different nuance than 'presenting us before God', but more importantly, the Greek 'προσαγαγη' is an infinitive of purpose. The Vietnamese 'để dẫn' captures this, but 'đến cùng' adds a superlative sense ('to the very...') not present in the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσαγαγη' is an infinitive of purpose (ἵνα... προσαγαγῇ), but the Vietnamese 'để dẫn chúng ta đến cùng Đức Chúa Trời' implies a destination/result. However, the more critical issue is the phrasing of 'προσαγαγη'. In many contexts, this refers to presenting us *before* God. The Vietnamese 'đến cùng' (to the very/ultimate) is an addition of intensity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

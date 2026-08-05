@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περι τουτου' (about this/this matter) refers back to the fact that John did not perform a sign. The Vietnamese translation 'về người này' (about this person) changes the subject of the statement from a specific action/matter to a person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

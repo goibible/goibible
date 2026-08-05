@@ -1,0 +1,7 @@
+name_seen,approved_or_expected,severity,category,occurrences,refs
+Đức Chúa Trời,Đức Chúa Trời,orange,missing_expected_name,5,DEU 4:15; DEU 9:4; DEU 13:17; DEU 24:9; DEU 32:43
+Am-môn,Am-môn,orange,missing_expected_name,1,DEU 2:21
+Lê-vi,Lê-vi,orange,missing_expected_name,1,DEU 33:9
+Rê-pha-im,Rê-pha-im,orange,missing_expected_name,1,DEU 2:21
+Y-sơ-ra-ên,Y-sơ-ra-ên,orange,missing_expected_name,1,DEU 10:7
+Đức Giê-hô-va,Đức Giê-hô-va,orange,missing_expected_name,1,DEU 28:14

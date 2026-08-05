@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμβιβαζων' (symbibazōn) means to 'persuade' or 'convince'. The Vietnamese translation 'khiến họ bối rối' means 'making them confused/perplexed', which is the opposite of the intended meaning of persuasion."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

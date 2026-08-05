@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'ην' (ēn), which means 'was'. The Greek states 'he was in the loins', whereas the Vietnamese implies 'he was [still] in the loins' or simply 'in the loins' as a location, missing the specific state of being/existence expressed by the verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

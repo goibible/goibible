@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τω θνητω υμων σωματι' means 'in your mortal body' (singular). The Vietnamese translation 'trong thân thể hay chết của anh em' incorrectly renders this as 'in the body or death of your brothers/you', changing the meaning from a descriptor of the body to an alternative noun."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek 'εις το υπακουειν' (in order that [it] may obey) indicates a purpose clause. The Vietnamese 'để các ngươi vâng phục nó' changes the subject of the obedience from 'sin' (the thing being obeyed) to 'you' (the people). In Greek, sin is the one obeying; in Vietnamese, the people are obeying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

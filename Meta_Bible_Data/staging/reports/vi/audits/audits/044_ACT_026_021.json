@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'διαχειρισασθαι' (to seize/take hold of/apprehend) is translated as 'toan giết' (intended to kill). The Greek text does not mention 'killing' (κτενέω), but rather the act of seizing or taking hold of the person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

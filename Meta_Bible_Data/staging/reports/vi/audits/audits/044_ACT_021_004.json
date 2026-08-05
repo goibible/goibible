@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανευροντες' (aneurontes) means 'having remained' or 'staying', but the Vietnamese 'tìm gặp' translates to 'met with/visited'. The Greek implies staying with them, not just meeting them."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'επεμειναμεν' is a third-person singular verb (they remained), but the Vietnamese 'Chúng tôi' (We) creates a first-person subject that does not exist in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντων υμων' (of all of you) is rendered as 'hết thảy anh em' (all of you/brothers). While 'anh em' is a common way to address a group, the Greek specifically refers to 'you all' (the audience), not necessarily 'brothers'. However, the primary issue is 'μαλλον' (rather/more likely/instead), which is rendered as 'nhiều hơn' (more than). 'Μαλλον' does not denote a comparative quantity like 'more than'; it indicates a preference or a 'rather' construction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'γλωσσαις λαλων' (speaking in tongues) is rendered as 'nói các thứ tiếng lạ' (speaking strange/foreign languages). While 'thứ tiếng lạ' captures the sense of 'tongues', it loses the specific nuance of 'glossa' (tongue/language) used in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

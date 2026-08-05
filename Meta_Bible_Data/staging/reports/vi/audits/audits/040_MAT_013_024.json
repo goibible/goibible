@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωμοιωθη' (homoiōthē) is a passive/middle verb meaning 'be likened' or 'is like'. The Vietnamese translation 'giống như một người gieo hạt giống' (like a person sowing seeds) shifts the subject of the likeness. In the Greek, the Kingdom is compared to the *act* of sowing/the *seed* being sown, not to the *person* who sows it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

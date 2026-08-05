@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του στοματος σου' (from your mouth) is rendered as 'cứ lời miệng ngươi' (judging by your words). While close, the Greek specifically emphasizes the source of the speech. More importantly, the phrase 'κρινω σε πονηρε δουλε' is rendered as 'xét ngươi', but the Greek 'κρινω' is a present active indicative (I judge/am judging), which is slightly softened in the Vietnamese."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αιρων ο ουκ εθηκα' uses 'αιρων' (taking/reaping) and 'εθηκα' (I planted). The Vietnamese translation 'hay lấy nơi ta không để' is a significant departure from the agricultural imagery of 'planting' (εθηκα) to a general 'not putting' (không để)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

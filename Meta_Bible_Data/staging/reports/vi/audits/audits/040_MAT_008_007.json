@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek pronoun 'αυτον' (auton) refers back to the person being spoken about (likely a man, given the context of healing). The Vietnamese translation uses 'nó', which is a third-person pronoun often used for animals or objects, or can be perceived as disrespectful/diminutive for a human. A more faithful rendering would use 'hắn' or 'ông ấy'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

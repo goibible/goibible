@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text contains 'επι των προσευχων μου' (during/upon my prayers), but the Vietnamese translation omits the possessive 'my' (của tôi) for the prayers, though this is a minor point of fidelity. More importantly, the Greek 'μνειαν σου ποιουμενος' implies 'remembering you', while the Vietnamese 'nhắc đến anh' translates to 'mentioning/bringing up you'. However, the most significant issue is the lack of the prepositional context of the prayers."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μνειαν σου ποιουμενος' (remembering you) is slightly different in nuance from 'nhắc đến anh' (mentioning/calling out to you), but acceptable. The primary issue is the structural flow of 'during my prayers'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

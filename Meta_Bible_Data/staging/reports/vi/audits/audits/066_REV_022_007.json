@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'των λογους της προφητειας' (the words of the prophecy) is rendered in Vietnamese as 'những lời của lời tiên tri' (the words of the prophecy). While this captures the meaning, the Greek specifies 'the words OF THE prophecy', but the Vietnamese structure suggests 'the words of the prophetic word'. More importantly, the Greek phrase 'των λογους' is plural, and while 'những lời' is plural, the possessive construction in Vietnamese slightly shifts the focus. However, a more significant issue is that the Greek says 'των λογους της προφητειας του βιβλιου του' (the words of the prophecy of the book), but the Vietnamese omits the specific link to the book's prophecy as a singular unit of content, though it remains close."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

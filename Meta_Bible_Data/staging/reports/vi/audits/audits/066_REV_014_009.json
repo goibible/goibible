@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι του μετωπου αυτου' (on his/the beast's forehead) is translated as 'trên trán mình' (on one's own forehead). This changes the location of the mark from the beast's forehead to the person's forehead."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

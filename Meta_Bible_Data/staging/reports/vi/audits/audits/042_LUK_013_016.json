@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουσαν ην εδησεν' (had been bound) describes a past state/action. The Vietnamese translation uses a rhetorical question ('há chẳng nên...') which changes the grammatical structure from a statement of fact about the duration of her binding to a rhetorical inquiry."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εδει λυθηναι' (was not to be loosed/released) is a statement of fact regarding the lack of release. The Vietnamese translation converts this into a rhetorical question, potentially altering the intended weight of the statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

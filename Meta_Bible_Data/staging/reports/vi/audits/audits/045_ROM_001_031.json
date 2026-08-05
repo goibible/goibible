@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ασπονδους' (aspondous) refers to 'spineless' or 'weak/cowardly,' but the Vietnamese 'khó hòa' means 'hard to harmonize' or 'difficult to reconcile,' which is a different concept."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'bội ước' (breaking promises/treacherous) does not accurately capture 'ασυνετους' (asynetous), which means 'unmerciful' or 'relentless' in the context of the specific Greek adjectives provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

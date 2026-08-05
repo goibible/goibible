@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'bèn là' (then is/so is) incorrectly interprets the Greek 'αλλα' (allá - but) as a sequential connector. In the Greek, it is a contrast: 'not to people BUT to God'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'πνευματι' (pneuma-ti), which specifies that the mysteries are spoken 'in [the] Spirit'. The current Vietnamese version only says 'trong Thánh Linh' (in the Holy Spirit) as a general location/manner, but it loses the specific grammatical connection of speaking *by means of* or *in* the Spirit as the source of the speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

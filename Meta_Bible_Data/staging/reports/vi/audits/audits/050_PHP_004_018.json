@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεχω δε παντα' (apechō de panta) means 'I lack nothing' or 'I am not lacking in anything'. The Vietnamese translation 'Tôi đã nhận được tất cả' (I have received everything) changes the meaning from a state of sufficiency to an action of receiving."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περισσευω' (perisseuō) means 'abound' or 'overflow'. The Vietnamese 'đang dư dật' captures this, but because the first part of the sentence was mistranslated as 'received everything', the logic of 'abundance' is slightly altered from 'having enough to abound' to 'receiving so much that it overflows'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

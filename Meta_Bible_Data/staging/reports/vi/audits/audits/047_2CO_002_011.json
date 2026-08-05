@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Vietnamese translation 'chẳng phải không biết' (not not know) creates a double negative, implying that the believers *do* know the thoughts of Satan. The Greek 'μη... αγνοουμεν' is a simple negative construction meaning 'that we may not be ignorant' or 'so that we are not ignorant'. The Vietnamese should simply be 'vì chúng ta biết' or 'để chúng ta không thiếu hiểu biết'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

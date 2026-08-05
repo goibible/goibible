@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ηγγιζεν' (higgizen) means 'was drawing near' or 'was approaching,' but it is used in the sense of a time period beginning or approaching. The Vietnamese 'đã đến gần' suggests it is currently very close/imminent, whereas the Greek indicates the onset of the season/festival."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

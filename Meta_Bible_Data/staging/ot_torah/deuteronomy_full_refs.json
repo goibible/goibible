@@ -1,0 +1,46 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Deuteronomy QA batch.",
+  "groups": [
+    {
+      "name": "Deuteronomy full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "DEU 1",
+        "DEU 2",
+        "DEU 3",
+        "DEU 4",
+        "DEU 5",
+        "DEU 6",
+        "DEU 7",
+        "DEU 8",
+        "DEU 9",
+        "DEU 10",
+        "DEU 11",
+        "DEU 12",
+        "DEU 13",
+        "DEU 14",
+        "DEU 15",
+        "DEU 16",
+        "DEU 17",
+        "DEU 18",
+        "DEU 19",
+        "DEU 20",
+        "DEU 21",
+        "DEU 22",
+        "DEU 23",
+        "DEU 24",
+        "DEU 25",
+        "DEU 26",
+        "DEU 27",
+        "DEU 28",
+        "DEU 29",
+        "DEU 30",
+        "DEU 31",
+        "DEU 32",
+        "DEU 33",
+        "DEU 34"
+      ]
+    }
+  ]
+}

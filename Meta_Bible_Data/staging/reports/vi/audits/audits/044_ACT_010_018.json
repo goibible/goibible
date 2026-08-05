@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'επυνθανοντο' (epynthanonto) means 'they were mourning' or 'they wept,' but the Vietnamese translation uses 'hỏi' (asked), which is a completely different action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

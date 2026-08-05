@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εχω' (I do not have) is translated as 'tôi không có điều gì chắc chắn để viết' (I do not have anything certain to write), but the Vietnamese structure suggests a causal link ('vì vậy') that is not in the Greek. More importantly, the Greek 'οπως της ανακρισεως γενομενης' (so that/in order that after the interrogation having been done) describes the purpose of presenting him, but the Vietnamese translation 'để sau khi sự tra hỏi xảy ra' changes the nuance slightly by using 'xảy ra' (happen/occur) for 'γενομενης' (having been done/completed)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διου προηγαγον' is a single verb meaning 'I have brought forward/presented'. The Vietnamese breaks this into a complex result clause structure that slightly alters the immediate action-purpose sequence of the original."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

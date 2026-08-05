@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεργουντος' (synergountos) is a participle describing the Lord's action ('working with/alongside'), but the Vietnamese 'cùng hành động' (acting together/with) lacks the subject-object clarity of the Greek, making it sound like a general statement rather than a description of the Lord's ongoing work in conjunction with the proclamation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'δια των επακολουθουντων σημειων' (through the following signs) is rendered as 'bằng những dấu kèm theo'. While 'kèm theo' captures 'following', it misses the specific sense of 'accompanying/subsequent' signs that validate the word. However, the more significant issue is the loss of the participial flow of the Greek sentence."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

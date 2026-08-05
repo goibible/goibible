@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'archiereos' is in the genitive case, modifying 'Skeua' (Sê-va). The Vietnamese translation 'một thầy tế lễ cả người Giu-đa' implies that Sê-va was 'the high priest of all Judah' or a similar collective title, whereas the Greek simply identifies him as 'the high priest of Judah'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς αυτον' (to him) is singular, but the Vietnamese translation uses 'cùng họ' (with them), changing the number of the person being addressed."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πως αναγινωσκεις' (how do you read [it]) is a question about the manner/content of reading the specific thing written, but the Vietnamese 'Ngươi đọc thế nào?' can be interpreted as asking for a method of reading rather than the content of what is read."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

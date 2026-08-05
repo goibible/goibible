@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη επιστρεψατω' (let him not return) is a prohibitive command, but the Vietnamese 'chớ trở về' (do not return) omits the specific location/direction of the return. More importantly, the Greek specifies 'εις τα οπισω' (backwards/behind), which is missing in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

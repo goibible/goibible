@@ -1,0 +1,26 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'του οντος' (of the Ontos) is translated as 'Giu-pi-tê'. While this may be a specific local name, it does not reflect the Greek text provided."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προ της πολεως αυτων' (before their city) is translated as 'có đền thờ trước thành' (having a temple before the city). The Greek does not mention a 'temple' (naos/hieros); it only specifies the location of the priests/offering."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στεμματα' (crowns/wreaths) is translated as 'vòng hoa' (flower garlands). While a common equivalent, 'vòng hoa' can sometimes imply a specific type of garland not present in the text, but more importantly, the translation of 'προ της πολεως' into a description of a temple building is a significant conceptual addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

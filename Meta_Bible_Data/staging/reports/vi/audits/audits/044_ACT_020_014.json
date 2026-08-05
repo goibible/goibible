@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεβαλεν ημιν' means 'happened to us' or 'befell us'. The Vietnamese 'gặp người' (met the person) is a significant shift in meaning from an event happening to them to a proactive meeting."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εις την ασσον' refers to the location 'to Assos'. The Vietnamese 'tại thành A-số' (at the city of A-so) is acceptable, but the nuance of movement 'to' is slightly shifted to 'at'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

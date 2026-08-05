@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'στεφανον' (stephanon) means 'crown', not 'Ê-tiên' (Ethen/Ethan). The Vietnamese translation appears to have misidentified or hallucinated a proper name where the Greek specifies an object being thrown."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

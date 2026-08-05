@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'vĩ đại' (great/greater) before 'hơn Sa-lô-môn'. The Greek text only says 'πλειον σολομωντος', which means 'greater than Solomon' or 'more than Solomon' in the context of wisdom, but does not include a separate adjective for 'great'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

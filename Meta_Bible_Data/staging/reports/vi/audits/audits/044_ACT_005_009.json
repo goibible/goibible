@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξοισουσιν' (exoisousin) is a present active indicative, implying they are currently 'bringing her out' or 'pulling her out'. The Vietnamese translation 'sẽ đem ngươi ra' uses the future tense, changing the timing of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

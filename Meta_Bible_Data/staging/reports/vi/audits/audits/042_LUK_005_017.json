@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυναμις κυριου ην εις το ιασθαι αυτους' means 'the power of the Lord was in Him to heal them' (or 'the power of the Lord was for healing them'). The Vietnamese translation 'quyền năng của Chúa ở trong Ngài để chữa lành họ' is slightly imprecise regarding the Greek construction 'εις το ιασθαι' (to/for the purpose of healing). However, the primary issue is that the Vietnamese 'đang ngồi đó' adds a sense of 'there' which is not explicitly in the Greek, but more importantly, the Greek 'εισ το ιασθαι' implies the power was *for* healing them, whereas 'để chữa lành' is acceptable. The most significant fidelity issue is the slight shift in the scope of the power's location/action, but it remains largely accurate. Wait, looking closer: 'δυναμις κυριου ην εις το ιασθαι αυτους' translates most accurately as 'the power of the Lord was for healing them'. The Vietnamese 'quyền năng của Chúa ở trong Ngài để chữa lành họ' is a very close rendering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

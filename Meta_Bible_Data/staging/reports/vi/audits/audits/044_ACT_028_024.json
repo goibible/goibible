@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επειθοντο' (epeithonto) means 'were persuaded' or 'were convinced,' while the Vietnamese 'tin' (believe) is a slightly different cognitive act. More importantly, the Greek 'ηπιστουν' (ēpistoun) means 'did not believe/did not trust,' but the Vietnamese 'không tin' is a general negation of belief. The primary issue is that 'επειθοντο' implies being persuaded by the words spoken, which is more specific than just 'believing'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

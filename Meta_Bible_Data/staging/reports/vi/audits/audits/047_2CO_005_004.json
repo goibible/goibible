@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταποθη' (katapothe) means 'to deposit', 'to lay aside', or 'to put away'. The Vietnamese translation 'nuốt đi' (swallow/consume) is a significant semantic shift that changes the nature of the action from a deliberate laying aside to an act of destruction/consumption."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

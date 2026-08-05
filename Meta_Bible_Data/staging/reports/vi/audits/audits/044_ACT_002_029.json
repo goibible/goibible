@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εξον ειπειν' (literally 'I am about to say') conveys an immediate intent or a 'now I will say' nuance. The Vietnamese 'tôi có thể nói' ('I can say') changes the meaning from an imminent action to a statement of ability/permission."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

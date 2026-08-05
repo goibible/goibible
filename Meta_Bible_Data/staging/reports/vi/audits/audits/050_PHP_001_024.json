@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐπιμενεῖν' (epimenein) means 'to persist', 'to continue', or 'to persevere'. The Vietnamese translation 'cứ ở trong' (just stay/remain in) captures the state of being but misses the active sense of 'persisting' or 'continuing' in the flesh."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'δι υμας' (di hymas) is first person plural ('for us'). The Vietnamese translation 'cho anh em' is second person plural ('for you [plural/brothers]'). This changes the perspective of who the action is for."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'thầy tế lễ cả' (High Priest) is used, but the Greek text says 'ο αρχιερευς' (the high priest). While 'cả' is often associated with 'high', the primary issue is the structural flow of the preceding phrase. More importantly, the Vietnamese 'điệu họ đến' (to lure/entice them) is a mistranslation of 'αχθηναι αυτους'. The Greek verb 'αχθηναι' (from achtheō) means to 'bring', 'fetch', or 'summon', not to 'lure' or 'entice'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την εκβασιν της αναστροφης' refers to the 'manner/way of life' or 'conduct' (anastrophe), but the Vietnamese 'lối thoát' means 'escape' or 'exit,' which fundamentally changes the meaning of the command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

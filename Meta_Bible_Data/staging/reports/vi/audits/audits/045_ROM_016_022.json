@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀσπαζόμαι' (aspazomai) is a greeting/salutation (e.g., 'I greet you' or 'Greetings to you'). The Vietnamese translation 'Chào anh em' (Greetings to brothers) functions as a salutation, but the Greek structure 'ἀσπαζόμαι ὑμᾶς' is specifically 'I greet you'. More importantly, the Vietnamese 'anh em' (brothers) adds a specific kinship term not present in the Greek 'ὑμᾶς' (you), which is a general second-person plural pronoun."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

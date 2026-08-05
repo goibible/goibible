@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'της οδου' (of the Way) refers to the early Christian movement known as 'The Way'. The Vietnamese translation 'thuộc về Đường' (belonging to the Road/Way) is technically accurate but lacks the context of it being a specific religious group, though the primary issue is the interpretation of 'της οδου' as a geographical location or general path rather than the specific movement. However, more critically, the Greek 'οπως εαν τινας ευρη... δεδεμενους αγαγη' describes a command/purpose: 'so that if anyone [is] found... [they may be] bound and brought'. The Vietnamese 'để nếu tìm được... thì trói dẫn' captures the meaning well."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ητησατο παρ αυτου' means 'he requested from him'. The Vietnamese 'Người xin ông' (The person asked him) is a slightly ambiguous subject. In the context of Acts 23:14, it refers to the commander/official requesting from the people/authorities. However, the most significant fidelity issue is the phrase 'της οδου'. While 'Đường' is the literal word for Way, in this specific New Testament context, it refers to the followers of 'The Way'. The Vietnamese translation is acceptable but borders on being a literalism that might confuse a reader into thinking it's a physical road."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

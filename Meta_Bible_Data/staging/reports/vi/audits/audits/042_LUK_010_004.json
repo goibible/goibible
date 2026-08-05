@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη πηραν' (mi pheran) is a verb meaning 'do not carry/take', but the Vietnamese translation 'cái túi' translates it as a noun (the bag/pouch), which changes the grammatical structure from an instruction to avoid carrying items to a list of items."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδενα κατα την οδον ασπασησθε' means 'do not greet anyone on the road'. The Vietnamese 'đừng chào hỏi ai' is accurate, but the overall structure of the sentence in Vietnamese conflates the verbal command 'mi pheran' into a noun phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

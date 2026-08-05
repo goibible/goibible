@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τουτων' (of these) refers back to the previous context of 'the things' (likely referring to the power/authority mentioned in the preceding verse), but the Vietnamese 'quyền ấy' (that power/right) is a specific interpretation. More importantly, the phrase 'ινα τις κενωση' is rendered as 'để ai làm cho... ra hư không' (so that someone makes... into nothingness). The Greek 'τις κενωση' literally means 'the emptying' or 'the emptying out' (a noun), not an action performed by someone ('ai làm cho')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

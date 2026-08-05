@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω δε απεθανον' (I did not die) is translated as 'còn tôi thì chết' (but I died), which reverses the negation. The Greek indicates that the speaker did NOT die when the law came."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

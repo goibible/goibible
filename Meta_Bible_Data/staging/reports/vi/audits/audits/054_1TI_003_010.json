@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διακονειτωσαν' is an aorist passive, indicating they *were served* (or were ministered to), whereas the Vietnamese 'phục vụ' implies they *served* (active). The Greek structure suggests they were the recipients of service/ministry while being blameless."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ανεγκληtoi οντες' means 'being blameless/irreproachable'. The Vietnamese 'không chỗ trách được' (cannot be blamed) is a functional equivalent, but the shift from 'being blameless' to 'if they are not blamable' slightly alters the state of being into a conditional clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

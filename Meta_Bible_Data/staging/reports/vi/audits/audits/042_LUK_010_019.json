@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επανω' (over/upon) is missing in the Vietnamese translation regarding the authority over serpents and scorpions."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεν υμας ου μη αδικηση' contains a double negative (ou... ou mi) which emphasizes that 'nothing shall harm you.' The Vietnamese 'chẳng có điều gì làm hại các ngươi được' is an acceptable rendering of this, but the Greek specifically uses 'αδικηση' (harm/damage), and the structure implies a prohibition or impossibility of harm."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

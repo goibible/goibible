@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρνησαμενος' is a perfect passive participle, implying someone who *has denied* (or has already acted in denial). The Vietnamese 'chối' (denies) combined with the future tense 'sẽ bị chối' (will be denied) captures the sequence of events but misses the specific aspect of the first action being completed/prior. However, the primary issue is the shift from a passive-style participle to an active verb structure in the first clause, though this is minor. A more significant issue is that 'αρνησαμενος' refers to the act of denying Christ, while 'bị chối' (passive) correctly captures 'απαρνηθησεται'. The translation is mostly faithful, but 'chối' vs 'đã chối' might be more precise for the participle."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πληρωσατε μου την χαραν' is an imperative/request: 'make my joy complete' or 'fulfill my joy'. The Vietnamese 'Hãy làm cho niềm vui của tôi được trọn vẹn' captures the meaning, but the phrase 'là anh em' (as brothers) is used as a connective, whereas in Greek 'συμψυχοι' (same-souled/fellow-feeling) and 'το εν φρονουντες' (of one mind) are the descriptors of how they should fulfill that joy."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συμψυχοι' implies 'same-souled' or 'fellow-feeling'. The Vietnamese 'là anh em' (as brothers) is a common substitution, but technically misses the specific 'same-soul/heart' nuance of 'sympsychoi'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

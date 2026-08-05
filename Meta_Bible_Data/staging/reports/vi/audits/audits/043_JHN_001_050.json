@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' is a passive/deponent form meaning 'he answered' or 'he responded'. The Vietnamese 'đáp' (answered) is correct, but the grammar of the Greek implies Jesus is responding to something said. However, more importantly, the Greek 'ειπεν αυτω' means 'he [Jesus] said to him'. The Vietnamese 'nói với người' correctly captures this."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειπεν σοι' (I said to you) is rendered as 'ta đã nói với ngươi' (I have said to you). The Vietnamese adds the perfect tense ('đã'), which is not explicitly in the Greek 'ειπεν' (aorist), but this is a minor stylistic choice. However, the primary issue is the flow of the response."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

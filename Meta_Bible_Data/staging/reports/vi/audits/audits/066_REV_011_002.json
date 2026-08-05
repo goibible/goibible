@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'giày đạp thành thánh' (trample into holiness), but the Greek is 'την πολιν την αγιαν πατησουσιν' (they will trample the holy city). The Greek describes the city as already 'holy' (agian), not a result of the trampling."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

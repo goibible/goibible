@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εμοι παραδεδοται' (it was handed over to me) is passive, indicating the power/glory were given *to* the devil. The Vietnamese translation 'nó đã được giao cho ta' correctly captures the passive voice but fails to maintain the specific subject-object relationship of the preceding clause. More importantly, the Greek 'εμοι παραδεδοται' refers back to the authority and glory just mentioned; the Vietnamese phrasing is slightly ambiguous as to whether 'nó' (it) refers to the power or the glory specifically."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ω εαν θελω διδωμι αυτην' (for if I will, I give it) expresses a conditional/volitional statement. The Vietnamese 'ta muốn cho ai thì ta cho' (whoever I want to give, I give) adds a 'whoever' (ai) component that is not in the Greek text, changing the focus from the act of giving the power to the choice of recipient."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

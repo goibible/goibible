@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγγικεν' (ēngiken) means 'has drawn near' or 'is at hand' (present perfect/perfective sense of proximity). The Vietnamese translation 'đã đến gần' is a past tense construction ('has already come near'), which slightly shifts the nuance from the immediate, ongoing presence implied in Greek to a completed action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

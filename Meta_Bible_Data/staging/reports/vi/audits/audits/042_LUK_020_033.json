@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινος αυτων' (of which/whom of them) is a question of identity/belonging, but the Vietnamese 'vợ của ai' (wife of whom) combined with the subsequent clause changes the meaning. The Greek asks 'who among them will she become [a wife] for?', implying a transition or state of being in the resurrection. The Vietnamese phrasing 'sẽ là vợ của ai' followed by 'đã lấy nàng làm vợ' creates a slight logical tension regarding the current vs. future state, but specifically, the Greek 'τινος αυτων' refers to 'which one of them', while the Vietnamese focuses on the 'who' of the marriage bond in a way that slightly shifts the focus from identity to ownership."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

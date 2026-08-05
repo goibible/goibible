@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text uses two different nouns: 'χρηστοτης' (kindness/grace) and 'φιλανθρωπια' (loving-kindness/philanthropy). The Vietnamese translation repeats 'lòng nhân từ' for both, failing to distinguish between the two distinct attributes."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παισιν αυτου' refers to his 'children' (sons/offspring), but the Vietnamese 'đầy tớ' means 'servants'. This changes the relationship of the people being addressed."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds the word 'mới' (new) before 'hành động' (acting/working), which is not present in the Greek text ('αι δυναμεις ενεργουσιν')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

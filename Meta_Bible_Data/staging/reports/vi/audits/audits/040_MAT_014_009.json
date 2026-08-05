@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια' (dia) functions as a preposition of cause/reason here (because of/on account of). The Vietnamese translation uses 'nhưng vì cớ' (but because of), introducing a contrastive conjunction ('nhưng') that is not present in the Greek text. The Greek indicates a direct causal link between his sorrow and the reason for his command, not a contrast."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

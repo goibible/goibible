@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προλαμβανει' (prolambanei) in this context (likely from the Parable of the Wedding Feast) refers to 'taking/receiving' or 'having' a meal, but the Vietnamese translation 'trước khi người khác ăn' (before others eat) introduces an external comparison ('người khác') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

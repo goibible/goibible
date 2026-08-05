@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο λογος ον ειπεν' (the word which he said) refers to the Father speaking to the Son. The Vietnamese translation 'lời Ngài đã phán' (the word He spoke) is ambiguous because 'Ngài' usually refers to God/Jesus, but in this specific context of the preceding verses, it must clearly refer to the Father. More importantly, the Vietnamese switches the subject of the quote: the Greek says 'You have given me' (Thou hast given me), while the Vietnamese says 'Cha đã giao cho Con' (Father has given to me). While the meaning is similar, the Greek is a direct quote from the Father to the Son, and the Vietnamese shifts it into a descriptive statement about the Father's action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

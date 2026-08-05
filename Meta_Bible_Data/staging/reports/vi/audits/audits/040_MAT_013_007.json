@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακανθας' (thorns) is translated as 'bụi gai' (thorn bush/thicket). While related, the Greek refers to the thorns themselves, not a collective 'bush'. More importantly, the Vietnamese 'ngòi' (throat/windpipe) is a specific anatomical term for the throat, whereas the Greek 'αυτα' (them) refers back to 'the seeds' (implied by context, though the word 'seeds' is omitted in this specific snippet, the pronoun 'them' must refer to the objects that fell). The Vietnamese 'ngòi' adds a specific body part not present in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

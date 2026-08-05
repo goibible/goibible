@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εντειλαμενος' (enteilamenos) is a participle modifying the subject (Jesus), meaning 'having commanded.' The Vietnamese translation 'sau khi đã truyền mệnh lệnh' (after having commanded) is acceptable, but it places the command as a completed action preceding the lifting up. However, the Greek structure implies a continuous state or a specific order of events where the command was issued *until* the day he was taken up. More importantly, the Vietnamese phrasing 'mà Ngài đã chọn' (whom He chose) is slightly ambiguous in its connection to 'các Sứ đồ' (the Apostles) compared to the Greek 'τοις αποστολοις... ους εξελεξατο' (to the apostles... whom he chose). The Vietnamese structure makes it sound like he chose the Holy Spirit, whereas the Greek clearly refers to choosing the Apostles."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

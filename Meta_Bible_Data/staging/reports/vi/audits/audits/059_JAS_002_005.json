@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξελεξατο' (chose) is rendered in Vietnamese as a rhetorical question 'há chẳng chọn... sao?' (did He not choose...?). While this is a common stylistic device, the Greek is a direct statement of fact. More importantly, the Vietnamese adds 'để làm cho họ giàu' (to make them rich), whereas the Greek 'πλουσιους εν πιστει' describes them as 'rich in faith' (an attributive description) rather than a result of an action performed by God to make them so."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 63,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζων' (living) is an adjective/participle modifying the subject, but the Vietnamese 'khi còn sống' (while still alive) shifts the meaning to a temporal clause. The Greek phrase 'ζων μετα τρεις ημερας εγειρομαι' means 'I will rise [from the dead] alive after three days' (or simply 'I will rise after three days'), whereas the Vietnamese implies he said it *during* his life. Furthermore, the Greek 'εγειρομαι' is a present tense used as a future, but the Vietnamese 'sẽ sống lại' correctly captures the future intent; however, the 'ζων' placement is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

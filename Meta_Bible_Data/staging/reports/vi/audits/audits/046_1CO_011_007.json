@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation attributes the phrase 'hình ảnh và vinh hiển của Đức Chúa Trời' (image and glory of God) to the man ('người nam'). However, in the Greek text, the phrase 'εικων και δοξα θεου' (image and glory of God) is part of a participial construction 'υπαρχων' (being/existing) that qualifies the preceding clause. The Greek structure implies that because the man is the image and glory of God, he should not cover his head. The Vietnamese phrasing 'người nam vốn không nên trùm đầu, vì là...' makes it slightly ambiguous whether 'là' refers back to the man or is a standalone reason, but more importantly, it misses the grammatical connection that 'being the image and glory' is the reason for the prohibition."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'υπαρχων' (being/existing) is omitted, which links the status of being God's image to the reason for not covering the head."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

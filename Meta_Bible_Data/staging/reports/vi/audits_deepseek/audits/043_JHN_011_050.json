@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη ολον το εθνος αποληται' means 'the whole nation not perish' (i.e., the entire nation/people), but the Vietnamese renders 'cả dân ngoại' which means 'all the Gentiles/foreigners' — introducing a meaning not in the Greek. The Greek 'εθνος' here refers to the nation/people (Israel), not 'dân ngoại' (Gentiles). This changes the referent and the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'μετοχους' (metochous) means 'partakers' or 'those who have a share in,' whereas the Vietnamese 'bạn đồng hành' means 'companions' or 'traveling companions.' This changes the theological concept of sharing/participating in the Spirit to a relational companionship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

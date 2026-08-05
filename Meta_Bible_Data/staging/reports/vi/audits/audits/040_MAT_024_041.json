@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αφιεται' (aphietai) means 'is taken away' or 'is removed.' The Vietnamese translation 'bị bỏ lại' means 'is left behind,' which is the opposite of the Greek action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

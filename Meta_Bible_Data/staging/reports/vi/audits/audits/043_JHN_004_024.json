@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευμα ο θεος' (the Spirit of God) is rendered in Vietnamese as 'Đức Chúa Trời là Thánh Linh' (God is the Holy Spirit). The Greek indicates possession/source (Spirit *of* God), whereas the Vietnamese renders it as an identity/equivalence (God *is* the Holy Spirit)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

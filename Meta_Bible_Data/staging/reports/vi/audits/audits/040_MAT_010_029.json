@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχι δυο' (not two) is rendered as a rhetorical question ('há chẳng từng') which changes the logical structure. More importantly, 'ασσαριου' (of a penny/asarius) is translated as 'một đồng xu', but the Greek 'πωλειται' is passive voice ('is sold'), whereas the Vietnamese phrasing makes it sound like a general inquiry about past actions."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'εν εξ αυτων' (of them) is rendered as 'ví' (if), which is a logical jump. The Greek describes the condition of the birds being sold, not a conditional 'if' statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

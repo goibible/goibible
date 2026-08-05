@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 66,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι αρα' (ti ara) is an interrogative phrase meaning 'what then' or 'what, then...'. The Vietnamese translation 'rồi sẽ ra thể nào?' (then what will it be like/how will it turn out?) changes the nature of the question from a general inquiry about the child's identity/future to a specific question about the child's state or appearance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

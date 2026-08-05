@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 19,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πασιν τοις ορνεοις' (to all the birds) is the direct object of the verb 'λεγων' (saying). The Vietnamese translation places this phrase at the end of the sentence as a prepositional phrase ('cho mọi chim...'), which changes the grammatical structure from 'saying to all the birds' to 'calling for all the birds to [do something]'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

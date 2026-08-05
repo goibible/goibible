@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εχθραι' (echthrai) refers to 'hostilities' or 'enmities'. The Vietnamese translation 'thù nghịch' is an adjective/verb meaning 'hostile' or 'to be hostile'. To maintain fidelity to the noun form in Greek, it should be a noun like 'sự thù địch'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ζηλοι' (zēloi) refers to 'zealots' or 'zeal' (often in a negative/excessive sense here). The Vietnamese 'lòng sốt sắng' translates to 'zeal' (a noun), but the Greek is plural. However, more importantly, 'εριθειαι' and 'διχοστασιαι' are both translated as 'tranh cạnh' (competition/contention). The Greek 'διχοστασιαι' specifically refers to 'divisions' or 'schisms', which is better rendered as 'sự chia rẽ'. The Vietnamese 'chia rẽ' is present but follows 'tranh cạnh' twice, creating a repetitive and slightly inaccurate mapping of the distinct Greek terms."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'vừa dứt lời' (just finished speaking) is an addition/misinterpretation. The Greek 'ως επαυσατο' means 'when he had ceased' or 'when he finished [praying]', referring to the act of prayer, not a previous speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η δε υπομονη εργον τελειον εχετω' (let endurance have a perfect work) describes the *result* or *fruit* of endurance. The Vietnamese 'phải có công việc trọn vẹn' suggests that endurance *must possess* or *require* a work, which slightly shifts the relationship between the subject and the action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν μηδενι λειπομενοι' (leaving nothing behind/remaining in nothing) is rendered as 'không thiếu thốn điều gì' (not lacking anything). While functionally similar, the Greek implies a state of completeness where nothing is left out or remaining, rather than a lack of resources."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

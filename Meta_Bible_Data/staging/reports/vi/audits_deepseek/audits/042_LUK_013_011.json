@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνεῦμα ἔχουσα ἀσθενείας' means 'having a spirit of infirmity' (a spirit causing sickness), not 'bị Thánh Linh yếu đuối' which reads as 'the Holy Spirit was weak' — this changes the meaning from an evil/impure spirit of weakness to the Holy Spirit being weak, a significant theological distortion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

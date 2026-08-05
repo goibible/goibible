@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εως ποτε' (until when) is a question/exclamation of frustration, but the Vietnamese translation 'cho đến chừng nào' functions as a temporal limit for the preceding statement ('ta sẽ ở với các ngươi... cho đến chừng nào'), which changes the grammatical structure and meaning from a rhetorical question to a duration of time."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

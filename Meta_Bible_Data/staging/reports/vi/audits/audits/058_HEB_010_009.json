@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηκω' (ēkō) means 'I have come', but the Vietnamese translation uses 'Ta đến' (I come/am coming), which is a present tense. While often used interchangeably in Vietnamese, it misses the perfect aspect of the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο θελημα σου' (ho thelēma sou) means 'Your will', but the Vietnamese translation says 'ý muốn Đức Chúa Trời' (the will of God). In this context, 'Your' refers to the Father, but the Vietnamese phrasing makes it sound like a general statement about God's will rather than a direct address."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

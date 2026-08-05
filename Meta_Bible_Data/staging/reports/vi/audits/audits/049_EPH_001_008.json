@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'φρονησει' (phronēsei) refers to 'understanding', 'practical wisdom', or 'mindset'. The Vietnamese translation repeats 'sự khôn ngoan' (wisdom) twice, failing to distinguish between 'sophia' (wisdom/knowledge) and 'phronēsis' (understanding/discernment)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

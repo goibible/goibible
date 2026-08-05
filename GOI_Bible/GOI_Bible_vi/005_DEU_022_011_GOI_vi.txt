@@ -1,0 +1,1 @@
+Không được mặc đồ dệt bằng len và gai kết hợp chung với nhau.

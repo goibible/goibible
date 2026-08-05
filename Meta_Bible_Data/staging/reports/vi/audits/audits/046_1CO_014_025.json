@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν υμιν' (en hymin) means 'in you' (plural), but the Vietnamese 'giữa anh em' (among/between you all) is a common rendering, however, the specific grammatical shift from singular 'người ấy' (that person) to plural 'anh em' (you all) in the final clause needs to be noted. More importantly, the Greek 'εν υμιν' refers to the people present, but the Vietnamese phrasing 'đang ở giữa anh em' can sometimes imply 'amongst yourselves' rather than 'in you'. However, a more significant issue is the potential confusion of the subject: the Greek says 'God is truly in you', while 'giữa' can mean 'between/among'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

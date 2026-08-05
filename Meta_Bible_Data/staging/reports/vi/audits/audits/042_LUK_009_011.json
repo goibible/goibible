@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τους χρειαν εχοντας θεραπειας ιατο' describes the people as 'having need of healing' (the object of the healing). The Vietnamese translation 'chữa lành những người có sự cần dùng về sự chữa lành' is redundant and slightly shifts the focus; it literally reads 'healed those who have a need for healing,' whereas the Greek structure implies he healed them [because/while] they were in need of healing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ανεκειτο' (anekeuito) means 'to be silent' or 'to keep silent'. The Vietnamese translation omits this significant action, stating only that they 'sat to eat' (ngồi ăn), missing the specific context of silence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιεικεις' (epieikeis) means 'gentle', 'mild', or 'lenient'. The Vietnamese translation 'dong thứ' (meaning to 'prioritize' or 'rank') is a significant mistranslation that changes the meaning of the command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πραοτητα' (praeotita) refers to 'meekness' or 'gentleness'. The Vietnamese 'nhu mì' covers this, but because 'dong thứ' was substituted for 'epieikeis', the specific nuance of being lenient/mild is lost."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

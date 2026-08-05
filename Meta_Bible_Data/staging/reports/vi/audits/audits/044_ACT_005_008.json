@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το χωριον' (the village) is translated as 'ruộng' (fields/land). This changes the subject of the sale from a village to fields."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'μοι' (to me) is singular, but the Vietnamese translation uses 'các ngươi' (you all - plural), changing the number of the person being addressed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

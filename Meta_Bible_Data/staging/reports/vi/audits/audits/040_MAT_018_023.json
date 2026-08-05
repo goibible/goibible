@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ωμοιωθη' (ōmoiōthē) is a passive form of 'homoiōo', meaning 'to be likened to' or 'to be made similar to'. The Vietnamese 'được ví như' correctly captures the likeness, but the Greek construction 'δια τουτο ωμοιωθη η βασιλεια των ουρανων ανθρωπω βασιλειος' means 'For this reason, the kingdom of heaven is likened to a human king.' The Vietnamese 'một người vua kia' adds 'kia' (that/those) which is not in the Greek, but more importantly, the Vietnamese structure makes it sound like the kingdom is being compared to a specific king already mentioned, whereas the Greek uses 'anthrōpō basileios' (a human king) as a general category of comparison."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

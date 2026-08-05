@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βασιλεις' (basileis) is plural, but the Vietnamese 'vua' is singular. While often used collectively, it misses the explicit plural nature of the Greek construction."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιερεις' (hiereis) is plural, but the Vietnamese 'thầy tế lễ' is singular."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

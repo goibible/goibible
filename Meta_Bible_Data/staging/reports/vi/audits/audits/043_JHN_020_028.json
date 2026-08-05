@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text begins with 'καὶ ἀπεκριθῇ ὁ Θωμας' (and Thomas answered), but the Vietnamese translation omits the initial conjunction 'καὶ' (and) and the verb 'ἀπεκριθῇ' (answered) in favor of a direct speech marker 'thưa rằng'. While common in translation, it technically omits the specific action of 'answering'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

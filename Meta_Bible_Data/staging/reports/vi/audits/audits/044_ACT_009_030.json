@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξαπεστειλαν' (exapeistilan) means 'sent him away' or 'sent him off' (transitive), whereas the Vietnamese 'sai người đi đến' implies 'sent someone to go to', which changes the object of the action from the person being transported to a third party being sent."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατηγαγον' (katēgagon) means 'brought him down/led him', but the Vietnamese 'đem người xuống' is slightly ambiguous regarding who performed the action, though the main issue is the confusion of the direct object in the second clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

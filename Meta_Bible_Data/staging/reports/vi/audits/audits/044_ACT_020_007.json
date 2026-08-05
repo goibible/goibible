@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνηγμενων' (synēgmenōn) describes the state of the disciples as 'having assembled/gathered'. The Vietnamese 'nhóm lại' (grouped together) misses the sense of a formal gathering or assembly in this context. More importantly, the Greek 'διελεγετο' (dielegeto) means 'to converse/dialogue with', whereas 'nói chuyện' is very general; however, the primary issue is that the Vietnamese phrasing slightly obscures the continuous nature of the gathering described by the participle."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εν δε τη μια των σαββατων' implies 'on the first day of the week'. The Vietnamese 'Ngày thứ nhất trong tuần' is a correct translation, but the 'δε' (de) serves as a transitional particle that is omitted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

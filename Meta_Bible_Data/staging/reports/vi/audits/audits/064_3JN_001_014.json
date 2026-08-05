@@ -1,0 +1,22 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'εἰρήνη σοι ἀσπāζονται' (peace be to you), rendering it as a separate sentence 'Bình an cho anh' without capturing the active/impersonal sense of the Greek 'ἀσπāζονται' (be greeted/embraced)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'ἀσπāζονται σε οἱ φίλοι' is translated as 'Các bạn chào thăm anh' (Friends greet you), but the Vietnamese fails to capture the specific context of 'ἀσπāζον τους φίλους' (greet the friends) which follows. More importantly, the final phrase 'κατ ὄνομα' (by name) is rendered as 'theo từng danh', which is a literal but awkward rendering of 'by name' in Vietnamese; however, the main issue is the structural disconnect between the greeting to the recipient and the instruction to greet others."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

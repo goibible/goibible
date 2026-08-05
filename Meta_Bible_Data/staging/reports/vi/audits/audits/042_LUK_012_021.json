@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο θησαυριζων' is a present active participle meaning 'the one who treasures/is treasuring.' The Vietnamese 'kẻ thâu trữ của' (the one who stores wealth) captures the action but misses the specific nuance of 'treasuring' (θησαυρίζω) as an ongoing state or character trait. More importantly, the Greek 'πλουτων' is a present active participle meaning 'is becoming rich' or 'is enriching himself.' The Vietnamese 'giàu có' is a static adjective (rich), failing to capture the progressive/active nature of the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

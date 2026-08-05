@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτον' (auton) is the masculine accusative pronoun 'him'. The Vietnamese translation 'Ngài' (He/Him - honorific) suggests a deity or a person of high status, whereas the Greek simply means 'him'. In the context of Judas, 'nộp Ngài' implies delivering 'Him' (Jesus), but the use of 'Ngài' is a stylistic choice for reverence not present in the neutral Greek pronoun."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

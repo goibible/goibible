@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ημερας δε γενομενης' (when the day had come/arrived) implies a specific time of day (likely dawn or the arrival of a new day), but the Vietnamese 'Đến sáng ngày' is slightly ambiguous and can be interpreted as 'Until morning' or 'By morning', potentially losing the sense of the specific moment the day arrived."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεστειλαν οι στρατηγοι τους ραβδουχους' means 'the generals sent their messengers'. The Vietnamese translation 'các quan thị chánh sai các thừa sai' is a bit heavy/complex, but it captures the essence. However, the primary issue is the temporal phrase at the start."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

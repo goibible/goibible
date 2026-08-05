@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα πασης επιταγης' means 'after every command/instruction', but the Vietnamese 'với mọi mạng lịnh' translates to 'with every command'. This changes the temporal/sequential relationship to a prepositional one."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'con' (me/your servant) at the end of the sentence. The Greek text 'μηδεις σου περιφρονειτω' means 'let no one despise you', but the Vietnamese 'chớ để ai khinh dể con' implies 'let no one despise me/your servant'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

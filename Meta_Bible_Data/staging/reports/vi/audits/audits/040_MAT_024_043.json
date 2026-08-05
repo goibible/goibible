@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκεινο δε γινωσκετε' (You know that/Do you know that) is rendered as an imperative 'Hãy biết điều này' (Let us know/Know this). The Greek expresses a statement of knowledge or a rhetorical question, not a command to 'know'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει ηδει' (if he knows) refers to the host (οικοδεσποτης), but the Vietnamese translation uses 'nếu chủ nhà biết' followed by 'thì người sẽ canh thức', where 'người' is ambiguous. In Greek, it is clear the host is the one who watches."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εισ αρτος εν σωμα' describes the state of being 'one bread in one body' (or 'one bread in a body'). The Vietnamese translation 'chỉ có một ổ bánh, chúng ta là nhiều người, cũng chỉ một thân thể' shifts the structure to 'there is only one loaf, we are many people, also only one body,' which creates a list of separate entities rather than the Greek construction of being 'one bread in [a] body'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

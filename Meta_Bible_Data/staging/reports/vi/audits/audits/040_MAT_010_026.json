@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final verb 'γνωσθησεται' (will be known) for the second clause, leaving it as a noun phrase 'điều kín nhiệm mà không được biết đến' (the hidden thing which is not known). The Greek structure is parallel: 'hidden [thing] will not be revealed' and 'hidden [thing] will not be known'. The Vietnamese phrasing makes 'not being known' part of the description of the 'hidden thing' rather than a result of its nature, slightly altering the grammatical symmetry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

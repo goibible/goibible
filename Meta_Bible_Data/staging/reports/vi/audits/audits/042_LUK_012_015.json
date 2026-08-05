@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ορατε' (look/see) is omitted in the Vietnamese translation, which only includes 'coi chừng' (be careful/watch out)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλεονεξιας' refers to 'excess' or 'abundance' (specifically the desire for more), but the Vietnamese 'lòng tham lam' (greed) is a specific moral interpretation. While related, 'lòng tham lam' adds a specific nuance of malice/avarice not explicitly in the word 'πλεονεξιας'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

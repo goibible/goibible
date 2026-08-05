@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οκ εμολυναν τα ιματια αυτων' (did not defile their garments) is rendered as 'chưa làm ô uế áo mình' (have not defiled their own clothes). The Vietnamese 'mình' implies the clothes of the subjects themselves, but the Greek 'αυτων' refers to 'their' garments in a general sense. More importantly, the Greek 'οκ εμολυναν' is an aorist negative, while 'chưa' can imply a continuous state or a past action not yet completed; however, the primary issue is the shift from 'their garments' to 'their own clothes' which slightly narrows the scope of the original."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν σαρδεσιν' (in Sardis) is rendered as 'tại Sạt-đe'. While this is a correct location, the Vietnamese translation omits the specific prepositional nuance of being 'in/at' Sardis as a location of their reputation, though this is minor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

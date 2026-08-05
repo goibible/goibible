@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσκαλεσαμενοι' (having been called/summoned) is a passive participle. The Vietnamese translation 'gọi' (called) renders it as an active verb, changing the disciples from those being summoned to those doing the summoning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies that the baptism is 'in the name of Jesus Christ' (επι τω ονοματι ιησου χριστου), but the Vietnamese translation omits the specific prepositional phrase 'nhân danh' (in the name of) or fails to clearly link the action to the name as a requirement for the result. More importantly, the Greek 'εις αφεσιν αμαρτιων' (for the forgiveness of sins) is rendered as 'để được sự tha thứ tội lỗi' (to get the forgiveness of sins). While acceptable, the primary issue is the omission of the specific Greek structure 'επι τω ονοματι' which governs the entire following clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

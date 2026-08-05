@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 15,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πρωτον' (proton) means 'first' in terms of sequence/priority, not 'before' in terms of spatial or temporal precedence relative to others. The Vietnamese 'trước các ngươi' implies the world hated Him *before* it hated them, whereas the Greek means the world hated Him *first* (as the primary target)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

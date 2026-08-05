@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σκευην' (skeuēn) refers to the 'equipment', 'cargo', or 'furniture' of the ship, but the Vietnamese 'đồ dùng' (items/tools) is slightly too narrow. More importantly, the Greek 'τριτη αυτοχειρες' implies 'the third [day], by their own hands'. The Vietnamese 'tự tay' (by our own hands) correctly captures the 'autocheres' aspect but fails to reflect that the Greek text describes a sequence of actions (the third day). However, the primary fidelity issue is the slight shift in the scope of 'skeuēn', which usually refers to the ship's contents/cargo."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

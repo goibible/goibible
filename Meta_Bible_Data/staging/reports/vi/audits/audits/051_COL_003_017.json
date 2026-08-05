@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'hãy làm mọi sự' (let everything be done) changes the grammatical structure of the Greek. The Greek 'παν ο τι αν ποιητε' is a general statement/exhortation regarding 'everything you do,' but the Vietnamese phrasing makes it sound like a specific command to 'do everything' in a way that slightly shifts the scope of the 'whatever you do' construction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν λογω η εν εργω' (in word or in deed) is condensed into 'nói hay làm' (say or do). While acceptable as a rendering of the concepts, the Vietnamese structure 'Mọi điều... hãy làm mọi sự' repeats the concept of 'everything' twice, whereas the Greek uses 'παν' once at the beginning to cover both speech and action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

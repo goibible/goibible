@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κατηγαγον' (katēgagon) is aorist active indicative, meaning 'I brought/led' or 'I took'. The Vietnamese 'giải' typically means 'released' or 'set free', which is the opposite of the action described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

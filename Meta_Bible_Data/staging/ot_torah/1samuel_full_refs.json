@@ -1,0 +1,43 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 1 Samuel QA batch.",
+  "groups": [
+    {
+      "name": "1 Samuel full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "1SA 1",
+        "1SA 2",
+        "1SA 3",
+        "1SA 4",
+        "1SA 5",
+        "1SA 6",
+        "1SA 7",
+        "1SA 8",
+        "1SA 9",
+        "1SA 10",
+        "1SA 11",
+        "1SA 12",
+        "1SA 13",
+        "1SA 14",
+        "1SA 15",
+        "1SA 16",
+        "1SA 17",
+        "1SA 18",
+        "1SA 19",
+        "1SA 20",
+        "1SA 21",
+        "1SA 22",
+        "1SA 23",
+        "1SA 24",
+        "1SA 25",
+        "1SA 26",
+        "1SA 27",
+        "1SA 28",
+        "1SA 29",
+        "1SA 30",
+        "1SA 31"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταρταρωσας' (Tartarus) is a specific proper noun for a place of punishment, but the Vietnamese 'nơi tối tăm' (dark place) is a descriptive translation that loses the specific identity of the location. However, per instructions not to flag proper names unless it changes the claim, I will look at 'παρεδωκεν εις κρισιν τετηρημενους'. The Greek 'τετηρημενους' refers to the angels who were kept/preserved (the ones who remained), but the Vietnamese 'để giữ lại' suggests a purpose (in order to keep), which changes the grammatical function of the participle from a description of the subjects to a goal of the action."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'τετηρημενους' is a masculine plural nominative participle describing the angels. The Vietnamese 'để giữ lại' translates this as an infinitive/purpose clause, changing the meaning from 'the kept ones' to 'in order to keep'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

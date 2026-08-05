@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'η απαγουσα' (the one that forbids/prevents), but the Vietnamese translates it as 'dẫn đến' (leads to). The translation fails to convey the negative action of 'forbidding' or 'preventing' and instead suggests a positive direction of leading."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

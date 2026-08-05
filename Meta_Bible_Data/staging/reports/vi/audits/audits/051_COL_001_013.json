@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βασιλειαν' (basileian) means 'kingdom', but the Vietnamese translation uses 'nước' (country/nation), which is a common but technically imprecise rendering in this context. However, more critically, the Greek 'του υιου της αγαπης αυτου' refers to 'the Son of His love' (or 'the Son of his love'), whereas the Vietnamese 'Con yêu dấu Ngài' translates to 'His beloved Son'. This changes the grammatical relationship from the Son being characterized by 'love' to the Son being 'beloved' by the Father."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μετεστησεν' (metestesen) is a transitive verb of movement. The Vietnamese translation adds 'chúng ta' (us) as an object ('dời chúng ta qua'), which is not explicitly present in the Greek phrase 'μετεστησεν εις' (transferred into). While logically implied, it is a grammatical addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

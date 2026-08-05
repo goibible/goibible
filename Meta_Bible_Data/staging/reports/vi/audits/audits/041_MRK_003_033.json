@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'μη μητηρ' (not my mother) and 'μη οι αδελφοι' (not my brothers), but the Vietnamese translation omits the negation, rendering it as a simple question of identity ('Who is my mother?') rather than a denial of relationship ('Who is NOT my mother?')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

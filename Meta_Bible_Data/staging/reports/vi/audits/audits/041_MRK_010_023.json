@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυσκολως... εισελευσονται' (will hardly enter) describes the difficulty of entering the kingdom, whereas the Vietnamese 'khó biết bao' (so difficult/hard to know) changes the grammatical structure from a statement about the difficulty of entry to an exclamation about the difficulty itself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

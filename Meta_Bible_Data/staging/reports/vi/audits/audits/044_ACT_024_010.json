@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithē) is a passive verb meaning 'he was answered' or 'he replied.' The Vietnamese translation 'thưa rằng' (said/stated) fails to capture the reactive nature of the response. More importantly, the Greek structure indicates Paul is responding *to* the commander's gesture/command, not just stating it."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'hớn hở' (joyfully/exultantly) translates 'ευθυμοτερον' (euthymoteron). While 'euthymos' relates to being of good cheer, the comparative form 'euthymoteron' implies 'more gladly' or 'more cheerfully' in response to the specific situation, which 'hớn hở' might overstate as a general emotion rather than a comparative manner of responding."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

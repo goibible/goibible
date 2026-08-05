@@ -1,0 +1,22 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Ezra QA batch.",
+  "groups": [
+    {
+      "name": "Ezra full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "EZR 1",
+        "EZR 2",
+        "EZR 3",
+        "EZR 4",
+        "EZR 5",
+        "EZR 6",
+        "EZR 7",
+        "EZR 8",
+        "EZR 9",
+        "EZR 10"
+      ]
+    }
+  ]
+}

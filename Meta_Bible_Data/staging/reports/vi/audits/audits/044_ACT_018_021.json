@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανηχθη' (anēchthē) is a passive/middle form of 'anichō' (to be permitted/allowed), but the Vietnamese 'Đức Chúa Trời cho phép' (God allows) attributes the permission to God as an active agent. The Greek structure implies 'if it be permitted' (passive/general possibility), not specifically 'if God permits'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

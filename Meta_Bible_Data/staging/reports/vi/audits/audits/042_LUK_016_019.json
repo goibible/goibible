@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text contains the word 'ενεδιδυσκετο' (he was clothed/dressed), which is missing in the Vietnamese translation. The Vietnamese implies he is wearing them, but misses the specific verb of being clothed."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευφραινομενος' means 'rejoicing/gladdening', whereas 'vui chơi xa hoa' (playing luxuriously) adds a concept of 'playing' (vui chơi) that is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματι ημων' is the dative case of 'πνεῦμα' (spirit), which in this context refers to the human spirit (the spirit within us). The Vietnamese translation 'Thánh Linh của chúng ta' translates this as 'Our Holy Spirit', implying a collective ownership or a different entity, rather than the internal human spirit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

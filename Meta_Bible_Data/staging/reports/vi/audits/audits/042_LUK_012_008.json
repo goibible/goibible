@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο υιος του ανθρωπου ομολογησει' (the Son of Man will confess) refers to the Son of Man performing the action of confessing. The Vietnamese 'Con người cũng sẽ xưng người ấy' implies that the Son of Man will *be confessed* or is being confused with the first person, but more critically, the Greek says the Son of Man confesses [the person] before the angels. The Vietnamese phrasing 'xưng người ấy' (confess that person) is technically correct in action, but the Greek 'ομολογησει εν αυτω' (confess in him/himself) is often interpreted as 'confess [him]'. However, the primary issue is the missing 'εν εμοι' (in me) and 'εν αυτω' (in him) nuances regarding the location/manner of confession, but specifically, the Vietnamese 'xưng người ấy' captures the object, while the Greek structure is 'ομολογησει εν αυτω' (confess in him). The most significant fidelity issue is the potential for the Vietnamese 'xưng' to be interpreted as 'to name' or 'to acknowledge' rather than the specific 'confession' of sins/identity intended by 'ομολογησει'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

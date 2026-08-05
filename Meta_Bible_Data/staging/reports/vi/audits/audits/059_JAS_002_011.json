@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds a 'nhưng' (but) which implies a contrast or a sequence that is not present in the Greek. The Greek structure 'ει δε ου... φονευσεις' is a conditional construction ('if you do not [do X], you will [do Y]'). The Vietnamese 'nếu ngươi không phạm tội tà dâm, nhưng phạm tội giết người' makes it sound like two separate conditions/actions joined by 'but', whereas the Greek expresses a direct logical consequence of failing one condition and doing the other."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

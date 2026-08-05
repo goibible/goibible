@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξαπεστειλαν' (exapestēlan) means 'sent away/dismissed', but the Vietnamese 'sai' (sent) combined with 'đi ra phía biển' (go out towards the sea) misses the specific nuance of 'sending away' or 'dismissing' from a location. However, more critically, 'εξαπεστειλαν' implies they were sent *away* from where they were, whereas the Vietnamese phrasing is slightly ambiguous regarding the direction of the departure relative to the brothers."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'ως επι την θαλασσαν' (ōs epi tēn thalassan) literally means 'as far as the sea' or 'to the sea'. The Vietnamese 'ra phía biển' (out towards the sea) is a slight shift in meaning from a destination/limit to a general direction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese word 'cáo' (to accuse/report) is used as a verb, but the Greek 'κατηγορουν' is the verb. However, the Vietnamese sentence structure makes 'cáo' appear as part of a phrase that doesn't clearly link to the subject 'các thầy tế lễ'. More importantly, the Greek 'πολλα' (many) modifies 'κατηγορουν' (accusations/accuse), but the Vietnamese 'nhiều điều' (many things/matters) slightly shifts the focus from the act of accusation to the content of the accusations."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese word order 'Các thầy tế lễ cả cáo Ngài nhiều điều' is awkward and potentially confusing. In Greek, 'κατηγορουν αυτου' means 'accuse him'. The Vietnamese 'cáo Ngài' correctly identifies the object, but the placement of 'cả' (which might be intended as 'all' or a connector) and 'nhiều điều' makes the sentence structure less faithful to the directness of the Greek 'accusations against him'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'πειθεις' is in the aorist active subjunctive, expressing a request or desire ('persuade me'). The Vietnamese translation 'ngươi thuyết phục ta' (you persuade me) is rendered as a statement of fact or a present action, missing the nuance of the request/exhortation. Furthermore, 'εν ολιγω' is an adverbial phrase meaning 'in a short time' or 'quickly', which is translated as 'trong ít lời' (in few words), changing the sense from duration/speed to quantity of speech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

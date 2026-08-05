@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη λαλειν' (not to speak) is rendered as 'không được nói đến... nữa' (no longer speak). The addition of 'nữa' (no longer/anymore) implies a cessation of a previous action that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

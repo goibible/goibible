@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο των αποδωσει' (the one who will give/bestow) is a relative clause describing the Lord. The Vietnamese translation treats 'Chúa' (Lord) as the subject of a new independent clause ('Chúa là quan án công bình') rather than maintaining the structure where 'the Lord' is the one who 'will bestow' the crown."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο δικαιος κριτης' (the righteous judge) is an appositive or descriptive phrase for the Lord. The Vietnamese translation separates this into a new sentence structure, slightly altering the immediate grammatical relationship between the subject and the action of bestowing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

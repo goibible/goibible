@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'επιδειξαι' (to show/demonstrate) is rendered as a request ('xin') in the Vietnamese. The Greek text states that they 'asked him for a sign... to show them', but the Vietnamese phrasing 'xin Ngài tỏ cho họ' (ask Him to show them) slightly shifts the grammatical structure of the purpose clause into a single requested action, though the core meaning is largely preserved. However, more importantly, the Greek 'ειπηρωτησαν' (asked) is present, but the transition from 'asking for a sign' to 'to show them' is slightly smoothed over."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

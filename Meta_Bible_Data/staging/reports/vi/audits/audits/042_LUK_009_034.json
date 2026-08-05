@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εφοβηθησαν δε εν τω εκεινους εισελθειν' indicates they were afraid *not* to enter (or were afraid while entering, but the 'δε' suggests a negative construction/hesitation). The Vietnamese 'họ sợ hãi khi vào trong' translates it as 'they were afraid when entering', missing the nuance of 'not entering' or the specific grammatical structure of the fear regarding the action of entry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the verb 'gởi' (send/sent), which is not present in the Greek text. The Greek text is a list of names followed by the recipient."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

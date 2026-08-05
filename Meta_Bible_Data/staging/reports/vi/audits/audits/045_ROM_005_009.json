@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'δικαιωθεντες' is a perfect passive participle, indicating a completed action ('having been justified'). The Vietnamese translation 'đã được xưng công bình' correctly captures the completion, but the Greek 'νυν' (now) is omitted or improperly integrated into the temporal flow of the sentence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'πολλω ουν μαλλον' (therefore much more) is significantly weakened in the Vietnamese. The Vietnamese 'Vậy thì... là dường nào!' captures the 'therefore' and the 'much more' sense, but loses the specific emphasis of 'πολλω' (much/greatly) as a direct modifier of the comparison."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

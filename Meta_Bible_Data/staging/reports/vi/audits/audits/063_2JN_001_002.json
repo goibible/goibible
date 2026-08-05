@@ -1,0 +1,18 @@
+{
+  "book": "2JN",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'μενούσαν' (abiding/remaining) is missing in the Vietnamese translation. The Vietnamese version omits the active state of the Truth 'abiding' within them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

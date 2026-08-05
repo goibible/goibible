@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις παντας τους αγιους' (towards all the saints) is rendered as 'cho tất cả các thánh đồ'. In this context, 'cho' (for/to) changes the direction of the sentiment. The Greek indicates that the love and faith are directed *towards* the Lord and *towards* the saints, whereas the Vietnamese suggests the love and faith are *for* the Lord and *given to* the saints."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμβουλιον' (symboulion) is a noun meaning 'counsel,' 'consultation,' or 'deliberation.' The Vietnamese translation 'lập một hội đồng' means 'established/formed a council' (a body of people). This changes the action from a mental deliberation/planning to the physical formation of an organization."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

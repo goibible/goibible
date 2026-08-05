@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πασαν αρχην' means 'every rule/authority/rulership' (referring to ruling powers), but the Vietnamese 'mọi sự ban đầu' means 'every beginning/initial thing', which is a mistranslation that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

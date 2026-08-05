@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπαραξαν' (sparaxan) is a violent, forceful verb meaning 'to tear apart,' 'to rend,' or 'to seize with violence.' The Vietnamese 'vật mạnh' (physically seized/grabbed strongly) significantly understates the intensity and specific action of the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

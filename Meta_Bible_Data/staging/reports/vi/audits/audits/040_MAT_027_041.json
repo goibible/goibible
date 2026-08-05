@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Ngài' (Him/the Lord) as the object of the mocking, but the Greek text 'εμπαιζοντες μετα των γραμματεων και πρεσβυτερων' does not specify an object; it describes the priests mocking *along with* (meta) the scribes and elders."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

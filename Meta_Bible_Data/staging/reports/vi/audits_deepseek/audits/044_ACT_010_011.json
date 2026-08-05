@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τεσσαρσιν αρχαις δεδεμενον' means 'bound by four corners' (i.e., the four corners of the sheet), but the Vietnamese 'buộc bốn sự ban đầu' renders 'αρχαις' as 'sự ban đầu' (beginnings/principles) rather than 'corners' (the standard meaning here). This changes the meaning: the reader would understand the object is tied with four 'beginnings' rather than bound at its four corners."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

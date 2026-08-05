@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το τελος εσται' (the end will be) refers to the final outcome or result. The Vietnamese translation 'sự cuối cùng của họ sẽ theo công việc của họ' (their end will follow/be according to their works) changes the grammatical structure from 'the end [of the matter/result] will be according to their works' to a possessive construction where 'the end' belongs to 'them'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

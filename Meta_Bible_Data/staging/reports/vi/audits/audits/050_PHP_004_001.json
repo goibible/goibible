@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στεφανος' (stephanos) refers to a 'crown' or 'prize'. The Vietnamese 'mão triều thiên' specifically refers to an imperial crown, which adds a specific regal/monarchical nuance not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουτως' (outos) meaning 'thus' or 'in this way' is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

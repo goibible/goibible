@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο σπειρων' (the one who sows) is a present active participle. The Vietnamese translation 'Kẻ gieo' correctly captures the action, but the Greek text 'ο δε αποκριθεις ειπεν αυτοις' includes the indirect object 'αυτοις' (to them), which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

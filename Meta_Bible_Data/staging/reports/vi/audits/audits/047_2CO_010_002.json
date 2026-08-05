@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη παρων' (not present) is translated as 'khi có mặt' (when present). The Greek implies 'not being present' or 'not in the presence of', whereas the Vietnamese suggests a condition of being present."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πεποιθησει' (confidence/assurance) is rendered as 'lòng tin cậy nghịch' (hostile confidence/trust). The word 'nghịch' (hostile/rebellious) is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

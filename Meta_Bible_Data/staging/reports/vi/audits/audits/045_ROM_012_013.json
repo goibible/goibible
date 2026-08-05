@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταις χρειαις' (the needs) is the direct object of the verb 'κοινωνουντες' (sharing/participating in). The Vietnamese translation 'chia sẻ sự cần dùng của các thánh đồ' implies sharing something *belonging* to the saints, whereas the Greek means sharing *with* the saints their needs."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'διωκοντες' (pursuing) is a present active participle modifying the subject. The Vietnamese uses an imperative 'hãy theo đuổi', which changes the grammatical mood from a descriptive action to a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

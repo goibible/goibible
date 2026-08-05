@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μεταπεμψαι' (metapemphsai) means 'to send back' or 'to send again,' whereas the Vietnamese 'mời' means 'to invite/call.' This changes the action from a command to send someone back to an invitation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

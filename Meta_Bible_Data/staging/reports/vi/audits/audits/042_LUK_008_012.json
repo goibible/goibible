@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ινα μη πιστευσαντες σωθωσιν' contains a negation ('μη') meaning 'so that they might NOT be saved'. The Vietnamese translation 'kẻo họ tin và được cứu' (lest they believe and be saved) removes the negation, changing the meaning to imply they *will* be saved rather than *not* being saved."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

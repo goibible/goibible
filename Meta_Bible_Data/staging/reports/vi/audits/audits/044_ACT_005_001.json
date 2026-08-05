@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ονοματι' (named) modifies the man, but the Vietnamese structure 'có một người tên là A-na-nia, cùng với vợ là Sapphira' implies the name 'A-na-nia' might apply to both or creates a slightly different grouping. More importantly, the Greek 'συν' (with) indicates they acted together in the sale, but the Vietnamese phrasing 'cùng với vợ là Sapphira' can be read as an appositive describing the man's status rather than the joint action of the sale."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

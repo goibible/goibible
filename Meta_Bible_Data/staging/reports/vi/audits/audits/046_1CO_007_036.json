@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν η υπερακμος και ουτως οφειλει γινεσθαι' refers to the state of being 'past her prime' or 'over the hill' (super-akmos) as a reason/condition for the action. The Vietnamese 'nếu nàng đã quá thì' is slightly ambiguous but captures the sense; however, the main issue is the final clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχ αμαρτανει γαμειτωσαν' contains a specific construction. 'αμαρτανει' (he does not sin) refers to the subject who wants to act (ο θελει). The Vietnamese 'họ hãy cưới nhau' (they should marry each other) changes the grammar from a statement of non-sinning into an imperative command for two people to marry, which is not in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

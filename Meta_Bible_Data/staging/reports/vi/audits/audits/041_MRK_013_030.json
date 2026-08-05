@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'chẳng qua' (not pass/not exceed) fails to capture the specific Greek construction 'μη παρελθη... μεχρις ου' (shall not pass... until). The Greek implies a temporal boundary: this generation will not pass away *until* these things happen. The Vietnamese phrasing makes it sound like an inability to surpass a point rather than a chronological sequence of events."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

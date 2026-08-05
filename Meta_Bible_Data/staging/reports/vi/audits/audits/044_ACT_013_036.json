@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδια γενεα' (his own generation/lineage) refers to the people of his own time/generation. The Vietnamese 'dòng dõi mình' implies his own descendants or lineage, which changes the scope of who he served."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειδεν διαφθοραν' (he saw corruption) is a specific theological/eschatological point. While 'đã thấy sự hư nát' is present, the Vietnamese structure makes it slightly ambiguous whether he saw it *after* being added to the fathers or as a distinct observation of the world/generation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

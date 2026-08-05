@@ -1,0 +1,18 @@
+{
+  "book": "1TH",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'bắt chước Chúa' (imitated the Lord), but the Greek text is 'και του κυριου δεξαμενοι τον λογον' (and having received the word of the Lord). The Vietnamese version incorrectly turns a prepositional phrase modifying the reception of the Word into a second action of imitation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

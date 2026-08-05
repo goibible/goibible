@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δεξιας' (dexias) is an adjective/participle related to 'right hand' or 'right side'. The Vietnamese translation 'đã trao tay hữu cho tôi' (gave the right hand to me) is a literal and nonsensical rendering of the spatial/relational concept in this context, likely misinterpreting the prepositional/adjectival use."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κοινωνιας' (koinonias) is a genitive modifying the action of giving; the Vietnamese 'về sự thông công' (about/regarding fellowship) captures the word but misses the specific grammatical relationship of 'giving [to] fellowship' or 'giving [for] fellowship' as intended in the context of the gift."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

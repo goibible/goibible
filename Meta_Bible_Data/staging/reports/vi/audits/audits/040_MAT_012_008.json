@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κυριος γαρ εστιν' means 'For he is Lord.' The Vietnamese translation 'là Chúa của ngày Sa-bát' (is the Lord of the Sabbath) changes the grammatical structure from a predicate describing who the Son of Man is to a possessive relationship with the Sabbath."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

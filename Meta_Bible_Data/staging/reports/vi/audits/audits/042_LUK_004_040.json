@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειχον ασθενουντας' (were suffering/being weak) is rendered as 'có người yếu đau' (had people who were weak/aching). The Vietnamese phrasing implies a third party ('có người') rather than the subjects themselves suffering from the illnesses."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

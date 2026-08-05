@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'εις το ονομα του κυριου' includes the word 'ονομα' (name), which is missing in the Vietnamese translation ('nhân danh' is used, but it misses the specific reference to the 'Name' as a distinct noun phrase). More importantly, the Greek says 'in the name of the Lord Jesus', while the Vietnamese omits 'Chúa' (Lord) as a preceding title for the name, though it uses 'Chúa Giê-xu'. Wait, looking closer: 'εις το ονομα του κυριου ιησου' means 'into the name of the Lord Jesus'. The Vietnamese 'nhân danh Chúa Giê-xu' translates to 'in the name of Lord Jesus'. However, the Greek specifically includes 'ονομα' (name) which is rendered as 'danh', but the structure 'εις το ονομα' is slightly more specific. Actually, the most significant omission is the nuance of 'into the name'. But let me re-evaluate: 'nhân danh' is a standard translation for 'eis to onoma'. Is there a factual difference? The Greek says 'Lord Jesus'. The Vietnamese says 'Chúa Giê-xu' (Lord Jesus). The Vietnamese is actually missing nothing substantive. Let me re-read the Greek: 'ακουσαντες δε εβαπτισθησαν εις το ονομα του κυριου ιησου'. Vietnamese: 'Nghe vậy, họ chịu phép báp-têm nhân danh Chúa Giê-xu.' The Vietnamese is a very faithful rendering. I will mark OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

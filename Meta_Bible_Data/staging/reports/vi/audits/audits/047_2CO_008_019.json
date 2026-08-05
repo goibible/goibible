@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεκδημος' (synekdemos) means 'fellow-citizen' or 'fellow-countryman'. The Vietnamese 'bạn đồng hành' translates to 'companion' or 'traveling companion', which changes the specific nature of the relationship from a shared citizenship/status to a shared journey."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προθυμιαν' (prothymian) refers to 'zeal' or 'eagerness'. The Vietnamese 'lòng sốt sắng' (fervor/burning heart) is a common theological equivalent, but the Greek specifically implies the 'zeal' of the people being served."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says the man from whom the demons had gone out begged to be with Jesus, but Jesus sent him away. The Vietnamese says 'Người đã được giải thoát khỏi ma quỷ' (the man who had been delivered from demons) — this changes the subject: in Greek the man is the one who had demons come out of him (active/medio-passive 'εξεληλυθει' = had gone out), not 'was delivered' (passive). Also 'giải thoát' implies an agent (Jesus) delivering him, whereas the Greek simply states the demons had left him. This is a subtle but real shift in who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

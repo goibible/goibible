@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μητι εγω ειμι' (am I not?) is a negative question. The Vietnamese 'có phải tôi không?' translates to 'am I?' or 'is it me?'. It fails to capture the negation ('not') present in the Greek, which changes the meaning of the disciples' inquiry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

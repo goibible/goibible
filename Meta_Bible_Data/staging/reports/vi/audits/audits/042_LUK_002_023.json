@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'con' (child/offspring) is added or substituted for 'αρσεν' (male/man). The Greek specifically specifies 'every male', not just any child."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the word 'hành động' or equivalent for 'διανοιγον' (opening/breaking), but more importantly, it fails to capture that the 'opening of the womb' is the condition/action leading to the naming. The phrase 'mở dạ con' is slightly ambiguous compared to the Greek 'αρσεν διανοιγον μητραν' (male opening [of] the womb)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

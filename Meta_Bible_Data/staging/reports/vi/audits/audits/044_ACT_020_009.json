@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταφερομενος' (katapheromenos) means 'being carried/borne/dragged,' but the Vietnamese 'kéo xuống' (pulled down) combined with 'ngồi trên cửa sổ' (sitting on the window) misrepresents the spatial relationship. The Greek 'επι της θυριδος' (epi tēs thyridos) refers to being *at* or *by* the door/entrance, not sitting *on* a window."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific detail 'καθημενος' (katēmenos), which implies 'perpetually' or 'continually' (as in, he was constantly falling asleep/being carried off)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

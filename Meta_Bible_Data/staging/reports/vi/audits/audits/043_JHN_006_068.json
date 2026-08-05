@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 68,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απελευσομεθα' (apeleusometha) means 'shall we be released/set free', but the Vietnamese translation 'đi theo' means 'will follow'. This is a significant change in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

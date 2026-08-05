@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδουσα' (idousa) is a past tense verb meaning 'saw', but the Vietnamese 'thấy' is used here as a present tense/general action. More importantly, the Greek 'καθημενον' (katēmēnōn) means 'sitting/dwelling', but the Vietnamese 'ngồi gần' (sitting near) misses the nuance of 'dwelling/abiding' which is central to the context of the light."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'ειπεν' (eipen - said), but the Vietnamese translation omits the quotation marks or a clear distinction that the following words are the specific words spoken by the servant girl, though it is implied. However, the primary issue is the lack of 'thấy' as a past action corresponding to 'ιδουσα'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

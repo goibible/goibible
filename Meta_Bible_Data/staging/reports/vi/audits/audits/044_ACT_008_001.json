@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'δε ην συνευδοκων' (was NOT consenting/approving) is translated as 'vốn ưng thuận' (was consenting), omitting the negation 'δε' (not)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

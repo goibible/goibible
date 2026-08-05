@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε επιλεξαμενος' (not having been chosen) is negated, but the Vietnamese 'chọn' (chose) removes the negation entirely, reversing the meaning of the clause."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek describes Paul as 'not having been chosen' (a participle modifying Paul), but the Vietnamese phrasing 'Phao-lô chọn Si-la' suggests Paul performed the action of choosing Silas, which is a significant change in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

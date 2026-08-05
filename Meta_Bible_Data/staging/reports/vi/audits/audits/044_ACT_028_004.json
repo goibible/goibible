@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η δικη ζην ουκ ειασεν' (the judgment/punishment did not let him live) is rendered as 'hình phạt không cho phép sống'. While close, the Vietnamese phrasing implies a proactive prohibition ('không cho phép'), whereas the Greek 'ουκ ειασεν' (did not let live/permit life) in this context refers to the fact that he was not allowed to survive/live by the judgment. More importantly, the Vietnamese misses the nuance of the result: the man did not live because of the judgment."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παντως' (certainly/surely) is rendered as 'Chắc chắn', which is accurate, but the overall flow of the final clause in Vietnamese slightly obscures the causal link between the judgment and his death."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

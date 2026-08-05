@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανakrinεται' (is being inquired/examined) is a passive verb describing the nature of spiritual knowledge, but the Vietnamese 'vì phải xem xét' (because [one] must examine) changes the meaning from a description of how spiritual things are scrutinized to an imperative or requirement for the reader to perform an action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

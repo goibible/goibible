@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις γαρ σε διακρινει' (For who divides/distinguishes you?) is rendered as 'Vì ai phân biệt ngươi?' (Because who distinguishes you?). The Vietnamese 'Vì' incorrectly renders the Greek particle 'γαρ' (for/because) as a causal connector for the first clause, rather than a conjunction connecting the thought to the previous context. More importantly, the Greek implies 'Who can distinguish/separate you?' (often in the context of spiritual unity), while the Vietnamese phrasing can be interpreted as a question of 'Who distinguishes you' in a way that loses the nuance of the Greek 'τις'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

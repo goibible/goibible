@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πινω... εκ τουτου του γεννηματος της αμπελου' means 'drink... from the fruit of this vine'. The Vietnamese translation 'uống con cái của cây nho này' translates 'γεννηματος' as 'con cái' (children/offspring) instead of 'trái' (fruit)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τη βασιλεια του πατρος μου' means 'in the kingdom of my Father'. The Vietnamese translation 'trong nước của Cha ta' translates 'βασιλεια' (kingdom) as 'nước' (country/water/nation). While 'nước' can mean kingdom, in this context it is a significant shift from the specific 'kingdom' concept."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

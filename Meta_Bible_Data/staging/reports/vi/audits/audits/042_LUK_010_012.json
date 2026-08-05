@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ανεκτοτερον' (anektoteron) means 'more tolerable' or 'more bearable.' The Vietnamese translation 'chịu nhẹ hơn' (will suffer more lightly/less) captures the comparative sense but fails to convey the specific nuance of 'tolerability' or 'endurance' inherent in the Greek term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

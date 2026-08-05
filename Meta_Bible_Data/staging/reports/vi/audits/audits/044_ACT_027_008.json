@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μολις' (molis) means 'scarcely' or 'hardly' in the sense of 'no sooner had we... than'. The Vietnamese 'hầu như không' translates to 'almost didn't', which changes the meaning from a sequence of events (no sooner did we leave than we arrived) to a negation of the action itself."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τε παραλεγομενοι' (te paralegomenoi) means 'having just passed' or 'passing by'. The Vietnamese 'không đi dọc theo' translates to 'did not go along', which is a negation of the movement described in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

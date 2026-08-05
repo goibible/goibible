@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nguyền xin con được' (I pray that I may receive) changes the grammatical structure of the Greek. The Greek 'χαρις ελεος ειρηνη' are direct subjects/objects of the implied verb 'be' or a simple list of blessings; the Vietnamese adds a first-person petitionary request ('nguyện xin con được') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

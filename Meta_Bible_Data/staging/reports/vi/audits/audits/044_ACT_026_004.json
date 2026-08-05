@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τω εθνει μου' means 'in my ethnicity/nation' (referring to the Jewish people). The Vietnamese translation 'giữa dân ngoại tôi' means 'among my foreigners' or 'among the Gentiles,' which is the opposite of the Greek meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

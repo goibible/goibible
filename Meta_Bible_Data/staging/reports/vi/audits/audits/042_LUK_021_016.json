@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θανατωσουσιν' (thana-tousousin) means 'they will put to death' or 'they will kill' (causative of 'to die'). The Vietnamese 'giết một số người trong các ngươi' adds the quantifier 'một số người' (some people/a number of people), which is not present in the Greek text. The Greek implies all who are delivered are put to death, not just a portion of them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

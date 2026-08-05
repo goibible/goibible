@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text has 'καὶ ἐστε σκυθρωποί' ('and you are gloomy/sad-faced'), but the Chinese translation renders this as '他們就站住，面帶愁容' ('they stood still, with sad faces'), adding '站住' (stood still) which is not in the Greek, and omitting the explicit '你們是' (you are) construction, shifting the description from the disciples' state to an action. The addition of '站住' introduces a concept not present in the Greek, and the rendering changes the focus from 'you are gloomy' to 'they stood still with sad faces'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

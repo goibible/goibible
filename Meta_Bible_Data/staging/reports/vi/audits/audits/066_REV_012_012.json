@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese translation uses 'những kẻ ở trong nó' (plural), but the Greek 'οι εν αυτοις σκηνουντες' is plural. However, the Vietnamese 'hỡi các tầng trời và những kẻ ở trong nó' structures the sentence as a direct address to the heavens and the inhabitants. The Greek 'δια τουτο ευφραινεσθε' (rejoice because of this) is directed at the heavens/inhabitants, but the Vietnamese phrasing slightly shifts the focus of the exclamation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουαι τοις κατοικουσιν την γην' uses the dative case for 'those inhabiting the earth'. The Vietnamese 'Khốn cho những kẻ ở trên đất' is an acceptable rendering of the 'woe to' construction. However, the Vietnamese 'biết rằng nó chỉ còn có một thời điểm ngắn' (knowing that it only has a short time) slightly alters the Greek 'ειδως οτι ολιγον καιρον εχει'. In Greek, 'ειδως' (knowing/seeing) functions as an absolute participle describing the devil's state of mind; the Vietnamese 'biết rằng' makes it sound like a secondary clause of fact rather than the internal motivation of the devil's anger."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

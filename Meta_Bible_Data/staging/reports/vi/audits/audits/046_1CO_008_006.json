@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the prepositional phrase 'εις αυτον' (towards Him) and 'eis κυριος' (as Lord) in the second clause, rendering 'και ημεις δι αυτου' as 'và chúng ta cũng vậy' (and we also), which loses the specific 'towards/as' relational structure of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

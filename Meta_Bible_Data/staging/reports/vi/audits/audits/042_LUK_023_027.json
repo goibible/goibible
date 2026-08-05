@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'đấm ngực' (beat their breasts) is a common interpretation of 'ἐκοπτόντο' (ekoptonto), but the Greek verb specifically means to tear/rend (as in garments). While often associated with beating the breast in this context, 'xé áo' would be the literal fidelity. However, the more significant issue is the phrasing 'than khóc Ngài', which implies they were weeping *at* Him or *for* Him as an object, whereas 'ἐθρηνουν αὐτὸν' indicates they were lamenting/mourning Him (the person). The Vietnamese structure is acceptable, but 'đấm ngực' is a functional translation of the action rather than the literal verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

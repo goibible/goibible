@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυρι τηρουμενοι' (pyri thiroumenoi) means 'being stored as fire' or 'stored in the form of fire'. The Vietnamese 'được dành chứa lửa' (stored [as] fire) followed by 'giữ lại cho' (kept for) creates a slight ambiguity. More importantly, 'τηρουμενοι' implies a state of being 'kept/stored' as a specific condition (fire), whereas the Vietnamese structure could be interpreted as storing 'fire' as an object rather than the heavens and earth *being* fire."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'των ασεβων ανθρωπων' uses both 'asebous' (ungodly) and 'anthrōpōn' (men/humans). The Vietnamese 'những người vô đạo' omits the specific reference to 'humanity/men' (anthrōpōn), though 'người' covers 'people'. However, in a strict fidelity check, the distinction of 'humans' specifically is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

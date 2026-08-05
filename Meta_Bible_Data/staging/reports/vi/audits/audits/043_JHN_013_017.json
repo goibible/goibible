@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'εαν ποιητε αυτα' (if you do these things) as 'nếu các ngươi làm theo' (if you follow/do along). While 'làm theo' can mean 'do', it often implies 'following' or 'obeying' a command. However, the Greek 'ποιητε' is the simple imperative/indicative of 'doing' the things mentioned. More importantly, the Vietnamese structure 'thì có phước' (then [you] have blessing) slightly shifts the conditional flow, though the main issue is the slight nuance shift from 'do these things' to 'follow [them]'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

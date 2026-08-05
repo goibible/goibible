@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek has three distinct qualities in the teaching: 'αδιαφθοριαν' (soundness/incorruptness), 'σεμνοτητα' (dignity/gravity), and 'αφθαρσιαν' (incorruptibility). The Vietnamese renders both αδιαφθοριαν and αφθαρσιαν as 'sự không hư nát' (incorruptibility), making them identical and losing the distinction between the two different Greek terms. This causes the reader to miss the separate concept of 'soundness/uncorruptedness' in teaching."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

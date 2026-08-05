@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαρπασει' (future/aorist active) refers to the action of 'robbing/plundering' the house. The Vietnamese translation 'cướp nhà' (rob the house) is slightly imprecise compared to 'διαρπασει την οικιαν', which implies plundering the contents/house, but more importantly, the Greek structure 'εαν μη πρωτον... και τοτε...' indicates a conditional sequence. The Vietnamese 'Rồi sau đó mới cướp nhà người ấy' makes it sound like the house is being robbed *after* the person is bound, whereas the Greek implies that the robbing of the house is the ultimate goal/result of the sequence (binding the strong -> plundering the house)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

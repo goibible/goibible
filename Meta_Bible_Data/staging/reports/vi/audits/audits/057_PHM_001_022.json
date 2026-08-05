@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'χαρισθησομαι' (charisthēsomai) is a passive form of 'charizomai', meaning 'to be shown favor' or 'to receive grace/mercy'. The Vietnamese translation 'được tha thứ' means 'to be forgiven'. While related, 'forgiven' is a specific theological application that is not explicitly stated in the Greek text, which simply indicates receiving grace or favor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η σεβασμα' (the worshipful/reverent one) is translated as 'đối tượng thờ phượng' (object of worship). In this context, it refers to the entity being worshipped/honored as a deity, but the Vietnamese rendering shifts the focus slightly from the status of the entity to its role as an object."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ωστε' (so that/in order that) expresses purpose or result. The Vietnamese 'đến nỗi' (to the extent that/so that) captures the result, but the phrase 'αυτον εις τον ναον του θεου ως θεον καθισαι' implies the act of *seating* himself as God in the temple. The Vietnamese 'ngồi trong đền thờ' (sits in the temple) misses the specific nuance of 'καθισαι' (taking a seat/establishing oneself as) as a formal action of enthronement."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

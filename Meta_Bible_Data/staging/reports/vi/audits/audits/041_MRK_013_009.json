@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βλεπετε δε υμεις' is a present active imperative/indicative structure meaning 'See (for yourselves)' or 'Behold', but the Vietnamese 'Hãy tự giữ mình' translates to 'Keep yourself/guard yourself'. This changes the meaning from an observation of what will happen to a moral command to behave in a certain way."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις συνεδρια' (into councils/tribunals) and 'εις συναγωγας' (into synagogues) are locations where they will be delivered. The Vietnamese 'trước hội đồng' (before the council) and 'trong các nhà hội' (in the houses of assembly/synagogues) is a slight shift in prepositional nuance, but the primary issue remains the opening verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

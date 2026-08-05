@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αλλαξαι την φωνην μου' (change my voice/tone) in this context refers to changing the manner of speaking or the message being conveyed, but the Vietnamese 'thay đổi tiếng nói của tôi' can be interpreted literally as changing the physical sound of one's voice. More importantly, the Greek 'οτι' functions as a conjunction introducing the content of the speech (that/because), whereas the Vietnamese 'vì' (because) shifts the logical connection to a causal reason for wanting to be present."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

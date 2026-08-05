@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κῆνσον' (census/tax) is mistranslated as 'sự cuối cùng' (the last thing/end), which is a clear error. It should be 'thuế thân' or 'thuế' (poll tax/census tax)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

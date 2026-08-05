@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 17,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηρημωμενην ποιησουσιν αυτην' uses the verb 'ποιησουσιν' (they will make/do) with 'ηρημωμενην' (desolate/forsaken). The Vietnamese 'làm cho nó ra hoang vu' captures the sense of desolation but misses the specific nuance of 'making it desolate/abandoned'. However, a more significant issue is the subject: the Greek 'ουτοι' (these [horns]) refers back to the ten horns as the agents of the action. The Vietnamese phrasing 'chính con thú ấy sẽ' (the beast itself will) shifts the agency from the ten horns to the beast, which is a change in the grammatical subject of the verbs."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και τας σαρκας αυτης φαγονται' uses the passive voice (are eaten), but the Vietnamese 'sẽ ăn xác thịt nó' uses the active voice (will eat its flesh). This changes the grammatical structure of who is performing the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

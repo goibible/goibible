@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παραδιδως' (paradidōs) means 'delivering up' or 'betraying.' The Vietnamese translation 'dùng cái hôn để phản' (using a kiss to betray) adds the specific method of a 'kiss' which is not present in this specific Greek text (though it is implied by context, the Greek text itself only says 'delivering up')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek specifies 'τον υιον του ανθρωπου' (the Son of Man). While 'Con người' is used in Vietnamese, it lacks the specific 'Son of' (con) distinction present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

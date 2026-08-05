@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξηλθεν' (exēlthen) means 'took off' or 'removed,' but the Vietnamese translation 'đội' means 'put on' or 'wore.' This reverses the action described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

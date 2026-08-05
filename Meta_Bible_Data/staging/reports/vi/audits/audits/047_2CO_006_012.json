@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σπλαγχνοις' (splanchnois) refers to the 'inward parts' or 'bowels' (often translated as 'affections' or 'inner being'), not 'lòng thương xót' (compassion/mercy). The Vietnamese translation shifts the meaning from an internal state of being to an external act of feeling for others."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

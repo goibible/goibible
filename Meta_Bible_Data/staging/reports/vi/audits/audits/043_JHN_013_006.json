@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συ μου νιπτεις' (you wash for me) is a question ('σύ μου νιπτεις τους ποδας' - do you wash my feet?), but the Vietnamese translation renders it as an exclamatory statement ('chính Chúa rửa chân cho tôi sao!' - is it that You wash my feet!). While 'sao' can be used in questions, the phrasing 'chính... sao' in this context leans toward a rhetorical exclamation of surprise rather than a direct inquiry about the action being performed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

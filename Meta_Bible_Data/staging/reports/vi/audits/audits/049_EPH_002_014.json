@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'vách ngăn giữa của hàng rào' is a literal/awkward rendering of 'το μεσοτοιχον του φραγμου'. In Greek, 'μεσοτοιχον' means 'partition' or 'middle wall'. The Vietnamese phrasing suggests a 'partition between the fence', which is semantically confusing. It should be rendered as 'vách ngăn của hàng rào' (the partition of the fence/wall)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

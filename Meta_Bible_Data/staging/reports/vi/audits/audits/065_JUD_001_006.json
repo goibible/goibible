@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη τηρησαντας' (not having kept) is a participle modifying 'αγγελους' (angels). The Vietnamese translation 'Các thiên sứ không giữ...' treats 'không giữ' as the main verb of the sentence, making it sound like a general statement about angels rather than the specific reason/description for their current state. Furthermore, the Vietnamese structure implies the angels are the ones who 'bỏ nhà ở riêng' (left their own dwelling), but the Greek 'απολιποντας' (having forsaken) describes the action of the angels, while the result is that they are 'δεσμοις... τετηρηκεν' (have been kept in chains) by Him. The Vietnamese phrasing 'thì Ngài đã dùng...' creates a causal link that slightly obscures the participial structure where 'not keeping' and 'forsaking' are the reasons for their current imprisonment."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'τετηρηκεν' is a perfect active indicative, referring to the action of 'Him' (God) keeping them. The Vietnamese 'đã dùng... cầm giữ' is an acceptable rendering of the perfect tense, but the overall sentence structure makes it unclear who the subject of 'không giữ' is versus the subject of 'cầm giữ'. In Greek, 'angels' are the subject of 'not keeping', and 'He' (implied) is the subject of 'has kept'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

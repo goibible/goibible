@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βεβηλους' (bebelous) refers to 'babyish' or 'infantile' things, not 'phàm tục' (vulgar/profane). The Vietnamese translation changes the nature of the adjective."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'như chuyện các bà già' (like stories of old women), which has no basis in the Greek text. The Greek simply says 'babyish and grotesque myths'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

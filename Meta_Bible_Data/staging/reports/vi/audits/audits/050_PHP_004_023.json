@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The phrase 'μετα παντων υμων' (with all of you) is translated as 'ở cùng tất cả anh em'. While 'anh em' is a common substitute for 'you' in Vietnamese Christian contexts, the Greek specifically uses the second-person plural 'υμων' (you). More importantly, the source text contains the introductory phrase 'η χαρις του κυριου ημων ιησου χριστου' (the grace of our Lord Jesus Christ), which is almost entirely omitted in the Vietnamese translation, leaving only 'Ân điển của Chúa Giê-xu Christ'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

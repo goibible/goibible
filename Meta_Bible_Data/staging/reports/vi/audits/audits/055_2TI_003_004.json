@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'φιληδονοι' (philēdonoi) refers to those who are 'lovers of pleasure/luxury' or 'pleasure-seeking.' The Vietnamese translation 'kiêu ngạo' means 'proud/arrogant,' which is not the meaning of the Greek term."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

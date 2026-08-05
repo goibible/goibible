@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'πεπεισμεθα' (pepeisthēma) is in the perfect indicative, which in this context functions as a state resulting from a past action ('we have been persuaded'). The Vietnamese 'đã được thuyết phục' uses a passive construction that suggests an external agent did the persuading. However, the primary issue is the scope of the objects: 'τα κρειττονα και εχομενα σωτηριας' are the things in which we are persuaded (the superior things and the possessions of salvation), not just 'things' in general. The Vietnamese phrasing 'những điều tốt hơn và những điều thuộc về sự cứu rỗi' is slightly disconnected from the governing verb 'thuyết phục' in the sentence structure, making it sound like an appositive to 'anh em' rather than the objects of persuasion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

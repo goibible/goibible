@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δυο χρεωφειλεται' means 'two debtors'. The Vietnamese translation 'Một chủ nợ có hai con nợ' (One creditor has two debtors) adds the concept of a single creditor ('chủ nợ') which is not explicitly stated in this specific Greek phrase, though it is implied by the context of the parable. However, more importantly, the Greek says 'δυο χρεωφειλεται ησαν' (there were two debtors), while the Vietnamese structure implies ownership of the debt by a creditor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

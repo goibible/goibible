@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεομαχοι' (theomachoi) is a noun meaning 'fighters against God' or 'those who fight against God'. The Vietnamese translation 'bị thấy là chống lại Đức Chúa Trời' (seen as opposing God) softens the active, aggressive nature of the noun into a passive state of being seen as an opponent."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

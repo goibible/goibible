@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις το εθνος μου' means 'to my nation/people' (i.e., the Jewish nation), but the Vietnamese says 'cho dân ngoại của tôi' which means 'for my Gentile people/nation' — this reverses the meaning, making it sound like the Gentiles are the recipients, whereas the Greek clearly refers to the speaker's own nation (Israel)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

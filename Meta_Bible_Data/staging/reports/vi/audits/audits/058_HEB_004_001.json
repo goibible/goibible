@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηποτε' (mēpote) is a negative particle meaning 'lest' or 'so that not'. The Vietnamese 'kẻo' correctly captures the sense of 'lest', but the construction 'trong khi lời hứa... còn để lại' (while the promise... is still left) misinterprets the Greek structure. The Greek phrase 'μηποτε καταλειπομενης επαγγελιας εισελθειν' means 'lest [we] enter into the rest of the promise that remains'. The Vietnamese makes it sound like the promise is being left behind, rather than the 'remaining promise' being the destination."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

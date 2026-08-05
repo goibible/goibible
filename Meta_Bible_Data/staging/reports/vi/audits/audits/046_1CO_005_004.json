@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συναχθεντων υμων και του εμου' (having been gathered together of you and mine) implies a collective gathering of both groups. The Vietnamese translation 'khi anh em nhóm lại và Thánh Linh tôi cũng hiện diện' (when you gather and my Holy Spirit is also present) fundamentally changes the subject of the second part from 'my [people/followers]' to 'Holy Spirit'. This is a significant conceptual shift."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

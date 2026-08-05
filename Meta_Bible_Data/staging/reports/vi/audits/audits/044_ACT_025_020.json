@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγον' (elogon) is an imperfect verb meaning 'I was saying/asking', but the Vietnamese 'hỏi' (asked) is a simple past/present action. More importantly, the Greek structure 'ει βουλοιτο' (ei boulito) expresses a conditional/hypothetical sense ('if I were willing'), which is lost in the Vietnamese phrasing 'có muốn... chăng', making it sound like a direct question about current desire rather than a hypothetical statement of willingness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

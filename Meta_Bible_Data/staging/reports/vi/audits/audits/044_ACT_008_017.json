@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επετιθουν' (epetithoun) is a 3rd person plural verb, but the Vietnamese 'đặt tay' lacks a clear subject. While the context implies the apostles, the Greek specifically indicates 'they' (the apostles) were laying hands on 'them' (the new believers). The Vietnamese 'họ... trên họ' correctly identifies the plural actors and objects, but fails to capture the specific action of 'laying' (imposing) as clearly as the Greek 'επετιθουν'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

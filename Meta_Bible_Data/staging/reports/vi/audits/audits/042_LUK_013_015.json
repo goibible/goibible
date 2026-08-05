@@ -1,0 +1,26 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη ουν αυτω ο κυριος' indicates that the Lord responded *to him* (the person who spoke previously). The Vietnamese translation 'Chúa đáp lại rằng' omits the object of the response ('to him'), which is a substantive part of the dialogue flow."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκαστος υμων' (each of you) is rendered as 'mỗi người trong các ngươi'. While acceptable, the Greek structure implies 'each of us' or 'every one of you', but the Vietnamese phrasing is slightly different in emphasis. However, the bigger issue is the negation/question structure."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek 'ου λυει' is a simple negative statement ('does not loosen'). The Vietnamese translation uses a rhetorical question with a negative particle ('há không... sao?'). While this captures the irony, it changes the grammatical structure from a direct statement of fact to a rhetorical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

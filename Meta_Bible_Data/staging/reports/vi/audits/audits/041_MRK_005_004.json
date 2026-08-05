@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies 'πεδαις' (fetters/shackles) and 'αλυσεσιν' (chains). The Vietnamese translation repeats 'xiềng' (chains) three times, omitting the distinction between the two types of restraints present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

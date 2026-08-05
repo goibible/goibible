@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'vì' (because/since) changes the grammatical relationship of the phrase 'εις δοξαν' (to/into glory). The Greek indicates that Jesus Christ is to be glorified (or is being glorified) to the glory of God the Father, whereas 'vì' implies a causal reason for the confession rather than the purpose or direction of the glorification."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

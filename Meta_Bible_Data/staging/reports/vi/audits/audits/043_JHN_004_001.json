@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'Chúa Giê-xu làm và làm báp têm nhiều môn đồ hơn Giăng' (Jesus made and baptized more disciples than John), but the Greek text 'ποιει και βαπτιζει η ιωαννης' indicates that it is John who is doing the baptizing. The Greek structure implies: 'the Pharisees heard that Jesus makes more disciples AND [that] John baptizes'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

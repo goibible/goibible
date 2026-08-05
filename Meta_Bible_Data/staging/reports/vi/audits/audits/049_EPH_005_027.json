@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 5,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραστηση αυτην εαυτω' (present her to herself) refers to the Church presenting itself to itself. The Vietnamese translation 'trình diện Hội thánh trước mặt Ngài' (present the Church before Him) changes the reflexive nature of the action, implying an external presentation to God rather than the internal self-presentation/self-presentation to itself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

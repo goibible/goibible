@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese renders 'ουδεις εν πνευματι θεου λαλων λεγει αναθεμα ιησουν' as '被神的靈感動的，沒有說耶穌是咒詛的' (those moved by God's Spirit do not say Jesus is accursed), which is correct. However, the second clause 'ουδεις δυναται ειπειν κυριον ιησουν ει μη εν πνευματι αγιω' is translated as '若不是被聖靈感動的，也沒有能說耶穌是主的' (unless moved by the Holy Spirit, no one can say Jesus is Lord). The Greek says 'no one can say "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

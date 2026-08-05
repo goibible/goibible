@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεωρεις' (theōreis) is 2nd person singular ('you see'), but the Vietnamese translates it as 'anh thấy' (you see/he sees), which is ambiguous. However, more importantly, the Greek 'ποσαι μυριαδες' (posai myriades) literally means 'how many myriads' or 'how great are the multitudes'. The Vietnamese 'có bao nhiêu vạn người' translates 'how many ten-thousands', but the Greek structure implies an exclamation of magnitude ('How great are the multitudes!')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'των πεπιστευκοτων' (tōn pepistevkotōn) is a perfect passive participle meaning 'those who have believed'. The Vietnamese 'đã tin' (have believed) is accurate, but the phrase 'bao nhiêu vạn người Giu-đa đã tin' makes it sound like a specific count of people who have already finished believing, whereas the Greek emphasizes the state of those who have been brought into faith."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

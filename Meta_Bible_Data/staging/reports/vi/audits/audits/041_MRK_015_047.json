@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η δε' (but then/and then) is omitted, and the Vietnamese 'và' (and) fails to capture the sequential transition. More importantly, 'εθεωρουν' (were looking/watching/observing) is translated as 'thấy' (saw), which changes the action from a continuous observation to a completed perception."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

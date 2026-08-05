@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απολυσαι' (aplysai) means 'to release', 'to let go', or 'to dismiss' (in the context of a husband releasing a wife). The Vietnamese translation 'để vợ' (to leave/keep a wife) conveys the opposite meaning; it implies keeping her, whereas the Greek describes the act of releasing her."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

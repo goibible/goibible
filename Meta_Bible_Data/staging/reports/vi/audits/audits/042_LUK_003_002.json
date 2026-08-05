@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 3,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγενετο' (egeneto) is a past tense verb ('happened' or 'came to pass'). The Vietnamese translation 'đến cùng' (came to) treats 'lời Đức Chúa Trời' (the word of God) as the subject of a movement, but fails to capture the 'occurrence' aspect of the Greek verb. More importantly, the Greek indicates that the 'word of God happened/came to pass' *upon* John; the Vietnamese phrasing 'đến cùng Giăng' is slightly less precise regarding the manifestation of the word."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

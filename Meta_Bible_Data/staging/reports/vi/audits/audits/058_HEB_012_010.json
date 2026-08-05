@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τοις' (to them) refers to the people being disciplined, but the Vietnamese translation 'chúng ta' (us/we) changes the object of the discipline. The Greek implies a third party ('them'), while the Vietnamese makes it personal to the reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek says 'αγνωσιαν γαρ θεου τινες εχουσιν' = 'some have ignorance of God' (i.e., they lack knowledge of God). The Vietnamese 'không có sự ngu dốt về Đức Chúa Trời' = 'do not have ignorance of God' (i.e., they have knowledge), reversing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

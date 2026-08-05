@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αναστασιν' (anastasin) means 'resurrection'. The Vietnamese translation uses 'sự sống lại' (resurrection/coming back to life), but the phrasing 'sẽ có sự sống lại của...' can be interpreted as 'there will be a resurrection of...', whereas the Greek structure 'προσδεχονται αναστασιν... εσεσθαι' implies they are 'expecting [the] resurrection... to happen'. More importantly, the Vietnamese translation omits the specific grammatical construction of the Greek which links the expectation directly to the event of the resurrection occurring."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μελλειν εσεσθαι' expresses a future certainty or 'about to happen' aspect. While 'sẽ có' covers the future, it loses the nuance of 'mellein' (about to/destined to)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λειτουργικα πνευματα' (leitourgika pneumata) refers to 'ministering spirits' (spirits who perform a service), but the Vietnamese translation 'các Thánh Linh' translates this as 'the Holy Spirits' (plurality of the Holy Spirit), which changes the ontological nature of the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

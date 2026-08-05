@@ -1,0 +1,34 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full 1 Kings QA batch.",
+  "groups": [
+    {
+      "name": "1 Kings full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "1KI 1",
+        "1KI 2",
+        "1KI 3",
+        "1KI 4",
+        "1KI 5",
+        "1KI 6",
+        "1KI 7",
+        "1KI 8",
+        "1KI 9",
+        "1KI 10",
+        "1KI 11",
+        "1KI 12",
+        "1KI 13",
+        "1KI 14",
+        "1KI 15",
+        "1KI 16",
+        "1KI 17",
+        "1KI 18",
+        "1KI 19",
+        "1KI 20",
+        "1KI 21",
+        "1KI 22"
+      ]
+    }
+  ]
+}

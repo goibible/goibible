@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πατερ' (pater) is the vocative of 'father'. The Vietnamese 'tổ phụ' typically refers to an ancestor or a grandfather, which changes the relational context of the address."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

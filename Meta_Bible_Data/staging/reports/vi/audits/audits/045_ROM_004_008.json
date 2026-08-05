@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'μη λογισηται' (not be counted/reckoned) is an active/passive construction where the subject is the Lord and the action is 'counting'. The Vietnamese 'chẳng kể' (does not count/tell) accurately reflects the negation, but the Greek specifically implies 'not being reckoned' (passive/middle sense) as a result of the action. However, the primary issue is that the Greek 'μη λογισηται' functions as a subjunctive of purpose or result; the Vietnamese rendering 'chẳng kể' is a valid translation of the negation, but the Greek emphasizes the *state* of not being counted."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

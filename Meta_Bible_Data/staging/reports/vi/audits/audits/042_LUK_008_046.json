@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηψατο' (ēpsato) means 'touched' or 'grasped' in a physical/tactile sense, but the Vietnamese 'chạm đến' (chạm vào) can imply reaching out to or contacting. More importantly, the Greek 'ηψατο' is a perfect tense verb (indicating a completed action), whereas the Vietnamese 'đã chạm đến' is a standard past tense. However, the primary issue is the nuance of 'ηψατο' which often implies a physical seizing or grasping; 'chạm đến' is slightly weak but acceptable. The main concern is ensuring the 'touched' isn't interpreted as 'reached out to' (contact) vs 'grasped'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'ηψατο μου' uses the dative of interest/object. The Vietnamese 'đến ta' is a standard construction, but 'chạm vào ta' would be more precise for 'touched me'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

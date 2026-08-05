@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τα παντα' (all things/everything) is omitted. The Vietnamese translates it as 'một' (one), which changes the scope from 'all things' to a single unit."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εἰ δε ην' implies a conditional hypothetical ('if [it] were not'). The Vietnamese 'Nếu chỉ có' (If there only were) captures the condition but loses the specific contrastive negation/hypothetical structure of 'δε ην'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

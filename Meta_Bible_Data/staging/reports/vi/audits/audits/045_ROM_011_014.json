@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'παραζηλωσω' (parazēlōsō) is a future active indicative, but the Vietnamese 'sẽ ghen tương' translates it as a potential/future possibility ('Maybe I will...'). However, the primary issue is the tense and mood relationship: the Greek expresses a specific action of 'jealously coveting' or 'being jealous of' one's own flesh. The Vietnamese 'Có lẽ' (Perhaps/Maybe) adds a layer of uncertainty not present in the Greek verb form."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'παραζηλωσω' is first-person singular future. The Vietnamese 'sẽ' correctly captures the future, but 'Có lẽ' shifts the mood from a statement of intent/action to a possibility."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

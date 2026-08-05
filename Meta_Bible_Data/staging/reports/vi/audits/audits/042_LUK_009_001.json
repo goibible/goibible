@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι παντα' (over all) modifies both 'τα δαιμονια' (demons) and 'νοσους' (diseases). The Vietnamese translation 'trên tất cả ma quỷ và để chữa lành bệnh' makes it sound like the authority is only over demons, while the healing of diseases is a separate action without the 'over all' scope. The Greek implies authority over all demons AND [over all] diseases."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπο παντων' (hypo pantōn) means 'by all' or 'under all' in the sense of being honored *by* everyone. The Vietnamese 'được mọi người tôn vinh' is a passive construction meaning 'was honored by everyone,' but it misses the nuance of the Greek prepositional phrase which implies the source of the glory/honor."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

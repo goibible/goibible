@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ειη τουτο' means 'what this was' (asking for the identity/nature of the thing), but the Vietnamese 'việc gì đó' translates to 'something' or 'some matter,' which loses the interrogative nature and the specific reference to 'this'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρον αρον' (aron aron) is an imperative meaning 'Lift him up!' or 'Take him up!', not 'Hãy cất đi!' (which means 'Remove it/them!' or 'Put it away!'). The Vietnamese translation loses the specific action of lifting Jesus up for inspection."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εχομεν βασιλεα ει μη καισαρα' means 'We have no king except Caesar.' The Vietnamese 'không có vua nào khác ngoài Sê-sa' (no other king besides Caesar) slightly shifts the logic, but more importantly, the Greek implies 'We have no king [other than] Caesar,' whereas the Vietnamese phrasing 'không có... nào khác ngoài' is a common construction, but the primary issue remains the 'aron aron' mistranslation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

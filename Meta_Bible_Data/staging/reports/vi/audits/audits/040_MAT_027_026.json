@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation uses 'giao Ngài' (handed Him over) for the verb 'παρεδωκεν' (handed over), but it fails to capture that the subject of the action is the same as the previous clause. In Greek, the implied subject of both actions is Pilate. The Vietnamese phrasing 'còn Chúa Giê-xu... thì giao Ngài ra' suggests Jesus was the one doing the handing over, or creates a passive ambiguity where it sounds like Jesus was handed over by someone else, whereas the Greek clearly links Pilate as the agent for both actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

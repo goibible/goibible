@@ -1,0 +1,3 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+PRO,12,2,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.
+PRO,14,14,orange,missing_expected_name,Đức Chúa Trời,,Expected approved name 'Đức Chúa Trời' from VIE1934 occurrence.

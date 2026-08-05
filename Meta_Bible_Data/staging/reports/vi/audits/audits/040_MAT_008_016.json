@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματα' (pneumata) in this context refers to the spirits/demons being cast out, but the Vietnamese translation 'các thánh linh' means 'Holy Spirits', which is a significant theological and factual error."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κακως εχοντας' (kakōs echontas) refers to those 'having [illnesses] in a bad way' or 'afflicted', while the Vietnamese 'bị bệnh' (being sick) is a slightly broader rendering, but the primary issue is the mistranslation of 'pneumata'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

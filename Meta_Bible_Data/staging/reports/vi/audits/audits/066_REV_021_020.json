@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text uses two different stones for the 5th and 6th positions: 'σαρδονυξ' (sardonyx) and 'σαρδιος' (sard). The Vietnamese translation renders both as 'ngọc sắc', which fails to distinguish between the two distinct types of stones mentioned in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

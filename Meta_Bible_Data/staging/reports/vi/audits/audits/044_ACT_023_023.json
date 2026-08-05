@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'διakoσιους' (two hundred) for the first group of soldiers, but the Vietnamese translation omits the number 'hai trăm' for the second group of 'lính cầm giáo' (spearmen), even though the Greek specifies 'διakoσιους' for both groups."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο τριτης ωρας της νυκτος' means 'from/at the third hour of the night'. The Vietnamese translation 'vào giờ thứ ba của đêm' (at the third hour of the night) misses the 'from' (apo) aspect, though this is a minor nuance. However, the primary issue is the missing number for the spearmen."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

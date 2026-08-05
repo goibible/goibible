@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η επιτιμια αυτη η υπο των πλειονων' (the punishment of this [one] by the many) is rendered in Vietnamese as 'Hình phạt đó bởi phần nhiều người giáng trên kẻ ấy'. The Vietnamese phrasing 'giáng trên kẻ ấy' (inflicted upon that person) shifts the focus/agency slightly, but more importantly, the Greek construction 'η επιτιμια αυτη η' refers to 'this punishment' (or 'the punishment of this one'). The Vietnamese 'Hình phạt đó' (that punishment) changes the demonstrative from 'this' to 'that'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire first clause 'ους δε προωρισεν τουτους' (those whom he did not predestine), which establishes the negative contrast essential to the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

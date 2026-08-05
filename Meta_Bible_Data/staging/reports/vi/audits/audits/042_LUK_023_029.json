@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'κοιλιαι' (koiliai), which refers to 'wombs'. The Greek describes three categories: those who did not bear children (wombs), those who did not breastfeed (breasts), and those who were not barren (the 'barren' ones/those who were not 'dry')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εγεννησαν' (ouk egennesan) refers to the 'wombs' (κοιλιαι) that did not bear children. The Vietnamese renders this as 'những bụng đã không sanh đẻ', but by omitting 'κοιλιαι', the grammatical connection between the action of not bearing and the specific body part (the womb) is weakened, though the primary issue is the omission of the word for 'wombs' entirely."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

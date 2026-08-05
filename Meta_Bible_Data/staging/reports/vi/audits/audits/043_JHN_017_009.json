@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερωτω' (erōtō) means 'I ask' or 'I pray,' but the Vietnamese 'cầu xin' implies a petition or request for something. In this context, it is better rendered as 'hỏi' (ask/inquire) to maintain the distinction between asking about someone and requesting something for them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

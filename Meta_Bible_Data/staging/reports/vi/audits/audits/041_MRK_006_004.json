@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εστιν προφητης ατιμος' means 'there is no prophet dishonored' (or 'a prophet is not dishonored'). The Vietnamese translation 'Nhà tiên tri không bị khinh dể' translates to 'The prophet is not despised', which changes the universal/general statement about prophets into a specific description of a single prophet."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

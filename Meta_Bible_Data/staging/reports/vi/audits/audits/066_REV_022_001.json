@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καθαρον' (pure/clear) is present, but the Vietnamese 'trong sáng như băng' (clear as ice) adds a specific simile ('như băng') that is not in the Greek text. The Greek uses 'λαμπρον ως κρυσταλλον' (bright/shining like crystal) for the simile."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese renders 'λαμπρον ως κρυσταλλον' (bright as crystal) as 'trong sáng như băng' (clear as ice), changing the specific imagery from crystal to ice."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

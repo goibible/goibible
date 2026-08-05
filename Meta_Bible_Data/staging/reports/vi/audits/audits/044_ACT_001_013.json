@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'ου ησαν καταμενοντες' (where they were staying/abiding). It translates the location but misses the specific state of residence/staying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

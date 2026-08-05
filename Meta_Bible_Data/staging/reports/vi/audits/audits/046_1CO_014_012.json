@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευματων' (spirits) is plural, but the Vietnamese 'các Thánh Linh' (the Holy Spirits) implies a specific group of entities. More importantly, the Greek 'ζηλωται εστε πνευματων' describes being 'zealous for spirits,' whereas the Vietnamese phrasing suggests they are 'zealous about/for the Holy Spirits.' While subtle, the Greek construction often refers to spiritual gifts or the ministry of the Spirit in this context."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation places 'trong sự gây dựng Hội thánh' (in the building up of the church) at the end of the sentence as a locative/contextual phrase, whereas the Greek 'προς την οικοδομην της εκκλησιας' is the direct object of the zeal ('ζηλωται... προς'). The Vietnamese makes it sound like they are seeking to be abundant *while* building the church, rather than being zealous *for* the building up of the church."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

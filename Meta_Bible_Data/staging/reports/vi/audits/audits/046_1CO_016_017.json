@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι τη παρουσια' (epi tē parousia) refers to the 'presence' or 'arrival' of the individuals, but the Vietnamese 'sự hiện đến' (the coming/arrival) combined with the context of 'filling a lack' suggests they arrived as a result of the lack. More importantly, the Greek 'υστερημα' (usterēma) refers to a 'deficiency', 'shortcoming', or 'lack', but the Vietnamese 'thiếu thốn' often implies 'poverty' or 'scarcity'. However, the primary issue is the phrasing 'bù đắp sự thiếu thốn của anh em' (compensated for the lack of the brothers) which adds a specific relational object ('của anh em' - of the brothers) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

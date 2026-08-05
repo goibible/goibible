@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμας' (you/plural) is the direct object of 'θλιβουσιν' (oppressing). The Vietnamese translation 'cho những kẻ gây hoạn nạn cho anh em' translates this as 'those who cause trouble for [your] brothers'. However, the Greek structure 'τοις θλιβουσιν υμας' means 'to those who oppress you'. The Vietnamese version shifts the target of the oppression from 'you' (the readers) to 'brothers' (anh em)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

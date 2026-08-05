@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ τριτου' (ek tritou) means 'for the third time', but the Vietnamese 'lần thứ ba' is placed before 'cầu nguyện' (prayed), making it sound like he prayed for the third time. However, the Greek structure indicates he prayed 'for the third time' specifically regarding 'the word' (τον αυτον λογον). More importantly, the Vietnamese phrasing suggests a sequence of actions that slightly muddies the relationship between the count and the specific repetition of the prayer/word."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'απελθων' is a participle (having gone/departed). The Vietnamese 'đi trở lại' renders this as a main verb, which is acceptable for flow, but the placement of 'cầu nguyện' and 'nói' makes the relationship between the departure and the prayer slightly less precise than the Greek 'απελθων... προσηυξατο' (having gone... he prayed)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

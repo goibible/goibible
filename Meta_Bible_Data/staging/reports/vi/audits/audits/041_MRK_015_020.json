@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξεδυσαν αυτον την πορφυραν' means 'they clothed him with the purple robe' (putting it on him). The Vietnamese 'lột áo màu tía khỏi Ngài' means 'they stripped the purple robe off him.' This is a reversal of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

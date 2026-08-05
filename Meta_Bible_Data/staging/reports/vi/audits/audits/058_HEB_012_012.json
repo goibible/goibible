@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀνορθώσατε' (anorthōsate) is an aorist active indicative, meaning 'you straightened' or 'you lifted up' (past tense). The Vietnamese translation uses 'hãy... lên', which is an imperative (command), changing the tense from a statement of past action to a command for future action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πειθομεν' (peithomen) is a present passive/middle verb meaning 'we are persuaded' or 'we are being persuaded.' The Vietnamese 'thuyết phục' means 'to persuade' (active), reversing the direction of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεω' (theō) is a noun meaning 'God.' The Vietnamese 'Đức Chúa Trời đã tỏ ra chúng tôi' translates to 'God has revealed us/shown us,' whereas the Greek 'θεω δε πεφανερωμεθα' means 'but we are being revealed to God' (passive voice)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

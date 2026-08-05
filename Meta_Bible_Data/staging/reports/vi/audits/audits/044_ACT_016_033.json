@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελουσεν απο των πληγων' literally means 'washed [them] from the wounds'. The Vietnamese translation 'đem họ ra rửa các tai vạ' (took them out to wash the wounds) changes the grammatical structure of who is being washed or the action performed on the wounds, though it captures the general sense. More importantly, the Greek 'ελουσεν' (washed) is often interpreted in this context as washing the *people* from their wounds/sores, whereas the Vietnamese phrasing 'rửa các tai vạ' can be read as washing the wounds themselves."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και παραλαβων αυτους' (and having taken them) is slightly compressed in the Vietnamese, but the main issue is the sequence of 'ελουσεν' (washed) and 'εβαπτισθη' (was baptized). The Vietnamese 'rồi chính người... liền chịu phép báp-tem' correctly captures the sequence, but the Greek 'ελουσεν' is a distinct action performed by him on them before his own baptism."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

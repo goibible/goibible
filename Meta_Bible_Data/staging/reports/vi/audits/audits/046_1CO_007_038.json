@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλως' (kalōs) means 'well' or 'rightly', while 'κρεισσον' (kreisson) means 'better'. The Vietnamese translation renders 'καλως' as 'phải' (right/must) and 'κρεισσον' as 'tốt hơn' (better). While 'phải' can sometimes overlap with 'well', the distinction in the Greek is between doing something *well* vs. doing something *better*. The Vietnamese translation loses the specific comparative nuance of 'well' versus 'better'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

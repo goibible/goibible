@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποστητω' (apostēthō) is an aorist imperative (singular), meaning 'let him depart' or 'let him separate himself.' The Vietnamese translation 'phải lìa bỏ' (must leave/abandon) changes the mood from a command/exhortation to a statement of necessity/obligation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο μεντι' (o menti) is a specific construction ('the one who...'), but the Vietnamese translates it as 'Tuy nhiên' (However), which is a logical connector not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

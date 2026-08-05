@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ειδεν' (eiden) is a 3rd person singular verb, but the Vietnamese 'thấy' (thấy) lacks a subject. While often implied by context, in this specific sentence structure, it fails to clearly link back to the singular subject who 'went out' (εξελθων)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific movement/prepositional relationship of 'περι' (peri) which indicates moving 'around' or 'about' the third hour; it simplifies this to just 'Khoảng giờ thứ ba' (About the third hour)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

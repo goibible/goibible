@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'πεισθεντες' (peisthentes) means 'having been persuaded' or 'having been convinced.' The Vietnamese translation 'chào mừng' (welcomed/greeted) is a significant mistranslation that changes the theological meaning of the passage."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

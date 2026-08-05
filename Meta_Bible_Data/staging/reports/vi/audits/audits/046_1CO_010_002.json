@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις τον μωσην' (eis ton Mōysin) means 'into Moses' or 'by Moses' (depending on context, but here referring to the action involving him), whereas the Vietnamese 'cho Môi-se' translates it as 'for Moses' or 'to Moses'. More importantly, the Greek verb 'εβαπτισαντο' is a passive/middle construction meaning 'were baptized', which the Vietnamese correctly renders as 'chịu phép báp-têm' (underwent baptism), but the prepositional relationship to Moses is slightly shifted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

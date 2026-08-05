@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπεν δε τις αυτω' means 'someone said to him' (or 'someone said to him'), but the Vietnamese 'Có người thưa với Ngài' implies a respectful tone ('thưa') that is not present in the Greek 'ειπεν'. More importantly, the Greek 'ιδου' (behold/look) is used as an introductory exclamation, which is captured well, but the overall structure of 'someone said to him' is slightly shifted by the Vietnamese phrasing."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ζητουντες σοι λαλησαι' means 'seeking (to have) you speak' or 'asking that you speak'. The Vietnamese 'tìm cách nói chuyện với Thầy' (trying to find a way to talk to You) slightly shifts the focus from the request for Him to speak to a general attempt to have a conversation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

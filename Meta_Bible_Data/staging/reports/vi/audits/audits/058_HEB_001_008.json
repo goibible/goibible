@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο θρονος σου ο θεος' (your throne, O God) is a direct address to God. The Vietnamese translation 'Ngài phán: Hỡi Đức Chúa Trời' (He says: O God) incorrectly attributes the speech to someone else ('Ngài') instead of reflecting the direct address structure in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

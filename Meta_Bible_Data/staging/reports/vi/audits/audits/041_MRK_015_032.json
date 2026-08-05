@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text 'και οι συνεσταυρωμενοι αυτω ωνειδιζον αυτον' is a separate independent clause or a parallel statement. The Vietnamese translation uses 'Và' (And) to connect the command to see/believe with the statement about those crucified with Him, but the Greek construction implies that the action of those crucified with Him ('ωνειδιζον') is a concurrent reality or a distinct observation. More importantly, the Vietnamese phrasing makes it sound like the 'those crucified' are part of the 'see and believe' command or a subsequent action, whereas in the Greek, 'ωνειδιζον' (they were insulting) is a separate verb phrase describing their ongoing state/action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

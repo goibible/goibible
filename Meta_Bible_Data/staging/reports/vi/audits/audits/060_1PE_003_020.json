@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δι υδατος' (di hydatos) means 'by/from water' (the medium of salvation). The Vietnamese translation 'bởi nước' (by water) suggests water was the agent or cause of salvation, whereas the context implies they were saved *from* the floodwaters or *through* the water (in the ark). More importantly, the Greek 'δι υδατος' in this specific context is often understood as 'from the water' (the destruction), but 'bởi nước' is ambiguous."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

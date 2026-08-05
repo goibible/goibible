@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πιστευετε' is an imperative (command), but the Vietnamese 'tin rằng... không?' renders it as a question ('Các ngươi tin... không?'). This changes the communicative intent from a command to believe into a request for confirmation of belief."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τῷ υἱῷ Δαβὶδ' (to the Son of David) is rendered in Vietnamese as 'Con Đa-vít', which omits the definite article/title nuance, but more importantly, the phrase 'ευλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου' (blessed is he who comes in the name of the Lord) is merged or slightly altered. The Vietnamese 'Chúc tụng Đấng nhân danh Chúa mà đến' changes 'blessed' (an adjective describing the one coming) to 'praise/bless' (a verb action). In Greek, they are shouting 'Blessed is he...', not 'Bless him who...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

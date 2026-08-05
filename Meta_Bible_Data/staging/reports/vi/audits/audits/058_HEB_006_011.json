@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'để có sự bảo đảm trọn vẹn của hy vọng' (to have the full assurance of hope), whereas the Greek 'προς την πληροφοριαν της ελπιδος' means 'for the confirmation/certainty of hope'. The Vietnamese phrasing implies a result or possession ('để có'), while the Greek indicates the purpose/direction towards the certainty."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'αχρι τελους' (until the end) is translated as 'cho đến sự cuối cùng'. While accurate in meaning, it's worth noting the Vietnamese structure places the purpose clause at the end, whereas the Greek places the 'until the end' immediately after the object of the desire."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

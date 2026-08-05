@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αχρι δε ου εμελλεν ημερα γινεσθαι' (until it was not about to be day) refers to the time of night/darkness before dawn. The Vietnamese 'Trong khi chờ trời sáng' (While waiting for dawn) is a reasonable summary, but the Greek specifically emphasizes the timeframe of 'not yet being day.' However, the primary issue is the verb 'παρεκαλει' (urged/beseeched). The Vietnamese 'khuyên' (advised) is slightly weaker than the urgency of 'parakaleo', but more importantly, the structure of the sentence in Greek indicates Paul is urging them to *receive* food because they are waiting for the 14th day. The Vietnamese 'nói rằng' (said that) replaces the imperative/urgent nature of 'παρεκαλει'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απαντας' (all) is missing in the Vietnamese translation; it should specify that he urged *everyone* to receive food."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

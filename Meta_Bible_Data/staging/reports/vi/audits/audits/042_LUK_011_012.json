@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αιτηση' (aitēsis) means 'request' or 'petition', not 'trứng' (eggs). The Vietnamese translation has replaced a request with a physical object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

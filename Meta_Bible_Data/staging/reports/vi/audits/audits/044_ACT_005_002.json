@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενοσφισατο' (enosphisato) means 'to keep/retain for oneself' or 'to withhold'. The Vietnamese translation 'đồng lòng' (in agreement/unanimously) is a complete mistranslation of the sense. The Greek indicates he kept some for himself, while the Vietnamese suggests a shared agreement with his wife."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τι παρα τους ποδας' implies 'what was left over' or 'the remainder' relative to the feet of the apostles. While the Vietnamese conveys 'phần còn lại', it misses the specific nuance of the Greek construction regarding what remained specifically in relation to the act of placing it at their feet."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

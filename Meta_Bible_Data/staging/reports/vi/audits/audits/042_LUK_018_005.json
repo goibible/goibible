@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκδικησω' (ekdikeisō) means 'to avenge' or 'to take vengeance,' but the Vietnamese 'bênh vực' means 'to defend' or 'to support.' This changes the fundamental action of the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'λοιμον' (loimon) means 'plague' or 'pestilence'. The Vietnamese translation 'bệnh dịch' is a literal translation of 'plague', but the grammatical structure in Vietnamese ('là một bệnh dịch') treats it as a noun phrase identifying the man as a plague, whereas the Greek 'ευροντες... τον ανδρα τουτον λοιμον' functions as an accusative of quality or a descriptive construction. More importantly, the Vietnamese 'là' (is) is an addition that turns a descriptive attribute into a predicate identity."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πρωτοστατην τε της των ναζωραιων αιρεσεως' uses the word 'τε' (also/and), which is omitted in the Vietnamese translation, slightly altering the flow of the list of attributes."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

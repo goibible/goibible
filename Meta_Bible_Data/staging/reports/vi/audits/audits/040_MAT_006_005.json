@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεχουσιν τον μισθον αυτων' means they 'have received/taken away' their reward (or 'have already taken it'). The Vietnamese translation 'đã nhận được tiền công của mình rồi' implies they have *received* it, but the Greek 'απεχουσιν' (from apechō) carries the nuance of 'having already taken it' or 'having received it [already]', often implying they have already collected what was due to them, leaving nothing for them. However, more critically, the Vietnamese 'đã nhận được' is a bit passive; the Greek emphasizes that they *have taken* it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

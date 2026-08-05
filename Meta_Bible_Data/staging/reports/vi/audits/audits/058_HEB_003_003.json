@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρα μωσην' (than Moses) is rendered as 'xứng đáng với vinh hiển nhiều hơn Môi-se' (worthy of glory more than Moses). In the Greek, 'πλειονος γαρ δοξης ουτος... ηξιωται' means 'this one [Jesus] is worthy of more glory than Moses.' The Vietnamese phrasing 'xứng đáng với vinh hiển' (worthy of glory) is a slight shift in focus from the direct comparison of the amount of glory deserved, but the primary issue is the structure: the Greek compares 'glory' directly, while the Vietnamese makes it sound like he is 'more worthy' than Moses in a general sense. However, a more significant issue is the clarity of the comparison."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλειονα τιμην εχει του οικου' means 'has greater honor/glory than the house.' The Vietnamese 'có vinh dự nhiều hơn chính cái nhà' is accurate in meaning, but the Greek 'τιμην' (honor/price) is often contrasted with 'δοξης' (glory). The translation is acceptable here."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακαλω' (parakallō) is a verb meaning 'I urge/exhort/beseech', but the Vietnamese 'khuyên' (advise/urge) combined with 'con' (child/son) changes the relationship. The Greek does not contain a word for 'child' or 'son'. More importantly, 'παρακαλω' is 1st person singular ('I'), and while the Vietnamese captures the 'I', it adds a familial hierarchy ('con') not present in the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μαλλον' (mallon) meaning 'rather' or 'more so' is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

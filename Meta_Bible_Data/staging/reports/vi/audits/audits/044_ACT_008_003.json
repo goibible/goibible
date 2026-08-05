@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'συρων τε' (dragging/pulling), which describes the manner of his actions. The Vietnamese translation omits this specific action, simplifying it to 'lôi' (drag) but losing the nuance of the ongoing, forceful movement described in the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δεν ελυμαινετο' (was not raging/acting violently) is a negation. The Vietnamese translation 'tàn hại' (harmed/destroyed) omits the negation and changes the meaning from 'was NOT raging' to 'did harm'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

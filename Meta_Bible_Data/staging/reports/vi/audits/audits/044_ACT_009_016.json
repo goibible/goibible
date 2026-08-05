@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οσα' (how many/what) refers to the *extent* or *amount* of suffering, but the Vietnamese 'là bao nhiêu' (is how many) changes the structure from 'I will show him [the amount] he must suffer' to 'I will show him that [the number of people who] must suffer is how many.' This creates a grammatical ambiguity regarding whether the 'how many' refers to the quantity of suffering or a count of people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

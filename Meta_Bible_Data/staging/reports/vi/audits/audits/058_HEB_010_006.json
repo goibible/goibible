@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ουκ ευδοκησας' (ouk eudokēsas) is in the 2nd person singular, meaning 'You did not please/approve.' The Vietnamese translation 'Ngài chẳng đẹp lòng' uses the 3rd person pronoun 'Ngài' (He/Him), which changes the intended audience from a direct address to a third-person statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

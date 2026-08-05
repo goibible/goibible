@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η πεπληρωμενη' (the completed/fulfilled) is a participle/adjective describing the 'joy' (χαρα). The Vietnamese 'được trọn vẹn' translates this as a passive verb phrase ('to be fulfilled/completed'), changing the nature of the phrase from a description of the state of their joy to an action/purpose of the writing. In Greek, they are writing because their joy *is* already fulfilled; in Vietnamese, it sounds like they are writing *so that* their joy will become fulfilled."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

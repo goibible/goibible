@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ετερογλωσσοις και εν χειλεσιν ετεροις' describes the *manner* of speaking (in strange tongues and with different lips), not the *agents* of speaking. The Vietnamese translation 'dùng những người nói tiếng lạ và môi miệng khác' implies using 'people' who speak strange languages and have different lips, which is a significant conceptual shift from the Greek grammar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

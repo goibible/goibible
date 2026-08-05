@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ του γεννηματος' (ek tou genēmatos) means 'from the fruit' or 'of the fruit'. The Vietnamese translation 'con cái của cây nho' literally means 'the children of the vine' (offspring), which is a significant category error in meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τη βασιλεια' (en tē basileia) means 'in the kingdom'. The Vietnamese translation 'trong nước Đức Chúa Trời' uses 'nước' which can mean 'country/nation/water', but in this context, it is missing the specific concept of 'Kingdom' (Vương quốc) as opposed to just 'Country'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

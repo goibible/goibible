@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the conditional/concessive clause 'ει αρα' (if then) and the specific reference to 'ταυτα' (these things). The Greek implies 'If then these things are thus [held/possessed]', whereas the Vietnamese renders it as a general question 'Is it really so?'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

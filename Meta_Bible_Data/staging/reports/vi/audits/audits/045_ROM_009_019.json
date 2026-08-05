@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μεμφεται' is a verb meaning 'reproach' or 'blame'. The Vietnamese translation 'quở trách' (reproach/scold) captures the action, but the Greek structure 'τι ετι μεμφεται' implies 'why [does he] still reproach', whereas the Vietnamese 'Sao Ngài còn quở trách?' interprets the subject as 'Ngài' (God/You). More importantly, the Greek 'τω γαρ βουληματι αυτου' means 'for by his will', but the Vietnamese 'Vì có ai chống lại ý định Ngài được chăng?' translates this into a rhetorical question about whether anyone can oppose His will, which is a conceptual expansion/paraphrase not present in the literal Greek syntax."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

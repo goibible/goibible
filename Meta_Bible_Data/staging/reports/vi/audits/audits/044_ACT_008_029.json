@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κολληθητι' (kollēthēti) is a passive/middle imperative meaning 'be joined' or 'be fastened.' The Vietnamese translation 'kết hiệp' (join together/unite) carries a stronger connotation of fellowship or spiritual union, whereas the Greek context describes the physical act of the Spirit being joined to the chariot."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

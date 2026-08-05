@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κακως' (kakōs) means 'badly' or 'ill', but the Vietnamese 'đau nặng' (severely pained/injured) is a specific medical interpretation. More importantly, 'εχων' (echōn) is a participle meaning 'having' or 'possessing'. The Greek structure implies 'a slave who was badly ill,' whereas the Vietnamese 'có một đầy tớ đau nặng' translates to 'had a slave who was severely pained.' While close, the Vietnamese misses the nuance of the state of the slave as the defining characteristic of the possession."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ημελλεν τελευταν' (hemellen teleutan) means 'about to die'. The Vietnamese 'gần chết' (near death) is an acceptable rendering, but the Greek 'ημελλεν' specifically denotes an imminent state."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

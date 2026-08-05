@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese phrase 'mọi đàng' (in every way/everywhere) has no basis in the Greek text. The Greek simply says 'εν ω ευδοκησα' (in whom I was well pleased)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

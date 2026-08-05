@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τιμης' (tīmēs) means 'price', 'value', or 'cost'. The Vietnamese translation 'giá cao' (high price) adds the adjective 'cao' (high), which is not present in the Greek text. While it captures a common theological sentiment, it is an addition to the literal meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρακαλεσας' (parakalesas) is a participle meaning 'having exhorted', 'having encouraged', or 'having entreated'. The Vietnamese 'khuyên bảo' (advising/counseling) captures the sense of exhortation, but the Vietnamese phrasing 'dùng nhiều lời khuyên bảo họ' (using many words of advice to them) slightly shifts the nuance from a personal act of exhortation to a general act of giving advice. However, the primary issue is the structural flow: the Greek implies he went to Greece *after* having exhorted them. The Vietnamese 'rồi đến' captures this correctly."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διελθων δε τα μερη εκεινα' (having passed through those regions) is rendered as 'Trải qua các phần đó'. While 'phần' can mean 'parts/regions', in this context of travel, 'vùng' or 'khu vực' would be more precise for 'regions'. However, since 'phần' can be understood as 'parts', this is borderline. The main concern is ensuring the reader understands he *passed through* them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

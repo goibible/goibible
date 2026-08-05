@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οφιν' (ophin) is a misspelling/variant of 'ὄφιν' (ophin), which refers to a snake. However, the Vietnamese translation 'con rắn' is correct for the noun, but the Greek 'μη οφιν επιδωσει αυτω' means 'will not give him a snake'. The Vietnamese 'lại cho nó con rắn sao?' translates to 'give it a snake instead?', which slightly shifts the rhetorical structure of the Greek negative 'μη' (not)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

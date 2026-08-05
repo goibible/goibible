@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εφιλει' (ephilei) is a verb meaning 'he loved' or 'he was loving.' The Vietnamese translation 'người yêu' renders it as a noun phrase ('the lover' or 'the one who loves'), which shifts the grammatical function and changes the focus from the action of loving to the identity of a person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

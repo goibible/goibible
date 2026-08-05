@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλων εργων' (good works) is rendered as 'công việc tốt lành'. While acceptable, the verb 'προιστασθαι' implies 'to take charge of', 'to be in charge of', or 'to oversee'. The Vietnamese 'chuyên lo' captures the sense of 'taking care of' but slightly misses the leadership/supervisory nuance of 'proistathai'. However, a more significant issue is the pronoun shift: the Greek uses 'ωσιν' (that they might be), but the Vietnamese 'họ' (they) lacks a clear antecedent in the first clause, where the subject is 'Chúng ta' (we). The Greek implies 'we' should learn to oversee good works so that 'they' (the works/results) are not unfruitful."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αναγκαιας χρειας' is a common idiom for 'necessity'. The Vietnamese 'những sự cần dùng cần thiết' is slightly redundant but captures the meaning. The main issue remains the clarity of the subject/object relationship regarding who/what is 'unfruitful'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

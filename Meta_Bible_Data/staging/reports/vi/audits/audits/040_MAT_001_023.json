@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'τεξεται' (texetai) is in the future tense, but the Vietnamese translation uses 'sinh' (present/general), missing the future aspect of the prophecy."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εστιν μεθερμηνευομενον' refers to the name itself ('the name... which means'), but the Vietnamese structure implies the son is the one who 'means' or is 'interpreted as' God with us, rather than the name being the interpretation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

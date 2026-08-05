@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη αυτω' (answered him) is rendered as 'đáp rằng' (replied that), but the Vietnamese translation omits the object of the answer ('him'). More importantly, the Greek 'πρωτη πασων των εντολων' means 'the first [of] all the commandments', whereas the Vietnamese 'Điều răn đầu nhất' (The first commandment) loses the comparative scope of 'all'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

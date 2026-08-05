@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Vua' (King), which is not present in the Greek text. The Greek simply says 'and having sent [someone]...'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

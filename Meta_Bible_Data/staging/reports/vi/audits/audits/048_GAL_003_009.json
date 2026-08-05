@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συν τω πιστω αβρααμ' indicates that the blessing is shared with or joined to Abraham's faith (or happens in conjunction with his faith). The Vietnamese translation 'người có lòng tin' (who has faith) turns 'συν τω πιστω' into a relative clause describing Abraham as an individual who possesses faith, rather than expressing the relational/conjunctional nature of the blessing being joined to his faith."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

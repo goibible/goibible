@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'νυμφαν' (Nympha) is a proper name of a person, but the Vietnamese 'Nym-pha' is rendered as if it were a location or a shared group with the brothers. More importantly, the Greek 'κατ οικον αυτου εκκλησιαν' refers to the church 'at his house' (singular possessive), whereas the Vietnamese 'Hội thánh nhóm trong nhà người' implies a 'group' (nhóm) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

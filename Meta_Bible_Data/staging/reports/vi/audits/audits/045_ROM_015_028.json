@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δι υμων' (di humon) means 'through you' or 'by you'. The Vietnamese 'qua anh em' (through/via brothers) changes the meaning of 'you' (singular/plural) to 'brothers', which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

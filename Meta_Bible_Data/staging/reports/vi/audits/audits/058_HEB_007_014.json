@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξ ιουδα ανατεταλκεν' (ex Iouda anatetalken) means 'from Judah came out' or 'came out of Judah'. The Vietnamese translation 'ra từ Giu-đa' is correct, but the structure 'Chúa chúng ta ra từ Giu-đa, về chi phái ấy' creates a slight ambiguity in the relationship between the origin and the tribe. More importantly, the Greek 'εις ην φυλην' means 'into/to that tribe'. The Vietnamese 'về chi phái ấy' is acceptable, but the overall sentence flow in Vietnamese slightly obscures that the 'coming out' was specifically *into* that tribe."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'οuden peri ierosynēs Mōysēs elalēsen' means 'Moses spoke nothing about the priesthood'. The Vietnamese 'Môi-se không nói điều chi về chức tế lễ' is an accurate rendering of the negation and the concept."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

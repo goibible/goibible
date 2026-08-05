@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 63,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζωοποιουν' (zoopoiein) means 'giving life' or 'life-giving'. The Vietnamese translation renders this as 'là sự sống' (is life), which simplifies the active participle into a simple noun/predicate, losing the sense of the Spirit as the source/giver of life."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ ωφελει ουδεν τα ρηματα' contains the word 'ουδεν' (nothing/at all), which emphasizes the total lack of profit. The Vietnamese 'chẳng ích gì' captures the meaning well, but the structure slightly simplifies the emphatic 'no profit at all'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

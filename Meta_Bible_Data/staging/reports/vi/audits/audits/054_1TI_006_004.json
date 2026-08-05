@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τετυφωται' (tetypōtai) means 'blinded' or 'made blind,' but the Vietnamese 'kiêu ngạo' means 'proud/arrogant.' These are different concepts."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μηδεν επισταμενος' (mēden epistamenos) means 'not knowing anything' or 'uninformed,' but the Vietnamese 'không biết gì hết' is slightly less precise than the Greek's specific focus on lack of knowledge/understanding in this context, though it is acceptable. However, the primary issue is the mistranslation of 'blinded' as 'proud'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

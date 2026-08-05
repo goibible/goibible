@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the introductory phrase 'η δε περιοχη της γραφης' (the portion of the writing), which sets the context that the following is a citation from Scripture."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

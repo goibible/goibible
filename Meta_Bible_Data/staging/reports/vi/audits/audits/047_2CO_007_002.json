@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'χωρησατε' (chōrēsate) is a passive construction (middle voice/passive) meaning 'you have not received us' or 'you did not welcome us.' The Vietnamese translation 'Hãy mở lòng tiếp nhận chúng tôi' translates to an imperative command ('Please open your hearts to receive us'), which changes the grammatical mood from a statement of fact into a request."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

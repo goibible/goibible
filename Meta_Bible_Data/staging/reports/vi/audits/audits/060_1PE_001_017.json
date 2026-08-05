@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστραφητε' (anastraphete) is a command to 'turn/repent/change your life,' whereas the Vietnamese 'hãy ăn ở' (live/behave) significantly softens the imperative of the Greek, which implies a radical turning or repentance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

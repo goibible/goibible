@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final phrase 'παρ εαυτοις' (par heautois), which means 'among yourselves' or 'in your own company'. The current Vietnamese version ends with 'Chớ tự cho mình là khôn ngoan' (Do not consider yourselves wise), missing the specific context of being wise solely among yourselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

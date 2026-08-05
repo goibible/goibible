@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εστιν' (is) is translated as the imperative 'hãy mặc lấy' (let us put on/wear). The Greek text is a descriptive statement ('love, which is the bond...'), not a command to 'put on' love."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

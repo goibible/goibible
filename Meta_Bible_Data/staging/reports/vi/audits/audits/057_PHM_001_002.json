@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text 'αρχιππω' (archippo) is a proper name, but the Vietnamese translation renders it as 'A-chíp', which is a phonetic approximation/transliteration that may be confusing. More importantly, the Greek 'συστρατιωτη' (systratiōtē) means 'fellow soldier' or 'co-soldier', but the Vietnamese 'bạn chiến hữu' is slightly redundant as both words imply 'comrade/friend'. However, the primary issue is the rendering of the name which might be misread by a reader."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text contains 'τη κατ οικον σου εκκλησια' (tē kat oikon sou ekklēsian), which means 'the church in your house'. The Vietnamese translation 'Hội thánh trong nhà anh' correctly captures this, but the inclusion of 'và cho' (and for) before 'Hội thánh' is an addition of a conjunction not present in that specific position in the Greek, though it follows the preceding structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐπεκρινέν' (epekrinen) means 'judged,' 'considered,' or 'deemed.' The Vietnamese 'phán quyết' implies a formal ruling or decree of execution/authorization, whereas the Greek indicates a mental evaluation or judgment of the request."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

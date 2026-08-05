@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την δικαιαν κρισιν' (the righteous judgment) is the object of the verb 'κρινατε' (judge). The Vietnamese translation 'xét đoán sự phán xét' (judge the judgment) creates a recursive meaning that implies judging an abstract concept of judgment, whereas the Greek refers to performing/rendering a righteous judgment."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαλουντι' (lalounti) is a misspelling or non-standard form of 'λαλοῦντι' (lalounti), which means 'speaking'. The Vietnamese translation 'nói' correctly captures the verb, but the Greek phrase 'και αἱματι ραντισμου κρειττονα λαλουντι' describes the blood itself as speaking. However, the Vietnamese phrasing 'máu ấy nói' (that blood speaks) is slightly disconnected from the grammatical structure where 'και' (and) governs both the covenant and the blood as subjects/topics of the comparison."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'αιματι ραντισμου' (haimati rantismou) refers to the 'blood of sprinkling'. The Vietnamese 'máu của sự rảy' is an accurate rendering. However, the Greek 'κρειττονα' (kreittona) means 'better/superior'. The Vietnamese 'điều tốt hơn' (better thing) changes the adjective into a noun phrase, which slightly alters the grammatical relationship between the blood and the quality of its speech."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

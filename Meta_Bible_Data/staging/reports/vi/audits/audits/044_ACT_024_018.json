@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν οις ευρον με ηγνισμενον' means 'in whom they found me cleansed' (the people found the speaker cleansed). The Vietnamese translation 'thấy tôi đã được tẩy sạch' is structured as a subordinate clause of perception, but the Greek 'ευρον' (found) is the main verb of the relative clause. More importantly, the Vietnamese phrasing 'có mấy người... thấy tôi' suggests the people are the ones who performed the act of seeing/finding, which is correct, but the construction in Vietnamese makes it sound like a list of people who happened to see him, whereas the Greek implies they were the ones *in whom* (the witnesses) he was found cleansed."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τινες' is a relative pronoun ('in whom') functioning as the subject of the relative clause. The Vietnamese 'có mấy người' (there were some people) turns it into an existential statement about the existence of people, slightly shifting the grammatical focus from the identity of the witnesses to their mere presence."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

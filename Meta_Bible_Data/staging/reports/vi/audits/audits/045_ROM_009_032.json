@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'hòn đá của sự chướng ngại vật' (the stone of the obstacle) is a redundant/incorrect rendering. The Greek 'τω λιθω του προσκοπσματος' means 'the stone of stumbling' or 'the stumbling stone'. The Vietnamese adds 'chướng ngại vật' (obstacle) as an appositive or possessive, which slightly alters the specific nuance of 'stumbling' (proskopasmos) into a more general 'obstacle'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

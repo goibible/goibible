@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πυθεσθαι' (pythesathai) means 'to ask' or 'to inquire'. The Vietnamese 'để hỏi' (to ask) is correct, but the Greek 'τις' (tis) is an interrogative pronoun meaning 'what' or 'whom'. The Vietnamese translation 'xem Ngài nói về ai' (to see whom He speaks of) captures the meaning of the question, but the Greek structure implies Peter asked 'about whom' (τις) he was speaking. However, a more significant issue is the omission of the specific interrogative nuance or the phrasing of the inquiry."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

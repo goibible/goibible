@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλουσιως' (plousiōs) means 'richly', but the Vietnamese 'dư dật' translates to 'abundantly' or 'excessively'. While similar, 'dư dật' carries a sense of surplus/overflowing that is not strictly present in 'richly'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

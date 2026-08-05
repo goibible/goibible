@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ηλθον' is first-person plural aorist active ('we came'). The Vietnamese translation 'Họ đã đến' uses third-person plural ('They arrived')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

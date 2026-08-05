@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το μωρον του θεου' and 'το ασθενες του θεου' use the neuter article 'το' combined with adjectives to mean 'the foolishness of God' or 'the weakness of God' (substantivalized adjectives). The Vietnamese translation renders these as 'sự dại dột của Đức Chúa Trời' and 'sự yếu đuối của Đức Chúa Trời'. While this is a common way to translate such Greek constructions, the Vietnamese phrasing 'Vì sự dại dột... là khôn ngoan hơn' creates a slight logical mismatch in tone compared to the Greek 'hoti... estin' (that... is). However, the primary issue is the omission of the specific 'that' (hoti) structure which introduces the statement as a subordinate clause/fact. More importantly, the Vietnamese 'Vì' (Because/Since) adds a causal relationship not present in the Greek 'hoti' (which functions as 'that' or 'because', but here serves as a conjunction introducing a statement of fact)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδενα οιδαμεν' (we knew no one) refers to 'no one' in general, but the Vietnamese translation 'không biết ai' (don't know anyone) combined with 'theo xác thịt nữa' (anymore according to the flesh) creates a slightly confusing scope. More importantly, the Greek 'ει δε και εγνωκαμεν' (but we also knew) is rendered as 'dù chúng tôi đã biết', which shifts the logical flow from 'we also knew [someone/something]... but now we no longer know' to a concessive 'although we knew...'. However, the primary issue is the scope of 'ουδενα' (no one). The Greek implies we no longer know *anyone* by the flesh, whereas the Vietnamese phrasing suggests a specific person or category that is then contrasted."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

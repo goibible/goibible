@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σύ γινου' (sy ginou) means 'you shall become' or 'you shall be', but the Vietnamese 'hãy cai trị' translates to 'let/should rule'. The Greek does not contain a verb of ruling/governing, only a verb of becoming/being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

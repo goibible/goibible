@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text specifies 'the time of the appearance of the star' (τον χρονον του φαινομενου αστερος), whereas the Vietnamese translates it as 'the time the star appeared' (thời gian ngôi sao đã hiện ra). While similar, the Vietnamese phrasing slightly shifts the focus from the specific 'time of appearance' to a general past action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

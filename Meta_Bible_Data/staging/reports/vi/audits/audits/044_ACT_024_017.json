@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις το εθνος μου' refers to 'my people' (ethnic/national group), but the Vietnamese 'dân ngoại' implies 'foreigners' or 'outsiders', which changes the identity of the intended recipients."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đã đến' (have come), whereas the Greek 'παρεγενομην' is a participle ('having come') modifying the subject, but the Vietnamese phrasing makes it a main verb action in a way that slightly shifts the structure of the original phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

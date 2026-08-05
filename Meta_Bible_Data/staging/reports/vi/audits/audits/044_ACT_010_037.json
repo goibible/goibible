@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'το γενομενον ρημα' (the word that happened/came to pass) is rendered as 'lời đã xảy ra'. While 'lời' captures 'rhema', the Vietnamese translation omits the specific nuance of 'the word that *happened* or *took place*' by simply saying 'the word occurred'. However, more importantly, the phrase 'το γενομενον ρημα' refers to the Word/Message that came to pass; the Vietnamese structure 'lời đã xảy ra' is slightly ambiguous as to whether it means 'the word that happened' or 'the word has happened'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

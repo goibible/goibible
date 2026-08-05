@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 60,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλοι ουν ακουσαντες' means 'many, then, having heard'. The Vietnamese translation says 'Nhiều môn đồ nghe' (Many disciples heard), which changes the subject. In the Greek, 'many' is the subject who heard, not necessarily 'the disciples' (who are the source of the hearing). Furthermore, the Vietnamese omits the logical connector 'ουν' (then/therefore)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

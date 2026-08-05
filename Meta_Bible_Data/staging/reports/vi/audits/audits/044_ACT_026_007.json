@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν εκτενεια' refers to 'in earnest' or 'with zeal/intensity' regarding the worship. The Vietnamese translation 'lấy sự sốt sắng' (with zeal) is a good rendering, but the phrase 'hy vọng đạt được điều đó' (hoping to achieve that) slightly misinterprets the structure. The Greek says they worship 'in earnest' [while] hoping for [it]. The Vietnamese makes it sound like the goal of their worship is to reach/achieve something specific, whereas the Greek focuses on the earnestness of the worship itself in light of that hope."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καταντησαι' (to be fulfilled/to come to pass) refers to the fulfillment of the hope. The Vietnamese 'đạt được điều đó' (achieve that) is slightly imprecise as it implies a human achievement rather than the fulfillment of a prophetic hope."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

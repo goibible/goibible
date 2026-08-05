@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ειπον' (eipon) means 'said' or 'spoke'. The Vietnamese translation 'trả lời' means 'answered/replied', which implies a response to a question not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αφηκαν' (aphikan) means 'left' or 'abandoned'. The Vietnamese translation 'để cho họ đi' means 'let them go', which adds the action of 'going/leaving' that is not in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

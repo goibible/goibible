@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη κωλυετε' (mē kōlyete) is a plural imperative meaning 'do not hinder/prevent/obstruct'. The Vietnamese 'Đừng cấm' (Don't forbid) is slightly different in nuance, but the primary issue is the omission of the sense of 'hindering' an action already in progress or about to happen. However, more critically, 'μη κωλυετε' is plural, while 'Đừng cấm' is neutral/singular. The most significant fidelity issue is that 'κωλυετε' implies preventing someone from doing something (obstructing), whereas 'cấm' is a general prohibition."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δυνησεται' (dynēsetai) is a future tense, indicating a potentiality or a result that will follow. The Vietnamese 'có thể' (can/be able to) captures the ability, but the specific future/potentiality of the Greek 'will be able to' is slightly flattened."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επαραντες δε τους οφθαλμους αυτων' (lifting up their eyes) is a participle describing the subjects. The Vietnamese translation 'Ngước mắt lên' (Looking up) is phrased as an imperative command (Look up!) rather than a description of what they did."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ουδενα ειδον' (I saw no one) is first-person singular. The Vietnamese 'họ không thấy' (they did not see) changes the subject from 'I' to 'they'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

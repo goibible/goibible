@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αλλ' (but) is followed by the verb 'εξει' (will have/possess). The Vietnamese translation 'nhưng có' (but has) misses the future tense aspect of 'εξει', which indicates a future state or promise rather than a current possession."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

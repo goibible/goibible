@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μακαριουσιν' (makariousin) is a verb meaning 'they will bless' or 'they will call blessed'. The Vietnamese 'khen tôi là có phước' translates to 'praise me as blessed', which shifts the focus from the action of blessing to a state of being praised, and adds 'tôi' (me) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text uses 'εν ημιν' (in us) and 'εν υμιν' (in you), but the Vietnamese translation omits the prepositional meaning of 'εν' for the second half, rendering it as 'còn sự sống trong anh em' (but life in you). While 'trong' is present, the Greek structure specifically contrasts 'in us' vs 'in you'. However, a more significant issue is the omission of the specific contrastive particles 'ο μεν... η δε' which are captured by 'Vậy thì... còn', but the Vietnamese fails to clearly distinguish the active movement of 'ενεργειται' (is at work/acting) for both sides. The Greek implies 'death is at work in us, and life [is at work] in you'. The Vietnamese 'còn sự sống trong anh em' could be read as 'but life [exists] in you', potentially losing the active sense of 'ενεργειται' applied to both subjects."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

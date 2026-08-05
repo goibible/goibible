@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη τελεσητε' (ou mē telesete) is a double negative meaning 'you will not have finished' or 'you will not have completed'. The Vietnamese 'chưa đi khắp' (have not yet gone through/around) changes the tense/aspect from a future perfect negation (will not have completed) to a present/past perfective (have not yet). Specifically, the Greek implies a future completion point that will NOT be reached, whereas the Vietnamese sounds like a current state of incompletion."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

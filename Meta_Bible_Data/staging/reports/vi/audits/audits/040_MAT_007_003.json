@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text uses 'τι δε βλεπεις' (why do you see) and 'ου κατανοεις' (you do not perceive/notice), but the Vietnamese translation adds 'chẳng xem xét' (do not examine/consider). While similar, 'κατανοεις' implies a failure to perceive or understand what is there, whereas 'xem xét' implies a failure to deliberate or investigate. More importantly, the Greek 'τι δε βλεπεις' is a rhetorical question structure; the Vietnamese 'Sao ngươi thấy' captures the 'why', but the switch from 'see' (βλέπω) to 'examine' (xem xét) for the second verb changes the nature of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

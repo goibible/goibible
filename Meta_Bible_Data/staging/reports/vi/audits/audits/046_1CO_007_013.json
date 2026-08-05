@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'απιστον' (apiston) means 'unfaithful' or 'faithless' (referring to adultery/infidelity), whereas the Vietnamese 'chẳng tin' translates to 'not believing' (lack of faith). This changes the nature of the husband's sin from moral infidelity to a lack of religious belief."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συνευδοκει' (syneudokei) means 'consents' or 'is willing' (in the context of the sin), but the Vietnamese 'bằng lòng' (willingly/happily) combined with 'ở với mình' (staying with her) suggests a positive willingness to remain in the marriage, rather than the Greek sense of consenting to the act of infidelity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαστιγοι' (mastigoi) is a noun meaning 'whips' or 'scourges'. The Vietnamese translation 'đánh roi' (strikes with whips) turns the noun into a verb phrase. While it captures the action, it slightly shifts the grammatical structure of the Greek which lists 'whips' as a means/instrument."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese adds 'và' (and) between the two clauses. The Greek uses a comma/pause, but the relationship is one of progression/explanation rather than a coordinate conjunction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

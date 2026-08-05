@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'κηρυξαι' (kēryxai) is a verb meaning 'proclaim' or 'preach'. The Vietnamese translation 'rao' is a verb, but the Greek construction 'κηρυξαι ενιαυτον' suggests a specific action of proclaiming a year. More importantly, the Greek 'ενιαυτον' (eniauton) means 'a year', which is entirely missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

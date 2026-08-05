@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειγε' is a dative of purpose/result (meaning 'so that' or 'in order that'), but the Vietnamese 'miễn là' translates to 'as long as' or 'provided that,' which changes the logical relationship between the actions."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ευρεθησομεθα' is a future passive, meaning 'we shall be found.' The Vietnamese 'sẽ không bị thấy' correctly captures the future passive, but the overall structure loses the intentionality of the first clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

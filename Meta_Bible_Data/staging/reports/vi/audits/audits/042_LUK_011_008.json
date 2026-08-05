@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστας' (anastas) is a participle modifying the subject who gives (the friend), meaning 'arising' or 'getting up'. The Vietnamese translation 'dầu người ấy không dậy mà cho' suggests a conditional 'even if he doesn't get up to give', whereas the Greek structure 'ει και ου δωσει αυτω αναστας... εγερθεις δωσει' is a rhetorical contrast: 'even if he does not give to him [while] arising... [but] because of his shamelessness, [having been] aroused, he will give him'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

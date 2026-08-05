@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ζητειτε' (what are you seeking/looking for) is translated as 'Các ngươi tìm gì?' (What are you looking for?), but the Vietnamese translation of the response 'που μενεις' is rendered as 'Thầy ở đâu?' (Where are you?). The Greek 'που μενεις' literally means 'where are you staying/abiding/remaining', not 'where are you' (πού εἶ). While 'ở đâu' is a common way to express location, it loses the specific nuance of 'staying/abiding' present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

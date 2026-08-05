@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ου γινωσκει την εφεσιων πολιν νεωκορον ουσαν' describes the city of Ephesus as 'being a temple' (neokoron ousan). The Vietnamese translation renders this as 'người thờ phượng' (worshipper/one who worships), which changes the subject from the city being a temple to people being worshippers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

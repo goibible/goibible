@@ -1,0 +1,26 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διο αναπολογητος' (di' anapologētos) means 'irrefutably' or 'beyond reproach/argument'. The Vietnamese translation completely omits this introductory adverbial phrase, which establishes the certainty of the statement."
+        },
+        {
+          "kind": "addition",
+          "detail": "The phrase 'ngươi là ai mặc lòng' (who are you?) is not present in the Greek text; the Greek simply addresses 'o anthrōpe' (O man/human)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'kata-krineis' is rendered as 'lên án' (condemn), which is acceptable, but the structure 'ngươi cũng lên án cho chính mình ngươi nữa' adds a repetitive emphasis on 'ngươi' (yourself) that isn't in the source, though it doesn't change the core meaning. However, the primary issue remains the omission of 'anapologētos' and the addition of the rhetorical question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

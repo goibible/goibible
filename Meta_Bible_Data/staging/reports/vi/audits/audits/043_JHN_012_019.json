@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οπισω αυτου απηλθεν' (went away behind him) is translated as 'đi theo người' (followed him). The Vietnamese translation conveys following, whereas the Greek describes the crowd departing/leaving."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

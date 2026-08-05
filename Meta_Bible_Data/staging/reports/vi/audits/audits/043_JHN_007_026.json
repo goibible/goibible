@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds 'Có lẽ' (Perhaps/Maybe), which is not present in the Greek text. The Greek 'μηποτε' functions as a negative particle ('not at all' or 'not even') modifying the verb 'εγνωσαν' (knew), rather than expressing uncertainty."
+        },
+        {
+          "kind": "negation",
+          "detail": "Because of the addition of 'Có lẽ', the negation 'μηποτε' (not at all) is lost. The Greek says they did NOT know at all; the Vietnamese implies they might have known."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

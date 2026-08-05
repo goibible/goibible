@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κωλυετε' (kolyete) means 'hinder', 'prevent', or 'obstruct'. The Vietnamese translation 'cấm' (forbid/prohibit) is a significant shift in meaning. While related to stopping an action, 'hinder' implies making something difficult to do, whereas 'forbid' implies a legal or authoritative prohibition."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ουκ εστιν καθ ημων' (ouk estin kath hēmon) means 'is not against us'. The Vietnamese translation 'ai không chống lại chúng ta' (whoever does not oppose/fight against us) changes the subject from a general state of being/opposition to a specific action of 'fighting' or 'opposing' (chống lại)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

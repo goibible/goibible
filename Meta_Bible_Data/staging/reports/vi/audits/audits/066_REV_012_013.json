@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδιωξεν' (edioxen) means 'cast out', 'expelled', or 'drove away'. The Vietnamese 'đuổi theo' means 'chased after' or 'pursued'. This changes the direction and nature of the action: the Greek says he cast her out, while the Vietnamese says he chased her."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

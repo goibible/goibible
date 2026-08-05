@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα ανομων ελογισθη' is in the passive voice (was counted/numbered), but the Vietnamese 'Ngài đã bị kể vào hàng kẻ dữ' implies a third person ('Ngài' - He/Him) was counted, whereas the Greek refers to the speaker ('ετι... εν εμοι' - this [thing] must be fulfilled in me). The Vietnamese phrasing makes it sound like someone else was counted as a sinner."
+        },
+        {
+          "kind": "omission",
+          "detail": "The word 'ετι' (yet/still) is present in the Greek but not explicitly captured in the Vietnamese translation of the first clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

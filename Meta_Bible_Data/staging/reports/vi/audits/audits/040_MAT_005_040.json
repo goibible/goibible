@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 5,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κריθηναι' is a passive infinitive meaning 'to be judged/judged against' (to be sued), but the Vietnamese 'kiện' (to sue) combined with 'để lấy' (to get/take) implies a purpose of taking the garment, whereas the Greek structure describes two actions: being judged AND taking the garment. More importantly, the Greek 'χιτωνα' refers to an inner garment/tunic, while 'áo dài' is a specific cultural Vietnamese garment that does not correspond to the biblical context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

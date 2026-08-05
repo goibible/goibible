@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφωνον' means 'without sound' (voiceless/speechless), but the Vietnamese renders it as 'không có nghĩa' (without meaning), which changes the meaning from a physical property (no sound) to a semantic one (no meaning)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

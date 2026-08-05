@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 19,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη συνδουλος σου ειμι' means 'I am not your servant/slave' (expressing a relationship of equality or lack of servitude). The Vietnamese translation 'Ta là bạn đồng công với ngươi' translates to 'I am your fellow worker/partner,' which is a significant shift in the specific nature of the relationship described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

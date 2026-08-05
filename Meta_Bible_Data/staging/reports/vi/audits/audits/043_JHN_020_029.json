@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 20,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εωρακας με θωμα' (you have seen me, Thomas) is a direct address/identification. The Vietnamese translation 'vì ngươi đã thấy ta, nên ngươi tin' adds a causal relationship ('vì... nên' - because... therefore) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

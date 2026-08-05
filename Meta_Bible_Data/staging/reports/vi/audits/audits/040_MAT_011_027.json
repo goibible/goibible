@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'ngoài Con và người nào Con muốn tỏ ra' (except for the Son and whoever the Son wants to appear as) misinterprets the Greek structure. The Greek 'ει μη ο πατηρ ουδε τον πατερα τις επιγινωσκει ει μη ο υιος' means 'neither the Father knows the Son, nor the Son knows the Father'. The Vietnamese phrasing suggests a comparison or a conditional identity that is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

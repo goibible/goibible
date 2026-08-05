@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαρισασθαι' (to show favor/be gracious) is translated as 'tha thứ' (to forgive). In this context, it refers to showing kindness or grace toward the person, not necessarily forgiving a specific offense."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λυπη' (sorrow/grief) is translated as 'buồn rầu' (melancholy/sadness). While related, 'lype' in this context often implies a deep distress or mourning. More importantly, the Vietnamese 'nuốt mất' (swallowed up) is an idiomatic rendering of 'καταποθη' (overwhelmed/overpowered), which is acceptable, but the shift from 'grace' to 'forgiveness' is a substantive meaning change."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

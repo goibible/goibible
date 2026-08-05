@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν επτακις της ημερας' (if seven times in a day) is translated as 'Dù trong một ngày' (Even/Although in one day). The word 'εαν' is a conditional 'if', not a concessive 'even though'. This changes the logical structure of the sentence from a condition to a concession."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διψησει παλιν' (dipsēsei palin) means 'will thirst again' or 'will be thirsty again.' The Vietnamese translation 'sẽ còn khát mãi' means 'will still thirst forever' or 'will keep thirsting forever.' The addition of 'mãi' (forever/continually) changes the scope of the Greek 'παλιν' (again)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese phrase 'chịu Giăng làm báp-têm' (received John to baptize) incorrectly implies that Jesus received/accepted John as a person to perform the act, whereas the Greek 'εβαπτισθη υπο ιωαννου' means 'was baptized BY John' (passive voice). It fails to correctly convey the agency of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Anh em' (Brothers/You all) as a subject, which is not present in the Greek text. The Greek text is a list of nouns."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese word 'thời điểm' (point in time/moment) is used for 'καιροος', which in this context refers to 'seasons'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

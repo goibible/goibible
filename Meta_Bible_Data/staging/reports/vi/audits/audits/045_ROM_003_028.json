@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λογιζομεθα' (logizometha) is a passive verb meaning 'we are counted' or 'we are reckoned.' The Vietnamese 'kể rằng' means 'to tell/say that,' which changes the grammatical structure from an action performed on the subject to a statement made by the subject."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the passive voice of the Greek, which is central to the theological point that righteousness is 'reckoned' to the believer."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

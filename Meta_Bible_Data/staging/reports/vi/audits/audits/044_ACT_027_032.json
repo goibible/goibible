@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σχοινια' (schoinia) means 'ropes' in general. The Vietnamese translation 'dây nhỏ' specifies 'small ropes,' which is an unnecessary and potentially inaccurate addition of size not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

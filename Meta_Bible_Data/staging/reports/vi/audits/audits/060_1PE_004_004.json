@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ξενιζονται' (xenizontai) means 'to be amazed/astonished/wonder' or 'to be struck with wonder'. The Vietnamese translation 'lấy làm lạ' captures the sense of 'wonder', but the phrase 'thấy anh em chẳng cùng họ chạy theo...' implies a causal sequence ('they see... then they...') that isn't explicitly structured as a temporal result in the Greek. More importantly, the Greek describes the *manner* in which they are amazed (because you are not running toward destruction), while the Vietnamese phrasing slightly shifts the focus to their observation of your actions as the catalyst."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη συντρεχοντων' is a participle. The translation 'chẳng cùng họ chạy theo' is an acceptable rendering, but the nuance of 'not running toward' (the direction/destination) is slightly softened in the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

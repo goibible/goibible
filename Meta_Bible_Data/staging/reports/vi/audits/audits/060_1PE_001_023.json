@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζωντος' (living) is a present participle modifying 'θεου' (God). The Vietnamese translation 'hằng sống' (ever-living/eternal) combined with 'còn lại đến đời đời' (remaining until eternity) slightly alters the grammatical structure. Specifically, 'μενοντος εις τον αιωνα' (abiding into the age/eternity) modifies 'θεου' (God), but the Vietnamese phrasing makes it sound like the 'word' is what remains until eternity, rather than God."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

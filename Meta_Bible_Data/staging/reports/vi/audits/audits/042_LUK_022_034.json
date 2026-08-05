@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'ου μη φωνησει' (not until... cries), meaning the rooster will NOT cry until the denial happens. The Vietnamese translation omits the negation/conditional relationship, making it sound like the rooster hasn't cried yet but will eventually, rather than the specific sequence where the crying happens *after* the denial."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

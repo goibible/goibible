@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πολλας τε επιθεντες αυτοις πληγας εβαλον' describes the act of 'striking/beating' them (plural wounds), but the Vietnamese 'đánh họ nhiều tai vạ' translates 'tai vạ' as 'calamities/misfortunes' rather than physical 'wounds' or 'blows'. This changes the nature of the action from physical violence to a general state of misfortune."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

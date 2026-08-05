@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προενηρξασθε' is in the aorist active indicative, meaning 'you began' (past action). The Vietnamese translation 'đã bắt đầu trước' (began beforehand/first) adds an ordinal sense ('trước') not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

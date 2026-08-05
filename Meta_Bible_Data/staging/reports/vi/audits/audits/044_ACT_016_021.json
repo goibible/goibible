@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταγγελλουσιν' (katangellousin) means 'they report,' 'denounce,' or 'accuse.' The Vietnamese 'rao truyền' (proclaim/announce) significantly changes the tone and nature of the action from a legal or social accusation to a public proclamation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εξεστιν ημιν παραδεχεσθαι' means 'it is not permitted for us to receive/accept.' The Vietnamese 'không được phép tiếp nhận' captures the permission aspect, but the Greek structure implies a lack of possibility or legality ('it is not [possible] for us')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

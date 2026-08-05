@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'đều là một' (are one/the same) is a significant mistranslation of the Greek 'εν εισιν' (were/are in). The Greek indicates that both parties were 'in' (part of the group/process), but it does not equate them as being 'one' or identical."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

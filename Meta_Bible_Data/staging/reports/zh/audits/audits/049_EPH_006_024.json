@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εν αφθαρσια' (in incorruptibility/immortality) modifies the love ('των αγαπωντων... εν αφθαρσια' = those loving... in incorruptibility), but the Chinese renders it as '用不朽的愛' (with immortal love), which changes the meaning from 'loving in/with incorruptibility' (i.e., in a state of incorruption) to 'with an immortal love' (attributing immortality to the love itself). This is a substantive shift in the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

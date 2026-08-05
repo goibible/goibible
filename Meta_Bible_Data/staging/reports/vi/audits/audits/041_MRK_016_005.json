@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εισελθουσαι' (eiselthousai) is 2nd person feminine singular ('you entered'), but the Vietnamese translation uses 'Họ' (They), which is 3rd person plural."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εξεθαμβηθησαν' (exethambēthēsan) is 3rd person plural ('they were amazed'), but because the subject of the first verb was 2nd person singular, there is a grammatical mismatch in the Greek text provided. However, the Vietnamese treats both actions as being performed by 'Họ' (They)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

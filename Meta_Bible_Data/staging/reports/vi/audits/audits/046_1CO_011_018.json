@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'tôi tin điều đó một phần' (I believe that partially) incorrectly shifts the scope of the Greek phrase 'μερος τι πιστευω'. In the Greek, 'μερτι' (meros ti) refers to the *content* of the belief—specifically, 'part of what I believe' or 'some things that I believe'—rather than a qualifier on the *degree* of belief. The Vietnamese translation makes it sound like the speaker only partially believes the existence of divisions, whereas the Greek indicates that the divisions are 'part of [what] I believe' (i.e., some of the things the speaker believes to be true)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

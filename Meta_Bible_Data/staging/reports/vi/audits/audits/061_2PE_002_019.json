@@ -1,0 +1,26 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελευθεριαν αυτοις επαγγελλομενοι' is a participle phrase modifying the subject (the ones who are promising). The Vietnamese translation 'Chúng hứa...' (They promise...) treats it as a main clause, but more importantly, the Greek implies 'those who promise freedom to them [the slaves]'. The Vietnamese structure slightly obscures the relationship between the promisers and the slaves, though the primary issue is the nuance of 'επαγγελλομενοι' (promising/pledging) in a relative sense."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'της φθορας' (of destruction/decay) is rendered as 'sự hư nát', which is accurate, but the phrase 'υπαρχοντες της φθορας' describes their state of being. The Vietnamese 'là đầy tớ của sự hư nát' is a good rendering."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'τις ηττηται τουτω' uses the neuter pronoun 'τουτω' (that/this) referring back to 'φθορα' (destruction). The Vietnamese 'điều gì' (what/anything) changes the specific reference of 'that' to a general 'what', which slightly alters the logical flow from 'destruction' to 'whatever'. However, the most significant issue is the grammatical role of the first clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

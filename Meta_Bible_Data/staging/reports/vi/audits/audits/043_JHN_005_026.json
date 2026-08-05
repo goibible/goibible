@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'trong mình' (in himself/oneself) is used for both the Father and the Son. However, the Greek text uses different pronouns: 'εν εαυτω' (in himself - referring to the Father) and 'εν εαυτω' (in himself - referring to the Son). While the words are the same in Greek, the Vietnamese 'mình' can be ambiguous as a reflexive pronoun. More importantly, the Greek 'εδωκεν' is an aorist indicative (gave), but the Vietnamese 'ban cho' is a general verb. The most significant issue is that the Vietnamese structure 'có sự sống trong mình' for both parts makes it slightly less clear than the Greek distinction of the Father having life in *himself* and giving to the Son to have life in *himself*."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

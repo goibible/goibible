@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο μεν ουν φηστος' (the reported saying/it is said) refers to a report or rumor, not a person named 'Phê-tu'. The Vietnamese translation treats 'Phê-tu' as a proper name/subject, which is a significant factual error."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απεκριθη' (unanswered/not replied to) is missing. The Vietnamese version says 'trả lời rằng' (replied that), which reverses the meaning of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

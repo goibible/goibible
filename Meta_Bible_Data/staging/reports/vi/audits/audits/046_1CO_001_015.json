@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εβαπτισα' is an active verb (I baptized), but the Vietnamese 'làm báp têm' uses a noun phrase structure that loses the specific action of the subject. More importantly, the Greek 'εις το εμον ονομα' (in my name) is rendered as 'nhân danh tôi', which is acceptable, but the overall structure 'hầu cho chẳng ai nói rằng...' correctly captures the 'ἵνα μη τις εἰπῃ' part."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

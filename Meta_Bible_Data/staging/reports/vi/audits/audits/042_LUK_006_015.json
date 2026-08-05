@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ζηλωτην' (zelous) is translated as 'sốt sắng' (fervent/zealous). While similar, in this specific context of the Gospels, 'ζηλωτής' often carries a connotation of being 'impetuous' or 'hot-tempered' rather than just 'fervent'. However, more critically, the Vietnamese 'gọi là người sốt sắng' (called a fervent person) lacks the nuance of the Greek construction where 'καλούμενον' is a participle modifying Simon. The Vietnamese phrasing makes it sound like a title or a general description, whereas the Greek identifies him as 'Simon the Zealot'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανεβλεψεν' (aneblepsen) is a perfect tense verb meaning 'he opened his eyes' or 'his eyes were opened'. The Vietnamese 'sáng mắt' (brightened his eyes/became bright-eyed) is a slightly different idiom, but more importantly, the Greek 'ηκολουθει' (ēkolouthei) is an imperfect tense verb indicating ongoing action ('was following'), whereas the Vietnamese 'đi theo' is a simple present/past. However, the most significant issue is the phrase 'δωκσαζων τον θεον'. The Greek 'δοξαζων' is an aorist active infinitive (to glorify), but the Vietnamese 'dâng lời khen ngợi' (offered words of praise) adds a specific action ('offering words') that is not explicitly in the Greek, though it captures the essence. The most critical fidelity issue is the loss of the perfect aspect of 'ανεβλεψεν' which denotes a completed change of state."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

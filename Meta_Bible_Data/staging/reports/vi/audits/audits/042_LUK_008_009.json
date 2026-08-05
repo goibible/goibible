@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἐπρωτουν' (epρωτουν) means 'were asking' or 'kept asking', but the Vietnamese 'hỏi' is a simple past/present action. More importantly, the Greek 'δὲ' (de) and the imperfect tense imply a continuous state of questioning, which is slightly lost in the simple Vietnamese structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the nuance of the imperfect tense 'ἐπρωτουν', which suggests they were repeatedly or continuously asking him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

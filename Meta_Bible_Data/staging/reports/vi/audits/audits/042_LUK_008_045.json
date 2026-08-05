@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text states 'αρνουμενων δε παντων' (but all [of them] were denying), which indicates that everyone was denying Him. The Vietnamese translation 'Mọi người đều chối' (Everyone denied) captures the action but misses the specific grammatical connection of 'δε' (but/however) which contrasts the denial with the preceding context of the arrest."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιστατα οι οχλοι' is more accurately 'the crowds were pressing/crowding' (active). The Vietnamese 'đám đông đang vây lấy và ép Thầy' adds 'vây lấy' (surrounding), which is a common interpretation but not explicitly in the verb 'επιστατα'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

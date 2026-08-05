@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'και τεκνα μη αφη' (and no children left), but the Vietnamese translates this as 'mà không có con cái' (but without children). The Greek specifies that the condition is the *absence* of children, whereas the Vietnamese phrasing could be interpreted as a description of the brother who died rather than the specific condition required for the law to apply."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

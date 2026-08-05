@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς εαυτους' (pros heautous) means 'with themselves' or 'among themselves', whereas the Vietnamese 'với nhau' implies 'with each other'. While similar, 'với nhau' suggests a reciprocal interaction between different people, while the Greek emphasizes their internal state or private grouping."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

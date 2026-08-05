@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η οψις αυτου' refers to his 'appearance' or 'sight', but the Vietnamese 'diện mạo' (countenance/appearance) is slightly different in nuance; however, the more significant issue is the translation of 'δυναμει αυτου'. The Greek 'δυναμει' is in the dative case (in his power), but the Vietnamese 'trong quyền năng nó' uses 'nó' (it) to refer back to the sword or the power, whereas the Greek 'αυτου' refers back to the Person (the one holding the stars). This changes the source of the power/glory from the Person to an object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

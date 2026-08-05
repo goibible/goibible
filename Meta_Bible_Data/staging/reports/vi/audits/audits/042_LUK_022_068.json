@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 68,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εαν δε και' (ean de kai) functions as a conditional/concessive structure roughly meaning 'even if' or 'even though'. The Vietnamese translation 'Nếu... cũng sẽ' (If... also will) changes the logical relationship from a concession of a hypothetical situation to a certain future result."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'αποκριθητε' and 'απολυσητε' are in the Aorist Imperative (commands/requests). The Vietnamese translation uses the Future Tense ('sẽ không'), which changes the mood from a request/command to a prediction of future action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

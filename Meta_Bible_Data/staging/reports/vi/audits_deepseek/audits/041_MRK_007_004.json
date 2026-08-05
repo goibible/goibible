@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βαπτισμους ποτηριων και ξεστων και χαλκιων και κλινων' means 'washings of cups and pitchers and copper vessels and couches' — the Vietnamese renders 'ξεστων' (pitchers/jugs) as 'cái chén' (cups), which duplicates 'ποτηριων' (cups) and omits the distinct category of pitchers. This changes the list of items being washed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

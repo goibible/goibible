@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ιδιωται' (idiōtai) refers to 'private persons' or 'individuals' in the sense of those acting independently/privately, but the Vietnamese translation 'những người thường' (ordinary people) changes the specific nuance of the Greek term."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τινες γαρ εδοκουν' means 'for some thought' (past tense), but the Vietnamese 'Có mấy người tưởng rằng' is more of a general statement. More importantly, the Greek 'εδοκουν' is a past tense verb, whereas the Vietnamese phrasing doesn't clearly reflect the past tense aspect of the thought."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι λεγει αυτω ο ιησους' means 'that Jesus was saying to him'. The Vietnamese 'nên Chúa Giê-xu bảo người' (so Jesus told him) changes the nuance from an ongoing action/statement ('was saying') to a completed command, and slightly alters the logical flow of the 'thought' clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τι δω' (what to give) is rendered as 'cho kẻ nghèo' (give to the poor). While the meaning is similar, the Vietnamese omits the specific 'what' (ti) which refers back to the items being bought."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

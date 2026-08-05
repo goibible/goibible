@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπακουετε' is a present active imperative, but the Vietnamese 'hãy vâng phục' (please/let us obey) combined with the context of the following clauses can be interpreted as an exhortation to others. However, in the context of Ephesians 6:5, this is a command directed at the servants (the readers). The Vietnamese 'Hỡi những kẻ đầy tớ' addresses the servants directly, which is correct, but the phrase 'như vâng phục Đấng Christ' lacks the explicit sense of 'as [you] obey' or 'as [one] obeys' that clarifies the manner of obedience. More importantly, the Greek 'υπακουετε' is an imperative command to the servants, while the Vietnamese structure makes it slightly ambiguous whether it is a general statement or a direct command. However, the primary issue is the nuance of 'υπακουετε' as a command; the Vietnamese translation is generally acceptable but slightly softens the imperative tone."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ονειδισωσιν' (oneidisōsin) means 'revile' or 'insult'. The Vietnamese 'mắng nhiếc' covers 'rebuke/scold', but the core meaning of 'reviling' is slightly attenuated. However, the more significant issue is the phrase 'εκβαλωσιν το ονομα υμων ως πονηρον' (ekbalōsin to onoma hymōn hōs ponēron). The Vietnamese translates this as 'bỏ danh các ngươi ra như điều dữ' (cast out your name as an evil thing), whereas the Greek specifically says 'as evil' (hōs ponēron). The Vietnamese adds 'điều' (thing) which is a common stylistic addition, but it captures the meaning well. The main issue is the omission of 'ενεκα' (enka) in its full sense of 'for the sake of' or 'on account of'. The Vietnamese 'vì cớ' covers this adequately."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

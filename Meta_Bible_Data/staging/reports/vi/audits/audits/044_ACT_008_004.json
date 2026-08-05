@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διασπαρτες' (diasparestes) means 'scattered' or 'dispersed' (often implying a state of being spread out), but the Vietnamese 'bị tan lạc' implies 'lost', 'straying', or 'deviant'. This changes the status of the people from merely dispersed to morally/spiritually lost."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

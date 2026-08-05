@@ -1,0 +1,26 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ης εγενηθητε' is a passive construction (were made/became), but the Vietnamese 'trở nên' (became) combined with 'khi làm' (when doing/while doing) changes the causal relationship. The Greek describes the *result* of her submission, not a conditional 'when'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'các chị em' (sisters/the sisters) is an addition. The Greek 'ης εγενηθητε' is a passive verb where the subject is implied to be the daughters (based on context), but 'các chị em' is not explicitly in the Greek text provided."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πτοησιν' refers to 'fears/dread' (plural). The Vietnamese 'sự kinh ngạc' usually means 'surprise' or 'astonishment', which is a different semantic category than 'fear' or 'dread'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

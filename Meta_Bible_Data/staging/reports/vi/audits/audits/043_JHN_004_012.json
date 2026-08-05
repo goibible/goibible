@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη συ μειζων' (not greater than) is rendered as 'có lớn hơn' (is greater than), which reverses the negation."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'sao?' at the end of the sentence, which has no basis in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

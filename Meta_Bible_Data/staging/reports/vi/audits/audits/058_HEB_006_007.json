@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δι ους' (for/because of the people) is rendered as 'vì nó' (because of it), which shifts the focus from the people to the land/rain, changing the logic of who the vegetation is intended for."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πολλακις' (many times/frequently) is rendered as 'thường xuyên' (regularly). While similar, the Greek emphasizes the repetitive action of the rain, but the primary issue is the misplacement of the purpose of the vegetation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

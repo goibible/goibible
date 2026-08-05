@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Nguyền xin' (a common way to say 'May' or 'I pray') adds a sense of 'prayer/supplication' that is not present in the Greek 'η χαρις μεθ υμων' (grace with you), which is a standard apostolic greeting. More importantly, 'Nguyền' can sometimes carry a nuance of 'vow' or 'curse' depending on context, whereas the Greek is a simple statement of grace."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

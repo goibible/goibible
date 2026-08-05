@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δευτεροπρωτω' (deutero-proto) refers to the 'first day of the week' (Sunday). The Vietnamese translation 'thứ nhất sau ngày thứ hai' (the first after the second day) is factually incorrect and changes the chronological meaning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διαπορευεσθαι αυτον' uses the infinitive of purpose/result, but the Vietnamese 'nhằm' (aiming to/in order to) creates a causal link that is not explicitly in the grammar, though the primary issue is the chronological error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

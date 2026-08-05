@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χουζα' (Chuza) is a proper name, but the Vietnamese translates it as 'Chu-xa'. More importantly, the phrase 'επιτροπου ηρωδου' means 'steward of Herod', but the Vietnamese 'quản gia của Hê-rốt' misses the possessive relationship correctly if interpreted as a title; however, the main issue is the mistranslation of 'αιτινες' (wealthy/rich) as 'của cải' (possessions/wealth). The Greek describes the women as 'rich' (adjective), while the Vietnamese says they serve 'from their wealth' (prepositional phrase)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απο των υπαρχοντων αυταις' means 'from what they possessed/had'. The Vietnamese 'từ của cải của họ' changes the nature of the possession from a general state of having to specific 'wealth/assets'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

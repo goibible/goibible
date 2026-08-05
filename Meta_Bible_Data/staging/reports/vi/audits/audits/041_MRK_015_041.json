@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'αι και οτε ην' (and when he was) is missing in the Vietnamese translation. The Vietnamese version omits the temporal clause 'when he was in Galilee' and instead treats it as a descriptive phrase about the people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

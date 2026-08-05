@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εφοβουντο τον λαον' means 'feared the people'. The Vietnamese translation 'họ sợ dân chúng' is technically correct in structure, but the overall sentence structure is scrambled. The Greek says 'if we say [from/by] humans, they feared the people', but the Vietnamese phrasing makes it sound like the 'people' are the ones being feared by a third party, while the Greek structure suggests the fear was directed at the people because of John's status."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εξ ανθρωπων' (from/by humans) is rendered as 'Bởi người ta?' in a way that suggests a question or a specific category, but the Vietnamese placement makes it unclear if this refers to the source of the fear or a hypothetical statement about human nature."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

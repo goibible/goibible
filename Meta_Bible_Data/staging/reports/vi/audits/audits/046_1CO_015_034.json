@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη αμαρτανετε αγνωσιαν' means 'do not sin [out of] ignorance.' The Vietnamese translation 'đừng phạm tội; vì có mấy người không có sự ngu dốt' (don't sin; because there are some who do not have ignorance) reverses the meaning. It suggests that the lack of ignorance is the reason for the command, whereas the Greek states that one should not sin due to ignorance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

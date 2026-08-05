@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαρπασει' (aorist active) in the final clause refers to the action of 'cướp' (robbing/plundering). The Vietnamese translation 'sẽ cướp nhà' (will rob the house) changes the sequence of events. In the Greek, the act of robbing the house happens *after* binding the strong man; the Vietnamese phrasing makes it sound like a future consequence or a separate subsequent action rather than the fulfillment of the initial condition."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διαρπασει' is a singular verb referring back to the subject 'ουδεις' (no one). The Vietnamese 'sẽ cướp nhà' loses the specific link to the initial 'cướp lấy đồ đựng' (robbing the vessels) and shifts the object from 'vessels' to 'house' in a way that slightly alters the logic of the conditional statement."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

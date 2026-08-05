@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκελευσεν' (ekeleusen) is an imperative/command ('ordered' or 'commanded'). The Vietnamese 'truyền điệu' (passed down a decree/order) is slightly different in nuance but acceptable; however, the Greek 'αγεσθαι' (agesthai) means 'to be led' or 'to be taken'. The Vietnamese 'vào trại quân' (into the military camp) is an interpretation of 'εις την παρεμβολην' (into the [military] camp/encampment). A more precise translation would be 'lấy người đó đi' or 'đưa người đó đến'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ειπων' (eipon) is a participle meaning 'saying'. The Vietnamese 'phán rằng' (ordered that/said that) captures the command but loses the specific grammatical structure of the action happening simultaneously with the ordering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

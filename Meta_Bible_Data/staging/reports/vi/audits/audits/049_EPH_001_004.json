@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξαλεξατο' is an aorist verb (past tense), but the Vietnamese 'để chúng ta nên thánh' uses a construction that implies a purpose or result ('in order that'), whereas the Greek 'ειναι ημας αγιους και αμωμους' is a present indicative, describing the current state/status of being holy and blameless as a result of that selection."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

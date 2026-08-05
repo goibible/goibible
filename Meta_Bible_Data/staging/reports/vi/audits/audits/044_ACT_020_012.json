@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεκληθησαν' is a passive verb (they were comforted), but the Vietnamese 'được yên ủi' is correctly passive. However, the Greek 'ου μετριως' means 'not moderately' or 'greatly/much'. The Vietnamese 'không ít' (not few/not little) is a common idiom for 'much', but in this specific context of comfort, it slightly shifts the intensity from 'greatly' to 'not a little'. More importantly, the Greek indicates they were comforted *by* someone (implied by the passive), which the Vietnamese captures. The main issue is the nuance of 'ου μετριως' which translates more accurately to 'greatly' rather than the slightly weaker 'không ít'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

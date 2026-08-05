@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ou καλως λεγομεν ημεις' means 'are we not speaking well/correctly?' (a question about the propriety or truth of their statement). The Vietnamese translation 'há chẳng đúng sao?' (is it not correct?) shifts the focus slightly, but more importantly, the Greek 'σαμαρειτης ει συ' is a direct question ('Are you a Samaritan?'), whereas the Vietnamese renders it as a statement of fact within a rhetorical question ('thầy là người Sa-ma-ri... há chẳng đúng sao?')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δαιμονιον εχεις' means 'do you have a demon?' (possessive). The Vietnamese 'bị ma quỷ ám' means 'are possessed by demons' (passive/state). While similar in concept, the Greek is a specific question about possession."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

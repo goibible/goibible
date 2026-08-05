@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 25,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο δε του μη εχοντος' (from the one who has not) is rendered as 'còn ai không có' (but the one who does not have). The Vietnamese translation misses the prepositional source 'từ/từ chỗ' (from), implying a transfer of resources from the one who lacks to the one who has, which is central to the Greek logic."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'luôn' (completely/always) to 'cất luôn', which is not present in the Greek text ('αρθησεται'). While it might be stylistic, it adds an intensity of finality not explicitly in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

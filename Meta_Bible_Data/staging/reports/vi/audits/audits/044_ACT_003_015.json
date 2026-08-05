@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text contains a negation 'ου' (not), making the clause 'we are not witnesses' (ου ημεις μαρτυρες εσμεν). The Vietnamese translation omits this negation, stating instead that they 'are witnesses' (chúng ta là nhân chứng)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

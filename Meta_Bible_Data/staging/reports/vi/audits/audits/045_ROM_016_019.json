@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 16,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις παντας' (eis pantas) means 'to all' or 'towards all,' but the Vietnamese translation 'đến với mọi người' (reached everyone/came to everyone) changes the sense of obedience being directed toward everyone, rather than the obedience of the people reaching its fulfillment."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακεραιους' (akeraious) means 'blameless', 'irreproachable', or 'sincere'. The Vietnamese translation 'tinh sạch' (pure/clean) is a common theological rendering, but the primary issue is the structure of 'σοφους μεν... ακεραιους δε' which implies a contrast in quality (wise vs. blameless), which the Vietnamese captures well, but the first clause remains the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

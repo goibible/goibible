@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπερ' (hyper) indicates a purpose or reason ('for the sake of', 'because of'), but the Vietnamese translation renders it as a possessive/descriptive phrase ('nhân sự hiện đến của...'), which changes the grammatical relationship between the request and the reason for it."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'ερωτωμεν' (let us ask) is rendered as a request 'xin', but the active sense of 'asking/requesting' is weakened by the structure. More importantly, the Vietnamese misses the specific 'for the sake of' nuance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

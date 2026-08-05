@@ -1,0 +1,18 @@
+{
+  "book": "2JN",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απολαβωμεν' (let us receive/obtain) is rendered as 'nhưng nhận được' (but receive). The Greek uses 'α' (a conjunction meaning 'and'), not a contrastive 'but'. The Vietnamese translation introduces a contrast that is not in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

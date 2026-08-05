@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'χοικου' (choikou) refers to a 'beast' or 'animal' (specifically a wild beast/beast of the field). The Vietnamese translation 'người thuộc về đất' means 'person belonging to the earth' or 'earthly person,' which changes the imagery from an animal/beast to a human being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

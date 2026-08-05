@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τω καθημενω' (to the one sitting) refers to the one *on* the throne, but the Vietnamese translation 'là Đấng ngự trên ngôi' (who is on the throne) attributes the action of sitting to God, whereas the Greek structure suggests 'the salvation [belongs] to the one sitting on the throne of our God'. More importantly, the Vietnamese 'thuộc về' (belongs to) for both parts misses the specific prepositional relationship in the Greek: 'τω καθημενω επι του θρονου' (to the one sitting *on* the throne) and 'τω αρνιω' (to the Lamb)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

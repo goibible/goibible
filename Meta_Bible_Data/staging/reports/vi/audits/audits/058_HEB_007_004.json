@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ των ακροθινιων' (from the choicest/best parts) refers to the portion of the tithe given by Abraham, but the Vietnamese translation adds 'mà dâng cho người' (which he gave to him), implying a specific action of giving to 'this person' that is not explicitly stated in this specific Greek phrase. More importantly, the Greek describes the *source* of the tithe, while the Vietnamese phrasing slightly shifts the focus of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

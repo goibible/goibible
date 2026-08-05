@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'cùng chúng nó' (along with them) incorrectly implies the angels are acting together with someone else, whereas the Greek 'κατ αυτων' means 'against them' or 'in their case' (referring to the rebellious angels). The translation fails to convey that the judgment is against the angels themselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

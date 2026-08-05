@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'bởi Phao-lô' (by Paul) twice, but the Greek text says 'υπο του παυλου' (by Paul) in the context of money being given to 'him' (the subject). However, the Vietnamese phrasing 'để người thả mình' (so that he releases me) and 'triệu tập mình' (summons me) misinterprets the Greek verbs 'λυση' (release/loosen) and 'μεταπεμπομενος' (sending/dispatching). The Greek describes Paul speaking to him while sending him, not 'summoning' him."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'thường xuyên triệu tập mình' (frequently summons me) is not supported by the Greek 'πυκνοτερον αυτον μεταπεμπομενος' (sending him more frequently/densely). The Greek refers to the frequency of sending/dispatching, not summoning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φρουρουμενους' (phrouroumenous) is a passive participle meaning 'being guarded/protected'. The Vietnamese translation 'được giữ' can mean 'to be kept' or 'to be held', but in this context, it fails to capture the sense of being 'guarded' or 'protected' by God's power. More importantly, the structure 'nhờ quyền năng... được giữ bởi đức tin' suggests that the *power* is being guarded by faith, whereas the Greek structure implies the *believers* (implied by the masculine plural participle) are being guarded by God's power through faith."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπαζεται' (aspazate) is a present active imperative, meaning 'greet' or 'give a kiss of greeting'. The Vietnamese translation 'chào anh em' (greet brothers/friends) is a general greeting and loses the specific nuance of the Greek verb which often implies a physical gesture of affection/greeting in this context. Furthermore, the structure of the Greek sentence suggests the greeting is directed *at* Luke and Demas (or they are being addressed), but the Vietnamese phrasing 'và Đê-ma cũng vậy' (and Demas too) makes it sound like Demas is also performing the action of greeting, rather than being the recipient/subject of the address."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

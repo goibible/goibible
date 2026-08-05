@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περισευειν' (periseuein) means 'to abound' or 'to be abundant' in a spiritual/qualitative sense (e.g., abounding in grace). The Vietnamese translation 'dư dật' usually refers to a physical surplus or having an excess of something tangible, which may lead the reader to think of material abundance rather than spiritual fruitfulness."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μαλλον' (mallon) is a comparative particle meaning 'more so' or 'rather'. The Vietnamese 'càng ngày càng' (more and more/day by day) adds a temporal progression ('day by day') that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

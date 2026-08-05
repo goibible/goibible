@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ην δε... ο αδελφος λαζαρος ησθενει' uses the imperfect tense (ησθενει) to describe a continuous state of being weak/ailing. The Vietnamese 'đang đau yếu' correctly captures the continuous aspect, but the structure 'chính anh em người là La-xa-rơ' implies a definitive identification ('it is... who') that is not present in the Greek grammar, which simply states 'but the brother Lazarus was weak'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

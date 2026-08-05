@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 23,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι σου ερρωσο' (to you, [the official]) is a direct address to the person being spoken to. The Vietnamese translation 'Xin chào quan' (Hello/Greetings, official) at the end is an addition that changes the function of the phrase from a direct object/address within the instruction to a polite salutation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μελλειν εσεσθαι' (is about to happen / is destined to be) implies a future certainty or impending action. The Vietnamese 'sắp xảy ra' captures the 'about to', but the overall structure of the Greek suggests a warning of an impending act rather than a simple notification of a plan."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

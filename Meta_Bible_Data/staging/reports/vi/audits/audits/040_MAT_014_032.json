@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εκοπασεν' (ekopasen) means 'ceased' or 'stopped', but in the context of wind, it specifically means the wind 'ceased' or 'died down'. However, the Vietnamese translation 'ngừng' is correct for 'ceased', but the Greek 'εμβαντων' (embantōn) is a present active participle meaning 'entering' or 'as they were entering'. The Vietnamese 'bước vào' (stepped into) is a slight shift from 'entering', but the main issue is that the Greek describes the wind stopping *as* they were entering, which the Vietnamese captures. Wait, looking closer: 'εκοπασεν ο ανεμος' means 'the wind ceased'. The Vietnamese 'gió liền ngừng' is accurate. Let me re-evaluate. The Greek 'εμβαντων' is a participle. The Vietnamese 'Khi họ bước vào' is a temporal clause. This is an acceptable rendering. However, 'εκοπασεν' in some contexts can mean 'ceased' or 'stopped'. There is no significant fidelity issue here."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι την περιτομην η και επι την ακροβυστιαν' (regarding circumcision or regarding uncircumcision) is a prepositional phrase describing the scope of the beatitude. The Vietnamese translation 'chỉ dành cho người cắt bì, hay cũng cho người không cắt bì?' (only for those circumcised, or also for those uncircumcised?) introduces an interrogative structure ('hay cũng', 'chỉ') and a comparative 'or' that are not present in the Greek text. The Greek is a statement of scope, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

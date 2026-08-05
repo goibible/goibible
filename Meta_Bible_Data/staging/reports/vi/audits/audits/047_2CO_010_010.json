@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εξουθενημενος' (exouthenēmenos) means 'exhausted', 'depleted', or 'weakened'. The Vietnamese translation 'đáng khinh' means 'contemptible' or 'despicable', which changes the substantive meaning of the attribute being described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

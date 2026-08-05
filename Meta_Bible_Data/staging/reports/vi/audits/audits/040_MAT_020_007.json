@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεις ημας εμισθωσατο' means 'none of us were hired' (passive). The Vietnamese translation 'Vì không ai mướn chúng tôi' translates to 'Because no one hired us,' which introduces a causal relationship ('Vì') not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εαν η δικαιον ληψεσθε' is a conditional structure meaning 'whatever is just/right you will receive.' The Vietnamese 'và điều gì phải lẽ, các ngươi sẽ nhận' uses 'và' (and), changing the logical structure from a condition to a sequence of events."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

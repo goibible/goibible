@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προεβιβασαν' (proe-bibasan) implies 'thrusting forward' or 'pushing forward' by the crowd. The Vietnamese 'kéo... ra' (pulled out) and 'đưa ông lên phía trước' (brought him to the front) slightly misrepresents the forceful, pushing action of the Greek verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

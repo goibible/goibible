@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'εξηγησατο' (exēgēsato) means 'manifested,' 'revealed,' or 'explained.' The Vietnamese translation 'bày tỏ' is acceptable, but the structure suggests a passive sense or a general manifestation. However, more importantly, the Greek describes the Son as the one who *manifested* God, whereas the Vietnamese phrasing 'đã bày tỏ Ngài ra' (has revealed Him) is a common rendering, but the Greek focuses on the action of the Monogenes (Only Begotten) specifically in relation to the Father. The primary issue is the nuance of 'εξηγησατο' which implies making clear/manifesting; while 'bày tỏ' is close, some might interpret it as 'showing' rather than 'manifesting' the essence."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

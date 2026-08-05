@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ετι' (eti) functions as a coordinating conjunction meaning 'and also' or 'moreover'. The Vietnamese translation uses 'lại cũng' (also again), but the Greek 'δε' (de) before 'δεσμων' indicates a contrast or a shift in focus ('but', 'however'). The Vietnamese fails to capture the contrasting/additive nuance of 'δε' in this specific context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

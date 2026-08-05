@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεζευξεν' (synezeuxen) is a transitive verb where God is the subject acting upon the people. The Vietnamese translation 'phối hiệp' (coordinated/joined together) combined with the phrasing 'những kẻ mà Đức Chúa Trời đã phối hiệp' implies God joined them as an object or state, but the Greek structure 'συνεζευξεν ανθρωπος' (joined [together] humans) emphasizes that God joined the people *to each other*. More importantly, the Vietnamese 'phối hiệp' often carries a sense of 'cooperation' or 'coordination', whereas 'συνεζευξεν' (from synezoō) literally means to yoke together or join as one unit. However, the primary issue is the grammatical role: the Greek says 'God joined humans,' while the Vietnamese phrasing makes it sound like 'the people whom God has coordinated'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

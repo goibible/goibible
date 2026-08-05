@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'διεστειλατο αυτοις πολλα' (he commanded them strictly/severely) includes the word 'πολλα' (much/strictly), but the Vietnamese translation misses the intensity implied by 'πολλα' in this context, though it captures 'cấm ngặt'. More importantly, the Greek 'δοθηναι αυτη φαγειν' is a passive construction ('that it should be given to be eaten'), whereas the Vietnamese 'cho nó ăn' is an active command ('give it to eat')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

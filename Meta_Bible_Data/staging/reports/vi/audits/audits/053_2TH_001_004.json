@@ -1,0 +1,22 @@
+{
+  "book": "2TH",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχασθαι' (kauchasthai) means 'to glory' or 'to boast'. The Vietnamese translation 'khoe mình' (to show off/boast about oneself) shifts the focus to self-exaltation. In this context, it refers to glorying in the brothers' endurance, not boasting about oneself."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εν υμιν' (en hymin) means 'in you'. The Vietnamese translation renders this as 'vì anh em' (for/because of you), which changes the prepositional relationship from 'in' to 'for'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

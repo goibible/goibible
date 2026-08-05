@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation for the second clause ('và cũng tạ ơn Đức Chúa Trời') implies that the person who does NOT eat also gives thanks. The Greek 'ο μη εσθιων κυριω ουκ εσθιει και ευχαριστει τω θεω' is a parallel structure to the first part: [Subject A] eats for the Lord and gives thanks, and [Subject B] does not eat for the Lord and [does not] give thanks. The Vietnamese 'và cũng' (and also) suggests both parties are giving thanks, which reverses/distorts the parallel negation of the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

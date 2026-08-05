@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'τὸ μὲν πρόσωπον τοῦ οὐρανοῦ' ('the face of the sky'), but the Vietnamese renders it as 'mặt trời' ('the sun'), which changes the meaning from 'the appearance of the sky' to 'the sun'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

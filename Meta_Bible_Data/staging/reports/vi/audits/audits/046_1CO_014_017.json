@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλως ευχαριστεις' (kalōs eucharisteis) means 'you thank well' or 'you give thanks properly/well'. The Vietnamese 'ngươi tạ ơn thì tốt' translates to 'if you give thanks, it is good', which changes the nature of the statement from a description of an action performed well to a conditional statement about the goodness of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'miễn là' (as long as/provided that) incorrectly renders the Greek 'εἰ μη' (if not). The Greek structure 'εἰ μη τι αδοκιμοι εστε' means 'if you are not [at all] tested/approved', whereas the Vietnamese implies a conditional state of being 'not rejected'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τι' (at all / anything) in 'εἰ μη τι αδοκιμοι εστε' is omitted, which slightly softens the rhetorical emphasis of the original."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

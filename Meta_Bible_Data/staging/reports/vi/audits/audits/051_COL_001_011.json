@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'μακροθυμιαν' (makrothymian) as 'sự nhịn nhục', which is the same as 'υπομονην' (hypomonēn). In Greek, these are two distinct virtues: 'hypomonēn' is endurance/steadfastness, and 'makrothymian' is long-suffering/patience. The Vietnamese translation fails to distinguish between these two concepts."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

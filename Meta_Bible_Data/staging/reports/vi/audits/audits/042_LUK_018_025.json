@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'vào nước Đức Chúa Trời' (into the Kingdom of the German God/God of Germany) instead of 'vào την βασιλειαν του Θεου' (into the kingdom of God). The word 'Đức' in this context is likely a mistranslation or a confusing insertion, as it is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

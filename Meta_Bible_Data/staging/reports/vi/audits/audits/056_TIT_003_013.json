@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'προπεμψον' (propepson) is an imperative meaning 'send forth' or 'send away', not 'tiễn' (to escort/see off). The Vietnamese translation suggests a physical escorting action rather than the act of sending them away."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ζηναν' (zēnan) is an imperfect indicative, describing a continuous state or action in the past ('were seeking'). The Vietnamese translation uses 'Hãy', which turns the sentence into a command/imperative, changing the grammatical mood from a description of what was happening to a direct order."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

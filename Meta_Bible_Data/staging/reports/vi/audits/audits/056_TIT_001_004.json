@@ -1,0 +1,22 @@
+{
+  "book": "TIT",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τιτω' (Tito) is the vocative case, meaning 'O Titus'. The Vietnamese translation 'Gửi cho Tít' (Send to Titus / To Titus) changes the grammatical function from a direct address to an indirect recipient."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nguyền xin con được' (I pray/beg that I may receive), which is not present in the Greek. The Greek text is a direct blessing/greeting, not a request or prayer for personal reception."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

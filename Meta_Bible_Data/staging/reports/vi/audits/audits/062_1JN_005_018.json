@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 5,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οιδαμεν' (oidamen) is 1st person plural present ('we know'), but the Vietnamese 'Chúng ta biết' is a general 'we' or 'us'. While often acceptable, in this specific context of 1 John 3:9, it refers to the believers' collective knowledge. However, the primary issue is the first clause: 'ο γεγεννημενος εκ του θεου' (the one who has been born of God) is translated as 'ai sinh bởi Đức Chúa Trời'. The Greek uses a perfect passive participle ('gegennēmenos'), implying a completed state/action of being born, whereas 'sinh' in Vietnamese is a simple verb. More importantly, the Vietnamese omits the distinction between the two types of 'born' mentioned in the Greek: 1) those who *have been* born (perfect) and 2) those who *are* born (present). This nuance distinguishes the state of the believer from the act of birth."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

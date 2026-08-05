@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'δικαιωματος' (dikaiōmatos) is rendered as 'mạng lịnh' (command/order). In this context, it refers to 'righteousness' or 'right_standing', not a command."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'εις δικαιωσιν ζωης' (eis dikaiōsin zōēs) is rendered as 'sự xưng công bình của sự sống'. While 'xưng công bình' captures the sense of justification, the Vietnamese phrasing slightly shifts the focus from 'into/for the justification of life' to a more descriptive phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

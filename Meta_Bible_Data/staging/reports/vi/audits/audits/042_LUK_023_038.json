@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'των ιουδαιων' (of the Jews) is translated as 'dân Giu-đa' (the people of Judah). In the New Testament context, 'Ioudaios' refers to the Jewish people/nation, whereas 'Judah' (Ioudas) refers specifically to the tribe or the kingdom. This changes the scope of the title from 'King of the Jews' to 'King of the people of Judah'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

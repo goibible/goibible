@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'πληρωσατε' is in the aorist indicative (past tense), indicating an action already completed ('you filled/have filled'). The Vietnamese translation uses 'hãy làm cho đầy', which is an imperative mood (command/exhortation) for a future action ('let us fill' or 'go fill')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

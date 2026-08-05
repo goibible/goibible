@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επεποιθει' (epepoithei) is a passive verb meaning 'was entrusted/depended upon,' but the Vietnamese 'đã nhờ cậy' (had relied on/asked for) suggests an active action by the subject. More importantly, the Greek describes the armor as being 'entrusted' to him (likely by others), whereas the Vietnamese implies he was the one doing the relying."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διαδιδωσιν' is an aorist active subjunctive, implying a potential or future action ('might distribute' or 'would distribute'), whereas the Vietnamese 'phân phát' is stated as a simple past/completed action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις ουν εστιν παυλος τις δε απολλως' is a rhetorical question asking 'Who then is Paul? And who is Apollos?' The Vietnamese translation 'Vậy Phao-lô là ai? A-bô-lô là ai?' treats them as two separate questions, but the Greek uses 'τις... τις δε' to structure a single balanced inquiry. More importantly, the Vietnamese 'Ấy là những người hầu' (They are the servants) incorrectly attributes the identity of both men to the plural 'hầu' (servants) in a way that slightly shifts the focus from the Greek 'αλλ η διακονοι' (but [they are] servants), where 'η' is a singular/collective marker often used for 'the servant' or 'the ministry'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

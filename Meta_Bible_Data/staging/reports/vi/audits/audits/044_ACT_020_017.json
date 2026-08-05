@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο δε της μιλητου πεμψας' (having sent from Miletus) modifies the subject who is calling the elders. The Vietnamese translation 'người sai người đến' (the one who sent someone to...) creates an unnecessary intermediary ('sent someone') that is not in the Greek, and it slightly obscures that the subject is the one who sent [them/someone] from Miletus."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'απο δε' includes a 'de' (but/and) which indicates a transition or contrast from the previous thought; the Vietnamese translation omits this connective nuance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

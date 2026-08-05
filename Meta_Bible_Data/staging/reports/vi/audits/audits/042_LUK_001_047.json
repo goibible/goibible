@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το σωτηρι μου' (my savior) is rendered as 'Đấng Cứu Thế của tôi' (my Savior). In the context of this verse (Psalm 16:11), 'σωτήρ' refers to 'deliverer' or 'salvation.' While 'Cứu Thế' is a common title, it implies a cosmic role (Savior of the world) rather than the personal act of deliverance/salvation expressed in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

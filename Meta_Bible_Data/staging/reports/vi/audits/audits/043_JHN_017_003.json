@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτη' (this) refers back to a preceding concept (likely the knowledge of God), but the Vietnamese translates it as 'sự sống đời đời' (eternal life). More importantly, the Greek structure is 'This [the knowledge] IS eternal life IN ORDER THAT they might know...', whereas the Vietnamese renders it as 'Eternal life IS knowing Him...'. This shifts the grammatical role of 'eternal life' from the result/definition of the action to the subject of the sentence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ινα' (in order that) expresses purpose, which is missing in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

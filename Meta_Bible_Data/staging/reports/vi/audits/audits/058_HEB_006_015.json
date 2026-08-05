@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'μακροθυμησας' (makrothymēsas) is a perfect active indicative, meaning 'you have been patient.' The Vietnamese translation 'sau khi kiên nhẫn chờ đợi' (after patiently waiting) changes the grammatical structure from a completed state of being/acting to a temporal clause describing an action that preceded the result."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'μακροθυμησας' is 2nd person singular ('you'). The Vietnamese 'người' is a third-person pronoun. This changes the subject of the sentence from 'you' to 'he/she/they'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

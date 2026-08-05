@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκελευσεν στηναι' (ekeleusen tenai) means 'ordered to stop' or 'commanded to halt'. The Vietnamese 'Người ra lệnh dừng xe chiến lại' implies the person *gave* the order, but the Greek construction is often interpreted as the command being executed. However, more importantly, the Vietnamese 'rồi' (then) adds a temporal transition not explicitly in the Greek, though this is minor. The primary issue is the lack of a clear subject for 'Người ra lệnh' (The person who ordered), whereas the Greek uses a verb 'εκελευσεν' which implies an actor. However, the most significant fidelity issue is the nuance of 'εκελευσεν' as a command to stop/halt. Actually, looking closer at the Vietnamese: 'Người ra lệnh dừng xe chiến lại' (The person ordered to stop the chariot) vs Greek 'και εκελευσεν στηναι το αρμα' (and commanded to stop the chariot). This is accurate. Wait, let me re-evaluate: The Greek says 'εκελευσεν στηναι το αρμα' (commanded to stop the chariot). The Vietnamese 'Người ra lệnh dừng xe chiến lại' is a very faithful rendering of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

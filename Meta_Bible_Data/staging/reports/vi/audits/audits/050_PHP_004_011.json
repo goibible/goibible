@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυταρκης' (autarkēs) means 'self-sufficient' or 'independent'. The Vietnamese translation 'thỏa lòng' (contentment/satisfied) shifts the meaning from a state of self-sufficiency to an emotional state of being satisfied."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εμαθον' is an Aorist active indicative (I learned), but the Vietnamese 'đã học được' is a completed action. However, the primary issue is the semantic shift of 'autarkēs'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

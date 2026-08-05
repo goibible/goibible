@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλαμον' (kalamon) refers to a 'reed' or 'staff'. The Vietnamese 'cây sậy' is generally acceptable, but the Greek 'επι την δεξιαν αυτου' means 'upon his right [hand]'. The Vietnamese 'trong tay hữu Ngài' (in his right hand) changes the prepositional relationship from 'upon/on' to 'in'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'ενεπαιζον' (enepaizon) means 'were mocking' or 'were jesting'. The Vietnamese translation uses 'nhạo báng' (mocking), which is a correct semantic equivalent, but the Greek implies a continuous/imperfect action ('were mocking') while the Vietnamese structure suggests a singular act of mockery accompanying the speech."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

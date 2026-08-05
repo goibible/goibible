@@ -1,0 +1,13 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

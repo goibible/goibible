@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη παρεστιν' (not having/possessing) is rendered as 'không có', but the context of the sentence is a conditional result. The Vietnamese phrasing 'Vì ai không có những điều này thì bị mù' suggests a causal 'Because anyone who doesn't have...', whereas the Greek 'ω γαρ μη παρεστιν' functions more as a conditional 'For he who does not have...'. More importantly, 'τυφλος εστιν μυωπαζων' describes someone who is both blind and short-sighted; the Vietnamese 'bị mù, không thấy xa' captures this well, but the omission of the specific nuance of 'μυωπαζων' (short-sighted/near-sighted) as a distinct physical state compared to just 'not seeing far' is minor. The primary issue is the slight shift in the logical flow of the conditional."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

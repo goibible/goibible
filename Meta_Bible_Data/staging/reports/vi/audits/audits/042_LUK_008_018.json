@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακουετε' (akouete) means 'hear' or 'listen to', but the Vietnamese 'cách các ngươi nghe' (the way you hear/listen) adds a nuance of 'manner' that is not explicitly in the Greek. More importantly, the Greek 'δοθησεται αυτω' (will be given to him) refers to the person who *has* something being given more, whereas the Vietnamese 'sẽ được ban cho' (will be given) lacks the specific recipient 'him/he' (αυτω), though this is minor. The primary issue is the slight shift in focus from the act of hearing to the 'manner' of hearing."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αρθησεται' (arithēsetai) means 'will be taken away' or 'will be snatched'. The Vietnamese 'bị cất lấy' usually means 'to be kept' or 'to be stored' (cất giữ), which is the opposite of the intended meaning of being taken away."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

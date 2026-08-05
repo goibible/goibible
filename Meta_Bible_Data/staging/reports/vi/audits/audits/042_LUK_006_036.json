@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο πατηρ υμων' (our Father) is translated as 'Cha các ngươi' (your Father). This changes the relationship from 'our' to 'your'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ἀσπασαι' (aspasai) is an imperative meaning 'kiss' or 'greet with a kiss'. The Vietnamese translation 'Hãy chào' (Greet/Say hello) misses the specific nuance of a kiss, which in the Greco-Roman context was a standard greeting. While 'chào' is a common translation for the general action, 'hôn' or 'chào bằng một nụ hôn' would be more faithful to the specific Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the verb 'κερδησω' (win/gain/profit) in the first clause. It says 'để được những người yếu đuối' (to get/have the weak), whereas the Greek says 'ινα τους ασθενεις κερδησω' (in order to win/gain them)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'để chắc chắn' (to surely/certainly) in the second clause is not present in the Greek. The Greek 'ινα παντως' means 'in order that always' or 'in order to always', referring to the frequency of saving people, not the certainty of the act."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

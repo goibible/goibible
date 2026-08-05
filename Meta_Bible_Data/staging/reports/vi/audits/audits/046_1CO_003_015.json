@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'ουτως δε σωθησεται' (but he will NOT be saved), but the Vietnamese translation says 'sẽ được cứu' (will BE saved). The negation 'ου' is missing or misinterpreted in the Vietnamese."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

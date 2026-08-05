@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ηδυνηθην' (ouk ēdynēthēn) is a perfect tense verb meaning 'I have not been pleased to' or 'I have not found it pleasant to.' The Vietnamese translation 'chẳng có thể nói' translates this as 'cannot speak,' which changes the meaning from a matter of willingness/inclination to a matter of ability."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

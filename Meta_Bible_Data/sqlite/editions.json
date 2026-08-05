@@ -1,0 +1,76 @@
+[
+  {
+    "edition_id": "KJV",
+    "bcp47_tag": "en",
+    "language_subtag": "en",
+    "display_name": "King James Version",
+    "status": "active",
+    "flatfile_dir": "Reference_Bible/English_Bible_KJV/One_Directory_KJV",
+    "filename_suffix": "KJV"
+  },
+  {
+    "edition_id": "WEBUS",
+    "bcp47_tag": "en-US",
+    "language_subtag": "en",
+    "display_name": "World English Bible (US)",
+    "status": "active",
+    "flatfile_dir": "Reference_Bible/English_Bible_WEBUS/One_Directory_WEBUS",
+    "filename_suffix": "WEBUS"
+  },
+  {
+    "edition_id": "TR1550",
+    "bcp47_tag": "el",
+    "language_subtag": "el",
+    "display_name": "Textus Receptus 1550",
+    "status": "active",
+    "flatfile_dir": "Reference_Bible/Greek_Bible_TR1550/One_Directory_TR1550",
+    "filename_suffix": "TR1550"
+  },
+  {
+    "edition_id": "WLC",
+    "bcp47_tag": "he",
+    "language_subtag": "he",
+    "display_name": "Westminster Leningrad Codex",
+    "status": "active",
+    "flatfile_dir": "Reference_Bible/Hebrew_Bible_WLC/One_Directory_WLC_KJV",
+    "filename_suffix": "WLC"
+  },
+  {
+    "edition_id": "GOI_En",
+    "bcp47_tag": "en",
+    "language_subtag": "en",
+    "display_name": "GOI Bible English",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_English",
+    "filename_suffix": "GOI_En"
+  },
+  {
+    "edition_id": "GOI_Zh_Hant",
+    "bcp47_tag": "zh-Hant",
+    "language_subtag": "zh",
+    "display_name": "GOI Bible Traditional Chinese",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hant",
+    "filename_suffix": "GOI_Zh_Hant"
+  },
+  {
+    "edition_id": "GOI_Zh_Hans",
+    "bcp47_tag": "zh-Hans",
+    "language_subtag": "zh",
+    "display_name": "GOI Bible Simplified Chinese",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hans",
+    "filename_suffix": "GOI_Zh_Hans"
+  },
+  {
+    "edition_id": "GOI_vi",
+    "bcp47_tag": "vi",
+    "language_subtag": "vi",
+    "display_name": "Tiếng Việt - Kinh Thánh GOI",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_vi",
+    "filename_suffix": "GOI_vi",
+    "template_edition": "GOI_En",
+    "notes": "Vietnamese full Bible generated from Hebrew/Greek source pipeline; VIE1934/KJV used for reference/name QA only."
+  }
+]

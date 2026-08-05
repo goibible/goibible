@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'khác' (another/different), which does not appear in the Greek text ('αγγελον')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

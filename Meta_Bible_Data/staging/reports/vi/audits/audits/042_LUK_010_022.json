@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final clause 'και ω εαν βουληται ο υιος αποκαλυψαι' (and if the Son wishes to reveal/disclose)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

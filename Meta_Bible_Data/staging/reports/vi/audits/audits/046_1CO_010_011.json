@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τυποι συνεβαινον' (typoi synebainon) means 'were types' or 'were patterns' (in the sense of being prototypes/shadows). The Vietnamese 'xảy ra như mẫu' translates to 'happened as a model/sample,' which slightly shifts the grammatical function from a predicate of 'these things' to an adverbial description of how they happened."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εγραφη δε προς νουθεσιαν ημων' (egraphe de pros nouthesian hēmōn) means 'were written for our admonition/exhortation.' The Vietnamese 'đã được chép để khuyên bảo chúng ta' captures the meaning well, but the Greek 'nouthesia' specifically implies a warning or exhortation, which is slightly broader than just 'khuyên bảo' (advice)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

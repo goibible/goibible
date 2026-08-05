@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προαγειν' (to go before/ahead) is applied to the disciples ('τους μαθητας'), but the Vietnamese translation 'đi trước Ngài' (go before Him) implies the disciples were in front of Jesus. In the context of the Greek, it means they were to go ahead to the other side."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese 'trong khi' (while/during) for 'εως' (until) slightly changes the temporal relationship. 'Εως' implies a continuous action until a point in time, whereas 'trong khi' suggests simultaneous actions."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

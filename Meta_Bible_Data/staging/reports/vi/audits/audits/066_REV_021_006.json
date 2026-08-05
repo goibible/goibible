@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'γεγονεν' (gegonen) is a perfect tense verb meaning 'I have become' or 'I am' (in the sense of having attained a state). The Vietnamese translation 'Xong rồi!' (It is finished/Done!) is a common rendering for 'Tetelestai' (John 19:30), but it does not accurately reflect the Greek 'gegonen' in this context."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'δωρεαν' (dorean) meaning 'freely' or 'without cost' is missing from the Vietnamese translation. The Vietnamese uses 'không từ' (without [asking/cost]), but it fails to capture the specific sense of 'for free' / 'grace'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

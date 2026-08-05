@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου λιθαζομεν σε' means 'we are not stoning you', but the Vietnamese 'chẳng phải vì... chúng tôi ném đá ông' (we are not stoning you because of...) changes the logic. The Greek construction is: 'They replied to him, saying [it is] not concerning a good work that we stone you, but concerning blasphemy.' The Vietnamese phrasing makes it sound like they are currently stoning him and explaining why, whereas the Greek structure emphasizes the *reason* for the act of stoning (or the impending act) as being blasphemy rather than a good work."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

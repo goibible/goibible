@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοιτην εχουσα' (koitin echousa) means 'having lain with' or 'having had sexual relations with'. The Vietnamese translation 'nằm cùng' (lying with) is significantly weaker and can imply mere proximity or sleeping in the same bed without the specific sexual connotation of the Greek term."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

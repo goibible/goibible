@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'hãy tập nói' (let us practice speaking/saying) adds an imperative/exhortative command and a specific action ('tập nói') that is not present in the Greek. The Greek 'κατα την αναλογιαν της πιστεως' simply means 'in proportion to faith' or 'according to the measure of faith' as a descriptive phrase for the gifts, not an instruction to practice speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

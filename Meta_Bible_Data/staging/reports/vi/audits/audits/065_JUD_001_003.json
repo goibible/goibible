@@ -1,0 +1,18 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απαξ παραδοθειση' refers to the faith being 'once delivered' (the source of the faith), but the Vietnamese translation 'đức tin đã được truyền cho các thánh một lần đủ rồi' implies that the act of delivering it was completed once and is now sufficient/finished, slightly shifting the focus from the 'once-delivered' nature of the faith to a sense of finality in the action of delivering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

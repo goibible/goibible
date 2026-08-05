@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'την ψυχην αυτου' (his soul) refers to the soul of others (the person being addressed or a third party), but the Vietnamese translation uses 'linh hồn mình' (one's own soul), changing the object of the action from someone else's soul to the subject's own soul."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

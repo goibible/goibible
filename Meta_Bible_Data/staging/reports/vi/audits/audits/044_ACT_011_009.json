@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απεκριθη' (apekrithē) is a passive verb meaning 'answered' or 'responded'. The Vietnamese translation renders this as 'phán' (spoke/commanded), which changes the grammatical voice and the nature of the action from a response to a proactive command."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δε μοι' (de moi) means 'to me'. The Vietnamese translation 'phán cùng ta' (spoke to me) captures the recipient but loses the specific nuance of 'answered/responded to me'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

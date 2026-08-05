@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the word 'vĩ đại' (great/greater) to describe the person who is greater than Jonah. The Greek text only says 'πλειον' (greater/more), which refers to magnitude or status in this context, but 'vĩ đại' introduces a specific qualitative descriptor of 'greatness' not explicitly present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

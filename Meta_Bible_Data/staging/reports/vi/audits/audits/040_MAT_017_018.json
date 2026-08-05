@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 17,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ο παις' (ho pais) means 'the child'. The Vietnamese translation 'đầy tớ' means 'servant', which is a significant change in the subject of the healing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

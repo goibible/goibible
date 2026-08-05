@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τις εξ υμων ελεγχει με' means 'Who among you convicts/reproves me?' The Vietnamese translation 'có ai bắt ta thú tội được chăng' (Is there anyone who can force me to confess?) shifts the meaning from a general accusation or conviction of wrongdoing to a specific act of forcing a confession."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'περι αμαρτιας' (concerning sin) is omitted in the Vietnamese translation. The Vietnamese version implies the context of sin through the word 'thú tội', but the specific prepositional phrase 'concerning sin' is missing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

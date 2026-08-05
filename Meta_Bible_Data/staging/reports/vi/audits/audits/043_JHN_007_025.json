@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχ' (ouch) is a negative particle, making the statement 'No, this is not the one they are looking to kill.' The Vietnamese 'Chẳng phải là...' (Is it not...?) renders it as a rhetorical question rather than a direct negative statement of fact."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

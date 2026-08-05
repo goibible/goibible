@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εβασκανεν' (ebaskanen) means 'to bewitch', 'to enchant', or 'to cast a spell over'. The Vietnamese 'bùa ếm' is a specific form of sorcery/curse that may carry a different cultural connotation, but more importantly, the Vietnamese phrasing 'ai đã bùa ếm anh em' (who bewitched you) is slightly disconnected from the Greek structure where 'tis' (the ones who...) is the subject of 'ebaskanen'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη πειθεσθαι' (mē peithesthai) meaning 'do not obey' or 'do not be obedient' is completely missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

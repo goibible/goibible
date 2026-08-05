@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'ακουσατε' is in the aorist indicative (past tense), meaning 'you heard'. The Vietnamese translation 'hãy nghe' is an imperative (command), meaning 'let us hear' or 'listen'. This changes the tense from a statement of fact about a past action to a command for a future/present action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

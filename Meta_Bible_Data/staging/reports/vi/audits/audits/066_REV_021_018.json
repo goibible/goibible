@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 21,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενδομησις' (endomēsis) refers to the 'inner lining', 'inner surface', or 'interior' of the wall. The Vietnamese 'Sự xây cất' means 'construction' or 'building', which changes the physical description from the interior surface of the wall to the act/structure of building the wall."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

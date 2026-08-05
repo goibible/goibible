@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εορτη' (hēortē) refers to a specific 'feast' or 'festival' (likely the Feast of Tabernacles based on context), whereas the Vietnamese 'lễ' is more general and can mean any ceremony or service. However, the primary issue is the lack of the definite article/specific nature of the feast."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εις ιεροσολυμα' (eis Ierousolyman) means 'to Jerusalem'. The Vietnamese 'lên thành Giê-ru-sa-lem' adds 'thành' (city), which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

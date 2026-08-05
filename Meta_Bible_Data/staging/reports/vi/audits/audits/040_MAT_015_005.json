@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'ο εαν εξ εμου ωφεληθης' means 'whoever was helped by me' (passive voice). The Vietnamese translation renders this as 'Món quà dâng mà tôi có thể giúp cha mẹ' ('The gift that I can help my parents'), which completely changes the meaning from 'being helped by Jesus' to 'helping one's parents'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific structure of the Greek 'η τη μητρι' (or the mother) and 'η την μητερα αυτου' (or his/her mother), simplifying it to a general 'cha mẹ' in a way that loses the specific 'either/or' distinction of the original Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

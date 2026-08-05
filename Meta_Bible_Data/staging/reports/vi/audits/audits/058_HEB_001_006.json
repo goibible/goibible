@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λεγει' (says) is part of the narrative sequence describing what happened when the firstborn was brought into the world. The Vietnamese translation 'phán rằng' (said that/proclaimed) implies a direct speech or a command issued by the firstborn, which is not present in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'προσκυνησατωσαν' is an aorist indicative, indicating a completed action (they worshiped). The Vietnamese translation 'phải thờ lạy' uses the modal 'phải' (must/have to), changing the meaning from a statement of fact about what happened to a command or obligation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

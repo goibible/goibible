@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλον υπαρχειν' (it is good to exist/be) is rendered as 'điều đó là tốt' (that thing is good). The Vietnamese translation shifts the subject of 'good' from the act of existing/being to 'the thing' mentioned in the previous context, rather than the state of being itself."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουτως ειναι' (is thus/in this way) is rendered as 'cứ ở như vậy' (keep staying like that). While similar, 'είναι' refers to 'being' or 'existing', whereas 'ở' specifically implies 'staying' or 'remaining' in a location/state, which is a slight narrowing of the Greek scope."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

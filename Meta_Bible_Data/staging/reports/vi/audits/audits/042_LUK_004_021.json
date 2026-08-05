@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ωσιν' (ōsin) means 'ears'. The Vietnamese translation 'tai' is correct, but the Greek text says 'εν τοις ωσιν υμων' (in your ears), while the Vietnamese 'trong tai các ngươi' is acceptable. However, there is a potential issue with 'η γραφη αυτη' (this scripture/writing). The Vietnamese 'lời Kinh Thánh này' is a standard rendering, but I must ensure no substantive meaning is lost. Wait, looking closer: 'εν τοις ωσιν υμων' means 'in your ears'. The translation is accurate. Let me re-evaluate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

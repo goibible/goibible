@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'απεκρινατο αυτοις' (answered them), but the Vietnamese translation omits the recipient of the answer ('họ' / 'them')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

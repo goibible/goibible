@@ -1,0 +1,39 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full Leviticus QA batch.",
+  "groups": [
+    {
+      "name": "Leviticus full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "LEV 1",
+        "LEV 2",
+        "LEV 3",
+        "LEV 4",
+        "LEV 5",
+        "LEV 6",
+        "LEV 7",
+        "LEV 8",
+        "LEV 9",
+        "LEV 10",
+        "LEV 11",
+        "LEV 12",
+        "LEV 13",
+        "LEV 14",
+        "LEV 15",
+        "LEV 16",
+        "LEV 17",
+        "LEV 18",
+        "LEV 19",
+        "LEV 20",
+        "LEV 21",
+        "LEV 22",
+        "LEV 23",
+        "LEV 24",
+        "LEV 25",
+        "LEV 26",
+        "LEV 27"
+      ]
+    }
+  ]
+}

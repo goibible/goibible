@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η αμαρτιαν εποιησα εμαυτον' translates to 'I have made myself a sinner' (or 'I have sinned'). The Vietnamese 'Tôi có phạm tội lỗi chăng' translates to 'Have I committed a sin?' (a question). The Greek is a declarative statement, not a question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενικησεν' (enikēsen) is in the aorist tense, indicating a completed action ('has conquered' or 'conquered'). The Vietnamese 'đã thắng' is a correct past tense, but the structure 'để mở' (in order to open) suggests a purpose/intent. The Greek 'ανοιξαι' (anoixai) is an aorist active infinitive, which in this context functions as a result or a description of the action following the victory, not necessarily a purpose clause ('in order to')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

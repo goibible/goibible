@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου μη πιω' is a double negative (οὐ μὴ), which functions as a strong negative. The Vietnamese translation 'sẽ không uống' correctly captures the negation, but the Greek 'ου μη' in this context of a vow often implies a stronger sense of 'will not' or 'shall not'. More importantly, the Vietnamese 'từ nay' (from now) is an addition; while implied by the context of the speaker's declaration, it is not explicitly in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η βασιλεια του θεου ελθη' means 'the kingdom of God comes/arrives'. The Vietnamese 'nước Đức Chúa Trời đến' is a literal translation of 'kingdom', but the Greek 'βασιλεια' refers to the 'Kingdom' (the reign/rule) of God, not 'water' (nước). While 'nước' is the standard word for Kingdom in Vietnamese, it is worth noting that 'đến' (comes) correctly captures 'ελθη'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

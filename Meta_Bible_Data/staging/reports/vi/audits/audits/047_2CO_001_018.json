@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο λογος ημων' (our word) refers to the word/message of the speakers, but the Vietnamese 'lời chúng tôi nói' adds the verb 'nói' (speak/say) which is not explicitly in the Greek. More importantly, the Vietnamese 'chẳng phải vừa \"phải\" vừa \"không\"' (not both 'must' and 'not') is a significant mistranslation of 'ουκ εγενετο ναι και ου' (was neither yes nor no). The Greek describes a state of being/existence (e.g., 'it was not yes nor no'), whereas the Vietnamese interprets it as an obligation or a choice between 'must' and 'not'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κεκενωται' (kekenōtai) is a passive verb meaning 'is made void' or 'is rendered useless'. The Vietnamese translation 'ra vô ích' (becomes useless) is an active/resultative construction that misses the passive sense of being rendered void by the preceding condition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αὐτῷ' (autō) is a dative pronoun meaning 'to Him' or 'unto Him'. The Vietnamese translation 'Nguyền Ngài' uses 'Nguyền' which means 'to curse' or 'to vow/swear', completely misinterpreting the grammatical function of the pronoun as a verb."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εἰς πᾶσας τὰς γενεὰς' (eis pasas tas geneas) means 'to all generations'. The Vietnamese 'trải qua mọi dòng dõi' (through/across all lineages) changes the direction of the action from 'to' to 'through'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

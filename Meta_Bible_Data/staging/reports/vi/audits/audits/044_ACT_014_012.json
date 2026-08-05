@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερμην' (Hermēn) is a name/title, but the Vietnamese 'Hẹt-mê' appears to be a phonetic rendering of 'Hermes' or another name. More importantly, the Greek 'ηγουμενος' (hēgumenos) means 'leader', 'ruler', or 'chief'. The Vietnamese 'người dẫn đầu lời' ('the one who leads/guides the word') is an acceptable rendering of the concept, but the specific identity of the names must be checked against the source. However, the primary issue is the potential confusion of the name 'Hermes' vs 'Hermēn'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα' (ina) expresses purpose ('so that', 'in order that'), but the Vietnamese translation uses 'tức là' (which means 'that is' or 'namely'), changing a purpose clause into an appositive/definitional clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

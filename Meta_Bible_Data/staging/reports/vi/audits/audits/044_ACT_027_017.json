@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βοηθειαις' (with help/assistance) is rendered as 'dùng sự giúp đỡ' (using the help), but more importantly, the Greek 'εχρωντο' (were binding/fastening) is translated as 'nịt chặt' (binding tightly), which is acceptable. However, the phrase 'τε μη εις την συρτιν εκπεσωσιν' means 'lest they be cast into the sand' (fear of being grounded). The Vietnamese 'lại sợ mắc cạn vào cát lún' (again feared getting stuck in quicksand) adds 'cát lún' (quicksand), which is a specific interpretation not present in the Greek 'σύρτιν' (sand/shore)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαλασαντες το σκευος' means 'letting go of the vessel/cargo'. The Vietnamese 'hạ đồ đựng xuống' implies 'putting the cargo down' or 'lowering it', which slightly shifts the action from releasing/letting go to a deliberate lowering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

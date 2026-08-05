@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η μεριμνα του αιωνος τουτου' refers to the 'care of this age' (the present world/era), but the Vietnamese 'đời nầy' (this life) can be interpreted as the individual's lifespan rather than the current era/age."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nó trở nên không kết quả' uses 'nó' (it), which refers back to the person ('kẻ'). The Greek 'ακαρπος γινεται' refers to the person becoming unfruitful/unproductive. In Vietnamese, 'nó' is often used for objects; 'hắn' or 'người ấy' would be more accurate for a person, though 'nó' can be used colloquially. However, the main issue is ensuring the subject of 'unfruitful' is clearly the person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

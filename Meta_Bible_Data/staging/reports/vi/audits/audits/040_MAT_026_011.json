@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχετε' (have) is in the present tense, but the Vietnamese 'hằng có' (always have) combined with the preceding 'Vì' (Because/Since) creates a causal structure that isn't explicitly in the Greek. More importantly, the Greek 'εχετε μεθ εαυτων' means 'you have [them] with yourselves', while the Vietnamese 'ở cùng mình' is a standard rendering. The main issue is the logical flow: the Greek is a contrastive statement ('For you always have the poor with you, but you do not always have me'). The Vietnamese 'Vì' (Because) implies a causal link that isn't present in the Greek 'γαρ' (for/because), which here functions as a connective rather than a causal 'since'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

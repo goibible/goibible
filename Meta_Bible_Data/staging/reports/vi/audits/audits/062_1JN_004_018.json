@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε φοβουμενος' (the one who fears) is translated as 'kẻ sợ hãi' (the person who fears), but the context of the verse and the contrast with 'τελεια αγαπη' (perfect love) indicates it refers to 'the one who is not perfect in love' or 'the one lacking perfect love'. More importantly, the Greek 'ου τετελειωται εν τη αγαπη' means 'is not made perfect in love' (passive/resultative), while 'chưa được trọn vẹn trong tình yêu thương' is a general state. However, the primary issue is that 'ο δε φοβουμενος' describes the subject who lacks perfect love, not just anyone who feels fear."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

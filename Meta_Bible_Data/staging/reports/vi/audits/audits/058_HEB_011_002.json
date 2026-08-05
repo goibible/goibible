@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'nhờ đức tin' (by faith), which is not present in the Greek text. The Greek 'εν ταυτη' refers back to a previously mentioned thing (likely 'the word' or 'the testimony' depending on context), but it does not explicitly mean 'faith'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

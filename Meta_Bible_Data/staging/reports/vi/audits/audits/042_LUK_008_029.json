@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαρρησσων τα δεσμα' (breaking the bonds) is an active participle describing what the spirit was doing, but the Vietnamese phrasing 'người vẫn xé đứt dây xích' attributes the action of breaking the bonds to the man ('người'). In the Greek, the spirit is the one breaking the bonds while being held."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

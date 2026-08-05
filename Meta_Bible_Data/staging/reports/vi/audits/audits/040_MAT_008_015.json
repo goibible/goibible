@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 8,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηψατο της χειρος αυτης' means 'He took her hand' (literally 'took of her hand'), whereas the Vietnamese 'chạm vào tay nàng' means 'touched her hand'. While similar, 'taking' implies a firmer action than 'touching'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγερθη' is a passive construction (she was raised/lifted up), while the Vietnamese 'nàng chỗi dậy' uses an active verb ('she stood up/rose'). This changes the agency of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

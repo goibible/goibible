@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποκτεινας' (apokteinas) is an aorist active participle, meaning 'having slain/killed'. The Vietnamese 'đã giết' (has killed/killed) is a perfect/past tense verb. While similar, the Greek structure links the act of killing directly to the 'reconciliation' as a continuous or resultant state of the cross's work, but more importantly, the Vietnamese word order suggests the killing happened *before* the reconciliation as a completed action, whereas the Greek treats them as closely linked results of the cross."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'την εχθραν εν αυτω' refers to 'the enmity in it' (referring back to the body/unity). The Vietnamese 'trong chính nó' (in itself) is slightly ambiguous as to whether 'nó' refers to the cross or the body, though contextually it usually implies the body. However, the Greek emphasizes the reconciliation of 'both' (αμφοτερους) into 'one body' (εν ενι σωματι). The Vietnamese phrasing 'hòa giải cả hai trong một thân thể' is acceptable, but the placement of 'nhờ thập tự giá' at the beginning shifts the grammatical focus compared to the Greek structure where 'reconciliation' is the primary subject/action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

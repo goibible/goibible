@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'πληρωμα ουν νομου' (plērōma oun nomou) means 'the fulfillment of the law,' but the Vietnamese translation renders it as 'sự đầy dẫy của luật pháp' (the fullness/abundance of the law). While 'đầy dẫy' can mean fullness, in the context of 'πληρωμα' regarding a Law (nomos), it specifically refers to the 'fulfillment' or 'completion' of the law. More importantly, the Vietnamese translation misses the logical connector 'ουν' (oun), which functions as 'therefore' or 'so,' making the second clause a conclusion of the first."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

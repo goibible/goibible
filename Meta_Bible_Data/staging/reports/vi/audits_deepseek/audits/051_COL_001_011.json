@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μακροθυμίαν' (long-suffering/patience) is translated as 'sự nhịn nhục' (forbearance/patience), which is the same as the translation of 'ὑπομονήν' (endurance/patience). This conflates two distinct concepts, making the Vietnamese reader think both refer to the same thing, whereas the Greek distinguishes between endurance (ὑπομονήν) and long-suffering (μακροθυμίαν)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

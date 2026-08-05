@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation incorrectly interprets the rhetorical question. The Greek 'ουχι ο ανακειμενος' (not the one reclining) is part of the comparison 'the reclining vs the servant'. The Vietnamese 'Há chẳng phải kẻ ngồi ăn sao?' translates to 'Is it not the one reclining?', which reverses the logical flow of the Greek contrast."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese version fails to capture the specific rhetorical structure of the Greek, which asks 'Who is greater: the one reclining or the servant?' and then clarifies that it is NOT the one reclining. The Vietnamese phrasing makes it sound like a separate question about who is bigger."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εως αν εκβαλη εις νικος την κρισιν' implies 'until the judgment is brought forth to victory' or 'until the judgment results in victory'. The Vietnamese 'đem sự phán xét đến sự thắng' suggests bringing judgment *to* victory, which slightly obscures the Greek sense of the judgment itself being the means/result of victory."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

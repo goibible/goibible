@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 14,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηποτε θεντος' (not having finished/completed) is rendered as 'không thể làm xong' (cannot finish). The Greek implies a state of non-completion, not an inability to complete."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εκτελεσαι' (to complete/finish) refers specifically to the completion of the foundation ('θεμελιον') or the work started. The Vietnamese 'làm xong' is slightly too general, though the primary issue is the shift from 'not having finished' to 'cannot finish'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

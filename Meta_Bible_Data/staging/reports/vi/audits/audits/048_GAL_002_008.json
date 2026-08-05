@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις αποστολην της περιτομης' refers to the 'mission of the circumcision' (the Jewish people). The Vietnamese translation 'để giao chức vụ sứ đồ cho người chịu cắt bì' (to give the apostleship to those who are circumcised) changes the meaning from a mission/sending *of* the group to an act of *bestowing* a specific office *upon* individuals."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

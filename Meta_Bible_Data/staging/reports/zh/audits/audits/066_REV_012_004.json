@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 12,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Greek 'το τεκνον αυτης' is singular ('her child'), but Chinese renders it as '她的兒女' (plural 'her children')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

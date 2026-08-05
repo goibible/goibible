@@ -1,0 +1,26 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγειρας' (egeiras) is 2nd person singular present active, meaning 'you raise' or 'you are raising'. The Vietnamese 'Đấng đã khiến... sống lại' (The One who has caused... to live again) changes the subject from 'you' to a third-person 'The One', and changes the tense from present to past/perfect."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαιησου' (dia Iēsou) means 'through Jesus'. The Vietnamese 'với Chúa Giê-xu' (with Jesus) changes the relationship from agency/means to accompaniment."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'cùng với anh em' (together with brothers/siblings) at the end, which is not present in the Greek text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

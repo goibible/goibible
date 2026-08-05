@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation changes the grammatical structure of the Greek. In the Greek, 'τον ποιμενα' (the shepherd) is the direct object of 'αναγαγων' (brought out). The Vietnamese structure makes it sound as if 'Đức Chúa Trời bình an' (God of Peace) is the one who was brought out ('đã đem... ra khỏi')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'τον κυριον ημων' (our Lord) is missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

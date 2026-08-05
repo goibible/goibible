@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ενιαυτον' (enianton) means 'for a year', but the Vietnamese translation 'trong suốt một năm' (during/throughout one year) combined with the structure 'Xảy ra trong suốt một năm' implies it happened *within* a year or *during* a year, whereas the Greek denotes a duration of one year."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ικανον χρηματισαι' (ikanon chrimatisei) means 'capable of earning/making a living'. The Vietnamese translation completely omits this concept, missing the specific purpose of the teaching."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

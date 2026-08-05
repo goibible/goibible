@@ -1,0 +1,22 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτοι ενυπνιαζομενοι' (these people, being in a dream/trance) is rendered as 'những kẻ này mơ màng'. While 'mơ màng' captures the sense of being in a dream-like state, the Greek 'ενυπνιαζομενοι' specifically refers to being under a spiritual trance or delusion. More importantly, the Vietnamese 'khước từ quyền cai trị' (rejecting authority/rule) is a significant mistranslation of 'δε αθετουσιν δοξας'. The Greek 'δοξας' here refers to 'glories' or 'honors', and 'αθετουσιν' means 'they do not [honor/revere]'. The Vietnamese translation implies a political/authoritative rejection ('quyền cai trị') which is not in the text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δε βλασφημουσιν' (they do not blaspheme) is rendered as 'phạm thượng đến vinh hiển'. The Greek is a negative statement ('do not blaspheme'), whereas the Vietnamese phrasing 'phạm thượng đến vinh hiển' suggests they are committing blasphemy *against* glory/honor, or perhaps that they are blaspheming *to* glory. It fails to capture the simple negation of the act of blasphemy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

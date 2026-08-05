@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηκει' (ēkei) means 'returned' or 'came back', but the Vietnamese 'đã về' (already returned) combined with the context of the father's action suggests a state. More importantly, the Greek 'ουτι' (outi) is a negative conjunction ('not that'), which is completely omitted in the Vietnamese translation. The Greek reads 'He did not say to him that...', but the Vietnamese renders it as an affirmative statement."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

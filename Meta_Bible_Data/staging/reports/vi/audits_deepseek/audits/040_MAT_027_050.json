@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 27,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το πνεῦμα' (the spirit) is rendered as 'Thánh Linh' (the Holy Spirit), which adds a specific theological identity not present in the Greek. The Greek simply says 'the spirit' (referring to Jesus' own spirit/breath of life), not the Holy Spirit. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

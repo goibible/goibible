@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 13,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek has three pairs of vices: (1) κωμοις και μεθαις (carousing and drunkenness), (2) κοιταις και ασελγειαις (sexual immorality and debauchery), (3) εριδι και ζηλω (strife and jealousy). The Vietnamese renders the first pair as 'ăn uống say sưa và say sưa' (eating/drinking drunkenness and drunkenness) — repeating 'say sưa' instead of distinguishing 'carousing' from 'drunkenness'. The second pair is rendered 'sự buông tuồng và sự buông tuồng' (debauchery and debauchery) — repeating the same word instead of distinguishing 'sexual immorality' (κοιταις) from 'debauchery' (ασελγειαις). The third pair is rendered 'sự tranh cạnh và lòng sốt sắng' (strife and zeal/fervor) — 'ζηλω' is mistranslated as 'lòng sốt sắng' (zeal/fervor) rather than 'jealousy/envy' (ζηλος in this context means jealousy/envy, not positive zeal). These mistranslations change the meaning of the verse's list of vices."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

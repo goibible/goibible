@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'των αυτων' (of them) refers back to the 'οχλον' (crowds). The Vietnamese translation 'của họ' (of them/their) at the end of the sentence implies that Jesus healed the sick people *belonging* to the crowd, whereas the Greek structure indicates He healed the sick *among* or *within* that crowd."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

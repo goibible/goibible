@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 6,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ευ' (eu) is an adverb meaning 'well/good', used here to modify the verb 'γενηται' (become/happen). The Vietnamese translation renders this as 'được phước' (be blessed), which is a substantive change in meaning. The Greek implies 'that it may happen well for you' or 'that it may be well for you', whereas 'được phước' introduces the specific theological concept of 'blessing' which is not explicitly stated in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

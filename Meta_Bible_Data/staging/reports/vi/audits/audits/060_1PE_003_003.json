@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'lòe loẹt' (gaudy/flashy) to describe the clothing, which is not present in the Greek text ('ιματιων')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'κοσμος' as 'sự của thế gian' (things of the world/worldly things), whereas the Greek 'κοσμος' in this context refers to 'adornment' or 'decoration'. The translation shifts the meaning from the nature of the adornment to its origin."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

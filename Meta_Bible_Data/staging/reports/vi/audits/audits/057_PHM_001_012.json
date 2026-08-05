@@ -1,0 +1,22 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σπλαγχνα' (splagchna) refers to the internal organs/viscera, often used metaphorically for deep compassion or bowels. The Vietnamese 'lòng thương xót' (mercy/compassion) is a common theological rendering, but 'σπλαγχνα' in this specific context (often associated with the 'bowels' of Jesus) carries a visceral, physical imagery that 'thương xót' alone might soften. However, more critically, 'προσλαβου' means 'to take hold of/seize/grasp'. The Vietnamese 'nhận lấy' (receive/take) is slightly weaker than the active grasping implied by 'προσλαβου'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'σπλαγχνα' is plural, while 'lòng thương xót' is a singular abstract concept. While often acceptable in translation, it loses the specific visceral nuance of the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

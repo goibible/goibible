@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τηρεισθαι' is a passive infinitive meaning 'to be kept/guarded'. The Vietnamese 'giữ Phao-lô' (keep Paul) combined with the subsequent clause suggests an active command or a state of being, but it misses the specific nuance that Paul is to be *kept* by the centurion. More importantly, the Greek 'μηδενα κωλυειν' means 'to not hinder anyone', but the Vietnamese 'đừng cấm ai' (don't forbid anyone) shifts the meaning from 'not preventing/hindering' to 'not forbidding'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'προσερχεσθαι αυτω' is an infinitive of purpose or action related to the preceding verbs. The Vietnamese 'đến gần người' (come near him) loses the connection to the 'hầu việc' (serve) part of the construction, which in Greek are linked as actions that should not be hindered."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'θυμος και οργη' (thymos kai orgē) are two distinct nouns for anger/wrath. The Vietnamese translation repeats the same word 'thạnh nộ' twice, failing to distinguish between the two different types of anger expressed in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

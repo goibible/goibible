@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αὐτοῦ' (autou) refers back to a specific person/entity mentioned in the preceding context (likely Jesus or a specific figure), whereas the Vietnamese 'người ấy' (that person) is ambiguous. More importantly, the Greek 'ἀλλοτριω' (allotriō) is an imperative/exhortation ('let them not...'), while the Vietnamese 'sẽ không' (will not) renders it as a future prediction rather than a command or instruction."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

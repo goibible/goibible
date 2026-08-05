@@ -1,0 +1,26 @@
+{
+  "book": "ROM",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εισιν φοβος' (are not the fear) is a common idiom for 'do not fear'. The Vietnamese translation 'không phải là sự sợ hãi' (are not the fear) takes it literally as an identity, whereas the Greek implies a prohibition/command ('do not fear')."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits 'των κακων' (of the evil [things]) in the second clause, or rather, it fails to capture the contrast. The Greek says they are not fear of good works but [fear] of evil things."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Ngươi muốn đừng sợ quyền ư?' (Do you want not to fear power?) is a slightly awkward rendering of 'θελεις δε μη φοβεισθαι την εξουσιαν' (do you wish not to fear authority/power?). While the meaning is close, the Vietnamese phrasing makes it sound like a question about desire rather than the rhetorical prompt in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

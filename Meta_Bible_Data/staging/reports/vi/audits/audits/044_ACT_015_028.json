@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εδοξεν' (edoxen) is a passive/impersonal verb meaning 'it seemed' or 'it was considered.' The Vietnamese translation 'đã thấy tốt' (found it good) attributes the action of 'finding/thinking' to 'Thánh Linh và chúng ta' (Holy Spirit and we), making it an active joint action. In Greek, the Holy Spirit is the subject of the judgment/opinion ('it seemed to the Holy Spirit'), not a co-subject with 'us'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

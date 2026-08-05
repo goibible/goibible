@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αναπεσαι' (anapesai) is a command/imperative to 'come down' or 'sit down' (from 'anapiesthai'). The Vietnamese 'Hãy đến ngay mà ngồi ăn' adds the concept of 'eating' (ăn), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

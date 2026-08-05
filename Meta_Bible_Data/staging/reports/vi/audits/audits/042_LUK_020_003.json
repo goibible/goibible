@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ερωτησω' is a future tense verb (I will ask), but the Vietnamese 'hãy nói cho ta' (please tell me / speak to me) changes the action from an inquiry into a command/request for an answer."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ερωτησω υμας' means 'I will ask you'. The Vietnamese 'hãy nói cho ta' omits the act of the speaker asking and replaces it with a request for the listeners to speak."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

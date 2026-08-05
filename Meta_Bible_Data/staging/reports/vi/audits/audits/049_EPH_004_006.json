@@ -1,0 +1,22 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Chỉ có' (Only/Only there is) at the beginning, which is not present in the Greek text ('εις')."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translates 'παντων' as 'mọi người' (all people), whereas the Greek 'παντων' is the genitive plural of 'πᾶς' (all/every), which in this context usually refers to 'all things' or 'all' generally, not specifically 'people'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

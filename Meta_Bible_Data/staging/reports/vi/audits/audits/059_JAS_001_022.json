@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'παραλογιζομενοι' (paralogizomenoi) means 'reasoning wrongly' or 'deluding oneself/thinking incorrectly'. The Vietnamese translation 'lừa dối chính mình' (deceiving oneself) captures the sense of self-delusion but misses the specific nuance of 'reasoning' or 'thinking' incorrectly as specified by the Greek verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

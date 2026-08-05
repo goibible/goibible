@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαπονηθεις' (diaponētheis) is a passive participle meaning 'having been oppressed/tormented.' The Vietnamese 'lấy làm bực mình' translates to 'getting annoyed/irritated,' which significantly understates the severity of the Greek term (oppression/torment)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιστρεψας τω πνευματι' (epistrepsas tō pneumati) means 'turning to the Spirit' (the Holy Spirit). The Vietnamese 'quay lại nói với thần linh' translates to 'turned back to speak to the spirits/deities,' which changes the theological object from the Holy Spirit to general spirits."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

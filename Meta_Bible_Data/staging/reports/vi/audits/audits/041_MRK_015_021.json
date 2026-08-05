@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 15,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'của Ngài' (His/of Him) implies the cross belonged to Jesus. The Greek text 'αμη του σταυρον αυτου' refers to 'his' cross, where 'αυτου' (his) refers back to the subject being captured, Simon of Cyrene."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

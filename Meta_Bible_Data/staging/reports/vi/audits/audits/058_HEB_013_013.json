@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεμβολης' (parembolis) refers to a 'parapet', 'bulwark', or 'fortification' (the physical wall/barrier of the camp), whereas the Vietnamese 'trại quân' means 'military camp'. While related, 'trại quân' implies the entire encampment area, while the Greek specifically highlights the barrier/wall."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

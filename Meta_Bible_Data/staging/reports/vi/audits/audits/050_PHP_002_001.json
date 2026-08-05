@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'σπλαγχνα' (splangchna) refers to 'affections', 'bowels', or 'deep inner feelings'. The Vietnamese translation renders both 'σπλαγχνα' and 'οικτιρμοι' as 'lòng thương xót' (mercy/compassion), which results in a loss of the distinction between the two Greek concepts."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

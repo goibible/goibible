@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 9,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰ' (ei) is a conditional particle ('if'), not a rhetorical question. The Vietnamese translation adds a rhetorical question structure ('há có phải là... sao?') which changes the logical flow from a conditional statement to a rhetorical inquiry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

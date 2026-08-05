@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εποιησεν αυτη' (the one who did this) refers to the person who performed the act/work mentioned in the Gospel. The Vietnamese translation 'việc người ấy đã làm' (the work that person did) and 'để nhớ đến người' (to remember that person) shifts the focus. In Greek, 'εις μνημοσυνον αυτης' refers to the 'memory of this' (the act/Gospel), not necessarily the memory of a specific person. The Vietnamese makes it sound like the Gospel is being told specifically to commemorate a person's life, whereas the Greek indicates that the act itself is remembered/memorialized through the proclamation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

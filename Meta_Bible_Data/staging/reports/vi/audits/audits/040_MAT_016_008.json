@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι διαλογιζεσθε εν εαυτοις' (what are you discussing/reasoning among yourselves) is translated as 'sao các ngươi bàn luận với nhau về việc...' (why are you discussing the matter of...). The Vietnamese adds a 'why' (sao) and a specific object structure ('về việc') that shifts the Greek's direct question about their internal reasoning into an inquiry about a specific topic."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

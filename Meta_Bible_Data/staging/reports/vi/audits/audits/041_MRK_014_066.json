@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 14,
+  "verse": 66,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'και οντως' (kai ontos) means 'and indeed' or 'and truly,' which is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'đang' (is/was), but more importantly, it fails to capture the emphatic 'οντως' which sets the tone of the narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

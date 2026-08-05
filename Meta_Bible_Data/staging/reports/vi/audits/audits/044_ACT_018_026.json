@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσελαβοντο' (proselabonto) means 'took him to themselves' or 'received him into their company/home.' The Vietnamese translation 'đem người về với mình' (brought the person back to themselves) implies a return or a movement back to a previous location, which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

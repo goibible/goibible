@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 22,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'hơn hết' (more than all/above all), which is not present in the Greek text. The Greek simply says 'megale' (great/large)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 18,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ηθελησεν επι χρονον' means 'he did not want [to do it] for a while' (indicating a duration of time/persistence), but the Vietnamese 'không muốn trong một thời gian' can be interpreted as 'didn't want [it] during a period of time,' which misses the nuance of duration/persistence in his behavior. More importantly, the Greek 'μετα δε ταυτα' means 'after these things' (referring to specific preceding events), whereas the Vietnamese 'nhưng sau đó' (but after that) loses the specific reference to 'these things'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

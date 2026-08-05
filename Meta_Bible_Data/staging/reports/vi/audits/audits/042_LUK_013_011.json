@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πνευμα εχουσα ασθενειας' (having a spirit of infirmity) is translated as 'bị Thánh Linh yếu đuối' (being by/affected by the Holy Spirit [of] weakness). In Vietnamese, 'Thánh Linh' specifically refers to the Holy Spirit, whereas the Greek 'πνεῦμα' simply means 'spirit'. This adds a specific theological entity (the Holy Spirit) that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

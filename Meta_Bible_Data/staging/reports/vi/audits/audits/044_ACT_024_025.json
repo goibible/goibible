@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 24,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαλεγομενου δε αυτου' (while he was discussing/reasoning with him) implies a dialogue between two people. The Vietnamese translation 'Khi người nói về' (When the person spoke about) omits the reciprocal nature of the dialogue (the fact that they were speaking *with* each other)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εσεσθαι εμφοβος γενομενος' indicates that Philemon became fearful *as a result of/during* the discussion. The Vietnamese structure makes it sound like a chronological sequence (When X happened, then Y happened) rather than a reaction to the specific content of the dialogue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

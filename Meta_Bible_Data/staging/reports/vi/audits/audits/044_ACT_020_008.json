@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ικαναι' (ikanai) means 'sufficient' or 'enough', not 'many' (πολλές). The Vietnamese translation 'nhiều' (many) changes the meaning of the quantity described."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνηγμενοι' (sunēgmenoi) refers to being 'joined together' or 'united', whereas the Vietnamese 'nhóm lại' usually implies 'gathering' or 'grouping' in a spatial sense, though this is borderline. However, the 'many' vs 'sufficient' error is the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

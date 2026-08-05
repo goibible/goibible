@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απεκριθησαν' (apekrithēsan) is in the aorist tense and means 'answered' or 'replied'. The Vietnamese translation 'thưa rằng' (said/reported) misses the specific sense of 'replying' to a question or statement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'ουδεποτε' (oudepote), which means 'never'. While the Vietnamese 'Chẳng hề' covers this, the phrase 'ông người nầy' (this man) is used to translate 'οτος ο ανθρωπος', but the Vietnamese misses the specific nuance of 'never' being applied to the act of speaking in the past/general sense as clearly as the Greek structure implies."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

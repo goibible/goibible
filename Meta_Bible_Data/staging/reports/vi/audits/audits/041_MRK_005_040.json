@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεγελων αυτου' (they mocked Him) is translated as 'Họ nhạo báng Ngài'. While the meaning is correct, the Vietnamese 'nhạo báng' can sometimes carry a nuance of 'scoffing' or 'derision' rather than just mocking. However, the primary issue is the Greek 'ο δε εκβαλων' which means 'but He cast out/expelled'. The Vietnamese 'đuổi hết thảy ra ngoài' (drove everyone out) captures the action but 'ekballo' specifically implies a forceful casting out or expelling."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου γαρ αδικος ο θεος' (for God is not unjust) is rendered as a double negative 'không phải là không công bình'. While logically equivalent, the Vietnamese structure slightly obscures the directness of the Greek assertion. More importantly, the phrase 'επιλαθεσθαι' (to forget) is part of a construction where the 'not' (ου) at the beginning applies to the entire clause. The Vietnamese translation treats 'không công bình' as a standalone description, potentially confusing the scope of the negation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'διακονησαντες' is an aorist participle (having served), while 'διακονουντες' is a present participle (serving). The Vietnamese translation 'đã phục vụ... và đang phục vụ' captures this, but the Greek structure implies they were serving *while*/at the time of the work. However, the main issue is the scope of the initial negation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

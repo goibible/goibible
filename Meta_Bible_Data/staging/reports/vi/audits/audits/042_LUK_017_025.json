@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποδοκιμασθηναι' (apodokimasthēnai) means 'to be rejected/disowned' by the generation, but the Vietnamese 'từ bỏ' (to abandon/leave) lacks the specific nuance of being 'rejected' or 'disowned' as a person. Furthermore, the Greek implies being rejected *by* the generation, whereas 'bị dòng dõi nầy từ bỏ' can be read as being abandoned by them, but 'αποδοκιμασθηναι' specifically carries the weight of being cast out/rejected."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 21,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'họp lại cùng nhau' (met together) is a stylistic addition/interpretation. The Greek 'ησαν ομου' simply means 'were together' (were present together), describing their state of being in a location rather than the action of meeting."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese 'hai môn đồ khác nữa' (two other disciples) slightly shifts the emphasis. The Greek 'αλλοι εκ των μαθητων αυτου δυο' refers to 'others from his [Jesus'] disciples,' where 'δυο' (two) refers back to the two sons of Zebedee mentioned just before, or potentially a specific grouping, but the Vietnamese structure makes it sound like there were exactly 'two others' in addition to the sons."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

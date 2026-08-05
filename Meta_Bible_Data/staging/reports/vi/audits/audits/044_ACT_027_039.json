@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ επεγινωσκον την γην' means 'they did not recognize the land'. The Vietnamese translation 'không nhận biết đất' omits the object 'land' (γην) or treats it as a general lack of recognition, but more importantly, the Greek structure implies they didn't recognize the land [as a place to land], whereas the Vietnamese phrasing is slightly ambiguous."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κολπον δε τινα κατενοουν εχοντα αιγιαλον' means 'but they saw [no] bay having a beach'. The Vietnamese translation 'thấy một cái lòng có bờ biển' translates this as an affirmative ('saw a bay with a beach'), whereas the Greek 'ουκ' (not) at the beginning of the sentence governs the entire clause, meaning they did NOT see any bay with a beach."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

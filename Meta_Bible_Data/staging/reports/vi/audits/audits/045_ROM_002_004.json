@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text includes 'μακροθυμιας' (longsuffering/patience), but the Vietnamese translation repeats 'sự nhịn nhục' twice, omitting the distinct concept of longsuffering."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σε αγει' (leads you) is rendered as 'dẫn ngươi đến' (leads you to), which is acceptable, but the repetition of 'sự nhịn nhục' for two different Greek words creates a loss of substantive content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

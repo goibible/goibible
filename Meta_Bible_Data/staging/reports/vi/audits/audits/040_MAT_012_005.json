@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ ανεγνωτε' is a rhetorical question (Have you not read...?), but the Vietnamese translation 'Hay các ngươi chưa đọc...' adds 'Hay' (Or/Do), which slightly shifts the tone, though the primary issue is the handling of the negative. However, more importantly, the Greek 'αναιτιοι εισιν' means 'they are blameless/guiltless'. The Vietnamese 'mà vẫn vô tội' implies they committed the act *but* remained innocent (a paradox), whereas the Greek structure describes their status as blameless while performing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

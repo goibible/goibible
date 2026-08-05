@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 14,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εξεστιν σοι εχειν αυτην' (it is not for you to have her) is translated as 'không có phép lấy' (no permission/right to take). While 'lấy' can mean 'have', the Vietnamese phrasing implies a legal permission or a prohibition on the act of 'taking' someone, whereas the Greek 'εχειν' simply means 'to have' or 'to possess'. More importantly, the Vietnamese 'người đó' (that person) is used for 'αυτην' (her), which loses the specific feminine gender of the Greek pronoun."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

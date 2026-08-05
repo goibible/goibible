@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κρινει' (judges) is a verb, but the Vietnamese 'đoán xét' (judge/guess/examine) in this context is used as a future prediction ('sẽ đoán xét'), whereas the Greek describes an ongoing action or characteristic of the 'uncircumcised' (the uncircumcised judges/is judging). More importantly, the Vietnamese structure suggests the 'uncircumcised' is the subject performing the judging, but the phrasing 'làm trọn luật' (completes the law) is awkwardly linked to the subject in a way that obscures the Greek grammar where 'τελουσα' (completing) modifies the act of judging/the subject."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nhờ chữ và phép cắt bì' (thanks to/by means of the letter and the rite of circumcision) misinterprets the Greek 'σε τον δια γραμματος και περιτομης' (in the [letter] of the law and circumcision). The Greek indicates that the person is a transgressor *of* the law/circumcision, not that they became a transgressor *because of* or *by means of* it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

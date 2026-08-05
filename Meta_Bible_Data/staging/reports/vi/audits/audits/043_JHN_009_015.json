@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation shifts the perspective of the subject. The Greek 'επι τους οφθαλμους μου' (on my eyes) and 'ενιψαμην' (I washed) indicates the blind man is speaking in the first person ('I'). The Vietnamese translation renders this as 'Người ấy đã bôi... lên mắt tôi' (He put... on my eyes), which makes it sound like someone else performed the action, whereas the Greek implies the man spoke about his own experience/action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

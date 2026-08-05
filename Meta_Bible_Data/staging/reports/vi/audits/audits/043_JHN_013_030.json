@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'ευθεως' (immediately) is translated as 'nhúng' (dipped), which is a complete mistranslation/substitution of the adverbial meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

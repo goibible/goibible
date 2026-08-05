@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηρεσεν ο λογος' (the word/message pleased) is translated as 'lấy lời đó làm đẹp lòng' (took that word to please [them]), which shifts the subject of the action. In Greek, the *Word* is the subject doing the pleasing; in Vietnamese, it implies the *people* took the word to do something."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πνευματος αγιου' (Holy Spirit) is rendered as 'Thánh Linh', but the phrase 'πληρη πιστεως και πνευματος αγιου' functions as a description of Stephen. The Vietnamese phrasing 'là người đầy đức tin và Thánh Linh' is slightly ambiguous as to whether it describes Stephen or the group, though the Greek clearly attaches it to him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

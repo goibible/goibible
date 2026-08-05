@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'απολεσαι' (to destroy/perish) in the first clause, rendering it as 'không đến để hủy diệt' (did not come to destroy), but the Greek structure is 'ουκ ηλθεν... απολεσαι' (did not come... to destroy). However, more importantly, the Vietnamese omits the specific object of destruction 'ψυχας ανθρωπων' (souls of men) by simplifying it to 'linh hồn loài người', and the connection between 'cứu' (save) and the subjects is slightly weakened, but the primary issue is the loss of the active verb 'απολεσαι' in a way that makes the contrast less sharp than the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'họ đi qua một làng khác' (they passed through another village) is a slightly different construction than 'επορευθησαν εις ετεραν κωμην'. While 'đi qua' is common, the Greek 'επορευθησαν' implies 'went/proceeded to', and 'κωμην' can mean 'village' or 'settlement'. The Vietnamese 'họ' (they) is an added pronoun for clarity, which is allowed, but the phrase 'đi qua' (passed through) might imply a movement *through* rather than a movement *to/into* ('εις')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

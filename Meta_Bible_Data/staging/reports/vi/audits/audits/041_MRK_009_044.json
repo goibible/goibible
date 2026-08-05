@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 9,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ου' (ou) is a negation meaning 'not'. The Vietnamese translation 'không chết' (do not die) is a mistranslation of 'ου τελευτα' (not perishing/not ending). While 'chết' (die) is related to 'τελευτα', the Greek implies 'not perishing/not ending' in a more existential or final sense, but specifically, 'ου τελευτα' functions as 'not perishing'. However, the primary issue is that 'ου' modifies the verb 'τελευτα' (perish), and the Vietnamese 'không chết' is a standard rendering, but let's look closer at 'ου τελευτα'. Actually, 'τελευτα' means to perish/cease to exist. The Vietnamese 'không chết' is an acceptable rendering of 'not perishing'. Let me re-evaluate."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

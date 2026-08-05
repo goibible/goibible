@@ -1,0 +1,38 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'vì tôi đã hết lòng siêng năng' (because I have been diligent) misinterprets the Greek structure. The phrase 'αγαπητοι πασαν σπουδην ποιουμενος γραφειν υμιν' means 'Beloved, I am writing to you with all diligence' (present tense/continuous action). The Vietnamese 'vì' (because) implies a causal relationship that is not present in the Greek text."
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek phrase 'τη απαξ παραδοθειση' means 'the once delivered' (referring to the faith). The Vietnamese translation 'đã được truyền... một lần đủ rồi' adds 'đủ rồi' (enough/sufficient), which is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the Greek verb 'ειπε' (said/commanded). The Greek text says: 'the devil said to him... [and] said to this stone', whereas the Vietnamese renders the second part as a request or command ('hãy bảo') rather than a direct statement of what was said."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

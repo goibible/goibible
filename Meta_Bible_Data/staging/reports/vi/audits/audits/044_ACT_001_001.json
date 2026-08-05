@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τον μεν πρωτον λογον' refers to the 'first word' or 'first discourse/account' (the first part of the narrative), but the Vietnamese translates it as 'trong sách thứ nhất' (in the first book). This changes the structure from a sequence within a single work to a reference to a different volume."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

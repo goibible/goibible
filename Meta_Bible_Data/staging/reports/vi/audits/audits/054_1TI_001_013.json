@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'bởi không biết' (because I did not know) at the end. The Greek 'αγνοων' is a participle modifying how the action was done ('ignorant/unknowingly'), not a causal clause explaining why."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

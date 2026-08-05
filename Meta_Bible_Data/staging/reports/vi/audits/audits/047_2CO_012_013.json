@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατεναρκησα' (katenarkēsa) refers to 'being harsh/severe' or 'oppressing' in a manner that causes burden. The Vietnamese 'làm nặng nhọc' (making [you] weary/exhausted) captures the result but misses the specific nuance of 'harshness' or 'severity' intended by the Greek verb."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαρισασθε μοι' is an imperative (or optative/subjunctive depending on interpretation) requesting grace/forgiveness. The Vietnamese 'Xin hãy tha thứ cho tôi' correctly captures the request for forgiveness, but the phrase 'sự không công bình này' for 'την αδικίαν ταυτην' is slightly different from 'this injustice/unrighteousness', though it is a close rendering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

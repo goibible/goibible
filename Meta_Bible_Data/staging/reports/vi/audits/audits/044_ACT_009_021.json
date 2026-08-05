@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξισταντο' (existanto) means 'were astonished' or 'were amazed'. The Vietnamese translation uses 'kinh ngạc' (astonished), which is accurate, but the word order and structure in the Vietnamese sentence slightly obscure that the astonishment was the immediate reaction of the listeners to the preceding context (implied). More importantly, the Greek 'ουχ ουτος εστιν ο πορθησας' is a rhetorical question/exclamation ('Is not this the one who...'). The Vietnamese 'Chẳng phải chính người này đã...' captures the negation/rhetorical sense well."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ελεγον' (elegon) is a continuous/imperfect action ('were saying') or a habitual action. The Vietnamese 'nói' is a simple past/present. While often acceptable, the Greek implies an ongoing state of speaking among the crowd."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 5,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'Đấng hằng sống' (the Ever-living One) is not present in the Greek text. The Greek 'εις τους αιωνας των αιωνων' means 'to the ages of ages' (unto the ages of ages). The Vietnamese adds a specific title/attribute for God that is missing from the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

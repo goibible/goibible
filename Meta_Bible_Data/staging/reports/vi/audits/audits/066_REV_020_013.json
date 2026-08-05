@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 20,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν αυτοις' (in them) refers back to the 'necroi' (dead), but the Vietnamese 'trong chúng' (in them) is ambiguous and could be misread as referring to 'sự chết và Âm phủ' (death and Hades). However, the more significant issue is that the Greek 'εν αυτοις' functions as a locative indicating the state of being in death/Hades, whereas the Vietnamese structure slightly obscures the direct object relationship."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'giao nộp' (hand over/surrender) is a strong rendering for 'εδωκεν' (gave), but it captures the meaning accurately. The primary concern is the grammatical clarity of the locative 'εν αυτοις'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

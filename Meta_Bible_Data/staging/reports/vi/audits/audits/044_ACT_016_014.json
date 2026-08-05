@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'làm nghề bán hàng tím' (working in the trade of selling purple) is an interpretation/addition. The Greek 'πορφυροπωλις' is a compound noun meaning 'purple-seller'. While accurate to the root, the Vietnamese phrasing 'làm nghề bán hàng' adds a professional context ('doing the job of') not explicitly structured as a verb phrase in the Greek, but more importantly, the translation of 'πολεως θυατειρων' (of the city of Thyatira) is slightly rearranged. However, the main issue is the flow of the 'hearing' action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese text says 'nghe Chúa mở lòng' (heard God open the heart), whereas the Greek 'ηκουεν ης ο κυριος διηνοιξεν την καρδιαν' indicates that *she* was hearing (the word of God) and *then* the Lord opened her heart. The Vietnamese construction makes it sound like she heard the act of God opening her heart, rather than God opening her heart *while/because* she was hearing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

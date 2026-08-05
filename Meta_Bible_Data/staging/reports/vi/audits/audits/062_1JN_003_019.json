@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 3,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'πεισομεν' (peisomen) means 'to persuade', 'to convince', or 'to put into confidence'. The Vietnamese translation 'làm cho lòng mình được yên ổn' means 'to make our hearts peaceful/calm', which is a different concept than the act of persuading or convincing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

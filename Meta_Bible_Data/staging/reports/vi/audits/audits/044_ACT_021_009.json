@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τουτω' (touto) is a demonstrative pronoun meaning 'these'. The Vietnamese translation 'Người có' (People who have/Those who have) changes the grammatical structure from a demonstrative identification to a possessive description."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ησαν' (ēsan) is a past tense verb ('were'). The Vietnamese translation lacks a tense marker, rendering it as a general statement rather than a historical/narrative past action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

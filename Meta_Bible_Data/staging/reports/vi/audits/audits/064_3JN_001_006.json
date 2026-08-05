@@ -1,0 +1,22 @@
+{
+  "book": "3JN",
+  "chapter": 1,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'σου' (to you) is missing in the Vietnamese translation. The Greek says they testified *to you* about the love, but the Vietnamese omits the recipient of the testimony."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'ους καλως ποιησεις' (you will do well/good to them) uses the second person singular 'you'. The Vietnamese translation 'Anh sẽ làm điều tốt lành' correctly identifies the subject as 'you', but the Greek implies 'doing well *to them* (the ones who testified)', which is slightly obscured in the Vietnamese phrasing."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

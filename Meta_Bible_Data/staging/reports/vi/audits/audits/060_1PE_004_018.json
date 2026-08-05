@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'sẽ ra thế nào' (what will happen/how will it be) changes the rhetorical structure. The Greek 'ο ασεβης και αμαρτωλος που φανειται' is a subject phrase ('the ungodly and sinful man who appears'), not a question about the outcome. The Vietnamese makes it a question of result, whereas the Greek sets up a contrast between two types of people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

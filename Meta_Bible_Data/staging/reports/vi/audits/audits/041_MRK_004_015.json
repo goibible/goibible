@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακουσωσιν' (when they hear) is in the future tense, but the Vietnamese 'khi họ nghe' (when they hear) is a simple present/temporal clause. More importantly, the Greek 'ευθεως' (immediately) is omitted in the Vietnamese translation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αιρε τον λογον' (takes away the word) is translated as 'cất lời' (takes/removes the word). While 'cất' can mean take away, in this specific context of sowing and harvesting, it risks being confused with 'cất' meaning 'to raise' or 'to lift'. However, the primary fidelity issue is the omission of 'ευθεως' (immediately)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

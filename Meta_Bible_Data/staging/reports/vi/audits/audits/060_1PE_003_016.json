@@ -1,0 +1,22 @@
+{
+  "book": "1PE",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνειδησιν εχοντες' (having a conscience) is a participle describing the current state of the subjects. The Vietnamese 'Hãy có' (Let us have/Have) changes this into an imperative command (an exhortation to acquire a conscience), which is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'καταισχυνθωσιν' is a passive verb (will be shamed/ashamed). The Vietnamese 'bị hổ thẹn' captures the passive sense, but the structure 'những kẻ... sẽ bị hổ thẹn' slightly shifts the focus compared to the Greek where the shame is the direct result of the speaking action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

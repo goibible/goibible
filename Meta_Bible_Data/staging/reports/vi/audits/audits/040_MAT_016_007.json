@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 16,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the causal conjunction 'Vì' (Because), which does not exist in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

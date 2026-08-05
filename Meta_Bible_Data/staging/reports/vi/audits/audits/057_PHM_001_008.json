@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final phrase 'το ανηκον' (what belongs to you / what is yours), which specifies the content of what is being commanded."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

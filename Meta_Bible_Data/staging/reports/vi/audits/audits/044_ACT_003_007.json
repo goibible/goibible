@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πιασας αυτον της δεξιας χειρος' (took him by the right hand) is rendered as 'nắm tay hữu' (took/held the right hand), which misses the object 'αυτον' (him). The Vietnamese implies holding a hand, whereas the Greek specifies taking *him* by the hand."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηγειρεν' means 'raising/lifting up'. The Vietnamese 'đỡ dậy' (supporting/lifting up) is acceptable, but the phrase 'người nắm tay hữu người đỡ dậy' suggests two different people performing two different actions, whereas the Greek structure implies a single action of taking him by the right hand to raise him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

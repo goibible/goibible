@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απο της γης επαναγαγειν' means 'to take back/away from the land' (or 'to row away'), but the Vietnamese 'đem ra xa khỏi đất' implies a command to move further away. However, the Greek verb 'επαναγαγειν' in this context specifically refers to the action of rowing/moving the boat away from the shore. More importantly, the Vietnamese 'xin ông đem' suggests a request for someone else to do it, whereas the Greek structure 'ο ην του σιμωνος ηρωτησεν αυτον' indicates that the person who owned the boat (Simon) asked Him (Jesus). The Vietnamese phrasing makes it sound like Jesus is asking Simon to move the boat, but the Greek construction is 'the one of Simon asked Him', which is a slightly more complex relationship of request. However, the most critical issue is that 'επαναγαγειν' is often interpreted as 'to row away'. The translation 'đem ra xa' is acceptable, but the phrasing 'xin ông đem' implies Jesus is asking someone to do it, while the Greek says Simon asked Jesus to take/move it. Actually, looking closer: 'ο ην του σιμωνος ηρωτησεν αυτον' = 'the one of Simon [the owner] asked Him'. The Vietnamese 'xin ông đem' suggests Jesus is the one asking. This reverses the direction of the request."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

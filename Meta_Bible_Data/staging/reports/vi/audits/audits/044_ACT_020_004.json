@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνειπετο δε αυτω' means 'accompanied him'. The Vietnamese translation 'cùng đi với người' (went with the person) is missing the specific object 'him' (αωτω), making it unclear who they accompanied. Additionally, 'σωπατρος' is rendered as 'Sô-ba-tê', but the structure 'σωπατρος βεροιαιος θεσσαλονικεων' implies Sopater the Berean of Thessalonica; the Vietnamese phrasing slightly obscures this relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

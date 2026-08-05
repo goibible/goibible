@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποστασιαν διδασκεις απο μωσεως' (you are teaching apostasy from Moses) is rendered as 'anh dạy sự bỏ đạo khỏi Môi-se', which implies the 'apostasy' was something removed from Moses, rather than the 'apostasy from Moses' (the act of departing from Moses' law). However, the more significant issue is the scope: 'κατα τα εθνη παντας ιουδαιους' refers to 'all Jews among the nations' (or 'among all the nations, the Jews'), but the Vietnamese 'cho tất cả người Giu-đa ở giữa các dân ngoại' slightly shifts the focus of the group being taught."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μηδε τοις εθεσιν περιπατειν' (nor to walk according to their customs) is rendered as 'cũng đừng bước đi theo các thói quen'. While 'thói quen' means 'habits', the Greek 'εθεσιν' specifically refers to 'customs' or 'traditions' of the nations/ancestors. This is a minor nuance, but the main fidelity issue is the phrasing of the apostasy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

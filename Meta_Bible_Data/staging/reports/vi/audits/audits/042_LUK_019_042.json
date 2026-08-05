@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰ ἔγνως' is a conditional ('if you knew') or a subjunctive expressing a wish, but the Vietnamese 'Ước gì' (I wish/If only) combined with 'ít nữa là ngày nay' (in a little while it is today) misinterprets the temporal structure. The Greek 'εἰ ἔγνως καὶ σὺ γέ ἐν τῇ ἡμέρᾳ σου ταύτῃ' means 'if you also knew in your day this [at this time/today]'. The Vietnamese adds a future-looking nuance ('ít nữa') that is not present in the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full JON QA batch.",
+  "groups": [
+    {
+      "name": "JON full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "JON 1",
+        "JON 2",
+        "JON 3",
+        "JON 4"
+      ]
+    }
+  ]
+}

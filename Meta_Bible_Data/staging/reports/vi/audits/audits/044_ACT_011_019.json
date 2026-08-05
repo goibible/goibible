@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διηλθον' (diēlthon) is an aorist active indicative, typically translated as 'passed through' or 'traversed'. The Vietnamese 'đã đi qua đến' (went through to) is acceptable, but the Greek 'εως' (eos) indicates 'as far as' or 'up to'. However, there is a significant grammatical/semantic issue with 'μηδενι λαλουντες τον λογον'. The Greek says 'not speaking the word to anyone', but the Vietnamese 'không nói lời nào với ai' (not saying any words to anyone) combined with 'ngoại trừ người Giu-đa' (except for the Jews) accurately reflects the meaning, but the Greek structure 'μηδενι... ει μη μονον ιουδαιοις' is a restrictive construction. The Vietnamese captures this well."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διελθον' (diēlthon) is often interpreted as 'passed through', but the Vietnamese phrasing 'đã đi qua đến' is slightly different in nuance. However, the main issue is the clarity of 'μηδενι λαλουντες τον λογον'. The Greek says they were not speaking the word to anyone [except] Jews. The Vietnamese 'không nói lời nào với ai' implies they were silent to everyone, which is a slight shift from 'not speaking the Word'. However, the most significant issue is the scope of 'διελθον' - it indicates a movement through these places."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

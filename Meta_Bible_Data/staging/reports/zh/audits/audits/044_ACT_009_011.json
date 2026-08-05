@@ -1,0 +1,13 @@
+{
+  "book": "ACT",
+  "chapter": 9,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

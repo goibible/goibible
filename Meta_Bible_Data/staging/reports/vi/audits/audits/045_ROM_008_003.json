@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο θεος' (God) is the subject of the verb 'κατεκρινεν' (judged/condemned). The Vietnamese translation 'Ngài đã đoán phạt' (He judged) refers back to 'Đức Chúa Trời', but the structure suggests God did both actions (sending and judging). However, the Greek says 'ο θεος... κατεκρινεν' (God... judged), while the Vietnamese phrasing 'vì tội lỗi, Ngài đã đoán phạt' makes it sound like a separate result of the sending, whereas the Greek links the judgment directly to the act of God sending His Son."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εν ομοιωματι σαρκος' (in the likeness/form of flesh) is rendered as 'trong hình trạng xác thịt'. While 'hình trạng' captures 'omoiomati', it misses the specific nuance of 'likeness' vs 'form' if strictly interpreted, but more importantly, the Greek says 'σαρκος αμαρτιας' (flesh of sin), which is rendered as 'xác thịt tội lỗi'. The Vietnamese is acceptable here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

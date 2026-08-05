@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καυχημα υμων εσμεν' means 'we are your glory/boast' (subject-complement structure). The Vietnamese 'chúng tôi là sự khoe mình của anh em' translates it as 'we are the boasting of your brothers', which shifts the focus from 'glory/boast' to the act of 'boasting' itself. More importantly, the Greek 'καυχημα' is a noun meaning 'glory/boast', but the Vietnamese 'khoe mình' is often used as a verb (to boast). A more faithful rendering would be 'chúng tôi là vinh quang của anh em'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το βδελυγμα της ερημωσεως' (the abomination of desolation) is rendered as 'điều gớm ghiếc hoang tàn'. While 'hoang tàn' captures 'desolation', the Greek uses a genitive construction indicating the *abomination OF desolation*. The Vietnamese phrasing makes 'hoang tàn' appear as an adjective describing 'điều gớm ghiếc' rather than a genitive relationship."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'το ρηθεν' (the saying/the word) is rendered as 'đã được nói' (has been spoken). While the meaning is captured, 'ρηθεν' specifically refers to the 'saying' or 'word' of the prophet. The Vietnamese translation loses the specific noun 'saying' in favor of a passive verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

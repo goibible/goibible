@@ -1,0 +1,18 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο επιστευθην' is a passive verb meaning 'I was entrusted with' or 'was committed to me'. The Vietnamese 'đã giao phó cho tôi' is active, implying 'I entrusted [it] to myself' or 'I gave [it] to myself', reversing the direction of the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

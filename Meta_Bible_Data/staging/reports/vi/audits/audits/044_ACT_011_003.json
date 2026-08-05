@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς ανδρας' (to/towards men) is rendered as 'vào nhà' (into the house). While 'entering a house' is the context of the narrative, the Greek text specifically says 'to men', not 'into the house of men'."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'εισηλθες' (eisēlthes) is 2nd person singular ('you entered'). The Vietnamese translation correctly reflects this as 'Ngươi đã vào'. However, the Greek 'συνεφαγες' (synephages) is also 2nd person singular. The Vietnamese 'ăn chung' captures the meaning but loses the specific 2nd person agreement if read as a general statement; however, since 'Ngươi' governs the first verb, it is acceptable. The primary issue remains the 'house' addition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 15,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'ου κοινοι τον ανθρωπον' (not defiling the man), but the Vietnamese translation says 'chẳng làm dơ dáy người đâu' (does not defile the man). While the negation is present, the Vietnamese 'đâu' at the end adds a nuance of emphatic denial or 'at all' that isn't strictly in the Greek, though the primary meaning remains. However, the main issue is the structural flow: the Greek structure is 'These things are defiling the man; but to eat with unwashed hands [is] not defiling the man.' The Vietnamese captures this well."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

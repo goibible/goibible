@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'bị hư' (be ruined/damaged) does not accurately reflect the Greek 'απολουνται' (are loosened/come apart). The Greek implies the seams of the skin are undone or the structure fails, whereas 'bị hư' is a general term for damage."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

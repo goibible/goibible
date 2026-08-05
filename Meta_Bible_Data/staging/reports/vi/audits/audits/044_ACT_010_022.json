@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ολου του εθνους των ιουδαιων' means 'all the nation of the Jews'. The Vietnamese translation 'cả dân ngoại Giu-đa' (all the Gentiles of Judah) changes the meaning from the Jewish people to the Gentiles."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μαρτυρουμενος τε' implies a continuous action ('who was being testified to') which is slightly diminished in the Vietnamese structure, but the primary issue is the identity of the people testifying."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

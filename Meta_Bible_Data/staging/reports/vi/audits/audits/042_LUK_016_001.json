@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεβληθη' (dieblethē) is passive, meaning 'was struck/beaten/punished'. The Vietnamese 'bị cáo' means 'was accused', which is a different legal action than the physical punishment implied by the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the word 'chủ' (master) in the phrase 'phá hoại của cải chủ'. While the context implies it, the Greek 'αυτου' (his) refers back to the rich man. However, more importantly, the Greek 'διεβληθη αυτω' means 'was struck *by him* [the master]'. The Vietnamese 'bị cáo với chủ' (accused before the master) changes the relationship from the master striking the servant to the servant being accused by/before the master."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the final clause 'και οὐ μὴ ἰδητε' (and you will not see). The Greek text contains two pairs of contrastive actions (hear/understand and see/see), but the Vietnamese only includes the first pair."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιμενοντων δε ημων ημερας πλειους' means 'while we remained there for many days' (remaining/staying). The Vietnamese 'còn ở đó' (still being there) captures the location but misses the specific nuance of 'remaining' or 'staying' (epimenontōn) over a duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

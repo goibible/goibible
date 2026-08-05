@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι του δωματος' (epí tou domatos) literally means 'on/upon the roof', but the Vietnamese 'trên nóc nhà' (on the roof) combined with the context of 'đồ đựng trong nhà' (utensils in the house) might slightly obscure the spatial relationship. However, the primary issue is the omission of 'αραι αυτα' (for them/to get them). The Greek specifies the purpose of coming down: to get those items. The Vietnamese 'chớ xuống lấy' captures the action but loses the specific connection that the items being 'taken' are the ones mentioned in the first half of the phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

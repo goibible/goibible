@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βιωτικα' (biōtikā) refers to 'life' or 'living' (worldly/vital matters), but the Vietnamese 'về việc đời nầy' (about this life) is slightly imprecise. More importantly, 'κριτηρια' (kritēria) refers to 'judgments' or 'criteria,' but the Vietnamese 'tòa án' means 'courts.' A Vietnamese reader would think of a legal institution rather than the act of judging/evaluating."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εξουθενημενους' (exouthenēmenous) refers to the 'humble' or 'impoverished' (spiritually/materially), while the Vietnamese 'những kẻ bị khinh' means 'those who are despised/scorned.' This changes the status of the people from 'humble' to 'despised'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

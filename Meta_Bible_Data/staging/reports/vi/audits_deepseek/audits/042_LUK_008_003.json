@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek name 'ιωαννα' (Joanna) is rendered as 'Giô-ên' (Joel), which is a different name/person. This changes the identity of the woman mentioned."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

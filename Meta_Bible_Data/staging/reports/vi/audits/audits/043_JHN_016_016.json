@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 16,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μικρον' (mikron) is an adverb of time meaning 'a little' or 'shortly,' but the Vietnamese translation 'Một ít lâu nữa' (a little more time/a bit longer) incorrectly implies a duration of time remaining before an event, rather than the sense of 'soon' or 'in a short while.'"
+        },
+        {
+          "kind": "negation",
+          "detail": "The Greek text says 'ου θεωρειτε με' (you will NOT see me), but the Vietnamese translation 'sẽ chẳng thấy ta' is paired with 'Một ít lâu nữa' in a way that suggests a future state of not seeing, while the Greek structure 'μικρον και ου θεωρειτε με' functions as 'Soon you will not see me.' However, the primary issue is the mistranslation of 'μικρον' which alters the temporal flow of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

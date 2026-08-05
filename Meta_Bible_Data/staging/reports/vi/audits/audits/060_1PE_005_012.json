@@ -1,0 +1,26 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως λογιζομαι δι ολιγων' means 'as I consider [it] for/by a few' (referring to the number of people), but the Vietnamese 'như tôi kể' translates to 'as I told/narrated', which changes the meaning from a count of people to a narrative action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'χαριν του θεου' (for the sake of God / for God's sake) is rendered as 'ân điển thật của Đức Chúa Trời' (true grace of God). While 'grace' is a common theological interpretation, the Greek literally says 'for the sake of God', which is a distinct prepositional phrase."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The final clause 'εις ην εστηκατε' means 'in which you have stood' (referring to the faith/truth). The Vietnamese 'là điều anh em đang đứng vững' adds 'đang' (present continuous), whereas the Greek 'εστηκατε' is aorist, indicating a completed action or state of having stood."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

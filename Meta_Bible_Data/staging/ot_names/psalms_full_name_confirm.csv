@@ -1,0 +1,5 @@
+name_seen,approved_or_expected,severity,category,occurrences,refs
+Đức Chúa Trời,Đức Chúa Trời,orange,missing_expected_name,9,PSA 7:12; PSA 17:6; PSA 24:6; PSA 37:22; PSA 61:1; PSA 65:1; PSA 85:8; PSA 107:38; PSA 115:2
+Aùp-ra-ham,Aùp-ra-ham,orange,missing_expected_name,1,PSA 105:5
+Gia-cốp,Gia-cốp,orange,missing_expected_name,1,PSA 105:5
+Y-sơ-ra-ên,Y-sơ-ra-ên,orange,missing_expected_name,1,PSA 105:17

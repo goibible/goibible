@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκβαλλει' (ekballei) means 'casts out' or 'forces out'. The Vietnamese translation 'trừ' (to exorcise/remove) is a functional equivalent, but the phrasing 'nhờ quan trưởng... mà trừ' implies he casts them out *by means of* or *through* the prince of demons. The Greek 'εν τω αρχοντι' indicates location or domain ('in/from the authority of'), suggesting he casts them out *out of* that authority, not that the prince is the instrument used to do it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

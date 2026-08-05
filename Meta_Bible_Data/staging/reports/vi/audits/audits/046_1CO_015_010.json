@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαριτι δε θεου ειμι ο ειμι' (by the grace of God I am what I am) is a statement of identity/existence. The Vietnamese translation 'tôi là người như thế nào' (I am what kind of person) changes the meaning from 'I am who I am' to an interrogative-style description of character or status."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

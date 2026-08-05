@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 14,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek text uses the plural 'μετ αυτων' (with them), but the Vietnamese translation uses 'với mình' (with themselves/us), which can be ambiguous or singular in context. More importantly, the Greek 'παραγενομενοι' is a plural participle ('having come'), while the Vietnamese 'hai người' (two people) adds a specific number not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

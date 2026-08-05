@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 1,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα κακει κηρυξω' means 'so that I may also preach there' (referring to the nearby towns). The Vietnamese translation 'để Ta cũng giảng ở đó nữa' is slightly ambiguous in its scope, but more importantly, the phrase 'vì ấy là việc Ta đã ra đi' for 'εισ τοτο γαρ εξεληλυθα' misses the specific context of 'going out/departing' for the purpose of preaching. However, the primary issue is the nuance of 'εξεληλυθα' (I have gone out) which implies a mission or journey already undertaken/initiated."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

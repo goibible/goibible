@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηποτε' (mēpote) is a negative particle meaning 'lest' or 'so that... not.' The Vietnamese translation 'e rằng' (lest/fear that) combined with the following verbs creates a sense of apprehension, but the Greek construction 'μηποτε [verb]' functions as a purpose clause: 'lest they see... [but rather] hear' or 'in order that they might not see...'. More importantly, the Vietnamese 'thấy' (see) is used for 'ιδωσιν', but the Greek 'ιδωσιν' is a subjunctive used with 'μηποτε' to express a purpose/prevention. The Vietnamese phrasing makes it sound like they are closing their eyes *because* they are afraid of seeing, whereas the Greek implies a sequence of hardening: they heard heavily, closed their eyes (so they wouldn't see), and [instead] heard with their ears."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και τη καρδια συνωσιν' uses the verb 'συνωσιν' (to understand/perceive). The Vietnamese 'lòng họ hiểu' is a good rendering, but the transition from the negative 'μηποτε' to the positive verbs 'ακουσωσιν', 'συνωσιν', and 'επιστρεψωσιν' is slightly blurred in the Vietnamese structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'η υπερεχουσα παντα νουν' (which surpasses all understanding) is rendered as 'vượt quá mọi tâm trí' (surpasses all minds). In Vietnamese, this suggests it exceeds the capacity or existence of minds, whereas the Greek means it exceeds human comprehension/understanding."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'απολυθεντες' (having been released/set free) is translated as 'Khi được thả ra' (When [they] were released). While the meaning is similar, the Greek uses a perfect passive participle ('having been'), which emphasizes the completed state of being released before they went to their people. The Vietnamese construction 'Khi...' (When...) can imply a simple temporal sequence rather than the completed action/state required by the Greek grammar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκαμμυσαν' (ekammysan) means 'to shut' or 'to close'. The Vietnamese translation 'nhắm mắt lại' (closed their eyes) is a literal rendering of the action, but it misses the nuance of the Greek construction. In the context of the phrase 'μηποτε ιδωσιν', the Greek implies they are shutting/closing their eyes *so that* they might not see. However, the Vietnamese 'kẻo mắt họ thấy' (lest their eyes see) combined with the preceding 'nhắm mắt lại' creates a slightly different logical flow than the Greek sequence of actions."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη καρδια συνωσιν' uses 'συνωσιν' (synōsin), which means 'to understand', 'to comprehend', or 'to perceive'. The Vietnamese 'hiểu' is a correct translation for 'understand', but the Greek verb is in the aorist active, while the Vietnamese structure makes it part of a list of things they are trying to prevent. The Greek phrasing 'μηποτε... και... και... και...' suggests a series of things they are closing/shutting against (eyes, ears, heart)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

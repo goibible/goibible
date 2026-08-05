@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υμετερα εστιν' (is yours) is translated as 'thuộc về các ngươi' (belongs to you). While similar in meaning, the Greek specifically uses the verb 'to be' (estin), indicating 'the kingdom of God IS yours'. The Vietnamese 'thuộc về' (belongs to) is a slight shift from a state of being to a state of possession/belonging, though minor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και αυτος' (and he) is omitted in the Vietnamese translation, starting directly with 'Ngài'. While often acceptable for flow, it technically omits the coordinating conjunction and the subject pronoun/marker."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 6,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'với Ngài' (with Him), which is not present in the Greek text. The Greek simply says 'our old man was crucified'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek phrase 'τη αμαρτια μηκετι δουλευειν ημας' (that sin should no longer slave us) is rendered as 'để chúng ta không còn phục vụ tội lỗi nữa' (so that we no longer serve sin). This reverses the agency: in Greek, sin is the master/slave-driver, but in Vietnamese, it sounds like humans are the ones serving sin."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

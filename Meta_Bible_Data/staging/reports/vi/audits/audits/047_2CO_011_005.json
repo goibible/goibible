@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'λογιζομαι' (logizomai) means 'I consider' or 'I reckon,' which implies a deliberate evaluation or accounting. The Vietnamese 'Tôi nghĩ' (I think) is too weak and fails to capture the sense of 'reckoning' or 'considering' one's status/contribution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

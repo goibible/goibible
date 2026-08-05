@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τη ταπεινωσει αυτου' (in his humiliation/lowliness) is not a command to 'khoe mình' (boast/show off). The Vietnamese translation adds an action of boasting that is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

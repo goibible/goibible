@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 2,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε νυν ζω εν σαρκι' (but now I live in the flesh) is translated as 'còn sự sống hiện nay tôi sống trong xác thịt'. The Vietnamese phrasing 'còn sự sống hiện nay' (as for life now) slightly shifts the focus from the direct statement of 'living in the flesh' to a topic-marked sentence about 'life', though it captures the core meaning. However, the primary issue is the nuance of 'ο δε νυν ζω' which is a direct contrast to the previous clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

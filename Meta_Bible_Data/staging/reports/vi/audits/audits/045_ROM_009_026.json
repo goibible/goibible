@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου λαος μου υμεις' is a negative statement ('You are not my people'), but the Vietnamese translation 'Các ngươi chẳng phải là dân ta đâu' (You are not my people) combined with the preceding 'phán cùng họ rằng' (said to them that) creates a grammatical ambiguity. In Greek, it is a direct declaration of status; in the Vietnamese structure provided, it reads like a reported speech clause where the subject/object relationship might be confused regarding who is being addressed by whom."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese adds 'Lại' at the beginning, which is not present in the Greek text (και), though it serves as a transition. However, the main issue is the structural rendering of the negative identity statement."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

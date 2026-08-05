@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 64,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'περικαλυψαντες' (perikalypsantes) means 'having covered/veiled around,' while the Vietnamese 'che mặt' (covered face) is too specific. The Greek refers to covering his head/face with a garment, but the Vietnamese phrasing makes it sound like they were specifically concealing his facial features."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο παισας' (ho pais) is the nominative form of 'the boy/child.' The Vietnamese 'kẻ đã đánh ngươi' (the one who hit you) changes the subject from a specific person ('the boy') to an action ('the one who hit')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

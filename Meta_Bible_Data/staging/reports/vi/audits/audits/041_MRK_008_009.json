@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'απελυσεν' (apelysen) means 'sent away' or 'dismissed', but the Vietnamese 'cho họ về' (let them go home/back) is a common idiom that loses the specific sense of 'sending them off' or 'dismissing' them from the location."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ως' (os) functions as an approximation ('about' or 'as many as'), which is captured by 'ước chừng', but the Vietnamese structure slightly softens the directness of the count."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

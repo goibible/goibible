@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'βηματος' (bēmatos) refers to a 'platform' or 'dais'. The Vietnamese translation 'tòa án' translates it as 'court', which is a functional interpretation rather than a literal rendering of the physical object described in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

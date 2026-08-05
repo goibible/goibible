@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 15,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πορευθεις' (poreuthes) is an aorist middle/passive participle meaning 'having gone' or 'going'. The Vietnamese 'Rồi người đi' implies a completed action ('Then the person went'), but the Greek structure indicates the action of going is the circumstance under which he was followed. More importantly, the Greek 'εκολληθη' (ekollēthē) is passive: 'he was followed'. The Vietnamese 'theo' (followed) is active, making it sound like the subject followed the citizen, rather than being followed by him."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αντι του λεγειν' (instead of saying) is rendered as 'Thay vì nói rằng' (Instead of saying that). However, the Greek construction implies a contrast or opposition to the act of saying it in this specific context. More importantly, the Vietnamese 'còn sống' (still living/alive) is a literal translation of 'ζησωμεν', but the Greek 'ζησωμεν' in this context functions as a conditional 'if we live' (meaning if we remain alive/persist), which is captured, but the structure 'Thay vì nói rằng' slightly shifts the nuance of 'αντι' which can also mean 'against'. However, the primary issue is the omission of the specific contrastive weight of 'αντι'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς τον ιωαννην' (towards John) combined with 'βαπτισθηναι υπ αυτου' (to be baptized by him) indicates that Jesus went to John *in order to be baptized by him*. The Vietnamese 'cùng với Giăng' (together with John) changes the relationship from Jesus going to find/be with John for baptism to them traveling together."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

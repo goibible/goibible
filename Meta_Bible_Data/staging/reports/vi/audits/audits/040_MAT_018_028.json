@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνδουλων αυτου' means 'his slaves' (slaves belonging to him). The Vietnamese translation 'bạn đồng công' means 'coworkers/colleagues,' which changes the social relationship and status of the person being confronted."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

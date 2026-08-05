@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκραζον' (ekrazon) means 'cried out' or 'shouted'. The Vietnamese translation 'kêu la' (cried out/shouted) is correct, but the phrase 'khi thấy' (when seeing) is an addition; the Greek does not specify that they cried out *because* they saw it, though it is implied by context. More importantly, the Greek 'ορωντες' (orontes) means 'watching' or 'beholding'. The Vietnamese translation omits the act of 'watching/beholding' entirely."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ορωντες' (watching/beholding) is missing in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

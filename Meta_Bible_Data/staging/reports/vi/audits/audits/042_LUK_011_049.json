@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'một số' (some/a number of), whereas the Greek 'εκ αυτων' (from them) does not specify a quantity, implying that they will be killed and driven out from among them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

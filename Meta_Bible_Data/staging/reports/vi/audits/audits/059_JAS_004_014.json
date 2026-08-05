@@ -1,0 +1,18 @@
+{
+  "book": "JAS",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιια' (what) is rendered as 'là gì' (is what) in Vietnamese, but the sentence structure in the Greek functions as 'what our life is' (the subject of the following clause). The Vietnamese translation treats 'sự sống của anh em là gì?' as a standalone rhetorical question rather than the subject of the statement 'our life is a vapor'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

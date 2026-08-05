@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 24,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αναστας' (anas-tas) means 'arising' or 'getting up', but the Vietnamese 'chạy đến' means 'running to'. The Greek does not specify running."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μονα' (mona) refers to the linen cloths being alone/only; the Vietnamese 'một mình' is used here to describe the cloth, but 'môna' in this context emphasizes that there was nothing else there."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

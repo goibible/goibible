@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation adds a rhetorical question ('Các ngươi đã đi ra ngoài đồng vắng để xem gì?') which is not present in the Greek. The Greek text 'τι εξηλθετε' functions as a relative/subordinate clause ('why you went') rather than an interrogative question to the crowd."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

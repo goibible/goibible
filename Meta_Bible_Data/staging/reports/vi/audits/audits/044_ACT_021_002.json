@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαπερων' (diaperon) is a present active participle meaning 'passing through' or 'sailing through'. The Vietnamese 'sắp vượt qua' (about to cross/pass) adds a sense of future intent ('sắp') that is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

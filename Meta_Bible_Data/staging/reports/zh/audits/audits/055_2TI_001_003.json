@@ -1,0 +1,18 @@
+{
+  "book": "2TI",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Greek: 'εν ταις δεησεσιν μου' = 'in my prayers'; Chinese: '在你禱告中' = 'in your prayers' — the possessive pronoun is changed from first person (my) to second person (your), altering who is praying."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

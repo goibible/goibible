@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επορευομην' is an imperfect tense verb, indicating a continuous or repeated action in the past ('I was on my way' / 'I was traveling'). The Vietnamese 'đang đi' is present continuous, which changes the timeframe of the narrative."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

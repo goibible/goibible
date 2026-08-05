@@ -1,0 +1,26 @@
+{
+  "book": "1TI",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πιστους εχοντες δεσποτας' means 'having masters, (the) faithful'. The Vietnamese translation 'Những ai có chủ là tín đồ' shifts the meaning to 'Those who have masters are believers', which misplaces the adjective 'faithful' as a descriptor of the people rather than their status/nature in relation to the masters."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μαλλον δουλευετωσαν' is an imperative/exhortation meaning '(they) should rather serve'. The Vietnamese 'thà hầu việc càng hơn' (rather serve even more) adds the 'càng hơn' (even more) which is not in the Greek text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι της ευεργεσιας αντιλαμβανομενοι' refers to those 'receiving the benefits/good works'. The Vietnamese 'những kẻ được ơn lành' translates this as 'those who receive grace/blessings', which is a different theological concept than 'benefits/good works'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

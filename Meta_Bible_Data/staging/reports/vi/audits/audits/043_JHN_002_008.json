@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific title 'architriklinō' (archpriest/chief priest), rendering it only as 'quan tọa' (official/judge), which loses the specific office mentioned in the Greek."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'Họ bèn đem' is grammatically incomplete and fails to capture the sense of 'hēnegkan' (they obeyed/did as they were told), which implies compliance with a command."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

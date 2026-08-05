@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 3,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ελογισθη' (elogisthē) means 'was counted' or 'was reckoned' (an accounting/legal term). The Vietnamese translation 'được kể cho ông' translates to 'was told/narrated to him,' which changes the theological meaning from a judicial declaration of status to a mere communication of information."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

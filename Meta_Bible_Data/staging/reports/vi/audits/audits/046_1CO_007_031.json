@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'χρωμενοι' (chromenoi) means 'those who are colored by' or 'those who take on the color of'. The Vietnamese translation 'dùng' (to use/utilize) is a significant mistranslation of the concept. It changes the meaning from being influenced/colored by the world to actively using the world."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

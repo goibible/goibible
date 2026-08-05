@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιο' (poion) is an interrogative pronoun meaning 'which', but the Vietnamese translation treats it as a relative pronoun or part of a descriptive phrase ('sự chết nào' - 'the death which'). More importantly, the Greek structure 'δε ελεγεν σημαινων ποιω θανατω' implies 'He did not say [it] meaning which death,' but the Vietnamese 'để chỉ về' (to point to/refer to) changes the logical connection from a negation of intent to a statement of purpose."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

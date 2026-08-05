@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαφερομενων' (being driven/drifted) is rendered as 'bị dạt' (washed ashore/beached), which implies reaching land. The Greek describes the state of being driven at sea, not necessarily having reached a shore."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπενοουν' (were supposing/thinking) is rendered as 'đoán' (guessing), but the specific phrase 'προσαγειν τινα αυτοις χωραν' means 'that some land was near them'. The Vietnamese translation 'đến gần một miền nào đó' (coming near some region) slightly shifts the focus from the proximity of land to the act of approaching it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καταξιωθεντες' (kataxiōthentes) means 'those who are worthy/deserving' or 'those who have been deemed worthy.' The Vietnamese 'được xem là đáng đạt đến' (considered worthy of reaching) adds the nuance of 'reaching' (đạt đến), which is not in the Greek text. More importantly, the Greek describes them as 'worthy' of that age and resurrection, but the Vietnamese phrasing slightly shifts the focus to a condition of 'attaining' rather than the status of being 'worthy'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'της αναστασεως της εκ νεκρων' specifies the resurrection *from the dead* (ek nekron). The Vietnamese 'sự sống lại từ kẻ chết' translates to 'life again from the dead' (or 'resurrection from the dead'), but 'kẻ chết' implies 'dead people' or 'the dead' as persons, whereas 'nekron' is the state of being dead. However, the primary issue is the slightly distorted status of 'worthy' vs 'reaching'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

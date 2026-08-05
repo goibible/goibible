@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κερδησω' is an aorist active subjunctive, implying 'to gain' or 'to win' Christ. The Vietnamese translation 'để được Đấng Christ' (to have/be with Christ) misses the specific nuance of 'gaining' or 'winning' as an objective."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

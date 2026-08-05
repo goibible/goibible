@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text uses 'μητι' (a rhetorical question/negative) and 'ουχ' (not), establishing a contrast: the lamp is NOT to be put under the basket or bed, but ON the lampstand. The Vietnamese translation renders the first part as a question ('Có ai...?') and the second part as a rhetorical question ('Há chẳng phải...?'), which slightly shifts the structure of the Greek's direct negation into a series of inquiries."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

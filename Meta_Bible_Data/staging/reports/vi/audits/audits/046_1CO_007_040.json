@@ -1,0 +1,26 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μακαριωτερα' (makariōtera) means 'happier' or 'blessed,' but the Vietnamese 'có phước hơn' in this context is paired with a subject ('người Thames') that does not exist in the Greek. The Greek text is a first-person statement: 'It would be happier if... I think I also have the Spirit of God.' The Vietnamese adds a specific person/subject ('người Thames') which is not present."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εαν ουτως μεινη' (ean houtōs meinē) translates to 'if [he/it] remains thus.' The Vietnamese 'nếu cứ ở vậy' captures the sense of remaining, but the overall structure is corrupted by the insertion of a subject."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'δοκω δε καγω' (dokō de kagō) means 'I also think/judge.' The Vietnamese 'tôi nghĩ tôi cũng có' correctly identifies the first person, but the preceding clause about 'người Thames' makes the sentence structurally incoherent compared to the Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

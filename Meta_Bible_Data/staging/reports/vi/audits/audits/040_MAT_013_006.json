@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ανατειλαντος' (anateilantos) means 'setting' or 'going down', not 'mọc lên' (rising). The Vietnamese translation reverses the action of the sun."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

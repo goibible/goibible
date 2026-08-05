@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι δε σοι εσθιουσιν' (but you eat) refers to Jesus, but the Vietnamese translation 'còn môn đồ của Thầy thì ăn và uống' (while your disciples eat and drink) incorrectly attributes the action of eating and drinking to the disciples instead of Jesus himself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

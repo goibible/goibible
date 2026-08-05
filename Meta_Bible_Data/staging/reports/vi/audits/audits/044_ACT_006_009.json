@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ της συναγωγης της λεγομενης' (from the synagogue called) is rendered as 'thuộc nhà hội gọi là nhà hội của những người Lít-bê-tin'. This creates a redundant and confusing structure in Vietnamese ('nhà hội... nhà hội') that doesn't accurately reflect the Greek 'synagogue called [the synagogue of] the Libertines'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'των εκ της συναγωγης' implies these people were *from* the synagogue, whereas the Vietnamese 'thuộc nhà hội' (belonging to/of the house) is a slightly different relational status, though minor. The primary issue remains the structural distortion of the 'called' phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

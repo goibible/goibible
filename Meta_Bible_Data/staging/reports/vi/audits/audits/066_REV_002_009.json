@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλουσιος δε ει' is a concessive clause (even if you are rich). The Vietnamese translation 'dầu ngươi giàu có' places this in parentheses, but more importantly, the Greek 'δε ει' functions as a contrast to the previous list of hardships. However, the primary issue is the construction 'ειναι εαυτους', which means 'are [themselves]', referring back to the Jews. The Vietnamese 'tự xưng là' (claim to be) adds an interpretive layer of 'claiming' that isn't explicitly in the Greek text, though it captures the essence of the contrast."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουκ εισιν' is a clear negation (they are not). The Vietnamese 'thật không phải' (really not) captures the negation, but the phrase 'nhưng thật không phải' slightly alters the flow of the contrast between who they are and what they are."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

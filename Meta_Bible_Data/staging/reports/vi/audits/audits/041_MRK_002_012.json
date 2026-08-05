@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'κραββατον' (krabbaton) refers to a 'bed' or 'bier' (often used for a corpse), but the Vietnamese 'cái giường' usually refers to a standard bed. While similar, in this context of a miracle/resurrection, 'quan tài' or 'giường kẻ' might be more precise, but 'giường' is acceptable. However, the Greek 'εξηλθεν' (exēlthen) implies 'came out' or 'emerged', while the Vietnamese 'đứng dậy' (stood up) captures 'εξιστασθαι' (existasthai) which occurs later in the sentence. The translation conflates two distinct actions: emerging with the bier and then standing up."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ευθεως και αρας' (eutheōs kai aras) means 'immediately/at once'. The Vietnamese 'liền' captures this, but 'đứng dậy' is used to translate 'εξηλθεν', missing the specific sense of 'coming out' or 'emerging'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

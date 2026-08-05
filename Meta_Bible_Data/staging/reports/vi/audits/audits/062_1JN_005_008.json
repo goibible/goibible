@@ -1,0 +1,22 @@
+{
+  "book": "1JN",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'μαρτυρουντες' (martyrountes), which means 'bearing witness' or 'testifying'. The Greek says 'the three who bear witness on earth...'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'εν τη γη' (en te ge), which specifies that the witnessing is happening 'on earth'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

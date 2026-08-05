@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ειπως' (eipos) is an introductory particle often translated as 'perhaps' or 'maybe', but in this context, it functions as 'I pray' or 'I ask'. The Vietnamese 'có lẽ' (perhaps/maybe) shifts the meaning from a petition to a statement of uncertainty."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ηδη' (ēdi) means 'already'. The Vietnamese 'cuối cùng' means 'finally' or 'at last', which changes the temporal aspect of the prayer."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek 'περισσόν μοί ἐστιν τὸ γράφειν ὑμῖν' means 'it is superfluous for me to write to you' (i.e., it is unnecessary/too much to write), but the Vietnamese 'tôi không cần viết thêm' ('I do not need to write more') adds a negation ('không') and 'thêm' ('more') that are not in the Greek. The Greek states a positive assertion of superfluity, not a negative statement of need. This changes the nuance from 'it is excessive for me to write' to 'I do not need to write more,' which is a substantive shift in meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

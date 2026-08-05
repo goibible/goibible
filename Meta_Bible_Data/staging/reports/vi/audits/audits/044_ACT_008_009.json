@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 8,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προυπηρχεν' (proērchēsen) means 'used to work' or 'practiced' (as a verb of action/habit), whereas the Vietnamese 'làm nghề phù phép' implies he was a 'sorcerer' or 'magician' by trade. While related, the Greek describes his activity rather than his profession."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εξιστων' (existōn) means 'astonishing' or 'causing wonder'. The Vietnamese 'làm cho... kinh ngạc' (made them amazed) captures the effect, but the Greek structure suggests he was 'astonishing' to the nation, which is slightly more direct."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

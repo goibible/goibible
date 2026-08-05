@@ -1,0 +1,26 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation says 'Vì chúng ta là kẻ đã tin' (Because we are the ones who believed), but the Greek 'οι πιστευσαντες' is a participial phrase modifying the subject. The Vietnamese structure makes it sound like an identity/definition rather than a description of the people entering. More importantly, the Vietnamese adds 'là kẻ' (are the ones) which is not in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits 'καθως' (as/how), which links the action of entering to the manner or fact of the previous statement. It also misses the nuance of 'εισελευσονται' (shall enter/will enter) being a future/prophetic certainty."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καθως ειρηκεν ως ωμοσα' means 'as He said, as I swore'. The Vietnamese 'như Ngài đã phán: \"Ta đã thề...\"' is a decent rendering, but the Vietnamese phrasing 'Chúng nó sẽ chẳng vào' (They will not enter) is slightly more definitive than the Greek 'εισελευσονται' (will enter), though the negation 'chanh' is correctly placed to reflect the negative context of the quote."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'της μιας σαββατων' refers to the 'first day of the week' (Sunday). The Vietnamese translation 'ngày thứ nhất trong tuần' is technically correct, but the Greek phrase specifically identifies the day as the first of the Sabbath cycle. More importantly, the Greek 'ανατειλαντος του ηλιου' means 'at the rising of the sun'. The Vietnamese 'mặt trời vừa mọc' (the sun just rose) changes the timing from a specific point/event ('at the rising') to a completed action/state ('just rose')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

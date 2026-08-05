@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ζητουσιν' (they seek) is in the active voice, indicating that the subjects are the ones seeking. The Vietnamese translation 'thì ban cho' (then [He/it] gives) changes the grammatical structure to a conditional result where God/someone gives life, whereas the Greek says the people themselves are seeking eternal life."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the direct object of the seeking. In Greek, 'ζητουσιν' (they seek) governs 'ζωην αιωνιον' (eternal life). The Vietnamese structure makes 'sự sống đời đời' the result of the action rather than the object being sought."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

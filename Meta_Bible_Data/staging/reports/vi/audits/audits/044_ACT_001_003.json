@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παρεστησεν εαυτον ζωντα' (presented himself alive) is translated as 'tỏ mình ra là sống' (showed himself to be alive/living), which slightly shifts the focus from the action of presenting/appearing to a state of being. However, the more significant issue is 'δι ημερων τεσσαρακοντα' (for forty days). The Vietnamese 'trong bốn mươi ngày' (in forty days) loses the duration aspect ('for') implied by 'δι'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

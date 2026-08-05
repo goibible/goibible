@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'nhưng đã bị thử thách' (but has been tested) incorrectly treats the phrase 'πεπειραμενον δε' as a contrast to the previous clause. In Greek, 'δε' (not) is part of 'πεπειραμενον δε κατα παντα', meaning 'who has NOT been tested in everything'. The Vietnamese omits the negation 'δε', changing the meaning from 'not tested' to 'has been tested'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

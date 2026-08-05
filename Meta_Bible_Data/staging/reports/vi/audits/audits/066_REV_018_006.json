@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διπλωσατε' (diplōsate) and 'διπλουν' (diploun) refer to 'doubling' or 'folding' the debt/repayment, but the Vietnamese translation 'trả gấp đôi công việc' (pay double the work) and 'pha cho nó gấp đôi' (mix for it double) misinterprets 'κατα τα εργα' (according to its works) and 'διπλουν' (doubly). The Greek implies doubling the repayment according to the extent of its works, not 'paying double the work' itself."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

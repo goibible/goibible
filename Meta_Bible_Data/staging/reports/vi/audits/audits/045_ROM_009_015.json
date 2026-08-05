@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text uses two different verbs for mercy: 'ελεησω' (eleēsō) and 'οικτειρησω' (oikteirēsō). The Vietnamese translation uses the same word 'thương xót' for both, failing to capture the distinction between the two types of mercy expressed in the original."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

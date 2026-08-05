@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εστηριξεν' (estērixen) means 'set' or 'fixed' (as in 'set his face'), but the Vietnamese 'quyết định' means 'decided'. While conceptually related, 'set' describes an action of resolve/direction rather than a mental decision process."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 21,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κατηρτισω' (kathirtsō) is in the aorist active indicative, implying a completed action or a specific act of setting/preparing. The Vietnamese translation uses 'đã sắm sẵn' (already prepared/provided), which is acceptable, but it misses the nuance of the specific action of 'setting' or 'establishing'. More importantly, the Greek 'κατηρτισω' refers to the *act* of establishing/setting, whereas the Vietnamese phrasing leans towards a state of being 'prepared'."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation adds 'hay sao?' (or not?) at the end of the quote. The Greek text is a direct quote 'ναι ουδεποτε ανεγνωτε...' (Yes, you never read...). The addition of 'hay sao?' changes the grammatical structure from a statement/reproach to a rhetorical question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

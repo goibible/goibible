@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εἰ δε' (if indeed/if then) does not contain the verb 'chịu khổ' (suffer). The Vietnamese translation adds a concept of suffering that is not present in this specific verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

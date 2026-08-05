@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι αν θελοι' (what you want/intend) is translated as 'có nghĩa gì' (what it means). This changes the meaning from the subject's intent/purpose to the semantic meaning of the content."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek word 'τινα' (something) is omitted or absorbed into 'những điều lạ', but more importantly, the specific nuance of 'what you want' is lost."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

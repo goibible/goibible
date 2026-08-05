@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 7,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γαρ' (for they do not) expresses a negative statement ('they do not say'), whereas the Vietnamese translation renders it as a rhetorical question ('há... sao?'). While this conveys a similar sentiment, it changes the grammatical structure from a declarative negation to an interrogative form."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

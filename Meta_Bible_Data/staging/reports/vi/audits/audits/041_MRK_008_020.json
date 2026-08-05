@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 8,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποσων' (posōn) is a dative plural of 'ποσών' (posōn), which in this context refers to 'portions' or 'shares'. The Vietnamese translation 'giỏ đầy' (full baskets) adds the concept of 'fullness' and 'baskets' as a container, whereas the Greek describes 'portions/shares of the fragments'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'σπυριδων' (spyridōn) refers to 'scraps' or 'bits', which is captured by 'mảnh vụn', but the specific phrasing 'ποσων... πληρωματα' suggests 'portions/shares of... fragments'. The Vietnamese 'giỏ đầy' (full baskets) changes the focus from the distribution of portions to the volume of the containers."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'στραφεις' is an imperative (command) meaning 'turn', but the Vietnamese 'xây lại' (rebuild/build again) is a complete mistranslation of the verb."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εφη' (said) refers to Jesus speaking. The Vietnamese 'phán với Si-môn' (spoke to Simon) captures the action but misses the specific structure of 'turning to the woman [and] saying'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

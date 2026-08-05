@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ει δε μη' (ei de mê) means 'if not' or 'but if not'. The Vietnamese translation 'nếu không' captures the 'if not' part, but the phrasing 'hãy tin vì chính những công việc ấy' (believe because of those works) fails to capture the conditional contrast. The Greek implies: 'Believe me that I am in the Father... but if not [by that means], believe me by these works.' The Vietnamese makes it sound like an alternative reason for believing, rather than a conditional 'if not'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

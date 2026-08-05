@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'δογματιζεσθε' (dogmatizesthe) refers to 'holding to doctrines' or 'adhering to dogmas.' The Vietnamese translation 'chịu phục dưới những điều răn' means 'submitting under commands/precepts,' which changes the nature of the action from intellectual/spiritual adherence to a posture of submission."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

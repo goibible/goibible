@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανα δυο' (ana duo) means 'two by two'. The Vietnamese translation 'từng đôi' is an acceptable rendering of this, but the phrase 'đi trước mặt Ngài' (going before Him) is a slight shift. While 'προ προσωπου αυτου' literally means 'before His face', in this context it refers to the order of mission (going ahead of Him). However, the primary issue is the omission of the specific scope of the destination."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ου εμελλεν αυτος ερχεσθαι' means 'where He was NOT going to come'. The Vietnamese translation 'mà chính Ngài sắp đến' (where He was about to come) reverses the negation. The Greek implies they were sent to places He was *not* planning to visit yet, whereas the Vietnamese suggests they were sent to places He *was* going to visit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

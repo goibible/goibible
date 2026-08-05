@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'και απεκριθη' (and one answered) uses a singular verb, but the Vietnamese 'một trưởng lão trả lời' (one elder answered) is acceptable. However, the Greek 'εκ των πρεσβυτερων' (from among the elders) implies a specific individual from a group, which the Vietnamese captures correctly."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'Bấy giờ' (Now/Then) as an introductory marker, but more importantly, it misses the nuance of 'εκ των' (from among). However, the most significant issue is that the Greek 'λεγων μοι' (saying to me) is rendered as 'nói với tôi', which is correct. The Vietnamese translation is actually very faithful. Wait, looking closer: The Greek says 'και απεκριθη' (and [one] answered). The Vietnamese starts with 'Bấy giờ' (Now/Then), which is not in the Greek text (no 'τότε' or 'νυν')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

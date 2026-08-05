@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'και αυτοι' (and they) is translated as 'Các môn đồ' (The disciples). While contextually implied, the Greek text does not explicitly use the word for 'disciples' in this specific clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουδενι' (to no one) is rendered as 'không... cho ai', which is acceptable, but the Vietnamese omits the specific scope of 'in those days' being linked directly to the silence of the people or the lack of reporting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

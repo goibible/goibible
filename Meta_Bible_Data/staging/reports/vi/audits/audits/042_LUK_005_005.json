@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επιστατα' (epistata) is a verb meaning 'to command' or 'to order'. The Vietnamese translation renders it as 'theo lời Thầy' (according to your word), which softens the active command into a passive reference. The Greek implies 'at your command' or 'because you commanded'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

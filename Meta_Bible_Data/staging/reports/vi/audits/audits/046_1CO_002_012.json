@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'το πνευμα το εκ του θεου' (the spirit from God) is translated as 'Thánh Linh' (Holy Spirit). While often associated, 'Thánh Linh' carries a specific theological designation of the Third Person of the Trinity, whereas the Greek text simply specifies 'the spirit from God' in contrast to 'the spirit of the world'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

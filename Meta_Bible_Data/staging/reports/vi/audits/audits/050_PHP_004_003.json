@@ -1,0 +1,22 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'συζυγε' (syzyge) refers to a 'partner', 'companion', or 'fellow worker'. The Vietnamese translation 'người đồng liêu' (colleague/peer) is slightly different in nuance, but the primary issue is the interpretation of 'συζυγε' as an address to a specific person vs. a description of the relationship."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'συλλαμβανου' (syllambanou) means 'to take up', 'to receive', or 'to take into one's arms/care'. The Vietnamese translation 'giúp đỡ' (to help) is a functional equivalent but loses the specific nuance of 'taking someone into one's care/charge' which is central to the context of Philemon."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο δε μετα ορκωμοσιας' (but he who is after an oath) refers to the person/subject of the oath. The Vietnamese 'được lập lên bằng lời thề' (was appointed by an oath) changes the grammatical structure from a description of the subject to a passive action performed on the subject."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συ ιερευς' (as a priest) is rendered as 'Con làm thầy tế lễ' (I am/become a priest). The Vietnamese adds the first-person pronoun 'Con' (I/Me), which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

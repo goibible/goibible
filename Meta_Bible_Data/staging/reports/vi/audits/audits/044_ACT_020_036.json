@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'θεις τα γονατα' (falling on his knees) is rendered as 'quỳ đầu gối xuống' (kneeling down). While similar, the Greek implies a physical action of falling/prostrating onto the knees, whereas 'quỳ' can be a static posture. More importantly, the Greek structure implies he fell to his knees *while* saying those words or immediately after, but the Vietnamese 'Nói xong... ông quỳ' makes it a sequential action. However, the primary issue is the lack of 'falling' (θεις) which adds a sense of urgency/humility not fully captured by the standard 'quỳ'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

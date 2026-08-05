@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τρυματισαντες' is a participle modifying 'εξεβαλον'. The Vietnamese 'đánh người bị thương' (hit the wounded person) incorrectly interprets 'τρυματισαντες' as an adjective describing a person who was already wounded, rather than a present participle describing the action of 'beating/mutilating' while they were casting him out."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

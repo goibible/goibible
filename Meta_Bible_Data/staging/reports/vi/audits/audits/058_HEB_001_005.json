@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation attributes the statement 'Ngươi là Con ta, ngày nay ta đã sinh ngươi' (You are my Son, today I have begotten you) to God ('Đức Chúa Trời'), whereas the Greek text 'τινι γαρ ειπεν ποτε των αγγελων υιος μου' implies a question about whether Jesus (the Son) ever said to an angel: 'My son...'. The Vietnamese structure makes it sound like God is speaking to an angel, rather than Jesus speaking to an angel."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 16,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek has 'ημιν' (to us) in 'καταγγελλουσιν ημιν οδον σωτηριας' (they proclaim to us a way of salvation), but the Vietnamese renders it as 'cho các ngươi' (to you all), changing the recipient from first-person plural to second-person plural."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

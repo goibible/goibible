@@ -1,0 +1,26 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηδεις υμας καταβραβευετω' means 'let no one rob you' (of the reward/inheritance). The Vietnamese 'Chớ để ai cướp phần thưởng của anh em' changes the meaning from a command/warning about a potential action ('let no one rob') to a passive or permissive stance ('don't let anyone rob'). More importantly, 'καταβραβευετω' is often interpreted in this context as 'robbing of the inheritance/reward' (the reward of the kingdom), but the Vietnamese phrasing 'cướp phần thưởng của anh em' makes it sound like a physical theft of an object already owned, rather than the spiritual loss of the reward."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'α μη εωρακεν εμβατευων εικη φυσιουμενος' describes the *manner* in which one should not be robbed: 'by [robbing] what they have not seen'. The Vietnamese 'mà xâm phạm vào những điều mình chưa thấy' changes the structure. In Greek, the 'not seeing' qualifies the act of 'robbing' (taking what is not yet visible/attained). The Vietnamese makes it sound like a separate action of 'trespassing/violating' things unseen."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπο του νοος της σαρκος αυτου' refers to the 'mind of his flesh'. The Vietnamese 'bởi tâm trí xác thịt của mình' is close, but the Greek specifically links the 'mind' to the 'flesh' (the source of the pride). The Vietnamese construction is slightly ambiguous as to whether it's the mind *of* the flesh or just a mind *about* flesh."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

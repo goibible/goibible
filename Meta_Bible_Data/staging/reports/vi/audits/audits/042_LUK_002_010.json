@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'χαραν' (charan) is a noun meaning 'joy/gladness'. The Vietnamese translation renders it as 'một niềm vui lớn' (a great joy), but the Greek structure 'ευαγγελιζομαι υμιν χαραν' literally means 'I preach/announce to you glad tidings' or 'I announce joy to you'. The Vietnamese phrasing 'rao truyền cho các ngươi một niềm vui lớn' slightly shifts the focus from the content of the announcement (glad tidings) to a general statement of joy, but more importantly, it misses the specific nuance that 'charan' is the direct object of the announcement."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ητις εσται' (itis estai) is a relative pronoun/verb construction. The Vietnamese 'là điều sẽ đến' (is the thing that will come) is a slightly loose rendering of 'which will be'. However, there is a subtle nuance: 'ητις' refers back to the 'charan' (gladness/glad tidings). The Vietnamese 'điều' (thing/matter) is acceptable but less specific than the implied 'gladness' that is being referred to."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

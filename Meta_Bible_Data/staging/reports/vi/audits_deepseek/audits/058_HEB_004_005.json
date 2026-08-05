@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek has no negation: 'ει εισελευσονται' means 'if they shall enter' (a conditional clause). The Vietnamese adds 'chẳng' (not), turning it into a negative statement 'they shall not enter', which reverses the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'ngăn trở ý định đó' (obstructed that intention) incorrectly attributes the action of stopping to the centurion. The Greek 'εκωλυσεν αυτους του βουληματος' means he 'hindered them [the soldiers] from [his] will/intention' (i.e., he stopped the soldiers from carrying out his own plan to save Paul). The Vietnamese phrasing makes it sound like someone else stopped the centurion's intention."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'βουλομενος διασωσαι τον παυλον' (wanting to save Paul) is omitted in the Vietnamese translation. The Vietnamese only mentions his desire to save Paul as a reason for the subsequent action, but fails to clearly link that he was the one who wanted to do it."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation repeats 'lòng nhân từ' twice, whereas the Greek text lists 'χρηστοτης' (kindness/goodness) and 'αγαθωσυνη' (goodness/beneficence) as distinct qualities."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

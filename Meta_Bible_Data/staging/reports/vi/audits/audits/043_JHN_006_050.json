@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'μη αποθανη' (so that they may not die) and replaces it with a conditional 'để ai ăn nó thì không chết' (so that whoever eats it does not die). The Greek implies a purpose/result for those who eat, but the Vietnamese structure changes the logical relationship to a conditional result."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα τις εξ αυτου φαγη' means 'so that they [the people] may eat from it'. The Vietnamese 'để ai ăn nó' changes the subject from a general group ('they') to an indefinite pronoun ('whoever')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

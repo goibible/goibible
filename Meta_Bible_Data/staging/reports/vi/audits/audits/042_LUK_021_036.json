@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'để các ngươi được kể là xứng đáng' (so that you may be counted as worthy) adds a nuance of being 'counted' or 'judged' as worthy, whereas the Greek 'ινα καταξιωθητε' is a simple subjunctive expressing the purpose/result 'that you may be made worthy' or 'be worthy'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'đứng' (stand) in relation to the phrase 'σταθηναι εμπροσθεν' (to stand before). While 'đứng trước mặt' is present, the Greek structure implies a state of being 'found standing' or 'standing' as a result of being made worthy. However, the most significant issue is the slight shift in the 'worthy' construction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 20,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διαμαρτυρεται' (diamartyretai) means 'bears witness against' or 'testifies against'. The Vietnamese translation 'làm chứng' (bears witness) omits the 'against' aspect, potentially changing the meaning from a warning/accusation to a neutral testimony."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

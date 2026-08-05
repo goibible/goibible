@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'đã được hòa thuận rồi' (already reconciled) changes the grammatical structure of the Greek. The Greek 'καταλλαγεντες' is a perfect participle modifying the subject 'σωθησομεθα' (we will be saved). The Vietnamese phrasing makes it sound like a completed action in the past, whereas the Greek construction conveys 'having been reconciled' as the condition/basis for the future salvation."
+        },
+        {
+          "kind": "other",
+          "detail": "The phrase 'là dường nào!' at the end is a stylistic rendering of 'πολλω μαλλον', but the Vietnamese structure makes it slightly awkward compared to the Greek 'much more'. However, the primary issue is the shift in the logical flow of the reconciliation condition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 2,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'μενετω' (let it remain/abide) is an imperative/optative expressing a command or desire for the 'word' to stay within them. The Vietnamese translation 'hãy ở trong anh em' (let it be in you) incorrectly shifts the subject of the action; it makes it sound like the people should perform the action of staying inside themselves, rather than the word remaining within them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι δε ανεστησεν αυτον' (that He raised him) is rendered in Vietnamese as 'Ngài đã khiến Người... sống lại' (He made Him... come alive). The Greek verb 'ἀνεστῆσεν' (raised/resurrected) is active and direct; the Vietnamese 'khiến... sống lại' (made [him] live again) introduces a causative structure not present in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουτως' (thus/in this way) is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

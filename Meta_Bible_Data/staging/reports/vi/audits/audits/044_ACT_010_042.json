@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 10,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αυτος' (autos) refers back to the subject of the preceding context (Jesus), but the Vietnamese translation 'chính Ngài' (Himself/He) is ambiguous in this specific clause because the sentence begins with 'Ngài đã truyền' (He commanded). A Vietnamese reader might be confused as to whether 'Ngài' refers to the one giving the command or the one being proclaimed as Judge. The Greek clearly distinguishes between the one commanding and the one being proclaimed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

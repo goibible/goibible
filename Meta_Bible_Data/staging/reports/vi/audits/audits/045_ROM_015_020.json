@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 15,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οουχ οπου ωνομασθη' (not where [He] was named) is rendered in Vietnamese as 'nơi nào danh Đấng Christ chưa được truyền ra' (where the name of Christ has not yet been preached). The Greek implies a location where the name was *not* established/named, whereas the Vietnamese phrasing 'chưa được truyền ra' (has not yet been preached) introduces a specific action of preaching that is not explicitly in the source text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ουχ οπου ωνομασθη' uses a negative ('ουχ'). The Vietnamese translation uses 'chưa được' (not yet), which implies a future possibility or a pending action, whereas the Greek simply negates the location where the name was already established."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

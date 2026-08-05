@@ -1,0 +1,41 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Vietnamese OT smoke test before full OT generation.",
+  "groups": [
+    {
+      "name": "Genesis genealogy",
+      "reason": "Genealogy and repeated family formulas.",
+      "refs": ["GEN 5:1-10"]
+    },
+    {
+      "name": "Deuteronomy lineage and names",
+      "reason": "Lineage, place names, and Levite references.",
+      "refs": ["DEU 10:6-15"]
+    },
+    {
+      "name": "Leviticus prohibitions",
+      "reason": "Repeated prohibition language equivalent to thou-shalt-not patterns.",
+      "refs": ["LEV 18:6-15"]
+    },
+    {
+      "name": "Isaiah messianic prophecy",
+      "reason": "Servant prophecy used to check Jesus prophecy precision.",
+      "refs": ["ISA 52:13-15", "ISA 53:1-7"]
+    },
+    {
+      "name": "Proverbs parallelism",
+      "reason": "Twenty compact parallel sayings.",
+      "refs": ["PRO 10:1-20"]
+    },
+    {
+      "name": "Psalms poetry",
+      "reason": "Five full chapters for the hardest poetic register.",
+      "refs": ["PSA 1", "PSA 2", "PSA 22", "PSA 23", "PSA 51"]
+    },
+    {
+      "name": "Job narrative",
+      "reason": "Full Job 1 chapter.",
+      "refs": ["JOB 1"]
+    }
+  ]
+}

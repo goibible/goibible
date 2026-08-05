@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 13,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ασπαζονται' (aspazontai) means 'to embrace,' 'to welcome,' or 'to greet warmly.' The Vietnamese translation 'chào' is a general greeting, but in this context, 'đón chào' or 'ôm lấy' would better capture the specific nuance of 'aspazontai' as a warm reception/embrace."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υπο των χλοης' is a common idiom for 'from the grass' (meaning from the rural areas/countryside), but the Vietnamese translation renders it as 'bởi người nhà Chloe' (by the people of Chloe/Chloe's family), which changes the source of the information from a geographical/social category to a specific person or family name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

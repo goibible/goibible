@@ -1,0 +1,22 @@
+{
+  "book": "1TH",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μηκετι στεγων' (not enduring/patient anymore) is rendered in Vietnamese as 'không thể chịu đựng thêm nữa' (cannot endure any longer). While similar, the Greek implies a state of 'no longer being patient' rather than an inability to endure. However, the more significant issue is the causal link: the Greek 'δια τουτο' (because of this/for this reason) links the previous context to the action of sending someone, but the Vietnamese phrasing 'nên đã sai người' (so sent people) makes it sound like a direct consequence of 'not being able to endure,' whereas the Greek suggests the lack of patience is the *reason* for the action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μηπως' (lest/for fear that) introduces a purpose/result clause. The Vietnamese 'e rằng' captures this well, but the phrase 'và lao khổ của chúng tôi trở nên vô ích' (and our labor becomes useless) omits the implicit 'lest' connection from 'μηπως'. In Greek, the whole clause 'μηπως... και...' is governed by 'μηπως', meaning the fear is that the labor *will become* useless. The Vietnamese 'và' (and) makes it sound like a separate statement of fact rather than the object of the fear."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

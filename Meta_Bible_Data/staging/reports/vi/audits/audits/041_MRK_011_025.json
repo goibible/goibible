@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφιετε' (aphiete) is an imperative verb meaning 'forgive'. The Vietnamese translation 'hãy tha thứ' (please forgive) is placed after the conditional clause 'nếu có điều gì...' (if there is anything...), but it is grammatically and logically linked to the 'anything against someone' (τι εχετε κατα τινος). However, the Vietnamese structure slightly obscures that the command to forgive is the direct action required when one holds a debt/grudge. More importantly, the Greek 'αφιετε' is the main command of the clause, whereas the Vietnamese phrasing makes it feel like a secondary instruction."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'τι εχετε κατα τινος' implies 'whatever you have against someone' (a debt or offense). The Vietnamese 'nếu có điều gì nghịch cùng ai' translates to 'if there is anything against someone', slightly weakening the personal agency of 'you have'. However, the most significant issue is the sequence: Greek is 'When you stand praying, forgive...'; Vietnamese is 'When you stand praying, if you have something against someone, forgive...'. The Vietnamese adds a conditional structure that isn't explicitly a 'if' (ean) in the Greek, but rather an object-defining phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

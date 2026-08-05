@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'λεγει' (speaks/says) is used in the sense of asking or telling, but the Vietnamese translation renders it as a question ('Ngài hỏi'), whereas the Greek structure 'ποσους αρτους εχετε υπαγετε και ιδετε' (how many loaves do you have, go and see) functions more as an instruction/command combined with an inquiry. More importantly, the Vietnamese adds 'Hãy đi xem' as a separate imperative command, while in Greek it is part of the same verbal flow."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 11,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'επισυστασις' (episystasis) refers to 'oppression', 'burden', or 'weight'. The Vietnamese translation 'sự nổi dậy' means 'rebellion' or 'uprising', which is a significant semantic shift from the intended meaning of being burdened/oppressed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

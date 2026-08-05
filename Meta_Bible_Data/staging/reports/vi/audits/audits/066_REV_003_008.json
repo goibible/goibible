@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οιδα' (oida) is first-person singular ('I know'), but the Vietnamese 'Ta biết' is used correctly. However, the Greek 'ουδεις δυναται κλεισαι αυτην' means 'no one is able to close it'. The Vietnamese translation 'không ai có thể đóng nó' is correct. The issue lies in the conjunction 'οτι' (oti), which functions as 'because' or 'since' in this context, explaining why no one can close it. The Vietnamese uses 'vì' correctly. However, the Greek 'ουκ ηρνησω το ονομα μου' is 'I will not deny my name'. The Vietnamese 'không chối danh ta' is correct. Looking closely at the Greek: 'οιδα σου τα εργα' (I know your works). The Vietnamese 'Ta biết công việc của ngươi' is correct. Wait, checking the Greek again: 'ουδεις δυναται κλεισαι αυτην οτι μικραν εχεις δυναμιν'. The Greek 'οτι' here connects the inability to close it to the fact that [they] have little power. The Vietnamese 'vì' captures this. There is no significant fidelity issue found upon closer inspection of the grammar and meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

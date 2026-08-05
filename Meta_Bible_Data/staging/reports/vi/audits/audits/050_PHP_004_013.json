@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Đấng ban sức mạnh cho tôi' (The One who gives me strength) as an appositive/description for Christ. The Greek text 'εν τω ενδυναμουντι' is a prepositional phrase meaning 'in the strengthening' or 'in the power' (specifically the power of strengthening). It does not describe Christ as a person who gives strength, but rather identifies the source/means of the ability as being 'in the strengthening'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

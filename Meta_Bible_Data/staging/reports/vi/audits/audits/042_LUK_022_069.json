@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 22,
+  "verse": 69,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'con trai' (son). The Greek says 'ho huios tou anthrōpou' (the Son of Man), but the Vietnamese translates it as 'Con người' (The Human/Man)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

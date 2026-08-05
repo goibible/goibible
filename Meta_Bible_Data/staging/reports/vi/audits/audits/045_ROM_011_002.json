@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προεγνω' (proegnō) is a simple past/aorist active indicative. The Vietnamese translation 'mà Ngài đã biết trước' adds a contrastive conjunction 'mà' (but/while) which is not present in the Greek structure. The Greek implies a continuous state or a fact of God's prior knowledge, not a contrast between 'not abandoning' and 'knowing'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

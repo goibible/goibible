@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη ξενιζεσθε' means 'do not be amazed/surprised' (don't treat it as a strange thing). The Vietnamese 'chớ lấy làm lạ' is a reasonable rendering, but the phrase 'để thử nghiệm' (to test/for testing) is an addition/mistranslation of the purpose. The Greek 'προς πειρασμον' describes the *nature* of the fire (it is a fire *of* trial/testing), not a purpose for which the fire is happening. More importantly, the Vietnamese adds 'để thử nghiệm' as a secondary action, whereas the Greek identifies the fire itself as a 'fire of trial'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

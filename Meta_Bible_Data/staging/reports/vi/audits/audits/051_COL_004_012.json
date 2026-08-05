@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ασπαζεται υμας' (aspazate hymas) is an imperative meaning 'Greet/Embrace one another'. The Vietnamese translation 'Chào anh em' (Greet brothers) misses the reflexive/reciprocal sense of the Greek, which implies a mutual greeting among the recipients."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πεπληρωμενοι' (peplērōmenoi) is a perfect passive participle meaning 'having been filled'. The Vietnamese 'đầy đủ' (complete/sufficient) captures the state but misses the specific nuance of being 'filled' by the Spirit/God."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

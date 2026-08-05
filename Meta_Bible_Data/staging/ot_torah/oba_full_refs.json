@@ -1,0 +1,13 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full OBA QA batch.",
+  "groups": [
+    {
+      "name": "OBA full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "OBA 1"
+      ]
+    }
+  ]
+}

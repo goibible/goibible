@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 12,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως αν ηγεσθε' (as if you were led/governed) is rendered as 'tùy theo cách mình bị dẫn dụ' (depending on the way/manner in which we were led). The Vietnamese changes the meaning from a conditional/comparative state ('as if') to a causal or manner-based description ('according to the way')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οι προσκοπτουσιν τω λογω απειθουντες' describes the people as those who 'disobey/do not believe the word' (the cause of their stumbling). The Vietnamese translation 'họ vấp ngã vì không vâng phục lời' implies they fell *because* they didn't obey, whereas the Greek structure identifies them as those who disobey the word and are thus a stumbling block."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

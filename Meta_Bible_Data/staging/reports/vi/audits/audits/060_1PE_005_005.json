@@ -1,0 +1,18 @@
+{
+  "book": "1PE",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'δε αλληλοις υποτασσομενοι' (not submitting to one another), but the Vietnamese translation says 'mà phục lẫn nhau' (but submit to one another). This is a reversal of the negation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

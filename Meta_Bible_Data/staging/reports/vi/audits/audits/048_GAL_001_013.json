@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'εδιωκον' (ediōkon) means 'pursued' or 'persecuted' (from diōkō). The Vietnamese translation 'bắt bớ' (arrested/apprehended) is a specific action of capture, whereas the Greek implies the ongoing act of pursuit/persecution."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'επορθουν' (eporthoun) means 'opposed' or 'fought against'. The Vietnamese translation 'phá hủy' (destroyed) implies a completed result of destruction, which is stronger than the Greek verb of opposition/resistance."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

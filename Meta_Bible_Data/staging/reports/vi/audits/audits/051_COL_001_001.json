@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek structure 'παυλος αποστολος ιησου χριστου δια θεληματος θεου' indicates that Paul is the apostle of Jesus Christ *by* the will of God. The Vietnamese translation 'Phao-lô, theo ý muốn Đức Chúa Trời, làm sứ đồ...' places the phrase 'theo ý muốn Đức Chúa Trời' (by the will of God) as an appositive describing Paul directly before his title, which slightly shifts the grammatical relationship, though it is a minor structural shift. However, more importantly, the Greek 'δια θεληματος θεου' modifies his status as an apostle. The Vietnamese phrasing makes it sound like he is [existing/being] by God's will, rather than specifically being [appointed/sent] as an apostle by God's will."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

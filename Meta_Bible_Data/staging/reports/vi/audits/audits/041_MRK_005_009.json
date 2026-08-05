@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'πολλοι' (polloi) means 'many'. The Vietnamese translation 'Quân đội' means 'Army/Military', which is a specific entity not present in the source text. This adds a specific concept that changes the meaning from a quantity ('many') to a specific organization ('army')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

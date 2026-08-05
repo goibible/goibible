@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι αν θελοι' (ti an theloi) means 'what it wants/intends' or 'what it means,' but the Vietnamese translation 'Việc nầy có nghĩa là gì?' turns it into a question ('What does this mean?'). The Greek text is a statement of what they were saying, not a direct question."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

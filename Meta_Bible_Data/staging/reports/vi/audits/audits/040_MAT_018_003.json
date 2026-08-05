@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 18,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'στραφητε' (straphete) means 'turn around' or 'repent/turn back'. The Vietnamese translation 'xây lại' means 'build again' or 'rebuild', which is a significant semantic shift from turning/repenting to building."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

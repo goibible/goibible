@@ -1,0 +1,18 @@
+{
+  "book": "COL",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ευδοκησεν' (eudokēsen) is a verb meaning 'pleased' or 'willed/desired'. The Vietnamese translation 'đã vui lòng' (was pleased) treats the pleasure as a past state/attribute of the fullness, whereas the Greek implies that God *pleased* or *willed* for the fullness to dwell in Him. The Vietnamese phrasing makes it sound like the fullness was happy/pleased to be there, rather than God desiring/pleasing that it be there."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

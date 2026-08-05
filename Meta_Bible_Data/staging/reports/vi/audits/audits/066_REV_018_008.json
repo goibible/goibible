@@ -1,0 +1,22 @@
+{
+  "book": "REV",
+  "chapter": 18,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek text says 'οτι ισχυρος κυριος ο θεος' (because the Lord God is mighty), but the Vietnamese translation places 'là Đấng mạnh mẽ' at the end of the sentence as a non-restrictive appositive to 'Đấng phán xét', which slightly alters the grammatical flow, though the primary issue is the word order/structure regarding the reason."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation moves the attribute 'mạnh mẽ' (strong/mighty) to the very end of the sentence, whereas in Greek it immediately follows 'κυριος' (Lord). While the meaning is largely preserved, the Vietnamese structure makes 'mạnh mẽ' appear as a secondary description of the Judge rather than the primary reason provided by the 'oti' clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

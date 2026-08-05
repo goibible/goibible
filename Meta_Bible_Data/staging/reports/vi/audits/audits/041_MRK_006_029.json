@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ακουσαντες' (having heard) does not include the word 'tin' (believed). The Vietnamese translation adds 'tin' (believed), which is not present in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'là một' (is one) at the end, which has no basis in the Greek text. The Greek phrase 'ο αυτος' functions as a pronoun/intensifier meaning 'the same' (He who was), not as a predicate stating unity."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

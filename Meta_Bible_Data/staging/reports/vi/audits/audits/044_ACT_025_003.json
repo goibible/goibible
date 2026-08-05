@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κατ αυτου' (against him) is translated as 'nghịch cùng người' (opposing/hostile towards him), but in the context of 'αιτουμενοι χαριν' (asking for grace/favor), it means they were asking for favor *from* him (or regarding him). However, 'κατ αυτου' specifically indicates that the favor was being sought *against* him. The Vietnamese 'nghịch cùng người' implies a state of hostility, whereas the Greek describes the direction of the request (asking for favor against him)."
+        },
+        {
+          "kind": "addition",
+          "detail": "The name 'Phao-lô' (Paul) is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

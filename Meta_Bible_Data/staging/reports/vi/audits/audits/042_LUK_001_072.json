@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 72,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'ποιησαι' (poiesai) is the imperative of 'poieō', meaning 'do' or 'work'. The Vietnamese translation 'Thực hiện lòng thương xót' (Practice/Perform mercy) shifts the meaning from 'Have mercy' (the standard liturgical sense of 'ποιησαι ελεος') to an action performed *by* the speaker, whereas the Greek is a petition for God to *act* in mercy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ως' (until/as far as) in this context functions as a limit or duration marker, but the Vietnamese 'cho đến đời' (until the time of/era of) slightly shifts the nuance. More importantly, the Greek 'τετρακοσιοις και πεντηκοντα' refers to 450 years, but the Vietnamese 'trong khoảng' (in about/approximately) adds a sense of approximation that is not present in the Greek text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εδωκεν κριτας' (gave judges) is translated as 'ban cho họ các quan án'. While 'họ' (them) is a natural addition for the subject, the Greek text does not explicitly have a pronoun there, though it is understood from context. However, the primary issue remains the addition of 'khoảng' (approximately)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εις εκ δεξιων σου και εις εξ ευωνυμων σου' (at your right hand and at your left hand) implies positions of honor/status, but the Vietnamese adds 'một người' (one person) twice, which is not present in the Greek text. The Greek does not specify a count of persons."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

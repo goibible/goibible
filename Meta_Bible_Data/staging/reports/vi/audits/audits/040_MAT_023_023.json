@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 23,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οτι' (hoti) functions as a conjunction meaning 'because' or 'since' in this context, explaining the reason for the woe. The Vietnamese translation 'vì' correctly captures 'because', but the subsequent structure 'nộp một phần mười bạc hà, thì là, và thì là' is a literal/awkward rendering of 'το ηδυοσμον και το ανηθον και το κυμινον'. More importantly, the Greek 'αφηκατε' (aphekate) means 'you have neglected/omitted', whereas the Vietnamese 'bỏ' is acceptable, but the phrasing 'mà bỏ' makes it sound like a simultaneous action rather than the result of their hypocrisy. However, the most significant issue is the phrase 'ταυτα εδει ποιησαι κακεινα μη αφιεναι'. The Greek 'εδει' (edei) implies an obligation ('ought to do' or 'must do'). The Vietnamese 'phải làm' captures 'must do', but 'không nên bỏ' (should not leave/omit) is slightly weaker than the imperative sense of 'μη αφιεναι' (do not neglect)."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese translation of 'το ηδυοσμον και το ανηθον και το κυμινον' as 'bạc hà, thì là, và thì là' is slightly confusing because 'thì là' is a common term for cumin, but the repetition makes it sound like a list of three items where two are the same. It should clearly distinguish between the three distinct herbs (mint, cumin, and dill)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

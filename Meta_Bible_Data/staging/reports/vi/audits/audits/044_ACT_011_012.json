@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνελθειν αυτοις' (to come/go with them) is translated as 'đi cùng họ' (go with them). While similar, the Greek verb 'ἐλθίω' (from which 'συνελθειν' is derived) implies 'coming' or 'approaching' rather than just 'going'. However, a more significant issue is the phrasing of 'μηδεν διακρινομενον'. The Greek describes the *manner* of coming ('without making any distinction'), but the Vietnamese 'chớ phân biệt ai' (do not distinguish anyone) sounds like a command or a general instruction rather than a description of the action of arriving/coming."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ηλθον δε συν εμοι' (and I came with them) is slightly compressed in the Vietnamese. The Vietnamese 'Sáu anh em này cũng đi với tôi' (These six brothers also went with me) captures the meaning but shifts the focus slightly from the sequence of the movement described in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εδιωξαν' (did not persecute/drive out) is rendered as 'chẳng bắt bớ' (did not arrest/persecute). While 'bắt bớ' is a common rendering for persecution, the Greek 'ἐδίωξαν' specifically implies driving out or casting out. However, the primary issue is the phrasing 'Có nhà tiên tri nào mà... chẳng...' which creates a rhetorical structure that slightly shifts the emphasis, but the most significant fidelity issue is the handling of the first clause's scope."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation splits the sentence into two distinct sentences. The Greek is a single complex sentence where the second clause ('απεκτειναν...') is part of the same rhetorical progression as the first. By making it a new sentence starting with 'Họ cũng đã' (They also...), the Vietnamese adds a subject/agent ('Họ') that is not explicitly present in the Greek, which uses a continuous flow of actions by the fathers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

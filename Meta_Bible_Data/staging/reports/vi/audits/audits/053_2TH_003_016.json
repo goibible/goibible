@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds the phrase 'Nguyền xin' (May/I pray) at the beginning of the final clause, which is not present in the Greek text. The Greek simply states 'o kyrios meta panton hymon'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

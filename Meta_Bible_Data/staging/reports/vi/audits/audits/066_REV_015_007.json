@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 15,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εἰς τοὺς αἰῶνας τῶν αἰώνων' (eis tous aiōnas tōn aiōnōn) is a temporal phrase meaning 'forever and ever' or 'into the ages of ages'. The Vietnamese translation 'đời đời' (eternally/forever) is placed at the end of the sentence such that it modifies 'Đức Chúa Trời' (God), making it sound like God is 'the eternally living one' rather than indicating the duration of the wrath. In Greek, the phrase qualifies the 'wrath' (θυμω), not just the name of God."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

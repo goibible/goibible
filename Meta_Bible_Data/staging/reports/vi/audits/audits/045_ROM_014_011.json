@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'Thật như Ta hằng sống' (Truly, as I live), which is not present in the Greek text ('ζω εγω'). While 'ζω' means 'I live', it is used here as a formulaic oath/expression of certainty, but the Vietnamese rendering 'hằng sống' (constantly living) slightly alters the grammatical function of the verb."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek says 'εμοι καμψει' (will bow to me), but the Vietnamese says 'quỳ trước mặt Ta' (will kneel before my face/before me). While the meaning is similar, the Greek specifies bowing *to* Me, not specifically *before my face*."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

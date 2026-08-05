@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλως εξουσιν' (kalōs exousin) means 'they will be healed' or 'will be well,' but the Vietnamese translation 'người bệnh sẽ được lành' (the sick will be healed/well) shifts the subject of the healing from the people who are performing the action to the sick people themselves as a passive recipient. While similar in outcome, the Greek construction implies the result of their actions."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'επι αρρωστους χειρας επιθησουσιν' describes the action of 'laying hands upon the sick.' The Vietnamese translation 'họ sẽ đặt tay trên người bệnh' captures this, but the final clause 'và người bệnh sẽ được lành' omits the direct connection that the healing is the result of their specific actions (the 'καλως' implies they will be well/healed as a result)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

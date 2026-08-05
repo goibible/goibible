@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'αναμνησθεις' (anamneseis) is a present active subjunctive, often used in the context of 'remembering' or 'recalling' as a result of a command. The Vietnamese 'nhớ lại' (remembered/recalled) captures the meaning but fails to convey the specific grammatical mood/aspect of the Greek which implies a prompt action or state triggered by a preceding thought/command. However, more critically, the Greek 'λεγει' (legei) is a present indicative ('says'), while the Vietnamese 'thưa với Ngài' (said to Him) is a past tense construction. The Greek text is in the present tense."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek verb 'λεγει' is present tense, but the Vietnamese translation uses a past tense structure ('nhớ lại', 'thưa với')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

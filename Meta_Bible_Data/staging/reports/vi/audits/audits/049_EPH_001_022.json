@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation 'ban Ngài làm đầu' (gave You as head) incorrectly identifies the subject/object relationship. The Greek 'αὐτὸν ἔδωκεν κεφαλὴν' means 'He [God] gave Him [Christ] as head'. The Vietnamese phrasing suggests He gave 'You' (the reader/listener), whereas the Greek refers to Christ."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

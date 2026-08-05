@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 8,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'nghẹt ngòi' (suffocated/choked the source/origin) is a slight mistranslation of 'απεπνιξαν' (suffocated/choked). While 'nghẹt' captures the choking aspect, 'ngòi' adds a specific nuance of 'source' or 'origin' that is not present in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 17,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ψηλαφησαιαν' (psēlaphēsian) means 'to touch' or 'to feel by touch,' but the Vietnamese 'dò dẫm' implies 'fumbling,' 'groping,' or 'feeling around blindly.' While it captures a sense of searching, it adds a nuance of clumsiness or blindness not explicitly in the Greek."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'κατοιγε' (katoige) is an intensive particle meaning 'indeed' or 'truly.' The Vietnamese translation omits this emphasis."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

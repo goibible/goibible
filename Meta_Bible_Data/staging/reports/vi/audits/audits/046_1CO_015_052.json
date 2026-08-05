@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφθαρτοι' (aphartoi) is an adjective describing the state of the dead ('the corrupt/perishable dead'). The Vietnamese translation 'cách không hư nát' (in a way that is not decayed/corrupt) suggests a manner of resurrection, whereas the Greek indicates the condition of the bodies being raised."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

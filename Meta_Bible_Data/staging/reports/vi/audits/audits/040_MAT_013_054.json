@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 54,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωστε εκπληττεσθαι αυτους' (so that they might be amazed) describes the purpose or result of his teaching. The Vietnamese translation 'đến nỗi họ kinh ngạc' (to the point that they were amazed) shifts the meaning from a purposeful outcome/result to a simple temporal consequence, but more importantly, the Greek 'εκπληττεσθαι' is a passive infinitive of purpose/result, while the Vietnamese renders it as a completed state of being amazed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

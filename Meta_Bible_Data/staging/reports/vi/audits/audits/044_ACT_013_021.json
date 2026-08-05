@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ητησαντο' (ētēsanto) means 'they asked for/requested', but the Vietnamese 'xin' in this context is often interpreted as 'begged' or 'requested'. However, the more significant issue is the grammatical construction of the age. The Greek 'ετη τεσσαρακοντα' (etē tessarakonta) indicates that Saul was 40 years old at the time. The Vietnamese 'trong bốn mươi năm' (in/during forty years) suggests a duration of time or a period of forty years, which changes the meaning from an age to a duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

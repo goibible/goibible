@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 10,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου εμερισεν ημιν ο θεος μετρου' means 'God has not apportioned to us a measure'. The Vietnamese translation 'mà Đức Chúa Trời đã chia cho chúng tôi' incorrectly states that God *has* apportioned/divided it for them, reversing the negative meaning of 'ου' (not)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'αχρι και υμων' implies 'even to you' or 'reaching even to you'. The Vietnamese 'đến tận nơi anh em' loses the sense of 'even' (καί) and 'reaching/attaining' (εφικεσθαι) in its full scope, though this is a minor point compared to the negation error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

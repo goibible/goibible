@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 6,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ωμοσεν αυτη' indicates that SHE (the woman) made the oath to HIM. The Vietnamese translation 'Vua lại thề với nàng' incorrectly attributes the oath to the King (He swore to her)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο εαν με αιτησης' means 'if you ask me'. The Vietnamese 'Bất cứ điều gì ngươi xin ta' adds 'any thing' (bất cứ điều gì) which is not in the Greek text, though it is a common paraphrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

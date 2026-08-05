@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ικανοι' (ikanoi) means 'able', 'capable', or 'sufficient'. The Vietnamese translation 'không ít' (not few) completely changes the meaning of the adjective describing those who are sleeping."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

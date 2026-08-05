@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διελευσεται' (dieleusētai) is a future passive indicative meaning 'will pass through' or 'will pierce through'. The Vietnamese 'đâm thấu qua' (pierce through) is an acceptable rendering of the action, but the Greek construction is passive. More importantly, the Greek 'οπως' (hōs) functions as a purpose clause ('so that' / 'in order that'), which the Vietnamese 'hầu cho' correctly captures."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek text says 'διελευσεται... οπως αν αποκαλυφθωσιν'. The word 'αν' (an) is a conditional particle ('if'). The Vietnamese translation omits this conditional nuance, making it a direct purpose clause rather than a conditional purpose clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 12,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation places the quote 'nói rằng' (said that) at the end of the sentence, but in the Greek text, the phrase 'λεγει ουν' (therefore he says) appears at the beginning. While this is a common stylistic shift, the Vietnamese phrasing makes it sound as if the description of Judas is what he said, whereas the Greek indicates that Judas himself is the one speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

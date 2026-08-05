@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 2,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν τω εισαγαγειν' (while/during the bringing in) is a gerundial construction. The Vietnamese 'lúc cha mẹ đem con trẻ... vào' correctly captures the action, but the Greek 'του ποιησαι αυτους' indicates that the *parents* were performing the act of circumcising the child. The Vietnamese 'để làm cho Ngài' (to make Him) implies the parents were bringing him in for the purpose of someone else doing it to Him, whereas the Greek structure identifies the parents as the ones performing the circumcision ('του ποιησαι' - by [them] having circumcised)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

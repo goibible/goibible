@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 27,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πλεοντας μετα σου' means 'those who are sailing with you' (maritime context), but the Vietnamese 'cùng đi biển với ngươi' implies 'traveling by sea with you' or 'going to sea together.' While close, the Greek specifically refers to those currently in the act of sailing/boating with him."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

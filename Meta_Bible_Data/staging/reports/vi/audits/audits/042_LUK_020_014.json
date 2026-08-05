@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 20,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουτος εστιν ο κληρονομος' (this is the heir) refers to a person who inherits. The Vietnamese translation 'Người nầy là người kế tự' is acceptable, but the subsequent phrase 'để cơ nghiệp nó thuộc về chúng ta' (so that its inheritance/estate belongs to us) slightly shifts the focus from 'the inheritance becomes ours' (ημων γενηται η κληρονομια) to 'its estate belongs to us'. However, a more significant issue is the missing nuance of 'the heir' as a status. The Vietnamese 'người kế tự' is correct, but the phrasing 'để cơ nghiệp nó thuộc về chúng ta' implies the inheritance *of the person*, whereas the Greek implies the inheritance [that would have been his] becomes ours."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

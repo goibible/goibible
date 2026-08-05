@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποδους' (apodous) means 'away' or 'off', indicating he rolled up the book and put it away/set it aside. The Vietnamese 'trả cho người hầu việc' implies he gave the task of rolling the book to a servant, which is not what the Greek says."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

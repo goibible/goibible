@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 15,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια λογου πολλου' (by much speech/word) refers to the *means* of their exhortation, not the *content* of their speech. The Vietnamese 'dùng nhiều lời khuyên bảo' (used many words of advice) slightly shifts the focus from the volume/extent of their speaking to the specific content of 'advice' (khuyên bảo)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

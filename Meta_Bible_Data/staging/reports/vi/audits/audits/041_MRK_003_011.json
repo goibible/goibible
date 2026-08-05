@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συ ει' (sy ei) is 2nd person singular ('You are'), but the Vietnamese 'Thầy là' translates to 'You are' as 'Master/Teacher is' or 'He is', which shifts the perspective of who is being addressed. More importantly, 'Thầy' in Vietnamese often implies a specific title (Teacher) not present in the Greek, and the Vietnamese phrasing 'Thầy là Con Đức Chúa Trời' can be interpreted as a statement of fact about the speaker rather than a direct address to Jesus."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

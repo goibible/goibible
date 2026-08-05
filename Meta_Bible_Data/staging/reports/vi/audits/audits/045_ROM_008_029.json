@@ -1,0 +1,18 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμμορφους της εικονος του υιου αυτου' means 'conformable to the image of his Son'. The Vietnamese translation 'để nên giống như hình ảnh của Con Ngài' is slightly ambiguous; it could be read as 'so that [the people] become like the image of His Son', whereas the Greek indicates they are being made conformable to the image *already possessed* by the Son. However, a more significant issue is the phrasing 'hầu cho Con ấy được làm Con đầu lòng'. The Greek 'εις το ειναι αυτον πρωτοτοκον' functions as a purpose clause for the conformity. The Vietnamese structure makes it sound like the conformity is the means to make Him the firstborn, but the Greek suggests the conformity *is* the purpose of the predestination."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

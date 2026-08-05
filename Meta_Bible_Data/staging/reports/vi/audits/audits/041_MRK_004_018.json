@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'không' (not) or a similar negation. The Greek text says 'ακουοντες' (hearing), but the context of this specific parable (Matthew 13:22) involves 'εκουοντες' (not hearing). However, looking strictly at the provided Greek text 'ακουοντες', the Vietnamese translation is missing a crucial distinction if it were to be compared to the standard biblical text. Wait, looking at the provided Greek: 'ακουοντες' means 'hearing'. If the Greek provided is 'ακουοντες', the Vietnamese 'nghe' is correct. BUT, usually, this verse is 'εκουοντες' (not hearing). Looking strictly at the provided string: 'ακουοντες' = 'hearing'. The Vietnamese says 'nghe'. Therefore, no omission based ONLY on the provided Greek."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

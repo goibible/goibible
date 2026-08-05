@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 6,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προθεσεως' (protheseōs) refers to 'offering' or 'sacrifice' (specifically the bread of the offering/presentation). The Vietnamese 'mục đích' means 'purpose' or 'objective', which is a significant shift in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

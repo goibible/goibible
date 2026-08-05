@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουχι' (ouchi) is a negative particle. The Vietnamese translation uses a rhetorical question ('há chẳng phải là... sao?') which, while capturing the irony, slightly shifts the structure from a direct negation/statement to a rhetorical query. However, more critically, the Greek 'κοινωνοι' (koinōnoi) implies 'participants' or 'companions,' whereas 'bạn đồng công' in Vietnamese can imply 'co-workers' or 'partners in work,' which may slightly narrow the scope of 'fellowship/participation' intended by the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

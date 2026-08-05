@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 23,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'παραδεισω' (paradeisō) refers to 'paradise' (heaven), but the Vietnamese translation uses 'vườn địa đàng' (Garden of Eden). While 'paradise' is often associated with a garden, in New Testament theology, 'paradise' specifically denotes the dwelling place of the righteous after death, whereas 'vườn địa đàng' specifically refers to the earthly Garden of Eden."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

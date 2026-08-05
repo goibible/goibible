@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'eis tous aiounas tōn aiōnon' (for ever and ever / đến đời đời) as a temporal duration for the action of worship, instead attaching 'đời đời' as an attribute to the title 'Đấng hằng sống'. In Greek, 'đời đời' refers to the duration of the praise/worship, not just a descriptor of the Being."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

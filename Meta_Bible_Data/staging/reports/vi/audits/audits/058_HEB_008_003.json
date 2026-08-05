@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation reverses the logical flow of the sentence. The Greek 'γαρ' (for) indicates that the first clause is a reason for the second. The Vietnamese 'vậy nên' (therefore/so) suggests the opposite: that the priest being appointed is the result of needing to offer something, whereas the Greek says he is appointed *because* he is offering something."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'οθεν' (from where), which qualifies the necessity of having something to offer."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

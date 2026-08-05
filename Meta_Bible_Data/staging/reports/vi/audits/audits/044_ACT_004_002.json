@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'δια το διδασκειν αυτους τον λαον' indicates that the people were being taught *by* the two individuals (the subjects of the sentence). The Vietnamese 'vì hai người dạy dân chúng' can be interpreted as 'because the two people taught the people' or 'because [someone else] taught the people,' but more importantly, it fails to clearly establish that the teaching was the *reason/cause* for the anger in the same way 'δια το' (for the sake of/because of) functions here. However, the primary issue is the loss of the specific agency: the Greek implies the two individuals were the ones performing the action of teaching."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δια το διδασκειν αυτους τον λαον' implies the people were being taught *by* them. The Vietnamese phrasing is slightly ambiguous regarding who is doing the teaching vs. who is being taught compared to the clear Greek construction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

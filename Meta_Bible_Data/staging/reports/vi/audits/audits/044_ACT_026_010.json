@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'φυλακαις κατεκλεισα' (I shut up in prison) is rendered as 'nhốt... vào ngục', which is accurate, but the Vietnamese phrasing 'sau khi nhận quyền' (after receiving authority) misplaces the temporal sequence. The Greek 'λαβων' (having taken/having received) is a participle modifying the action of shutting them up, but the Vietnamese structure makes it sound like a prerequisite condition for the entire sentence rather than a simultaneous/proximate action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αναιρουμενων' is a present active participle (while they were being killed/while I was killing them). The Vietnamese 'khi họ bị giết' (when they were killed) changes the voice to passive, potentially obscuring the agency implied in the Greek construction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

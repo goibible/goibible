@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 19,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εγενετο' (it happened/and then) is missing, but more importantly, the Vietnamese omits the word 'đến' (came/arrived) as a verb action; the Greek 'ηγγισεν' means 'approached/came near'. While 'gần đến' captures the proximity, the structure 'εγενετο ως ηγγισεν' implies a sequence of events ('and it happened that when he approached') which is slightly flattened, but the major issue is the grammatical flow of the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προς το ορος' (towards/at the mountain) indicates direction or location. The Vietnamese 'tại núi' (at the mountain) changes the sense from 'towards' to a fixed location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

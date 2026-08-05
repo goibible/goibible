@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 6,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα του πνευματος' (with the Spirit) is translated as 'ở với tâm linh' (in/at the spirit). In this context, 'μετα' indicates accompaniment ('with'), not location."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'προς γαλατας εγραφη απο ρωμης' (written to the Galatians from Rome) is entirely omitted from the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

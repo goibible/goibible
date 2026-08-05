@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραδειγματισαι' (paradeigmatisai) means 'to make an example of' or 'to set as an example'. The Vietnamese translation 'làm xấu' (to make someone look bad/defame) changes the specific nuance of the action from a public disciplinary measure to a personal slight."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+name_seen,approved_or_expected,severity,category,occurrences,refs
+Y-sơ-ra-ên,Y-sơ-ra-ên,orange,missing_expected_name,4,EXO 1:11; EXO 6:1; EXO 14:17; EXO 14:28
+Môi-se,Môi-se,orange,missing_expected_name,3,EXO 2:22; EXO 4:24; EXO 32:18
+Bố-vi,Bố-vi,orange,missing_expected_name,1,EXO 27:12
+Đức Chúa Trời,Đức Chúa Trời,orange,missing_expected_name,1,EXO 24:1
+Đức Giê-hô-va,Đức Giê-hô-va,orange,missing_expected_name,1,EXO 4:26

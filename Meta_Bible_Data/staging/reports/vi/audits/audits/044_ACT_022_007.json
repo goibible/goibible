@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 22,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι με διωκεις' means 'why do you pursue/persecute me?', but the Vietnamese 'sao ngươi bắt bớ ta?' translates to 'why do you arrest/apprehend me?'. While 'persecute' is a common translation for 'διωκεις', 'bắt bớ' specifically implies arrest/detention, which is a narrower and different legal action than the Greek term for pursuit/persecution."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

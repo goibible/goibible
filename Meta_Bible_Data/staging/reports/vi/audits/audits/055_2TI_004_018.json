@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ρυσεται' (rysetai) is in the passive voice (will be delivered/rescued), whereas the Vietnamese translation 'giải cứu' is used as an active verb, implying 'God will rescue me' rather than 'I will be rescued by the Lord'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text says 'σωσει' (sōsei), which is a future active verb ('He will save'). The Vietnamese translation 'cứu tôi' is also active, but because the first part of the sentence was switched from passive to active, the overall subject-action relationship is altered."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

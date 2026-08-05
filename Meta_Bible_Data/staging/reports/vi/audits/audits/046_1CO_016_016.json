@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 16,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεργουντι' (synerounti) means 'cooperating' or 'working together'. The Vietnamese translation 'cùng làm việc' (working together) is acceptable, but the phrasing 'và mọi người cùng làm việc' suggests 'and everyone working together', whereas the Greek 'και παντι τω συνεργουντι' means 'and in every cooperation/working together' (referring to the act of cooperation itself). The Vietnamese shifts the focus from the *act* of cooperation to a group of *people*."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

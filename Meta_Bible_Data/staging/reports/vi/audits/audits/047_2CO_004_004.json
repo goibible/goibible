@@ -1,0 +1,18 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο θεος του αιωνος' (the God of the ages/eternity) is translated as 'thần của đời nầy' (the god of this life/age). This changes the attribute of the subject from eternal/ageless to temporal/worldly."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 21,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'λιμοι' (limoi) means 'famines'. The Vietnamese translation 'bệnh dịch' means 'epidemics/plagues'. This is a substantive factual difference in the type of disaster described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

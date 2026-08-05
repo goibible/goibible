@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αστατουμεν' (astatoumen) means 'to be unstable', 'unsteady', or 'wavering'. The Vietnamese translation 'không có chỗ ở nhất định' (not having a fixed place of residence/homeless) is a significant conceptual shift from the Greek meaning of instability or lack of steadiness."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

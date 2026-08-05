@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνευδοκει' (syneudokei) means 'approves of' or 'consents to'. The Vietnamese translation 'bằng lòng' (willingly/contentedly) shifts the meaning from the husband's *approval/consent* to the wife's *willingness/consent*. In Greek, the husband is the one who must not approve of her staying; in the Vietnamese, it sounds like she is the one who chooses to stay."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

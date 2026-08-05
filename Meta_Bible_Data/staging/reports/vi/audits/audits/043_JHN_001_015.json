@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουπως μου ερχομενος εμπροσθεν μου γεγονεν οτι πρωτος μου ην' describes the person coming *before* the speaker ('πρωτος μου ην' - was first than me), whereas the Vietnamese translation says 'Đấng đến sau ta đã trổi hơn ta' (The one who comes *after* me is greater than me). The Greek indicates precedence in time/order, while the Vietnamese adds a comparative of 'greatness' ('trổi hơn') not present in the text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

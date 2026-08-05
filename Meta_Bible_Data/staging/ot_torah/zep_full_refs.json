@@ -1,0 +1,15 @@
+{
+  "edition": "GOI_Bible_vi",
+  "description": "Full ZEP QA batch.",
+  "groups": [
+    {
+      "name": "ZEP full",
+      "reason": "Full-book name QA during full-OT run.",
+      "refs": [
+        "ZEP 1",
+        "ZEP 2",
+        "ZEP 3"
+      ]
+    }
+  ]
+}

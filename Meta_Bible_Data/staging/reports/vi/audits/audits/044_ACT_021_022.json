@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 21,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διεληλυθας' (diēlyuthas) is a perfect tense verb meaning 'you have come' or 'you have arrived'. The Vietnamese translation 'anh đã đến' uses a past tense construction, but the Greek specifically emphasizes the completed action as a state/result of the arrival. More importantly, the Greek 'τι ουν εστιν παντως δει' is a rhetorical question 'what then is to be done?', whereas the Vietnamese 'Vậy thì phải làm sao?' captures the meaning well, but the core issue is the nuance of 'διεληλυθας' which implies 'you have come/arrived' in a specific context of manifestation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

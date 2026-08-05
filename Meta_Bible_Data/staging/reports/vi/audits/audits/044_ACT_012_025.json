@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 12,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συμπαραλαβοντες' (symparalabontes) means 'taking along with them' or 'having taken with them.' The Vietnamese 'cũng đem theo' (also took with them) is slightly imprecise because the 'cũng' (also) corresponds to the Greek 'και' (kai) which connects Barnabas and Saul as the subjects, not to the act of taking John Mark along. However, the more significant issue is that 'συμπαραλαβοντες' implies a joint action of taking him with them; the Vietnamese phrasing 'cũng đem theo' could be read as 'also took,' potentially confusing the 'also' with the subject rather than the conjunction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

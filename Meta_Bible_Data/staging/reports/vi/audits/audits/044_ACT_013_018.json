@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 13,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ετροποφορησεν' (etropoforēsen) means 'he endured' or 'he bore' (in the sense of bearing a burden/suffering). The Vietnamese 'chịu đựng tính nết họ' translates to 'endured their character/nature'. While 'tính nết' can imply behavior, it misses the specific nuance of 'bearing/enduring' as a weight or burden of the people themselves, and 'tính nết' is a slightly narrow interpretation of the people as a collective entity being endured."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 7,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ερουσιν' (erousin) is in the present tense, indicating a repeated or habitual action ('many will say to me...'), whereas the Vietnamese 'sẽ nói' (will say) is simple future. More importantly, the Vietnamese adds a question mark and 'chẳng từng' (never/didn't ever), turning the Greek statement of fact into a rhetorical question of denial that isn't present in the Greek structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

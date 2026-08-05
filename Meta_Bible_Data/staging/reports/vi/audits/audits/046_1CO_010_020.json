@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 10,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'α θυει' (they sacrifice) is rendered as 'là tế' (is sacrificed/is a sacrifice). The Vietnamese translation changes the active voice of the Gentiles sacrificing to a passive or descriptive state, losing the active action of the subjects."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

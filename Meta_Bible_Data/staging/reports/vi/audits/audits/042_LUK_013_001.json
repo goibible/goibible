@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 13,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μετα των θυσιων αυτων' means 'with/among their sacrifices'. The Vietnamese translation 'với của tế lễ của họ' (with [the] sacrifice of them) is slightly awkward but the primary issue is the phrasing 'trộn lẫn với của tế lễ' which implies a mixture with the *belongings* or *possessions* of the sacrifice, whereas the Greek simply indicates the blood was mixed with the sacrifices themselves."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

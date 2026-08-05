@@ -1,0 +1,9 @@
+{
+  "book": "HEB",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": false,
+    "error": "1 validation error for FidelityResult\nissues.0.kind\n  Input should be 'omission', 'addition', 'mistranslation', 'negation', 'number_person_tense' or 'other' [type=literal_error, input_value='number_person', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+  }
+}

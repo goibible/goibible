@@ -1,0 +1,22 @@
+{
+  "book": "COL",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη αποχρησει' (the use) is in the accusative case, functioning as the subject or object of the phrase 'εστιν... εις φθοραν' (is... to corruption). The Vietnamese 'khi dùng' (when using/using) renders it as a temporal adverbial clause, changing the grammatical role of 'use' from a noun to an action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'παντα' (all/everything) is translated as 'Cả sự đó' (All that). While 'Cả' covers 'all', the Vietnamese phrasing slightly narrows the scope of 'παντα' which usually refers to 'everything' in this context."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

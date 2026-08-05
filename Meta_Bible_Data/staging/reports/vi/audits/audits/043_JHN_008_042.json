@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the phrase 'ηγαπατε αν εμε' (you will love me) or fails to correctly link the conditional logic. The Greek says 'If God is our Father, you will love me'. The Vietnamese says 'If God is your Father, then you will love me', but it misses the specific emphasis of the Greek structure regarding the 'if/then' relationship between the Father's identity and the disciples' love for Jesus."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese says 'ta từ Đức Chúa Trời mà ra và đã đến' (I came from God and have come), but the Greek 'ηκω' specifically means 'I heard' (I heard [from Him]). The translation replaces 'heard' with 'come/arrived', which is a significant change in meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

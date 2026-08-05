@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'επι των υδατων' means 'over the waters', but the Vietnamese translation says 'trên các nước' (over the countries/nations). This changes the scope of their power from hydrological to geographical."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

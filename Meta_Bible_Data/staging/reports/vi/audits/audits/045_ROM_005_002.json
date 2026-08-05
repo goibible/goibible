@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'προσαγωγην' (prosagogen) refers to 'introduction' or 'bringing near' in a spiritual sense, but the Vietnamese 'được sự đến gần' (being brought near/getting close) is slightly passive and less precise than the active 'brought near' or 'introduced' implied by the Greek. However, the bigger issue is the phrasing 'là ân điển chúng ta đang đứng vững'. The Greek 'εν η εστηκαμεν' means 'in which we stand'. The Vietnamese translation 'là ân điển chúng ta đang đứng vững' (the grace in which we stand) slightly obscures the prepositional relationship of standing *within* that specific grace."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δι ου' (di tou) is rendered as 'Nhờ Ngài' (By Him/Through Him). While functionally similar, the Vietnamese doesn't explicitly capture the 'through' aspect as clearly as it could, though this is borderline stylistic."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

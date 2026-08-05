@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παντα συνεργει' (everything works together) is the subject/verb of the clause, but the Vietnamese translation 'mọi sự hiệp lại làm ích' (everything works together to benefit) slightly alters the relationship. More importantly, the Greek specifies that everything works together 'eis agathon' (for good), whereas the Vietnamese uses 'làm ích' (to benefit/be useful). While close, the Greek structure is 'everything works together [towards] good,' not necessarily 'works together [to] benefit.'"
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific grammatical structure of 'tois' (dative plural) which clarifies that the 'good' is specifically *for* those who love God. The Vietnamese phrasing 'làm ích cho những kẻ yêu mến' conveys this, but the Greek 'παντα συνεργει εις αγαθον τοις...' implies that the 'good' itself is directed toward them."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

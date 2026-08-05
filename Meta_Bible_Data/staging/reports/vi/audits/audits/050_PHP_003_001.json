@@ -1,0 +1,18 @@
+{
+  "book": "PHP",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'χαιρετε' (chairete) is a greeting meaning 'rejoice' or 'greet/farewell'. The Vietnamese translation 'vui mừng' (rejoice) is a common rendering, but the Greek 'εν κυριω' (en kyriō) means 'in the Lord'. However, the primary issue is the phrase 'τα αυτα γραφειν' (ta auta graphein), which means 'these things written' or 'these writings'. The Vietnamese translation 'viết những điều ấy' (write those things) changes the grammatical role from a noun/participial phrase describing the writings to an imperative verb (to write)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

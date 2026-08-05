@@ -1,0 +1,22 @@
+{
+  "book": "HEB",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συ δε ο αυτος' refers to the subject of the first clause (the one who 'wraps them'), but the Vietnamese translates it as 'Chúa' (God/Lord). While contextually likely, the Greek text itself does not specify 'God' here; it is a pronoun reference. Furthermore, 'ο αυτος' functions as an intensive pronoun for the subject, which the Vietnamese renders as 'vẫn là một' (still is one), which is a slight shift in emphasis from the Greek structure."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εκλειψουσιν' (will not decrease/diminish) is translated as 'không hề cùng' (not together/not at the same time). The Vietnamese 'cùng' usually means 'together' or 'simultaneous', whereas the Greek 'ekleipsoun' refers to diminishing in number, value, or intensity. This changes the meaning of the phrase."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

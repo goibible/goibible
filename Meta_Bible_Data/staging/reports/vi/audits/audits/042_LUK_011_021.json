@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εστιν τα υπαρχοντα αυτου' means 'his possessions/things are' (the subject is the possessions). The Vietnamese translation 'thì tài sản của người ấy được bình an' implies that the possessions *become* peaceful or are *in a state of* peace as a result of the guarding, whereas the Greek structure is more of a descriptive statement: 'his possessions are [in] peace'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific state of 'peace' (ειρηνη) as the predicate for the possessions, instead turning it into an adverbial/resultative clause ('được bình an')."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

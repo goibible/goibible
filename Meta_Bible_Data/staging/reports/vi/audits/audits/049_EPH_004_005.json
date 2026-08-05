@@ -1,0 +1,18 @@
+{
+  "book": "EPH",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εις' (eis) is a preposition meaning 'into' or 'to', not the word 'εἷς' (heis) meaning 'one'. The Vietnamese translation treats 'εις' as 'một' (one), which is a grammatical error in understanding the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

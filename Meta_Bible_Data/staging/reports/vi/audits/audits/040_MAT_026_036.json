@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'qua bên kia cầu' (across the bridge), which is not present in the Greek text ('εκει' - there)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

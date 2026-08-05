@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 2,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ελεγξιν' (eleuxin) is a verb meaning 'to check', 'restrain', or 'stop'. The Vietnamese translation treats the subject ('con lừa') as the one who *was checked/restrained* ('đã chịu sự quở trách'), whereas the Greek structure indicates that the donkey *restrained* ('ελεγξιν') the prophet's frenzy. The agent and patient of the action are reversed."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ιδιας παρανομιας' (idias paranomias) refers to 'his own lawlessness/transgression'. While 'trái luật pháp của mình' is present, the causal relationship in the Greek is that the donkey restrained the prophet *because* of its own lawlessness (or as a result of it), but the Vietnamese phrasing makes the 'quở trách' (reproof/check) sound like a punishment received by the donkey rather than the action the donkey performed."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

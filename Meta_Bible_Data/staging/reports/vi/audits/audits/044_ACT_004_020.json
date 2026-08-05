@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Greek text 'μη λαλειν' is a negative infinitive (not to speak), but the Vietnamese translation uses a double negative structure ('không thể không nói') which translates to 'cannot help but speak' or 'must speak.' The Greek literally says 'for how can we, having seen and heard, not speak?' The Vietnamese shifts the focus from the inability to remain silent to an obligation/necessity to speak."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

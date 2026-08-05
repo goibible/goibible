@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Quản gia nói với người ấy' (The steward said to him), but the Greek text only says 'και ειπεν αυτω' (and said to him) following the first action. While 'the steward' is the implied subject, the Vietnamese explicitly identifies a role/subject not present in this specific Greek snippet."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

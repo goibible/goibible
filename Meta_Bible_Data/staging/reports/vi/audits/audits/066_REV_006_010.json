@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εως ποτε' (until when) is a question/exclamation of time. The Vietnamese translation 'cho đến chừng nào' places this phrase at the end of the sentence, which changes the syntax and makes it sound like a temporal limit on the action rather than the primary interrogative inquiry of the cry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

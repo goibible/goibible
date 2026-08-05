@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 7,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποιησας' (poiesas) is an aorist active indicative, meaning 'he did/made'. The Vietnamese 'làm' (to do/make) is used here as a present participle or gerund-like construction ('dẫn họ ra, làm...'), which slightly blurs the distinct action of the Greek verb. However, the more significant issue is the lack of a clear subject for 'làm', though contextually implied."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the specific prepositional structure 'εν γη' (in the land), rendering it as 'trong đất'. While acceptable, 'en gē' specifically denotes 'the land of', which is slightly more specific than 'in the land'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

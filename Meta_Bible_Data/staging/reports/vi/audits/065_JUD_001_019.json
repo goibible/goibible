@@ -1,0 +1,42 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 592,
+          "lemma": "apodiorízō",
+          "problem": "distorted",
+          "detail": "The Greek 'apodiorizontes' (separating/dividing) is translated as 'gây nên phe đảng' (causing factions/parties), which adds a specific social nuance not directly in the lemma."
+        },
+        {
+          "strongs_num": 5591,
+          "lemma": "psychikós",
+          "problem": "distorted",
+          "detail": "The Greek 'psychikoi' (natural/soulish) is translated as 'tánh xác thịt' (fleshly), which is a theological interpretation rather than a literal lexical match."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

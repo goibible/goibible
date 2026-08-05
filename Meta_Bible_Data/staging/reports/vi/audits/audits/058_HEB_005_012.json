@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'οφειλοντες ειναι διδασκαλοι' means 'you ought to be teachers' (present state/obligation). The Vietnamese 'đáng lẽ anh em đã làm thầy từ lâu' translates this as 'you should have been teachers for a long time', which changes the tense from a present obligation to a past missed obligation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

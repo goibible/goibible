@@ -1,0 +1,18 @@
+{
+  "book": "1JN",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο λεγων' (the one saying) is rendered as 'Ai nói' (Whoever says), which changes the grammatical structure from a specific subject to a general relative. More importantly, the Vietnamese omits the specific 'en autō' (in Him) which specifies the location of 'staying/remaining'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

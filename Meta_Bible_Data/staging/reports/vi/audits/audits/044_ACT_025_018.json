@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 25,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδεμιαν αιτιαν' (no reason/cause) is translated as 'một nguyên nhân nào' (any reason), but the Greek structure 'ουδεμιαν... επεφερον' means they brought *no* reason at all. The Vietnamese phrasing 'không đưa ra một nguyên nhân nào' is acceptable, but the Greek 'ου δε' (not even) combined with the negative verb suggests a total lack of reasons, whereas the Vietnamese could be interpreted as 'not even one' or 'none'. However, the primary issue is the nuance of 'ουδεμιαν', which is a strong negative. More importantly, 'κατηγοροι' is plural (accusers), and while 'các kẻ cáo' is plural, the Greek implies they brought no reasons *at all*."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

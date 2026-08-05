@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'καλον' (kalon) is an adjective modifying 'ανθρωπω γυναικος' (man of woman), but the Vietnamese structure 'người nam không đụng đến người nữ là điều tốt' turns it into a general moral statement ('it is good that men do not touch women') rather than describing the specific type of man/relationship mentioned in the text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'μη απτεσθαι' (not to touch) is an infinitive following 'καλον', but the Vietnamese phrasing loses the specific grammatical connection that defines the nature of the 'man' being described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

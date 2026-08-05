@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη γενοιτο γινεσθω' is a strong prohibitive/optative construction expressing 'Let it never be' or 'May it never happen'. The Vietnamese translation 'Chẳng hề như vậy! Thà...' (Not like that! Rather...) shifts the meaning from a prohibition of an occurrence to a statement of preference/choice."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'αν' (if) in 'αν δικαιωθης' is missing in the Vietnamese translation. The Vietnamese renders it as a simple future/certainty ('sẽ được'), whereas the Greek implies a conditional 'if [He] is justified'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

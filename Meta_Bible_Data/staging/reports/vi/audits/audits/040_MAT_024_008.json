@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 24,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek word 'αρχή' (archē) means 'beginning' or 'origin,' but the Vietnamese translation 'sự ban đầu' combined with 'chỉ là' (only is) slightly shifts the emphasis. However, the primary issue is the Greek 'παντα' (panta) which means 'all/everything'. The Vietnamese 'mọi điều đó' (all those things) is acceptable, but the Greek 'δε' (de) is a conjunction meaning 'but' or 'and', which is correctly rendered as 'Nhưng'. The most significant issue is that 'αρχή' in this context (likely from Revelation 16:8) refers to the 'beginning' of the sorrows/pains, but the Vietnamese phrasing 'chỉ là sự ban đầu' implies a limitation ('only') not explicitly present in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

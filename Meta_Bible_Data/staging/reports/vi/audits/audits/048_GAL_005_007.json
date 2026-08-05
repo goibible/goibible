@@ -1,0 +1,22 @@
+{
+  "book": "GAL",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'ετρεχετε' (trechete) is a present imperative (or present active indicative used as an exhortation), meaning 'run' or 'keep running'. The Vietnamese translation uses 'đã chạy' (past tense), which implies the action is completed, whereas the Greek conveys ongoing action/exhortation."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek text 'τις υμας ανεκοψεν' is likely a corruption or specific variant for 'τις υμας εκποπσεν' or similar, but in the context of 2 Timothy 2:5 (the standard text), it refers to 'who hindered you'. The Vietnamese 'ai đã cản trở anh em' captures the sense of hindrance, but the tense mismatch remains the primary fidelity issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

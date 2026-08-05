@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 8,
+  "verse": 58,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek verb 'γενεσθαι' (to be born / to come into existence) is omitted in the Vietnamese translation. The Greek says 'before Abraham was born/existed', but the Vietnamese says 'before Abraham existed' (hiện hữu), which is a slight shift, but more importantly, it fails to capture the specific nuance of 'coming into being' or 'being born' as intended by 'γενεσθαι'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγω ειμι' (I am) is translated as 'ta đây' (I am here). The Vietnamese 'đây' adds a locative sense of 'here' which is not present in the Greek 'ειμι'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 13,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ανθρωποι' (men/people) is missing. The Vietnamese translates it as 'một người thương gia' (a merchant), making it singular, whereas the Greek implies a general action of people/merchants."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "LUK",
+  "chapter": 17,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ποου το σωμα εκει συναχθησονται οι αετοι' translates to 'where the bodies will be gathered there, the eagles [will be]'. The Vietnamese translation 'Xác chết ở đâu, chim ưng sẽ nhóm lại tại đó' (Where are the corpses, the eagles will gather there) slightly alters the structure and implies a question/answer format ('ở đâu') that isn't explicitly structured as a separate question in the Greek clause."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese omits the specific nuance of 'συναχθησονται' (will be gathered/assembled) by simply saying 'nhóm lại' (gather), though this is a minor stylistic point. However, the primary issue is the structural shift in the 'where' clause."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

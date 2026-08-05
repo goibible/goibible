@@ -1,0 +1,22 @@
+{
+  "book": "2TI",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'συζησομεν' (syzhēsomen) means 'we will live together' or 'we shall live together', but the Vietnamese translation uses 'sống' (live) without the future tense marker, and more importantly, it misses the specific 'together' (συν-) nuance which is implied by the prefix in Greek. However, the primary issue is that 'συζησομεν' specifically implies a future state of living together, whereas the Vietnamese 'sẽ sống' captures the future but the Greek 'συν-' (with/together) is often rendered as 'với Ngài' in the first half but lacks the same structural emphasis on the shared existence in the second half."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'συναπεθανομεν' (synapethanomen) means 'we died with Him'. The Vietnamese 'đã chết với Ngài' is a correct translation of the meaning, but the Greek 'συν-' prefix emphasizes the unity of the action. The most significant issue is that 'συζησομεν' is a future tense, which 'sẽ sống' captures correctly."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

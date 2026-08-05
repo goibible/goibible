@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 16,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουδε εκεινοις' (nor to those) refers back to the people who were left behind (the listeners), but the Vietnamese 'nhưng họ cũng không tin' implies that 'they' (the two people who left) did not believe. The Greek indicates that the listeners did not believe the report."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

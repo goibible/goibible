@@ -1,0 +1,22 @@
+{
+  "book": "2JN",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'κοινωνει' (koinonei) means 'participates in' or 'becomes a partner in,' but the Vietnamese 'dự vào' (participate/join in) combined with the phrasing misses the specific nuance of 'fellowship' or 'communion' inherent in 'koinonia'. More importantly, the Greek structure 'κοινωνει... τοις εργοις' implies the person is becoming a partner *in* the works. The Vietnamese translation 'dự vào công việc ác của nó' is slightly ambiguous as to whether they are participating in the *act* of doing them or sharing in the *results/nature* of those works."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ο γαρ λεγων' (ho gar legōn) implies 'for the one who says/speaks'. The Vietnamese 'Vì kẻ chào hỏi' translates 'λεγων' (saying) as 'chào hỏi' (greeting). While 'greeting' can be a form of speaking, it is a specific narrowing of the Greek verb 'lego' (to speak/say)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

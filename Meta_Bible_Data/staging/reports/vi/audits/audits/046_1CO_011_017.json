@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 11,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ επαινω' means 'I do not praise/commend', but the Vietnamese 'không khen' in this context is slightly ambiguous. More importantly, the Greek 'συνερχεσθε' (gather together/assemble) is rendered as 'nhóm lại'. The core issue is the construction 'ουκ εις το κρειττον αλλ εις το ηττον' which means 'not for the better but for the worse'. The Vietnamese 'không phải để tốt hơn, nhưng để tệ hơn' captures the meaning well, but the Greek 'ουκ επαινω' specifically refers to the act of praising/commending the action of gathering."
+        },
+        {
+          "kind": "other",
+          "detail": "The Vietnamese 'Trong khi tôi truyền lời chỉ dẫn này' adds 'truyền lời chỉ dẫn' (commanding/giving instructions), whereas the Greek 'παραγγελλων' is simply 'I command/order'. While acceptable as a stylistic rendering, it slightly expands the scope of the verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

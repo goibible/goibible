@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 18,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εκ των' (from among) is rendered in Vietnamese as 'từ các' (from the), which loses the specific sense of selection or origin from within a group. However, more critically, the Vietnamese structure suggests he took the servants 'from' the priests and Pharisees, whereas the Greek indicates he took the servants *who belonged to* (from among) those groups."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

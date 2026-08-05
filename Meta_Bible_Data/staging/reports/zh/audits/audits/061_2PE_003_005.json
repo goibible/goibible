@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λανθάνει γὰρ αὐτοὺς τοῦτο θέλοντας' means 'for this escapes them, willing [it]' i.e., 'they willingly ignore/forget this'. The Chinese '他們故意忘記' conveys the idea of deliberate forgetting, which is close, but the Greek emphasizes that 'this fact escapes them' (λανθάνει) rather than them actively forgetting. However, the main issue is the omission of 'τοῦτο' (this) as the object—the Chinese says 'they deliberately forget' without specifying 'this', though context implies it. More significantly, the Greek has 'οὐρανοὶ ἦσαν ἔκπαλαι' ('heavens existed long ago') and 'γῆ ἐξ ὕδατος καὶ δι' ὕδατος συνεστῶσα' ('earth formed out of water and through water'). The Chinese renders '憑神的道有了天' ('by God's word there were heavens') which adds '憑神的道' (by God's word) as the means of the heavens' existence, but the Greek 'τῷ τοῦ θεοῦ λόγῳ' modifies 'συνεστῶσα' (the earth being formed), not the heavens. The Chinese attaches 'by God's word' to the heavens, changing the grammatical relationship. Also, 'ἐκπαλαι' (long ago) is rendered '從太古' which is acceptable, but the structure misplaces the divine word."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

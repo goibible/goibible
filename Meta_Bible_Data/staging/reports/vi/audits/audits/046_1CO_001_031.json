@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 1,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ο καυχωμενος' (the one who boasts/boasts) is a participle describing the subject, but the Vietnamese 'ai khoe mình' (whoever boasts of themselves) adds a reflexive 'mình' (self) that is not in the Greek. More importantly, the Greek 'καυχασθω' is an imperative/subjunctive expressing a command or exhortation for the person who boasts to boast *in* the Lord, whereas the Vietnamese phrasing 'hãy khoe mình trong Chúa' can be read as a general instruction rather than a specific condition for the one already boasting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

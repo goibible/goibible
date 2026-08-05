@@ -1,0 +1,18 @@
+{
+  "book": "HEB",
+  "chapter": 13,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire phrase 'προς εβραιους εγραφη απο της ιταλιας δια τιμοθεου' (written to the Hebrews from Italy through Timothy)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "REV",
+  "chapter": 19,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek phrase 'εις τους αιωνας των αιωνων' (into the ages of the ages) is rendered as 'đời đời' (forever/eternally). While 'đời đời' captures the sense of eternity, it omits the specific 'ages of the ages' phrasing which is a distinct liturgical and theological expression in the Greek text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2PE",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'trước mặt Ngài' (before Him/in His presence), which is not present in the Greek text. The Greek simply says 'εν ειρηνη' (in peace)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

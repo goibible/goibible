@@ -1,0 +1,55 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη αγιωτατη υμων πιστει' (in your most holy faith) is translated as 'trên đức tin rất thánh của mình' (on your very holy faith). The Greek preposition 'εν' (in) governs the faith, but the Vietnamese uses 'trên' (on/upon), which changes the relationship of the action."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εποικοδομουντες' is a participle describing the manner of prayer. The Vietnamese translation treats 'xây dựng mình' and 'cầu nguyện' as two separate sequential actions joined by 'và' (and), whereas the Greek implies praying *while* building yourselves up."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν πνευματι αγιω' (in the Holy Spirit) is translated as 'trong Đức Thánh Linh'. While 'Đức Thánh Linh' is a standard name, the Greek specifically uses the locative 'en' (in) for the Spirit. The Vietnamese 'trong' is correct, but the structure of the sentence loses the specific grammatical connection that the building up and praying are happening *within* the Holy Spirit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 40,
+          "lemma": "hágios",
+          "problem": "missing",
+          "detail": "The Greek text contains 'agiotati' (holy) modifying 'pistei' (faith), but the Vietnamese translation 'đức tin rất thánh' attributes holiness to the faith rather than the people/beloved, and it fails to capture the specific superlative sense of 'agiotati'."
+        },
+        {
+          "strongs_num": 40,
+          "lemma": "hágios",
+          "problem": "missing",
+          "detail": "The second instance of 'hágios' (holy) in 'pneumati agiw' (Holy Spirit) is missing from the Vietnamese translation, which simply says 'Đức Thánh Linh'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

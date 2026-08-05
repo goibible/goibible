@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 14,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εχε' (echē) is an imperative meaning 'have' or 'hold', but the Vietnamese 'giữ lấy' (keep/hold onto) combined with the structure 'cho chính mình' (for yourself) slightly shifts the nuance of the command to 'keep it for yourself' rather than the direct imperative 'have [it]'. However, the more significant issue is the final clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εν ω δοκιμαζει' (en hō dokimazei) means 'in which he tests/proves [himself]'. The Vietnamese 'trong việc mình chấp nhận' translates to 'in the matter one accepts'. 'Chấp nhận' (accept) is not a faithful rendering of 'δοκιμάζει' (test/prove/examine)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

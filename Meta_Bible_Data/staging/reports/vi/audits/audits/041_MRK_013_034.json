@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 13,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποδημος' (apodēmos) means a 'sojourner', 'traveler', or 'stranger' (someone who does not belong to the land), whereas the Vietnamese 'người đi đường xa' translates more literally to a 'person traveling from far away'. While related, 'sojourner' is the standard theological and linguistic rendering."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'την εξουσιαν' (tēn exousian) is singular ('the authority'), but the Vietnamese 'giao quyền' (give power/authority) combined with 'mỗi người một công việc' (each one a work) slightly blurs whether the authority was given to the servants as a collective group or individually. However, the main issue is the slight shift in the status of 'apodēmos'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

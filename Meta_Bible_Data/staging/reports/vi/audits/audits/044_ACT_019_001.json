@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διελθοντα' (having passed through) is a perfect active participle, indicating that the passing through happened *before* the arrival in Ephesus. The Vietnamese 'đi qua... đến' suggests a continuous movement or a sequence of events happening simultaneously, losing the completed nature of the first action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

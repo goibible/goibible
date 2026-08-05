@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αφιεμεν' (aphiemen) is a perfect active indicative verb meaning 'we have forgiven'. The Vietnamese 'chúng tôi cũng tha' (we also forgive) renders it as a present/habitual action. This changes the nuance from a completed act of forgiveness to an ongoing state or habit."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

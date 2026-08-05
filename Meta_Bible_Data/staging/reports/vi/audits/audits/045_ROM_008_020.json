@@ -1,0 +1,26 @@
+{
+  "book": "ROM",
+  "chapter": 8,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τη γαρ ματαιοτητι η κτισις υπεταγη' means 'for the creation was subjected to vanity/futility'. The Vietnamese 'sự sáng tạo đã bị phục dưới sự hư không' translates to 'creation was submitted under nothingness/void'. While 'ματαιον' can be 'vanity', in this context of submission, it refers to the state of futility or meaninglessness. However, the Vietnamese phrasing 'bị phục dưới' (submitted under) slightly shifts the relationship of 'υπεταγη' (was subjected to)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'οὐχ ἐκούσα' means 'not willingly' or 'not of its own accord'. The Vietnamese 'chẳng phải tự ý mình' captures the meaning well, but 'tự ý mình' is slightly less precise than 'willingly' in a theological context of submission."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διὰ τὸν ὑποταξάντα' refers to 'the one who subjected [it]'. The Vietnamese 'bởi Đấng đã bắt phục' (by the One who forced/compelled submission) adds a nuance of 'force' (bắt) which is not explicitly in the Greek 'ὑποταξάντα' (the one who subjected/subordinated). While 'subjected' implies a lack of choice, 'bắt phục' is a stronger active verb than the Greek participle suggests."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

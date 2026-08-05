@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 13,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the first part of the dialogue: 'επειδωσω και εμβαψας το ψωμιον διδωσιν' (I will give, and if you dip the bread, let him take it)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

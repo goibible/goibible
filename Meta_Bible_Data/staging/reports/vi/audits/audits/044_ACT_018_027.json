@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 18,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εγραψαν τοις μαθηταις αποδεξασθαι αυτον' implies the brothers wrote to the disciples *to receive* him (as a command/instruction). The Vietnamese 'viết thơ gởi dặn các môn đồ tiếp rước người' adds 'viết thơ' (wrote poetry), which is not in the Greek, and 'gởi dặn' (sent instructions) slightly shifts the nuance of the infinitive 'αποδεξασθαι'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'συνεβαλετο πολυ' means 'contributed much' or 'was of great help'. The Vietnamese 'giúp ích nhiều' (helped a lot) is an acceptable rendering, but the addition of 'viết thơ' (wrote poetry) is a significant factual addition not present in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

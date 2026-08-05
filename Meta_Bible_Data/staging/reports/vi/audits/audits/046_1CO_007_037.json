@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 7,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μη εχων αναγκην' (not having necessity) is rendered as 'không có sự cần thiết, nhưng có quyền' (does not have necessity, but has power/right). The Vietnamese adds a contrast ('nhưng') and interprets the lack of necessity as an inherent 'power' or 'right' that is not explicitly stated in this way in the Greek structure."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'περι του ιδιου θεληματος' (concerning his own will) is rendered as 'về ý muốn riêng của mình'. While mostly accurate, the relationship between 'necessity', 'power/authority', and 'will' in the Greek is a single complex conditional clause; the Vietnamese structure splits them into separate items joined by 'nhưng', which slightly alters the logical flow of the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

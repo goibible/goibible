@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 14,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese translation renders 'ταις φρεσιν' (in the matter of understanding/knowledge) as 'trong sự hiểu biết' and 'ταις δε φρεσιν' as 'còn trong sự hiểu biết'. However, the Greek text 'μη παιδια γινεσθε ταις φρεσιν' means 'do not be children in matters of knowledge', but the Vietnamese phrasing 'chớ nên như con trẻ trong sự hiểu biết' combined with the second half creates a confusing contrast. More importantly, the Vietnamese 'trọn vẹn' for 'τελειοι' (mature/perfect/complete) is acceptable, but the structure suggests a comparison that slightly obscures the Greek's specific command to be mature in knowledge while being like children in wickedness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

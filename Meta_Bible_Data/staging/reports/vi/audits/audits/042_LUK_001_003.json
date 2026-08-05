@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανωθεν' (anōthen) means 'from above' or 'again', not 'từ đầu' (from the beginning). The Vietnamese translation changes the spatial/reiterative sense to a temporal sequence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

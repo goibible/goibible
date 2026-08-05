@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 3,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Greek 'εβαπτιζεν' (ebaptizen) is a plural verb, indicating that both Jesus and his disciples were baptizing. The Vietnamese translation 'Ngài ở lại... và làm báp-têm' uses the singular pronoun 'Ngài' (He), attributing the action of baptizing only to Jesus."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

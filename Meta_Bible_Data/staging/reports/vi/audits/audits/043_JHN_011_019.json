@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ινα παραμυθησωνται αυτας' uses the feminine singular pronoun 'αυτας' (her), referring to Martha. The Vietnamese translation 'an ủi họ' (comfort them) uses a plural pronoun, changing the target of the comfort from one person to multiple people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

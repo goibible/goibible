@@ -1,0 +1,18 @@
+{
+  "book": "MRK",
+  "chapter": 12,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου δια τουτο πλανασθε' (not because of this you are being led astray) is a statement/warning, but the Vietnamese translates it as a rhetorical question ('Há chẳng phải... sao?'). The Greek does not contain a question mark or a questioning structure."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CO",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek lists five categories of unrighteous people: πορνοι (fornicators/sexually immoral), ειδωλολατραι (idolaters), μοιχοι (adulterers), μαλακοι (effeminate/passive homosexual partners), and αρσενοκοιται (homosexuals/active partners). The Vietnamese translation renders 'πορνοι' as 'kẻ tà dâm' and 'μοιχοι' also as 'kẻ tà dâm', thus omitting the distinct category of adulterers (μοιχοι) and conflating it with fornicators. Additionally, the translation omits the category 'μαλακοι' (effeminate) entirely, and renders 'αρσενοκοιται' as 'kẻ làm điềm ô uế với loài người' (those who do unclean things with people), which is a paraphrase that loses the specific meaning of male homosexual practice. The reader would not understand the distinct groups listed in the Greek."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JHN",
+  "chapter": 17,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγνωρισα' (egnōrisa) is an aorist active indicative, meaning 'I have made known' or 'I revealed'. The Vietnamese 'tỏ danh' (to reveal/name) is acceptable, but the phrasing 'tỏ ra' for 'γνωρισω' (gnōrisō) implies 'will show' or 'will appear', whereas the Greek 'γνωρισω' (gnōrisō) is a simple future of 'to make known'. More importantly, the Vietnamese 'để tình yêu thương mà Cha đã yêu Con ở trong họ' changes the structure. The Greek 'ινα η αγαπη ην ηγαπησας με εν αυτοις' literally means 'so that the love [which] You loved me in them'. The Vietnamese renders this as 'so that the love that Father loved Me in them', which slightly shifts the focus of the 'in them' (εν αυτοις) to be part of the loving action rather than the location/sphere of the love itself, though it is borderline. However, the primary issue is the loss of the specific 'making known' aspect of the second verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 26,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'λαλω λανθανειν γαρ αυτον' implies 'I speak [so that] he might not be ignorant' or 'I speak to let him know'. The Vietnamese translation 'tôi nói cách dạn dĩ trước mặt vua, vì tôi tin chẳng có điều nào vua không biết' (I speak boldly before the king because I believe there is nothing he doesn't know) shifts the logic from 'speaking to inform/ensure knowledge' to 'speaking because of his prior knowledge'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

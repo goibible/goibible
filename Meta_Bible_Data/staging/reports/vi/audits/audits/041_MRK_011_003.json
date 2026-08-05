@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι ποιειτε' (what are you doing) refers to the action of the people, but the Vietnamese translation 'Sao các ngươi làm điều đó?' (Why are you doing that?) changes the inquiry from a description of action to an inquiry of reason/motive."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ευθεως' (immediately/straightway) is captured by 'ngay', but the Greek 'αποστελει ωδε' (sends it here) is rendered as 'gửi nó lại đây' (sends it back here). The word 'lại' (back) is not in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

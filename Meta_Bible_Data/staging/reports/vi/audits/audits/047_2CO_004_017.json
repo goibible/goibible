@@ -1,0 +1,22 @@
+{
+  "book": "2CO",
+  "chapter": 4,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραυτικα' (parautika) means 'momentarily' or 'for a while'. The Vietnamese translation 'nhẹ' (light/easy) incorrectly translates the magnitude of the affliction rather than its duration."
+        },
+        {
+          "kind": "other",
+          "detail": "The Greek 'καθ υπερβολην εις υπερβολην' is a stylistic idiom meaning 'exceedingly' or 'surpassingly'. The Vietnamese 'vượt quá mọi sự vượt quá' (exceeding every exceeding) is a literal/redundant rendering of the Greek repetition, but it loses the specific sense of 'superabundantly'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

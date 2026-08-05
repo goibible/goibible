@@ -1,0 +1,18 @@
+{
+  "book": "PHM",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ταχα' (tacha) is an adverb meaning 'perhaps' or 'maybe'. The Vietnamese translation 'có lẽ' correctly captures this. However, the Greek 'εχωρισθη' (echōristhē) is a passive verb meaning 'was separated' or 'has been separated'. The Vietnamese 'đã tạm xa cách' (has temporarily distanced/separated) is acceptable, but the phrase 'để anh nhận lấy người mãi mãi' (so that he may receive you forever) is a significant departure from the Greek 'ινα αιωνιον αυτον απεχης' (so that you may be separated from him forever). The Vietnamese translation flips the subjects: in Greek, 'you' are separated from 'him' (Christ), but the Vietnamese implies 'he' receives 'you'. Furthermore, 'απεχης' means 'separated/distant', not 'receive'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

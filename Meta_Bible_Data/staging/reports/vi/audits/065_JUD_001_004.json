@@ -1,0 +1,68 @@
+{
+  "book": "JUD",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'lẻn vào' (sneaked in) does not capture the meaning of 'παρεισεδυσαν' (sat down/seated themselves). The Greek describes a position or action of sitting, not an act of sneaking."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'không tin kính' is a slight shift; the Greek 'ασεβεις' specifically means 'ungodly' or 'irreligious'. While related to lack of faith, it is a specific moral/spiritual state."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Vietnamese 'là kẻ không tin kính' uses a singular construction ('kẻ'), whereas the Greek 'ασεβεις' (plural) refers back to 'τινες ανθρωποι' (some people)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  },
+  "strongs_coverage": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "strongs_num": 3921,
+          "lemma": "pareisedusan",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'lẻn vào' (enter/sneak in) captures the movement but loses the specific nuance of 'creep in unawares' or 'sneak in' which is central to the Greek 'pareisedusan'."
+        },
+        {
+          "strongs_num": 3441,
+          "lemma": "monon",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'có một' (have one) does not correctly reflect the emphatic adjective 'mónos' (only/alone) which modifies 'despoten'."
+        },
+        {
+          "strongs_num": 3346,
+          "lemma": "metatiqentev",
+          "problem": "distorted",
+          "detail": "The Vietnamese 'đổi... ra' (exchange/change) is slightly different from the Greek 'metatithentes' which implies 'removing' or 'putting away' one thing in place of another."
+        }
+      ],
+      "confidence": 0.95
+    }
+  },
+  "noun_consistency": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "surface_form": "Chủ và Đức Chúa Trời có một của chúng ta",
+          "category": "GOD",
+          "problem": "inconsistent_rendering",
+          "detail": "The Greek 'κυριον' (Lord) and 'θεον' (God) are rendered as 'Chủ và Đức Chúa Trời', but the phrase 'có một của chúng ta' appears to be a mistranslation or grammatical error for 'của chúng ta' (our). Additionally, 'Chúa Giê-xu Đấng Christ' correctly captures the PERSON terms."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

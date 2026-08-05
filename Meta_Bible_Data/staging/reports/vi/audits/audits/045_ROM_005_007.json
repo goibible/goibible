@@ -1,0 +1,22 @@
+{
+  "book": "ROM",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'μολις' (molis) in this context functions as 'scarcely' or 'hardly' (expressing rarity), not 'hầu như' (almost/nearly). The Vietnamese translation implies a high frequency of death for the righteous, whereas the Greek emphasizes how rare it is."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ταχα' (tacha) expresses 'perhaps' or 'maybe,' which is omitted in the Vietnamese translation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

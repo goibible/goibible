@@ -1,0 +1,22 @@
+{
+  "book": "2PE",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'εγνωρισαμεν' (egnōrisamen) is an aorist active indicative, meaning 'we made known' or 'we revealed'. The Vietnamese 'làm cho anh em biết' (made you know) captures the result but loses the primary action of 'revealing/making known' to others. More importantly, the Greek structure 'εγνωρισαμεν υμιν την... δυναμιν και παρουσιαν' indicates that the revelation of power and presence is the *result* of having continued in myths (the 'gar' suggests a causal or logical link). The Vietnamese 'mà' (but/while) creates a slightly different logical flow."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'εξακολουθησαντες' (exakolouthantantes) is a present active participle meaning 'having continued' or 'continuing'. The Vietnamese 'chẳng theo' (not following) changes the tense and aspect from a continuous action into a simple negation of a state."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

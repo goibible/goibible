@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 9,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αποτιναξατε' (you shook off) is in the second person plural, but the Vietnamese 'hãy phủi' uses the imperative/suggestion mood. The Greek describes a completed action ('you shook off') as part of the condition, not a command to perform the action now."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

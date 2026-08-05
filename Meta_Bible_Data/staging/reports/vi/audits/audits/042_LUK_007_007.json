@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'διό' (dió) is a conjunction meaning 'therefore' or 'so', but the Vietnamese 'Vì vậy' (Therefore/So) is placed at the start of the sentence, while the Greek structure actually links the preceding thought to the current one. More importantly, the Vietnamese 'tôi cũng tự nghĩ mình không đáng' (I also thought myself unworthy) slightly alters the nuance of 'ουδε εμαυτον ηξιωσα' (nor [did I] consider myself worthy). However, the primary issue is the rendering of 'ειπε λογω', which means 'speak a word' (imperative), rendered here as 'xin hãy nói một lời'. While 'xin hãy' adds a polite request tone not explicitly in the Greek imperative, it is acceptable. The most significant fidelity check is the 'ουδε' (nor/neither) which is captured by 'cũng... không', but the 'διό' is often better rendered as 'vì thế' to maintain the logical flow."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

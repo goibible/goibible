@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 12,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ανακλινει αυτους' (anaklinei toutous) means 'will seat them' or 'will cause them to sit down.' The Vietnamese translation 'cho họ ngồi bàn' (let them sit at the table/table-sit) adds the concept of a 'table' (bàn) which is not present in the Greek text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

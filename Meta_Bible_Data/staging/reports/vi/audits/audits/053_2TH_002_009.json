@@ -1,0 +1,18 @@
+{
+  "book": "2TH",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ου εστιν' (is not) is a negation, but the Vietnamese translation 'là do' (is due to/is because of) removes the negation entirely, reversing the meaning of the sentence."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 28,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'παραγενομενος τις των αδελφων' implies 'having come from the brothers' (or a messenger from the brothers). The Vietnamese translation 'cũng chẳng có anh em nào đến' (no brothers came) changes the subject/agent of the action. The Greek suggests that no one *from* the brothers arrived to report, rather than stating that no brothers arrived at all."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

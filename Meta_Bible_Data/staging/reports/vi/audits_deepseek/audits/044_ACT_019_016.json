@@ -1,0 +1,22 @@
+{
+  "book": "ACT",
+  "chapter": 19,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Greek text does not specify 'hai người' (two people); it says 'chúng' (them), referring to the seven sons of Sceva. The Vietnamese adds 'hai người trong bọn' which is not in the Greek."
+        },
+        {
+          "kind": "addition",
+          "detail": "The phrase 'hành hạ dữ lắm' (tormented them severely) is added; the Greek says he 'overpowered them' (κατακυριεύσας αὐτῶν ἴσχυσεν κατ' αὐτῶν), which means he prevailed against them, not that he tormented them severely."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1TI",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'πιστος' (pistos) refers to the reliability/truthfulness of the Word, but the Vietnamese 'chắc chắn' (certain/definite) slightly shifts the nuance. More importantly, 'πασης αποδοχης αξιος' means 'worthy of all acceptance', whereas 'đáng được mọi sự tiếp nhận' is a fairly close rendering, but the Greek implies the Word is *worthy* of being accepted by everyone."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'πρωτος ειμι εγω' (I am first) is rendered as 'trong số đó ta là đầu' (among them I am the head/first). While 'đầu' can mean first, in the context of 'πρωτος', it often implies 'the first' in sequence or priority. The Vietnamese 'trong số đó' (among them) is an addition for clarity not explicitly in the Greek, though it helps flow."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

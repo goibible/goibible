@@ -1,0 +1,18 @@
+{
+  "book": "MAT",
+  "chapter": 26,
+  "verse": 67,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đánh đấm' (beat/hit), which is not present in the Greek text. The Greek only mentions 'εκολαφισαν' (slapped)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

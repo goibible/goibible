@@ -1,0 +1,22 @@
+{
+  "book": "MAT",
+  "chapter": 6,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'αμφιεννυσιν' (amphiennesin) means 'perish' or 'pass away.' The Vietnamese translation 'huống chi là các ngươi' (how much more so for you) implies a comparison of intensity/degree, but misses the specific verb of perishing. It should convey that God will cause you to perish just as He does the grass."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ου πολλω μαλλον' (ou pollō mallon) means 'not much more.' The Vietnamese 'huống chi' (how much more) suggests a greater degree of destruction, whereas the Greek indicates that the destruction of the people will be similar to (not significantly more than) the destruction of the grass."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

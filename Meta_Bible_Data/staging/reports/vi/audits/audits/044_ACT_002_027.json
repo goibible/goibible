@@ -1,0 +1,18 @@
+{
+  "book": "ACT",
+  "chapter": 2,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τον οσιον σου' (the holy one of yours / your holy one) is translated as 'Đấng Thánh của Ngài' (His Holy One). In the context of the Greek, 'σου' is second person singular ('your'), but the Vietnamese uses 'Ngài' (third person), changing the subject/possessor of the 'holy one'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

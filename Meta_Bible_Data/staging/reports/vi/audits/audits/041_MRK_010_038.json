@@ -1,0 +1,22 @@
+{
+  "book": "MRK",
+  "chapter": 10,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τι αιτεισθε' (what you will ask) is rendered as 'điều mình xin' (what I/we ask). The Vietnamese 'mình' can be ambiguous but often refers to the speaker or a general 'self'. More importantly, the Greek implies 'what you [plural] will ask', whereas the Vietnamese phrasing obscures the specific request of the subjects (the disciples)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'δυνασθε' (you are able/can) is placed before the verb 'πιειν' (to drink), indicating a question of ability or possibility. The Vietnamese structure 'Các ngươi có thể uống... và chịu...' correctly captures the ability, but the Greek construction 'ουκ οιδατε τι αιτεισθε δυνασθε πιειν' functions as 'you do not know what you will ask [whether] you are able to drink'. The Vietnamese simplifies this into a direct question of capability regarding the cup and baptism."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

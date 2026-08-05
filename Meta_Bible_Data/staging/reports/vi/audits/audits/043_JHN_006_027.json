@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 6,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese translation adds 'tức là chính' (that is, Himself) and 'của mình' (His own), which are not present in the Greek text (ο πατηρ εσφραγισεν ο θεος). While grammatically coherent, it adds emphasis/apposition not found in the source."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese 'là thứ Con người sẽ ban cho các ngươi' (is the thing that the Son of Man will give to you) slightly shifts the focus. The Greek 'ην ο υιος του ανθρωπου υμιν δωσει' is a relative clause modifying 'thức ăn' (food). The Vietnamese structure makes it sound like the 'food' is the specific thing being defined as the gift, whereas the Greek structure is more direct: 'work... for the food that remains for eternal life, which the Son of Man will give to you'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

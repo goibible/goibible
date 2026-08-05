@@ -1,0 +1,18 @@
+{
+  "book": "LUK",
+  "chapter": 4,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek verb 'κηρυσσων' (kēryssōn) means 'proclaiming' or 'preaching' (specifically in a public, heraldic sense), whereas the Vietnamese 'giảng dạy' typically means 'teaching'. While related, 'proclaiming' carries a specific weight of public proclamation that 'teaching' might soften."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JHN",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'ουκ εχω' (I do not have) is followed by 'ινα... βαλλη με' (so that... [someone] may throw/lower me). The Vietnamese translation 'không có người nào để bỏ tôi xuống' (do not have anyone to put me down) changes the grammatical structure. In Greek, the subject of 'βαλλη' is implied to be someone else (the person who would lower him), whereas the Vietnamese phrasing makes it sound like he lacks the physical ability or an object to be lowered."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Greek 'ταραχθη το υδωρ' uses a passive/middle voice construction (the water being stirred/agitated). The Vietnamese 'nước động' (moving water) is a slightly weaker rendering but acceptable; however, the primary issue is the structural shift in the 'ουκ εχω' clause."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

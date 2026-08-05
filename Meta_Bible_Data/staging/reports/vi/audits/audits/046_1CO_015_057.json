@@ -1,0 +1,22 @@
+{
+  "book": "1CO",
+  "chapter": 15,
+  "verse": 57,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'τω διδοντι ημιν' (to the one giving to us) is a dative of agency/cause, but the Vietnamese 'đã ban cho chúng ta' (who has given to us) treats it as a completed action in the past. The Greek present participle implies an ongoing or habitual state of giving."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the word 'nhờ' (through/by) corresponding to 'δια', or rather, it conflates the structure. More importantly, the Greek 'τω διδοντι ημιν το νικος' means 'to the one giving us the victory'. The Vietnamese 'ban cho chúng ta sự thắng nhờ Chúa' translates as 'gave us victory through the Lord', which slightly shifts the grammatical relationship of who is performing the action of giving."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

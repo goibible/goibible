@@ -1,0 +1,18 @@
+{
+  "book": "TIT",
+  "chapter": 2,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Greek 'υγιαινοντας' (hygiainontes) is a present active participle meaning 'being healthy/sound' or 'maintaining health'. The Vietnamese translation renders it as an adjective describing the qualities of faith, love, and patience ('lành mạnh trong đức tin...'), which changes the grammatical relationship. In Greek, the elders are the ones who are 'healthy' (sound) in their faith, love, and patience."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}
