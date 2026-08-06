@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 23,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי אַתָּה עִמָּדִי' means 'for You are with me' (second person, addressing God). The Vietnamese renders it as 'vì Đức Giê-hô-va ở cùng tôi' ('for Jehovah is with me'), changing the second-person address to a third-person reference to God. This alters the person and the direct address of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

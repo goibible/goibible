@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִי הוּא לְיָדִי יִתָּקֵעַ' means 'who is he that will strike hands with me?' (i.e., who will pledge/guarantee for me). The Vietnamese 'ai sẽ chịu trách nhiệm cho tôi?' ('who will take responsibility for me?') changes the subject: in Hebrew, the speaker asks who will pledge for him (the speaker), but the Vietnamese rendering 'chịu trách nhiệm cho tôi' could be read as someone taking responsibility on behalf of the speaker, which is close, but the key nuance 'strike hands' (a pledge gesture) is lost, and the question is about a third party pledging for the speaker, not the speaker being the guarantor. The first clause 'đặt tôi làm người bảo lãnh cho Ngài' correctly renders 'set me as a pledge with You', but the second clause's rendering shifts the meaning: the Hebrew asks 'who is he that will strike hands for me?' (i.e., who will be my guarantor), not 'who will take responsibility for me?' The Vietnamese 'ai sẽ chịu trách nhiệm cho tôi' is ambiguous and could imply the speaker is asking who will be responsible for him, which is essentially the same, but the loss of the hand-striking pledge imagery and the potential misreading of the subject (the speaker as guarantor vs. someone guaranteeing the speaker) makes it a mistranslation. However, the core meaning (asking for a guarantor) is preserved, so this is borderline. The main issue is the first clause: 'đặt tôi làm người bảo lãnh cho Ngài' means 'set me as a guarantor for You', but the Hebrew 'עָרְבֵנִי עִמָּךְ' means 'be my guarantor with You' (i.e., 'pledge me with Yourself' – the speaker asks God to be his guarantor, not that the speaker be a guarantor for God). This reverses the roles: in Hebrew, the speaker asks God to act as his guarantor (or to pledge on his behalf), but the Vietnamese makes the speaker the guarantor for God. This is a significant reversal of who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

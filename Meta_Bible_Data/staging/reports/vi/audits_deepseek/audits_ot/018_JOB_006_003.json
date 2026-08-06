@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵחוֹל יַמִּים יִכְבָּד' means 'heavier than the sand of the seas' (referring to 'my calamity' or 'my grief' implied from context, but the subject is not explicitly 'nỗi đau của tôi' — the Hebrew has no explicit 'my pain' here; the verb 'yikhbad' is impersonal/3rd person masculine singular, and the context from Job 6:2-3 is 'my calamity' (כַּעְשִׂי) in the previous verse, but the Vietnamese adds 'nỗi đau của tôi' which is an addition not present in this clause. However, the main issue is that the Hebrew 'דְּבָרַי לָעוּ' means 'my words are rash/impulsive' (from לָעָה, to speak rashly), not 'trở nên cuồng loạn' (became insane/raving). 'Cuồng loạn' implies madness, whereas the Hebrew means 'rash' or 'wild' in the sense of hasty/impulsive speech, not insanity. This is a mistranslation of the verb's meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

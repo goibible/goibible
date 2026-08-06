@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 23,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew word 'יָתֵד' means 'peg' or 'stake', not 'cây chổi' (broom). This changes the object being described."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

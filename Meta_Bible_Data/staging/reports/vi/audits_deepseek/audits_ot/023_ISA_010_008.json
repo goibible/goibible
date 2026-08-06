@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 10,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׂרַי יַחְדָּו מְלָכִים' means 'my princes are kings together' (or 'my officials are all kings'), referring to the speaker's own princes/officials. The Vietnamese 'Các quan trưởng của ta' correctly renders 'my princes', but the phrase 'há chẳng phải đều là vua sao?' adds a rhetorical question structure ('are they not all kings?') that is not in the Hebrew. The Hebrew is a declarative statement: 'my princes are kings together' (or 'my princes are all kings'). The Vietnamese turns it into a rhetorical question, which changes the assertion into a negation-based question, altering the meaning from a straightforward claim to a questioning of that claim. This is a substantive change in the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

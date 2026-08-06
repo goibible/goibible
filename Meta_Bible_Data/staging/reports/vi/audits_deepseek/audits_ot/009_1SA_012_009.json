@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 12,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'סִיסְרָא' (Sisera), but the Vietnamese renders it as 'Xít-va', which is a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

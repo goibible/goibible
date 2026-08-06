@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 14,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Giê-rô-bô-am' (יָרָבְעָם) but the Vietnamese renders 'Giô-ram' (a different king, Joram/Jehoram). This is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

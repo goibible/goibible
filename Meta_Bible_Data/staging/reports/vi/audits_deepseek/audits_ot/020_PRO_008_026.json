@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 8,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va' (the LORD) as the subject of the verb 'dựng nên' (created), but the Hebrew has no explicit subject in this clause; the subject is implied from the preceding context (likely wisdom speaking), not named as the LORD here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

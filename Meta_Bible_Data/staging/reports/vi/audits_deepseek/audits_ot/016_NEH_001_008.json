@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has no conditional 'Nếu' (if); it is a direct statement 'You will act unfaithfully, I will scatter you among the peoples.' The Vietnamese adds a conditional clause that changes the meaning from a declaration to a hypothetical."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

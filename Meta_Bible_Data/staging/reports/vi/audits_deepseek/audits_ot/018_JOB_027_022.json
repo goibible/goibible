@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 27,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Chúa Trời' (God) as the subject of 'giáng họa' (will cast calamity), but the Hebrew has no explicit subject; the subject is implied from context (likely God, but the verse itself does not name Him). This is an addition of a proper name not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

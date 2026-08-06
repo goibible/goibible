@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 4,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֲלֹא אָמַרְתִּי לֹא תַשְׁלֶה אֹתִי' means 'Did I not say, Do not mislead me?' (i.e., 'Do not deceive me' or 'Do not mock me'). The Vietnamese 'Tôi chẳng nói: Đừng làm tôi buồn khổ sao?' renders 'תַשְׁלֶה' as 'làm tôi buồn khổ' (make me sad/afflict me), which changes the meaning from 'deceive/mock/mislead' to 'cause grief/suffering'. This is a substantive semantic shift in the verb's meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

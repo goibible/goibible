@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵאִשָּׁי' means 'from my offerings made by fire' (referring to the LORD's fire offerings), but the Vietnamese renders it as 'từ của lễ thiêu' ('from the burnt offering'), which narrows the meaning to a specific type of offering (burnt offering) rather than the general category of fire offerings. This changes the referent and could mislead the reader."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

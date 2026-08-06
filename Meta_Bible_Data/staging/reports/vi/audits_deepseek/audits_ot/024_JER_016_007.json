@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 16,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb 'פרס' (paras) means 'to break bread' (as in mourning customs), not 'to tear one's garment' (which would be 'קרע'). The Vietnamese 'xé áo mình' (tear one's garment) is a mistranslation of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 16,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not mention David (Đa-vít) in this verse; the Vietnamese adds 'Đa-vít không được chọn' (David was not chosen), which is an addition not present in the Hebrew. The Hebrew only says Jesse made seven sons pass before Samuel, and Samuel said YHWH has not chosen these."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

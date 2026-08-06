@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'אֲדֹנָי יְהוִה' is 'Adonai Yahweh' (Lord GOD), but Vietnamese renders it as 'Đức Chúa Trời' (God), dropping the title 'Lord' (Adonai)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

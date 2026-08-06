@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 23,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Place name 'Ghíp-ê-ah' (Gibeah) is correct, but 'Ha-khi-la' (Hachilah) is correct; however, 'Gi-si-môn' (Jeshimon) is rendered as 'vùng Gi-si-môn' — the Hebrew 'הַיְשִׁימוֹן' (the Jeshimon) is a proper name, not a generic 'vùng' (region), but this is acceptable. The main issue: 'phía nam' (south) for 'מִימִין' (on the right/south side) — 'mimin' means 'on the right hand of' (i.e., south), so this is a correct interpretation. Actually, the flag is for 'Ghíp-ê-ah' — Hebrew 'הַגִּבְעָתָה' (to Gibeah) is correct. Re-evaluating: the translation is faithful; no substantive error. The only possible issue is 'Dân Xíp' (people of Ziph) for 'זִפִים' (Ziphites) — correct. Verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 23,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew clause 'יִתְהַלֵּךְ בְּמֵישָׁרִים' ('it goes down smoothly' or 'it glides down smoothly') is entirely missing from the Vietnamese translation. The Vietnamese ends with 'nó trơn trượt dễ dàng khi trôi xuống' which corresponds to the Hebrew 'יִתֵּן בְּכִיס עֵינוֹ' ('it gives [sparkle] in the eye') and 'יִתְהַלֵּךְ בְּמֵישָׁרִים' ('it goes down smoothly'), but the final clause about going down smoothly is not represented."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

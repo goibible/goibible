@@ -1,0 +1,22 @@
+{
+  "book": "DEU",
+  "chapter": 4,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the land of Og king of Bashan' (וְאֶת אֶרֶץ עוֹג מֶלֶךְ הַבָּשָׁן), but the Vietnamese renders 'đất Ba-san, tức là vua Oùc' ('the land of Bashan, that is, King Og'), which reverses the relationship: it identifies Bashan as Og rather than Og as king of Bashan. This changes the meaning, making it sound like 'Bashan' is the name of the king instead of the territory."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions 'two kings of the Amorites' (שְׁנֵי מַלְכֵי הָאֱמֹרִי) — the Vietnamese says 'hai vua dân A-mô-rít' ('two kings of the Amorite people'), which is acceptable, but the phrase 'which were beyond the Jordan, toward the sunrise' (אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן מִזְרַח שָׁמֶשׁ) is rendered as 'ở bên kia sông Giô-đanh về phía mặt trời mọc' — this is fine. However, the Hebrew does not mention 'from Aroer' (מֵאֲרוֹעֵר) in this verse; the Vietnamese adds 'từ A-rô-e' ('from Aroer'), which is an addition not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

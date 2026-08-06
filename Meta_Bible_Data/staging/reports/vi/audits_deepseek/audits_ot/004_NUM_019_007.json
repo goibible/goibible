@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 19,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Vietnamese text contains the word 'polic' (likely a typo for 'tế lễ' or an accidental insertion of the English word 'polic'), which is not present in the Hebrew and disrupts the meaning. The Hebrew says 'thầy tế lễ sẽ bị ô uế' (the priest will be unclean), but the inserted 'polic' makes it read as 'thầy tế lễ polic' which is nonsensical and an addition not in the source."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

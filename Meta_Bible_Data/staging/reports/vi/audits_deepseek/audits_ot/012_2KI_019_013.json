@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists 'Hê-na và I-va' (הֵנַע וְעִוָּה) as separate entities after Sepharvaim, but the Vietnamese renders them as part of the phrase 'các thành Sê-pha-va-im, Hê-na và I-va' (cities of Sepharvaim, Hena, and Ivvah), implying all three are cities. The Hebrew structure 'מֶלֶךְ לָעִיר סְפַרְוָיִם הֵנַע וְעִוָּה' means 'the king of the city of Sepharvaim, Hena, and Ivvah' — the latter two are also cities, but the Vietnamese adds 'các thành' (the cities) which is not in the Hebrew, and the grouping could mislead. However, the main issue is that the Hebrew has 'מֶלֶךְ לָעִיר סְפַרְוָיִם' (king of the city of Sepharvaim) — singular 'city' — while the Vietnamese says 'Vua của các thành Sê-pha-va-im' (king of the cities of Sepharvaim), changing singular to plural and adding 'các' (plural marker) not present in the Hebrew. This is a number change and an addition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

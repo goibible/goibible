@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 25,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is 'the Chaldeans' (כַשְׂדִּים) who broke the pillars, but the Vietnamese adds 'Đức Giê-hô-va' (the LORD) as the subject of the first clause, making it seem the LORD destroyed the pillars, whereas the Hebrew says the Chaldeans did. This changes who is doing the action."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

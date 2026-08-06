@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 21,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַתָּה עַתָּה תַּעֲשֶׂה מְלוּכָה עַל יִשְׂרָאֵל' is a rhetorical statement: 'You now exercise kingship over Israel' (i.e., you are king, so act like it). The Vietnamese renders it as a question 'Ông có thực sự đang cai trị vương quốc Y-sơ-ra-ên không?' ('Are you really ruling the kingdom of Israel?'), which changes the meaning from an assertion to a doubting question, altering the force and content of the verse."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'הַיִּזְרְעֵאלִי' refers to Naboth as 'the Jezreelite' (from Jezreel). The Vietnamese renders it as 'người Y-xơ-ra-en' ('the Israelite'), swapping the place name Jezreel for Israel, which changes the identity of Naboth."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

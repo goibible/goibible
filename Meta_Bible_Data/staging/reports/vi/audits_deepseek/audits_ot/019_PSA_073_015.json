@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 73,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הִנֵּה דוֹר בָּנֶיךָ בָגָדְתִּי' means 'behold, I would have betrayed the generation of Your children' (i.e., the speaker would have been unfaithful to the generation of God's children). The Vietnamese 'thì thật vậy, ta đã phản trọn dòng dõi các con của Ngài' adds 'thật vậy' (truly/surely) which is not in the Hebrew, and 'trọn' (entirely) is an addition not present. More importantly, the Hebrew is a conditional statement ('If I had said... I would have betrayed'), but the Vietnamese renders it as a past completed action ('ta đã phản' = 'I have betrayed'), changing the tense and the hypothetical nature to an actual past event. This changes the meaning: the Hebrew says the speaker would have been guilty of betrayal if he had spoken, not that he actually did betray."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

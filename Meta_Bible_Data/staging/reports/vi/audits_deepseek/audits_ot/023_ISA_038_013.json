@@ -1,0 +1,26 @@
+{
+  "book": "ISA",
+  "chapter": 38,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שִׁוִּיתִי' (I set/placed) is rendered as 'Tôi nín lặng' (I was silent), which is not the meaning of the verb; the Hebrew does not mention silence here."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כֵּן יְשַׁבֵּר כָּל עַצְמוֹתָי' means 'so He breaks all my bones' (with 'כֵּן' = 'so/thus'), but the Vietnamese 'như thể Ngài bẻ gãy mọi xương tôi như sư tử vậy' adds 'như sư tử' (like a lion) and reorders the simile, making it seem the breaking is like a lion's action, whereas the Hebrew compares the 'setting' (or the state) to a lion, not the breaking."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nín lặng' (silent) which has no basis in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

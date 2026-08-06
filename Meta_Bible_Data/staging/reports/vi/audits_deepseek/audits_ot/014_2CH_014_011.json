@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵין עִמְּךָ לַעְזוֹר בֵּין רַב לְאֵין כֹּחַ' means 'there is no one with you to help between the many and the powerless' (i.e., it is not difficult for God to help whether the enemy is many or few). The Vietnamese 'chẳng có gì khó đối với Ngài để giúp' adds 'khó' (difficult) which is not in the Hebrew, and omits the sense of 'with you' (עִמְּךָ) and the contrast 'between the many and the powerless' (בֵּין רַב לְאֵין כֹּחַ). This changes the meaning from 'no one is with you to help' to 'nothing is difficult for you to help'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַל יַעְצֹר עִמְּךָ אֱנוֹשׁ' means 'let not man prevail against you' (or 'let not man restrain you'). The Vietnamese 'xin đừng để loài người thắng được Ngài' means 'do not let man defeat you', which is close but 'thắng được' (defeat) is not exactly 'עָצֹר' (restrain/prevail). However, this is arguably acceptable. The main issue is the first clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּדָּיו' means 'its poles/poles of the ark' (the carrying poles), but the Vietnamese renders it as 'các cây khiên của nó' ('its shields'), which is a mistranslation—'khiên' means 'shield,' not 'pole.' This changes the meaning of what the cherubim cover."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

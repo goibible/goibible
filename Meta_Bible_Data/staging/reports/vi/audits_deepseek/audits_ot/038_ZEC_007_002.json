@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Bethel' (בֵּית אֵל) as the place sending the delegation, but the Vietnamese renders it as 'Nhà Ên-đô' (House of En-dor), which is a different place name. The Hebrew also has 'Sar-Ezer' (שַׂר אֶצֶר) and 'Regem-Melech' (רֶגֶם מֶלֶךְ) as the senders, but the Vietnamese gives 'Sê-rê-xe' and 'Rê-gem-mê-léc' — the first name appears to be a transliteration mismatch (Sar-Ezer vs. Sê-rê-xe), and the second is close but the overall place name is wrong."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

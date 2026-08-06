@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 29,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew word 'עִשָּׂרוֹן' (issaron) means 'tenth part' (of an ephah, a dry measure), not 'ếch' (frog). The Vietnamese rendering 'một phần mười ếch' introduces an animal (frog) that is not in the Hebrew, changing the meaning entirely. The correct translation should be 'một phần mười ê-pha' or 'một phần mười' (a tenth of an ephah)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 26,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew second-person singular verbs וְהִנַּחְתּוֹ ('you will set it') and וְהִשְׁתַּחֲוִיתָ ('you will worship') are addressed to the individual worshiper (singular 'you'), but the Vietnamese renders them as 'tôi sẽ đặt' (I will set) and 'anh em sẽ thờ lạy' (you all will worship), changing the person and number. The first verb is wrongly shifted to first person, and the second to plural second person, altering who performs the actions."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

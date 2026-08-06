@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the cherubim' (הַכְּרוּבִים) rose up, but the Vietnamese says 'Các sinh vật sống' (the living creatures) instead of 'các chê-ru-bim' (the cherubim). This swaps the subject from cherubim to living creatures, changing who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

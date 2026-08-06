@@ -1,0 +1,22 @@
+{
+  "book": "AMO",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַפֹּרְטִים עַל פִּי הַנָּבֶל' means 'who strum on the mouth/string of the harp' (i.e., play the harp), but the Vietnamese 'hát theo tiếng đờn cầm' means 'sing according to the sound of the harp', changing the action from playing an instrument to singing."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּדָוִיד חָשְׁבוּ לָהֶם כְּלֵי שִׁיר' means 'like David, they devised for themselves instruments of song' (i.e., they invented musical instruments like David did). The Vietnamese 'tưởng mình khéo léo chế ra các nhạc khí như Đa-vít' means 'they thought themselves clever to invent musical instruments like David', adding the concept of 'thinking themselves clever' (tưởng mình khéo léo) which is not in the Hebrew, and shifting the focus from 'devised' (חָשְׁבוּ) to a self-evaluative thought."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

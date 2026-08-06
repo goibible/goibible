@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'יָרָבְעָם' (Jeroboam), but the Vietnamese renders 'Giả-ô-bâm', which is a different name (likely a corruption or confusion with another name)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

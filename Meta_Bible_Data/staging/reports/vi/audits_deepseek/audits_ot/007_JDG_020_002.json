@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פִּנּוֹת כָּל הָעָם' means 'the corners/leaders of all the people' (i.e., the leaders of the people), but Vietnamese renders it as 'Toàn thể các đầu mục của mọi chi phái' ('all the leaders of every tribe'), which adds 'chi phái' (tribe) not in the Hebrew and shifts the meaning from 'all the people' to 'every tribe'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

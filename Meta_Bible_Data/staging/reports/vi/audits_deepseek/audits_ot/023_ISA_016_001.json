@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 16,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כַר מֹשֵׁל אֶרֶץ' means 'a lamb for the ruler of the land' (or 'a ram/lamb to the ruler of the earth'), i.e., the lamb is the tribute/offering to the ruler. The Vietnamese places 'cho Đấng cai trị đất' ('for the ruler of the land') at the end, which could be read as the destination of the lamb, but the Hebrew order and syntax make 'מֹשֵׁל אֶרֶץ' the recipient of the lamb, not a separate clause. More critically, the Vietnamese omits the word 'מֹשֵׁל' (ruler) as a noun attached to 'כַר' (lamb) in a construct chain; it renders 'chiên con' (lamb) and then 'Đấng cai trị đất' (ruler of the land) as a separate phrase, which changes the meaning: the Hebrew says 'send a lamb of the ruler of the land' (i.e., a lamb belonging to/for the ruler), not 'send a lamb ... to the ruler.' The Vietnamese adds 'đi' (go) and reorders, making it 'send the lamb, from Sela in the wilderness, to the mountain of daughter Zion, for the ruler of the land,' which misplaces the recipient and could imply the lamb is sent to the ruler rather than being the ruler's tribute. This is a substantive mistranslation of the construct chain and the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

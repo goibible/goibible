@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְתִמֹרִ֣ים ל֗וֹ אֶחָ֥ד מִפּ֛וֹ וְאֶחָ֥ד מִפּ֖וֹ אֶל אילו' means 'and palm trees were on it, one on this side and one on that side' (i.e., palm trees on the sides of the structure). The Vietnamese says 'còn hai cây chà là thì một bên nầy trụ, một bên kia trụ' which adds 'trụ' (pillar/column) not present in Hebrew, and implies the palm trees are pillars rather than just trees on the sides. This changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

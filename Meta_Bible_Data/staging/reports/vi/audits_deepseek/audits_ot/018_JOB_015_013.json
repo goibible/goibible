@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'כִּֽי תָשִׁ֣יב אֶל אֵ֣ל רוּחֶ֑ךָ' means 'that you turn your spirit against God' (or 'return your spirit to God' depending on context), but the Vietnamese adds 'Tại sao' ('Why') which is not in the Hebrew, and 'phản nghịch' ('rebel') is an interpretive addition not present in the Hebrew verb 'תָשִׁיב' (turn/return). The Hebrew is a statement, not a question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

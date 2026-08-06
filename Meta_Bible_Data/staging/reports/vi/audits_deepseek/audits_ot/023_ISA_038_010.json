@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 38,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בִּדְמִי יָמַי' means 'in the quiet/cessation of my days' (i.e., in the prime/quiet of my life), but Vietnamese renders 'Trong yên lặng đời tôi' which is acceptable; however, the key issue is 'פֻּקַּדְתִּי' — Hebrew is a Niphal perfect meaning 'I have been visited/accounted' (i.e., 'I am deprived/visited upon'), but Vietnamese 'bị lấy đi mất' means 'was taken away', which changes the sense from being 'visited/accounted' (deprived) to 'taken away', altering the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

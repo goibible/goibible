@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 31,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not contain the name 'Lê-mu-ên' (Lemuel) in this verse; it begins with 'אַל לַמְלָכִים' ('Do not [give] to kings'). The Vietnamese adds 'Hỡi Lê-mu-ên' ('O Lemuel'), which is not present in the Hebrew and changes the addressee."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has 'וּלְרוֹזְנִים אוֹ שֵׁכָר' ('and to rulers, or strong drink'), meaning rulers should not drink strong drink. The Vietnamese adds 'nói: "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

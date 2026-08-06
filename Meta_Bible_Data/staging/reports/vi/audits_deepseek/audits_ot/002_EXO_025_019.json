@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew word 'כְּרוּב' (cherub) is translated as 'bò tót thiêng' (sacred bison/bull), which is a different creature. The cherub is a specific angelic being, not a bull."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

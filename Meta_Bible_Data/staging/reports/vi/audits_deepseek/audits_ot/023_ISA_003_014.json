@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb בִּֽעַרְתֶּ֣ם (from בָּעַר) means 'you have burned' or 'you have consumed/devoured' (often used of fire or destruction), but the Vietnamese 'đã đốt phá' means 'have burned/destroyed', which is a plausible rendering. However, the Hebrew 'בִּֽעַרְתֶּם' in this context (with the vineyard) is often understood as 'you have consumed/devoured' (i.e., stripped bare, laid waste) rather than literally 'set on fire'. The Vietnamese 'đốt phá' specifically means 'burn and destroy', which adds the idea of fire that is not explicit in the Hebrew. This is a minor semantic addition, but it could lead a reader to think the text says 'burned' when the Hebrew simply says 'consumed/laid waste'. Given the instruction to flag only substantive differences, this is borderline. However, the more significant issue is the rendering of 'בִּֽעַרְתֶּם' as 'đốt phá' (burn) versus the Hebrew's broader sense of 'consume/devour'—this is a mistranslation that changes the specific action described."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

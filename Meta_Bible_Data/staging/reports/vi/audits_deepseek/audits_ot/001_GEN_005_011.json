@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew states Enosh's total days were 905 years (five years and nine hundred years), but the Vietnamese omits the 'five years' and says only 'chín trăm lẻ năm' (905 years), which is a different number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 18,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Hỡi Đức Giê-hô-va' (O LORD) which is not present in the Hebrew text; the Hebrew begins directly with 'Perhaps there are fifty righteous...' without an address to God."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

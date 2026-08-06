@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 16,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions 'bánh mì' (bread) in the phrase 'וְהַקַּיִץ' which is 'summer fruit' (קַיִץ), not bread. The Vietnamese adds 'bánh mì và trái cây mùa hè' (bread and summer fruit), but the Hebrew only has 'summer fruit' (קַיִץ). This is an addition of 'bread' not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

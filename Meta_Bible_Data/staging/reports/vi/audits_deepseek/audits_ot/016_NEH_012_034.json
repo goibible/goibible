@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name שְׁמַעְיָה (Shemaiah) is rendered as 'Sê-ma-ri' (which corresponds to Shomron/Samaria), swapping the name for a different place/person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

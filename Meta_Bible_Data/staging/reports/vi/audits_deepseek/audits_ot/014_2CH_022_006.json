@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 22,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'A-xa-ri-gia, con trai vua Giô-ram' (Azariah son of Jehoram), but the Vietnamese says 'A-xa-ri-gia, con trai vua Giô-ram' — this is correct. However, the Hebrew says 'vua Giô-ram' (Jehoram) is the king of Judah, and 'Giô-ram, con trai A-háp' (Jehoram son of Ahab) is the king of Israel. The Vietnamese correctly distinguishes them. No name swap found. The issue is that the Hebrew says 'A-xa-ri-gia' (Azariah) but the Vietnamese says 'A-xa-ri-gia' — this is correct. Actually, the Hebrew has 'וַעֲזַרְיָ֨הוּ' (and Azariah), which is correctly rendered. The problem is the Vietnamese says 'A-xa-ri-gia, con trai vua Giô-ram' — but the Hebrew says 'Azariah son of Jehoram' — this is correct. Wait, the Hebrew says 'וַעֲזַרְיָ֨הוּ בֶן יְהוֹרָ֜ם' — Azariah son of Jehoram. The Vietnamese says 'A-xa-ri-gia, con trai vua Giô-ram' — correct. The issue is that the Hebrew says 'Giô-ram' (Jehoram) is the king of Judah, and the Vietnamese says 'vua Giô-ram' — correct. No error. Actually, the Hebrew says 'וַיָּ֜שָׁב לְהִתְרַפֵּ֣א' — 'and he returned to be healed' — the subject is Jehoram (king of Israel), but the Vietnamese says 'Vua Giô-ram trở về' — correct. The issue is that the Hebrew says 'בְיִזְרְעֶ֗אל' — 'in Jezreel' — the Vietnamese says 'Giết-rê-ên' — correct. The Hebrew says 'כִּי הַמַּכִּים֙ אֲשֶׁ֣ר הִכֻּ֣הוּ בָֽרָמָ֔ה' — 'because of the wounds which they inflicted on him in Ramah' — the Vietnamese says 'các vết thương mình đã bị trong lúc chiến đấu với Ha-xa-ên, vua nước Sy-ria, tại Ra-ma' — this adds 'trong lúc chiến đấu với Ha-xa-ên' (while fighting with Hazael) which is not in the Hebrew at this point; the Hebrew says 'in Ramah' but does not mention Hazael here (though it is implied from context, but the Hebrew text here only says 'in Ramah'). This is an addition of a clause not present in the Hebrew. Also, the Hebrew says 'וַעֲזַרְיָ֨הוּ בֶן יְהוֹרָ֜ם מֶ֣לֶךְ יְהוּדָ֗ה' — 'and Azariah son of Jehoram king of Judah' — the Vietnamese says 'A-xa-ri-gia, con trai vua Giô-ram, vua nước Giu-đa' — correct. The Hebrew says 'יָרַ֡ד לִרְא֞וֹת אֶת יְהוֹרָ֧ם בֶּן אַחְאָ֛ב' — 'went down to see Jehoram son of Ahab' — the Vietnamese says 'cũng xuống thăm Giô-ram, con trai A-háp' — correct. The Hebrew says 'בְּיִזְרְעֶ֖אל כִּי חֹלֶ֥ה הֽוּא' — 'in Jezreel because he was sick' — the Vietnamese says 'tại Giết-rê-ên, vì ông đang đau yếu' — correct. The main issue is the addition of 'trong lúc chiến đấu với Ha-xa-ên' which is not in the Hebrew text; the Hebrew only says 'in Ramah' without specifying the opponent. This is an addition that changes the claim slightly, though it is historically accurate from context, but the Hebrew text itself does not say it here. Also, the Hebrew says 'וַיָּ֜שָׁב' — 'and he returned' — the Vietnamese says 'trở về' — correct. The Hebrew says 'לְהִתְרַפֵּ֣א' — 'to be healed' — the Vietnamese says 'để chữa lành' — correct. The Hebrew says 'בְיִזְרְעֶ֗אל' — 'in Jezreel' — the Vietnamese says 'Giết-rê-ên' — correct. The Hebrew says 'כִּי הַמַּכִּים֙ אֲשֶׁ֣ר הִכֻּ֣הוּ בָֽרָמָ֔ה' — 'because of the wounds which they inflicted on him in Ramah' — the Vietnamese says 'các vết thương mình đã bị ... tại Ra-ma' — correct, but the addition of 'trong lúc chiến đấu với Ha-xa-ên' is not in the Hebrew. So flag for addition."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

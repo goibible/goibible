@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 17,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name כְּרִית (Kerith) is rendered as 'Xê-rit', which is a different name. The correct Vietnamese transliteration should be 'Kê-rít' or similar, not 'Xê-rit'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

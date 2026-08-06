@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 14,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֲצַת עָנִי תָבִישׁוּ' means 'You (plural) put to shame the counsel of the poor/afflicted' — the subject is the wicked (implied from context, but the verb is second-person plural 'you shame'), and the object is 'the counsel of the poor'. The Vietnamese renders it as 'Kẻ ác làm bại mưu người khốn cùng' ('The wicked frustrate the plan of the poor'), changing the subject from 'you' (the wicked addressed) to 'the wicked' as a third-person agent, and shifting 'counsel/advice' (עֵצָה) to 'mưu' (scheme/plot), which alters the meaning. The Hebrew does not say 'the wicked' here; it addresses the wicked directly as 'you'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

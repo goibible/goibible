@@ -1,0 +1,13 @@
+{
+  "book": "JER",
+  "chapter": 35,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

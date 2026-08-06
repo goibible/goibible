@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 29,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲשֶׁר עָשׂוּ לִי' means 'which they did for me' (referring to the work/service done for the Lord), but the Vietnamese 'vì chúng đã làm việc cho Ta' adds 'vì' (because) and changes the subject to 'chúng' (they), whereas the Hebrew relative clause 'אֲשֶׁר' (which) refers to the land or the service, not introducing a causal clause. This alters the meaning and connection of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

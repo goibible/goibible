@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 36,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text asks about the gods of Hamath, Arpad, and Sepharvaim, and asks whether they delivered Samaria from the king's hand. The Vietnamese rendering incorrectly adds 'Các thần của Sa-ma-ri' (the gods of Samaria) — Samaria is not in the Hebrew as a possessor of gods here; it is the object of deliverance. This changes the meaning by attributing gods to Samaria, which is not in the source text."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

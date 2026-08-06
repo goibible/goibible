@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 28,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פָּרַץ נַחַל מֵעִם גָּר' means 'a torrent breaks out from beside a sojourner' (i.e., a wadi/stream that bursts forth away from where people dwell), but the Vietnamese 'Kẻ ta đào mỏ xa chỗ người ở' ('Those who dig mines far from where people live') introduces the concept of mining ('đào mỏ') and 'kẻ ta' ('our people') which are not in the Hebrew. The Hebrew has no reference to digging mines or to 'our people'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַנִּשְׁכָּחִים מִנִּי רָגֶל' means 'the forgotten ones, away from the foot' (i.e., places forgotten by the foot of man), but the Vietnamese 'nơi hoang vắng không ai đặt chân tới' ('a desolate place where no one sets foot') is a reasonable rendering of that phrase, so this part is acceptable."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'דַּלּוּ מֵאֱנוֹשׁ נָעוּ' means 'they are diminished/weak from mankind; they wander' (referring to the people or the streams being driven away from human society), but the Vietnamese 'chúng bị treo lơ lửng và đung đưa xa cách loài người' ('they are suspended and sway far from mankind') adds 'treo lơ lửng' (suspended/hanging) and 'đung đưa' (swaying) which are not in the Hebrew. The Hebrew verb 'נָעוּ' means 'they wander/move to and fro', not 'hang/sway'. The addition of 'bị treo lơ lửng' (being hung) is an addition not supported by the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the five Philistine lords as: Gaza (הָעַזָּתִי), Ashdod (הָאַשְׁדּוֹדִי), Ashkelon (הָאֶשְׁקְלוֹנִי), Gath (הַגִּתִּי), and Ekron (הָעֶקְרוֹנִי). The Vietnamese renders them as 'người Gát' (Gath), 'người Ách-đốt' (Ashdod), 'người Ét-ki-nôn' (Ashkelon), 'người Gít' (Gittite? but this is a duplicate of Gath, not Gaza), and 'người Ê-cơ-rôn' (Ekron). The first item 'người Gát' is wrong—it should be 'người Ga-xa' (Gaza). The fourth item 'người Gít' appears to be a mistranslation of 'Gittite' (Gath) again, but the Hebrew has 'הַגִּתִּי' (Gath) as the fourth, so the order is swapped: the first should be Gaza, and the fourth should be Gath. The Vietnamese has Gath first and then a second Gath-like name 'Gít' for the fourth, omitting Gaza entirely and duplicating Gath."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

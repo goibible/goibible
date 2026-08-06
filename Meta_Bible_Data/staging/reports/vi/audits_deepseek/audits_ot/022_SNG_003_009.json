@@ -1,0 +1,18 @@
+{
+  "book": "SNG",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אַפִּרְיוֹן' (appiryon) means 'palanquin' or 'carriage' (a portable couch/litter), not 'cỗ xe ngựa' (horse-drawn chariot/carriage). The Vietnamese adds 'ngựa' (horse) which is not in the Hebrew and changes the meaning from a palanquin to a horse-drawn vehicle."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 80,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'shepherd of Joseph' (נֹהֵג כַּצֹּאן יוֹסֵף), but the Vietnamese renders it as 'chăn giữ như bầy chiên Gia-cốp' (shepherd like the flock of Jacob), substituting 'Gia-cốp' (Jacob) for 'Y-sô-sép' (Joseph). This is a name swap that changes the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

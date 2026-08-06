@@ -1,0 +1,22 @@
+{
+  "book": "GEN",
+  "chapter": 45,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Israel' (יִשְׂרָאֵל) as the speaker, but the Vietnamese renders 'Ích-thi-ên' (Issachar), a different name. This is a name swap."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רַב' (rav) here means 'enough' or 'it is enough' (i.e., 'It is enough; Joseph my son is still alive'), but the Vietnamese renders it as 'Thật là tốt lành' ('Truly it is good'), which changes the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

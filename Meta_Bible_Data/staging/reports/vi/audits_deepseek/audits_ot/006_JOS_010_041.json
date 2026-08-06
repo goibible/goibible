@@ -1,0 +1,22 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'עַד עַזָּה' (as far as Gaza), but Vietnamese renders 'cho đến Ách-cáp' (as far as Achzib/Achshaph), swapping Gaza for a different place name."
+        },
+        {
+          "kind": "addition",
+          "detail": "Vietnamese adds 'Bết Nê-ên' (Beth Neein/Beth Nehel) which is not present in the Hebrew text; the Hebrew only mentions Kadesh-barnea, Gaza, Goshen, and Gibeon."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

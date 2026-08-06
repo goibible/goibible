@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 14,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי נִשְׁבַּר שֵׁבֶט מַכֵּךְ' means 'for the rod of the one who strikes you is broken' (i.e., the oppressor's rod is broken), but the Vietnamese 'vì dù cây gậy đánh ngươi đã bị gãy' adds 'dù' (although) and shifts the meaning to 'even though the rod that strikes you is broken', which changes the causal/logical relationship. The Hebrew states the reason for not rejoicing is that the rod is broken, not a concession."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 28,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהָמַם גִּלְגַּל עֶגְלָתוֹ וּפָרָשָׁיו לֹא יְדֻקֶּנּוּ' describes the cartwheel and its horses (or horsemen) not crushing the grain; the Vietnamese renders 'bánh xe hay chân ngựa' (cartwheel or horse's feet), which adds 'hay chân ngựa' (or horse's feet) not present in the Hebrew, and omits the concept of the cart's horses/horsemen (פָּרָשָׁיו) being part of the threshing apparatus. The Hebrew says the wheel of his cart and its horses do not crush it, not 'wheel or horse's feet'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 16,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'sáu mươi tám' (68) for the number of Obed-edom and his brothers, but the Vietnamese says 'tám mươi sáu' (86), reversing the digits."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

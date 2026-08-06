@@ -1,0 +1,13 @@
+{
+  "book": "ZEC",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.9
+    }
+  }
+}

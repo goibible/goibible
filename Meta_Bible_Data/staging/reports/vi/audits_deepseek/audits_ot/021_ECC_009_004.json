@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶל כָּל הַחַיִּים' means 'with all the living' (i.e., among/with all who are alive), but the Vietnamese 'liên kết với mọi người còn sống' adds 'liên kết' (connected/joined), which is not in the Hebrew. The Hebrew verb is 'יבחר' (yivchar, 'is chosen' or 'is joined' depending on reading), but the standard reading is 'who is joined to all the living' — the Vietnamese 'liên kết' is an acceptable rendering of 'joined', so this is not a clear error. However, the phrase 'mọi người' (all people) narrows 'all the living' (which includes animals) to humans, which is a slight shift. The main issue is the addition of 'liên kết' as a verb not explicitly present; the Hebrew has 'who is joined' (from the verb 'chabar' or 'bachar' depending on vocalization), so this is acceptable. The second clause is correct. The overall meaning is preserved, so this may be OK. But the first clause's 'liên kết' is a reasonable rendering of 'joined', so no flag. Actually, the Hebrew text as given has 'יבחר' which is likely a scribal variant of 'יחבר' (yechubar, 'is joined'), and the Vietnamese 'liên kết' matches that. So the translation is faithful. The only potential issue is 'mọi người' for 'all the living' — but in context, 'the living' refers to people, so it's acceptable. Verdict: OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 30,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text 'וַתֹּאמֶר לֵאָה בָּגָד' means 'And Leah said, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

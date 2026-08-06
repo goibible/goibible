@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 18,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'צַדִּיק הָרִאשׁוֹן בְּרִיבוֹ' means 'The first to plead his case seems just' (i.e., the one who speaks first in a dispute appears righteous), but the Vietnamese 'Người đứng về phía phải trước khi tranh tụng' ('The one who stands on the right side before the dispute') misinterprets 'צַדִּיק' (righteous/just) as 'đứng về phía phải' (standing on the right side), changing the meaning from 'appears righteous' to a physical position. Also, the clause 'được bạn mình tra xét' ('is examined by his friend') reverses the subject-object relationship: in Hebrew, 'רֵעֵהוּ וַחֲקָרוֹ' means 'his neighbor comes and searches him out' (the neighbor examines the first speaker), but the Vietnamese makes the first speaker the one being examined by 'bạn mình' (his friend), which is actually correct in meaning, but the initial clause error is substantive."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text lists only three names: Kênan, Mahalalel, and Yered. The Vietnamese adds 'Giê-rết' (Jared) which is not present in the Hebrew, and omits 'Yered' (יָֽרֶד) which is the third name in the Hebrew. The Vietnamese has four names, but the Hebrew has three. The correct rendering should be 'Kê-nan, Ma-ha-la-lên, Gia-rết' (or similar) without the extra name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

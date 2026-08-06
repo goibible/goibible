@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Hezekiah (וַיִּשְׁלַח, implied subject from context is Hezekiah) sent Eliakim, Shebna, and the elders to Isaiah. The Vietnamese says 'A-mốt sai' (Amoz sent), which is a name swap — Amoz is the father of Isaiah, not the sender. The subject of the verb is Hezekiah, not Amoz."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

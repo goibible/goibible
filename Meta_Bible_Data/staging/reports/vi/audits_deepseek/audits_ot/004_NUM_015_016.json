@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 15,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has 'mishpat' (judgment/ordinance) but the Vietnamese adds 'mạng lịnh' (commandment/decree) which is not in the Hebrew text; the Hebrew only mentions 'torah' (law) and 'mishpat' (judgment)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

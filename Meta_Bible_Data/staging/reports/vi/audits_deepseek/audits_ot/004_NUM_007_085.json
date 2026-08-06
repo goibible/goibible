@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 85,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'one hundred and thirty' (130) shekels for each bowl, but Vietnamese says 'một trăm ba mươi' (130) which is correct; however, the Hebrew 'שְׁלֹשִׁים וּמֵאָה' means 'thirty and a hundred' = 130, and the Vietnamese 'một trăm ba mươi' is correct. The issue is that the Hebrew says 'the one bowl' (הַקְּעָרָה הָאַחַת) and 'the one basin' (הַמִּזְרָק הָאֶחָד), but the Vietnamese adds 'mỗi đĩa' (each bowl) and 'mỗi chậu' (each basin) which is a reasonable interpretation, not an error. The real issue: Hebrew says 'a hundred and thirty' for the bowl, but the Vietnamese says 'một trăm ba mươi' (130) which is correct. However, the Hebrew says 'seventy' for the basin, and Vietnamese says 'bảy mươi' (70) which is correct. The total is 'two thousand four hundred' (אַלְפַּיִם וְאַרְבַּע מֵאוֹת) = 2400, and Vietnamese says 'hai ngàn bốn trăm' (2400) which is correct. The problem: the Hebrew says 'the one bowl' and 'the one basin' (singular), but the Vietnamese says 'mỗi đĩa' and 'mỗi chậu' (each), which is a legitimate distributive rendering. Actually, the Hebrew text: 'thirty and a hundred the bowl the one silver, and seventy the basin the one' – meaning each bowl was 130 shekels and each basin 70 shekels. The Vietnamese matches. The only possible issue is that the Hebrew says 'the one bowl' (singular) but the context implies each of the bowls, so 'mỗi đĩa' is fine. However, the Vietnamese says 'Ba mươi đĩa bạc' (thirty silver bowls) – the Hebrew does not explicitly say 'thirty bowls' but 'thirty and a hundred' refers to the weight, not the count. The Hebrew: 'שְׁלֹשִׁים וּמֵאָה הַקְּעָרָה הָאַחַת כֶּסֶף' = 'thirty and a hundred the one bowl silver' meaning 'the one bowl was 130 shekels of silver'. The Vietnamese 'Ba mươi đĩa bạc, mỗi đĩa nặng một trăm ba mươi siếc-lơ' = 'Thirty silver bowls, each bowl weighed 130 shekels' – this adds 'thirty bowls' which is not in the Hebrew; the Hebrew only says the weight of one bowl. The number 'thirty' in Hebrew is part of the weight (130), not the count of bowls. So the Vietnamese mistranslates 'thirty' as the number of bowls, which is a factual error. Also, the Hebrew says 'seventy the one basin' meaning each basin was 70 shekels, but the Vietnamese says 'bảy mươi chậu bạc' = 'seventy silver basins' – again, 'seventy' is the weight, not the count. This is a clear mistranslation of numbers: the Hebrew has no count of bowls or basins, only weights. The Vietnamese invents counts of 30 bowls and 70 basins. This changes the meaning. Therefore FLAG."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

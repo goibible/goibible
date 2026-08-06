@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 69,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שֵׁשׁ רִבֹּאות וָאֶלֶף' means 'six myriads and a thousand' = 61,000, but Vietnamese says 'sáu mươi một ngàn rưỡi' = 61,500, adding 'rưỡi' (half) which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

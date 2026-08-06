@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 1,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יֹשֵׁב עַל כִּסְאִי' means 'one sitting on my throne' (referring to Solomon), but the Vietnamese 'ai đó ngồi trên ngôi ta' ('someone sitting on my throne') is vague and loses the specific referent, potentially misleading the reader about who is on the throne."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

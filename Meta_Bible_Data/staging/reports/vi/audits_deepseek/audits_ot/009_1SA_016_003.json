@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'לְיִשַׁי' (to Jesse), but the Vietnamese renders 'Giép' (Jesse's son David? Actually 'Giép' is not a standard Vietnamese name for Jesse; it appears to be a different name, possibly a corruption or substitution). The correct Vietnamese name for Jesse is 'Gie-sê' or 'Y-sai'. 'Giép' is not Jesse; it may be a mistaken name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

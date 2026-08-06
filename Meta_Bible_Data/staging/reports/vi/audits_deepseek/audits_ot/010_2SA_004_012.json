@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is David (וַיְצַו דָּוִד), but the Vietnamese renders 'Đức Giê-hô-va truyền lệnh' (the LORD commanded), substituting God for David."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

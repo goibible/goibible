@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Vì các ngươi đã không theo các dân tộc xung quanh mình' (because you have not followed the nations around you) — but the Hebrew 'יַעַן הֲמָנְכֶם מִן הַגּוֹיִם' means 'because you are not like the nations' or 'because you have not been like the nations' (the verb is 'הָמָן' from 'מָנָה' meaning 'to be like' or 'to resemble'), not 'không theo' (not follow). The Vietnamese mistranslates the verb, changing the meaning from 'not being like the nations' to 'not following the nations'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

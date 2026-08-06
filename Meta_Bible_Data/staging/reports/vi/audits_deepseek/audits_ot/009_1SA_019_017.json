@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 19,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has Saul (שָׁאוּל) speaking to Michal, but the Vietnamese renders the speaker as 'Sa-mu-ên' (Samuel), which is a different person. This changes who is speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

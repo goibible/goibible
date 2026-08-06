@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The first daughter's name in Hebrew is מַחְלָה (Machlah), but the Vietnamese renders it as 'Ma-khia', which is the name of the grandfather Machir (מָכִיר) from the genealogy, not the daughter. The correct transliteration should be 'Mách-la' or similar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

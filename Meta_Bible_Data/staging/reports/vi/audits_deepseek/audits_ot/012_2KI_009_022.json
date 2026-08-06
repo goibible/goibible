@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'עַד זְנוּנֵי אִיזֶבֶל אִמְּךָ וּכְשָׁפֶיהָ הָרַבִּים' literally means 'as long as the whoredoms of Jezebel your mother and her many sorceries [continue]'. The Vietnamese renders 'những điều gian ác và phù phép nhiều vô kể' ('wicked deeds and countless sorceries'), which omits the specific term 'whoredoms' (זְנוּנֵי) and replaces it with a generic 'wicked deeds' (gian ác), thereby losing the explicit sexual immorality connotation present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

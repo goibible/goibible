@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 30,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'in the first [month], on the seventh [day] of the month' (בָּרִאשׁוֹן בְּשִׁבְעָה לַחֹדֶשׁ). The Vietnamese adds 'ngày mồng một tháng giêng' (the first day of the first month) which is not in the Hebrew, and then says 'ngày mùng bảy của tháng' (the seventh day of the month), creating a contradiction and an addition. The correct rendering should be 'tháng giêng, ngày mùng bảy của tháng'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

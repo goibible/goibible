@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'וַיְהִי כִּשְׁמֹעַ יָרָבְעָם' (And it happened when Jeroboam heard), but the Vietnamese says 'Khi Rê-hô-bô-am con trai của Sa-lô-môn nghe tin' (When Rehoboam son of Solomon heard). The subject is swapped: the Hebrew has Jeroboam hearing, not Rehoboam. This changes who is doing the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

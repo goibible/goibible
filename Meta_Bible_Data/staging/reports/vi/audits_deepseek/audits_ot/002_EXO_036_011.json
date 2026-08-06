@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 36,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'תְּכֵלֶת' means 'blue/violet' (tekhelet), but Vietnamese says 'chỉ điều' (red/crimson thread). This changes the color of the loops."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

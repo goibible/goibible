@@ -1,0 +1,22 @@
+{
+  "book": "DAN",
+  "chapter": 6,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הַרְגִּשׁוּ' means 'rushed/stormed in' (from רגשׁ, to make a noise/commotion), not 'nhóm lại' (gathered together). The sense of a hostile, sudden rush is lost."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְהַשְׁכַּחוּ' (from שכח, to find) means 'and found' Daniel, not 'và thấy' (and saw). 'Found' implies a deliberate search, whereas 'saw' is more incidental."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

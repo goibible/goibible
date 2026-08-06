@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 119,
+  "verse": 136,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'עֵינָי' (my eyes) and 'שָׁמְר֥וּ' (they did not keep) refer to the speaker's own eyes and the speaker's own failure to keep the law, but the Vietnamese renders 'từ mắt tôi' (from my eyes) correctly, yet 'người ta không giữ' (people do not keep) changes the subject from first-person singular ('I') to third-person plural ('they/people'), altering who is not keeping the law."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

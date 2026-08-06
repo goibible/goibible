@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'And he said: I am the servant of Abraham' (וַיֹּאמַר עֶבֶד אַבְרָהָם אָנֹכִי). The Vietnamese renders 'Aùp-ra-ham nói' (Abraham said), attributing the speech to Abraham, but the Hebrew subject is 'he' (the servant, Eliezer), not Abraham. This changes who is speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 31,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חַסְדּוֹ' means 'His lovingkindness/mercy' (God's), but the Vietnamese renders it as 'sự nhân từ của tôi' ('my lovingkindness'), changing the possessor from God to the speaker."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

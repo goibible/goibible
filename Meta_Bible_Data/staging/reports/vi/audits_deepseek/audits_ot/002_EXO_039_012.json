@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew order: leshem, shevo, achlamah. Vietnamese order: ngọc lục bảo (leshem), ngọc hồng ngọc (shevo), ngọc beryl (achlamah). The third stone 'achlamah' is rendered as 'ngọc beryl' but 'beryl' is typically a different stone (tarshish); 'achlamah' is usually amethyst. This is a mistranslation of the stone name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

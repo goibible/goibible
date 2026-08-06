@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 28,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Đức Giê-hô-va' (YHWH) swore to your fathers, but the Vietnamese adds 'Đức Chúa Trời' (God) as the object of the oath, making it 'swore by God' instead of 'swore to your fathers'. This changes the meaning: the Hebrew has YHWH swearing to the fathers, not swearing by God."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 47,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִן הַכָּתֵף הַיְמָנִית' means 'from the right shoulder/side' (of the temple structure), but Vietnamese renders 'từ phía bên phải của nền móng' ('from the right side of the foundation'), adding 'nền móng' (foundation) which is not in the Hebrew and changes the location reference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

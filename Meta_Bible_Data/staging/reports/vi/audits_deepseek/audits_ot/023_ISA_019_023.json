@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 19,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the highway is from Egypt to Assyria (מִמִּצְרַיִם אַשּׁוּרָה), but the Vietnamese reverses it: 'từ A-si-ri đến Ai-cập' (from Assyria to Egypt)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִן הַכְּשָׂבִים' means 'from the sheep/lambs' (generic term for sheep, often male or collective), and 'מִן הָעִזִּים' means 'from the goats'. The Vietnamese renders these as 'chiên cái' (female sheep) and 'dê cái' (female goat), adding 'cái' (female) which is not in the Hebrew. The Hebrew does not specify female; it simply says 'from the sheep or from the goats'. This changes the meaning by restricting the offering to females, whereas the Hebrew allows either gender (though the animal must be male, as stated later)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

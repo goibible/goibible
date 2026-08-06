@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רֹעֶה' (rō‘eh) means 'companion' or 'friend' (from the verb 'to associate with'), not 'cướp' (robber/plunderer). The verse describes God as the one who 'makes the barren woman dwell in a house' (or 'sets the solitary in a family'), not as a robber. The Vietnamese 'Cướp' introduces a concept absent from the Hebrew and changes the subject's action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

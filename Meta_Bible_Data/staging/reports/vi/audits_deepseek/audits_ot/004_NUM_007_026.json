@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'một cái đĩa vàng' (one golden dish) but the Vietnamese says 'một cái đĩa bạc' (one silver dish). The material is changed from gold to silver."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

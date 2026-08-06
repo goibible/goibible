@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Jehoram' (יְהוֹרָם) turned his hands and fled, but the Vietnamese renders this as 'A-cha-xia' (Ahaziah). This swaps the subject from Jehoram to Ahaziah, changing who performs the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

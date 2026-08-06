@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֲרוֹאֶה אַתָּה' is a rhetorical question meaning 'Do you see?' or 'You see?', not a statement 'Ngươi là người thấy được' ('You are the one who sees'). This changes the meaning from a question to an assertion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 34,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הֲפִיצוֹתֶם אוֹתָנָה' means 'you have scattered them' (the weak sheep), but Vietnamese says 'chúng ta bị đuổi ra ngoài' ('we were driven out'), changing the subject/object and meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

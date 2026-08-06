@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 15,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִם לֹא שרותך לְטוֹב' is a conditional oath formula meaning 'if I have not...' (i.e., 'surely I have...'), but the Vietnamese renders it as 'Nếu ngươi không làm điều thiện' ('If you do not do good'), which changes the subject from God (who has not dealt well with you) to the addressee (you do not do good). This reverses the meaning and who is acting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

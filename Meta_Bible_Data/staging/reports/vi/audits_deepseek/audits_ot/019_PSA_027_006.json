@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 27,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְאָהֳלוֹ' means 'in His tent' (referring to YHWH's tent), but Vietnamese renders 'trong đền Ngài' ('in His temple'), changing the location from a tent to a temple."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

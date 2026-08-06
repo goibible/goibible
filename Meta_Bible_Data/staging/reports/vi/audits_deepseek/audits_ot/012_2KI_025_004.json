@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 25,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not explicitly state that the soldiers 'escaped' (trốn thoát); it says they 'went' (וַיֵּלֶךְ) through the gate. The verb 'went' is used for both the soldiers and the king. The Vietnamese adds 'trốn thoát' (escaped) which is an interpretive addition not present in the Hebrew."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'vua bèn đi' (the king then went) for the final clause, but the Hebrew 'וַיֵּלֶךְ דֶּרֶךְ הָעֲרָבָה' has no explicit subject 'king' — the subject is implied from context (the fleeing soldiers or the king). The addition of 'vua' (king) as the subject is an interpretive addition not stated in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

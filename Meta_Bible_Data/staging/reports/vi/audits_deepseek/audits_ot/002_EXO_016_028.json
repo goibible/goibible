@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 16,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'מֵאַנְתֶּם' is second person masculine plural ('you [all] have refused'), but the Vietnamese 'Ngươi' is second person singular ('you' singular). This changes the addressee from the people (plural) to Moses alone."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is לָכִישָׁה (Lachish), but the Vietnamese renders it as 'Ha-kích', which is a different name. It should be 'La-ki-sơ' or similar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

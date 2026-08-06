@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 60,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִפְּנֵי קֹשֶׁט' means 'from before the bow' (i.e., from the face of the bow/archery), referring to protection from the enemy's bow. The Vietnamese renders it as 'vì lẽ thật' ('because of the truth'), which is a mistranslation—'קֹשֶׁט' (qoshet) means 'bow' (weapon), not 'truth' (which would be 'אֱמֶת'). This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

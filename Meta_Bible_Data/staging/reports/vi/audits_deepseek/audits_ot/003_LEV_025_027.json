@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 25,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'the man who sold to him' (אֲשֶׁר מָכַר לוֹ) — the seller receives the surplus. Vietnamese says 'cho người đã mua' (to the one who bought), reversing buyer and seller."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

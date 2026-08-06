@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'אַבְרָהָם' (Abraham), but the Vietnamese renders it as 'Áp-ram' (Abram), which is a different name/person in the biblical narrative."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 25,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִישׁ מִתְהַלֵּל בְּמַתַּת שָׁקֶר' means 'a man who boasts of a gift of falsehood' (i.e., a person who boasts about a false/deceptive gift). The Vietnamese 'kẻ tự khoe về lễ vật dối trá' renders 'lễ vật' (offering/sacrifice) for 'מַתַּת' (gift), which is a narrower and different concept. Also, the Hebrew 'נְשִׂיאִים וְרוּחַ וְגֶשֶׁם אָיִן' means 'clouds and wind but no rain' — the Vietnamese 'Người hứa mưa mà không có, như mây và gió' reverses the order and adds 'hứa' (promises) which is not in the Hebrew, and the phrase 'như mây và gió' (like clouds and wind) changes the simile structure: the Hebrew says the man is like clouds and wind without rain, not that he promises rain. The Vietnamese makes it sound like the man promises rain but has none, like clouds and wind, which is a different claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

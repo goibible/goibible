@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 21,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְגוּרֵי אֶל חֶרֶב' means 'those who are terrified of the sword' or 'those who flee to the sword' (from the root גור, 'to sojourn/dread'), not 'those living at Ê-léc' (a place name). The Vietnamese renders 'Ê-léc' as a location, which is a misreading of the Hebrew word 'אֶל' (to/toward) plus 'חֶרֶב' (sword), and adds a place name not present in the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

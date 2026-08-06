@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists pairs: Carchemish with Calno, Arpad with Hamath, Damascus with Samaria. The Vietnamese reverses the order within each pair: 'Ca-nô không như Cạt-kê-mít' (Calno not like Carchemish) instead of 'Carchemish not like Calno', 'Ha-mát không như Aït-bát' (Hamath not like Arpad) instead of 'Arpad not like Hamath', 'Sa-ma-ri không như Đa-mách' (Samaria not like Damascus) instead of 'Damascus not like Samaria'. This swaps the subjects and objects of comparison, changing the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

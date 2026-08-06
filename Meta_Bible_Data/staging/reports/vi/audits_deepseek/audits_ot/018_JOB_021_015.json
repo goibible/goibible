@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 21,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִפְגַּע בּוֹ' means 'we meet/encounter Him' or 'we reach Him' (from פגע, to meet/encounter), not 'cầu khẩn Ngài' (call upon Him). The Vietnamese rendering changes the action from encountering/meeting God to calling on Him, which is a substantive semantic shift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

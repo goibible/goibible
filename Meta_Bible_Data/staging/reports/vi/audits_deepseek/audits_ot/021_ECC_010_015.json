@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'תְּיַגְּעֶנּוּ' means 'wearies him' (singular object suffix referring to the fool), but Vietnamese 'làm cho mỗi người trong chúng mệt mỏi' means 'makes each of us weary' — the object is changed from singular 'him' to plural 'each of us', altering who is wearied."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

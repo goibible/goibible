@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 1,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לָבַז יִהְיֶה' means 'will be for plunder' (i.e., will be plundered/spoiled), but Vietnamese renders it as 'sẽ bị tiêu diệt' ('will be destroyed'), which changes the meaning from plunder to destruction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

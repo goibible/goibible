@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the sons of Cush as Seba, Havilah, Sabtah, Raamah, and Sabteca. The Vietnamese renders 'Sê-ba' for Seba, 'Ha-vi-la' for Havilah, 'Sáp-ta' for Sabtah, 'Ra-ê-ma' for Raamah, and 'Sáp-tê-ca' for Sabteca — all correct. However, the second list, sons of Raamah, is given in Hebrew as Sheba and Dedan. The Vietnamese says 'Sê-la và Đê-đan' — 'Sê-la' is not Sheba (which should be 'Sê-ba' or similar), it is a different name (likely Shelah). This is a name swap: Sheba is replaced with Sê-la."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

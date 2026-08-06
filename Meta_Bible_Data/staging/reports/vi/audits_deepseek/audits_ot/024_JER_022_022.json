@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 22,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רֹעַיִךְ' means 'your shepherds' (those who lead/rule you), but Vietnamese renders it as 'các mục tử của ngươi' (your shepherds) — this is acceptable. However, the Hebrew 'וּמְאַהֲבַיִךְ' means 'and your lovers' (those who love you), but Vietnamese says 'những kẻ ngươi yêu' (those you love), reversing the direction of the relationship. The Hebrew has the lovers of the city (her lovers) going into captivity, not the ones she loves."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

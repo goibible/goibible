@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text begins with 'וַיַּעַן הָאִישׁ הָעֹמֵד בֵּין הַהַדַּסִּים וַיֹּאמַר' ('And the man standing among the myrtle trees answered and said'), which is entirely missing in the Vietnamese. The Vietnamese only renders the content of the speech ('These are those whom Yahweh sent to walk throughout the earth'), omitting the narrative introduction identifying the speaker and his position."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

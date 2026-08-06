@@ -1,0 +1,13 @@
+{
+  "book": "PSA",
+  "chapter": 9,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

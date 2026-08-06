@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 84,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בָּךְ' means 'in You' (referring to God), but the Vietnamese renders it as 'nơi Si-ôn' (in Zion), which is an addition/swap of a place name not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

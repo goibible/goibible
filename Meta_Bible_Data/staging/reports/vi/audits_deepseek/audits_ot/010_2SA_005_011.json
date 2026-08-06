@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Place name 'Típ-sai' is incorrect; the Hebrew is 'Tyre' (צֹר), which should be rendered as 'Tyre' (e.g., 'Ty-rơ' or 'Típ-rơ'), not 'Típ-sai'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

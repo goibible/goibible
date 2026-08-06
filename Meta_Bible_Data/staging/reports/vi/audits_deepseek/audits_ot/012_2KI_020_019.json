@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 20,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיֹּאמֶר הֲלוֹא אִם שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָי' is a rhetorical statement by Hezekiah: 'For there will be peace and truth in my days' (or 'Is it not [good] if peace and truth will be in my days?'). The Vietnamese renders it as a question to Isaiah ('ông có thể nói: Có phải là điều tốt nếu...'), which incorrectly makes Hezekiah ask Isaiah whether it is good, whereas the Hebrew is Hezekiah's own reflection/affirmation about the state of his days, not a question posed to Isaiah."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 21,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not mention 'Mười hai năm' (twelve years); this is an addition not present in the source verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

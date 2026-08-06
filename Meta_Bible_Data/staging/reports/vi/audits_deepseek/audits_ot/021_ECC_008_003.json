@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַל תִּבָּהֵל מִפָּנָיו תֵּלֵךְ' means 'Do not be dismayed by his face, go' (i.e., do not be afraid of him, proceed), but the Vietnamese renders it as 'Đừng vội vã rời khỏi trước mặt người' ('Do not hastily leave from before the person'), which changes the meaning: it adds 'vội vã' (hastily) and 'rời khỏi' (leave) instead of the Hebrew's 'be dismayed' and 'go' (continue/advance). This reverses the sense of the command."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

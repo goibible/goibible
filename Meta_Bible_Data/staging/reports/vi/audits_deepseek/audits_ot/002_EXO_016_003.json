@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 16,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'for you have brought us out to this wilderness' (אֶל הַמִּדְבָּר הַזֶּה), but the Vietnamese says 'ra khỏi nơi đồng vắng nầy' (out of this wilderness), reversing the direction: the people are complaining that they were brought INTO the wilderness, not out of it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

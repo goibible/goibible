@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 14,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קָדֵשׁ' (qadesh) refers to a male temple prostitute (or male cult prostitute), not a female prostitute. The Vietnamese 'phường kỹ nữ đĩ điếm' means 'female prostitutes/harlots', which changes the gender and meaning of the term."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

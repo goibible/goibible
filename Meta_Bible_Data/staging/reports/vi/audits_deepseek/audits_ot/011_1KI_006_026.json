@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 6,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּרוּב' (keruv) is a cherub, a winged angelic being, not a 'bồ câu thiêng' (sacred dove). This changes the identity of the being described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

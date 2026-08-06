@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 64,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 'bốn vạn (40,000) hai ngàn (2,000) ba trăm (300) sáu mươi (60)' = 42,360. The Vietnamese says 'bốn mươi hai ngàn' (42,000) which is correct in total, but the Hebrew explicitly breaks it down as 40,000 + 2,000 + 300 + 60. The Vietnamese rendering 'bốn mươi hai ngàn ba trăm sáu mươi' (42,360) is mathematically equivalent, so the total number is correct. However, the Hebrew phrase 'אַרְבַּ֣ע רִבּ֔וֹא' means 'bốn vạn' (40,000), not 'bốn mươi' (forty). The Vietnamese 'bốn mươi hai ngàn' (42,000) conflates the 40,000 and 2,000 into a single number, which is a legitimate way to express the total. Since the total is correct and no number is wrong, this is not a substantive error. The issue is that the Hebrew has 'אַרְבַּ֣ע רִבּ֔וֹא' (four myriad = 40,000) and 'אַלְפַּ֖יִם' (two thousand), and the Vietnamese 'bốn mươi hai ngàn' (42,000) is a correct total. This is acceptable. However, the Hebrew 'אַרְבַּ֣ע רִבּ֔וֹא' is not 'bốn mươi' (forty) but 'bốn vạn' (40,000). The Vietnamese 'bốn mươi hai ngàn' is 42,000, which is correct. So the total is right. No flag needed. But wait: the Hebrew says 'אַרְבַּ֣ע רִבּ֔וֹא' = 40,000, 'אַלְפַּ֖יִם' = 2,000, 'שְׁלֹשׁ מֵא֥וֹת' = 300, 'שִׁשִּֽׁים' = 60. Total = 42,360. Vietnamese 'bốn mươi hai ngàn ba trăm sáu mươi' = 42,360. Correct. So verdict should be OK. But the instruction says flag if a number is reversed/dropped/swapped. Here the number is correct. So OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

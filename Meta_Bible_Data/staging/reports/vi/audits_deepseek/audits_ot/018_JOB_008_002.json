@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּמַלֶּל' is 2nd person masculine singular ('you will speak'), but the Vietnamese renders it as 'Ngài sẽ nói' ('He will speak'), changing the subject from 'you' (Job's friend, Bildad) to a third-person 'He' (likely God). This changes who is speaking."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְרוּחַ כַּבִּיר אִמְרֵי פִיךָ' means 'and the words of your mouth are a mighty wind' (i.e., the words of 'your' mouth, second person). The Vietnamese 'hơi thở của đấng hùng dũng sẽ làm cho lời của miệng Ngài như gió bão' changes 'your mouth' to 'His mouth' (Ngài) and adds 'sẽ làm cho' ('will make'), altering the subject and adding an action not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

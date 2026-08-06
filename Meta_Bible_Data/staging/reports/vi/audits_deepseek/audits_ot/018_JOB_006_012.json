@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נָחוּשׁ' means 'bronze/copper', but Vietnamese renders it as 'đồng' (copper). While 'đồng' can mean bronze in some contexts, the standard Vietnamese translation for 'bronze' is 'đồng thau' or 'đồng đen'. However, the more significant issue is that the Hebrew has 'naturally' (נָחוּשׁ) as a noun meaning 'bronze', not 'đồng' (copper) specifically. This is a minor lexical difference, but the meaning is essentially the same metal. The main issue is the first clause: Hebrew 'אִם כֹּחַ אֲבָנִים כֹּחִי' is a conditional/assertion 'If my strength is the strength of stones', but Vietnamese renders it as a rhetorical question 'Sức lực tôi há phải là sức lực của đá sao?' (Is my strength the strength of stones?). This changes the assertion into a question, altering the meaning. The Hebrew is a statement of comparison, not a question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

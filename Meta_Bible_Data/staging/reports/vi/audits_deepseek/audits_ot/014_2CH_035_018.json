@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 35,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יֹאשִׁיָּהוּ (Josiah) is rendered as 'Ót-thia' in Vietnamese, which is a different name (likely a typo or misreading for 'Giô-si-a'). This changes the identity of the king."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

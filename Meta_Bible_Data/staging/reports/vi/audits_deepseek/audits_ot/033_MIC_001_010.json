@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּבֵ֣ית לְעַפְרָ֔ה' is a place name 'Beth-le-aphrah' (house of Aphrah), but the Vietnamese renders it as 'trong nhà Áp-ra' (in the house of Aphrah), which changes the meaning from a place name to a literal house. This is a mistranslation of the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

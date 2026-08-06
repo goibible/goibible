@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּרוּבִים' (cherubim) is translated as 'bồ nông' (pelican), which is a different creature. The correct translation should be 'chê-ru-bim' or 'cherubim'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

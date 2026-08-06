@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 35,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has a double oath formula: 'As I live... surely, because you have hated blood, blood will pursue you' (אִם לֹא דָם שָׂנֵאתָ וְדָם יִרְדְּפֶךָ). The particle אִם לֹא here is an oath formula meaning 'surely/indeed' (literally 'if not'), not a conditional 'if you do not'. The Vietnamese renders it as 'nếu ngươi không ghét máu' ('if you do not hate blood'), which reverses the meaning: the Hebrew states that because you hated blood, blood will pursue you; the Vietnamese makes it conditional on not hating blood, changing the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has no explicit subject 'Đức Chúa Trời' (God); the subject is implied by the verb 'וּמָשַׁךְ' (and he draws). The Vietnamese adds 'Đức Chúa Trời' as the subject, which is an interpretive addition not present in the Hebrew text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַבִּירִים' means 'mighty ones' or 'strong ones' (plural noun), not 'những kẻ mạnh ra khỏi chỗ an toàn' (the strong out of their safe place). The phrase 'ra khỏi chỗ an toàn' (out of their safe place) is an addition not in the Hebrew; the Hebrew simply says 'he draws the mighty by his power'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יָקוּם וְלֹא יַאֲמִין בַּחַיִּין' means 'he rises and does not believe in life' (i.e., he does not trust that he will live). The Vietnamese 'Ngài đứng lên, và chẳng ai tin được sự sống mình' changes the subject: 'chẳng ai' (no one) is not in the Hebrew; the subject is the same person who rises, and the verb 'יַאֲמִין' is third-person masculine singular, not plural or impersonal. The Vietnamese also adds 'mình' (his own) which is not explicit in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

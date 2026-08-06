@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'וְלַעֲשׂוֹת לוֹ תּוֹעָה' means 'and to make it (Jerusalem) a confusion/turmoil' (referring to causing confusion or trouble to the city), but the Vietnamese adds 'cản trở việc xây dựng thành ấy' ('to hinder the building of that city'), which introduces the concept of 'building' that is not present in the Hebrew text. The Hebrew does not mention building or hindering construction; it speaks of making the city a 'to'ah' (confusion/turmoil)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

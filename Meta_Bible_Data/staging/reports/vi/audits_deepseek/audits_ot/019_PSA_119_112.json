@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 119,
+  "verse": 112,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va' (the LORD/Yahweh); it only says 'your statutes' (חֻקֶּיךָ). The Vietnamese adds 'của Đức Giê-hô-va' which is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'vua A-si-ri' (king of Assyria), but the Vietnamese says 'vua A-đu' which is a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

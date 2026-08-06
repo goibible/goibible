@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִקְנֶה אַף עַל עוֹלֶה' is rendered as 'còn súc vật thì cảm thấy cơn bão sắp tới' (but the animals feel the coming storm). The Hebrew phrase literally means 'even the cattle (or possessions) upon the burnt offering' or 'even the cattle on the ascent' (referring to the burnt offering ascending). The Vietnamese adds 'cảm thấy cơn bão sắp tới' (feel the coming storm) which is not in the Hebrew and changes the meaning. The Hebrew is about the friend declaring/proclaiming about him (Job), and the cattle even upon the burnt offering (i.e., even the cattle used for the burnt offering are affected). The Vietnamese introduces a storm concept not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

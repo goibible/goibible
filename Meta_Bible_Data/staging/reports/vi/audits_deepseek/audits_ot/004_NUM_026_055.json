@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Y-sơ-ra-ên' (Israel) as the subject, which is not present in the Hebrew text. The Hebrew says 'they will inherit' (יִנְחָלוּ) with the implied subject being the tribes, not explicitly 'Israel'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

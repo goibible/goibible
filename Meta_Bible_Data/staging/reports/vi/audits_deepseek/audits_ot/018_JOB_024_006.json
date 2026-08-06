@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּלִילוֹ' (his fodder/mixed grain) is rendered as 'lúa mì' (wheat), which is a different crop; the Hebrew refers to fodder or mixed grain, not specifically wheat."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

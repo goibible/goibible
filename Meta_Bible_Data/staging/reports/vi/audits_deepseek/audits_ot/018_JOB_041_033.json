@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 41,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶעָשׂוּ לִבְלִי חָת' means 'made without fear' (i.e., created to be fearless), but the Vietnamese 'mọi vật cao trọng đều bị nó coi thường' means 'all lofty things are despised by it', which adds the concept of despising/contempt not present in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

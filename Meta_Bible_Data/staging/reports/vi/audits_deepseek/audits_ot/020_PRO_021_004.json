@@ -1,0 +1,13 @@
+{
+  "book": "PRO",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.9
+    }
+  }
+}

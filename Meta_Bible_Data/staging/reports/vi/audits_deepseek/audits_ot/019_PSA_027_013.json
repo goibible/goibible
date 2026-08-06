@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 27,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text is a conditional sentence: 'If I had not believed to see the goodness of the LORD in the land of the living...' (with the implied consequence 'I would have fainted/despaired'). The Vietnamese adds an explicit consequence clause 'thì tôi đã thất vọng rồi' (then I would have despaired) which is not present in the Hebrew text. While this is a common interpretive completion, it is an addition of a clause not in the Hebrew, changing the verse from an incomplete conditional (implying the result) to a fully stated one. However, the Hebrew does imply the consequence, so this is arguably acceptable. The more significant issue is the rendering of 'בְּֽטוּב יְהוָה' as 'sự tốt lành của Đức Giê-hô-va' (the goodness of the LORD) which is correct, and 'בְּאֶרֶץ חַיִּים' as 'tại đất người sống' (in the land of the living) which is correct. The main problem is the added consequence clause, which is not in the Hebrew but is a natural completion. Since the instruction says to flag only if the Vietnamese reader would come away believing something factually different or missing something substantive, the added clause does not change the meaning but adds an explicit result. This is borderline; however, the Hebrew text is a protasis without an apodosis, and the Vietnamese supplies the apodosis, which is a substantive addition. I will flag it as an addition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

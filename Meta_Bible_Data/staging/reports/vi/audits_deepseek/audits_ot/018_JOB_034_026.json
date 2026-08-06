@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תַּחַת רְשָׁעִים סְפָקָם בִּמְקוֹם רֹאִים' means 'under the wicked they are shaken in the place of seers' (i.e., they are punished in the sight of onlookers, like the wicked). The Vietnamese reverses the relationship: it says 'Người đánh phạt chúng dưới mắt thiên hạ, như những kẻ ác' ('He strikes them in the sight of the people, like the wicked'), making the wicked the comparison object rather than the location/context. The Hebrew has 'under the wicked' (i.e., in the place where the wicked are punished), not 'like the wicked.' This changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

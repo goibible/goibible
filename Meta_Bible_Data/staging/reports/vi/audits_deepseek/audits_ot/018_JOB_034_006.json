@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל מִשְׁפָּטִי אֲכַזֵּב' means 'I would lie about my case/justice' (i.e., I would be false to my own cause), but the Vietnamese renders it as 'Dẫu tôi ngay thẳng, người ta bảo tôi nói dối' ('Though I am upright, people say I lie'), which changes the subject and meaning. The Hebrew has the speaker as the one who would lie about his judgment, not others accusing him."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָנוּשׁ חִצִּי בְלִי פָשַׁע' means 'my arrow is incurable without transgression' (i.e., my wound is incurable though I am without sin). The Vietnamese 'tôi không phạm tội, nhưng vết thương tôi không được chữa lành' ('I have not sinned, but my wound is not healed') adds 'tôi không phạm tội' as a separate clause and changes 'arrow' to 'wound', and the phrase 'bất chấp không phạm tội' is not exactly the same as 'without transgression' modifying the arrow/wound. The core meaning is roughly preserved, but the first clause is a significant mistranslation."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

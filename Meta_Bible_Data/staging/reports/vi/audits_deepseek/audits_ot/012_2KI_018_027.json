@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text has 'Rabshakeh' (רַב שָׁקֵה) as the speaker's name/title, but the Vietnamese renders it as 'Rabsách' which is a different name. This is a name swap."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הֲלֹא עַל הָאֲנָשִׁים הַיֹּשְׁבִים עַל הַחֹמָה' means 'Is it not upon the men sitting on the wall?' i.e., the message is directed to them. The Vietnamese renders it as 'Há chẳng phải là để nói với những người ngồi trên tường' ('Is it not to speak to those sitting on the wall?'), which changes the meaning from 'concerning/upon' to 'to speak to', altering the sense of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

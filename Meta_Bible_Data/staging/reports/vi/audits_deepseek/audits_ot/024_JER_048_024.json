@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 48,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew lists 'Kerioth' (קְרִיּוֹת) as a city name, but the Vietnamese renders it as 'các thành phố' (the cities), losing the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

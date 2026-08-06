@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 32,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'vua nước A-si-ri' (king of Assyria), but the Vietnamese renders it as 'vua nước A-đi-ri' (king of Adiri), swapping the place name Assyria for a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

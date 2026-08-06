@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 24,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Jehoiachin' (יְהוֹיָכִין), but the Vietnamese renders it as 'Giô-ách' (Jehoash/Joash), which is a different king of Judah."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

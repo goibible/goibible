@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 15,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּפְנֵי כְסִילִים' means 'the face of fools' (i.e., the countenance/expression of fools), but Vietnamese renders it as 'miệng kẻ ngu muội' (the mouth of fools), changing the body part from face to mouth."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 37,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew specifies three separate knobs (caps/ornaments) under each pair of branches, i.e., 'a knob under the two branches... a knob under the two branches... a knob under the two branches' for the six branches. The Vietnamese says 'Dưới mỗi hai nhánh... đều có một cái hoa văn' (under each pair of branches there is one ornament), which collapses the threefold repetition into a single general statement, omitting the explicit threefold structure and the repeated 'knob' (כפתר) occurrences."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

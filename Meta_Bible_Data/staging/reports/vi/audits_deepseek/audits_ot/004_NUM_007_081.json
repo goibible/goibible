@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 81,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew lists three animals: a bull (פַּר), a ram (אַיִל), and a lamb (כֶּבֶשׂ). The Vietnamese omits the ram (con chiên đực) entirely, listing only a bull and a lamb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

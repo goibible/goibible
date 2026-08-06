@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 7,
+  "verse": 66,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 'bốn vạn hai ngàn ba trăm sáu mươi' (40,000 + 2,000 + 300 + 60 = 42,360), but the Vietnamese says 'bốn mươi hai ngàn' (42,000), which is a different number (42,000 vs 42,360). The 'ba trăm sáu mươi' (360) is present, but the 'bốn mươi hai ngàn' misrepresents the 'bốn vạn hai ngàn' (40,000 + 2,000)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

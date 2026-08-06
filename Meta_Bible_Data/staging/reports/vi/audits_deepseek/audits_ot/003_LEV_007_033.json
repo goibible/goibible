@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 7,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the right thigh belongs to the one who offers the blood and fat from among Aaron's sons (i.e., the officiating priest, a single individual among Aaron's sons). The Vietnamese says it belongs to 'A-rôn và các con trai A-rôn' (Aaron and his sons), which changes the recipient from the individual offering priest to Aaron and all his sons collectively."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

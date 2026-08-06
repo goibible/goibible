@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 14,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'the one bird' (הָאֶחָת), but Vietnamese says 'con chim thứ nhì' (the second bird), which is a different bird."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

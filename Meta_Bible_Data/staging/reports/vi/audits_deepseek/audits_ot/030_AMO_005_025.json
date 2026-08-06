@@ -1,0 +1,13 @@
+{
+  "book": "AMO",
+  "chapter": 5,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

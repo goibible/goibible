@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 19,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נִשְׁבַּע' means 'swore' (made an oath), but Vietnamese renders it as 'đã chỉ' (has shown/pointed out), which changes the meaning from an oath to a demonstration."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

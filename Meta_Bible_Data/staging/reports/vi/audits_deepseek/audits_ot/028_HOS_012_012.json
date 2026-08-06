@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'יִשְׂרָאֵל' (Israel), but the Vietnamese renders it as 'Ích-sai-ên' which is a non-standard and incorrect transliteration of 'Israel' (should be 'Y-sơ-ra-ên' or similar). This is a name error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

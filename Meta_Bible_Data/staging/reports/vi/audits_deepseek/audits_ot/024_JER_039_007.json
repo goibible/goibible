@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va' (the LORD) as the subject; the subject is implicit (the king of Babylon from context). The Vietnamese adds 'Đức Giê-hô-va' as the agent, which is not in the Hebrew and changes who is doing the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

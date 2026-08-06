@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵת מֵי הַשִּׁלֹחַ' means 'the waters of Shiloah' (a place name, the pool of Siloam). The Vietnamese renders it as 'các nước Si-lô-ê' which could be read as 'the nations of Shiloah' (nước can mean both 'water' and 'country/nation'), introducing ambiguity or a wrong concept. The Hebrew has 'waters' (מֵי), not 'nations'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

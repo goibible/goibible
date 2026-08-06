@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 32,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'כִּמְעַט יִשָּׂאֵנִי עֹשֵׂנִי' means 'my Maker would soon take me away' (literally 'a little, my Maker would carry me away'). The Vietnamese adds 'nếu tôi tâng bốc' ('if I flatter'), which is not in the Hebrew; the Hebrew has no conditional clause here, only the statement that flattery is unknown and that the Maker would soon carry him away. This addition changes the verse's claim by introducing a conditional that is absent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

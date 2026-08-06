@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'הָאָזֶל' (ha-azel) is a common noun meaning 'the departing/going one' (referring to the stone), not a proper name. The Vietnamese renders it as 'Ê-xen', treating it as a proper name, which changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

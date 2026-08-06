@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 19,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָשִׂים אֶת נַפְשְׁךָ' is first-person singular ('I will make your life'), but the Vietnamese renders it as 'ta không khiến mạng sống ngươi' with 'ta' (I) — this is correct. However, the Hebrew has no negation; the phrase is a positive oath 'I will make your life like the life of one of them.' The Vietnamese adds 'không' (not), reversing the meaning to 'if I do not make...' — this is a negation error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

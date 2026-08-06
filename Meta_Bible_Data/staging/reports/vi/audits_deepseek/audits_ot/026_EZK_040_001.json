@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'in the twenty-fifth year' (בְּעֶשְׂרִ֣ים וְחָמֵ֣שׁ שָׁנָ֣ה), but Vietnamese says 'Năm mươi lăm năm' (fifty-five years). The number is wrong: 25 vs 55."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

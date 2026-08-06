@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 41,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹֽא אַ֭כְזָר כִּ֣י יְעוּרֶ֑נּוּ' means 'No one is so fierce that he dares to rouse him' (i.e., no one is bold/fierce enough to stir him up). The Vietnamese 'Chẳng ai dám trêu chọc nó khi nó đang nổi giận' adds 'khi nó đang nổi giận' (when it is angry), which is not in the Hebrew; the Hebrew does not specify 'when angry' but rather 'no one is fierce enough to rouse him.' This addition changes the nuance of the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

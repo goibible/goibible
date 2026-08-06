@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 20,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is Jehoshaphat (יְהוֹשָׁפָט), but the Vietnamese renders 'Đức Giê-hô-va' (the LORD/Yahweh), swapping the king's name for the divine name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

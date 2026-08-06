@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 26,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says Saul (שָׁאוּל) recognized David's voice, but the Vietnamese translation says Sa-mu-ên (Samuel) instead of Sau-lơ (Saul). This is a name swap that changes who is speaking."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

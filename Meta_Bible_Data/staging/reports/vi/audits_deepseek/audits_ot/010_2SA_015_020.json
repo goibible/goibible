@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 15,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַאֲנִי הוֹלֵךְ עַל אֲשֶׁר אֲנִי הוֹלֵךְ' means 'and I am going wherever I am going' (i.e., 'I go where I go'), but the Vietnamese 'Nhưng ta đi đâu thì ta cứ đi' adds 'Nhưng' (but) and 'cứ' (just/keep on), which introduces a contrast and a sense of 'I will just go on my way' not present in the Hebrew; the Hebrew simply states 'and I am going where I am going' without an adversative or an emphatic 'just keep going' nuance. This changes the nuance of the statement."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שׁוּב וְהָשֵׁב אֶת אַחֶיךָ עִמָּךְ' means 'return and take back your brothers with you' (i.e., 'go back and bring your brothers back with you'), but the Vietnamese 'hãy trở về và dẫn các anh em ngươi về cùng ngươi' renders 'הָשֵׁב' as 'dẫn...về' (lead back), which is acceptable, but the phrase 'về cùng ngươi' (back with you) is fine. However, the Hebrew 'עִמָּךְ' is 'with you' and the Vietnamese 'cùng ngươi' is correct. The main issue is the added 'hãy' (imperative particle) which is natural Vietnamese, not a fidelity problem. The bigger issue is the rendering of 'חֶסֶד וֶאֱמֶת' as 'Ưng thuận và chân thật' — 'Ưng thuận' means 'consent/agreement' or 'approval', but 'חֶסֶד' means 'loyal love/kindness/steadfast love' (often 'mercy' or 'covenant faithfulness'), not 'consent'. This is a mistranslation of a key term; 'Ưng thuận' does not convey the meaning of 'חֶסֶד' (steadfast love/kindness)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

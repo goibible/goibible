@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 3,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'trong gia đình Ghẹt-sôn' (in the family of Gershon), but the Hebrew text does not mention Gershon in this verse; it only says 'their number' (פְּקֻדֵיהֶם) without specifying the family name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

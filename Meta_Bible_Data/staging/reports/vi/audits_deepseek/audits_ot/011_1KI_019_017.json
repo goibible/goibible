@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 19,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has חֲזָאֵל (Hazael), but the Vietnamese renders it as 'Hách-ên-ni-ên' (Hach-en-ni-en), which appears to be a different name (possibly a conflation with 'Hach-en-ni' or an error). The correct Vietnamese rendering should be 'Ha-xa-ên' or similar for Hazael."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

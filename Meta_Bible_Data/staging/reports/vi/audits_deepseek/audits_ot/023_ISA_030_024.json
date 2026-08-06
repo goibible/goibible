@@ -1,0 +1,26 @@
+{
+  "book": "ISA",
+  "chapter": 30,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּלִיל חָמִיץ' means 'salted/fermented fodder' (a mixture of grain and herbs), not 'lúa mì' (wheat). The Vietnamese adds 'lúa mì' which is not in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בָּרַחַת' means 'with a shovel' (winnowing fork), not 'cối xay' (millstone). The Vietnamese mistranslates the instrument."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בַּמִּזְרֶה' means 'with a winnowing fork', not 'cái rổ' (basket). The Vietnamese mistranslates the instrument."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

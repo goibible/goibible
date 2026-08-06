@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists Elkanah, his son Ebiasaph, and his son Assir. The Vietnamese renders 'Ê-lê-ka-nah sinh ra Ê-bi-a-sáp, Ê-bi-a-sáp sinh ra A-xia', which makes Elkanah the father of Ebiasaph and Ebiasaph the father of Assir. However, the Hebrew text is a genealogical list of names with 'his son' (בְּנוֹ) repeated, indicating Elkanah is the son of Ebiasaph, and Ebiasaph is the son of Assir (i.e., the order is reversed: Assir → Ebiasaph → Elkanah). The Vietnamese reverses the generational order, making Elkanah the ancestor instead of the descendant, which changes the family relationships."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

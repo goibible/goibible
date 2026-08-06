@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 32,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'vua A-si-ri' (king of Assyria), but the Vietnamese renders it as 'A-đu-rơ', which is not a recognized Vietnamese rendering of Assyria and appears to be a different name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

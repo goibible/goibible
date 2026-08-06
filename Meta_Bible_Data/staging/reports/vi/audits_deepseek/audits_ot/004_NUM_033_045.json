@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'עִיִּים' (Iyyim) is rendered as 'Y-giê-A-ba-rim' (Iye-abarim), which is a different place name. The Hebrew text has only 'Iyyim', not 'Iye-abarim'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 34,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'chứ không phải dân khác' ('and not another people'), which has no basis in the Hebrew text. The Hebrew only states 'and they are My people, the house of Israel' without any contrast or negation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

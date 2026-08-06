@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text lists four sons of Reuel: Nahath, Zerah, Shammah, and Mizzah. The Vietnamese adds 'Bảy' (seven) before 'người con trai' (sons), which is not present in the Hebrew and changes the number of sons from four to seven."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

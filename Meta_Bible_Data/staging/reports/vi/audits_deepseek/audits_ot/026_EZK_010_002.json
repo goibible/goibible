@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶל בֵּינוֹת לַגַּלְגַּל' means 'between the wheels' (galgal = wheel), but the Vietnamese renders it as 'giữa các bánh xe' (between the wheels) which is correct for the first occurrence. However, the second occurrence 'מִבֵּינוֹת לַכְּרֻבִים' means 'from between the cherubim', but the Vietnamese says 'từ giữa các bệ đỡ' (from between the supports/stands), which mistranslates 'cherubim' as 'bệ đỡ' (supports). This changes the meaning: the coals are taken from between the cherubim, not from between the supports. Also, the phrase 'אֶל תַּחַת לַכְּרוּב' means 'under the cherub' (singular), but the Vietnamese says 'dưới các bệ đỡ' (under the supports), again substituting 'cherub' with 'bệ đỡ' and changing singular to plural."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

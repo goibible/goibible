@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִם בַּסֵּתֶר פָּנִים תִּשָּׂאוּן' means 'if in secret you lift up faces' (i.e., show partiality/favoritism in secret), but the Vietnamese renders it as 'nếu các ngươi che giấu điều gì, thì sao?' ('if you hide something, then what?'), which changes the meaning from 'showing partiality in secret' to 'hiding something' and adds an interrogative 'thì sao?' not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

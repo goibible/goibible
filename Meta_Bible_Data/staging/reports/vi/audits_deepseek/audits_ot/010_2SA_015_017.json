@@ -1,0 +1,13 @@
+{
+  "book": "2SA",
+  "chapter": 15,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

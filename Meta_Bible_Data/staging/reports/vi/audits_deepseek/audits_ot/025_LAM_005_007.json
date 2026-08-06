@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אינם' means 'they are not' (referring to the ancestors), but the Vietnamese adds 'nay không còn nữa' ('now no longer exist'), which is an interpretive expansion not present in the Hebrew. The Hebrew simply states 'our fathers sinned; they are not; we have borne their iniquities.' The Vietnamese rendering 'nay không còn nữa' adds a temporal and existential clarification that goes beyond the text, though it does not change the core meaning. However, the phrase 'còn chúng tôi thì mang lấy tội lỗi của họ' correctly conveys 'we have borne their iniquities.' The main issue is the addition of 'nay' and 'nữa' which are not in the Hebrew, but this is minor and does not alter the factual claim. Since the instruction says to flag only if a Vietnamese reader would come away believing something factually different, this addition does not change the meaning. Therefore, this is borderline. The Hebrew 'אינם' is simply 'they are not' (i.e., they are dead), and the Vietnamese 'nay không còn nữa' is a natural way to express that, so it is acceptable. Verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

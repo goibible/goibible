@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּלְחֻמֵי רֶשֶׁף' means 'consumed by plague/burning' (literally 'eaten by Resheph'), but Vietnamese renders 'bị thiêu đốt bởi cơn giận dữ' ('burned by wrath/anger'), introducing 'cơn giận dữ' (wrath) which is not in the Hebrew; 'רֶשֶׁף' is a noun meaning 'flame/plague' (often a deity of plague), not 'anger'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

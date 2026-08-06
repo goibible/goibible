@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי גַם בְּמַלְכוּתוֹ נוֹלַד רָשׁ' means 'for even in his kingdom he was born poor' (i.e., even while he reigned, he was born poor). The Vietnamese adds 'lại trở nên nghèo khó' ('became poor'), implying a change of state, whereas the Hebrew states he was born poor ('נולד רש' = 'was born poor'), not that he became poor. This changes the meaning from a condition at birth to a later development."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

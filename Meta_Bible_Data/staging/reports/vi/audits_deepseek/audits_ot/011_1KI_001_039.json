@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 1,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Zadok the priest' (צָדוֹק הַכֹּהֵן), but the Vietnamese renders it as 'Vua Xa-đốc thầy tế lễ' which incorrectly adds 'Vua' (king) to Zadok's title, making him appear to be a king-priest. This is an addition that changes the identity of the person."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

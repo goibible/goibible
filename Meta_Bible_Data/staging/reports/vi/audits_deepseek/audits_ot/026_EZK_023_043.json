@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 23,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַבָּלָה נִאוּפִים' means 'to the old woman [or 'to the whore'] of adulteries/fornications' — i.e., addressing the woman as an old adulteress/whore. The Vietnamese renders 'Người đàn bà già nua ấy' ('that old woman') and then adds an entire interrogative clause about 'those who are weary' wanting to sleep with her to satisfy lust, which has no basis in the Hebrew text. The Hebrew simply says 'And I said to the old adulteress: now she will commit her fornication, and she...' — the added clause about 'kẻ đã chán chường' (those who are weary) and 'thỏa dâm dục' (satisfy lust) is an addition not present in the source, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

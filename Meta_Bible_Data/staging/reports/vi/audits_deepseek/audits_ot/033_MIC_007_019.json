@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'וְתַשְׁלִיךְ' is 2nd person masculine singular ('you will cast'), but the Vietnamese renders it as 3rd person 'Ngài sẽ ném' ('He will cast'), changing the subject from 'You' (God) to 'He'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

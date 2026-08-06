@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִי יִזְעָקוּ' means 'They will cry to me' (third-person plural subject, 'they' crying to 'me'), but the Vietnamese 'Đức Giê-hô-va sẽ kêu khóc cùng ta' makes 'Đức Giê-hô-va' (the LORD) the subject who cries to 'ta' (me), reversing the subject and object. The correct rendering should be 'Chúng nó sẽ kêu cầu cùng ta' or similar, with 'they' as the ones crying."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

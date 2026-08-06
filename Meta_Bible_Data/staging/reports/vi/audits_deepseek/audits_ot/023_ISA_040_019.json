@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 40,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חָרָשׁ' (charash) means 'craftsman/artisan' (often metalworker), not specifically 'thợ mộc' (woodworker/carpenter). The verse describes an idol cast by a craftsman, not a wooden object made by a carpenter."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

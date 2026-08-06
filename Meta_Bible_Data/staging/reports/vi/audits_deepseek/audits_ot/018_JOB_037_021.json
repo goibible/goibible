@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 37,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'הוּא בַּשְּׁחָקִים' means 'He is in the skies/clouds' (referring to God), but the Vietnamese adds 'vì Ngài đã ẩn mình' ('because He has hidden Himself'), introducing the concept of hiding that is not in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

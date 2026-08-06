@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is Saul (וַיִּחַר אַף שָׁאוּל) — 'Saul's anger burned'. The Vietnamese renders 'Đức Giê-hô-va nổi giận' ('The LORD was angry'), replacing Saul with God, which changes who is angry."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

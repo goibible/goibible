@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 26,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יְשׁוּעֹת בַּל נַעֲשֶׂה אֶרֶץ' means 'we have not accomplished deliverance for the earth' (or 'we have not brought salvation to the earth'), but Vietnamese 'sự cứu rỗi không làm nên trên đất' says 'salvation was not made on the earth', shifting the subject from 'we' (the speakers) to 'salvation' and losing the active sense of 'we have not accomplished'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּבַל יִפְּלוּ יֹשְׁבֵי תֵבֵל' means 'and the inhabitants of the world will not fall' (i.e., they will not be brought down/defeated), but Vietnamese 'dân cư thế gian cũng chẳng được sinh ra' says 'the inhabitants of the world were not born', which is a different claim—'fall' (יפלו) is mistranslated as 'born' (sinh ra)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

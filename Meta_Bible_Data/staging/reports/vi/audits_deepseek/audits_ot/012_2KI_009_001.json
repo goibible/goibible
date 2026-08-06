@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וֶאֱלִישָׁע הַנָּבִיא' means 'And Elisha the prophet' — the subject is Elisha, not 'Đức Chúa Trời' (God). The Vietnamese adds 'Đức Chúa Trời là' (God is), which incorrectly identifies God as the one who called, changing who is doing the action."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

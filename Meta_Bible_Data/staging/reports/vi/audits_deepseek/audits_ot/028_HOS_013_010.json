@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֱהִי מַלְכְּךָ אֵפוֹא' is a rhetorical question: 'Where then is your king?' The Vietnamese renders it as a statement/request: 'Lúc nào ngươi muốn, hãy cho ta làm vua ngươi' ('Whenever you want, let me be your king'), which changes the meaning and the speaker's intent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

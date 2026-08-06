@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכָל הָרֵעַ לְאִישׁ מַתָּן' means 'and every friend of a man of gifts' (i.e., everyone who is a friend of a generous man), but the Vietnamese renders it as 'and every acquaintance is a friend of the one who gives gifts,' changing the meaning: the Hebrew says all who are friends belong to the giver, not that all acquaintances become friends of the giver. The phrase 'hā-rēa' (the friend) is rendered as 'kẻ quen biết' (acquaintance), and the construct 'l'îsh mattān' (of a man of gifts) is turned into a predicate 'đều là bạn hữu của người hay ban tặng' (are friends of the giver), altering the relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

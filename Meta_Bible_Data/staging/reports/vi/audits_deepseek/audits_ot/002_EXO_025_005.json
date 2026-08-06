@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עֹרֹת אֵילִם מְאָדָּמִים' means 'rams' skins dyed red' (אֵילִם = rams), but Vietnamese renders 'da dê núi' (mountain goat skins), which is a different animal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

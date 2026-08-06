@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּמְאַת הַכֶּסֶף' means 'the hundredth part of the silver' (i.e., the hundredth part/interest), but Vietnamese renders it as 'phần trăm tiền' which could be understood as 'percentage of money' or 'hundredth part', which is acceptable. However, the bigger issue: Hebrew 'אֲשֶׁר אַתֶּם נֹשִׁים בָּהֶם' means 'which you are exacting from them' (charging them as interest/debt), but Vietnamese says 'mà các ông đang cho họ vay nặng lãi' = 'which you are lending to them at heavy interest'. This reverses the direction: in Hebrew, the people are the debtors and the nobles are the creditors exacting interest from them; in Vietnamese, it says the nobles are lending to the people at heavy interest, which changes who is doing what to whom. The Hebrew does not say 'nặng lãi' (heavy interest) — it just says 'noshim' (exacting/charging as debt). The addition of 'nặng lãi' (heavy interest) is an addition not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

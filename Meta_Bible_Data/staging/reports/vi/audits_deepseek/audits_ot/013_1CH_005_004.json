@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 5,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'Shim'i' (שִׁמְעִי) as the third son, but Vietnamese renders 'Sê-mai' (Sê-mai), which is a different name; should be 'Si-mê-i' or similar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

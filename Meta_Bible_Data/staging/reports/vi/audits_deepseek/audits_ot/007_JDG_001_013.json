@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 1,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Othniel (עָתְנִיאֵל) son of Kenaz, Caleb's younger brother, captured it. The Vietnamese says 'Ca-lem, người em trai của Ca-lem' (Caleb, the younger brother of Caleb), which swaps the name Othniel for Caleb and makes the relationship nonsensical (Caleb is his own brother)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

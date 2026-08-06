@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Midian' (מִדְיָן) twice, but the Vietnamese renders it as 'Mô-áp' (Moab) both times, swapping the name of the oppressing people."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

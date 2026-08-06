@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 44,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֲרֵעֹתֶם אֲשֶׁר עֲשִׂיתֶם' means 'You have done evil in what you have done' (i.e., 'You have done wrong in doing this'), but the Vietnamese 'Các ngươi đã làm điều xấu mà mình đã làm' awkwardly renders it as 'You have done the evil thing that you have done,' which changes the sense from a rebuke about the action being wrong to a tautological statement. The Hebrew emphasizes the wrongness of the deed, not merely that they did it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

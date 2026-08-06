@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 41,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֲגַם אֶל מַרְאָיו יֻטָֽל' is a rhetorical question: 'Is he not cast down at the sight of him?' (i.e., even at the sight of him, is one not thrown down/overwhelmed?). The Vietnamese renders it as 'còn chi thấy hình dạng nó mà không kinh hãi sao?' meaning 'and who seeing its form would not be terrified?' This changes the subject: the Hebrew says the creature (Leviathan) is cast down at the sight of it (i.e., people are overwhelmed), but the Vietnamese makes it about the viewer's fear, not the creature being cast down. The verb 'יֻטָֽל' (is thrown/cast down) is not rendered; instead an added concept of 'kinh hãi' (terrified) is introduced, and the passive sense of the creature being cast down is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

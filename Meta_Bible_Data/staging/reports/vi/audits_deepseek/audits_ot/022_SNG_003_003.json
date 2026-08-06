@@ -1,0 +1,18 @@
+{
+  "book": "SNG",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'các người ấy hỏi: ...' ('they asked: ...') which is not present in the Hebrew. The Hebrew only states 'they found me, the watchmen who go about the city; have you seen the one my soul loves?' — the question is addressed directly to the watchmen, not reported as a separate quotation introduced by 'they asked'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

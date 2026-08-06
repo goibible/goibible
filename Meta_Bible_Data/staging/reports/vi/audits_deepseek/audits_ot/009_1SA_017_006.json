@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 17,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִצְחַת נְחֹשֶׁת' means 'a helmet of bronze' (a headpiece), not 'a hat of bronze on his feet'. The Vietnamese says 'một cái mũ bằng đồng trên chân ông' (a bronze hat on his feet), which is a clear mistranslation of 'עַל רַגְלָיו' (on his feet) — the Hebrew has 'עַל רַגְלָיו' meaning 'on his feet' (referring to greaves/leg armor), but the Vietnamese renders it as 'trên chân ông' (on his feet) while the Hebrew word for 'helmet' is 'מִצְחַת' (from 'מֵצַח' = forehead), not 'mũ' (hat) — the issue is that the Vietnamese says 'mũ' (hat) for 'מִצְחַת' (helmet) and places it on the feet, which is wrong. The Hebrew actually says 'a helmet of bronze on his feet' — this is a literal rendering of the Hebrew, but the Hebrew itself is odd; however, the Vietnamese translation is faithful to the Hebrew text, so the issue is not a translation error but a misunderstanding of the Hebrew word 'מִצְחַת' which is indeed 'helmet' (from 'מֵצַח' = forehead). The Vietnamese 'mũ' (hat) is a reasonable rendering of 'helmet' (though 'mũ sắt' would be more precise), and 'trên chân ông' (on his feet) is a literal translation of 'עַל רַגְלָיו'. The Hebrew text is from 1 Samuel 17:5-6, where Goliath has a bronze helmet on his head, bronze greaves on his legs, and a bronze javelin between his shoulders. The Hebrew here says 'וּמִצְחַת נְחֹשֶׁת עַל רַגְלָיו' — this is actually a textual issue: the Masoretic text has 'עַל רַגְלָיו' (on his feet) but many translations render it as 'on his legs' (greaves). The Vietnamese 'trên chân ông' (on his feet) is a literal translation of 'עַל רַגְלָיו' and is correct. The second part 'וְכִידוֹן נְחֹשֶׁת בֵּין כְּתֵפָיו' means 'and a javelin of bronze between his shoulders' — the Vietnamese says 'một tấm khiên bằng đồng đặt giữa hai vai ông' (a bronze shield placed between his shoulders). The Hebrew 'כִידוֹן' means 'javelin' or 'spear', not 'shield' (which is 'מָגֵן'). The Vietnamese 'tấm khiên' (shield) is a mistranslation of 'כִידוֹן' (javelin). Also, the Hebrew 'בֵּין כְּתֵפָיו' means 'between his shoulders' — the Vietnamese 'giữa hai vai ông' is correct. So the issues are: (1) 'mũ' (hat) for 'מִצְחַת' (helmet) — this is acceptable as a general term, but the placement 'trên chân' (on feet) is correct for the Hebrew, though it may be a textual oddity; (2) 'tấm khiên' (shield) for 'כִידוֹן' (javelin) — this is a clear mistranslation, as the Hebrew word means 'javelin' or 'spear', not 'shield'. The Vietnamese reader would understand that Goliath had a shield between his shoulders, which is not what the Hebrew says. Therefore, FLAG."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

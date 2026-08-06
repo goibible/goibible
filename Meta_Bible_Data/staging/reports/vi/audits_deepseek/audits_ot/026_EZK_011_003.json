@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנוֹת בָּתִּים' is a construct phrase meaning 'building houses' (or 'the building of houses'), not an imperative 'hãy xây nhà đi' ('build houses!'). The Vietnamese renders it as a command, whereas the Hebrew is a nominal phrase describing the action of building houses, likely as a statement of delay ('not soon [is] the building of houses'). This changes the meaning from a statement about the timing of house-building to an imperative command."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

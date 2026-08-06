@@ -1,0 +1,22 @@
+{
+  "book": "1CH",
+  "chapter": 19,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'if Aram is too strong for me' (אִם תֶּחֱזַק מִמֶּנִּי אֲרָם), i.e., Aram is stronger than the speaker (Joab), not 'stronger than you' (the addressee, Abishai). The Vietnamese 'Nếu người Syri đánh thắng ngươi' reverses the subject/object: it says Aram defeats 'you' (Abishai), whereas the Hebrew says Aram defeats 'me' (Joab). This changes who is being defeated in the first clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew second clause says 'if the sons of Ammon are too strong for you' (וְאִם בְּנֵי עַמּוֹן יֶחֶזְקוּ מִמְּךָ), i.e., Ammon is stronger than 'you' (Abishai). The Vietnamese 'nhưng nếu con cái Am-môn đánh thắng ngươi' correctly renders this, but the first clause error makes the overall mutual-aid arrangement (Joab helps Abishai if Aram beats Joab; Abishai helps Joab if Ammon beats Abishai) incorrect in the Vietnamese."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

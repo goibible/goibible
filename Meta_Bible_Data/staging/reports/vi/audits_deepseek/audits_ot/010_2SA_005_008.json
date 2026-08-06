@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 5,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'thì sẽ làm thủ lĩnh và chỉ huy' (then will be leader and commander), which has no basis in the Hebrew text. The Hebrew says 'whoever strikes the Jebusites and reaches the water shaft, and [strikes] the lame and the blind who are hated by David's soul' — there is no mention of becoming leader/commander in this verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

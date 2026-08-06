@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'אַלּוּף תִּמְנָע' (chieftain Timna), but Vietnamese renders 'lãnh tụ Ti-đô' (chieftain Tido), which appears to be a different name (possibly a corruption or substitution for Timna)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

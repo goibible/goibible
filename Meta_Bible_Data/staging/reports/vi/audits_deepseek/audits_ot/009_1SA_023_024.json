@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 23,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'הַיְשִׁימוֹן' (ha-Yeshimon) is a place name meaning 'the wasteland/desert', not 'Ghê-xi-môn' (Gethsemane). The Vietnamese renders it as 'Ghê-xi-môn', which is a different location entirely, causing a factual error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

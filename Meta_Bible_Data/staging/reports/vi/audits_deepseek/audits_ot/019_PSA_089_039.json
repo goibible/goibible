@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 89,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has 'you have renounced/despised the covenant of your servant; you have profaned his crown to the ground.' The Vietnamese adds 'và ném xuống đất mão triều của người' (and threw his crown to the ground), which introduces the concept of 'throwing' (ném) not present in the Hebrew; the Hebrew says 'profaned' (חִלַּלְתָּ) his crown to the ground, not 'threw' it. This changes the action from profaning to throwing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

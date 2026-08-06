@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִשְׁפַּט הָאִישׁ' means 'the manner/custom/appearance of the man' (i.e., what he looked like or how he was dressed), but Vietnamese 'có hình dạng như thế nào' is acceptable; however, the Hebrew 'מֶה מִשְׁפַּט' is 'what was the manner' — the Vietnamese 'hình dạng' (shape/appearance) is a reasonable rendering, so not a flag. The real issue: Hebrew has 'וַיְדַבֵּר אֲלֵהֶם' (he spoke to them) and 'וַיְדַבֵּר אֲלֵיכֶם' (he spoke to you) — the Vietnamese renders both as 'nói với họ' and 'nói với các ngươi' correctly. The verb 'עָלָה' (went up) is rendered 'đã lên' — correct. The phrase 'אֶת הַדְּבָרִים הָאֵלֶּה' (these words) is rendered 'những lời này' — correct. The only potential issue: 'מִשְׁפַּט' is more 'manner/custom' than 'hình dạng' (shape), but this is a stylistic choice, not a factual error. However, the Hebrew 'מֶה מִשְׁפַּט הָאִישׁ' is a question about the man's appearance/description, and 'hình dạng' captures that. No substantive error. Verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

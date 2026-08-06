@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name מִבְחָר (Mivchar) is transliterated as 'Míp-ha' in Vietnamese, which is a different name. The correct transliteration should be 'Míp-cha' or 'Míp-kha' to match the Hebrew consonants. 'Míp-ha' changes the name's sound and spelling, potentially leading the reader to a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

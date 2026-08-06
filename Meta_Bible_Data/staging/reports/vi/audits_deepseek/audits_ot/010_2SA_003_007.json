@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew verse includes the full context: 'And Saul had a concubine whose name was Rizpah the daughter of Aiah. And he said to Abner, Why have you gone in to my father's concubine?' The Vietnamese translation omits the first clause about Saul's concubine Rizpah and the direct address to Abner, and also omits the name 'Abner' and the phrase 'my father's concubine' is rendered as 'người hầu thiếp của cha ta' (the concubine of my father), which is acceptable, but the entire first half of the verse is missing, and the addressee (Abner) is not named."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

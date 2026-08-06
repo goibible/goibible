@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 13,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not contain the phrase 'vì họ đã làm ô uế' (because they defiled). The Hebrew reads 'upon the defilements of the priesthood' (עַל גָּאֳלֵי הַכְּהֻנָּה), referring to the defilements/pollutions of the priesthood, not an explicit statement that they defiled it. The Vietnamese adds a causal clause and a verb 'đã làm ô uế' that is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

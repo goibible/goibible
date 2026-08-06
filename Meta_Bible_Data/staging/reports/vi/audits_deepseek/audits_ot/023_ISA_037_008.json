@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the king of Assyria had heard that he (the king) had departed from Lachish (כִּי שָׁמַע כִּי נָסַע מִלָּכִישׁ). The Vietnamese says 'Líp-na đã bỏ La-ki' (Libnah had abandoned Lachish), which makes Libnah the subject of the departure, whereas the Hebrew subject is the king of Assyria departing from Lachish. This changes who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

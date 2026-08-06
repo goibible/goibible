@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'וְאִישׁ טוֹב' (and Ish-tob, a place name) is rendered as 'người Ích-tô-b' (people of Ish-tob), which is acceptable, but the preceding 'אֶת מֶלֶךְ מַעֲכָה' (the king of Maacah) is correctly rendered. However, the Hebrew 'אֶת אֲרַם בֵּית רְחוֹב' (Aram of Beth-rehob) is rendered as 'người Sy-ri ở Bê-thê-rê-hôb' (Syrians at Beth-rehob), which is fine. The issue is that 'וְאִישׁ טוֹב' is a proper name 'Ish-tob' (a region), not 'người Ích-tô-b' meaning 'people of Ish-tob'—this is a minor lexical issue, not a name swap. The main flag: the Hebrew says 'vua Ma-a-ca một ngàn người' (the king of Maacah, a thousand men) and 'Ish-tob twelve thousand men'—the Vietnamese correctly has 'mười hai ngàn người' for twelve thousand. No number errors. The only substantive issue: 'đã đắc tội' (had become odious) is a correct rendering of 'נִבְאֲשׁוּ' (they had become odious/stinking). The translation is faithful overall. Re-evaluating: no clear error—verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

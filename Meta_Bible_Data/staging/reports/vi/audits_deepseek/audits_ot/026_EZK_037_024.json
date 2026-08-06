@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 37,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'My servant David will be king over them' (וְעַבְדִּי דָוִד מֶלֶךְ עֲלֵיהֶם), but the Vietnamese says 'Đức Giê-hô-va tôi sẽ là vua cai trị chúng' (The LORD my God will be king over them), replacing David with the LORD."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'vayit'abel al b'no kol hayamim' — 'and he mourned for his son all the days.' The subject is Absalom (he mourned for his son), but the Vietnamese renders 'Vua Đa-vít than khóc con trai mình' — 'King David mourned for his son,' changing the subject from Absalom to David. This is a wrong person/subject that changes who is doing the mourning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

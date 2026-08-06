@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 40,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has 'הֲרֹב עִם שַׁדַּי יִסּוֹר' ('Will the one who contends with Shaddai be corrected/chastened?') — the subject is a third-person 'he who contends', not 'you'. The Vietnamese renders it as 'Đức Chúa Trời Toàn Năng há sẽ tranh luận cùng ngươi sao?' ('Will God Almighty argue with you?'), reversing the subject and object: in Hebrew, the human contends with God, not God with the human. This changes who is doing what to whom."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause 'מוֹכִיחַ אֱלוֹהַּ יַעֲנֶנָּה' means 'the one who reproves God, let him answer it' (i.e., the human reproves God and must answer). The Vietnamese 'Đấng Toàn Năng há sẽ đáp lại ngươi khi ngươi bắt bẻ Ngài?' ('Will the Almighty answer you when you reprove Him?') again reverses the roles: in Hebrew the human reproves God and is challenged to answer; in Vietnamese God answers the human. This inverts the subject/object relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

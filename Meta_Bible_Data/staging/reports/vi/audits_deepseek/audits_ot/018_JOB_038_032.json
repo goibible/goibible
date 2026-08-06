@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 38,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'עַיִשׁ' (Ayish, likely the constellation Ursa Major/Big Dipper) is rendered as 'sao Mai' (the Morning Star/Venus), which is a different celestial object. The Hebrew also has 'עַל בָּנֶיהָ' ('with its sons/children'), which the Vietnamese renders as 'cùng các con của nó' (with its children), but the name swap changes the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

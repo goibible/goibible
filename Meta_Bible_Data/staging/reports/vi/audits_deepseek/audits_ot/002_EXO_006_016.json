@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּשְׁנֵי חַיֵּי לֵוִי' means 'and the years of the life of Levi' (i.e., the total years of Levi's life), not 'two lives' (hai đời sống). The Vietnamese 'hai đời sống' misinterprets 'שְׁנֵי' (years of) as the number 'two' (hai), changing the meaning. The correct rendering should be 'và những năm của đời Lê-vi' or similar."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

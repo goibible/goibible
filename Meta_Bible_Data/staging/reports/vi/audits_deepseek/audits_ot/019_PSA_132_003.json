@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 132,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew has 'אִם' (if) twice, expressing a conditional oath ('If I enter... if I go up...'), not a negation. The Vietnamese adds 'không' (not) twice, turning the conditional into a negative statement, which changes the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

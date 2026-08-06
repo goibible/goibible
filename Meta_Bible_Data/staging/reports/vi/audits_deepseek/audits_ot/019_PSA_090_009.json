@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 90,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'your wrath' (בְעֶבְרָתֶךָ) referring to God, but the Vietnamese says 'cơn thạnh nộ của Đức Giê-hô-va' (the wrath of the LORD), which introduces the divine name 'Đức Giê-hô-va' not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

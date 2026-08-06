@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 135,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַף אֵין יֶשׁ רוּחַ בְּפִיהֶם' means 'indeed, there is no breath in their mouths' (referring to idols having no breath/spirit in their mouths). The Vietnamese renders 'có mũi nhưng chẳng thở được' ('they have noses but cannot breathe'), which introduces 'mũi' (nose) not present in the Hebrew and changes the meaning from 'no breath in their mouths' to 'cannot breathe through their noses.' This is a substantive addition and mistranslation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

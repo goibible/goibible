@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 4,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְהַמְזַמְּרוֹת' (mezammerot) means 'snuffers' (instruments for trimming lamp wicks), not 'cây đèn' (lamps). The Vietnamese rendering 'các cây đèn' (the lamps) is a mistranslation of this term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

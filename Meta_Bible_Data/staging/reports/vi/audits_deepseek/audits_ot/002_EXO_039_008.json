@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the breastpiece' (הַחֹשֶׁן), but the Vietnamese says 'bảng ê-phót' (the ephod), confusing the breastpiece with the ephod."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

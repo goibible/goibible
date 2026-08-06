@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 20,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'דְּמֵיהֶם בָּם' means 'their blood shall be upon them' (i.e., the blood of the woman and the animal is on themselves), but Vietnamese 'huyết các ngươi sẽ đổ trên chính mình các ngươi' says 'your blood will be poured on yourselves', changing the third-person plural 'their' to second-person 'your' and adding 'poured' (đổ) not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

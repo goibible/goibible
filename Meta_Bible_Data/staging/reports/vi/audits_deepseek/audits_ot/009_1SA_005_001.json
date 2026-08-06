@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 5,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the ark was brought to Ashdod (אַשְׁדּוֹדָה), but the Vietnamese says 'A-xẹc' (Ekron), which is a different Philistine city."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

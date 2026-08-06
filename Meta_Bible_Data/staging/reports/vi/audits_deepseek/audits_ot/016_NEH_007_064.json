@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 7,
+  "verse": 64,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'như những người bị ô uế' ('like those who are unclean/defiled'), which has no basis in the Hebrew text. The Hebrew only says they were excluded from the priesthood (וַיְגֹאֲל֖וּ מִן הַכְּהֻנָּֽה), with no comparison to unclean persons."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

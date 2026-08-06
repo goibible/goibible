@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 138,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va' (the LORD/Yahweh) in this verse; the subject is implied as God from context, but the name is not present in the Hebrew. This is an addition of a divine name not in the source text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 3,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'the three and seventy and two hundred' (273), but Vietnamese says 'ba người và bảy mươi hai người' (3 and 72), dropping 'hai trăm' (200) and misreading the number as 72 instead of 273."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

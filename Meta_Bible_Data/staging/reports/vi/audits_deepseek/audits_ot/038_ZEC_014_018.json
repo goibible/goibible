@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 14,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the feast of booths/tabernacles' (חַג הַסֻּכּוֹת), but the Vietnamese renders it as 'lễ Hội Ngũ Tuần' (the Feast of Pentecost/Feast of Weeks), which is a different festival."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

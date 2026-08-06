@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 62,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'như những người bị ô uế' ('like those who were unclean/defiled'), which has no basis in the Hebrew text. The Hebrew only states they were excluded from the priesthood (וַיְגֹאֲלוּ מִן הַכְּהֻנָּה), without any comparison to unclean persons."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

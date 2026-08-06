@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew ends with 'אֲבִי ברזות' (father of Birzavith/Berzoth), but the Vietnamese renders 'cha của Bích-xa-vít' — 'Bích-xa-vít' does not match the Hebrew name 'ברזות' (Birzavith/Berzoth). The Vietnamese name appears to be a different name, possibly a transliteration error or substitution."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

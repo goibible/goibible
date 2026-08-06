@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 24,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לֹא תִמְצָא חֵן בְּעֵינָיו' means 'she does not find favor in his eyes' (i.e., in the husband's eyes), but the Vietnamese renders it as 'nàng không đẹp lòng người trước mặt Đức Giê-hô-va' ('she does not please him before the LORD'), incorrectly adding 'trước mặt Đức Giê-hô-va' (before the LORD) which is not in the Hebrew text and changes the meaning by implying the displeasure is before God rather than in the husband's eyes."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

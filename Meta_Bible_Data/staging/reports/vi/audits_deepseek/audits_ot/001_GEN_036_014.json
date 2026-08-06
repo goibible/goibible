@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text names the mother as 'A-hô-li-ba-ma' (אָהֳלִיבָמָה), but the Vietnamese omits this name entirely and instead says 'các con trai của A-na' (the sons of A-na), which is a different person. The Hebrew says 'sons of A-hô-li-ba-ma, daughter of A-na, daughter of Zibeon'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

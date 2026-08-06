@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 14,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כִּי תֹאֲנָה הוּא מְבַקֵּשׁ מִפְּלִשְׁתִּים' means 'for he was seeking an occasion against the Philistines' (Samson seeking a pretext against the Philistines). The Vietnamese renders 'vì Ngài đang tìm kiếm dịp để chống lại người Phi-li-tin' ('because He [the LORD] is seeking an occasion against the Philistines'), changing the subject from Samson ('הוּא' = he) to God ('Ngài'), which alters who is doing the seeking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

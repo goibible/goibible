@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 119,
+  "verse": 67,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'טֶרֶם אֶעֱנֶה' means 'Before I was afflicted' (from עָנָה, to afflict/humble), not 'Trước khi bị thử thách' (Before being tested). The subject 'I' is omitted in the Vietnamese, and 'thử thách' (tested) is not equivalent to 'afflicted'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

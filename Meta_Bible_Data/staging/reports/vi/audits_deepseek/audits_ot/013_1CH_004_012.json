@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'תְּחִנָּה אֲבִי עִיר נָחָשׁ' (T'hinnah, father of Ir Nahash), but Vietnamese renders 'Thê-hin-na, cha của Ích-na-hát' — 'Ích-na-hát' does not match 'עִיר נָחָשׁ' (Ir Nahash); the name is swapped/incorrect."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

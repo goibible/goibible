@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 21,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּקְרָ֖א אַרְיֵ֑ה' means 'And he called like a lion' (or 'he cried like a lion'), but the Vietnamese renders it as 'Một tiếng kêu như sư tử' ('A cry like a lion'), which changes the subject from a person calling to an impersonal sound, losing the active verb 'he called'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

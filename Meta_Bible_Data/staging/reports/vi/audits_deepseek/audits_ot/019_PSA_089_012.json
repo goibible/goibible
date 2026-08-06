@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 89,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'Tabor' (תָּבוֹר) before 'Hermon' (חֶרְמוֹן), but the Vietnamese reverses the order: 'Hẹt-môn và Tha-bô' (Hermon and Tabor). This swaps the order of the two place names."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists only three entities: the king of Hamath, the king of Arpad, and the king of the city of Sepharvaim (Hena and Ivvah are named as the gods of Sepharvaim, not as separate kings/cities). The Vietnamese adds 'Hê-ma và A-na' as additional kings/cities, which is not in the Hebrew. The Hebrew 'הֵנַע וְעִוָּה' (Hena and Ivvah) are the gods of Sepharvaim, not separate kings or cities to be asked about."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

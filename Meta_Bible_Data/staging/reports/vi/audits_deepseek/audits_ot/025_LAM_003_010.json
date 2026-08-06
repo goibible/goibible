@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text has no explicit subject 'Đức Giê-hô-va' (the LORD); the subject is implied by the verb 'he is' (הוּא) referring to God from context, but the Vietnamese adds 'Đức Giê-hô-va' explicitly, which is an addition not present in the Hebrew clause itself. However, this is a contextual clarification, not a factual change. The main issue is that the Hebrew 'דֹּב אֹרֵב הוּא לִי' means 'He is a lurking bear to me' — the Vietnamese renders 'Đức Giê-hô-va đối với tôi như một con gấu phục kích' which adds 'đối với tôi' (toward me) and 'như' (like), but the Hebrew has 'לִי' (to me) and no 'like' — the Hebrew states he IS a bear, not 'like' a bear. This changes the claim from identity to simile, a mistranslation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

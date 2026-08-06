@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 28,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'זֶרֶת' (zeret) is a span (about half a cubit, roughly 22-23 cm), not 'sải tay' (fathom/armspan, about 1.8 m). The Vietnamese rendering 'một sải tay' is a significant mistranslation of the unit of measurement, changing the size of the breastpiece."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

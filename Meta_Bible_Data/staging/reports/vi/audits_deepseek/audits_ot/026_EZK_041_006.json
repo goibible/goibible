@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 41,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שָׁלוֹשׁ וּשְׁלֹשִׁים פְּעָמִים' means 'thirty-three times' (33), not 'ba tầng, mỗi tầng mười phòng, tổng cộng ba mươi phòng' (three stories, each with ten rooms, total thirty rooms). The number 33 is rendered as 30, and the concept of 'times' (פְּעָמִים) is replaced with a room-counting scheme not in the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

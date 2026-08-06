@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 18,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The name 'A-vi-sanh-lôm' is used for Absalom, but the Hebrew has 'אַבְשָׁלוֹם' (Absalom). The Vietnamese rendering appears to be a transliteration error or a different name, not the standard 'Áp-sa-lôm'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

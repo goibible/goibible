@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 32,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb תִשְׁעֶינָה (from שׁעה) means 'look/gaze' or 'behold', not 'be dim/dark'. The Vietnamese 'mờ tối' (dim/dark) is an incorrect rendering; the clause should convey that the eyes of seers will not look/gaze (or will not be closed/veiled), not that they will not be dim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

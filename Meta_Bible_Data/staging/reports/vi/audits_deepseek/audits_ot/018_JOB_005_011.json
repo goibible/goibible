@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְקֹדְרִים שָׂגְבוּ יֶשַׁע' means 'and those who mourn are raised to safety/victory' (literally 'mourners are exalted [with] salvation'), but the Vietnamese renders it as 'and cause those who are sad to be comforted' (khiến những kẻ buồn rầu được an ủi), which changes the meaning from exaltation/salvation to comfort, and adds the causative 'khiến' not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

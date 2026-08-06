@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 16,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'A-rôn' (Aaron) as the subject of 'làm' (did), but the Hebrew text does not specify a subject for 'וַיַּעַשׂ' (and he did). The subject is implied from context but not named in this verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

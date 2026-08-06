@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'con trai của Im-mê' (וּמִבְּנֵ֣י אִמֵּ֔ר), but the Vietnamese renders it as 'con trai của Ít-ma' (Ishmael). 'Im-mê' (אִמֵּר) is a different person from 'Ít-ma' (Ishmael). This is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

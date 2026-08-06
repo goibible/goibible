@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 14,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the great man among the Anakim' (הָאָדָם הַגָּדוֹל בָּעֲנָקִים), referring to Arba as a great/important man among the Anakim, not 'a person of advanced age' (một người lớn tuổi). The Vietnamese rendering 'lớn tuổi' (old/elderly) changes the meaning from 'great/important' to 'old in age'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

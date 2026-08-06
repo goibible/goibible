@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists Nebuzaradan as the chief of the guard (רַב טַבָּחִים) who was sent, not as the king of Babylon. The Vietnamese renders 'Vua Ba-by-lôn là Nê-bu-xa-ra-đan' (The king of Babylon is Nebuzaradan), which incorrectly identifies Nebuzaradan as the king. The Hebrew says 'Nebuzaradan the chief of the guard' was sent, along with others, by the king of Babylon (implied). This changes who is doing what and misidentifies a title/person."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

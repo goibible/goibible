@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 17,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּנְתַתִּיו בְּרֹאשׁוֹ' means 'and I will bring it upon his head' (i.e., the oath and covenant will be repaid on his head), but the Vietnamese renders it as 'ấy là những điều Ta đã trao vào tay hắn' ('these are the things I have placed into his hand'), which changes the meaning: it makes the oath/covenant something given to him rather than a punishment brought upon him, and shifts the location from 'head' to 'hand'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 9,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַכְּרוּב' (the cherub) is translated as 'con bò tót' (wild ox/bison), which is a different entity. The cherub is a specific angelic being, not an ox."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

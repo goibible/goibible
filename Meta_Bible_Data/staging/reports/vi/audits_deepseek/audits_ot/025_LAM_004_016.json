@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פְּנֵי יְהוָה' means 'the face of the LORD' (i.e., the LORD's presence/anger), but Vietnamese renders it as 'Sự tức giận của Đức Giê-hô-va' ('the anger of the LORD'), which adds a specific emotion not in the Hebrew. The Hebrew simply says 'the face of the LORD' without specifying anger."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

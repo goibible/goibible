@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 36,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the daughters as Mahlah, Tirzah, Hoglah, Milcah, and Noah. The Vietnamese renders 'Thiệt-sa' for Tirzah and 'Minh-ca' for Milcah, but 'Hốt-la' for Hoglah is correct. The issue is that 'Minh-ca' appears to be a swapped or altered name for Milcah (מִלְכָּה), which should be 'Min-ca' or similar, not 'Minh-ca' — though this may be a transliteration variant. More critically, the order and names are otherwise preserved. However, the name 'Thiệt-sa' for Tirzah (תִרְצָה) is a plausible transliteration. The main flag is that 'Minh-ca' for Milcah is a minor transliteration difference, not a substantive error. Re-evaluating: the names are all present and in order; the transliterations are acceptable. The real issue is that the Vietnamese says 'các con trai của cậu mình' (sons of their uncle) which matches 'sons of their uncles' (לִבְנֵי דֹדֵיהֶן) — this is correct. The verb 'đều trở thành vợ' (became wives) matches 'were for wives' (לְנָשִׁים). No omission or addition. The only possible flag is the name 'Minh-ca' vs 'Milcah' — but this is a transliteration choice, not a name swap. Therefore, verdict should be OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

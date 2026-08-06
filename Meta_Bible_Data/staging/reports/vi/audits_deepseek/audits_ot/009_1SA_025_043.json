@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 25,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Place name 'Jizreel' (יִזְרְעֶאל) is rendered as 'Xi-xơ-rên', which appears to be a different name (possibly a confusion with 'Sisera' or another name). The correct Vietnamese transliteration should be 'Gít-rê-ên' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

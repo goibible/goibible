@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Elhanan son of Dodo' (אֶלְחָנָן בֶּן דּוֹדוֹ), but the Vietnamese renders 'Ên-ha-nan con trai của Đô-đô' — this is correct. However, the Hebrew says 'A-xa-ên' is not present; the Hebrew has 'אֲחִי יוֹאָב' meaning 'brother of Joab' without naming him. The Vietnamese adds 'A-xa-ên' (Asahel) as the name of the brother, which is an addition not in the Hebrew text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

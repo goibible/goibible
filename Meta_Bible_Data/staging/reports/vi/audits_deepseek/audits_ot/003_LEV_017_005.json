@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 17,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עַל פְּנֵי הַשָּׂדֶה' means 'on the face of the field' (i.e., in the open field), but Vietnamese renders 'nơi đồng vắng' ('in the wilderness'), which changes the location from a field to the wilderness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

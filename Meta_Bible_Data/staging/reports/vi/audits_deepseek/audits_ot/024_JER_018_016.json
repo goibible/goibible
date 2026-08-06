@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 18,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שרוקת עולם' (sh'ruqat olam) means 'an eternal hissing/whistling' (a desolate place that people hiss at), but the Vietnamese renders it as 'tiếng rít kéo dài đời đời' ('a prolonged hissing sound lasting forever'), which changes the meaning from a state of desolation (the land becomes an object of hissing) to a continuous sound. The Hebrew phrase is a noun phrase describing the land as 'a perpetual hissing' (i.e., a desolate ruin that people hiss at), not a sound that lasts forever."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 41,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'seven good ears of grain' (שֶׁבַע הַֽשִׁבֳּלִים הַטּוֹבוֹת), but the Vietnamese says 'chín bảy bông lúa tốt' which means 'nine seven good ears of grain' — the number 'chín' (nine) is an addition not in the Hebrew, and it corrupts the number from seven to nine."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Chúa Trời' (God) or 'Ông nói cùng Đức Chúa Trời rằng' (He said to God). The subject is simply 'she said' (וַתֹּאמֶר), and the addressee is 'you' (בְעֵינֶיךָ), not God explicitly. The Vietnamese adds 'Ông nói cùng Đức Chúa Trời rằng' which introduces a speaker and addressee not present in the Hebrew."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has 'tôi không ô uế' (I am not unclean) — actually the Hebrew says 'tôi trong sạch' (pure) and 'tôi không ô uế' is an added negation/clarification not in the Hebrew. The Hebrew reads 'pure is my speech, and clean am I in your eyes' — the Vietnamese adds 'không ô uế' (not unclean) which is an extra concept not present."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

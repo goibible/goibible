@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 42,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פָּקוֹחַ אָזְנַיִם' means 'opening ears' (ears opened), but the Vietnamese renders it as 'có mắt mở ra' (having eyes opened), substituting 'mắt' (eyes) for 'ears' (tai). This changes the body part and the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

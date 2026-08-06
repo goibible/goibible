@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 23,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has 'מָה אֶקֹּב לֹא קַבֹּה אֵל' meaning 'How can I curse whom God has not cursed?' The Vietnamese renders it as 'Đức Chúa Trời nào khiến ta rủa sả, thì ta không thể rủa sả' which changes the meaning: it says 'If God causes me to curse, I cannot curse' instead of 'How can I curse one whom God has not cursed?' The subject/object relationship is reversed: in Hebrew, God is the one who has not cursed (the object of the curse is the people), and Balaam cannot curse them. In Vietnamese, it implies God causes Balaam to curse, which is the opposite. Similarly, the second line: 'וּמָה אֶזְעֹם לֹא זָעַם יְהוָה' means 'How can I denounce whom Yahweh has not denounced?' but the Vietnamese says 'Đức Giê-hô-va nào khiến ta nổi giận, thì ta không thể nổi giận' meaning 'If Yahweh causes me to be angry, I cannot be angry' — again reversing the subject/object and changing the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is plural (they, referring to the animals/wild donkeys), but the Vietnamese uses singular 'Nó' (it). This changes the number of the subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

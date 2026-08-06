@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 14,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew says 'ăn trên huyết' (ate upon the blood), not 'ăn thịt mà không đổ huyết' (ate meat without pouring out blood). The Vietnamese adds the concept of 'không đổ huyết' (without pouring out blood) which is not in the Hebrew text and changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

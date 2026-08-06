@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 29,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּפְתַּח אֶת רַחְמָהּ' means 'opened her womb' (i.e., made her fertile), but the Vietnamese renders it as 'mở rộng lòng trắc ẩn của nàng' ('opened wide her compassion/mercy'), which changes the meaning from physical fertility to emotional compassion. This is a substantive mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

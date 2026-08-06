@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Nathan the prophet' (נָתָן הַנָּבִיא), but the Vietnamese renders it as 'Nát-phan' which is a different name (Nát-phan is not Nathan; it appears to be a transliteration error or a different name)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

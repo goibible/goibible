@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Môi-se và A-rôn' (Moses and Aaron) as the object of the expulsion, but the Hebrew only says 'them' (אֹתָם), referring to Moses and Aaron from context but not naming them explicitly. This is an addition of proper names not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

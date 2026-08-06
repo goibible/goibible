@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the wife's name is מְהֵיטַבְאֵל (Mehetabel), and her father is מַטְרֵד (Matred), and her grandfather is מֵי זָהָב (Me-zahab). The Vietnamese renders 'Mê-hê-ta-bê-ên' for Mehetabel (correct), 'Mát-rết' for Matred (correct), but then 'Mê-xa-háp' for Me-zahab — this is a different name (Me-zahab is not 'Mê-xa-háp'; the Hebrew 'Mei Zahab' means 'waters of gold' and is a proper name, not 'Mê-xa-háp'). This is a name swap/incorrect rendering of the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

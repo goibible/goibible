@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 21,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'עַבְדּוֹן' (Abdon), but Vietnamese renders 'A-bên' (Aben), which is a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

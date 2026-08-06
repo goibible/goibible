@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 10,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְיִגְאֶה' (and he is exalted / and he rises up) is not rendered; the Vietnamese adds 'Nếu tôi ngước đầu lên' (If I lift up my head), which is not in the Hebrew text and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew says 'house of Joseph' (בֵית יוֹסֵף), but Vietnamese says 'house of Isaac' (Nhà của Y-sác). Joseph and Isaac are different people; this is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

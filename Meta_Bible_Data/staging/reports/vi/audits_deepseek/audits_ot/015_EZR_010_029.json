@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew lists 'Mêsulam, Malúc, A-đai-ah, Gia-sub, Sê-ál và Ra-mốt' but the Hebrew text has 'Mêsulam, Malúc, A-đai-ah, Gia-sub, Sê-ál và Ra-mốt' — actually the Hebrew has 'Mêsulam, Malúc, A-đai-ah, Gia-sub, Sê-ál và Ra-mốt' — wait, the Hebrew is 'מְשֻׁלָּ֤ם מַלּוּךְ֙ וַעֲדָיָ֔ה יָשׁ֖וּב וּשְׁאָ֥ל ירמות' which lists: Meshullam, Malluch, Adaiah, Jashub, Sheal, and Jeremoth. The Vietnamese has 'Mêsulam, Malúc, A-đai-ah, Gia-sub, Sê-ál và Ra-mốt' — 'Ra-mốt' is not 'Jeremoth' (ירמות) but a different name. The Hebrew 'ירמות' is 'Jeremoth' (or 'Jerimoth'), not 'Ra-mốt'. This is a name swap/omission of the correct name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

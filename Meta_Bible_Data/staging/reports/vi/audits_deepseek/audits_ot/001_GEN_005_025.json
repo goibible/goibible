@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 5,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'bảy và tám mươi năm và một trăm năm' (187 years), but Vietnamese says 'một trăm tám mươi bảy năm' (187 years) — actually this is correct. Wait, Hebrew: 'sheva ushmonim shanah ume'at shanah' = 7 + 80 + 100 = 187. Vietnamese: 'một trăm tám mươi bảy năm' = 187. This is correct. No issue."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

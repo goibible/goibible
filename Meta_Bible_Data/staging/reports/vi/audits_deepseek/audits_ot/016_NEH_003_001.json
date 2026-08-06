@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 3,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Ê-li-a-síp' (Eliashib) the high priest, but the Vietnamese renders 'Giô-hô-sua' (Joshua), a different name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

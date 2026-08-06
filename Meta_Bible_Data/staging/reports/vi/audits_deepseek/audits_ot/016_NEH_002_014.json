@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'שַׁעַר הָעַיִן' means 'the Fountain Gate' (or 'Spring Gate'), but the Vietnamese renders it as 'cổng Nước Mát' ('Cool Water Gate'), which is a different name/place designation not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 16,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'בֶּאֱמֶת' (in truth/faithfully) is missing from the Vietnamese translation. The verse states the one sitting on the throne will do so 'in truth' (b'emet), but the Vietnamese omits this, saying only 'sẽ xét đoán' (will judge) without the qualifier 'in truth'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 25,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְחֵקֶר כְּבֹדָם כָּבוֹד' means 'and searching out their glory is glory' (i.e., seeking the honor/glory of others is honorable). The Vietnamese 'tìm cách tự huyễn hoặc mình lại gây tổn hại' means 'seeking to delude oneself causes harm', which is a different concept—it introduces self-deception and harm not present in the Hebrew, and omits the idea of glory/honor as the object and result."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

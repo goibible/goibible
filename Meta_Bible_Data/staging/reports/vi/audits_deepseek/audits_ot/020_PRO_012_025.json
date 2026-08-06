@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 12,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb יַשְׁחֶנָּה (yashchennah) means 'weighs it down' or 'depresses it' (from שׁחח/שׁחל), not 'makes it lazy' (biếng nhác). The Vietnamese rendering 'làm cho lòng biếng nhác' introduces the concept of laziness, which is not in the Hebrew. The Hebrew says anxiety in a man's heart weighs it down (depresses it), not that it makes the heart lazy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

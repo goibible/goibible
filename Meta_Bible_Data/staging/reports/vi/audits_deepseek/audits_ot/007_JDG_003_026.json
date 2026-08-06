@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is הַשְּׂעִירָתָה (ha-Se'irathah, 'to Seirah'), but the Vietnamese renders it as 'Xi-e-ra-tha', which appears to be a different name (possibly a transliteration of a different Hebrew form). The expected Vietnamese transliteration would be 'Sê-i-ra' or similar, not 'Xi-e-ra-tha'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

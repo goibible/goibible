@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Joshua said to the Reubenites, the Gadites, and the half-tribe of Manasseh' (יְהוֹשֻׁעַ אָמַר לֵאמֹר). The Vietnamese renders it as 'The LORD spoke to the Reubenites, the Gadites, and the half-tribe of Manasseh through Joshua' (Đức Giê-hô-va nói ... qua Giô-suê), which reverses the subject and object: it makes the LORD the speaker and Joshua the mediator, whereas the Hebrew has Joshua as the speaker addressing the tribes. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

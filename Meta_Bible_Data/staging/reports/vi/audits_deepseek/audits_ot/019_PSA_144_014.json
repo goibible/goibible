@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 144,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אַלּוּפֵינוּ' means 'our herds/oxen' (or 'our chiefs'), not 'our cows' (bò cái). The Vietnamese adds 'mang thai và đẻ nhiều' (pregnant and give birth abundantly) which is not in the Hebrew; the Hebrew simply says 'our herds are well-laden/burdened' (מְסֻבָּלִים), i.e., heavy-laden or numerous, not specifically pregnant or giving birth."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

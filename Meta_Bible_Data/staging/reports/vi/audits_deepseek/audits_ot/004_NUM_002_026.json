@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'sáu mươi hai ngàn bảy trăm' (62,700), but the Vietnamese says 'hai mươi hai ngàn bảy trăm' (22,700). The number 'sáu mươi' (60) was mistranslated as 'hai mươi' (20), changing the count."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

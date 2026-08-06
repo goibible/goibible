@@ -1,0 +1,26 @@
+{
+  "book": "2SA",
+  "chapter": 23,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יֹשֵׁב בַּשֶּׁבֶת' is a proper name/title (Jashobeam, lit. 'sitting in the seat'), not 'ngồi trên ngai' ('sitting on the throne'). The Vietnamese adds a throne concept not in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הָעֶצְנִי' (the Eznite/Hachmonite) is rendered 'người Ê-xnít' — this is a transliteration of a different name; the Hebrew has 'הָעֶצְנִי' (Ha-etsni), not 'Ê-xnít'."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'người đã giơ ngọn giáo lên' ('lifted up his spear') — the Hebrew has no mention of a spear; it says 'עַל שְׁמֹנֶה מֵאוֹת חָלָל בְּפַעַם אֶחָת' ('against eight hundred slain at one time')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

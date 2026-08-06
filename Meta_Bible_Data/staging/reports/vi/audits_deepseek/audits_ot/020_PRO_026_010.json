@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 26,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רַב מְחוֹלֵל כֹּל' means 'one who hires a fool is like one who hires passersby' — the subject is 'one who hires' (שׂוֹכֵר), not 'a wise/skillful person' (Người khôn khéo). The Vietnamese adds 'Người khôn khéo' (a wise/skillful person) which is not in the Hebrew, and mistranslates 'מְחוֹלֵל' (causes/incites) as 'khiến cho mọi người đều sai lầm' (causes everyone to err), whereas the Hebrew says 'one who hires a fool' (שׂוֹכֵר כְּסִיל) — the first clause is about hiring a fool, not causing error. The verse's claim is altered: the Hebrew contrasts hiring a fool with hiring passersby, but the Vietnamese introduces a different subject and action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

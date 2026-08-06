@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Iyyov' (Gióp), but the Vietnamese renders 'Ích-tháp' (Ishbak?), a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

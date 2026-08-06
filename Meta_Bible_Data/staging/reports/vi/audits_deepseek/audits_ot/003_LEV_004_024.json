@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is the person offering the sacrifice ('he shall lay his hand'), but the Vietnamese says 'Đức Giê-hô-va đặt tay mình' ('Jehovah lays his hand'), changing who performs the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

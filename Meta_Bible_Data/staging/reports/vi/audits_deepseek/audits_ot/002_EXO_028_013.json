@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 28,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew says 'make gold settings' (מִשְׁבְּצֹת זָהָב) without specifying a number; the Vietnamese adds 'hai cái' (two) which is not in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

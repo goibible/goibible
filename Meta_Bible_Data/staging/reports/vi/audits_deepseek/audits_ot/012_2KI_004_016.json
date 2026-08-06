@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיֹּאמֶר' (and he said) is rendered as 'Đức Giê-hô-va phán' (The LORD said), but the subject in the Hebrew is the man of God (Elisha), not the LORD. This changes who is speaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֲשֶׁר יָלְדָה לְעַדְרִיאֵל' means 'whom she bore to Adriel' (i.e., she gave birth to them for Adriel), but Vietnamese 'mà bà đã nuôi cho A-đơ-ri-ên' says 'whom she raised/nurtured for Adriel' — 'nuôi' (to raise/nurture) changes the meaning from bearing to raising, a substantive difference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

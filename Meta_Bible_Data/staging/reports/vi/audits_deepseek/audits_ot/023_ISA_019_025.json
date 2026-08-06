@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 19,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Phước cho dân ta Ê-díp-tô' (blessed be Egypt my people), but the Vietnamese renders 'dân ta A-si-ri' (my people Assyria), swapping Egypt for Assyria in the first clause. The Hebrew order is: Egypt (my people), Assyria (work of my hands), Israel (my inheritance). The Vietnamese incorrectly repeats Assyria for the first item."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

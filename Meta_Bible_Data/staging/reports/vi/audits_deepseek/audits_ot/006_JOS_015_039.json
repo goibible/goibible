@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name עֶגְלוֹן (Eglon) is rendered as 'Ê-đôn' (Edom), which is a different name. The correct Vietnamese transliteration should be 'Ét-lôn' or similar, not 'Ê-đôn'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

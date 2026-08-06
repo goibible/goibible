@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 22,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has Jehoshaphat (יְהוֹשָׁפָט) speaking, but the Vietnamese renders it as 'Đa-vít' (David), which is a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

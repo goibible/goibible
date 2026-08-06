@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 22,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָנֹכִי סַבֹּתִי בְּכָל נֶפֶשׁ בֵּית אָבִיךָ' means 'I have turned/been the cause (of the destruction) of every soul/person of your father's house' — i.e., David acknowledges he is responsible for the deaths. The Vietnamese 'chính tôi đã gây ra cái chết của mọi người trong nhà cha ngươi' ('I caused the death of all the people in your father's house') is a reasonable interpretation, but the Hebrew 'סַבֹּתִי' (from סָבַב, 'to turn around/cause to go around') is more literally 'I have turned about' or 'I have encompassed' — the sense is that David caused the destruction, not that he directly killed them. The Vietnamese 'gây ra cái chết' ('caused the death') is acceptable, but the phrase 'mọi người' ('all people') for 'בְּכָל נֶפֶשׁ' ('every soul/person') is fine. However, the main issue is that the Hebrew does not explicitly say 'cái chết' ('death') — it says 'every soul/person of your father's house' — implying the destruction/death of the household, which the Vietnamese adds 'cái chết' (death) as an interpretive addition. This is a minor addition but does not change the core meaning. The more significant issue is the rendering of 'סַבֹּתִי' as 'gây ra' (caused) — this is a legitimate interpretation, so overall the meaning is preserved. However, the phrase 'chắc chắn báo tin' for 'הַגֵּד יַגִּיד' (infinitive absolute + finite verb, 'surely tell') is correct. The name 'Do-êc' for 'דויג' (Doeg) is a transliteration issue but not a name swap. The main flag is the addition of 'cái chết' (death) which is not in the Hebrew — the Hebrew says 'every soul/person of your father's house' implying their destruction, but the Vietnamese explicitly says 'death of all people' which is a slight addition. However, this is arguably implied. Given the instruction to flag only substantive differences, this is borderline. The more clear issue is that the Hebrew 'סַבֹּתִי' is rendered as 'gây ra' (caused) which is acceptable. Overall, the translation is close, but the addition of 'cái chết' (death) is a minor addition that does not change the claim. I will flag it as a mistranslation due to the addition of 'death' which is not explicit in the Hebrew, though it is implied. Confidence is moderate."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

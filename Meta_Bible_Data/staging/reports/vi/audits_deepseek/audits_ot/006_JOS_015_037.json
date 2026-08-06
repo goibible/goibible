@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'חֲדָשָׁה' (Hadashah) is rendered 'Ha-đa-sa' (missing the final 'h' sound, but more importantly the Hebrew has 'חֲדָשָׁה' not 'חֲדָשָׁ' – the Vietnamese 'Ha-đa-sa' drops the final 'h' which is part of the name; however, the more significant issue is that 'מִגְדַּל גָּד' (Migdal-gad) is rendered 'Mích-đanh Gad' – 'Mích-đanh' is not a transliteration of 'מִגְדַּל' (Migdal) but appears to be a different name (possibly 'Migdol' or a corruption), and the Hebrew has 'גָּד' (Gad) which is correctly 'Gad', but the first part is wrong. The correct transliteration should be 'Mích-đan Gát' or similar. The name 'Mích-đanh' is a mistranslation/name swap for 'Migdal'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

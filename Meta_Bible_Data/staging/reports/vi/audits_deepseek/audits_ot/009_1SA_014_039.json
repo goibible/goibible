@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 14,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew opening 'כִּ֣י חַי יְהוָה' means 'As the LORD lives' (an oath formula), but the Vietnamese renders it as 'Nhân danh Đức Giê-hô-va' ('In the name of the LORD'), which changes the meaning from a solemn oath invoking the LORD's life to a mere invocation of his name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

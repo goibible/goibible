@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 51,
+  "verse": 60,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says Jeremiah (יִרְמְיָהוּ) wrote the book, but the Vietnamese translation says Ê-xa-ra (Ezra) wrote it. This is a name swap that changes who is doing the action."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 14,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'יְקָרוֹת יקפאון' (precious/thick darkness, they will congeal/freeze) is rendered as 'ánh sáng sẽ trở nên tối tăm' (light will become dark), which changes the meaning. The Hebrew does not say light becomes dark; it says the precious lights (or glorious lights) will be congealed/darkened, i.e., the luminaries will fail. The Vietnamese adds 'ánh sáng' (light) as subject and 'trở nên tối tăm' (become dark), which is not in the Hebrew. The Hebrew subject is 'יְקָרוֹת' (precious things, i.e., the stars/lights) and the verb 'יקפאון' (they will congeal/freeze), not 'light becomes dark'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "NEH",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'đọc' (reading) which is not in the Hebrew; the Hebrew says 'when they heard the Torah' (כְּשָׁמְעָם אֶת הַתּוֹרָה), not 'heard the reading of the Torah'."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'mọi người thuộc đoàn dân pha lộn' (all those belonging to the mixed multitude) which is not present in the Hebrew. The Hebrew says 'they separated all mixed [people] from Israel' (וַיַּבְדִּילוּ כָל עֵרֶב מִיִּשְׂרָאֵל), meaning they separated out every mixed person from Israel, not that they separated from Israel all those of the mixed company."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 29,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'mười một' (11) con bò đực (עַשְׁתֵּי עָשָׂר), but Vietnamese says 'mười hai' (12)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

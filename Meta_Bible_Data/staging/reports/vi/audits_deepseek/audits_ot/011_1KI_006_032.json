@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 6,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּרוּבִים' means 'cherubim' (angelic figures), but the Vietnamese renders it as 'trái tim' (hearts), which is a mistranslation of a key term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

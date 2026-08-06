@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 4,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'núi Si-ôn' (הַר שִׂיאֹן, Mount Sion), but the Vietnamese renders it as 'núi Si-ri-ôn' (Mount Sirion), which is a different name (שִׂרְיֹן, Sirion, cf. Deut 3:9). This swaps the mountain name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

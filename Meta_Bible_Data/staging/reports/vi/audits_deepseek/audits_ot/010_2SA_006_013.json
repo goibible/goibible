@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text says David sacrificed (וַיִּזְבַּח) an ox and a fatling; the Vietnamese adds 'làm của lễ thiêu' (as a burnt offering), which is not in the Hebrew. The Hebrew only says he sacrificed, not that it was a burnt offering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

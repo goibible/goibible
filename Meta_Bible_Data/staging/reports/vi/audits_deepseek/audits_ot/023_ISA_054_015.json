@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 54,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גּוֹר יָגוּר' (from גּוּר, 'to sojourn/dwell as an alien') is rendered as 'lập mưu' (to plot/scheme), which changes the meaning. The verse speaks of a sojourner/alien dwelling with the addressee, not someone plotting against her. This alters the factual claim of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

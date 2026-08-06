@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 48,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'they' (לָהֶם) referring to the priests (the context is the portion for the priests), but the Vietnamese says 'của đất' (of the land) as the possessor of the offering, and adds 'dành cho các thầy tế lễ' (for the priests) which is not in the Hebrew. The Hebrew phrase 'תְּרוּמִיָּה מִתְּרוּמַת הָאָרֶץ' means 'a contribution from the contribution of the land' — the Vietnamese renders it as 'phần dâng riêng của đất' (the special offering of the land), which changes the structure and omits the repetition of 'contribution' (תְּרוּמָה). The subject 'they' (the priests) is replaced by an added phrase about priests, and the possessive 'của đất' is not the same as the Hebrew construct chain."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Eleazar son of Aaron the priest' (אֶלְעָזָר בֶּן אַהֲרֹן), but the Vietnamese says 'A-rôn' (Aaron), omitting Eleazar and substituting Aaron in his place."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

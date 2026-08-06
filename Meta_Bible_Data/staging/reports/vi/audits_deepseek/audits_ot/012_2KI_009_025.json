@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בִּדְקַר' (Bidkar), but the Vietnamese renders 'Bích-đác' (Bich-dac), which is a different name. Also, the Hebrew has 'נָבוֹת' (Naboth), but the Vietnamese renders 'Nát-than' (Nat-than), which is a different name (likely confusing Naboth with Nathan)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

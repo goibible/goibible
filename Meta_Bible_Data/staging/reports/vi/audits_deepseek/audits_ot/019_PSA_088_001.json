@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 88,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew title includes 'Shir Mizmor livnei Korach' (A Song, a Psalm of the sons of Korah), 'Lamnatzeach al Machalat le'anot' (For the choir director, according to Mahalath Leannoth), and 'Maskil' (a Contemplation), all of which are omitted from the Vietnamese rendering. The Vietnamese only mentions 'Lời cầu nguyện của Hê-man, người Ê-xơ-ra-hít' (A prayer of Heman the Ezrahite), missing the psalm type, the attribution to the sons of Korah, the musical direction, and the term 'Maskil'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

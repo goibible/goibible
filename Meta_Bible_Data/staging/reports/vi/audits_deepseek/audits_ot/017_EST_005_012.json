@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says Esther did not bring anyone with the king to the banquet except Haman himself ('אוֹתִי' = 'me'). The Vietnamese adds 'cho phép ai khác' ('allow anyone else'), implying Esther permitted others, which is not in the Hebrew. The Hebrew simply states she did not bring anyone else with the king except Haman."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

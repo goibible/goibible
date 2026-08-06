@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חָלָה לְטוֹב' means 'she writhes/anguishes for good' (i.e., in labor/anguish for good), not 'đang trông đợi điều tốt lành' (is waiting/expecting good). The verb חָלָה denotes pain/trembling/anguish, not waiting. This changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

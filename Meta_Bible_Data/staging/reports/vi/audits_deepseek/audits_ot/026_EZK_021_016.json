@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 21,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'lưỡi gươm vào bao' (sword into sheath) which has no basis in the Hebrew text; the Hebrew only says 'set yourself to the right, set yourself to the left' without mentioning a sword or sheath."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

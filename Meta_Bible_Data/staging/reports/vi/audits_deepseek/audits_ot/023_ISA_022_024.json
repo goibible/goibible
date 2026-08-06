@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 22,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כְּלֵי הָאַגָּנֹת' means 'bowls/cups' (vessels of basins), not 'đồ đựng bằng bạc' (silver vessels). The word 'אַגָּן' is a bowl or basin, not silver. Similarly, 'כְּלֵי הַנְּבָלִים' means 'jars/pitchers' (vessels of earthenware or jugs), not 'đồ đựng bằng đồng' (copper/bronze vessels). The Vietnamese translation incorrectly specifies materials (silver and copper) that are not in the Hebrew text, changing the meaning of the vessels described."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

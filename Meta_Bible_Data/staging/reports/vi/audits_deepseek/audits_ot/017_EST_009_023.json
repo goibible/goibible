@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 9,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'the Jews' (הַיְּהוּדִים), but the Vietnamese renders it as 'Dân Y-sơ-ra-ên' (the people of Israel), which is a different group name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

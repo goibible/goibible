@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 24,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'הַגָּד' (the Gad) refers to the tribe/region of Gad, not a river named 'Ga-đi'. The Vietnamese 'dòng sông Ga-đi' (river of Gadi) mistranslates this as a river name, changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶל יַעְזֵר' means 'and toward Jazer' (a place name). The Vietnamese 'và hướng về Ja-xe' is acceptable, but the transliteration 'Ja-xe' is not standard; however, the main issue is the 'Ga-đi' error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

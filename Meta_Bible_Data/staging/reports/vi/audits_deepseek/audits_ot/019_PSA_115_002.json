@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 115,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'their God' (אֱלֹהֵיהֶֽם), but the Vietnamese renders it as 'Đức Giê-hô-va của chúng nó' (their Jehovah/Yahweh), substituting the divine name for the generic term 'God'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

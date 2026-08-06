@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 27,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִי יִתְּנֵנִי' is an optative expression meaning 'Who will give me...?' i.e., 'O that I had...' (a wish). The Vietnamese 'ai sẽ khiến ta gặp' ('who will cause me to meet') changes the meaning from a wish for something to a question about who will cause an encounter, altering the sense of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

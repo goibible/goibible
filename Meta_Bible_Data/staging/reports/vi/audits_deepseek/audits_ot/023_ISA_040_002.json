@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 40,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כִּי מָֽלְאָה צְבָאָהּ' means 'her warfare is completed' or 'her time of service is fulfilled' (referring to the period of exile/service being complete), not 'Chiến tranh của nó đã chấm dứt' ('her war has ended'). The Hebrew word צָבָא here means 'warfare/service/appointed time' (as in Job 7:1, Isaiah 40:2), not 'war' in the sense of armed conflict. The Vietnamese rendering changes the meaning from the completion of her appointed service to the cessation of war."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

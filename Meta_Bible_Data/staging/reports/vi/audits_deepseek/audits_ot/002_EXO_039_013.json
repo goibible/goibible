@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'theo tên của con cái Y-sơ-ra-ên' (according to the names of the children of Israel), which is not present in the Hebrew text. The Hebrew only describes the fourth row of stones and their gold settings, with no mention of the names of Israel's children."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

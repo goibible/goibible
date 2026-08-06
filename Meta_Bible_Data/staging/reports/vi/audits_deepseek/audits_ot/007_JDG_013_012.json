@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַתָּה יָבֹא דְבָרֶיךָ' means 'Now let your words come to pass' (a statement of expectation/desire that the words be fulfilled), but the Vietnamese 'Nguyện các lời của ngài bây giờ được ứng nghiệm' adds 'Nguyện' (may/let it be so), which is an optative addition not present in the Hebrew. The Hebrew is a simple future/declarative 'will come', not a prayer/optative. This changes the nuance from a confident statement to a wish."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

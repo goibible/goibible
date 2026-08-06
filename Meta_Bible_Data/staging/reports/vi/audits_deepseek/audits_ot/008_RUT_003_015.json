@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וַיָּבֹא הָעִיר' (and he went into the city), but the Vietnamese says 'rồi cô trở vào thành' (then she returned into the city), changing the subject from 'he' (Boaz) to 'she' (Ruth)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

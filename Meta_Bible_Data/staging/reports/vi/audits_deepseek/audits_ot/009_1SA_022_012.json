@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 22,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has Saul (שָׁאוּל) speaking, but the Vietnamese renders it as 'Sa-mu-ên' (Samuel), swapping the speaker's name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

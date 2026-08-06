@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 14,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Giê-hô-ách' (Jehoash) was buried and 'Giê-rô-bô-am' (Jeroboam) his son reigned in his place. The Vietnamese renders the first name as 'A-cha-xe' and the second as 'A-cha-cha-am', which are not the correct names for these kings (Jehoash and Jeroboam)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

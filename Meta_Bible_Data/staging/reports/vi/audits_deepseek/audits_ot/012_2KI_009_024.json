@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire content of the Hebrew verse. The Hebrew describes Jehu drawing his bow and striking Joram between the arms, the arrow coming out through his heart, and Joram collapsing in his chariot. The Vietnamese instead contains a completely different narrative about Elisha instructing someone to take bow and arrows and placing his hands, which is not present in the Hebrew text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

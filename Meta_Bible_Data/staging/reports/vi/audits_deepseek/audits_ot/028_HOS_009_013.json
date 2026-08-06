@@ -1,0 +1,30 @@
+{
+  "book": "HOS",
+  "chapter": 9,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶפְרַיִם' is the proper name 'Ephraim', but the Vietnamese renders it as 'Phả-rui', which appears to be a different name (possibly a transliteration error or a different name entirely). The correct Vietnamese transliteration should be 'Ép-ra-im'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְצוֹר' means 'for Tyre' (the city), but the Vietnamese 'được trồng nơi đất tốt tươi' ('planted in good land') omits the reference to Tyre and instead interprets 'לְצוֹר' as 'for a rock' or similar, changing the meaning. The verse compares Ephraim to Tyre, a city planted in a pleasant place."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׁתוּלָה בְנָוֶה' means 'planted in a pasture/pleasant place', but the Vietnamese 'được trồng nơi đất tốt tươi' ('planted in good land') is a reasonable rendering, though the omission of Tyre is significant."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְהוֹצִיא אֶל הֹרֵג בָּנָיו' means 'to bring out his children to the slayer', but the Vietnamese 'sẽ đẻ ra con cái để nộp cho kẻ giết người' ('will bear children to deliver to the killer') adds 'sẽ' (future tense) and 'đẻ ra' (bear/give birth), which is not in the Hebrew. The Hebrew has 'to bring out' (לְהוֹצִיא), not 'to bear'. This changes the action from leading out existing children to producing new ones."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

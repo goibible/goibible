@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 37,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הַשֻּׁלְחָן' means 'the table', but Vietnamese renders 'bàn thờ' (altar table), which is a different object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

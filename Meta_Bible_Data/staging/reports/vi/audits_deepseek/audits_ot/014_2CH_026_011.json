@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 26,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Ma'aseyahu' (מַעֲשֵׂיָהוּ) as the second officer's name, but the Vietnamese renders it as 'Mát-thê-xi-a' (Mattithiah), which is a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

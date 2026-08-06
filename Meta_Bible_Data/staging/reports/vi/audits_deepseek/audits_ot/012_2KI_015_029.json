@@ -1,0 +1,30 @@
+{
+  "book": "2KI",
+  "chapter": 15,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese text begins with 'Đức Giê-hô-va phán:' ('The LORD said:') which is not present in the Hebrew verse. This is an added clause that changes the framing of the verse."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'תִּגְלַת פִּלְאֶסֶר' (Tiglath-pileser) and 'אַשּׁוּר' (Assyria), but the Vietnamese renders 'Tít-lát-bi-lé-xe' and 'A-đu' — 'A-đu' appears to be a transliteration error or substitution for 'Assyria' (A-đu is not a standard Vietnamese rendering of Assyria; it should be 'A-si-ri' or similar). This is a name swap/error."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'הַגִּלְעָד' (Gilead), but the Vietnamese renders 'Gi-lean' which is not a standard transliteration of Gilead (should be 'Ga-la-át' or 'Ghi-lê-át'). This is a name error."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'נַפְתָּלִי' (Naphtali), but the Vietnamese renders 'Na-phtha-li' — this is a minor transliteration issue but still a name error (should be 'Náp-ta-li' or similar)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

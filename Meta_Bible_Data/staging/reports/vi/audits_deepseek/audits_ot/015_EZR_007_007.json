@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אַרְתַּחְשַׁשְׂתְּא (Artaxerxes) is rendered as 'A-ki-sơ-tha', which is a different name. The correct Vietnamese transliteration should be 'Ạt-ta-xét-xe' or similar, not 'A-ki-sơ-tha'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

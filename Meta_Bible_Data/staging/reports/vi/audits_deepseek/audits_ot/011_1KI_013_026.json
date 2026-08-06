@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 13,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וַיִּשְׁמַע הַנָּבִיא אֲשֶׁר הֱשִׁיבוֹ מִן הַדֶּרֶךְ' — 'the prophet who had brought him back from the way heard'. The Vietnamese renders this as 'Người thầy tiên tri đã gọi ông trở lại từ con đường nghe thấy điều đó' — 'The prophet teacher who had called him back from the way heard that thing'. This misplaces the relative clause: in Hebrew, the prophet is the one who brought him back, and he heard; in Vietnamese, the phrase 'nghe thấy điều đó' is awkwardly attached to 'con đường' (the way), making it sound like the way heard, and the subject/verb relationship is confused. The meaning is distorted: it should be 'The prophet who had brought him back from the way heard [it]'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

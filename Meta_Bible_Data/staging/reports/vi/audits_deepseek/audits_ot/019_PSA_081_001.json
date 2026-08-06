@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 81,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew imperative 'הָרִנּוּ' (shout joyfully) is positive, but the Vietnamese adds 'Đừng' (Do not), reversing the meaning to a prohibition."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

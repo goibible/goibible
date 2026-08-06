@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 17,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Chúa Trời' (God) as the subject; the verb 'וְהִצִּגַנִי' is a Hiphil with an implied subject (likely God from context, but not stated in this verse). The Vietnamese adds 'Đức Chúa Trời' explicitly, which is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

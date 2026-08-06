@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has 'vayomer' (he said) with no explicit subject, but the context is the servant speaking. The Vietnamese adds 'Aùp-ra-ham nói' (Abraham said), attributing the speech to Abraham instead of the servant. This is a name/person swap that changes who is speaking."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

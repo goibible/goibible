@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'צַמְתֶּם וְסָפוֹד' means 'you fasted and mourned' (fasting + mourning), but the Vietnamese renders it as 'ăn ở than khóc' (lived and wept), dropping the concept of fasting entirely and adding 'ăn ở' (lived) which is not in the Hebrew. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

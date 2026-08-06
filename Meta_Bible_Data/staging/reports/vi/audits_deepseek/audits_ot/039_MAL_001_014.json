@@ -1,0 +1,18 @@
+{
+  "book": "MAL",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew begins with 'וְאָר֣וּר' ('And cursed is'), but the Vietnamese renders it as 'Phước lành không dành cho' ('Blessing is not for'), which reverses the meaning from a curse to a blessing negation. The concept of 'cursed' is entirely missing and replaced with a positive/neutral statement."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

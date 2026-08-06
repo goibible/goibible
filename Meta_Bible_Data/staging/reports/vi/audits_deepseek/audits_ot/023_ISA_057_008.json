@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 57,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַתַּעֲלִי' (and you went up) is rendered as 'cởi bỏ áo mình' (you took off your clothes), which is an addition/mistranslation not present in the Hebrew. The Hebrew verb means 'to go up/ascend', not 'to undress'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'יָד חָזִית' (you have seen a hand) is rendered as 'nhìn chăm chăm vào hình ảnh của chúng' (you stared at their images), adding 'hình ảnh của chúng' (their images) which is not in the Hebrew; the Hebrew simply says 'you have seen a hand' (likely referring to an idolatrous symbol)."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

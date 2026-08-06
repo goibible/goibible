@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 14,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אָחִיו' means 'his brother' (Lot was Abram's nephew, but Hebrew uses 'brother' here); Vietnamese renders it as 'cháu mình' (his nephew), changing the familial relationship stated in the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

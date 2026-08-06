@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כִּ֥יס אֶ֝חָ֗ד' means 'one purse' (a single shared purse), but Vietnamese 'túi nào cũng sẽ là một' means 'each/any bag will be one', changing the meaning from a single shared purse to multiple bags each being one."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

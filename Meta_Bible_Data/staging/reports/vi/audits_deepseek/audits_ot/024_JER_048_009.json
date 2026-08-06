@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 48,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּנוּ צִיץ לְמוֹאָב' means 'Give wings to Moab' (or 'Give a blossom/ornament to Moab' in some interpretations), but the Vietnamese adds 'một đôi cánh' (a pair of wings) and 'để nó có thể trốn thoát và bay đi' (so it can escape and fly away), which is an interpretive expansion not present in the Hebrew. The Hebrew simply says 'Give wings to Moab, for she will surely go out' (i.e., flee), without specifying 'a pair' or the purpose clause 'so it can escape and fly away'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

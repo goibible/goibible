@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'יְחִ֥י הַמֶּֽלֶךְ' means 'May the king live!' (a cheer for the king), but the Vietnamese renders it as 'Cầu Đức Giê-hô-va sống!' ('May the LORD live!'), which incorrectly substitutes 'the king' with 'the LORD' (Đức Giê-hô-va), changing the meaning and adding a divine reference not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

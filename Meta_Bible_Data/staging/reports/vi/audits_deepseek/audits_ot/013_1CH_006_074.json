@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 74,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'עַבְדּוֹן' (Avdon), but the Vietnamese renders it as 'A-bên' (Abel), which is a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

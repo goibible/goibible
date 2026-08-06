@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 23,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כָּחַלְתְּ עֵינַיִךְ' means 'you painted your eyes' (with kohl/eye makeup), but the Vietnamese renders it as 'kẻo mắt ngươi mệt mỏi' ('lest your eyes be weary'), which is a mistranslation that changes the meaning. The clause 'kẻo' (lest) is an addition not in the Hebrew, and the concept of painting the eyes is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

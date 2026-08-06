@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text mentions only Shadrach, Meshach, and Abed-nego (לְשַׁדְרַ֥ךְ מֵישַׁ֛ךְ וַעֲבֵ֥ד נְג֖וֹ), but the Vietnamese adds 'A-bết-nê-gô' (Abed-nego) which is not present in this verse. The Hebrew has only two names plus the conjunction 'and' before Abed-nego? Actually the Hebrew reads 'Shadrach, Meshach, and Abed-nego' — wait, the Hebrew has three names: שַׁדְרַךְ, מֵישַׁךְ, עֲבֵד נְגוֹ. The Vietnamese lists all three correctly. However, the Hebrew verb 'הַצְלַח' means 'prospered' or 'advanced' (made to prosper), not 'bổ nhiệm' (appointed). The Vietnamese mistranslates the verb, changing the meaning from 'the king made Shadrach, Meshach, and Abed-nego prosper in the province of Babylon' to 'the king appointed them as officials in the province of Babylon.' This is a mistranslation of the verb."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

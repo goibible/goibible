@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 12,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶבֶל' (hevel) means 'vanity' or 'futility', not 'flood' (hồng thủy). The Vietnamese translation incorrectly renders 'hevel' as 'hồng thủy' (flood), which changes the meaning of the verse entirely."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

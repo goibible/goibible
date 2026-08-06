@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אִישְׁהוֹד (Ishhod) is rendered as 'Y-sốt' in Vietnamese, which is a different name. The correct transliteration should be 'Ích-hốt' or similar, not 'Y-sốt'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

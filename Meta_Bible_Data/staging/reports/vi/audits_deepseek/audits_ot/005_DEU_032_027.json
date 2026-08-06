@@ -1,0 +1,26 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew opening לוּלֵי כַּעַס אוֹיֵב אָגוּר ('Were it not that I feared the provocation of the enemy') is entirely missing; the Vietnamese begins with 'Chớ sợ kẻ thù oán sẽ nhạo báng' ('Do not fear the enemy's resentment will mock'), which changes the meaning from a hypothetical 'if not for' statement to a command not to fear, and also omits the concept of 'provocation/anger' (כַּעַס) and 'I feared' (אָגוּר)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew פֶּן יְנַכְּרוּ צָרֵימוֹ means 'lest their adversaries misunderstand/misjudge' (i.e., the enemies of Israel misinterpreting God's action), but the Vietnamese renders it as 'e kẻ địch mình hiểu lầm' ('lest our enemies misunderstand'), which is close but the subject 'their adversaries' (צָרֵימוֹ) is rendered as 'our enemies' (kẻ địch mình), shifting the referent from the enemies of the people (Israel's foes) to a generic 'our enemies'—this is a minor shift but still changes who is being referred to."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'sẽ nhạo báng' ('will mock') which has no direct Hebrew equivalent; the Hebrew has 'provocation of the enemy' (כַּעַס אוֹיֵב) and 'lest they say' (פֶּן יֹאמְרוּ), but no explicit 'mock' verb. This addition introduces a concept not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

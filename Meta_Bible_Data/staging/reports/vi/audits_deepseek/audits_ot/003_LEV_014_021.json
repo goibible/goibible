@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 14,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אָשָׁם' is 'reparation/guilt offering' (of lễ chuộc lỗi), but Vietnamese renders it as 'của lễ chuộc tội' (sin offering), which is a different offering type."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

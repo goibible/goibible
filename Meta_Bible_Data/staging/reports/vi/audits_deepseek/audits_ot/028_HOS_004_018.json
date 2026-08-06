@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 4,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'אָהֲבוּ הֵב֛וּ קָל֖וֹן מָגִנֶּֽיהָ' is rendered as 'yêu sự sỉ nhục và chọn lấy điều ấy' — the verb 'הֵבוּ' (from יהב, meaning 'bring/give') is translated as 'chọn lấy' (choose), which is not its meaning; the Hebrew says 'they love, they bring shame to her shields' (i.e., her leaders), but the Vietnamese omits the object 'her shields' (măginnêhā) and replaces it with 'điều ấy' (that thing), losing the reference to the leaders."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

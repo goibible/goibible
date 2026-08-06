@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מְעוֹלֵל' (me'olel) means 'a child/youth' (one who acts childishly or is young), but Vietnamese renders it as 'kẻ thiếu niên cai trị' ('a youth who rules'), which is acceptable. However, the clause 'נֹגְשָׂיו מְעוֹלֵל' is 'his oppressors are a child' — the Vietnamese 'kẻ hà hiếp là kẻ thiếu niên cai trị' adds 'cai trị' (rules) not in the Hebrew; the Hebrew says oppressors are a child, not that the child rules. This is an addition that changes the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

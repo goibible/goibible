@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has only two names: הַלּוֹחֵ֥שׁ (Ha-Lochesh) and פִּלְחָ֖א (Pilcha), with שׁוֹבֵֽק (Shoveq) as a verb meaning 'leaves/abandons' (Qal participle of שׁבק). The Vietnamese renders three names, treating שׁוֹבֵֽק as a proper name 'Sô-béc', which is a mistranslation and adds a third name not present in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

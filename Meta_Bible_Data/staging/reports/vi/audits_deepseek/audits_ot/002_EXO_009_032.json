@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 9,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְהַכֻּסֶּמֶת' is 'spelt' (a type of grain), but Vietnamese renders it as 'lúa mạch muộn' (late barley), which is a different grain and adds 'muộn' (late) not in the Hebrew. The Hebrew 'אֲפִילֹת' means 'ripened' or 'late' (referring to the grains being late in ripening), but the Vietnamese phrase 'lúa mạch muộn' misidentifies the grain and misplaces the 'late' descriptor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

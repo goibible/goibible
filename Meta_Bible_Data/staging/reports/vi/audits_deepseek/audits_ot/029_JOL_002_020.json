@@ -1,0 +1,18 @@
+{
+  "book": "JOL",
+  "chapter": 2,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Nó sẽ bị thiêu trong lửa' (It will be burned in fire), which has no basis in the Hebrew text. The Hebrew only mentions the stench rising ('và mùi hôi thối của nó sẽ bốc lên'), not burning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

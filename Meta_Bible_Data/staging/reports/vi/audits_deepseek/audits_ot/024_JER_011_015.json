@@ -1,0 +1,26 @@
+{
+  "book": "JER",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מֶה לִידִידִי בְּבֵיתִי עֲשׂוֹתָהּ הַמְזִמָּתָה הָרַבִּים' is rendered as 'Người Ta yêu dấu làm gì trong nhà Ta? Nàng đã làm những điều ác với nhiều người' — the Vietnamese adds 'Nàng đã làm' (she has done) which is not in the Hebrew; the Hebrew is a rhetorical question 'What is my beloved doing in my house?' followed by 'her many evil schemes' (or 'her many wicked plans'), not a statement that she has done evil with many. The Vietnamese changes the meaning by turning the noun phrase 'her many evil schemes' into a completed action 'she has done evil with many people'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבְשַׂר קֹדֶשׁ יַעַבְרוּ מֵעָלָיִךְ' is rendered 'và của lễ thánh đã rời khỏi ngươi' — the Hebrew has 'holy flesh' (וּבְשַׂר קֹדֶשׁ) as the subject, and 'they pass over from you' (יַעַבְרוּ מֵעָלָיִךְ) — the Vietnamese says 'holy offerings have left you' which is close, but the Hebrew verb is plural 'they pass over' referring to the holy flesh, and the Vietnamese uses 'đã rời khỏi' (have left) which is acceptable, but the main issue is the preceding clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי רָעָתֵכִי אָז תַּעֲלֹזִי' is rendered 'Khi ngươi làm điều ác, ngươi hãy vui mừng!' — the Hebrew is 'for your evil, then you will exult' (or 'then you rejoice'), a future/imperfect verb 'תַּעֲלֹזִי' (you will exult), not an imperative 'hãy vui mừng' (you must rejoice). The Vietnamese changes the tense from future indicative to imperative, altering the meaning from a prediction/statement to a command."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

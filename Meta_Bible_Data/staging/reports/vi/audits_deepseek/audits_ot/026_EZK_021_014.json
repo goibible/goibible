@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 21,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֶרֶב שְׁלִישִׁתָה' means 'a third sword' (a sword of a third kind/third time), not 'gươm ba lần được nhân đôi' ('sword three times doubled'). The Vietnamese adds the concept of 'doubled' (nhân đôi) which is not in the Hebrew, and misrepresents 'third' as 'three times'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֶרֶב חָלָל הַגָּדוֹל' means 'sword of the great slain' (i.e., the sword that makes great slaughter), not 'gươm giết các anh hùng lớn' ('sword that kills great heroes'). The Vietnamese shifts the object from the slain (victims) to heroes, changing the meaning."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

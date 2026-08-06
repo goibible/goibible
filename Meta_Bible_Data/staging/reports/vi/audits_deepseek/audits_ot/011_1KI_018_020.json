@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is Ahab (אַחְאָב), but the Vietnamese renders 'Ê-li' (Elijah), swapping the actor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'bə-ḵol bənê yiśrā'ēl' means 'throughout all the sons/people of Israel'; the Vietnamese 'khắp các chi phái Ít-ra-en' (throughout all the tribes of Israel) narrows 'sons/people' to 'tribes', a substantive change in scope."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 7,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew explicitly names the king of Assyria ('את מלך אשור' = 'the king of Assyria') as the agent brought upon them, but the Vietnamese omits 'vua A-si-ri' (the king of Assyria), saying only 'A-si-ri' (Assyria). This changes the claim from a specific king being brought to just the nation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

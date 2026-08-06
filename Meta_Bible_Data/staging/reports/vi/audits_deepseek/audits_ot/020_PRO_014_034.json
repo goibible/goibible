@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 14,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְחֶסֶד לְאֻמִּים חַטָּאת' means 'but the kindness of the nations is sin' (i.e., the mercy shown by the nations/peoples is sin), not 'lòng nhân từ đối với các dân thì là tội' which reads as 'kindness toward the nations is sin.' The Vietnamese reverses the relationship: in Hebrew, the nations are the subjects of the kindness (their kindness), not the objects. This changes who is doing the kindness and to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

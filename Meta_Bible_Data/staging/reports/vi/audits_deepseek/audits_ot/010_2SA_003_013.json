@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 3,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text has 'וַיֹּאמֶר' (and he said) without specifying the speaker as 'Đức Giê-hô-va' (the LORD). The Vietnamese adds 'Đức Giê-hô-va phán' (the LORD said), which introduces a divine name not present in the Hebrew, potentially changing who is speaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

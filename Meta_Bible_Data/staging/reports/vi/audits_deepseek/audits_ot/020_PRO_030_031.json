@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 30,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'זַרְזִיר מָתְנַיִם' (zarzir motnayim) is a hapax legomenon, often understood as 'a strutting rooster' or 'a greyhound' (lit. 'girt of loins'), not 'a horse galloping' (ngựa phi nước đại). The Vietnamese adds 'phi nước đại' (galloping) which is not in the Hebrew and changes the animal from a rooster/greyhound to a horse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

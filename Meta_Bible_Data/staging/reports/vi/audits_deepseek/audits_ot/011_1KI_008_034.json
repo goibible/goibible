@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese text entirely omits the Hebrew verse and instead states that the passage is not part of 1 Kings 8:34, which is a factual error and a complete omission of the verse's content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

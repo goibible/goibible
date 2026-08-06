@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 18,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יִתְבַּשֵּׂר' (yitbasser) means 'let it be announced/proclaimed as good news' or 'let my lord the king receive good news' — it is a passive/reflexive of 'to bring good tidings'. The Vietnamese renders it as 'Nguyện chúc đức vua, chúa tôi, được bình an' ('May the king, my lord, be blessed with peace'), which introduces the concept of 'peace/blessing' not present in the Hebrew. The Hebrew does not say 'peace' (שָׁלוֹם) here; it says 'let good news be brought to the king'. This changes the meaning of the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

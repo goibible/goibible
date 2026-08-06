@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כַּאֲשֶׁר נִשְׁבַּע יְהוָה לְדָוִד' means 'as the LORD swore to David' (Yahweh is the subject of the oath). The Vietnamese renders it as 'điều mà Đức Giê-hô-va đã chỉ Đức Chúa Trời mà thề cùng Đa-vít' which says 'the thing that the LORD swore by God to David' — adding 'chỉ Đức Chúa Trời' (by God) which is not in the Hebrew, and the phrase 'thề cùng Đa-vít' (swore to David) is correct, but the addition of 'by God' changes the meaning by implying the LORD swore by God, whereas the Hebrew simply states the LORD swore to David."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

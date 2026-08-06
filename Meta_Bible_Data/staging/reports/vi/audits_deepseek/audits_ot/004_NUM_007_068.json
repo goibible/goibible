@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 68,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֲשָׂרָה זָהָב' means 'ten (shekels) of gold', but the Vietnamese says 'mười một siếc-lơ' (eleven shekels), adding 'một' (one) and changing the number from ten to eleven."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

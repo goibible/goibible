@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 24,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲרַוְנָה הַמֶּלֶךְ' means 'Araunah the king' (Araunah is the king), but the Vietnamese 'A-ra-un-na dâng tất cả những điều đó cho vua như một vị vua' renders it as 'Araunah gave all these things to the king as a king,' incorrectly making Araunah give to another king rather than being the king himself. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

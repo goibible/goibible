@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew word 'אוֹפַנִּים' (ofannim) means 'wheels', not 'bánh' (cakes/bread). The Vietnamese translation renders it as 'bánh' which is a mistranslation of the key term."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

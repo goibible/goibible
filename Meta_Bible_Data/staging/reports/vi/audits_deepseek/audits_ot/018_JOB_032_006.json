@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 32,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵחַוֺּת דֵּעִ֣י אֶתְכֶֽם' means 'from declaring my opinion to you' (i.e., Elihu was afraid to tell his own opinion to them). The Vietnamese 'không dám bày tỏ sự hiểu biết của các ông cho tôi' reverses the direction: it says 'I did not dare to express your knowledge to me,' which changes who is sharing knowledge with whom. The correct meaning is that Elihu was afraid to share his own understanding with the elders."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

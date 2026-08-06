@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 50,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'וְזִ֥יז שָׂ֝דַ֗י' refers to 'the creeping/teeming things of the field' (or 'the moving things of the field'), not 'mọi loài vật chạy nhảy trong đồng cỏ' (all animals running/leaping in the meadow). The Vietnamese adds 'chạy nhảy' (running/leaping) which is not in the Hebrew, and 'đồng cỏ' (meadow) is a specific rendering of 'field' that may be acceptable, but the main issue is the added descriptor 'chạy nhảy' which is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

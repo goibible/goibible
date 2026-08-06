@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיֹּאמַר' is 'and he said' (singular, referring to Lot), but the Vietnamese 'Hãy nói cùng họ rằng' means 'Say to them that', changing the subject from Lot speaking directly to his sons-in-law to an instruction to tell them something. This alters who is speaking and to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

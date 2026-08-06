@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 39,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va phán:' ('The LORD says:') at the beginning, which has no basis in the Hebrew text. The Hebrew begins directly with 'לַמְנַצֵּחַ' (For the choir director) and then 'אָמַרְתִּי' ('I said'), with no divine speech introduction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 12,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'אִישׁ מֵאֵת מַכָּרוֹ' means 'each man from his acquaintance' (i.e., each priest from his own donor/acquaintance), but the Vietnamese 'từ những người quen biết mình' ('from those who know him') loses the distributive 'each man' (אִישׁ) and the singular 'his acquaintance' (מַכָּרוֹ), making it a general statement rather than each priest receiving from his own acquaintance. This changes the meaning slightly."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְכֹל אֲשֶׁר יִמָּצֵא שָׁם בָּדֶק' means 'for all/wherever a breach is found there' — the Vietnamese renders 'wherever any damage may be found' which is acceptable, but the word 'there' (שָׁם) is omitted, though this is minor and does not change the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

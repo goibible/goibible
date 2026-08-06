@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 56,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not contain 'của Y-sơ-ra-ên' (of Israel). The phrase 'Những kẻ canh giữ của Y-sơ-ra-ên' adds a referent not present in the Hebrew, which begins simply with 'צפו' (His watchmen) — the possessive suffix 'ו' (his) is omitted, and 'Y-sơ-ra-ên' is an addition not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

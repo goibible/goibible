@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 36,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb חִלְּל֨וּהוּ (they profaned it) is rendered as 'đã làm profane' (made profane), which is a hybrid Vietnamese-English phrase. The Vietnamese reader would not understand the meaning; a proper Vietnamese rendering would be 'đã làm ô uế' or 'đã xúc phạm'. This is a mistranslation that obscures the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

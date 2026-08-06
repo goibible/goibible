@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'עֶגְלוֹן' (Eglon) and 'גֶּזֶר' (Gezer). Vietnamese renders 'Ê-đôn' (Edom) and 'Kê-xe' (likely a misreading of Gezer as 'Kê-xe' — but the first name is clearly wrong: Eglon is not Edom)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

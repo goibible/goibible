@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַתְּהִי הַתְּשֻׁעָה' means 'the victory/salvation was' (i.e., the victory became mourning), but the Vietnamese renders 'niềm vui' ('joy'), which is not in the Hebrew text. The Hebrew word 'תְּשׁוּעָה' means 'victory/deliverance', not 'joy'. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

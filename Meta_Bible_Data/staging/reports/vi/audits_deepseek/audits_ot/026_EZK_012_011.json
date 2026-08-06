@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 12,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'họ sẽ phải đem đồ đạc đi trốn' (they will have to take their belongings and flee), which has no basis in the Hebrew. The Hebrew only says 'they will go into exile, into captivity' (בַּגּוֹלָה בַשְּׁבִי יֵלֵכוּ)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

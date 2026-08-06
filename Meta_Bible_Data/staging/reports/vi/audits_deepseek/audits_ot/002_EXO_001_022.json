@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'của người Hê-bơ-rơ' (of the Hebrews), which is not present in the Hebrew text. The Hebrew says 'every son that is born' (כָּל הַבֵּן הַיִּלּוֹד) without specifying 'of the Hebrews' in this verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

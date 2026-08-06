@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 28,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is Jacob (implied by context, verb וַיִּפְגַּע 'he arrived'), but the Vietnamese renders 'Đức Giê-hô-va' (the LORD) as the subject, which is a different entity not present in the Hebrew text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

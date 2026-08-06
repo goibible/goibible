@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Chúa Trời ơi' (O God) at the beginning, which is not present in the Hebrew text. The Hebrew begins with 'לַמְנַצֵּחַ לְדָוִד' (For the choir director, of David), which is omitted entirely in the Vietnamese rendering."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew superscription 'לַמְנַצֵּחַ לְדָוִד' (For the choir director, of David) is missing from the Vietnamese translation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

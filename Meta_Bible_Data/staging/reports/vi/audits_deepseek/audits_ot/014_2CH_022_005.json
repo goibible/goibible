@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Place name 'Ra-mốt Ghi-lê-át' (רָמוֹת גִּלְעָד) is rendered as 'Ra-mốt, Giê-lê-đa' — 'Ghi-lê-át' (Gilead) is swapped for 'Giê-lê-đa', a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

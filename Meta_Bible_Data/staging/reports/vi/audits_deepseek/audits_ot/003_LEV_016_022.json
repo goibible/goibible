@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 16,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text says 'tội lỗi của họ' (all their iniquities), referring to the people of Israel, but the Vietnamese adds 'của Y-sơ-ra-ên' (of Israel), which is not explicitly in the Hebrew. This is an addition of a specific name not present in the source text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

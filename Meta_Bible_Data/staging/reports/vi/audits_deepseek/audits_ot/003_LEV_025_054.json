@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 25,
+  "verse": 54,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּשְׁנַ֣ת הַיֹּבֵ֔ל' means 'in the year of Jubilee' (יֹבֵל = Jubilee). The Vietnamese renders it as 'năm thùyên' which appears to be a misspelling or misrendering of 'năm thùyên' (likely intended 'năm thùyên' but not 'năm thùyên' — actually 'thùyên' is not a standard Vietnamese word for Jubilee; the correct term is 'năm thùyên' or 'năm thùyên' — but the Hebrew clearly refers to the Jubilee year, and the Vietnamese word 'thùyên' is unrecognizable and likely a typo for 'thùyên' (Jubilee) or 'thùyên' — however, the meaning is obscured, so this is a mistranslation of the proper term 'Jubilee'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

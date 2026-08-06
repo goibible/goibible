@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּרַעַשׁ וְרֹגֶז יְגַמֶּא אָרֶץ' means 'He swallows the ground with fierceness and rage' (the horse swallows/dashes the ground). The Vietnamese 'Nó hí vang, ngậm đất, rung chuyển cả đất đai' adds 'hí vang' (neighs loudly) which is not in the Hebrew, and 'rung chuyển cả đất đai' (shakes the whole land) is an addition; the Hebrew only says 'swallows the ground' with 'ra'ash and rogez' (trembling and rage) as manner, not that the land trembles. This changes the imagery and adds concepts not present."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

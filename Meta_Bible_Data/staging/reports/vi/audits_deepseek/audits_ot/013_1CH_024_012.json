@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va phân định' (Jehovah assigned/apportioned); this is an addition not present in the Hebrew, which simply lists the names and numbers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

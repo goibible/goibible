@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 87,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'this one was born there' (זֶה יֻלַּד שָׁם), referring to Zion (implied by context, but the word 'there' is explicit). The Vietnamese adds 'tại Si-ôn' (in Zion), which is an addition not present in the Hebrew text. The Hebrew does not name Zion in this verse; it only says 'there'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

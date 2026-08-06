@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Place name 'עֶצְיוֹן גָּבֶר' (Ezion-geber) is rendered as 'Ghê-be', dropping 'Ezion' and only keeping 'Geber'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 18,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יֹאכַל בַּדֵּי עוֹרוֹ' means 'It (the disease) eats the branches/limbs of his skin' (i.e., his skin's limbs are consumed), but the Vietnamese says 'Các chi thể hắn sẽ bị tiêu diệt' (His limbs will be destroyed), which changes the subject/agent: in Hebrew, the subject is the disease (implied) eating the skin's branches, not the limbs being destroyed by an unspecified agent. Also, 'bị tiêu diệt' (be destroyed) is not equivalent to 'eat' (יאכל)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause 'יֹאכַל בַּדָּיו בְּכוֹר מָוֶת' literally means 'the firstborn of death will eat his limbs' (i.e., Death's firstborn consumes his limbs). The Vietnamese 'chính con đầu lòng của sự chết sẽ nuốt chửng hắn' (the firstborn of death will devour him) omits the object 'his limbs' (בַּדָּיו) and replaces it with 'him' (hắn), changing the object from the limbs to the whole person. This is a substantive omission/mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

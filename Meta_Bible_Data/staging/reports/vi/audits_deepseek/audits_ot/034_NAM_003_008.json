@@ -1,0 +1,18 @@
+{
+  "book": "NAM",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'No Amon' (נֹא אָמוֹן), the Egyptian city Thebes/No-Amon. The Vietnamese renders it as 'Nô-âm-vôn' which appears to be a conflation or corruption of the name, adding an extra element 'vôn' not present in the Hebrew. The correct transliteration should be something like 'Nô Amôn'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

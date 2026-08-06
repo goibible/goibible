@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 74,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִקֶּרֶב חוקך' means 'from the midst of your bosom/chest' (i.e., from within Your bosom), but the Vietnamese says 'khỏi lòng Ngài' (from Your heart), which is a different body part. The Hebrew 'חוקך' is 'bosom/chest', not 'heart' (לֵב). This changes the imagery and meaning."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'kẻ thù' (the enemy) which is not present in the Hebrew. The Hebrew 'כַלֵּה' means 'consume/destroy' without specifying the object; the object is implied from context (likely 'them' referring to enemies), but the explicit addition of 'kẻ thù' is an addition not in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

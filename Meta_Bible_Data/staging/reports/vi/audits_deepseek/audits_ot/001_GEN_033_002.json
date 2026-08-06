@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 33,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says Leah and her children are 'acharonim' (last/behind), same as Rachel and Joseph, but Vietnamese renders Leah's group as 'ở giữa' (in the middle), which is not in the Hebrew and changes the positional order."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

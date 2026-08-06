@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 23,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּמָלְכוֹ בִּירוּשָׁלִָם' means 'when he reigned in Jerusalem' (infinitive construct with suffix, 'when he was king'), but Vietnamese renders it as 'để người không thể trị vì tại Giê-ru-sa-lem' ('so that he could not reign in Jerusalem'), adding a negation and changing the meaning from a temporal clause to a purpose clause with a prohibition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

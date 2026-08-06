@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 13,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֶלְיָשִׁיב (Elyashiv) is rendered as 'En-ni-ki', which is a different name entirely; it should be 'Ê-li-a-síp' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

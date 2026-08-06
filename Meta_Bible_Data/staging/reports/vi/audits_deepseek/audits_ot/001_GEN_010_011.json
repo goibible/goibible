@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Asshur went out from that land' (i.e., Asshur departed from that land), but the Vietnamese says 'người đến xứ A-si-ri' (he came to the land of Assyria), reversing the direction of movement. The Hebrew has Asshur as the subject leaving the land, not arriving in Assyria."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

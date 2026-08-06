@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 92,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'khi kẻ ác chống tôi bị trừng phạt' (when the wicked who oppose me are punished), which is not present in the Hebrew. The Hebrew only says 'my eye looks on my enemies; my ears hear the evildoers who rise up against me' — there is no mention of punishment."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 25,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew says 'con cái Sê-i-rơ' (bene Seir, i.e. Edomites/Seirites), but Vietnamese says 'con cái Ê-đôm' (children of Edom). While Seir is often synonymous with Edom, the Hebrew text specifically names Seir, not Edom; this is a name swap that changes the proper name in the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

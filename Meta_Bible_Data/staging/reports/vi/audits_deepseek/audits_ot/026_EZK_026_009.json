@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 26,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'וּמְחִ֣י קָֽבָלּ֔וֹ' (and he will strike his battering rams) is rendered as 'Hắn sẽ dùng battering rams đập phá' (he will use battering rams to smash), which omits the explicit verb 'strike' (יִתֵּן) and the possessive 'his' (קָבָלּוֹ) is not clearly conveyed; the Vietnamese adds 'dùng' (use) and 'đập phá' (smash) which changes the action from 'strike with his battering rams' to 'use battering rams to smash', a slight shift in meaning but not a major factual difference. However, the second clause 'וּמִ֨גְדְּלֹתַ֔יִךְ יִתֹּ֖ץ בְּחַרְבוֹתָֽיו' (and your towers he will demolish with his swords) is rendered as 'và dùng các vũ khí của mình đánh sập các đồn lũy ngươi' (and use his weapons to demolish your fortresses), which changes 'towers' (מִגְדְּלֹתַיִךְ) to 'fortresses' (đồn lũy) and 'swords' (חַרְבוֹתָיו) to 'weapons' (vũ khí), a substantive mistranslation of specific terms."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

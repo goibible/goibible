@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 27,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew says 'from the fatness of the earth' (מִשְׁמַנֵּי הָאָרֶץ) and 'from the dew of heaven' (מִטַּל הַשָּׁמַיִם), meaning abundance of these blessings. The Vietnamese adds 'thiếu' (lacking) twice, reversing the meaning to a curse of scarcity, which is a negation error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

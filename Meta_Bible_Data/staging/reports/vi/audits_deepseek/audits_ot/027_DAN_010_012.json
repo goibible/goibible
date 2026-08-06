@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is 'he said to me' (unnamed speaker, contextually Gabriel), but the Vietnamese renders 'Đức Giê-hô-va phán cùng tôi' ('The LORD said to me'), introducing a divine name not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

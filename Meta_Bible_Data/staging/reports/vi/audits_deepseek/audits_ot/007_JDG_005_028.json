@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַתְּיַבֵּב' means 'she cried out/lamented' (from יבב, to wail), but Vietnamese renders it as 'khóc lóc' (weeping) which is acceptable; however, the Hebrew 'בּוֹשֵׁשׁ רִכְבּוֹ לָבוֹא' means 'his chariot is ashamed to come' (i.e., delayed), and 'אֶחֱרוּ פַּעֲמֵי מַרְכְּבוֹתָיו' means 'the steps of his chariots tarry'. The Vietnamese 'Sao xe ngựa chàng chậm về thế?' adds 'chàng' (he) and 'về' (return) not in Hebrew, and 'Sao bánh xe xe chàng trì hoãn?' adds 'bánh xe' (wheels) not in Hebrew (Hebrew says 'steps of his chariots', not wheels). These additions change the imagery and introduce a personal subject ('chàng') not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

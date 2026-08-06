@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 'sáu trăm ngàn và một ngàn bảy trăm ba mươi' (601,730). The Vietnamese renders it as 'sáu trăm một ngàn bảy trăm ba mươi' (601,730? Actually 'sáu trăm một ngàn' is ambiguous but likely misread as 601,000? The correct is 601,730; the Vietnamese 'sáu trăm một ngàn bảy trăm ba mươi' could be read as 601,730, but the Hebrew has 'sáu trăm ngàn và một ngàn' (600,000 + 1,000 = 601,000) plus 730. The Vietnamese 'sáu trăm một ngàn' is not standard; it should be 'sáu trăm ngàn một ngàn' or 'sáu trăm lẻ một ngàn'. The rendering 'sáu trăm một ngàn' likely means 601,000, which is correct, but the issue is the omission of the 'và' (and) between the thousands and the hundreds? Actually the Hebrew: 600,000 + 1,000 + 700 + 30 = 601,730. The Vietnamese: 'sáu trăm một ngàn bảy trăm ba mươi' = 601,730? 'sáu trăm một ngàn' = 601,000? In Vietnamese, 'sáu trăm một ngàn' is not standard; it should be 'sáu trăm ngàn một ngàn' or 'sáu trăm lẻ một ngàn' to mean 601,000. The rendering 'sáu trăm một ngàn' could be misread as 600,100? Actually 'sáu trăm' = 600, 'một ngàn' = 1,000, so 'sáu trăm một ngàn' = 601,000? No, in Vietnamese, 'sáu trăm' is 600, 'một ngàn' is 1,000, so 'sáu trăm một ngàn' would be 600 + 1,000 = 1,600? That is wrong. The correct is 'sáu trăm ngàn' (600,000) + 'một ngàn' (1,000) = 601,000. The Vietnamese has 'sáu trăm một ngàn' which is ambiguous and likely a mistranslation of the number. The Hebrew clearly states 600,000 + 1,000 + 700 + 30 = 601,730. The Vietnamese 'sáu trăm một ngàn bảy trăm ba mươi' could be read as 601,730 if 'sáu trăm một ngàn' is understood as 601,000, but it is not standard. The issue is the number is not clearly rendered; it should be 'sáu trăm ngàn một ngàn bảy trăm ba mươi' or 'sáu trăm lẻ một ngàn bảy trăm ba mươi'. The current rendering 'sáu trăm một ngàn' is a mistranslation of the number, potentially changing the count. Also, the Hebrew has 'và' (and) between the thousands and the hundreds, which is omitted. This is a number error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 46,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is 'the prince' (הַנָּשִׂיא), but the Vietnamese renders it as 'Đức Chúa Trời' (God), which is a different entity and changes who is acting."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

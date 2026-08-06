@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 37,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has Jeremiah (יִרְמְיָהוּ) speaking, but the Vietnamese renders the speaker as 'Ê-xê-ra' (Ezra), a different name. Also, the Hebrew has Irijah (יִרְאִיָּיה) seizing Jeremiah, but the Vietnamese says 'Ích-đê-gia' (Irijah is a different name; 'Ích-đê-gia' is not the standard Vietnamese rendering of יִרְאִיָּיה, which is typically 'Giê-rê-mi' is Jeremiah, but the captor's name is wrong)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

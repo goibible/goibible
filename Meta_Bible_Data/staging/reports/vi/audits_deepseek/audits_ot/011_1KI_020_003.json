@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Ben-hadad' (בֶּן הֲדַד) said this, but the Vietnamese renders it as 'Đức Giê-hô-va' (the LORD), swapping the speaker from Ben-hadad to the LORD."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

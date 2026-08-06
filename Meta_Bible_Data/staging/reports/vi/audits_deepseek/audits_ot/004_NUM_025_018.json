@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 25,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has כָּזְבִּי (Kozbi), but the Vietnamese renders it as 'Cốt-bi' — the name is not a standard transliteration of Kozbi; it appears to be a different name (possibly a typo or substitution)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

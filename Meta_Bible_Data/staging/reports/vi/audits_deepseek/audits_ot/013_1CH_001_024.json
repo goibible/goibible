@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'שֵׁם אַרְפַּכְשַׁד שָׁלַח' means 'the name of Arpachshad, Shelah' (i.e., Shelah is the son of Arpachshad). The Vietnamese adds 'Sêm' (Shem) which is not in the Hebrew, and omits 'Xê-la' (Shelah) as the son of Arpachshad, instead listing three separate names. This changes the genealogical relationship and adds an extra name not present in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 41,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּפְנֵי הַקֹּדֶשׁ הַמַּרְאֶה כַּמַּרְאֶה' means 'and the face of the holy place, the appearance was like the appearance' (i.e., the appearance of the holy place was like the appearance of the temple). The Vietnamese says 'mặt tiền của nơi thánh có hình dạng giống như hình dạng của đền thờ' — 'the facade of the holy place has a shape like the shape of the temple.' This adds 'của đền thờ' (of the temple) which is not in the Hebrew; the Hebrew only says 'like the appearance' without specifying 'of the temple.' This is an addition that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

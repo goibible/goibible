@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 6,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew begins with 'וְאַתָּה' ('And You'), addressing God directly in the second person ('You will hear...'). The Vietnamese rendering 'Đức Giê-hô-va sẽ nghe' ('Jehovah will hear') changes the direct address to a third-person reference, omitting the explicit 'You' and altering the person of the verb from second to third person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

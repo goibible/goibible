@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has Jehoshaphat (Giô-sa-phát) asking the question, but the Vietnamese renders the speaker as Đa-vít (David)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 15,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is Saul (שאול), but the Vietnamese says 'Sa-mu-ên' (Samuel), swapping the person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

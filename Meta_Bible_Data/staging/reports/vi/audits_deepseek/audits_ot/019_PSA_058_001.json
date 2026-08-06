@@ -1,0 +1,30 @@
+{
+  "book": "PSA",
+  "chapter": 58,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not contain 'Đức Giê-hô-va phán' (The LORD says/speaks). This is an added clause not present in the Hebrew, which introduces a speaker not in the original text."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'לַמְנַצֵּחַ אַל תַּשְׁחֵת' (For the chief musician, 'Do not destroy') is entirely omitted in the Vietnamese translation. This is a substantive omission of the psalm's title/superscription."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַֽאֻמְנָ֗ם אֵ֣לֶם צֶ֭דֶק תְּדַבֵּר֑וּן' is a rhetorical question: 'Do you indeed speak righteousness, O mute ones?' The Vietnamese renders it as a statement 'các ngươi thật sự không nói lời công bình' (you truly do not speak righteous words), which changes the interrogative into an assertion and adds 'không' (not), reversing the meaning."
+        },
+        {
+          "kind": "addition",
+          "detail": "The phrase 'lòng các ngươi làm điều bất chính' (your hearts do injustice) has no basis in the Hebrew text. The Hebrew has 'מֵישָׁרִים תִּשְׁפְּטוּ בְּנֵי אָדָם' (you judge uprightly the sons of men), which is a separate clause, not a statement about hearts doing injustice."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

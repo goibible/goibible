@@ -1,0 +1,13 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

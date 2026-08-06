@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 13,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'עפרון' (Ephron/Ofrah), but Vietnamese renders 'Ê-phơ-rain' (Ephraim). The name is swapped for a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

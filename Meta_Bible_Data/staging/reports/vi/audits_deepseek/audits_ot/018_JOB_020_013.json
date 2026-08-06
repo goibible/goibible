@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 20,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is 'he' (the wicked man) who 'spares' (יַחְמֹל) the evil thing and does not abandon it, keeping it within his palate. The Vietnamese 'Dẫu nó yêu mến điều ác' introduces 'nó yêu mến' (it loves) which is not in the Hebrew; the Hebrew verb is 'spares/has compassion on' (יַחְמֹל), not 'loves'. This changes the meaning from 'he spares it' to 'it loves evil'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

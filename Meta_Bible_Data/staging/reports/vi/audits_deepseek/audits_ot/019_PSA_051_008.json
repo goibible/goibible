@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 51,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va' (the LORD/Yahweh); it simply says 'you have crushed' (דִּכִּיתָ) with the subject being God implied from context, but the divine name is not present in this verse. Adding 'Đức Giê-hô-va' introduces a name not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

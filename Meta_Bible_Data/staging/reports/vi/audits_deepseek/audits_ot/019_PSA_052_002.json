@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 52,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew opening clause 'בְּבוֹא דּוֹאֵג הָאֲדֹמִי וַיַּגֵּד לְשָׁאוּל וַיֹּאמֶר לוֹ בָּא דָוִד אֶל בֵּית אֲחִימֶלֶךְ' (When Doeg the Edomite came and told Saul, saying to him, 'David came to the house of Ahimelech') is entirely omitted from the Vietnamese translation. The Vietnamese begins directly with 'Lưỡi ngươi toan bày điều ác' (Your tongue plots evil), which corresponds to the second half of the verse, leaving out the historical reference to Doeg, Saul, and Ahimelech."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַוּוֹת תַּחְשֹׁב לְשׁוֹנֶךָ' (Your tongue plots destruction/evil) is rendered as 'Lưỡi ngươi toan bày điều ác' (Your tongue plots evil), which is acceptable, but the phrase 'כְּתַעַר מְלֻטָּשׁ עֹשֵׂה רְמִיָּה' (like a sharp razor, working deceit) is rendered as 'lưỡi ngươi làm điều giả dối như dao cạo bén' (your tongue does deceit like a sharp razor), which is close. However, the omission of the entire first half of the verse (the historical context) is a substantive omission that changes the reader's understanding of the psalm's setting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

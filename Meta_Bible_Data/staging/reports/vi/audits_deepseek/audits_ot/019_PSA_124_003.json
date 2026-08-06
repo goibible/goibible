@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 124,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew clause 'אֲזַי חַיִּים בְּלָעוּנוּ בַּחֲרוֹת אַפָּם בָּנוּ' (Then they would have swallowed us alive, when their anger was kindled against us) is entirely missing from the Vietnamese. The Vietnamese only renders the preceding verse's protasis (If the LORD had not been on our side) and then jumps to a different clause ('thì chắc nó đã nuốt sống chúng ta rồi' - then surely it would have swallowed us alive), which is not in the Hebrew text provided. The Hebrew has no 'nó' (it) and no 'thì chắc' (then surely) - it is a direct statement about 'they' (the enemies) swallowing 'us' alive in their anger."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 12,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵאֵת מַכָּרֵיכֶם' means 'from your acquaintances/those known to you' (referring to the people giving money), but the Vietnamese 'từ những người quen các ngươi' is ambiguous and could be read as 'from the people you know' rather than 'from your acquaintances' (the donors). More importantly, the Hebrew 'אַל תִּקְחוּ כֶסֶף מֵאֵת מַכָּרֵיכֶם' means 'do not take money from your acquaintances' (i.e., the people who bring contributions), but the Vietnamese 'đừng nhận tiền từ những người quen các ngươi nữa' adds 'nữa' (anymore), implying a cessation of an ongoing practice, which is not in the Hebrew. The Hebrew simply says 'do not take' without the temporal 'anymore'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

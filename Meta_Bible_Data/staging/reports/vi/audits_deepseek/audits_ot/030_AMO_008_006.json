@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמַפַּל בַּר נַשְׁבִּיר' means 'and the refuse of grain we will sell' (or 'we will sell the sweepings of wheat'), but the Vietnamese renders it as 'và bán thóc lép?' ('and sell shriveled grain?'), which changes the verb from first-person plural 'we will sell' to an infinitive/question form, and omits the first-person subject. This alters who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

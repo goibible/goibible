@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 17,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּשַׂגְשֵׂגִי' means 'you cause to flourish' or 'you make thrive' (from the root שׂגשׂג, to grow luxuriantly), not 'rào đâm chồi' (you fence/sprout). The Vietnamese adds 'rào' (fence) which is not in the Hebrew and changes the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נֵד קָצִיר' means 'a heap of harvest' (i.e., a harvest heap), not 'mùa gặt bị tiêu tan' (the harvest is destroyed). The Vietnamese adds 'bị tiêu tan' (is destroyed) which is not present in the Hebrew; the Hebrew simply says 'a heap of harvest' in the day of grief and incurable pain."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

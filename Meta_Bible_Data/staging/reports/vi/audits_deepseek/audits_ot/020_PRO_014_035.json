@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 14,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵבִישׁ' (mebish) means 'causing shame' or 'shameful' (referring to the servant who acts shamefully), but the Vietnamese renders it as 'kẻ làm nhục mình' (the one who shames himself), which shifts the subject from the servant to the king's wrath falling on the one who shames himself. The Hebrew says 'his wrath will be a shame-bringer' (i.e., the wrath causes shame), not that the wrath falls on a specific person. This changes the meaning: the Hebrew contrasts a wise servant (who pleases the king) with a shameful servant (whose behavior brings shame), while the Vietnamese implies the king's anger targets someone who shames himself."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Ê-li-gia' (Elijah), but the Vietnamese renders 'Ê-li-sai' (Elisha), a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

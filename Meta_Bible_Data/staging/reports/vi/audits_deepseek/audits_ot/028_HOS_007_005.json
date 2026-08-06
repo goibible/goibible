@@ -1,0 +1,26 @@
+{
+  "book": "HOS",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'י֣וֹם מַלְכֵּ֔נוּ' means 'the day of our king' (i.e., a royal festival/celebration day), not 'the day of the feast of our king' — the word 'lễ' (feast) is an addition not present in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הֶחֱל֥וּ שָׂרִ֖ים חֲמַ֣ת מִיָּ֑יִן' means 'the princes have begun [to be] sick/ill from wine' (the verb 'החלו' = 'they began' with the noun 'חמת' = 'heat/poison/venom' or possibly 'sickness'), not 'the princes have become angry because of wine' — 'nổi giận dữ' (became angry) is a mistranslation; the Hebrew indicates the princes began to be poisoned/sickened by wine, not that they became angry."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מָשַׁ֥ךְ יָד֖וֹ אֶת לֹצְצִֽים' means 'he stretched out his hand with/against the scoffers' — the subject is the king (implied from context), and 'אֶת' here means 'with' or 'against', not 'cùng với' (together with) in a neutral sense; the verb 'משך' means 'stretched out/drew', not 'giơ' (raised) — though 'giơ' is close, the key issue is that the Vietnamese 'vua đã giơ tay mình cùng với những kẻ chế giễu' implies the king joined the scoffers, whereas the Hebrew likely means he stretched out his hand against them (in judgment) or with them (in alliance) — the ambiguity is real, but the Vietnamese 'cùng với' (together with) leans toward alliance, which may misrepresent the likely hostile sense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

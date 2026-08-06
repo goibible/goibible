@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'זָכָר וּנְקֵבָה' means 'male and female' (singular collective), but the Vietnamese renders it as 'bảy con cái và bảy con đực' (seven females and seven males), reversing the order and implying seven of each sex per species, whereas the Hebrew means seven pairs (male and female) per species. The order of 'cái' (female) before 'đực' (male) also reverses the Hebrew order."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

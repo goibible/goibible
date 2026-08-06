@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has וְעֵילָם וָעָזֶר ('Ê-lam và Ê-xe') — correct. But the final name יִזְרַחְיָה is 'Dít-ra-hia' (Yizrachyah), not 'Giê-xa-ria' (which would be a different name, likely Yeshayah/Isaiah). This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

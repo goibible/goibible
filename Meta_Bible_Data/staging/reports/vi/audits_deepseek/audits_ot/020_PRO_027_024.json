@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 27,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאִם נֵזֶר לְדוֹר דור' literally means 'and if a crown (endures) to generation of generation' — i.e., 'and does a crown endure to all generations?' The Vietnamese renders 'triều miện' (crown) but adds 'há sẽ còn đến đời đời sao?' which introduces a rhetorical question with 'đời đời' (forever) and 'há' (surely not), changing the nuance. More critically, the Hebrew 'נֵזֶר' is 'crown' (a symbol of honor/royalty), but the Vietnamese 'triều miện' is acceptable. However, the phrase 'וְאִם' ('and if') is rendered as 'há' (a rhetorical question particle), which is an addition not in the Hebrew, and the verb 'còn' (remain) is added, altering the sense from a conditional 'if a crown (endures) to generation of generation' to a rhetorical question about eternity. The Hebrew does not have an interrogative particle; it is a conditional clause. This changes the meaning from a statement about the transience of wealth and the conditional endurance of a crown to a rhetorical question, which is a substantive shift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

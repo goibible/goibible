@@ -1,0 +1,13 @@
+{
+  "book": "DEU",
+  "chapter": 28,
+  "verse": 68,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

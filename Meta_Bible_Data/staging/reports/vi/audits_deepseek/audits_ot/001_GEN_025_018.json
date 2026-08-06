@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 25,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'שׁוּר' (Shur) is rendered as 'Xu-xơ' in Vietnamese, which appears to be a different name (possibly 'Su-sơ' or similar) rather than the expected transliteration of 'Shur' (e.g., 'Su-rơ' or 'Sua'). This could lead a reader to identify the wrong location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

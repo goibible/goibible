@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says she gleaned in the field (בַּשָּׂדֶה) and the grain is barley (שְׂעֹרִים), but the Vietnamese says 'gặt lúa mì' (harvested wheat) and 'lúa mạch' (barley) at the end. The first occurrence 'lúa mì' (wheat) is an incorrect rendering of the Hebrew 'שְׂעֹרִים' (barley), which is a different grain. The second occurrence correctly says 'lúa mạch' (barley), creating an inconsistency and a factual error about the crop."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

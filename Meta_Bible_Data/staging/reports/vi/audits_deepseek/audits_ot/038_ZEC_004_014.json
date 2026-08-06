@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'hai con trai của Yitshar' (בְנֵֽי הַיִּצְהָ֑ר), but the Vietnamese says 'hai con trai của Ê-xa' (Ê-xa is Esau), which is a different name. The correct name is Yitshar (Ê-xa is a mistranslation)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 110,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מָחַץ רֹאשׁ עַל אֶרֶץ רַבָּה' means 'he crushes the head upon/over a wide land' (i.e., the head of the enemy on a vast battlefield), but the Vietnamese 'nghiền nát đầu của đất nước lớn' renders 'đầu của đất nước lớn' as 'the head of the great nation/country', changing the object from a person's head (crushed on the ground) to the head/leader of a nation. This alters the meaning: the Hebrew has the head (of the enemy) being crushed on the wide earth, not the head of a country."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

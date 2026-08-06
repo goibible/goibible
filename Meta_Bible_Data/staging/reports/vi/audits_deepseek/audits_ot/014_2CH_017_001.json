@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 17,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יְהוֹשָׁפָט (Jehoshaphat) is rendered as 'Ê-xu' (Esau) instead of 'Giô-sa-phát' or similar. This is a different person."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew עַל יִשְׂרָאֵל means 'over Israel' (i.e., he strengthened himself over/with regard to Israel), not 'chống lại Y-sơ-ra-ên' ('against Israel'), which reverses the relationship."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

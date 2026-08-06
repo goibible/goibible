@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 31,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֵרֲכוּנִי' (blessed me) is rendered as 'được ấm lòng' (warmed heart), which changes the meaning from blessing to warmth. The subject 'người nghèo' (the poor) is not in the Hebrew; the Hebrew has no explicit subject for 'blessed me' (implied 'they' from context). The clause 'kẻ yếu đuối' (the weak) is an addition not present in the Hebrew, which only mentions 'my sheep' (כְּבָשַׂי) and 'their fleece' (גֵּז). The Hebrew says 'if they have not blessed me, and from the fleece of my sheep they have warmed themselves' — the Vietnamese adds 'the poor' and 'the weak' as subjects, and changes 'blessed me' to 'warmed heart', altering the factual claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

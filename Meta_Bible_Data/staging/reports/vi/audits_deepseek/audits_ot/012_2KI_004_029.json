@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 4,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'וַיֹּאמֶר' (he said) with the subject being Elisha from context, but the Vietnamese renders 'Đức Giê-hô-va phán' (the LORD said), attributing the speech to God instead of Elisha."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 35,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says Jeremiah (יִרְמְיָהוּ) mourned for Josiah, but the Vietnamese says 'Ê-xê-ra' (Ezra), which is a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

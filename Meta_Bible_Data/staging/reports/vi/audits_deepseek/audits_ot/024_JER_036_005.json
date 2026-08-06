@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 36,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says Jeremiah (יִרְמְיָהוּ) commanded Baruch, but the Vietnamese says Ê-xê-chi-a (Hezekiah) commanded Baruch. The name is swapped."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

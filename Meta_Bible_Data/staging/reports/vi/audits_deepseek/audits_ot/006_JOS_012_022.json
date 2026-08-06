@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 12,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'יָקְנֳעָם' (Jokneam) is rendered as 'Giô-ke-than' (Joktheel), a different place name. The correct Vietnamese transliteration should be 'Giô-kê-nê-am' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

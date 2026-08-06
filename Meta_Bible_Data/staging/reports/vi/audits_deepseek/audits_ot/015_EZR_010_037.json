@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has only two names: מַתַּנְיָה (Mattaniah) and מַתְּנַי (Mattenai), followed by ויעשו (and they did/made). The Vietnamese adds a third name 'Gia-a-sau' (Jaa-sau) which is not present in the Hebrew text, and omits the verb 'ויעשו' (and they did/made)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

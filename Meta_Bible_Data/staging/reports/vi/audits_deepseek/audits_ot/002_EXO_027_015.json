@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 27,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'və-lak-kā-tēf haš-šē-nīt' means 'and for the second side' (i.e., the other side), but Vietnamese says 'Phía bên phải' (the right side), which is an unwarranted specification not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

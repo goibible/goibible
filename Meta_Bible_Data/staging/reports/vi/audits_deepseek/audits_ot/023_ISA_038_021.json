@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 38,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'dəvelət tə'enim' means 'a cake of figs' (a pressed fig cake), not 'miếng vải gai' (a piece of linen cloth). This changes the substance applied to the boil."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

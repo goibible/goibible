@@ -1,0 +1,22 @@
+{
+  "book": "GEN",
+  "chapter": 44,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַאדֹנִי' (to my lord) is translated as 'Đức Chúa Trời' (God) in the first clause, but it should be 'chúa tôi' (my lord), referring to Joseph, not God. This changes the addressee of Judah's speech."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַאדֹנִי' (to my lord) in the final clause is also translated as 'Đức Chúa Trời' (God), but it should be 'chúa tôi' (my lord), referring to Joseph. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

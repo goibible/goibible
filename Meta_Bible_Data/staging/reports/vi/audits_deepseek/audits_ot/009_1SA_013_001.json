@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 13,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'Saul' (שָׁאוּל) was king, but the Vietnamese renders 'Sa-mu-ên' (Samuel), a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּכֵלֶת' means 'blue' (or violet/blue-purple), but the Vietnamese renders it as 'màu điều' (crimson/red). This changes the color described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

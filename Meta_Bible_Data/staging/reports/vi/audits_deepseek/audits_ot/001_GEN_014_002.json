@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese text is only a list of names and omits the entire clause 'made war with' (עָשׂוּ מִלְחָמָה אֶת) and the titles 'king of' (מֶלֶךְ) for each named city, as well as the appositive 'that is Zoar' (הִיא צֹעַר). The Hebrew states that these kings made war; the Vietnamese simply lists the names without the action or the royal titles."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

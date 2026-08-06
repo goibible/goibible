@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 80,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb עָשַׁנְתָּ (from עָשַׁן, 'to be angry, to smoke/fume') is rendered as 'nổi giận' (to be angry), which is acceptable, but the phrase 'còn nổi giận lời cầu nguyện' is grammatically awkward and could imply anger at the prayer itself. The Hebrew means 'angry against/with the prayer of your people' (i.e., angry at the people because of their prayer, or refusing to hear it). The Vietnamese 'nổi giận lời cầu nguyện' lacks the preposition 'against/with' (against the prayer), making it sound like the anger is directed at the prayer as an object, which is a slight distortion. However, the main issue is that the Hebrew has 'עַד מָתַי' (until when/how long) — the Vietnamese 'cho đến chừng nào' is correct. The verb tense is perfect (עָשַׁנְתָּ) — 'you have been angry' — but Vietnamese uses present 'còn nổi giận' (still angry), which is acceptable contextually. The core meaning is preserved, but the missing preposition changes the object of anger slightly. Given the instruction to flag only substantive differences, this is borderline; however, the phrase 'nổi giận lời cầu nguyện' is a mistranslation because it omits the relational sense (anger against/at the prayer), making it read as if the anger is directed at the prayer itself rather than at the people through their prayer. This is a substantive change in meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

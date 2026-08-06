@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 26,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יכיליה (Yekhilyahu/Yechiliah) is rendered as 'Xi-ki-lia' in Vietnamese, which is a different name. The Hebrew name is not 'Jechiliah' but 'Yekhilyah' (יכיליה), and the Vietnamese transliteration 'Xi-ki-lia' does not match the Hebrew consonants (יכיליה = Y-K-Y-L-Y-H). The correct transliteration should reflect 'Yê-ki-lia' or similar, not 'Xi-ki-lia'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

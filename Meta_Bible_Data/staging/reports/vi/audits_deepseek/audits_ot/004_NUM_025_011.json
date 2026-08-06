@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 25,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew says 'Phinehas son of Eleazar son of Aaron the priest' (פִּֽינְחָ֨ס בֶּן אֶלְעָזָ֜ר בֶּן אַהֲרֹ֣ן הַכֹּהֵ֗ן), but the Vietnamese omits 'son of Eleazar' (bèn E-lê-a-sa), only saying 'con trai A-rôn' (son of Aaron)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 18,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Saul' (שָׁאוּל) spoke to David, but the Vietnamese renders the second occurrence as 'Sa-mu-ên' (Samuel), which is a different person and changes who is speaking."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

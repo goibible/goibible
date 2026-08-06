@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 9,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Chamath' (חֲמָת) but the Vietnamese renders it as 'Hẳm-thát', which is not a recognized transliteration of that name; it appears to be a different name or a corruption."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

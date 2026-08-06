@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 36,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִמְצֹא עֲוֺנוֹ לִשְׂנֹא' means 'to find his iniquity to hate [it]' (i.e., to discover his own sin so as to hate it), but the Vietnamese 'để không thấy tội mình mà ghét bỏ' adds 'không' (not), reversing the meaning to 'so as not to see his sin and hate it'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

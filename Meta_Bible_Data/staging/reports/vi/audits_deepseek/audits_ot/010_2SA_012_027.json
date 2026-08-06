@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 12,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עִיר הַמָּיִם' means 'the city of waters' (i.e., the water supply/citadel of Rabbah), but the Vietnamese renders it as 'thành của các nước' ('city of the nations'), which is a mistranslation. The word 'מָּיִם' (waters) is incorrectly rendered as 'các nước' (nations), changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

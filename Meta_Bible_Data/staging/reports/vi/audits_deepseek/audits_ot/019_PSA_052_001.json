@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 52,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew begins with 'לַמְנַצֵּחַ מַשְׂכִּיל לְדָוִד' (For the chief musician, a contemplation of David), which is entirely omitted in the Vietnamese. The Vietnamese adds 'Đức Chúa Trời ơi' (O God) as a vocative, which is not present in the Hebrew text (the Hebrew has no address to God in this verse)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

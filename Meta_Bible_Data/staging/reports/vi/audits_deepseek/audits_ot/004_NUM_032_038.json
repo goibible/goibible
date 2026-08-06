@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 32,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'מֽוּסַבֹּ֥ת שֵׁ֖ם' (whose name was changed) is not fully rendered; the Vietnamese says 'rồi đổi tên Síp-ma' (then changed the name of Sibmah), but the Hebrew indicates that Nebo and Baal-meon had their names changed, and Sibmah is listed as a third city, not the object of the renaming. The Vietnamese omits the renaming of Nebo and Baal-meon and incorrectly attaches the renaming to Sibmah."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

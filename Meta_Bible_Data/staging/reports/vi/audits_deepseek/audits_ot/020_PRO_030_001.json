@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 30,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נְאֻם הַגֶּבֶר' means 'the oracle/utterance of the man' (i.e., the man's own words), not 'Đức Giê-hô-va phán cho người' ('the LORD spoke to the man'). This adds a divine speaker not present in the Hebrew and changes the subject of the utterance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

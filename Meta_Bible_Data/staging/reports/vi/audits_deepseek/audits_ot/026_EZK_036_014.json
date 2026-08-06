@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 36,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text has 'אָדָם' (Adam) as the addressee, but the Vietnamese rendering omits the name 'A-đam' and uses only 'ngươi' (you)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

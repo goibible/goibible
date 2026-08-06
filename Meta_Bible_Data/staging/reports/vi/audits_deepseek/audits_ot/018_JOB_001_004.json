@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִשְׁלֹשֶׁת אחיתיהם' means 'their three sisters' (three female siblings), but the Vietnamese says 'ba chị em gái mình' which is correct in meaning ('three sisters'), so this is not an error. However, the Hebrew 'בֵּית אִישׁ יוֹמוֹ' means 'each one in his own house on his day' (each brother hosted in his own house on his appointed day), but the Vietnamese 'mỗi người thay phiên nhau đãi tiệc trong nhà mình' adds 'thay phiên nhau' (taking turns) which is an interpretive addition not explicitly in the Hebrew, though it may be implied. The main issue: the Hebrew says 'his sons' (בָנָיו) referring to Job's sons, and the Vietnamese 'Các con trai người' is correct. The verb 'וְשָׁלְחוּ וְקָרְאוּ' means 'they sent and called' (they sent messengers to invite), but the Vietnamese 'sai mời' (sent to invite) is acceptable. The phrase 'לִשְׁלֹשֶׁת אחיתיהם' – 'to their three sisters' – the Vietnamese 'ba chị em gái mình' is correct. However, the Hebrew 'אִישׁ יוֹמוֹ' means 'each on his day' (each brother had his own designated day), and the Vietnamese 'mỗi người thay phiên nhau' (each taking turns) is a reasonable interpretation. The most significant issue: the Hebrew 'בֵּית אִישׁ יוֹמוֹ' literally 'in the house of each man on his day' – the Vietnamese 'trong nhà mình' (in his own house) is correct. Overall, the translation is faithful. The only potential flag: the Hebrew 'וְהָלְכוּ' (and they went) is rendered as 'thường đi' (usually went) adding a habitual sense not in the Hebrew, but this is a minor interpretive addition. Since the instruction says flag only if a Vietnamese reader would come away believing something factually different, and the meaning is essentially preserved, this should be OK. However, the addition of 'thay phiên nhau' (taking turns) is not in the Hebrew – the Hebrew just says 'each on his day' which implies a rotation, so it's acceptable. The verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

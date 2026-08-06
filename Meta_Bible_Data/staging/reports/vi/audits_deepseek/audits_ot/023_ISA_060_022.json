@@ -1,0 +1,13 @@
+{
+  "book": "ISA",
+  "chapter": 60,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 1.0
+    }
+  }
+}

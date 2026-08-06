@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 36,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹכֶלֶת אָדָם אתי וּמְשַׁכֶּלֶת גויך הָיִית' is a direct address to the land (feminine singular): 'You (the land) have been a devourer of people and have bereaved your nations.' The Vietnamese renders it as 'Ngươi là kẻ nuốt người và làm cho các dân tộc mình phải tang tóc' — 'You are the one who devours people and makes your nations mourn.' This is essentially correct in meaning, but the Hebrew uses the perfect tense 'הָיִית' ('you have been'), which the Vietnamese renders as present 'là' ('are'), potentially shifting the temporal nuance. However, the main issue is that the Hebrew 'אֹמְרִים לָכֶם' ('those who say to you [plural]') is rendered as 'dân nói cùng đất nầy' ('the people say to this land'), which adds 'đất nầy' ('this land') not present in the Hebrew — the Hebrew has 'to you' (plural, referring to the people of Israel), not 'to this land.' This changes the addressee of the saying, making it appear the people speak to the land rather than to the Israelites. This is a substantive shift in who is being addressed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

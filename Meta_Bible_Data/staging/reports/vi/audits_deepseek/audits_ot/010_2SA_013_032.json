@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is יוֹנָדָב (Yonadav), but the Vietnamese renders it as 'Giô-na-than' (Jonathan), which is a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

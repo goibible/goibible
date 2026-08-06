@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text lists only three sons of Bela: Adar, Gera, and Abihud. The Vietnamese adds 'Bảy' (seven), which is not present in the Hebrew and changes the factual claim about the number of sons."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

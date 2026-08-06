@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew is a statement ('He who reproves with words will not profit, and words will not benefit them'), but the Vietnamese renders it as a rhetorical question ('Can a person...?') and adds 'được yên ổn' (be at peace) and 'được giúp đỡ' (be helped), which are not in the Hebrew. The subject 'Người' (a person) is added; the Hebrew has no explicit subject. The meaning shifts from a general proverb-like assertion to a question about a person's ability to find peace/help."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

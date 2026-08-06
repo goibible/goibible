@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 32,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has Aaron addressing his lord (Moses) as 'adoni' (my lord), but the Vietnamese renders it as 'Đức Giê-hô-va' (the LORD/Yahweh), which is a different referent and changes who is being addressed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

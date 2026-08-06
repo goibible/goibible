@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 1,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the house of Joseph' (בֵית יוֹסֵף) sent spies, but the Vietnamese says 'the house of Issachar' (Nhà Y-sác-sác), swapping Joseph for Issachar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

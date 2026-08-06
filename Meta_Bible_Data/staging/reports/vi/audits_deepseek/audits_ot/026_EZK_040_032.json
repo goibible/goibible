@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew subject is unstated (the man/angel measuring, implied from context); the Vietnamese adds 'Đức Giê-hô-va' (the LORD) as the subject, which is not in the Hebrew text and changes who is doing the action."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

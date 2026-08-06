@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew says Cain brought an offering (minchah) from the fruit of the ground, but does not specify 'firstfruits' (đầu mùa). The Vietnamese adds 'đầu mùa' (firstfruits), which is not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

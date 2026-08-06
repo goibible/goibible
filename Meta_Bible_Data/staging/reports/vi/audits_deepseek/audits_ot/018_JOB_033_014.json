@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 33,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew says 'God speaks in one [way], and in two [ways] one does not perceive it' — the subject of 'không chịu để ý' (does not pay attention) is 'loài người' (mankind), which is an addition not present in the Hebrew; the Hebrew has no explicit subject for 'không nhận biết' (not perceive), and the verse is about not perceiving God's speech, not about mankind refusing to pay attention."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

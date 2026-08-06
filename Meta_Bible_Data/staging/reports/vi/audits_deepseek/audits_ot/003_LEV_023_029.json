@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 23,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb תְעֻנֶּה (from ענה, 'to afflict/humble oneself') is rendered as 'tự ăn năn' (repent oneself), which changes the meaning from self-affliction/fasting to repentance. The Hebrew concept is about humbling/afflicting oneself (often by fasting), not repentance."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

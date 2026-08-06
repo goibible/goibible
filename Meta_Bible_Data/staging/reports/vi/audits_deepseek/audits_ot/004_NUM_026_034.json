@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'fifty-two thousand seven hundred' (52,700), but the Vietnamese says 'hai mươi lăm ngàn bảy trăm' (25,700). The number is wrong."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

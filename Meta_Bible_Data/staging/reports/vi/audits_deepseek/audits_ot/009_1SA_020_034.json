@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֶחֶם' means 'bread/food', not 'thịt' (meat). The Vietnamese says 'không ăn thịt' (did not eat meat), which is a mistranslation of the Hebrew word for bread/food."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

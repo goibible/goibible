@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the king Nebuchadnezzar, the father, appointed 'him' (Daniel) as chief of the magicians, enchanters, Chaldeans, and diviners. The Vietnamese says 'đã đặt cha ngài lên làm tổng quản' (appointed your father as chief), which changes the object from Daniel to the father, reversing who was appointed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

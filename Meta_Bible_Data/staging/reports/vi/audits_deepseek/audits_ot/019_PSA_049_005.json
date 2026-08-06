@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 49,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֲוֹן עֲקֵבַי' means 'the iniquity of my heels/supplanters' (i.e., the iniquity that dogs my steps, or the iniquity of those who follow me), but the Vietnamese renders it as 'tội ác của những kẻ theo sau tôi' (the crimes of those who follow me), which shifts the meaning from 'my own iniquity' (or 'the iniquity at my heels') to 'the crimes of others.' This changes the subject of the clause: in Hebrew, the speaker's own iniquity surrounds him, but in Vietnamese, it is the crimes of others that surround him."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

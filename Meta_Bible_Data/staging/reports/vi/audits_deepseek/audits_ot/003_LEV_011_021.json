@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew states that they may eat only those flying insects that have jointed legs above their feet for leaping (i.e., the locust/grasshopper kind). The Vietnamese rendering 'các ngươi được ăn những loài có chân nhảy ở phía trên chân chúng' is ambiguous and could be read as 'those that have jumping legs above their feet,' which is close, but the phrase 'đi bằng bốn chân' ('walking on four legs') is applied to the flying insects, whereas the Hebrew says 'the flying swarming things that walk on four [legs]' — this is actually correct. However, the Vietnamese adds 'Tuy nhiên' ('However') which is not in the Hebrew (the Hebrew begins with 'אַךְ' = 'only/but'), and the clause 'trong mọi loài côn trùng bay trên mặt đất' ('among all flying insects on the ground') is an addition not present in the Hebrew, which says 'from all the swarming flying things that walk on four [legs]'. The main issue is that the Vietnamese omits the restrictive 'אַךְ' ('only') and instead uses 'Tuy nhiên' which changes the nuance, and it adds 'trên mặt đất' ('on the ground') which is not in the Hebrew at that point (the Hebrew has 'עַל הָאָרֶץ' at the end, but the Vietnamese places it earlier). The most substantive issue is the omission of the explicit restriction 'only' and the addition of 'Tuy nhiên' which is not equivalent. Also, the Hebrew says 'which has no jointed legs above its feet' — the Vietnamese says 'có chân nhảy' ('has jumping legs') which is a positive statement, but the Hebrew is negative: 'which has no jointed legs above its feet' — this is a negation reversal. The Hebrew: 'אֲשֶׁר לֹא כְרָעַיִם מִמַּעַל לְרַגְלָיו' = 'which has no jointed legs above its feet' — the Vietnamese says 'có chân nhảy' ('has jumping legs') which is the opposite. This is a clear negation error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

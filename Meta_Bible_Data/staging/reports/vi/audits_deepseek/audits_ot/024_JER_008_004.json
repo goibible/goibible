@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'אִם יָשׁוּב וְלֹא יָשׁוּב' (if one turns away, will he not return?) is rendered as 'Chúng xây away, vậy mà không trở lại?' — the word 'away' is left in English instead of Vietnamese, and the conditional 'if' (אִם) is omitted, changing the rhetorical question structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

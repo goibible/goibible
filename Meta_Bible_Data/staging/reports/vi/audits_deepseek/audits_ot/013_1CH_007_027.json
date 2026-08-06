@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew construct chain 'נוֹן בְּנוֹ יְהוֹשֻׁעַ בְּנוֹ' means 'Nun his son, Joshua his son' (i.e., Nun is the father, Joshua is the son). The Vietnamese 'Non là con trai, Giô-suê là con trai' renders both as 'is a son', losing the generational relationship and making it ambiguous/incorrect (it implies both are sons, not father-son). The proper meaning is 'Nun his father, Joshua his son' or 'Nun, father of Joshua'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

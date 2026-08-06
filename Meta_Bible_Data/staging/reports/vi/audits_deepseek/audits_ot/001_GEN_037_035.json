@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 37,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'của Giô-sép' (of Joseph) to identify the father, but the Hebrew text only says 'his father' (אָבִיו). This is an addition of a proper name not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

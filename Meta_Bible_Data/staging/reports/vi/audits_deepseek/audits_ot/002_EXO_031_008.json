@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 31,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הַמְּנֹרָה הַטְּהֹרָה' means 'the pure lampstand' (or 'the pure menorah'), but Vietnamese renders it as 'chân đèn bằng vàng ròng' ('lampstand of pure gold'). The Hebrew does not specify 'gold' here; 'טְהֹרָה' means 'pure/clean', not 'gold' (which would be 'זָהָב'). This adds the concept of gold not present in the Hebrew and changes the description of the lampstand."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

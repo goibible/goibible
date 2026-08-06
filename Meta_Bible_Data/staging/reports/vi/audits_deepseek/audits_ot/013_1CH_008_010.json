@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'Mirma' (מִרְמָה) as the third name, but Vietnamese has 'Mích-ma' which appears to be a different name (possibly a confusion with Michma/Micma). The correct transliteration should be 'Mích-ma' for Mirma? Actually 'Mích-ma' is closer to 'Michma' (מִכְמָס) or 'Micma', not 'Mirma'. The Hebrew name is Mirma, so the Vietnamese 'Mích-ma' is a name swap/mistransliteration."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

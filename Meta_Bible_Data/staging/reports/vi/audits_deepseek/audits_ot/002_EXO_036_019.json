@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 36,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֹרֹת תְּחָשִׁים' refers to 'skins of tachash' (a specific animal, often translated as dolphin, porpoise, or badger), not 'da thú mầu tía' (purple-colored animal skin). The color 'tía' (purple) is not in the Hebrew text; the Hebrew only specifies the type of animal skin, not its color."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

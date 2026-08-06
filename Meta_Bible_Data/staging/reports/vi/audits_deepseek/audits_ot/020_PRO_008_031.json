@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 8,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has the participle מְשַׂחֶקֶת ('playing/rejoicing', feminine, referring to Wisdom) as a descriptive statement, not an imperative. The Vietnamese 'Hãy vui chơi' ('Let/May you play') turns it into a command addressed to someone, changing the subject and mood. The correct sense is 'I (Wisdom) was playing/rejoicing in his inhabited world.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

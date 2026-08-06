@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 22,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nếu nó không né tránh ta' (if it had not turned aside from me), which is not present in the Hebrew. The Hebrew says 'אוּלַי נָטְתָה מִפָּנַי' meaning 'perhaps it turned aside from me' (or 'if perhaps it had turned aside'), not a conditional contrary-to-fact clause about what would have happened if it had not turned aside. This addition changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

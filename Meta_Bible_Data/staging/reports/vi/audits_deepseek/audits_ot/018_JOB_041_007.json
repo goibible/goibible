@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 41,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְשֻׂכּוֹת' (with thorns/hooks) is rendered as 'lưới' (net), and 'בְצִלְצַל' (with a fish spear/harpoon) is rendered as 'ngọn giáo câu cá' (fishing spear). The first term 'שֻׂכּוֹת' specifically means 'thorns' or 'barbs', not 'net'. This changes the imagery from filling the skin with thorns/hooks to filling it with a net, which is a substantive difference in the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

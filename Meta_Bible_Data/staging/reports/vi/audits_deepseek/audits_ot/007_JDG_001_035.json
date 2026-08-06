@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 1,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the Amorite' (הָאֱמֹרִי), but the Vietnamese says 'Người Hê-vi' (the Hivite). This is a different people group."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

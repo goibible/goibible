@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 20,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew clause 'הֶרֶב לְהַעֲלוֹתָם מַשְׂאַת הֶעָשָׁן מִן הָעִיר' (they were to make a great smoke column rise from the city) is entirely missing from the Vietnamese. The Vietnamese only mentions seeing smoke rising from the city, but omits the instruction that the ambush was to cause a great smoke column to rise."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 51,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew superscription 'בְּבוֹא אֵלָיו נָתָן הַנָּבִיא כַּאֲשֶׁר בָּא אֶל בַּת שָׁבַע' (When Nathan the prophet came to him, after he had gone in to Bathsheba) is entirely omitted from the Vietnamese translation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

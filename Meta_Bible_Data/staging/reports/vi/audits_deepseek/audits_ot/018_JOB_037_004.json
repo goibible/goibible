@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 37,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלֹא יְעַקְּבֵם' means 'and He does not restrain them' (referring to the thunder/lightnings), but the Vietnamese renders it as 'chẳng ai cản được ánh chớp' ('no one can stop the lightning'), which changes the subject from God to 'no one' and adds 'ánh chớp' (lightning) not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

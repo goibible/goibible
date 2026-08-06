@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִמְצְאוּ' means 'were found', not 'đã bị bắt' (were captured). The Vietnamese adds the concept of capture which is not in the Hebrew; the kings were found hiding, not captured at this point."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

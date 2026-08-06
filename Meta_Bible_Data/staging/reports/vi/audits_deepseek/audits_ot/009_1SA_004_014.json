@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'từ trên núi' (from the mountain), which is not present in the Hebrew text. The Hebrew only says 'the man hurried and came and told Eli' without specifying his origin."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

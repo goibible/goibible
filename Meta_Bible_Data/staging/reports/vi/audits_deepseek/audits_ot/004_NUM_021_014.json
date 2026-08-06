@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 21,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew order is 'Vaheb in Suphah' (אֶת וָהֵב בְּסוּפָה) then 'the valleys of Arnon' (וְאֶת הַנְּחָלִים אַרְנוֹן). The Vietnamese reverses the order, listing 'Aït-nôn, Su-pha, và Va-hép' (Arnon, Suphah, and Vaheb), which swaps the sequence and conflates the names, making it appear Arnon and Suphah are separate items before Vaheb, whereas Hebrew has Vaheb in Suphah first, then the valleys of Arnon."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 26,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֶל מוּל פְּנֵי הָאֹהֶל' means 'toward the front of the tent' (the tabernacle), but Vietnamese renders 'về phía trước mái nhà Đức Chúa Trời' ('toward the front of the roof of God's house'), adding 'mái nhà' (roof) and 'Đức Chúa Trời' (God) which are not in the Hebrew; 'hành lang' or 'lều' would be more accurate for 'ohel'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

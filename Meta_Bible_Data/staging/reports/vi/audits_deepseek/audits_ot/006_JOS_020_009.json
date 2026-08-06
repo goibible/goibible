@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 20,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va phán' (The LORD said/spoke) at the beginning, which has no basis in the Hebrew text. The Hebrew simply begins with 'These were the cities of refuge' (אֵלֶּה הָיוּ עָרֵי הַמּוּעָדָה)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

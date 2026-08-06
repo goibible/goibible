@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew verse (2 Kings 15:9) states that the king 'did evil in the eyes of the LORD' and 'did not turn away from the sins of Jeroboam son of Nebat, which he caused Israel to commit.' The Vietnamese rendering omits these entire clauses and instead introduces a completely different narrative about Asa, Judah, and Uzziah (Ô-si-ah) son of Amaziah becoming king over Israel, which is not present in the Hebrew text at all."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

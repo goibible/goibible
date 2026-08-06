@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not name the subject as 'Đức Giê-hô-va' (Yahweh); it simply says 'he became king' (וַיְהִ֥י בִישֻׁר֖וּן מֶ֑לֶךְ). The subject is implied from context, but the Vietnamese explicitly adds 'Đức Giê-hô-va', which is an addition not present in the Hebrew clause."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

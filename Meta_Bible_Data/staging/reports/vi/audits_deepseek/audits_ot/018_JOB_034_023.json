@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew 'עוֹד' means 'again' or 'still', but the Vietnamese adds 'hai lần' (twice), which is not in the Hebrew text. The Hebrew says 'He does not again set [a time] for man to go to God in judgment,' implying a single final judgment, not two times."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

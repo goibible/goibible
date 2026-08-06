@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the lords/leaders of Shechem' (בַּעֲלֵי שְׁכֶם) set the ambushes, but the Vietnamese says 'Người của Sêm' (people of Shem), which is a different name and changes who performed the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

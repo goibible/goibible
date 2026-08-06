@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 80,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֹיְבֵינוּ יִלְעֲגוּ לָמוֹ' means 'and our enemies laugh at us' (לָמוֹ = 'at them/us'), but the Vietnamese renders it as 'kẻ thù nghịch chúng tôi thì chế giễu Ngài' ('our enemies mock You'), changing the object from 'us' to 'God'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

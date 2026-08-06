@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 35,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb וַתַּגֵּר (from גָּרָה) means 'you poured out' or 'you caused to fall' (i.e., you delivered them to the sword), but the Vietnamese 'ngược đãi' means 'mistreated/abused', which is a different action and weakens the specific meaning of causing them to fall by the sword."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

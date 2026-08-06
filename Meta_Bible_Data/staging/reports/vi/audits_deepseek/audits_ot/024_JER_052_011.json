@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 52,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va' (the LORD) as the subject of the blinding, but the Hebrew text has no explicit subject for the verb 'עִוֵּר' (he blinded); the subject is not stated in this verse. This addition introduces a theological claim not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

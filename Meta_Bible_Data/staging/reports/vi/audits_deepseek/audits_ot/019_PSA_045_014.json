@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 45,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִרְקָמוֹת' (with embroidered things/garments) is an adverbial phrase describing how the virgin is brought to the king ('in embroidered work'), but the Vietnamese renders it as a separate clause 'nàng được mang đến cùng các hoa văn thêu tay' (she is brought with embroidered patterns), which changes the meaning: the Hebrew says she is brought to the king in embroidered garments, not that she is brought along with embroidered patterns as a separate item. This alters the sense of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

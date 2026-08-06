@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 42,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'חֵי פַרְעֹה' is an oath formula meaning 'as Pharaoh lives' (by the life of Pharaoh), used to swear that the brothers are spies. The Vietnamese renders it as 'Đức Giê-hô-va hằng sống, nếu các ngươi không phải là thám tử, thì Pha-ra-ôn hằng sống, các ngươi chắc chắn là thám tử' which introduces 'Đức Giê-hô-va hằng sống' (the LORD lives) and a conditional clause 'nếu các ngươi không phải là thám tử' (if you are not spies) that is not in the Hebrew. The Hebrew simply states 'as Pharaoh lives, surely you are spies' — an emphatic assertion, not a conditional. This addition changes the meaning and introduces a theological element (the LORD) not present in the text."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

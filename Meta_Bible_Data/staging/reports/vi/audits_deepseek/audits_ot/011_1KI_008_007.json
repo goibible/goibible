@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּרוּבִים' (cherubim) is translated as 'con trâu thiêng' (sacred buffalo), which is a different creature. The cherubim are angelic beings, not buffalo."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

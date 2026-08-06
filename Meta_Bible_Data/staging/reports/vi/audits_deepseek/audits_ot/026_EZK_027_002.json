@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 27,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name צֹר (Tyre) is rendered as 'Tír', which is not the standard Vietnamese name for Tyre (usually 'Ty-rơ' or 'Tý-rơ'). This is a name swap that could mislead the reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

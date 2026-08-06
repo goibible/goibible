@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּכָל לְבָבָם וּבְכָל נַפְשָׁם' means 'with all their heart and with all their soul' (two distinct elements). The Vietnamese renders it as 'hết lòng, hết lòng trọn linh hồn mình' which repeats 'hết lòng' (with all heart) twice and adds 'trọn' (whole) before 'linh hồn' (soul), making it 'with all heart, with all heart whole soul' — this is a mistranslation/duplication that changes the meaning from two parallel phrases to a redundant one."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'בָּנִיתִי' (I have built) is first person singular (the speaker, Solomon). The Vietnamese says 'tôi đã xây dựng' (I have built), which is correct in person, but the context of the verse is a prayer where the speaker refers to the temple he built. However, the issue is that the Vietnamese 'tôi' is correct, so this is not an error. The main issue is the duplication of 'hết lòng'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

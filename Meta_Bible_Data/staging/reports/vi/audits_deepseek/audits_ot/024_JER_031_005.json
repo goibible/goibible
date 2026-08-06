@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 31,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְחִלֵּלוּ' (from חלל, 'to profane/defile') is rendered as 'sẽ được ăn như thường lệ' ('will eat as usual'), which is a substantive mistranslation. The Hebrew verb means 'they will profane/defile' (the vineyards), not 'eat as usual.' This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

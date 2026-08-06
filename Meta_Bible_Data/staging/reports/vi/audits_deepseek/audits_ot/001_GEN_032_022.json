@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 32,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew subject is 'he' (Jacob, implied by context), but the Vietnamese renders 'Gia-bốc' (Jabbok, the river) as the one who rose up, swapping the person for the place name. The Hebrew says 'he rose up' (וַיָּקָם הוּא), not 'Jabbok rose up'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

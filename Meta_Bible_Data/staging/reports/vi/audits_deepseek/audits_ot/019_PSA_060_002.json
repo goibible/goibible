@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 60,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Vietnamese translation omits the entire first half of the Hebrew verse (בְּהַצּוֹת֨וֹ אֶ֥ת אֲרַ֣ם נַהֲרַיִם֮ וְאֶת אֲרַ֪ם צ֫וֹבָ֥ה וַיָּ֤שָׁב יוֹאָ֗ב וַיַּ֣ךְ אֶת אֱד֣וֹם בְּגֵיא מֶ֑לַח שְׁנֵ֖ים עָשָׂ֣ר אָֽלֶף), which describes David's conflict with Aram-naharaim and Aram-zobah, Joab's return and striking Edom in the Valley of Salt, twelve thousand. The Vietnamese text only renders the second half (the psalm-like cry about the earth trembling and being healed), leaving out the historical narrative entirely."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

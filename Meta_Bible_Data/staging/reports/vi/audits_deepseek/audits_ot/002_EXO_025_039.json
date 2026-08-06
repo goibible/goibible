@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּכָּר' (kikkar) is a unit of weight, typically translated as 'talent' (about 75 pounds). The Vietnamese renders it as 'ta-lâng', which is a transliteration of 'talent' and is acceptable. However, the Hebrew says 'make it' (אֹתָהּ) referring to the lampstand (menorah), but the Vietnamese says 'làm chân đèn nầy' (make this lampstand), which is correct. The issue is that the Hebrew 'אֵת כָּל הַכֵּלִים הָאֵלֶּה' means 'all these utensils/vessels', but the Vietnamese says 'các đồ dùng của nó' (its utensils), adding 'của nó' (its) which is not in the Hebrew. The Hebrew does not specify 'its' but says 'these utensils'. This is a minor addition that changes the referent slightly, but the meaning is essentially the same. However, the more significant issue is that the Hebrew says 'make it' (the lampstand) and 'all these utensils' as a single command, but the Vietnamese splits it into 'make this lampstand and its utensils', which is a natural rendering. The main fidelity issue is the addition of 'của nó' (its) which is not in the Hebrew, but it does not change the factual claim. Given the instruction to flag only if a Vietnamese reader would come away believing something factually different, this is borderline. The Hebrew 'אֵת כָּל הַכֵּלִים הָאֵלֶּה' is 'all these utensils' (referring to the utensils of the tabernacle), not necessarily 'its utensils' (of the lampstand). The Vietnamese 'các đồ dùng của nó' could be understood as the utensils of the lampstand, which is a possible interpretation but not explicit in the Hebrew. This is a minor addition, but it could mislead. I will flag it as a mistranslation due to the added possessive 'của nó'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

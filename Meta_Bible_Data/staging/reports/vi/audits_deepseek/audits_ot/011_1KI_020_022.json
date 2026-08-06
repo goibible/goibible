@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּגַּשׁ הַנָּבִיא' means 'the prophet drew near/approached', but the Vietnamese says 'Đức Chúa Trời đến' ('God came'), substituting 'God' for 'the prophet'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

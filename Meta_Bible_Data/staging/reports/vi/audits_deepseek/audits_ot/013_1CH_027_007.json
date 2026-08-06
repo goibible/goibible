@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is 'A-sa-hel' (עֲשָׂה אֵל), but the Vietnamese renders it as 'A-xa-ên', which is a different name (likely a confusion with 'A-xa-ên' for Asahel vs. 'A-sa-ên' for Asahel). The correct transliteration for עֲשָׂה אֵל is 'A-sa-ên' or 'A-sa-hel', not 'A-xa-ên'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

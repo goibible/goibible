@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵעֲבוּר הָאָרֶץ' means 'from the produce of the land' (i.e., the yield/crops of the land), but the Vietnamese renders it as 'các sản phẩm từ mùa gặt đầu tiên của đất' ('products from the first harvest of the land'), adding 'đầu tiên' (first) which is not in the Hebrew and changes the meaning to imply a specific first harvest."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

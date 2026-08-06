@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 87,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְֽיֹ֫דְעָ֥י' means 'to those who know me' (referring to God's people knowing Him), but Vietnamese renders 'là những người biết ta' ('who know me'), which is acceptable. However, the final clause 'זֶ֝֗ה יֻלַּד שָֽׁם' means 'this one was born there' (referring to each of the listed nations being born in Zion), but Vietnamese says 'người nầy đã sinh ra tại Si-ôn' ('this person was born in Zion'), which is a reasonable rendering. The main issue: Hebrew 'עִם כּוּשׁ' means 'with Cush' (a nation), but Vietnamese 'cùng với Cúch' is fine. Actually, the key error: Hebrew 'הִנֵּה פְלֶשֶׁת וְצוֹר עִם כּוּשׁ' lists Philistia, Tyre, and Cush as nations, but Vietnamese 'Kìa, Phi-li-tin và Ty-rơ cùng với Cúch' is correct. The real problem: 'לְֽיֹ֫דְעָ֥י' is 'to those who know me' (God speaking), but Vietnamese 'là những người biết ta' could be misread as 'who know me' referring to the speaker (God), which is correct. However, the Hebrew 'אַזְכִּיר רַהַב וּבָבֶל לְיֹדְעָי' means 'I will mention Rahab and Babylon to those who know me' — the Vietnamese 'Ta sẽ nhắc đến Ra-háp và Ba-by-lôn, là những người biết ta' adds 'là' (which is) making it seem Rahab and Babylon are the ones who know me, but Hebrew says they are mentioned to those who know me. This changes the meaning: the Vietnamese implies Rahab and Babylon are the knowers, whereas Hebrew says they are the objects mentioned to the knowers. This is a mistranslation of the preposition 'לְ' (to) and the appositive structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 16,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שֹׂנְאוֹתַיִךְ' means 'those who hate you' (active participle, feminine plural, with 2fs suffix), but Vietnamese renders it as 'những kẻ ngươi ghét' ('those you hate'), reversing the subject-object relationship. The correct meaning is 'those who hate you' (your haters), not 'those whom you hate'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

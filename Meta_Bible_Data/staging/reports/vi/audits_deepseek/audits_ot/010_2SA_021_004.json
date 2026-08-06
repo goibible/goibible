@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵין לי כסף וזהב עם שאול ועם ביתו' means 'We have no silver or gold with Saul or with his house' (i.e., we do not want/need silver or gold from Saul's house), but the Vietnamese says 'Chúng tôi không muốn bạc hay vàng từ Sau-lơ hay từ nhà người' ('We do not want silver or gold from Saul or from his house'), changing the meaning from a statement of lack/absence to a statement of desire. This alters the factual claim."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'ואין לנו איש להמית בישראל' means 'and we have no man to put to death in Israel' (i.e., we have no one to kill), but the Vietnamese says 'chúng tôi cũng không muốn ngươi giết bất cứ người nào trong Ít-ra-en cho chúng tôi' ('we also do not want you to kill anyone in Israel for us'), which changes the subject and meaning: the Gibeonites are not saying they don't want David to kill someone; they are saying they have no one of their own to execute. This is a significant mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

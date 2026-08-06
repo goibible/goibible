@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 16,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Omri was buried in Samaria (בְּשֹׁמְרוֹן), but the Vietnamese says 'tại Si-chem' (Shechem), which is a different place name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name שַׂלְמָה (Salma) is rendered as 'Xa-lép' (Saleph), which is a different name. The correct Vietnamese transliteration should be 'Xan-ma' or similar, not 'Xa-lép'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

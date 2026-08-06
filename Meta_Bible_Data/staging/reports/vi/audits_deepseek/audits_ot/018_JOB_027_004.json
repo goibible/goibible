@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 27,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew has two conditional clauses ('If my lips speak wrong, and my tongue utters deceit') without negation, but the Vietnamese adds 'sẽ không' (will not) to both, reversing the meaning from a conditional statement to a denial."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 61,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text addresses 'Elohim' (אֱלֹהִים), but the Vietnamese renders it as 'Đức Giê-hô-va' (Yahweh/Jehovah), swapping the divine name."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew superscription 'לַמְנַצֵּחַ עַל נְגִינַת לְדָוִד' (For the leader, on stringed instruments, of David) is entirely omitted in the Vietnamese."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

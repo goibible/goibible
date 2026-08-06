@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵעֵינֵי הָעֵדָה' means 'from the eyes of the congregation' (i.e., hidden from the congregation's sight), but the Vietnamese 'mà các mắt của hội chúng không thấy' adds 'không thấy' (do not see), which is an interpretive addition not present in the Hebrew. The Hebrew simply states the act was done 'from the eyes of the congregation,' implying it was hidden, but the Vietnamese explicitly says the eyes did not see, which is a slight addition that changes the nuance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

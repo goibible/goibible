@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 5,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is גִּלְגָּל (Gilgal), but the Vietnamese renders it as 'Gi-ê-lê-ga', which is a different name and not a recognized transliteration of Gilgal."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

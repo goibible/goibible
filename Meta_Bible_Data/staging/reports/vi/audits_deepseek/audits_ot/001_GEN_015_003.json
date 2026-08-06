@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 15,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text does not mention the name 'Ê-li-ê-xe' (Eliezer) in this verse; it only says 'ben beiti' (son of my house). The name is added in the Vietnamese translation, which is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

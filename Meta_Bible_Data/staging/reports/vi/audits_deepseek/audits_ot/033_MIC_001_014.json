@@ -1,0 +1,22 @@
+{
+  "book": "MIC",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Aczib' (אַכְזִיב) twice: 'houses of Aczib' (בָּתֵּי אַכְזִיב) and 'a deception to the kings of Israel' (לְאַכְזָב). The Vietnamese renders 'A-khíp' (Achzib? or Achish?) which is a different name; it should be 'Ach-xíp' or 'Ach-xíp' (Aczib). This changes the place name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְאַכְזָב' means 'for a deception/for a lie' (a wordplay on Aczib), but the Vietnamese 'sẽ trở thành điều vô ích' ('will become useless') is a paraphrase that loses the specific meaning of 'deception' and the wordplay with the place name Aczib."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'כִּי בְנַפְשׁוֹ דִּבֶּר' means 'for he has spoken this word against his own life' (i.e., Adonijah has endangered himself by his request). The Vietnamese adds 'đã không nói' ('has not spoken'), inserting a negation that reverses the meaning: it says 'if Adonijah has not spoken this word against his own life,' whereas the Hebrew affirms that he did speak it. This changes the sense of the oath."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

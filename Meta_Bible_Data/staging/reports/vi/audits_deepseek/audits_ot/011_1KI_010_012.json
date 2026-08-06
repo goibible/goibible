@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֲצֵי הָאַלְמֻגִּים' refers to 'almug wood' (a type of precious wood, likely sandalwood or algum), not 'cây bá hương' (cedar/cypress). The Vietnamese translation incorrectly identifies the wood as cedar, which is a different tree species."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew says Seth lived 105 years (חָמֵשׁ שָׁנִים וּמְאַת שָׁנָה = five years and a hundred years), but the Vietnamese says 'một trăm năm' (one hundred years), omitting the 'five' (חָמֵשׁ)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

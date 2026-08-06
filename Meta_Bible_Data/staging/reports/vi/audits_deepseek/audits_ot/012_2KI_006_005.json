@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'trong các môn đồ' (among the disciples), which is not present in the Hebrew text. The Hebrew simply says 'the one' (הָאֶחָד) without specifying disciples."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'vì cái rìu ấy mượn người ta' (because that axe was borrowed from someone), which is not present in the Hebrew. The Hebrew only says 'Alas, my master, and it was borrowed' (אֲהָהּ אֲדֹנִי וְהוּא שָׁאוּל), with no explicit mention of 'from someone' or 'người ta'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 20,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew verb יַכְחִידֶנָּה ('he hides it' / 'he conceals it') is missing from the Vietnamese translation. The Vietnamese renders the first clause ('if evil is sweet in his mouth') and the second clause ('though he hides it under his tongue') but omits the explicit verb 'hides' in the second clause, replacing it with 'dẫu giấu' which is a participle-like construction without the finite verb, and the object 'it' (referring to evil) is not explicitly stated. The Hebrew has a clear finite verb with object suffix, which is not fully represented."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

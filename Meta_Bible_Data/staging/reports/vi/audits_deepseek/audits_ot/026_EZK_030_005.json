@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 30,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists כּוּשׁ (Cush) and כּוּב (Cub) as two distinct names, but the Vietnamese renders both as 'Cúp', conflating them into the same name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

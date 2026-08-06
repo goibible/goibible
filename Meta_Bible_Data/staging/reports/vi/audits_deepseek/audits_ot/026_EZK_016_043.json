@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 16,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'וְלֹא עשיתי' is first person ('and I did not do'), but the Vietnamese renders it as 'Ngươi sẽ không phạm' (second person future, 'you will not commit'), reversing the subject and changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

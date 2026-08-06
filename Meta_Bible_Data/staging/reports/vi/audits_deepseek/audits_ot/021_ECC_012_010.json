@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The subject 'Kohelet' (קֹהֶלֶת) is rendered as 'Độc giả' (the reader), which is a different entity. The Hebrew says Kohelet sought to find delightful words; the Vietnamese says the reader sought them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

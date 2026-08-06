@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 32,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not contain the phrase 'đều bị bỏ hoang' (all are abandoned/desolate). The clause 'כִּי עַל כָּל בָּתֵּי מָשׂוֹשׂ קִרְיָה עַלִּיזָה' means 'for upon all the houses of joy, the jubilant city' — it describes the joyful houses and the jubilant city as the location where thorns come up, not that they are abandoned. The Vietnamese adds a concept of abandonment/desolation that is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

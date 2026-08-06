@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 17,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Ê-li (Ê-li-ah / Elijah)', but the Vietnamese renders 'Ê-li-sê' (Elisha), a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

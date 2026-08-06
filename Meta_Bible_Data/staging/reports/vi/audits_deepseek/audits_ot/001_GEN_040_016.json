@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 40,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וַיַּרְא שַׂר הָאֹפִים' (the chief baker saw), but the Vietnamese says 'Khi thấy quan quản lý rượu nói lời giải mộng được tốt' (When the cupbearer saw that the interpretation was good), attributing the seeing to the cupbearer instead of the baker. This changes who is the subject of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

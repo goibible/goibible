@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'giữa ta với ngươi không có điều ác nào' (there is no evil between me and you), which is not in the Hebrew. The Hebrew only says 'know that the evil is determined/complete from him' (כָלְתָה הָרָעָה מֵעִמּוֹ), meaning the evil is fully decided from his side. The added phrase introduces a new concept not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

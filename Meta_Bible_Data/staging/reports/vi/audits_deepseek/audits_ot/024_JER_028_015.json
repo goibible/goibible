@@ -1,0 +1,22 @@
+{
+  "book": "JER",
+  "chapter": 28,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Jeremiah the prophet spoke to Hananiah the prophet, but the Vietnamese says 'Đức Chúa Trời phán cùng Giê-rê-mi' (God spoke to Jeremiah), which reverses the speaker and addressee and introduces God as the speaker, which is not in the Hebrew."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The name 'Hê-nanh' is a garbled rendering of 'Hananiah' (חֲנַנְיָה), which should be 'Ha-na-nia' or similar; the Vietnamese has a distorted name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

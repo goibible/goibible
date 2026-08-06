@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּרוּבִים' means 'cherubim' (angelic beings), but the Vietnamese renders it as 'hình tráng nhân' (figures of strong/mighty men), which changes the identity of the carved figures."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 28,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'on the two ends of the breastpiece' (עַל שְׁנֵי קְצוֹת הַחֹשֶׁן) without specifying 'lower' (phía dưới). The Vietnamese adds 'phía dưới' (lower), which is an addition not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

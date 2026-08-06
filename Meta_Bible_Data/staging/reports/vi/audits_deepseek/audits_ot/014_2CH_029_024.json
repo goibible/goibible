@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 29,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the priests slaughtered them and 'sprinkled' (וַיְחַטְּאוּ) their blood on the altar, but the Vietnamese says 'rảy' (sprinkled) — this is acceptable. However, the Hebrew says 'the king commanded' (אָמַר הַמֶּלֶךְ) that the burnt offering and sin offering be for all Israel, but the Vietnamese adds 'phải dâng' (must be offered) which is an addition not in the Hebrew, and the Hebrew phrase 'הָעוֹלָה וְהַחַטָּאת' (the burnt offering and the sin offering) is rendered as 'của lễ thiêu và của lễ chuộc tội' which is correct. The main issue: the Hebrew says 'the king commanded' (אָמַר הַמֶּלֶךְ) — the Vietnamese says 'nhà vua đã truyền rằng' (the king commanded that) which is fine, but the addition 'phải dâng' (must be offered) is not in the Hebrew; the Hebrew simply says 'the burnt offering and the sin offering' as the object of the command, implying they are for all Israel. This addition changes the nuance but not the core meaning. However, the more significant issue: the Hebrew 'וַיְחַטְּאוּ אֶת דָּמָם' means 'they de-sinned their blood' i.e., they applied the blood as a sin purification, often translated 'sprinkled' — the Vietnamese 'rảy' is fine. The real flag: the Hebrew says 'for all Israel' twice, and the Vietnamese says 'cho toàn thể Y-sơ-ra-ên' twice — correct. The issue is the addition of 'phải dâng' which is not in the Hebrew, but it's a minor interpretive addition. Given the instruction to flag only substantive changes, this addition does not change the factual claim. However, the Hebrew 'אָמַר הַמֶּלֶךְ' is 'the king said/commanded' — the Vietnamese 'nhà vua đã truyền rằng' is fine. I'll flag for the addition of 'phải dâng' as it adds a requirement not stated, but it's borderline. Actually, the Hebrew 'כִּי לְכָל יִשְׂרָאֵל אָמַר הַמֶּלֶךְ הָעוֹלָה וְהַחַטָּאת' literally 'for for all Israel said the king the burnt offering and the sin offering' — meaning the king commanded that the burnt and sin offerings be for all Israel. The Vietnamese 'vì nhà vua đã truyền rằng của lễ thiêu và của lễ chuộc tội phải dâng thay cho toàn thể Y-sơ-ra-ên' adds 'phải dâng' (must be offered) which is not in the Hebrew but is a natural way to express the command. This is acceptable. The main potential issue: the Hebrew 'וַיְחַטְּאוּ' is a verb meaning 'they purified/cleansed' the blood, often rendered 'sprinkled' — the Vietnamese 'rảy' is fine. I'll mark OK because the meaning is preserved. But wait — the Hebrew says 'the priests slaughtered them' — 'them' refers to the animals, and the Vietnamese says 'những con vật ấy' (those animals) — correct. No name/number issues. I'll mark OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

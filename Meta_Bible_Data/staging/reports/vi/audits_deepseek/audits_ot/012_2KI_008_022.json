@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 8,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'לִבְנָה' (Libnah) is rendered as 'Li-banh', which is a different name. The correct Vietnamese transliteration should be 'Líp-na' or 'Líp-na' (Libnah), not 'Li-banh'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

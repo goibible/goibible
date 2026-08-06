@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גֵּיא בֶן הִנֹּם' is 'Valley of the Son of Hinnom' (a place name), but the Vietnamese renders it as 'Ghê-ách, con trai Hin-nom' ('Ge-ach, son of Hinnom'), which misidentifies the valley as a person's son. The place name 'Ghê-ách' is also an unusual transliteration for 'גֵּיא' (valley), and the construct chain is broken, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

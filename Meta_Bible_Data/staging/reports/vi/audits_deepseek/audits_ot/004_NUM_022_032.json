@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 22,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the angel of the LORD' (מַלְאַךְ יְהוָה) spoke, but the Vietnamese says 'Đức Giê-hô-va' (the LORD) spoke, dropping the word 'angel' and attributing the speech to the LORD himself."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

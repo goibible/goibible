@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בֵּית אֵל בְּרִית' (Beth-El Berith, i.e., the house/temple of El-Berith, a Canaanite god) is rendered as 'đền thờ của thần Bê-ri' (temple of the god Beri). This changes the divine name 'El-Berith' (God of the Covenant) into a single deity 'Bê-ri', dropping 'El' and altering the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 8,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is אֲחַזְיָהוּ (Ahaziah), but the Vietnamese renders it as 'A-xa-ria' (Azariah), a different person/name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

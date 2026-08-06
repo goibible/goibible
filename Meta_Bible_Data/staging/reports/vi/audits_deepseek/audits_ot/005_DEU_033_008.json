@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Câu tiếng Việt thiếu đại từ 'người' (him) trong cụm 'đã tranh luận với tại các nước Mê-ri-ba' — nguyên văn Hebrew 'תְּרִיבֵהוּ' có hậu tố 'הוּ' (him), nên phải là 'đã tranh luận với người ấy tại các nước Mê-ri-ba'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

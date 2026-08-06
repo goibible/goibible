@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 13,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִישׁ עֹבֵד אֲדָמָה' means 'a man working the ground/soil' (a farmer), but the Vietnamese renders it as 'một người làm ruộng' (a field worker) which is acceptable, yet the final clause 'כִּי אָדָם הִקְנַנִי מִנְּעוּרָי' means 'for a man acquired me from my youth' (i.e., someone bought/owned me as a servant from youth), but the Vietnamese says 'người ta đã bắt tôi làm nghề chăn nuôi' ('people made me do the livestock-raising trade'), which adds the concept of being forced into livestock raising—a substantive addition not present in the Hebrew, which only states being acquired/owned, not forced into a specific occupation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 16,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִלַגְשֵׁי אָבִיו' means 'his father's concubines', but the Vietnamese renders it as 'các người hầu của cha mình' ('his father's servants'), which changes the meaning from concubines to servants."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

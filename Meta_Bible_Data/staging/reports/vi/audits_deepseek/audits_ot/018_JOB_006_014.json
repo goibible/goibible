@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַמָּס מֵרֵעֵהוּ חָסֶד' means 'To him who is melting/despairing, from his friend, kindness' — i.e., a friend should show kindness to the one who is failing/despairing. The Vietnamese 'Bạn bè phải tỏ lòng thương xót kẻ gặp khốn khổ' correctly conveys this. However, the second clause 'וְיִרְאַת שַׁדַּי יַעֲזוֹב' means 'and he forsakes the fear of the Almighty' — the subject is the despairing person who abandons the fear of God, not a command that friends should not abandon it. The Vietnamese 'chứ không nên bỏ sự kính sợ Đấng Toàn Năng' turns this into an exhortation to the friends not to abandon the fear of God, which reverses the subject and changes the meaning. The Hebrew states a fact: the despairing one forsakes the fear of the Almighty, whereas the Vietnamese makes it a negative command about the friends."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

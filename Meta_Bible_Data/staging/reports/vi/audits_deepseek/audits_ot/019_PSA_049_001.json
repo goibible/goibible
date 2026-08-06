@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 49,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va phán' (The LORD says), which has no basis in the Hebrew text. The Hebrew begins with 'לַמְנַצֵּחַ לִבְנֵי קֹרַח מִזְמוֹר' (For the choir director, for the sons of Korah, a psalm), then 'שִׁמְעוּ זֹאת כָּל הָעַמִּים' (Hear this, all peoples). The phrase 'Đức Giê-hô-va phán' is an addition not present in the Hebrew and changes the verse's claim by attributing the speech to the LORD."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

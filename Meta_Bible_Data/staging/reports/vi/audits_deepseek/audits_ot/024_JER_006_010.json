@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 6,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew עֲרֵלָה אָזְנָם means 'their ears are uncircumcised' (i.e., closed/blocked), but Vietnamese says 'tai họ bị cắt bì' which means 'their ears are circumcised' — the opposite meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

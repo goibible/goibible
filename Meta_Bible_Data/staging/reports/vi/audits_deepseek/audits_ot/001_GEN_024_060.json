@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 60,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nguyện Đức Giê-hô-va khiến' (may the LORD make) which is not present in the Hebrew. The Hebrew simply says 'you be' (אַתְּ הֲיִי) as a blessing, without explicitly naming God as the agent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

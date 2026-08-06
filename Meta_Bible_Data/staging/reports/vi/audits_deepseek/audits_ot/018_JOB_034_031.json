@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶאָמַר נָשָׂאתִי' means 'I have borne/uttered a saying' (i.e., 'I have spoken'), not 'I have sinned' (phạm tội). The Vietnamese adds 'Tôi đã phạm tội' which is not in the Hebrew and changes the meaning. The Hebrew clause 'לֹא אֶחְבֹּל' means 'I will not transgress/act corruptly' (or 'I will not pledge/endanger'), not 'I will no longer be wicked' (tôi sẽ không còn gian ác nữa) — the Vietnamese adds 'còn... nữa' implying a past state of wickedness that is not stated in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

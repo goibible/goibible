@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 30,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Chúa Trời' (God); the phrase 'bởi quyền năng lớn của Đức Chúa Trời' adds a divine referent not present in the Hebrew, which only says 'by great power' (בְּרָב כֹּחַ)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

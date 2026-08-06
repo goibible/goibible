@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בְנֵי מְנַשֶּׁה' (sons of Manasseh) is rendered as 'con cái Mên-xi' (children of Men-xi), which appears to be a different name (Mên-xi vs. Mê-na-se). This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

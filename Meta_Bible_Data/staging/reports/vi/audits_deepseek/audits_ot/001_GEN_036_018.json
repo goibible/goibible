@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'các con trai của Ô-hô-li-ba-ma, vợ Ê-sau' (the sons of Oholibamah, Esau's wife), but the Vietnamese says 'các con trai của A-na, vợ Ê-sau' (the sons of Anah, Esau's wife), swapping the name Oholibamah for Anah. Also, the second clause in Hebrew is 'các trưởng tộc của Ô-hô-li-ba-ma, con gái của A-na, vợ Ê-sau' (the chiefs of Oholibamah, daughter of Anah, Esau's wife), but the Vietnamese says 'các trưởng tộc do A-na, con gái của A-na, vợ Ê-sau, sinh ra' (the chiefs born of Anah, daughter of Anah, Esau's wife), which both swaps the name and adds 'con gái của A-na' incorrectly, making Anah both the mother and the daughter."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

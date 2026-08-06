@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 8,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text says 'they were struck/smitten' (וַיִּנָּֽגְע֛וּ), meaning they were defeated/struck down, but the Vietnamese adds 'giả vờ thua trận' (pretended to lose the battle), which is an addition not present in the Hebrew. The Hebrew simply states they were struck before them, not that they feigned defeat."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

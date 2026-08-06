@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'Yeshua, Bani, Kadmiel, Shebaniah, Bunni, Sherebiah, Bani, Kenani' (8 names). The Vietnamese renders 'Giê-sua, Ba-ni, Ca-đơ-mi-ên, Sê-ba-nia, Bun-ni, Sê-rê-bia, Ba-ni và Kên-ni' — it drops the first 'Bani' (בָּנִי) and adds a second 'Ba-ni' later, so the name sequence is wrong: it omits the second Bani and inserts an extra Bani in its place, resulting in the same count but a different name order/identity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 23,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text says 'Jehoiada the priest' (יְהוֹיָדָ֨ע הַכֹּהֵ֜ן), but the Vietnamese renders it as 'Vua thầy tế lễ Giô-ya-đa' which adds 'Vua' (king) before 'thầy tế lễ' (priest), incorrectly identifying Jehoiada as a king. This is an addition that changes the identity of the person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

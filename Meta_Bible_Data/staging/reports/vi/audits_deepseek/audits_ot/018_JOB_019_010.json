@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 19,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַיַּסַּע' (vayyassa') means 'he uprooted/removed' (Hiphil of נסע), but Vietnamese 'nhổ lên' means 'pulled up' which is acceptable; however, the phrase 'như cây cây hy vọng của tôi' has a duplicated 'cây' (tree) — likely a typo or accidental repetition, making it read 'like tree tree my hope' instead of 'like a tree, my hope'. This is a minor textual error but could confuse meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

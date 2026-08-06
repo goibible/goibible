@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'וַיֹּאמֶר' (and he said) with no named speaker, but the Vietnamese adds 'La-ban đáp' (Laban answered), introducing a name not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

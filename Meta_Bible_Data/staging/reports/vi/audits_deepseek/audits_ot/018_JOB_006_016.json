@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַקֹּדְרִים' means 'those darkened' or 'grow dark' (from קדר), not 'bị đục' (be dulled/opaque). The Vietnamese 'bị đục' suggests being made opaque or dull, whereas the Hebrew refers to becoming dark/black. This changes the visual image."
+        }
+      ],
+      "confidence": 0.8
+    }
+  }
+}

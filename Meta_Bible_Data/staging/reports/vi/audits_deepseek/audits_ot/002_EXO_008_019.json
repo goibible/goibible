@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 8,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew says 'and he did not listen to them' (וְלֹֽא שָׁמַ֣ע אֲלֵהֶ֔ם) — 'them' refers to the magicians (or possibly Moses and Aaron in context, but the pronoun is plural and refers to the speakers of the previous clause, i.e., the magicians). The Vietnamese adds 'Môi-se và A-rôn' (Moses and Aaron), which is not in the Hebrew text and changes who Pharaoh refused to listen to."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

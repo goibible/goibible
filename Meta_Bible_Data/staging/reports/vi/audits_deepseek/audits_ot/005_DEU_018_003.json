@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 18,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'zovechei ha-zevach' means 'those who slaughter/sacrifice the sacrifice' (a peace/fellowship offering, zebach), not 'dâng của lễ thiêu' (burnt offering, olah). The Hebrew term 'zebach' specifically refers to a peace/sacrificial offering, not a burnt offering. This changes the type of offering described."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

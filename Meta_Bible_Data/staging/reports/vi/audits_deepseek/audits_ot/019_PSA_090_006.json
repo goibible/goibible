@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 90,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has no explicit subject 'cỏ' (grass) or 'người ta cắt' (people cut); the verbs are impersonal/third-person masculine singular referring to the grass/flower from the previous verse, and 'yimolel' means 'it withers/fades' (intransitive), not 'people cut it'. The addition of 'người ta cắt' introduces an agent not in the Hebrew and changes the action from withering to being cut."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

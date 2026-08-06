@@ -1,0 +1,13 @@
+{
+  "book": "EZK",
+  "chapter": 41,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 0.9
+    }
+  }
+}

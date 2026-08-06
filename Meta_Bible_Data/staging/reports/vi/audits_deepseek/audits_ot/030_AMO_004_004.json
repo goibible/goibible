@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לִשְׁלֹשֶׁת יָמִים' means 'for three days' (i.e., every three days), but Vietnamese renders it as 'mỗi ba năm' (every three years), changing the time period from days to years."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

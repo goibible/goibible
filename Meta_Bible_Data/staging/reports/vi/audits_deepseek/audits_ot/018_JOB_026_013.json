@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 26,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'חֹלֲלָה יָדוֹ נָחָשׁ בָּרִיחַ' means 'His hand pierced the fleeing serpent' (or 'formed/coiled the fleeing serpent'), not 'tay Ngài đấm lũng con rắn hùng mạnh' ('His hand punched through the mighty serpent'). The verb 'חולל' here is 'pierced' or 'writhed/formed', not 'đấm lũng' (punched through), and 'בָּרִיחַ' means 'fleeing' or 'bar' (as in a fleeing serpent), not 'hùng mạnh' (mighty). This changes the imagery and meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

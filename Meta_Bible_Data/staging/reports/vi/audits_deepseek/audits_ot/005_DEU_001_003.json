@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'in the fortieth year' (בְּאַרְבָּעִ֣ים שָׁנָ֔ה), but the Vietnamese says 'Năm mươi ngày bốn mươi' which is nonsensical ('fifty days forty') and does not convey 'fortieth year'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

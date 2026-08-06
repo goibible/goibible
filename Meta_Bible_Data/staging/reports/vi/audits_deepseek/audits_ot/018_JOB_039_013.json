@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רְנָנִים' (renanim) is often understood as 'ostrich' (or a bird of joy), not 'chim công' (peacock). The phrase 'נֶעֱלָסָה' means 'rejoices/exults', not 'đập vui vẻ' (flaps joyfully) — though 'đập' (flaps) is an addition not in the Hebrew. The second clause 'אִם אֶבְרָה חֲסִידָה וְנֹצָה' literally means 'if (it has) wing of stork and plumage' — the Hebrew is a conditional/assertion about the ostrich having stork-like wings and feathers, not a rhetorical question about 'lòng nhân từ' (kindness/mercy). The Vietnamese adds 'há có lòng nhân từ chăng?' (does it have kindness?) which is not in the Hebrew and changes the meaning entirely."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

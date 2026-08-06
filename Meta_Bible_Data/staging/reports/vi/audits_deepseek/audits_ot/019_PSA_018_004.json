@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 18,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְלִיַּעַל' (belial) means 'worthlessness' or 'wickedness', not 'Phán Xét' (Judgment). The phrase 'נַחֲלֵי בְלִיַּעַל' is 'torrents of destruction/wickedness', not 'dòng nước của Phán Xét'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

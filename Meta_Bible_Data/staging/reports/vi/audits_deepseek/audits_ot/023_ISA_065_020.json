@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 65,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the youth of a hundred years shall die' (בֶּן מֵאָה שָׁנָה יָמוּת), i.e., a person who dies at 100 will be considered a youth (i.e., dying young). The Vietnamese renders this as 'người còn trẻ mà chết đã một trăm tuổi sẽ bị coi là chết trẻ' — 'a young person who dies at 100 will be considered as dying young' — which reverses the logic: in Hebrew, the one who dies at 100 is called a 'youth' (because 100 is young in that age), not that a young person dies at 100. The Vietnamese adds 'sẽ bị coi là chết trẻ' (will be considered as dying young) which is not in the Hebrew; the Hebrew simply says 'the youth of a hundred years will die' — meaning a 100-year-old is still a youth, and his death is premature. This changes the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause: 'the sinner, a hundred years old, shall be accursed' (וְהַחוֹטֶא בֶּן מֵאָה שָׁנָה יְקֻלָּל). The Vietnamese renders 'kẻ phạm tội sống đến một trăm tuổi sẽ bị rủa sả' — 'the sinner who lives to a hundred years will be cursed' — which is close, but the Hebrew implies that even a sinner who reaches 100 is still considered accursed (i.e., dying at 100 is a curse for a sinner), not merely that he will be cursed. The Vietnamese 'sống đến một trăm tuổi' (lives to 100) adds the idea of living to 100, which is not explicit in the Hebrew; the Hebrew says 'a sinner of a hundred years' (i.e., a sinner who is 100 years old) will be accursed. This is a minor shift but changes the nuance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

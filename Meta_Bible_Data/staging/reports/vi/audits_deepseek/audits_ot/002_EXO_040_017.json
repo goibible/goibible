@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 40,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va phán rằng' (The LORD said that), which has no basis in the Hebrew text. The Hebrew simply states 'And it happened in the first month of the second year, on the first day of the month, the tabernacle was erected.'"
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

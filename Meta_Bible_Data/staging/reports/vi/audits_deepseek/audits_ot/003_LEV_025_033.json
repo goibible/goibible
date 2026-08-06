@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 25,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew clause 'וְיָצָא מִמְכַּר בַּיִת וְעִיר אֲחֻזָּתוֹ בַּיֹּבֵל' (and the sale of the house and the city of his possession shall go out in the Jubilee) is not fully represented. The Vietnamese omits the explicit mention that the house/city of the Levite's possession goes out (is released) in the Jubilee, and instead says 'đến năm sang năm nhà đó phải trở về người Lê-vi' (in the year of Jubilee that house must return to the Levite), which changes the subject from the sale going out to the house returning, and omits 'עִיר אֲחֻזָּתוֹ' (city of his possession)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

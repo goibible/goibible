@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 1,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 'sáu trăm ngàn và ba ngàn năm trăm năm mươi' (600,000 + 3,000 + 500 + 50 = 603,550). The Vietnamese renders it as 'sáu trăm ba ngàn năm trăm năm mươi' (600 + 3,000 + 500 + 50 = 4,150), dropping the 'ngàn' (thousand) after 'sáu trăm' and thus changing the number from 603,550 to 4,150."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

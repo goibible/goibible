@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּקְהַ֖ל יְהוָֽה' means 'in the assembly of Yahweh' (i.e., in the congregation/assembly of the LORD), but the Vietnamese renders it as 'trong vòng họ của Đức Giê-hô-va' which means 'in the circle of their family of the LORD' or 'in the circle of their clan of the LORD'. The word 'họ' (family/clan) is an addition not present in the Hebrew; the Hebrew has 'qahal' (assembly/congregation), not 'family' or 'clan'. This changes the meaning from being excluded from the assembly of the LORD to being excluded from a family circle, which is a substantive difference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

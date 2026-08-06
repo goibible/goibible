@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 18,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists 'Gíp-ba-th, Ki-ri-át-Giê-a-rim' (גִּבְעַ֣ת קִרְיַ֔ת) as one place name, but the Vietnamese renders it as two separate names 'Gíp-tha, Kíp-tha', which is a mistranslation of the place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

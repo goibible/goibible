@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the camp of Simeon' (מַטֵּה שִׁמְעוֹן) encamped 'beside him' (עָלָיו), referring to the standard of Judah, not 'beside Reuben' (bên Ru-bên). The Vietnamese adds 'bên Ru-bên' which is not in the Hebrew and changes the location."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is 'צוּרִֽי שַׁדָּֽי' (Zurishaddai), but the Vietnamese renders it as 'Xu-ri-ha-đai' which is a different name (Zurishaddai vs. Zurishaddai is correct, but the Vietnamese appears to be a transliteration of 'Zurishaddai' — however, the Hebrew is 'צוּרִֽי שַׁדָּֽי' which is 'Zurishaddai' — the Vietnamese 'Xu-ri-ha-đai' is a transliteration of 'Zurishaddai' — this is acceptable. The issue is the addition of 'bên Ru-bên' which is not in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 12,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָרוּם' means 'shrewd/crafty/prudent', not 'wise' (khakham). The Vietnamese renders it as 'người khôn ngoan' (wise person), which changes the specific nuance of the Hebrew term. However, this is a lexical nuance rather than a factual difference; the broader sense of prudence is preserved. The main issue is that the Hebrew says 'a shrewd person covers shame' (i.e., conceals insult), while the Vietnamese says 'a wise person hides the shame' — the subject is shifted from 'shrewd' to 'wise', which is a mild semantic shift but not a major factual error. Given the instruction to flag only if a reader would come away believing something factually different, this is borderline. The verb 'che giấu' (hide) correctly renders 'כֹסֶה' (covers), and 'sự sỉ nhục' (insult/shame) correctly renders 'קָלוֹן'. The first clause is accurate. The only deviation is the rendering of 'עָרוּם' as 'wise' instead of 'shrewd/prudent'. This is a minor lexical choice, not a factual reversal. Therefore, I will mark OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

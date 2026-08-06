@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text has only the mother of the living child speaking, pleading to give the living child to the other woman and not kill it. The Vietnamese adds a second speaker ('Nhưng người kia lại nói') attributing the final statement 'Đứa trẻ cũng không phải của tôi, cũng không phải của bà, hãy chia ra' to the other woman, but in the Hebrew this final clause is part of the same woman's speech ('và người này nói: ...'), describing her own words, not a response from the other woman. This changes who is speaking and the narrative flow."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'וְזֹאת אֹמֶרֶת' ('and this one was saying') is not rendered; the Vietnamese omits the explicit marker that the same woman continues speaking, contributing to the misattribution of the final clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'עִיר שָׁמֶשׁ' (Ir-shemesh, meaning 'City of the Sun'), but the Vietnamese renders it as 'Y-rơ-sa-mết', which is a different name (likely a confusion with 'Jarmuth' or a misreading). The correct transliteration should be 'Y-rơ-sê-mết' or 'Thành Sê-mết' (City of Shemesh), not 'Y-rơ-sa-mết'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

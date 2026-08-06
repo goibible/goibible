@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 47,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place names are 'עֵין גֶּדִי' (En Gedi) and 'עֵין עֶגְלַיִם' (En Eglaim). The Vietnamese renders them as 'Ê-nam-đô' and 'Ê-nên-ên-lai', which are not recognizable transliterations of these names and appear to be incorrect or swapped."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

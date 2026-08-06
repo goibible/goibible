@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבְרוּחַ אַפֶּיךָ' means 'by the blast of your nostrils' (God's breath/nostrils), but the Vietnamese says 'Lời phán của Ngài thổi ra' ('the word of your speech blew out'), which changes the subject from God's breath/nostrils to His spoken word, altering the imagery and meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

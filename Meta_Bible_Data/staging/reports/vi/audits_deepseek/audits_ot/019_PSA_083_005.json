@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 83,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'עָלֶיךָ' means 'against You' (referring to God, second person singular), but the Vietnamese renders it as 'nghịch cùng Đức Giê-hô-va' (against Jehovah), which is a third-person reference. This changes the direct address to God into an indirect reference, altering the person and the addressee."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

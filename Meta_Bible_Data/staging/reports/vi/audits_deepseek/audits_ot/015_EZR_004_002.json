@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'מֶלֶךְ אַשּׁוּר' (king of Assyria), but the Vietnamese renders it as 'vua A-đu' (king of A-đu), which is a different name/place. It should be 'vua A-si-ri' (king of Assyria)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

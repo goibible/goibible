@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 23,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'for a peace offering' (לְזֶבַח שְׁלָמִים), but Vietnamese says 'of lễ thiêu' (burnt offering), which is a different sacrifice type."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

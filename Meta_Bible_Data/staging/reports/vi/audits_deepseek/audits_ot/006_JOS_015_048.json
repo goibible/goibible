@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 48,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'שׂוֹכֹה' (Sokoh) is rendered as 'Xô-cô' which is acceptable, but 'שָׁמִיר' (Shamir) is rendered as 'Sâm-ia' — this appears to be a corruption or misreading; the correct transliteration should be 'Sa-mia' or 'Samia' (not 'Sâm-ia'), and 'יַתִּיר' (Jattir) is rendered as 'Gia-tia' — the Hebrew has 'יַתִּיר' (Yattir), not 'Gia-tia' (which would be 'יַתִּיר' with a gimel, but the Hebrew has yod). The name 'Gia-tia' is a mistransliteration of 'Jattir' (יַתִּיר), which should be 'Gia-tia' is not standard; the correct is 'Gia-tia' is not the Hebrew, but the Hebrew is 'יַתִּיר' (Yattir) — the Vietnamese 'Gia-tia' introduces a 'G' sound not in the Hebrew, and 'Sâm-ia' for 'שָׁמִיר' (Shamir) is a misreading (the Hebrew has 'shin-mem-yod-resh', not 'shin-ayin-mem-yod-ayin'). These are name swaps/mistransliterations that would mislead a reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

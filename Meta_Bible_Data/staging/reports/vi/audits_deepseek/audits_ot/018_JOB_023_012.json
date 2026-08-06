@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 23,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'hơn cả lương thực nuôi sống linh hồn tôi' (more than the food that sustains my soul), which has no basis in the Hebrew text. The Hebrew only says 'I have treasured the words of His mouth more than my portion of food' (מֵחֻקִּי צָפַנְתִּי אִמְרֵי פִיו), but the Vietnamese expands this into a comparison with 'lương thực nuôi sống linh hồn' (food that sustains the soul), which is an addition not present in the original."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

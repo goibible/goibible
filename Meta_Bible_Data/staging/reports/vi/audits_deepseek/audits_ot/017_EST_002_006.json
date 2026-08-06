@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has יְכָנְיָה (Jeconiah/Jehoiachin), but the Vietnamese renders it as 'Giô-ách' (Joash), a different king's name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

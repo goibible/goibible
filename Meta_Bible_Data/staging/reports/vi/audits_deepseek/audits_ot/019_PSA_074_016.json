@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 74,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מָאוֹר וָשָׁמֶשׁ' means 'light and sun' (or 'luminary and sun'), but the Vietnamese renders it as 'mặt trăng và mặt trời' (moon and sun). The word 'מָאוֹר' (ma'or) means 'light' or 'luminary', not specifically 'moon' (which would be 'יָרֵחַ' or 'לְבָנָה'). This changes the meaning by adding 'moon' and dropping 'light'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

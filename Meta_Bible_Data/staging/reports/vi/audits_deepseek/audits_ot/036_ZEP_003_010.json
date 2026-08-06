@@ -1,0 +1,18 @@
+{
+  "book": "ZEP",
+  "chapter": 3,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּת פוּצַי' (bat putzai) means 'daughter of my dispersed ones' or 'my dispersed daughter' (figurative for the scattered people), not 'con gái của dân Ta bị tan lạc' (daughter of my people who are scattered). The Vietnamese adds 'dân Ta' (my people) which is not in the Hebrew; 'פוּצַי' is 'my dispersed/scattered ones' (from פוץ), not 'dân Ta' (my people). This changes the meaning: the Hebrew says 'my scattered ones' (the dispersed people) will bring offerings, not 'the daughter of my people who are scattered'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

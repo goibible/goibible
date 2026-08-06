@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention A-cha (Ahaz) by name; it says 'his heart and the heart of his people' (לְבָבוֹ וּלְבַב עַמּוֹ). The Vietnamese adds 'A-cha' as the subject, which is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'chín mươi chín ngàn ba trăm' (99,300), but the Vietnamese says 'chín mươi ngàn năm trăm ba mươi' (90,530). The number is wrong: 'תִּשְׁעָ֧ה וַחֲמִשִּׁ֛ים אֶ֖לֶף וּשְׁלֹ֥שׁ מֵאֽוֹת' = 50+9=59 thousand? Actually, 'תִּשְׁעָ֧ה וַחֲמִשִּׁ֛ים' = 59, so 59,000 + 300 = 59,300. The Vietnamese 'chín mươi ngàn năm trăm ba mươi' = 90,530, which is incorrect. The correct rendering should be 'năm mươi chín ngàn ba trăm' (59,300)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

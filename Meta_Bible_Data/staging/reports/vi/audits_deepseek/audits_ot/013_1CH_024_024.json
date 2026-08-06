@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew ends with 'שמור' (Shamur/Shamor), but the Vietnamese renders it as 'Sâm-ia' (Shamiah), which is a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

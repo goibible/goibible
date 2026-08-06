@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 15,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew specifies 'two turtledoves (תֹרִים) or two young pigeons (בְּנֵי יוֹנָה)'; the Vietnamese reverses the order, saying 'hai con bồ câu hoặc hai con chim cu con' (two pigeons or two young turtledoves), swapping the two bird types."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

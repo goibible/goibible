@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 17,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text mentions only 'Israel' (יִשְׂרָאֵל) and 'Philistines' (וּפְלִשְׁתִּים); the Vietnamese adds 'Sau-lơ' (Saul), which is not present in the Hebrew verse. This is an addition of a name not in the source text."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

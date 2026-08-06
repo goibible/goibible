@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 'một trăm ngàn, bảy mươi bảy ngàn, sáu trăm' (157,600). The Vietnamese renders it as 'một trăm ngàn, bảy mươi ngàn, năm ngàn, sáu trăm' (175,600), splitting the 'bảy mươi bảy ngàn' (77,000) into 'bảy mươi ngàn' (70,000) and 'năm ngàn' (5,000), which changes the total number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 1,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'פְּקֻדֵיהֶ֖ם לְמַטֵּ֣ה מְנַשֶּׁ֑ה' means 'their numbered ones of the tribe of Manasseh' — the Vietnamese omits the explicit reference to 'their numbered ones' (פְּקֻדֵיהֶם) and the tribe name 'Manasseh' (מְנַשֶּׁה), rendering only the number and 'the tribes of the tribe of Manasseh' which is redundant and loses the census context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

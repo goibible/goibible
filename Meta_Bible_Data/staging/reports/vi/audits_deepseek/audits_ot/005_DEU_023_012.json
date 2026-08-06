@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 23,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'ngươi phải dùng nó đào hố, rồi lấp lại phân của mình' (you must use it to dig a hole, then cover your excrement), which is not present in the Hebrew verse. The Hebrew only says 'you shall have a peg outside the camp, and you shall go out there outside' — the digging and covering instructions appear in the following verse (Deut 23:13), not here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

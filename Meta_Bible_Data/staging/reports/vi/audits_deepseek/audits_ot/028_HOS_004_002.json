@@ -1,0 +1,22 @@
+{
+  "book": "HOS",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists 'cursing/swearing falsely' (אָלֹה וְכַחֵשׁ) first, but the Vietnamese renders it as 'nói dối' (lying) and places it second, after 'trộm cắp' (stealing). The Hebrew order is: swearing falsely, lying, murder, stealing, adultery. The Vietnamese order is: stealing, lying, murder, stealing (duplicated), adultery. The first item 'אָלֹה' (cursing/swearing) is omitted, and 'trộm cắp' appears twice (once for גָּנֹב and once as a misplaced rendering of אָלֹה). This changes the list's content and order."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'אָלֹה' (cursing/swearing an oath) is not represented; the Vietnamese only has 'nói dối' (lying) for 'וְכַחֵשׁ', omitting the distinct concept of swearing/cursing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

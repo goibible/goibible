@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 103,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עֶדְיֵךְ' means 'your ornament/adornment' (from עדי), not 'miệng ngươi' (your mouth). The Vietnamese rendering 'miệng ngươi' (your mouth) is an incorrect translation of the Hebrew word."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

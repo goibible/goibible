@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 26,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַיֹּאמֶר דָּוִד חַי יְהוָה' includes the oath formula 'As the LORD lives' (חַי יְהוָה), which is entirely missing in the Vietnamese translation. The Vietnamese begins with 'Đa-vít nói thêm' (David added) and then states 'Đằng nào thì Đức Giê-hô-va cũng sẽ không để tôi ra tay hại vua' (Either way, the LORD will not let me raise my hand against the king), omitting the oath 'As the LORD lives' that introduces the statement."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי אִם יְהוָה יִגָּפֶנּוּ' means 'surely the LORD will strike him' (or 'for the LORD will strike him'), but the Vietnamese renders it as 'Đức Giê-hô-va cũng sẽ không để tôi ra tay hại vua' (the LORD will not let me raise my hand against the king). This changes the subject and meaning: the Hebrew says the LORD will strike him, not that the LORD will prevent David from striking him. The Vietnamese introduces a negative concept ('will not let me') that is not in the Hebrew and omits the direct statement that the LORD will strike him."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

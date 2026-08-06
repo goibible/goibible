@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 119,
+  "verse": 85,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא כְתוֹרָתֶךָ' means 'not according to Your law' (referring to God's law, i.e., the psalmist's own law/instruction from God). The Vietnamese renders it as 'việc không theo luật pháp của Đức Giê-hô-va' ('things not according to the law of Jehovah'), which adds 'việc' (things) and changes the possessive from 'Your' (second person, addressing God) to 'của Đức Giê-hô-va' (of Jehovah, third person). This shifts the perspective and adds a noun not present in the Hebrew, altering the meaning slightly."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

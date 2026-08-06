@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 34,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Đức Giê-hô-va phán cùng đấng tiên tri Giê-rê-mi rằng: Hãy nói' (The LORD spoke to the prophet Jeremiah, saying: 'Speak...'), which is not in the Hebrew. The Hebrew simply states that Jeremiah the prophet spoke to Zedekiah king of Judah all these words in Jerusalem. The added divine command and direct speech are not present in the source text."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

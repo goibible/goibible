@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'וַתִּתֵּן' (and You gave) is addressed to God (2nd person masculine singular), but the Vietnamese renders it as 'Ngươi đã làm' (You did) — 'Ngươi' is a 2nd person pronoun, which is acceptable, but the subject of the verse is God, and the Vietnamese 'Ngươi' could be misread as referring to a human addressee (e.g., Nehemiah) rather than God, especially since the following clauses use 'Ngài' (He) for God, creating a person shift that changes who is doing the action. The Hebrew consistently uses 2nd person for God throughout the verse, but the Vietnamese mixes 'Ngươi' (2nd person) and 'Ngài' (3rd person) for the same referent, which could confuse the reader about who performed the signs and wonders."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

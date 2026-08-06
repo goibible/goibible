@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 23,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּן שְׁנָתוֹ' means 'a year old' (literally 'son of its year'), but the Vietnamese says 'giáp năm' which means 'one year old' — this is correct. However, the Vietnamese adds 'đực' (male) which is not in the Hebrew; the Hebrew only says 'כֶּבֶשׂ' (lamb) without specifying gender. This is an addition that changes the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

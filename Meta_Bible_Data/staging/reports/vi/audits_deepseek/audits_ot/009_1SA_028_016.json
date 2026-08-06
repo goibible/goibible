@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 28,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has Samuel (שְׁמוּאֵל) speaking, but the Vietnamese attributes the speech to Sau-lơ (Saul). This swaps the speaker."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'and why do you ask me, since the LORD has turned away from you and has become your enemy' — the LORD is the subject of 'turned away' and 'become your enemy.' The Vietnamese says 'Đức Giê-hô-va đã rời khỏi ngươi và trở thành kẻ thù nghịch ngươi' (the LORD has left you and become your enemy), which is correct in content, but the speaker attribution error is the main issue."
+        }
+      ],
+      "confidence": 0.98
+    }
+  }
+}

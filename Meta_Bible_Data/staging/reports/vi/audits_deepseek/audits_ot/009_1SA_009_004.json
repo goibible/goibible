@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'אֶרֶץ יְמִינִי' (land of Yemini) is rendered as 'đất nước Bên-gia-min' (land of Benjamin). 'Yemini' is a gentilic referring to the tribe of Benjamin, but it is not the same as the proper name 'Benjamin' (בִּנְיָמִין). This is a name swap that changes the place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

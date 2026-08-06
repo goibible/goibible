@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַאֲמָנָה עַל הַמְשֹׁרְרִים' means 'and a fixed provision/trust was upon the singers' (i.e., the singers had a fixed allowance), but the Vietnamese renders it as 'các người chỉ huy được giao bổng lộc hàng ngày cho các ca sĩ' ('the commanders were given daily allowance for the singers'), introducing 'chỉ huy' (commanders) which is not in the Hebrew and changing who receives the provision."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

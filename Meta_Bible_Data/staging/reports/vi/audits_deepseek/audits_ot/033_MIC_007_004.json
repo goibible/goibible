@@ -1,0 +1,22 @@
+{
+  "book": "MIC",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יוֹם מְצַפֶּיךָ פְּקֻדָּתְךָ בָאָה' means 'the day of your watchmen, your visitation has come' — i.e., the day of your punishment/visitation has come. The Vietnamese renders 'Ngày các ngươi canh giữ và ngươi đến thăm viếng đã đến' ('the day you keep watch and you come to visit has come'), which misinterprets 'מְצַפֶּיךָ' (your watchmen) as 'you keep watch' and 'פְּקֻדָּתְךָ' (your visitation/punishment) as 'you come to visit', changing the subject and meaning. The Hebrew is about the day of their punishment arriving, not about their own watching or visiting."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'מְצַפֶּיךָ' is plural 'your watchmen' (referring to the enemy's watchmen or those who watch for you), but the Vietnamese 'các ngươi canh giữ' makes it second-person plural active ('you keep watch'), shifting the person and number from third-person plural noun to second-person plural verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

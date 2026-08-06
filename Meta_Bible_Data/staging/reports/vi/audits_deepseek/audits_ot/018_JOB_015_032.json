@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּֽלֹא י֭וֹמוֹ' means 'before its day/time' (i.e., before its time), but Vietnamese 'Trước kỳ người chưa đến' adds 'người chưa đến' (the person has not yet come), introducing a person not in the Hebrew and changing the meaning to 'before the person arrives' instead of 'before its time'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פִּימָה עֲלֵי כָסֶל' means 'makes a fatness upon the loins/flanks' (i.e., makes his loins fat), but Vietnamese renders 'làm cho hai hông mình đầy đặn' which is acceptable. However, the Hebrew 'וַיַּעַשׂ פִּימָה עֲלֵי כָסֶל' literally 'and he makes fatness upon the loins' – the Vietnamese 'đầy đặn' (full/plump) is a reasonable rendering. The issue is the word 'hông' (hips) vs 'cạnh sườn' (loins/flanks) – 'כֶסֶל' refers to the loins/flanks, not hips. This is a minor anatomical difference but could mislead. Also, the Hebrew has 'עֲלֵי' (upon) which is preserved. The main concern is the rendering of 'פִּימָה' as 'đầy đặn' (fullness) – this is acceptable. However, the verse's second clause is about making fatness on the loins, not 'two hips' – the Hebrew has no 'two' (שְׁנַיִם) here. The Vietnamese adds 'hai' (two) which is not in the Hebrew. This is an addition that changes the meaning slightly."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

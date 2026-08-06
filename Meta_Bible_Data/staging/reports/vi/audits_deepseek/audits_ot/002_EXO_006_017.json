@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'Livni' (לִבְנִי) and 'Shimei' (שִׁמְעִי); Vietnamese renders 'Líp-ni' (correct) but 'Si-mê-y' (incorrect, should be 'Si-mê-i' or similar to match Shimei). The name is slightly altered but still recognizable; however, the order is also reversed: Hebrew lists 'Livni and Shimei', Vietnamese lists 'Líp-ni và Si-mê-y' — order is preserved, so only the name spelling is off. This is a minor name rendering issue, not a substantive swap."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

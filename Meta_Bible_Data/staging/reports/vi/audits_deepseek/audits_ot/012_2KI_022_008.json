@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 22,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Vua' (king) at the beginning, which is not present in the Hebrew text. The Hebrew simply says 'And Hilkiah the high priest said...' without mentioning the king."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

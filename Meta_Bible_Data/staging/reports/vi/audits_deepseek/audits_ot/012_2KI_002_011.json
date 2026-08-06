@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֵלִיָּהוּ (Elijah) is rendered as 'Ê-li-a', which is a different name (Elisha in Vietnamese is commonly 'Ê-li-sê'). This swaps the prophet's name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

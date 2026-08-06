@@ -1,0 +1,26 @@
+{
+  "book": "ECC",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאָמַר לַכֹּל סָכָל הוּא' means 'and he says to everyone, "
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "I am a fool."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "' — reversing the subject/object. The Hebrew has 'he is a fool' (referring to others), not 'I am a fool' (referring to himself). This changes who is being called foolish."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

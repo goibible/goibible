@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 72,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'ngày thứ mười một' (the eleventh day), but Vietnamese says 'Ngày thứ mười hai' (the twelfth day)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

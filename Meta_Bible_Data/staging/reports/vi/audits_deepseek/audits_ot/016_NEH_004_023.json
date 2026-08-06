@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text ends with 'אִישׁ שִׁלְחוֹ הַמָּיִם' which literally means 'each one had his weapon at the water' (i.e., each man kept his weapon ready even when going to the water). The Vietnamese adds 'khi đi vệ sinh' (when going to the toilet), which is an interpretive addition not present in the Hebrew and changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

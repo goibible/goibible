@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 40,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has Jeremiah (יִרְמְיָהוּ), but the Vietnamese renders 'Ê-xa-ra' (Ezra), a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

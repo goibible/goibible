@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text says 'Elisha sent a messenger to him' (וַיִּשְׁלַ֥ח אֵלָ֛יו אֱלִישָׁ֖ע מַלְאָ֣ךְ), but the Vietnamese adds 'Đức Chúa Trời' (God) as the subject, making it 'God sent Elisha sent a messenger' — an addition of a subject not present in the Hebrew, which changes who is doing the sending."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

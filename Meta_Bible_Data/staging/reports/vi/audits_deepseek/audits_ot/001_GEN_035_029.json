@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 35,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Esau and Jacob (עֵשָׂו וְיַעֲקֹב) buried him, but the Vietnamese reverses the order to 'Gia-cốp và Ê-sau' (Jacob and Esau)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 41,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יִרְדְּפֵם יַעֲבוֹר שָׁלוֹם' means 'He pursues them, he passes over in peace' (subject is 'he' = the servant/righteous one, object 'them' = enemies). The Vietnamese 'Người đuổi theo chúng, đi qua bình an' correctly renders this. However, the final clause 'אֹרַח בְּרַגְלָיו לֹא יָבוֹא' means 'a path with his feet he will not come' — i.e., 'he will not come on a path with his feet' (the subject is still 'he', not 'no one'). The Vietnamese 'thì không ai đến' ('then no one comes') changes the subject from 'he' to 'no one', altering who does the action. The Hebrew says 'he will not come' (referring to the same subject), not 'no one will come'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

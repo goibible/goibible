@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 6,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַתַּגִּישׁוּן שֶׁבֶת חָמָס' means 'and you bring near the seat of violence' (i.e., you cause the throne/seat of violence to come near). Vietnamese 'khiến cho ngai của bạo lực đến gần' correctly conveys this. However, the first clause 'הַֽמְנַדִּ֖ים לְי֣וֹם רָ֑ע' means 'who put far away the day of evil' (i.e., those who push away the day of calamity). Vietnamese 'đẩy xa ngày tai họa' is correct. The issue is the second clause: 'וַתַּגִּישׁוּן' is 2nd person plural 'you bring near', but Vietnamese 'khiến cho ... đến gần' is fine. Actually, the main problem is that the Hebrew has 'שֶׁבֶת חָמָס' = 'seat of violence' (a throne of violence), but Vietnamese says 'ngai của bạo lực' which is correct. Wait—rechecking: the Hebrew 'שֶׁבֶת' is 'seat/throne' (construct), not 'ngồi' (sitting). Vietnamese 'ngai' is correct. The translation seems accurate. However, the first verb 'הַֽמְנַדִּ֖ים' is a participle 'those who put far away'—Vietnamese 'những kẻ đẩy xa' is correct. The second verb 'וַתַּגִּישׁוּן' is 'and you bring near'—Vietnamese 'và khiến cho ... đến gần' is correct. No error found. But the Hebrew 'לְי֣וֹם רָ֑ע' = 'to the day of evil'—Vietnamese 'ngày tai họa' is fine. Actually, I see no substantive error. The translation is faithful. However, the instruction says to flag only if a Vietnamese reader would come away believing something factually different. Here, the meaning is preserved. So verdict should be OK. But I already wrote FLAG—let me correct. The correct verdict is OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

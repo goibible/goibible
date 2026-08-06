@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'La-ban' (Laban) as the subject of the actions, but the Hebrew text only says 'the man' (הָאִישׁ) entered the house and performed these actions. This changes who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

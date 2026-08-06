@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 29,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text has Laban speaking to Jacob ('וַיֹּאמֶר לוֹ לָבָן'), but the Vietnamese rendering omits the explicit subject 'Laban' in the first clause, instead starting with 'La-ban nói' which is acceptable, but the second clause 'Rồi Gia-cốp ở cùng người một tháng' adds 'Gia-cốp' (Jacob) as the subject, which is not in the Hebrew. The Hebrew says 'and he stayed with him a month of days' (וַיֵּשֶׁב עִמּוֹ חֹדֶשׁ יָמִים), where the subject is the same person (Jacob) from context, but the Vietnamese explicitly names Jacob, which is an addition not present in the Hebrew text. However, this is a contextual clarification, not a factual change. The main issue is that the Vietnamese omits the explicit 'Laban' as the speaker in the first clause, but it is present. Actually, the Vietnamese says 'La-ban nói' which is correct. The issue is the addition of 'Gia-cốp' in the second clause, which is not in the Hebrew but is contextually implied. This is a minor addition that does not change the meaning. However, the instruction says to flag additions that have no basis in the Hebrew and change the verse's claim. Here, the addition of 'Gia-cốp' does not change the claim; it clarifies the subject. So this might be OK. But the Hebrew has 'Laban said to him' – the Vietnamese says 'La-ban nói với người' which is fine. The second clause 'Rồi Gia-cốp ở cùng người một tháng' – the Hebrew 'וַיֵּשֶׁב עִמּוֹ' has the subject as Jacob (from context), so adding 'Gia-cốp' is a clarification, not an error. The verse is essentially correct. However, the instruction says to flag only if a Vietnamese reader would come away believing something factually different. Here, the reader would understand that Laban spoke and Jacob stayed – which is correct. So this should be OK. But I need to check if there is any omission: the Hebrew says 'a month of days' (חֹדֶשׁ יָמִים) – the Vietnamese says 'một tháng' which is fine. The Hebrew has 'but my bone and my flesh you are' (אַךְ עַצְמִי וּבְשָׂרִי אָתָּה) – the Vietnamese says 'Thật vậy, cháu là xương thịt của ta' which is correct. So overall, the translation is faithful. The addition of 'Gia-cốp' is a contextual clarification, not an error. Therefore, verdict should be OK. But I need to be careful: the instruction says 'Do not flag' for additions that are natural Vietnamese, like 'là', 'rằng', etc. Here, 'Gia-cốp' is a proper name added, but it is the subject of the verb 'ở' (stayed) which is implied in Hebrew. This is a common translation practice. So I will mark OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

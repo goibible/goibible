@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 18,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תֶּחֱרָף' (from חרף) means 'will winter' or 'will pass the winter', not 'sẽ đậu' (will perch). The Vietnamese renders both 'עָלָיו הָעַיִט' (birds will summer/lodge on it) and 'עָלָיו תֶּחֱרָף' (beasts will winter on it) as 'sẽ đậu' (will perch), losing the seasonal contrast (summer vs. winter) present in the Hebrew. The Hebrew explicitly contrasts summer (קיץ) and winter (חרף) activities, but the Vietnamese says 'suốt mùa hè' (all summer) for the birds and 'suốt mùa đông' (all winter) for the beasts, which is an addition of seasons not in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

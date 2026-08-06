@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 22,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Nếu người trai trẻ ấy không bị ném đá' (If that young man is not stoned), a conditional clause not present in the Hebrew. The Hebrew begins directly with 'And they shall bring out the young woman...' (וְהוֹצִיאוּ אֶת הנער), with no such condition."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

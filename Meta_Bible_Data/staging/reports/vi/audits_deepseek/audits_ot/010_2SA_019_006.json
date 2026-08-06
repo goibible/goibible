@@ -1,0 +1,30 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי אֵין לְךָ שָׂרִים וַעֲבָדִים' means 'for you have no officers or servants' (i.e., you have no regard for them), but the Vietnamese says 'ngươi không coi trọng các quan trưởng và đầy tớ mình' ('you do not value your officers and servants'), which is a paraphrase that changes the literal claim from 'you have none' to 'you do not value them'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי לֹא אַבְשָׁלוֹם חַי' means 'for Absalom is not alive' (a statement of fact), but the Vietnamese renders it as a conditional 'nếu A-banh-sam không chết' ('if Absalom had not died'), changing the meaning from a declaration to a hypothetical condition."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכֻלָּנוּ הַיּוֹם מֵתִים' means 'and all of us are dead today' (i.e., we are as good as dead), but the Vietnamese 'và tất cả chúng ta chết hôm nay' ('and all of us die today') is acceptable, yet combined with the conditional 'nếu' it shifts the sense to a hypothetical, whereas the Hebrew is a present reality."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי אָז יָשָׁר בְּעֵינֶיךָ' means 'for then it would be right in your eyes' (a past/conditional statement), but the Vietnamese 'thì điều đó mới đẹp lòng ngươi' ('then that would please you') is acceptable, but the overall conditional structure misrepresents the Hebrew's straightforward assertion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

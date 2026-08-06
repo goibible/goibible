@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 43,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמִלְאוּ יָדוֹ' (literally 'and they shall fill its hand' or 'and they shall consecrate it') is an idiom meaning 'to ordain/consecrate' (fill the hand), not 'dâng tay mình' ('offer their hand'). The Vietnamese rendering changes the meaning from consecrating the altar to offering one's hand."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 6,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'זֶבַח הַשְּׁלָמִים' means 'sacrifice of peace offerings' (or 'peace offering sacrifice'), but Vietnamese renders it as 'lễ toàn thiêu của lễ thù ân' which means 'burnt offering of the thank offering'. The Hebrew does not say 'burnt offering' (עֹלָה) here; it says 'peace offering' (שְׁלָמִים). This changes the type of offering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

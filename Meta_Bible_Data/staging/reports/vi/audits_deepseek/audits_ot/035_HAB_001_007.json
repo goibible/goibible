@@ -1,0 +1,22 @@
+{
+  "book": "HAB",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הוּא' is singular ('he/it'), but the Vietnamese renders 'chúng' (plural 'they/their'). This changes the subject from singular to plural."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The possessive suffixes 'מִשְׁפָּטוֹ וּשְׂאֵתוֹ' are singular ('his judgment and his dignity'), but the Vietnamese 'của chúng' is plural ('their'). This is a number error."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

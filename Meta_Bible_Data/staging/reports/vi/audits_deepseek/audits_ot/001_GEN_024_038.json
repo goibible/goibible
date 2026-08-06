@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 24,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'nơi con gái của người Ca-na-an, nơi đất mà ta đã dẫn nó đến' (from the daughters of the Canaanites, in the land where I have brought him), which is not present in the Hebrew verse. The Hebrew only says 'If you will not go to my father's house and to my family, and take a wife for my son.'"
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

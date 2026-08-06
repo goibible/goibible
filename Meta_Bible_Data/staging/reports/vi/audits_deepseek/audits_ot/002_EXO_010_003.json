@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֵעָנֹת מִפָּנָי' means 'to humble yourself before me' (i.e., to submit/humble oneself before God), but the Vietnamese renders it as 'thờ lạy ta' (to worship me), which changes the meaning from humbling/submitting to worshiping."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

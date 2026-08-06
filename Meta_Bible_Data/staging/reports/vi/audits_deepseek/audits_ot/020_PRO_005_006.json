@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹרַח חַיִּים' means 'path of life' (a path that leads to life), but the Vietnamese 'con đường dẫn đến sự sống' correctly conveys this. However, the Hebrew 'פֶּן תְּפַלֵּס' means 'lest you ponder/weigh' (i.e., do not consider/reflect on the path of life), but the Vietnamese 'Đừng bước trên' means 'Do not walk on', which changes the action from 'pondering/considering' to 'walking on'. This is a mistranslation of the verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

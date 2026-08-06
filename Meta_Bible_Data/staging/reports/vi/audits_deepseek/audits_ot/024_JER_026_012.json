@@ -1,0 +1,26 @@
+{
+  "book": "JER",
+  "chapter": 26,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Vietnamese text is entirely different from the Hebrew. It speaks of Ê-xê-chia (Hezekiah), Ê-li-a-kim, Sê-ban, and Ê-sai (Isaiah), whereas the Hebrew has Jeremiah (יִרְמְיָהוּ) speaking to all the officials and all the people. The entire content is a different passage (2 Kings 20:5/Isaiah 38:5) rather than Jeremiah 26:12."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew content — Jeremiah's statement that Yahweh sent him to prophesy against this house and this city all the words they have heard — is completely absent from the Vietnamese."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds content about Hezekiah's illness, healing, and going up to the temple on the third day, which has no basis in the Hebrew verse."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

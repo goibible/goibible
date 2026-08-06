@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 18,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The subject is wrong: the Hebrew says Jethro (Yitro), Moses' father-in-law, took Zipporah; the Vietnamese says Moses (Môi-se) took Zipporah, reversing who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

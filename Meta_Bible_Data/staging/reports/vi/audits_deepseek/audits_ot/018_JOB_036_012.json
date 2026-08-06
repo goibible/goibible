@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּשֶׁלַח' means 'by the sword' (instrumental 'by'), but Vietnamese renders 'vì gươm dao' ('because of the sword'), shifting the sense from instrument to cause. This is a minor semantic shift but changes the claim from 'they will pass through by the sword' to 'they will die because of the sword'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

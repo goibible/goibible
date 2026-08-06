@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 22,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb תִּתַּפָּל (from פָּלַל, 'to twist, be crooked') means 'You show yourself twisted/crooked' (i.e., dealing perversely with the crooked), but the Vietnamese renders it as 'tỏ ra khôn ngoan' ('show yourself wise'), which is a different concept not present in the Hebrew. The Hebrew does not say 'wise' here; it says 'twisted' or 'perverse'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 24,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Gad' (גָּד), but the Vietnamese renders 'Ga-đôm' which is a different name (Gadom), not the correct name 'Gát' or 'Ga-đơ'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

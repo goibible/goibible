@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 33,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Ích gì cho anh vậy?' ('What use is it to you?') which has no basis in the Hebrew text. The Hebrew only has Esau asking 'Whose is all this camp that I met?' and Jacob's reply."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

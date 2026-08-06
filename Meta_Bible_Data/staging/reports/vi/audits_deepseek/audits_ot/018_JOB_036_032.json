@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיְצַו עָלֶיהָ בְמַפְגִּיעַ' means 'and commands it (the light) by/against the storm/cloud' (the noun מַפְגִּיעַ is a hapax, often rendered 'storm' or 'cloud' in context of Job 36:32). The Vietnamese 'truyền cho nó phải đánh vào nơi nào' ('commands it to strike at some place') adds the idea of striking a place, which is not in the Hebrew; the Hebrew says he commands it (the light) by means of a storm/cloud, not that it strikes a place. This changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

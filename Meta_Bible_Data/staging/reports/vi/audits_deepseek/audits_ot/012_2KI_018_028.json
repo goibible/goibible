@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'מֶלֶךְ אַשּׁוּר' (king of Assyria), but the Vietnamese renders it as 'vua nước A-đu' (king of the land of A-đu), which is a different name/place, not Assyria."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

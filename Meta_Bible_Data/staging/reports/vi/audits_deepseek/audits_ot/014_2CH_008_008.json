@@ -1,0 +1,13 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

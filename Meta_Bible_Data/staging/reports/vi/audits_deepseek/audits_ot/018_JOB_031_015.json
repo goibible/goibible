@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 31,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has no explicit subject 'Đức Chúa Trời' (God) in the second clause; the subject is the same implied 'He' (the one who made me). Adding 'một Đức Chúa Trời' introduces a concept not present in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיְכֻנֶנּוּ בָּרֶחֶם אֶחָד' means 'and he formed him in the womb' (singular object 'him', referring to the other person). The Vietnamese 'một Đức Chúa Trời đã tạo nên chúng ta' changes the object to 'chúng ta' (us, plural) and adds 'một Đức Chúa Trời' as subject, altering both the subject and the number of the object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

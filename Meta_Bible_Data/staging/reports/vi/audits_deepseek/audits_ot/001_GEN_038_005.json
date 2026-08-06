@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 38,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'thì Giu-đa đang ở tại Kê-xíp' (then Judah was at Kezib), but the Hebrew only says 'and he was in Kezib when she bore him' (וְהָיָה בִכְזִיב בְּלִדְתָּהּ אֹתוֹ). The subject of 'he was' is the child (Shelah), not Judah. This changes who was at Kezib."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

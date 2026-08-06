@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 52,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Egypt' (מִצְרַיִם) as the place where God's people first went down, but the Vietnamese says 'A-si-ri' (Assyria). This is a name swap of a place name."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions both Egypt and Assyria: 'My people went down to Egypt at the first to sojourn there, and Assyria oppressed them without cause.' The Vietnamese omits the reference to Egypt entirely and only mentions Assyria, losing the contrast between the two nations."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

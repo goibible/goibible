@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 81,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'còn dân ta sẽ sống đến đời đời' (but my people will live forever), which has no basis in the Hebrew. The Hebrew second clause 'וִיהִ֖י עִתָּ֣ם לְעוֹלָֽם' means 'and their time will be forever' (referring to the haters' fate), not 'my people will live forever'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

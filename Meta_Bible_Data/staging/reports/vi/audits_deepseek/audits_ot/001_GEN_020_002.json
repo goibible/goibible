@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Xin hãy nói rằng' ('Please say that') which is not present in the Hebrew. The Hebrew simply states 'she is my sister' (אֲחֹתִי הִוא) as a direct statement, not a request to say something."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

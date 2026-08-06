@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'Ha-mát, Ra-quát và Kin-nê-rết' (חַמַּת רַקַּת וְכִנָּרֶת); Vietnamese renders 'Ha-mát, Ra-quat và Xin-ne-rết' — 'Xin-ne-rết' is not a recognized rendering of 'Kin-nê-rết' (Kinneret), which is a different place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 50,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'bốn mươi ngày' (40 days) for embalming, but Vietnamese says 'Mười bảy ngày' (17 days)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

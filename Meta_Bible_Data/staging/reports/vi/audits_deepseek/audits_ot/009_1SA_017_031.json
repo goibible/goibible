@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 17,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּקָּחֵהוּ' means 'and he took him' (Saul took David), but the Vietnamese renders it as 'và ông sai người gọi người ấy đến' ('and he sent someone to call him'), which adds the concept of sending a messenger and changes the action from taking to summoning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

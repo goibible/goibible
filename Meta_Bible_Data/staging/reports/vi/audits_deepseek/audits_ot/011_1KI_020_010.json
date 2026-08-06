@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not mention 'vua Ít-ra-en' (the king of Israel) as the recipient of the message; it only says 'he sent to him' (אֵלָיו), referring to the previously mentioned king of Israel. The Vietnamese adds 'vua Ít-ra-en' which is an addition, but it is contextually implied. However, the main issue is the omission of the phrase 'to all the people who are at my feet' (לְכָל הָעָם אֲשֶׁר בְּרַגְלָי) — the Vietnamese says 'mỗi người theo tôi' (each person following me), which captures the idea but drops the explicit 'all the people' and the phrase 'at my feet' (under my command). This is a minor omission but changes the nuance of the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'from the Negev as far as Bethel, to the place where his tent had been at first, between Bethel and Ai.' The Vietnamese renders 'từ miền Nam cho đến Bê-tên và A-hi' ('from the South as far as Bethel and Ai'), incorrectly including Ai as a destination of the journey. The Hebrew only mentions Bethel as the endpoint, with Ai appearing later as part of the description of the tent's location. This changes the geography of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

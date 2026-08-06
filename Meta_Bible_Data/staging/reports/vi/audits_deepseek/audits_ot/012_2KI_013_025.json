@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 13,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Vietnamese says 'con trai của Giô-ách' (son of Jehoash) for Jehoahaz, but the Hebrew says 'בֶּן יְהוֹאָחָז' (son of Jehoahaz). The father's name is wrong: it should be 'Giô-a-cha' (Jehoahaz), not 'Giô-ách' (Jehoash)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

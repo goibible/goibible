@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 34,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Chúa Trời' (God) as the subject of the burial; the subject is implicit (Moses, from context), and the verb is simply 'he buried him.' Adding 'God' introduces a subject not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

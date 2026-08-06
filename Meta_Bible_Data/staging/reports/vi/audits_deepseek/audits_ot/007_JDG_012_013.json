@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name עַבְדּוֹן (Abdon) is rendered as 'A-bên' in Vietnamese, which is a different name (Aben) rather than the correct transliteration 'Áp-đôn' or similar for Abdon."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

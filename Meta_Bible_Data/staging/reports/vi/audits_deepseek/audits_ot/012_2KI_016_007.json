@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 16,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'vua A-đu' (Assyria) but the Vietnamese renders 'vua xứ A-đu' — actually the Hebrew is 'malk Ashur' (king of Assyria), and the Vietnamese has 'A-đu' which is a transliteration error for 'Ashur' (A-đu vs A-si-ri). This is a name swap/error for the place name Assyria."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

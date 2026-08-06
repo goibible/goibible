@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נְאֻם בִּלְעָם' means 'the oracle/utterance of Balaam', not 'Đức Giê-hô-va phán vậy' (Thus says Yahweh). The Vietnamese adds 'Đức Giê-hô-va' (Yahweh) which is not in the Hebrew text, and misattributes the utterance to Yahweh instead of Balaam."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׁתֻם הָעָיִן' means 'whose eye is closed/opened' (a reference to Balaam's spiritual sight, often rendered 'whose eyes are opened'), but the Vietnamese 'có mắt sáng tỏ' means 'having clear/bright eyes', which changes the nuance from a specific idiom about opened eyes to a general description of clear sight."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

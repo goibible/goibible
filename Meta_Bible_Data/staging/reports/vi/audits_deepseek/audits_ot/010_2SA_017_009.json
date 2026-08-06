@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 17,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּנְפֹל בָּהֶם בַּתְּחִלָּה' means 'when some of them fall at the beginning' (referring to the men of Israel/those with Absalom), but the Vietnamese 'khi một số người của chúng ta ngã xuống lúc đầu' adds 'của chúng ta' (of us/our people), which is not in the Hebrew and changes the referent from 'them' (Absalom's followers) to 'our people' (David's side). This is a substantive addition that alters who is falling."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

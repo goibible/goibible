@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'Đức Giê-hô-va' (the LORD) as the subject; the subject is the child ('đứa trẻ') who will carry away the wealth. The Vietnamese adds 'Đức Giê-hô-va sẽ đem lấy' (the LORD will take away), which introduces an agent not present in the Hebrew and changes who performs the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

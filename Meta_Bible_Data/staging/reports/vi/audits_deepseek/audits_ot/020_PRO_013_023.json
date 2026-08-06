@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 13,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִיר רָאשִׁים' means 'fallow ground of the poor' (i.e., the tillage of the poor), not 'đất đai của người cày cấy chăm chỉ' (land of a diligent farmer). The subject is the poor, not a diligent worker. Also, 'בְּלֹא מִשְׁפָּט' means 'without justice' (i.e., without judgment/justice), not 'chẳng vì tội lỗi gì' (not because of any sin). The verse contrasts the poor's tillage yielding much food with those who are swept away for lack of justice."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

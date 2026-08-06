@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not contain the word 'đang đứng' (standing); it only says 'before the LORD is His anointed' (נֶגֶד יְהוָה מְשִׁיחוֹ). The Vietnamese adds the concept of standing, which is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

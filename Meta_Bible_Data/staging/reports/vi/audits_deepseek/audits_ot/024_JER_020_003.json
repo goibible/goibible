@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 20,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name מָגוֹר מִסָּבִיב (Magor-missabib) is rendered as 'Ma-gô Rơ-mi-xa-bíp', which is a different name. The correct transliteration should be 'Ma-gô Mít-sa-bíp' or similar, not 'Rơ-mi-xa-bíp'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

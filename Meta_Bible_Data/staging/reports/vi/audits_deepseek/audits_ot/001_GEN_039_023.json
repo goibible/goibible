@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 39,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not mention Joseph by name; the Vietnamese adds 'Giô-sép' (Joseph) which is not present in the Hebrew verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

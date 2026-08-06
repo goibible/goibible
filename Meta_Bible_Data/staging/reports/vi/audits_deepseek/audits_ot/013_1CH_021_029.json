@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 21,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִזְבַּח הָעוֹלָה' means 'altar of burnt offering', but Vietnamese renders it as 'bàn thờ thiêu hương' (altar of incense), which is a different altar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

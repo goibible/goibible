@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'từ trong tay vú mẹ nó' (from the hand of its wet nurse/mother), which is not present in the Hebrew. The Hebrew only says 'they rob the orphan from the breast' (מִשֹּׁד יָתוֹם), meaning 'from the breast of the orphan' (i.e., they take what the orphan sucks from the breast), not 'from the hand of the wet nurse.' This addition changes the imagery and adds a concept not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

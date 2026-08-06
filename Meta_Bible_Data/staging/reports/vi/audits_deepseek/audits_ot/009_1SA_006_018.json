@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 6,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָבֵל הַגְּדוֹלָה' is a place name 'Abel the Great' (or 'the great stone' in some interpretations), but the Vietnamese renders it as 'Abel lớn' which is acceptable. However, the phrase 'הִנִּיחוּ עָלֶיהָ אֵת אֲרוֹן יְהוָה' means 'they set upon it the ark of the LORD' — the pronoun 'עָלֶיהָ' refers to the great stone (or Abel), but the Vietnamese adds 'hòn đá ấy vẫn còn đó' ('that stone is still there'), which introduces an explicit reference to a stone not present in the Hebrew text at this point. The Hebrew says the ark was placed on it (the stone/Abel) and that it remains to this day, but the Vietnamese explicitly names 'hòn đá ấy' (that stone), which is an addition not in the Hebrew. This changes the reader's understanding by adding a specific object not mentioned in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

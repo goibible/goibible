@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 17,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Vietnamese adds 'Sự trông cậy của tôi' (my hope) which is not present in the Hebrew. The Hebrew subject is 'they' (the implied subject of 'têradnah' - they will go down), referring to the speaker's companions/friends mentioned in the preceding context, not 'my hope'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

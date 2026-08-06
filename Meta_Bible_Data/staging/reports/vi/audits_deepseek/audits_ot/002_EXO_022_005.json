@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention 'gây lửa làm cháy' (causing fire to burn) or 'ăn hết' (eat up). The Hebrew verb יַבְעֶר (yav'er) means 'to graze/consume' (of livestock), and בִּעֵר (bi'er) means 'to consume/graze'. The Vietnamese adds the concept of fire ('gây lửa làm cháy') which is not in the Hebrew, and 'ăn hết' (eat up) is an intensification not present in the Hebrew (which simply says 'consume/grazed')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}
