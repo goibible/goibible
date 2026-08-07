@@ -137,16 +137,18 @@ Files on dsvx that need re-syncing whenever their local counterpart changes:
 | `/var/www/goibible.org/www/data/site_content.sqlite3` | same path on dsvx | After running `/var/www/goibible.org/tools/upsert_vietnamese_home.php` or any other homepage-content edit |
 | `/var/www/goibible.org/www/download/*` | same path on dsvx | Only if an app is actually rebuilt (rare — see §2c) |
 
-**Open item, not resolved this session:** `/var/www/goibible.org/github` is a
+**Resolved this session:** `/var/www/goibible.org/github` used to be a
 *separate* local git checkout of the same `goibible/goibible` remote,
-apparently used historically to push a curated "public-safe" subset (via
+historically used to push a curated "public-safe" subset (via
 `tools/copy_github_repo.sh`, excluding internal staging/audit files) rather
-than the full working tree. It's now stale (sitting behind `origin/main`) and
-arguably moot, since this session's direct pushes from the main working
-directory already put the *entire* internal tree — including
-`Meta_Bible_Data/staging/**`, audit JSON dumps, etc. — onto `goibible/goibible`.
-Whether the public repo is supposed to be the full tree or a curated subset
-is a policy call for the repo owner, not something to silently resolve.
+than the full working tree. It was removed (2026-08-06) after confirming: a
+clean working tree, no unpushed commits (fully merged into `origin/main`,
+which by then was far ahead of it), not referenced by any Caddy config
+locally or on dsvx, and not present on dsvx at all. `tools/copy_github_repo.sh`
+is now dead — it targets a path that no longer exists — since this session's
+direct pushes from the main working directory already put the *entire*
+internal tree, including `Meta_Bible_Data/staging/**` and audit JSON dumps,
+onto `goibible/goibible` anyway, making the curated-subset workflow moot.
 
 ---
 
