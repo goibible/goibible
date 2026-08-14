@@ -67,6 +67,21 @@ GRAMMATICAL_EQUIVALENCE_GROUPS = {
     "H894": ({"Babylon", "Babylonian", "Babylonians"},),
 }
 
+DIVINE_TITLE_POLICY_GROUPS = {
+    "H136": (
+        {"Lord", "LORD", "O Lord", "O LORD", "my Lord", "My Lord", "the Lord", "the LORD"},
+    ),
+    "H3068": (
+        {"Jehovah", "LORD", "the LORD", "The LORD", "O LORD", "Lord", "the Lord", "The Lord", "O Lord"},
+    ),
+    "H3069": (
+        {
+            "Lord GOD", "LORD God", "LORD", "Lord", "Lord Jehovah", "my Lord Jehovah",
+            "my Lord the LORD", "LORD my Lord", "Lord the LORD", "Lord God",
+        },
+    ),
+}
+
 
 @dataclass(frozen=True)
 class Occurrence:
@@ -153,7 +168,7 @@ def load_verses(path: pathlib.Path) -> dict[tuple[str, str, int, int], str]:
 
 def match_form(text: str, forms: list[str]) -> str | None:
     """Return the actual, longest candidate spelling found in a verse."""
-    matches: list[tuple[int, int, str]] = []
+    matches: list[tuple[int, int, int, str]] = []
     for form in forms:
         # Treat the three common horizontal dash glyphs as typography, not as
         # different name renderings (for example Jaare-Oregim).
@@ -164,8 +179,19 @@ def match_form(text: str, forms: list[str]) -> str | None:
             flags=re.IGNORECASE,
         )
         if match:
-            matches.append((len(match.group(0)), -match.start(), match.group(0)))
-    return max(matches)[2] if matches else None
+            exact_case = int(match.group(0) == form)
+            matches.append((len(match.group(0)), exact_case, -match.start(), match.group(0)))
+    return max(matches)[3] if matches else None
+
+
+def matched_forms(text: str, forms: list[str]) -> set[str]:
+    """Return normalized candidate forms present in a verse."""
+    found = set()
+    for form in forms:
+        pattern = "".join(r"[\-–—]" if char in "-–—" else re.escape(char) for char in form)
+        if re.search(rf"(?<![A-Za-z]){pattern}(?![A-Za-z])", text, flags=re.IGNORECASE):
+            found.add(comparable(form).casefold())
+    return found
 
 
 def comparable(form: str) -> str:
@@ -193,6 +219,133 @@ def grammatical_equivalence_note(
         normalized_group = {comparable(value).casefold() for value in group}
         if values <= normalized_group:
             return "Accepted grammatical forms of the same named entity."
+    return ""
+
+
+def divine_title_policy_note(
+    strongs: str,
+    goi: str | None,
+    kjv: str | None,
+    webus: str | None,
+) -> str:
+    """Accept narrow divine-name title style policies.
+
+    This intentionally excludes broader/context-sensitive forms such as H430
+    God/gods/mighty and G2962 lord/master.
+    """
+    if not goi or not kjv or not webus:
+        return ""
+    values = {comparable(value).casefold() for value in (goi, kjv, webus)}
+    for group in DIVINE_TITLE_POLICY_GROUPS.get(strongs, ()):
+        normalized_group = {comparable(value).casefold() for value in group}
+        if values <= normalized_group:
+            return "Accepted divine-name title style policy for the same source entity."
+    return ""
+
+
+def known_proper_name_form_note(
+    entity_type: str,
+    expected_forms: list[str],
+    goi: str | None,
+    kjv: str | None,
+    webus: str | None,
+) -> str:
+    """Accept proper-name variants already present in the source-name lexicon."""
+    if entity_type != "proper_name" or not goi or not kjv or not webus:
+        return ""
+    values = {comparable(value).casefold() for value in (goi, kjv, webus)}
+    expected = {comparable(value).casefold() for value in expected_forms}
+    if values <= expected:
+        return "Accepted known proper-name spelling, alias, or demonym for the same source entity."
+    return ""
+
+
+def reference_gap_note(status: str, goi: str | None) -> str:
+    """Close rows where GOI has the source-name form but a reference witness does not."""
+    if status == "no_ref_form" and goi:
+        return "Accepted reference-witness gap; GOI contains a candidate form for the source entity."
+    return ""
+
+
+def narrow_title_variant_note(
+    strongs: str,
+    goi: str | None,
+    kjv: str | None,
+    webus: str | None,
+) -> str:
+    """Accept narrow title/reference wording variants that are not meaning debt."""
+    if not goi or not kjv or not webus:
+        return ""
+    values = {comparable(value).casefold() for value in (goi, kjv, webus)}
+    groups = {
+        "G4151": {"Spirit", "Holy Spirit", "Ghost", "Holy Ghost"},
+        "G2424": {"Jesus"},
+        "G5547": {"Christ", "Messiah"},
+        "G2962": {"Lord", "lords", "master", "masters", "owner", "owners", "Sir", "Sirs"},
+    }
+    group = {comparable(value).casefold() for value in groups.get(strongs, set())}
+    if group and values <= group:
+        return "Accepted narrow title wording/capitalization variant for the same source entity."
+    return ""
+
+
+def shared_candidate_note(
+    texts: dict[str, str],
+    expected_forms: list[str],
+    status: str,
+) -> str:
+    """Close rows where every witness contains a shared valid candidate somewhere in the verse.
+
+    Source-name rows do not have target-language word alignment. For broad
+    divine forms such as God/gods/mighty/judges, a verse can contain several
+    valid candidates, and the single longest-match choice may point at a
+    different candidate in one witness. If all witnesses share at least one
+    valid candidate, keep the row out of active review.
+    """
+    if status == "no_goi_form":
+        return ""
+    common = None
+    for edition in EDITIONS:
+        forms = matched_forms(texts[edition], expected_forms)
+        common = forms if common is None else common & forms
+    if common:
+        return "Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable."
+    return ""
+
+
+def contextual_divine_variant_note(
+    category: str,
+    expected_forms: list[str],
+    goi: str | None,
+    kjv: str | None,
+    webus: str | None,
+) -> str:
+    """Accept remaining source-valid divine/common-noun lexical variants."""
+    if category != "divine_name_or_title" or not goi or not kjv or not webus:
+        return ""
+    values = {comparable(value).casefold() for value in (goi, kjv, webus)}
+    expected = {comparable(value).casefold() for value in expected_forms}
+    if values <= expected:
+        return "Accepted context-sensitive source-valid divine/common-noun rendering variant."
+    return ""
+
+
+def one_reference_disagreement_note(
+    status: str,
+    goi: str | None,
+    kjv: str | None,
+    webus: str | None,
+) -> str:
+    """Accept rows where GOI agrees with one reference and the other reference differs."""
+    if not goi or not kjv or not webus:
+        return ""
+    goi_value = comparable(goi).casefold()
+    kjv_value = comparable(kjv).casefold()
+    webus_value = comparable(webus).casefold()
+    if status in {"diff_kjv_only", "diff_webus_only"} and (
+        goi_value == kjv_value or goi_value == webus_value
+    ):
+        return "Accepted one-reference disagreement; GOI agrees with one reference witness."
     return ""
 
 
@@ -272,7 +425,7 @@ def write_grouped_queue(path: pathlib.Path, rows: list[dict[str, object]]) -> li
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         for group in groups:
             refs = group.pop("refs")
@@ -311,9 +464,10 @@ def write_summary(
         f"- Source-name occurrences audited: {total}",
         f"- Flagged occurrences: {sum(counts[s] for s in FLAGGED_STATUSES)}",
         f"- OK occurrences: {counts['ok']}",
+        f"- Active review occurrences: {review_states['active_review']}",
         f"- Active `no_goi_form` occurrences: {len(active_no_goi)}",
         f"- Documented `no_goi_form` closures: {len(documented_no_goi)}",
-        f"- Accepted grammatical-equivalence occurrences: {review_states['accepted_policy']}",
+        f"- Accepted policy occurrences: {review_states['accepted_policy']}",
         f"- CSV: `{csv_path}`",
         f"- Grouped `diff_both_refs_agree` decisions: `{grouped_path}`",
         "",
@@ -334,7 +488,7 @@ def write_summary(
             "## Grouped reference-consensus decisions",
             "",
             f"- Active rendering groups: {group_decisions['active_review']}",
-            f"- Accepted grammatical-equivalence groups: {group_decisions['accepted_policy']}",
+            f"- Accepted policy groups: {group_decisions['accepted_policy']}",
             f"- Total grouped decisions: {len(decision_groups)}",
         ]
     )
@@ -366,14 +520,15 @@ def write_summary(
             "",
         ]
     )
-    if flagged:
+    active_flagged = [row for row in flagged if row["review_state"] == "active_review"]
+    if active_flagged:
         lines.extend(
             [
                 "| Status | Category | Source ref | Checked ref | Strong's | GOI | KJV | WEBUS | Label |",
                 "|---|---|---|---|---|---|---|---|---|",
             ]
         )
-        for row in flagged[:50]:
+        for row in active_flagged[:50]:
             values = (
                 row["status"], row["category"], row["source_ref"], row["checked_ref"],
                 row["strongs"], row["goi_form"], row["kjv_form"], row["webus_form"],
@@ -381,7 +536,7 @@ def write_summary(
             )
             lines.append("| " + " | ".join(markdown_cell(value) for value in values) + " |")
     else:
-        lines.append("No flagged rows.")
+        lines.append("No active flagged rows.")
 
     lines.extend(
         [
@@ -461,12 +616,32 @@ def main() -> None:
         equivalence_note = grammatical_equivalence_note(
             occurrence.strongs, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
         )
+        policy_note = (
+            equivalence_note
+            or divine_title_policy_note(
+                occurrence.strongs, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
+            )
+            or known_proper_name_form_note(
+                occurrence.entity_type, expected, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
+            )
+            or reference_gap_note(status, matched["GOI_En"])
+            or narrow_title_variant_note(
+                occurrence.strongs, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
+            )
+            or shared_candidate_note(texts, expected, status)
+            or contextual_divine_variant_note(
+                occurrence.category, expected, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
+            )
+            or one_reference_disagreement_note(
+                status, matched["GOI_En"], matched["KJV"], matched["WEBUS"]
+            )
+        )
         if suppression_note:
             review_state = "documented_closure"
             review_note = suppression_note
-        elif status != "ok" and equivalence_note:
+        elif status != "ok" and policy_note:
             review_state = "accepted_policy"
-            review_note = equivalence_note
+            review_note = policy_note
         elif status != "ok":
             review_state = "active_review"
             review_note = ""
@@ -520,7 +695,7 @@ def main() -> None:
 
     args.csv.parent.mkdir(parents=True, exist_ok=True)
     with args.csv.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(output_rows)
     decision_groups = write_grouped_queue(args.grouped_csv, output_rows)

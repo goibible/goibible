@@ -1,309 +1,306 @@
 decision,category,strongs,canonical_label,goi_form,kjv_form,webus_form,occurrence_count,unique_target_count,sample_refs,review_note
-active_review,divine_name_or_title,H136,ʼĂdônây,LORD,Lord,Lord,151,147,1KI 2:26; 1KI 3:10; 1KI 22:6; 2KI 7:6; NEH 4:8; JOB 28:28; PSA 22:31; PSA 54:6; PSA 66:18; PSA 68:18; PSA 68:20; PSA 68:21,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,Lord God,Lord GOD,Lord GOD,142,137,GEN 15:2; DEU 3:24; DEU 9:26; JOS 7:7; JDG 16:28; 2SA 7:19; 2SA 7:20; 2SA 7:28; 2SA 7:29; 1KI 8:53; PSA 71:5; PSA 71:16,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the LORD,the LORD,113,97,GEN 12:4; GEN 24:31; GEN 24:48; EXO 3:4; EXO 5:2; EXO 8:26; EXO 10:8; EXO 10:18; EXO 10:24; EXO 13:5; EXO 13:11; EXO 16:4,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,the LORD,the LORD,113,85,GEN 26:28; GEN 28:16; EXO 7:6; EXO 7:10; EXO 7:20; EXO 8:4; EXO 8:24; EXO 8:25; EXO 9:33; EXO 12:31; EXO 15:21; LEV 2:9,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,LORD God,Lord GOD,Lord GOD,101,98,ISA 7:7; ISA 28:16; ISA 40:10; ISA 48:16; ISA 65:13; ISA 65:15; JER 7:20; JER 44:26; EZK 5:7; EZK 5:8; EZK 5:11; EZK 7:5,
-active_review,person_or_place,H758,ʼĂrâm,Aram,Syria,Syria,51,49,JDG 10:6; 2SA 8:12; 2SA 15:8; 1KI 10:29; 1KI 11:25; 1KI 15:18; 1KI 19:15; 1KI 20:1; 1KI 20:22; 1KI 20:23; 1KI 22:1; 1KI 22:3,
-active_review,person_or_place,H758,ʼĂrâm,Aram,Syrians,Syrians,49,41,2SA 8:6; 2SA 8:13; 2SA 10:6; 2SA 10:8; 2SA 10:9; 2SA 10:11; 2SA 10:13; 2SA 10:15; 2SA 10:16; 2SA 10:17; 2SA 10:18; 2SA 10:19,
-active_review,person_or_place,H3091,Yᵉhôwshûwaʻ,Jehoshua,Joshua,Joshua,40,38,EXO 17:10; EXO 17:13; EXO 32:17; NUM 11:28; NUM 32:28; DEU 34:9; JOS 2:1; JOS 3:1; JOS 3:5; JOS 3:6; JOS 3:9; JOS 4:4,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the LORD,The LORD,37,33,GEN 2:7; GEN 2:8; GEN 2:15; GEN 3:21; GEN 6:6; GEN 11:6; GEN 18:1; GEN 26:24; GEN 29:31; EXO 4:27; EXO 14:26; EXO 19:21,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,LORD,32,30,NUM 10:36; 2KI 20:3; EZR 9:15; PSA 3:4; PSA 10:1; PSA 17:1; PSA 25:1; PSA 26:2; PSA 30:11; PSA 35:1; PSA 35:22; PSA 40:14,
-active_review,divine_name_or_title,G2962,kýrios,master,lord,lord,29,26,MAT 18:25; MAT 18:27; MAT 18:31; MAT 18:32; MAT 18:34; MAT 24:45; MAT 24:46; MAT 24:48; MAT 24:50; MAT 25:18; MAT 25:19; MAT 25:21,
-active_review,person_or_place,H2518,Chilqîyâh,Hillkiah,Hilkiah,Hilkiah,28,25,2KI 18:18; 2KI 18:26; 2KI 18:37; 2KI 22:8; 2KI 22:10; 2KI 22:12; 2KI 22:14; 2KI 23:24; 1CH 5:39; 1CH 6:30; 1CH 9:11; 1CH 26:11,
-active_review,person_or_place,H53,ʼĂbîyshâlôwm,Abishalom,Absalom,Absalom,22,19,2SA 13:20; 2SA 13:24; 2SA 13:25; 2SA 13:34; 2SA 14:28; 2SA 14:32; 2SA 14:33; 2SA 15:11; 2SA 15:31; 2SA 16:15; 2SA 16:17; 2SA 16:20,
-active_review,person_or_place,H26,ʼĂbîygayil,Abigal,Abigail,Abigail,16,15,1SA 25:3; 1SA 25:14; 1SA 25:18; 1SA 25:23; 1SA 25:32; 1SA 25:36; 1SA 25:40; 1SA 25:42; 1SA 27:3; 1SA 30:5; 2SA 2:2; 2SA 17:25,
-active_review,person_or_place,H2148,Zᵉkaryâh,Zachariah,Zechariah,Zechariah,15,15,1CH 9:21; 1CH 15:18; 1CH 15:20; 1CH 26:2; 1CH 26:11; 1CH 26:14; 2CH 17:7; 2CH 24:20; 2CH 29:13; EZR 8:11; EZR 10:26; NEH 11:4,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,the LORD,The LORD,15,10,GEN 2:16; NUM 22:32; 1SA 16:2; 2KI 1:15; ISA 43:14; ISA 48:17; JER 33:2; JER 34:2; JER 36:29; AMO 7:8,
-active_review,person_or_place,H4321,Mîykâyᵉhûw,Micah,Micaiah,Micaiah,13,13,1KI 22:9; 1KI 22:13; 1KI 22:14; 1KI 22:24; 1KI 22:25; 1KI 22:26; 1KI 22:28; 2CH 18:12; 2CH 18:13; 2CH 18:23; 2CH 18:24; 2CH 18:25,
-active_review,person_or_place,H795,ʼAshdôwd,Ahdod,Ashdod,Ashdod,13,11,JOS 11:22; JOS 15:47; 1SA 5:1; 1SA 5:7; 1SA 6:17; 2CH 26:6; ISA 20:1; JER 25:20; AMO 1:8; AMO 3:9; ZEP 2:4,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,gods,God,God,12,10,NUM 23:27; DEU 4:33; JDG 9:13; 2CH 13:12; NEH 13:26; JOB 1:6; JOB 2:1; PSA 40:18; ISA 8:21; HOS 4:12,
-active_review,person_or_place,H3270,Yaʻăzêyr,Jaazer,Jazer,Jazer,11,10,NUM 32:1; NUM 32:3; JOS 13:25; JOS 21:39; 2SA 24:5; 1CH 6:66; 1CH 26:31; ISA 16:8; ISA 16:9; JER 48:32,
-active_review,person_or_place,H3568,Kûwsh,Cush,Ethiopia,Ethiopia,11,11,EST 1:1; EST 8:9; PSA 87:4; ISA 18:1; ISA 20:3; ISA 20:5; ISA 37:9; ISA 43:3; ISA 45:14; EZK 29:10; EZK 30:4,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,God,mighty,mighty,11,9,EXO 1:20; EXO 9:28; EXO 32:11; DEU 5:15; DEU 7:19; DEU 11:2; 2CH 27:6; ISA 21:17; DAN 9:15,
-active_review,person_or_place,H1507,Gezer,Gazer,Gezer,Gezer,9,8,JOS 10:33; JOS 12:12; JOS 16:3; JOS 16:10; JDG 1:29; 1KI 9:15; 1KI 9:16; 1CH 20:4,
-active_review,person_or_place,H2605,Chânân,Canan,Hanan,Hanan,9,9,1CH 8:23; 1CH 8:38; 1CH 9:44; 1CH 11:43; NEH 7:49; NEH 8:7; NEH 10:11; NEH 10:23; NEH 10:27,
-active_review,person_or_place,H3107,Yôwzâbâd,Josabad,Jozabad,Jozabad,9,8,1CH 12:21; 2CH 31:13; 2CH 35:9; EZR 8:33; EZR 10:22; EZR 10:23; NEH 8:7; NEH 11:16,
-active_review,person_or_place,H7143,Qârêach,Careah,Kareah,Kareah,9,9,JER 40:8; JER 40:13; JER 40:15; JER 40:16; JER 41:11; JER 41:16; JER 42:8; JER 43:4; JER 43:5,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,O Lord,O LORD,LORD,8,8,2SA 7:25; 2CH 1:9; PSA 3:8; PSA 17:13; PSA 27:7; PSA 36:7; PSA 142:6; JER 10:6,
-active_review,person_or_place,H863,ʼIttay,Ithai,Ittai,Ittai,8,7,2SA 15:19; 2SA 15:21; 2SA 15:22; 2SA 18:2; 2SA 18:5; 2SA 18:12; 2SA 23:29,
-active_review,person_or_place,H894,Bâbel,Babel,Babylon,Babylon,8,7,PSA 87:4; JER 32:5; JER 51:8; JER 51:30; JER 51:37; JER 51:49; JER 51:53,
-active_review,divine_name_or_title,G2962,kýrios,Master,Lord,Lord,7,7,MAT 18:26; MAT 25:20; MAT 25:22; MAT 25:24; LUK 19:16; LUK 19:18; LUK 19:20,
-active_review,person_or_place,H1296,Berekyâh,Berachiah,Berechiah,Berechiah,7,7,1CH 3:20; 1CH 9:16; 1CH 15:23; NEH 3:4; NEH 3:30; NEH 6:18; ZEC 1:7,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,The LORD,The LORD,7,6,EXO 7:16; 1SA 12:5; 2SA 5:20; 1KI 8:12; ISA 49:14; JER 51:10,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,LORD,Lord GOD,Lord GOD,7,7,1KI 2:26; EZK 8:1; EZK 22:12; EZK 26:7; EZK 45:15; AMO 3:8; AMO 8:1,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,God,GOD,GOD,7,7,EXO 34:23; JDG 16:28; 2SA 7:28; PSA 69:7; EZK 20:5; EZK 28:6; AMO 6:8,
-active_review,person_or_place,H2900,Ṭôwbîyâh,Tobijah,Tobiah,Tobiah,6,6,EZR 2:60; NEH 2:10; NEH 2:19; NEH 3:35; NEH 6:1; NEH 6:19,
-active_review,divine_name_or_title,H3050,Yâhh,Jah,the LORD,the LORD,6,5,PSA 77:12; PSA 115:17; PSA 115:18; PSA 147:1; PSA 150:1,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,LORD,LORD,6,6,1CH 17:26; PSA 3:2; PSA 21:14; PSA 89:47; PSA 94:3; ISA 26:11,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,The LORD,The LORD,6,6,GEN 24:40; 1CH 23:25; 2CH 6:1; PSA 145:8; JER 29:15; LAM 2:8,
-active_review,person_or_place,H3088,Yᵉhôwrâm,Jehoram,Joram,Joram,6,5,2KI 9:15; 2KI 9:17; 2KI 9:21; 2KI 9:22; 2KI 9:23,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,God,god,god,6,5,DEU 32:39; JDG 6:31; JDG 16:24; AMO 8:14; HAB 1:11,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,gods,god,god,6,6,EXO 22:19; JDG 9:27; 2KI 1:2; 2KI 19:37; 2CH 32:15; JON 1:5,
-active_review,person_or_place,H4709,Mitspâh,Mitspah,Mizpah,Mizpah,6,5,2KI 25:25; NEH 3:15; JER 40:10; JER 41:6; JER 41:10,
-active_review,person_or_place,H5804,ʻAzzâh,Azzah,Gaza,Gaza,6,6,JOS 10:41; JOS 11:22; JOS 15:47; JDG 1:18; JER 47:1; ZEP 2:4,
-active_review,person_or_place,H758,ʼĂrâm,Arameans,Syrians,Syrians,6,5,2SA 8:5; 2SA 10:14; 1KI 20:20; 2KI 24:2; 1CH 19:15,
-active_review,person_or_place,H7586,Shâʼûwl,Saul,Shaul,Shaul,6,6,GEN 46:10; EXO 6:15; NUM 26:13; 1CH 1:48; 1CH 1:49; 1CH 4:24,
-active_review,person_or_place,H763,ʼĂram Nahărayim,Aram-naharaim,Mesopotamia,Mesopotamia,6,3,GEN 24:10; JDG 3:8; 1CH 19:6,
-active_review,divine_name_or_title,G2962,kýrios,Sir,Lord,Lord,5,5,LUK 13:8; LUK 14:22; LUK 19:25; JHN 6:34; ACT 10:4,
-active_review,divine_name_or_title,H136,ʼĂdônây,Lord,LORD,LORD,5,5,JDG 13:8; ISA 49:14; EZK 21:14; AMO 7:8; MAL 1:12,
-active_review,person_or_place,H1954,Hôwshêaʻ,Hosea,Hoshea,Hoshea,5,5,2KI 15:30; 2KI 17:3; 2KI 17:4; 2KI 17:6; 2KI 18:1,
-active_review,person_or_place,H223,ʼÛwrîyâh,Uriah,Urijah,Urijah,5,4,2KI 16:10; 2KI 16:11; 2KI 16:15; 2KI 16:16,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,the LORD,the LORD,5,4,GEN 12:1; 1SA 2:10; 1SA 12:6; 2CH 7:12,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,Lord the LORD,Lord GOD,Lord GOD,5,5,EZK 14:11; EZK 27:3; EZK 34:31; EZK 36:6; EZK 38:18,
-active_review,person_or_place,H3470,Yᵉshaʻyâh,Jesaiah,Jeshaiah,Jeshaiah,5,5,1CH 25:3; 1CH 25:15; 1CH 26:25; EZR 8:7; EZR 8:19,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,God,gods,gods,5,3,DEU 7:25; JDG 5:8; JER 16:20,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,mighty,God,God,5,4,1CH 9:13; 1CH 9:26; NEH 10:30; PSA 71:18,
-active_review,person_or_place,H4363,Mikmâç,Mikmash,Michmash,Michmash,5,5,1SA 13:2; 1SA 13:5; 1SA 13:11; 1SA 13:16; 1SA 13:23,
-active_review,person_or_place,H4441,Malkîyâh,Malchiah,Malchijah,Malchijah,5,4,1CH 9:12; 1CH 24:9; EZR 10:25; NEH 12:42,
-active_review,divine_name_or_title,G2962,kýrios,owner,lord,lord,4,4,MAT 20:8; MAT 21:40; LUK 20:13; LUK 20:15,
-active_review,person_or_place,H1806,Dᵉlâyâh,Dalaiah,Delaiah,Delaiah,4,4,EZR 2:60; NEH 6:10; NEH 7:62; JER 36:12,
-active_review,person_or_place,H3003,Yâbêsh,Jabesh-gilead,Jabesh,Jabesh,4,2,1SA 11:1; 1SA 11:9,
-active_review,person_or_place,H3003,Yâbêsh,Jobesh,Jabesh,Jabesh,4,4,1SA 11:3; 2KI 15:10; 2KI 15:13; 2KI 15:14,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,the LORD,The LORD,4,4,EXO 7:1; DEU 34:4; 2SA 12:1; 1KI 11:14,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,The LORD,The LORD,4,3,DEU 1:10; 2CH 6:10; PSA 16:5,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the LORD,the Lord,the Lord,4,4,PSA 68:27; ISA 3:17; ISA 10:33; MAL 1:14,
-active_review,person_or_place,H3082,Yᵉhôwnâdâb,Jehonadab,Jonadab,Jonadab,4,4,2SA 13:5; JER 35:8; JER 35:14; JER 35:16,
-active_review,person_or_place,H3778,Kasdîy,Chaldeans,Chaldees,Chaldees,4,4,GEN 11:28; GEN 11:31; GEN 15:7; NEH 9:7,
-active_review,person_or_place,H3778,Kasdîy,Chaldeans,Chaldea,Chaldea,4,4,JER 50:10; EZK 11:24; EZK 16:29; EZK 23:15,
-active_review,person_or_place,H467,ʼĔlîypheleṭ,Eliphalet,Eliphelet,Eliphelet,4,4,2SA 23:34; 1CH 8:39; EZR 8:13; EZR 10:33,
-active_review,person_or_place,H501,ʼElʻâsâh,Elasah,Eleasah,Eleasah,4,4,1CH 2:39; 1CH 2:40; 1CH 8:37; 1CH 9:43,
-active_review,person_or_place,H5798,ʻUzzâʼ,Uzza,Uzzah,Uzzah,4,4,2SA 6:3; 2SA 6:6; 2SA 6:7; 2SA 6:8,
-active_review,person_or_place,H6252,ʻAshtârôwth,Astaroth,Ashtaroth,Ashtaroth,4,4,JOS 12:4; JOS 13:31; 1SA 7:4; 1SA 31:10,
-active_review,person_or_place,H682,ʼÂtsêl,Azal,Azel,Azel,4,2,1CH 8:38; 1CH 9:44,
-active_review,divine_name_or_title,G2316,theós,God,godly,godly,3,3,2CO 7:9; 2CO 7:10; 2CO 7:11,
-active_review,person_or_place,H1387,Gebaʻ,Gaba,Geba,Geba,3,3,2CH 16:6; EZR 2:26; NEH 7:30,
-active_review,person_or_place,H281,ʼĂchîyâh,Ahiah,Ahijah,Ahijah,3,3,1KI 11:29; 1CH 2:25; 1CH 26:20,
-active_review,person_or_place,H29,ʼĂbîyâh,Abiah,Abijah,Abijah,3,3,2CH 13:19; NEH 10:8; NEH 12:4,
-active_review,divine_name_or_title,H3050,Yâhh,Jah,The LORD,The LORD,3,3,PSA 94:7; PSA 118:14; PSA 118:18,
-active_review,divine_name_or_title,H3050,Yâhh,the Lord,the LORD,the LORD,3,2,PSA 135:3; ISA 38:11,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,Lord,Lord GOD,Lord GOD,3,3,PSA 69:7; ISA 50:7; ZEP 1:7,
-active_review,person_or_place,H3076,Yᵉhôwchânân,Jehohanan,Johanan,Johanan,3,3,1CH 12:5; 1CH 12:13; 2CH 28:12,
-active_review,person_or_place,H3266,Yᵉʻûwsh,Jehush,Jeush,Jeush,3,3,1CH 23:10; 1CH 23:11; 2CH 11:19,
-active_review,person_or_place,H3406,Yᵉrîymôwth,Jermoth,Jerimoth,Jerimoth,3,3,1CH 12:6; 1CH 25:4; 2CH 11:18,
-active_review,person_or_place,H3449,Yishshîyâh,Ishiah,Isshiah,Isshiah,3,2,1CH 24:21; 1CH 24:25,
-active_review,person_or_place,H359,ʼÊylôwth,Elath,Eloth,Eloth,3,3,1KI 9:26; 2CH 8:17; 2CH 26:2,
-active_review,divine_name_or_title,H410,ʼêl,mighty,God,God,3,3,JOB 20:15; JOB 31:23; PSA 89:8,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,god,gods,gods,3,3,GEN 31:30; 2KI 17:29; 1CH 10:10,
-active_review,person_or_place,H445,ʼElchânân,Elkanan,Elhanan,Elhanan,3,3,2SA 21:19; 2SA 23:24; 1CH 20:5,
-active_review,person_or_place,H4601,Maʻăkâh,Maachah,Maacah,Maacah,3,3,2SA 3:3; 2SA 10:6; 2SA 10:8,
-active_review,person_or_place,H4714,Mitsrayim,Egypt,Mizraim,Mizraim,3,3,GEN 10:6; 1CH 1:8; 1CH 1:11,
-active_review,person_or_place,H4847,Mᵉrârîy,Merarites,Merari,Merari,3,3,NUM 4:33; NUM 4:42; NUM 4:45,
-active_review,person_or_place,H6252,ʻAshtârôwth,Asharoth,Ashtaroth,Ashtaroth,3,3,JDG 2:13; 1SA 7:3; 1SA 12:10,
-active_review,person_or_place,H6678,Tsôwbâʼ,Zoba,Zobah,Zobah,3,3,1SA 14:47; 2SA 8:3; 1CH 18:3,
-active_review,person_or_place,H6955,Qᵉhâth,Kohathites,Kohath,Kohath,3,2,NUM 4:2; JOS 21:20,
-active_review,person_or_place,H7467,Rᵉʻûwʼêl,Raguel,Reuel,Reuel,3,3,GEN 36:4; EXO 2:18; 1CH 9:8,
-active_review,person_or_place,H758,ʼĂrâm,Syria,Syrians,Syrians,3,2,2KI 13:17; 2CH 24:24,
-active_review,person_or_place,H7619,Shᵉbûwʼêl,Shebuel,Shubael,Shubael,3,2,1CH 24:20; 1CH 25:20,
-active_review,person_or_place,H8114,Shᵉmaryâh,Shamariah,Shemariah,Shemariah,3,3,1CH 12:6; EZR 10:32; EZR 10:41,
-active_review,person_or_place,G2195,Zakchaîos,Zacchæus,Zacchaeus,Zacchaeus,2,2,LUK 19:2; LUK 19:8,
-active_review,divine_name_or_title,G2424,Iēsoûs,Jesus,JESUS,JESUS,2,2,MAT 27:37; JHN 19:19,
-active_review,divine_name_or_title,G2962,kýrios,Lord,lord,lord,2,2,MRK 12:9; JHN 13:16,
-active_review,divine_name_or_title,G2962,kýrios,lords,LORDS,LORDS,2,1,REV 19:16,
-active_review,divine_name_or_title,G2962,kýrios,sir,Lord,Lord,2,2,JHN 8:11; JHN 9:36,
-active_review,person_or_place,H1410,Gâd,Gadites,Gad,Gad,2,2,JOS 22:10; JOS 22:32,
-active_review,person_or_place,H1705,Dăbrath,Dabareh,Daberath,Daberath,2,2,JOS 19:12; 1CH 6:57,
-active_review,person_or_place,H1835,Dân,Danites,Dan,Dan,2,2,NUM 34:22; JDG 18:2,
-active_review,person_or_place,H2218,Zered,Zared,Zered,Zered,2,1,DEU 2:13,
-active_review,person_or_place,H2438,Chîyrâm,Huram,Hiram,Hiram,2,2,1KI 7:13; 1KI 10:11,
-active_review,person_or_place,H2845,Chêth,Hethites,Hittite,Hittite,2,1,GEN 23:10,
-active_review,divine_name_or_title,H3050,Yâhh,hallelujah,the LORD,the LORD,2,2,PSA 104:35; PSA 149:9,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,O LORD,2,2,1SA 23:10; JER 5:3,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,The LORD,the LORD,2,1,RUT 2:4,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,LORD my Lord,Lord GOD,Lord GOD,2,2,ISA 52:4; ISA 61:11,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,Lord Jehovah,Lord GOD,Lord GOD,2,2,EZK 24:14; AMO 9:8,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,my Lord Jehovah,Lord GOD,Lord GOD,2,2,ISA 61:1; AMO 7:6,
-active_review,person_or_place,H3087,Yᵉhôwtsâdâq,Jehozadek,Jehozadak,Jehozadak,2,2,1CH 5:40; 1CH 5:41,
-active_review,person_or_place,H3111,Yôwyâdâʻ,Jehoiada,Joiada,Joiada,2,2,NEH 12:10; NEH 12:11,
-active_review,person_or_place,H3232,Yimnâh,Imna,Imnah,Imnah,2,2,1CH 7:30; 2CH 31:14,
-active_review,person_or_place,H3265,Yâʻûwr,Jaare—Oregim,Jair,Jair,2,1,1CH 20:5,
-active_review,person_or_place,H3568,Kûwsh,Chush,Ethiopia,Ethiopia,2,2,2KI 19:9; EZK 30:5,
-active_review,person_or_place,H3794,Kittîy,Chittim,Kittim,Kittim,2,2,GEN 10:4; 1CH 1:7,
-active_review,person_or_place,H4024,Migdôwl,Migdol,tower,tower,2,2,EZK 29:10; EZK 30:6,
-active_review,divine_name_or_title,H410,ʼêl,God,power,power,2,2,JOB 36:22; PSA 150:1,
-active_review,divine_name_or_title,H410,ʼêl,God,might,might,2,2,PSA 78:7; PSA 78:8,
-active_review,divine_name_or_title,H410,ʼêl,Mighty,God,God,2,2,JOB 20:29; JOB 22:17,
-active_review,divine_name_or_title,H410,ʼêl,gods,GOD,GOD,2,1,EZK 28:2,
-active_review,divine_name_or_title,H410,ʼêl,strong,God,God,2,2,NUM 23:22; JOB 15:25,
-active_review,person_or_place,H4105,Mᵉhêyṭabʼêl,Mehetabeel,Mehetabel,Mehetabel,2,2,GEN 36:39; 1CH 1:50,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,gods,GOD,GOD,2,1,EZK 28:2,
-active_review,person_or_place,H4326,Mîyâmin,Miamin,Mijamin,Mijamin,2,2,1CH 24:9; NEH 10:8,
-active_review,person_or_place,H5177,Nachshôwn,Naashon,Nahshon,Nahshon,2,2,NUM 2:3; 1CH 2:11,
-active_review,person_or_place,H5543,Çallûw,Sallai,Sallu,Sallu,2,2,1CH 9:7; NEH 12:7,
-active_review,person_or_place,H5740,ʻÊder,Edar,Eder,Eder,2,2,1CH 23:23; 1CH 24:30,
-active_review,person_or_place,H5933,ʻAlvâh,Alvah,Aliah,Aliah,2,1,1CH 1:51,
-active_review,divine_name_or_title,H5945,ʻelyôwn,exalted,high,high,2,2,1KI 9:8; 2CH 7:21,
-active_review,person_or_place,H5964,ʻÂlemeth,Alameth,Alemeth,Alemeth,2,2,1CH 8:36; 1CH 9:42,
-active_review,person_or_place,H6439,Pᵉnûwʼêl,Peniel,Penuel,Penuel,2,2,1KI 12:25; 1CH 4:4,
-active_review,person_or_place,H6689,Tsûwph,Zif,Zuph,Zuph,2,1,1CH 6:20,
-active_review,person_or_place,H6946,Qâdêsh,kadesh,Kadesh,Kadesh,2,2,EZK 47:19; EZK 48:28,
-active_review,person_or_place,H7205,Rᵉʼûwbên,Reubenites,Reuben,Reuben,2,2,JOS 22:10; JOS 22:32,
-active_review,person_or_place,H758,ʼĂrâm,Aram,Mesopotamia,Mesopotamia,2,2,JDG 3:10; 1CH 19:6,
-active_review,person_or_place,H758,ʼĂrâm,Syrians,Syria,Syria,2,1,2KI 13:19,
-active_review,person_or_place,H7597,Shᵉʼaltîyʼêl,Shalthiel,Shealtiel,Shealtiel,2,2,EZR 3:2; HAG 2:2,
-active_review,person_or_place,H763,ʼĂram Nahărayim,Aram Naharaim,Mesopotamia,Mesopotamia,2,1,DEU 23:5,
-active_review,person_or_place,H7755,Sôwkôh,Shochoh,Socoh,Socoh,2,2,JOS 15:35; JOS 15:48,
-active_review,person_or_place,H7974,Shelach,Salah,Shelah,Shelah,2,1,1CH 1:18,
-active_review,person_or_place,H8035,Shêm,Sem,Shem,Shem,2,2,GEN 9:18; 1CH 1:4,
-active_review,person_or_place,H804,ʼAshshûwr,Asshur,Assyrians,Assyrians,2,2,EZK 16:28; EZK 23:23,
-active_review,person_or_place,H804,ʼAshshûwr,Assyria,Asshur,Asshur,2,2,NUM 24:22; EZK 32:22,
-active_review,person_or_place,H8050,Shᵉmûwʼêl,Samuel,Shemuel,Shemuel,2,2,NUM 34:20; 1CH 7:2,
-active_review,person_or_place,H8169,Shaʻalbîym,Shaalabbin,Shaalbim,Shaalbim,2,2,JDG 1:35; 1KI 4:9,
-active_review,person_or_place,H844,ʼAsrîyʼêl,Ashriel,Asriel,Asriel,2,2,NUM 26:31; JOS 17:2,
-active_review,person_or_place,H8583,Tôʻûw,Toi,Tou,Tou,2,2,1CH 18:9; 1CH 18:10,
-active_review,person_or_place,H8646,Terach,Tarah,Terah,Terah,2,2,GEN 11:26; GEN 11:31,
-active_review,divine_name_or_title,G2316,theós,God,god,god,1,1,ACT 7:43,
-active_review,divine_name_or_title,G2316,theós,God,exceeding,exceeding,1,1,2CO 9:14,
-active_review,person_or_place,G2501,Iōsḗph,parents,Joseph,Joseph,1,1,LUK 2:43,
-active_review,person_or_place,G2878,korbân,Corban,treasury,treasury,1,1,MAT 27:6,
-active_review,divine_name_or_title,G2962,kýrios,Lord,master,master,1,1,LUK 13:25,
-active_review,divine_name_or_title,G2962,kýrios,Lord,lords,lords,1,1,1TI 6:15,
-active_review,divine_name_or_title,G2962,kýrios,master,Lord,Lord,1,1,LUK 12:42,
-active_review,divine_name_or_title,G4151,pneûma,Spirit,spirit,spirit,1,1,1CO 7:34,
-active_review,person_or_place,G4826,Symeṓn,Simeon,Simon,Simon,1,1,2PE 1:1,
-active_review,person_or_place,G897,Babylṓn,Babylon,BABYLON,BABYLON,1,1,REV 17:5,
-active_review,person_or_place,G955,Belíal,Beliar,Belial,Belial,1,1,2CO 6:15,
-active_review,person_or_place,H1081,Balʼădân,baladan,Baladan,Baladan,1,1,2KI 20:12,
-active_review,person_or_place,H1109,Bilʻâm,Balaam,Bileam,Bileam,1,1,1CH 6:55,
-active_review,person_or_place,H1144,Binyâmîyn,Benjaminite,Benjamin,Benjamin,1,1,1SA 9:1,
-active_review,person_or_place,H1144,Binyâmîyn,Benjaminites,Benjamin,Benjamin,1,1,JDG 21:13,
-active_review,person_or_place,H1168,Baʻal,Baalim,Baal,Baal,1,1,1KI 22:54,
-active_review,divine_name_or_title,H136,ʼĂdônây,Lord,O LORD,LORD,1,1,2SA 7:22,
-active_review,divine_name_or_title,H136,ʼĂdônây,O Lord,O LORD,LORD,1,1,PSA 35:22,
-active_review,person_or_place,H1471,gôwy,nations,Gentiles,Gentiles,1,1,JDG 4:13,
-active_review,person_or_place,H1599,Ginnᵉthôwn,Ginnetho,Ginnethon,Ginnethon,1,1,NEH 12:16,
-active_review,person_or_place,H1648,Gêrᵉshôwn,Gershonites,Gershon,Gershon,1,1,NUM 4:22,
-active_review,person_or_place,H1654,Geshem,Geshem,Gashmu,Gashmu,1,1,NEH 6:6,
-active_review,person_or_place,H1789,Dîyshân,Dishan,Dishon,Dishon,1,1,GEN 36:26,
-active_review,person_or_place,H2128,Zîyph,Ziphites,Ziph,Ziph,1,1,1SA 23:24,
-active_review,person_or_place,H2286,Chăgâbâʼ,Hagabah,Hagaba,Hagaba,1,1,NEH 7:48,
-active_review,person_or_place,H2349,Chûwphâm,Huphamite,Hupham,Hupham,1,1,NUM 26:39,
-active_review,person_or_place,H2361,Chûwrâm,Hiram,Huram,Huram,1,1,2CH 9:10,
-active_review,person_or_place,H2438,Chîyrâm,Hiram,Huram,Huram,1,1,2CH 9:10,
-active_review,person_or_place,H2453,Chakmôwnîy,Hachmoni,Hachmonite,Hachmonite,1,1,1CH 11:11,
-active_review,person_or_place,H2478,Chalchûwl,Halahul,Halhul,Halhul,1,1,JOS 15:58,
-active_review,person_or_place,H2712,Chuqqôq,Hukkok,Hukok,Hukok,1,1,1CH 6:60,
-active_review,person_or_place,H2712,Chuqqôq,Hukkokah,Hukkok,Hukkok,1,1,JOS 19:34,
-active_review,person_or_place,H2768,Chermôwn,hermon,Hermon,Hermon,1,1,1CH 5:23,
-active_review,person_or_place,H2815,Chashshûwb,Hashub,Hasshub,Hasshub,1,1,1CH 9:14,
-active_review,person_or_place,H2817,Chăsûwphâʼ,Hashupha,Hasupha,Hasupha,1,1,EZR 2:43,
-active_review,person_or_place,H2900,Ṭôwbîyâh,Tobiah,Tobijah,Tobijah,1,1,2CH 17:8,
-active_review,person_or_place,H2983,Yᵉbûwçîy,Jebusites,Jebusite,Jebusite,1,1,ZEC 9:7,
-active_review,person_or_place,H3061,Yᵉhûwd,Judea,Judah,Judah,1,1,EZR 5:1,
-active_review,person_or_place,H3063,Yᵉhûwdâh,Judahites,Judah,Judah,1,1,JOL 4:8,
-active_review,person_or_place,H3064,Yᵉhûwdîy,Jewish,Jew,Jew,1,1,ZEC 8:23,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,The LORD,1,1,JDG 21:3,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,the LORD,1,1,1SA 20:12,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,The LORD,the LORD,1,1,1CH 21:3,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the Lord,The Lord,1,1,ISA 61:1,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O Lord,Lord,1,1,DAN 9:8,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,O Lord,LORD,LORD,1,1,1CH 17:23,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The LORD,The Lord,The Lord,1,1,LAM 2:7,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,LORD,LORD,1,1,1KI 8:23,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,O LORD,LORD,1,1,2CH 6:14,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the LORD,the Lord,The Lord,1,1,EZK 14:4,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,LORD,LORD,1,1,1SA 3:9,
-active_review,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,The LORD,the LORD,1,1,HOS 4:15,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,LORD,Lord,Lord,1,1,PSA 68:21,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,Lord God,LORD God,LORD God,1,1,2SA 7:22,
-active_review,divine_name_or_title,H3069,Yᵉhôvih,my Lord the LORD,Lord GOD,Lord GOD,1,1,2SA 7:18,
-active_review,person_or_place,H3096,Yahats,Jahazah,Jahaz,Jahaz,1,1,NUM 21:23,
-active_review,person_or_place,H3096,Yahats,Jahazah,Jahzah,Jahzah,1,1,1CH 6:63,
-active_review,person_or_place,H3156,Yizrachyâh,Izrahiah,Jezrahiah,Jezrahiah,1,1,NEH 12:42,
-active_review,person_or_place,H3169,Yᵉchizqîyâh,Hezekiah,Jehizkiah,Jehizkiah,1,1,2CH 28:12,
-active_review,person_or_place,H3229,Yimlâʼ,Imla,Imlah,Imlah,1,1,1KI 22:9,
-active_review,person_or_place,H3262,Yᵉʻûwʼêl,Jehiel,Jeuel,Jeuel,1,1,1CH 9:6,
-active_review,person_or_place,H3279,Yaʻălâʼ,Jaala,Jaalah,Jaalah,1,1,EZR 2:56,
-active_review,person_or_place,H3316,Yiphtâch,Jiphtah,Jephthah,Jephthah,1,1,JDG 11:6,
-active_review,person_or_place,H3404,Yᵉrîyâh,Jeriah,Jerijah,Jerijah,1,1,1CH 26:31,
-active_review,person_or_place,H350,ʼÎy-kâbôwd,I-chabod,Ichabod,Ichabod,1,1,1SA 4:21,
-active_review,person_or_place,H3672,Kinnᵉrôwth,Chinnereth,Chinneroth,Chinneroth,1,1,JOS 12:3,
-active_review,person_or_place,H3672,Kinnᵉrôwth,Kinneroth,Chinneroth,Chinneroth,1,1,JOS 11:2,
-active_review,person_or_place,H3838,Lᵉbânâʼ,Lebanah,Lebana,Lebana,1,1,NEH 7:48,
-active_review,person_or_place,H3865,Lûwd,Lydia,Lud,Lud,1,1,EZK 27:10,
-active_review,person_or_place,H4074,Mâday,Madai,Medes,Medes,1,1,JER 25:25,
-active_review,divine_name_or_title,H410,ʼêl,God,god,god,1,1,ISA 43:12,
-active_review,divine_name_or_title,H410,ʼêl,God,mighty,mighty,1,1,JER 51:56,
-active_review,divine_name_or_title,H410,ʼêl,god,God,God,1,1,DEU 32:21,
-active_review,divine_name_or_title,H410,ʼêl,idol,god,god,1,1,ISA 46:6,
-active_review,divine_name_or_title,H410,ʼêl,mighty ones,mighty,mighty,1,1,PSA 29:1,
-active_review,divine_name_or_title,H410,ʼêl,mighty ones,strong,strong,1,1,EZK 32:21,
-active_review,divine_name_or_title,H410,ʼêl,power,mighty,mighty,1,1,JOB 36:5,
-active_review,divine_name_or_title,H410,ʼêl,power,God,God,1,1,PSA 77:15,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,God,angels,angels,1,1,GEN 28:12,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,Mighty,God,God,1,1,JOB 20:29,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,angels,God,God,1,1,1CH 5:22,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,angels,gods,gods,1,1,PSA 138:1,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,divine beings,angels,angels,1,1,PSA 8:6,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,divine fire,God,God,1,1,JOB 1:16,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,god,God,God,1,1,ISA 64:3,
-active_review,divine_name_or_title,H430,ʼĕlôhîym,judges,God,God,1,1,PSA 7:12,
-active_review,person_or_place,H4318,Mîykâh,Micah,Micaiah,Micaiah,1,1,2CH 18:14,
-active_review,divine_name_or_title,H433,ʼĕlôwahh,gods,god,god,1,1,2CH 32:15,
-active_review,person_or_place,H4363,Mikmâç,Michmas,Michmash,Michmash,1,1,1SA 14:31,
-active_review,person_or_place,H4363,Mikmâç,Mikmas,Michmas,Michmas,1,1,NEH 7:31,
-active_review,person_or_place,H4363,Mikmâç,Mikmas,Michmash,Michmash,1,1,ISA 10:28,
-active_review,person_or_place,H4519,Mᵉnashsheh,Manassites,Manasseh,Manasseh,1,1,JOS 16:9,
-active_review,person_or_place,H469,ʼĔlîytsâphân,Elizaphan,Elzaphan,Elzaphan,1,1,LEV 10:4,
-active_review,person_or_place,H4902,Meshek,Mesech,Meshech,Meshech,1,1,EZK 27:13,
-active_review,person_or_place,H5096,Nahălâl,Nahalal,Nahalol,Nahalol,1,1,JDG 1:30,
-active_review,person_or_place,H5321,Naphtâlîy,Naphtalite,Naphtali,Naphtali,1,1,1KI 4:15,
-active_review,person_or_place,H5454,Çabtâʼ,Sabta,Sabtah,Sabtah,1,1,GEN 10:7,
-active_review,person_or_place,H5517,Çîyʻâʼ,Siaha,Sia,Sia,1,1,NEH 7:47,
-active_review,person_or_place,H5857,ʻAy,Ai,Aija,Aija,1,1,NEH 11:31,
-active_review,person_or_place,H5935,ʻAlvân,Alian,Alvan,Alvan,1,1,GEN 36:23,
-active_review,person_or_place,H6107,ʻEtsem,Azem,Ezem,Ezem,1,1,1CH 4:29,
-active_review,person_or_place,H6316,Pûwṭ,Phut,Put,Put,1,1,NAM 3:9,
-active_review,person_or_place,H6514,Pᵉrûwdâʼ,Perida,Peruda,Peruda,1,1,EZR 2:55,
-active_review,person_or_place,H663,ʼĂphêq,Aphek,Aphik,Aphik,1,1,JDG 1:31,
-active_review,person_or_place,H6815,Tsaʻănannîym,Zaanaim,Zaanannim,Zaanannim,1,1,JOS 19:33,
-active_review,person_or_place,H6825,Tsᵉphôw,Zepho,Zephi,Zephi,1,1,1CH 1:36,
-active_review,person_or_place,H6881,Tsorʻâh,Zareah,Zorah,Zorah,1,1,JDG 18:8,
-active_review,person_or_place,H6881,Tsorʻâh,Zoreah,Zorah,Zorah,1,1,2CH 11:10,
-active_review,person_or_place,H7018,Qêynân,Cainan,Kenan,Kenan,1,1,1CH 1:2,
-active_review,person_or_place,H7211,Rᵉʼâyâh,Reaia,Reaiah,Reaiah,1,1,EZR 2:47,
-active_review,person_or_place,H7486,Raʻmᵉçêç,Raamses,Rameses,Rameses,1,1,NUM 33:3,
-active_review,person_or_place,H7497,râphâʼ,giants,giant,giant,1,1,1CH 20:4,
-active_review,person_or_place,H7614,Shᵉbâʼ,Sheba,Sabeans,Sabeans,1,1,JOB 1:15,
-active_review,person_or_place,H7643,Sᵉbâm,Shebam,Sibmah,Sibmah,1,1,JOS 13:19,
-active_review,divine_name_or_title,H7706,Shadday,Shaddai,Almighty,Almighty,1,1,JOB 23:16,
-active_review,person_or_place,H804,ʼAshshûwr,Asshur,Assyria,Assyria,1,1,ISA 37:8,
-active_review,person_or_place,H8096,Shimʻîy,Shimeah,Shimei,Shimei,1,1,EZR 10:38,
-active_review,person_or_place,H8195,Shᵉphôw,Shephi,Shepho,Shepho,1,1,GEN 36:23,
-active_review,person_or_place,H8289,Shârôwn,Lasharon,Sharon,Sharon,1,1,ISA 35:2,
-active_review,person_or_place,H8471,Tachpanchêç,Tahapanes,Tahpanhes,Tahpanhes,1,1,JER 43:8,
-active_review,person_or_place,H8471,Tachpanchêç,Tahpanhes,Tehaphnehes,Tehaphnehes,1,1,EZK 30:18,
-active_review,person_or_place,H851,ʼEshtᵉmôaʻ,Eshtemoa,Eshtemoh,Eshtemoh,1,1,JOS 15:50,
-active_review,person_or_place,H8555,Timnâʻ,Timnah,Timna,Timna,1,1,1CH 1:36,
-active_review,person_or_place,H980,Bachurîym,Bahurite,Bahurim,Bahurim,1,1,2SA 19:17,
 accepted_policy,person_or_place,H3478,Yisrâʼêl,sons of Israel,children of Israel,children of Israel,205,177,GEN 46:8; EXO 1:7; EXO 2:23; EXO 2:25; EXO 6:6; EXO 10:20; EXO 12:28; EXO 13:19; EXO 14:8; EXO 14:15; EXO 14:22; EXO 16:3,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H136,ʼĂdônây,LORD,Lord,Lord,151,147,1KI 2:26; 1KI 3:10; 1KI 22:6; 2KI 7:6; NEH 4:8; JOB 28:28; PSA 22:31; PSA 54:6; PSA 66:18; PSA 68:18; PSA 68:20; PSA 68:21,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,Lord God,Lord GOD,Lord GOD,142,137,GEN 15:2; DEU 3:24; DEU 9:26; JOS 7:7; JDG 16:28; 2SA 7:19; 2SA 7:20; 2SA 7:28; 2SA 7:29; 1KI 8:53; PSA 71:5; PSA 71:16,Accepted divine-name title style policy for the same source entity.
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israel,children of Israel,children of Israel,123,102,EXO 1:12; EXO 4:29; EXO 5:15; EXO 5:19; EXO 6:9; EXO 6:13; EXO 7:5; EXO 9:35; EXO 12:37; EXO 14:10; EXO 16:1; EXO 16:2,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the LORD,the LORD,113,97,GEN 12:4; GEN 24:31; GEN 24:48; EXO 3:4; EXO 5:2; EXO 8:26; EXO 10:8; EXO 10:18; EXO 10:24; EXO 13:5; EXO 13:11; EXO 16:4,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,the LORD,the LORD,113,85,GEN 26:28; GEN 28:16; EXO 7:6; EXO 7:10; EXO 7:20; EXO 8:4; EXO 8:24; EXO 8:25; EXO 9:33; EXO 12:31; EXO 15:21; LEV 2:9,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,LORD God,Lord GOD,Lord GOD,101,98,ISA 7:7; ISA 28:16; ISA 40:10; ISA 48:16; ISA 65:13; ISA 65:15; JER 7:20; JER 44:26; EZK 5:7; EZK 5:8; EZK 5:11; EZK 7:5,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H758,ʼĂrâm,Aram,Syria,Syria,51,49,JDG 10:6; 2SA 8:12; 2SA 15:8; 1KI 10:29; 1KI 11:25; 1KI 15:18; 1KI 19:15; 1KI 20:1; 1KI 20:22; 1KI 20:23; 1KI 22:1; 1KI 22:3,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H5983,ʻAmmôwn,Ammonites,Ammon,Ammon,50,45,NUM 21:24; DEU 2:19; DEU 2:37; DEU 3:11; JOS 13:25; JDG 10:9; JDG 10:17; JDG 11:5; JDG 11:6; JDG 11:8; JDG 11:9; JDG 11:12,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H758,ʼĂrâm,Aram,Syrians,Syrians,49,41,2SA 8:6; 2SA 8:13; 2SA 10:6; 2SA 10:8; 2SA 10:9; 2SA 10:11; 2SA 10:13; 2SA 10:15; 2SA 10:16; 2SA 10:17; 2SA 10:18; 2SA 10:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3091,Yᵉhôwshûwaʻ,Jehoshua,Joshua,Joshua,40,38,EXO 17:10; EXO 17:13; EXO 32:17; NUM 11:28; NUM 32:28; DEU 34:9; JOS 2:1; JOS 3:1; JOS 3:5; JOS 3:6; JOS 3:9; JOS 4:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the LORD,The LORD,37,33,GEN 2:7; GEN 2:8; GEN 2:15; GEN 3:21; GEN 6:6; GEN 11:6; GEN 18:1; GEN 26:24; GEN 29:31; EXO 4:27; EXO 14:26; EXO 19:21,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,LORD,32,30,NUM 10:36; 2KI 20:3; EZR 9:15; PSA 3:4; PSA 10:1; PSA 17:1; PSA 25:1; PSA 26:2; PSA 30:11; PSA 35:1; PSA 35:22; PSA 40:14,Accepted divine-name title style policy for the same source entity.
 accepted_policy,person_or_place,H4714,Mitsrayim,Egypt,Egyptians,Egyptians,30,22,GEN 41:56; EXO 6:6; EXO 6:7; EXO 11:7; EXO 12:23; EXO 12:30; EXO 14:25; EXO 14:31; EXO 18:8; EXO 18:9; EXO 18:10; EXO 19:4,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,master,lord,lord,29,26,MAT 18:25; MAT 18:27; MAT 18:31; MAT 18:32; MAT 18:34; MAT 24:45; MAT 24:46; MAT 24:48; MAT 24:50; MAT 25:18; MAT 25:19; MAT 25:21,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,person_or_place,H2518,Chilqîyâh,Hillkiah,Hilkiah,Hilkiah,28,25,2KI 18:18; 2KI 18:26; 2KI 18:37; 2KI 22:8; 2KI 22:10; 2KI 22:12; 2KI 22:14; 2KI 23:24; 1CH 5:39; 1CH 6:30; 1CH 9:11; 1CH 26:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H53,ʼĂbîyshâlôwm,Abishalom,Absalom,Absalom,22,19,2SA 13:20; 2SA 13:24; 2SA 13:25; 2SA 13:34; 2SA 14:28; 2SA 14:32; 2SA 14:33; 2SA 15:11; 2SA 15:31; 2SA 16:15; 2SA 16:17; 2SA 16:20,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israelites,children of Israel,children of Israel,18,16,EXO 12:35; EXO 16:15; EXO 28:29; EXO 30:12; EXO 30:31; EXO 33:6; LEV 7:34; LEV 25:55; NUM 2:2; NUM 33:38; NUM 36:7; DEU 10:6,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H26,ʼĂbîygayil,Abigal,Abigail,Abigail,16,15,1SA 25:3; 1SA 25:14; 1SA 25:18; 1SA 25:23; 1SA 25:32; 1SA 25:36; 1SA 25:40; 1SA 25:42; 1SA 27:3; 1SA 30:5; 2SA 2:2; 2SA 17:25,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2148,Zᵉkaryâh,Zachariah,Zechariah,Zechariah,15,15,1CH 9:21; 1CH 15:18; 1CH 15:20; 1CH 26:2; 1CH 26:11; 1CH 26:14; 2CH 17:7; 2CH 24:20; 2CH 29:13; EZR 8:11; EZR 10:26; NEH 11:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,the LORD,The LORD,15,10,GEN 2:16; NUM 22:32; 1SA 16:2; 2KI 1:15; ISA 43:14; ISA 48:17; JER 33:2; JER 34:2; JER 36:29; AMO 7:8,Accepted divine-name title style policy for the same source entity.
 accepted_policy,person_or_place,H4124,Môwʼâb,Moab,Moabites,Moabites,14,9,GEN 19:37; JDG 3:28; 2SA 8:2; 2KI 3:18; 2KI 3:21; 2KI 3:22; 2KI 3:24; 2KI 13:20; 1CH 18:2,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H4321,Mîykâyᵉhûw,Micah,Micaiah,Micaiah,13,13,1KI 22:9; 1KI 22:13; 1KI 22:14; 1KI 22:24; 1KI 22:25; 1KI 22:26; 1KI 22:28; 2CH 18:12; 2CH 18:13; 2CH 18:23; 2CH 18:24; 2CH 18:25,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H795,ʼAshdôwd,Ahdod,Ashdod,Ashdod,13,11,JOS 11:22; JOS 15:47; 1SA 5:1; 1SA 5:7; 1SA 6:17; 2CH 26:6; ISA 20:1; JER 25:20; AMO 1:8; AMO 3:9; ZEP 2:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H6002,ʻĂmâlêq,Amalek,Amalekites,Amalekites,12,11,JDG 6:3; JDG 6:33; JDG 7:12; JDG 10:12; 1SA 14:48; 1SA 15:7; 1SA 15:8; 1SA 15:20; 1SA 15:32; 1SA 30:18; 1CH 4:43,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H3270,Yaʻăzêyr,Jaazer,Jazer,Jazer,11,10,NUM 32:1; NUM 32:3; JOS 13:25; JOS 21:39; 2SA 24:5; 1CH 6:66; 1CH 26:31; ISA 16:8; ISA 16:9; JER 48:32,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3568,Kûwsh,Cush,Ethiopia,Ethiopia,11,11,EST 1:1; EST 8:9; PSA 87:4; ISA 18:1; ISA 20:3; ISA 20:5; ISA 37:9; ISA 43:3; ISA 45:14; EZK 29:10; EZK 30:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,God,mighty,mighty,11,9,EXO 1:20; EXO 9:28; EXO 32:11; DEU 5:15; DEU 7:19; DEU 11:2; 2CH 27:6; ISA 21:17; DAN 9:15,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H1507,Gezer,Gazer,Gezer,Gezer,9,8,JOS 10:33; JOS 12:12; JOS 16:3; JOS 16:10; JDG 1:29; 1KI 9:15; 1KI 9:16; 1CH 20:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2605,Chânân,Canan,Hanan,Hanan,9,9,1CH 8:23; 1CH 8:38; 1CH 9:44; 1CH 11:43; NEH 7:49; NEH 8:7; NEH 10:11; NEH 10:23; NEH 10:27,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3107,Yôwzâbâd,Josabad,Jozabad,Jozabad,9,8,1CH 12:21; 2CH 31:13; 2CH 35:9; EZR 8:33; EZR 10:22; EZR 10:23; NEH 8:7; NEH 11:16,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7143,Qârêach,Careah,Kareah,Kareah,9,9,JER 40:8; JER 40:13; JER 40:15; JER 40:16; JER 41:11; JER 41:16; JER 42:8; JER 43:4; JER 43:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,O Lord,O LORD,LORD,8,8,2SA 7:25; 2CH 1:9; PSA 3:8; PSA 17:13; PSA 27:7; PSA 36:7; PSA 142:6; JER 10:6,Accepted divine-name title style policy for the same source entity.
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israel,Israelites,Israelites,8,7,EXO 9:7; 1SA 2:14; 1SA 13:20; 1SA 14:21; 1SA 29:1; 2SA 4:1; 2KI 3:24,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H669,ʼEphrayim,Ephraimites,Ephraim,Ephraim,8,7,NUM 2:18; NUM 34:24; JOS 16:5; JOS 16:9; 2CH 28:12; 2CH 30:18; ZEC 10:7,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H863,ʼIttay,Ithai,Ittai,Ittai,8,7,2SA 15:19; 2SA 15:21; 2SA 15:22; 2SA 18:2; 2SA 18:5; 2SA 18:12; 2SA 23:29,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H894,Bâbel,Babel,Babylon,Babylon,8,7,PSA 87:4; JER 32:5; JER 51:8; JER 51:30; JER 51:37; JER 51:49; JER 51:53,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2962,kýrios,Master,Lord,Lord,7,7,MAT 18:26; MAT 25:20; MAT 25:22; MAT 25:24; LUK 19:16; LUK 19:18; LUK 19:20,Accepted narrow title wording/capitalization variant for the same source entity.
 accepted_policy,person_or_place,H123,ʼĔdôm,Edom,Edomites,Edomites,7,5,GEN 36:9; GEN 36:43; 2KI 8:21; 1CH 18:12; 1CH 18:13,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H1296,Berekyâh,Berachiah,Berechiah,Berechiah,7,7,1CH 3:20; 1CH 9:16; 1CH 15:23; NEH 3:4; NEH 3:30; NEH 6:18; ZEC 1:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,The LORD,The LORD,7,6,EXO 7:16; 1SA 12:5; 2SA 5:20; 1KI 8:12; ISA 49:14; JER 51:10,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,LORD,Lord GOD,Lord GOD,7,7,1KI 2:26; EZK 8:1; EZK 22:12; EZK 26:7; EZK 45:15; AMO 3:8; AMO 8:1,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,God,GOD,GOD,7,7,EXO 34:23; JDG 16:28; 2SA 7:28; PSA 69:7; EZK 20:5; EZK 28:6; AMO 6:8,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H2900,Ṭôwbîyâh,Tobijah,Tobiah,Tobiah,6,6,EZR 2:60; NEH 2:10; NEH 2:19; NEH 3:35; NEH 6:1; NEH 6:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3050,Yâhh,Jah,the LORD,the LORD,6,5,PSA 77:12; PSA 115:17; PSA 115:18; PSA 147:1; PSA 150:1,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,LORD,LORD,6,6,1CH 17:26; PSA 3:2; PSA 21:14; PSA 89:47; PSA 94:3; ISA 26:11,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,The LORD,The LORD,6,6,GEN 24:40; 1CH 23:25; 2CH 6:1; PSA 145:8; JER 29:15; LAM 2:8,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3088,Yᵉhôwrâm,Jehoram,Joram,Joram,6,5,2KI 9:15; 2KI 9:17; 2KI 9:21; 2KI 9:22; 2KI 9:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4080,Midyân,Midian,Midianites,Midianites,6,6,JDG 6:3; JDG 6:16; JDG 6:33; JDG 7:2; JDG 7:7; JDG 7:12,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H4709,Mitspâh,Mitspah,Mizpah,Mizpah,6,5,2KI 25:25; NEH 3:15; JER 40:10; JER 41:6; JER 41:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5804,ʻAzzâh,Azzah,Gaza,Gaza,6,6,JOS 10:41; JOS 11:22; JOS 15:47; JDG 1:18; JER 47:1; ZEP 2:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H758,ʼĂrâm,Arameans,Syrians,Syrians,6,5,2SA 8:5; 2SA 10:14; 1KI 20:20; 2KI 24:2; 1CH 19:15,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7586,Shâʼûwl,Saul,Shaul,Shaul,6,6,GEN 46:10; EXO 6:15; NUM 26:13; 1CH 1:48; 1CH 1:49; 1CH 4:24,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H763,ʼĂram Nahărayim,Aram-naharaim,Mesopotamia,Mesopotamia,6,3,GEN 24:10; JDG 3:8; 1CH 19:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H804,ʼAshshûwr,Assyria,Assyrians,Assyrians,6,3,ISA 19:23; LAM 5:6; EZK 23:12,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,Sir,Lord,Lord,5,5,LUK 13:8; LUK 14:22; LUK 19:25; JHN 6:34; ACT 10:4,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,H136,ʼĂdônây,Lord,LORD,LORD,5,5,JDG 13:8; ISA 49:14; EZK 21:14; AMO 7:8; MAL 1:12,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H1954,Hôwshêaʻ,Hosea,Hoshea,Hoshea,5,5,2KI 15:30; 2KI 17:3; 2KI 17:4; 2KI 17:6; 2KI 18:1,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H223,ʼÛwrîyâh,Uriah,Urijah,Urijah,5,4,2KI 16:10; 2KI 16:11; 2KI 16:15; 2KI 16:16,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,the LORD,the LORD,5,4,GEN 12:1; 1SA 2:10; 1SA 12:6; 2CH 7:12,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,Lord the LORD,Lord GOD,Lord GOD,5,5,EZK 14:11; EZK 27:3; EZK 34:31; EZK 36:6; EZK 38:18,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3470,Yᵉshaʻyâh,Jesaiah,Jeshaiah,Jeshaiah,5,5,1CH 25:3; 1CH 25:15; 1CH 26:25; EZR 8:7; EZR 8:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H3878,Lêvîy,Levites,Levi,Levi,5,5,EXO 32:28; NUM 4:2; NUM 18:21; DEU 31:9; 1CH 24:20,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,mighty,God,God,5,4,1CH 9:13; 1CH 9:26; NEH 10:30; PSA 71:18,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H4363,Mikmâç,Mikmash,Michmash,Michmash,5,5,1SA 13:2; 1SA 13:5; 1SA 13:11; 1SA 13:16; 1SA 13:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4441,Malkîyâh,Malchiah,Malchijah,Malchijah,5,4,1CH 9:12; 1CH 24:9; EZR 10:25; NEH 12:42,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2962,kýrios,owner,lord,lord,4,4,MAT 20:8; MAT 21:40; LUK 20:13; LUK 20:15,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,person_or_place,H1806,Dᵉlâyâh,Dalaiah,Delaiah,Delaiah,4,4,EZR 2:60; NEH 6:10; NEH 7:62; JER 36:12,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3003,Yâbêsh,Jabesh-gilead,Jabesh,Jabesh,4,2,1SA 11:1; 1SA 11:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3003,Yâbêsh,Jobesh,Jabesh,Jabesh,4,4,1SA 11:3; 2KI 15:10; 2KI 15:13; 2KI 15:14,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,the LORD,The LORD,4,4,EXO 7:1; DEU 34:4; 2SA 12:1; 1KI 11:14,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,The LORD,The LORD,4,3,DEU 1:10; 2CH 6:10; PSA 16:5,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the LORD,the Lord,the Lord,4,4,PSA 68:27; ISA 3:17; ISA 10:33; MAL 1:14,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3082,Yᵉhôwnâdâb,Jehonadab,Jonadab,Jonadab,4,4,2SA 13:5; JER 35:8; JER 35:14; JER 35:16,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3778,Kasdîy,Chaldeans,Chaldees,Chaldees,4,4,GEN 11:28; GEN 11:31; GEN 15:7; NEH 9:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3778,Kasdîy,Chaldeans,Chaldea,Chaldea,4,4,JER 50:10; EZK 11:24; EZK 16:29; EZK 23:15,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,God,gods,gods,4,2,DEU 7:25; JER 16:20,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,God,god,god,4,4,DEU 32:39; JDG 6:31; AMO 8:14; HAB 1:11,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H467,ʼĔlîypheleṭ,Eliphalet,Eliphelet,Eliphelet,4,4,2SA 23:34; 1CH 8:39; EZR 8:13; EZR 10:33,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4713,Mitsrîy,of Egypt,Egyptians,Egyptians,4,4,GEN 41:56; EXO 3:8; EXO 8:17; JDG 6:9,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H501,ʼElʻâsâh,Elasah,Eleasah,Eleasah,4,4,1CH 2:39; 1CH 2:40; 1CH 8:37; 1CH 9:43,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5798,ʻUzzâʼ,Uzza,Uzzah,Uzzah,4,4,2SA 6:3; 2SA 6:6; 2SA 6:7; 2SA 6:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6252,ʻAshtârôwth,Astaroth,Ashtaroth,Ashtaroth,4,4,JOS 12:4; JOS 13:31; 1SA 7:4; 1SA 31:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H682,ʼÂtsêl,Azal,Azel,Azel,4,2,1CH 8:38; 1CH 9:44,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2316,theós,God,godly,godly,3,3,2CO 7:9; 2CO 7:10; 2CO 7:11,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,person_or_place,H1387,Gebaʻ,Gaba,Geba,Geba,3,3,2CH 16:6; EZR 2:26; NEH 7:30,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H281,ʼĂchîyâh,Ahiah,Ahijah,Ahijah,3,3,1KI 11:29; 1CH 2:25; 1CH 26:20,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H29,ʼĂbîyâh,Abiah,Abijah,Abijah,3,3,2CH 13:19; NEH 10:8; NEH 12:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3050,Yâhh,Jah,The LORD,The LORD,3,3,PSA 94:7; PSA 118:14; PSA 118:18,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3050,Yâhh,the Lord,the LORD,the LORD,3,2,PSA 135:3; ISA 38:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,Lord,Lord GOD,Lord GOD,3,3,PSA 69:7; ISA 50:7; ZEP 1:7,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3076,Yᵉhôwchânân,Jehohanan,Johanan,Johanan,3,3,1CH 12:5; 1CH 12:13; 2CH 28:12,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3266,Yᵉʻûwsh,Jehush,Jeush,Jeush,3,3,1CH 23:10; 1CH 23:11; 2CH 11:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3406,Yᵉrîymôwth,Jermoth,Jerimoth,Jerimoth,3,3,1CH 12:6; 1CH 25:4; 2CH 11:18,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3449,Yishshîyâh,Ishiah,Isshiah,Isshiah,3,2,1CH 24:21; 1CH 24:25,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H359,ʼÊylôwth,Elath,Eloth,Eloth,3,3,1KI 9:26; 2CH 8:17; 2CH 26:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H410,ʼêl,mighty,God,God,3,3,JOB 20:15; JOB 31:23; PSA 89:8,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H445,ʼElchânân,Elkanan,Elhanan,Elhanan,3,3,2SA 21:19; 2SA 23:24; 1CH 20:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4601,Maʻăkâh,Maachah,Maacah,Maacah,3,3,2SA 3:3; 2SA 10:6; 2SA 10:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4713,Mitsrîy,Egypt,Egyptians,Egyptians,3,3,EXO 9:11; EXO 10:6; NUM 33:3,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H4713,Mitsrîy,Egyptian,Egyptians,Egyptians,3,3,EXO 1:13; EXO 12:33; EXO 14:18,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H4714,Mitsrayim,Egypt,Mizraim,Mizraim,3,3,GEN 10:6; 1CH 1:8; 1CH 1:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4847,Mᵉrârîy,Merarites,Merari,Merari,3,3,NUM 4:33; NUM 4:42; NUM 4:45,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6252,ʻAshtârôwth,Asharoth,Ashtaroth,Ashtaroth,3,3,JDG 2:13; 1SA 7:3; 1SA 12:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6678,Tsôwbâʼ,Zoba,Zobah,Zobah,3,3,1SA 14:47; 2SA 8:3; 1CH 18:3,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6955,Qᵉhâth,Kohathites,Kohath,Kohath,3,2,NUM 4:2; JOS 21:20,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7467,Rᵉʻûwʼêl,Raguel,Reuel,Reuel,3,3,GEN 36:4; EXO 2:18; 1CH 9:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H758,ʼĂrâm,Syria,Syrians,Syrians,3,2,2KI 13:17; 2CH 24:24,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7619,Shᵉbûwʼêl,Shebuel,Shubael,Shubael,3,2,1CH 24:20; 1CH 25:20,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8114,Shᵉmaryâh,Shamariah,Shemariah,Shemariah,3,3,1CH 12:6; EZR 10:32; EZR 10:41,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,G2195,Zakchaîos,Zacchæus,Zacchaeus,Zacchaeus,2,2,LUK 19:2; LUK 19:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2424,Iēsoûs,Jesus,JESUS,JESUS,2,2,MAT 27:37; JHN 19:19,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,Lord,lord,lord,2,2,MRK 12:9; JHN 13:16,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,lords,LORDS,LORDS,2,1,REV 19:16,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,sir,Lord,Lord,2,2,JHN 8:11; JHN 9:36,Accepted narrow title wording/capitalization variant for the same source entity.
 accepted_policy,person_or_place,H123,ʼĔdôm,Edomites,Edom,Edom,2,2,PSA 137:7; JER 9:25,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H1410,Gâd,Gadites,Gad,Gad,2,2,JOS 22:10; JOS 22:32,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H1568,Gilʻâd,Gileadite,Gilead,Gilead,2,1,NUM 26:29,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H1568,Gilʻâd,gilead,Gilead,Gilead,2,1,1KI 4:13,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H1705,Dăbrath,Dabareh,Daberath,Daberath,2,2,JOS 19:12; 1CH 6:57,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1835,Dân,Danites,Dan,Dan,2,2,NUM 34:22; JDG 18:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2218,Zered,Zared,Zered,Zered,2,1,DEU 2:13,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2438,Chîyrâm,Huram,Hiram,Hiram,2,2,1KI 7:13; 1KI 10:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2845,Chêth,Hethites,Hittite,Hittite,2,1,GEN 23:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3050,Yâhh,hallelujah,the LORD,the LORD,2,2,PSA 104:35; PSA 149:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,O LORD,2,2,1SA 23:10; JER 5:3,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,The LORD,the LORD,2,1,RUT 2:4,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,LORD my Lord,Lord GOD,Lord GOD,2,2,ISA 52:4; ISA 61:11,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,Lord Jehovah,Lord GOD,Lord GOD,2,2,EZK 24:14; AMO 9:8,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,my Lord Jehovah,Lord GOD,Lord GOD,2,2,ISA 61:1; AMO 7:6,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3087,Yᵉhôwtsâdâq,Jehozadek,Jehozadak,Jehozadak,2,2,1CH 5:40; 1CH 5:41,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3111,Yôwyâdâʻ,Jehoiada,Joiada,Joiada,2,2,NEH 12:10; NEH 12:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3232,Yimnâh,Imna,Imnah,Imnah,2,2,1CH 7:30; 2CH 31:14,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3265,Yâʻûwr,Jaare—Oregim,Jair,Jair,2,1,1CH 20:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3568,Kûwsh,Chush,Ethiopia,Ethiopia,2,2,2KI 19:9; EZK 30:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3794,Kittîy,Chittim,Kittim,Kittim,2,2,GEN 10:4; 1CH 1:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4024,Migdôwl,Migdol,tower,tower,2,2,EZK 29:10; EZK 30:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4074,Mâday,Medes,Media,Media,2,2,ISA 21:2; DAN 8:20,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H4074,Mâday,Media,Medes,Medes,2,2,2KI 17:6; JER 51:28,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H410,ʼêl,God,power,power,2,2,JOB 36:22; PSA 150:1,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,God,might,might,2,2,PSA 78:7; PSA 78:8,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,Mighty,God,God,2,2,JOB 20:29; JOB 22:17,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,gods,GOD,GOD,2,1,EZK 28:2,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,strong,God,God,2,2,NUM 23:22; JOB 15:25,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H4105,Mᵉhêyṭabʼêl,Mehetabeel,Mehetabel,Mehetabel,2,2,GEN 36:39; 1CH 1:50,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,gods,God,God,2,2,JDG 9:13; PSA 40:18,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,gods,GOD,GOD,2,1,EZK 28:2,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H4326,Mîyâmin,Miamin,Mijamin,Mijamin,2,2,1CH 24:9; NEH 10:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4714,Mitsrayim,Egyptians,Egypt,Egypt,2,2,ISA 19:14; EZK 23:8,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H5177,Nachshôwn,Naashon,Nahshon,Nahshon,2,2,NUM 2:3; 1CH 2:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5543,Çallûw,Sallai,Sallu,Sallu,2,2,1CH 9:7; NEH 12:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5740,ʻÊder,Edar,Eder,Eder,2,2,1CH 23:23; 1CH 24:30,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5933,ʻAlvâh,Alvah,Aliah,Aliah,2,1,1CH 1:51,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H5945,ʻelyôwn,exalted,high,high,2,2,1KI 9:8; 2CH 7:21,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,person_or_place,H5964,ʻÂlemeth,Alameth,Alemeth,Alemeth,2,2,1CH 8:36; 1CH 9:42,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6439,Pᵉnûwʼêl,Peniel,Penuel,Penuel,2,2,1KI 12:25; 1CH 4:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6689,Tsûwph,Zif,Zuph,Zuph,2,1,1CH 6:20,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6946,Qâdêsh,kadesh,Kadesh,Kadesh,2,2,EZK 47:19; EZK 48:28,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7205,Rᵉʼûwbên,Reubenites,Reuben,Reuben,2,2,JOS 22:10; JOS 22:32,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H758,ʼĂrâm,Aram,Mesopotamia,Mesopotamia,2,2,JDG 3:10; 1CH 19:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H758,ʼĂrâm,Syrians,Syria,Syria,2,1,2KI 13:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7597,Shᵉʼaltîyʼêl,Shalthiel,Shealtiel,Shealtiel,2,2,EZR 3:2; HAG 2:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H763,ʼĂram Nahărayim,Aram Naharaim,Mesopotamia,Mesopotamia,2,1,DEU 23:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7755,Sôwkôh,Shochoh,Socoh,Socoh,2,2,JOS 15:35; JOS 15:48,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7974,Shelach,Salah,Shelah,Shelah,2,1,1CH 1:18,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8035,Shêm,Sem,Shem,Shem,2,2,GEN 9:18; 1CH 1:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H804,ʼAshshûwr,Asshur,Assyrians,Assyrians,2,2,EZK 16:28; EZK 23:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H804,ʼAshshûwr,Assyria,Asshur,Asshur,2,2,NUM 24:22; EZK 32:22,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8050,Shᵉmûwʼêl,Samuel,Shemuel,Shemuel,2,2,NUM 34:20; 1CH 7:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8169,Shaʻalbîym,Shaalabbin,Shaalbim,Shaalbim,2,2,JDG 1:35; 1KI 4:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H844,ʼAsrîyʼêl,Ashriel,Asriel,Asriel,2,2,NUM 26:31; JOS 17:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8583,Tôʻûw,Toi,Tou,Tou,2,2,1CH 18:9; 1CH 18:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8646,Terach,Tarah,Terah,Terah,2,2,GEN 11:26; GEN 11:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2316,theós,God,god,god,1,1,ACT 7:43,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,G2316,theós,God,exceeding,exceeding,1,1,2CO 9:14,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,G2501,Iōsḗph,parents,Joseph,Joseph,1,1,LUK 2:43,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,G2878,korbân,Corban,treasury,treasury,1,1,MAT 27:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,G2962,kýrios,Lord,master,master,1,1,LUK 13:25,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,Lord,lords,lords,1,1,1TI 6:15,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G2962,kýrios,master,Lord,Lord,1,1,LUK 12:42,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,divine_name_or_title,G4151,pneûma,Spirit,spirit,spirit,1,1,1CO 7:34,Accepted narrow title wording/capitalization variant for the same source entity.
+accepted_policy,person_or_place,G4826,Symeṓn,Simeon,Simon,Simon,1,1,2PE 1:1,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,G897,Babylṓn,Babylon,BABYLON,BABYLON,1,1,REV 17:5,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,G955,Belíal,Beliar,Belial,Belial,1,1,2CO 6:15,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1081,Balʼădân,baladan,Baladan,Baladan,1,1,2KI 20:12,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1109,Bilʻâm,Balaam,Bileam,Bileam,1,1,1CH 6:55,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1144,Binyâmîyn,Benjaminite,Benjamin,Benjamin,1,1,1SA 9:1,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1144,Binyâmîyn,Benjaminites,Benjamin,Benjamin,1,1,JDG 21:13,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1168,Baʻal,Baalim,Baal,Baal,1,1,1KI 22:54,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H136,ʼĂdônây,Lord,O LORD,LORD,1,1,2SA 7:22,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H136,ʼĂdônây,O Lord,O LORD,LORD,1,1,PSA 35:22,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H1471,gôwy,nations,Gentiles,Gentiles,1,1,JDG 4:13,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1599,Ginnᵉthôwn,Ginnetho,Ginnethon,Ginnethon,1,1,NEH 12:16,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1648,Gêrᵉshôwn,Gershonites,Gershon,Gershon,1,1,NUM 4:22,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1654,Geshem,Geshem,Gashmu,Gashmu,1,1,NEH 6:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H1789,Dîyshân,Dishan,Dishon,Dishon,1,1,GEN 36:26,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2128,Zîyph,Ziphites,Ziph,Ziph,1,1,1SA 23:24,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2286,Chăgâbâʼ,Hagabah,Hagaba,Hagaba,1,1,NEH 7:48,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2349,Chûwphâm,Huphamite,Hupham,Hupham,1,1,NUM 26:39,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2361,Chûwrâm,Hiram,Huram,Huram,1,1,2CH 9:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2438,Chîyrâm,Hiram,Huram,Huram,1,1,2CH 9:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2453,Chakmôwnîy,Hachmoni,Hachmonite,Hachmonite,1,1,1CH 11:11,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2478,Chalchûwl,Halahul,Halhul,Halhul,1,1,JOS 15:58,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2712,Chuqqôq,Hukkok,Hukok,Hukok,1,1,1CH 6:60,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2712,Chuqqôq,Hukkokah,Hukkok,Hukkok,1,1,JOS 19:34,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2768,Chermôwn,hermon,Hermon,Hermon,1,1,1CH 5:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2815,Chashshûwb,Hashub,Hasshub,Hasshub,1,1,1CH 9:14,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2817,Chăsûwphâʼ,Hashupha,Hasupha,Hasupha,1,1,EZR 2:43,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2900,Ṭôwbîyâh,Tobiah,Tobijah,Tobijah,1,1,2CH 17:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H2983,Yᵉbûwçîy,Jebusites,Jebusite,Jebusite,1,1,ZEC 9:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3061,Yᵉhûwd,Judea,Judah,Judah,1,1,EZR 5:1,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3063,Yᵉhûwdâh,Judahites,Judah,Judah,1,1,JOL 4:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3064,Yᵉhûwdîy,Jewish,Jew,Jew,1,1,ZEC 8:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,The LORD,1,1,JDG 21:3,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O LORD,the LORD,1,1,1SA 20:12,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,The LORD,the LORD,1,1,1CH 21:3,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,the Lord,The Lord,1,1,ISA 61:1,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,Jehovah,O Lord,Lord,1,1,DAN 9:8,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,O Lord,LORD,LORD,1,1,1CH 17:23,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The LORD,The Lord,The Lord,1,1,LAM 2:7,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,LORD,LORD,1,1,1KI 8:23,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,The Lord,O LORD,LORD,1,1,2CH 6:14,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the LORD,the Lord,The Lord,1,1,EZK 14:4,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,LORD,LORD,1,1,1SA 3:9,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3068,Yᵉhôvâh,the Lord,The LORD,the LORD,1,1,HOS 4:15,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,LORD,Lord,Lord,1,1,PSA 68:21,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,Lord God,LORD God,LORD God,1,1,2SA 7:22,Accepted divine-name title style policy for the same source entity.
+accepted_policy,divine_name_or_title,H3069,Yᵉhôvih,my Lord the LORD,Lord GOD,Lord GOD,1,1,2SA 7:18,Accepted divine-name title style policy for the same source entity.
+accepted_policy,person_or_place,H3096,Yahats,Jahazah,Jahaz,Jahaz,1,1,NUM 21:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3096,Yahats,Jahazah,Jahzah,Jahzah,1,1,1CH 6:63,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3156,Yizrachyâh,Izrahiah,Jezrahiah,Jezrahiah,1,1,NEH 12:42,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3169,Yᵉchizqîyâh,Hezekiah,Jehizkiah,Jehizkiah,1,1,2CH 28:12,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3229,Yimlâʼ,Imla,Imlah,Imlah,1,1,1KI 22:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3262,Yᵉʻûwʼêl,Jehiel,Jeuel,Jeuel,1,1,1CH 9:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3279,Yaʻălâʼ,Jaala,Jaalah,Jaalah,1,1,EZR 2:56,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3316,Yiphtâch,Jiphtah,Jephthah,Jephthah,1,1,JDG 11:6,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3404,Yᵉrîyâh,Jeriah,Jerijah,Jerijah,1,1,1CH 26:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israelite,Israel,Israel,1,1,DEU 22:19,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israelite,children of Israel,children of Israel,1,1,1KI 9:22,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H3478,Yisrâʼêl,Israelites,Israel,Israel,1,1,EZR 10:1,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H350,ʼÎy-kâbôwd,I-chabod,Ichabod,Ichabod,1,1,1SA 4:21,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3672,Kinnᵉrôwth,Chinnereth,Chinneroth,Chinneroth,1,1,JOS 12:3,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3672,Kinnᵉrôwth,Kinneroth,Chinneroth,Chinneroth,1,1,JOS 11:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3838,Lᵉbânâʼ,Lebanah,Lebana,Lebana,1,1,NEH 7:48,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H3865,Lûwd,Lydia,Lud,Lud,1,1,EZK 27:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H3878,Lêvîy,Levi,Levites,Levites,1,1,DEU 18:1,Accepted grammatical forms of the same named entity.
 accepted_policy,person_or_place,H3878,Lêvîy,Levite,Levi,Levi,1,1,1CH 12:27,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H4074,Mâday,Madai,Medes,Medes,1,1,JER 25:25,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H4080,Midyân,Midianite,Midian,Midian,1,1,NUM 25:18,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H410,ʼêl,God,god,god,1,1,ISA 43:12,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,God,mighty,mighty,1,1,JER 51:56,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,god,God,God,1,1,DEU 32:21,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,idol,god,god,1,1,ISA 46:6,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,divine_name_or_title,H410,ʼêl,mighty ones,mighty,mighty,1,1,PSA 29:1,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,mighty ones,strong,strong,1,1,EZK 32:21,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,power,mighty,mighty,1,1,JOB 36:5,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H410,ʼêl,power,God,God,1,1,PSA 77:15,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
 accepted_policy,person_or_place,H4124,Môwʼâb,Moabites,Moab,Moab,1,1,2CH 20:1,Accepted grammatical forms of the same named entity.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,God,angels,angels,1,1,GEN 28:12,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,Mighty,God,God,1,1,JOB 20:29,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,angels,gods,gods,1,1,PSA 138:1,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,divine beings,angels,angels,1,1,PSA 8:6,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,god,God,God,1,1,ISA 64:3,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,gods,god,god,1,1,2CH 32:15,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,divine_name_or_title,H430,ʼĕlôhîym,judges,God,God,1,1,PSA 7:12,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H4318,Mîykâh,Micah,Micaiah,Micaiah,1,1,2CH 18:14,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H433,ʼĕlôwahh,gods,god,god,1,1,2CH 32:15,Accepted shared source-entity candidate present in all witnesses; single-form mismatch is not actionable.
+accepted_policy,person_or_place,H4363,Mikmâç,Michmas,Michmash,Michmash,1,1,1SA 14:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4363,Mikmâç,Mikmas,Michmas,Michmas,1,1,NEH 7:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4363,Mikmâç,Mikmas,Michmash,Michmash,1,1,ISA 10:28,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4519,Mᵉnashsheh,Manassites,Manasseh,Manasseh,1,1,JOS 16:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H469,ʼĔlîytsâphân,Elizaphan,Elzaphan,Elzaphan,1,1,LEV 10:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H4902,Meshek,Mesech,Meshech,Meshech,1,1,EZK 27:13,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5096,Nahălâl,Nahalal,Nahalol,Nahalol,1,1,JDG 1:30,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5321,Naphtâlîy,Naphtalite,Naphtali,Naphtali,1,1,1KI 4:15,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5454,Çabtâʼ,Sabta,Sabtah,Sabtah,1,1,GEN 10:7,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5517,Çîyʻâʼ,Siaha,Sia,Sia,1,1,NEH 7:47,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5857,ʻAy,Ai,Aija,Aija,1,1,NEH 11:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H5935,ʻAlvân,Alian,Alvan,Alvan,1,1,GEN 36:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6107,ʻEtsem,Azem,Ezem,Ezem,1,1,1CH 4:29,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6316,Pûwṭ,Phut,Put,Put,1,1,NAM 3:9,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6514,Pᵉrûwdâʼ,Perida,Peruda,Peruda,1,1,EZR 2:55,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H663,ʼĂphêq,Aphek,Aphik,Aphik,1,1,JDG 1:31,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H669,ʼEphrayim,Ephraimite,Ephraim,Ephraim,1,1,2CH 28:7,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H6815,Tsaʻănannîym,Zaanaim,Zaanannim,Zaanannim,1,1,JOS 19:33,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6825,Tsᵉphôw,Zepho,Zephi,Zephi,1,1,1CH 1:36,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6881,Tsorʻâh,Zareah,Zorah,Zorah,1,1,JDG 18:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H6881,Tsorʻâh,Zoreah,Zorah,Zorah,1,1,2CH 11:10,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7018,Qêynân,Cainan,Kenan,Kenan,1,1,1CH 1:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7211,Rᵉʼâyâh,Reaia,Reaiah,Reaiah,1,1,EZR 2:47,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7486,Raʻmᵉçêç,Raamses,Rameses,Rameses,1,1,NUM 33:3,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7497,râphâʼ,giants,giant,giant,1,1,1CH 20:4,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7614,Shᵉbâʼ,Sheba,Sabeans,Sabeans,1,1,JOB 1:15,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H7643,Sᵉbâm,Shebam,Sibmah,Sibmah,1,1,JOS 13:19,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,divine_name_or_title,H7706,Shadday,Shaddai,Almighty,Almighty,1,1,JOB 23:16,Accepted context-sensitive source-valid divine/common-noun rendering variant.
+accepted_policy,person_or_place,H804,ʼAshshûwr,Asshur,Assyria,Assyria,1,1,ISA 37:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8096,Shimʻîy,Shimeah,Shimei,Shimei,1,1,EZR 10:38,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8195,Shᵉphôw,Shephi,Shepho,Shepho,1,1,GEN 36:23,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8289,Shârôwn,Lasharon,Sharon,Sharon,1,1,ISA 35:2,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8471,Tachpanchêç,Tahapanes,Tahpanhes,Tahpanhes,1,1,JER 43:8,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8471,Tachpanchêç,Tahpanhes,Tehaphnehes,Tehaphnehes,1,1,EZK 30:18,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H851,ʼEshtᵉmôaʻ,Eshtemoa,Eshtemoh,Eshtemoh,1,1,JOS 15:50,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
+accepted_policy,person_or_place,H8555,Timnâʻ,Timnah,Timna,Timna,1,1,1CH 1:36,"Accepted known proper-name spelling, alias, or demonym for the same source entity."
 accepted_policy,person_or_place,H894,Bâbel,Babylon,Babylonians,Babylonians,1,1,EZK 23:23,Accepted grammatical forms of the same named entity.
+accepted_policy,person_or_place,H980,Bachurîym,Bahurite,Bahurim,Bahurim,1,1,2SA 19:17,"Accepted known proper-name spelling, alias, or demonym for the same source entity."

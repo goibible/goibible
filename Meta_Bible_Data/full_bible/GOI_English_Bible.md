@@ -1898,7 +1898,7 @@
 
 29 I have the power to harm you, but the God of your father last night said to me, "Beware of speaking with Jacob from good to evil."
 
-30 Now go, for you have longed to return to your father's house; why have you stolen my god?
+30 Now go, for you have longed to return to your father's house; why have you stolen my gods?
 
 31 Jacob answered and said to Laban, for I was afraid, for I said, Lest you take your daughters from me.
 
@@ -4483,7 +4483,7 @@
 
 19 Every one who lies with a beast shall be put to death.
 
-20 Whoever sacrifices to the gods will be put under the ban, except to the LORD alone.
+20 Whoever sacrifices to a god will be put under the ban, except to the LORD alone.
 
 21 You shall not wrong or oppress the alien, for you were aliens in the land of Egypt.
 
@@ -9311,7 +9311,7 @@
 
 26 Then Balaam answered and said to Balak, "Did I not speak to you, saying, Whatever the LORD speaks, that I must do"?
 
-27 Balak said to Balaam, "Come now, let me take you to another place; perhaps it will be pleasing in the sight of the gods, and you can curse him for me from there."
+27 Balak said to Balaam, "Come now, let me take you to another place; perhaps it will be pleasing in the sight of God, and you can curse him for me from there."
 
 28 Balak took Balaam to the summit of Peor, overlooking the face of the wilderness.
 
@@ -10552,7 +10552,7 @@
 
 32 Ask now of the days that were before you, from the day when God created man upon the earth, and from one end of the heavens to the other end of the heavens: has there ever been such a great thing as this, or has there ever been heard anything like it?
 
-33 Has any folk heard the voice of gods speaking from within the fire as you have heard and lived?
+33 Has any folk heard the voice of God speaking from within the fire as you have heard and lived?
 
 34 Or has God ever tried to take for Himself a nation from the midst of another nation, by trials, by signs, by wonders, by war, by a mighty hand, by an outstretched arm, and by great terrors, according to all that the LORD your God did for you in Egypt before your eyes?
 
@@ -13921,7 +13921,7 @@
 
 7 The village ceased in Israel, they ceased, until I, Deborah, arose, until I arose, a mother in Israel.
 
-8 God chose new rulers; then war was at the gates; neither shield nor spear was seen among forty thousand in Israel.
+8 They chose new gods; then war was at the gates; neither shield nor spear was seen among forty thousand in Israel.
 
 9 My heart is for the leaders of Israel, who willingly offered themselves among the people. Bless the LORD.
 
@@ -14233,7 +14233,7 @@
 
 26 Gaal son of Ebed came with his brothers and passed through Shechem, and the men of Shechem put their trust in him.
 
-27 They went out into the field and gathered the increase of their vineyards and trod it and made merry and came to the temple of their gods and ate and drank and cursed Abimelech.
+27 They went out into the field and gathered the increase of their vineyards and trod it and made merry and came to the temple of their god and ate and drank and cursed Abimelech.
 
 28 Gaal son of Ebed said, "Who is Abimelech, and who is Shechem, that we should serve him? Is he not the son of Jerubbaal, and Zebul his officer? Serve the men of Hamor, the father of Shechem; why should we serve him?"
 
@@ -14638,7 +14638,7 @@
 
 23 The lords of the Philistines gathered to offer a great sacrifice to Dagon their god and to rejoice, and they said, "Our god has given into our hand Samson, our enemy."
 
-24 The folk saw him and praised their God, saying, "Our God has delivered into our hand our enemy and the one who devastated our land and greatly multiplied our slain."
+24 The folk saw him and praised their god, saying, "Our god has delivered into our hand our enemy and the one who devastated our land and greatly multiplied our slain."
 
 25 And when their hearts were merry, they said, "Call Samson that he may entertain us." So they called Samson from the dungeon, and he performed for them; and they positioned him between the pillars.
 
@@ -16717,7 +16717,7 @@
 
 12 The woman saw Samuel and cried out in a loud voice, and the woman said to Saul, "Why have you deceived me? You are Saul!"
 
-13 The king said to her, Do not fear, for what have you seen? And the woman said to Saul, I have seen God coming up out of the earth.
+13 The king said to her, Do not fear, for what have you seen? And the woman said to Saul, I have seen gods coming up out of the earth.
 
 14 And he said to her, What is his form? And she said, An old man is coming up, and he is wrapped in a robe. And Saul knew that it was Samuel, and he bowed with his face to the ground and prostrated himself.
 
@@ -20033,7 +20033,7 @@
 
 1 Moab rebelled against Israel after the death of Ahab.
 
-2 Ahaziah fell through the lattice of his upper chamber which was in Samaria and was injured, so he sent messengers and said to them, "Go, inquire of Baal-zebub, the gods of Ekron, whether I will recover from this sickness."
+2 Ahaziah fell through the lattice of his upper chamber which was in Samaria and was injured, so he sent messengers and said to them, "Go, inquire of Baal-zebub, the god of Ekron, whether I will recover from this sickness."
 
 3 And the angel of the LORD spoke to Elijah the Tishbite, "Arise, go up to meet the messengers of the king of Samaria, and say to them, 'Is it because there is no God in Israel that you are going to inquire of Baal-zebub, the god of Ekron?'"
 
@@ -21035,7 +21035,7 @@
 
 28 One of the priests who had been exiled from Samaria came and lived in Beth-el and became a teacher to them in how to fear the Lord.
 
-29 Each nation made its own god, and they placed them in the houses of the high places which the Samaritans had made, each nation in the cities where they dwelt.
+29 Each nation made its own gods, and they placed them in the houses of the high places which the Samaritans had made, each nation in the cities where they dwelt.
 
 30 And the men of Babylon made Succothbenoth, and the men of Cuth made Nergal, and the men of Hamath made Ashima.
 
@@ -21213,7 +21213,7 @@
 
 36 So Sennacherib king of Assyria departed and went and returned and dwelt in Nineveh.
 
-37 And he was worshipping in the court of Nisroch his gods, and Adrammelech and Sharezer struck him with the sword, and they fled into the land of Ararat, and Esar-haddon his son reigned in his place.
+37 And he was worshipping in the court of Nisroch his god, and Adrammelech and Sharezer struck him with the sword, and they fled into the land of Ararat, and Esar-haddon his son reigned in his place.
 
 
 ## Chapter 20
@@ -21952,7 +21952,7 @@
 
 21 They took their cattle, camels fifty thousand, and sheep two hundred and fifty thousand, and donkeys two thousand, and persons one hundred thousand.
 
-22 For many warriors have fallen, for the battle is from the angels, and they have taken their place until the captivity.
+22 For many warriors have fallen, for the battle is from God, and they have taken their place until the captivity.
 
 23 The sons of half the tribe of Manasseh lived in the land from Bashan to Baal-hermon and Senir and Mount Hermon; they were many.
 
@@ -22405,7 +22405,7 @@
 
 9 They stripped him, and took his head and his weapons, and sent them around the land of the Philistines to proclaim the news to their idols and to the people.
 
-10 They placed his armour in the temple of their god, and his skull they set up in the house of Dagon.
+10 They placed his armour in the temple of their gods, and his skull they set up in the house of Dagon.
 
 11 And all the people of Jabesh-gilead heard all that the Philistines had done to Saul.
 
@@ -24095,7 +24095,7 @@
 
 11 And they offer up to the LORD burnt offerings every morning and every evening, and sweet incense of spices, and the row of bread on the table of pure gold, and the lampstand of gold with its lamps to be kindled every evening; for we keep the charge of the LORD our God, but you have forsaken him.
 
-12 And behold, with us is the chief of the gods and his priests and the trumpets for the alarm to shout against you, O children of Israel: do not fight with the LORD, the God of your fathers, for you shall not succeed.
+12 And behold, with us is the chief God and his priests and the trumpets for the alarm to shout against you, O children of Israel: do not fight with the LORD, the God of your fathers, for you shall not succeed.
 
 13 Jeroboam took the ambush and went behind them, and they were before Judah, and the ambush behind them.
 
@@ -26701,7 +26701,7 @@
 
 25 I contended with them and cursed them and struck some of them and maimed them and made them swear by God: if you give your daughters to their sons or take their daughters for your sons or for yourselves.
 
-26 Was not Solomon king of Israel guilty of these things, and yet there was no king like him among all the nations—he was loved by his gods, and God had made him king over all Israel—yet even he was led into sin by foreign women?
+26 Was not Solomon king of Israel guilty of these things, and yet there was no king like him among all the nations—he was loved by his God, and God had made him king over all Israel—yet even he was led into sin by foreign women?
 
 27 And shall we indeed listen to do all this great evil, to act unfaithfully against our God by returning to foreign wives?
 
@@ -27094,7 +27094,7 @@
 
 5 When the days of the banquet were completed, Job would send and consecrate them, rising early in the morning to offer burnt offerings according to the number of them all, for Job said, "Perhaps my children have sinned and blessed God in their hearts." Thus Job did continually.
 
-6 And it came to pass on the day, that the sons of the gods came to present themselves before the LORD, and Satan also came among them.
+6 And it came to pass on the day, that the sons of God came to present themselves before the LORD, and Satan also came among them.
 
 7 And the LORD said to the adversary, From where have you come? And the adversary answered the LORD and said, From roaming about in the land and walking around in it.
 
@@ -27114,7 +27114,7 @@
 
 15 And Sheba fell upon them and took them, and the lads they struck by the mouth of the sword, and I alone escaped to tell you.
 
-16 While he was still speaking, another came and said, "A fiery divine fire fell from the heavens and burned up the sheep and the young men, consuming them; I alone escaped to tell you."
+16 While he was still speaking, another came and said, "The fire of God fell from the heavens and burned up the sheep and the young men, consuming them; I alone escaped to tell you."
 
 17 While he was still speaking, another came and said, "The Chaldeans formed three bands and swept down on the camels and carried them off, and the servants they struck with the sword; I alone have escaped to tell you."
 
@@ -27131,7 +27131,7 @@
 
 ## Chapter 2
 
-1 One day the sons of the gods came to present themselves before the LORD, and the Satan also came among them to present himself before the LORD.
+1 One day the sons of God came to present themselves before the LORD, and the Satan also came among them to present himself before the LORD.
 
 2 And the LORD said to the adversary, From where have you come? And the adversary answered the LORD and said, From going about in the land and from walking in it.
 
@@ -37760,7 +37760,7 @@
 
 20 To the law and to the testimony: if they do not speak according to this word, there is no morning for them.
 
-21 And a desperate and hungry man will pass through it, and when he is hungry he will become furious and curse his king and his gods, and turn upward.
+21 And a desperate and hungry man will pass through it, and when he is hungry he will become furious and curse his king and his God, and turn upward.
 
 22 And he looked toward the land, and behold, adversity and darkness, dimness of anguish, and he will be driven into thick gloom.
 
@@ -46941,7 +46941,7 @@
 
 11 Whoredom and wine and sweet wine take away the heart.
 
-12 My folk ask counsel of their stick, and their staff declares to them; for a spirit of whoredom has led them astray, and they have played the whore beneath their gods.
+12 My folk ask counsel of their stick, and their staff declares to them; for a spirit of whoredom has led them astray, and they have played the whore beneath their God.
 
 13 On the tops of the mountains they sacrifice, and on the hills they burn incense, under oak, poplar, and elm, because good is its shade; therefore your daughters play the harlot, and your brides are violated.
 
@@ -47474,7 +47474,7 @@
 
 7 Trampling on the dust of the earth on the heads of the poor, and turning aside the way of the meek, a man and his father go to the young woman, to profane my holy name.
 
-8 And upon treacherous garments they cast beside every altar, and wine of the punished they drink in the temple of their gods.
+8 And upon treacherous garments they cast beside every altar, and wine of the punished they drink in the temple of their god.
 
 9 And I destroyed the Amorite before them, whose height was the height of cedars and whose strength was the strength of oaks; and I destroyed his fruit from above and his roots beneath.
 
@@ -47803,7 +47803,7 @@
 
 4 And the LORD cast a great wind upon the sea, and there was a mighty storm on the sea, and the ship was like to be broken.
 
-5 The mariners feared, and each cried out to his gods; they cast the vessels that were in the ship into the sea to lighten it from them, but Jonah went down to the quarters of the ship, lay down, and fell sound asleep.
+5 The mariners feared, and each cried out to his god; they cast the vessels that were in the ship into the sea to lighten it from them, but Jonah went down to the quarters of the ship, lay down, and fell sound asleep.
 
 6 The shipmaster approached him and said to him, "How can you be soundly asleep? Get up, call to your God! Perhaps God will take thought for us so that we do not perish."
 
