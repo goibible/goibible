@@ -1,0 +1,18 @@
+{
+  "book": "SNG",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שֶׁאָהֲבָה נַפְשִׁי' is a relative clause meaning 'whom my soul loves' (referring to the beloved), but the Chinese renders it as '我心所愛的' which is acceptable. However, the final clause 'שַׁלָּמָה אֶהְיֶה כְּעֹטְיָה עַל עֶדְרֵי חֲבֵרֶיךָ' is mistranslated: 'כְּעֹטְיָה' means 'like one who is veiled/wrapped' (a veiled woman, often interpreted as a mourner or one in disguise), not '歇息的女子' (a resting woman). The Chinese adds '歇息' (resting) which is not in the Hebrew, and omits the sense of being veiled/wrapped. The phrase 'עַל עֶדְרֵי חֲבֵרֶיךָ' means 'beside the flocks of your companions', which the Chinese renders as '在同伴羊群旁' which is acceptable, but the overall meaning of the final question is altered: the Hebrew asks 'why should I be like a veiled woman beside the flocks of your companions?' whereas the Chinese asks 'how should I be like a resting woman beside the flocks of companions?' This changes the nuance and adds the concept of resting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

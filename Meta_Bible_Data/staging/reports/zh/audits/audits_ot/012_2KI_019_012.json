@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 19,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶת גּוֹזָ֖ן וְאֶת חָרָ֑ן וְרֶ֥צֶף וּבְנֵי עֶ֖דֶן אֲשֶׁ֥ר בִּתְלַאשָּֽׂר' lists the places Gozan, Haran, Rezeph, and the people of Eden in Telassar as those whom the gods of the nations could not deliver. The Chinese renders 'בִּתְלַאשָּֽׂר' as '在他拉撒勒' (in Telassar) but mistranslates 'וּבְנֵי עֶדֶן' as '伊甸園的兒子們' (sons of the Garden of Eden), whereas 'עֶדֶן' here is a place name (Eden) and 'בְּנֵי עֶדֶן' means 'the people of Eden' (a region), not 'sons of the Garden of Eden'. This changes the meaning from a geographic/political entity to a mythological reference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

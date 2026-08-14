@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 21,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָמוֹן' is the name 'Amon' (the king of Judah), but the Chinese renders it as '亞捫人' (the Ammonites), which is a different entity. This changes the subject of the verse from King Amon to the Ammonite people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

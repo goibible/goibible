@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 31,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וְכִפְרֹץ הַדָּבָר' means 'and when the matter spread' or 'and as the word spread' (referring to the proclamation about the tithe), but the Chinese renders it as '他們違背那話' ('they violated/transgressed that word'), which reverses the meaning. The Hebrew verb 'פָּרַץ' means 'to break out/spread', not 'to violate/transgress' (which would be 'פָּרַר' or 'מָרָה'). This changes the sense from the matter spreading/gaining momentum to the people disobeying, which is a substantive mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

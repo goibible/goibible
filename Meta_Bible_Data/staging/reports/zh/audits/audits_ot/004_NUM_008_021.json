@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 8,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb וַיִּֽתְחַטְּאוּ (from חטא in the Hitpael) means 'they purified themselves' or 'they cleansed themselves' (ritual purification), not 'they sinned' (犯了罪). The Chinese rendering reverses the meaning, stating the Levites committed sin, which is the opposite of the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

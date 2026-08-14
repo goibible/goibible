@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּפְרָץ בּוֹ' means 'he struck him down' (i.e., Absalom killed Amnon), but the Chinese says '押沙龍擊殺了他' (Absalom killed him) — this is correct. However, the second clause 'וַיִּשְׁלַח אִתּוֹ אֶת אַמְנֹן וְאֵת כָּל בְּנֵי הַמֶּלֶךְ' means 'he sent with him Amnon and all the king's sons' (i.e., Absalom sent Amnon and all the king's sons with him, referring to the feast), not 'fled with Amnon and all the king's sons.' The Chinese '一同逃離' (fled together) is an addition and mistranslation; the Hebrew has no verb for fleeing here, and the subject/action is 'sent' (וַיִּשְׁלַח), not 'fled.' This changes the event: Absalom did not flee with them; he sent them to the feast."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 15,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew genealogy is 'בֶּן הֲדַד בֶּן טַבְרִמֹּן בֶּן חֶזְיוֹן' meaning 'Ben-hadad son of Tabrimmon son of Hezion'. The Chinese renders '他伯林的兒子便哈達、赫西崙人的兒子' which reverses the genealogy: it says 'Ben-hadad son of Tabrimmon, son of Hezion' but the Chinese places '赫西崙人的兒子' (son of Hezion) after '便哈達' (Ben-hadad), making it appear that Ben-hadad is the son of Hezion, whereas the Hebrew says Ben-hadad is the son of Tabrimmon, who is the son of Hezion. This changes the family relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

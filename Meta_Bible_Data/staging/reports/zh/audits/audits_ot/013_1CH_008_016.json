@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'בְּנֵי בְרִיעָה' (sons of Beriah), but the Chinese renders '別是巴的兒子' (sons of Beersheba). 'בְרִיעָה' (Beriah) is a personal name, not '別是巴' (Beersheba, a place name). This is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

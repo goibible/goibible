@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 2,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בֵּית הַנָּשִׁים' means 'house of the women' (i.e., the harem), but the Chinese renders it as '妻子之家' (house of the wife/wives), which changes the meaning from the women's quarters to a wife's home."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּרָא דָוִד אֶת יְהוָה' means 'David was afraid of the LORD' (the verb is ירא, 'to fear'), not 'David saw the LORD' (which would be ראה). The Chinese '看見耶和華' ('saw the LORD') misrepresents the meaning, changing the emotion from fear to visual perception."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

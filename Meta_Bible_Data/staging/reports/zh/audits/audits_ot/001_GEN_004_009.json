@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶבֶל' is the proper name 'Abel' (該隱's brother), but the Chinese renders it as '虛空' (vanity/emptiness), which is a different word and changes the meaning. The name 'Abel' should be transliterated as '亞伯' or similar."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

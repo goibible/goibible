@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'וְזָבָד בְּנוֹ וְשׁוּתֶלַח בְּנוֹ וְעֵזֶר וְאֶלְעָד' — 'Zabad his son, and Shuthelah his son, and Ezer and Elead.' The Chinese renders 'וְעֵזֶר' as '幫助者' (helper), which is a mistranslation of the proper name 'Ezer' (עֵזֶר), not a common noun. This changes the identity of the person from a named individual to a generic descriptor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

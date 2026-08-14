@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 38,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְבֻשׁוֹ' means 'his garment' (referring to the cloud as clothing for the sea/creation), but Chinese renders '海的衣服' (the sea's clothing), adding '海' (sea) which is not in the Hebrew. The Hebrew has no explicit 'sea' here; it says 'when I made the cloud its garment' (i.e., the cloud as garment for the earth/creation). This addition changes the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

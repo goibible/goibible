@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name עֶצְיוֹן גֶּבֶר (Ezion-geber) is rendered as '以順基伯城' — the first element is transliterated as '以順' instead of the standard '以旬' (Ezion), and the second element 'גֶּבֶר' is rendered as '基伯' rather than '迦別' (Geber). This is a name distortion, not a mere stylistic choice, as it changes the recognizable proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

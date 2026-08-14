@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has 'בֵּית הַבָּעַל' (house of Baal) and 'עֹבְדֵי הַבַּעַל' (servants/worshippers of Baal), but the Chinese renders these as '主人的家' (house of the master) and '事奉主人的人' (those who serve the master), replacing the divine name Baal with a generic 'master' (主人). This changes the proper name and the identity of the deity being referenced."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

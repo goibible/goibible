@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 4,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The final clause 'וְאֶת בְּנֵיהֶם יְלַמֵּדוּן' means 'and they shall teach their children' (the people will teach their children). The Chinese renders it as '也教導他們在世的日子裡的兒子' ('also teach their sons in the days of their life'), which misplaces the object: it says 'their sons' (the sons of the people) but attaches 'in the days of their life' to the sons rather than to the people's learning. The Hebrew has the people learning all the days they live on the earth, and then teaching their children; the Chinese conflates the two, making the sons the ones 'in the days of their life' and omitting the clear sense that the people are to teach their children."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

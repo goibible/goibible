@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 42,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Reuben said to his father' (וַיֹּאמֶר רְאוּבֵן אֶל אָבִיו), but the Chinese renders '流便支派' (the tribe of Reuben) instead of the person Reuben. This changes the subject from an individual to a tribe."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

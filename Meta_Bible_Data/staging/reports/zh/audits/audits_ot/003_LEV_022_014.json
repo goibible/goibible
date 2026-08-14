@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 22,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קֹדֶשׁ' (qodesh) means 'holy thing' or 'sacred offering', not '聖所' (sanctuary/holy place). The Chinese renders it as a place rather than the consecrated item being eaten."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

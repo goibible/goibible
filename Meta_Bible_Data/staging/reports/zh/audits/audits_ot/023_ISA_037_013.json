@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'the king of the city of Sepharvaim' (מֶלֶךְ לָעִיר סְפַרְוָיִם), but the Chinese renders it as '西法瓦音城的王' which is correct. However, the Hebrew 'הֵנַע וְעִוָּה' refers to the gods Henna and Ivvah (or the cities Henna and Ivvah), but the Chinese translates as '希拿和以瓦在哪裡？' which is acceptable. The issue is that the Hebrew lists 'the king of Hamath, the king of Arpad, the king of the city of Sepharvaim' — the Chinese says '亞弗大城' for 'Arpad' which is a name swap: 'Arpad' (אַרְפָּד) is rendered as '亞弗大' instead of '亞珥拔' or similar. This changes the place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

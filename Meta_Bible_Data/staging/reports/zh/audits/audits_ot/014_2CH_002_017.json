@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 2,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 150,000 and 3,000 and 600 = 153,600 (מֵאָה וַחֲמִשִּׁים אֶלֶף וּשְׁלֹשֶׁת אֲלָפִים וְשֵׁשׁ מֵאוֹת). The Chinese renders it as 一百五萬三千六百 (1,503,600), which is ten times too large. The number is mistranslated."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בִּקְדֹּשָׁו' (in His holy ones) is rendered as '他們雖獻為聖' (though they are consecrated/offered as holy), which changes the subject from God's holy ones/angels to a human act of consecration. The Hebrew means 'even His holy ones He does not trust,' not 'they are consecrated but do not believe.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

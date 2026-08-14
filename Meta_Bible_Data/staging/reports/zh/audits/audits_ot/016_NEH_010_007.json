@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'מְשֻׁלָּם' (Meshullam) is rendered as '梅書蘭姆人' (adding '人' = 'person of'), and 'מִיָּמִן' (from the right hand / from Yamin) is rendered as '米雅明' (Miyamin), which appears to be a different name. The Hebrew has 'Meshullam, Abijah, from Yamin' — likely a list of names, not 'Meshullam the Abijah from Miyamin'. The rendering '亞比亞' for 'אֲבִיָּה' (Abijah) is acceptable, but '出自米雅明' misidentifies 'מִיָּמִן' as a place/personal name 'Miyamin' rather than the Hebrew phrase 'from the right hand' (or possibly a clan name 'Yamin'). The addition of '人' and the rendering '米雅明' constitute a name/meaning swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

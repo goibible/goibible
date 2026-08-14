@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 32,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew distinguishes 'מִקְנֵנוּ' (our cattle/herds) from 'וְכָל בְּהֶמְתֵּנוּ' (and all our beasts/animals). The Chinese renders both as '牲畜' (livestock), losing the distinction between the two categories, and the phrase '一切牲畜' (all livestock) does not fully convey 'all our beasts' as a separate category from 'our cattle'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

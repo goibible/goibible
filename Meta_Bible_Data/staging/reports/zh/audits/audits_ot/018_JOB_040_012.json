@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 40,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גֵּאֶה' means 'proud/arrogant' (person), not '山岡' (mountain/hill). The Chinese mistranslates the object of the verb."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew imperative 'הַכְנִיעֵהוּ' ('subdue him') is a command addressed to someone (likely Job), but the Chinese renders it as first-person past/future '我已使...降卑' ('I have made...humble'), changing the subject and tense."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַהֲדֹךְ רְשָׁעִים תַּחְתָּם' ('and tread down the wicked in their place') is rendered as '並要將惡人踐踏在他們以下' which is close, but the first clause's imperative force is lost; also 'תַּחְתָּם' ('in their place/under them') is rendered as '在他們以下' which is acceptable, but the main issue is the first clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

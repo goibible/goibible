@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 35,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַנְּשִׂאִם' means 'the leaders/princes' (נָשִׂיא), not '元帥' (military commander/general). This changes the identity of who brought the stones."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

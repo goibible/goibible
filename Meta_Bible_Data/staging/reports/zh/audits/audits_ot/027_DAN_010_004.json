@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper name חִדָּקֶל (Hiddekel, i.e. the Tigris) is rendered as '基德爾河' (Jidé'ěr River), which is not the standard Chinese name for the Tigris (底格里斯河). This is a name swap/error that would mislead the reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

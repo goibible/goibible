@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 1,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew names are מַחְלוֹן (Mahlon) and כִלְיוֹן (Chilion); the Chinese renders them as 瑪倫 and 基利約他拿, which garbles the second name (基利約他拿 is not a recognizable transliteration of כִלְיוֹן) and adds an extra element '他拿' not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

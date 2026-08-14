@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֱלִישָׁמָע (Elishama) is rendered as '以利沙瑪人' (Elishama person), adding '人' (person) which is not in the Hebrew and changes the proper name into a demonym, implying a people group rather than a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

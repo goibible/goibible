@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 22,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name כָּנְיָהוּ (Konyahu/Jeconiah) is rendered as 基拿雅戶, which is not the standard transliteration for this name; it appears to be a different name (possibly confusing with 基拿雅, Kenaniah). The correct Chinese rendering should be 耶哥尼雅 or 哥尼雅."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

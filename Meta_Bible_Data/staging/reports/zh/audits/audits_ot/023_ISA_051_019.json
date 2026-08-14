@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 51,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִי יָנוּד לָךְ' means 'who will shake [the head] for you' (i.e., lament/mourn for you), not 'who can comfort you' (which would be 'מִי יְנַחֵם'). The Chinese renders it as '誰能安慰你呢' (who can comfort you), which changes the meaning from mourning/lamenting to comforting. The second clause 'מִי אֲנַחֲמֵךְ' is correctly 'who can comfort you', but the first is mistranslated."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

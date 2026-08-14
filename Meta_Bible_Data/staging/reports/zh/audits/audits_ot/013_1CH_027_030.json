@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'הַיִּשְׁמְעֵלִ֑י' (the Ishmaelite) as the person in charge of the camels, and 'הַמֵּרֹנֹתִֽי' (the Meronothite) as the person in charge of the donkeys. The Chinese renders '俄比勒人' (Ovilite) for the Ishmaelite and '摩羅達人' (Moradite) for the Meronothite, which are not the correct names/gentilics found in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 26,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'in the eleventh year' (בְּעַשְׁתֵּֽי עֶשְׂרֵ֥ה שָׁנָה), but the Chinese says '在十年一月' (in the tenth year, first month), which changes the year from 11 to 10."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 8,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּי שָׂרִים יָשֹׂרוּ' means 'princes rule over me' or 'rulers rule by me' (the preposition בִּי can mean 'by me' or 'over me'), but the Chinese renders it as '官長因我歡欣' ('officials rejoice because of me'), which changes the meaning from ruling to rejoicing. The verb יָשֹׂרוּ is from the root שׂרר (to rule), not from a root meaning 'rejoice'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

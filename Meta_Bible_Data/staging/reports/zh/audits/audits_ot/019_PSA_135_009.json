@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 135,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹתוֹת וּמֹפְתִים' means 'signs and wonders' (two distinct terms), but the Chinese renders both as '神蹟和神蹟' (miracles and miracles), losing the distinction between 'signs' and 'wonders'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

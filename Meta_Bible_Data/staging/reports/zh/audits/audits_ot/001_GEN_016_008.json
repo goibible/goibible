@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 16,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text has the angel speaking to Hagar: 'Hagar, Sarai's maidservant, where have you come from and where are you going?' The Chinese rendering incorrectly attributes this question to Hagar herself ('夏甲，撒萊的婢女說：「我從哪裡來？要往哪裡去呢？」'), making Hagar ask the question of herself, whereas in the Hebrew it is the angel (or messenger of the LORD) addressing Hagar. This changes who is speaking and to whom, a substantive error in person and speaker attribution."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

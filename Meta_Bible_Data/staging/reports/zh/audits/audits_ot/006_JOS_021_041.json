@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 21,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמִגְרְשֵׁיהֶן' means 'and their pasture lands' (or 'their open lands'), but the Chinese renders it as '和曠野' ('and wilderness'), which changes the meaning from designated pasture/common lands around the cities to a general wilderness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

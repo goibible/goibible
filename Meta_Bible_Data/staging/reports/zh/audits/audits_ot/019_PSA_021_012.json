@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 21,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּשִׁיתֵמוֹ שֶׁכֶם' means 'you will set them as a shoulder' (i.e., make them turn their backs / put them to flight), not 'place them in Shechem (示劍城)'. The word 'שֶׁכֶם' here is a common noun 'shoulder/back', not the place name Shechem. The Chinese adds '城' (city) and interprets it as a location, which is a mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

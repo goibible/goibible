@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 47,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not contain the phrase '直到他瑪' (until Tamar). This is an addition not present in the Hebrew, which only mentions the boundary extending to the eastern sea (הַיָּם הַקַּדְמוֹנִי)."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '直到他瑪' (until Tamar), a place name not found in the Hebrew verse, changing the geographical claim."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

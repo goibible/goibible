@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בָרֹאשׁ הָאֱלֹהִים' means 'God is at the head/with us at the head' (i.e., God is leading us), but the Chinese renders it as '我們有神的頭' ('we have God's head'), which misrepresents the meaning—it sounds like they possess God's head rather than God being at their head/forefront."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'עִם הַגֹּלָה אֲשֶׁר הָגְלְתָה' refers to 'with the exiles who were exiled' (i.e., the people taken into exile), but the Chinese renders 'הַגֹּלָה' as '擄掠物' (plunder/booty), which changes the meaning from people (exiles) to objects (plunder). This is a substantive mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

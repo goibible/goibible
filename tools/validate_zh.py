@@ -9,6 +9,7 @@ Mirrors validate.py (English gate) — run after any edit to the Chinese corpus 
 
 Checks (each prints PASS/FAIL):
   CORPUS    file count, naming, single-line, non-empty, NFC/canonical, has CJK chars
+  MIRROR    Traditional one-to-one OpenCC t2s comparison against Simplified corpus
   GREEK     every (book,ch,verse) has a raw TR1550 source file
   DB        FK integrity; override positions valid; sense_key catalog
   NOUNS     verse_noun_occurrences == strongs_nt(in_tr1550) per verse
@@ -41,6 +42,49 @@ def check(name, ok, detail=""):
 
 def has_cjk(text):
     return any('一' <= c <= '鿿' or '㐀' <= c <= '䶿' for c in text)
+
+def validate_hans_mirror():
+    print("=== TRADITIONAL-TO-SIMPLIFIED ONE-TO-ONE COMPARE ===")
+    try:
+        from opencc import OpenCC
+    except ImportError as exc:
+        check("OpenCC available", False, str(exc))
+        return
+
+    cc = OpenCC("t2s")
+    hant_dir = VARIANTS["hant"][1]
+    hans_dir = VARIANTS["hans"][1]
+    mismatches = []
+    missing = []
+    extra = set(p.name for p in hans_dir.glob("*.txt"))
+
+    for hant_path in sorted(hant_dir.glob("*.txt")):
+        hans_name = hant_path.name.replace("_GOI_Zh_Hant.txt", "_GOI_Zh_Hans.txt")
+        extra.discard(hans_name)
+        hans_path = hans_dir / hans_name
+        if not hans_path.exists():
+            missing.append(hans_name)
+            continue
+
+        expected = cc.convert(hant_path.read_text(encoding="utf-8"))
+        actual = hans_path.read_text(encoding="utf-8")
+        if expected != actual:
+            mismatches.append((hans_name, expected.rstrip("\n"), actual.rstrip("\n")))
+
+    detail_parts = []
+    if missing:
+        detail_parts.append(f"{len(missing)} missing")
+    if extra:
+        detail_parts.append(f"{len(extra)} extra")
+    if mismatches:
+        sample = "; ".join(name for name, _, _ in mismatches[:5])
+        detail_parts.append(f"{len(mismatches)} text mismatches; sample: {sample}")
+
+    check(
+        "Traditional OpenCC(t2s) == Simplified for every verse",
+        not missing and not extra and not mismatches,
+        ", ".join(detail_parts),
+    )
 
 def validate_variant(label, goi_dir, filename_suffix):
     print(f"=== CORPUS: {label} ===")
@@ -150,6 +194,10 @@ def main():
     for variant in selected:
         label, goi_dir, filename_suffix = VARIANTS[variant]
         validate_variant(label, goi_dir, filename_suffix)
+        print()
+
+    if args.variant in {"hans", "both"}:
+        validate_hans_mirror()
         print()
 
     print()

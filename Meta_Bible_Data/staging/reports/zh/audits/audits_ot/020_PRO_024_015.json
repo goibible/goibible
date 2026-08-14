@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Do not lie in wait, O wicked one, against the dwelling of the righteous; do not destroy his resting place.' The Chinese renders 'רָשָׁע' (wicked one) as '惡人' (evil person) but places it as the object of the attack ('埋伏攻擊惡人' = 'ambush and attack the evil person'), reversing the roles. In Hebrew, the wicked is the subject who is warned not to ambush the righteous's dwelling, not the target. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

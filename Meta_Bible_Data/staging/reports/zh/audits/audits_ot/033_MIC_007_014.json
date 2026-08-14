@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יַעַר בְּתוֹךְ כַּרְמֶל' means 'forest in the midst of Carmel' (Carmel as a place name, i.e., Mount Carmel), but the Chinese renders it as '迦密山樹林' (Carmel mountain forest), which is acceptable. However, the phrase 'שֹׁכְנִי לְבָדָד' means 'dwelling alone' (referring to the flock dwelling alone), but the Chinese '你獨居的羊群' (your flock dwelling alone) is correct. The main issue: 'רְעֵה' is an imperative 'shepherd/tend' (lead, feed), but the Chinese '求你觀看' means 'please look at/behold', which changes the verb from 'shepherd/tend' to 'look at' — a mistranslation of the action. The Hebrew 'רְעֵה' (shepherd) is rendered as '觀看' (look at), losing the meaning of tending/leading with the staff."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

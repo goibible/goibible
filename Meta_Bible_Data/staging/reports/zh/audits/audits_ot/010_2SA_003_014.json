@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכִים' means 'messengers' (plural of 'מַלְאָךְ'), not 'angels' (which is also 'מַלְאָכִים' in Hebrew but contextually here it is clearly 'messengers' as David is sending people to a human king). The Chinese '天使' specifically means 'angel' (a supernatural being), which would mislead a Chinese reader into thinking David sent divine beings rather than human envoys."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

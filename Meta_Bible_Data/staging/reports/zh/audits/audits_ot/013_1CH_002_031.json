@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבְנֵ֥י אַפַּ֖יִם' means 'the sons of Appaim' (a person's name), but the Chinese renders it as '亞派伊姆城的兒子' ('the sons of the city of Appaim'), adding '城' (city) which is not in the Hebrew and changes the meaning from a person to a place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

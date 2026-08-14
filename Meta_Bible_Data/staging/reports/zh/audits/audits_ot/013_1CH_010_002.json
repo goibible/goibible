@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name מַלְכִּי שׁוּעַ (Malki-shua) is rendered as '米基書雅人' (Mikishuya person), which adds '人' (person) and misrepresents the name. The correct rendering should be '米基書亞' (Malki-shua), not '米基書雅人'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

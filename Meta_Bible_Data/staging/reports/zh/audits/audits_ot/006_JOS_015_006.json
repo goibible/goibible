@@ -1,0 +1,22 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֵּית הָעֲרָבָה' (Beth-ha-Arabah) is a place name, not '亞拉巴城門' (Arabah city gate). The word '城門' (city gate) is an addition not present in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶבֶן בֹּהַן בֶּן רְאוּבֵן' means 'the stone of Bohan son of Reuben' (a landmark stone named after a person), but the Chinese renders it as '流便支派的兒子波罕城的石頭' (the stone of the city of Bohan, son of the tribe of Reuben), adding '城' (city) and '支派' (tribe) which are not in the Hebrew, and misidentifying the stone as belonging to a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

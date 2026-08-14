@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 26,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase אִשָּׁה אֶל אֲחֹתָהּ means 'one to another' (literally 'a woman to her sister'), referring to the curtains being joined to each other. The Chinese renders it as '妻子連接於姊妹' (wife connected to sister), which introduces the concepts of 'wife' and 'sister' as literal persons, changing the meaning from curtains joined together to a familial relationship. This is a mistranslation that would mislead the reader."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

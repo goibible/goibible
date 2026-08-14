@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 31,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַל לַמְלָכִים לְמוֹאֵל' is an address to kings ('Do not, O kings'), not a proper name '勒母利啊' (Lemuel). The Hebrew text here does not contain the name Lemuel; it is a warning to kings. The Chinese adds '勒母利啊' which is an addition not present in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּלְרוֹזְנִים אוֹ שֵׁכָר' means 'and to rulers, [do not desire] strong drink' (i.e., 'nor for rulers to crave strong drink'). The Chinese renders it as '掌權者也不宜問：「烈酒在哪裡？」' which adds the interrogative 'where is it?' ('在哪裡') not present in the Hebrew. The Hebrew simply says 'or strong drink' as an object of prohibition, not a question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

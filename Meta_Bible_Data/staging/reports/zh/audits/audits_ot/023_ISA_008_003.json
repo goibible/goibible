@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is מַהֵר שָׁלָל חָשׁ בַּז (Maher-shalal-hash-baz), meaning 'quick to the plunder, swift to the spoil.' The Chinese renders it as '瑪黑爾沙拉巴撒別西卜' which ends with '別西卜' (Beelzebub), a different name entirely. The correct transliteration should be something like '瑪黑珥沙拉勒哈施罷斯' or similar, not '別西卜' (Beelzebub). This is a substantive name error."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

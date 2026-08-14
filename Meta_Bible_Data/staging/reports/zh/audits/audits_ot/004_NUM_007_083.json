@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 83,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵילִם' means 'rams' (male sheep), but the Chinese renders it as '公羊' (male goat/sheep) and then renders 'עַתֻּדִים' (he-goats) as '公綿羊' (male sheep), swapping the two animal types. The correct order is: rams (אֵילִם) five, he-goats (עַתֻּדִים) five."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

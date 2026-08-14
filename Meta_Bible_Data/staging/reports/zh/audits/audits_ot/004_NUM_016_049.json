@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 16,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'fourteen thousand seven hundred' (אַרְבָּעָה עָשָׂר אֶלֶף וּשְׁבַע מֵאוֹת), but the Chinese renders it as '十四萬七千' (147,000), which is ten times the correct number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

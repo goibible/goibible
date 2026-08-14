@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 52,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רוּחָה' (ruach) here means 'side' or 'direction' (referring to the pomegranates facing outward on each side), not '靈' (spirit). The Chinese '靈' is a mistranslation that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

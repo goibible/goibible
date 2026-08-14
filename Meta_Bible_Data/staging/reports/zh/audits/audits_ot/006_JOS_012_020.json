@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'שִׁמְרוֹן מְראוֹן' (Shimron-meron) is rendered as '西門瑪龍' (Ximen Malong), which is a plausible transliteration but the second part 'מְראוֹן' (meron) is not clearly represented; more importantly, 'אַכְשָׁף' (Achshaph) is rendered as '亞書法' (Yashufa), which swaps the expected '亞' for '書' and changes the name's identity. The Chinese reader would not recognize these as the standard names for these cities."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

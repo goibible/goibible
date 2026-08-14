@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 1,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew says 'your God' (אֱלֹהֵיכֶם) and 'before you' (לִפְנֵיכֶם), but the Chinese renders '你們的神' (your God) correctly yet says '走在我們面前' (walks before us), changing the second-person plural 'you' to first-person plural 'us'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

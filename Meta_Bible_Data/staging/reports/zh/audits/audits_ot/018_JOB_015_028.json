@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְגַלִּים' (from גַּל, 'heap of ruins' or 'mound') is rendered as '波浪' (waves), which is a mistranslation. The phrase 'אֲשֶׁר הִתְעַתְּדוּ לְגַלִּים' means 'which they had prepared for heaps of ruins' (i.e., destined to become ruins), not 'prepared for waves'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

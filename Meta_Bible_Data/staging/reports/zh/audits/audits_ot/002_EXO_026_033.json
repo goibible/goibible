@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 26,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'תַּחַת הַקְּרָסִים' means 'under the clasps/hooks' (referring to the clasps of the tabernacle curtains), but Chinese renders '放在帳棚之下' ('place under the tent'), which changes the location from under the clasps to under the tent, a substantive difference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

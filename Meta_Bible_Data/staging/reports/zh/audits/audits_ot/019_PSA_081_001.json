@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 81,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'לַמְנַצֵּחַ' means 'to the chief musician/choirmaster' (a title), but the Chinese renders it as '交革提他人' which appears to be a garbled transliteration of 'לַמְנַצֵּחַ' (perhaps confusing it with 'גתית' or another term). The Hebrew 'עַל הַגִּתִּית' means 'upon the Gittith' (a musical term/instrument), but the Chinese '交革提他人' seems to conflate or misrepresent these terms, introducing a name-like phrase not in the Hebrew. Additionally, the Hebrew 'לְאָסָף' is 'for Asaph' (a proper name), which the Chinese renders as '亞薩' correctly, but the overall phrase '交革提他人' is not a faithful rendering of 'לַמְנַצֵּחַ עַל הַגִּתִּית'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

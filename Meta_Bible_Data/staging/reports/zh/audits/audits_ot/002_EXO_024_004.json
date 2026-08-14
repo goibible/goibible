@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 24,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁבְטֵי יִשְׂרָאֵל' means 'tribes of Israel', but Chinese renders '以色列的十二個杖' ('twelve staffs of Israel'), which is a mistranslation of 'tribes' as 'staffs' (杖). This changes the meaning from tribal divisions to literal staffs."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 28,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכֻפַּר בְּרִיתְכֶם אֶת מָוֶת' means 'your covenant with death will be annulled/covered' (i.e., the covenant will be atoned for/covered over, nullified). The Chinese '你們的約必蒙遮蓋' says 'your covenant will be covered' but omits the object 'death' (אֶת מָוֶת), so the reader misses that the covenant is specifically with death. This is a substantive omission of a key element."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְחָזוּתְכֶם אֶת שְׁאוֹל לֹא תָקוּם' means 'and your vision with Sheol will not stand' (i.e., your agreement with Sheol will not stand). The Chinese '你們的異象必不興起陰間' reverses the relationship: it says 'your vision will not raise up Sheol,' which changes who is doing what to whom. The Hebrew has the vision (with Sheol) not standing, not the vision causing Sheol not to rise."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלֹֽא עָצַ֧ר כֹּֽחַ יָרָבְעָ֛ם ע֖וֹד' means 'Jeroboam did not regain strength again' (i.e., he did not recover power), but the Chinese says '耶羅波安的能力...沒有再受限制' ('Jeroboam's power was no longer restricted'), which reverses the meaning: the Hebrew states his strength did not return, while the Chinese implies his power was no longer limited."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

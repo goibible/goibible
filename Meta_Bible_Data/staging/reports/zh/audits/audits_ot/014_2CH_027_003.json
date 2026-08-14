@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 27,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּחוֹמַת הָעֹפֶל' means 'in the wall of the Ophel' (a specific location, the Ophel hill/fortification), but the Chinese renders it as '城邑的城牆' (the city wall of the city), which loses the proper name 'Ophel' and changes the meaning to a generic city wall."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

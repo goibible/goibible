@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 45,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְשִׁבְטֵיהֶם' means 'according to their tribes' (by their tribes), but Chinese renders it as '按他們的杖' ('according to their staff/rod'), which misrepresents the meaning. The Hebrew word 'שֵׁבֶט' can mean 'tribe' or 'staff/rod'; here it clearly means 'tribes' in context (giving land to the house of Israel by their tribes), not 'staff'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

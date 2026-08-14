@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name תֹּעִי (Toi) is rendered as 陀阿, which is acceptable, but the name הֲדַדְעֶזֶר (Hadadezer) is rendered as 大德謝爾, which is a different name (the Chinese transliteration does not match the Hebrew consonants; it appears to be a swapped or altered name)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

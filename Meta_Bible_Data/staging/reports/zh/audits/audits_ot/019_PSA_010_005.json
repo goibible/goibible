@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew יָפִיחַ בָּהֶם means 'he blows/utters against them' (i.e., he scoffs/rages at his foes), not 'they will perish in them'. The Chinese '他的一切仇敵必在其中滅亡' adds the idea of perishing and misidentifies the subject/action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

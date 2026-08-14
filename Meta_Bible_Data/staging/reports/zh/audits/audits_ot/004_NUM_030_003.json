@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 30,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאִשָּׁה' means 'and a woman' (or 'if a woman'), not '妻子' (wife). The context is about a woman in her father's house in her youth, not a married woman. This changes the subject's marital status."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאָסְרָה אִסָּר' means 'and binds herself with a vow' or 'makes a binding obligation' (an oath/pledge), not '以繩索約束自己' (binds herself with ropes). The word 'אִסָּר' is a vow/obligation, not a literal rope. This misrepresents the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 33,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא יְשׁוּרֶנָּה' means 'he does not regard it' (i.e., God does not consider/observe it), but the Chinese renders it as '都不改變' (does not change), which changes the meaning. The subject of 'יְשׁוּרֶנָּה' is God, and the object is the matter spoken; the Chinese implies God's own unchangeableness, whereas the Hebrew says God does not look upon/regard the thing (or possibly 'he does not see it' in the sense of not repeating it). This is a substantive semantic shift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

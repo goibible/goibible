@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַבָּיִת הוּא הַהֵיכָל לִפְנָי' means 'the house, that is the temple, in front of me' (or 'before me'), referring to the temple being before God. The Chinese '就是在我的面前的宮殿' adds '我的' (my) which is not in the Hebrew; the Hebrew has 'לִפְנָי' meaning 'before me' (God speaking), but the Chinese '我的面前' is acceptable as 'before me' if God is the speaker. However, the main issue is '家長四十肘' – the Hebrew 'וְאַרְבָּעִים בָּאַמָּה הָיָה הַבָּיִת' means 'and forty cubits was the house' (i.e., the house was forty cubits long). The Chinese '家長四十肘' means 'the family head is forty cubits' or 'the head of the family is forty cubits', which misinterprets 'הַבָּיִת' (the house) as '家長' (family head) instead of 'the house'. This changes the subject from the house to a person, a clear mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

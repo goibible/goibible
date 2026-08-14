@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 29,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'she called his name Levi' (קָרָא שְׁמוֹ לֵוִי), but the Chinese renders it as '利未人' (a Levite person), adding the suffix 人 which changes the meaning from the personal name Levi to a demonym/group designation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

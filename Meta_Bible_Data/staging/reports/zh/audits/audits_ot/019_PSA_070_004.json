@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 70,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹהֲבֵי יְשׁוּעָתֶךָ' means 'those who love Your salvation' (a noun phrase, subject of the verb 'יִגְדַּל'), but the Chinese renders it as '願喜愛你救恩的神' ('the God who loves Your salvation'), making God the subject of the blessing instead of the lovers of salvation. This changes who is being magnified and who loves the salvation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

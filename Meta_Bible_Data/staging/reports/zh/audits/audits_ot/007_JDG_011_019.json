@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 11,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכִים' means 'messengers' (envoys), not 'angels' (天使). The Chinese rendering '天使' changes the meaning to supernatural beings, whereas the context clearly refers to human messengers sent by Israel."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

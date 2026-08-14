@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper name בַּעֲלָת (Baalath) is rendered as '巴亞勒他' (Ba-ya-le-ta), which appears to be a corrupted or non-standard transliteration; the expected Chinese rendering would be '巴亞拉特' or similar, not '巴亞勒他'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

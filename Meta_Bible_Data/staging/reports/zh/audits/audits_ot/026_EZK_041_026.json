@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 41,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְצַלְעוֹת הַבַּיִת וְהָעֻבִּים' means 'and the side chambers of the house and the buttresses/pilasters' (or 'the side walls and the projecting frames'). The Chinese renders 'צַלְעוֹת' as '肋骨' (ribs) and 'הָעֻבִּים' as '雲彩' (clouds), which are incorrect. 'עֻבִּים' (from עֹב) refers to projecting frames/buttresses, not clouds. This changes the architectural description into something nonsensical."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

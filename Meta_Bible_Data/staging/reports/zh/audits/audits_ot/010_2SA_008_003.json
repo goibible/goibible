@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 8,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name הֲדַדְעֶזֶר (Hadadezer) is rendered as 大德謝爾, which is a non-standard transliteration; more importantly, the father's name רְחֹב (Rehob) is rendered as 街道 (street), which is a mistranslation of the proper name as a common noun. The phrase '瑣巴王街道的兒子' incorrectly makes '街道' (street) the son of the king of Zobah, whereas the Hebrew says Hadadezer son of Rehob, king of Zobah."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase בְּלֶכְתּוֹ לְהָשִׁיב יָדוֹ בִּנְהַר means 'when he went to restore his hand/control at the River (Euphrates)'. The Chinese '當時他正前去大河重掌權柄' conveys this adequately, but the name issue above changes the identity of the person being struck."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

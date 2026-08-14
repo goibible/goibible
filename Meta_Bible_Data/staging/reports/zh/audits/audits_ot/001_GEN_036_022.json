@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'תִּמְנָע' (Timna) as Lotan's sister, but the Chinese renders it as '提幔' (Teman), which is a different name. The correct transliteration should be '亭納' or similar, not '提幔'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

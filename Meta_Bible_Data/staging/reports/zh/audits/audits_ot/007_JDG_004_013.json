@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מֵחֲרֹשֶׁת הַגּוֹיִם' (from Harosheth-ha-goiim) is a proper place name, 'Harosheth of the nations' (or 'Harosheth-ha-goiim'), not '民族的雕刻處' ('the carving place of the nations'). The word 'חֲרֹשֶׁת' here is a place name, not the common noun for 'craftsmanship/carving' (חָרָשָׁה). This mistranslation changes the meaning from a geographical location to a descriptive phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

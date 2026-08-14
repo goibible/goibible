@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 11,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper name נָחָשׁ (Nahash, the Ammonite king) is transliterated as '蛇' (snake) instead of being kept as a personal name. This changes the identity of the character from a named king to a common animal, which would mislead a Chinese reader."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The place name יָבֵשׁ גִּלְעָד (Jabesh-gilead) is rendered as '基列的約別士' (Jabesh of Gilead), but the Hebrew is a single compound place name 'Jabesh-gilead'; the rendering splits it awkwardly and the transliteration '約別士' is not standard, though the meaning is still recognizable. The main issue is the name swap of Nahash."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

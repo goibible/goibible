@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנֵ֣י מְנַשֶּׁ֗ה' means 'the sons of Manasseh' (i.e., descendants of Manasseh), but the Chinese renders it as '瑪拿西的兒子是基低人' ('the sons of Manasseh are Gideonite'), introducing '基低人' (Gideonite) which is not in the Hebrew. The Hebrew text says 'to Machir, the family of the Machirites' — the subject is Machir, not 'Gideonite'. This appears to be a name swap/addition: '基低' (Gide) is not present in the Hebrew at all; the correct name is 'מָכִיר' (Machir), which is rendered as '瑪吉' later in the verse. The first clause should be '瑪拿西的兒子是瑪吉，瑪吉的家族是瑪吉人' or similar, but instead it says '基低人' (Gideonite), which is a different name and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

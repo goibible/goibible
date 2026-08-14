@@ -1,0 +1,22 @@
+{
+  "book": "LEV",
+  "chapter": 22,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אוֹ אִישׁ אֲשֶׁר תֵּצֵא מִמֶּנּוּ שִׁכְבַת זָרַע' means 'or a man from whom an emission of semen goes out' (i.e., a man with a seminal emission, a bodily discharge, not '行淫' which means 'sexual immorality/fornication'). The Chinese '行淫' adds a moral/sexual-sin connotation not present in the Hebrew, which is a neutral ritual impurity term. This changes the meaning for a Chinese reader."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְהַנֹּגֵעַ בְּכָל טְמֵא נֶפֶשׁ' is rendered as '凡觸摸一切不潔性命的' which is acceptable, but the final clause 'לֹא יֹאכַל' (shall not eat) is implied in the Chinese '都不可吃聖所的物' — this is fine. However, the phrase 'אוֹ אִישׁ אֲשֶׁר תֵּצֵא מִמֶּנּוּ שִׁכְבַת זָרַע' is rendered as '或是那有人行淫後裔從他而出的人' — '後裔' (offspring/descendant) is an addition; the Hebrew says 'emission of semen' (שִׁכְבַת זָרַע), not 'offspring'. This adds a concept not in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

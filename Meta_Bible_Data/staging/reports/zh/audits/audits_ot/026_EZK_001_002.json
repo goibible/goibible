@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew specifies 'on the fifth day of the month' (בַּחֲמִשָּׁה לַחֹדֶשׁ), but the Chinese omits the day and only says 'the fifth month' (五月). This changes the date from the fifth day of the fifth month to just the fifth month."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

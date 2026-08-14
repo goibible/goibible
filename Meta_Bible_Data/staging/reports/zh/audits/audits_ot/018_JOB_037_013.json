@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 37,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'יַמְצִאֵהוּ' (he will find it) is positive, but the Chinese adds '不' (not), reversing the meaning to 'he will not find it'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

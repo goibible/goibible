@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 1,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלָרֽאוּבֵנִי֙ וְלַגָּדִ֔י וְלַחֲצִ֖י שֵׁ֣בֶט הַֽמְנַשֶּׁ֑ה' refers to the Reubenites, the Gadites, and the half-tribe of Manasseh. The Chinese renders '迦得族' (Gad clan) for 'וְלַגָּדִ֔י' (the Gadites), which is acceptable, but '瑪拿西半個杖' (half staff of Manasseh) mistranslates 'חֲצִי שֵׁבֶט' (half tribe) as 'half staff' (杖 means staff/rod, not tribe). This changes the meaning from a half-tribe to a half-staff."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

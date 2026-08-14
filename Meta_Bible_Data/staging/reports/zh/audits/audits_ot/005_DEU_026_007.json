@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 26,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָנְיֵנוּ' means 'our affliction' or 'our misery' (abstract noun), but the Chinese renders it as '我們的困苦人' ('our afflicted people'), adding the word '人' (person/people) which is not in the Hebrew and changes the meaning from an abstract state to a group of people."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

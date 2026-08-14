@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 41,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בֶן קָשֶׁת' means 'son of the bow' (i.e., an archer), not '弓的兒子' (son of the bow) — the Chinese rendering is literal but ambiguous; however, the main issue is 'לְקַשׁ נֶהְפְּכוּ לוֹ אַבְנֵי קָלַע' — the Hebrew says 'the stones of the sling were turned to chaff for him' (i.e., sling stones became like chaff/straw to him), but the Chinese says '禾稈殘茬對他變成了石塊' (stubble/straw became stones for him), reversing the direction of the transformation. The Hebrew states that sling stones became chaff, not that chaff became stones."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

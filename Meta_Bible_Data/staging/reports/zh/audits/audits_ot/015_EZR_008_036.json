@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 8,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְנִשְּׂאוּ אֶת הָעָם וְאֶת בֵּית הָאֱלֹהִים' means 'and they lifted up/supported the people and the house of God' (i.e., they encouraged/helped them), not 'collected tribute from the people and the house of God.' The Chinese '徵收貢物' (levy tribute) reverses the direction and meaning of the verb."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

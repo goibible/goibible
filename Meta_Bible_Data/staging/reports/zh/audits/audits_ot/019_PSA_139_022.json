@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 139,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'תַּכְלִית שִׂנְאָה שְׂנֵאתִים' means 'I hate them with perfect hatred' (or 'I hate them with utmost hatred'), where 'תַּכְלִית' is an adverb/adjective meaning 'complete/utmost' modifying 'שִׂנְאָה' (hatred), and 'שְׂנֵאתִים' is the verb 'I hate them'. The Chinese rendering '恨惡的終結就是我所恨惡的' ('the end of hatred is what I hate') misinterprets 'תַּכְלִית' as 'end/termination' and changes the subject/object relationship, making it say something different from the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

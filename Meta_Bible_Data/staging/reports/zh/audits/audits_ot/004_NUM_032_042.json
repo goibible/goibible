@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 32,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says he captured 'Kenath' (קְנָת) and its daughters; the Chinese renders '堅納大瑟' which appears to be a conflation or misreading of Kenath with another name, rather than a straightforward transliteration of Kenath."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

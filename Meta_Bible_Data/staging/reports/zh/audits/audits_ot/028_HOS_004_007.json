@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּבוֹדָ֖ם בְּקָל֥וֹן אָמִֽיר' means 'I will turn their glory into shame' (or 'their glory I will change into disgrace'), but the Chinese renders it as '他們的榮耀在於羞辱' ('their glory consists in shame'), which changes the meaning from a divine action of transformation to a static description. The verb 'אָמִיר' (I will change/exchange) is omitted, and the sense of future divine judgment is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

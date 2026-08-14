@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בָּחַרְתָּ מֵעֹנִי' means 'you have chosen [this] rather than affliction' (i.e., you preferred this over suffering), but the Chinese renders it as 'you have been chosen from among the afflicted' (你已從困苦人中被揀選), which reverses the subject/object and changes the meaning: the Hebrew has the addressee as the chooser, not the chosen one, and 'מֵעֹנִי' is comparative ('rather than affliction'), not 'from among the afflicted'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 21,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'סִיחוֹן' (Sihon), but the Chinese renders it as '希宏' (Xīhóng), which is a different name. The correct transliteration should be '西宏' or similar, not '希宏'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

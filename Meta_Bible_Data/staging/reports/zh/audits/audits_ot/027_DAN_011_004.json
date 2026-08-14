@@ -1,0 +1,26 @@
+{
+  "book": "DAN",
+  "chapter": 11,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רוּחוֹת הַשָּׁמַיִם' means 'winds of heaven' (four winds), but Chinese renders '天的四靈' ('four spirits of heaven'), changing 'winds' to 'spirits'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְלֹא כְמָשְׁלוֹ אֲשֶׁר מָשָׁל' means 'not according to his dominion which he ruled' (i.e., not with the same power/dominion as before), but Chinese '也不像那曾掌權的' ('nor like the one who once ruled') shifts the subject from the kingdom's dominion to a person, altering the meaning."
+        },
+        {
+          "kind": "addition",
+          "detail": "Chinese '而非獨自存留' ('rather than remaining alone') adds a concept not present in Hebrew 'מִלְּבַד אֵלֶּה' ('apart from these'), which simply means 'to others besides these' — the Chinese phrase introduces an idea of solitary survival not in the source."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

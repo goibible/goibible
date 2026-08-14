@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists three names: וַנְיָ֥ה (Vaniah), מְרֵמ֖וֹת (Meremoth), and אֶלְיָשִֽׁיב (Eliashib). The Chinese renders '瓦尼雅和米利末到以利實巴那裡' — it adds '到...那裡' (to ... there) which is not in the Hebrew, and changes the third name '以利實巴' (Eliashib) — the Hebrew is אֶלְיָשִׁיב (Eliashib), not '以利實巴' (which would be a different transliteration, possibly 'Eliashba'). The addition of '到...那裡' introduces a motion/location concept not present in the Hebrew, which is a list of names without a verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

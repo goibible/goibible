@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'עַד אֶגְלַיִם' (until Eglaim) and 'וּבְאֵר אֵילִים' (and Beer-elim), but the Chinese renders '以革倫' (Ekron) for Eglaim and '以琳井' (Elim well) for Beer-elim. Eglaim is a place name distinct from Ekron (עֶקְרוֹן), and Beer-elim is a specific location, not the same as Elim (אֵילִם). This swaps/drops the proper names, changing the geography."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

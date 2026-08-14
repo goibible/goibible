@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 21,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'קִשְׁיוֹן' (Kishion) and 'דָּבְרַת' (Daberath), but the Chinese renders them as '基善' (Jishan) and '達比拉' (Dabila). '基善' does not match 'Kishion' (should be something like '基順' or '基申'), and '達比拉' does not match 'Daberath' (should be '達巴拉' or '達比拉' is close but the Hebrew is דָּבְרַת, not דָּבִיר; however, the main issue is '基善' for Kishion, which is a different name)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

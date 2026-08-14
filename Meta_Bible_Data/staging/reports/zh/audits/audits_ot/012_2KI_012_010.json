@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 12,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '裝在袋裡' (put into bags), which has no basis in the Hebrew text. The Hebrew only says they went up, tied up (וַיָּצֻרוּ, 'they tied/bound'), and counted the silver. The concept of 'bags' is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

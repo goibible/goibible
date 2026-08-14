@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 8,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'הָמָן בֶּן הַמְּדָתָא הָאֲגָגִי' (Haman son of Hammedatha the Agagite). The Chinese renders '哈曼的兒子哈瑪大他' which reverses the relationship, making Haman the son of Hammedatha, but the Chinese phrase '哈曼的兒子哈瑪大他' literally reads 'Haman's son Hammedatha', i.e., it makes Hammedatha the son of Haman, reversing the genealogy. The correct rendering should be '哈曼，哈瑪大他的兒子' (Haman, son of Hammedatha)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

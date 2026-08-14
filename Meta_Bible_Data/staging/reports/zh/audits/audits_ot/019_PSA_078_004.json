@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 78,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וֶעֱזוּזוֹ' means 'and His might/strength' (abstract noun), but Chinese renders it as '祂的大能者' ('His mighty ones'), which changes the meaning from an attribute of God to persons. The correct rendering should be '祂的大能' or '祂的威能'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

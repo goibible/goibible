@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הֶמְיַת נְבָלֶיךָ' means 'the sound of your harps' (or 'the noise of your stringed instruments'), but Chinese renders it as '你琴瑟的聲音' which is correct in meaning. However, the Hebrew 'גְּאוֹנֶךָ' is 'your pride/glory' (rendered '你的威嚴' = 'your majesty'), which is acceptable. The issue is that the Hebrew has 'הוּרַד שְׁאוֹל' = 'brought down to Sheol' (passive), but Chinese '都下到陰間' = 'all go down to Sheol' (active). This changes the subject/voice: in Hebrew, the pride and sound are brought down (by God), whereas Chinese implies they go down by themselves. This is a tense/voice change that affects who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

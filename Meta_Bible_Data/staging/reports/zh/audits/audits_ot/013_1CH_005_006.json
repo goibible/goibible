@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בְּאֵרָה בְנוֹ' (Beerah his son), but the Chinese renders '比珥拉人的兒子' (son of Beerah the man), which changes the proper name 'Beerah' into a gentilic/possessive form '比珥拉人的' (of the Beerah people), altering the identity from a specific person to a group designation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 9,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'לֹא יִתְּנֵנִי הָשֵׁב רוּחִי' means 'He will not let me return my spirit' (i.e., He will not allow me to recover/regain my breath/spirit), but the Chinese adds '交給陰間' (deliver to Sheol), which is not in the Hebrew. The Hebrew has no mention of Sheol/陰間 here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

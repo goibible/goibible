@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Elitzur son of Shedeur' (אֱלִיצוּר בֶּן שְׁדֵיאוּר). The Chinese renders '示得烏爾人以利蓿的兒子以利蓿' which repeats '以利蓿' (Elitzur) twice and introduces '示得烏爾人' (a gentilic form) instead of the personal name '示得烏爾' (Shedeur). The correct rendering should be '示得烏爾的兒子以利蓿' (Elitzur son of Shedeur). The repetition of '以利蓿' and the addition of '人' (people of) misrepresents the name and relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

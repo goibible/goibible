@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 21,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֶלֶף אֲלָפִים וּמֵאָה אֶלֶף' means 'a thousand thousands and a hundred thousand' = 1,100,000. Chinese '一百萬零一萬' = 1,010,000, which is wrong. It should be '一百一十萬' (1,100,000)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

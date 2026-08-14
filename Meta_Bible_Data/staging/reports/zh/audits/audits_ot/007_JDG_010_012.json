@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמָעוֹן' is a proper name 'Maon' (a people/place), but the Chinese renders it as '居所' (dwelling place), which is a mistranslation of the proper name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

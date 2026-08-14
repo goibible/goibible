@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 21,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'סִיחוֹן' (Sihon), but the Chinese renders it as '希宏' (Xīhóng), which is a different name. The correct transliteration should be '西宏' or '希宏'? Actually '希宏' is not the standard rendering; standard is '西宏' (Xīhóng) for Sihon. However, '希宏' is a variant transliteration and may be acceptable. But the issue is that the Hebrew name is 'Sihon' and the Chinese '希宏' is a plausible transliteration, so this may not be a flag. Re-evaluating: The name 'Sihon' is commonly rendered '西宏' in Chinese Bibles, but '希宏' is a phonetic variant. Since the instruction says flag only if a reader would believe something factually different, and '希宏' still refers to Sihon, this is not a name swap. However, the verse says 'עִיר סִיחוֹן' meaning 'city of Sihon', and the Chinese says '希宏的城' which is correct. So no issue there. The real issue: the Hebrew says 'בֹּאוּ חֶשְׁבּוֹן' meaning 'Come to Heshbon', and the Chinese says '來吧，希實本' which is correct. The verb 'תִּבָּנֶה וְתִכּוֹנֵן' is feminine singular referring to the city, meaning 'let it be built and established', and the Chinese says '願...被建造、堅立' which is correct. So actually the translation is fine. The only potential issue is the name '希宏' vs standard '西宏', but that's stylistic. So verdict should be OK. But I flagged it initially; let me correct. The name 'Sihon' is 'סִיחוֹן', and '希宏' is a valid transliteration. No factual difference. So verdict OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

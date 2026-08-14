@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 27,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִשִּׁבֹּלֶת הַנָּהָר' means 'from the stream/current of the River (Euphrates)', not 'from the ear of wheat of the great river'. The word 'שִׁבֹּלֶת' here is 'stream/current' (as in the flowing of a river), not 'ear of grain'. The Chinese '大河的耳麥' (ear of wheat of the great river) is a mistranslation of this term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

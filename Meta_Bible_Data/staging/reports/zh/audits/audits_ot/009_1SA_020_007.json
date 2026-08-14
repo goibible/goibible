@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'דַּע כִּי כָלְתָה הָרָעָה מֵעִמּוֹ' means 'know that the evil is determined/decided by him' (i.e., he has resolved to do harm), but the Chinese '他定意要害我' adds '害我' (harm me), which is not in the Hebrew text. The Hebrew only says 'the evil is determined from him' without specifying the object 'me'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

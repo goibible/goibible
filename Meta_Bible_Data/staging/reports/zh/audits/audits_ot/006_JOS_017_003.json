@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists the daughters as מַחְלָה (Mahlah), נֹעָה (Noah), חָגְלָה (Hoglah), מִלְכָּה (Milcah), and תִרְצָה (Tirzah). The Chinese renders חָגְלָה as '何革拉人' (adding '人' meaning 'person'), which is an unwarranted addition not present in the Hebrew; the name should simply be '何革拉'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

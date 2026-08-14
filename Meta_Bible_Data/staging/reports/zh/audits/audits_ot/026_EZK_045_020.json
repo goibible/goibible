@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 45,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּשִׁבְעָה בַחֹדֶשׁ' means 'on the seventh day of the month' (a specific date), but Chinese renders it as '在月內七次' ('seven times within the month'), changing the meaning from a specific day to a repeated number of times."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

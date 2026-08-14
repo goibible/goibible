@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 1,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּלִי מָשִׁיחַ בַּשָּׁמֶן' means 'not anointed with oil' (i.e., Saul's shield was not anointed with oil, as shields were customarily oiled). The Chinese renders it as '如同他從未是受膏者在油中' ('as if he had never been anointed in oil'), which shifts the subject from the shield to Saul and changes the meaning: the Hebrew says the shield was not anointed with oil, not that Saul was never anointed. This is a substantive mistranslation affecting the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

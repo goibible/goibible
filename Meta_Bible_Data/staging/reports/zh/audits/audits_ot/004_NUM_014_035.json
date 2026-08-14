@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 14,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'אִם לֹא זֹאת אֶעֱשֶׂה' is an oath formula meaning 'surely I will do this' (literally 'if I do not do this' as an emphatic affirmation). The Chinese rendering '我若不...我豈這樣行呢？' turns it into a rhetorical question that reverses the meaning, making it appear that God is questioning whether He will do it, whereas the Hebrew affirms that He will surely do it."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'הַנּוֹעָדִים עָלָי' means 'who have gathered against Me' (referring to the congregation assembled against God). The Chinese '向我聚集成群的' conveys 'gathered together toward Me' but loses the adversarial sense of 'against Me' (עָלָי), potentially changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

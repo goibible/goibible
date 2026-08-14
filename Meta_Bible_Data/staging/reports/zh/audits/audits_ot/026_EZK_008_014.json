@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 8,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַנָּשִׁים' means 'the women', but the Chinese renders it as '妻子' (wives), which changes the meaning from a group of women to specifically wives. This is a mistranslation of the noun."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

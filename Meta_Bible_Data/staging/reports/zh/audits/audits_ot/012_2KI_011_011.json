@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the runners stood 'each with his weapons in his hand' (אִישׁ וְכֵלָיו בְּיָדוֹ), but the Chinese renders '各拿著自己的器皿站在手裡' which awkwardly places '站在手裡' (standing in hand) and uses '器皿' (vessels/utensils) instead of 'weapons' (כֵלָיו here means weapons/arms). This changes the meaning from armed guards to people holding vessels."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 84,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַמְנַצֵּחַ' means 'for the choir director' or 'to the chief musician,' but the Chinese renders it as '交革提他人' (hand over to the Gittite), which misidentifies the addressee. The phrase 'עַל הַגִּתִּית' means 'upon the Gittith' (a musical term or instrument), not 'the Gittite person.' The Chinese conflates these, changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִשְׁכְּנוֹתֶיךָ' means 'your dwellings' (plural), but the Chinese renders it as '你的軍隊的會幕' (your army's tabernacle), adding '軍隊' (army) which is not in the Hebrew. The phrase 'יְהוָה צְבָאוֹת' is 'YHWH of hosts' (a divine title), not 'your army's.' This changes the possessive and adds an unstated concept."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

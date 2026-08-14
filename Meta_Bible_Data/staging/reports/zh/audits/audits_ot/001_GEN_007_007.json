@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase מִפְּנֵי מֵי הַמַּבּוּל means 'because of the waters of the flood' (i.e., to escape the floodwaters), but the Chinese renders it as '當作面對大洪水的水' ('as if facing the waters of the great flood'), which misrepresents the causal/prepositional sense and adds '當作' (as if) not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

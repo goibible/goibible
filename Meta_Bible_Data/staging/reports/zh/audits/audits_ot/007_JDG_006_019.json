@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 6,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶל תַּחַת הָאֵלָה' means 'to under the oak' (i.e., under the terebinth/oak tree), but the Chinese renders it as '帶到以拉人那裡' ('brought to the Elah people'), misinterpreting the place name/word 'הָאֵלָה' (the oak/terebinth) as a people group '以拉人'. This changes the location from a tree to a group of people."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

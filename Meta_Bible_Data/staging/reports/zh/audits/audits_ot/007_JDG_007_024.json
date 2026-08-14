@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 7,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּמַלְאָכִים' means 'messengers' (plural of מַלְאָךְ, 'messenger'), not 'angels' (天使). The Chinese rendering '天使' specifically means 'angels' (supernatural beings), which is a mistranslation of the Hebrew term in this context, where Gideon sent human messengers."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

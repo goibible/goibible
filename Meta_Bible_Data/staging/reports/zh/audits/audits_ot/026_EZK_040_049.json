@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says the width is עַשְׁתֵּי עֶשְׂרֵה אַמָּה = 'eleven cubits' (עַשְׁתֵּי עֶשְׂרֵה = 11), but Chinese renders '十二肘' (twelve cubits)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

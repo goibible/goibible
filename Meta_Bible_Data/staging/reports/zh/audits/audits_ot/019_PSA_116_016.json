@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 116,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִּתַּחְתָּ לְמוֹסֵרָי' means 'you have loosened my bonds/fetters' (מוֹסֵרָי = my bonds), but the Chinese renders it as '你已經解開了我的帶子' ('you have untied my belt/straps'), which changes the meaning from bonds/fetters to a belt/strap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

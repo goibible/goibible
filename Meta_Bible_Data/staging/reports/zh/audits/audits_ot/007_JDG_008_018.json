@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'זֶבַח' (Zebah) and 'צַלְמֻנָּע' (Zalmunna), but the Chinese renders '祭物' (sacrifice/offering) for Zebah, which is a mistranslation of the proper name, and '撒勒穆拿' for Zalmunna. Zebah is a personal name, not the word for 'sacrifice'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

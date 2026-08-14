@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has four sons: פִּיתוֹן (Pithon), וָמֶלֶךְ (Melech), וְתַאְרֵעַ (Tarea), וְאָחָז (Ahaz). Chinese renders '比他音' for Pithon (acceptable transliteration), '王' for Melech (Melech means 'king', but here it is a proper name, not a common noun; rendering as 王 loses the name), '他阿耳雅' for Tarea (acceptable), and '亞哈斯' for Ahaz (acceptable). The issue is that 'Melech' is translated as '王' (king) instead of being transliterated as a name, which changes the proper name into a common noun, causing a reader to miss that Melech is a personal name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

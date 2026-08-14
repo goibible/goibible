@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 9,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִלְּבַד אֲשֶׁר הֵבִיאָה אֶל הַמֶּלֶךְ' means 'besides what she brought to the king' (i.e., in addition to the gifts she brought to Solomon, he gave her everything she asked). The Chinese '另外又賜予她所帶來的禮物' renders this as 'additionally gave her the gifts she brought,' which reverses the meaning: it implies Solomon gave her back her own gifts, whereas the Hebrew says he gave her what she asked, apart from (in addition to) what she brought. This changes the factual claim of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

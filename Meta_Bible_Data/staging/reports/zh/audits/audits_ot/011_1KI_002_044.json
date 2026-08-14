@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Shim'i' (שִׁמְעִי), but the Chinese renders it as '希瑪利人' (Himari people), which is not a correct transliteration of the name Shim'i. It should be something like '示每'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

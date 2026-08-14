@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַשֵּׁן' (ha-Shen) is a place name, 'the Shen' (a location near Mizpah), not '象牙' (ivory). The Chinese rendering '象牙' (ivory) is a mistranslation of the proper name, which would mislead a reader into thinking it refers to ivory rather than a place."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

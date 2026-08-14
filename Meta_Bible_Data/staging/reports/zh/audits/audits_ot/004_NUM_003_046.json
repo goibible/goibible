@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 3,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פְּדוּיֵי הַשְּׁלֹשָׁה וְהַשִּׁבְעִים וְהַמָּאתָיִם' means 'the redeemed ones of the two hundred and seventy-three' (273), but the Chinese renders it as '那三名贖民，和七百二十名' (the three redeemed ones, and seven hundred and twenty), splitting the number 273 into 3 and 720, which is a factual error in the number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ZEP",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַזָּה עֲזוּבָה' means 'Gaza will be forsaken/abandoned' (from עָזַב, 'to forsake'), not '強暴的荒涼之地' ('violent desolate place'). The Chinese adds '強暴的' (violent) which is not in the Hebrew and misrepresents the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

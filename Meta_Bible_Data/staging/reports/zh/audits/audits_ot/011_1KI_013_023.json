@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 13,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the man saddled the donkey for the prophet who had brought him back (i.e., the old prophet). The Chinese says '那老先知就為他帶回來的先知備上驢' which means 'the old prophet saddled the donkey for the prophet he had brought back' — this reverses the subject and object. In Hebrew, the subject is the man (the man of God) who saddles the donkey for the old prophet, not the old prophet saddling for the man."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

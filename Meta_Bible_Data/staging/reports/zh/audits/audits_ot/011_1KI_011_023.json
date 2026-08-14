@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 11,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name רְזוֹן (Rezon) is rendered as 利遙, which is not a standard transliteration; the expected Chinese rendering would be 利遜 or similar. This could cause a reader to identify the wrong person."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name הֲדַדְעֶזֶר (Hadadezer) is rendered as 大德謝爾, which is an inaccurate transliteration; the standard rendering is 哈大底謝. This swaps the name for a different-sounding one."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

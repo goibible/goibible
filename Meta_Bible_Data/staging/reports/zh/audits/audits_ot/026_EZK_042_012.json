@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 42,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions 'the way of the south' (דֶּרֶךְ הַדָּרוֹם) and 'the way of the east' (דֶּרֶךְ הַקָּדִים) as specific directions for the chambers' entrances, but the Chinese only says '南邊內室的門也是這樣' (the doors of the south chambers are also like this) and '在東邊牆前有路' (there is a road in front of the east wall), omitting the explicit 'way of the south' and 'way of the east' phrases, and also omits 'the way before the wall of the guard' (דֶּרֶךְ בִּפְנֵי הַגְּדֶרֶת הֲגִינָה) which is a distinct location."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פֶּתַח בְּרֹאשׁ דָּרֶךְ' (an opening at the head of the way) is rendered as '人在路口可以進入' (people can enter at the road junction), which adds the concept of 'people' (人) not in the Hebrew and changes the focus from the opening itself to the action of entering."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

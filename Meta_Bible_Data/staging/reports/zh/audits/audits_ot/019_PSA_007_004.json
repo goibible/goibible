@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 7,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '又使我釋放那無故敵對我的人' (and caused me to release those who are my enemies without cause), which has no basis in the Hebrew. The Hebrew has only two clauses: 'if I have repaid evil to my ally' and 'or have plundered my foe without cause.' The third clause is an addition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

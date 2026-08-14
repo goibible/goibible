@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 20,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פֶּטֶר רָחַם' means 'that which opens the womb' (firstborn offspring), but Chinese renders '初生的肚腸' ('firstborn intestines/bowels'), which is a mistranslation of 'רָחַם' (womb) as '肚腸' (intestines)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

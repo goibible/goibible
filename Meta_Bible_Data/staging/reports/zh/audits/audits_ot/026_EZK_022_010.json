@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 22,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'טְמֵאַת הַנִּדָּה עִנּוּ בָךְ' means 'they humbled/afflicted the woman unclean through menstruation in you' (i.e., they violated the menstruous woman). The Chinese '玷污了不潔之物' ('defiled the unclean thing') misidentifies the object as an inanimate thing rather than a person (the menstruous woman), and omits the explicit subject 'they' (implied in the verb עִנּוּ) and the verb's sense of afflicting/humbling a person. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 6,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'טוֹבִיָּה' (Tobiah) sending letters, but the Chinese renders '雅連尼' (Yaliani), which does not correspond to the Hebrew name. The name should be '多比雅' (Duōbǐyǎ) as the sender, not '雅連尼'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

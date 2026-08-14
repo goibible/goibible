@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew place name 'גּוֹב' (Gob) is rendered as '坑穴' (pit/cave), which is a mistranslation. 'גּוֹב' is a proper place name, not a common noun meaning 'pit'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

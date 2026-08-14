@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 18,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase וּמִטִּבְחַת וּמִכּוּן (from Tibhath and from Kun) are place names, but the Chinese renders '提巴大' (Tibatha) and '大德謝爾' (Dadesher) which do not match the Hebrew names. The Hebrew names are 'Tibhath' (טִבְחַת) and 'Kun' (כּוּן), but the Chinese has '提巴大' (Tibatha) and '大德謝爾' (Dadesher) — the latter appears to be a transliteration of 'Hadadezer' (הֲדַדְעֶזֶר) rather than 'Kun'. This is a name swap: 'Kun' is replaced with a form of 'Hadadezer', and 'Tibhath' is altered. Additionally, the phrase 'עָרֵי הֲדַדְעֶזֶר' means 'cities of Hadadezer', but the Chinese renders '大德謝爾的城邑' (cities of Dadesher) which conflates the name, and the overall rendering misidentifies the source locations."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the sons of Dishan' (בְּנֵי דִישָׁן), but the Chinese renders '底善人的兒子' which adds 人 ('people of Dishan') and then lists '黑馬丹人' (Hemdan people) with 人 added, whereas the Hebrew has no 人 on the names. More importantly, the Hebrew names are חֶמְדָּן (Hemdan), אֶשְׁבָּן (Eshban), יִתְרָן (Yithran), כְרָן (Keran); the Chinese gives 黑馬丹人 (Hemdan), 以實班 (Eshban), 益蘭 (Yithran), 基蘭 (Keran) — the first name has an unwarranted 人 suffix, and the others are acceptable transliterations. The main issue is the added 人 on '底善人' and '黑馬丹人', which changes the meaning from 'sons of Dishan' to 'people of Dishan' and 'Hemdan people'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

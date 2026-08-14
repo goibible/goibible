@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 13,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is 'קִרְיָתַיִם' (Kiriathaim), but the Chinese renders it as '基列亞音' (Gilead-Ayin?), which appears to be a different name (possibly confusing with 'Gilead' or 'Jazer'). The correct transliteration should be '基列亞廷' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

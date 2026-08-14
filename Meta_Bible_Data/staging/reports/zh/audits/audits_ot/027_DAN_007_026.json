@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יְהַעְדּוֹן' means 'they will take away/remove' (Aramaic), but Chinese renders '必被證實' ('will be confirmed'), which reverses the meaning. The verse says the dominion will be removed/destroyed, not confirmed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

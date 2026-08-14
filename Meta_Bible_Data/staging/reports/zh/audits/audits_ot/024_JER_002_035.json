@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 2,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִקֵּיתִי' is a perfect (past) form meaning 'I am innocent' or 'I have been cleansed' (declaring a state of innocence), not a future passive '我必被潔淨' ('I will be cleansed'). The Chinese renders it as future, changing the claim from a present assertion of innocence to a future cleansing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 157,600 (מְאַת אֶלֶף וְשִׁבְעָה וַחֲמִשִּׁים אֶלֶף וְשֵׁשׁ מֵאוֹת = 100,000 + 57,000 + 600). The Chinese says 一百萬五十七萬六百人, which reads as 1,570,600 (one million, five hundred seventy thousand, six hundred), a completely different number. The correct rendering should be 十五萬七千六百人."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

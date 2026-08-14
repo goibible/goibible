@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 23,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פַּחוֹת וּסְגָנִים' means 'governors and officials' (or 'deputies and prefects'), not '百夫長和王子' (centurions and princes). The Chinese rendering swaps the social/political titles for different ones."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בַּחוּרֵי חֶמֶד' means 'desirable young men' or 'choice young men' (i.e., young men of beauty/desire), not '一切的少年人在恩愛中' ('all the young men in love/affection'). The Chinese adds the concept of 'in love/affection' (恩愛中) which is not in the Hebrew, and '一切的' (all) is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

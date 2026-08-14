@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 54,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew has second-person feminine singular verbs throughout (תִּכּוֹנָנִי, תִירָאִי, תִקְרַב) addressed to the city/person as 'you'. The Chinese shifts to first person '我' in '你堅立我' and '使我遠離', and then to second person '你' in '你必不懼怕' and '挨近你', mixing persons. The Hebrew consistently addresses 'you' (feminine) as the subject of being established, and the subject of fearing and the approaching destruction is 'you' as well. The Chinese rendering changes who is being established and who is being protected, and the final '挨近你' correctly uses 'you' but the earlier '我' is a person shift not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 48,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קִרְיַת מֶלֶךְ רָב' means 'city of the great King' (referring to God as the great King), but the Chinese renders it as '至高者的城邑' (city of the Most High), which introduces '至高者' (Most High) not present in the Hebrew. The Hebrew has 'מֶלֶךְ רָב' (great King), not 'עֶלְיוֹן' (Most High). This changes the specific title of the King."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

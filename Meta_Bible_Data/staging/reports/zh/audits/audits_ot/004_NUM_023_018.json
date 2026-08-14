@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 23,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בָּלָק' (Balak), but the Chinese renders it as '巴勒人' (people of Balak), adding '人' which changes the proper name into a demonym. The correct rendering should be '巴勒' (Balak)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

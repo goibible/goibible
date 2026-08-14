@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew ends with 'וְשָׂמ֥וּ בַדָּֽיו' meaning 'and they shall put its poles [in place]' (referring to the altar's poles/carrying bars). The Chinese renders this as '並把他的獨自放上' which is nonsensical ('put his alone on') and omits the substantive noun 'בַדָּיו' (its poles). This is a mistranslation/omission of a key item."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

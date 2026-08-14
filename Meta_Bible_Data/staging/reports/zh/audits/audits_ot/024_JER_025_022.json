@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 25,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּעֵבֶר הַיָּם' means 'beyond the sea' or 'across the sea', but the Chinese renders it as '在海以巴衛' which appears to be a transliteration or misreading of 'עֵבֶר' as a place name '以巴衛' rather than translating it as 'beyond/across'. This changes the meaning from a geographical description to a specific location name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

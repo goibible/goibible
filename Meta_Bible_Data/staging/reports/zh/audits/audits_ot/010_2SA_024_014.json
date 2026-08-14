@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 24,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew רַבִּים רַחֲמָיו (ravim rachamav) means 'His mercies are great/many' (abstract noun 'mercy/compassion'), but Chinese renders it as '祂的肚腸很多' (His intestines/bowels are many), which is a literal anatomical rendering that would mislead a Chinese reader into thinking of physical organs rather than compassion/mercy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

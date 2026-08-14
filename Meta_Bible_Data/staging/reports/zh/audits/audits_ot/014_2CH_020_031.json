@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 20,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name עֲזוּבָה (Azubah) is rendered as 亞述巴人, which appears to be a different name (possibly conflating Assyria/亞述). The correct transliteration should be 亞蘇巴 or similar."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

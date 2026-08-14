@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 22,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַמְאֹרָשָׂה' means 'the betrothed (young woman)', not 'the cursed (少女)'. The Chinese '受詛咒的' (cursed) is an incorrect rendering of the participle from אָרַשׂ (to betroth), not from אָרַר (to curse). This changes the identity of the young woman from a betrothed maiden to a cursed one, altering the factual claim of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

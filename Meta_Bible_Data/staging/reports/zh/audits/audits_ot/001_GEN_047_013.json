@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 47,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase מִפְּנֵי הָרָעָב means 'because of the famine' (literally 'from the face of the famine'), but the Chinese renders it as '因饑荒的面' ('because of the face of the famine'), which adds the word '面' (face) that is not present in the Hebrew and changes the meaning to something nonsensical. The correct rendering should be '因饑荒' or '因為饑荒'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

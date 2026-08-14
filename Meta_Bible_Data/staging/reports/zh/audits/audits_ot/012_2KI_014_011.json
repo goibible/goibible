@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 14,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is בֵּית שֶׁמֶשׁ (Beth-shemesh), but the Chinese renders it as 別是梅沙, which appears to be a conflation or corruption of Beth-shemesh (別示巴/伯示麥) and Beersheba (別是巴). This is a place-name error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'פַּחַת עֲבַֽר נַהֲרָה' means 'governor of Beyond-the-River' (a specific official title), but the Chinese renders it as '百夫長' (centurion/commander of a hundred), which is a different concept and changes the official's title."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

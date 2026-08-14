@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew genealogy is 'עֻזִּי בֶן בָּנִי בֶן חֲשַׁבְיָה בֶן מַתַּנְיָה בֶן מִיכָא' — Uzzi son of Bani, son of Hashabiah, son of Mattaniah, son of Micha. The Chinese renders it as '烏西雅的兒子巴尼，哈沙比雅的兒子，瑪他尼雅的兒子，米迦的兒子' which reverses the father-son relationships, making Bani the son of Uzzi, Hashabiah the son of Bani, etc., instead of the correct chain where Uzzi is the son of Bani, Bani is the son of Hashabiah, etc. This changes the genealogy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

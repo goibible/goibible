@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 30,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיַּעַן כָּל אִישׁ רָע וּבְלִיַּעַל מֵהָאֲנָשִׁים אֲשֶׁר הָלְכוּ עִם דָּוִד' means 'Then answered all the wicked and worthless men of the men who went with David' — i.e., the wicked men among David's own followers. The Chinese '一切無益者和那些與大衛同去的人回答說' renders it as 'all worthless ones and those who went with David answered', making it sound like two separate groups (the worthless ones AND those who went with David), whereas the Hebrew has the worthless ones as a subset of those who went with David. This changes who is speaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

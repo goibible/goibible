@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אֲשֶׁר אֵין לָהֶם מְאוּמָה' means 'who had nothing' (i.e., the poorest of the people, those without possessions). The Chinese renders it as '一無過犯' (without any offense/guilt), which changes the meaning from 'having nothing' to 'having no fault/transgression.' This is a substantive mistranslation of the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 25,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעֵדֹתָיו' means 'and His testimonies' (His decrees/statutes), but the Chinese renders it as '會眾' (congregation/assembly), which is a different concept and changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

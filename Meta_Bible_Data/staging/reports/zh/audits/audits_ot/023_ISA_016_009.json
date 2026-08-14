@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 16,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גֶּפֶן שִׂבְמָה' means 'vine of Sibmah' (a place name), but the Chinese renders it as '示巴門的葡萄樹' ('vine of Shebam/Sheba gate'), swapping the place name Sibmah for a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 17,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בִּירָנִיּוֹת' (biranot, meaning 'fortresses' or 'citadels') is transliterated as '巴蘭尼特城' (Balanite city), which is not a proper name in the Hebrew text. This introduces a name that does not exist in the original, changing the meaning from 'fortresses' to a specific named city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

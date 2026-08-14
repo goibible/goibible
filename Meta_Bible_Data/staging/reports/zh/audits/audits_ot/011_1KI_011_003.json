@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׂרוֹת' (śārôt) means 'princesses' or 'noble women' (plural of 'שָׂרָה'), not a proper name '撒拉' (Sarah). The Chinese renders it as a transliteration of the personal name Sarah, which would mislead a reader into thinking these were women named Sarah, whereas the Hebrew refers to their status as princesses/noblewomen."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

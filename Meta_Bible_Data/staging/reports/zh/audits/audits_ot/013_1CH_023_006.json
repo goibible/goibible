@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 23,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַיֶּחֱלְקֵם דָּוִיד מַחְלְקוֹת' means 'David divided them into divisions' (referring to the Levites), not 'divided the land' (分地). The Chinese adds '地' (land) which is not in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

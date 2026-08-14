@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 26,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says Uzziah was 16 years old (שֵׁשׁ עֶשְׂרֵה שָׁנָה) when he began to reign, but Chinese says 十二歲 (12 years old)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

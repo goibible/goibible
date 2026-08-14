@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 18,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'וְהָעַוִּ֥ים' (the Avvim) and 'וְהַפָּרָ֖ה' (and the Parah), but the Chinese renders '亞文' (Ayyin? or Avvim?) and '巴拉' (Balah? or Parah?). The first name 'הָעַוִּים' is 'Avvim' (a people/place), not '亞文' (which could be a different name). The second 'הַפָּרָה' is 'Parah', not '巴拉' (Balah). The third 'עָפְרָה' is 'Ophrah', correctly rendered as '俄弗拉'. The first two names are mistranslated/swapped."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

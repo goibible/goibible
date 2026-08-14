@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 12,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכֹסֶה קָלוֹן עָרוּם' means 'but a prudent man covers shame' (or 'one who covers shame is prudent'), i.e., the wise person conceals dishonor. The Chinese renders it as '而他赤裸的羞辱卻被遮蓋' ('but his naked shame is covered'), which reverses the subject and object: it makes the shame the subject being covered, rather than the prudent person covering shame. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

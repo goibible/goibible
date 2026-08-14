@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא מוּעָף לַאֲשֶׁר מוּצָק לָהּ' means 'there is no gloom for her who was in distress' (i.e., the former distress is not permanent; darkness will be lifted). The Chinese '那受苦楚的不致於昏暗' renders it as 'the one suffering will not be darkened,' which reverses the sense: the Hebrew says the gloom is not for the one already in distress (i.e., relief comes), whereas the Chinese implies the sufferer will not experience darkness, which is a different claim. The Hebrew subject is the gloom/darkness, not the sufferer."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'עֵבֶר הַיַּרְדֵּן' means 'beyond the Jordan' (trans-Jordan). The Chinese renders it as '以巴衛' (a transliteration that does not match any Hebrew name here; likely a corruption or misreading of 'עֵבֶר' as a place name). This introduces a non-existent name and drops the meaning 'beyond the Jordan.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

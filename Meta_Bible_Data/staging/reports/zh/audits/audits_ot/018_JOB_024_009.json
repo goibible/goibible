@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '從母懷中' (from the mother's bosom), which is not present in the Hebrew. The Hebrew says 'they seize the orphan from the breast' (מִשֹּׁד יָתוֹם), where 'שֹׁד' means 'breast' or 'bosom', but the Chinese rendering '從母懷中' explicitly adds 'mother' (母) which is not in the Hebrew text. This is a substantive addition that changes the imagery."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

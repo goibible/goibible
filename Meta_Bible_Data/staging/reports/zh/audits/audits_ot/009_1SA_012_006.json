@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 12,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the LORD who made Moses and Aaron' (עָשָׂה אֶת מֹשֶׁה וְאֶת אַהֲרֹן), i.e., who appointed/established them, but the Chinese renders it as 'the one who created Moses and Aaron' (創造摩西和亞倫), which could imply physical creation rather than appointing/establishing their roles. This changes the meaning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew includes 'and who brought your fathers up from the land of Egypt' (וַאֲשֶׁר הֶעֱלָה אֶת אֲבֹתֵיכֶם מֵאֶרֶץ מִצְרָיִם). The Chinese omits this entire clause, losing a substantive part of the verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

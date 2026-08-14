@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 5,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists 'וְעֵפֶר' (Epher) as the first name, but the Chinese renders it as '以弗' (Yǐfú), which is a different name. The Hebrew name is 'עֵפֶר' (Epher), not 'עֵפֶר' with a different vocalization; the Chinese '以弗' corresponds to 'Epher' but the following name 'וְיִשְׁעִי' (Yishi) is rendered as '以實基路人' (Yìshíjīlùrén), which adds '基路人' (a gentilic, 'of the road/way') not present in the Hebrew. The Hebrew has 'וְיִשְׁעִי' (Yishi), a personal name, not a gentilic. This changes the identity of the person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

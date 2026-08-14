@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'twelve for Benjamin and for Ish-bosheth son of Saul, and twelve from the servants of David' — the Chinese renders '便雅憫' (Benjamin) and '掃羅的兒子伊施波設' (Ish-bosheth son of Saul) as separate groups, but the Hebrew has 'לְבִנְיָמִן וּלְאִישׁ בֹּשֶׁת בֶּן שָׁאוּל' meaning 'for Benjamin and for Ish-bosheth son of Saul' — these are two parties (Benjamin/Ish-bosheth vs. David's servants), not three. The Chinese adds a third group '大衛的僕人那裡也有十二人' as if it were a separate location, but the Hebrew only has two groups of twelve: twelve for Benjamin/Ish-bosheth and twelve from David's servants. The Chinese misconstrues the structure, making it appear there are three groups of twelve, whereas the Hebrew has two groups of twelve."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

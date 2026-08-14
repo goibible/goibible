@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 20,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֱלֹהֵ֤י אֲבֹתֵ֨ינוּ֙' means 'God of our fathers' (plural 'fathers'), but the Chinese renders it as '我們父的神' ('God of our father'), changing the plural 'fathers' to singular 'father'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

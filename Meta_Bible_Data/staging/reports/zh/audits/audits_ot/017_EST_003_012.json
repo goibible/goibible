@@ -1,0 +1,34 @@
+{
+  "book": "EST",
+  "chapter": 3,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'סֹפְרֵי הַמֶּלֶךְ' means 'the king's scribes' (or secretaries), but the Chinese renders it as '王的數目' ('the king's number/count'), which is a mistranslation. The word 'סֹפְרֵי' (scribes) was confused with 'סְפָרִים' (numbers) or similar."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶל אֲחַשְׁדַּרְפְּנֵי הַמֶּלֶךְ' means 'to the king's satraps' (provincial governors), but the Chinese renders 'אֲחַשְׁדַּרְפְּנֵי' as '宰相' (prime minister/chancellor), which is inaccurate; it should be '總督' or '省長' (satraps/governors)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶל הַפַּחוֹת' means 'and to the governors' (of provinces), but the Chinese renders 'פַּחוֹת' as '百夫長' (centurions/commanders of a hundred), which is a mistranslation; it should be '省長' or '總督' (governors)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶל שָׂרֵי עַם וָעָם' means 'and to the officials of every people' (leaders of each ethnic group), but the Chinese renders it as '官長、百姓和百姓' ('officials, people and people'), which misrepresents the construct chain 'שָׂרֵי עַם' as two separate items and adds an extra '百姓'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מְדִינָה וּמְדִינָה כִּכְתָבָהּ וְעַם וָעָם כִּלְשֹׁנוֹ' is rendered as '各省照其文書、百姓照其舌頭' which is acceptable, but the phrase 'וְעַם וָעָם' ('and people by people') is partially rendered; however, the main issue is the earlier mistranslation of 'שָׂרֵי עַם וָעָם'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

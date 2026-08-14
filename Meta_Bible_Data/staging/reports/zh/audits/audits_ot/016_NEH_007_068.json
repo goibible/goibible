@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 7,
+  "verse": 68,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew פִּרְדֵיהֶם means 'their mules', but Chinese renders it as '他們的驢子' (their donkeys). This is a factual difference in animal type."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

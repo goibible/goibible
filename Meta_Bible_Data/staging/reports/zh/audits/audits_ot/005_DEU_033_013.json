@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִתְּהוֹם רֹבֶצֶת תָּחַת' means 'from the deep that crouches beneath' (i.e., the deep lying under the earth), but the Chinese renders 'תָּחַת' (beneath) as a proper name '他哈' (Tahath), which is a place name not present in the Hebrew. This changes the meaning, making it appear that the deep is associated with a location named Tahath rather than being beneath the earth."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 51,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew has 'לְעֵינֵיכֶם' (in your eyes/plural), but the Chinese renders it as '在我們眼前' (in our eyes), reversing the person from second-person plural to first-person plural."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

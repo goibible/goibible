@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 24,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וַתָּבֹא הָעִיר בַּמָּצוֹר' means 'the city came under siege' (i.e., was besieged), but the Chinese renders it as '城就陷入城邑' ('the city fell into the city'), which is nonsensical and does not convey the meaning of being besieged. The correct translation should indicate the city was besieged, e.g., '城就被圍困'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

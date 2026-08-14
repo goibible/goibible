@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 25,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'לַיִּצְרִ֔י' (of the Yitzri) is rendered as '以實利人' (Yishli people), which appears to be a different name (likely confusing with 'יִשְׁלִי' or similar). The correct transliteration should be '以茨利人' or similar, not '以實利人'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

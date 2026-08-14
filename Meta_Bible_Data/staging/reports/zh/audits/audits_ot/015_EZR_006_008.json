@@ -1,0 +1,26 @@
+{
+  "book": "EZR",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שָׂבֵי יְהוּדָיֵא' means 'elders of the Jews' (i.e., Jewish elders), but Chinese renders '猶太人長老' as 'Jewish elders' — this is acceptable. However, the phrase 'לְמִבְנֵא בֵּית אֱלָהָא דֵךְ' means 'to build that house of God' (i.e., the temple), but Chinese says '建造你們神的家' ('build the house of your God'), adding '你們' (your) which is not in the Hebrew; the Hebrew has 'that house of God' (דֵךְ = that), not 'your God'. This changes the referent from 'that God' to 'your God'."
+        },
+        {
+          "kind": "omission",
+          "detail": "Hebrew 'וּמִנִּי' means 'and from me' (i.e., 'and I [the king] issue a decree'), but Chinese '你當出旨意' ('you should issue a decree') shifts the subject from the king (first person) to the addressee (second person). The Hebrew is the king speaking: 'And from me is set a decree' — the Chinese makes it an instruction to someone else, reversing who is doing the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְגֻבְרַיָּא אִלֵּךְ' means 'to these men' (i.e., the elders/workers), but Chinese renders '給這些勇士' ('to these warriors'), adding '勇士' (warriors) which is not in the Hebrew; the Hebrew simply says 'men' (גֻבְרַיָּא), not 'warriors'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

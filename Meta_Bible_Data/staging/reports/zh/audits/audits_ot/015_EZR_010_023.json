@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'פְּתַֽחְיָ֥ה' (Petahyah), but the Chinese renders it as '巴達雅' (Bada-ya), which appears to be a different name (possibly a misreading or substitution). The correct transliteration should be '毗他希雅' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

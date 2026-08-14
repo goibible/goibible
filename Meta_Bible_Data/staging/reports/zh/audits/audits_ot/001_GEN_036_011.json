@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew name 'תֵּימָן' (Teman) is a proper name, but the Chinese renders it as '南方' (south), which is a common-noun translation rather than a transliteration of the personal name. This changes the identity of the person."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

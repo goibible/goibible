@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'שִׁמְשַׁי' (Shimshai), but the Chinese renders it as '希實米人' (Hishimi?), which appears to be a different name or a corruption. The correct transliteration should be '申示' or similar for Shimshai."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְרַחֲמִים' means 'mercies/compassions', but the Chinese renders it as '肚腸' (bowels/intestines), which is a literal anatomical rendering not the idiomatic meaning of compassion. This changes the meaning for a Chinese reader."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

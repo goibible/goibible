@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew states that the Arameans of Beth-rehob and the Arameans of Zobah together numbered 20,000 foot soldiers (עֶשְׂרִים אֶלֶף רַגְלִי), but the Chinese renders '二萬步兵' for Beth-rehob and '一萬人' for Zobah, splitting the 20,000 into two separate numbers (20,000 and 10,000), which changes the total and the attribution."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

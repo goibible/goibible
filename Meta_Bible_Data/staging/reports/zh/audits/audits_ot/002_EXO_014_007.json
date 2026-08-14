@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 14,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְשָׁלִשִׁם עַל כֻּלּוֹ' means 'and officers over all of it' (i.e., officers over all the chariots), not 'three men on each chariot'. The Chinese rendering '每輛戰車上的三個人' (three men on each chariot) misinterprets 'שָׁלִשִׁם' (officers/third-men) as a numeral 'three' and changes the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

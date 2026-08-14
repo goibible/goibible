@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists the fifth king as 'the king of Eglon' (מֶלֶךְ עֶגְלוֹן), but the Chinese renders it as '拉吉城門的王' (the king of Lachish gate), which incorrectly identifies the king of Lachish as a gate rather than the king of Eglon. This is a name/place error: '拉吉' (Lachish) is repeated and '城門' (gate) is added, while '伊磯倫' (Eglon) is misplaced or omitted in the list."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JER",
+  "chapter": 6,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לָמָּה זֶּה לִי לְבוֹנָה מִשְּׁבָא תָבוֹא וְקָנֶה הַטּוֹב מֵאֶרֶץ מֶרְחָק' is a rhetorical question: 'Why does frankincense come to me from Sheba, and sweet cane from a far country?' The Chinese renders it as '為何示巴人帶來的乳香...' ('Why does the Shebaites bring frankincense...'), adding '示巴人' (Shebaites) as the subject of 'bring' (帶來), whereas the Hebrew has no explicit human agent — the frankincense itself 'comes' (תָבוֹא). This changes the grammatical subject and adds an agent not present in the Hebrew."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'עֹלוֹתֵיכֶם לֹא לְרָצוֹן וְזִבְחֵיכֶם לֹא עָרְבוּ לִי' is a separate declarative statement: 'Your burnt offerings are not acceptable, and your sacrifices are not pleasing to me.' The Chinese renders it as a continuation of the rhetorical question ('你們的燔祭不蒙悅納，你們的祭物我也不喜悅？'), turning the declarative into an interrogative, which changes the force of the verse. The Hebrew has no interrogative particle here; the question is only in the first clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

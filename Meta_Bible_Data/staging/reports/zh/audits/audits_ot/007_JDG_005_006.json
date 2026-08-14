@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בִּימֵי שַׁמְגַּר בֶּן עֲנָת' (in the days of Shamgar son of Anath) and 'בִּימֵי יָעֵל' (in the days of Jael). The Chinese renders 'בֶּן עֲנָת' as '亞拿他' (Anatha) but then adds '和雅億人的日子裡' (and the days of the Jael people), which misidentifies Jael as a people group rather than the personal name 'יָעֵל' (Jael). The Hebrew clearly has two personal names: Shamgar son of Anath, and Jael. The Chinese translation incorrectly treats 'יָעֵל' as a collective '雅億人' (Jael people), changing the proper name to a group designation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

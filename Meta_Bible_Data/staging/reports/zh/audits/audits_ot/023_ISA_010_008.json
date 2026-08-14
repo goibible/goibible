@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 10,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שָׂרַי יַחְדָּו מְלָכִים' means 'are not princes together kings?' i.e., 'Are not princes kings together?' The Chinese '官長和王一同嗎' renders '官長' (officials) for 'שָׂרַי' (princes) and '王' (king) for 'מְלָכִים' (kings, plural), changing the plural 'kings' to singular 'king' and altering the sense of the rhetorical question. The Hebrew asks whether princes are also kings together, not whether officials and a king are together."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

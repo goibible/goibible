@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew clause 'וְלֹ֥א אָמֽוּת' ('and I will not die') is entirely missing from the Chinese translation. The Chinese renders only the first two clauses (while I live, the LORD's kindness will not depart from me, and after my death it will not cease), but omits the final statement about not dying."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

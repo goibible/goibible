@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 9,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְתִשֶּׂנָה עָלֵינוּ נֶהִי' means 'and they (fem.) lift up a lament over us' (i.e., raise a wailing over us), not 'attack us' (攻擊我們). The verb נָשָׂא with נֶהִי means 'to lift up a lamentation', not 'to attack'. The Chinese '攻擊我們' introduces a hostile military action not present in the Hebrew, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

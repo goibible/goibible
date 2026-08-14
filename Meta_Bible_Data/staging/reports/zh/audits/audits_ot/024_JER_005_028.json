@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 5,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׁמְנ֣וּ עָשְׁת֗וּ' means 'they have grown fat, they have become sleek' (referring to the wicked), but the Chinese renders '我們肥胖' ('we are fat'), changing the subject from 'they' to 'we' and altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

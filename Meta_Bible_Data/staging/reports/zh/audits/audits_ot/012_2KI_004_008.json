@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase אִשָּׁה גְדוֹלָה means 'a prominent/wealthy woman' (literally 'a great woman'), not 'a big wife' (大妻子). The Chinese rendering '大妻子' misrepresents the meaning, suggesting a wife of large physical size or a senior wife, rather than a woman of social standing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

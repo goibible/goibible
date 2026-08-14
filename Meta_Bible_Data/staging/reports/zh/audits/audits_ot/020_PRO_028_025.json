@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 28,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רְחַב נֶפֶשׁ' means 'broad of soul' i.e. arrogant/proud, not '心胸寬闊' (broad-minded/forgiving). The verse says a proud person stirs up strife, but the Chinese says a broad-minded person can avoid strife, reversing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

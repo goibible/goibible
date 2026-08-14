@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 59,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'כִּי יָבוֹא כַנָּהָר צָר רוּחַ יְהוָה נֹסְסָה בוֹ' means 'for the enemy shall come in like a flood, the Spirit of the LORD shall lift up a standard against him' (or similar: 'the adversary comes like a river, the Spirit of the LORD raises a banner against him'). The Chinese omits the word 'צָר' (adversary/enemy) and the phrase 'נֹסְסָה בוֹ' (raises a standard against him), instead rendering only 'the Spirit of the LORD will come swiftly like a great river,' which changes the meaning: the Hebrew has the enemy coming like a flood and the Spirit opposing him, not the Spirit itself coming like a flood."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

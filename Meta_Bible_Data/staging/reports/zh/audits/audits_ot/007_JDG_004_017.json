@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 4,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵשֶׁת חֶבֶר הַקֵּינִי' means 'the wife of Heber the Kenite' (i.e., Jael, Heber's wife). The Chinese renders it as '基尼人何伯的妻子雅億人的帳幕' ('the tent of Jael, the wife of Heber the Kenite'), adding '雅億' (Jael) as if it were part of the Hebrew text. The Hebrew does not name Jael here; it only says 'the wife of Heber the Kenite.' This addition changes the identity of the tent's owner and introduces a name not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

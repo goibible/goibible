@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 132,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעֵדֹתִ֥י ז֗וֹ' means 'and my testimonies/statutes' (referring to God's decrees), but the Chinese renders it as '我的會眾' ('my congregation/assembly'), which is a different concept not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

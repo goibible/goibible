@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַמַּלְאָכִים' means 'the messengers' (human envoys), not '天使' (angels). This changes the identity of the speakers from human messengers to divine angels, a substantive factual difference."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

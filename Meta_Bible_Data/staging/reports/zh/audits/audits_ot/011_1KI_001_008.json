@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'שִׁמְעִי וְרֵעִי' (Shimei and Rei), but the Chinese renders '希瑪利人、雷伊' which appears to be a garbled/incorrect rendering of the names; '希瑪利人' does not match 'שִׁמְעִי' (Shimei) and '雷伊' is a transliteration of 'רֵעִי' (Rei) but the first name is wrong."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

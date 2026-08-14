@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 106,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בִּישִׁימוֹן' (bishimon) means 'in the wasteland/desert' (a common noun), not the proper name '耶示崙' (Jeshurun). The Chinese renders it as a place name, which is a mistranslation of the common noun."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

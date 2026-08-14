@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'בַּת מֵ֥י זָהָֽב' (daughter of Me-Zahab), but the Chinese renders it as '米薩合的孫女' (granddaughter of Me-Zahab). The Hebrew does not say 'granddaughter'; it says 'daughter' (בַּת). This changes the genealogical relationship."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

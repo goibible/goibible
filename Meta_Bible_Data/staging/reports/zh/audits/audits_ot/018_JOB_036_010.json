@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'כִּי יְשֻׁבוּן מֵאָוֶן' means 'that they would turn back from iniquity' (positive: they will return from evil). The Chinese '他們必不轉離虛空' adds a negation '不' and changes 'מֵאָוֶן' (from iniquity) to '虛空' (vanity/emptiness), reversing the meaning: it says they will not turn away from vanity, whereas the Hebrew says they will turn away from iniquity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

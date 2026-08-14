@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כִכַּר כֶּסֶף' means 'a talent of silver' (a specific weight/unit of money), but Chinese renders it as '一塊銀子的餅' ('a cake/piece of silver'), which misrepresents the unit as a loaf/cake rather than a talent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 23,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Balak' (בָּלָק) as the speaker, but the Chinese renders it as '巴勒人' (people of Balak), changing the proper name into a demonym/plural group. It should be '巴勒' (Balak) alone."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

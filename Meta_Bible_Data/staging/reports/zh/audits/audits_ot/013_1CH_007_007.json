@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew lists five sons of Bela: אֶצְבּוֹן (Etzbon), עֻזִּי (Uzzi), עֻזִּיאֵל (Uzziel), יְרִימוֹת (Jerimoth), עִירִי (Iri). The Chinese renders them as 以實波倫 (Yishbolun, likely a misreading of Etzbon), 烏西雅 (Uzziah, but Hebrew is Uzzi), 烏西雅耳 (Uzziel, correct), 耶利摩 (Jerimoth, correct), 以里城 (Iri, but adds 城 'city' which is not in the Hebrew). The name Etzbon is mistranslated as 以實波倫, and Uzzi is rendered as 烏西雅 (Uzziah) instead of 烏西. Also, 以里城 adds '城' (city) which is not present in the Hebrew name עִירִי."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

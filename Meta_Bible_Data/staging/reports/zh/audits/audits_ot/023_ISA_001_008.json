@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 1,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּמְלוּנָ֥ה בְמִקְשָׁ֖ה' means 'like a hut in a cucumber field' (מִקְשָׁה = cucumber field/garden). The Chinese renders 'בְמִקְשָׁה' as '錘子中的' (in a hammer), which is a mistranslation of the noun. 'מִקְשָׁה' is not 'hammer' (which would be מַקֶּבֶת or similar), but a cucumber field. This changes the meaning of the simile."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

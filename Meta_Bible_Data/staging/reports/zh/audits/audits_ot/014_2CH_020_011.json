@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 20,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb גֹּמְלִים (from גמל) here means 'repay/recompense' (often negatively, i.e., 'repay evil'), not 'show kindness/grace' (施恩). The Chinese rendering '施恩' (show favor) reverses the meaning; the context is that they are repaying evil, not showing kindness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

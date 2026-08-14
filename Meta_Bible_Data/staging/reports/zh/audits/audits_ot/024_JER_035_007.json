@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 35,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְזֶרַע לֹא תִזְרָעוּ' means 'you shall not sow seed' (agricultural sowing), but the Chinese renders it as '不可播種後裔' ('do not sow descendants/offspring'), which changes the meaning from sowing crops to procreation. This is a substantive mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

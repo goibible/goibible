@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 66,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נֹטֶה' means 'stretch out' or 'extend' (of peace like a river), not '伸手' (stretch out the hand). The object is 'peace' and 'glory', not a hand. The Chinese adds '手' (hand) which is not in the Hebrew and changes the image."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

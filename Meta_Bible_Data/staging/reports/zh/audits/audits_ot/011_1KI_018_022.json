@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the prophets of Baal' (נְבִיאֵי הַבַּעַל), but the Chinese renders it as '主人的先知' (the prophets of the master/lord), which changes the referent from the deity Baal to a generic 'master'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

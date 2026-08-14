@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the place will no longer be called 'the Topheth' (הַתֹּפֶת) and 'the Valley of the son of Hinnom' (גֵּיא בֶן הִנֹּם), but the Chinese renders 'the Topheth' as '他泊' (Tabor), which is a different place name (Tabor, a mountain). The correct rendering should be '陀斐特' or similar for Topheth."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

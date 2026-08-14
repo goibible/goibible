@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 79,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הוֹתֵר' (from יָתַר, meaning 'spare' or 'preserve alive') is rendered as '保護' (protect), which changes the meaning. The verse asks God to spare/preserve those doomed to death, not merely protect them."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כַּרְבְּלָתְהוֹן' (karbelathon) is a type of headdress or turban, not a proper name '迦勒波拉'. The Chinese transliterates it as a name, which is a mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

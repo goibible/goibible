@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּהַר גִּלְבֹּעַ' means 'on Mount Gilboa' (a place name). The Chinese renders it as '基列波阿斯山' (Mount Gilead Boaz?), which appears to be a corruption or misreading of the name 'Gilboa' (基利波) — the place name is not accurately represented, potentially confusing the reader."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

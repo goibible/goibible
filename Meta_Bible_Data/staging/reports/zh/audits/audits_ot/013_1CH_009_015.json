@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'בֶּן מִיכָא' (son of Mica) and 'בֶּן זִכְרִי' (son of Zichri), but the Chinese renders '米迦的兒子' (son of Mica) correctly, yet '撒底的孫子' (grandson of Zaddi) is an addition—the Hebrew has 'בֶּן זִכְרִי' (son of Zichri), not '撒底' (Zaddi). The name 'Zichri' is mistranslated as '撒底' (Zaddi), swapping the name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 44,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פַּאֲרֵי פִשְׁתִּים' means 'turbans of linen' (or 'headpieces of linen'), not '榮耀' (glory). The word 'פְּאֵר' is a headdress/turban, not 'glory' (which would be כָּבוֹד). This changes the meaning of the verse."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בַּיָּזַע' means 'with sweat' (i.e., they shall not gird themselves with sweat, meaning they shall not gird in a way that causes sweat). The Chinese '用汗來纏裹' ('wrap with sweat') is a literal but awkward rendering; however, the main issue is the mistranslation of 'פַּאֲרֵי' as '榮耀'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

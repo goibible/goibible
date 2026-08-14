@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 22,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלֹא חָשַׂכְתָּ' means 'and you did not withhold/spare' (your son), but the Chinese renders it as '沒有留下' ('did not leave/keep'), which shifts the meaning from 'withholding/sparing' to 'leaving behind'. This changes the nuance of the verse's claim about Abraham's action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 100,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '作為樂歌者' (as a psalmist/song-singer), which has no basis in the Hebrew text. The Hebrew only says 'come before His presence with joyful singing' (בִּרְנָנָה), not that the worshiper is a 'song-singer' or 'psalmist'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

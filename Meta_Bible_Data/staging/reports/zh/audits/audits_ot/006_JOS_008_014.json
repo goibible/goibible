@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 8,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לַמּוֹעֵד' means 'at the appointed place/time' (for battle), not '赴節期' (to go to a festival). This changes the meaning from a military appointment to a festival."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

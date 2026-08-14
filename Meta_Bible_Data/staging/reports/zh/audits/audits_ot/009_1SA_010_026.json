@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 10,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גִּבְעָ֑תָה' is a place name (Gibeah), not '小山丘' (small hill). The Chinese renders it as a common noun, losing the proper place name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַחַיִל' means 'the army' or 'the mighty men' (a group of people), but the Chinese translates it as '力量' (strength/power), changing the subject from people to an abstract force."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 30,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מַה שְּׁמוֹ וּמַה שֶּׁם בְּנוֹ כִּי תֵדָע' means 'What is his name, and what is his son's name, if you know?' The Chinese '你豈不知道？' reverses the conditional into a rhetorical question implying 'Do you not know?', changing the meaning from 'if you know' to 'surely you know'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

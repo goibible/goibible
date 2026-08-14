@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 27,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'קְלָעִים' means 'hangings/curtains', not '石塊' (stones). The Chinese adds a concept (stones) not in the Hebrew and changes the meaning of the item."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

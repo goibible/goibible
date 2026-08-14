@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'גדי בן סוסי' (Gaddi son of Susi), but the Chinese renders '加底雅人蘇西的兒子' which adds '雅人' (a gentilic suffix) to the name, making it 'Gaddi-ite' or 'Gaddi the ...' instead of the personal name 'Gaddi'. This changes the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

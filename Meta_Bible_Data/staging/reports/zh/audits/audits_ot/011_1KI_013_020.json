@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲשֶׁר הֱשִׁיבוֹ' means 'who had brought him back' (the prophet who had brought him back, i.e., the old prophet who brought the man of God back), but the Chinese renders it as '就是他們帶回來的' ('whom they had brought back'), changing the subject/object: the Hebrew has the prophet as the one who brought back, not the one being brought back. This reverses who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 19,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכִים' means 'messengers' (human envoys), not 'angels' (天使). The Chinese translation renders it as '天使' (angels), which changes the meaning from human messengers sent by Saul to supernatural beings."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

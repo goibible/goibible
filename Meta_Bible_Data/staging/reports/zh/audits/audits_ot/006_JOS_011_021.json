@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'מִן דְּבִר' (from Debir), but Chinese renders it as '從大衛城' (from the City of David). Debir is a place name, not 'City of David' (which would be עיר דוד). This swaps a proper place name for a different one."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

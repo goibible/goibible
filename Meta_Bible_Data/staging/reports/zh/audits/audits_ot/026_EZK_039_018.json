@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 39,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists 'אֵילִים כָּרִים וְעַתּוּדִים פָּרִים מְרִיאֵי בָשָׁן' (rams, lambs, and goats, bulls, fattened cattle of Bashan). The Chinese renders '巴珊的肥畜、公羊、羊群、公綿羊和公牛' which misorders and misidentifies items: '羊群' (flock) is not in the Hebrew; '公綿羊' (ram) duplicates '公羊' (ram) instead of rendering 'עַתּוּדִים' (goats); '肥畜' (fattened cattle) is placed first instead of 'rams' being first, and 'מְרִיאֵי בָשָׁן' (fattened cattle of Bashan) is split incorrectly. The order and specific animal types are substantively altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

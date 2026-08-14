@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 6,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'יְהוֹצָדָק' (Yehotsadak/Jehozadak), but the Chinese renders it as '耶何達大' (Yehedada), which is a different name. The correct transliteration should be '耶何薩達' or similar, not '耶何達大'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

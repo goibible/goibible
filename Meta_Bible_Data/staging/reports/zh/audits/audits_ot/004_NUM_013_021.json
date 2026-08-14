@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְבֹא חֲמָת' means 'the entrance of Hamath' (a place name), but the Chinese renders it as '哈馬的街道' ('the streets of Hamath'), which is a mistranslation. 'לְבֹא' is 'entrance' or 'approach', not 'street'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

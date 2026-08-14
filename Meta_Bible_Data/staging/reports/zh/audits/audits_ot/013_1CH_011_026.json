@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Elhanan son of Dodo' (אֶלְחָנָ֥ן בֶּן דּוֹד֖וֹ), but the Chinese renders '朵多的兒子伊勒哈難' (son of Dodo, Elhanan) — this is correct. However, the Hebrew has 'עֲשָׂה אֵל' (Asahel) as the first name, but the Chinese says '亞撒黑' (Asahel) — that matches. The issue is that the Hebrew lists 'עֲשָׂה אֵל אֲחִי יוֹאָב' (Asahel brother of Joab) and then 'אֶלְחָנָן בֶּן דּוֹדוֹ מִבֵּית לָחֶם' (Elhanan son of Dodo from Bethlehem). The Chinese says '約押的兄弟亞撒黑' (Asahel brother of Joab) and '伯利恆人朵多的兒子伊勒哈難' (Elhanan son of Dodo, a Bethlehemite). This is actually accurate. Wait — the Hebrew has 'עֲשָׂה אֵל' which is Asahel, and the Chinese has '亞撒黑' — correct. The name 'דּוֹדוֹ' is Dodo, rendered '朵多' — correct. No name swap. The issue is the Hebrew says 'מִבֵּית לָחֶם' (from Bethlehem) applies to Elhanan, and the Chinese says '伯利恆人' (Bethlehemite) — correct. So actually this is OK. Let me re-check: the Hebrew has 'עֲשָׂה אֵל' — that is Asahel. The Chinese has '亞撒黑' — correct. No error. Verdict should be OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

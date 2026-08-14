@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'שְׁלֻמִיאֵל בֶּן צוּרִֽישַׁדָּי' (Shelumiel son of Zurishaddai), but the Chinese renders '書勒米雅，是書亞大的兒子' (Shelumiel, son of Shuada). 'צוּרִֽישַׁדָּי' (Zurishaddai) is mistranslated as '書亞大' (Shuada), which is a different name. The correct rendering should be '書利沙代' or similar, not '書亞大'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

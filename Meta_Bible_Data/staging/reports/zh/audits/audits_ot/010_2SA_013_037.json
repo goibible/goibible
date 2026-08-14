@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '大衛' (David) as the subject of mourning, but the Hebrew subject is implicit and contextually refers to David; however, the Hebrew text does not explicitly name David here, so this is a minor addition that clarifies the subject. Since it does not change the factual meaning for a reader, it is acceptable."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

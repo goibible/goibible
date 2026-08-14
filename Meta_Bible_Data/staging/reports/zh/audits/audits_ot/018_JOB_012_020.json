@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew מֵסִיר means 'removes/takes away', but Chinese renders it as '賜予' (gives/bestows), reversing the action. The verse says God removes speech from the faithful, not gives it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נֵץ' means 'hawk' (a bird of prey), not '雛鳥' (chick/fledgling). The subject is a specific bird, the hawk, not a generic young bird."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

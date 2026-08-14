@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֶחִי' means 'jaw/cheek', not 'face' (פָּנִים). The Chinese '臉' (face) is a mistranslation of the specific body part."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁנֵּי רְשָׁעִים' means 'teeth of the wicked', not '惡人的象牙' (ivory of the wicked). 'שִׁנַּיִם' means 'teeth', not 'ivory' (שֵׁן can mean ivory in some contexts, but here it clearly refers to teeth as the object of breaking)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

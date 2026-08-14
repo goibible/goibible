@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'דְּבַר יְהוָה צְבָאוֹת' means 'the word of the LORD of hosts' (i.e., the LORD of armies/hosts). The Chinese '耶和華軍隊的話' renders 'צְבָאוֹת' as '軍隊' (army) attributively to '耶和華', but the Hebrew construct chain is 'יְהוָה צְבָאוֹת' meaning 'YHWH of hosts' (a title), not 'the army of YHWH'. This changes the meaning: it makes the word belong to YHWH's army rather than to YHWH who is the Lord of hosts."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "JER",
+  "chapter": 47,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵיךְ תִּשְׁקֹטִי' is addressed to the city (feminine singular 'you'), meaning 'How can you be quiet?' The Chinese renders it as '耶和華啊，你怎能靜默呢？' which addresses YHWH ('O YHWH, how can you be silent?'), changing the addressee from the city to YHWH. This is a significant person shift."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '直到' ('until') which is not present in the Hebrew; the Hebrew has 'אֶל אַשְׁקְלוֹן וְאֶל חוֹף הַיָּם' ('to Ashkelon and to the seashore'), a simple prepositional phrase, not a temporal clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיהוָה צִוָּה לָהּ' means 'and YHWH has commanded her' (the city). The Chinese '他已吩咐她' ('he has commanded her') correctly refers to YHWH, but the preceding misaddress to YHWH creates confusion about who is being addressed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

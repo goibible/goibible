@@ -1,0 +1,26 @@
+{
+  "book": "HOS",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּגִּבְעָה' refers to the place name 'Gibeah' (a city), not a generic '小山丘' (hill). The Chinese rendering '小山丘' loses the proper name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל בְּנֵי עַֽלְוָֽה' means 'against the sons of wickedness' (or 'sons of iniquity'), not '亞勒法的兒子們' (sons of Alvah). 'עַלְוָה' is a common noun meaning 'wickedness/injustice', not a personal name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא תַשִּׂיגֵם' means 'they will not overtake them' (i.e., the battle will not reach them), but the Chinese '不能追上他們進行爭戰' implies 'they cannot catch up to them to wage war', which reverses the subject-object relationship: in Hebrew, the battle (or the enemies) will not overtake them, whereas the Chinese suggests the sons of Alvah cannot overtake Israel."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

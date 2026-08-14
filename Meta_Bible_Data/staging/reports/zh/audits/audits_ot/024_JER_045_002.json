@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 45,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '祂論到你如此說：' (He says concerning you:), which is not present in the Hebrew. The Hebrew only has 'עָלֶיךָ בָּרוּךְ' (concerning you, Baruch), without an additional 'thus says' clause."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

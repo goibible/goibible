@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 14,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מוֹצִאֵי דִבַּת הָאָרֶץ רָעָה' means 'those who brought out an evil report of the land' (i.e., the spies who gave a bad report about the land). The Chinese renders it as '那些在地裏尋找壞的毀謗的人' ('those who sought evil slander in the land'), which changes the meaning: the Hebrew says they 'brought out' (מוֹצִאֵי, from יָצָא, 'to go out/bring out') a report, not that they 'searched for' (尋找) slander. This alters the action and the nature of the offense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

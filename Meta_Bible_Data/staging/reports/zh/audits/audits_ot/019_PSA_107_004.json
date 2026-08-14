@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 107,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'בִּישִׁימוֹן' (yeshimon, 'wasteland/desert') is rendered as '耶示崙' (Yeshurun), a different proper name not present in the Hebrew. The Hebrew text has no proper name here; it is a common noun for a desolate place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

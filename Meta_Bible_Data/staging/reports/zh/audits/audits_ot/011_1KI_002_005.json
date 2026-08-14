@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְגַם אַתָּה יָדַעְתָּ' means 'And you also know' — the Chinese '你也知道' is correct. However, 'בֶן יֶתֶר' is a proper name 'son of Jether' (יֶתֶר), but the Chinese renders it as '餘剩物的兒子' ('son of the remnant/leftover'), which is a mistranslation of the proper name 'Jether' as a common noun. This changes the identity of Amasa's father."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

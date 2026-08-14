@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 7,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֶשְׁבּוֹן' (cheshbon) means 'account' or 'reckoning', not the place name '希實本' (Heshbon). The Chinese renders it as a proper noun place name, which is a mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

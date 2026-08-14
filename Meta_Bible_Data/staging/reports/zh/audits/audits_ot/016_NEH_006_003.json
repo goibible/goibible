@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 6,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְיָרַדְתִּי אֲלֵיכֶם' is a waw-consecutive perfect, meaning 'and I will come down to you' (future). The Chinese renders it as '我必到你們那裡去' which is acceptable. However, the clause 'כַּאֲשֶׁר אַרְפֶּהָ' means 'when I let it go' (i.e., when I finish/cease the work), but the Chinese '照我所吩咐的呢' ('as I have commanded?') misrepresents the meaning. The Hebrew does not say 'as I commanded'; it says 'when I let it go' or 'when I abandon it.' This changes the sense of the verse: Nehemiah is saying the work is great and he cannot come down; why should the work stop while he leaves it to come down to them? The Chinese adds '照我所吩咐的' which is not in the Hebrew and alters the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 11,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בַּעֲלוֹתוֹ מִמִּצְרַיִם' means 'when he came up from Egypt' (i.e., Israel coming up out of Egypt), but Chinese says '以色列上埃及時' ('when Israel went up to Egypt'), reversing the direction of travel."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

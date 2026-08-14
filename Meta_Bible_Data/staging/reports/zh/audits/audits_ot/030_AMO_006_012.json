@@ -1,0 +1,26 @@
+{
+  "book": "AMO",
+  "chapter": 6,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּבְּקָרִים' means 'with oxen' (plural of בָּקָר, cattle/oxen), not 'on rock' (磐石). The Chinese renders the second clause as '牲畜豈能耕於磐石？' (Can livestock plow on rock?), but the Hebrew says 'Can one plow with oxen?' — the object is the instrument (oxen), not a location (rock). This changes the meaning: the question is about plowing with oxen, not plowing on rocky ground."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְרֹאשׁ' means 'into poison/venom' (רֹאשׁ = poison, often translated as gall/hemlock), not 'head' (頭). The phrase 'הֲפַכְתֶּם לְרֹאשׁ מִשְׁפָּט' means 'you have turned justice into poison,' not 'you have turned the head of judgment.' The Chinese '將審判的頭變為苦荊棘草' (turn the head of judgment into bitter thorn grass) misrepresents 'רֹאשׁ' as 'head' instead of 'poison/venom.'"
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '苦荊棘草' (bitter thorn grass) for both 'לְרֹאשׁ' and 'לְלַעֲנָה' — but the Hebrew has two distinct terms: 'רֹאשׁ' (poison/venom) and 'לַעֲנָה' (wormwood, a bitter plant). The rendering conflates both into the same phrase, losing the distinction and adding 'thorn' (荊棘) which is not in the Hebrew for either term."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

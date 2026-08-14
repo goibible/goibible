@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 20,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'אִם אִדָּרֵשׁ לָכֶם' is an oath formula meaning 'if I am sought by you' (i.e., I will not be sought by you), but the Chinese renders it as '我必不再尋問你們' (I will no longer seek you), reversing the subject-object relationship: in Hebrew, the people seek God, not God seeking them. This changes who is doing the seeking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

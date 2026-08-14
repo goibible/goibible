@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is כְּבָר (Kebar, a river in Babylon), but the Chinese renders it as 基伯城 (city of Gibber?), adding 城 (city) and changing the name; the Hebrew says 'river Kebar' (נְהַר כְּבָר), not a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

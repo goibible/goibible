@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 17,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'for one staff (is) for the head of their fathers' house' (i.e., one staff per ancestral house), but the Chinese renders it as '因為各族長的家父都有一根杖' ('because the fathers of each tribal leader's house each have a staff'), which changes the subject from 'one staff for the head of the fathers' house' to 'the fathers of each tribal leader's house each have a staff.' This misrepresents the meaning: the Hebrew states that there is one staff for each ancestral head, not that the fathers themselves possess staffs."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

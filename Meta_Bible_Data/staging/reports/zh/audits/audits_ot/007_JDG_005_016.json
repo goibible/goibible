@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֵּין הַמִּשְׁפְּתַיִם' means 'between the sheepfolds' (or 'between the saddlebags'), not 'among the burdens' (擔子中間). The Chinese '擔子' (burdens) is a mistranslation of the Hebrew term."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִפְלַגּוֹת רְאוּבֵן גְּדוֹלִים חִקְרֵי לֵב' means 'for the divisions of Reuben, great are the searchings of heart' (i.e., Reuben's divisions cause great heart-searching). The Chinese '為流便支派的分裂而搜尋心' renders 'search the heart' as an imperative-like action, but the Hebrew is a nominal clause stating that the heart-searchings are great, not an instruction to search. This changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

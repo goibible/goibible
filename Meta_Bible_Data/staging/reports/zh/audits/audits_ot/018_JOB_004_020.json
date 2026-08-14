@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִבְּלִי מֵשִׂים' means 'without anyone who understands/considers' (i.e., 'for lack of understanding'), but the Chinese renders it as '因無有永遠' ('because there is no eternity'), which misinterprets 'מֵשִׂים' (understanding/considering) as 'forever/eternity' (לָנֶצַח). This changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֲבָדֶיךָ נָשְׂאוּ אֶת רֹאשׁ אַנְשֵׁי הַמִּלְחָמָה' means 'Your servants have taken the count of the men of war' (past tense, completed action), but the Chinese '必數點' ('will surely count') renders it as future/obligatory, changing the tense and meaning. The Hebrew states they have already counted, not that they will count."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

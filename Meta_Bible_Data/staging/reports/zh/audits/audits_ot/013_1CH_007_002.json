@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יִבְשָׂם (Yibsam) is rendered as '雅瑪人' (Yama people), which appears to be a different name/word rather than a transliteration of Yibsam."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

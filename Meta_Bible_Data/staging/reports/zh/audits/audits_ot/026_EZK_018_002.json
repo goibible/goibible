@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 18,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְשִׁנֵּי הַבָּנִים תִּקְהֶינָה' means 'and the children's teeth are set on edge' (i.e., become blunt/dull), but the Chinese renders it as '兒女的象牙就酸了' ('the children's ivory becomes sour'), which changes the meaning from teeth being affected to ivory being sour, and introduces '象牙' (ivory) not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

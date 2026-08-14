@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְעָב' (we'av) means 'a beam/threshold/ledge' (a structural beam), not '雲彩' (clouds). The Chinese rendering '雲彩' is an incorrect translation that changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

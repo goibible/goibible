@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְהוָה' (YHWH) is the divine name, used as a vocative or subject, not as the object of '尋求' (seek). The Chinese renders '尋求你的耶和華' ('YHWH who seeks you'), reversing the relationship: in Hebrew, it is the seekers who seek YHWH, not YHWH who seeks them. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

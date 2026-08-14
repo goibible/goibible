@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 80,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל אִישׁ יְמִינֶךָ' means 'upon the man of your right hand' (i.e., the man at your right hand), but the Chinese renders it as '在你右邊之人的手上' ('upon the hand of the man at your right hand'), adding '手上' (hand) which is not in the Hebrew. The Hebrew has 'יָדְךָ' (your hand) as the subject, and 'עַל אִישׁ' (upon the man), not 'upon the hand of the man'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

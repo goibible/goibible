@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וָאֶעְדֵּךְ עֶדִי' means 'I adorned you with ornaments' (from עדי, 'ornament/adornment'), not 'I made you a lowly one' (亞低). The Chinese '亞低' appears to be a transliteration error or misreading; it should convey 'adorned you with jewelry/ornaments'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

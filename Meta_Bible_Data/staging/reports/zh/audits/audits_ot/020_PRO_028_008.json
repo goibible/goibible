@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 28,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase לְחוֹנֵן דַּלִּים means 'for the one who is gracious to the poor' (i.e., the one who gives to the poor), but the Chinese renders it as '剝削貧寒人的' ('exploiting the poor'), which reverses the meaning. The Hebrew verb חָנַן means 'to be gracious/show favor', not 'to exploit'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Gaal son of Ebed' (גַּעַל בֶּן עֶבֶד), but the Chinese renders '贖，那僕人的兒子' — '贖' is not a transliteration of Gaal, and '那僕人的兒子' ('son of that servant') mistranslates the proper name Ebed (עֶבֶד, meaning 'servant') as a common noun, losing the personal name Gaal entirely."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention '伊甸' (Eden); it says '那未曾存在的人' (the one who has not yet existed). The Chinese adds a place name not present in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

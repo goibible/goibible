@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 96,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמְלֹאוֹ' means 'and its fullness' (i.e., everything in the sea), but the Chinese '並充滿滿足' renders it as 'and be filled with satisfaction', adding a concept of satisfaction not present in the Hebrew and misrepresenting the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

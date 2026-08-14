@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 15,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has עֲשָׂיָה (Asaiah), but Chinese renders 亞撒利雅 (Azariah), a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

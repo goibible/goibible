@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is יְהוֹנָדָב (Jehonadab), but the Chinese renders it as 耶何俄拿達, which appears to be a garbled/incorrect transliteration (possibly conflating with another name). The correct transliteration should be something like 約拿達 or 耶何拿達."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

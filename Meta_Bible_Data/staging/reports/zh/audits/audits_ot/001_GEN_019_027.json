@@ -1,0 +1,13 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

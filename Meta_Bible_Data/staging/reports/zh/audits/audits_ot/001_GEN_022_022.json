@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 22,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has four personal names (כֶּשֶׂד, חֲזוֹ, פִּלְדָּשׁ, יִדְלָף) and one place/personal name (בְּתוּאֵל). The Chinese renders חֲזוֹ as '哈佐人' and יִדְלָף as '雅大拉弗人', adding '人' (people) which is not in the Hebrew, and '雅大' is an extra syllable not present in the Hebrew name. Also '別土耳勒' for בְּתוּאֵל is a transliteration error (should be '彼土利' or similar), and the added '人' changes the meaning from a person's name to a people group."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

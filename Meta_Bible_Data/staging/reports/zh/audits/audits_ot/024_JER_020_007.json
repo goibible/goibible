@@ -1,0 +1,26 @@
+{
+  "book": "JER",
+  "chapter": 20,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִּתִּיתַנִי' (from פָּתָה, 'to entice/deceive') is rendered as '使我開口' ('made me open my mouth'), which changes the meaning from 'You enticed/deceived me' to 'You caused me to speak'. This is a substantive mistranslation of the verb."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וָאֶפָּת' ('and I was enticed/deceived') is rendered as '我便受感說話' ('and I was moved to speak'), which omits the core meaning of being deceived/enticed and replaces it with a different concept."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֲזַקְתַּנִי וַתּוּכָל' ('You have overcome me and prevailed') is rendered as '祂堅固我，我也勝過' ('He strengthened me, and I also overcame'), which reverses the subject/object: in Hebrew, YHWH overcomes the speaker, but the Chinese says the speaker overcomes. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

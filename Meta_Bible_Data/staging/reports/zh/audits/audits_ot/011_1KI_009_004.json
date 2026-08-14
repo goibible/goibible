@@ -1,0 +1,26 @@
+{
+  "book": "1KI",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאַתָּה אִם תֵּלֵךְ לְפָנַי' means 'And you, if you walk before me' — the Chinese '你若遵行我的面' is awkward and changes the meaning: '遵行我的面' (obey my face) is not equivalent to 'walk before me'. The verb 'walk' (תֵּלֵךְ) is rendered as '遵行' (obey/keep), and 'before me' (לְפָנַי) as '我的面' (my face), which is a mistranslation of the idiom 'walk before me' meaning to live/conduct oneself in God's presence."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'כַּאֲשֶׁר הָלַךְ דָּוִד אָבִיךָ' means 'as David your father walked' — the Chinese '像你父大衛以完全的心與正直行過的一切' adds '的一切' (all that) which is not in the Hebrew, and the verb 'walked' (הָלַךְ) is rendered as '行過' (did/passed through), which is acceptable, but the addition of '的一切' (all that) is an addition not present in the Hebrew."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese '遵行我所吩咐你的' (keep what I commanded you) corresponds to 'לַעֲשׂוֹת כְּכֹל אֲשֶׁר צִוִּיתִיךָ' (to do according to all that I commanded you), but the Chinese adds '遵行' (keep/obey) which is not in the Hebrew at that point — the Hebrew has 'לַעֲשׂוֹת' (to do) and 'כְּכֹל' (according to all), so the rendering is acceptable but the word '遵行' is an addition that changes the nuance from 'to do' to 'to keep/obey'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

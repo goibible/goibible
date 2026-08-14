@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 40,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'גדליהו בן אחיקם' (Gedaliah son of Ahikam) speaking to 'יוחנן בן קרח' (Johanan son of Kareah). The Chinese renders '耶大亞兒子亞希甘' which reverses the father-son relationship: it makes Ahikam the son of Gedaliah instead of Gedaliah being the son of Ahikam. The correct rendering should be '亞希甘的兒子基大利' (Gedaliah son of Ahikam)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 34,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְחֵיל מֶלֶךְ בָּבֶל' means 'the army of the king of Babylon' (חֵיל = army/force), but the Chinese renders it as '巴比倫王的力量' ('the strength/power of the king of Babylon'), which changes the subject from the army to an abstract force. This alters who is doing the fighting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

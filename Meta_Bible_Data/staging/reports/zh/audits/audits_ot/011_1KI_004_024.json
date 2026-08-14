@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 4,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'עֵבֶר הַנָּהָר' means 'beyond the River' (i.e., the region beyond the Euphrates), but the Chinese renders it as '以巴衛的大河' (the great river of Ibawi), treating 'עֵבֶר' as a proper name '以巴衛' rather than the common noun 'beyond/side'. This changes the geographical meaning: the Hebrew says he ruled over all the region beyond the River (Euphrates), from Tiphsah to Gaza, over all the kings beyond the River; the Chinese instead says he ruled 'the great river of Ibawi' and 'all kings of Ibawi', which is a substantive mistranslation of a key term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

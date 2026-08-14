@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Jehonathan son of Shimei, David's brother' (בֶּן שמעי אֲחִי דָוִד). The Chinese renders '大衛的弟兄希瑪利人的兒子約拿單' which swaps the order: it says 'David's brother, son of Shim'ei' instead of 'son of Shim'ei, David's brother'. Also '希瑪利' is an incorrect transliteration of 'Shimei' (שִׁמְעִי), which should be '示每' or similar, not '希瑪利'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

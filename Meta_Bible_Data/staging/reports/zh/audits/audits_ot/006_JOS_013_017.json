@@ -1,0 +1,22 @@
+{
+  "book": "JOS",
+  "chapter": 13,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בָּמוֹת בַּעַל' (Bamoth Baal), a place name meaning 'high places of Baal'. The Chinese renders it as '巴們山丘' (Ba-men hill), which appears to be a misreading/transliteration error: 'בָּמוֹת' (Bamoth) is not '巴們' (Ba-men); it should be '巴摩' or '巴莫'. This changes the proper name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבֵית בַּעַל מְעוֹן' is 'and Beth-baal-meon' (a compound place name). The Chinese '巴力麥安之家' renders it as 'house of Baal-meon', which is acceptable, but the preceding 'בָּמוֹת בַּעַל' is not a possessive construct ('high places of Baal') but a proper place name; the Chinese '巴們山丘' adds '山丘' (hill) which is not in the Hebrew as a separate word, though it may be an attempt to translate 'Bamoth' (high places). However, the transliteration '巴們' is incorrect for 'Bamoth'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

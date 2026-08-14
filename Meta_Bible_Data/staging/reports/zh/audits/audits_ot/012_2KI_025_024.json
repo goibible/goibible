@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 25,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is גְּדַלְיָהוּ (Gedaliah), but the Chinese renders it as 耶大亞, which appears to be a different name (possibly a transposition or error for 基大利). This changes the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

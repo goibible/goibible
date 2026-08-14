@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 3,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '直到耶和華從天垂看' (until the LORD looks down from heaven), which has no basis in the Hebrew text. The Hebrew only states that the eye flows and does not cease for lack of relief; it does not mention the LORD looking down from heaven."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

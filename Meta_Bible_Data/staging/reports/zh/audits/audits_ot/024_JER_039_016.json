@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְעֶבֶד מֶלֶךְ הַכּוּשִׁי' means 'to Ebed-melech the Cushite' (Ebed-melech is a proper name, 'servant of the king'). The Chinese renders it as '古實人以伯米勒的僕人' which means 'the servant of Ebed-melech the Cushite', reversing the construct relationship. In Hebrew, 'עֶבֶד מֶלֶךְ' is a proper name (Ebed-melech), not 'servant of the king' as a title. The Chinese adds '的僕人' (the servant of), making it appear that the message is to a servant of Ebed-melech, whereas the Hebrew addresses Ebed-melech himself."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

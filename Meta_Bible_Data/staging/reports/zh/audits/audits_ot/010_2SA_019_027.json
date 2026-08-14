@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיְרַגֵּל בְּעַבְדְּךָ' means 'he spied on your servant' (i.e., the speaker's servant), but the Chinese renders it as '他向我主人王打聽我僕人的事' ('he inquired about my servant's affairs from my lord the king'), which reverses the direction: the Hebrew has the subject spying on the speaker's servant, not asking the king about the servant. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

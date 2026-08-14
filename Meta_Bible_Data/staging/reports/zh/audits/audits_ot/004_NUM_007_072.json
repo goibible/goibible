@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 72,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'on the eleventh day' (עַשְׁתֵּי עָשָׂר יוֹם), but Chinese says 'on the twelfth day' (在第十二日)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

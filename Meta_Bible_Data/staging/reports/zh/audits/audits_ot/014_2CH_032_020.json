@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 32,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וַיִּזְעֲקוּ הַשָּׁמָיִם' — 'they cried out to heaven' (the verb is plural, subject is Hezekiah and Isaiah). The Chinese renders '向天哀求' (begged to heaven), which is acceptable. However, the phrase '亞摩斯城的兒子' is an addition — the Hebrew has 'בֶן אָמוֹץ' meaning 'son of Amoz' (a personal name), not 'son of the city of Amoz'. This changes the meaning: Amoz is a person, not a city."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'עַל זֹאת' ('concerning this') is not explicitly rendered in the Chinese; the phrase '向上帝呼求' omits the referent 'this' (the matter at hand), though context may imply it. This is a minor omission but could be considered substantive."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

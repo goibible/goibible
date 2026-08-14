@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 47,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מָגִנֵּי אֶרֶץ' means 'the shields of the earth' (i.e., rulers/leaders of the earth), but Chinese renders '屬神的盾牌是地上的' ('God's shields are of the earth'), adding '屬神的' (belonging to God) which is not in the Hebrew, and misidentifying the subject. The Hebrew says the shields of the earth belong to God and are highly exalted, not that they are earthly."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

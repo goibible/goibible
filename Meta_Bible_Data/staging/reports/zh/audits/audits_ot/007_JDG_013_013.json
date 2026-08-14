@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 13,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'to the woman' (אֶל הָאִשָּׁה), but the Chinese renders it as '對妻子' (to the wife), which changes the referent from 'the woman' to 'the wife'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

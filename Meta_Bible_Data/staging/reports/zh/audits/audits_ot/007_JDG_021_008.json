@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 21,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מִיָּבֵישׁ גִּלְעָד' means 'from Jabesh-gilead' (a place name). The Chinese renders it as '約別士人基列' which appears to be a garbled transliteration, splitting 'Jabesh' into '約別士' and adding '人' (people) incorrectly, and rendering 'Gilead' as '基列'. This misrepresents the proper name 'Jabesh-gilead' and could confuse the reader about the place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

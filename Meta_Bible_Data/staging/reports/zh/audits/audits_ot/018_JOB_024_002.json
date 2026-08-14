@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 24,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גְּבֻלוֹת יַשִּׂיגוּ' means 'they reach/attain boundaries' (subject is 'they', i.e., the wicked), not 'their boundaries will expand'. The Chinese renders it as a passive/impersonal expansion of boundaries, changing the subject and action. The Hebrew has the wicked seizing boundaries, not boundaries expanding."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֵדֶר גָּזְלוּ וַיִּרְעוּ' means 'they stole a flock and pastured it' (subject 'they' continues), but the Chinese says '掠奪的羊群必來牧放' ('the plundered flock will come to graze'), making the flock the subject and adding '必來' (will come) which is not in the Hebrew. The Hebrew has the wicked as the active agents of stealing and pasturing, not the flock acting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

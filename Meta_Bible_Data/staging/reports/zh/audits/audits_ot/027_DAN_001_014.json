@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew verb וַיְנַסֵּם (from נסה, 'to test/prove') is omitted; the Chinese only says '讓他們十日' (let them ten days), missing the sense of 'testing them for ten days'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

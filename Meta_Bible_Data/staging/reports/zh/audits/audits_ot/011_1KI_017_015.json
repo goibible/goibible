@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 17,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '以利亞' (Elijah) as a subject of eating, but the Hebrew 'הוא והיא וביתה' means 'he and she and her household' — 'הוא' refers to the widow's son (or the man of the house), not Elijah. This changes who ate."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

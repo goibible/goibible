@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'לְסַלַּ֥י קַלָּ֖י' (for Sallai, Kallai) and 'לְעָמ֥וֹק עֵֽבֶר' (for Amok, Eber). Chinese renders '屬撒拉的是加來' (for Sala is Jialai) and '屬暗俄的是希伯' (for An'e is Xibo). The first name 'סַלַּ֥י' (Sallai) is rendered as '撒拉' (Sala), which is a different name (Sara/Salah), not Sallai. The second name 'קַלָּ֖י' (Kallai) is rendered as '加來' (Jialai), which is acceptable. The third name 'עָמ֥וֹק' (Amok) is rendered as '暗俄' (An'e), which is a different name (An'e vs. Amok). The fourth name 'עֵֽבֶר' (Eber) is rendered as '希伯' (Xibo), which is a different name (Eber vs. Heber). Thus two proper names are swapped for different names, changing the identity of the persons."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

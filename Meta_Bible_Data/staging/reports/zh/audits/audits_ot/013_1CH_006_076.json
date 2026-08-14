@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 76,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has קִרְיָתַיִם (Kiriathaim), but Chinese renders it as 基列亞音 (Gilead-jaam?), which is a different place name. The correct rendering should be 基列亞音 or 基列亞廷? Actually 基列亞音 is not the standard transliteration of קִרְיָתַיִם; it appears to be a swap with another name (possibly 基列亞巴 or similar). The Hebrew name is Kiriathaim, not Gilead-jaam."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 24,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'בְּעֵבֶר הַנָּהָר' ('beyond the River' / 'across the River'), referring to the Euphrates, but the Chinese adds '以巴衛' (Ephrath?) which is not in the Hebrew text. The Hebrew does not name the river here; it simply says 'the River' (i.e., the Euphrates). The addition of '以巴衛' is an unsupported name not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

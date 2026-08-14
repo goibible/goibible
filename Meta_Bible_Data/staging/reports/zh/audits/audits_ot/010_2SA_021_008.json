@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the five sons were born to Adriel son of Barzillai the Meholathite (עַדְרִיאֵל בֶּן בַּרְזִלַּי הַמְּחֹלָתִי). The Chinese renders '亞大利以勒' for Adriel, which is a different name (Adaliel/Ataliel), not Adriel. This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

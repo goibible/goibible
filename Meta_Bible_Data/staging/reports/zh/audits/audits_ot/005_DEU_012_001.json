@@ -1,0 +1,22 @@
+{
+  "book": "DEU",
+  "chapter": 12,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אֲשֶׁר נָתַן יְהוָה אֱלֹהֵי אֲבֹתֶיךָ לְךָ לְרִשְׁתָּהּ' means 'which Yahweh, the God of your fathers, has given you to possess it' — the land is given to you to possess. The Chinese renders it as '就是耶和華你父的神賜給你的地' ('that is the land which Yahweh, the God of your fathers, gave you'), omitting the purpose/infinitive 'לְרִשְׁתָּהּ' ('to possess it') and thus losing the sense that the land is given for possession. This is a substantive omission of a clause element."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בָּאָרֶץ' ('in the land') is a locative phrase describing where the statutes and judgments are to be observed. The Chinese '於田地之上' ('upon the field/ground') renders 'עַל הָאֲדָמָה' ('upon the ground/earth') at the end, but the initial 'בָּאָרֶץ' is not clearly represented; the Chinese conflates the two locative phrases, potentially confusing the reader about the setting. This is a mistranslation of the locative structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

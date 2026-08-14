@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עֵבֶר פָּנֶיהָ' means 'the space in front of it' (i.e., the lampstand's front side), not '以巴衛的面' which appears to be a transliteration error or misreading; 'עֵבֶר' is 'side/region', not a proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

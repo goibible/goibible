@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 49,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'שִׁמְעוֹן' is Simeon, but Chinese renders '西門' (Simon/Ximen), a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew פַּאֲרֵי הַמִּגְבָּעֹת means 'the ornaments/headpieces of the turbans' (or 'the turbans' headpieces'), not '細麻頭巾的榮耀' ('the glory of the linen turbans'). The word פְּאֵר (pa'er) means 'headpiece/ornament/turban', not 'glory' (which would be כָּבוֹד). This changes the meaning of the item described."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

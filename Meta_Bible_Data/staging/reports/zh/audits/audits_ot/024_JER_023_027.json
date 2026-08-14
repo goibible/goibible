@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 23,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּבָּעַל' means 'by Baal' (the deity), but the Chinese renders it as '歸從主人' ('following the master'), which changes the meaning from idolatry to Baal to a generic master."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

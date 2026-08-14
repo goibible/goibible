@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֶלְעָשָׂה (Elasah) is rendered as 以拉撒人, which adds 人 (person) and changes the name; it should be 以拉撒 (Elasah). Also, סִֽסְמַי (Sismai) is rendered as 西斯瑪伊人, adding 人; the correct name is 西斯瑪伊. The name שַׁלּוּם (Shallum) is rendered as 沙魯姆, which is a different transliteration (Shallum vs. Shalum) — this is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

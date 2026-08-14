@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 60,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'קִרְיַת בַּעַל' (Kiriath-baal) is rendered as '巴力基列城' (Baal-gilead city), swapping the order of the name components; it should be '基列巴力城' or similar, not '巴力基列城'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

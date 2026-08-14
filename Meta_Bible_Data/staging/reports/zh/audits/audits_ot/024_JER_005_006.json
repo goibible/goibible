@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְשֻׁבוֹתֵיהֶם' (meshuvotehem) means 'their backslidings' or 'their turnings away' (from God), not 'their backsliders' or 'their ones who turn away' (背道而馳者). The Chinese '他們的背道而馳者也增強了' adds '者' (persons) and shifts the meaning from abstract 'backslidings' to 'those who turn away', changing the subject from actions to people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

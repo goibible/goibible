@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 16,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בִּגְדֵ֣י הַבָּ֔ד' means 'the linen garments' (בַּד = linen), but the Chinese renders it as '獨自衣服' ('alone/private clothes'), which is a mistranslation of the word 'בַּד' (linen) as if it were 'בָּדָד' (alone). This changes the meaning of the garments described."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

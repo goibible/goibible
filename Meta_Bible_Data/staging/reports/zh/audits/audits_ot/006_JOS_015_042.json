@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעָשָׁן' means 'and Ashan' (a place name), but the Chinese renders it as '和煙' (and smoke), which is a mistranslation of the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

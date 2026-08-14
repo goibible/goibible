@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 31,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text begins with 'וְקוֹרֵא' (and Kore), a proper name, but the Chinese renders it as '可拉' (Korah). These are different names; Kore is the person in view, not Korah."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

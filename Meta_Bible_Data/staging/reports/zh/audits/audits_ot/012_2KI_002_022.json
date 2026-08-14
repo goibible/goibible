@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיֵּרָפוּ הַמַּיִם' means 'the waters were healed' (i.e., made wholesome/pure), but the Chinese says '水直到這日仍未止住' ('the waters have not stopped until this day'), which misrepresents the meaning as 'not stopped' instead of 'healed/purified'."
+        }
+      ],
+      "confidence": 5.0
+    }
+  }
+}

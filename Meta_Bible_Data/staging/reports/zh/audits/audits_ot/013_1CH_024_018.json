@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew says Delaiah had 23 (three and twenty) and Maaziah had 24 (four and twenty), but the Chinese says 32 and 42 respectively, reversing the digits."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

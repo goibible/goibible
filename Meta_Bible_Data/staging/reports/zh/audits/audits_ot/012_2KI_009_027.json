@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּמַעֲלֵה גוּר' means 'at the ascent of Gur' (a place name, 'Gur'), but the Chinese renders it as '以伯蓮的幼獸階梯' ('the young-animal staircase of Ibleam'), which misidentifies 'Gur' as '幼獸' (young animal) and adds '以伯蓮' (Ibleam) as a possessive, changing the place name and meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

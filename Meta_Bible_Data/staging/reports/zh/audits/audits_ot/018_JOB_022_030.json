@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 22,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְמַלֵּט אִי נָקִי' means 'He will deliver the innocent man' (or 'the innocent island' as a rare word), but the Chinese renders it as a rhetorical question '他豈能救潔淨的人呢？' ('Can he save the clean/pure person?'), which reverses the meaning from a positive statement to a question implying inability. The Hebrew is a declarative statement, not a question."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause 'וְנִמְלַט בְּבֹר כַּפֶּיךָ' means 'and he will be delivered by the purity of your hands' (i.e., through your clean hands), but the Chinese '他必從你的手掌中被救出' ('he will be rescued from your palm') changes the agent/instrument: the Hebrew says deliverance is through the purity of your hands, not from being taken out of your hand. This alters the meaning of who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

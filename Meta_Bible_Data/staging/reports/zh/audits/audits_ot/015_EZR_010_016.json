@@ -1,0 +1,22 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְדַרְיוֹשׁ הַדָּבָר' means 'to investigate the matter' (infinitive of דָּרַשׁ with the object 'the matter'), but the Chinese renders it as '達理阿話的十月一日' ('on the first day of the tenth month of Darius's words'), incorrectly treating 'דַּרְיֹוֶשׁ' (Darius) as a proper name attached to the month and misreading the infinitive as a noun. The correct rendering should be 'to investigate the matter' (e.g., '審理此事'), not '達理阿話'."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'דַּרְיֹוֶשׁ' (Darius) is a proper name, but the Chinese '達理阿話' adds '話' (words) and misplaces it as modifying the month, whereas the Hebrew has no such connection; the month is simply 'the tenth month' (הָעֲשִׂירִי) without any reference to Darius."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

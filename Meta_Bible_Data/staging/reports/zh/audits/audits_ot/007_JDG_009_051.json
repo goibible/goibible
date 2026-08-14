@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וּמִגְדַּל עֹז' means 'a strong tower' (or 'tower of strength'), but the Chinese renders it as '城樓中的能力' ('the ability/power within the city tower'), which misconstrues the construct chain: 'עֹז' (strength) is the attribute of the tower, not a separate entity located in it. The Chinese reader would understand the tower as containing 'ability' rather than being a strong tower."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 14,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew מַלְאָכִים means 'messengers/envoys', not 'angels' (天使). The Chinese rendering '天使' gives a supernatural meaning not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

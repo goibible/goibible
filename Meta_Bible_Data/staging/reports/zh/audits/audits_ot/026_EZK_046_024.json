@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 46,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מְשָׁרְתֵי הַבָּיִת' means 'servants of the house/temple' (temple servants), not '祭司' (priests). The Chinese rendering changes the subject from temple servants to priests, altering who does the cooking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

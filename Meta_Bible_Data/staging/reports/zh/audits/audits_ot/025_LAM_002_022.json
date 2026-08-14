@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 2,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹיְבִ֥י כִלָּֽם' means 'my enemy has consumed/annihilated them' (the enemy is the subject of the verb, consuming the ones I raised). The Chinese renders it as '祂已盡滅其敵' ('He has completely destroyed His enemies'), reversing the subject and object: in Hebrew, the enemy destroys the nurtured ones, not God destroying the enemy. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

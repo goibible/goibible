@@ -1,0 +1,18 @@
+{
+  "book": "SNG",
+  "chapter": 4,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גַּל נָעוּל' means 'a locked garden' (or 'an enclosed garden'), but the Chinese renders 'גַּל' as '波浪' (wave), which is a mistranslation. The word 'גַּל' here is a variant of 'גַּן' (garden), not 'wave'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

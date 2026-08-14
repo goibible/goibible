@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְלֹא נִכַּר שׁוֹעַ לִפְנֵי דָל' means 'nor regards the noble more than the poor' (i.e., does not show favoritism to the rich over the poor). The Chinese '也不顧貧民的哀號' ('nor regards the cry of the poor') introduces '哀號' (cry/wailing) which is not in the Hebrew, and changes the meaning from not favoring the noble over the poor to ignoring the poor's cry. The Hebrew contrasts 'שָׂרִים' (princes/officials) and 'שׁוֹעַ' (noble) with 'דָל' (poor), not 'cry of the poor'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

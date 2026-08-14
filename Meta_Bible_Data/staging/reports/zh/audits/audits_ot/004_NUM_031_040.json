@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁשָּׁה עָשָׂר אָלֶף' means 'sixteen thousand' (16,000), but Chinese renders '十六萬' meaning 'one hundred sixty thousand' (160,000), an error of magnitude."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

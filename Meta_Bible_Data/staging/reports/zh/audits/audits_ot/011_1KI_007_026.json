@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פֶּרַח שׁוֹשָׁן' means 'lily blossom' (a flower), not '示珊城花蕾' (a city named Shoshan). 'שׁוֹשָׁן' is the word for 'lily', not a place name. This changes the meaning from a decorative lily-shaped cup rim to a reference to a city."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּת' (bat) is a unit of liquid measure (about 22 liters), not 'daughter' (daughter would be 'בַּת' as well, but in context of capacity 'יָכִיל' it clearly means the measure). The Chinese '二千女兒' (two thousand daughters) misinterprets the measure as 'daughters', changing the factual claim from capacity (two thousand baths) to a nonsensical number of daughters."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

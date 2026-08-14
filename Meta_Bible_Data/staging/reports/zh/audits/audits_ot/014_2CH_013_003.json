@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 13,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is אֲבִיָּה (Abijah), but the Chinese renders it as 亞比亞 (Yàbǐyà), which is a different name (Abia/Abijah vs. Abia). The standard Chinese rendering for Abijah is 亞比雅, not 亞比亞."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says אַרְבַּע מֵאוֹת אֶלֶף (four hundred thousand), but the Chinese says 四百萬 (four million). Similarly, שְׁמוֹנֶה מֵאוֹת אֶלֶף (eight hundred thousand) is rendered as 八百萬 (eight million). The numbers are inflated by a factor of ten."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

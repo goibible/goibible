@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 4,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists Caleb's sons as עִירוּ (Iru), אֵלָה (Elah), and נָעַם (Naam). The Chinese renders '以路' for עִירוּ, which is acceptable, but then adds '以拉' (Elah) as a second son and '拿安' (Naam) as a third, while the Hebrew has only three names: Iru, Elah, Naam. The Chinese text says '以路、以拉和拿安' (Iru, Elah, and Naam) — that matches the three Hebrew names. However, the second clause '以拉的兒子是基納斯' (Elah's son is Kenaz) is an addition not present in the Hebrew, which only says 'and the sons of Elah: Kenaz' (וּבְנֵ֥י אֵלָ֖ה וּקְנַֽז). The Hebrew does not specify that Kenaz is Elah's son; it says 'sons of Elah: Kenaz' (plural 'sons' but only one name listed, a common construct). The Chinese adds a possessive relationship '以拉的兒子' (Elah's son) which is not in the Hebrew; the Hebrew simply lists 'and the sons of Elah: Kenaz' without stating Kenaz is Elah's son. This is a minor addition that changes the grammatical relationship, but the meaning is essentially the same. More significantly, the first clause: Hebrew 'וּבְנֵי כָלֵב בֶּן יְפֻנֶּה עִירוּ אֵלָה וָנָעַם' — 'and the sons of Caleb son of Jephunneh: Iru, Elah, and Naam'. The Chinese '耶孚尼的兒子迦勒的兒子是以路、以拉和拿安' correctly renders this. The issue is the second clause: Hebrew 'וּבְנֵי אֵלָה וּקְנַז' — 'and the sons of Elah: Kenaz'. The Chinese '以拉的兒子是基納斯' adds '兒子' (son) singular, but Hebrew has 'בְּנֵי' (sons of) plural. This is a number change (plural to singular) and an addition of a possessive '的' that is not in the Hebrew. However, the meaning is not substantially different. The main flag is the addition of '是' (is) and the singular '兒子' instead of plural 'sons', but this is a minor grammatical difference. Given the instruction to flag only substantive differences, this is borderline. The Hebrew has 'וּבְנֵי אֵלָה וּקְנַז' — 'and the sons of Elah: Kenaz' — the Chinese says '以拉的兒子是基納斯' — 'Elah's son is Kenaz'. The Hebrew plural 'sons' is rendered as singular 'son', which is a number change, but in context it's a list, so it's acceptable. The addition of '是' is natural. I'll flag for the number change from plural to singular, but it's minor. Actually, the instruction says flag only if a reader would believe something factually different. Here, the reader would understand that Kenaz is Elah's son, which is implied in the Hebrew (since it says 'sons of Elah: Kenaz', it implies Kenaz is a son of Elah). So the meaning is the same. The plural-to-singular is a minor issue. I'll mark OK. But wait, the first clause: the Hebrew has three names: Iru, Elah, Naam. The Chinese has '以路、以拉和拿安' — that's three. So that's fine. The second clause is fine. So overall OK. However, I notice the Chinese says '以拉的兒子是基納斯' — that's fine. So verdict OK. But let me double-check the Hebrew: 'וּבְנֵי כָלֵב בֶּן יְפֻנֶּה עִירוּ אֵלָה וָנָעַם' — 'and the sons of Caleb son of Jephunneh: Iru, Elah, and Naam'. The Chinese '耶孚尼的兒子迦勒的兒子是以路、以拉和拿安' — that's correct. Then 'וּבְנֵי אֵלָה וּקְנַז' — 'and the sons of Elah: Kenaz'. Chinese '以拉的兒子是基納斯' — that's correct. So no substantive error. I'll mark OK. But the instruction says flag for number changes that change who is doing what. Here, plural to singular doesn't change the fact. So OK. I'll go with OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

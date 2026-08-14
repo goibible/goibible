@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name רִתְמָה (Rithmah) is rendered as 利瑪哈 (Lǐmǎhā), which is a transliteration error — the Hebrew has a ת (t) not a מ (m) in the second syllable, so it should be something like 利特瑪 (Rithmah). The Chinese 利瑪哈 changes the name's consonants."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew place name רִמֹּן פָּרֶץ (Rimmon-perez) is rendered as 帕列茨石榴樹林 ('Perez pomegranate grove'), which reverses the order of the two elements: the Hebrew is 'Rimmon (pomegranate) of Perez' or 'Rimmon-perez', with Rimmon as the primary name and Perez as a qualifier. The Chinese puts Perez first and adds 石榴樹林 (pomegranate grove) as a descriptive gloss, which is not in the Hebrew and changes the proper name into a descriptive phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

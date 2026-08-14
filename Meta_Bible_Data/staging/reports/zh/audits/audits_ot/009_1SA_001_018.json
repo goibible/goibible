@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase וּפָנֶיהָ לֹא הָיוּ לָהּ עוֹד (literally 'and her face was no longer [sad] to her') means her countenance was no longer downcast/sad. The Chinese '她的面不再有' ('her face no longer had') is incomplete and omits the implied object (sadness), making it unclear or factually different from the Hebrew meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

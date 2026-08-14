@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 56,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'seventy brothers' (שִׁבְעִים אֶחָיו), but the Chinese renders '七十二個弟兄' (seventy-two brothers), adding the number two."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

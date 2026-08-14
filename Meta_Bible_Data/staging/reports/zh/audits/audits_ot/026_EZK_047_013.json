@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 47,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁבְטֵי' means 'tribes' (of Israel), but Chinese renders it as '杖' (staff/rod), which is a mistranslation of the word; it should be '支派' or '族'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '每年' (every year), which is not present in the Hebrew text. The Hebrew simply states that Mesha paid tribute of 100,000 lambs and 100,000 rams' wool, without specifying a yearly frequency."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

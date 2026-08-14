@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew word אִשָּׁה (ishah) means 'woman' or 'wife', but in this context it is a woman, not specifically a 'wife' (妻子). The Chinese rendering '一位妻子' (a wife) adds a marital status not present in the Hebrew, which could mislead the reader into thinking the woman is married, whereas the Hebrew simply says 'a woman'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

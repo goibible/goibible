@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַחֲזִיקִים עַל אֲחֵיהֶם אַדִּירֵיהֶם' means 'they are holding fast to their brothers, their nobles' (i.e., joining with their fellow Israelites, the nobles). The Chinese '他們緊守弟兄和尊貴者' renders 'אַדִּירֵיהֶם' as '尊貴者' (nobles) as an object of '緊守' (hold fast to), which is acceptable, but the phrase 'עַל אֲחֵיהֶם' is 'to their brothers' — the Chinese '弟兄' is fine. However, the rendering '緊守弟兄和尊貴者' could be read as holding fast to both brothers and nobles, which matches the Hebrew. The main issue is the verb 'מַחֲזִיקִים' (holding fast/joining) — the Chinese '緊守' (strictly keep/guard) may imply guarding rather than joining/cleaving, but this is a minor nuance. The more significant issue is the omission of the sense of 'joining with' their brothers in a covenant commitment; the Chinese '進入咒詛與誓言中' for 'וּבָאִים בְּאָלָה וּבִשְׁבוּעָה' is acceptable. The overall meaning is preserved, so this may be OK. However, the phrase 'עַל אֲחֵיהֶם' is rendered as '弟兄' without the prepositional nuance, but that is idiomatic. I will not flag this as a clear error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

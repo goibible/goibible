@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has two names: חֵזִיר (Hezir) and הַפִּצֵּץ (Happitsets). The Chinese renders them as 希宰爾 and 亞斯弗. The second name 亞斯弗 does not correspond to הַפִּצֵּץ; it appears to be a different name (possibly a transliteration of a different Hebrew name like אָסָף or similar). This is a name swap/error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

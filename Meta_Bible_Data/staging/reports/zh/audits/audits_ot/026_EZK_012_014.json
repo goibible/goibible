@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 12,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עזרה' (help/helper) is rendered as '幫助者' (helper), which is acceptable, but 'אֲגַפָּיו' (his wings/forces) is translated as '臂' (arms), which is a mistranslation; 'אֲגַפָּיו' means 'his wings' or 'his forces/bands', not 'arms'. Also, 'אֱזָרֶה' (I will scatter) is rendered as '束縛' (bind/restrain), which is a mistranslation; the Hebrew means 'I will scatter' (to all winds), not 'bind'. The phrase 'לְכָל רוּחַ' (to every wind) is rendered as '為一切靈' (for all spirits), which changes the meaning from 'wind' to 'spirit'. The final clause 'וְחֶרֶב אָרִיק אַחֲרֵיהֶם' (and I will draw out a sword after them) is rendered as '刀劍向他們四面揮動' (swords wave around them on all sides), which adds '四面' (all sides) not in the Hebrew and changes 'draw out' to 'wave'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

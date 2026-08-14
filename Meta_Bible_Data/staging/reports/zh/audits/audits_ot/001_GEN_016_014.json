@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name בָּרֶד (Bered) is transliterated as 別列人 ('people of Bered'), adding 人 ('people') which is not in the Hebrew; the Hebrew simply says 'between Kadesh and Bered' (בֵין קָדֵשׁ וּבֵין בָּרֶד). The Chinese rendering '別列人之間' implies 'between the people of Bered,' which changes the meaning from a location to a group of people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

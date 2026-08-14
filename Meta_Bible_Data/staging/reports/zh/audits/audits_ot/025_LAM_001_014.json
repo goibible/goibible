@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּידֵ֖י לֹא אוּכַ֥ל קֽוּם' means 'in [whose] hands I cannot rise' (i.e., I am delivered into hands from which I cannot rise), but the Chinese '主將我交在無法站立的人手中' renders it as 'the Lord delivered me into the hands of people who cannot stand,' changing the subject of inability from the speaker to the people. The Hebrew says the speaker cannot rise, not that the people cannot stand."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

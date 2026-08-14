@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 21,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '作為我與會眾之間的證據' (as evidence between me and the assembly), but the Hebrew says 'תִּהְיֶה לִּי לְעֵדָה' (it shall be for me as a witness/evidence), without mentioning '會眾' (assembly). The addition of '與會眾之間' (between me and the assembly) introduces a concept not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

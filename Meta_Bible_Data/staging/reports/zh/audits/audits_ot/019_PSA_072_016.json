@@ -1,0 +1,26 @@
+{
+  "book": "PSA",
+  "chapter": 72,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פִסַּת בַּר' means 'abundance of grain' (a measure/abundance of wheat), not 'a handful of wheat' (一把). The Chinese '一把' (a handful) significantly understates the meaning of abundance."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יִרְעַשׁ' means 'it shall shake/tremble' (referring to the abundance of grain on the mountain tops), but the Chinese '必搖動' (shall shake) is acceptable; however, the subject '山的頭上' (on the top of the mountains) is rendered as '山的頭上必搖動' which could be misread as the mountain tops shaking, whereas the Hebrew means the grain on the mountain tops shall shake like Lebanon. This is a minor ambiguity but not a clear error."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְיָצִיצוּ מֵעִיר' means 'and they (the people/cities) shall blossom/flourish from the city' — the verb 'יָצִיצוּ' (they shall blossom) is plural, referring to people or inhabitants, but the Chinese '城中要長出' (in the city shall grow) changes the subject to plants/grass, losing the sense of people flourishing. This is a mistranslation of the subject and verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

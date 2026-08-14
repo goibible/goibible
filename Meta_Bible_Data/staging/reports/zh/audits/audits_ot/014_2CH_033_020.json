@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 33,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אָמוֹן (Amon) is rendered as '亞捫人' (Ammonite), which changes the person's name to an ethnic designation. The correct rendering should be '亞捫' (Amon), not '亞捫人'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

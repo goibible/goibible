@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 13,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text refers to יְהוֹאָחָז (Jehoahaz), but the Chinese translation renders it as 約雅敬 (Jehoiakim), a different king."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 16,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese renders 'וְלֵךְ אֶֽשְׁלָחֲךָ' as '去我那裡差遣你' ('go to me, I will send you'), which adds '我那裡' (to me) not present in the Hebrew. The Hebrew simply says 'go, I will send you' (וְלֵךְ אֶֽשְׁלָחֲךָ), meaning 'go, for I will send you' or 'go, I will send you' — the 'to me' is an addition that changes the sense of the command."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

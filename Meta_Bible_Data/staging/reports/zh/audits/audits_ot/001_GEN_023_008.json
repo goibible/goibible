@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 23,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בֶּן צֹחַר' means 'son of Zohar', but the Chinese renders it as '閃光的兒子' ('son of Shining/Flash'), which is a mistranslation of the proper name 'Zohar' as a common adjective rather than a personal name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

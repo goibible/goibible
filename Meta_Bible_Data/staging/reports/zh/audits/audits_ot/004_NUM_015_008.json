@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 15,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew specifies 'a young bull' (בֶן בָּקָר, literally 'son of cattle'), but the Chinese renders it as '牲畜' (livestock/animal), losing the specific animal and its age."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

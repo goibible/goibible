@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 7,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בָּמוֹת הַתֹּפֶת' (high places of Topheth) is rendered as '他泊的高處' (high places of Tabor), substituting the place name Topheth with Tabor, which is a different location."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

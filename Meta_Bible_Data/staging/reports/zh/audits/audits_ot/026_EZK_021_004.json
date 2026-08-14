@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִתַּעְרָהּ' means 'from its sheath' (scabbard), not 'from a razor' (剃刀). The Chinese renders '剃刀' (razor), which is a mistranslation of the noun 'תַּעַר' (sheath)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

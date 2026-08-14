@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 49,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'before their enemies' (לִפְנֵי אֹיְבֵיהֶם), but the Chinese renders it as '在我們敵人的面' (before our enemies), changing the possessive from 'their' (Elam's) to 'our' (the speaker's). This alters who the enemies belong to."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

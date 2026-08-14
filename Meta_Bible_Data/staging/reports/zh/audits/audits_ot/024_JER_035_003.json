@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 35,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וָאֶקַּח' (I took), but the Chinese says '我帶著' (I brought/took along), which is acceptable. However, the Hebrew names are: יַאֲזַנְיָה (Jaazaniah) בֶן יִרְמְיָהוּ (son of Jeremiah) בֶן חֲבַצִּנְיָה (son of Habazziniah). The Chinese renders '耶利米的兒子雅撒尼亞' (Jaazaniah son of Jeremiah) and '哈巴撒尼亞的兒子' (son of Habazziniah), which is correct. But the final phrase 'וְאֵת כָּל בֵּית הָרֵכָבִים' means 'and all the house of the Rechabites' — the Chinese says '和利迦家的一切' (and all the house of Lijia), which appears to be a mistranslation of 'הָרֵכָבִים' (the Rechabites) as '利迦' (Lijia) instead of '利甲' (Rechab). This is a name swap/error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

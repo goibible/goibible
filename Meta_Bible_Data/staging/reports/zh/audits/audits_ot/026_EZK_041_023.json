@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 41,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'two doors for the temple and for the holy place' (וּשְׁתַּיִם דְּלָתוֹת לַהֵיכָל וְלַקֹּדֶשׁ), meaning two doors total, one for the temple and one for the holy place. The Chinese renders '一扇為宮殿，一扇為聖所' (one for the palace, one for the sanctuary), which correctly conveys two doors, but the term '宮殿' (palace) is a mistranslation of 'הֵיכָל' (temple/palace of God, i.e., the temple proper). While 'הֵיכָל' can mean palace, in this context it refers to the temple building, not a royal palace. The Chinese reader would understand '宮殿' as a secular palace, which is a factual difference from the Hebrew's 'temple'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

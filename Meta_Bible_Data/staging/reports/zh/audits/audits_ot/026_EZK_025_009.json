@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 25,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'צְבִי אֶרֶץ' means 'the glory of the land' or 'the pride of the land', not '地的母鹿' (the doe of the land). The word 'צְבִי' is a noun meaning 'glory/beauty', not 'doe' (which would be 'צְבִיָּה'). This changes the meaning of the verse."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'קְרִיָּתַיְמָה' (Kiriathaim) is rendered as '基列亞音' (Gilead-ayin?), which appears to be a conflation or misreading. The correct transliteration should be '基列亭' or '基利亞亭' (Kiriathaim). The rendering '基列亞音' introduces a different place name element ('Gilead') not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

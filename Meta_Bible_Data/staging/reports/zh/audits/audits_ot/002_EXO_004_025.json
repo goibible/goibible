@@ -1,0 +1,26 @@
+{
+  "book": "EXO",
+  "chapter": 4,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name צִפֹּרָה (Zipporah) is rendered as 西比拉 (Sibylla), which is a different name. The correct transliteration should be 西坡拉 or similar."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew צֹר (flint) is rendered as 推羅 (Tyre), which is a place name, not the object used. The correct rendering should be 火石 or 石刀."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew לְרַגְלָיו (to his feet) is rendered as 他的腳掌 (the sole of his foot), which narrows the meaning. The Hebrew refers to the feet generally, not specifically the sole."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

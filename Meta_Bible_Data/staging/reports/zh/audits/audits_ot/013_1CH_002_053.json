@@ -1,0 +1,26 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 53,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַיִּתְרִי' (the Ithrites) is rendered as '以帖' (Ithar/Ether), which appears to be a name swap or mistranslation; it should be '以帖人' (the Ithrites)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַצָּרְעָתִ֔י' (the Zorathites) is rendered as '瑣拉' (Zorah), which is a place name rather than the gentilic '瑣拉人' (Zorathites), changing the meaning from people to a location."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהָאֶשְׁתָּאֻלִֽי' (and the Eshtaolites) is rendered as '以斯陶利利人' (Eshtaolili people), which appears to be a garbled or duplicated rendering; it should be '以斯陶利人' (Eshtaolites)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

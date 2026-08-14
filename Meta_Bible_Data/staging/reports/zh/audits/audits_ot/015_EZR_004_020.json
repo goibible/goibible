@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּכֹל עֲבַר נַהֲרָה' means 'over all the region beyond the River' (i.e., the province Beyond the River, a specific administrative region), not '在一切過河處' ('at all crossing places of the river'). The Chinese rendering misinterprets the geographic term 'עֲבַר נַהֲרָה' (Beyond the River) as a generic phrase about crossing points, changing the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

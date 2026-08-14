@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 35,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַה יִּסְכָּן לָךְ' means 'What profit is it to you?' (i.e., what benefit does God gain from my righteousness), not '我當為你預備甚麼呢' ('What should I prepare for you?'). The verb 'יִּסְכָּן' means 'profit/gain', not 'prepare'. This changes the meaning of the verse."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מָה אֹעִיל מֵחַטָּאתִי' means 'What do I gain from my sin?' (i.e., what benefit do I get from my sin), not '從我的罪中我能獻甚麼呢' ('What can I offer from my sin?'). The verb 'אֹעִיל' means 'profit/gain', not 'offer/sacrifice'. This reverses the subject and object of the question."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

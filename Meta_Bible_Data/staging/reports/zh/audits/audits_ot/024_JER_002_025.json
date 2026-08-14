@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 2,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְגֹרְנֵךְ מִצִּמְאָה' means 'and your threshing floor from thirst' (i.e., keep your threshing floor from thirst/drought), but the Chinese renders '也不使你的打穀場遭遇口渴' which is acceptable. However, the main issue is 'וַתֹּאמְרִי נוֹאָשׁ' — the Hebrew verb is 'you said' (2fs qal perfect), not an imperative '絕望吧' (despair!). The Chinese turns it into a command, changing the person/mood. The Hebrew means 'and you said, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

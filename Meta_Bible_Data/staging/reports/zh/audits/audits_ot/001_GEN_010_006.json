@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the sons of Ham as personal names: Cush (כּוּשׁ), Mizraim (מִצְרַיִם), Put (פּוּט), and Canaan (כְּנָעַן). The Chinese renders 'Cush' as '古實人' (Cushites) and 'Canaan' as '迦南人' (Canaanites), adding the suffix '人' (people), which changes the proper names into ethnic groups. This is a substantive alteration of the names as given in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

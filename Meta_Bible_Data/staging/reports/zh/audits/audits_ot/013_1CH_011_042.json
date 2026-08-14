@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name עֲדִינָא (Adina) is rendered as 亞大拿 (Yadana), which swaps/changes the name. The correct transliteration should be 亞迪納 or similar, not 亞大拿."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

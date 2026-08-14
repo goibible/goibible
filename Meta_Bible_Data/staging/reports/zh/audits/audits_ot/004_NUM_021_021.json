@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 21,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name סִיחֹן (Sihon) is rendered as 希宏, which is a different name (likely a typo or misreading for 西宏)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

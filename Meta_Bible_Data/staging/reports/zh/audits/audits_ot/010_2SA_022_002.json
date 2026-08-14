@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 22,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text includes the verb 'וַיֹּאמַר' (and he said) with the speaker being David (from context), and the phrase 'לִי' (to me) at the end, which is omitted in the Chinese. The Chinese rendering '耶和華說' incorrectly attributes the speech to Yahweh, whereas the Hebrew has David saying 'Yahweh is my rock...' The omission of 'לִי' and the misattribution of the speaker changes the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

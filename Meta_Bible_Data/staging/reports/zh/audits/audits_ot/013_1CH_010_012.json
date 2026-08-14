@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says they brought the bodies to Jabesh (יָבֵשָׁה, 'to Jabesh') and buried them under the oak in Jabesh (בְּיָבֵשׁ). The Chinese renders '約別士人' (people of Jabesh) and '約別士人以拉人' (Jabesh-ites of Elah?), which misidentifies the place name Jabesh as a people group and adds '以拉人' (Elah people) that has no basis in the Hebrew. The Hebrew has no '以拉' (Elah) here; it is simply 'the oak in Jabesh' (תַּחַת הָאֵלָה בְּיָבֵשׁ)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

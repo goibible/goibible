@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 77,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'תָּבוֹר' (Tabor), but the Chinese renders it as '他博爾山' (Tabor Mountain). While '山' (mountain) is an addition not in the Hebrew, the name itself is correct. However, the more significant issue is that 'רִמּוֹנוֹ' (Rimmon) is rendered as '石榴' (pomegranate), which is a mistranslation of the place name Rimmon as the common noun 'pomegranate'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

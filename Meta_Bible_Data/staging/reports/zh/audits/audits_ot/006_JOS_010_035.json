@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְלָכִישׁ' means 'to Lachish' (the city), but the Chinese renders it as '拉吉城門' ('the gate of Lachish'), adding '城門' (gate) which is not in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

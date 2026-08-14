@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 109,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְּצֵל כִּנְטוֹתוֹ נֶהֱלָכְתִּי' means 'I walk like a shadow when it lengthens' (i.e., as the shadow declines/extends), not '行在祂翅膀的陰影下' (walking under His wings' shadow). The phrase 'כִּנְטוֹתוֹ' refers to the shadow's stretching/declining, not God's wings. The Chinese adds '祂翅膀的' (His wings) which is not in the Hebrew, and misrepresents the subject of the shadow."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'נִנְעַרְתִּי' means 'I am shaken out' or 'I am driven away' (like a locust being shaken off), but the Chinese renders it as '顫抖' (trembling), which loses the sense of being shaken out/driven away. The comparison 'כָּאַרְבֶּה' (like the locust) is preserved, but the verb nuance is altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

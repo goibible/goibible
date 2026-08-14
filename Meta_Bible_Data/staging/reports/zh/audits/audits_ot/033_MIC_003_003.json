@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 3,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׁאֵר עַמִּי' means 'the flesh of my people' (i.e., the people themselves as meat), not '骨肉親屬' (blood relatives/kin). The Chinese adds the concept of 'relatives' which is not in the Hebrew; 'שאר' here means 'flesh/meat'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

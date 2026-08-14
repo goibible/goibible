@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 7,
+  "verse": 70,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'כָּתְנוֹת כֹּהֲנִים שְׁלֹשִׁים וַחֲמֵשׁ מֵאוֹת' = 'thirty and five hundred' = 530 priestly tunics, but the Chinese renders '三千五百件' = 3500, which is a number error (530 vs 3500)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

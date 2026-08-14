@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 15,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name וּבֶֽרֶכְיָה (Berechiah) is rendered as 耶利哥人 (Jericho people), which is a different name/place, not a transliteration of Berechiah."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 32,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַבַּעַל' means 'to Baal' (the god Baal), but the Chinese renders it as '向主人' ('to the master/owner'), which changes the proper name of the deity to a common noun, altering the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

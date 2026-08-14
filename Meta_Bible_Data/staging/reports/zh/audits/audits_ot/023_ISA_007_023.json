@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 7,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לַשָּׁמִיר וְלַשַּׁיִת' means 'for briers and thorns' (i.e., the place will become briers and thorns), but the Chinese renders it as '歸於瑪珥石和荊棘' ('belongs to Maershí and thorns'), introducing an unexplained proper name '瑪珥石' (Maershí) that has no basis in the Hebrew. 'שָּׁמִיר' is 'briers/thistles', not a proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

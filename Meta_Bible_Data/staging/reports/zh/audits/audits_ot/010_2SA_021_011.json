@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew name רִצְפָּה (Rizpah) is transliterated as '鋪石地' (meaning 'paved ground'), which is a mistranslation of the proper name. The name should be rendered as '利斯巴' or similar transliteration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

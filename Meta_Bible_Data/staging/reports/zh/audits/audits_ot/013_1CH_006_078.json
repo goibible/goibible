@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 78,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'בֶּצֶר' (Bezer), but the Chinese renders it as '比色' (Bǐsè). The standard Chinese transliteration for Bezer is '比悉' or '比色' — however, the issue is that the Chinese adds '以巴衛' (Yǐbāwèi) at the beginning, which has no basis in the Hebrew text. The Hebrew begins with 'וּמֵעֵבֶר' (and from beyond/on the other side of), with no mention of '以巴衛' (which appears to be a transliteration of 'Eber' or a similar name not present here). This is an addition of a proper name not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

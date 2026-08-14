@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 34,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text mentions 'the two tribes and half the tribe' (שְׁנֵי הַמַּטּוֹת וַחֲצִי הַמַּטֶּה) and that they took their inheritance 'from across the Jordan of Jericho, eastward' (מֵעֵבֶר לְיַרְדֵּן יְרֵחוֹ קֵדְמָה מִזְרָחָה). The Chinese adds '從以巴衛' (from Ebal), a place name not present in the Hebrew. This is an addition of a proper name that changes the location claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

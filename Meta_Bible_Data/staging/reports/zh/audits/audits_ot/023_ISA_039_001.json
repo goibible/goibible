@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 39,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '差遣使者' (sent messengers), but the Hebrew only says 'sent letters and a gift' (סְפָרִים וּמִנְחָה) — the word '使者' (messengers) is not in the Hebrew text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּשְׁמַע כִּי חָלָה וַיֶּחֱזָק' means 'he heard that he had been sick and had recovered' — the Chinese renders '就為他痊愈而祝賀' (congratulated him on his recovery), which adds the concept of congratulation not present in the Hebrew; the Hebrew only states that he heard of the illness and recovery."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

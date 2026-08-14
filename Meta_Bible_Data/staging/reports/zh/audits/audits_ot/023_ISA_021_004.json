@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תָּעָה לְבָבִי' means 'my heart is troubled/roams' (from תָּעָה, to wander/err), not '我的心驚恐' (my heart is terrified). The second clause 'פַּלָּצוּת בִּעֲתָתְנִי' means 'terror has frightened me' (פַּלָּצוּת = trembling/terror, בִּעֲתַתְנִי = it terrified me), but the Chinese renders it as '夜間的情慾使我驚恐' (nightly lust frightens me), which misidentifies the subject: 'פַּלָּצוּת' is 'terror', not '情慾' (lust/desire). The phrase 'אֵת נֶשֶׁף חִשְׁקִי' means 'the twilight of my desire' (נֶשֶׁף = twilight/evening, חֵשֶׁק = desire), not '夜間的情慾' (nightly lust) — 'נֶשֶׁף' is twilight, not night, and 'חֵשֶׁק' is desire, not lust. The final clause 'שָׂם לִי לַחֲרָדָה' means 'he has set it for me for trembling' (i.e., made it a cause of trembling), but the Chinese omits this entirely, replacing it with a repetition of the fear idea. The translation changes the meaning: the Hebrew describes terror overwhelming the speaker and turning their cherished twilight into dread, not merely 'nightly lust causing fear'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

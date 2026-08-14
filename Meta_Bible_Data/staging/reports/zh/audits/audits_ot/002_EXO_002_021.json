@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 2,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name צִפֹּרָה (Zipporah) is rendered as 西比拉 (Sibila), which is a different name. The correct Chinese transliteration should be 西坡拉 or similar, not 西比拉."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

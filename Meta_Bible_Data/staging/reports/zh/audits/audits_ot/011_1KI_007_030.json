@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions 'four bronze wheels' and 'bronze axles' for each stand, but the Chinese omits the number 'four' for the wheels and the word 'bronze' for the axles, and also omits the phrase 'under the laver' (מִתַּחַת לַכִּיֹּר) which specifies the location of the supports. Additionally, the Hebrew says 'the supports were cast' (הַכְּתֵפֹת יְצֻקוֹת) and 'on each side there were wreaths' (מֵעֵבֶר אִישׁ לֹיוֹת), but the Chinese adds '四角有支架' (four corners have supports) which is not in the Hebrew, and renders 'wreaths' as '花環' which may be acceptable, but the phrase '每邊都有花環' (each side has wreaths) is an addition not explicitly stated in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

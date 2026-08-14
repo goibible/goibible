@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "示珊城 (Shishan city) is not a place name in the Hebrew; שׁוֹשַׁנָּה means 'lily' (flower), not a city. The translation incorrectly renders it as a city name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

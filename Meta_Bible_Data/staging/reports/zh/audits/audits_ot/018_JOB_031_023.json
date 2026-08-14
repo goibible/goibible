@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 31,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמִשְּׂאֵתוֹ' means 'and from his exaltation/loftiness' (referring to God's majesty), but the Chinese renders it as '那驚恐的尊貴' ('that terrifying majesty'), adding '驚恐的' (terrifying) which is not in the Hebrew. The Hebrew phrase is simply 'his exaltation' without an adjective like 'terrifying'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וישבו' (and they returned) is rendered as '他們住在' (they lived in), changing the meaning from 'returned' to 'dwelt/lived'. This alters the narrative action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

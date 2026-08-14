@@ -1,0 +1,22 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַמִּים יְנַגַּח יַחְדָּו אַפְסֵי אָרֶץ' means 'with them he shall push the peoples together to the ends of the earth' — the Chinese '藉著這角，他必抵觸萬民，直到地的無有' renders 'עַמִּים' as '萬民' (all peoples) and 'אַפְסֵי אָרֶץ' as '地的無有' (the nothingness of the earth), which is a mistranslation of 'ends of the earth' (אַפְסֵי אָרֶץ) as '無有' (nothingness) rather than 'ends/extremities'. This changes the meaning from pushing peoples to the ends of the earth to pushing them until the earth's nothingness."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהֵם רִבְבוֹת אֶפְרַיִם וְהֵם אַלְפֵי מְנַשֶּׁה' means 'and they are the ten-thousands of Ephraim, and they are the thousands of Manasseh' — the Chinese '他們是以法蓮的萬軍之主，他們是瑪拿西的千軍' adds '主' (Lord) and '軍' (army) which are not in the Hebrew; the Hebrew simply says 'ten-thousands of Ephraim' and 'thousands of Manasseh' referring to the horns/people, not 'Lord of hosts' or 'armies'. This is an addition that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'הַגְרִי' (the Hagrite) as the one over the flocks, but the Chinese renders '哈革利人亞細斯人' which adds an extra name '亞細斯' not present in the Hebrew, potentially confusing the identity of the official."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

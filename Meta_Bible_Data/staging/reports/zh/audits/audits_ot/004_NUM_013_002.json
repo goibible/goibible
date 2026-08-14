@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶרֶץ כְּנַעַן' means 'the land of Canaan', but the Chinese renders it as '迦南人之地' ('the land of the Canaanites'), adding '人' (people) which is not in the Hebrew and shifts the meaning from the land itself to the people's land. This is a substantive change in the object being spied out."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כֹּל נָשִׂיא בָהֶם' means 'every one of them a leader' or 'each a prince among them', but the Chinese '他們都是一切中的元帥' ('they are all commanders among everything') is unclear and adds '一切中的' ('among everything') which has no basis in the Hebrew, and '元帥' (commander-in-chief) is a stronger term than 'נָשִׂיא' (leader/prince), potentially changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

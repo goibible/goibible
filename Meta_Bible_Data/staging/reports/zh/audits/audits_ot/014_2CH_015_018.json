@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 15,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְקָֽדָשָׁיו' (his own sacred things) is rendered as '聖潔者' (holy ones/persons), which changes the meaning from objects to persons. The phrase should be 'his own sacred things' or 'his own holy gifts'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 12,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'טוֹב יָפִיק רָצוֹן מֵיְהוָה' means 'A good man obtains favor from the LORD' (or 'Good [man] obtains favor from the LORD'), but the Chinese renders it as '耶和華所喜悅的' ('what the LORD delights in'), shifting the subject from the good man to the LORD's favor. Additionally, 'וְאִישׁ מְזִמּוֹת יַרְשִׁיעַ' means 'but a man of wicked devices He (the LORD) condemns' (or 'a man of schemes He condemns'), but the Chinese says '比圖謀詭計的人更為正直' ('is more upright than a man of schemes'), which changes the meaning: the Hebrew contrasts the good man's favor with the wicked man's condemnation, not compares uprightness. The verb 'יַרְשִׁיעַ' (condemn/declare wicked) is mistranslated as a comparative adjective, and the subject/object relationship is altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

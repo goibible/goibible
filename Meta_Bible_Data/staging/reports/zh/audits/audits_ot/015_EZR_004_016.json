@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בַּעֲבַר נַהֲרָא' means 'beyond the river' (i.e., the region across the Euphrates), but the Chinese renders it as '過河處' ('the crossing place of the river'), which changes the meaning from a region to a specific location. The correct rendering should be '大河以西' or '河的那一邊'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

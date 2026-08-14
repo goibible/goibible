@@ -1,0 +1,22 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'מַעְשַׂי' (Maasai), but the Chinese renders '瑪西雅伊' which appears to be a conflation/alteration of the name; the correct transliteration should be '瑪西' or '瑪賽'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּן מְשֻׁלָּם' means 'son of Meshullam', but the Chinese renders '梅書蘭姆人的兒子' adding '人' (people/person) which is not in the Hebrew and changes the meaning to 'son of the Meshullamite'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

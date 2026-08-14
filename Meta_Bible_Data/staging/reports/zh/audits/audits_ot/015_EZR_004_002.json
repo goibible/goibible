@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '你們的神的殿' (the temple of your God) but the Hebrew only says 'we will build with you' (נִבְנֶה עִמָּכֶם) without specifying 'the temple of your God' in this clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

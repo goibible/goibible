@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 14,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the capture happened at בֵּית שֶׁמֶשׁ (Beth-shemesh), but the Chinese renders it as 別是梅沙城, which appears to be a conflation/alteration of the place name (Beth-shemesh, not Beersheba). This changes the location name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

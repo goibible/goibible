@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has three names: הוֹדִיָּה (Hodiah), בָנִי (Bani), and בְּנִינוּ (Beninu). The Chinese renders 'הוֹדִיָּה' as '戶大雅' (Hodiah), but 'בָנִי' is rendered as '巴尼' (Bani) — however, the Chinese adds '人' (person) after '戶大雅', which is not in the Hebrew. More critically, the Chinese '戶大雅人巴尼和本尼努' appears to treat 'בָנִי' as part of a compound '戶大雅人巴尼' (Hodiah the Bani?), whereas the Hebrew lists three distinct individuals: Hodiah, Bani, and Beninu. The Chinese omits the conjunction 'and' between the first two names and merges them, potentially confusing the identity of the second person. The third name 'בְּנִינוּ' is correctly rendered as '本尼努', but the overall structure misrepresents the list of three separate names."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew names פֶּלֶת (Peleth) and זָזָא (Zaza) are personal names, not gentilic/ethnic designations. The Chinese renders them as '培肋設人' (Pelethites) and '撒薩人' (Zazaites), adding the suffix '人' (people), which changes the meaning from individual sons to groups of people. This is a mistranslation of proper names."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

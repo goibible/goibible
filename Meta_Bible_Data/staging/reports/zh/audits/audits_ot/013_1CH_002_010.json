@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'וְרָם' (Ram) is rendered as '拉末' (La-mo), which is a different name; the correct rendering should be '蘭' or '拉姆'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

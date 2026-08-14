@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'בְּאֵילִ֖ים הַשְּׁעָרִ֑ים' means 'at the gateposts' (literally 'in the pillars of the gates'), but the Chinese renders it as '城門的門口' (the gate's entrance), omitting the specific reference to the pillars/columns (אֵילִים) of the gates. This changes the location detail."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׁ֖ם יָדִ֥יחוּ אֶת הָעֹלָֽה' means 'there they shall rinse the burnt offering' (washing the burnt offering), but the Chinese says '用公羊獻燔祭' (offer the burnt offering with a ram), which misidentifies the action (rinsing vs. offering) and introduces '公羊' (ram) not present in the Hebrew text (the Hebrew has no word for 'ram' here; 'הָעֹלָה' is the burnt offering)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יִכְבָּד' (from כָּבֵד) means 'be heavy/weighty' or 'be honored/glorified' — the Chinese '得榮耀' (receive glory) is acceptable. However, the subject is ambiguous: 'מֵחוֹל יַמִּים יִכְבָּד' literally 'from the sand of the seas he/it will be heavy/honored' — the Chinese adds '祂' (He) as subject, which is not explicit in Hebrew but could be inferred. More critically, 'דְּבָרַי לָעוּ' means 'my words are swallowed up/come to nothing' (from לָעָה, 'to swallow'), not '已廢棄' (have been abolished/abandoned). The Chinese '已廢棄' implies deliberate rejection, whereas the Hebrew means they are 'swallowed up' or 'fade away' — a nuance of being overwhelmed, not abolished. This changes the sense from 'my words are overwhelmed' to 'my words are nullified'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

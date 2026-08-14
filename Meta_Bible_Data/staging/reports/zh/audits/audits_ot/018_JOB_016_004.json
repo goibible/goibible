@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 16,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַחְבִּירָה עֲלֵיכֶם בְּמִלִּים' means 'I would join/string together words against you' (i.e., speak forcefully against you), not 'I would make a covenant with you in words' (立約). The verb חָבַר means 'to join/associate', not 'to covenant' (בְּרִית). This changes the meaning from adversarial speech to a covenant-making act."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאָנִיעָה עֲלֵיכֶם בְּמוֹ רֹאשִׁי' means 'and I would shake my head at you' (a gesture of scorn/mockery), not 'and I swear by my head' (以我的頭起誓). The verb נוּעַ means 'to shake/move to and fro', not 'to swear'. This changes the gesture from derision to an oath."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

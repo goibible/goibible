@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 48,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'twenty-five thousand by twenty-five thousand' (i.e., a square of 25,000 x 25,000), and 'a fourth' (רְבִיעִית) of it is to be raised as the holy offering. The Chinese renders '從二十五千取五分之一' ('take one-fifth from 25,000'), which misstates the number (one-fifth instead of a fourth) and misrepresents the dimension/quantity structure."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

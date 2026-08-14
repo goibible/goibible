@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהַשְּׁלִישִׁית לְכָל רוּחַ אֱזָרֶה' means 'and the third I will scatter to every wind' — the Chinese '一切的靈我必拔刀追趕他們' renders 'רוּחַ' (wind) as '靈' (spirit), and 'אֱזָרֶה' (I will scatter) as '拔刀追趕' (draw sword and pursue), which changes the meaning. The Hebrew says the third part is scattered to every wind, not that spirits are pursued with a sword."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

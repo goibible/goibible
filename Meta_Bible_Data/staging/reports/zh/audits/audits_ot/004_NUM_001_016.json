@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 1,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קריאי העדה' means 'called ones of the congregation' or 'leaders of the congregation' (from קרא, 'to call'), not '呼召者' (callers). The Chinese '呼召者' reverses the direction: it means 'those who call' rather than 'those who are called/designated.' This changes who is doing the calling."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

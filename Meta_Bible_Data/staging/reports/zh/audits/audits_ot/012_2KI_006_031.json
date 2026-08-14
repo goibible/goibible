@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אִֽם יַעֲמֹד רֹאשׁ אֱלִישָׁע בֶּן שָׁפָט עָלָיו הַיּוֹם' means 'if the head of Elisha son of Shaphat remains on him today' — i.e., a self-imprecation: 'may God do so to me and more, if the head of Elisha son of Shaphat remains on him today' (i.e., he will behead him). The Chinese renders '若以利沙兒子沙法的頭今日仍在他身上' as 'if the head of Elisha son of Shaphat is still on him today,' which is close, but the opening 'וַיֹּאמֶר' is rendered '他說' (he said) — acceptable. However, the Chinese adds '懲罰' (punishment) for 'יַעֲשֶׂה' (do) and 'יוֹסִף' (add), which is an interpretive addition not in the Hebrew; the Hebrew simply says 'do thus to me and add thus' without specifying punishment. This addition changes the claim by making it explicitly about punishment, whereas the Hebrew is a general oath formula. This is a substantive addition altering the verse's meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

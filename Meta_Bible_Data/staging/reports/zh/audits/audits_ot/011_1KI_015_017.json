@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 15,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'לְבִלְתִּי תֵּת יֹצֵא וָבָא לְאָסָא מֶלֶךְ יְהוּדָה' means 'so that no one could go out or come in to Asa king of Judah' (i.e., to prevent anyone from leaving or entering Asa's territory). The Chinese rendering '為要阻止亞撒王往來猶大' restricts the prohibition to Asa himself ('阻止亞撒王往來猶大' = 'to prevent King Asa from coming and going in Judah'), whereas the Hebrew prohibits all movement of people in and out, not just Asa's personal travel. This changes the scope of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

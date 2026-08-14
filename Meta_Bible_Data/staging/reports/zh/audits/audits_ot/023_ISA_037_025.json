@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'קַרְתִּי' (I dug) is rendered as '呼求' (I called out/cried out), which changes the meaning from digging wells to calling out."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

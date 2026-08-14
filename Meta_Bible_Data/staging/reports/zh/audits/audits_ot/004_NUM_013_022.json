@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְתַלְמַי' is a personal name 'Talmai', but the Chinese renders it as '他瑪人' (people of Tamar), which is a mistranslation of the name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִבְנְתָה לִפְנֵי צֹעַן מִצְרָיִם' means 'was built before Zoan of Egypt' (i.e., built seven years before Zoan), but the Chinese '是早於埃及的索安七年的面而建造的' is garbled and unclear, adding '面' (face/surface) and misrepresenting the meaning as 'built before the face of seven years of Zoan of Egypt'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

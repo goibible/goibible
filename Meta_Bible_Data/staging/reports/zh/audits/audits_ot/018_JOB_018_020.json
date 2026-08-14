@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 18,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עַל יוֹמוֹ' means 'at his day' (i.e., at the day of his calamity), not 'in their daily [affairs]' (在他們的每日中). The Chinese rendering misconstrues the singular suffix and the temporal sense."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "Hebrew 'אַחֲרֹנִים' (latter ones) and 'קַדְמֹנִים' (former ones) are plural subjects; Chinese '後者' and '前者' are singular, changing the number."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נָשַׁמּוּ' means 'are appalled/desolated' (from שׁמם), not 'are cut off' (斷絕). The Chinese adds a concept of cessation not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

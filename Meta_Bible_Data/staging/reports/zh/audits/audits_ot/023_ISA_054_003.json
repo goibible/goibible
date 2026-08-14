@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 54,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּשְׂמֹ֖אול' means 'and left' (side), but the Chinese renders it as '左手' (left hand). While 'left hand' can idiomatically mean 'left side' in Chinese, the Hebrew word is specifically 'left' (side), not 'hand'. This is a minor semantic shift but could mislead a reader into thinking the text says 'left hand' rather than 'left side'."
+        }
+      ],
+      "confidence": 0.7
+    }
+  }
+}

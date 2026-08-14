@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 2,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּן אָמוֹץ' means 'son of Amoz', but the Chinese renders it as '亞摩斯城' (the city of Amoz), adding '城' (city) which is not in the Hebrew and changes the meaning from a person's name to a place."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

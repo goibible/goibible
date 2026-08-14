@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 30,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יִרְקַח' means 'to mix/compound (perfume/ointment)', not 'to shave hair'. The Chinese '剃髮' (shave hair) is a mistranslation. Also 'כָּמֹהוּ' means 'like it' (like the anointing oil), and 'יִתֵּן מִמֶּנּוּ עַל זָר' means 'puts any of it on a stranger/outsider', not 'gives him the shaved things'. The Chinese rendering changes the action from compounding the oil and applying it to a stranger to shaving hair and giving the shavings."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

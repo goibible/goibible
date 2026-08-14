@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 22,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נֶפֶשׁ קִנְיַן כַּסְפּוֹ' means 'a person bought with his money' (a slave purchased as property), not '買了性命作財物' (bought a life as property). The Chinese rendering '買了性命' (bought a life) misrepresents the object: it is a person/slave, not an abstract 'life'. This changes the meaning from purchasing a slave to purchasing a life."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

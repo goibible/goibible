@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 63,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵת רֹעֵי צֹאנוֹ' means 'the shepherds of his flock' (referring to Moses and the leaders of Israel), but the Chinese renders it as '羊群的' (the flock's) attached to '領上' (brought up), making it 'the one who brought up the flock from the sea' instead of 'the one who brought up the shepherds of his flock from the sea'. This changes the object from 'shepherds' to 'flock'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רוּחַ קָדְשׁוֹ' means 'His Holy Spirit' (God's Holy Spirit), but the Chinese renders it as '聖所的靈' (the Spirit of the sanctuary/holy place), which is an addition of '所' (place) not present in the Hebrew and changes the meaning from 'His Holy Spirit' to 'the spirit of the holy place'."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

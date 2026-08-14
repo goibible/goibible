@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 11,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase וּבְנָפוֹת דּוֹר מִיָּם means 'and in the heights of Dor on the west' (or 'by the sea'), referring to the region of Dor (a place name). The Chinese renders it as '沿海邊界的世代' ('generations of the coastal boundary'), which misinterprets 'נָפוֹת' (heights/districts) as 'generations' (世代) and 'דּוֹר' (Dor, a place name) as 'generation' (世代), and 'מִיָּם' (from the sea/west) as 'coastal boundary'. This changes the meaning and drops the proper name Dor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

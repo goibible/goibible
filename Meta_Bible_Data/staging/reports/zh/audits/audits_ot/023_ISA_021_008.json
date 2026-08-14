@@ -1,0 +1,30 @@
+{
+  "book": "ISA",
+  "chapter": 21,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַרְיֵה' (aryeh) is a proper name 'Ariel' (or 'Arieh'), not the common noun 'lion' (獅子). The Chinese renders it as '獅子' (lion), which is a mistranslation of the name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל מִצְפֶּה אֲדֹנָי' means 'upon the watchtower of the Lord' (or 'on the lookout post of the Lord'), referring to a place of watching, not '主啊' (O Lord) as an address. The Chinese adds an address to God that is not in the Hebrew and misrenders the phrase."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'אָנֹכִי עֹמֵד תָּמִיד יוֹמָם' means 'I stand continually by day' — the Chinese '我白日常站立' omits the sense of 'continually' (תָּמִיד), though this may be minor."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעַל מִשְׁמַרְתִּי אָנֹכִי נִצָּב כָּל הַלֵּילוֹת' means 'and upon my watch I am stationed all the nights' — the Chinese '我夜間的一切職分都警醒守候' changes the subject and structure, implying 'all my duties at night are kept watch' rather than 'I am stationed at my post all nights.' This alters who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

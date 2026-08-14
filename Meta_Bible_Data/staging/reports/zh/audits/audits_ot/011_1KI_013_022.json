@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 13,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '你若這樣做' ('if you do this'), which is not present in the Hebrew. The Hebrew states the consequence directly: 'your corpse shall not come to the grave of your fathers' (לֹֽא תָב֥וֹא נִבְלָתְךָ֖ אֶל קֶ֥בֶר אֲבֹתֶֽיךָ), without a conditional clause. This addition changes the force of the statement from a direct declaration to a conditional warning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

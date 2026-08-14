@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'on the river Chebar' (עַל נְהַר כְּבָר), but the Chinese renders it as '基伯城的大河邊' (the great river of the city of Gibber/Keber), adding '城' (city) and '大' (great) which are not in the Hebrew, and misidentifying the river as associated with a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

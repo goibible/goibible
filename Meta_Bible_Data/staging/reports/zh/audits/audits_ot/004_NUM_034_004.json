@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 34,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '又從押們通到埃及小河，直達於海' (and from Azmon to the Brook of Egypt, reaching to the sea), which is not present in the Hebrew verse. The Hebrew ends at 'עָבַר עַצְמֹנָה' (and passes to Azmon). This is a substantive addition of geographical detail not in the source text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

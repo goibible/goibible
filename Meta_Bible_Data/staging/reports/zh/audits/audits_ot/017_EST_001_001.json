@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew states the king ruled over 127 provinces (שֶׁבַע וְעֶשְׂרִים וּמֵאָה = 127), but the Chinese says 七十二 (72), which is a different number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

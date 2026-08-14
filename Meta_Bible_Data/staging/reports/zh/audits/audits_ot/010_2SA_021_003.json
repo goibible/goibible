@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has 'הַגִּבְעֹנִים' (the Gibeonites), but the Chinese renders it as '吉甲約尼人' (Jijia Yueni people), which is not the correct name. The proper rendering should be '基遍人' (Gibeonites)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

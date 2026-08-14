@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 32,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מוּסַבֹּת שֵׁם' (lit. 'whose name was changed') is rendered as '示巴門' (Shebamon), which appears to be a misreading or misrendering of the Hebrew. The phrase indicates that the name of Nebo and Baal-meon was changed, not a separate place name '示巴門'. This changes the meaning: the Hebrew says the names of these cities were changed, whereas the Chinese introduces a third city name not in the text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

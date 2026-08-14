@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Bathsheba daughter of Eliam' (בַּת שֶׁ֣בַע בַּת אֱלִיעָ֔ם), but the Chinese renders '以利暗人的女兒巴特施罷' — '以利暗人' appears to be a misreading/transposition of '以利暗' (Eliam) plus an extraneous 人, and '巴特施罷' is an odd rendering of Bathsheba (בַּת שֶׁבַע) that could confuse the name; more importantly, the Hebrew explicitly names her 'Bathsheba daughter of Eliam', while the Chinese says 'the daughter of the Eliamite' (以利暗人的女兒), which changes the proper name 'Eliam' into a gentilic and drops the name 'Bathsheba' as a proper name, replacing it with a transliteration that is not standard. This is a name fidelity issue."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 18,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיְהִי שָׁאוּל עֹוֵן אֶת דָּוִד' means 'Saul was hostile/eyeing David' (the verb עון is a rare form meaning 'to eye with hostility' or 'to regard with suspicion'), but the Chinese '定睛監視' ('fixedly watch/surveil') adds the sense of deliberate, continuous surveillance that is not in the Hebrew. The Hebrew simply states Saul's hostile attitude toward David from that day onward, not that he actively watched him. This changes the claim from an internal state of enmity to an external action of monitoring."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

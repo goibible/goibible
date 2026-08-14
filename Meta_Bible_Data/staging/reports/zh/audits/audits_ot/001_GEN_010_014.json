@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists four groups: Pathrusim, Casluhim (from whom Philistines came out), and Caphtorim. The Chinese renders 'וְאֶת כַּפְתֹּרִֽים' as '迦帕他' (Caphtor, a place) instead of '迦帕托利人' (Caphtorim, the people), changing a people group to a place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִן שִׁלְחוֹ אֹתָם' means 'from his sending them away' (i.e., after he sent them away), not 'from his loins' (腰間). The Chinese '從他的腰間生出' incorrectly renders 'שִׁלְחוֹ' (his sending) as 'his loins/waist', changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נָשָׁיו' means 'his wives' (plural), but the Chinese '妻子巴拉' renders 'בַּעֲרָא' as 'wife Bala' (妻子巴拉), making Baara a single wife rather than one of his wives. The Hebrew lists 'חוּשִׁים וְאֶת בַּעֲרָא נָשָׁיו' = 'Hushim and Baara his wives' (i.e., both are his wives), but the Chinese treats Baara as 'wife' singular, altering the number."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

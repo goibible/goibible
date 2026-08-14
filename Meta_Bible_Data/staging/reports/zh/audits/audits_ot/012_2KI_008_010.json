@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 8,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'לֹא חָיֹה תִחְיֶה' is a strong negation ('you shall surely not live'), but the Chinese renders it as '你必能活' ('you shall surely live'), reversing the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

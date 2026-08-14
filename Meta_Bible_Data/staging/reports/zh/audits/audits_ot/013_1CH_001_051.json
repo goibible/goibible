@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'אַלּוּף עַלְיָה' (Aluf Aliah), but the Chinese renders '亞勒法族長' (Aluf Alephah), which appears to be a different name. The Hebrew name is עליה (Aliah), not אלפה (Alephah)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

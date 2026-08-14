@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 13,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'עַשְׁתָּרוֹת' (Ashtaroth), a place name, but the Chinese renders it as '阿實突女神廟' (Ashtoreth/Ashtaroth goddess temple), conflating the place with a deity and adding '女神廟' (goddess temple) not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

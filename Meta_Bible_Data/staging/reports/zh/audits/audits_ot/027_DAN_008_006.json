@@ -1,0 +1,22 @@
+{
+  "book": "DAN",
+  "chapter": 8,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּעַל הַקְּרָנַיִם' means 'the ram with two horns' (possessor of the horns), but the Chinese renders it as '有角的公羊' (horned ram), which is acceptable. However, the phrase '那主人' (that master) is an addition not in the Hebrew; 'בַּעַל' here is part of the construct 'בַּעַל הַקְּרָנַיִם' meaning 'possessor of the horns', not 'master/owner' as a separate entity. This addition changes the meaning by introducing a 'master' who runs, whereas the Hebrew subject is the ram itself."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '那主人' (that master) as the subject of '滿懷怒氣與能力向它跑去', but the Hebrew 'וַיָּרָץ אֵלָיו בַּחֲמַת כֹּחוֹ' has the ram as the implied subject (he ran to it in the fury of his strength). The addition of a 'master' is not in the Hebrew and changes who is running."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

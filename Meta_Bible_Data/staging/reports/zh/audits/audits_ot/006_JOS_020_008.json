@@ -1,0 +1,34 @@
+{
+  "book": "JOS",
+  "chapter": 20,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִמַּטֵּה' means 'from the tribe of', but the Chinese renders it as '從...的杖' (from the staff/rod of), which is a literal rendering of 'מַטֶּה' as 'staff' rather than the idiomatic 'tribe'. This changes the meaning from tribal allotment to a staff, which is a substantive mistranslation."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נָתְנוּ' means 'they gave' (assigned), but the Chinese uses '劃出' (delineated/marked out), which adds a concept of drawing boundaries not present in the Hebrew verb. The Hebrew simply states they gave these cities, not that they drew them out."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּמִּישֹׁר' means 'on the plain/tableland', but the Chinese renders it as '公平之地' (place of fairness/equity), which is a mistranslation. 'מִישֹׁר' means a level plain, not 'fairness'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶת רָאמֹת' is the city Ramoth, but the Chinese adds '城門' (city gate) which is not in the Hebrew. The Hebrew simply says 'Ramoth in Gilead', not 'the gate of Ramoth'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גלון' (Golan) is rendered as '哥蘭' which is correct, but the Chinese adds '城' (city) to '比色城' (Bezer city) and '哥蘭' without '城' for Golan, creating inconsistency. More importantly, the Hebrew does not call Bezer 'city' explicitly in this verse, though it is implied as a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

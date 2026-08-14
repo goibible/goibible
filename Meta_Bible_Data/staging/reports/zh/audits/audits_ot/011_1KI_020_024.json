@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'פַּחוֹת' means 'governors' or 'deputies' (from Akkadian 'pahātu'), not '百夫長' (centurion/commander of a hundred). The Chinese rendering introduces a military rank not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

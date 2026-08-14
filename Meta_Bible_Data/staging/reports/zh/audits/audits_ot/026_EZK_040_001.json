@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּעָשׂוֹר לַחֹדֶשׁ' means 'on the tenth day of the month', but the Chinese renders it as '十弦琴之月的第十日' (the tenth day of the ten-stringed-lute month), incorrectly interpreting 'עָשׂוֹר' (tenth) as a musical instrument (ten-stringed lute). This changes the meaning of the date."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

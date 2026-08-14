@@ -1,0 +1,26 @@
+{
+  "book": "EZK",
+  "chapter": 16,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֹֽא זכרתי' means 'you did not remember' (2fs), but Chinese says '你忘記了' (you forgot) — acceptable. However, 'וְלֹ֤א עשיתי אֶת הַזִּמָּה' means 'I have not done the lewdness' (1cs), but Chinese says '我必不赦免你的惡行' (I will not forgive your evil deeds), which adds 'forgive' and changes the meaning from 'I have not done' to 'I will not forgive'."
+        },
+        {
+          "kind": "addition",
+          "detail": "Chinese adds '赦免' (forgive) which is not in the Hebrew; the Hebrew states 'I have not done the lewdness' (a denial of action), not a refusal to forgive."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְגַם אֲנִי הֵ֜א דַּרְכֵּךְ בְּרֹ֣אשׁ נָתַ֗תִּי' means 'I also have set your way upon your head' (I have brought your conduct back on you), but Chinese '我也必將你的路放在你頭上' is close, yet the following clause misrepresents the Hebrew's 'I have not done the lewdness' as 'I will not forgive your evil deeds'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

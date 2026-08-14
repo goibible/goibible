@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'גַּבַּ֣י סַלָּ֑י' (Gabbai Sallai), but Chinese renders '撒路的管家' (Sallu's steward/manager), which misidentifies Gabbai as a title/role rather than a personal name and swaps the name order/meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

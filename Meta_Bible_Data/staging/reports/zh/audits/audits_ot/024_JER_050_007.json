@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 50,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִקְוֵה אֲבוֹתֵיהֶם יְהוָה' means 'the hope of their fathers, the LORD' (i.e., the LORD is the hope of their fathers). The Chinese renders 'מִקְוֵה' as '池子' (pool/pond), which is a mistranslation; the word here means 'hope' or 'expectation,' not a pool. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

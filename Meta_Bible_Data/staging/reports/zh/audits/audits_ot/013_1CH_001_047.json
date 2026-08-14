@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'שַׂמְלָה' (Samlah) as the king, but the Chinese renders it as '桑拉' (Sānglā), which is a different name. The correct transliteration should be '撒姆拉' or similar, not '桑拉'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The proper names זֶבַח (Zebah) and צַלְמֻנָּע (Zalmunna) are rendered as '祭物' (sacrifice/offering) and '撒勒穆拿' respectively. '祭物' is not a transliteration of Zebah but a common noun meaning 'sacrifice', which misidentifies the king's name. The Hebrew clearly lists two personal names, Zebah and Zalmunna, kings of Midian."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

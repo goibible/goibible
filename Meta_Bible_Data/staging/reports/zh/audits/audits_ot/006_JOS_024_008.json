@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 24,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has 'בְּעֵבֶר הַיַּרְדֵּן' (beyond the Jordan), but the Chinese adds '以巴衛' (Ebal?) which is not in the Hebrew. This appears to be an addition of a place name not present in the source text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

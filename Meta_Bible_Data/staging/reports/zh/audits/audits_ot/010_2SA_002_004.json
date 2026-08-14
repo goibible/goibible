@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is יָבֵישׁ גִּלְעָד (Jabesh-gilead), but the Chinese renders it as 基列的約別士人, which swaps the order and misnames the place as '約別士' (Yuebie-shi) instead of '雅比' (Jabesh). The correct rendering should be '基列雅比人' (men of Jabesh-gilead)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

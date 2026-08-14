@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase עַלְמוּת לַבֵּן is a musical/liturgical term (likely 'alamoth' or 'for the son'), not 'on death, for the dead'. The Chinese renders it as 「死」上，為死所作, which introduces a concept of death not present in the Hebrew and changes the meaning of the superscription."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

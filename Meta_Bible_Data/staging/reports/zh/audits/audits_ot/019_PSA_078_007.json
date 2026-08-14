@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 78,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְיָשִׂימוּ בֵאלֹהִים כִּסְלָם' means 'and they put their trust/confidence in God' (כֶּסֶל = trust/confidence), but Chinese says '他們卻將愚昧歸於神' ('they attributed folly to God'), which reverses the meaning—the Hebrew says they trusted God, not that they blamed Him for folly."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

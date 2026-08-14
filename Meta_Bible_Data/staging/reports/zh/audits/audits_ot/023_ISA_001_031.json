@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 1,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הֶחָסֹן' (the strong one) is rendered as '蘆葦花' (reed flower), which is not the meaning; 'הֶחָסֹן' refers to a strong/powerful entity, not a reed flower. This changes the subject of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 47,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּעָצְמַת חֲבָרַיִךְ' means 'in the strength of your spells/incantations' (חֲבָרִים = spells, charms, or incantations), not '何伯的力量' (the power of Hebo, a river god). The Chinese rendering introduces a proper name '何伯' that has no basis in the Hebrew text, changing the meaning from 'your many sorceries and the strength of your spells' to 'your many sorceries and the power of Hebo.' This is a substantive addition/mistranslation that alters the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

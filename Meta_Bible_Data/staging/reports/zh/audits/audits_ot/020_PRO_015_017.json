@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 15,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲרֻחַת יָרָק' means 'a meal of vegetables' (or 'a dish of herbs'), not '青草的飲食' (grass/vegetation food). 'יָרָק' is vegetables/herbs, not grass. Also 'מִשּׁוֹר אָבוּס' means 'than a fatted ox' (a stall-fed ox), not '有牛' (having an ox). The Chinese rendering loses the specific contrast between a simple vegetable meal and a fatted ox, and adds '有' (having) which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

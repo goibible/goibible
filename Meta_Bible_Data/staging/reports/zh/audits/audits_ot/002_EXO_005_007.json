@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִלְבֹּן הַלְּבֵנִים' means 'to make bricks' (לְבֵנִים = bricks), but the Chinese renders it as '製作磚壇' (making brick altars), adding '壇' (altar) which is not in the Hebrew. This changes the meaning from making bricks to making brick altars."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

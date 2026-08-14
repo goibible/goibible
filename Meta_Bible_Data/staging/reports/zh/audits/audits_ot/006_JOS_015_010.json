@@ -1,0 +1,26 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בַּעֲלָה' (Baalah), but the Chinese renders it as '巴亞拉' (Ba-yala), which appears to be a different name. The correct transliteration should be '巴拉' or '巴亞拉' is questionable; more importantly, 'בֵּית שֶׁמֶשׁ' (Beth-shemesh) is rendered as '別是梅沙' (Bie-shi-mei-sha), which is a distortion of the name—should be '伯示麥' or '別示巴' is a different place. The name 'בֵּית שֶׁמֶשׁ' is not '別是梅沙'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַר שֵׂעִיר' (Mount Seir) is rendered as '西珥山的山脈' (mountain range of Mount Seir), which adds '山脈' (mountain range) not in the Hebrew; the Hebrew says 'the mountain of Seir' (singular). This is a minor addition but changes the description."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מִצָּפוֹנָה' (from the north) is rendered as '從北方' (from the north), which is correct, but the phrase 'הִיא כְסָלוֹן' (it is Kesalon) is rendered as '到達基薩崙' (arrive at Kesalon), which adds '到達' (arrive) and changes the meaning from an identification ('it is Kesalon') to a movement. This is a mistranslation of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

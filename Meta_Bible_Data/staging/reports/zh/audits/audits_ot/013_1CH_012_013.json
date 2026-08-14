@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name מַכְבַּנַּ֖י (Machbannai) is rendered as 瑪迦巴乃 (Ma-jia-ba-nai), which appears to be a different name (possibly a conflation or misreading). The correct transliteration should be something like 瑪革班乃 or 瑪克班乃, not 瑪迦巴乃."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

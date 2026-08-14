@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 109,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֶבְיוֹן' means 'needy/poor', not 'righteous' (義人). The Chinese renders '義人' which changes the identity of the person being helped."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

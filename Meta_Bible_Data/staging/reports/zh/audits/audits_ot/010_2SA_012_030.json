@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 12,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּכַּר זָהָב' means 'a talent of gold' (a unit of weight), but the Chinese renders it as '一塊餅的金子' ('a loaf of gold'), which is a mistranslation of the unit 'talent' as 'loaf'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

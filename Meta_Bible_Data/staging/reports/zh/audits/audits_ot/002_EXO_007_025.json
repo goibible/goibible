@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 7,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַיִּמָּלֵא שִׁבְעַת יָמִים' (and seven days were fulfilled/completed) is rendered as '過了七日' (after seven days passed), which conveys the idea of seven days elapsing, but the verb 'מָלֵא' (was filled/completed) is not explicitly represented; however, the Chinese phrase '過了' (passed) is a close idiomatic rendering. The main issue is the omission of the subject 'הַיְאֹר' (the Nile/river) in the Chinese translation. The Hebrew states 'after Yahweh struck the Nile' (אַחֲרֵי הַכּוֹת יְהוָה אֶת הַיְאֹר), but the Chinese says '耶和華擊打溪之後' (after Yahweh struck the stream), dropping the definite object 'the Nile' and replacing it with '溪' (stream), which is a different noun and loses the specific reference to the Nile."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

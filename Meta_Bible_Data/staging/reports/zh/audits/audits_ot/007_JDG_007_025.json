@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 7,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'עֵבֶר לַיַּרְדֵּן' (beyond the Jordan), but the Chinese adds '以巴衛的' (of Abarim?) before '約旦河', which is not in the Hebrew text. This is an addition of a place name not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

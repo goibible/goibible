@@ -1,0 +1,26 @@
+{
+  "book": "PSA",
+  "chapter": 119,
+  "verse": 147,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'קִדַּמְתִּי בַנֶּשֶׁף' means 'I anticipated/prevented the twilight' (i.e., I rose before dawn), but the Chinese '我夜間起來' (I rose at night) omits the specific sense of 'anticipating/preventing' and the precise time 'twilight/evening' (נֶשֶׁף), replacing it with a general 'night'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וָאֲשַׁוֵּעָה' means 'and I cried out/pleaded' (from שׁוע, to cry for help), but the Chinese '為你話語焦渴' (I thirst for your words) changes the action from crying out to thirsting, which is not in the Hebrew."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'יִחָֽלְתִּי' means 'I hoped/waited' (from יחל), but the Chinese omits this verb entirely, leaving only the thirst metaphor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

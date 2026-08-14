@@ -1,0 +1,26 @@
+{
+  "book": "JDG",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִּנּוֹת כָּל הָעָם' means 'the corners of all the people' (i.e., the leaders/chiefs of all the people), not 'the corner towers of the people' (百姓的各城樓角塔). The Chinese adds '城樓' (towers) which is not in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כֹּל שִׁבְטֵי יִשְׂרָאֵל' means 'all the tribes of Israel', but the Chinese renders 'שִׁבְטֵי' as '杖' (staff/rod), which is a mistranslation of the word 'tribes'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַרְבַּע מֵאוֹת אֶלֶף אִישׁ רַגְלִי שֹׁלֵף חָרֶב' means 'four hundred thousand men on foot that draw the sword' (i.e., 400,000 foot soldiers). The Chinese '四百個一萬' literally means 'four hundred ten-thousands' which equals 4,000,000, not 400,000. The number is mistranslated."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

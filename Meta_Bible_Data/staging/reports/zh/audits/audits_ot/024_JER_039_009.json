@@ -1,0 +1,22 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name נְבֽוּזַר אֲדָ֥ן (Nebuzaradan) is rendered as 尼布薩拉旦, which is a non-standard transliteration; the standard Chinese rendering is 尼布撒拉旦. This is a minor name spelling issue, not a different name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase רַב טַבָּחִים (rab tabbachim) means 'chief of the guards' or 'captain of the bodyguard' (a military title), not '多個宰殺者' (multiple slaughterers). The Chinese rendering misinterprets the title as 'many slaughterers,' which changes the meaning of the official's role."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

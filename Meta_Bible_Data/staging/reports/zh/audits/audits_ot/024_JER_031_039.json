@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 31,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'גִּבְעַת גָּרֵב' (Gibeah of Gareb) and 'גֹּעָתָה' (Goah). The Chinese renders '加肋伯山脈的小山丘' (the hill of the Gareb mountain range) and '歌哈人之地' (the land of the Goah people). The first adds '山脈' (mountain range) not in the Hebrew, and the second adds '人之地' (land of the people), changing the place name 'Goah' into a gentilic/territorial phrase. This alters the proper names and adds concepts not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

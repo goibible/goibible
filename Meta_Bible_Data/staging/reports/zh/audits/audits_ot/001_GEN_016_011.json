@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 16,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָנְיֵךְ' means 'your affliction/misery' (abstract noun), but the Chinese renders it as '你的困苦人' ('your afflicted person'), adding the word '人' (person) which is not in the Hebrew and changes the meaning from the state of affliction to a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

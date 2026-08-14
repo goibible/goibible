@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 54,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֵשֶׁת נְעוּרִים כִּי תִמָּאֵס' means 'and a wife of youth when she is rejected' (i.e., a young wife who is rejected/despised), but the Chinese renders it as '被幼年妻子棄絕的' which reverses the subject/object: it says the man is rejected by his young wife, whereas the Hebrew says the young wife is rejected (by her husband). This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

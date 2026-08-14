@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew lists four groups: חרטמיא (magicians), אשפיא (enchanters), כשדיא (Chaldeans), and גזריא (diviners). The Chinese omits 'magicians' (חרטמיא) and 'enchanters' (אשפיא), rendering only '迦勒底人、術士、巫師' (Chaldeans, sorcerers, diviners), which drops two of the four categories."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

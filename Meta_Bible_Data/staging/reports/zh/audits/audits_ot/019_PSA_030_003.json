@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 30,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מִיּוֹרְדֵי בוֹר' (from those who go down to the pit) is rendered as '不再下到井裡' (no longer go down to the pit), which adds a negation ('不再') not present in the Hebrew. The Hebrew states that God brought the speaker's soul up from Sheol and gave life to him 'from among those who go down to the pit' (i.e., from the state of those descending to the pit), not that he will not go down again. This changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

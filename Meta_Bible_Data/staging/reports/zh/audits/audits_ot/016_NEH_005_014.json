@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 5,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew פֶּחָה (pechah) means 'governor', not '百夫長' (centurion/commander of a hundred). The Chinese translation renders the governor's bread as '百夫長的餅', which changes the meaning from a provincial governor to a military officer of a hundred men."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

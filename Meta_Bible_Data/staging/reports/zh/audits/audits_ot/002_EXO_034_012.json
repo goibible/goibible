@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 34,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פֶּן תִּכְרֹת בְּרִית לְיוֹשֵׁב הָאָרֶץ' means 'lest you make a covenant with the inhabitants of the land' (i.e., you, Israel, are the subject making the covenant). The Chinese '免得你所要到之地的居民與他們立約' reverses the subject and object, making the inhabitants the ones making a covenant with 'them' (a third party), which changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

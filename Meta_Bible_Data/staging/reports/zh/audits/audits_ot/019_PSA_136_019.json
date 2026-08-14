@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 136,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name סִיחוֹן (Sihon) is rendered as 希宏, which is an incorrect transliteration; the standard Chinese rendering is 西宏."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

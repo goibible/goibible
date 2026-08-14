@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'חֳרֵם' (Horem) as the third city, but the Chinese renders it as '何連' (Helian), which corresponds to 'חֵלֶם' (Helem) or a different name; the correct rendering should be '何倫' or similar for Horem. Additionally, the Chinese adds '伊利安' (Yili'an) which is not in the Hebrew; the Hebrew has 'וְיִרְאוֹן' (Yiron) and 'מִגְדַּל אֵל' (Migdal-El), but the Chinese lists '以利安' (Yili'an) for Yiron, then '米大伊勒' (Midaiyile) for Migdal-El, then '何連' (Helian) for Horem, then '伯亞納' (Beth-anath), then '伊利安' (Yili'an) again, which is a duplication of the first name and not in the Hebrew; the Hebrew has 'בֵּית שֶׁמֶשׁ' (Beth-shemesh) as the last city, which the Chinese renders as '伯示麥' (Boshimai), but the extra '伊利安' is an addition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

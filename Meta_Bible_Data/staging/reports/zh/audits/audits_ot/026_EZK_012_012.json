@@ -1,0 +1,34 @@
+{
+  "book": "EZK",
+  "chapter": 12,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהַנָּשִׂיא' means 'the prince/leader' (נָשִׂיא), not '元帥' (military commander/general). This changes the identity of the subject."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בָּעֲלָטָה' means 'in the dark' or 'at twilight' (עֲלָטָה = darkness), not '走入昏暗' (walk into darkness). The phrase 'יִשָּׂא בָּעֲלָטָה' means 'he shall carry [his belongings] in the dark' — the carrying is done in darkness, not walking into darkness. The Chinese adds '走入' (walk into) which is not in the Hebrew."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'בַּקִּיר יַחְתְּרוּ לְהוֹצִיא בוֹ' means 'they shall dig through the wall to bring [him] out through it' — the purpose clause 'לְהוֹצִיא בוֹ' (to bring out through it) is omitted in the Chinese, which only says '穿過牆逃離' (escape through the wall), losing the explicit purpose of bringing him out."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פָּנָיו יְכַסֶּה' means 'he shall cover his face' (active, the prince covers his own face), but the Chinese '他必蒙住臉' is ambiguous — it could be read as passive (his face will be covered by others). The Hebrew is clearly active: the subject covers his own face."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יַעַן אֲשֶׁר לֹא יִרְאֶה לַעַיִן הוּא אֶת הָאָרֶץ' means 'because he shall not see with his eye the land' — the Chinese '因他眼不見地' (because his eyes do not see the land) is close, but the Hebrew emphasizes 'with his eye' (לַעַיִן) which is not fully captured; however this is minor and could be considered acceptable. The main issue is the earlier mistranslations."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

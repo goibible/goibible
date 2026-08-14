@@ -1,0 +1,42 @@
+{
+  "book": "PSA",
+  "chapter": 45,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'לַמְנַצֵּחַ' (for the chief musician / to the director) is not rendered in the Chinese; the Chinese begins with '交示珊城' which appears to be a transliteration of 'עַל שֹׁשַׁנִּים' (upon/according to Shoshannim, a musical term), but the initial 'לַמְנַצֵּחַ' is missing."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל שֹׁשַׁנִּים' means 'upon/according to Shoshannim' (likely a musical instrument or tune name, 'lilies'), but the Chinese renders it as '交示珊城' which adds '城' (city) and treats it as a place name, which is not in the Hebrew."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מַשְׂכִּיל' (a contemplative/instructional psalm) is not rendered in the Chinese; the Chinese has '訓言詩' which may be an attempt, but the Hebrew word is missing as a distinct term."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'שִׁיר יְדִידֹת' (a song of loves / a love song) is rendered as '親愛者的詩歌' which is acceptable, but the Hebrew 'שִׁיר' (song) is present; however, the phrase 'יְדִידֹת' (loves) is rendered as '親愛者的' (of the beloved), which is a slight shift but not a major error."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רָחַשׁ לִבִּי דָּבָר טוֹב' means 'my heart is stirred/overflows with a good word' — the Chinese '我的心發出美話' (my heart utters beautiful words) is close, but the verb 'רָחַשׁ' (to stir/bubble up) is rendered as '發出' (to emit), which is acceptable."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֹמֵר אָנִי מַעֲשַׂי לְמֶלֶךְ' means 'I say, my works are for the king' — the Chinese '我要論我的作為向王' (I will declare my deeds to the king) is close, but the Hebrew has 'אֹמֵר' (I say) as a participle, and the Chinese adds '要' (will) which is a future nuance not in the Hebrew; however, this is minor."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְשׁוֹנִי עֵט סוֹפֵר מָהִיר' means 'my tongue is the pen of a ready/quick writer' — the Chinese '我的舌頭像快速的筆' (my tongue is like a swift pen) is close, but the Hebrew has 'עֵט סוֹפֵר' (pen of a writer) and the Chinese omits 'סוֹפֵר' (writer), rendering only '快速的筆' (swift pen), which is a minor omission."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

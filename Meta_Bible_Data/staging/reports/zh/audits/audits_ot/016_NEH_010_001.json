@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name נְחֶמְיָה (Nehemiah) is rendered as '尼希米雅' in Chinese, which is a non-standard transliteration; the standard is '尼希米'. However, the more significant issue is that '提斯他' (Tishatha) appears to be an addition or misplacement—the Hebrew has 'הַתִּרְשָׁתָא' (the Tirshatha, a title meaning governor), not a personal name. The Chinese '提斯他' seems to be a transliteration of 'תִּרְשָׁתָא' but incorrectly treated as a name, and '尼希米雅' is a variant of Nehemiah. The phrase '就是哈加利亞人的兒子' correctly renders 'בֶּן חֲכַלְיָה' (son of Hakaliah), but the overall rendering misidentifies the title as a name and alters the name form, which could mislead the reader about the identity of the signer."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

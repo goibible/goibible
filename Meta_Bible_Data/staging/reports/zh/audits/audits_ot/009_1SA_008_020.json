@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 8,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְיָצָא לְפָנֵינוּ' means 'and he will go out before us' (i.e., lead us into battle), but the Chinese '領我們出現在我們面前' says 'lead us to appear before us,' which reverses the direction and changes the meaning. The king goes out before the people, not the people appearing before themselves."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

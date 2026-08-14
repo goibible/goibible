@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 18,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִדְיָנִים' (midyanim) means 'strife/contention' (plural of midyan), not 'Midianites' (people of Midian). The Chinese renders it as '米甸人' (Midianites), which is a different meaning. The verse is about the lot causing strife to cease, not about the Midianite people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

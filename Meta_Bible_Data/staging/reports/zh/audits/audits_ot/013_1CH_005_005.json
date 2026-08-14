@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 5,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'Baal' (בַּעַל) as the son of Reaiah, but the Chinese renders it as '主人' (master/lord) instead of transliterating the proper name '巴力' (Baal). This changes the proper name into a common noun, causing a reader to misunderstand the genealogy."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

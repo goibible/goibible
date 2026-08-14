@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 3,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כָּל חֶבֶל אַרְגֹּב' means 'all the region of Argob' (חֶבֶל = region/district, not 'rope' or 'cord'). The Chinese renders it as '亞哥布山的一切繩索' ('all the ropes of Mount Argob'), which misinterprets 'חֶבֶל' as 'rope' and adds '山' (mountain) not in the Hebrew. This changes the meaning from a region to a mountain with ropes."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

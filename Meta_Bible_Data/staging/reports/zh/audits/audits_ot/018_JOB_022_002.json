@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 22,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַלְאֵ֥ל יִסְכָּן גָּ֑בֶר' means 'Can a man be profitable to God?' (i.e., 'Does a man benefit God?'), not 'Can a man be inhabited by God?' The verb 'יִסְכָּן' (from סכן) means 'to profit/benefit' or 'to be useful', not 'to dwell/inhabit'. The Chinese '為神所居住' (be inhabited by God) changes the meaning entirely. The second clause 'כִּֽי יִסְכֹּ֖ן עָלֵ֣ימוֹ מַשְׂכִּֽיל' means 'for a wise man benefits himself' (i.e., a wise man profits himself), not 'He will surely care for them' (祂必眷顧他們). The subject 'מַשְׂכִּיל' (wise man) is rendered as '祂' (He) referring to God, and 'עָלֵימוֹ' (upon himself/for himself) is mistranslated as 'them' (他們). This reverses the subject and object and changes the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 40,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַנּוֹתֵן רוֹזְנִים לְאָיִן' means 'who makes rulers as nothing' (i.e., reduces rulers to nothing), but the Chinese renders 'רוֹזְנִים' (rulers/princes) as '光' (light), which is not in the Hebrew. The phrase 'לְאָיִן' (to nothing) is rendered as '黑暗' (darkness), which is an addition and changes the meaning. The second clause 'שֹׁפְטֵי אֶרֶץ כַּתֹּהוּ עָשָׂה' (he makes judges of the earth like chaos/formlessness) is partially correct, but the first clause is mistranslated."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 20,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '耶和華眼中' (in the eyes of Yahweh), which is not present in the Hebrew. The Hebrew simply says 'he did evil' (הוּא הִרְשִׁיעַ לַעֲשׂוֹת), without specifying 'in the eyes of Yahweh'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

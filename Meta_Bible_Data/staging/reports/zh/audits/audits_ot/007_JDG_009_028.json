@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'זְבֻל' (Zebul), but the Chinese renders it as '撒拔' (Saba), which is a different name. The correct transliteration should be '西布勒' or similar."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶן יְרֻבַּעַל' means 'son of Jerubbaal' (i.e., Gideon), but the Chinese says '耶路巴設的兒子' (son of Jerubbesheth), which is a different name. The Hebrew has 'יְרֻבַּעַל' (Jerubbaal), not 'יְרֻבֶּשֶׁת' (Jerubbesheth)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

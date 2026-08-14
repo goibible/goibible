@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 20,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'תמריק' (from מרק, 'to cleanse/purge') is rendered as '驅散' (disperse/drive away), which changes the meaning from cleansing/purging to scattering. Also 'בְּרָע' means 'evil' (with preposition 'in/with'), but the Chinese '邪惡' is acceptable as object; however the verb meaning shift is substantive."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִבַּעֲלֵי יְהוּדָה' means 'from Baale-judah' (a place name, i.e., Kiriath-jearim), but the Chinese renders it as '從猶大諸王那裡' ('from the kings of Judah'), which misidentifies the location as 'the kings of Judah' instead of the place name Baale-judah."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

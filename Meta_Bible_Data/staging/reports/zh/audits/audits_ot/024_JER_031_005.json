@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 31,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְחִלֵּלוּ' (from חלל, 'to profane/defile') is rendered as '並享用果子' ('and enjoy the fruit'), which is a substantive meaning change. The Hebrew says the planters will profane/defile (the vineyards), not enjoy their fruit."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

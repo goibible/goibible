@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 63,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'כְּדֹרֵךְ בְּגַת' means 'like one who treads in the winepress' (or 'like a treader of the winepress'), not 'like those who tread in the city of Gath.' The word 'גַּת' here is a common noun meaning 'winepress,' not the proper name of the Philistine city Gath. The Chinese translation renders it as '迦特城' (the city of Gath), which is a mistranslation of the common noun as a place name, changing the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

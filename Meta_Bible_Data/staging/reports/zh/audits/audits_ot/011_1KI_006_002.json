@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָרְכּוֹ' means 'its length', but the Chinese renders it as '其長久' (its long duration), which changes the meaning from spatial length to temporal duration."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

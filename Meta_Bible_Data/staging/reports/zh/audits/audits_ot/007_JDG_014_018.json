@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 14,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּטֶרֶם יָבֹא הַחַרְסָה' means 'before the sun went down' (literally 'before the sun came'), but the Chinese renders it as '在陶器未到之前' ('before the pottery arrived'), mistranslating 'הַחַרְסָה' (the sun) as '陶器' (pottery). This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

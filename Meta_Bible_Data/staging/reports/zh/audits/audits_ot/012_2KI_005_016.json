@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 5,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew ends with וַיְמָאֵן ('and he refused'), but the Chinese renders '他就接受了' ('and he accepted'), reversing the negation."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

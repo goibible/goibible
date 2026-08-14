@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists three personal names: עֵיבָל (Ebal), אֲבִימָאֵל (Abimael), and שְׁבָא (Sheba). The Chinese renders עֵיבָל as '以巴路山' (Mount Ebal), adding '山' (mountain) which is not in the Hebrew and changes the name into a place, and שְׁבָא as '示巴人' (Sheba people), adding '人' (people) which is not in the Hebrew and changes the name into a people group. Both are personal names in the genealogy context, so these additions alter the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

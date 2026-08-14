@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention '正月' (the first month); it only says 'on the fourteenth day of the month' (בְּאַרְבָּעָה עָשָׂר יוֹם לַחֹדֶשׁ). The addition of '正月' (first month) is not present in the Hebrew and changes the specificity of the month."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 29,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'אֲרִיאֵל' (Ariel), but the Chinese adds '雅各' (Jacob) after it, which is not present in the Hebrew text. This is an addition of a name not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

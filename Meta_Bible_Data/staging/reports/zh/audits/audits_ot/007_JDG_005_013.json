@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְהוָה יְרַד לִי בַּגִּבּוֹרִים' means 'YHWH came down for me among the mighty ones' (or 'against the mighty'), with 'לִי' meaning 'for me' and 'בַּגִּבּוֹרִים' meaning 'among/with the mighty ones'. The Chinese renders '百姓必歸向耶和華' ('the people will turn to YHWH'), which reverses the subject-object relationship: in Hebrew YHWH is the subject of 'came down', not the object of the people's turning. Also 'לִי' ('for me') is omitted, and 'בַּגִּבּוֹרִים' is rendered as '於強者之中' ('among the strong ones'), which is acceptable, but the main clause misrepresents who is acting. The Chinese adds '百姓必歸向' ('the people will turn to') which has no basis in the Hebrew; the Hebrew has no verb 'turn' or 'return'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

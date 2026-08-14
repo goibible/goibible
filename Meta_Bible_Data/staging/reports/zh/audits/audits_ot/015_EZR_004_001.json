@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase בְּנֵי הַגּוֹלָה means 'the sons of the exile' (i.e., the returned exiles), but the Chinese renders it as '擄掠物的兒子' ('sons of the plunder/loot'), which misrepresents the meaning. 'הַגּוֹלָה' refers to the exile/captivity, not plunder."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

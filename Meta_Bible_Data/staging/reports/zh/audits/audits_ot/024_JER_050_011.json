@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 50,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שֹׁסֵ֖י נַחֲלָתִ֑י' means 'plunderers of my heritage/inheritance' (those who plunder my inheritance), not 'the desolation of my inheritance' (產業的荒涼). The Chinese renders the noun 'plunderers' as 'desolation', changing the subject from people who plunder to a state of ruin."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

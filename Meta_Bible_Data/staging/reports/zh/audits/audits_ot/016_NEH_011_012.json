@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בֶּן אַמְצִי' (son of Amtsi), but the Chinese renders it as '暗色伊人的兒子' (son of the Amsei people), which appears to be a mistranslation of the proper name 'Amtsi' as an ethnic/gentilic term rather than a personal name. The name should be transliterated as a personal name, e.g., '暗茨的兒子'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

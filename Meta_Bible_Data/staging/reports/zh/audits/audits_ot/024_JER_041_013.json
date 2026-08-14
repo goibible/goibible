@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 41,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'all the people who were with Ishmael' (אֶת יִשְׁמָעֵאל) saw Johanan and the officers; the Chinese reverses the subject/object, making the people see Ishmael and Johanan, which changes who is doing the seeing and who is seen."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

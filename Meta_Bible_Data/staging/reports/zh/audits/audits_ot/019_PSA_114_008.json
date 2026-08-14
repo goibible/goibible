@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 114,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew is a declarative statement about God ('He who turns the rock into a pool of water, the flint into a spring of water'), not a question. The Chinese renders it as two rhetorical questions ('Can the rock become a pool? Can the flint become a spring?'), which changes the subject from God's action to a hypothetical capability of the rock, altering the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 20,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַגִּבְעָתָה' means 'to Gibeah' (a proper place name, with the directive -ה suffix), but the Chinese renders it as '小山丘' (small hill), which is a common noun and loses the specific place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

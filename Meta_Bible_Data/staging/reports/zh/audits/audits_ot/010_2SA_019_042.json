@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶאָכוֹל אָכַלְנוּ מִן הַמֶּלֶךְ אִם נִשֵּׂאת נִשָּׂא לָנוּ' is a rhetorical question meaning 'Have we eaten at all from the king? Have we been given any gift at all?' (i.e., we have received nothing from the king). The Chinese renders this as '我們豈吃過王的甚麼嗎？我們所得的分豈是歸給我們的嗎？' which changes the second clause: 'our portion is it given to us?' implies they received a portion, whereas the Hebrew 'נִשֵּׂאת נִשָּׂא לָנוּ' means 'has a gift been lifted/carried for us?' (i.e., has anything been granted to us?), not 'our portion belongs to us.' This alters the meaning from 'we received nothing' to a different claim about a portion."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

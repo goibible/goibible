@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 25,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name כָּזְבִּי (Kozbi) is rendered as 歌斯比雅 (Gesibiya), which appears to be a different name rather than a standard transliteration of Kozbi. The expected Chinese transliteration would be something like 科斯比 or 歌斯比, but 歌斯比雅 adds an extra syllable '雅' not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

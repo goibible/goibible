@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 18,
+  "verse": 44,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְשֵׁמַע אֹזֶן' means 'at the hearing of the ear' (i.e., 'as soon as they hear'), not '為要聽見耳朵' ('in order to hear the ear'). The Chinese rendering misconstrues the preposition and noun relationship, changing the meaning from 'at the report/hearing' to 'for the purpose of hearing the ear'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

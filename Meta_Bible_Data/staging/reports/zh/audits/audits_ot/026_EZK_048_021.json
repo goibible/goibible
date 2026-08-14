@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 48,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew term 'לַנָּשִׂיא' (to the prince/leader) is rendered as '元帥' (military marshal/commander), which changes the identity of the person. The Hebrew word 'נָשִׂיא' means 'prince, leader, chief' (often referring to a ruler or chieftain), not specifically a military marshal. This is a significant semantic shift that would mislead a Chinese reader about who the passage concerns."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

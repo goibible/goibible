@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 25,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'כְנָבָל' means 'like Nabal' (the man whose name means 'fool'), but the Chinese renders it as '像那巴爾一樣' ('like that Baal'), swapping the personal name Nabal for Baal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

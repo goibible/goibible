@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֶלְעָשָׂה (Elasah/El'asah) is rendered as '以拉撒人' (Yilasa ren), adding '人' (person) and altering the name; it should be '以拉薩' or similar without the suffix '人'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

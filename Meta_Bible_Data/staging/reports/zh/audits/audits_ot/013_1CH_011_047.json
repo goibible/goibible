@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists three names: אֱלִיאֵל (Eliel), עוֹבֵד (Obed), and יַעֲשִׂיאֵל (Jaasiel). The Chinese renders the third name as 雅細耳 (Yaxi'er), which is a plausible transliteration of יַעֲשִׂיאֵל, but the first name אֱלִיאֵל is rendered as 以列 (Yilie), which is a transliteration of a different name (e.g., אֵלִיאֵל or אֶלְיָאֵל). The Hebrew name אֱלִיאֵל is typically transliterated as 以利以謝 or 以利業, not 以列. This is a name swap/mistranslation of the first name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

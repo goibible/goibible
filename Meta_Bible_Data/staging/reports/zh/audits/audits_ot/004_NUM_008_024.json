@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 8,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'from twenty-five years old and upward' (מִבֶּן חָמֵשׁ וְעֶשְׂרִים שָׁנָה וָמַעְלָה), but Chinese says 'from twenty years old and upward' (從二十歲以上), dropping the 'five' and changing the age."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

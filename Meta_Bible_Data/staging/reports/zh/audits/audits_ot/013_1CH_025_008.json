@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 25,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִשְׁמֶרֶת לְעֻמַּת' means 'duty corresponding to' or 'watch alongside', not '籤投在鄰舍中' (cast lots among neighbors). The Chinese adds '鄰舍' (neighbors) which is not in the Hebrew, and misrenders the sense of 'corresponding to' as 'among'. The phrase 'מֵבִין עִם תַּלְמִיד' means 'the skilled with the disciple' (i.e., the expert alongside the learner), but the Chinese '連學生也一起' (even the student together) adds '也' (also/even) and '一起' (together) which is not in the Hebrew, and loses the contrast between 'מֵבִין' (skilled/understanding one) and 'תַּלְמִיד' (disciple)."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

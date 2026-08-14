@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 25,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the fifth son as אֶלְדָּעָה (Eldaah), but the Chinese renders it as 以拉達 (Yilada), which is a different name. The correct transliteration should be 以勒大 or similar, not 以拉達."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '以巴衛這邊' (on the side of Abarim), which has no basis in the Hebrew text. The Hebrew only mentions 'עַרְבוֹת מוֹאָב' (plains of Moab) and 'מֵעֵבֶר לְיַרְדֵּן יְרֵחוֹ' (across the Jordan from Jericho), with no reference to Abarim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 7,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִגִּבְעַת הַמּוֹרֶה' means 'from the hill of Moreh' (גִּבְעַת = hill of, הַמּוֹרֶה = Moreh, a proper name). The Chinese renders it as '雨山丘' ('Rain Hill'), which is a mistranslation of the proper name 'Moreh' as if it were the common noun 'מוֹרֶה' (rain). This changes the place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

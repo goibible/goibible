@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 8,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל אוּבַל אוּלָי' means 'by the Ulai canal' (a waterway), not '在幼伯河的烏來城' ('in the city of Ulai on the Yubai River'). The Ulai is a river/canal, not a city, and 'עַל' means 'by/at' not 'in'. This changes the location from a canal to a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

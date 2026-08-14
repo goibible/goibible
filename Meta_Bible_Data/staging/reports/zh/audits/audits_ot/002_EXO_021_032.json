@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 21,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '牛的主人須賠償' (the owner of the ox must compensate), but the Hebrew only says 'he shall give silver thirty shekels to his master' (יִתֵּן לַאדֹנָיו) — the subject is the owner of the ox implied, but the phrase '牛的主人' is an explicit addition not in the Hebrew; however, this is a natural clarification and does not change the meaning. More significantly, the Chinese says '給死者的主人' (to the master of the dead person), but the Hebrew says 'לַאדֹנָיו' (to his master) — the antecedent of 'his' is the slave or maidservant's master, not 'the dead person's master' — this is a mistranslation of the possessive pronoun, changing who receives the payment."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

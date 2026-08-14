@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 23,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'בְּנֵ֣י שִׁמְעִ֗י' (the sons of Shim'i), but the Chinese renders it as '希瑪利人的兒子' (the sons of Himaeli/希瑪利), which appears to be a different name. The Hebrew name is שִׁמְעִי (Shim'i), not 希瑪利. This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

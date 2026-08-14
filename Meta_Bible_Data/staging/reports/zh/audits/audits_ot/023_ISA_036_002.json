@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 36,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'from Lachish' (מִלָּכִישׁ), not 'from the gate of Lachish' (從拉吉城門). The word 'gate' (שַׁעַר) is not present in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

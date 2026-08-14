@@ -1,0 +1,30 @@
+{
+  "book": "JOS",
+  "chapter": 22,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלַחֲצִ֣י שֵׁ֣בֶט הַֽמְנַשֶּׁ֗ה' means 'to the half-tribe of Manasseh' (i.e., the half of the tribe of Manasseh), but the Chinese renders it as '瑪拿西半個杖' ('half a staff of Manasseh'), which misinterprets 'שֵׁבֶט' (tribe) as '杖' (staff/rod). This changes the meaning from a tribal division to a physical object."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נָתַ֣ן מֹשֶׁה֮ בַּבָּשָׁן֒' means 'Moses gave in Bashan' (i.e., the territory of Bashan), but the Chinese says '摩西將巴珊分給' ('Moses divided Bashan to'), which reverses the object: in Hebrew, Bashan is the location where the land was given, not the thing given. The Chinese implies Bashan itself was given to the half-tribe, whereas the Hebrew means Moses gave (land) in Bashan to them."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּלְחֶצְי֗וֹ נָתַ֤ן יְהוֹשֻׁ֨עַ֙ עִם אֲחֵיהֶ֔ם' means 'and to its [other] half Joshua gave with their brothers' (i.e., the other half of Manasseh received land with their brothers), but the Chinese says '約書亞將另一半與他們的弟兄一同分於' ('Joshua divided the other half together with their brothers'), which is close but the phrase 'עִם אֲחֵיהֶם' ('with their brothers') is rendered as '與他們的弟兄一同' — this is acceptable, but the main issue is the preceding mistranslation of 'שֵׁבֶט' and the Bashan reversal."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מֵעֵבֶר הַיַּרְדֵּן יָמָּה' means 'beyond the Jordan westward' (i.e., on the west side of the Jordan), but the Chinese says '於約旦河以西海那邊' ('on the west side of the Jordan, toward the sea'), which adds '海那邊' ('toward the sea') — this is an addition not in the Hebrew, though it may be an interpretive gloss; however, the core meaning 'west of the Jordan' is preserved, so this is minor."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

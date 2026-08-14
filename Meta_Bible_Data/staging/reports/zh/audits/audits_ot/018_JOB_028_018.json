@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 28,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'מֶשֶׁךְ חָכְמָה' means 'the acquisition/possession of wisdom' (מֶשֶׁךְ = 'drawing out/acquiring', not a personal name). The Chinese renders it as '瑪士撒克的智慧' ('Methuselah's wisdom'), introducing a personal name (Methuselah) that is not in the Hebrew and changing the meaning from 'the getting of wisdom' to a specific person's wisdom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

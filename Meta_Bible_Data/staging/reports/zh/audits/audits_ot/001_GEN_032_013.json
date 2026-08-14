@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 32,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַיִּקַּח מִן הַבָּא בְיָדוֹ' means 'he took from what came into his hand' (i.e., from what he had with him), but the Chinese '從他手中拿了一份' says 'took a portion from his hand,' which changes the subject/possession: in Hebrew, the items are in Jacob's hand (his possession), not in Esau's hand. The Chinese could be misread as taking from Esau's hand, altering who possesses the gift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'מְשֻׁלָּם מַלּוּךְ וַעֲדָיָה יָשׁוּב וּשְׁאָל ירמות' (Meshullam, Malluch, Adaiah, Jashub, Sheal, Jeremoth). The Chinese renders '米書蘭、瑪鹿、亞大雅、雅述、示押、耶利摩' which matches the Hebrew names and order. However, the Hebrew has 'וּמִבְּנֵי בָּנִי' meaning 'from the sons of Bani', but the Chinese says '從巴尼的兒子中' which is correct. No name swap detected. The issue is that the Hebrew has 'יָשׁוּב וּשְׁאָל ירמות' (Jashub, Sheal, Jeremoth) but the Chinese lists '雅述、示押、耶利摩' which is correct. Actually, rechecking: the Hebrew has 'יָשׁוּב וּשְׁאָל ירמות' – 'Jashub and Sheal Jeremoth' – the Chinese has '雅述、示押、耶利摩' – correct. No error. The verdict should be OK. But the instruction says flag only if a reader would believe something factually different. The names are all present and in order. So OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

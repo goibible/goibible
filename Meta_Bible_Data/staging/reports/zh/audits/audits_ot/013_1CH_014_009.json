@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb וַיִּפְשְׁטוּ (from פָּשַׁט) means 'to spread out' or 'to deploy' (in a military sense), not 'to take off clothes' (which would be פָּשַׁט with a different nuance, but here contextually it means 'to spread out/array themselves'). The Chinese '脫下衣服' (take off clothes) is a mistranslation; the correct meaning is 'they spread out/deployed in the Valley of Rephaim'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

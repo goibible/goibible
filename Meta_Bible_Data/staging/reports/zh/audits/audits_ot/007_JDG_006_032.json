@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 6,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is יְרֻבַּעַל (Jerubbaal), but the Chinese renders it as 耶路巴設 (Jerubbesheth), a different name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

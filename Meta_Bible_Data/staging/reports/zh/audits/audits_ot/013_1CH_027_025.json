@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַזְמָוֶת בֶּן עֲדִיאֵל' is a person's name (Azmaveth son of Adiel), but the Chinese renders it as '阿撒末特城' (the city of Azmaveth), adding '城' (city) which is not in the Hebrew and changes the meaning from a person to a place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

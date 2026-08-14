@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew name עֲזוּבָה (Azubah) is rendered as '亞述巴人' (which appears to be a misreading or conflation, possibly confusing with 'Ashur' or adding '人' meaning 'person'), instead of the correct transliteration '亞蘇巴' or similar. This changes the proper name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

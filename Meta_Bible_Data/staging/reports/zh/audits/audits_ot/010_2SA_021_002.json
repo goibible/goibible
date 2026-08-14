@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 21,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'הַגִּבְעֹנִים' (the Gibeonites), but the Chinese renders it as '吉甲約尼人' (Jijia-yueni people), which is not a recognized transliteration of 'Gibeonites' and appears to be a different name/place (possibly confusing Gibeon with Gilgal or another term)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

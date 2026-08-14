@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 24,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שֵׁן' means 'tooth', not 'ivory' (象牙). The Chinese renders 'tooth for tooth' as '以象牙償還象牙' (ivory for ivory), which changes the meaning of the lexeme."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

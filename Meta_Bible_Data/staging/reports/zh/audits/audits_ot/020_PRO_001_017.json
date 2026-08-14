@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 1,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חִנָּם מְזֹרָה הָרָשֶׁת' means 'in vain is the net spread' (i.e., the net is spread in vain), referring to a net spread without cause. The Chinese renders '窮人所撒的網' ('the net spread by the poor'), introducing '窮人' (poor) which is not in the Hebrew. The subject is the net, not a person, and there is no mention of 'poor' or 'poor people' in the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

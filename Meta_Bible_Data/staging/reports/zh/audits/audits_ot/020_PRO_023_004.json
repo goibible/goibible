@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 23,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַל תִּיגַע לְהַעֲשִׁיר' means 'Do not toil to become rich' (the subject is the addressee, not a third party). The Chinese '不要憑你的智慧使他富足' incorrectly renders it as 'Do not make him rich by your wisdom', changing the subject/object and adding '憑你的智慧' (by your wisdom) which corresponds to 'מִבִּינָתְךָ' but misplaces it, and '使他富足' (make him rich) misreads the infinitive 'לְהַעֲשִׁיר' as causative with an object. The correct sense is 'Do not weary yourself to gain wealth; cease from your own understanding.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 29,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שֵׁבֶט' means 'tribe' (or 'staff/rod' as a symbol of tribe), but the Chinese renders it as '杖' (staff/rod), which is a literal but incorrect rendering in this context. The phrase 'לַחֲצִ֖י שֵׁ֥בֶט הַֽמְנַשִּֽׁי' means 'to the half-tribe of Manasseh', not 'the half staff of the Manassites'. This changes the meaning from a tribal division to a physical object."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

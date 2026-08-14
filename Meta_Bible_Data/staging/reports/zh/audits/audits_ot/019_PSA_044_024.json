@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 44,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָנְיֵנוּ וְלַחֲצֵנוּ' means 'our affliction and our oppression' (both nouns referring to the people's suffering). The Chinese renders 'עָנְיֵנוּ' as '我們的困苦人' ('our afflicted people'), adding the word '人' (person/people) which is not in the Hebrew, and thus changes the meaning from 'our affliction' (the suffering itself) to 'our afflicted people' (the people who suffer). This is a substantive addition that alters the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

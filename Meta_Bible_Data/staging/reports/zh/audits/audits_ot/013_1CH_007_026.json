@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew text lists three generations: Ladan (לַעְדָּן), his son Ammihud (עַמִּיהוּד), his son Elishama (אֱלִישָׁמָע). The Chinese renders each as 'X人的兒子' (son of X people), which reverses the relationship: it says 'the son of Ladan people, the son of Ammihud people, the son of Elishama people' — implying each is the son of the preceding name, but the Hebrew explicitly states each is the son of the previous person (בְּנוֹ = his son). The Chinese phrasing makes it ambiguous or reversed, and the addition of '人' (people) is not in the Hebrew. This changes the genealogical relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

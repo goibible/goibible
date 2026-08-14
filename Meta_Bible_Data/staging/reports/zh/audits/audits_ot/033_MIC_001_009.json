@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲנוּשָׁה מַכּוֹתֶיהָ' means 'her wounds are incurable' or 'her wound is grievous', not 'I will strike her strikes' (因我必擊打她的擊打). The Chinese adds a first-person subject '我' and changes the meaning from a description of the severity of her wounds to an action of God striking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

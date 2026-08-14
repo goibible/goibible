@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 21,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעִם הָאָרֶץ אֲשֶׁר גַּרְתָּה בָּהּ' means 'and with the land where you have sojourned' — i.e., the kindness is to be shown both to the speaker and to the land. The Chinese renders this as '就是你在這地寄居時我所施予你的' ('that is, what I showed you when you sojourned in this land'), which changes the meaning: it makes the clause refer to past kindness received by the addressee, rather than a future obligation to the land. This is a substantive shift in who is to receive the kindness and the temporal reference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

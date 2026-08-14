@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 69,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שִׁבֹּלֶת מַיִם' means 'flood of water' or 'torrent of water', not '耳麥的水' (water of earbuds/ears of grain). 'שִׁבֹּלֶת' can mean 'ear of grain' but in this context with 'מַיִם' it clearly means 'flood/torrent'. The Chinese rendering '耳麥的水' is a mistranslation that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

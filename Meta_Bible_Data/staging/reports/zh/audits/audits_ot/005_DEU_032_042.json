@@ -1,0 +1,22 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase מֵרֹאשׁ פַּרְעוֹת אוֹיֵב means 'from the head of the leaders of the enemy' (פַּרְעוֹת is plural of פֶּרַע, meaning 'leaders' or 'chiefs'), but the Chinese renders it as '從敵人報復的頭上' ('from the head of the enemy's revenge'), which misinterprets פַּרְעוֹת as 'revenge' (報復) rather than 'leaders/chiefs'. This changes the meaning of the verse."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase וְשִׁבְיָה ('and captives') is rendered as '擄物' ('plunder/booty'), which shifts the meaning from captured persons to captured goods, losing the specific reference to captives."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

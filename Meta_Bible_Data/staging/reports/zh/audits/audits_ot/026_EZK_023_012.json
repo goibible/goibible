@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 23,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּנֵי אַשּׁוּר' means 'sons of Assyria' (i.e., Assyrians), not '亞述人的兒子' (sons of the Assyrian people) — the Chinese adds '人' (people) which is a minor addition but not substantive. More importantly, 'פַּחוֹת וּסְגָנִים' means 'governors and officials' (or 'deputies and rulers'), not '百夫長與王子' (centurions and princes) — this is a mistranslation of both terms. 'קְרֹבִים' means 'near/close ones' (i.e., those close to them), not '親近的人' which is acceptable, but the overall rendering of the officials' titles is wrong. 'בַּחוּרֵי חֶמֶד' means 'desirable young men' (choice young men), not '少年人在恩愛中' (young men in love) — 'חֶמֶד' means 'desire/pleasantness', not '恩愛' (affection/love). The phrase 'כֻּלָּם' means 'all of them', which is preserved as '一切'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 23,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the third part (三分之一) of those entering on the Sabbath are 'for the priests and the Levites, for the gatekeepers of the thresholds' (לַכֹּהֲנִים וְלַלְוִיִּם לְשֹׁעֲרֵי הַסִּפִּים), i.e., assigned to the priests, Levites, and gatekeepers. The Chinese adds '要把守門口' (shall guard the gate), which is not in the Hebrew, and rephrases the assignment as guarding the gate for the priests and Levites, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

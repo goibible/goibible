@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּשְׁנַיִם יָנִיסוּ רְבָבָה' means 'two put ten thousand to flight' (two cause ten thousand to flee). The Chinese '二人怎能驅逐萬軍之主呢' adds '萬軍之主' (Lord of hosts) which is not in the Hebrew; the Hebrew has 'רְבָבָה' (ten thousand/myriad), not 'Lord of hosts'. This is an addition that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

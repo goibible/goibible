@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has שְׁלֹמוֹת (Shelomoth) as the clan name and person, but Chinese renders it as 示羅密特 (Shelomith), a different name. The Hebrew text reads 'לַיִּצְהָרִ֣י שְׁלֹמ֔וֹת' (to the Izharite, Shelomoth), not 'Shelomith'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

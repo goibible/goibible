@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 2,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֹצֶם (Ozem) is rendered as 阿鮮 (Āxiān), which is not a standard transliteration of the name; the expected Chinese rendering would be something like 阿鮮 or 奧鮮, but the issue is that the name appears to be swapped or misrepresented. However, the more significant issue is that the Hebrew text lists 'Ozem the sixth, David the seventh' — the Chinese correctly states '第六是阿鮮，第七是大衛' (sixth is Ozem, seventh is David), so the order and names are correct. The name 阿鮮 is a plausible transliteration, so this may be acceptable. Re-evaluating: the name is not swapped; it is a transliteration. The verdict should be OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

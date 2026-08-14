@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 14,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קָצִיר' means 'harvest' (a crop), not '收割者' (harvester/reaper). The Chinese adds '者' (person suffix), changing the meaning from the harvest itself to the person who harvests."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

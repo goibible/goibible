@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says the king was speaking to Gehazi (גֵּחֲזִי), the servant of the man of God, but the Chinese renders the name as 耶洗別 (Jezebel), which is a different person entirely. This is a clear name swap error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

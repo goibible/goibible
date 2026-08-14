@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 20,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the king of Israel recognized him (the prophet) as being from the prophets (מֵהַנְּבִאִים הוּא). The Chinese renders '他是先知' (he is a prophet), which changes the meaning: the Hebrew specifies he is one of the prophets (a member of the prophetic group), not merely 'a prophet' in general. This is a substantive difference in the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

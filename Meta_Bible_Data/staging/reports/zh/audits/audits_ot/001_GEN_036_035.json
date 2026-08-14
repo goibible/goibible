@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וְשֵׁם עִירוֹ עֲוִית' ('and the name of his city was Avith'), but the Chinese renders '他的城名是亞維斯人' ('the name of his city was the Avites people'), adding '人' (people) which changes the meaning from a city name to a people group."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the Hivites (הַחִוִּי), the Arkites (הָעַרְקִי), and the Sinites (הַסִּינִי). The Chinese renders the second as '以革倫人' (Ekronites), which is a different people group (Ekronites, from Ekron), not the Arkites. The correct rendering should be '亞基人' or similar for Arkites."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

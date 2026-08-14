@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name בָּרָק (Barak) is rendered as '閃電' (lightning) instead of a transliteration of the personal name '巴拉' or similar. This changes the proper name into a common noun, which is a name swap/alteration."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 27,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא אֲכַחֵד' means 'I will not conceal/hide' (from כחד), but the Chinese renders it as '我必不懼怕' ('I will not fear'), which changes the meaning from concealing to fearing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

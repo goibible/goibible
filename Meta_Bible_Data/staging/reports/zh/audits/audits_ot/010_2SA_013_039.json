@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew says 'the king David finished/ceased going out to Absalom' (וַתְּכַל דָּוִד הַמֶּלֶךְ לָצֵאת אֶל אַבְשָׁלוֹם), meaning he stopped going out to meet/pursue Absalom. The Chinese adds '追捕' (pursue/capture), which is not in the Hebrew; the Hebrew only says 'going out to Absalom' without specifying pursuit or capture."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

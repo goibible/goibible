@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 39,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'רַב טַבָּחִים' (rav tabbachim) is a title meaning 'chief of the guards' or 'captain of the guard' (singular official title), not '這多個宰殺者的手' ('the hand of these many slaughterers'). The Chinese rendering incorrectly interprets the title as multiple slaughterers, changing the meaning of the proper name/title."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

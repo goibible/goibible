@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 11,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew is a rhetorical question: 'Is it not that whatever Chemosh your god dispossesses for you, you possess; and whatever Yahweh our God dispossesses before us, we possess?' The Chinese renders the second half as a question ('同樣，我們也要佔據...嗎？'), which changes the assertion into a question, whereas the Hebrew second clause is a declarative statement (אוֹתוֹ נִירָשׁ). This alters the meaning: the Hebrew affirms that Israel possesses what Yahweh gives, not asks whether they should."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

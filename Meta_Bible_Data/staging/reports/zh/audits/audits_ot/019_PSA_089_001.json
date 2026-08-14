@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 89,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'לְאֵיתָן הָאֶזְרָחִי' means 'for Ethan the Ezrahite' (a proper name), but the Chinese renders it as '屬亞薩拉喜人以探' which introduces '亞薩拉喜人' (Asa/Asaph? unclear) and misidentifies the person; the name 'Ethan' is present but the patronymic/gentilic is garbled and an extra name '亞薩' appears, changing the identity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

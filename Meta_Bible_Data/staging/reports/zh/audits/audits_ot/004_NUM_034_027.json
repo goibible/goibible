@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 34,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נָשִׂיא' means 'leader/prince', not '元帥' (military commander/marshal). This changes the role of the person."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'אֲחִיהוּד' is a personal name 'Ahihud', but the Chinese renders it as '亞希戶德人' adding '人' (person/people), which incorrectly implies a gentilic or ethnic designation rather than a personal name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

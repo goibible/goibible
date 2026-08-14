@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 4,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בֶּן שְׁלֹשִׁים שָׁנָה' means 'son of thirty years' (i.e., thirty years old), but the Chinese renders it as '三十歲兒子' (thirty-year-old son), which changes the meaning from age to a literal 'son' of thirty years. Similarly, 'בֶּן חֲמִשִּׁים שָׁנָה' is rendered as '五十歲兒子' (fifty-year-old son), altering the intended age range into a familial relationship. The correct translation should be '三十歲以上' and '五十歲' without the word '兒子' (son)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

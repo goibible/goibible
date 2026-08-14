@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 22,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶרֶץ הַגִּלְעָד' means 'the land of Gilead', but the Chinese renders it as '地基列' (foundation of Gilead), which incorrectly adds the concept of 'foundation' (地) and misrepresents the place name. The correct rendering should be '基列地' or '基列地帶'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

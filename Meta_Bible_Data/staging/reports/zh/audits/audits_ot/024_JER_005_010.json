@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְשָׁרוֹתֶיהָ' (her branches/vine-shoots) is rendered as '歌唱之處' (place of singing), which is a different meaning; the Hebrew word is from 'שׂר' (branch), not 'שיר' (song)."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

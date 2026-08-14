@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 52,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'sixteen thousand seven hundred and fifty shekels' (שִׁשָּׁה עָשָׂר אֶלֶף שְׁבַע מֵאוֹת וַחֲמִשִּׁים שָׁקֶל), but the Chinese renders '十六他連得又七百五十舍客勒' (sixteen talents and seven hundred fifty shekels), converting the 16,000 shekels into 16 talents, which changes the stated amount."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

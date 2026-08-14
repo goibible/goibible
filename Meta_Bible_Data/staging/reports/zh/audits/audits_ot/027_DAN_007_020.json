@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 7,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew mentions 'another horn came up' (וְאָחֳרִי דִּי סִלְקַת) and that this horn had eyes and a mouth speaking great things, and its appearance was greater than its companions. The Chinese omits the explicit mention of the 'another horn' that came up, instead saying '又有一個角' (another horn) but does not clearly convey that it 'came up' (סִלְקַת). Also, the Hebrew says 'three fell before it' (נְפַלוּ מִן קֳדָמַהּ תְּלָת), which the Chinese renders as '三個角被拔去' (three horns were pulled out), changing the action from 'fell before it' to 'were pulled out'—a mistranslation of the verb and the relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

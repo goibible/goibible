@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 12,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "便雅憫杖 should be 便雅憫支派 (tribe), not '杖' (staff/rod). The Hebrew שֵׁבֶט means 'tribe' here, not 'staff'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

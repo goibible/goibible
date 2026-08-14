@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Shim'i' (שִׁמְעִי), a personal name, but the Chinese renders it as '希瑪利人' (Himari people), which is not the correct name and introduces a different ethnic/group designation not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

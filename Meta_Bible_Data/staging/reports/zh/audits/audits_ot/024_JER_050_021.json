@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 50,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'פְּקוֹד' (Pekod) as the place name, but the Chinese renders it as '培多' (Péiduō), which is a different transliteration. The correct name should be '毗割' or similar, not '培多'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 34,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִשָּׁה רְעוּתָהּ לֹא פָקָדוּ' means 'no one misses her companion' (i.e., none of them lacks its mate), not 'no one sorrowful is forgotten.' The Chinese renders 'אִשָּׁה' as '愁苦' (sorrowful) and 'פָקָדוּ' as '被遺忘' (forgotten), which changes the meaning. The verse is about none of the creatures lacking its companion, not about sorrow or forgetting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

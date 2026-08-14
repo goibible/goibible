@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 7,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָקָר וַעֲקָרָה' means 'barren male or barren female' (i.e., no barren person among you), but the Chinese '不育的男女' renders it as 'barren men and women' (男女 = men and women), which is acceptable. However, the phrase '你和你的牲畜必不有不育的男女' awkwardly implies the livestock have 'men and women'; the Hebrew 'וּבִבְהֶמְתֶּךָ' means 'and among your livestock' (no barrenness among your animals), but the Chinese adds '男女' (men and women) to the livestock clause, which is an addition not in the Hebrew and changes the meaning. The Hebrew says no barren male or female among you, and no barrenness in your livestock; the Chinese conflates and misapplies '男女' to the livestock."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JOS",
+  "chapter": 14,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is קָדֵשׁ בַּרְנֵעַ (Kadesh-barnea), but the Chinese renders it as '巴利珥曷的基列山' (the hill country of Gilead of Baal-peor?), which is a different location and not a translation of the Hebrew name."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '基列山' (hill country of Gilead), which has no basis in the Hebrew text; the Hebrew only says 'from Kadesh-barnea'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

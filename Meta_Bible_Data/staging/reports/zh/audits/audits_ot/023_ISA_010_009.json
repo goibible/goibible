@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 10,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists four place names: כַּרְכְּמִישׁ (Carchemish), כַּלְנוֹ (Calno), אַרְפַּד (Arpad), חֲמָת (Hamath), דַּמֶּשֶׂק (Damascus), שֹׁמְרוֹן (Samaria). The Chinese renders '迦勒基米士' (Carchemish) and '迦勒拿' (Calno) correctly, but '亞弗大城' is not Arpad — Arpad is a city in Syria, not 'Aphek' (亞弗). The Chinese has substituted a different place name (Aphek) for Arpad, which is a name swap."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew structure is a rhetorical question: 'Is not Calno like Carchemish? Is not Hamath like Arpad? Is not Samaria like Damascus?' The Chinese renders it as a single question '豈不都是如此嗎？' (Are they not all like this?), which collapses the three parallel rhetorical questions into one, omitting the specific comparisons (Calno vs Carchemish, Hamath vs Arpad, Samaria vs Damascus) and the repeated negation 'if not' (אִם לֹא). The reader loses the explicit parallel structure and the specific pairings."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

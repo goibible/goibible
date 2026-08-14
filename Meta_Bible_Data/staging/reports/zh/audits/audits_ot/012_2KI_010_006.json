@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text does not specify '以色列的王' (the king of Israel) as the writer; it is an unnamed 'he' (וַיִּכְתֹּב) writing to them. The Chinese adds '以色列的王' which is not in the Hebrew, potentially identifying the wrong person (the context is Jehu, not the king of Israel)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

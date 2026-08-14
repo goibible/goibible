@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 18,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל הָאָבְנָיִם' means 'on the potter's wheels' (dual of 'אָבְנַיִם', a pair of wheels/stones used in pottery). The Chinese renders it as 'on the stone' (石頭上), which is a mistranslation—it should be 'on the wheels' or 'on the potter's wheel(s)'. This changes the specific object/place of the work."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

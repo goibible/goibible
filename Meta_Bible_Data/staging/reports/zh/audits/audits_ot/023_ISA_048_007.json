@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 48,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלִפְנֵי יוֹם וְלֹא שְׁמַעְתָּם' means 'and before this day you had not heard of them' (referring to the things created). The Chinese '面日未曾聽見' is unclear and likely a typo/mistranslation: '面日' (face day) does not render 'לִפְנֵי יוֹם' (before a day / before this day). It should be something like '在今日之前未曾聽見'. The current rendering obscures the temporal meaning and could mislead the reader."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

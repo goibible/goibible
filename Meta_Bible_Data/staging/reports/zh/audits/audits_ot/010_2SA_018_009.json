@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 18,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַיִּקָּרֵא' means 'he was called/encountered' (Niphal of קרא), not '呼喊' (shouted/cried out). The Chinese rendering '呼喊' changes the meaning from 'was caught/encountered' to 'shouted'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

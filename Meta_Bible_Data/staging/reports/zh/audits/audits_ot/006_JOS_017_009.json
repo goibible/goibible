@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 17,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'קָנָה' (Kanah) is a proper noun referring to the Wadi Kanah (溪谷/kanah brook). The Chinese renders it as '買取的溪谷' ('the purchased wadi'), which is a mistranslation of the proper name as a common verb/noun ('acquired/purchased'), changing the identity of the geographical feature. It should be transliterated as '加拿溪谷' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

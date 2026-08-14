@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 28,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew states that the sound of the bells (קוֹלוֹ, 'his sound') will be heard when he comes into the holy place before YHWH and when he goes out. The Chinese rendering '他身上要穿著' ('he shall wear on himself') omits the explicit reference to the bells (the antecedent of 'his sound' in the Hebrew context, though the word 'bells' is not in this verse itself, the pronoun 'his' refers to the bells from the preceding context). More importantly, the Chinese adds '他身上要穿著' ('he shall wear on himself') which is not present in this verse; the Hebrew only says 'it shall be upon Aaron for ministering' (וְהָיָה עַל אַהֲרֹן לְשָׁרֵת), which the Chinese partially renders but then adds an extra clause about wearing. The Chinese also omits the explicit 'when he comes into the holy place before YHWH and when he goes out' (בְּבֹאוֹ אֶל הַקֹּדֶשׁ לִפְנֵי יְהוָה וּבְצֵאתוֹ) by compressing it into '進出聖所時' ('when going in and out of the sanctuary'), which loses the specific phrase 'before YHWH' (לִפְנֵי יְהוָה). The final clause '免得他死亡' ('lest he die') correctly renders וְלֹא יָמוּת, but the overall rendering adds an unstated action ('he shall wear') and omits the explicit 'before YHWH'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

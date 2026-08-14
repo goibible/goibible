@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 15,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb תִּגֹּשׂ means 'you may exact (payment/debt)' or 'you may press/collect from', not 'drive out' (趕出). The Chinese '趕出那外人' (drive out the foreigner) misrepresents the meaning; it should be 'you may exact (interest/debt) from the foreigner'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

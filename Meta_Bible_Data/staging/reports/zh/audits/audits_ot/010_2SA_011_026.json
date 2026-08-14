@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 11,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּעְלָהּ' means 'her husband', but the Chinese renders it as '她的主人' (her master/lord), which changes the relationship from husband to master."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

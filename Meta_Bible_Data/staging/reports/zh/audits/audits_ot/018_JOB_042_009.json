@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 42,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Eliphaz the Temanite (הַתֵּימָנִי), but the Chinese renders '這推羅人' (this Tyrian), which is a different place name (Tyre instead of Teman)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

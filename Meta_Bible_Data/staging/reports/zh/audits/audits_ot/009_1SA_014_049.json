@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 14,
+  "verse": 49,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew names 'יִשְׁוִי' (Ishvi) and 'מַלְכִּי־שׁוּעַ' (Malchi-shua) are personal names of Saul's sons, but the Chinese renders them as '以實衛人' and '米基書雅人', adding the suffix '人' (person/people), which changes the meaning from proper names to gentilic/ethnic designations. This is a mistranslation of the names."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

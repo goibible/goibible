@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 49,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְיָרַשׁ יִשְׂרָאֵל אֶת יֹרְשָׁיו' means 'Israel will dispossess those who dispossessed him' (i.e., Israel will take possession of his dispossessors). The Chinese renders it as '以色列必得著那本來屬於他們的繼承者' ('Israel will obtain those who were originally their inheritors'), which reverses the subject-object relationship: in Hebrew, Israel dispossesses its dispossessors, not inherits from them. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

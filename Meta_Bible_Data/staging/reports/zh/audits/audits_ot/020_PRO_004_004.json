@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 4,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וַיֹּרֵנִי' means 'and he taught me' (from ירה, hiphil, 'to teach/instruct'), not 'he shouted to me' (歡呼). The Chinese rendering changes the action from teaching to shouting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

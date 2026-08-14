@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has three names: עִדּוֹא (Iddo), גִנְּתוֹי (Ginnethoi), אֲבִיָּה (Abijah). The Chinese renders them as 以多人 (Yiduo ren), 基拿他安 (Jinata'an), 亞比亞 (Abiya). The first name עִדּוֹא is transliterated as 以多人, which adds an extra character 人 (person) not present in the Hebrew name; this is an addition to the name. The second name גִנְּתוֹי is rendered as 基拿他安, which appears to be a different transliteration (possibly confusing with another name like Ginnethon), but the Hebrew is גִנְּתוֹי (Ginnethoi), not גִנְּתוֹן. The third name אֲבִיָּה is correctly rendered as 亞比亞. The issue is the first name has an extra syllable/character (人) and the second name is not a faithful transliteration of the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

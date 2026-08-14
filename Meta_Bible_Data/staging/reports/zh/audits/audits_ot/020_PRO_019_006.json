@@ -1,0 +1,26 @@
+{
+  "book": "PRO",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'נָדִיב' means 'generous/noble person', not '君王' (king). The Chinese renders it as 'king', which changes the referent from a generous person to a monarch."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְכָל הָרֵעַ' means 'and every friend/companion' (from רֵעַ, friend), not '一切弟兄' (all brothers). The Chinese substitutes 'brothers' for 'friends/companions', altering the relationship described."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְאִישׁ מַתָּן' means 'to a man of gifts' (i.e., a briber or gift-giver), not '那送禮物的人' (the one who gives gifts). The Chinese rendering is close but the phrase 'אִישׁ מַתָּן' specifically refers to a person who gives gifts/bribes, and the Chinese '那送禮物的人' is acceptable, but the main issue is the first two changes."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

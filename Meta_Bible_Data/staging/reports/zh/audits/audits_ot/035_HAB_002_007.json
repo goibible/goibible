@@ -1,0 +1,18 @@
+{
+  "book": "HAB",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְיִקְצוּ מְזַעְזְעֶיךָ' means 'and those who shake you will awake/arise' (from קוץ, to awake), not 'those who disturb you will no longer rest' (which would require a negation like לֹא and a different verb). The Chinese adds '不再安息' (no longer rest), which is not in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

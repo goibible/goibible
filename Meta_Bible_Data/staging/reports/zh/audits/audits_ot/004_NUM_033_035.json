@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name עֶצְיוֹן גָּבֶר (Etzion-geber) is rendered as '以順基伯' (Yishun Jibo), which appears to be a different name. The correct transliteration should be something like '以旬迦別' or '以遜基別'. The first place name עַבְרֹנָה (Avronah) is rendered as '以布羅拿' which is acceptable, but the second name is clearly wrong."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

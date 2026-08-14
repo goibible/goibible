@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּחִנָּתָם' means 'their supplication/plea', but the Chinese renders it as '恩惠' (grace/favor), which changes the meaning from a request to a blessing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

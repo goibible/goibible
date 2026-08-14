@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew מִצְעָר (Mitsar) is a proper place name, the city of Zoar, not the common adjective 'small' (小者). The Chinese renders it as '小者' (a small one), losing the proper name and changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

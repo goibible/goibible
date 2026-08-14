@@ -1,0 +1,26 @@
+{
+  "book": "1SA",
+  "chapter": 21,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew וַיְשַׁנּוֹ אֶת טַעְמוֹ means 'he changed his behavior/appearance' (טַעַם = taste/behavior), not 'changed his wisdom' (智慧). The Chinese '改變了他的智慧' misrepresents the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew וַיִּתְהֹלֵל בְּיָדָם means 'he acted like a madman in their hands' (from הָלַל, to act madly/rave), not 'boasted in their hands' (誇耀). The Chinese '誇耀' conveys the opposite sense."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase ויתו עַל דַּלְתוֹת הַשַּׁעַר (likely וַיָּתָו, 'he scribbled/marked on the doors of the gate') is rendered as '在城門的門扇上吐唾沫' (spit on the doors of the gate), which adds 'spit' (吐唾沫) not present in the Hebrew and omits the action of scribbling/marking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

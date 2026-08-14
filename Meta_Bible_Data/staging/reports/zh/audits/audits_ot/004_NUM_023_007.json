@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 23,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִן אֲרָם יַנְחֵנִי בָלָק מֶלֶךְ מוֹאָב' means 'From Aram Balak king of Moab led me' — the subject is Balak, who leads Balaam. The Chinese '摩押王巴勒人從東方山頂引我前來' renders '摩押王巴勒人' (Moab king Balak person) as the subject, but the phrase 'מֵהַרְרֵי קֶדֶם' ('from the mountains of the east') is attached to the leading, not to Balak's origin. The Chinese adds '人' after '巴勒' (Balak) which is not in the Hebrew, and the word order implies Balak is from the eastern mountains, whereas the Hebrew says Balak led me from the mountains of the east. This is a minor shift but could mislead a reader about who is from where. However, the main issue is the addition of '人' (person) after '巴勒' — this is an addition not present in the Hebrew and changes the proper name 'בָלָק' (Balak) to '巴勒人' (Balak person), which is a name alteration."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

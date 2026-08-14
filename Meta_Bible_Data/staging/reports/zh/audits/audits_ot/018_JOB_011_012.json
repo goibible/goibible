@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעַיִר פֶּרֶא אָדָם יִוָּלֵד' means 'and a wild donkey's foal is born a man' (i.e., a person is born like a wild donkey's colt, implying foolishness). The Chinese '野驢的騾駒必被人所生' says 'the mule colt of a wild donkey will be born by a man,' which reverses the subject/object: in Hebrew, the man is born (as a wild donkey's colt), not the colt being born by a man. This changes who is born and the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

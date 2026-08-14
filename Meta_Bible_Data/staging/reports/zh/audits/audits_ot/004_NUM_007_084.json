@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 84,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נְשִׂיאֵי יִשְׂרָאֵל' means 'leaders/princes of Israel', not '元帥們' (military commanders/marshals). This changes the identity of the officials."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

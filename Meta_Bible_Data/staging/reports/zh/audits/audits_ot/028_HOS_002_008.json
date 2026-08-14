@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָשׂוּ לַבָּעַל' means 'they made [it] for Baal' (i.e., used the silver and gold to make idols for Baal). The Chinese renders this as '他們卻用來獻給主人' ('they used it to offer to the master'), which changes 'Baal' (a proper name of the deity) to '主人' (master/lord), losing the specific reference to Baal and altering the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

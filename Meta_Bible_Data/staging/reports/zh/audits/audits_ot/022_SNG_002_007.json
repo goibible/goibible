@@ -1,0 +1,18 @@
+{
+  "book": "SNG",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '或指著母鹿' (or by the doe) which is not present in the Hebrew. The Hebrew only mentions 'בִּצְבָאוֹת' (by the hosts/armies) and 'בְּאַיְלוֹת הַשָּׂדֶה' (by the does of the field). The phrase '母鹿' alone is an addition not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

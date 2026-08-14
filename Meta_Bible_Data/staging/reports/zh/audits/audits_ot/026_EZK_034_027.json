@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 34,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מֹטוֹת עֻלָּם' means 'the bars of their yoke' (construct chain: מֹטוֹת = bars/staves of, עֻלָּם = their yoke). The Chinese renders it as '他們軛的軛' ('the yoke of their yoke'), which is a duplication error — the word '軛' (yoke) appears twice, but the Hebrew has two distinct nouns: 'מֹטוֹת' (bars/staves) and 'עֻלָּם' (their yoke). This changes the meaning, as the Hebrew refers to breaking the bars of the yoke, not a doubled 'yoke of yoke'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "EZR",
+  "chapter": 6,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'פַּחַ֧ת עֲבַֽר נַהֲרָ֛ה' means 'governor of Beyond-the-River' (a title/office), not '百夫長' (centurion/commander of a hundred). The Chinese mistranslates the title."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name 'שְׁתַ֥ר בּוֹזְנַ֖י' is rendered as '示他博斯乃' in Chinese, which appears to be a garbled or swapped rendering of the name (likely confusing 'שְׁתַר' with 'תַּתְּנַי' or similar). The correct transliteration should be something like '施他波茲乃'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וּכְנָוָתְה֑וֹן' means 'and their companions/colleagues', which is rendered as '和其同伴' (and their companions) — this is actually present, so not an omission. However, the phrase 'לָקֳבֵ֗ל דִּֽי שְׁלַ֞ח דָּרְיָ֧וֶשׁ מַלְכָּ֛א כְּנֵ֖מָא אָסְפַּ֥רְנָא עֲבַֽדוּ' is translated as '因王大流士如此下令' (because King Darius so commanded), but the Hebrew says 'according to what King Darius sent, thus they did diligently' — the Chinese omits the idea of 'they did diligently' (אָסְפַּ֥רְנָא עֲבַֽדוּ) and replaces it with '下令' (commanded), which changes the subject/action: the Hebrew says they acted diligently in response to the king's sending, not that the king commanded them to do something."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

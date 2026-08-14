@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 43,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בִּֽישִׁמ֖וֹן' means 'in the desert/wasteland' (from יְשִׁימוֹן), not '耶示崙' (Jeshurun, a poetic name for Israel). The Chinese renders it as a proper name '耶示崙', which is a mistranslation of the common noun 'wasteland'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

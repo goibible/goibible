@@ -1,0 +1,22 @@
+{
+  "book": "AMO",
+  "chapter": 9,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְדֹרֵךְ עֲנָבִים בְּמֹשֵׁךְ הַזָּרַע' means 'and the treader of grapes [will overtake] the one who draws/sows the seed' (i.e., the grape-treader overtakes the sower). The Chinese renders 'בְּמֹשֵׁךְ הַזָּרַע' as '那帶領後裔前來的' ('the one who leads descendants to come'), which misinterprets 'מֹשֵׁךְ' (drawing/pulling, i.e., sowing seed) and 'הַזָּרַע' (the seed) as 'leading descendants' — a substantive change in meaning. The correct sense is the sower of seed, not a leader of offspring."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תִּתְמוֹגַגְנָה' means 'will melt/flow' (from מוּג, to melt, dissolve, flow). The Chinese '都必流淌' ('will all flow') is acceptable for 'flow,' but the Hebrew also implies melting/dissolving; however, this is a minor nuance and not a clear error. The main issue is the previous clause."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

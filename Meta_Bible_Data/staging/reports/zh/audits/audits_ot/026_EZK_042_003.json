@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 42,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נֶגֶד הָעֶשְׂרִים אֲשֶׁר לֶחָצֵר הַפְּנִימִי' means 'opposite the twenty [chambers] that belonged to the inner court', not 'facing the twenty courtyards of the inner court'. The Chinese adds '院子' (courtyards) which is not in the Hebrew; the 'twenty' refers to chambers/rooms, not courtyards. This changes the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 27,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '一剎那也不使乾渴' (not letting her thirst for a moment), which is not present in the Hebrew. The Hebrew 'אַשְׁקֶנָּה' means 'I will water her' (i.e., give her drink), but the Chinese rendering adds the negative concept of 'not letting her be thirsty' and the time phrase '一剎那' (a moment), which is an addition not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

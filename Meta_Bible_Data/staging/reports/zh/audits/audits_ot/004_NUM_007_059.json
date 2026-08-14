@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name פְּדָה צוּר (Pedahzur) is rendered as '巴達素爾' (Ba-da-su-er), which swaps the first consonant: Hebrew פ (p) is rendered as 巴 (ba) instead of 帕/法 (pa/fa). The correct transliteration should be '帕達素爾' or similar, not '巴達素爾'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

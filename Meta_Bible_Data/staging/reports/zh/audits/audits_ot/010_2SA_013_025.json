@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 13,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'we will not be a burden on you' (וְלֹ֥א נִכְבַּ֖ד עָלֶ֑יךָ), meaning the king declines to go with all of them so as not to burden Absalom. The Chinese renders this as '免得你遭遇危險' (lest you encounter danger), which changes the meaning from 'not burdening you' to 'avoiding danger for you'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

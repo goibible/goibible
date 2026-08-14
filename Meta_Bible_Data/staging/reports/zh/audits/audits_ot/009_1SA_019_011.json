@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 19,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכִים' means 'messengers' (men), not 'angels' (天使). The Chinese rendering '天使' changes the meaning to supernatural beings, which is a mistranslation of the term."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 40,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כְפֹרַחַת' means 'budding/blossoming', not '展開時像雛鳥' (when it spreads out like a fledgling bird). The Chinese adds an image of a bird ('雛鳥') that is not in the Hebrew, and '展開' (spread out) misrepresents the verb 'עָלְתָה' (it went up/ascended) and the participle 'כְפֹרַחַת' (budding). This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

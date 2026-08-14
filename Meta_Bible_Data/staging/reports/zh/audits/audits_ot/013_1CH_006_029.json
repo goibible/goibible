@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists Merari's sons: Mahli, Libni, Shimei, Uzzah. The Chinese renders 'לִבְנִי' (Libni) as '利比尼人' (Libni people) and 'שִׁמְעִי' (Shimei) as '希瑪利人' (Shimari people), adding '人' (people) and changing Shimei to a different name (希瑪利 instead of 希每/示每). Also, the final 'עֻזָּה בְנוֹ' (Uzzah his son) is rendered as '烏撒的兒子' (Uzzah's son), which reverses the relationship — the Hebrew says Uzzah is the son, not that Uzzah has a son."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

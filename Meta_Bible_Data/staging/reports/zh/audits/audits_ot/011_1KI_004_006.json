@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew name וַאֲחִישָׁר (Achishar) is rendered as 亞希沙瑪 (Yahishama), which is a different name; the correct transliteration should be 亞希沙 or similar, not 亞希沙瑪."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 29,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עִם לְבָבִי' means 'with my heart' (i.e., 'I have it in my heart' / 'I intend'), but Chinese '與我的心同去' adds '同去' (go together), which is not in the Hebrew and changes the sense to a physical going."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִמֶּנּוּ' means 'from us' (first person plural), but Chinese '向他們' means 'toward them' (third person plural), reversing the referent and changing who the anger turns away from."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

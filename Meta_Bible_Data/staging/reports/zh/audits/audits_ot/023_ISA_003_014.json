@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 3,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'עִם זִקְנֵי עַמּוֹ וְשָׂרָיו' means 'with the elders of his people and his officials' — the Chinese omits 'elders of his people' (百姓的長老) and only mentions 'his people and officials' (他的百姓和官長), dropping the specific reference to the elders."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

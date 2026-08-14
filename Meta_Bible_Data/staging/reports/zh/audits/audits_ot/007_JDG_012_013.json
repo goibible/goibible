@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name 'עַבְדּוֹן' (Abdon) is rendered as '亞比頓' (Yabidun), which is a different name (Abdon vs. Abidon). The correct Chinese transliteration should be '押頓' or '亞頓'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

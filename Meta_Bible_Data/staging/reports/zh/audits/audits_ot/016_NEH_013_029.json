@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 13,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '因他們玷污了' (because they defiled) which has no basis in the Hebrew. The Hebrew reads 'עַל גָּאֳלֵי הַכֹּהֻנָּה' — 'on/against the defilements of the priesthood' (or 'for the defilements of the priesthood'), not 'because they defiled the priesthood.' The verb '玷污' (defile) is not present in the Hebrew; the noun 'גָּאֳלֵי' (defilements) is mistranslated as a verb phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

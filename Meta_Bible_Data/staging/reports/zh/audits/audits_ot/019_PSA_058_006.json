@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 58,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֲרָס שִׁנֵּימוֹ בְּפִימוֹ' means 'break their teeth in their mouth' (imperative 'break'), not 'He will destroy their ivory with His mouth'. The subject of the first clause is God (imperative), and 'שִׁנֵּימוֹ' is 'their teeth', not 'ivory'. The Chinese adds '祂必以口' (He will with His mouth) which misattributes the action and changes the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

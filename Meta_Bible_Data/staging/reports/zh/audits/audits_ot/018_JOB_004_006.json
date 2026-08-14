@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כִּסְלָתֶךָ' (kislatekha) means 'your confidence/trust', not 'your foolishness/愚昧'. The Chinese renders it as '愚昧' (foolishness), which reverses the meaning. The verse asks if your fear of God is your confidence, not your folly."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

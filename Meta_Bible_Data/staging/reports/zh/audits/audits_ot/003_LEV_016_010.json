@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 16,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַעֲזָאזֵל' (for Azazel) is rendered as '歸與贖罪羊' (belonging to the scapegoat), which misidentifies Azazel as the scapegoat. Azazel is a proper name (likely a demonic being or place), not the scapegoat itself. The Chinese translation incorrectly equates Azazel with the scapegoat, changing the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

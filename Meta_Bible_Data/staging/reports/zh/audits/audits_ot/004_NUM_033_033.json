@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'חֹר הַגִּדְגָּד' (Hor Haggidgad) is rendered as '何勒哈大城門' (Hele Hada city gate), which adds '城門' (city gate) not in the Hebrew and misrepresents the name. The correct transliteration should be '何勒哈吉達' or similar, not '何勒哈大'. Additionally, 'יָטְבָתָה' (Jotbathah) is rendered as '約巴他哈' (Yueba Taha), which is a distorted transliteration; the standard is '約巴他' (Yotbathah)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has יְהוֹיָדָע (Jehoiada), but Chinese renders it as 耶何大亞, which is a different name (Jehoaddah/Jehoadah). The correct Chinese transliteration for Jehoiada is 耶何耶大."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

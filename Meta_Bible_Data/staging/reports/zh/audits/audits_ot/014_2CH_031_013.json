@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 31,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'וְשִׁמְעִ֣י אָחִ֔יו' = 'and Shimei his brother', but the Chinese renders 'שִׁמְעִ֣י' as '希瑪利' (Himari?) which is not a standard transliteration of Shimei (示每/希每). This appears to be a name corruption."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'פְּקִידִ֗ים מִיַּ֤ד כונניהו וְשִׁמְעִ֣י אָחִ֔יו' means 'officers from the hand of Conaniah and Shimei his brother' — i.e., they were appointed by Conaniah and Shimei. The Chinese says '這些官長是在科納尼亞雅和他弟兄希瑪利人手下' which adds '人' (people) and renders 'his brother' as 'his brother Himari people', changing the relationship and the name. Also '奉王希西家的命令' = 'by the command of King Hezekiah' is correct for 'בְּמִפְקַד יְחִזְקִיָּהוּ הַמֶּלֶךְ', but the final clause 'וַעֲזַרְיָהוּ נְגִיד בֵּית הָאֱלֹהִים' = 'and Azariah the ruler of the house of God' is rendered as '並由亞薩利雅這位神家的官長所委派的' which adds '所委派的' (appointed by) — the Hebrew does not say Azariah appointed them; it simply lists him as another officer. This is an addition that changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

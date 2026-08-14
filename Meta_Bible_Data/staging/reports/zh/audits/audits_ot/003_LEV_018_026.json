@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 18,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וְלֹא תַעֲשׂוּ מִכֹּל הַתּוֹעֵבֹת הָאֵלֶּה הָאֶזְרָח וְהַגֵּר הַגָּר בְּתוֹכְכֶם' means 'and you shall not do any of these abominations, the native and the sojourner who sojourns among you' — i.e., both the native and the resident alien are the subjects who must not do these abominations. The Chinese rendering '不可在你們中間的土生人和寄居者中行一切可憎之物' ('do not do all abominations among the native-born and sojourners among you') makes the native and sojourner the location/object ('among them') rather than the subjects who are forbidden to act, thereby changing who is doing what. The Hebrew explicitly includes both groups as the ones who must not commit these acts, but the Chinese implies the acts are done 'among' them, altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

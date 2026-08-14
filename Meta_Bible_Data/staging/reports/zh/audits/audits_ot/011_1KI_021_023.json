@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 21,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּחֵל יִזְרְעֶאל' means 'in the territory/portion of Jezreel' (or 'in the moat/rampart of Jezreel'), not 'in the walls of Jezreel'. The Chinese adds '城牆內' (inside the city walls), which is not in the Hebrew and changes the location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

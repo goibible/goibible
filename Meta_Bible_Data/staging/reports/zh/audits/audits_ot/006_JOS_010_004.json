@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הִשְׁלִימָה' means 'made peace with' (i.e., made a treaty/alliance with), not '消滅了' (destroyed/annihilated). The Chinese rendering reverses the meaning: the Gibeonites made peace with Joshua and Israel, rather than being destroyed by them."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

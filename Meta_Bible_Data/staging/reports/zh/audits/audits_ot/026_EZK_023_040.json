@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 23,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעָדִית עֶדִי' means 'and adorned yourself with jewelry/ornaments' (the verb עָדָה with the noun עֶדִי as its object). The Chinese renders 'עֶדִי' as a place name '亞低' (a transliteration), which is a mistranslation — it is not a place name but the noun 'ornament/jewelry'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

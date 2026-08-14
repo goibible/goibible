@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 21,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'men fight' (אֲנָשִׁים, plural men) and one strikes a pregnant woman; the Chinese says 'two men fight' (兩個人爭鬥) and 'struck a pregnant wife' (擊打了一個懷孕的妻子). The Chinese adds 'two' (兩個) which is not in the Hebrew, and changes 'men' (plural, indefinite) to 'two men'. Also, the Hebrew has 'her children come out' (וְיָצְאוּ יְלָדֶיהָ) — the Chinese says 'her children fall out' (她的兒女墜落), which is a minor semantic shift but acceptable. The main issue is the addition of 'two' and the change from 'men' to 'two men', which alters the scenario."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

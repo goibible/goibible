@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 26,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הָעֵבֶר' (the other side / the crossing) is rendered as '以巴衛' (a transliteration resembling a place name), but it is not a proper name; it means 'the other side' (of the mountain/valley). This changes the meaning from a spatial description to a misidentified location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

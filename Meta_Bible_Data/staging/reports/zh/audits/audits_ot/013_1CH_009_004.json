@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper names עוּתַי (Uthai), עַמִּיהוּד (Ammihud), עָמְרִי (Omri), אִמְרִי (Imri), בִּנְיָמִן (Benjamin), פֶּרֶץ (Perez), יְהוּדָה (Judah) are rendered as '烏大雅人', '亞米戶德人', '奧密利', '以未利人', '便雅憫', '裂口', '猶大' respectively. '烏大雅人' and '亞米戶德人' add '人' (people) which is not in the Hebrew (which has no gentilic suffix here), and '以未利人' is a mistranslation of אִמְרִי (Imri) — it appears to confuse it with a different name. '裂口' is a literal translation of פֶּרֶץ (Perez) meaning 'breach', but as a proper name it should be transliterated as '法勒斯' or '佩雷斯'. These name renderings would mislead a Chinese reader about the actual names."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

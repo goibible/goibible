@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 13,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew כֵּהָה means 'faded/dimmed/dulled', but Chinese renders it as 發白 ('turned white'), which is a different condition. The Hebrew says the lesion has faded, not that it has become white."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

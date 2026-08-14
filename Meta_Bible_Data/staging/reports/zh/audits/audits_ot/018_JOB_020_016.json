@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 20,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תַּהַרְגֵהוּ לְשׁוֹן אֶפְעֶה' means 'the tongue of the viper kills him' (i.e., the viper's tongue kills the person who drinks the head), but the Chinese renders it as 'his tongue will kill the viper' (他的舌頭要殺死毒蛇), reversing the subject and object. The subject of 'תַּהַרְגֵהוּ' is 'לְשׁוֹן אֶפְעֶה' (the tongue of the viper), and the object is 'הוּ' (him, the one drinking). The Chinese makes the person's tongue the subject and the viper the object, changing who does what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

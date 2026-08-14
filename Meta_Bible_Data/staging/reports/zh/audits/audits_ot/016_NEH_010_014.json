@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has פַּרְעֹשׁ (Parosh) and פַּחַת מוֹאָב (Pahath-moab) as two separate names, but the Chinese renders '帕羅書' (Parosh) and '摩押的帕他特' (Pahath-moab) — the order is correct, but '帕他特' is a transliteration of 'פַּחַת' (Pahath) which is fine. However, the issue is that the Hebrew lists 'עֵילָם זַתּוּא בָּנִֽי' (Elam, Zattu, Bani) as three names, but the Chinese renders '以攔人薩土、巴尼' — this drops 'עֵילָם' (Elam) as a separate name and instead attaches it as a gentilic '以攔人' (Elamite) to '薩土' (Zattu), which changes the meaning: the Hebrew has Elam as a distinct person/name, not as an adjective modifying Zattu. This is a substantive omission/alteration of a proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תַשְׂגִּיא פָעֳלוֹ' means 'you magnify his work' (2nd person singular, 'you make great his work'), but the Chinese renders it as '他的工作' (his work) without the verb 'magnify' or the 2nd person subject, losing the action and person. Also, 'אֲשֶׁר שֹׁרְר֣וּ אֲנָשִׁים' means 'which men have sung' (or 'which men have chanted'), but the Chinese '人曾治理過' means 'men once ruled', which is a mistranslation of the verb 'שֹׁרְרוּ' (from 'שׁוּר' or 'שָׁרַר' meaning to sing/chant, not to rule)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

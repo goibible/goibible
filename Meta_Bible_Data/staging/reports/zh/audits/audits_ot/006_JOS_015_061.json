@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 61,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "בֵּית הָעֲרָבָה is a place name 'Beth-arabah' (house of the Arabah), not '亞拉巴城門' (Arabah city gate). The Hebrew has no word for 'gate' (שַׁעַר)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

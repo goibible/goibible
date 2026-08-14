@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 21,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כֹּפֶר לַצַּדִּיק רָשָׁע' means 'a ransom for the righteous is the wicked' (i.e., the wicked serves as a ransom/substitute for the righteous), not 'the wicked compensates the righteous' (惡人賠償義人). The Chinese rendering changes the meaning: it implies the wicked pays/recompenses the righteous, whereas the Hebrew states the wicked is the ransom (substitute) for the righteous. Additionally, the second clause 'וְתַחַת יְשָׁרִים בּוֹגֵד' means 'and in place of the upright, the treacherous' (i.e., the treacherous takes the place of the upright), but the Chinese '卻背棄正直人' ('but betrays the upright') adds the concept of betrayal/abandonment not present in the Hebrew, which only states substitution/position."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

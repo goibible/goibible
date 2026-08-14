@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְשֻׁרוּן' (Jeshurun) is a poetic name for Israel, not a mountain range. The Chinese renders it as '耶書倫山脈' (Jeshurun mountain range), adding '山脈' (mountain range) which is not in the Hebrew and changes the referent from the people of Israel to a geographical feature."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

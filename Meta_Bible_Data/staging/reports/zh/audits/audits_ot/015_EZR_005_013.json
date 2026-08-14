@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text states that Cyrus the king issued a decree (שָׂם טְעֵם) to rebuild this house of God, but the Chinese adds '准許' (permitted/allowed), which is an addition not present in the Hebrew. The Hebrew simply says he 'issued a decree' to rebuild, not that he 'permitted' it. This addition changes the nuance from a direct command/decree to a permission."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

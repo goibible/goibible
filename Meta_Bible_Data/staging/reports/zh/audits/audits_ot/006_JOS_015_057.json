@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 57,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַקַּ֖יִן' is a place name (Ha-Kain), not the personal name Cain (קַיִן). The Chinese renders it as '該隱' (Cain), which is a name swap. Also, 'גִּבְעָ֣ה' is a proper place name (Gibeah), not a common noun '小山丘' (hill)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

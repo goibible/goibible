@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 24,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase וּמַחְמַ֣ל נַפְשְׁכֶ֑ם means 'the object of your soul's compassion/pity' (i.e., something you deeply care for), but the Chinese renders it as '性命的皮衣' ('leather garment of your life'), which is a mistranslation. The word מַחְמַל is from the root חמל (to spare/have compassion), not related to leather or clothing."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

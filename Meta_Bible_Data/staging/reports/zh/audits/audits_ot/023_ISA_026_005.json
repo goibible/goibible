@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 26,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֵשַׁח יֹשְׁבֵי מָרוֹם' means 'He has brought low the inhabitants of the height' (i.e., God humbles the proud), but the Chinese renders it as '高處的居民使這高傲的城邑敗壞' ('the inhabitants of the height corrupt this proud city'), reversing the subject and object: in Hebrew, the lofty inhabitants are the object of God's action, not the agents causing the city's ruin. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

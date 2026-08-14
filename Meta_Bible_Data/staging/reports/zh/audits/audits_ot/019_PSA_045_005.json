@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 45,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּלֵב אוֹיְבֵי הַמֶּלֶךְ' means 'in the heart of the king's enemies' (enemies of the king), but Chinese renders '仇敵王的心中' which reads as 'the heart of the enemy king' (i.e., a king who is an enemy), changing the meaning from 'enemies of the king' to 'the enemy king'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

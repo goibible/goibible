@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 10,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַעְבָּרָה' (ma'abarah) means 'ford' or 'passing place', not '渡口' (ferry crossing) — but more importantly, the clause 'גֶּבַע מָלוֹן לָנוּ' is misread: 'גֶּבַע' (Geba) is a place name, and 'מָלוֹן' (malon) means 'lodging place' or 'inn', so the phrase means 'Geba is our lodging place' (i.e., we will lodge at Geba). The Chinese renders it as '從基比亞到客店是我們的' ('from Geba to the inn is ours'), which changes the meaning: it inserts '從...到...' (from...to...) and makes the inn a separate destination, whereas the Hebrew says Geba itself is the lodging. This alters the geographical claim."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'גִּבְעַת שָׁאוּל' (Gib'at Sha'ul) means 'the hill of Saul' (Gibeah of Saul), a proper place name. The Chinese renders it as '掃羅的小山丘' ('Saul's little hill'), which is a literal but acceptable rendering; however, the verb 'נָסָה' (nasah) means 'fled' (from נוס), and the Chinese '逃跑了' ('fled') is correct. The issue is that the Chinese adds '從基比亞到客店是我們的' which misconstrues the construct chain 'גֶּבַע מָלוֹן לָנוּ' as a movement from Geba to an inn, whereas the Hebrew states Geba is our lodging. This is a substantive mistranslation of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

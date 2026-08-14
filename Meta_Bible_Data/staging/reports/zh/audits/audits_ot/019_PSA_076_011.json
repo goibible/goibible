@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 76,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יוֹבִילוּ שַׁי לַמּוֹרָא' means 'they shall bring tribute to the One who is to be feared' (i.e., to God, the Awesome One). The Chinese renders 'לַמּוֹרָא' as '給驚恐' (to terror/fear), which changes the referent from God (the feared One) to an abstract concept, altering the meaning. The phrase should convey 'to the Awesome One' (God), not 'to fear'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

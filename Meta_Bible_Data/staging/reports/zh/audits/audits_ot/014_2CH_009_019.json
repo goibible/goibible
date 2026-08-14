@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 9,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '寶座' (throne) which is not present in the Hebrew text; the Hebrew only says 'such was not done for any kingdom' (לֹא נַעֲשָׂה כֵן לְכָל מַמְלָכָה), without specifying 'throne'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

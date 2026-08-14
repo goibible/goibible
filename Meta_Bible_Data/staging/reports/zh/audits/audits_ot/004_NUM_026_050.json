@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 45,400 (forty-five thousand four hundred), but the Chinese says 44,400 (四萬四千四百人), which is a different number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

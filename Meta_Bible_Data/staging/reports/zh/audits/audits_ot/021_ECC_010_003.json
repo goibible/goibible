@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאָמַר לַכֹּל סָכָל הוּא' means 'and he says to everyone, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

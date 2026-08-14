@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 28,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '梯子以上' (above the ladder), but the Hebrew only says 'standing upon him/it' (נִצָּב עָלָיו), referring to the ladder or the place, not explicitly 'above the ladder'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

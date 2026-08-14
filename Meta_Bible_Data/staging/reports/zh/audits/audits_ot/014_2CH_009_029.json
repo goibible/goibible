@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 9,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'יֶעְדִּי הַחֹזֶה' (Yeedi the seer), but the Chinese renders it as '以底亞人' (the Yediah people/person of Yediah), which appears to be a mistranslation of the proper name 'יֶעְדִּי' as a gentilic or place name rather than a personal name. The Hebrew name is 'יֶעְדִּי' (Yeedi), not '以底亞' (Yediah), and it should be rendered as a personal name, e.g., '耶迪' or similar, not as '以底亞人'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

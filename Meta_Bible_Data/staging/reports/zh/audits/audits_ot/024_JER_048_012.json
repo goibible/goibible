@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 48,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'וְשִׁלַּחְתִּי לוֹ צֹעִים וְצֵעֻהוּ' (I will send to him wanderers, and they will cause him to wander) is not fully rendered. The Chinese omits the explicit sending of 'wanderers' (צֹעִים) and the action of causing him to wander (וְצֵעֻהוּ), replacing it with '我必使饑荒臨到他' (I will cause famine to come upon him), which introduces 'famine' (饑荒) not present in the Hebrew and drops the concept of wanderers."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

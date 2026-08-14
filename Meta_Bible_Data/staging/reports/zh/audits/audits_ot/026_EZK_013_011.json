@@ -1,0 +1,26 @@
+{
+  "book": "EZK",
+  "chapter": 13,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '我必使' (I will cause) for the hail stones, but the Hebrew has no first-person subject; the clause is 'and you (fem. pl.) shall fall as stones of hail' — the subject is the stones, not God acting."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאַתֵּנָה אַבְנֵי אֶלְגָּבִישׁ תִּפֹּלְנָה' means 'and you (fem. pl.) shall fall as stones of hail' — the addressees (the foolish plasterers) are told they will fall like hail stones. The Chinese renders this as '我必使雹石降下' (I will cause hail stones to fall), changing the subject from the addressees to God and losing the simile 'as stones of hail'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'אֶל טָחֵי תָפֵל' means 'to those who plaster with whitewash' — the Chinese '對無知之物說' (speak to ignorant things) omits the specific reference to the plasterers and the whitewash, replacing it with a generic 'ignorant things' that is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 11,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּנוֹת בָּתִּים' (literally 'daughters of houses') is rendered as '家中的女兒們' (daughters in the house), which is a plausible reading, but the key issue is the rendering of 'לֹא בְקָרוֹב' as '必不久於人世' (will not be long in the world). The Hebrew 'לֹא בְקָרוֹב' means 'not soon' or 'not in the near future,' referring to the time of the prophecy's fulfillment, not to death. The Chinese adds the concept of death ('於人世') and changes the meaning to 'will not live long,' which is a substantive addition and mistranslation. The original says 'not soon' regarding building houses, not about the daughters' lifespan."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

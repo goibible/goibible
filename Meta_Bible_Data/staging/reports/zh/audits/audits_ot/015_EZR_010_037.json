@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has only two names: מַתַּנְיָה (Mattaniah) and מַתְּנַי (Mattenai), followed by ויעשו (likely a verb form, possibly 'and they did/made' or a name fragment). The Chinese adds a third name '雅阿掃' (Ya'aso) which has no basis in the Hebrew text, and omits the final word ויעשו entirely."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

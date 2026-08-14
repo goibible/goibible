@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 36,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שׁוּעֲךָ' means 'your cry/outcry' (from שׁוע, cry for help), not '哭聲' (weeping/crying) — though close, the nuance is a cry for help, not just weeping. More significantly, the second clause 'וְכֹל מַאֲמַצֵּי כֹחַ' means 'and all the exertions/efforts of strength' (i.e., all your strength's efforts), but the Chinese renders it as '一切力量的資源' ('all resources of strength'), adding '資源' (resources) which is not in the Hebrew and changes the meaning from 'efforts/exertions' to 'resources'. This is an addition and mistranslation of the second clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

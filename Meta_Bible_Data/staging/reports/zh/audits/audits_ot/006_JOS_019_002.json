@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּאֵר שֶׁבַע וְשֶׁבַע' means 'Beer-sheba and Sheba' (two distinct place names: Beer-sheba and Sheba). The Chinese renders it as '別是巴、別是巴' (Beer-sheba, Beer-sheba), duplicating the same name instead of translating the second 'שֶׁבַע' as a separate place name 'Sheba' (示巴). This changes the meaning by omitting the second distinct location."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

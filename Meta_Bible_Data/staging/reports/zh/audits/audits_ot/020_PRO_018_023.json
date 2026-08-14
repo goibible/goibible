@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 18,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רָשׁ' means 'poor man', but Chinese renders it as '惡人' (wicked man), changing the subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 42,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֶלֶף צֶמֶד בָּקָר' means 'a thousand yoke of oxen' (i.e., a thousand pairs of cattle), but Chinese renders '一千軛牲畜' as 'a thousand yoke livestock', which is acceptable. However, 'אֶתוֹנוֹת' means 'female donkeys' (she-donkeys), not generic '驢子' (donkeys). The Chinese '一千驢子' loses the feminine specificity, though this is a minor semantic nuance. More significantly, 'אַרְבָּעָה עָשָׂר אֶלֶף צֹאן' is 'fourteen thousand sheep' (14,000), but Chinese says '十四群羊群' which means 'fourteen flocks of sheep' — this changes the number from 14,000 to 14 groups, a substantive numerical error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

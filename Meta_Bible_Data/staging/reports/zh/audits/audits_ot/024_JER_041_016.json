@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 41,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'גדליהו בן אחיקם' (Gedaliah son of Ahikam), but the Chinese renders it as '耶大亞兒子亞希甘' (Yedaya son of Ahikam). 'גדליה' (Gedaliah) is incorrectly rendered as '耶大亞' (Yedaya), a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

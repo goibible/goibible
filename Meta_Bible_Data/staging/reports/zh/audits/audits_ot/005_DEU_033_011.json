@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְחַץ מָתְנַיִם קָמָיו' is an imperative (crush the loins of his adversaries), but the Chinese renders it as a wish/relative clause '願那擊打祂敵人腰間的' (may the one who strikes the loins of his enemies), changing the subject and making it a blessing on a person rather than a direct action by God. This alters who is doing the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

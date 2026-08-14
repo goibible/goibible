@@ -1,0 +1,18 @@
+{
+  "book": "NAM",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew has 'בְּעֶזְרָתֵךְ' (in your help, 2fs suffix) and 'הָיוּ' (they were), but the Chinese renders '她無窮的力量' (her strength) for the first clause and '你的幫助' (your help) for the second, mixing third-person '她' and second-person '你'. The Hebrew consistently uses second-person feminine singular suffixes ('עָצְמָה' is a noun, not a suffix; 'בְּעֶזְרָתֵךְ' is 2fs), so the entire verse addresses 'you' (the city/person). The Chinese '她' for the first clause is a person shift that changes who is being addressed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

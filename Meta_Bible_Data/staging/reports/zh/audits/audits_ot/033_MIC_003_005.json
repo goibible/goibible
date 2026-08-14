@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 3,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הַנֹּשְׁכִים בְּשִׁנֵּיהֶם' means 'who bite with their teeth' (i.e., using their teeth to bite), not '用象牙咬人' ('bite with ivory'). The Hebrew word for 'ivory' (שֵׁן) is not present; the text says 'teeth' (שִׁנֵּיהֶם). This changes the imagery from literal teeth to ivory, an addition not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

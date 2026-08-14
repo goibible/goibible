@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 19,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵאָה שְׁמוֹנִים וַחֲמִשָּׁה אָלֶף' means 'a hundred and eighty-five thousand' (185,000), but the Chinese '一百八十五千人' reads as 'one hundred and eighty-five thousand people' — actually this is correct in meaning, but the phrasing '一百八十五千人' is awkward; it should be '十八萬五千人' or '一百八十五千人' is acceptable? The issue is that '一百八十五千' literally means 'one hundred eighty-five thousand' which is 185,000, so it is correct. However, the more natural Chinese would be '十八萬五千人'. Since the number is correct, this is not a flag. Re-evaluating: The Chinese says '一百八十五千人' which is 185,000, matching the Hebrew. So no issue. The verdict should be OK."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

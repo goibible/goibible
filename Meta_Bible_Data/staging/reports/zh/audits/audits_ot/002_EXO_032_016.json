@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 32,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the tablets were the work of God (מַעֲשֵׂה אֱלֹהִים) and the writing was God's writing (מִכְתַּב אֱלֹהִים), but the Chinese renders '板的作為是神' which could be read as 'the work of the tablets is God' (reversing the construct relationship), and '書信是神的書信' adds '書信' (letter/epistle) which is not in the Hebrew; the Hebrew has 'the writing' (הַמִּכְתָּב) not 'letter'. The phrase '書信是神的書信' is an awkward addition and misrepresents 'the writing is God's writing'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

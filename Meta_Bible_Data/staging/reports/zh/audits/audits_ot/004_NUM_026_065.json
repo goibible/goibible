@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 65,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '成人' (adult) which is not present in the Hebrew; the Hebrew says 'no man/person remained' (וְלֹא נוֹתַר מֵהֶם אִישׁ), not specifically 'no adult'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

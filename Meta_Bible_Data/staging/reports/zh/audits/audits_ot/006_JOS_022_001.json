@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַטֵּה מְנַשֶּׁה' means 'the tribe of Manasseh' (מַטֵּה = tribe, staff, rod), but the Chinese renders it as '杖' (staff/rod), which is a literal translation of the word's basic meaning but not the intended sense in this context. This could mislead the reader into thinking it refers to a physical staff rather than the tribe. The correct rendering should be '瑪拿西半個支派' (the half-tribe of Manasseh)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

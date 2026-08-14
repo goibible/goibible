@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 22,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּעַל אָף' means 'a man of wrath' or 'an angry person' (literally 'master of anger'), not '主人的氣' (the master's anger). The Chinese rendering changes the subject from a person to an abstract quality of a master, altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

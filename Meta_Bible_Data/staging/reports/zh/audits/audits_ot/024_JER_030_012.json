@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 30,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָנוּשׁ לְשִׁבְרֵךְ' means 'your wound is incurable' or 'your break is grievous', and 'נַחְלָה מַכָּתֵךְ' means 'your blow is severe' or 'your injury is painful'. The Chinese '我必使人攻擊你，使你受擊打' ('I will cause people to attack you, making you struck') adds an agent ('使人') and changes the meaning from describing the severity of the wound to an action of causing attack, which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

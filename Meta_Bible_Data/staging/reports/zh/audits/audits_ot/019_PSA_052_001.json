@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 52,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֶסֶד אֵל כָּל הַיּוֹם' means 'the steadfast love of God endures all day long' (i.e., God's love is present throughout the day), but the Chinese '神的慈愛是一切日之所在' ('God's love is the place of all days') adds the concept '所在' (place/existence) not in the Hebrew and shifts the meaning to a spatial/locative claim rather than the temporal duration of God's love."
+        }
+      ],
+      "confidence": 0.8
+    }
+  }
+}

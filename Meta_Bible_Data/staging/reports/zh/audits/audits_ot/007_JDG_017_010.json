@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 17,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עֲשֶׂרֶת כֶּסֶף לַיָּמִים' means 'ten pieces of silver per year' (literally 'ten of silver for the days/years'), but Chinese renders '每年給你十塊銀子的價值' ('the value of ten pieces of silver each year'), adding '的價值' (the value of) which is not in the Hebrew and could imply a different amount."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

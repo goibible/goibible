@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 2,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֹא חָסַרְתָּ דָּבָר' means 'you have lacked nothing' (i.e., nothing was missing), but the Chinese renders '你沒有缺少什麼話' ('you have not lacked any word/speech'), adding '話' (word/speech) which is not in the Hebrew. The Hebrew 'דָּבָר' here means 'thing' in the sense of 'anything', not 'word/speech' in this context. This changes the meaning from lacking nothing at all to lacking no word."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

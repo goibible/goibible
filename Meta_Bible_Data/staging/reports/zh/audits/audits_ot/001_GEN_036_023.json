@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew names עַלְוָ֥ן (Alvan), מָנַ֖חַת (Manahath), and עֵיבָ֑ל (Ebal) are personal names of Shobal's sons, but the Chinese renders them as '阿利安人' (Alvan people), '瑪拿轄' (Manahath, ambiguous but could be a place), and '以巴路山' (Mount Ebal), adding '人' (people) and '山' (mountain) which are not in the Hebrew and change the meaning from persons to places/peoples."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

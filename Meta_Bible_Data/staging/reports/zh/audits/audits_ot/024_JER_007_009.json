@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְקַטֵּר לַבָּעַל' means 'and burn incense to Baal' (i.e., to the god Baal), but the Chinese renders it as '向主人獻香' ('offer incense to the master'), which changes the proper name 'Baal' to a generic 'master' (主人). This is a name swap that alters the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

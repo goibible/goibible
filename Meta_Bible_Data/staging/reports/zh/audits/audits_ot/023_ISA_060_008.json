@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 60,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶל אֲרֻבֹּתֵיהֶם' means 'to their windows/lofts' (i.e., their dovecotes or openings), not 'to chimneys' (煙囪). The Chinese adds '煙囪' (chimney) which is not in the Hebrew and changes the image."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 29,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'David son of Jesse' (וְדָוִיד בֶּן יִשָׁי), but the Chinese renders it as '大衛兒子耶西' which means 'David's son Jesse', reversing the father-son relationship. It should be '耶西的兒子大衛' (Jesse's son David)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

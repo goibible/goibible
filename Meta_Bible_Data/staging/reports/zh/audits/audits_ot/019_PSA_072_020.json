@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 72,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'דָּוִד בֶּן יִשָׁי' means 'David, son of Jesse' (David is the son of Jesse). The Chinese renders it as '大衛的兒子耶西' (Jesse, son of David), reversing the father-son relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 1,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַצְּבִי' (hatzvi) means 'the gazelle' or 'the glory/beauty' (figuratively), not '母鹿' (doe). While both are deer-like animals, '母鹿' specifically means 'female deer' (doe), whereas 'צבי' is a gazelle (male or generic). This is a species/animal name difference that could mislead a reader about the specific animal referenced."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

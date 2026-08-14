@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לִנְבִיאֵ֣י הַבַּ֗עַל' means 'to the prophets of Baal', but the Chinese renders it as '主人的先知' ('the prophets of the master'), which changes the proper name 'Baal' to a generic 'master'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

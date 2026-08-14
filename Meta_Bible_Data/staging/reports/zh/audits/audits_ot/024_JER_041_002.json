@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 41,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'גדליהו' (Gedaliah) as the one killed, but the Chinese renders '耶大亞' (Yeda'ya), which is a different name. The correct name should be 基大利 (Gedaliah)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

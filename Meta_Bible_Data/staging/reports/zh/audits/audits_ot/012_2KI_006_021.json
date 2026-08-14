@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָבִֽי' means 'my father' (referring to the king's own father), but the Chinese renders it as '我父' which is correct; however, the clause 'הַאַכֶּ֥ה אַכֶּ֖ה אָבִֽי' is a rhetorical question: 'Shall I strike them, my father?' The Chinese '要擊殺我父嗎？' changes the object from 'them' (the Aramean raiders) to 'my father', making it appear the king asks whether to kill his own father, which is a substantive meaning change. The Hebrew has the king asking Elisha (addressed as 'my father') whether he should strike the raiders, not his father."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

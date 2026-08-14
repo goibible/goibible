@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew names זֶבַח (Zebah) and צַלְמֻנָּע (Zalmunna) are rendered as 祭物 and 撒勒穆拿. 祭物 means 'sacrifice/offering' in Chinese, which is a mistranslation of the proper name Zebah (which sounds like 'sacrifice' but is a personal name). This changes the proper name into a common noun, causing a reader to misunderstand the identity of the person. The second name 撒勒穆拿 is a transliteration of Zalmunna, which is acceptable. Additionally, the ornament term הַשַּׂהֲרֹנִים (crescent ornaments) is rendered as 撒轄, which appears to be a transliteration error or a different term, but the main issue is the name swap/mistranslation of Zebah."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

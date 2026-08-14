@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew is a rhetorical question: 'Have the gods of the nations indeed delivered each his land from the hand of the king of Assyria?' The Chinese renders it as an imperative prayer ('拯救吧！神啊...求你救...'), which changes the interrogative/assertive meaning into a request, altering the sense of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

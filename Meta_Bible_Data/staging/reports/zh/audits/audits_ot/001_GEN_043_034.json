@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 43,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּשָּׂא מַשְׂאֹת מֵאֵת פָּנָיו אֲלֵהֶם' means 'he lifted up portions from before him to them' (i.e., he took portions from his own serving and sent/gave them to his brothers). The Chinese '從他面前拿走供物給他們' says 'took away the offerings from before him and gave them to them,' which reverses the direction: the Hebrew has Joseph giving portions from his own table to the brothers, not taking away offerings from them. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

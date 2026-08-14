@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 7,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאִשָּׁה בְכָל אֵלֶּה לֹא מָצָאתִי' means 'but a woman among all these I have not found' — i.e., among the thousand, no woman was found. The Chinese renders '但一切之中的妻子卻未曾找到' ('but the wife among all these was not found'), which introduces '妻子' (wife) instead of 'woman' (אִשָּׁה), and the phrase '一切之中的妻子' could be misread as 'the wife among all things' rather than 'a woman among all these [people]'. This changes the meaning from 'no woman found among the thousand' to 'the wife not found among all', which is a substantive shift."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

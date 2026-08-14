@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 38,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַנְשֵׁי שְׁלֹמֶךָ' means 'your friends/allies' (literally 'men of your peace'), but the Chinese renders it as '圖謀你平安的人' ('those who plot your peace'), which adds the concept of plotting that is not in the Hebrew. The Hebrew simply refers to those who were at peace with him, not conspirators."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

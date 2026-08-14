@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 35,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רְאוּבֵן' is the personal name 'Reuben', but the Chinese renders it as '流便支派' ('the tribe of Reuben'), adding '支派' (tribe) which is not in the Hebrew and changes the subject from the individual Reuben to a tribal entity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

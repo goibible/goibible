@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 28,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הָאִשָּׁה' (the woman) is translated as '妻子' (wife), which changes the meaning from 'the woman' (the medium/necromancer) to 'wife'. This is a substantive mistranslation of the subject."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

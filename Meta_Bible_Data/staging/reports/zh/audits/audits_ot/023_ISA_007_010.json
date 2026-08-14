@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '你聽啊！' ('Listen!') which has no basis in the Hebrew text. The Hebrew only says 'And the LORD again spoke to Ahaz, saying' — the content of the speech is not included in this verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

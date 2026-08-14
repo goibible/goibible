@@ -1,0 +1,30 @@
+{
+  "book": "JOS",
+  "chapter": 18,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בֵּית חוֹרוֹן' (Beth-horon), but the Chinese renders it as '戶崙' (Hulun), which is a different name. The correct transliteration should be '伯和崙' (Beth-horon)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קִרְיַת בַּעַל' (Kiriath-baal) is rendered as '巴力基列' (Baal-gilead), which swaps the order and changes the name. It should be '基列巴力' (Kiriath-baal) or '巴力城' (city of Baal)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קִרְיַת יְעָרִים' (Kiriath-jearim) is rendered as '基列亞琳' (Gilead-arim), which is a different name. It should be '基列耶琳' (Kiriath-jearim)."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עִיר בְּנֵי יְהוּדָה' (city of the sons of Judah) is rendered as '猶大兒子的城' (city of Judah's sons), which is acceptable, but the phrase 'בְּנֵי יְהוּדָה' is a construct chain meaning 'sons of Judah', and the Chinese '猶大兒子' is close, so this is not a major issue. However, the overall rendering of the verse has multiple name errors."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

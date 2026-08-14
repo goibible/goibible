@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 33,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בַּשָּׁלַח' (ba-shalach) is a place name 'Shalach' (or 'the Shalach'), but the Chinese renders it as '沙拉' (Shala), which is a different transliteration. More importantly, the Hebrew 'מֵעֲבֹר בַּשָּׁלַח' means 'from passing over into the pit/Sheol' (or 'from crossing the river/stream'), not 'from passing through Shala' as a proper name. The Chinese adds a proper name '沙拉' that is not in the Hebrew; the Hebrew 'שָׁלַח' here likely refers to 'the pit' or 'Sheol' (a common poetic term), not a place name. This changes the meaning: the verse says God keeps his life from passing into the pit, not from passing through a place called Shala."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

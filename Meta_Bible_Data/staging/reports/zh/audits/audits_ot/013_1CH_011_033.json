@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has two names: עַזְמָוֶת (Azmaveth) and אֶלְיַחְבָּא (Eliahba). The Chinese renders '阿撒末�t城的巴哈魯米人以利亞巴和沙阿倫尼人' — this appears to combine the two names incorrectly: '阿撒末�t城' (Azmaveth) is followed by '巴哈魯米人' (Baharumite, i.e., הַבַּחֲרוּמִי), then '以利亞巴' (Eliahba) and '沙阿倫尼人' (Shaalbonite, i.e., הַשַּׁעַלְבֹנִי). The issue is that the Chinese seems to attach the gentilic '巴哈魯米人' to Azmaveth (which is correct: Azmaveth the Baharumite), but then the rendering '阿撒末�t城的巴哈魯米人' adds '城' (city) which is not in the Hebrew — Azmaveth is a personal name, not a city here. Also, the order and grouping may confuse the reader: the Hebrew lists two distinct persons with their gentilics; the Chinese appears to merge them into one phrase, potentially implying Azmaveth is from a city and Eliahba is separate, but the '城' addition is an unwarranted addition that changes the meaning (making Azmaveth a place rather than a person)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

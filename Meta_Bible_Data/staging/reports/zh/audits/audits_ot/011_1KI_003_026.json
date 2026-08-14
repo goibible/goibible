@@ -1,0 +1,26 @@
+{
+  "book": "1KI",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese renders 'וְהָמֵת אַל תְּמִיתֻהוּ' as '卻不要殺那死孩子' (do not kill that dead child), but the Hebrew says 'do not kill him' referring to the living child (the one just given to the other woman). The Chinese adds '死' (dead) which is not in the Hebrew and changes the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese says '那妻子' (that wife) for 'הָאִשָּׁה' (the woman), but the Hebrew does not specify 'wife' here; it is simply 'the woman'. This is a minor addition but does not change the core meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese says '那婦人卻說' (but that woman said) for 'וְזֹאת אֹמֶרֶת' (and this one was saying), which is acceptable. However, the final clause 'גְּזֹרוּ' is rendered as '把他劈開吧' (split him open), which is correct. The issue is the preceding clause 'גַּם לִי גַם לָךְ לֹא יִהְיֶה' is rendered '這孩子也不歸我，也不歸你' (this child is neither mine nor yours), which is correct. The main flag is the '死孩子' addition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

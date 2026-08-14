@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 22,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּכָּרִים' (kikkarim) means 'talents' (a unit of weight), not '塊餅' (pieces of bread/cakes). The Chinese translation renders 'gold 100,000 talents' and 'silver 1,000,000 talents' as '十萬塊餅' and '一千千塊餅', which changes the meaning from a weight measure to a food item."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

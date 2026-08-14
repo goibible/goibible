@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 124,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '象牙' (ivory) which is not present in the Hebrew. The Hebrew 'לְשִׁנֵּיהֶם' means 'to their teeth', not 'ivory'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

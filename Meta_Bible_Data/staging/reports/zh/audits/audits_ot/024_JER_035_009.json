@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 35,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנוֹת בָּתִּים' means 'building houses' (to dwell in), not '娶家中的女兒' (marrying daughters of the household). The Chinese mistranslates the verb 'build' as 'marry' and 'houses' as 'daughters', changing the meaning entirely."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 36,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "示巴拿這數目 is a mistranslation of וְשֶׁבְנָ֨א הַסּוֹפֵ֜ר (Shebna the scribe/secretary); '數目' (number/count) is not a rendering of 'סוֹפֵר' (scribe). This changes the meaning of the title."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

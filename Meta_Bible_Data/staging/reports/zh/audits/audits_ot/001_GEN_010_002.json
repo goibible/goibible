@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'מֶשֶׁךְ' (Meshech), but the Chinese renders it as '瑪士撒克' (Methuselah), which is a different name. The correct rendering should be '米設' or similar for Meshech."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

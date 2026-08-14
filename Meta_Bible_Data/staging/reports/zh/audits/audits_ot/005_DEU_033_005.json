@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִישֻׁר֖וּן' is a proper name 'Jeshurun' (a poetic name for Israel), not '耶書倫山脈' ('Jeshurun mountain range'). The Chinese adds '山脈' (mountain range) which is not in the Hebrew and changes the referent from the people/entity Jeshurun to a geographical location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

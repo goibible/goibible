@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 50,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'to the land of Canaan' (אַרְצָה כְּנַעַן), but the Chinese renders it as '由迦南人之地' (from the land of Canaan), reversing the direction. The sons carried him to Canaan, not from it."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

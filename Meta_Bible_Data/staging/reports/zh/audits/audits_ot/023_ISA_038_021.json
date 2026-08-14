@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 38,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל הַשְּׁחִין' means 'on the boil/sore' (the skin inflammation), but the Chinese renders it as '放在無花果樹的瘡瘍上' ('on the fig tree's sore'), incorrectly attributing the sore to the fig tree rather than to the person (Hezekiah). This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

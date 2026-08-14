@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 41,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִקֵּץ שְׁנָתַיִם יָמִים' means 'at the end of two full years' (i.e., two years), but Chinese says '過了兩日' (after two days), changing the time period from years to days."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

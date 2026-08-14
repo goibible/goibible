@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 23,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists three names: 'the Gershonites, Ladan, and Shimei' (לַגֵּרְשֻׁנִּ֖י לַעְדָּ֥ן וְשִׁמְעִֽי). The Chinese renders '革順支派的人中有拉但人和希瑪利人' which adds '支派的人' (people of the Gershonite clan) and translates 'לַעְדָּן' as '拉但' (Ladan) but 'וְשִׁמְעִֽי' as '希瑪利人' (Shimeli people) — this changes 'Shimei' (a personal name) into a gentilic/plural '希瑪利人' (Shimei people), altering the meaning from listing individuals to listing groups. The Hebrew has no '希瑪利' (Shimeli) form; it is 'Shimei' (שִׁמְעִי)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

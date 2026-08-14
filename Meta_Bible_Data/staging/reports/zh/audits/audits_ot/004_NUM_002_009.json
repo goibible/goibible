@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 186,400 (מְאַת אֶלֶף וּשְׁמֹנִים אֶלֶף וְשֵׁשֶׁת אֲלָפִים וְאַרְבַּע מֵאוֹת = 100,000 + 80,000 + 6,000 + 400). The Chinese renders it as 1,186,400 (一百一十八萬六千四百), which is a different number (1,186,400 vs 186,400)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

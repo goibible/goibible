@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כַּשָּׁנִים' (like scarlet/crimson) is rendered as '朱紅線' (scarlet thread/line), which adds '線' (thread) not present in the Hebrew; the Hebrew simply says 'like scarlet' (a color/dye), not specifically a thread. This changes the imagery slightly but substantively adds a concept."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

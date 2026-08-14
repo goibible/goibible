@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 21,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תַלְעִיג' (from לָעַג) means 'you may mock/deride', but the Chinese renders it as '你們就退去' ('you may withdraw/leave'), which changes the meaning from mocking to departing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 16,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text says 'after the death of Aaron's two sons' (אַחֲרֵי מוֹת שְׁנֵי בְּנֵי אַהֲרֹן), but the Chinese renders it as '就在亞倫兩個兒子近到耶和前面之後' (after Aaron's two sons came near before Yahweh), omitting the word 'death' (מוֹת) and thus changing the meaning from 'after their death' to 'after they came near'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 17,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'סַפּוֹת' means 'basins' or 'bowls' (a type of vessel), not '門檻' (threshold). This is a mistranslation of a noun."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וּכְלִ֣י יוֹצֵ֔ר' means 'and vessels of a potter' (or 'potter's vessels'), but the Chinese renders it as '塑造者的器皿' (the vessel of the shaper/molder), which is acceptable in meaning but the word 'יוֹצֵר' specifically means 'potter' — however, this is a minor lexical nuance and not a factual difference. The main issue is the mistranslation of 'סַפּוֹת'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

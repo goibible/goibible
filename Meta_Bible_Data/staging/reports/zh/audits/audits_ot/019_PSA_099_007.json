@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 99,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew עֵדֹתָיו means 'his testimonies/statutes', not 'his congregation/會眾'. The Chinese '會眾' (congregation) is a mistranslation of the Hebrew word."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

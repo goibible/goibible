@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 15,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בָּקָר' means 'cattle/oxen' (specifically herd animals), not generic '牲畜' (livestock). The Chinese '七百牲畜' (seven hundred livestock) loses the specific distinction between cattle and sheep that the Hebrew makes."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

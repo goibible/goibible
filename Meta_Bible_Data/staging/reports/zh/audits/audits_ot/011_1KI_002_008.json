@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'שִׁמְעִי בֶן גֵּרָא' (Shimei son of Gera), but the Chinese renders '希瑪利人革拉的兒子' which introduces '希瑪利人' (Himaelite?) — this appears to be a corruption or misreading of 'שִׁמְעִי' (Shimei) as a gentilic, and the name 'Shimei' is not clearly preserved. The correct rendering should be '示每' or '希每' (Shimei), not '希瑪利人'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

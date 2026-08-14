@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 33,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the hand of YHWH was upon me in the evening before the fugitive came to me' (לִפְנֵי בּוֹא הַפָּלִיט). The Chinese renders '在晚上我見面逃民之前' which reverses the subject/object: it says 'I met the fugitive' (我見面逃民) instead of 'the fugitive came to me' (בּוֹא הַפָּלִיט). This changes who is doing the action."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'until the morning he came to me' (עַד בּוֹא אֵלַי בַּבֹּקֶר) — the subject is the fugitive coming to the prophet. The Chinese '直到早晨我來到我這裡' says 'I came to myself' (我來到我這裡), which is nonsensical and reverses the subject, making the prophet the one coming rather than the fugitive."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 21,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אִבְחַת חָרֶב' means 'the slaughter of the sword' or 'the flashing of the sword' (a sword's edge/glint), not '刀劍的亞比加' (the 'Abiga' of the sword). 'אִבְחַת' is a noun meaning 'slaughter' or 'flash/glint', not a proper name. The Chinese adds a transliterated name '亞比加' that has no basis in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מְעֻטָּה לְטָבַח' means 'wrapped/polished for slaughter' (i.e., the sword is prepared for killing), not '作閃電中微少的祭物' ('as a small sacrifice in the lightning'). 'מְעֻטָּה' is a passive participle meaning 'wrapped' or 'polished', and 'לְטָבַח' means 'for slaughter', not 'a small sacrifice'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

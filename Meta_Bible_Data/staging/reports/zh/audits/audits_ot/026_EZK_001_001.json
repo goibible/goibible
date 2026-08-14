@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name כְּבָר (Kebar) is a river, not a city; the Chinese renders it as '基伯城' (city of Kebar), adding '城' (city) which is not in the Hebrew and misidentifies the river as a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

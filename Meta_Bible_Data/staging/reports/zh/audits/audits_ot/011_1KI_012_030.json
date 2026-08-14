@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 12,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '因為百姓去到但，在那一個牛犢面前敬拜' (because the people went to Dan and worshiped before that calf), which is not present in the Hebrew. The Hebrew only states 'and the people went before the one as far as Dan' (וַיֵּלְכ֥וּ הָעָ֛ם לִפְנֵ֥י הָאֶחָ֖ד עַד דָּֽן), with no mention of worship or a calf."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

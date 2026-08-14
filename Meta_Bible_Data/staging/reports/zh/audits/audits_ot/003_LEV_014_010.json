@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 14,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew specifies 'three tenths' (וּשְׁלֹשָׁ֣ה עֶשְׂרֹנִ֗ים) of fine flour for the grain offering, but the Chinese renders it as '十分之一' (one tenth), omitting the number three."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

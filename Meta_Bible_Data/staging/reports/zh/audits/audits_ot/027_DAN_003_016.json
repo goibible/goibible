@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לָא חַשְׁחִין אֲנַחְנָה עַל דְּנָה פִּתְגָם לַהֲתָבוּתָךְ' means 'we have no need to answer you in this matter' (i.e., we do not need to defend ourselves or give a reply). The Chinese rendering '我們不願意遵從你這封書信的命令' ('we are unwilling to obey the command of your letter') introduces the concept of 'obeying a command' and 'letter' that is not present in the Hebrew, and changes the meaning from 'no need to answer' to 'unwilling to obey.' This is a substantive addition and mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

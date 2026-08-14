@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 56,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִדֶּחִי' means 'from stumbling/falling' (a noun, 'my stumbling'), but Chinese renders it as '脫離墜落者' ('from the fallen one/person'), adding a personal agent not in the Hebrew. The Hebrew has no '者' (person) — it is an abstract noun, not a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

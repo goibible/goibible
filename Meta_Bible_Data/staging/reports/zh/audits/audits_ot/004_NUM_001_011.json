@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 1,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'אֲבִידָן' (Abidan), but Chinese renders '亞比頓' (Abidon), swapping the name. Also 'בֶּן גִּדְעֹנִי' means 'son of Gideoni', not '他是基甸尼人' (he is a Gideonite), which misidentifies the patronymic as a gentilic."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

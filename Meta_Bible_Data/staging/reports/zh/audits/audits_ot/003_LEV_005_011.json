@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְנֵי יוֹנָה' means 'young pigeons' (literally 'sons of a dove'), but the Chinese renders it as '兩隻鴿子的兒子' ('sons of two pigeons'), which misidentifies the referent: the Hebrew has 'two young pigeons' (two birds that are young doves), not 'sons of two pigeons' (offspring of two pigeons). This changes the meaning of the sacrificial animal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

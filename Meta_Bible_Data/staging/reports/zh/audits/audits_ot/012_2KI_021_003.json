@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 21,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַבַּעַל' means 'for Baal' (the deity), but the Chinese renders it as '為主人' ('for the master/lord'), which loses the proper name Baal and could mislead the reader into thinking it refers to a generic master rather than the specific deity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 45,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אֵין חָרִישׁ וְקָצִּיר' means 'no plowing and harvest' (i.e., no agricultural work or harvest), but the Chinese renders it as '沒有收割期與收割者' ('no harvest season and harvesters'), which adds '收割者' (harvesters) not present in the Hebrew and omits the concept of plowing ('חָרִישׁ'). This changes the meaning from 'no plowing and harvest' to 'no harvest season and harvesters'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

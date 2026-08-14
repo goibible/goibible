@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 25,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֶֽאֱלִיָּ֔תָה' is a proper name 'Eliathah' (a Levite, 1 Chronicles 25:4, 27), not '以利亞' (Elijah). The Chinese renders it as '以利亞' (Elijah), swapping the name. Also, the Hebrew 'לְעֶשְׂרִים' means 'for the twentieth' (referring to the twentieth division/course), not 'twenty-two' (עשרים ושנים). The Chinese '共有二十二人' (twenty-two people) misreads the number; the Hebrew says 'for Eliathah, his sons and his brothers, twelve' (שְׁנֵים עָשָׂר = twelve), not twenty-two. The Chinese omits 'twelve' and adds 'twenty-two'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

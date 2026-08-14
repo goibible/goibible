@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name לִֽפְתַחְיָה (Pethahiah) is rendered as 巴達雅 (Bada'ya), which is not the standard transliteration for Pethahiah (usually 毗大雅 or 帕他希雅). This changes the personal name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

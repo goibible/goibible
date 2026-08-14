@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 4,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew place name is בַּעַל שָׁלִשָׁה (Baal-shalishah), but the Chinese renders it as 巴力書珥莎 (Baal-shu-ersha), which appears to be a corruption or misreading of the name, adding an extra syllable and altering the name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

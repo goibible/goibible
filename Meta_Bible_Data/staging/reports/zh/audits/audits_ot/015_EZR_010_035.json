@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנָיָ֥ה בֵדְיָ֖ה כלהי' appears to be a list of names (Benaiah, Bediah, Keluhi) without the connective 'is' or 'also'. The Chinese adds '是...也是...' (is... also...), which introduces a relational claim not present in the Hebrew. The Hebrew likely lists three separate names, not a statement about Benaiah's origin."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

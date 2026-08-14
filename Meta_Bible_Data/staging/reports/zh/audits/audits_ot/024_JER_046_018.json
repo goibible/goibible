@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 46,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'חַי אָנִי' means 'As I live' (an oath formula by God referring to Himself), but the Chinese renders it as '我指著我的永生起誓' ('I swear by my eternal life'), which adds the concept of swearing by one's own life that is not in the Hebrew. The Hebrew simply states 'As I live' as an oath formula, not 'swear by my life'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

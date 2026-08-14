@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 30,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name נַחַל הַבְּשׂוֹר (Nahal Besor, 'the Besor brook/valley') is rendered as '比色雅溪谷' (Biseya valley). The transliteration '比色雅' does not match the Hebrew 'Besor' (בְּשׂוֹר); it appears to be a different name (possibly confused with another place). The correct rendering should be something like '比索溪谷' or '比梭溪谷'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

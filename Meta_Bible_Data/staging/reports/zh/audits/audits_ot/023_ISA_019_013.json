@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '成了其國度的城樓角塔和杖' (became the corner tower and staff of its kingdom), which has no basis in the Hebrew. The Hebrew phrase 'פִּנַּ֥ת שְׁבָטֶ֖יהָ' means 'the cornerstone of her tribes' (i.e., the leaders of Egypt's tribes), not 'corner tower and staff of the kingdom.' The addition of '杖' (staff/rod) is not in the Hebrew, and the rendering misrepresents the meaning of 'פִּנַּת' as 'corner tower' rather than 'cornerstone' or 'chief.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

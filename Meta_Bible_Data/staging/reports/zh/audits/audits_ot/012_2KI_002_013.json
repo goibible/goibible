@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '用那外袍擊打水' (struck the water with the cloak), which is not present in the Hebrew verse. The Hebrew only says he picked up the cloak and stood at the edge of the Jordan; the striking of the water is described in the following verse (2 Kings 2:14), not here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

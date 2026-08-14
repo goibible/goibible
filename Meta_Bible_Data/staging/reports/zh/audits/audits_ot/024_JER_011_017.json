@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 11,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַבָּעַל' (to Baal) is rendered as '向主人' (to the master/lord), which changes the proper name Baal into a common noun. This is a name swap that alters the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

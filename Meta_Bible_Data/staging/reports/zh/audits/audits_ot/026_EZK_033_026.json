@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 33,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהָאָרֶץ תִּירָשׁוּ' means 'and you shall inherit/possess the land' (future, second person plural), but the Chinese renders it as '地就因此被玷污' ('the land is therefore defiled'), which changes the meaning from inheriting the land to the land being defiled. This is a substantive mistranslation of the final clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

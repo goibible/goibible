@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל הַגּוֹיִם וְעַל הַמַּמְלָכוֹת' means 'over the nations and over the kingdoms' (two distinct groups: nations and kingdoms). The Chinese '在列國和列國之上' renders both as '列國' (nations), dropping the distinction of 'kingdoms' (מַמְלָכוֹת) and repeating 'nations' instead. This changes the meaning by omitting the second category."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

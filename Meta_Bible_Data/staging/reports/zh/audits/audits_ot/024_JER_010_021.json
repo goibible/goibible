@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 10,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew נִבְעֲרוּ (from בער, 'to be stupid/brutish') means 'have become stupid/brutish', not 'have been destroyed/removed' (被除滅). The Chinese rendering changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

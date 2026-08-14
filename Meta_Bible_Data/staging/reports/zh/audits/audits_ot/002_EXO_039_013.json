@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 39,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew יָשְׁפֵה (yashfeh) is 'jasper' (碧玉/玉髓), not '雅各石' (Jacob stone). The Chinese rendering introduces a name not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

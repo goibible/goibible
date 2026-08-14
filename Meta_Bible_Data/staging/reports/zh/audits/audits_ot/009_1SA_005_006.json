@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'the Ashdodites' (אֶת הָאַשְׁדּוֹדִים), but the Chinese renders '亞實基倫人' (the Ashkelonites). Ashdod (亞實突) and Ashkelon (亞實基倫) are two different Philistine cities; this is a name swap."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

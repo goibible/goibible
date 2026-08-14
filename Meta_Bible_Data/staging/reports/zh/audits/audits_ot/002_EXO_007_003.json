@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has two distinct terms: אֹתֹתַי ('my signs') and מוֹפְתַי ('my wonders/portents'). The Chinese renders both as '神蹟' (signs/miracles), collapsing the distinction. While this is a lexical choice, it loses the second distinct concept 'wonders' and could mislead a reader into thinking only one category is mentioned twice."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

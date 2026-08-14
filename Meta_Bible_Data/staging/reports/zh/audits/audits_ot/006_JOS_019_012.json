@@ -1,0 +1,26 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְשָׁב מִשָּׂרִיד' means 'and it turns from Sarid' (i.e., the border turns from Sarid), but the Chinese renders '餘民要從東方' ('the remnant from the east'), which misidentifies 'Sarid' (a place name) as 'remnant' and omits the directional 'from Sarid'."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'שָּׂרִיד' (Sarid) is not translated; instead '餘民' (remnant) is used, which is a different meaning. Also 'כִּסְלֹת תָּבֹר' (Kisloth Tabor) is rendered as '基斯烈他拿' (Kisloth Tabor? Actually '基斯烈他拿' seems to be a conflation or misrendering; the Hebrew is 'כִּסְלֹת תָּבֹר' = Kisloth Tabor, but the Chinese says '基斯烈他拿' which is not the standard name; however, this may be a transliteration issue, but the main issue is the Sarid mistranslation)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'עַל גְּבוּל כִּסְלֹת תָּבֹר' means 'to the border of Kisloth Tabor', but the Chinese says '經基斯烈他拿的境界' which adds '經' (through) and omits the specific 'border of' nuance, though this is minor. The major omission is the entire phrase 'מִשָּׂרִיד' (from Sarid) which is replaced with '餘民' (remnant)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

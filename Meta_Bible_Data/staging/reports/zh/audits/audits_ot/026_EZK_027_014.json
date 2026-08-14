@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 27,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew וּפְרָדִים means 'mules' (or possibly 'horses' in some contexts, but here clearly 'mules' as distinct from סוּסִים 'horses'), but Chinese renders it as '驢子' (donkeys). This is a factual difference in animal type."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

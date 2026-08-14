@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 66,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אַחַר אחד בַּתָּוֶךְ' (literally 'after one in the midst') is obscure, but the Chinese rendering '又跟隨領袖進入中間' ('and follow the leader into the midst') adds the concept of '領袖' (leader) which is not present in the Hebrew. The Hebrew has no word for 'leader'; 'אַחַר' means 'after' and 'אֶחָד' means 'one', so the phrase likely means 'one after another in the midst' or similar, not 'follow the leader'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לַאֲשֶׁר עַל הַמֶּלְתָּחָה' means 'to the one over the wardrobe/vestry' (the keeper of the garments), not '管理內室的人' (the one in charge of the inner chamber). The Chinese rendering changes the official's role from wardrobe-keeper to chamberlain, altering the meaning of who is addressed."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְכֹל עֹבְדֵי הַבָּעַל' means 'for all the servants/worshippers of Baal', but the Chinese says '一切屬於主人僕人的衣服' ('all the clothes belonging to the master's servants'), which misidentifies the recipients as the master's servants rather than Baal's worshippers, and adds '屬於主人' (belonging to the master) not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

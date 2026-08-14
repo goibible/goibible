@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 5,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תְּקֵל' (teqel) is transliterated as '他刻爾' (tā kè ěr), which adds an extra syllable '爾' not present in the Hebrew. The correct transliteration should be '提客勒' or similar, without the extra '爾'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

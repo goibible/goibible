@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 9,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֳנִי' means 'affliction' or 'misery', not '困苦人' (afflicted person). The Chinese adds '人' (person), changing the meaning from the abstract affliction of the fathers to a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

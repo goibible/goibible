@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 23,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַבַּעַל' means 'to Baal' (the god Baal), but the Chinese renders it as '向主人' ('to the master/lord'), which loses the proper name Baal and changes the referent. The reader would not know it refers to the deity Baal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

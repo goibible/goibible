@@ -1,0 +1,22 @@
+{
+  "book": "JER",
+  "chapter": 49,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְכָל רוּחַ' means 'to every wind' (i.e., all directions), but Chinese renders it as '於一切靈' ('to every spirit'), mistranslating 'רוּחַ' (wind) as '靈' (spirit). This changes the meaning of the dispersion."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'קְצוּצֵי פֵאָה' means 'those who cut the corner of the hair' (i.e., shorn-haired people, likely a reference to a specific group), but Chinese renders it as '被剪髮者' ('those whose hair is cut'), which is acceptable, but the following 'וּמִכָּל עֲבָרָיו' ('and from all his sides/regions') is rendered as '他們一切的以巴衛' ('all their Ebal/Ephraim?'), which appears to be a mistranslation or misreading of 'עֲבָרָיו' (his sides/regions) as a proper name '以巴衛' (Ebal?), adding an unsupported name and altering the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

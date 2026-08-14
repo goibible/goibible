@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 49,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תַּאֲוַת גִּבְעֹת עוֹלָם' means 'the desire of the everlasting hills' (i.e., the choicest blessings of the ancient hills), but the Chinese renders it as '永遠小山丘的情慾' ('the lust of the everlasting hills'), which changes the meaning from a positive blessing to a negative or sexual connotation, altering the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

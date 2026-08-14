@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 9,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'כָל סְאוֹן סֹאֵן בְּרַעַשׁ' refers to 'every boot of the booted warrior in the tumult' (i.e., the noise of battle), not '一切爭戰必因地震而起' ('all wars will arise because of earthquakes'). The Chinese adds the concept of earthquakes ('地震') and changes the meaning from the noise/tumult of battle to a cause of war, which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

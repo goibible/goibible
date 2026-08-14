@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 4,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '的兒子' (sons) which is not present in the Hebrew; the Hebrew simply says 'from thirty years old and upward, even to fifty years old, you shall number them' without specifying 'sons'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

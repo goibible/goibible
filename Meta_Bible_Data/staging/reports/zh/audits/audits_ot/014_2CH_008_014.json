@@ -1,0 +1,26 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיַּעֲמֵד כְּמִשְׁפַּט דָּוִיד אָבִיו' means 'he stationed/appointed according to the ordinance of David his father' — the subject is the king (likely Hezekiah or Josiah), not 'David's son' (大衛的兒子). The Chinese renders '大衛的兒子' as the subject, which misidentifies who is acting. The Hebrew has no explicit subject here, but the context and verb form indicate the current king, not David's son as a title."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶת מַחְלְקוֹת הַכֹּהֲנִים עַל עֲבֹדָתָם' means 'the divisions of the priests for their service' — the Chinese '堅立祭司的分地，按他們的工作' adds '分地' (allotted land) which is not in the Hebrew; 'מַחְלְקוֹת' means 'divisions' (courses/classes), not 'land allotments'. This changes the meaning to imply land distribution."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְשַׁעַר וָשָׁעַר' means 'gate by gate' (i.e., each gate), rendered as '按城門與城門' which is acceptable, but the Chinese '按城門與城門' is fine; however, the phrase 'כִּי כֵן מִצְוַת דָּוִיד אִישׁ הָאֱלֹהִים' means 'for so was the commandment of David the man of God' — the Chinese '因為這是神人大的誡命' renders '神人大' which is awkward and could be misread as 'the great man of God' rather than 'David the man of God'; the name 'דָּוִיד' (David) is omitted in the Chinese, replaced by '神人大' (man of God great), losing the explicit name 'David'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

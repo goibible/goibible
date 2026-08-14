@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 25,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּכָל שָׁאטְךָ בְּנֶפֶשׁ' means 'with all your contempt/scorn in your soul' (i.e., with all your soul's contempt), but the Chinese renders it as '以性命歡喜' (rejoice with your life/soul), which changes the meaning from 'contempt' to 'life/soul' as the object of rejoicing. The Hebrew 'שָׁאטְךָ' (your contempt/scorn) is not represented; instead 'נֶפֶשׁ' (soul) is taken as the instrument of rejoicing, whereas in Hebrew it is the soul that harbors the contempt."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

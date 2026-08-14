@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 6,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֶת מִזְבַּח הַבַּעַל' means 'the altar of Baal', but the Chinese renders it as '主人的祭壇' ('the master's altar'), which changes the referent from the deity Baal to a generic 'master'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has וּכְלָל (Ukelal/Kelel), but Chinese renders it as 基拉 (Kela), which appears to be a different name. The Hebrew name is 'Kelal' (כְלָל), not 'Kela' (קֵלָא)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

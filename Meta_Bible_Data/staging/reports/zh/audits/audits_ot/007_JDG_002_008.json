@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Joshua son of Nun' (יְהוֹשֻׁעַ בִּן נוּן), but the Chinese renders '奴的兒子' (son of Nu), swapping 'Nun' (נוּן) for 'Nu' (奴). This is a name change that would mislead a Chinese reader."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

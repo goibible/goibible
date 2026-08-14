@@ -39,4 +39,5 @@ translation misses.
 | `ACT 13:33` | `G2316` God | Verse-boundary closure | God/Jesus clause is present in `ACT 13:32`; do not duplicate it in `ACT 13:33`. |
 | `ACT 13:33` | `G2424` Jesus | Verse-boundary closure | God/Jesus clause is present in `ACT 13:32`; do not duplicate it in `ACT 13:33`. |
 | `1TI 3:16` | `G2316` God | Textual-policy closure | Use the older critical reading, "He who was revealed in flesh," not TR "God was revealed." |
+| `1JN 3:16` | `G2316` God | Textual-policy closure | Use the shorter/main reading without the optional "of God" phrase. |
 | `1JN 5:7` | `G4151` Spirit | Textual-policy closure | Use the shorter early text; Spirit is translated in `1JN 5:8`. |

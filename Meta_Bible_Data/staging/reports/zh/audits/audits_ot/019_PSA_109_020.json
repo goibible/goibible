@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 109,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שֹׂטְנַי' means 'my adversaries' (plural, from the root שׂטן, 'to accuse/adversary'), not the proper name 'Satan' (撒但). The Chinese rendering '撒但' introduces a specific personal name not present in the Hebrew, changing the meaning from 'my adversaries' to 'Satan'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 24,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '從你們眼前所見的諸神中' (from the gods you see before your eyes), which has no basis in the Hebrew text. The Hebrew simply says 'choose for yourselves today whom you will serve' (בַּחֲרוּ לָכֶם הַיּוֹם אֶת מִי תַעֲבֹדוּן), without specifying 'the gods you see before your eyes'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

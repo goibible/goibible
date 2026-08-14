@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 25,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 137 years (מְאַת שָׁנָה וּשְׁלֹשִׁים שָׁנָה וְשֶׁבַע שָׁנִים = 100 + 30 + 7), but Chinese says 二百三十年又七年 (237 years). The number is wrong."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

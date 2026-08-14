@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name זְבֻל (Zebul) is rendered as 撒拔, which is incorrect; the proper transliteration should be 西布勒 or similar. The name 撒拔 does not correspond to the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

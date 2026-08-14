@@ -1,0 +1,30 @@
+{
+  "book": "EZR",
+  "chapter": 5,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'פַּחַת עֲבַֽר נַהֲרָה' means 'governor of Beyond-the-River' (a title/office), but the Chinese renders it as '過河處河的百夫長' ('centurion of the river-crossing place'), which misidentifies the office as a military rank and mistranslates the geographic name."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'תַּתְּנַי' (Tattenai) as the sender, but the Chinese renders it as '他特乃' (a transposition of characters, effectively a different name)."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'שְׁתַר בּוֹזְנַי' (Shethar-bozenai), but the Chinese renders it as '示他博斯乃' (a transposition of '示他' and '博斯乃', effectively swapping the order of the two names)."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וּכְנָוָתֵהּ' means 'and their associates/colleagues', but the Chinese renders it as '及其同伴' which is acceptable; however, the Hebrew 'אֲפַרְסְכָיֵא' (the Apharsachites) is rendered as '亞法薩迦' which is a transliteration but the Hebrew also includes 'דִּי בַּעֲבַ֣ר נַהֲרָה' ('who were in Beyond-the-River') which is omitted in the Chinese."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 14,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'his flesh rots while he stands on his feet' (וְהוּא עֹמֵד עַל רַגְלָיו), i.e., the flesh rots while the person is standing on his feet. The Chinese renders 'their flesh rots on the soles of their feet' (他們的肉在腳掌上腐爛), which changes the location of the rotting from the flesh generally (while standing) to specifically the flesh on the soles of the feet. This is a substantive difference in meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

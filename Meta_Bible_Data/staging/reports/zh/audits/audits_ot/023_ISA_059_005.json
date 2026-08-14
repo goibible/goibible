@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 59,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְהַזּוּרֶה' means 'and the one who crushes/smashes' (from זוּר, to crush), not 'the one who tramples' (which would be רָמַס or דָּרַךְ). The Chinese '踐踏者' (trampler) changes the action from crushing to trampling."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'תִּבָּקַע אֶפְעֶה' means 'a viper will hatch/break forth' (i.e., the crushed egg yields a viper), not 'the viper will be crushed' (which would be passive of בקע with the viper as object). The Chinese '毒蛇必被壓碎' reverses the subject/object: in Hebrew the viper is the subject that emerges, not the object that is crushed."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

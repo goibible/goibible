@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 2,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יָמִין וּשְׂמֹאול' means 'right or left' (both directions), but the Chinese renders 'שְׂמֹאול' as '左手' (left hand), which is a mistranslation of the directional term 'left' into a body part, changing the meaning from 'turn aside to the right or left' to 'turn aside to the right or left hand'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

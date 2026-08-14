@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גֶּרֶשׂ כַּרְמֶל' means 'crushed fresh grain' (or 'groats of fresh grain'), not '迦密山的麥子' (wheat from Mount Carmel). 'כַּרְמֶל' here is a common noun meaning 'fresh/ripe grain', not the proper name Carmel. This changes the meaning from a description of the grain's condition to a geographical location."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

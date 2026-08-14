@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מִיכָ֥א רְח֖וֹב חֲשַׁבְיָֽה' is a list of names (Mika, Rehob, Hashabiah), not a sentence about a street. The Chinese adds '在...的街道上' (on the street of) which is an addition not present in the Hebrew, and misinterprets 'רְחוֹב' (Rehob, a personal name) as 'street'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

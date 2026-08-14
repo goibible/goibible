@@ -1,0 +1,22 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name שִׁמְעִי (Shimei) is rendered as '希瑪利人' (Himari people), which is not a correct transliteration of the name Shimei; it appears to be a different name or a misreading."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַתֹּאמֶר אֵלַי טוֹב הַדָּבָר שָׁמָעְתִּי' means 'and you said to me, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

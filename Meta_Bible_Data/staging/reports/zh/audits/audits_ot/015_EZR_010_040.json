@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׁשַׁי' is a personal name (Shashai), not a gentilic meaning 'of/from Shashai' or 'Shosai people'. The Chinese '朔撒伊人' adds '人' (people/person), which is not in the Hebrew and changes the proper name into a demonym, potentially misleading the reader about the identity of the individual."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

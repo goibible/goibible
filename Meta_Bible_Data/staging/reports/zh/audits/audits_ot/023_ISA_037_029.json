@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְשַׂמְתִּ֨י חַחִ֜י בְּאַפֶּ֗ךָ' means 'I will put my hook in your nose' (חַח = hook/ring, אַף = nose). Chinese renders '臂環' (arm ring) and '氣' (breath/anger), which misidentifies both the object (hook vs. arm ring) and the body part (nose vs. breath/anger), changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 29,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '也包括在內' (also included) which is not present in the Hebrew. The Hebrew only states that those not here with us today are also addressed, but does not explicitly say they are 'included' in the covenant; the concept of inclusion is implied but not stated in this verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

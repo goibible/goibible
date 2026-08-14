@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 69,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶל מַכְאוֹב חֲלָלֶיךָ יְסַפֵּרוּ' means 'and they recount the pain of your wounded' (i.e., they speak about the suffering of those you have wounded). The Chinese renders it as '他們的傷者就談論你的痛苦' ('their wounded ones talk about your pain'), which reverses the possessive relationship: the Hebrew has 'your wounded' (חֲלָלֶיךָ) and 'their pain' (מַכְאוֹב), but the Chinese makes it 'their wounded' and 'your pain'. This changes who is speaking about whose suffering."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

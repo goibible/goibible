@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 19,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהַנֶּפֶשׁ הַנֹּגַעַת' means 'and the person who touches' (the unclean thing), but the Chinese '觸摸這性命的' ('touching this life/soul') misidentifies the object. The Hebrew has no demonstrative 'this' (這) and the phrase refers to the person touching, not the thing being touched. This changes who is doing the touching and what is being touched."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "book": "JER",
+  "chapter": 13,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְדָמֹעַ תִּדְמַע' (weeping and weeping / surely weep) is rendered as '眼要流淚' (eyes will shed tears), which omits the explicit doubling of weeping (the infinitive absolute + finite verb) and the separate mention of weeping as an action distinct from tears. The Chinese loses the emphatic 'surely weep' and the parallel structure of 'weep' and 'tears'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נַפְשִׁי' (my soul) is rendered as '性命' (life), which is acceptable, but the clause 'תִּבְכֶּה נַפְשִׁי' (my soul shall weep) is rendered as '性命悲哀' (life is sorrowful), shifting the verb from 'weep' to 'be sorrowful', a change in meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִפְּנֵי גֵוָה' (because of pride) is rendered as '因驕傲' (because of pride), which is correct, but the phrase 'בְּמִסְתָּרִים' (in secret places) is rendered as '在隱密處' (in a secret place), which is acceptable. However, the overall rendering '我必在隱密處因驕傲而哭泣' (I will weep in secret because of pride) is fine, but the subject 'my soul' is separated, and the weeping is attributed to 'I' rather than 'my soul', which is a minor shift."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְתֵרַד עֵינִי דִּמְעָה' (and my eye shall run down with tears) is rendered as '眼要流淚' (eyes will shed tears), which omits the singular 'my eye' (עֵינִי) and the verb 'run down' (תֵּרַד), replacing it with a generic 'shed tears'. This loses the specific imagery of the eye running down with tears."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי נִשְׁבָּה עֵדֶר יְהוָה' (for the flock of the LORD is taken captive) is rendered as '因耶和華的羊群被擄去' (because the flock of the LORD is taken captive), which is correct. However, the verb 'נִשְׁבָּה' (is taken captive) is rendered as '被擄去' (is taken away captive), which is acceptable. No issue here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

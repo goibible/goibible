@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 32,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בָּמוֹת הַבַּעַל' means 'high places of Baal' (בַּעַל = Baal, the deity). The Chinese renders it as '主人的高處' ('high places of the master/lord'), which loses the proper name 'Baal' and substitutes a generic title. This changes the referent from the specific deity Baal to a generic 'master,' which is a substantive meaning change."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּן מְשֻׁלָּם' means 'son of Meshullam' (Meshullam is a personal name), but the Chinese renders it as '梅書蘭姆人的兒子' ('son of the Meshullamite'), adding a gentilic/ethnic suffix that is not in the Hebrew. This changes the meaning from a personal patronymic to an ethnic/group designation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 9,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֵגֶל' means 'calf', but the Chinese renders it as '公牛' (bull/ox). This changes the animal from a young calf to a full-grown bull."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

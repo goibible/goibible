@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'אֲרִיאֵל מוֹאָב' refers to 'two Ariel of Moab' (אֲרִיאֵל being a name/title, possibly 'lion of God' or a Moabite warrior name), but the Chinese adds '雅各' (Jacob), which is not present in the Hebrew and changes the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

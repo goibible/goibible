@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 12,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲשֶׁר אַתֶּם יֹרְשִׁים אֹתָם' means 'which you are dispossessing' (i.e., the nations you are driving out), but the Chinese renders it as '那將要承受的民族' ('the people you are about to inherit/possess'), which reverses the subject-object relationship: the Hebrew says the nations are the object of your dispossession, not that you are inheriting the nations. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

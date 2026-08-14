@@ -1,0 +1,22 @@
+{
+  "book": "AMO",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּרֹאשׁ גֹּלִים' means 'at the head of the exiles' (i.e., they will be first among those exiled), but the Chinese renders it as '在高處露頭' ('appear at a high place'), which changes the meaning. The phrase refers to being led into exile, not being elevated."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְסָר מִרְזַח סְרוּחִים' means 'the revelry of the loungers will pass away' (i.e., the feasting of the self-indulgent will cease), but the Chinese '從邪僻的筵席退去' ('withdraw from the perverse feast') implies the people themselves withdraw from a feast, whereas the Hebrew states the feast itself will come to an end. This reverses the subject and action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

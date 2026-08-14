@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 17,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יוּמַת הַמֵּת' means 'the one who is to die shall be put to death' (the guilty person shall be executed). The Chinese renders it as '那被殺的人要死' ('the one who was killed shall die'), which reverses the subject: the Hebrew refers to the condemned criminal being executed, not the victim who was killed. This changes who is being put to death."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

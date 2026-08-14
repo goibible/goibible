@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'עַל פִּיךָ' means 'at your command' or 'by your word' (literally 'at your mouth'), referring to God's command. The Chinese '在你的口上' ('on/above your mouth') misrenders the preposition and meaning, making it sound like the eagle is physically above the speaker's mouth rather than acting at God's command."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

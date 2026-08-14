@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'your master' (אֲדֹנֶיךָ) and 'you' (אֵלֶיךָ) as the recipients of the message, but the Chinese renders '那些坐在城牆上的主人和你們' ('the masters sitting on the wall and you'), adding '主人' (masters) as sitting on the wall, which is not in the Hebrew. The Hebrew phrase 'הַעַל אֲדֹנֶיךָ וְאֵלֶיךָ' means 'Is it to your master and to you [that my master sent me]?' — the Chinese incorrectly inserts '主人' as those sitting on the wall, changing the referent."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֶאֱכֹל אֶת חריהם וְלִשְׁתּוֹת אֶת שיניהם' refers to eating their own dung and drinking their own urine (the people on the wall). The Chinese '吃自己的鴿糞，喝自己的尿' adds '鴿' (pigeon/dove) to '糞' (dung), which is not in the Hebrew — the Hebrew simply says 'their dung' (חראיהם), not 'pigeon dung'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

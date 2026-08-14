@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְכִכָּרִים שֵׁשׁ מֵאוֹת' means 'six hundred talents (of gold)', not '六百塊金子' (six hundred pieces/blocks of gold). The unit 'talents' (כִּכָּר) is a weight measure, not a count of pieces."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 51,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַר הַמַּשְׁחִית' means 'destroying mountain' (the mountain that destroys), but the Chinese renders it as '使你成為毀滅者' ('make you a destroyer'), shifting the object from the mountain to the person addressed. The Hebrew addresses the mountain as the destroyer, not the person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

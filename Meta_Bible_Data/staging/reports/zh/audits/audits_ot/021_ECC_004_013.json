@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 4,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew יֶלֶד means 'youth/young man' (singular masculine), not '兒女' (children, plural/generic). The Chinese renders it as plural 'children' rather than a singular 'youth/young man'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 3,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַשְּׂעִירָתָה' (ha-Se'iratah) is a place name, 'Seirah' (a location in Ephraim), not '小山羊' (little goat). The Chinese rendering changes the meaning from a geographical destination to an animal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

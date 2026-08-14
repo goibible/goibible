@@ -1,0 +1,22 @@
+{
+  "book": "NEH",
+  "chapter": 5,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גַּם חָצְנִ֣י נָעַ֗רְתִּי' means 'I also shook out my garment/fold' (referring to shaking out the fold of the robe as a symbolic act), but the Chinese renders it as '我的臂膀年輕時' ('when my arms were young'), which is a mistranslation. 'חָצְנִי' means 'my bosom/fold of garment', not 'my arm', and 'נָעַרְתִּי' is 'I shook out', not 'young'."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַיֹּאמְר֨וּ כָֽל הַקָּהָ֜ל אָמֵן' is rendered as '全會衆都說阿們' which is correct, but the preceding 'וַיְהַלְלוּ֙ אֶת יְהוָ֔ה' ('and they praised the LORD') is present in the Chinese as '並讚美耶和華' — this is fine. However, the phrase 'וְכָ֛כָה יִהְיֶ֥ה נָע֖וּר וָרֵ֑ק' ('and thus he shall be shaken out and empty') is rendered as '又說：「願他如此被剪除，且成虛空！」' which adds '又說' ('and said') not in the Hebrew (the Hebrew has no second 'said' here; it continues the same statement). This is a minor addition but does not change the meaning substantively."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

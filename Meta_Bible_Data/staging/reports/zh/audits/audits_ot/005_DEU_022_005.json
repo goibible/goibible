@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא יִהְיֶה כְלִי גֶבֶר עַל אִשָּׁה' means 'a man's attire shall not be on a woman' (i.e., a woman shall not wear a man's garment). The Chinese renders it as '男子的器皿不可屬於妻子' ('a man's vessel shall not belong to the wife'), which reverses the subject/object: it makes the man's item belong to the wife, whereas the Hebrew prohibits a woman from wearing a man's item. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

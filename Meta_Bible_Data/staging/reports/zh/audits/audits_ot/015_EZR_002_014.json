@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper name בִגְוָי (Bigvai) is rendered as '大衛雅人' (people of David/Yah?), which is not a transliteration of Bigvai and introduces an incorrect name/ethnic descriptor not present in the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

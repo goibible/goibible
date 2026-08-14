@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 42,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew name קֶרֶן הַפּוּךְ (Keren-happuch) is a proper name meaning 'horn of antimony' or 'horn of eye-paint', not '紅海角' (Red Sea Cape). The Chinese rendering '紅海角' misinterprets the name, changing the proper name to a geographical term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 3,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '以及你們的牲畜' (and your livestock) a second time, resulting in '你們和你們的牲畜以及你們的牲畜' (you and your livestock and your livestock). The Hebrew has only '你們和你們的牲畜' (you and your livestock) — 'וּמִקְנֵיכֶם וּבְהֶמְתְּכֶם' (your cattle and your beasts) are two distinct terms, but the Chinese renders both as '牲畜' and then duplicates the phrase, creating an extra '以及你們的牲畜' that is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

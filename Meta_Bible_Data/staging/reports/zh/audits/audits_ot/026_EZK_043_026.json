@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 43,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמִלְאוּ יָדוֹ' (literally 'and they shall fill its hand') is an idiom meaning 'to consecrate/ordain' (fill the hand with an offering for installation). The Chinese '為它舉手行聖別' ('raise hands for it to consecrate') misinterprets the idiom as a hand-raising gesture, changing the meaning from ordination/consecration to a different ritual action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

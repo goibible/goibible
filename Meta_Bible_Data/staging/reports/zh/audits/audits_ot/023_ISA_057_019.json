@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 57,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נוב שְׂפָתָיִם' (nuv sefatayim) is a construct phrase meaning 'fruit of the lips' (i.e., praise/confession), but the Chinese renders it as '創造果子的嘴唇' ('creating the lips of fruit'), which reverses the construct relationship and adds '創造' (creating) that is not in the Hebrew. The Hebrew has no verb 'create' here; it is a noun phrase. This changes the meaning from 'fruit of the lips' to 'creating the lips of fruit'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

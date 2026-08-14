@@ -1,0 +1,26 @@
+{
+  "book": "PSA",
+  "chapter": 49,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּחַיָּיו' means 'in his life' (during his lifetime), but the Chinese renders it as '在活物中' ('among living creatures'), which changes the meaning from a temporal phrase to a locational one."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְבָרֵךְ' is third-person masculine singular ('he will bless'), but the Chinese '稱頌' is correct in person, yet the phrase '他的性命' ('his soul/life') is the subject; the rendering '他的性命必在活物中稱頌' is awkward but not a clear error. However, the second clause '你若善待你' ('if you treat yourself well') is a mistranslation: the Hebrew 'כִּי תֵיטִיב לָךְ' means 'when you do good to him' (i.e., God does good to the person), with 'לָךְ' being a second-person singular suffix referring to God, not reflexive. The Chinese '你若善待你' incorrectly makes the subject 'you' and object 'you' (reflexive), changing who does good to whom."
+        },
+        {
+          "kind": "negation",
+          "detail": "No negation issue, but the second clause's subject/object confusion constitutes a mistranslation of the relationship between God and the person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

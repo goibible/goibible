@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name הוֹמָם (Homam) is rendered as 何瑪, which is acceptable, but the sister's name תִּמְנָע (Timna) is mistranslated as 提幔 (Teman), which is a different name/place. The correct rendering should be 亭納 or 提姆納."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

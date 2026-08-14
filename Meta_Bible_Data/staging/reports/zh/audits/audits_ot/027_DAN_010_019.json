@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 10,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִישׁ חֲמֻדוֹת' means 'man of preciousness/desirability' (i.e., 'highly esteemed/treasured man'), not '貪戀的人' ('covetous person'). The Chinese rendering changes the meaning from a term of honor to a negative description."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

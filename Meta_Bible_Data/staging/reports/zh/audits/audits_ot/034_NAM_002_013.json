@@ -1,0 +1,18 @@
+{
+  "book": "NAM",
+  "chapter": 2,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכֵכֵה' (your messengers/angels) is translated as '你的天使' (your angels), which is acceptable, but the phrase 'קוֹל מַלְאָכֵכֵה' means 'the voice of your messengers' — the Chinese '你的天使的聲' is correct. However, the Hebrew 'רִכְבָּהּ' (her chariots) is translated as '你的戰車' (your chariots), changing the possessive from third-person feminine singular (her) to second-person (your). This is a person/grammatical error that alters who the chariots belong to."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

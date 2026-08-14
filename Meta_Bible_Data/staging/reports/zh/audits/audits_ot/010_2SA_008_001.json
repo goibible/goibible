@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מֶתֶג הָאַמָּה' (meteg ha-ammah) is a proper name/place, likely 'Metheg-ammah' (meaning 'the bridle of the mother city' or 'the control of the metropolis'), referring to a city or stronghold, not '一肘尺' (a cubit). The Chinese rendering '一肘尺' misinterprets 'אַמָּה' as a unit of measurement (cubit) rather than as part of a place name, changing the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

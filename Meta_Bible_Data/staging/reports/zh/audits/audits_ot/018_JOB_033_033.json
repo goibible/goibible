@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 33,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַחֲרֵשׁ וַאֲאַלֶּפְךָ חָכְמָה' means 'be silent, and I will teach you wisdom' (an imperative to the listener to be silent, followed by the speaker's promise to teach). The Chinese renders it as '我就默然不語，不再以智慧教導你' ('I will be silent and no longer teach you wisdom'), reversing the subject/action: the Hebrew has the speaker commanding the listener to be silent and then offering to teach, whereas the Chinese has the speaker himself becoming silent and withholding teaching. This changes who is doing what and adds the negation '不再' (no longer) not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 62,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has two parallel clauses: 'for you shall be called Hephzibah' (כִּי לָךְ יִקָּרֵא חֶפְצִי בָהּ) and 'and your land Beulah' (וּלְאַרְצֵךְ בְּעוּלָה). The Chinese renders the first as '你的地要被稱為赫弗西巴' (your land shall be called Hephzibah), incorrectly attributing the name Hephzibah to the land instead of to the person ('you'). The second clause is correctly '你的地要被稱為被娶的' (your land shall be called Beulah). This swaps the referent of the first name, changing who/what is named."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

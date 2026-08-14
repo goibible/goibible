@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew names זֶבַח (Zebah) and צַלְמֻנָּע (Zalmunna) are transliterated in Chinese as 祭物 and 撒勒穆拿 respectively. 祭物 means 'sacrifice/offering' in Chinese, which is a semantic translation of the name Zebah (which means 'sacrifice'), not a transliteration. This could mislead a Chinese reader into thinking the text refers to a sacrificial offering rather than a personal name. The name should be transliterated (e.g., 西巴) to preserve the proper name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

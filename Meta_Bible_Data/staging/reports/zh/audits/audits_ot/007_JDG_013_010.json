@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the woman ran and told 'her husband' (לְאִישָׁהּ), but the Chinese renders it as '告訴那人' (told that man), which changes the recipient from her husband to the man who appeared. This is a substantive change in who is being told."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

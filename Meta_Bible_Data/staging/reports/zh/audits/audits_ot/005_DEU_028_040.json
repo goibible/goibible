@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 28,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְשֶׁמֶן לֹא תָסוּךְ' means 'you will not anoint yourself with oil' (i.e., you will lack oil for anointing), but Chinese renders '你必不缺油' ('you will not lack oil'), reversing the negation's scope: the Hebrew states a lack of oil for anointing, not that oil will not be lacking. This changes the factual claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

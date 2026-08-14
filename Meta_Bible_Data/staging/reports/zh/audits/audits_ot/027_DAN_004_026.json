@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 4,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'they commanded to leave the stump of its roots of the tree' (לְמִשְׁבַּק עִקַּר שָׁרְשׁוֹהִי דִּי אִילָנָא), i.e., the command was to leave the stump and roots of the tree. The Chinese renders it as 'they commanded to seek the one who cuts down the tree and leaves the stump and roots' (他們囑咐要尋找那砍伐樹木、留下樹樁和根的人), adding '尋找' (seek) and '那砍伐樹木...的人' (the one who cuts down the tree), which is not in the Hebrew. This changes the subject/action: the Hebrew command is about leaving the stump, not about seeking a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

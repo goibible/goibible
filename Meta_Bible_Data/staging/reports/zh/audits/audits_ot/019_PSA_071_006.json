@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 71,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַתָּה גוֹזִי' means 'you are the one who drew me out' (from the womb), i.e., 'you are my deliverer/one who brought me forth'. The Chinese renders it as '你便是我的神' ('you are my God'), which changes the meaning: the Hebrew does not say 'my God' here but 'the one who drew me out'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "2SA",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הֲלוֹא עַצְמִי וּבְשָׂרִי אָתָּה' means 'Are you not my bone and my flesh?' (i.e., 'Are you not my own flesh and blood?'). The Chinese renders '你不是我的骸骨和肉嗎？' which is correct in meaning. However, the Hebrew 'עַצְמִי וּבְשָׂרִי' is singular possessive 'my bone and my flesh' (idiom for close kinship), and the Chinese '我的骸骨和肉' is acceptable. No issue here."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שַׂר צָבָא תִּהְיֶה לְפָנַי' means 'you shall be commander of the army before me' (i.e., 'you shall be my army commander'). The Chinese '你作我面前的軍隊官長' is correct. However, the Hebrew 'כָּל הַיָּמִים' means 'all the days' (i.e., 'forever' or 'always'), and the Chinese '直到一切日' is a literal but awkward rendering; it does not change the meaning substantively. The main issue is the phrase 'תַּחַת יוֹאָב' meaning 'instead of Joab' or 'in place of Joab' — the Chinese '代替約押' is correct. The overall translation is close, but the rendering '願神這樣待我，並且這樣加倍' for 'כֹּה יַעֲשֶׂה לִּי אֱלֹהִים וְכֹה יוֹסִיף' is a standard oath formula meaning 'May God do so to me and more also' (i.e., 'May God punish me severely if...'). The Chinese '願神這樣待我，並且這樣加倍' conveys 'May God do thus to me and add thus' — this is acceptable. However, the Hebrew 'אִם לֹא' introduces a negative condition: 'if you are not...' The Chinese '若你不作' correctly renders this. The translation is largely faithful, but the phrase '你不是我的骸骨和肉嗎？' is a rhetorical question; the Chinese uses '嗎' which is correct. The only substantive issue is that the Hebrew 'עַצְמִי וּבְשָׂרִי' is singular ('my bone and my flesh'), but the Chinese '我的骸骨和肉' is fine. After review, the translation is essentially accurate. However, the rendering '直到一切日' for 'כָּל הַיָּמִים' is a literal but understandable rendering of 'all the days' — it does not mislead. The verdict should be OK. But note: the Hebrew 'תֹּמְרוּ' is plural 'you (pl.) shall say' — the Chinese '你要對...說' uses singular 'you' (你), which changes the addressee from plural to singular. This is a number/person issue: the Hebrew addresses multiple people (David's messengers), but the Chinese uses singular 'you'. This is a substantive change in who is being addressed. Therefore, FLAG."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

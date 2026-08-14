@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '就必蒙福' (then you will be blessed), which is not present in the Hebrew text. The Hebrew only states the conditional clauses without an explicit result clause."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

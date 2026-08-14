@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 131,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb יַחֵל (from יָחַל) means 'wait for' or 'hope in', not 'call out/cry out' (קָרָא or זָעַק). The Chinese '呼求' (call out/cry out) changes the meaning from waiting/hoping to vocal petition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

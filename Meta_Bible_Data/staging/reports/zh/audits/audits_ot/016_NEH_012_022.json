@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text lists the Levites as 'Elyashiv, Yoiada, Yohanan, and Yaddua' (אֶלְיָשִׁיב יוֹיָדָע וְיוֹחָנָן וְיַדּוּעַ), but the Chinese renders '在以利實巴的日子' (in the days of Elyashiv) and then '利未人耶何耶大、約哈難、雅杜亞' (the Levites Yehoiada, Yohanan, Yaddua). This misidentifies Elyashiv as a time marker rather than the first Levite in the list, and swaps 'Yoiada' (יוֹיָדָע) for '耶何耶大' (Yehoiada), which is a different name (the Hebrew has Yoiada, not Yehoiada). The structure and names are thus altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

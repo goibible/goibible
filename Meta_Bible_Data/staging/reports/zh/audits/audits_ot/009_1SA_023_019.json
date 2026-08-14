@@ -1,0 +1,26 @@
+{
+  "book": "1SA",
+  "chapter": 23,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּמְּצָדוֹת' means 'in the strongholds' or 'in the fortresses', but the Chinese renders it as '在城邑之中' (in the cities), which is a mistranslation. The Hebrew word refers to strongholds/fortresses, not cities."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּחֹרְשָׁה' means 'in the forest' or 'in the woods' (Horesh), but the Chinese renders it as '在樹林中' (in the forest), which is acceptable. However, the phrase 'בְּגִבְעַת הַחֲכִילָה' means 'on the hill of Hachilah', but the Chinese renders it as '哈基拉人的小山丘上' (on the small hill of the Hachilah people), adding '人' (people) which is not in the Hebrew. This is a minor addition but changes the meaning slightly."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'הַגִּבְעָתָה' means 'to Gibeah' (a proper place name), but the Chinese renders it as '掃羅所在的山丘' (the hill where Saul was), which omits the proper name 'Gibeah' and replaces it with a descriptive phrase. This is a name omission."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

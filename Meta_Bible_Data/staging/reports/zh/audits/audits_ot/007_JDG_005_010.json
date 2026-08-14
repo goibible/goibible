@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֲתֹנֹות צְחֹרֹות' means 'white donkeys' (female donkeys that are white/tawny), but Chinese renders as '驢子' (donkeys) without the color 'white' (白色). This omits the substantive descriptor 'צְחֹרֹות'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יֹשְׁבֵי עַל מִדִּין' means 'those who sit on a saddle/rug' (מִדִּין = saddle-cloth or carpet), but Chinese renders as '坐在審判座上' (sitting on a judgment seat), which adds the concept of 'judgment' (審判) not present in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

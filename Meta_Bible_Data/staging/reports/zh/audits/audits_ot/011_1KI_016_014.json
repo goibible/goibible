@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 16,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'אֵלָה' (Elah) is a personal name, but the Chinese renders it as '以拉人' (people of Elah), adding '人' (people) which changes the referent from the king Elah to a group of people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

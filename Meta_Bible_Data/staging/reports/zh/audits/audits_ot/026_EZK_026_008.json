@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 26,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְנָתַן עָלַיִךְ דָּיֵק' means 'he will set a siege wall against you' (דָּיֵק = siege wall/rampart), but Chinese renders '他必使勇士攻擊你' ('he will make warriors attack you'), introducing '勇士' (warriors) not in the Hebrew and changing the meaning from a siege structure to an attack by warriors."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

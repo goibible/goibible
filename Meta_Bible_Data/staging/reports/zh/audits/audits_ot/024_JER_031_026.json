@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 31,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָרְבָה' means 'was sweet/pleasant' (from ערב, to be sweet), but the Chinese renders it as '變為苦楚' (became bitter/painful), reversing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

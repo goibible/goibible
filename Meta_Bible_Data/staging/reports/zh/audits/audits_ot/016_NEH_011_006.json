@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנֵי פֶרֶץ' is a proper name 'sons of Perez' (a clan/family name), but the Chinese renders it as '裂口的兒子' ('sons of the breach/tear'), which is a literal translation of the name's meaning rather than a proper name. This would mislead a Chinese reader into thinking it refers to 'sons of the breach' rather than the family of Perez."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -15,6 +15,7 @@ __pycache__/
 *.sqlite3
 *.sqlite
 *.apk
+*.keystore
 
 # The one tracked exception is a small import-ready shell with schema/reference
 # data but no Bible verse rows.

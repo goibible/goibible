@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 22,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '先知' (prophet) which is not present in the Hebrew text; the Hebrew only says 'Micaiah son of Imlah' without the title 'prophet'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

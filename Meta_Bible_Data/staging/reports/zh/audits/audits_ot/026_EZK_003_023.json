@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 3,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'עַל נְהַר כְּבָר' (on/by the river Chebar), but the Chinese renders it as '基伯城大河' (the great river of the city of Kibar), adding '城' (city) and changing 'כְּבָר' (Chebar, a river name) into a city name. This is a factual error: Chebar is a river, not a city."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

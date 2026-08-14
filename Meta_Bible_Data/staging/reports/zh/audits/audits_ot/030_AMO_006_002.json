@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'חֲמַת רַבָּה' (Hamath Rabbah) is rendered as '大馬色' (Damascus), which is a different place name. Hamath Rabbah should be '哈馬拉巴' or '大哈馬'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

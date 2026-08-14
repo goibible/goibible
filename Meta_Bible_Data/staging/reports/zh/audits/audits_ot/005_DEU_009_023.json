@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 9,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is קָדֵשׁ בַּרְנֵעַ (Kadesh-barnea), but the Chinese renders it as '巴利珥曷的基列山' (the hill country of Gilead of Baal-...), which is a completely different location. The correct rendering should be '加低斯·巴尼亞' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

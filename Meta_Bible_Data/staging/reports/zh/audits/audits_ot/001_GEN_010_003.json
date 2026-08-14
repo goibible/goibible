@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אַשְׁכֲּנַז (Ashkenaz) is rendered as '亞斯納撒' (Yasnasa), which is not the standard transliteration and appears to be a different name. The correct Chinese transliteration should be '亞實基拿' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

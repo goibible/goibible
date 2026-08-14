@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 22,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'in building for yourselves an altar' (בִּבְנוֹתְכֶם לָכֶם מִזְבֵּחַ), but the Chinese says '在你們女兒身上另立祭壇' (on your daughters' bodies you set up an altar), which introduces 'daughters' (女兒) not present in the Hebrew and changes the object of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

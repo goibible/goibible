@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 26,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'מַעֲשֵׂיָהוּ' (Maaseiah) as the second officer, but the Chinese renders it as '瑪西雅' (Ma Xiya), which is a different name. The correct transliteration should be '瑪西雅' or '瑪西雅'? Actually 'מַעֲשֵׂיָהוּ' is Maaseiah, and '瑪西雅' is a plausible transliteration, so this may be acceptable. However, the Hebrew 'יְעוּאֵל' (Jeuel) is rendered '耶結耳' (Ye Jie Er), which is a different name; the correct is '耶烏爾' or '耶烏以勒'. This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

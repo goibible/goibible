@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 25,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאֲכֵי דָוִד' means 'messengers of David' (David's messengers), not '大衛的天使' (David's angels). The Chinese rendering '天使' (angel) is a mistranslation of 'messenger' in this context."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

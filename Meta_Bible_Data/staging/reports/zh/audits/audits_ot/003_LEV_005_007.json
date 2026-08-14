@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּנֵי יוֹנָה' means 'young pigeons' (sons of a dove), but Chinese renders it as '鴿子的兒子' (sons of pigeons), which is a literal but awkward rendering; however, the meaning is preserved as 'young pigeons' in context. The issue is that 'תֹרִים' (turtledoves) is translated as '鴿子' (pigeons/doves), which is a different bird species; Hebrew distinguishes 'turtledoves' (תֹרִים) from 'pigeons' (יוֹנָה). This is a mistranslation of a specific animal name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

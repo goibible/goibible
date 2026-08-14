@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 29,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֵת אֲשֶׁר עָבַרְנוּ בְּקֶרֶב הַגּוֹיִם אֲשֶׁר עֲבַרְתֶּם' means 'and what we passed through in the midst of the nations which you passed through.' The Chinese renders '和你們經過時我們所走過的民族內裏' which awkwardly and incorrectly conveys 'the nations' inner part we walked through when you passed,' obscuring the parallel structure and the fact that both 'we' and 'you' passed through the nations. The phrase '民族內裏' (inner part of the nations) is a mistranslation of 'בְּקֶרֶב הַגּוֹיִם' (in the midst of the nations), and the relative clause 'אֲשֶׁר עֲבַרְתֶּם' (which you passed through) is attached to 'nations' but the Chinese places '你們經過時' (when you passed) as a temporal clause, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

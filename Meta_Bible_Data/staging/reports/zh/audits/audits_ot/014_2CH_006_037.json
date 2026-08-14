@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 6,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בָּאָרֶץ אֲשֶׁר נִשְׁבּוּ שָׁם' means 'in the land where they have been taken captive' (i.e., the land of their captivity). The Chinese renders '在他們被擄之地的地' which awkwardly says 'in the land of their captivity land' — the extra '地' (land) is redundant and the phrase is garbled, but more importantly the second clause 'בְּאֶרֶץ שִׁבְיָם' means 'in the land of their captivity' (i.e., the place where they are captives), not '在他們的擄物之地' ('in the land of their plunder/booty'). The Hebrew word 'שִׁבְיָם' is from the root for 'captivity/captives', not 'plunder/booty' (which would be 'שָׁלָל'). This mistranslation changes the meaning: the verse says they will repent in the land of their captivity, not in a land of plunder."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

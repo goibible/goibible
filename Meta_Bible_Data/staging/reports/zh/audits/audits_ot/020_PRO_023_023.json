@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 23,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֱמֶת' means 'truth' (or 'faithfulness'), not '誠實' (honesty). While related, 'truth' is the primary meaning here. More importantly, the Hebrew 'חָכְמָה' (wisdom) is rendered as '智慧' twice, but the second occurrence should be 'בִּינָה' (understanding/discernment), which is translated as '智慧' again instead of '悟性' or '聰明'. This is a mistranslation of the third item in the list."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

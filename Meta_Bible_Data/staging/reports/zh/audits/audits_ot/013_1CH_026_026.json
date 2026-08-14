@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 26,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'שְׁלֹמוֹת' (Shelomoth) is rendered as '示羅密特' (Shelomith), a different name. The Hebrew name is Shelomoth, not Shelomith."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

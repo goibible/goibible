@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 13,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכָל הַמִּישֹׁר' means 'and all the plain/tableland' (מִישֹׁר = level country/plain), but the Chinese renders it as '一切公平之地' ('all fair/righteous places'), which misinterprets the geographical term as a moral/ethical concept. This changes the factual meaning from a geographic region to an abstract quality."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

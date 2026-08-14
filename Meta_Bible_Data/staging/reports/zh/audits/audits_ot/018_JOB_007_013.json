@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 7,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יִשָּׂא בְשִׂיחִי מִשְׁכָּבִי' means 'my couch will carry/ bear my complaint' (i.e., my bed will take up my complaint), but the Chinese renders it as '我的言語必扶起我的床' ('my words will lift up my bed'), reversing the subject and object: the Hebrew subject is 'my couch/bed' (מִשְׁכָּבִי) and the object is 'my complaint' (שִׂיחִי), whereas the Chinese makes 'my words' the subject and 'my bed' the object. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

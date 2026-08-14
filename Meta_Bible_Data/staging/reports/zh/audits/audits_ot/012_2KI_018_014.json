@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּכַּר' (kikkar) means 'talent' (a unit of weight), not '餅' (cake/loaf). The Chinese renders '三百塊餅銀子' and '三十塊餅金子' as 'three hundred cakes of silver' and 'thirty cakes of gold', which is a mistranslation of the unit of measure. It should be '三百他連得銀子' (three hundred talents of silver) and '三十他連得金子' (thirty talents of gold)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

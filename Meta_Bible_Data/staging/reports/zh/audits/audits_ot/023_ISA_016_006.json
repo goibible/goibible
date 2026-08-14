@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 16,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לֹא כֵן בַּדָּיו' (lo ken badav) is rendered as '都並非如此獨自' (all not so alone), which is unclear and likely mistranslates 'בַּדָּיו' (his boasts/empty talk). The Hebrew means 'not so his boasts' or 'his boasts are not so' — i.e., his boasting is not justified. The Chinese adds '獨自' (alone) which has no basis in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

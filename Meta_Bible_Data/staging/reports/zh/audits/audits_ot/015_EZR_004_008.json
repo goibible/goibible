@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has two names: רְחוּם (Rehum) and שִׁמְשַׁי (Shimshai). The Chinese renders Rehum as 利宏 (correct) but renders Shimshai as 希實米人, which is a name swap/error — 希實米人 is not a transliteration of Shimshai; it appears to be a different name or a misreading. The correct rendering should be something like 申示 or 示米賽."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 4,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֹרֵתִיךָ' means 'I have taught/instructed you', not 'I gave birth to you' (which would be 'יְלִדְתִּיךָ'). The Chinese '我生了你' changes the meaning from teaching to begetting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 51,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וְאֶל יֹשְׁבֵי לֵב קָמָי' is mistranslated. 'לֵב קָמָי' means 'those who rise up against me' (literally 'heart of my adversaries'), not '住在我敵人心中的人' ('those who dwell in the heart of my enemies'). The Hebrew 'יֹשְׁבֵי' means 'inhabitants of', and 'קָמָי' means 'my adversaries/those who rise against me', so the phrase should be 'and against the inhabitants of my adversaries' or more naturally 'and against those who dwell with my adversaries' — the Chinese rendering reverses the relationship, making it 'those who dwell in the heart of my enemies', which changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

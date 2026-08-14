@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 8,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase כִּנְטוֹת יָדוֹ means 'when he stretched out his hand' (a signal), not '像手的兩指一般' ('like two fingers of a hand'). The Chinese mistranslates the signal gesture as a simile involving two fingers, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

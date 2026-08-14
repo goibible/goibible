@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'בֵּית שֶׁמֶשׁ' (Beth-shemesh), but Chinese renders it as '別是梅沙' (Beersheba-like name), which is a different place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 33,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֶדְיוֹ' means 'his ornament/adornment' (generic jewelry or finery), but the Chinese renders it as '亞低' (a transliteration that looks like a proper name), which would mislead a reader into thinking it refers to a specific person or object named '亞低' rather than general ornaments."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

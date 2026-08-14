@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 21,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'יָבֵשׁ גִּלְעָד' (Jabesh-gilead) is rendered as '約別士人基列' — '約別' is not the standard transliteration for 'Jabesh' (usually '雅比'), and the order/grouping '約別士人基列' misplaces the gentilic '士人' (inhabitants) and the place name '基列' (Gilead), potentially confusing the reader about the identity of the place. The correct rendering should be '雅比基列' or '基列雅比'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

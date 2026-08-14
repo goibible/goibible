@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'חַשּׁוּב בֶּן פַּחַת מוֹאָב' (Hashub son of Pahath-Moab), but the Chinese renders '摩押的帕他特的兒子哈書巴' which reverses the order: it says 'Pahath of Moab's son Hashub' instead of 'Hashub son of Pahath-Moab'. The name 'Pahath-Moab' is a single proper name (פַּחַת מוֹאָב), not 'Pahath of Moab', and the Chinese splits it and reverses the father-son relationship, making it appear that Hashub is the son of 'Pahath of Moab' rather than the son of Pahath-Moab. This is a name/relationship error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

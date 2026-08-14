@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֶגְלַת בָּקָר' means 'a heifer of cattle' (a young cow), not '一隻母牛' (one cow). The term 'עֶגְלַת' specifically denotes a young female calf, not a general cow. Also, 'וּשְׁתֵּי צֹאן' means 'two sheep' (two individual animals), not '兩群羊' (two flocks of sheep). The Chinese mistranslates the number and type of animals."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

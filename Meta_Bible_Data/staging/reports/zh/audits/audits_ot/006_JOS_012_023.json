@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 12,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֶ֥לֶךְ דּ֛וֹר לְנָפַ֥ת דּ֖וֹר אֶחָ֑ד' means 'the king of Dor, one for the height (or region) of Dor' — i.e., a single king over the district of Dor. The Chinese renders '一王統管各世代的疆界' ('one king rules the borders of every generation'), which misreads 'דּוֹר' (a place name, Dor) as 'generation' and 'נָפַת' (region/district) as '疆界' (borders), and adds '各' (every) not in the Hebrew. Similarly, 'מֶֽלֶךְ גּוֹיִ֥ם לְגִלְגָּ֖ל אֶחָֽד' means 'the king of Goiim, one for Gilgal' — a single king over Gilgal. The Chinese '一王統管各民族的吉甲' ('one king rules the Gilgal of every nation') misreads 'גּוֹיִם' (a place name, Goiim) as '各民族' (every nation) and adds '各' (every). The proper names Dor, Goiim, and the singular 'one' are mishandled, changing the factual content."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

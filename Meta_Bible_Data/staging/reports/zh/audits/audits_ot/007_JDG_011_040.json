@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 11,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְתַנּוֹת' (from the root תנה) means 'to commemorate' or 'to recount/praise', not 'to lament/mourn' (which would be a different root). The Chinese '哀哭' (to weep/mourn) changes the meaning of the verse's purpose clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

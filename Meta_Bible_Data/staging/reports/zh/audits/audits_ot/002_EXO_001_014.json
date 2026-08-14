@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּפָרֶךְ' means 'with harshness/rigor' (referring to the harshness of the work imposed on the Israelites), but the Chinese renders it as '以殘酷對待活物' ('treating living creatures cruelly'), which adds the concept of 'living creatures' (活物) not present in the Hebrew and shifts the meaning from harsh labor to cruelty toward animals/beings."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

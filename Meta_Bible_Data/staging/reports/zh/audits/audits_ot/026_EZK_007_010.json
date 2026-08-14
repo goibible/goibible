@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 7,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַצְּפִרָה' (hatzefirah) means 'the crown' or 'the diadem' (from צָפִיר, a crown/garland), not '冠冕' (crown) — actually '冠冕' is correct for 'crown'. However, 'הַמַּטֶּה' (hammatteh) means 'the rod/staff/scepter' (a branch or staff), not '杖已飛逝' (the staff has flown away). The Hebrew 'צָץ הַמַּטֶּה' means 'the rod has budded/put forth' (צָץ = to blossom/bud), not 'the staff has flown away'. The Chinese '杖已飛逝' incorrectly renders 'צָץ' (budded/blossomed) as '飛逝' (flew away), changing the meaning. Also 'פָּרַח הַזָּדוֹן' means 'arrogance has blossomed' (פָּרַח = to blossom/flourish), which the Chinese renders as '驕傲已綻放' (arrogance has blossomed) — that is correct. The main error is the mistranslation of 'צָץ הַמַּטֶּה' as '杖已飛逝' instead of 'the rod has budded'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

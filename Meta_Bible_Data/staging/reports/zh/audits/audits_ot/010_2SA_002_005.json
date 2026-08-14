@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְאָכִים' means 'messengers' (human envoys), not 'angels' (天使). The Chinese rendering '天使' introduces a supernatural concept absent from the Hebrew and changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

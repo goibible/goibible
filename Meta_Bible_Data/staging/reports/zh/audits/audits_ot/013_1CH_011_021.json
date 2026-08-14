@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִן הַשְּׁלוֹשָׁה בַשְּׁנַיִם נִכְבָּד' means 'of the three, he was honored above the two' (i.e., one person was more honored than the other two), but the Chinese says '在三個人中，有兩個人得尊榮' ('among the three, two were honored'), reversing the subject and number. The Hebrew has a single honored person (the third, who did not come), not two."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

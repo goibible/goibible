@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'four hundred pomegranates for the two networks' (אַרְבַּע מֵאוֹת לִשְׁתֵּי הַשְּׂבָכוֹת), i.e., 400 total for both networks, with 'two rows of pomegranates for each network' (שְׁנֵי טוּרִים רִמֹּנִים לַשְּׂבָכָה הָאֶחָת). The Chinese '每行兩百' (each row two hundred) is an addition not in the Hebrew; the Hebrew specifies two rows per network but does not state the number per row. This could mislead a reader into thinking each row had 200, which is not stated."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

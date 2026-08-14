@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew names אַשְׁבֵּל (Ashbel) and אַחְרַח (Aharah) are rendered as '亞斯別耳人' and '阿哈辣人', adding the suffix '人' (people/person) which is not in the Hebrew. This changes the proper names into gentilic forms, implying groups of people rather than individuals."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

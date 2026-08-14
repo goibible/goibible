@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִישׁ מבן ימין' means 'a man of Benjamin' (i.e., from the tribe of Benjamin), not 'a son of the right side' (右邊的兒子). The Chinese mistranslates the tribal name 'Benjamin' as a literal phrase 'right side'."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew genealogy lists 'בֶּן אֲבִיאֵל' (son of Abiel), 'בֶּן צְרוֹר' (son of Zeror), 'בֶּן בְּכוֹרַת' (son of Bechorath), 'בֶּן אֲפִיחַ' (son of Aphiah), and 'בֶּן אִישׁ יְמִינִי' (son of a Benjamite). The Chinese renders these as '亞別的兒子' (son of Abel), '小捆子的兒子' (son of a small bundle), '初熟之物的兒子' (son of firstfruits), '亞非雅的兒子' (son of Aphiah), and '右邊之人的兒子' (son of a right-side person). The names 'Abiel' (אֲבִיאֵל) is mistranslated as '亞別' (Abel), 'Zeror' (צְרוֹר) is mistranslated as '小捆子' (small bundle), 'Bechorath' (בְּכוֹרַת) is mistranslated as '初熟之物' (firstfruits), and 'Aphiah' (אֲפִיחַ) is transliterated as '亞非雅' but the final 'son of a Benjamite' (אִישׁ יְמִינִי) is mistranslated as '右邊之人' (right-side person). These are not proper name transliterations but literal translations of the meanings of the names, which changes the identity of the persons."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "2KI",
+  "chapter": 13,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Jehoash son of Jehoahaz (יְהוֹאָשׁ בֶּן יְהוֹאָחָז), but the Chinese renders it as '約阿施，就是約雅敬的兒子' (Jehoash, son of Jehoiakim). '約雅敬' (Jehoiakim) is a different name from '約哈斯' (Jehoahaz). This is a name swap error."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says the cities were taken from Jehoahaz his father (יְהוֹאָחָז אָבִיו), but the Chinese says '約雅敬的父親' (Jehoiakim's father), which is wrong—it should be Jehoahaz, the father of Jehoash. This is a name swap error."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Ben-hadad son of Hazael (בֶּן הֲדַד בֶּן חֲזָאֵל), but the Chinese renders it as '便哈達，就是哈薛的兒子' (Ben-hadad, son of Hazael) — this part is correct, but the surrounding name errors make the overall verse misleading."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

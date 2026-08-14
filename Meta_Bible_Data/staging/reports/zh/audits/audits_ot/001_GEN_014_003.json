@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 14,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is 'עֵמֶק הַשִּׂדִּים' (Emek HaSiddim, 'Valley of Siddim'), but the Chinese renders it as '西底們谷' (Xidimen Valley), which appears to be a corruption or misreading of the name (adding '們' and altering the transliteration). The correct transliteration should be something like '西訂谷' or '西丁谷'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

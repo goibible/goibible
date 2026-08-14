@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהַנְּבִיאִים נִבְּאוּ בַבָּעַל' means 'the prophets prophesied by Baal' (i.e., in the name of Baal). The Chinese renders '先知卻奉主人說預言' ('the prophets prophesied in the name of the master'), where '主人' (master) is an addition not present in the Hebrew and obscures the specific reference to Baal, a proper name. This changes the meaning from prophesying by the false god Baal to a generic 'master'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

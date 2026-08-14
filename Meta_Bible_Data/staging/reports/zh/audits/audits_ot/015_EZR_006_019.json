@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 6,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנֵי הַגּוֹלָה' means 'sons of the exile' (i.e., the returned exiles), but the Chinese renders it as '被擄掠物的兒子' ('sons of the plundered goods'), which misidentifies the referent. The correct rendering should be '被擄歸回的人' or '被擄之人的子孫'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

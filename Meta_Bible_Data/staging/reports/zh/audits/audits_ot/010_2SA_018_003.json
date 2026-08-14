@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 18,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עֲשָׂרָה אֲלָפִים' means 'ten thousand' (10,000), not '十萬人' (100,000). The number is inflated by a factor of ten."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

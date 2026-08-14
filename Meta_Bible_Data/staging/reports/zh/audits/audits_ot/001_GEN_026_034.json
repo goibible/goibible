@@ -1,0 +1,22 @@
+{
+  "book": "GEN",
+  "chapter": 26,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name בְּאֵרִי (Beeri) is rendered as '比以利' (Bǐyǐlì), which is a mis-transliteration; the standard Chinese rendering should be '比珥利' or similar, but more importantly the name is not '比以利'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew אֵילֹן (Elon) is a personal name (Elon the Hittite), not '以倫樹林' (Elon forest/woodland). The Chinese adds '樹林' (forest) which is not in the Hebrew and changes the proper name into a place description."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

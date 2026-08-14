@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 24,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אִם אֶעֱשֶׂה אֶת הַדָּבָר הַזֶּה' means 'if I do this thing' (i.e., the act of striking the king), but the Chinese renders it as '我向耶和華的受膏者行這話' ('I do this word/saying to the LORD's anointed'), which changes the meaning from 'doing this deed' to 'doing this word/saying' and misplaces the object. The original has 'this thing' (הַדָּבָר הַזֶּה), not 'this word' (הַדָּבָר could mean word or thing, but contextually it refers to the act of raising a hand against the king, and the Chinese '行這話' is awkward and inaccurate)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

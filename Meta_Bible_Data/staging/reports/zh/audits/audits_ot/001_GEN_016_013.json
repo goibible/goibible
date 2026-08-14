@@ -1,0 +1,22 @@
+{
+  "book": "GEN",
+  "chapter": 16,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵל רֳאִי' means 'God of seeing' or 'God who sees me', not '看臺的神' (God of the watchtower). The Chinese rendering changes the meaning from God who sees to a place of watching."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The phrase 'הֲגַם הֲלֹם רָאִיתִי אַחֲרֵי רֹאִי' is rendered as '我豈不是在看臺之後還看見了嗎？' which misinterprets 'אַחֲרֵי רֹאִי' (after the one who sees me) as 'after the watchtower'. The correct meaning is 'Have I also seen after the one who sees me?' or 'Have I even seen here after seeing him?'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

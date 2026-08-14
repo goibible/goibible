@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 7,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹֽא תְ֭שׁוּרֵנִי עֵ֣ין רֹ֑אִי' means 'The eye of my beholder will not see me' (i.e., the eye that sees me will not look on me again), but the Chinese renders it as '我的眼不被你的眼注視' ('My eye is not gazed upon by your eye'), reversing the subject and object. The Hebrew subject is 'the eye of my beholder' (עֵין רֹאִי), not 'my eye' (我的眼), and the verb is active ('will not see me'), not passive. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 9,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew 'וַֽיַּעֲנֵנִי' means 'and he answered me' (positive), but the Chinese renders it as '他卻不應允' ('he did not answer'), reversing the meaning. The Hebrew states 'If I call and he answers me, I would not believe that he listens to my voice' — the Chinese incorrectly negates the answering."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

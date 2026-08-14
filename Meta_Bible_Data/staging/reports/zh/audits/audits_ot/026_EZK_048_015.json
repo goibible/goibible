@@ -1,0 +1,26 @@
+{
+  "book": "EZK",
+  "chapter": 48,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'five thousand' (חֲמֵשֶׁת אֲלָפִים) for the width, but the Chinese renders '寬度五千' which is correct. However, the length is 'twenty-five thousand' (חָמֵשׁ וְעֶשְׂרִים אֶלֶף), but the Chinese says '二十五萬' (250,000), which is ten times too large. This is a numerical error."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הַנּוֹתָר בָּרֹחַב' means 'the remainder in the width' (i.e., the remaining part of the width), but the Chinese '寬度五千' omits the concept of 'remainder' and simply says 'width five thousand', which could mislead the reader about the context."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֹל הוּא לָעִיר' means 'it is common/profane for the city' (i.e., it is non-holy land belonging to the city), but the Chinese '這俗地為城' renders as 'this common land is for the city', which is acceptable, but the following 'לְמוֹשָׁב וּלְמִגְרָשׁ' means 'for dwelling and for open space', and the Chinese '住處和曠野' is a reasonable rendering. However, the phrase 'וְהָיְתָה הָעִיר בְּתוֹכָהּ' means 'and the city shall be in its midst' (i.e., in the middle of that area), and the Chinese '城在其中間' is correct. The main issue is the numerical error in the length."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

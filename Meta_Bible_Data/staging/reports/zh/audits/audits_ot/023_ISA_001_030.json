@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 1,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'כְּאֵלָה' means 'like a terebinth (oak) tree', not '以拉人' (Ela people). The Chinese renders it as a people group, which is a mistranslation of the common noun 'אֵלָה' (terebinth/oak)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

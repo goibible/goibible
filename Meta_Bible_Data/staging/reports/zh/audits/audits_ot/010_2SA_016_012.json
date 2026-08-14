@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 16,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בעוני' (be'oniy) means 'my affliction' or 'my misery', not 'my sin/罪惡'. The Chinese renders it as '我的罪惡' (my sin/evil), which changes the meaning from suffering to guilt."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

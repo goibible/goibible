@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 11,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וְשֹׂנֵא תֹקְעִים בּוֹטֵחַ' is rendered as '而恨惡吹角者卻倚靠虛假' (but the one who hates those who strike hands trusts in falsehood). The Hebrew 'תֹקְעִים' means 'those who strike hands' (as in a pledge/guarantee), not '吹角者' (trumpeters). The Chinese mistranslates 'תֹקְעִים' as '吹角者' (horn-blower), which changes the meaning. The correct sense is 'one who hates those who pledge/guarantee (by striking hands) trusts [in them]' or similar, not 'hates trumpeters'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

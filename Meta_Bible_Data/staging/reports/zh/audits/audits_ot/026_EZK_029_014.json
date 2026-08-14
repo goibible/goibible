@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 29,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַהֲשִׁבֹתִי אֹתָם אֶרֶץ פַּתְרוֹס עַל אֶרֶץ מְכוּרָתָם' means 'and I will bring them back to the land of Pathros, to the land of their origin' — the Chinese reverses the direction: it says '將他們從生處之地帶回帕特羅斯' ('bring them from the land of their origin back to Pathros'), implying they are taken out of their origin land to Pathros, whereas the Hebrew says they are returned to Pathros, which is their origin land. This changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נַעֲמָן' (Naaman) is a personal name, but the Chinese renders it as '乃曼人' (the Naaman people) in the first occurrence, and then '乃曼人的家族是拿俄米' incorrectly translates 'מִשְׁפַּחַת הַנַּעֲמִי' (the family of the Naamite) as 'the family of the Naaman people is Naomi' — '拿俄米' (Naomi) is a different name entirely, swapping the proper name Naaman/Naamite for Naomi."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

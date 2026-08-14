@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Hoshea son of Elah' (הוֹשֵׁעַ בֶּן אֵלָה), but the Chinese renders '以拉的兒子何西亞' correctly. However, the Chinese adds '以色列王以拉的兒子何西亞' — the Hebrew has 'Hoshea son of Elah king of Israel' (הוֹשֵׁעַ בֶּן אֵלָה מֶלֶךְ יִשְׂרָאֵל), so '以拉的兒子何西亞' is correct. The issue is that the Chinese says '猶大王亞哈斯的兒子希西家' — the Hebrew has 'Hezekiah son of Ahaz king of Judah' (חִזְקִיָּה בֶן אָחָז מֶלֶךְ יְהוּדָה), which is correct. No name swap found. Re-evaluating: The Hebrew 'בִּשְׁנַת שָׁלֹשׁ לְהוֹשֵׁעַ' means 'in the third year of Hoshea' — the Chinese '在...何西亞第三年' is correct. The issue is the Chinese adds '以色列王' before '以拉的兒子何西亞' — but the Hebrew has 'מֶלֶךְ יִשְׂרָאֵל' after 'בֶּן אֵלָה', so it's correct. Actually the Chinese is accurate. The only possible issue is the Chinese says '登基' (ascended the throne) for 'מָלַךְ' (became king/reigned) — that's fine. No substantive error. Verdict should be OK."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

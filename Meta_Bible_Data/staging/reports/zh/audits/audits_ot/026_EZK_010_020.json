@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 10,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּנְהַר כְּבָר' means 'by the river Chebar' (a place name, the Chebar River), but the Chinese renders it as '大河基伯城' ('the great river, city of Kiber'), adding '城' (city) and misidentifying the river as a city. The Hebrew has no 'city' concept here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

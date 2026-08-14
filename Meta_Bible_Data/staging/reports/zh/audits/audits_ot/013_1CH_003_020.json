@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 3,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'יוּשַׁב חֶסֶד' (Yushab Chesed) as one name, but Chinese renders it as '約沙希悉' (Yueshaxixi), which appears to be a different name (possibly 'Joshah' or similar), not a transliteration of 'Yushab Chesed'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

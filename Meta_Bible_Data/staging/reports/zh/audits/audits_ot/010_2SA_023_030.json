@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 23,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew names 'הִדַּי' (Hiddai) and 'מִנַּחֲלֵי גָעַשׁ' (from the brooks of Gaash) are rendered as '希達雅人' (Hidaya person) and '來自加阿實溪谷' (from the Gaash valley). The Chinese adds '人' (person) to Hiddai, making it '希達雅人' which could be read as a gentilic, but the Hebrew 'הִדַּי' is a personal name, not a demonym. This changes the identity: the Hebrew says 'Benaiah the Pirathonite, Hiddai from the brooks of Gaash' (two separate persons listed), but the Chinese renders it as 'Benaiah is a Pirathonite, is a Hidaya person from the Gaash valley' — conflating Hiddai as a descriptor of Benaiah rather than a distinct individual. This is a substantive change in who is being described."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name is עֻזִּי (Uzzi), but the Chinese renders it as 烏西雅 (Uzziah), a different name. The correct transliteration should be 烏西 or similar, not 烏西雅."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

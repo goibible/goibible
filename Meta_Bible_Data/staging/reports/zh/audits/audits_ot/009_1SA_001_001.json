@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew name תֹּחוּ (Tohu) is transliterated as '虛空' (meaning 'emptiness/void') instead of being kept as a proper name. This changes the proper name into a common noun, altering the genealogy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

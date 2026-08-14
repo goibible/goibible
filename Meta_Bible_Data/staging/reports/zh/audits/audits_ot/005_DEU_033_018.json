@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 33,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Hebrew text does not mention '耶和華' (Yahweh) as the speaker; it simply says 'וְלִזְבוּלֻן אָמַר' ('And to Zebulun he said'), with the subject implied from context (likely Moses, not Yahweh). The Chinese adds '耶和華' which is not in the Hebrew and changes who is speaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

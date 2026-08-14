@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-08-07T03:27:26+00:00",
+  "generated_at": "2026-08-14T19:14:14+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -14,7 +14,7 @@
       "status": "active",
       "file": "GOI_En.db",
       "size_bytes": 9039872,
-      "sha256": "4843a542d262456cd18812b2aae87a495ecaf6cb89030bccabd581dea418e995",
+      "sha256": "5133ffe1ab9ca7431f7da8b99fcac554b5bfc7d74509c15885760aa56004899a",
       "verse_count": 31102
     },
     {
@@ -25,7 +25,7 @@
       "status": "active",
       "file": "GOI_Zh_Hans.db",
       "size_bytes": 9355264,
-      "sha256": "6454b966dbff42c12413b36d25546ac19cf59b54b83d23ce2534dfbc1423c0e9",
+      "sha256": "d1c9e82d39122f66ec3f38071df55d8f9e971c9e0eb74f26e8eb5d154b5089cc",
       "verse_count": 31102
     },
     {
@@ -36,7 +36,7 @@
       "status": "active",
       "file": "GOI_Zh_Hant.db",
       "size_bytes": 9355264,
-      "sha256": "98e877e517dd9b5ba17b562bdb4493bda9cf768788a97acd0b6d04c6c1ff3e20",
+      "sha256": "4c9498639514562985831ea1f111f68a87c95cbfe9dff9c676c65e35a0be3d53",
       "verse_count": 31102
     },
     {
@@ -47,7 +47,7 @@
       "status": "active",
       "file": "GOI_vi.db",
       "size_bytes": 10559488,
-      "sha256": "01ae46b89c46ffd6e0c6872b373f6fa9ad293cf5c9510a1d2c6673e96a602696",
+      "sha256": "7a19d77851ff8b687e16c37b59da59b0c0c55ac86e8541350adb44118856a6ac",
       "verse_count": 31102
     },
     {

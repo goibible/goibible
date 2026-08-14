@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 8,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '我必領你前行' (I will lead you forward), but the Hebrew first-person verb 'אֲהַלֵּךְ' means 'I walk' (first person singular), not 'I will lead you'. This changes the subject and action: the speaker walks, not leads."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

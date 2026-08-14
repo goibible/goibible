@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 13,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּעָרֵי מִגְרְשֵׁיהֶם' means 'in the cities of their pasture lands' (i.e., Levitical cities with surrounding pasturelands), but Chinese renders '在曠野各城裏' ('in the cities of the wilderness'), introducing '曠野' (wilderness) which is not in the Hebrew and changes the location description."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

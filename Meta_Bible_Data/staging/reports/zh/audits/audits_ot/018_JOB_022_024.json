@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 22,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְשִׁית עַל עָפָ֥ר בָּ֑צֶר וּבְצ֖וּר נְחָלִ֣ים אוֹפִֽיר' is a poetic line (Job 22:24) meaning 'and place [your] gold in the dust, and [the gold of] Ophir among the stones of the brooks.' The Chinese renders 'בָּצֶר' (gold, treasure) as '比色城' (a city name 'Bizeth'?), and 'אוֹפִיר' (Ophir, a place known for gold) as '俄斐' (Ophir) but misconstrues the syntax: the Hebrew has 'place gold on the dust' and 'Ophir [gold] among the stones of the brooks' — the Chinese says 'spread its dust on the city of Bizeth, and pile its valley's rocks into Ophir,' which reverses the imagery and adds a city name not in the text. The meaning is substantially altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

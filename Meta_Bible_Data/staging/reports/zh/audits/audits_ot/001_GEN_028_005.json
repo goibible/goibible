@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 28,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'בֶּן בְּתוּאֵל הָאֲרַמִּי' (son of Bethuel the Aramean), but the Chinese renders it as '亞蘭人別土耳勒的兒子' (son of Bethuel the Aramean). The name 'בְּתוּאֵל' is transliterated as '別土耳勒' which appears to be a garbled or incorrect transliteration (should be something like '彼土利' or '比土利'), and the order '亞蘭人別土耳勒' places 'Aramean' before the name, whereas the Hebrew has 'Bethuel the Aramean' (name then gentilic). This could confuse the reader about the identity of Bethuel."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

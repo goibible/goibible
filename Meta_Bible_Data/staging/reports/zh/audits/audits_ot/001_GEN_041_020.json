@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 41,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הָרִאשֹׁנוֹת' means 'first' (i.e., the first seven cows), but the Chinese renders it as '頭生的' which means 'firstborn' — a different concept. The Hebrew does not say 'firstborn' but 'first' in sequence."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

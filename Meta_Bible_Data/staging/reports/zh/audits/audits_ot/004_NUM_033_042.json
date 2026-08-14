@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 42,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name פּוּנֹן (Punon) is rendered as '波安' (Bō'ān), which is not the standard transliteration for Punon. The correct Chinese transliteration should be '普嫩' or '普農' (Pǔnèn/Pǔnóng). '波安' appears to be a different name, possibly a misreading or typo, and would mislead a Chinese reader about the actual place name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

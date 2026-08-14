@@ -1,0 +1,22 @@
+{
+  "book": "ZEP",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נוּגֵי מִמּוֹעֵד' means 'those who grieve/languish from the appointed feast' (i.e., those who mourn because they cannot attend the appointed festival), but the Chinese adds '因不能赴聖會而憂傷' ('grieving because they cannot attend the holy assembly'), which introduces the idea of inability to attend that is not explicit in the Hebrew. The Hebrew simply says 'grieving from the appointed time/feast' without specifying the cause as inability to attend."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַשְׂאֵת עָלֶיהָ חֶרְפָּה' literally means 'the reproach upon her is a burden' (or 'a burden upon her, reproach'), but the Chinese renders it as '他們曾因承受羞辱而成為重擔' ('they became a burden because they bore reproach'), changing the subject from 'her' (Jerusalem/Zion) to 'they' (the gathered people) and altering the meaning. The Hebrew states that reproach is a burden upon her (the city), not that the people became a burden."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

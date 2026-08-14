@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 22,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יַעַר חָרֶת' means 'forest of Hereth' (a place name, 'Hereth'), but the Chinese renders it as '黑勒特人的樹林' ('the forest of the Harethites/Hereth people'), adding '人' (people) which is not in the Hebrew and changes the meaning from a place name to a gentilic."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says she bore 'his brother, Abel' (אֶת אָחִיו אֶת הָ֑בֶל), i.e., Abel is Cain's brother. The Chinese renders '她的弟兄' (her brother), changing the relationship from Cain's brother to her brother, which misidentifies who Abel is."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 11,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵאוּר כַּשְׂדִּים' means 'from Ur of the Chaldeans' (a place name, Ur). The Chinese renders it as '從迦勒底人的火地' ('from the fire-land of the Chaldeans'), interpreting 'אוּר' (Ur) as the Hebrew word for 'fire' rather than as the city name. This changes the proper name/place name and the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

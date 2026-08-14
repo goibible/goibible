@@ -1,0 +1,18 @@
+{
+  "book": "HAG",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'on the twenty-fourth day of the sixth month' (בְּיוֹם עֶשְׂרִים וְאַרְבָּעָה לַחֹדֶשׁ בַּשִּׁשִּׁי), but the Chinese renders it as '二月二十四日' (the twenty-fourth day of the second month), changing the month from the sixth to the second."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 30,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בְּרָכָ֗ל' is a place name 'Berakhah' (or possibly 'in Berakhah'), but the Chinese renders it as '在拉結的' ('in Rachel's'), which swaps the name for a different person/place name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

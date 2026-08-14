@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 54,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'גּוֹר יָגוּר' (surely sojourn/dwell) is rendered as '寄居的必被剪除' (sojourner will be cut off), which adds '被剪除' (cut off) not present in the Hebrew. The Hebrew says 'surely sojourn' (i.e., dwell as a foreigner), not 'cut off'. This changes the meaning."
+        },
+        {
+          "kind": "omission",
+          "detail": "The phrase 'אֶפֶס מֵאוֹתִי' (none from me / nothing of mine) is rendered as '無有從你中間' (none from among you), which shifts the possessive from 'my' (אוֹתִי) to 'you' (你), altering the meaning. The Hebrew says 'none of mine' (i.e., no one of my people), not 'from your midst'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

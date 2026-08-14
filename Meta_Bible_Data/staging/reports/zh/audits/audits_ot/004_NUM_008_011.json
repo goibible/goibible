@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 8,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לִפְנֵי יְהוָה' means 'before the LORD' (i.e., in the presence of YHWH), but the Chinese renders it as '在以色列的兒子們面前獻給耶和華的面' which says 'before the sons of Israel, to the face of YHWH' — this incorrectly places the waving before the Israelites rather than before YHWH, and adds '的面' (the face of) which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

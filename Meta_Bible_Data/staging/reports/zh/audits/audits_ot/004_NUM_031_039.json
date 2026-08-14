@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 30,500 donkeys (שְׁלֹשִׁים אֶלֶף וַחֲמֵשׁ מֵאוֹת = 30,000 + 500), but the Chinese says 三萬一千匹 (31,000). The number is wrong."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the tribute to the LORD was 61 (אֶחָד וְשִׁשִּׁים = one and sixty = 61), but the Chinese says 每六十匹納一匹 (one out of every sixty), which changes the ratio from 1/500 (30,500/61) to 1/60."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 23,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יִשִּׁיָּה (Yishiyyah) is rendered as 以謝亞 (Yixieya), which appears to be a different name (possibly confusing with יְשַׁעְיָה or similar). The correct transliteration should be 伊示雅 or 耶示雅."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 46,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the sons of Reuben as חֲנוֹךְ (Hanoch), פַּלּוּא (Pallu), חֶצְרוֹן (Hezron), and כַּרְמִי (Carmi). The Chinese renders the second name as '帕路雅' (Paluya), which adds an extra syllable '雅' not present in the Hebrew 'פַּלּוּא' (Pallu). This is a name alteration, not just a stylistic choice, as it changes the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

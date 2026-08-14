@@ -1,0 +1,22 @@
+{
+  "book": "NEH",
+  "chapter": 8,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'נְחֶמְיָה' (Nehemiah) and 'הַתִּרְשָׁתָא' (the Tirshatha) as two separate titles/names for the same person: 'Nehemiah, he is the Tirshatha'. The Chinese renders '提斯他尼希米雅' which appears to be a garbled conflation, possibly misreading 'הַתִּרְשָׁתָא' as a name '提斯他' and combining it with '尼希米雅', rather than clearly presenting 'Nehemiah the governor'."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'וְעֶזְרָא הַכֹּהֵן הַסֹּפֵר' (and Ezra the priest, the scribe). The Chinese renders '與祭司數目以斯拉' which incorrectly translates 'הַסֹּפֵר' (the scribe) as '數目' (number/count), and misplaces '祭司' (priest) before the name, changing the proper title 'Ezra the priest, the scribe' into a garbled phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

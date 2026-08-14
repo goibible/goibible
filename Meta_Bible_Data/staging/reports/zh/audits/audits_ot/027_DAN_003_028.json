@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וִיהַ֣בוּ גשמיהון' meaning 'and they gave their bodies' (i.e., they yielded their bodies to the fire), but the Chinese renders it as '寧願捨去雨' ('rather give up rain'), which is a mistranslation. 'גשמיהון' means 'their bodies', not 'rain' (which would be 'מָטָר' or similar). This changes the meaning: the Hebrew says they gave their bodies (to the fire) rather than serve or worship any other god, but the Chinese says they gave up rain, which is nonsensical and factually different."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

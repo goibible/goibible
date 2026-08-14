@@ -1,0 +1,18 @@
+{
+  "book": "ZEP",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַם יְהוָה צְבָאוֹת' means 'the people of the LORD of hosts' (i.e., the people belonging to the LORD of hosts). The Chinese renders it as '耶和華的百姓與軍隊' ('the people and army of the LORD'), incorrectly splitting the construct chain and adding 'army' as a separate entity, which changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

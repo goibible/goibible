@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 6,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כַּעְשִׂי' means 'my grief' or 'my calamity' (from כַּעַשׂ, 'grief, provocation'), not 'my anger' (which would be אַפִּי or חֲרוֹן אַפִּי). The Chinese renders it as '怒氣' (anger), changing the meaning."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Hebrew has no word for 'dust' (塵土); it says 'my grief would be weighed' (לוּ שָׁקוֹל יִשָּׁקֵל כַּעְשִׂי). The Chinese adds '如塵土' (like dust), which is not in the text."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהָיְתָה בְּמֹאזְנַיִם יִשְׂאוּ יָחַד' means 'and my calamity would be lifted up together in the scales' (i.e., my calamity would be placed on the scales along with something else). The Chinese says '我必與災禍一同放在秤砣上' (I must be placed on the scale weights together with calamity), which reverses the subject: in Hebrew, the calamity is weighed, not the speaker; and '秤砣' (scale weights) is not in the Hebrew (which says 'scales' מֹאזְנַיִם)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

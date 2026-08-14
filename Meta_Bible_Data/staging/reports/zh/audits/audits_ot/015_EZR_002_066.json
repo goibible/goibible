@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 66,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew פִּרְדֵיהֶם means 'their mules', but Chinese renders it as '他們的驢子' (their donkeys). This is a different animal and changes the factual content."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

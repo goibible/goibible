@@ -1,0 +1,22 @@
+{
+  "book": "EXO",
+  "chapter": 30,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קְטֹרֶת' means 'incense', not '乳香' (frankincense). Frankincense is 'לְבוֹנָה' in Hebrew. This changes the substance offered."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְדֹרֹתֵיכֶם' means 'for your generations' (i.e., throughout your generations), but the Chinese renders it as '作為你們世代的面' ('as the face of your generations'), which is a mistranslation. The word 'פָּנִים' (face) is not in the Hebrew here; the Hebrew has 'לִפְנֵי יְהוָה' ('before the LORD') earlier, but the final phrase is simply 'for your generations'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

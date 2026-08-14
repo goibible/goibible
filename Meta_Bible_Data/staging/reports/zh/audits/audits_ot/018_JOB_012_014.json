@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 12,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb יַהֲרוֹס means 'tear down' or 'destroy', but the Chinese renders it as '建造' (build), reversing the action. The correct rendering should be '拆毀' or '毀壞'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

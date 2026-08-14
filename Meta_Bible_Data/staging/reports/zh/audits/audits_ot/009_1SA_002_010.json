@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 2,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יֵחַתּוּ מריבו עלו' (His adversaries shall be shattered/smashed) is rendered as '必為他們的爭辯而震怒' (will be angry for their disputes), which changes the subject and meaning. The Hebrew subject is the adversaries being shattered, not YHWH being angry. The phrase 'עלו' (against him) is also not reflected."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

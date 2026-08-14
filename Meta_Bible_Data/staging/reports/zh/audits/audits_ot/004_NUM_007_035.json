@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 35,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵילִם' means 'rams' (male sheep), but the Chinese renders it as '公綿羊' (male sheep) while rendering 'עַתֻּדִים' (he-goats) as '公羊' (male goat/sheep). The order and species are swapped: Hebrew lists rams (אֵילִם) then he-goats (עַתֻּדִים), but Chinese lists '公羊' (he-goats) first then '公綿羊' (rams), reversing the two categories."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 42,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הָפֵ֤חַ בַּֽחוּרִים֙ כֻּלָּ֔ם' means 'all of them are a snare in pits' (or 'trapped in holes'), referring to people being ensnared/hidden in holes. The Chinese renders '一切戶珥都被摧毀' ('all Hur are destroyed'), which misinterprets 'בַּֽחוּרִים' (pits/holes) as the proper name 'Hur' (חוּר) and adds 'destroyed' (摧毀) not present in the Hebrew. This changes the meaning from people being trapped in pits to a destruction of a person/place named Hur."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

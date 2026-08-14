@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 36,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַסֹּפֵר' means 'the scribe' (sofer), but the Chinese renders it as '數目示巴拿' which appears to combine 'the scribe' with the name 'Shebna' (示巴拿) in a way that misidentifies the title. The Hebrew has 'וְשֶׁבְנָא הַסֹּפֵר' = 'and Shebna the scribe', but the Chinese '和數目示巴拿' seems to render 'הַסֹּפֵר' as '數目' (number/count) attached to the name, which is a mistranslation of the title 'scribe'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "ECC",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּשְׁרוֹן' means 'advantage' or 'profit', not '公平' (fairness/justice). The Chinese renders 'what advantage is there to its owner' as 'what fairness is there to the owner', changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'ראית עֵינָיו' is 'the seeing of his eyes' (i.e., the owner's enjoyment of seeing it), but the Chinese '除了觀看眼之外' awkwardly renders it as 'besides the seeing eye', which is unclear and slightly alters the sense, though the core idea of 'seeing' is retained."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 43,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "בְּחִירִי ('my chosen one') is singular, but the Chinese renders it as '我所揀選的百姓' ('my chosen people'), changing singular to plural and adding 'people'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

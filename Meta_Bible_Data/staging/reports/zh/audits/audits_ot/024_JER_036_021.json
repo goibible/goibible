@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 36,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מִלִּשְׁכַּת אֱלִישָׁמָע הַסֹּפֵר' means 'from the chamber of Elishama the scribe' (a personal name, Elishama, and his title 'the scribe'). The Chinese renders it as '從以利沙瑪人那數目的內室裡' which mistranslates 'הַסֹּפֵר' (the scribe) as '那數目的' (that number/count), and adds '人' (person) to '以利沙瑪' (Elishama), changing the proper name into a demonym-like phrase. This alters the identity of the person and the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

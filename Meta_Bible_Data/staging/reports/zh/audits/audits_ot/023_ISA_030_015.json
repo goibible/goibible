@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 30,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'אֲדֹנָי יְהוִה קְדוֹשׁ יִשְׂרָאֵל' = 'the Lord GOD, the Holy One of Israel'. The Chinese renders '主耶和華神以色列' which drops 'Holy One' (קְדוֹשׁ) and misplaces 'Israel' as if it were part of the divine name, rather than 'the Holy One of Israel'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּשׁוּבָה וָנַחַת' means 'in returning and rest' (i.e., by turning back and being quiet), but the Chinese '歸回者與安息中' adds '者' (one who returns) and renders it as 'in the returning ones and rest', changing the sense from an action/condition to a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 15,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְרֵעֲךָ' means 'to your companion/neighbor/friend', not '弟兄' (brother). The Chinese adds a familial relationship not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

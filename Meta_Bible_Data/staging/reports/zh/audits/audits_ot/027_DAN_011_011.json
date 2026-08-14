@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 11,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the southern king will go out and fight with him (the northern king), and the great multitude will be given into his hand (the southern king's hand). The Chinese says the multitude will be given into the northern king's hand, reversing the recipient."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

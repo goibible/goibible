@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 5,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כָּל עֻמַּת שֶׁבָּא כֵּן יֵלֵךְ' means 'just as he came, so he will go' (referring to the same person's coming and going), but the Chinese renders it as '眾鄰舍都如此來去' ('all neighbors come and go like this'), introducing 'neighbors' (眾鄰舍) not in the Hebrew and changing the subject from the individual to others."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

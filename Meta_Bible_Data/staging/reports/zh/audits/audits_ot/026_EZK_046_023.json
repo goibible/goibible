@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 46,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְטוּר סָבִיב בָּהֶם סָבִיב לְאַרְבַּעְתָּם' means 'a row round about within them, round about the four of them' (referring to the four tables/stands), but Chinese says '四圍有四行環繞它們' ('there are four rows surrounding them'), adding '四行' (four rows) and misrendering 'טוּר' (singular 'row') as plural '四行'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּמְבַשְּׁלוֹת עָשׂוּי מִתַּחַת הַטִּירוֹת סָבִיב' means 'and cooking places were made under the rows round about' (i.e., under the rows/ledges), but Chinese says '四圍在城邑之下有造好的烹煮處' ('round about under the cities there are made cooking places'), adding '城邑' (cities) which is not in the Hebrew; the Hebrew has 'הַטִּירוֹת' (the rows), not 'cities'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

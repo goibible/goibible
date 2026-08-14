@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 48,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יַעַבְד֕וּהוּ' means 'they shall serve him' (the city), but the Chinese renders it as '出來耕種這地' (come out to cultivate this land), introducing '耕種' (cultivate) and '這地' (this land) which are not in the Hebrew. The Hebrew has no word for 'cultivate' or 'land' here; it simply says 'serve him/it'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 111,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'רֵאשִׁית חָכְמָה' means 'the beginning of wisdom' (i.e., the first/chief part of wisdom), not '起初智慧' ('in the beginning, wisdom'). The Chinese rendering changes the meaning from 'the beginning of wisdom is the fear of the LORD' to 'in the beginning, wisdom is the fear of the LORD', altering the temporal/qualitative claim."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שֵׂכֶל טוֹב לְכָל עֹשֵׂיהֶם' means 'good understanding to all who do them' (i.e., those who practice wisdom/fear of the LORD have good understanding). The Chinese '一切行祂旨意的皆有智慧' ('all who do His will have wisdom') substitutes 'His will' for 'them' (referring to wisdom/fear) and changes 'good understanding' to 'wisdom', altering the object and the specific claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

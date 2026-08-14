@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 4,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בַּחֲרֹשֶׁת הַגּוֹיִם' (in Harosheth-ha-goiim) is a proper place name, 'Harosheth of the nations/Gentiles', not '各民族' (all nations/peoples) as a generic description. The Chinese rendering '各民族的雕刻之地' (the carved place of all nations) misinterprets the proper noun 'חֲרֹשֶׁת' (Harosheth) as '雕刻' (carving/engraving) and 'הַגּוֹיִם' (the nations) as a generic '各民族', losing the place-name identity and adding a meaning not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

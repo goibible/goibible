@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 112,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַשְׁרֵי אִישׁ יָרֵא אֶת יְהוָה' means 'Blessed is the man who fears the LORD', but the Chinese renders it as '有福的人啊，要讚美耶和華' ('Blessed person, praise the LORD'), which changes the subject and adds an imperative to praise, misrepresenting the original as a blessing on the one who fears the LORD."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 8,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'אַיָּלוֹן' (Aijalon) is rendered as '亞吉崙' (Yaqilun), which appears to be a different place name; the correct Chinese transliteration should be '亞雅崙' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

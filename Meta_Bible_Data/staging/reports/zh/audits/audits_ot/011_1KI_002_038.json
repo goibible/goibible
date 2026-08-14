@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 2,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name שִׁמְעִי (Shimei) is rendered as '希瑪利人' (Himari person), which is not the standard transliteration for Shimei (示每/希每). The name appears to be swapped or corrupted."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

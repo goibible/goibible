@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 71,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי בֹ֥שׁוּ כִֽי חָ֝פְר֗וּ' means 'for they are ashamed, for they are confounded/dismayed' (both verbs expressing shame/confusion), but the Chinese renders it as '因羞愧而絆倒' ('stumble because of shame'), adding the concept of 'stumbling' (絆倒) which is not in the Hebrew. The Hebrew has no verb for 'stumble' here; it only states that the seekers of my harm are ashamed and confounded."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

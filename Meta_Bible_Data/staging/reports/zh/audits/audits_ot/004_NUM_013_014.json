@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has נַחְבִּי (Nahbi), but Chinese renders '拿比雅' (Nabiya), adding an extra syllable/letter. Also, the Hebrew patronym is וָפְסִי (Vophsi), correctly rendered '沃弗西', but the name '拿比雅' is not the correct transliteration of נַחְבִּי."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

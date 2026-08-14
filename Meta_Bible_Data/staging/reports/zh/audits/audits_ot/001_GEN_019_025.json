@@ -1,0 +1,22 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶעָרִים הָאֵל' means 'these cities' (referring to Sodom and Gomorrah), but the Chinese renders '那些城' (those cities), which is acceptable. However, 'כָּל הַכִּכָּר' means 'all the plain' (the entire region/valley), but the Chinese translates it as '全塊餅' (the whole piece of bread), which is a mistranslation. 'הַכִּכָּר' here is the plain/valley, not a loaf of bread. This changes the meaning substantively."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְצֶמַח הָאֲדָמָה' means 'and the vegetation of the ground' (what grows from the soil), but the Chinese renders '以及田地的枝子' (and the branches of the field), which is inaccurate. 'צֶמַח' means vegetation/plant growth, not 'branches' (枝子). This alters the meaning of what was overturned."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וּמְצֶאןָ מְנוּחָה אִשָּׁה בֵּית אִישָׁהּ' means 'and may you find rest, each of you in the house of her husband' — the subject is the women (Naomi's daughters-in-law) finding rest, not '得妻子' (obtain a wife). The Chinese rendering '各在丈夫的家中得妻子' incorrectly adds '得妻子' (obtain a wife), which is not in the Hebrew and changes the meaning: the Hebrew says the women will find rest in their husbands' houses, not that they will obtain wives. This is a substantive addition/mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

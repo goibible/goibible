@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 1,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְשׁוּבַת פְּתָיִם' means 'the turning away of the naive/simple ones' (פְּתָיִם = naive/simple ones, not '愚昧人' which is more like 'fools'), and 'וְשַׁלְוַת כְּסִילִים' means 'the ease/security of fools' (כְּסִילִים = fools). The Chinese renders the first clause as '愚昧人的背道而馳者' (those who turn away from the foolish), which misidentifies the subject: the Hebrew says the turning away of the naive kills them, not that those who turn away from the foolish die. The second clause '繁榮必使愚人滅亡' (prosperity will cause fools to perish) is acceptable, but the first clause is a mistranslation that changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

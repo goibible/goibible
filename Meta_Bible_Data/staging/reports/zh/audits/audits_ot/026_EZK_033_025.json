@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 33,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "negation",
+          "detail": "The Hebrew final clause וְהָאָרֶץ תִּירָֽשׁוּ is a positive statement ('and you shall possess the land'), but the Chinese renders it as a negation ('地必不得承受你們' = 'the land shall not be possessed by you'), reversing the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

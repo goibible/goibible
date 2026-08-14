@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 25,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָנְיִי' means 'my affliction' or 'my misery', not 'my afflicted person' (困苦人). The Chinese adds '人' (person) which is not in the Hebrew and changes the meaning from the state of affliction to a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

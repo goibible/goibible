@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּעָפְרָה אֲבִי הָעֶזְרִי' means 'in Ophrah of the Abiezrites' (i.e., Ophrah, which belonged to the clan of Abiezer). The Chinese renders this as '亞比以謝的亞比以謝' ('Abiezer of Abiezer'), which is a nonsensical duplication and misrepresents the place name 'Ophrah' as 'Abiezer' and the gentilic 'the Abiezrite' as a second 'Abiezer'. This changes the meaning: the location is Ophrah, not a place called 'Abiezer of Abiezer'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

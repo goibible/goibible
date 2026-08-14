@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the Hivite (הַחִוִּי), the Arkite (הָעַרְקִי), and the Sinite (הַסִּינִי). The Chinese renders the second as '以革倫人' (Ekronite), which is a different name (עֶקְרוֹנִי) not present in the Hebrew. The correct rendering should be '亞基人' or similar for the Arkite."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

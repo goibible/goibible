@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Shebna the scribe' (שֶׁבְנָא הַסּוֹפֵר), but the Chinese renders '數目示巴拿' which appears to be a mistranslation of 'the scribe' (הַסּוֹפֵר) as '數目' (number/count) instead of '書記' or '文士'. This changes the meaning of the title."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶן אָמוֹץ' means 'son of Amoz' (a personal name), but the Chinese renders '亞摩斯城的兒子' meaning 'son of the city of Amoz', adding '城' (city) which is not in the Hebrew and changes the proper name into a place name."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

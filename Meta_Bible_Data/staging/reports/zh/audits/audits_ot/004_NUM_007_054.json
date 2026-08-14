@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 7,
+  "verse": 54,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name פְּדָה צוּר (Pedahzur) is rendered as 巴達素爾, which appears to be a different name (possibly a transliteration error or swapped name). The correct transliteration should be something like 佩達祖爾 or 弗達素爾, not 巴達素爾."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

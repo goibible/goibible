@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 7,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'עַד בֵּית הַשִּׁטָּה צְרֵרָתָה' is rendered as '直到比色他、色勒拉哈' (until Bizeita, Serelaha). The Hebrew place name is 'בֵּית הַשִּׁטָּה' (Beth-shittah) and 'צְרֵרָתָה' (Zererathah, with the directive -ה). The Chinese '比色他' appears to be a transliteration of 'בֵּית הַשִּׁטָּה' but is inaccurate (missing the 'shittah' element), and '色勒拉哈' for 'צְרֵרָתָה' is a reasonable transliteration but the place name 'בֵּית הַשִּׁטָּה' should be rendered as '伯施他' or similar, not '比色他'. However, the main issue is that 'בֵּית הַשִּׁטָּה' is a single place name (Beth-shittah), and the Chinese splits it into two names '比色他' and '色勒拉哈', which misrepresents the Hebrew as two separate locations. This changes the geographical reference."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַד שְׂפַת אָבֵל מְחוֹלָה' is rendered as '直到亞別摩拉的嘴唇' (until the lip of Abel-meholah). The Hebrew 'שְׂפַת' means 'edge/border' (literally 'lip'), and the Chinese '嘴唇' (lip) is a literal rendering but acceptable. However, the place name 'אָבֵל מְחוֹלָה' (Abel-meholah) is correctly transliterated as '亞別摩拉'. The issue is that the Chinese adds '的嘴唇' (the lip of) which is a literal translation of 'שְׂפַת', but in context it means 'the border of Abel-meholah'. This is acceptable, not a flag. The main flag is the first issue."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

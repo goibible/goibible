@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 51,
+  "verse": 59,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Seraiah is the son of Neriah, son of Mahseiah (שְׂרָיָה בֶן נֵרִיָּה בֶּן מַחְסֵיָה). The Chinese reverses the genealogy: it says '瑪西雅雅的兒子尼利亞人之子撒拉雅' (Seraiah, son of Neriah, son of Mahseiah), which is correct in order, but the phrasing '瑪西雅雅的兒子尼利亞人之子' could be misread as 'son of Mahseiah, son of Neriah' — actually it reads 'Mahseiah's son Neriah's son Seraiah', which is correct. However, the name '瑪西雅雅' is a transliteration of Mahseiah, but the Hebrew is מַחְסֵיָה (Mahseiah), and the Chinese adds an extra syllable '雅' making it 'Mahseiah' with an extra 'yah' — this is a minor name distortion. More significantly, the Chinese says '那時撒拉雅是安息官長' (at that time Seraiah was the officer of rest), but the Hebrew וּשְׂרָיָה שַׂר מְנוּחָה means 'and Seraiah was the quartermaster' or 'chief of the resting place' (sar menuchah). The Chinese '安息官長' (officer of rest) is acceptable, but the placement '那時' (at that time) is an addition not in the Hebrew; the Hebrew simply states 'and Seraiah was sar menuchah' as a description, not necessarily temporal. This is minor. The main issue is the genealogy order: the Chinese '瑪西雅雅的兒子尼利亞人之子撒拉雅' literally reads 'son of Mahseiah, son of Neriah, Seraiah' — but the Hebrew order is Seraiah son of Neriah son of Mahseiah. The Chinese has reversed the father and grandfather, making Neriah the son of Mahseiah and Seraiah the son of Neriah — wait, that is actually correct: Seraiah ben Neriah ben Mahseiah. The Chinese '尼利亞人之子撒拉雅' = Seraiah son of Neriah, and '瑪西雅雅的兒子尼利亞人' = Neriah son of Mahseiah. So the order is correct. However, the Chinese adds '人' (person) to Neriah, which is a minor transliteration issue. The real problem: the Hebrew says 'בְּלֶכְתּוֹ אֶת צִדְקִיָּהוּ' — 'when he went with Zedekiah' — the Chinese says '當猶大王西底家在位第四年前往巴比倫時' which means 'when King Zedekiah of Judah went to Babylon in the fourth year of his reign' — this changes the subject: in Hebrew, it is Seraiah going with Zedekiah (בְּלֶכְתּוֹ, 'when he went' — the subject is Seraiah, going with Zedekiah), but the Chinese makes Zedekiah the one going. This is a significant mistranslation of who is doing the action. Also, the Hebrew 'בִּשְׁנַת הָרְבִעִית לְמָלְכוֹ' — 'in the fourth year of his reign' — the Chinese says '在位第四年' which is fine, but the subject of 'going' is wrong. The Chinese says '當猶大王西底家在位第四年前往巴比倫時' — 'when King Zedekiah of Judah went to Babylon in the fourth year of his reign' — this makes Zedekiah the traveler, but the Hebrew has Seraiah going with Zedekiah (the infinitive בְּלֶכְתּוֹ has Seraiah as subject, and 'אֶת צִדְקִיָּהוּ' means 'with Zedekiah'). So the Chinese has reversed the subject and object of the going. This is a clear mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

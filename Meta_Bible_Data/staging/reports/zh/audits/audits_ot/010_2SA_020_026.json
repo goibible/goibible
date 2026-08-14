@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 20,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עִירָא הַיָּאִרִי' means 'Ira the Jairite' (a gentilic from Jair, a clan/family name). The Chinese renders it as '以拉人，就是雅伊人' which reads as 'the Irite, that is, the Jairite' — treating 'Ira' as a place/people name and 'Jairite' as an appositive. This misidentifies the proper name 'Ira' (a person) as a gentilic, and mislabels the Jairite as a separate identity rather than the same person's clan designation. A reader would understand two different groups/identities instead of one person, Ira the Jairite."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew number is 74,600 (אַרְבָּעָה וְשִׁבְעִים אֶלֶף וְשֵׁשׁ מֵאוֹת = 74,600), but the Chinese renders it as 47,600 (四萬七千六百), reversing the tens and units digits of the thousands component."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 5,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כסדיא' (Chaldeans) is a separate noun referring to the Chaldeans, but the Chinese renders it as '迦勒底人' and attaches it to the delivery ('將迦勒底人與此家交付'), implying the Chaldeans were handed over along with the house. In the Hebrew, the phrase 'יְהַב הִמּוֹ בְּיַד נְבוּכַדְנֶצַּר מֶלֶךְ בָּבֶל כסדיא' means 'He gave them into the hand of Nebuchadnezzar king of Babylon, the Chaldean' — 'כסדיא' is an appositive describing Nebuchadnezzar (king of Babylon, the Chaldean), not a separate object of delivery. The Chinese misplaces '迦勒底人' as an object of the verb, changing who/what was handed over."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

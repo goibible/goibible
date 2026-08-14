@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 45,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 30,500 donkeys (thirty thousand and five hundred), but Chinese says 31,500 (三萬一千五百). The number is wrong by 1,000."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 2,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew וּבִסְעִפֵי הַסְּלָעִים means 'in the clefts of the rocks' (סְעִפִים = clefts/fissures), but Chinese renders it as '磐石的樹梢' (treetops of the rocks), which is a mistranslation — '樹梢' (treetop) has no basis in the Hebrew and changes the location."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

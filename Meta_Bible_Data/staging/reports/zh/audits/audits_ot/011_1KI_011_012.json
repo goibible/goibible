@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּיָמֶיךָ' means 'in your days' (2ms suffix), but Chinese renders '在我們的日子' ('in our days'), changing the person from 'your' to 'our'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

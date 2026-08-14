@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the personal names 'Reuben, Simeon, Levi, and Judah' (רְאוּבֵן שִׁמְעוֹן לֵוִי וִיהוּדָה). The Chinese renders 'Reuben' as '流便支派' (the tribe of Reuben), adding '支派' (tribe) which is not in the Hebrew, and 'Simeon' as '西門' (correct), 'Levi' as '利未人' (the Levites/people of Levi), adding '人' (people) which is not in the Hebrew. These additions change the referents from individuals to tribal/group entities, which is a substantive difference in meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

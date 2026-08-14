@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 46,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists the sons of Benjamin as Bela, Becher, Ashbel, Gera, Naaman, Ehi, Rosh, Muppim, Huppim, and Ard. The Chinese renders 'Gera' as '革拉人' and 'Naaman' as '乃曼人', adding the suffix '人' (person/people) which is not in the Hebrew and could imply they are groups rather than individuals. Also, 'Rosh' is translated as '頭' (head) instead of being a proper name, which changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

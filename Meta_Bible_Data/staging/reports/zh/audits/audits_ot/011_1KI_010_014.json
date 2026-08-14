@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 10,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּכַּר זָהָב' means 'talents of gold' (a unit of weight), but the Chinese renders it as '六百六十六塊餅金子' ('six hundred sixty-six pieces/cakes of gold'), which changes the meaning from a weight measure to a count of gold cakes/pieces."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 28,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הֲלוּמֵי יָיִן' means 'stricken/smitten with wine' (i.e., drunkards), not '沉醉於酒類的母鹿' ('a doe drunk with wine'). The word '母鹿' (doe) has no basis in the Hebrew; 'הֲלוּמֵי' is a plural participle of 'stricken' referring to people, not an animal."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

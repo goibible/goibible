@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 47,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'סֹחֲרַיִךְ' means 'your merchants/traders', but Chinese renders '那些...的人' (those people) without the merchant/trader sense, and 'אִישׁ לְעֶבְרוֹ' means 'each to his own side/direction', but Chinese '各以巴衛' appears to be a garbled or invented transliteration ('以巴衛' does not correspond to any Hebrew word here; likely confusion with 'עֶבְרוֹ' or a place name). This changes the meaning: the verse says your merchants wandered each to his own side, not 'each to Bavel' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

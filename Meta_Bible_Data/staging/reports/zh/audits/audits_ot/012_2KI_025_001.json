@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 25,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'דָּיֵק' (dayeq) means 'siege wall' or 'siege tower', not '勇士' (warrior). The Chinese rendering '築起勇士' (build up warriors) is a mistranslation; it should be '築起圍攻的土壘' or '築牆圍困'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

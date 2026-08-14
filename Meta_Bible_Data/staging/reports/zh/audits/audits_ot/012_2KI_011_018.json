@@ -1,0 +1,26 @@
+{
+  "book": "2KI",
+  "chapter": 11,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֵּית הַבַּעַל' means 'house of Baal', but the Chinese renders it as '主人的家' (the master's house), which loses the proper name 'Baal' and changes the referent."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַתָּן כֹּהֵן הַבַּעַל' is 'Mattan, the priest of Baal' (a proper name), but the Chinese renders it as '主人祭司的禮物' (the gift of the master's priest), mistranslating the proper name 'Mattan' as 'gift' and losing the name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיָּשֶׂם הַכֹּהֵן פְּקֻדּוֹת עַל בֵּית יְהוָה' means 'and the priest appointed officers over the house of YHWH', but the Chinese says '祭司就派定職分管理耶和華的家' (the priest appointed duties to manage the house of YHWH), which changes 'officers' (persons) to 'duties' (abstract roles), altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 35,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵהָלְאָה לְמִגְדַּל עֵדֶר' means 'beyond the tower of Eder' (i.e., past/on the other side of Migdal-eder), not 'from Harel to Migdal-eder'. The Chinese renders 'מֵהָלְאָה' as '從哈列' (from Harel), which misidentifies the prepositional phrase as a place name and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

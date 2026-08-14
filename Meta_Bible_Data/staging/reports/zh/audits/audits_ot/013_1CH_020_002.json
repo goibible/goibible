@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 20,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew כִּכַּר זָהָב means 'a talent of gold' (a unit of weight), but Chinese renders it as '一塊餅的金子' ('a piece of bread/cake of gold'), which is a mistranslation of the unit 'talent' (כִּכָּר) as '餅' (bread/cake). This changes the factual meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

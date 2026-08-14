@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'טָמֵא לָנֶפֶשׁ' means 'unclean by reason of a dead person' (i.e., corpse contamination), but the Chinese renders it as '因接觸過性命' ('because of having touched life'), which reverses the meaning: it should be '因接觸過死人' (touching a dead person), not '性命' (life). This changes the factual claim of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

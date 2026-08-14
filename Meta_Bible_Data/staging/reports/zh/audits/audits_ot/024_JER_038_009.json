@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 38,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '死於饑荒的面' ('died from the face of famine'), which is not in the Hebrew. The Hebrew says 'he died under it (i.e., in the pit) because of the famine, for there was no more bread in the city.' The phrase '死於饑荒的面' is an addition not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

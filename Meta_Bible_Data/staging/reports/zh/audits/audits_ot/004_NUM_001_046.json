@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 1,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 603,550 (six hundred thousand and three thousand and five hundred and fifty); Chinese says 633,550 (六十三萬三千五百五十), which is 30,000 too many."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

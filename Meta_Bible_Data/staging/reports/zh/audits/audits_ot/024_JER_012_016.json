@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 12,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has 'בַּבָּעַל' (by Baal), but the Chinese renders it as '主人' (master/lord), which loses the proper name Baal and changes the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

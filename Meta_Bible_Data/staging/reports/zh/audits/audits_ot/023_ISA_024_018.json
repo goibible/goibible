@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 24,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אֲרֻבּוֹת' means 'windows/floodgates' (of heaven), not '煙囪' (chimney). The Chinese adds a concept (chimney) not present in the Hebrew and changes the meaning of the verse's claim about the windows of heaven being opened."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

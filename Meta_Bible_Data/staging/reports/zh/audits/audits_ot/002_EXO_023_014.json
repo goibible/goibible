@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 23,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רְגָלִים' (regalim) means 'festivals' or 'pilgrimage festivals' (from the root רגל, 'to go on foot' or 'to celebrate a festival'), not '腳掌' (soles of the feet). The Chinese rendering '三次腳掌的節期' incorrectly translates 'רְגָלִים' as 'feet/soles' instead of 'festivals/pilgrimages', changing the meaning from 'three festivals' to 'three festivals of the soles of the feet'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

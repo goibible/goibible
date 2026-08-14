@@ -1,0 +1,26 @@
+{
+  "book": "JOB",
+  "chapter": 20,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַיִן שְׁזָפַתּוּ' means 'the eye sees it' (or 'gazes upon it'), not 'the eye despises it' (輕視). The verb שָׁזַף means 'to see/gaze', not 'to despise'. This changes the meaning of the clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלֹא תוֹסִיף' means 'and it will not add' (i.e., it will not continue to exist or be seen again), but the Chinese '不再加添' means 'no longer adds/increases', which misrepresents the subject and action. The subject is the eye or the thing seen, not an addition."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְלֹא עוֹד תְּשׁוּרֶנּוּ מְקוֹמוֹ' means 'and its place will no longer see it' (i.e., the place will not see it again), but the Chinese '也不再從其地方轉移它' means 'nor will it be moved from its place', reversing the subject-object relationship and adding the concept of 'moving' not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

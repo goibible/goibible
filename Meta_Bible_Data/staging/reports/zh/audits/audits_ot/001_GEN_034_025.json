@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 34,
+  "verse": 25,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "底娜 is a transliteration of Dinah, but the Hebrew has דִינָה (Dinah), which is correct; however, the Chinese renders '利未人底娜的弟兄' as 'Levi, Dinah's brother', but the Hebrew says 'שמעון ולוי אחי דינה' meaning 'Simeon and Levi, Dinah's brothers' (plural). The Chinese only mentions Levi as Dinah's brother, omitting Simeon from the appositive relationship, and the phrasing '利未人' (Levi person) is odd but not a name swap. The main issue is the omission of Simeon as Dinah's brother, changing the grammatical relationship."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

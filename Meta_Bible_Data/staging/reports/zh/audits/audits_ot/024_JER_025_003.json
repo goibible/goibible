@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 25,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'twenty-three years' (שָׁלֹשׁ וְעֶשְׂרִים שָׁנָה), but Chinese renders '三十二年' (thirty-two years), reversing the digits."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

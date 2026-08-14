@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 42,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רוּחַ הַיָּם' means 'the wind/quarter of the sea' (i.e., the seaward side/direction), not '海靈' (sea spirit). This changes the meaning from a directional reference to a supernatural entity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

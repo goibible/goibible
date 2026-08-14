@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 13,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עָרוּם' means 'shrewd/prudent/crafty', not '赤裸' (naked). The Chinese mistranslates the subject as '赤裸的人' (naked people) instead of 'prudent/shrewd person'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

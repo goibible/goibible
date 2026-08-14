@@ -1,0 +1,22 @@
+{
+  "book": "EZR",
+  "chapter": 10,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיְכַלּוּ בַכֹּל' means 'they finished with all' (i.e., completed the investigation/affair concerning all), but the Chinese '他們查清了所有' adds '查清' (investigated/ascertained) which is not in the Hebrew; the verb 'כלה' means 'finished/completed', not 'investigated'. This changes the claim from completing the matter to investigating it."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַהֹשִׁיבוּ נָשִׁים נָכְרִיּוֹת' means 'who had settled/placed foreign women' (i.e., who had married foreign women), but the Chinese '使她們安置住下' reverses the subject-object: it says 'made them (the women) settle down', whereas the Hebrew has the men as the subject who 'settled' (married) the women. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

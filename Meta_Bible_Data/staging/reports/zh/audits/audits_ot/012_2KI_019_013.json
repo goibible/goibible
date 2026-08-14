@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the kings of Hamath, Arpad, and the city of Sepharvaim, followed by the names Hena and Ivvah. The Chinese renders '亞弗大城王' for 'king of Arpad', which appears to be a name swap (Arpad rendered as '亞弗大' instead of '亞珥拔' or similar), and '希拿和以瓦' for 'Hena and Ivvah' is acceptable. The main issue is the rendering of Arpad as '亞弗大' which is a different name."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '都出動了' (all went out/mobilized), which is not present in the Hebrew. The Hebrew simply lists the kings and names without a verb of action; the Chinese adds a clause implying they went out, which is an addition not in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

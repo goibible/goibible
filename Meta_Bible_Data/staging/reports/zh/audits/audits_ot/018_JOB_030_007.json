@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 30,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שִׂיחִים' means 'shrubs/bushes' (or possibly 'broom bushes'), not '言語' (words/speech). The Chinese renders it as '言語之間' (among words), which is a mistranslation of the noun."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

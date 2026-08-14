@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 23,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יַחֲזִיאֵל (Yachaziel) is rendered as 亞哈細雅耳, which appears to be a corruption/confusion with a different name (likely 亞哈謝/亞哈細雅). The correct transliteration should be 雅哈悉耳 or similar, not 亞哈細雅耳."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

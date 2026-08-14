@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אַרְפַּכְשַׁד (Arpachshad) is rendered as '以法朔' (Yifa Shuo), which is not the standard Chinese transliteration for Arpachshad (usually 亞法撒 or 亞法撒德). This could cause a reader to identify a different person."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

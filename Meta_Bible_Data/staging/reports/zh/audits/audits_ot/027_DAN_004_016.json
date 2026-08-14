@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew עִדָּנִין (iddanin) means 'times' or 'periods' (Aramaic plural of עִדָּן, 'time'), not '青春時期' (youth/prime periods). The phrase '七個時期' (seven periods/times) is the correct rendering; '青春時期' adds a specific meaning of youth/adolescence not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

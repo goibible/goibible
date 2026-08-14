@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 40,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text ends with 'הֶאָח הֶאָח' (aha, aha), but the Chinese translation cuts off mid-phrase, omitting the second '啊哈' and the closing quotation mark, leaving the verse incomplete."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

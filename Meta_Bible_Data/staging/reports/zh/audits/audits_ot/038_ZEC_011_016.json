@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 11,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'הַנִּצָּבָה' (the standing/healthy ones) is rendered as '健壯的' (the strong/healthy), but the clause 'לֹ֣א יְכַלְכֵּ֔ל' (he will not feed/sustain) is omitted entirely. The Chinese skips the third negative action about not feeding the standing ones, instead jumping to the final clause about eating the fat and breaking their hoofs."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

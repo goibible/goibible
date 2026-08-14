@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 35,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קְטֹרֶת הַסַּמִּים' means 'incense of spices' (i.e., fragrant incense made of spices), but the Chinese renders it as '香料的乳香' (frankincense of spices). '乳香' specifically means 'frankincense' (levonah), which is not the same as 'incense' (ketoret). This changes the meaning from a general incense mixture to a specific substance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

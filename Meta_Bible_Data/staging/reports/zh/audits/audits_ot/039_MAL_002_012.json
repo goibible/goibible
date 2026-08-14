@@ -1,0 +1,22 @@
+{
+  "book": "MAL",
+  "chapter": 2,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֵר וְעֹנֶה' means 'awake and answering' (i.e., anyone who witnesses or responds), not '行惡行淫' (doing evil and committing adultery). The Chinese mistranslates this phrase, changing the meaning of who is being cut off."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַיהוָה צְבָאוֹת' means 'to the LORD of hosts' (a divine title), but the Chinese renders it as '耶和華軍隊' (the army of the LORD), which changes the referent from God himself to his army."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

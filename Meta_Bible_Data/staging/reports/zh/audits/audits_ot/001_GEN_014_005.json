@@ -1,0 +1,26 @@
+{
+  "book": "GEN",
+  "chapter": 14,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּעַשְׁתְּרֹת קַרְנַיִם' is a place name (Ashtaroth-karnaim), not '亞斯他錄雙角神像' (the double-horned idol of Ashtaroth). This changes the meaning from a location to an idol."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּהָם' is a place name (Ham), not '含' (Ham the person, Noah's son). The Chinese renders it as a personal name, changing the location to a person."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּשָׁוֵה קִרְיָתַיִם' is a place name (Shaveh-kiriathaim), not '在沙威的基列亞音' (in Shaveh of Gilead-ain). The Chinese adds '基列' (Gilead) which is not in the Hebrew, and '亞音' is not a correct rendering of 'קִרְיָתַיִם' (Kiriathaim)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

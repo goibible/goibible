@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 28,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בֵּית שֶׁמֶשׁ' (Beth-shemesh), but the Chinese renders it as '別是梅沙城' which appears to be a conflation or misrendering of 'Beth-shemesh' (בית שמש) with 'Beersheba' (באר שבע). The correct rendering should be '伯示麥' or similar, not '別是梅沙'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

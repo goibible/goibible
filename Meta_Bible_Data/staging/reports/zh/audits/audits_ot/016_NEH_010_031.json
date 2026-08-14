@@ -1,0 +1,22 @@
+{
+  "book": "NEH",
+  "chapter": 10,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְכָל שֶׁבֶר' means 'and all grain/produce' (from שֶׁבֶר, grain), but Chinese renders it as '一切毀壞之物' ('all destroyed things'), which changes the meaning."
+        },
+        {
+          "kind": "addition",
+          "detail": "Chinese adds '債務' ('debts') after '第七年' ('seventh year'), but the Hebrew 'וְנִטֹּשׁ אֶת הַשָּׁנָה הַשְּׁבִיעִית וּמַשָּׁא כָל יָד' means 'and we will abandon the seventh year and every hand's loan/debt' — the word 'debt' is not in the Hebrew, though 'מַשָּׁא' means 'loan/debt' and is rendered as '重利' ('heavy interest'), which is a mistranslation; 'מַשָּׁא' means 'debt/loan', not 'interest'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

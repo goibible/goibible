@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 17,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַשַּׁחַת קָרָאתִי אָבִי אָתָּה אִמִּי וַאֲחֹתִי לָרִמָּה' means 'I called to the Pit: You are my father, my mother and my sister to the worm.' The Chinese adds '你們卻把我交給蟲子' ('but you handed me over to the worm'), which is an addition not present in the Hebrew. The Hebrew does not say the Pit/worm handed the speaker over; rather, the speaker addresses the Pit as family. This addition changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

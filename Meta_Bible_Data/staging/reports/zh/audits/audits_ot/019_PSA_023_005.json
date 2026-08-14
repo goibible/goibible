@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 23,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כּוֹסִי רְוָיָה' means 'my cup overflows' or 'my cup is full to overflowing'. The Chinese '我的杯滿溢富庶之地' adds '富庶之地' (a land of abundance), which is not present in the Hebrew and changes the meaning by implying the cup overflows into a place, rather than simply being full/overflowing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

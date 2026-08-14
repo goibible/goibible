@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew clause 'וְהֹצֵאתָ מִפִּיךָ מִלִּין' means 'and you bring forth words from your mouth' (i.e., you utter words), but the Chinese renders it as '你若將話語從你口中除去' ('if you remove words from your mouth'), reversing the action from bringing forth to removing. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

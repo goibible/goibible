@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 17,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּן אִישׁ אֶפְרָתִי הַזֶּה' means 'son of this Ephrathite' (i.e., Jesse, the Ephrathite), but the Chinese renders it as '大衛是這以法蓮人' ('David is this Ephrathite'), making David himself the Ephrathite rather than the son of the Ephrathite. This changes the relationship and who is being described."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

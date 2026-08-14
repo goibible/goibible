@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 31,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חלצו' (hiphil of חלץ, 'to rescue/deliver') is rendered as '以腰' ('with the waist/loins'), which is a misreading. The correct sense is 'if they have not been rescued/delivered' (referring to the poor/needy), not 'if they do not bless me with the waist.' This changes the meaning of the clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

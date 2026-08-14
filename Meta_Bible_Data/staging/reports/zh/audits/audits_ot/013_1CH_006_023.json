@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists three names: Elkanah (אֶלְקָנָה), Ebiasaph (אֶבְיָסָף), and Assir (אַסִּיר), each as 'his son' (בְּנוֹ). The Chinese renders the third name as 亞希悉 (Ahisamach/Ahisahar?), which is not Assir (אַסִּיר). The correct rendering for Assir should be 亞悉 or similar, not 亞希悉. This is a name swap error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

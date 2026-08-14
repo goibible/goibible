@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 5,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says Noah was 500 years old (בֶּן חֲמֵשׁ מֵאוֹת שָׁנָה), but the Chinese says '挪亞五百年的時候' which could be read as 'at the time of Noah's five hundredth year' — this is acceptable. However, the name 'שֵׁם' (Shem) is rendered as '名' (name) instead of the proper name '閃' (Shem). This is a name swap/error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

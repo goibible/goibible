@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'בְנֵי שֵׁם' means 'sons of Shem' (閃的兒子), but the Chinese renders '名的兒子' ('sons of the name'), dropping the proper name Shem and substituting a common noun."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

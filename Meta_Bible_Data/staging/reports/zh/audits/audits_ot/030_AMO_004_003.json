@@ -1,0 +1,22 @@
+{
+  "book": "AMO",
+  "chapter": 4,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּפְרָצִים תֵּצֶאנָה אִשָּׁה נֶגְדָּהּ' means 'and breaches shall go out, each woman before her' (i.e., each woman goes out through the breaches, one after another). The Chinese renders '你們各人要從城牆破口直往前出' ('each of you shall go straight out from the breach in the wall'), which adds '城牆' (wall) and '直往前' (straight ahead) not in the Hebrew, and changes the subject from 'women' (אִשָּׁה) to 'you all' (你們), altering who is doing the action. The Hebrew subject is the women going out through breaches, not the addressees."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהִשְׁלַכְתֶּנָה הַהַרְמוֹנָה' means 'and you shall throw them (the women) to Harmon' (or 'to the palace' depending on interpretation). The Chinese '被拋到哈門' ('thrown to Harmon') changes the active verb 'you shall throw' (second person plural) to a passive '被拋' (being thrown), omitting the agent and altering the grammatical person/voice. The Hebrew has the addressees as the ones throwing, not the women being passively thrown by an unspecified agent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

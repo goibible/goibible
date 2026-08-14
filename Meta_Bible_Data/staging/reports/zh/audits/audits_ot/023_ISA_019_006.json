@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 19,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'יְאֹרֵי מָצוֹר' means 'the canals/streams of Egypt' (or 'of the siege'), not '城邑的溪' (streams of the city). 'מָצוֹר' here likely refers to Egypt (Mizraim) or a fortified place, not 'city' generally. The Chinese renders it as '城邑的溪' which changes the referent."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'סוּף' in 'קָנֶה וָסוּף' means 'reed' (papyrus/rush), not '紅海' (Red Sea). The phrase is 'reed and rush' (both plants), not 'reeds and the Red Sea'. This is a significant mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

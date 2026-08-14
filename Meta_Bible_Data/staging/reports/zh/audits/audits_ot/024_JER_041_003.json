@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 41,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'all the Jews who were with him, with Gedaliah at Mizpah' — the Chinese renders '與他同在米斯巴的猶太人' (Jews with him at Mizpah) and then adds '就是那些與耶大亞在一起的' (that is, those with Gedaliah), but '耶大亞' is not a name in the Hebrew; the Hebrew has 'גדליהו' (Gedaliah). The Chinese appears to have a name error ('耶大亞' instead of '基大利' or similar), and the structure misplaces the relationship: the Jews were with Gedaliah, not merely 'with him' (Ishmael). This changes who is associated with whom."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

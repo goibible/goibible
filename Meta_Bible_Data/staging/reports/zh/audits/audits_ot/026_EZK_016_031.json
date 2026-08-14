@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 16,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בִּבְנוֹתַיִךְ גַּבֵּךְ' means 'in your building your back' (i.e., 'when you built your back'), but the Chinese renders '在你女兒們的脊背' ('on the backs of your daughters'), misreading 'בִּבְנוֹתַיִךְ' (in your building) as 'בְּנוֹתַיִךְ' (your daughters). This changes the meaning from 'when you built your back' to 'on your daughters' backs'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְרָמָתֵךְ עָשִׂיתִי' means 'and I made your high place' (or 'your height'), but the Chinese '我在一切街道上為你設立了拉瑪' adds '在一切街道上' ('in all streets') and renders 'רָמָתֵךְ' as the place name '拉瑪' (Ramah) rather than 'your high place/height'. This is a mistranslation and an addition of location not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

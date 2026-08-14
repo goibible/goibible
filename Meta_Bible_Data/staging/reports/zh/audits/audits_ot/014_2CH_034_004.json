@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 34,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַבְּעָלִים' (the Baals) is rendered as '主人的' (the master's), which changes the referent from the pagan deity Baal to a generic 'master'. This is a mistranslation of a proper name/divine title."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַמַּסֵּכוֹת' (the molten images/cast metal idols) is rendered as '幔子' (curtains/veils), which is a different object. The Hebrew term refers to cast metal idols, not curtains."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

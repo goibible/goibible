@@ -1,0 +1,22 @@
+{
+  "book": "MAL",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew verb קָבַע (qava') means 'rob/defraud' (as in Malachi 3:8-9), not 'condemn/定罪'. The Chinese renders it as '定罪' (condemn), which changes the meaning from robbing God to condemning God. Also, the second occurrence 'קְבַעֲנ֑וּךָ' is correctly 'we have robbed You' (1st person plural subject, 2nd person object), but the Chinese '將我們定罪' reverses the subject/object, making it 'you condemn us' instead of 'we have robbed You'."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'קְבַעֲנ֑וּךָ' is 1st person plural ('we have robbed You'), but the Chinese '你們在何事上將我們定罪呢' makes the subject 2nd person plural ('you') and the object 1st person plural ('us'), reversing the grammatical roles."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

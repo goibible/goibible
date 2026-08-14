@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 20,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew place name is 'Abel Beth Maacah' (אָבֵלָה בֵּית הַמַּעֲכָה), rendered in Chinese as '亞別城' and '瑪哈城' — the second part 'Beth Maacah' is mistranslated as '瑪哈城' (Maacah city) instead of '伯瑪迦' (Beth Maacah), and the construct chain is broken, making it appear as two separate cities rather than one place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

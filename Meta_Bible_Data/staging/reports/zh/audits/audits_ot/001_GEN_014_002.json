@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 14,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "蛾摩拉王的名字是比爾沙（בִּרְשַׁע），但中文譯為「比書亞人」，這不是名字，且「人」字是添加的，應為「比爾沙」。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

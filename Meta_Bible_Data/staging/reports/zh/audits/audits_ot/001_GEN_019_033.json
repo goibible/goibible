@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַבְּכִירָה' means 'the firstborn (daughter)', but the Chinese renders it as '長子份' which is ambiguous and could be read as 'the firstborn's portion' rather than 'the firstborn daughter'. This changes the subject of the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

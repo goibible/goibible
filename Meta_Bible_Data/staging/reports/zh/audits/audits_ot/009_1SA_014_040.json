@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 14,
+  "verse": 40,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לְעֵבֶר אֶחָד' means 'on one side' (i.e., one party/group in the lot-casting), not '以巴衛' (a place name). The Chinese renders it as a proper noun '以巴衛', which is an addition/mistranslation that changes the meaning."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

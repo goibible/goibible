@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the survivors who were left from the captivity there in the province' (הַֽנִּשְׁאָרִ֞ים אֲשֶֽׁר נִשְׁאֲר֤וּ מִן הַשְּׁבִי֙ שָׁ֣ם בַּמְּדִינָ֔ה), meaning survivors from the exile/captivity who are in the province. The Chinese renders '那些從當地的擄掠物中倖存下來的人' ('those who survived from the local plunder/spoils'), which changes 'from the captivity/exile' (מִן הַשְּׁבִי) to 'from the plunder/spoils' (擄掠物), and adds '當地的' ('local') which is not in the Hebrew. This alters the meaning: the survivors are from the captivity, not from plunder."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

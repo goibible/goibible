@@ -1,0 +1,18 @@
+{
+  "book": "HAG",
+  "chapter": 1,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '以香柏木安身' (to rest in cedar wood), which is not present in the Hebrew. The Hebrew 'סְפוּנִים' means 'paneled' or 'ceiled' (with wood), but the Chinese rendering introduces '香柏木' (cedar) and '安身' (rest/secure), which are not in the Hebrew text. The Hebrew simply says 'dwelling in your paneled houses' without specifying cedar or the concept of 'resting'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 18,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '祂施行了拯救' (He performed salvation/deliverance), which has no basis in the Hebrew text. The Hebrew ends with 'because in the matter in which they acted arrogantly against them' (כִּי בַדָּבָר אֲשֶׁר זָדוּ עֲלֵיהֶם), with no mention of salvation or deliverance."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

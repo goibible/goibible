@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 4,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׁנֵי עֲוֹנָם' means 'the two iniquities' (i.e., the iniquity of both houses, Judah and Israel), but the Chinese renders it as '他們二人的罪惡' ('the sins of the two of them'), which is ambiguous and could be read as 'two persons' rather than 'two iniquities' or 'the iniquity of the two (houses)'. This changes the referent from the two sins/houses to possibly two individuals."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

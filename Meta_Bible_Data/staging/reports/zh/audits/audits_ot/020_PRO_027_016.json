@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 27,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'צֹפְנֶיהָ צָפַן רוּחַ' means 'He who guards her guards the wind' (or 'He who hides her hides the wind'), referring to guarding wisdom (from context of Proverbs 27:16). The Chinese '祂以靈隱藏其陰處' renders 'רוּחַ' as '靈' (spirit) and adds '其陰處' (her hidden place), which is not in the Hebrew. The subject/object relationship is altered: Hebrew has 'her guards' (צֹפְנֶיהָ) as subject, but Chinese makes God the subject hiding 'her' (wisdom). Also 'וְשֶׁמֶן יְמִינוֹ יִקְרָא' means 'and oil of his right hand calls' (i.e., it proclaims itself), but Chinese '以油膏抹其右邊' changes to 'anoints her right side', adding '膏抹' (anoint) and misassigning the action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

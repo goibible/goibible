@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 26,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יָסַפְתָּ לַגּוֹי... נִכְבָּדְתָּ' means 'You have added to the nation, O LORD, you have added to the nation; you are glorified' (i.e., the LORD is glorified/exalted), but the Chinese renders '你已將名聲傳於民族' ('you have spread your fame among the nations') and '你已將名聲傳於尊貴的民族' ('you have spread your fame among the honored nation'), which changes the subject/object: the Hebrew says the LORD is glorified (passive/reflexive sense of נִכְבָּדְתָּ), not that he spreads his fame. This alters the meaning of the verse."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רִחַקְתָּ כָּל קַצְוֵי אָרֶץ' means 'you have removed/put far away all the ends of the earth' (i.e., you have driven them far), but the Chinese '你使一切地的極限都退後' ('you caused all the limits of the earth to retreat') is a close rendering, though '退後' (retreat) may imply the ends themselves move back, whereas the Hebrew has the LORD as agent removing them; this is acceptable. The main issue is the first clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

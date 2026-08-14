@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאוּלָם' is an adversative conjunction meaning 'but/nevertheless', not '然而那...所在之處' ('however, the place where...'). The Chinese adds '所在之處' ('the place where') which is not in the Hebrew. Also, 'אֻלָם' in the second clause is a noun meaning 'porch/portico' (a structural feature), not a verb '已設立' ('has been established'). The Hebrew says 'the porch of the judgment he made' (i.e., he made the porch of judgment), not '門廊已設立審判' ('the porch has established judgment'). The phrase 'מֵהַקַּרְקַע עַד הַקַּרְקָע' means 'from floor to floor' (i.e., from one floor to another), not '從地面直到地面' ('from ground to ground') — the Chinese rendering is ambiguous and could imply the same ground, whereas Hebrew indicates two distinct floors. The overall meaning is significantly altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "2CH",
+  "chapter": 22,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יְהוֹשַׁבְעַת (Jehosheba) is rendered as 耶洗別亞大, which mixes the name of Jezebel (耶洗別) with an extra element. The correct transliteration should be 約示巴 or 耶何示巴."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name עֲתַלְיָהוּ (Athaliah) is rendered as 亞大利雅, which is a plausible transliteration but the standard Chinese rendering is 亞他利雅; however, the more significant issue is the confusion with the first name."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '約蘭的女兒' (daughter of Jehoram) which is not present in the Hebrew text; the Hebrew only says 'daughter of the king' (בַּת הַמֶּלֶךְ) and later 'daughter of the king Jehoram' (בַּת הַמֶּלֶךְ יְהוֹרָם) — the addition of '約蘭的女兒' in the first clause is an extra identification not in the Hebrew at that point."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

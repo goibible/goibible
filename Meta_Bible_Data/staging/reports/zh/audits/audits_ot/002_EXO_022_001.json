@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew specifies 'five oxen' (חֲמִשָּׁה בָקָר) and 'four sheep' (אַרְבַּע צֹאן), but the Chinese renders '五對牲畜' (five pairs of livestock) and '四對羊群' (four pairs of flocks), adding '對' (pairs) which is not in the Hebrew and changes the number from five/four individual animals to five/four pairs, doubling the count."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

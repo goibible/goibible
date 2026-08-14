@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 51,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew states the number as 601,730 (six hundred one thousand and seven hundred thirty), but the Chinese renders it as 617,030 (六十一萬七千三十), which swaps the digits and changes the number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

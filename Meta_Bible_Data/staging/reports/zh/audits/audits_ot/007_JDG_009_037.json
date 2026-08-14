@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'אֵלוֹן מְעוֹנְנִים' (Elon Meonenim, 'oak of the soothsayers') is rendered as '米惡寧尼橡樹' (Mi'e Ningni oak tree), which appears to be a transliteration error or name swap—'מְעוֹנְנִים' (Meonenim) is not '米惡寧尼' (Mi'e Ningni). The correct transliteration should be '米歐寧寧' or similar, not '米惡寧尼'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

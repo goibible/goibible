@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 31,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'סִיחוֹן' (Sihon), but the Chinese renders it as '希宏' (Xīhóng), which is not the standard transliteration for Sihon (usually 西宏). This could cause a reader to identify the wrong king."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

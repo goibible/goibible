@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 8,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'from the sons of Shecaniah, son of Jehaziel' (בֶּן יַחֲזִיאֵל), but the Chinese renders it as '示迦尼雅的兒子、亞哈細雅耳的兒子' which introduces '亞哈細雅耳' (Ahasiael?) instead of '耶哈希業' (Jehaziel). The name is mistransliterated/swapped, changing the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

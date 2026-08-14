@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 31,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וָאֶדֹּם' (from דמם) means 'I was silent/kept silent', not '我雖被染紅' ('though I was dyed red'). The Chinese mistranslates the verb, changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֹא אֵצֵא פָתַח' means 'I would not go out of the door' (i.e., I did not leave my door), not '卻不從門而出' which is acceptable, but the main issue is the preceding clause. The overall sense of silence/restraint is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

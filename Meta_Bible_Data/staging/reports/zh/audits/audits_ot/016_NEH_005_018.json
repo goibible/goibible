@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 5,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'לֶחֶם הַפֶּחָה' means 'the governor's bread/food' (פֶּחָה = governor, a Persian provincial official), not '百夫長的餅' (centurion's bread). '百夫長' means 'centurion' (a military officer of 100), which is a different concept and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

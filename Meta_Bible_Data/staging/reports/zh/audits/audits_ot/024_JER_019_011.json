@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 19,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has בְּתֹפֶת ('in Topheth'), but Chinese renders it as 他泊 ('Tabor'), which is a different place name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

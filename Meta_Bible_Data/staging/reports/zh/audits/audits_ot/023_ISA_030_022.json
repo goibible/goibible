@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 30,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תִּזְרֵם כְּמוֹ דָוָה צֵא תֹּאמַר לוֹ' means 'you will throw them away like a menstruous cloth; you will say to it, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

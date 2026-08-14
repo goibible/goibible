@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 12,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְעֶזְרָ֣א מְשֻׁלָּ֔ם לַאֲמַרְיָ֖ה יְהוֹחָנָֽן' is a list of names (Ezra, Meshullam, Amariah, Jehohanan) with prefixed prepositions (לְ meaning 'to/for' or 'belonging to'), not a sentence saying 'Ezra said to Meshullam, Amariah, and Jehohanan.' The Chinese adds '說' (said) and '人' (people) and interprets the structure as a speech, which is not present in the Hebrew. The Hebrew is a genealogical or list context (likely from Nehemiah 12:13), not a statement of speaking."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 25,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is בֵּית שֶׁמֶשׁ (Beth-shemesh), but the Chinese renders it as 別是梅沙, which appears to conflate or swap it with 別是巴 (Beersheba). The correct transliteration should be 伯示麥 or 貝特謝梅什."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

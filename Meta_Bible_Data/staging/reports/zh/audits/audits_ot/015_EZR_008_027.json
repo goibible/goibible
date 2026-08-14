@@ -1,0 +1,22 @@
+{
+  "book": "EZR",
+  "chapter": 8,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּכְפֹרֵפֵי זָהָב עֶשְׂרִים לַאֲדַרְכֹנִים אָלֶף' means 'and twenty gold bowls (or basins) worth a thousand darics' (i.e., twenty gold basins valued at a thousand darics). The Chinese renders '二十個金子的霜' which is unclear ('frost of gold'?) and does not convey 'bowls/basins' (כְּפוֹרִים). Also 'לַאֲדַרְכֹנִים אָלֶף' is 'worth a thousand darics' (a Persian coin), but the Chinese says '價值一千個德拉克馬' (worth a thousand drachmas), swapping the currency name from darics to drachmas, which is a factual change."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew currency is 'אֲדַרְכֹנִים' (darics), but the Chinese uses '德拉克馬' (drachmas), a different currency, changing the historical reference."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

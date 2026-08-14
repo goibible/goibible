@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לָא איתינא פָֽלְחִ֔ין' means 'we do not serve your gods' (referring to the king's gods, i.e., the gods of the king), but the Chinese says '我們的神不事奉別神' ('our God does not serve other gods'), which changes the subject from 'we' (the three men) to 'our God' and omits the reference to 'your gods' (the king's gods). The Hebrew subject is first-person plural ('we'), not third-person singular ('our God')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

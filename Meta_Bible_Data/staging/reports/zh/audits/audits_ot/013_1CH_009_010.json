@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name וִיהוֹיָרִיב (Jehoiarib) is rendered as '約雅立伯人' (people of Jehoiarib), adding '伯人' (people of) which is not in the Hebrew. The Hebrew simply lists the personal name Jehoiarib, not a group or people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

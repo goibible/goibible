@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רַק בְּזָדוֹן יִתֵּן מַצָּה' means 'Only by pride comes contention/strife' (literally 'only with insolence he gives contention'), but the Chinese renders '唯有以驕傲獻上無酵餅' ('only with pride offers unleavened bread'), mistranslating 'מַצָּה' (contention/strife) as '無酵餅' (unleavened bread) and changing the verb 'יִתֵּן' (gives) to '獻上' (offers). This alters the meaning of the verse."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause 'וְאֶת נוֹעָצִים חָכְמָה' means 'but with the well-advised is wisdom' (i.e., wisdom is with those who take counsel), but the Chinese '並以謀略為智慧' ('and takes counsel as wisdom') changes the relationship, making counsel equivalent to wisdom rather than stating that wisdom is found among counselors."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

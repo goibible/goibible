@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 2,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'seven and fifty thousand and four hundred' (57,400), but Chinese says '七萬五千四百' (75,400), swapping the tens and units digits."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

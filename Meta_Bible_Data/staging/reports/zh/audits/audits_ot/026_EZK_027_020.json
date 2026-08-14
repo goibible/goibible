@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 27,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְבִגְדֵי חֹפֶשׁ' means 'in garments of freedom/loose garments' (i.e., mantles/cloaks), not '貴重的馬毯' (precious horse blankets). The Chinese adds '貴重' (precious) and '馬毯' (horse blanket) which is not in the Hebrew; the Hebrew refers to clothing, not horse blankets."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

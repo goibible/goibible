@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 11,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Eleazar son of Dodo' (בֶּן דּוֹדוֹ), but the Chinese renders '亞何雅的兒子以利亞撒' (Eleazar son of Ahoah), swapping the father's name from Dodo to Ahoah. The correct rendering should be '朵多的兒子以利亞撒'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

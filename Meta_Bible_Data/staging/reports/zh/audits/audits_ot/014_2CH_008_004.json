@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew proper name תַּדְמֹר (Tadmor) is rendered as 他瑪 (Tamar), which is a different name. The correct transliteration should be 達莫 or 他德莫."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 1,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'בִּן נוּן' (bin Nun, 'son of Nun'), but the Chinese renders it as '奴的兒子' ('son of Nu'), swapping the name 'Nun' (נוּן) for '奴' (Nu), a different name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

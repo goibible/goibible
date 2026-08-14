@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 55,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text does not contain the name '耶示瑪' (Yeshima). The verse begins with 'ישימות' (a form of 'desolations' or 'ruins'), not a personal name. The Chinese adds a name that is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

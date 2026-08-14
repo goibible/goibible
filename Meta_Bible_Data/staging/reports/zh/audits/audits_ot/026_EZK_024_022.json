@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 24,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עַל שָׂפָם לֹא תַעְטוּ' means 'you shall not cover your upper lip' (a mourning custom), but Chinese says '不可剃鬍子' (you shall not shave your beard), which changes the action from covering to shaving."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

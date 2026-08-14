@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 25,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase לַחֲמִשָּׁה עָשָׂר לִירֵמוֹת means 'to the fifteenth, to Jeremoth' (i.e., the fifteenth division/group assigned to Jeremoth), not 'on the fifteenth day of Jeremoth.' The Chinese rendering '在耶利摩的十五日' incorrectly interprets the ordinal 'fifteenth' as a day of the month and attaches it to Jeremoth as a possessive, changing the meaning from a numbered roster entry to a date."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

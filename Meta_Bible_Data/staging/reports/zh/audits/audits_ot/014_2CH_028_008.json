@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 28,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says מָאתַיִם אֶלֶף (200,000), but the Chinese renders it as 二萬 (20,000), which is a numerical error."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

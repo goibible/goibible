@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 47,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase לְזֶרַע הַשָּׂדֶה means 'for seed of the field' (i.e., seed for sowing the field), but the Chinese renders it as '田野的後裔' (descendants/offspring of the field), which changes the meaning from seed for planting to progeny/offspring."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

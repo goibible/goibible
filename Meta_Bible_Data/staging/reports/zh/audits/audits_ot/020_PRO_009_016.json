@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 9,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יָסֻר הֵנָּה' means 'let him turn aside here' (an invitation/call), not '會轉離責備呢' (would turn away from reproof). The Chinese adds '責備' (reproof) which is not in the Hebrew, and changes the sense from an invitation to a rhetorical question about turning away."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

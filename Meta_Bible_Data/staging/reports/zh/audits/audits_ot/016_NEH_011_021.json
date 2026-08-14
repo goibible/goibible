@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 11,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בָּעֹפֶל' means 'in the Ophel' (a specific location in Jerusalem), but the Chinese renders it as '城邑' (city/town), which is a different and more general place. This changes the specific location mentioned in the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

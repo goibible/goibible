@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַדֵּי' (poles/staves) is translated as '獨自' (alone/by oneself), which is a mistranslation. The correct meaning is 'poles' or 'staves' for carrying the ark/table. This changes the factual content."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

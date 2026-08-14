@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 65,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew לַטֶּבַח means 'for slaughter' (as in being killed), but Chinese renders it as '祭物' (sacrificial offering), which changes the meaning from slaughter to sacrifice."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

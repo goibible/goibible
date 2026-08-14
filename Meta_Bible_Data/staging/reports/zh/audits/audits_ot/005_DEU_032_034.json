@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 32,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כָּמֻס עִמָּדִי' means 'hidden/treasured up with me' (referring to something stored up by God), not '與我為敵' (is my enemy). The Chinese adds the concept of enmity which is not in the Hebrew. Also, 'חָתֻם בְּאוֹצְרֹתָי' means 'sealed up in my treasuries' (God's treasuries), not '封鎖我的倉庫' (blockaded my storehouses) — the subject and meaning are altered."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

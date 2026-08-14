@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 5,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּשׁוֹט לָשׁוֹן' means 'by the scourge of the tongue' (i.e., a tongue that lashes like a whip), not '用鞭子藏住舌頭' ('with a whip hide the tongue'). The verb 'תֵּחָבֵא' means 'you shall be hidden' (passive), not '藏住' (active hiding of the tongue). The subject of hiding is the person, not the tongue. Also, 'מִשֹּׁד' means 'from destruction/devastation', not '掠奪物' ('plunder/loot'). The verse says 'you shall be hidden from the scourge of the tongue, and you shall not fear destruction when it comes' — the Chinese reverses the object and subject, and mistranslates 'שֹׁד' as 'plunder' instead of 'destruction'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

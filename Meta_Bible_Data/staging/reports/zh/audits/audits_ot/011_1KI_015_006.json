@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 15,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Chinese rendering '一切一生的日子' is ungrammatical and unclear; it likely misrepresents the Hebrew 'כָּל יְמֵי חַיָּיו' (all the days of his life). The intended meaning is 'all the days of his life' (referring to Rehoboam's life), but the Chinese phrase could be misread as 'all of his life's days' without clarifying whose life, and the word '一切' (all) is awkward. More importantly, the Hebrew specifies 'his life' (singular, referring to Rehoboam), but the Chinese '一切一生的日子' does not clearly convey that it is Rehoboam's lifetime, potentially causing a reader to misunderstand the duration."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

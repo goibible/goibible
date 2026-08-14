@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 21,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָמוֹן' is a proper name 'Amon' (the son of Manasseh), but the Chinese renders it as '亞捫人' which means 'Ammonite' (a people/nationality), changing the identity of the person from the king Amon to an Ammonite."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

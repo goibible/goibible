@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 20,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶן אָמוֹץ' means 'son of Amoz' (a patronymic), but the Chinese renders it as '亞摩斯城' ('the city of Amoz'), adding '城' (city) which is not in the Hebrew and changes the meaning. It should be '亞摩斯的兒子'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

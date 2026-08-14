@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 13,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַחֲרֵשׁ תַּחֲרִישׁוּן' is an emphatic construction meaning 'you would indeed be silent' (from חָרַשׁ, 'to be silent'), not 'become deaf' (which would be חֵרֵשׁ, 'deaf'). The Chinese '成為聾子' (become deaf) misrepresents the verb as 'deaf' instead of 'silent'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 15,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כֶּרֶם זָיִת' means 'olive grove' or 'olive orchard' (vineyard of olives), not '橄欖樹的葡萄園' (grape vineyard of olive trees). The Chinese rendering conflates 'vineyard' with 'grape vineyard,' which misrepresents the olive grove."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

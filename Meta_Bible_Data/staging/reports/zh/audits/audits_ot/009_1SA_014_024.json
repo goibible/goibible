@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 14,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְאִישׁ יִשְׂרָאֵל נִגַּשׂ' means 'And the men of Israel were hard-pressed/distressed' (or 'were urged/oppressed'), not 'there was a man of Israel who came forward' (有一人前來). The Chinese adds a person coming forward that is not in the Hebrew and misrenders the verb."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

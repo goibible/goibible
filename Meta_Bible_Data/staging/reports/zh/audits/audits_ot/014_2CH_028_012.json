@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 28,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בֶּרֶכְיָהוּ בֶן מְשִׁלֵּמוֹת' is a personal name 'Berechiah son of Meshillemoth', but the Chinese renders it as '米示列母的兒子耶利哥人' ('the Jerichoite son of Meshillemoth'), introducing '耶利哥人' (Jerichoite) which is not in the Hebrew and omitting the name 'Berechiah' (בֶּרֶכְיָהוּ). This changes the identity of the person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

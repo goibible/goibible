@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 4,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew הַיֶּלֶד is masculine singular ('the boy/child'), but Chinese renders it as 那兒女 ('that child', gender-neutral or plural-sounding). This changes the gender/number of the referent."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 39,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'יַעֲלֵי סָלַע' means 'mountain goats of the rock' (i.e., wild goats/ibexes), not '雅億人母鹿' (which appears to be a mistranslation involving the name 'Jael' and deer). The Chinese adds '雅億人' (Jael's people) which is not in the Hebrew, and changes 'mountain goats' to '母鹿' (female deer), conflating with the second clause's 'אַיָּלוֹת' (deer/does)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

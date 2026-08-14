@@ -1,0 +1,22 @@
+{
+  "book": "ISA",
+  "chapter": 17,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְרֻדַּף' is a passive verb ('and he/it is chased/driven'), but the Chinese renders it as '被驅趕' (passive, correct). However, the phrase 'כְּמֹץ הָרִים לִפְנֵי רוּחַ' means 'like chaff of the mountains before the wind' — the Chinese '如同山上的糠皮在靈面前' translates 'רוּחַ' as '靈' (spirit) instead of 'wind' (風). This changes the meaning: the Hebrew refers to wind, not spirit. This is a mistranslation of a common noun."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וּכְגַלְגַּל לִפְנֵי סוּפָה' means 'and like a wheel (or whirling dust) before a storm-wind' — the Chinese '又如轎輪在曠野的風暴面前' adds '曠野的' (of the wilderness) which is not in the Hebrew. The Hebrew has no word for 'wilderness' here; it is an addition that changes the imagery."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

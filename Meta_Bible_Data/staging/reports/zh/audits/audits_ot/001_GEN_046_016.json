@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 46,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists 'עֵרִי' (Eri) as the fifth son of Gad, but the Chinese renders it as '以利' (Eli), which is a different name (Eli, not Eri). The correct transliteration should be '以利' is actually 'Eli' in Hebrew (עֵלִי), whereas 'עֵרִי' is 'Eri' (以利 is a common rendering of Eli, but here it should be '以利' could be ambiguous; however, the Hebrew name is Eri, not Eli, so this is a name swap/mistranslation)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'נ֥וֹן' (Nun) is rendered as '奴' (Nú), which is a different name. The correct transliteration should be '嫩' (Nèn) for Nun, not '奴'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

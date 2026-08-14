@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'עָרֵי הַכִּכָּר' means 'cities of the plain' (referring to the Jordan Valley/plain), but the Chinese renders it as '餅塊的城' ('cities of the cake/loaf'), which is a mistranslation of 'הַכִּכָּר' (the plain/valley) as '餅塊' (cake/loaf). This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

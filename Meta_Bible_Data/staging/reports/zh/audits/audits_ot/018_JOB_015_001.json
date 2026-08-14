@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 15,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Eliphaz the Temanite' (אֱלִיפַ֥ז הַֽתֵּימָנִ֗י), but the Chinese renders '推羅人以利法斯' which means 'Eliphaz the Tyrian' (from Tyre/推羅), not 'the Temanite' (from Teman). This swaps the ethnic/geographic designation."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

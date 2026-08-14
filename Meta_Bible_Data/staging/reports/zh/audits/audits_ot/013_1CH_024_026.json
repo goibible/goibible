@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 24,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'the sons of Jaaziah: his son' (בְּנֵי יַעֲזִיָּהוּ בְנוֹ), i.e., Jaaziah's son (singular, unnamed). The Chinese adds '比挪' (Beno), a name not present in the Hebrew text, and renders it as '雅西雅的兒子是比挪' (the son of Jaaziah is Beno), which is an addition of a name not in the source."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

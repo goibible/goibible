@@ -1,0 +1,22 @@
+{
+  "book": "DAN",
+  "chapter": 4,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּמִחַן עֲנָיִן' means 'by showing mercy to the poor/afflicted' (with 'עֲנָיִן' = 'the poor/afflicted'), but the Chinese renders it as '在亞拿雅面前受試煉' ('tested before Ananiah'), which misidentifies 'עֲנָיִן' as a proper name '亞拿雅' and adds the concept of 'being tested' not present in the Hebrew. The correct meaning is that the king's iniquities are to be atoned for by showing mercy to the poor."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מִלְכִּי יִשְׁפַּר עֲלַיִךְ' means 'let my counsel be acceptable to you' (the speaker's counsel), but the Chinese '謀士為你求告' ('the counselor prays for you') omits the first-person possessive 'my' and changes the meaning from 'my counsel' to a generic 'counselor' praying, losing the speaker's direct offer of advice."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

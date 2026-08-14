@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 8,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'חֳמָרִם חֳמָרִם' means 'heaps upon heaps' (piles of frogs, from context), not '土塊' (clods of earth). The Chinese renders it as '土塊' (soil clods), which is a mistranslation of the noun; it should be '堆' or '堆積' (heaps/piles)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 34,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'בֻּקִּי בֶּן יָגְלִי' (Bukki son of Yogli), but the Chinese renders it as '布基的兒子約格利' (Yogli son of Bukki), reversing the father-son relationship."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

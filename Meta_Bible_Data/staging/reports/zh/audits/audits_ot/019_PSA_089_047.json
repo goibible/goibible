@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 89,
+  "verse": 47,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֶה חָלֶד' means 'what is [my] life-span/mortality' (i.e., 'how fleeting is life'), but the Chinese renders it as '我這世代' ('this generation of mine'), which changes the meaning from a rhetorical question about the brevity of life to a reference to a specific generation. The interrogative 'מֶה' ('what') is not preserved as a question."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל מַה שָּׁוְא' means 'for what vanity/futility' (i.e., 'for what futility'), but the Chinese '為何為虛謊' ('why for falsehood') adds '為何' ('why') and renders 'שָּׁוְא' as '虛謊' ('falsehood') rather than 'vanity/futility', slightly altering the concept. The Hebrew has no explicit 'why' word; the 'עַל מַה' is 'for what' (a purpose clause), not 'why'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

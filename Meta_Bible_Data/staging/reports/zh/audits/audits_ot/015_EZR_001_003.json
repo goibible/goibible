@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 1,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִֽי בָכֶ֣ם מִכָּל עַמּ֗וֹ' means 'Whoever among you of all his people' (i.e., 'anyone among you who belongs to his people'), but the Chinese renders it as '誰是他們中一切百姓' ('Who is among them all the people'), which misidentifies the subject and loses the sense of 'among you' and 'his people'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

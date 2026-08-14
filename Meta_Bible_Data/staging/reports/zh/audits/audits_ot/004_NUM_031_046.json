@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 31,
+  "verse": 46,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁשָּׁה עָשָׂר אָלֶף' means 'sixteen thousand' (16,000), but Chinese says '十六萬' (160,000), multiplying the number by ten."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 14,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'סוּג לֵב' means 'one who turns away from the heart' or 'a backslider in heart' (i.e., a person whose heart is perverse/wayward), but the Chinese renders it as '使心滿足' (causes the heart to be satisfied), which misidentifies the subject and meaning. The verse contrasts the 'backslider in heart' who is filled from his own ways with the 'good man' who is filled from what is above him (or from himself, depending on interpretation). The Chinese translation incorrectly makes the subject 'he' (the backslider) and the object 'heart' satisfied, rather than the backslider being filled from his own ways."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמֵעָלָיו אִישׁ טוֹב' literally means 'and from upon him (or from above him) a good man' — i.e., a good man is filled from what is above him (or from himself, i.e., from his own good heart). The Chinese '從他的腹中，善人必賜予' renders 'from his belly, a good man will give' — this changes the meaning: the Hebrew says the good man is filled (satisfied) from what is above/upon him, not that he gives from his belly. The verb 'יִשְׂבַּע' (will be satisfied) applies to both clauses, but the Chinese adds '必賜予' (will give), which is not in the Hebrew and changes the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

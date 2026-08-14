@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 19,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּמְקוֹם הַתֹּפֶת' means 'like the place of Topheth' (a specific location, Topheth in the Valley of Hinnom), but the Chinese renders it as '像他泊那被玷污的地方' ('like Tabor, that defiled place'), substituting 'Tabor' (תָּבוֹר) for 'Topheth' (הַתֹּפֶת). This is a name swap: 'Topheth' is a proper place name, not a common noun meaning 'defiled place'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

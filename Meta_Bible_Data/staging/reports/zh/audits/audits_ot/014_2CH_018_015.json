@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 18,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew has the king saying 'I adjure you' (מַשְׁבִּיעֶךָ) — the king is making the prophet swear, not the king swearing by the LORD's name. The Chinese '我指著耶和華的名，要讓你幾次起誓' reverses the subject/object: it makes the king swear and the prophet be caused to swear, whereas the Hebrew has the king adjuring the prophet. The correct sense is 'How many times must I adjure you that you speak to me only the truth in the name of the LORD?'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

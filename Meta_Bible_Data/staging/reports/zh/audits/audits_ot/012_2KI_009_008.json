@@ -1,0 +1,22 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מַשְׁתִּין בְּקִיר' (literally 'one who urinates against a wall') is an idiom for 'every male' (i.e., all males, including those shut up and left). The Chinese renders it as '牆內的男性' ('males within the wall'), which narrows the meaning to males inside a wall, losing the idiomatic sense of 'every male' and potentially implying a different referent. This changes the factual claim from 'every male' to 'males in the wall'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְעָצוּר וְעָזוּב' (literally 'and him who is shut up and him who is left') is a merism meaning 'everyone, whether confined or free' (i.e., all males without exception). The Chinese '和在以色列被遺棄的' ('and those abandoned in Israel') renders 'עָזוּב' as 'abandoned' but omits the sense of 'עָצוּר' (shut up/confined) as a distinct category, and '被遺棄' (abandoned) is a different nuance than 'left/remaining' (עָזוּב). This loses the merism's comprehensive scope, making the claim less inclusive than the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

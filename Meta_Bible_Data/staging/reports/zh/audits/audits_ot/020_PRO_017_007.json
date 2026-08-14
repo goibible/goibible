@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 17,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׂפַת יֶתֶר' means 'excellent/lofty speech' or 'arrogant speech' (literally 'lip of excess/surplus'), not '過多的嘴唇' (excessive lips). The Chinese rendering changes the meaning from a quality of speech to a physical quantity of lips."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְנָדִיב' means 'to a noble/generous person' (from the root נדב, meaning noble, willing, princely), not '高傲人' (haughty/proud person). This swaps the subject from a noble person to a proud person, changing the verse's claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "book": "HAB",
+  "chapter": 3,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֶרְיָה תֵעוֹר קַשְׁתֶּךָ' means 'Surely bare/laid bare is your bow' (i.e., your bow is stripped/uncovered), but the Chinese '赤身露體必使你的弓顯露' adds '赤身露體' (naked body) as an agent causing the bow to be revealed, changing the subject/meaning. The Hebrew has no verb '使' (cause) and no separate 'body' concept; it is a passive/state statement about the bow."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׁבֻעוֹת מַטּוֹת אֹמֶר' means 'the oaths of the tribes, the word' (i.e., sworn oaths of the tribes/rods), but the Chinese '杖的誓言你話語細拉' renders 'מַטּוֹת' as '杖' (rod/staff) and 'אֹמֶר' as '你話語' (your words), adding '你' (your) which is not in the Hebrew, and the construct relationship is altered."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נְהָרוֹת תְּבַקַּע אָרֶץ' means 'You split the earth with rivers' (or 'rivers you cleave the earth'), but the Chinese '大地必有大河破裂' reverses the subject/object: it makes '大地' (earth) the subject and '大河' (great rivers) the object, whereas in Hebrew 'תְּבַקַּע' (you split) has an implied second-person subject (God) and 'אָרֶץ' is the object. The Chinese also adds '必' (surely) and '有' (have) not in the Hebrew."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

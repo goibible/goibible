@@ -1,0 +1,18 @@
+{
+  "book": "LEV",
+  "chapter": 24,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew specifies 'two tenths' (שְׁנֵי עֶשְׂרֹנִים) for each cake, but the Chinese says 'one tenth' (十分之一), omitting the number two."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

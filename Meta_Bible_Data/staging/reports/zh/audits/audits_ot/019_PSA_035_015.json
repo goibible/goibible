@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 35,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew וּבְצַלְעִי (from צלע, 'limping/maimed ones') is rendered as '我的肋骨' (my ribs), which is a different meaning. The Hebrew refers to 'maimed/limping people' (likely enemies), not anatomical ribs."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew נֵכִים (from נכה, 'stricken/smitten ones') is rendered as '敵人' (enemies), which is an interpretive addition; the Hebrew says 'stricken ones' (likely meaning 'wretches' or 'afflicted'), not explicitly 'enemies'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

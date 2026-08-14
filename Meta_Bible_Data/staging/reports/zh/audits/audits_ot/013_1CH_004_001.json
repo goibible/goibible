@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 4,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פֶּרֶץ' (Peretz) is a personal name, but the Chinese renders it as '裂口' (meaning 'breach/opening'), which is a translation of the word's meaning rather than a transliteration of the name. This changes the proper name into a common noun, causing a reader to misunderstand it as a description rather than a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

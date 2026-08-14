@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 30,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכָל הָעֶרֶב' (and all the mixed multitude/foreigners) is rendered as '一切阿拉伯人' (all Arabs), which is a mistranslation. 'הָעֶרֶב' means 'the mixed multitude' or 'the mingled people', not 'Arabs'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְכוּב' (and Cub) is rendered as '丘壟' (mounds/hills), which is a mistranslation. 'כוּב' is a proper name (Cub, likely a place/people), not a common noun meaning 'mound'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

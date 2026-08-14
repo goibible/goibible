@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 6,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '萬軍之主' (Lord of hosts) which is not present in the Hebrew text. The Hebrew phrase 'בְּרִבְבוֹת נַחֲלֵי שָׁמֶן' means 'with ten thousands of rivers of oil', not 'or the Lord of hosts with overflowing streams of oil'. This addition changes the meaning by introducing a title for God not in the original."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

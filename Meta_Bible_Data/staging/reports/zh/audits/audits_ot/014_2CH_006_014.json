@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 6,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּכָל לִבָּם' means 'with all their heart' (referring to the servants who walk before God). The Chinese renders it as '以一切的心' ('with all heart'), which is awkward but arguably close. However, the more significant issue is the placement: in Hebrew, 'הַהֹלְכִים לְפָנֶיךָ בְּכָל לִבָּם' means 'who walk before you with all their heart' — the phrase modifies the servants' walking. The Chinese '給你面前行走的僕人，以一切的心' separates it, making it seem like an afterthought, but the meaning is still conveyed. This is borderline. The clearer issue: 'אֵין כָּמוֹךָ אֱלֹהִים' is 'there is no God like you' — the Chinese '沒有像你這樣的神' is correct. The main flag is the rendering of 'לַעֲבָדֶיךָ הַהֹלְכִים לְפָנֶיךָ בְּכָל לִבָּם' — the Chinese '給你面前行走的僕人' is acceptable, but '以一切的心' is a literal and awkward rendering that could mislead a reader into thinking it refers to God's heart rather than the servants' wholehearted walking. This is a mistranslation of the modifier."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

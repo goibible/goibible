@@ -1,0 +1,26 @@
+{
+  "book": "PSA",
+  "chapter": 58,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַֽאֻמְנָ֗ם אֵ֣לֶם' is a rhetorical question meaning 'Do you indeed speak...?' or 'Is it true that you speak...?' The Chinese renders it as a declarative statement '會眾啊，你們要說公義' ('O assembly, you shall speak righteousness'), which changes the interrogative force to an imperative/declarative, altering the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'צֶדֶק תְּדַבֵּרוּן' means 'speak righteousness' (i.e., speak what is right/just), but the Chinese '要說公義' could be read as 'speak about righteousness' or 'speak justly'—this is acceptable, but the main issue is the loss of the rhetorical question."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵישָׁרִים תִּשְׁפְּטוּ בְּנֵי אָדָם' means 'judge uprightly, O sons of men' (i.e., judge with equity). The Chinese '審判人子時要行公義' ('when judging the sons of men, you shall act righteously') adds a temporal clause 'when judging' not present in the Hebrew, and shifts the object from 'sons of men' as those being addressed to those being judged, changing the addressee and the sense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 43,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'נְהַר כְּבָר' (the river Chebar) is rendered as '基伯城大河' (the great river of the city of Gibber/Kiber), which incorrectly adds '城' (city) and misrepresents the proper name 'Chebar' as '基伯' instead of a transliteration like '基伯河' or '迦巴魯河'. The Hebrew has no word for 'city' here."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

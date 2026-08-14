@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 10,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׂבַע קָלוֹן וּרְאֵה עָנְיִי' means 'I am full of disgrace, and see my misery' (or 'be full of disgrace and see my affliction'), addressed to God as an imperative 'see' (רְאֵה). The Chinese renders '滿眼羞辱，求你看顧我的困苦人' which adds '求你看顧' (beg you to look after) and '困苦人' (afflicted person), introducing a third-person object ('my afflicted person') not in the Hebrew. The Hebrew has 'עָנְיִי' = 'my affliction/misery' (first-person singular suffix), not '困苦人' (afflicted person). Also 'שְׂבַע' is 'full of' (adjective), not '滿眼' (full of eyes). The imperative 'רְאֵה' is 'see' (addressed to God), not '看顧' (look after/care for). This changes the meaning and adds an element not present."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

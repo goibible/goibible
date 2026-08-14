@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 34,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל מִשְׁפָּטִי אֲכַזֵּב' means 'I would lie against my judgment/right' (i.e., I would be false to my own cause), not '因我的審判，我必使他失敗' ('because of my judgment, I will cause him to fail'). The subject of 'אֲכַזֵּב' is the speaker, not an external 'him'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָנוּשׁ חִצִּי בְלִי פָשַׁע' means 'my arrow is incurable/desperate without transgression' (i.e., my wound is fatal though I am innocent), not '那無罪的，我卻以箭攻擊' ('the innocent one, I attack with arrows'). The phrase 'בְלִי פָשַׁע' modifies the speaker's condition, not an object being attacked."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

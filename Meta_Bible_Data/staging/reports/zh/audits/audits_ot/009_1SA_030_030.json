@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 30,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has three place names: חָרְמָה (Hormah), בּוֹר עָשָׁן (Bor-ashan), and עֲתָךְ (Athach). The Chinese renders '波拉珊' (Bola-shan) for בּוֹר עָשָׁן, which appears to be a transliteration of 'Bor-ashan' but with an added '拉' (la) not present in the Hebrew; more importantly, the Chinese adds '亞珊井' (Ashan well) which is not in the Hebrew text at all — the third name is עֲתָךְ (Athach), not Ashan. This is a name swap/addition: '亞珊' (Ashan) is a different place name, and '井' (well) is an addition. The correct rendering should be '亞撻' (Athach) for עֲתָךְ."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 43,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּמִפְקַד הַבַּיִת' means 'at the appointed place of the house' (i.e., the designated place outside the sanctuary), but the Chinese renders it as '在家的外面、聖所之處的數目那裡' which adds '數目' (number/count) and misinterprets 'מִפְקַד' as 'number' rather than 'appointed place' or 'designated place'. This changes the meaning from a specific designated location to a numerical count."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "LAM",
+  "chapter": 2,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בַּת עֵינֵךְ' means 'the daughter of your eye' (i.e., your eye/pupil), not '你眼中的女兒' (the daughter in your eye). The Chinese rendering '你眼中的女兒' could be misread as a literal daughter, whereas the Hebrew idiom refers to the eye itself. This changes the meaning of the final clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

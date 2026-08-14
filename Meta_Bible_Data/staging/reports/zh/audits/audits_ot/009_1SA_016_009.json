@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 16,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיַּעֲבֵר יִשַׁי שַׁמָּה' means 'And Jesse made [him] pass by' (i.e., Jesse presented another son to Samuel), not 'Jesse passed through a desolate place.' The word 'שַׁמָּה' is 'there' (adverb of place), not '荒涼之處' (desolate place). The Chinese adds a location concept not in the Hebrew and changes the action from presenting a son to passing through a place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 25,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '在瑪勒他城時' (in the city of Malta), which has no basis in the Hebrew text. The Hebrew only states 'when I was nineteen years old, to fulfill (or at the time of) my sons and brothers, twelve in number.' The place name 'Malta' is an addition not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

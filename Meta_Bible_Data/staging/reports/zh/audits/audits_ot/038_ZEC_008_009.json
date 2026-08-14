@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 8,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּיוֹם יֻסַּד בֵּית יְהוָה צְבָאוֹת הַהֵיכָל לְהִבָּנוֹת' means 'in the day that the house of Yahweh of hosts, the temple, was founded to be built' (i.e., the temple's foundation was laid for building). The Chinese renders it as '當耶和華軍隊的殿宮以建築為立定之日' which reverses the relationship: it says 'when the temple was established by building' rather than 'the temple was founded in order to be built'. This changes the meaning: the Hebrew refers to the founding of the temple as the basis for the prophetic words, not the completion of building as the founding. The Chinese phrase '以建築為立定' implies the building itself established the temple, whereas the Hebrew says the temple was founded (laid as a foundation) for the purpose of being built."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

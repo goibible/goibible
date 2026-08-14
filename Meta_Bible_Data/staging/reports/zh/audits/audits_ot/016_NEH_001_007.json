@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 1,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֲבֹל חָבַלְנוּ לָךְ' means 'we have dealt corruptly against you' or 'we have acted treacherously against you' (from the root חבל, meaning to act corruptly/destroy), but the Chinese renders it as '我們大大地得罪了你' ('we have greatly sinned against you'). While '得罪' conveys offense, the Hebrew specifically denotes corrupt/deceitful dealing, not merely sinning. The nuance of 'corruptly dealing' is lost, though the general sense of wrongdoing is preserved. This is a borderline case; the core meaning of wrongdoing is retained, so it may be acceptable. However, the emphatic doubling 'חָבַלְנוּ' (we have dealt corruptly) is rendered as '大大地' (greatly), which is a legitimate intensifier for the infinitive-absolute construction. The main issue is the semantic shift from 'corrupt dealing' to 'sinning,' which is a mild mistranslation but does not change the overall claim of wrongdoing against God."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

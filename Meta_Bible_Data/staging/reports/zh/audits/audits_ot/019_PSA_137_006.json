@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 137,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '願我的頭不再有喜樂' (may my head no longer have joy), which is not present in the Hebrew. The Hebrew has an oath formula 'if I do not remember you, if I do not raise Jerusalem above my chief joy' (implicitly, 'may my tongue stick to my palate'), but the Chinese adds a new clause about the head losing joy that has no basis in the Hebrew text."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

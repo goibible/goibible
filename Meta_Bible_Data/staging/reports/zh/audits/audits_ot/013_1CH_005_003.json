@@ -1,0 +1,22 @@
+{
+  "book": "1CH",
+  "chapter": 5,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּנֵי רְאוּבֵן' means 'sons of Reuben', not 'the tribe of Reuben' (流便支派). The Chinese adds '支派' (tribe) which is not in the Hebrew, and changes the meaning from listing Reuben's sons to describing a tribe."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חֲנוֹךְ וּפַלּוּא חֶצְרוֹן וְכַרְמִי' lists four personal names: Hanoch, Pallu, Hezron, and Carmi. The Chinese renders 'וְכַרְמִי' as '迦米人' (the Carmites), adding the plural/gentilic suffix '人' which is not in the Hebrew. The Hebrew has 'Carmi' as a personal name, not a people group."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

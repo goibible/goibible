@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 23,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'חַיֵּי שָׂרָה' means 'the life of Sarah' or 'the years of Sarah's life', but the Chinese renders it as '撒拉的活物' ('Sarah's living creatures'), which is a mistranslation. '活物' means 'living creature/animal', not 'life' or 'lifespan'. The correct rendering should be '撒拉的一生' or '撒拉的歲數'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

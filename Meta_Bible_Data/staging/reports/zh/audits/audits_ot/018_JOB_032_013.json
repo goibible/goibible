@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 32,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵל יִדְּפֶנּוּ לֹא אִישׁ' means 'God will rebuke him, not a man' (or 'God will pursue him, not a man'), i.e., it is God, not a man, who will drive him away. The Chinese renders it as '人不能勝過他，連神也不能' ('man cannot overcome him, even God cannot'), which reverses the meaning: the Hebrew says God (not man) will do the action, while the Chinese says neither man nor God can overcome him. This changes the subject and negates the divine action."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

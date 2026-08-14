@@ -1,0 +1,26 @@
+{
+  "book": "EZK",
+  "chapter": 40,
+  "verse": 43,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְהַֽשְׁפַתַּ֗יִם' means 'the ledges/shelves' (a structural feature of the altar), not '鉤的寬度' ('the width of the hooks'). The word 'טֹ֧פַח אֶחָ֛ד' means 'one handbreadth' (a measure of width), not '寬度為一掌' as a description of hooks. The subject is the ledges, not hooks."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'מוּכָנִ֥ים בַּבַּ֖יִת סָבִ֣יב סָבִ֑יב' means 'prepared in the house all around' — the Chinese '家的四圍都預備好了' omits the plural subject 'ledges' and the distributive doubling 'סָבִיב סָבִיב' (all around, all around) is rendered as '四圍' which is acceptable, but the main omission is the subject 'ledges'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶל הַשֻּׁלְחָנ֖וֹת בְּשַׂ֥ר הַקָּרְבָֽן' means 'and upon the tables the flesh of the offering' — the Chinese '並供物的肉在桌子上' is acceptable, but the first clause error already changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

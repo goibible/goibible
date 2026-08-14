@@ -1,0 +1,26 @@
+{
+  "book": "2SA",
+  "chapter": 22,
+  "verse": 30,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְכָה' means 'in/with you' (referring to God), not '在那裡' (there). The Chinese adds a location 'there' that is not in the Hebrew and changes the meaning from 'with you' to 'in that place'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אָרוּץ גְּדוּד' means 'I run/break through a troop/band' (i.e., I can charge through an enemy troop), not '我必以軍隊衝破敵陣' (I will with an army break through enemy lines). The subject is 'I' running, not 'with an army'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֲדַלֶּג שׁוּר' means 'I leap over a wall' (a wall, not a place name). The Chinese renders 'שׁוּר' as '書珥地' (the land of Shur), which is a place name, but in this verse it is the common noun 'wall' (שׁוּר). This changes the meaning from leaping over a wall to attacking the land of Shur."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

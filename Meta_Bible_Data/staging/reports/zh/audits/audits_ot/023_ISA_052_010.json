@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 52,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'זְרוֹעַ קָדְשׁוֹ' means 'His holy arm' (קָדְשׁוֹ = His holiness/holy), not '祂聖所的臂膀' (the arm of His sanctuary). The Chinese adds '聖所' (sanctuary) which is not in the Hebrew; 'קָדְשׁוֹ' is an adjective 'holy' modifying 'arm', not a noun 'sanctuary'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

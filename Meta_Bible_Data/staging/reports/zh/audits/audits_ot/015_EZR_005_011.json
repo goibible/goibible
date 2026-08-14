@@ -1,0 +1,26 @@
+{
+  "book": "EZR",
+  "chapter": 5,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'דִּי אֱלָהּ שְׁמַיָּא וְאַרְעָא' means 'of the God of heaven and earth' (God of heaven and earth), but the Chinese renders it as '天穹與地底之神' (God of the sky and the underworld), which changes the meaning: 'שְׁמַיָּא' is 'heaven(s)' and 'אַרְעָא' is 'earth', not '地底' (underworld). This alters the theological claim."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִקַּדְמַת דְּנָה שְׁנִין שַׂגִּיאָן' means 'from many years before this' (i.e., many years ago), but the Chinese '在前代產業多年以前' (before the inheritance of the former generation by many years) is unclear and adds '產業' (inheritance/possession) which is not in the Hebrew, and misrepresents the temporal phrase."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וּכְנֵמָא פִתְגָמָא הֲתִיבוּנָא לְמֵמַר' means 'And thus they answered us, saying' — the Chinese '正如這書信所答覆的' (as answered in this letter) omits the explicit 'they answered us' and adds '這書信' (this letter) which is not in the Hebrew, changing the subject of the reply."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

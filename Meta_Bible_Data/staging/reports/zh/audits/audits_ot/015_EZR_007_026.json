@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 7,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַעֲנָשׁ נִכְסִין' means 'confiscation of goods/property' (a single concept: penalty of property), but the Chinese renders it as '沒收物或財物' ('confiscated goods or property'), splitting it into two items and adding '或財物' which is not in the Hebrew. This changes the list of punishments from three (death, banishment, confiscation of property) to four (death, banishment, confiscated goods, property)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

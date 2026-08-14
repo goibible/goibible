@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 4,
+  "verse": 36,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew וִישׁוֹחָיָה (Vishochayah) is rendered as 約書亞雅 (Joshua-yah), which swaps the name; it should be something like 耶和夏雅 or 維朔雅."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

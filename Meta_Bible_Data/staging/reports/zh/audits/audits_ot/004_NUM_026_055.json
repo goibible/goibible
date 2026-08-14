@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 55,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַטּוֹת אֲבֹתָם' means 'the tribes of their fathers' (i.e., ancestral tribes), but the Chinese renders it as '父的名' (the name of the father) and '那杖' (that staff/rod), which misinterprets 'מַטּוֹת' (tribes) as 'name' and 'staff/rod'. This changes the meaning from inheriting by ancestral tribes to inheriting by a father's name and a staff."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

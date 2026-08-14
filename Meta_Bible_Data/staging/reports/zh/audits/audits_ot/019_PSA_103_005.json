@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 103,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֶדְיֵךְ' means 'your adornment/ornament' (from עדי), not a proper name '亞低'. The Chinese renders it as a transliterated name '亞低', which is a mistranslation. The phrase should be '以美物使你的裝飾滿足' or similar, meaning 'who satisfies your adornment with good things'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

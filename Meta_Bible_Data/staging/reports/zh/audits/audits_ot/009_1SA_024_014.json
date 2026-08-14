@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 24,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text has 'פַּרְעֹשׁ אֶחָד' (one flea), but the Chinese renders it as '一個帕羅書' (a 'Paroshu'), which appears to be a transliteration error or a name swap, as 'פַּרְעֹשׁ' means 'flea', not a proper name. The Chinese should be '一個跳蚤' (one flea)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

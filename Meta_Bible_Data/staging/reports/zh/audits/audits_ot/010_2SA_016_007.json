@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 16,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'Shimei' (שִׁמְעִי) as the speaker, but the Chinese renders '希瑪利人' (a Hima-li person), which is not a correct rendering of the name Shimei; it appears to be a different name or a misreading."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

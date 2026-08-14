@@ -1,0 +1,18 @@
+{
+  "book": "RUT",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'כִלְיוֹן וּמַחְלוֹן' (Chilion and Mahlon), but the Chinese renders '基利約他拿和瑪倫' — '基利約他拿' appears to be a garbled/incorrect rendering of 'כִלְיוֹן' (Chilion), introducing an extra element '他拿' not in the Hebrew name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

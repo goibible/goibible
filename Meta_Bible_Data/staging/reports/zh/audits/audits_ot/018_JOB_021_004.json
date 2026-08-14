@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 21,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הֶאָנֹכִי לְאָדָם שִׂיחִי' is a rhetorical question: 'Is my complaint to a man?' The Chinese renders it as a statement '我對人說話' (I speak to people), losing the interrogative and the nuance of 'complaint' (שִׂיחִי). Also, the second clause 'וְאִם מַדּוּעַ לֹא תִקְצַר רוּחִי' means 'and if so, why is my spirit not impatient?' (or 'why should my spirit not be short?' i.e., 'why should I not be impatient?'), but the Chinese '為何我的靈仍不發出' (why does my spirit still not emit?) misrepresents the verb 'תִקְצַר' (to be short/impatient) as '發出' (to emit), changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

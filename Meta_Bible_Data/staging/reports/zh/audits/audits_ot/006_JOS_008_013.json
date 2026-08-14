@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 8,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֶת עֲקֵבוֹ מִיָּם לָעִיר' means 'and its rear (or rearguard) toward the sea of the city' (i.e., the rear of the camp was on the west side of the city). The Chinese renders 'עֲקֵבוֹ' as '腳跟' (heel) and 'מִיָּם' as '海邊' (seaside), which is a literal but misleading translation; 'עָקֵב' here means 'rear' or 'rearguard' (a military term), and 'יָם' refers to the west (the Mediterranean Sea direction), not a generic 'seaside'. This changes the meaning: the reader would understand the camp's heel was placed at the seaside, whereas the Hebrew says the rear of the camp was to the west of the city. This is a substantive mistranslation of a key term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

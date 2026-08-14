@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 31,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew קֹדֶשׁ הִוא לָכֶם means 'it is holy to you' (a holy day/thing), but Chinese renders it as '安息日是你們的聖所' ('the Sabbath is your sanctuary'), adding the concept of 'sanctuary/place' (聖所) not present in the Hebrew, which changes the meaning from 'holy' to a physical place."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

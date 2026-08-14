@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 18,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'I will show myself to him' (אֵרָאֶה אֵלָיו), i.e., Elijah will appear to Ahab, but the Chinese says '我今日必見亞哈' ('I will surely see Ahab today'), reversing the subject/object direction: the Hebrew has Elijah appearing to Ahab, while the Chinese has Elijah seeing Ahab. This changes who is doing what to whom."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

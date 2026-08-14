@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 5,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בְּעֵבֶר הַיַּרְדֵּן' means 'beyond the Jordan' (i.e., on the other side of the Jordan), but the Chinese renders it as '以巴衛約旦河' which is unclear and appears to be a garbled or incorrect rendering; '以巴衛' does not correspond to any Hebrew word here, and the meaning 'beyond' is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

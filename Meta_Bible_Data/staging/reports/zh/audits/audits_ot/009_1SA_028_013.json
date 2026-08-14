@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 28,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the king said to her' (וַיֹּאמֶר לָהּ הַמֶּלֶךְ), but the Chinese renders it as '王對妻子說' ('the king said to his wife'), adding '妻子' (wife) which is not in the Hebrew. The woman is the medium of Endor, not the king's wife."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

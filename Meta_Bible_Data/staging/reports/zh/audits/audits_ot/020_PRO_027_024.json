@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 27,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאִם נֵזֶר לְדוֹר דור' is rendered as '冠冕也不及於世代' (crown does not reach the generation), but the Hebrew means 'and if a crown (endures) to generation after generation' or 'and a crown for generation after generation' — the Chinese adds '不及' (does not reach) which is not in the Hebrew, changing the meaning from a conditional/affirmation to a negation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

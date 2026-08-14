@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the gods of Hamath and Arpad, then the gods of Sepharvaim, Hena, and Ivvah. The Chinese renders '亞弗大城' for 'אַרְפָּד' (Arpad), which is a different place name (Aphek), not Arpad. This is a name swap."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

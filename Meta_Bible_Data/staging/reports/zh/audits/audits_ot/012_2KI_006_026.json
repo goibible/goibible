@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאִשָּׁה' means 'a woman', not 'a wife' (妻子). The Chinese '有個妻子' incorrectly specifies marital status, which is not in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 56,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל אָוֶן פַּלֶּט לָמוֹ' means 'for their iniquity, deliver them' (i.e., 'give them deliverance from their iniquity' or 'let them escape from their iniquity'), but the Chinese renders 'פַּלֶּט' (deliver/escape) as '有逃避之處' (have a place of escape) and 'אָוֶן' (iniquity) as '虛空' (emptiness/vanity), changing the meaning from deliverance from iniquity to having a refuge for vanity. This alters the verse's claim."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּאַף עַמִּים הוֹרֵד אֱלֹהִים' means 'in anger, O God, bring down the peoples' (i.e., God brings down the nations in His wrath), but the Chinese '在百姓的氣中，神使他們降下' renders 'עַמִּים' (peoples/nations) as '百姓' (common people) and 'בְּאַף' (in anger) as '在...的氣中' (in the breath/anger of), and 'הוֹרֵד' (bring down) as '使他們降下' (cause them to come down), which is close but the subject/object relationship is slightly obscured; however, the main issue is the first clause."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 68,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רִבֹּתַ֣יִם אַלְפֵ֣י שִׁנְאָ֑ן' means 'twice ten thousand, thousands of Shinan' (i.e., 'myriads, thousands of Shinan' – Shinan is a place name, likely referring to Sinai or a region). The Chinese renders 'אַלְפֵ֣י שִׁנְאָ֑ן' as '千個天使長' (thousands of archangels), adding '天使長' (archangels) which is not in the Hebrew, and misidentifies 'שִׁנְאָ֑ן' as a number/description rather than a proper name. This changes the meaning: the Hebrew speaks of myriads and thousands of Shinan (a place), not of archangels."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'שִׁנְאָ֑ן' (Shinan) is a proper place name, but the Chinese translates it as part of a phrase '千個天使長' (thousands of archangels), effectively dropping the place name and substituting a different concept."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

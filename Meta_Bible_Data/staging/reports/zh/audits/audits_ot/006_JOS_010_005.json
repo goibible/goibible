@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֶֽלֶךְ לָכִ֣ישׁ' means 'king of Lachish', but the Chinese renders it as '拉吉城門王' ('king of the gate of Lachish'), adding '城門' (gate) which is not in the Hebrew and changes the title."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

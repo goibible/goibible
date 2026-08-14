@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 9,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לַחֶרֶס' (la-cheres) means 'to the sun' (חרס = sun), not 'to pottery/陶器'. The Chinese renders it as '陶器' (pottery), which is a mistranslation of the noun."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

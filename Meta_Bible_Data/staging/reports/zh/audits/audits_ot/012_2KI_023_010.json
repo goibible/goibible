@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 23,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text refers to 'הַתֹּפֶת' (Topheth), a place name, but the Chinese renders it as '他泊山谷' (Tabor Valley), which is a different place name (Tabor). The correct rendering should be '陀斐特' (Topheth)."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

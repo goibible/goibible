@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 26,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'two and fifty thousand and seven hundred' (52,700), but the Chinese says '二萬五千七百' (25,700), reversing the tens and units of the number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

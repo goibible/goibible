@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 22,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Eliphaz the Temanite' (אֱלִיפַ֥ז הַֽתֵּמָנִ֗י), but the Chinese renders '推羅人' (Tyrian/from Tyre), which is a different ethnic/geographic designation. The correct rendering should be '提幔人以利法' (Eliphaz the Temanite)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

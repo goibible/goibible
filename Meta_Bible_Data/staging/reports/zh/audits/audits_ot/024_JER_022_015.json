@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 22,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְתַחֲרֶה בָאָרֶז' means 'vying/competing in cedar' (i.e., striving for cedar for building), not '爭著吃雪松' ('vying to eat cedar'). The Chinese adds '吃' (eat), which is not in the Hebrew and changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

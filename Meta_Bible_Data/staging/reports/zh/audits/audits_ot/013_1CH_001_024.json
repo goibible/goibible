@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שֵׁם אַרְפַּכְשַׁד שָׁלַח' means 'the name of Arpachshad, Shelah' (i.e., Arpachshad's son was Shelah). The Chinese renders '閃、亞法撒、沙拉' which lists 'Shem, Arpachshad, Shelah' as three separate names, adding 'Shem' (not in the Hebrew) and misrepresenting the relationship. The Hebrew has only two names: Arpachshad and Shelah, with Shelah as the son of Arpachshad."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

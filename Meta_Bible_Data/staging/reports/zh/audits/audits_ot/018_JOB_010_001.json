@@ -1,0 +1,22 @@
+{
+  "book": "JOB",
+  "chapter": 10,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּחַיָּי' means 'in my life' or 'while I live', not '活物' (living creatures). The Chinese mistranslates this as 'living creatures'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׂיחִי' means 'my complaint' or 'my meditation', not '我的言語' (my words/speech). The Chinese rendering changes the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

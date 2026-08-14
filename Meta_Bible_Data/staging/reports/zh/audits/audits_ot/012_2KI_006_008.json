@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּוָּעַץ אֶל עֲבָדָיו לֵאמֹר' means 'he took counsel with his servants, saying' (i.e., he consulted/planned with them), but the Chinese '對他的僕人出謀劃策說' renders it as 'he gave counsel/plans to his servants, saying,' reversing the direction of the counsel (from the king to his servants rather than with them). This changes who is doing the advising."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

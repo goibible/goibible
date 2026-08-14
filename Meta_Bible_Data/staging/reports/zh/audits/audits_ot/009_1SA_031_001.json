@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 31,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is הַגִּלְבֹּעַ (Gilboa), but the Chinese renders it as 基列波阿斯山, which appears to be a conflation of Gilboa with the name 波阿斯 (Boaz). The correct transliteration should be 基利波山 or 基爾博亞山."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

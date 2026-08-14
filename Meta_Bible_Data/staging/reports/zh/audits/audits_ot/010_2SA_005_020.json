@@ -1,0 +1,18 @@
+{
+  "book": "2SA",
+  "chapter": 5,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is בַּעַל פְּרָצִים (Baal Perazim), but the Chinese renders it as 巴力·巴拉薛姆 (Baal Balaxue), which appears to be a different name (possibly a transliteration of a different Hebrew term). The correct transliteration should be 巴力·毗拉心 or similar, not 巴拉薛姆."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

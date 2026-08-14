@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 36,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אֵילוֹן' is a personal name (Elon), not '樹林' (forest/grove). The Chinese renders 'בַּת אֵילוֹן הַֽחִתִּ֔י' as '赫人以倫樹林的女兒' which incorrectly adds '樹林' (forest) to the name Elon, changing the proper name into a place/landscape term."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

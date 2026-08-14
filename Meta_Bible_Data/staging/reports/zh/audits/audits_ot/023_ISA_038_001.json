@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 38,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'יְשַׁעְיָהוּ בֶן אָמוֹץ' means 'Isaiah son of Amoz' (a personal name, Amoz). The Chinese renders it as '以賽亞兒子亞摩斯城' which reads 'Isaiah son of Amoz city' — adding '城' (city) after '亞摩斯' (Amoz), making it appear that Amoz is a city rather than a personal name. This is an addition that changes the proper name's referent."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

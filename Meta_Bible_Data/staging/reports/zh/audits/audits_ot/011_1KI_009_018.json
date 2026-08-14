@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 9,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has בַּעֲלָ֛ת (Baalath) and תָּמָר (Tamar). The Chinese renders בַּעֲלָ֛ת as '巴亞勒他' (Ba-ya-le-ta), which appears to add an extra syllable '他' (ta) not present in the Hebrew name. The correct transliteration should be '巴亞勒' (Ba-ya-le) or similar, without the extra '他'. This changes the proper name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

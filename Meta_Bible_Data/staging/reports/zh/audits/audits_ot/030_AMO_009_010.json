@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 9,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹֽא תַגִּ֧ישׁ וְתַקְדִּ֛ים בַּעֲדֵ֖ינוּ הָרָעָֽה' means 'do not bring near, and do not hasten/precipitate, the evil upon us' (i.e., 'do not bring the evil near us, do not hasten it upon us'). The Chinese renders it as '不要靠近，免得你在我們面前帶來惡事' ('do not come near, lest you bring evil before us'), which changes the subject and meaning: in Hebrew, the speakers are telling others not to bring evil upon them, not warning about their own approach. The Chinese adds '免得' (lest) and shifts the action to the speaker's proximity, altering the sense."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

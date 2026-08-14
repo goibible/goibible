@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 7,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'אַךְ הָקֵם הֵקִימוּ אֶת הַשֹּׁמְרִים' means 'they had just set up the watchmen' (i.e., the guards had just been posted), but Chinese '只起來使守望者醒起' says 'only arose to wake the watchmen', changing the meaning from 'setting/stationing guards' to 'waking them up'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

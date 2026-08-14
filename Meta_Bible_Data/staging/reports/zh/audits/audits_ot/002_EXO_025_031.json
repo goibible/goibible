@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 25,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew כַּפְתֹּרֶיהָ means 'its knobs/capitals' (ornamental knobs on the lampstand), but Chinese renders it as 門楣 ('lintel/door frame'), which is a different object not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

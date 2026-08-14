@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 4,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'בֶּן דֶּקֶר' is a proper name 'Ben-deker' (son of Deker), not '德迦之子' (son of Dega). The name 'דֶקֶר' is transliterated as 'Deker', not 'Dega'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

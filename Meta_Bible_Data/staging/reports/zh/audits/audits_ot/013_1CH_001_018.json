@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אַרְפַּכְשַׁד (Arpachshad) is rendered as 以法朔達, which is an incorrect transliteration; the standard Chinese rendering is 亞法撒 or 亞法撒德. The name 以法朔達 does not correspond to the Hebrew."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

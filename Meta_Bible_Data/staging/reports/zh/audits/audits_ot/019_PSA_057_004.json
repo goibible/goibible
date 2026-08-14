@@ -1,0 +1,22 @@
+{
+  "book": "PSA",
+  "chapter": 57,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּֽנֵי אָדָ֗ם' means 'sons of men' (i.e., people/humans), but Chinese renders it as '發熱的人' (feverish people), which is not the meaning. The Hebrew word 'לֹהֲטִים' is a participle meaning 'burning' or 'blazing' (referring to the lions in the previous phrase), not 'feverish people'. The phrase 'בְּֽנֵי אָדָ֗ם' is a separate construct phrase meaning 'sons of men' and is not connected to 'לֹהֲטִים' as 'feverish people'. The Chinese translation conflates and misrenders this, changing the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שִׁנֵּיהֶם' means 'their teeth', but Chinese renders it as '他們的象牙' (their ivory). 'Ivory' is not in the Hebrew text; it is an addition that changes the image from teeth to ivory tusks."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

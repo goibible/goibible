@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 11,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is מֵי מֵרוֹם ('waters of Merom'), but the Chinese renders it as '米珥瑪姆山水' which appears to be a garbled/incorrect transliteration (adding 瑪姆 and 山), not matching the standard name '米倫水' or '米倫湖'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

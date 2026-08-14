@@ -1,0 +1,22 @@
+{
+  "book": "HAB",
+  "chapter": 2,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַסֵּכָה וּמוֹרֶה שָּׁקֶר' means 'a cast image and a teacher of lies' (or 'a molten image and a teacher of falsehood'), but the Chinese renders it as '那作為虛謊之幔子' ('that serves as a veil of falsehood'), which misidentifies the cast image as a 'veil' (幔子) rather than a 'cast/molten image' (鑄像) and a 'teacher of lies' (虛謊的教師). This changes the meaning of the clause."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'כִּי בָטַח יֹצֵר יִצְרוֹ עָלָיו' means 'for the maker trusts in his own work' (i.e., the craftsman trusts in the thing he has made), but the Chinese says '匠人竟倚靠自己的心志' ('the craftsman relies on his own mind/will'), which changes the object of trust from the crafted idol to the craftsman's own intention, altering the meaning."
+        }
+      ],
+      "confidence": 0.85
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 11,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וְעַל חֶמְדַּת נָשִׁים' means 'the desire of women' (i.e., the object of women's desire, often understood as a reference to a deity or idol women cherish), not '妻子的寶物' (wife's treasure). The Chinese rendering narrows 'women' to 'wife' and changes 'desire' to 'treasure,' altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 6,
+  "verse": 17,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֵדֹתָיו' (His testimonies/statutes) is rendered as '會眾' (assembly/congregation), which is a mistranslation. 'עֵדֹת' means 'testimonies' or 'decrees', not 'assembly'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

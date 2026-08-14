@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 33,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הָאֲשֵׁרִים' refers to Asherah poles (wooden cultic objects), not '樹林' (forests/groves). The Chinese rendering '樹林' misrepresents the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

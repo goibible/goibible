@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 3,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says 'בְּעֵבֶר הַיַּרְדֵּן' (beyond the Jordan), but the Chinese adds '以巴衛的' (of the Abarim?) before '約旦河' (Jordan). '以巴衛' is not in the Hebrew; it appears to be an addition or a misplacement of a name (possibly 'Abarim' or similar), changing the location description."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

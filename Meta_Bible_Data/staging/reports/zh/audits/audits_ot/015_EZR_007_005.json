@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 7,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Aaron the chief priest' (אַהֲרֹן הַכֹּהֵן הָרֹאשׁ), i.e., Aaron was the chief priest. The Chinese renders it as '以利亞撒是祭司長亞倫的兒子' (Eleazar was the son of Aaron the chief priest), which changes the relationship: it makes Eleazar the son of Aaron (correct) but the phrase '祭司長亞倫' (Aaron the chief priest) is fine; however, the issue is the Chinese adds '以利亞撒是' (Eleazar was) and rephrases the final clause, potentially implying that Eleazar, not Aaron, is the chief priest. The Hebrew structure is a chain: 'son of Abishua, son of Phinehas, son of Eleazar, son of Aaron the chief priest.' The Chinese should read '亞倫的兒子，祭司長' or similar, but the addition of '以利亞撒是' introduces a new subject and could mislead. This is an addition and a potential mistranslation of the apposition."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

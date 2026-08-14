@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 103,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נַפְשִׁי' means 'my soul' or 'my being', not '大衛的性命' (David's life). The psalm is addressed by David, but the phrase is first-person 'my soul', not a third-person reference to David."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

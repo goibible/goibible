@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עֶשְׂרִים וְאַרְבָּעָה אָלֶף' means 'twenty-four thousand' (24,000), but the Chinese renders it as '二十四萬人' (240,000), multiplying the number by ten."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

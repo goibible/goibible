@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 28,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מֵאָה וְעֶשְׂרִים אֶלֶף' means 'one hundred and twenty thousand' (120,000), but the Chinese renders it as '一百二萬人' which means 'one million two hundred thousand' (1,200,000). The number is incorrect."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

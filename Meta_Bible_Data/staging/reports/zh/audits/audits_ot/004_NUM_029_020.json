@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 29,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'עַשְׁתֵּי עָשָׂר' = eleven bulls, but Chinese says '十二隻公牛' (twelve bulls)."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

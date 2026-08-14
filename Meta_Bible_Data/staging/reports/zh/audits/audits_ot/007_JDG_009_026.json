@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 26,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name גַּעַל (Gaal) is rendered as 贖, which is a different name/word; the correct transliteration should be 迦勒 or 迦亞勒. This changes the personal name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

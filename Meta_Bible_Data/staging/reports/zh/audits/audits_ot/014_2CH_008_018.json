@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 8,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'חוּרָם' (Huram) is rendered as '戶珥' (Hu'er), which is a different name. The correct transliteration should be '戶蘭' (Huran) or similar, not '戶珥'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

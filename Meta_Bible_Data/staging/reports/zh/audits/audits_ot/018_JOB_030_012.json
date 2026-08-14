@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 30,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִּרְחַח' (from פָּרַח, 'to bud/flourish') refers to 'scoundrels' or 'base fellows' (literally 'blossoms' as a metaphor for worthless people), not '少年人' (youths). The Chinese rendering changes the meaning from 'worthless/scoundrel people' to 'young people'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

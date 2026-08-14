@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 7,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'גֻּלֹּת הַכֹּתָרֹת' means 'bowls of the capitals' (i.e., bowl-shaped capitals), but Chinese renders '樓頂各有碗' ('each has a bowl on the roof top'), which misidentifies the capitals as 'roof tops' and adds '各有' (each has) not in the Hebrew. The Hebrew says there are two pillars and two bowls of the capitals on top of the pillars, not that each pillar has a bowl on a roof."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

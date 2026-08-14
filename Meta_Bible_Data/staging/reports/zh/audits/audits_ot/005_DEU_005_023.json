@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 5,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'כָּל רָאשֵׁי שִׁבְטֵיכֶם' means 'all the heads of your tribes', but Chinese renders '一切的杖' ('all the staffs/rods'), which misidentifies 'heads' (leaders) as 'staffs' (objects). This changes the meaning from tribal leaders to physical staffs."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

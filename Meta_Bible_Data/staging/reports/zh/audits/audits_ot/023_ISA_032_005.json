@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 32,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּלְכִילַ֕י לֹ֥א יֵֽאָמֵ֖ר שֽׁוֹעַ' means 'and to the miserly/scoundrel it will not be said noble/generous' (i.e., the miserly will not be called noble). The Chinese renders '也不再論惡人說哀號' which says 'nor will they speak of the wicked as wailing/lamenting' — this changes the meaning: 'כִילַי' (miserly/scoundrel) is mistranslated as '惡人' (wicked), and 'שׁוֹעַ' (noble/generous) is mistranslated as '哀號' (wailing/lamentation). The verse's claim is altered: the Hebrew says the miserly will not be called noble, but the Chinese says the wicked will not be spoken of as wailing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

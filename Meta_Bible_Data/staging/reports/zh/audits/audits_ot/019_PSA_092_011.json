@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 92,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'בְּשׁוּרָי' means 'upon my enemies' (from שׁוּר, 'enemy'), not '書珥地' (a place name 'Shur'). The Chinese renders it as a geographical location, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

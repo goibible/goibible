@@ -1,0 +1,22 @@
+{
+  "book": "PRO",
+  "chapter": 21,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַשְׂכִּיל צַדִּיק לְבֵית רָשָׁע' means 'The righteous one considers/understands the house of the wicked' (i.e., the righteous discerns/observes the wicked's household), but the Chinese adds '留心看顧' (carefully looks after/attends to), implying care or provision, which is not in the Hebrew. The verb 'מַשְׂכִּיל' (Hiphil of שׂכל) means 'to give insight, to act wisely, to consider'—not 'to look after' in a caring sense. This changes the meaning from discernment/observation to active care."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The second clause 'מְסַלֵּף רְשָׁעִים לָרָע' means 'but the wicked one perverts/overthrows [the righteous] to evil' (i.e., the wicked leads the righteous into evil), but the Chinese renders '但惡人反被惡人敗壞' ('but the wicked are instead corrupted by the wicked'), which reverses the subject and object. The Hebrew subject is 'רְשָׁעִים' (wicked, plural) acting on something (likely the righteous, implied), not the wicked being acted upon. The Chinese makes the wicked the recipients of corruption, which is the opposite of the Hebrew's meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

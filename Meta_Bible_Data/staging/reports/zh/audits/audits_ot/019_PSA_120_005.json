@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 120,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name מֶשֶׁךְ (Meshech) is rendered as '瑪士撒克' (Methuselah), which is a different name. The correct transliteration should be '米設' or '瑪設'."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

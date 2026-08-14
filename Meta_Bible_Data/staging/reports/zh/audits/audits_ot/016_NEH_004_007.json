@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 4,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'הָאַשְׁדּוֹדִים' (the Ashdodites), but the Chinese renders it as '亞實基倫人' (the Ashkelonites), swapping the place name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

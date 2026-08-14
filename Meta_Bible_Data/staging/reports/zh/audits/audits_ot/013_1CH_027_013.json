@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 27,
+  "verse": 13,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says מַהְרַי הַנְּטוֹפָתִי (Mahrai the Netophathite) of the Zerahites (לַזַּרְחִי). The Chinese renders '尼陀法人瑪哈萊，屬謝拉族' — this is correct for Mahrai and Netophathite, but '屬謝拉族' (belongs to the Zerahites) is correct. However, the Hebrew phrase 'לַזַּרְחִי' is 'of the Zerahite' (singular), and the Chinese '屬謝拉族' is acceptable. The issue is that the Chinese adds '第十班' (the tenth division) which is not in the Hebrew; the Hebrew only says 'the tenth month, the tenth [division]' — the word 'division' is implied but not stated. This is a minor addition, but the main issue is the name: the Hebrew has 'מַהְרַי' (Mahrai), and the Chinese '瑪哈萊' is a reasonable transliteration. The real problem is that the Hebrew says 'הָעֲשִׂירִי לַחֹדֶשׁ הָעֲשִׂירִי' — 'the tenth for the tenth month' — and the Chinese says '第十月的第十班' which is fine. However, the Hebrew does not mention '謝拉族' (Zerahites) — wait, it does: 'לַזַּרְחִי' means 'of the Zerahite'. So that is correct. The issue is the addition of '第十班' — but that is implied. Actually, the main flag is that the Hebrew says 'מַהְרַי' and the Chinese '瑪哈萊' is fine. Let me re-evaluate: the Hebrew text is 1 Chronicles 27:13, which says 'the tenth, for the tenth month, was Mahrai the Netophathite, of the Zerahites; and in his division were 24,000.' The Chinese matches this. The only possible issue is that '第十班' is an addition, but it is implied by 'the tenth' in context. So this should be OK. However, I notice the Hebrew has 'לַזַּרְחִי' which is 'of the Zerahite' — the Chinese '屬謝拉族' is correct. The translation is faithful. I will change to OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

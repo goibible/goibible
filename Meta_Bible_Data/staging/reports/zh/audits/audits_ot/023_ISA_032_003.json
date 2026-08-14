@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 32,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'the eyes of those who see will not look, and the ears of those who hear will listen' (or 'will be attentive'). The Chinese renders the second clause as '耳朵也必聽不見' (ears will not hear), which reverses the meaning: the Hebrew has the ears listening/being attentive, not failing to hear. This changes the claim of the verse."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

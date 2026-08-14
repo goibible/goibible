@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 27,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְרֹחַב חֲמִשִּׁים בַּחֲמִשִּׁים' means 'and the width fifty by fifty' (i.e., fifty cubits on each side, or a square of fifty), but the Chinese renders it as '寬是五十肘，又是五十肘' ('width is fifty cubits, and again fifty cubits'), which is a mistranslation of the distributive 'בַּחֲמִשִּׁים' (fifty by fifty). The Chinese adds an extra '又是五十肘' that misrepresents the Hebrew as stating the width twice rather than expressing a fifty-by-fifty dimension."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

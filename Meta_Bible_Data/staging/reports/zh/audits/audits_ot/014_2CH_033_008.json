@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 33,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'אֶת רֶגֶל יִשְׂרָאֵל מֵעַל הָאֲדָמָה אֲשֶׁר הֶעֱמַדְתִּי לַאֲבֹתֵיכֶם' means 'the foot of Israel from the land which I have appointed for your fathers' — the land is appointed for the fathers, not 'from the land established by your fathers' (從你們父所立的田地). The Chinese rendering reverses the relationship: it says the land was established by the fathers, whereas the Hebrew says God appointed it for the fathers."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְהַחֻקִּים וְהַמִּשְׁפָּטִים' lists three items: 'the Torah, the statutes, and the judgments' (律法、律例、典章). The Chinese renders '律法、律法與審判' — the second item 'חֻקִּים' (statutes/律例) is omitted and replaced by a repetition of '律法' (Torah). This is a substantive omission of a distinct legal category."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

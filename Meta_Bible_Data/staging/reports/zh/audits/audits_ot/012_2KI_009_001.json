@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'רָמֹת גִּלְעָד' (Ramoth-gilead), but the Chinese renders it as '基列的基列拉末' (Gilead's Gilead-ramoth), which duplicates 'Gilead' and misplaces the name. The correct rendering should be '基列的拉末' (Ramoth of Gilead) or '基列拉末' (Ramoth-gilead), not '基列的基列拉末'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

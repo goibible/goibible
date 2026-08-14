@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 7,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'seventeen thousand two hundred' (שִׁבְעָה עָשָׂר אֶלֶף וּמָאתַיִם = 17,200), but Chinese says '十七萬二千' (172,000), an error of a factor of ten."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

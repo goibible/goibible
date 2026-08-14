@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 2,
+  "verse": 32,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'צַר מָעוֹן' means 'an enemy of your dwelling' or 'a foe in your habitation' (referring to a person who is an adversary in your house), not '以惡眼看待居所' ('look with an evil eye at the dwelling'). The Chinese renders 'צַר' as 'evil eye' (惡眼) and 'מָעוֹן' as '居所' (dwelling), but the Hebrew phrase is a construct chain meaning 'enemy of your habitation' — a person, not an action of looking. This changes the meaning: the Hebrew says 'you will look at an enemy in your dwelling' (i.e., you will see an adversary in your household), whereas the Chinese says 'you will look with an evil eye at the dwelling.'"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

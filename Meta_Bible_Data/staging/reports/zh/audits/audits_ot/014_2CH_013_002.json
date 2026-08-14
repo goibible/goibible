@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 13,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name אֲבִיָּה (Abijah) is rendered as 亞比亞, but the standard Chinese rendering for this king is 亞比雅. However, the more significant issue is that the Hebrew text says he reigned three years (שָׁלוֹשׁ שָׁנִים), which is correctly rendered as 三年. The name 亞比亞 is a minor transliteration difference, not a factual error. The main issue is the rendering of גִּבְעָה as 小山丘人 (hill person), which is a place name (Gibeah) and should be transliterated as 基比亞, not translated as a common noun. This changes the proper name into a descriptive term, which is a name_swap/mistranslation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

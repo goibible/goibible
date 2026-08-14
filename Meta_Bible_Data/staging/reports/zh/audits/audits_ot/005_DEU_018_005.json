@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 18,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מִכָּל שְׁבָטֶיךָ' means 'from all your tribes' (i.e., the tribes of Israel), but the Chinese renders it as '從你一切杖中' ('from all your staffs/rods'), which is a mistranslation of 'שְׁבָטֶיךָ' (tribes) as '杖' (staff/rod). This changes the meaning from tribal selection to an object."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

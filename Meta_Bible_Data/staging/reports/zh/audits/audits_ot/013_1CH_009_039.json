@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 9,
+  "verse": 39,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַלְכִּי שׁוּעַ' is a personal name 'Malki-shua' (the son of Saul), but the Chinese renders it as '米基書雅人' which adds '人' (person/people), making it sound like an ethnic or regional designation rather than a personal name. This changes the meaning for a Chinese reader."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

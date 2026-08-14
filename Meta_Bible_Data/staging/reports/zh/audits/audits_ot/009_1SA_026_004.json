@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 26,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'נָכוֹן' (Nakon) is a place name, but the Chinese renders it as '拿轄' (Nahash), which is a different name. This swaps the place name for a personal name, changing the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 21,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is יָבֵשׁ גִּלְעָד (Jabesh-gilead), but the Chinese renders it as '約別士人的基列居民' (the Gilead inhabitants of the people of Yabesh?). The name '約別士' appears to be a garbled or incorrect rendering of 'Jabesh' (יָבֵשׁ), and the phrase '基列居民' (Gilead inhabitants) misplaces the construct relationship: the Hebrew means 'the inhabitants of Jabesh-gilead' (יֹשְׁבֵי יָבֵשׁ גִּלְעָד), not 'Gilead inhabitants of the people of Yabesh'. This changes the identity of the target."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

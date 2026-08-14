@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 17,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְתִקְוָתִי מִי יְשׁוּרֶנָּה' means 'and my hope—who can see it?' (or 'who can behold it?'), not 'who can defend my hope?' The verb 'יְשׁוּרֶנָּה' (from שׁוּר, 'to see/behold') is rendered as '辯護' (defend), which changes the meaning from perception/visibility to advocacy."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

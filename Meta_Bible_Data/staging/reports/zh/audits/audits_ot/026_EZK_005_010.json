@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 5,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לְכָל רֽוּחַ' means 'to every wind' (i.e., scatter to all directions), but the Chinese renders it as '到一切靈那裏' ('to every spirit'), which changes the meaning from a physical scattering to the winds to a spiritual destination. This is a mistranslation of 'רוּחַ' (wind) as '靈' (spirit)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

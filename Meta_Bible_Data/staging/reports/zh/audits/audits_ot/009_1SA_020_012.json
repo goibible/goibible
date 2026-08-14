@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 20,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '願神重重懲罰我' (may God severely punish me), which is an oath formula not present in the Hebrew text. The Hebrew only states 'וְלֹא אָז אֶשְׁלַח אֵלֶיךָ וְגָלִיתִי אֶת אָזְנֶךָ' (and if I do not send to you, I will reveal it to your ear), without any self-imprecation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

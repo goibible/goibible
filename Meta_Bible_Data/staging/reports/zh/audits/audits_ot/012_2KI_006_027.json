@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 6,
+  "verse": 27,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיֹּאמֶר אַל יוֹשִׁעֵךְ יְהוָה מֵאַיִן אוֹשִׁיעֵךְ' is a rhetorical question: 'And he said, "
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

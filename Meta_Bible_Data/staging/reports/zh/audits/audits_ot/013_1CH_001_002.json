@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '瑪哈列以利勒生了雅列' (Mahalalel fathered Jared), which is not present in the Hebrew text. The Hebrew only states 'Kenan fathered Mahalalel' (קֵינָ֥ן מַהֲלַלְאֵ֖ל יָֽרֶד), with no mention of Jared."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 4,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נִקְיוֹן שִׁנַּיִם' means 'cleanness of teeth' (i.e., famine, lack of food), not '象牙潔淨' (ivory cleanliness). The Chinese rendering '象牙潔淨' introduces an incorrect concept of ivory, which is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

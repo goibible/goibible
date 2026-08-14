@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 29,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַגּוֹלָה' means 'the exile' or 'the exiles' (people), not '擄掠物' (plunder/loot). The Chinese translation incorrectly renders it as 'plunder' instead of 'exiles'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

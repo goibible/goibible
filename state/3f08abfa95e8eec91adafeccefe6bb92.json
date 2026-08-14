@@ -1,0 +1,24 @@
+{
+  "schema": "roughroad-state",
+  "version": "1",
+  "harnessVersion": "0.1.0",
+  "profileId": "deepseek-v4-flash-0731",
+  "profileVersion": "0.1.0",
+  "sessionId": "019ffb40-3739-7c52-b234-24ed19061e2b",
+  "checkpointNumber": 55,
+  "monitor": {
+    "compaction": {
+      "kind": "ready"
+    },
+    "lastAssistantSignature": null,
+    "lastProgressFingerprint": null,
+    "lastToolActivitySignature": null,
+    "repeatedAssistantTurns": 0,
+    "repeatedSemanticTurns": 0,
+    "repeatedToolArguments": 0,
+    "terminalClaims": 0,
+    "staleToolTurns": 0,
+    "interventionsThisRun": 0,
+    "seenNoveltyKeys": []
+  }
+}

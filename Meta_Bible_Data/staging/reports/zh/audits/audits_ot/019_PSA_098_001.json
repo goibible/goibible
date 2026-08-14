@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 98,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הוֹשִׁיעָה לּוֹ יְמִינוֹ וּזְרוֹעַ קָדְשׁוֹ' means 'His right hand and His holy arm have worked salvation for Him' (i.e., the LORD's own right hand and holy arm accomplished salvation for Him, not for others). The Chinese '祂的右邊和聖所的臂膀帶來了拯救' renders '祂的右邊' (His right side) instead of '祂的右手' (His right hand), and '聖所的臂膀' (the arm of the sanctuary) instead of '祂的聖臂' (His holy arm), changing the meaning from God's own holy arm to an arm associated with the sanctuary. Also, the Hebrew 'לּוֹ' (for Him) is omitted, and the sense that these are God's own instruments is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

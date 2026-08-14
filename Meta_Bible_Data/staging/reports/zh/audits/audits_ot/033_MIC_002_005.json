@@ -1,0 +1,18 @@
+{
+  "book": "MIC",
+  "chapter": 2,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'מַשְׁלִיךְ חֶבֶל בְּגוֹרָל' means 'one who casts a measuring line by lot' (i.e., one who receives an inheritance/allotment by lot). The Chinese renders it as '以繩索投擲米籤' ('casting rice lots with a rope'), which misrepresents the meaning: 'חֶבֶל' is a measuring line/cord, not a rope for throwing, and 'גוֹרָל' is a lot (for casting), not '米籤' (rice sticks). The sense of inheritance allotment is lost."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

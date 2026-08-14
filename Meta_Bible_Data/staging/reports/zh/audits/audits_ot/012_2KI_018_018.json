@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 18,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'וַיֵּצֵא אֲלֵהֶם' means 'and he went out to them' (singular, referring to Eliakim), but the Chinese renders it as '都出來到他們那裡' ('all came out to them'), making it plural and including Shebna and Joah as subjects of the verb. The Hebrew has only Eliakim going out; Shebna and Joah are listed as additional officials but not as the ones who went out."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

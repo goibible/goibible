@@ -1,0 +1,18 @@
+{
+  "book": "JOL",
+  "chapter": 2,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'לִפְנֵי בּוֹא יוֹם יְהוָה' means 'before the coming of the day of the LORD', but the Chinese renders it as '在耶和華那偉大可畏的日子來到之前的面' which awkwardly adds '的面' (the face of) at the end, implying 'the face of the day' rather than simply 'before the coming of the day'. This addition changes the meaning and is not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 63,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name 'הַתִּרְשָׁתָא' (ha-Tirshata, the governor) is rendered as '提斯他' (Tisita), which is not a standard transliteration of 'Tirshata' and could be confused with a different name. The expected rendering would be '提斯哈他' or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 20,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבָבֶ֣ל תָּב֗וֹא' means 'and you will come to Babylon' (you, Pashhur, will go to Babylon). The Chinese '巴比倫必來到' reverses the subject/object, making Babylon come to you, which changes who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

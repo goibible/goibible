@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 8,
+  "verse": 33,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַבְּעָלִים' (the Baals) is plural, referring to the Canaanite deities collectively, but the Chinese renders it as '主人' (masters/lords), which loses the specific reference to the Baal idols and changes the meaning. The correct rendering should be '巴力們' or '諸巴力'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "EZK",
+  "chapter": 37,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהֶעֱבִירַנִי עֲלֵיהֶם סָבִיב סָבִיב' means 'He caused me to pass over/around them all around' (God leading the prophet around the bones). The Chinese '我便使我在他們四圍的人中間四圍經過' says 'I caused myself to pass among the people around them all around', which changes the subject (God causing the prophet, not the prophet causing himself) and adds '人' (people) not in the Hebrew."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'עַל פְּנֵי הַבִּקְעָה' means 'on the face of the valley/plain' (referring to the bones being on the surface of the plain). The Chinese '平原上的面積極其廣闊' says 'the area of the plain is extremely vast', which changes the meaning from bones lying on the plain to the plain's area being large, and omits the bones as the subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

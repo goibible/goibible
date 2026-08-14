@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew text does not mention '人從城中上來' (people coming up from the city). The Hebrew says 'וְהָאִישׁ מִהַר וַיָּבֹא וַיַּגֵּד לְעֵלִי' — 'and the man hurried and came and told Eli.' The Chinese adds '從城中上來' (came up from the city), which is not in the Hebrew. This is an addition of a location detail not present in the source."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

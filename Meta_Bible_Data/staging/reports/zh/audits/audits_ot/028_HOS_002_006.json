@@ -1,0 +1,22 @@
+{
+  "book": "HOS",
+  "chapter": 2,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew בַּסִּירִים means 'with thorns' (plural of סִיר, thorn/bramble), not 'with pots' (鍋子). The Chinese '鍋子' is a mistranslation of the noun."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew גְּדֵרָהּ refers to 'her wall' (the wall of the woman/path), not 'your sheepfold' (羊圈). The Chinese '你的羊圈' adds 'your' and changes the referent from 'her wall' to 'your sheepfold'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

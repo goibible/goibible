@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 33,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name 'פִּי הַחִירֹת' (Pi Hahiroth) is rendered as '比哈羅提', which is a different transliteration; the standard Chinese rendering is '比哈希錄' or similar. More importantly, the Hebrew 'מִגְדֹּל' (Migdol) is a place name and should be transliterated as '密奪' or '米各奪', not translated as '米格多' which is a different name. The Chinese '米格多' corresponds to 'Megiddo', not 'Migdol'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

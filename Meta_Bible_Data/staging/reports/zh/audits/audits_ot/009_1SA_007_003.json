@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 7,
+  "verse": 3,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְהָעַשְׁתָּרוֹת' refers to the Ashtaroth (Ashtoreth idols/goddesses), but the Chinese renders it as '阿實突女神廟' (temple of the goddess of Ashdod), which introduces a place name (Ashdod) not present in the Hebrew and changes the meaning from the idols/Ashtaroth to a specific temple."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

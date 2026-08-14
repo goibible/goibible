@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 24,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׂמָתְהוּ' (she placed it) has the feminine subject referring to the city (her), and the object 'it' refers to the blood. The Chinese '她被放在' (she was placed) changes the subject to the blood/city being placed, and makes it passive, altering who is doing the action. The Hebrew says the city placed the blood on a bare rock, not that she was placed there."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

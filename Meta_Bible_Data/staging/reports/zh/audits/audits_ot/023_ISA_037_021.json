@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 37,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'Isaiah son of Amoz' (יְשַׁעְיָהוּ בֶן אָמוֹץ), but the Chinese renders it as '以賽亞兒子亞摩斯城' which reads 'Isaiah son of Amoz city' — the word '城' (city) is an addition not in the Hebrew, and the construct chain is misparsed, making it appear that Amoz is a city rather than a person. This changes the identity of the sender."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

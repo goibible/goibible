@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 10,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'נֹשֵׂ֥א כֵלָ֖יו' means 'his armor-bearer' (the one carrying his weapons/armor), not '自己所拿的器皿之主' ('the master of the vessel he was carrying'). The Chinese rendering misidentifies the subject as 'the master of the vessel' rather than the armor-bearer, changing who is acting and the relationship to Saul."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

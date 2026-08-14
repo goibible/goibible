@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 11,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'וְנָתַן יְהוָה אוֹתָם לְפָנָי' — 'and Yahweh gives them before me' (before me, i.e., Jephthah). The Chinese renders it as '交在你們面前' — 'before you' (plural). This changes the person from first-person singular (me) to second-person plural (you), altering who receives the victory."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "JER",
+  "chapter": 34,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הָעֵגֶל' means 'calf' (young bull), not '公牛' (bull). This is a lexical difference that could affect the reader's understanding of the animal's age/size, though it's a minor semantic shift."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְנָתַתִּי' ('and I will give/deliver') is rendered as '我必將...分為兩部分' which adds the verb '分為' (divide into) not present in the Hebrew; the Hebrew says 'I will give the men... the calf which they cut in two' — the subject of cutting is the men, not God. The Chinese rendering '他們所鑄造的公牛分為兩部分' makes it sound like the calf was divided by the men (which is correct), but the initial '我必將' (I will) is awkwardly attached, potentially implying God divides it. The Hebrew structure: 'I will give the men... the calf which they cut in two' — God gives the men (as punishment), and the calf is the one they cut. The Chinese '我必將那些...他們所鑄造的公牛分為兩部分' could be read as God dividing the calf, which is a mistranslation of who does the dividing."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'these are the names of the men whom Moses sent to spy out the land' (אֲשֶׁר שָׁלַח מֹשֶׁה לָתוּר אֶת הָאָרֶץ). The Chinese renders '摩西奉派去窺探那地之人' which reads as 'the men whom Moses was sent to spy out the land' — this reverses the subject/object, making Moses the one sent rather than the sender. The correct meaning is that Moses sent the men."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

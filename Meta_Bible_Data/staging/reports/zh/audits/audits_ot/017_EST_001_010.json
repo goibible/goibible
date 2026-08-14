@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 1,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists the seven eunuchs as מְהוּמָן (Mehuman), בִּזְּתָא (Biztha), חַרְבוֹנָא (Harbona), בִּגְתָא (Bigtha), וַאֲבַגְתָא (Abagtha), זֵתַר (Zethar), וְכַרְכַּס (Carcas). The Chinese renders them as 米胡曼 (Mehuman), 比色他 (Biztha), 哈博拿 (Harbona), 比大雅 (Bigtha? — '比大雅' is a different name, likely 'Bidya' or 'Bedaiah', not 'Bigtha'), 阿巴加 (Abagtha), 撒他勒 (Zethar? — '撒他勒' is not 'Zethar', which should be '西達' or similar), 迦各斯 (Carcas). The fourth name '比大雅' does not match 'בִּגְתָא' (Bigtha), and the sixth '撒他勒' does not match 'זֵתַר' (Zethar). These are name swaps/errors."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

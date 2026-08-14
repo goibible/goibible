@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 32,
+  "verse": 41,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name יָאִיר (Yair) is rendered inconsistently: first as 雅伊珥, then as 雅伊爾. The second occurrence should match the first (雅伊珥) for consistency, though this is a transliteration variation rather than a different name."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew חַוֺּת יָאִיר means 'the towns of Yair' (or 'Havvoth-yair'), but the Chinese renders it as '雅伊爾的哈沃特人' (the Havvoth people of Yair), adding '人' (people) which is not in the Hebrew. The Hebrew phrase refers to the towns themselves, not the people."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

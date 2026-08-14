@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מְיָֽרְאִ֤ים אוֹתָ֨נוּ֙' means 'they are frightening us' (they are intimidating us), but the Chinese says '他們都害怕我們' which means 'they are all afraid of us' — the subject/object of the fear is reversed. The Hebrew has them fearing us (making us afraid), not them being afraid of us."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

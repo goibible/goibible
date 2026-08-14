@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 13,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'פִים' (pim) is a unit of weight/currency, not '口' (mouth). The phrase 'הַפְּצִירָה פִים' means 'the pim (a fixed weight) for the mattocks/ploughshares', i.e., a set price/weight for sharpening. The Chinese '石匠的口' (stone mason's mouth) misinterprets 'פִים' as 'mouth' and adds '石匠' (stone mason) which is not in the Hebrew. This changes the meaning from a price/weight for tools to an unrelated phrase."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

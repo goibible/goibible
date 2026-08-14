@@ -1,0 +1,18 @@
+{
+  "book": "PRO",
+  "chapter": 22,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'שלשום' (shilshom) means 'three days ago' or 'formerly' (a time adverb), not 'three things' (三件事). The Chinese renders it as '三件事' (three things), which is a mistranslation of the word. The correct sense is 'Have I not written to you formerly/three days ago...'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 29,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הַדָּמִין יִתְעֲבֵד וּבַיְתֵהּ נְוָלִי יִשְׁתַּוֵּה' means 'shall be cut in pieces, and their houses shall be made a dunghill' (i.e., the offender and his house). The Chinese renders only '必將他扔進烈火的糞堆中' ('will throw him into the fiery dung heap'), which conflates the two punishments: it omits the dismemberment ('cut in pieces') and misplaces the 'dunghill' as a fiery place of execution rather than the destruction of the house. This changes the factual content of the decree."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וּבַיְתֵהּ נְוָלִי יִשְׁתַּוֵּה' ('and his house shall be made a dunghill') is entirely omitted; the Chinese only mentions throwing the person into a fiery dung heap, losing the separate punishment on the house."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

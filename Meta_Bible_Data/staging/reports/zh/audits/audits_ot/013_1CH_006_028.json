@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 6,
+  "verse": 28,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text says the sons of Samuel are 'the firstborn וַשְׁנִי (Vashni) and אֲבִיָּה (Abijah)', but the Chinese renders the firstborn as '約珥 (Joel)'. This is a name swap: 'וַשְׁנִי' is not 'Joel' but 'Vashni' (or possibly a textual variant, but the Hebrew as given has Vashni, not Joel). The Chinese adds '約珥' which is not in the Hebrew text provided."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שָׂמוּ שָׁמִיר' means 'they made their heart adamant/flint' (i.e., hard, stubborn), but the Chinese renders 'שָׂמוּ' as '轉向' (turned toward) and 'שָׁמִיר' as '瑪珥石' (a specific stone name), which changes the meaning from 'set their heart as flint (hard)' to 'turned their heart toward a stone', altering the sense of stubbornness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

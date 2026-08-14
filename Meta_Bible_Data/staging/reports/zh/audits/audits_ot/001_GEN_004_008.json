@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 4,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The proper name הֶבֶל (Abel) is rendered as '虛空' (emptiness/vanity) instead of a transliteration of the name Abel (亞伯). This changes the proper name and would mislead a Chinese reader into thinking the brother is called 'Vanity'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

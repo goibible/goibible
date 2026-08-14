@@ -1,0 +1,18 @@
+{
+  "book": "HOS",
+  "chapter": 7,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'אַיְסִרֵם' (I will discipline/correct them) is rendered as '召集' (gather/assemble), which changes the meaning. The Hebrew verb means to discipline or chastise, not to gather."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "book": "DAN",
+  "chapter": 3,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew lists specific instruments: קרנא (horn), משרקיתא (pipe/flute), קיתרס (lyre), שבכא (harp), פסנתרין (trigon/psaltery), סומפוניה (bagpipe/dulcimer). The Chinese renders '麻布' (linen cloth) for 'שַׂבְּכָא' (sabka, a harp/trigon), which is a mistranslation — '麻布' means 'linen' or 'sackcloth', not a musical instrument. This changes the meaning of the list."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew has 'וְכֹל זְנֵי זְמָרָא' (and all kinds of music), which the Chinese renders as '和一切種類樂器的聲音' (and all kinds of musical instrument sounds). The word '聲音' (sound) is added, but the phrase 'all kinds of music' is essentially preserved; however, the specific instrument 'שַׂבְּכָא' is mistranslated as '麻布', which is a substantive error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

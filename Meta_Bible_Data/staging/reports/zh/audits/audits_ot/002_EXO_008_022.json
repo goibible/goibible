@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 8,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew עָרֹב means 'swarms of flies' (or a mixed swarm), not '蝗蟲' (locusts). This changes the specific plague described."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

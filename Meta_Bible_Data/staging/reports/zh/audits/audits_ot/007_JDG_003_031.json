@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 3,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name שַׁמְגַּר (Shamgar) is rendered as 沙麥加, which is a different name (Shamaijia) rather than the standard transliteration 珊迦 or 沙姆加. This could lead a reader to identify the wrong person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

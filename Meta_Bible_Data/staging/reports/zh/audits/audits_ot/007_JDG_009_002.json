@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 9,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew says 'seventy men' (שִׁבְעִים אִישׁ), but Chinese renders '七十二個人' (seventy-two men). The number is wrong."
+        },
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew has 'Jerubbaal' (יְרֻבַּעַל), but Chinese renders '耶路巴設' (Jerubbesheth), a different name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

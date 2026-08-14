@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 9,
+  "verse": 1,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "比利士人 should be 比利洗人 (Perizzite, הַפְּרִזִּי); 比利士 is a different name (Philistine)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

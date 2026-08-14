@@ -1,0 +1,18 @@
+{
+  "book": "JDG",
+  "chapter": 13,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'הַמִּזְבֵּחַ הַשָּׁמַיְמָה' means 'from the altar toward heaven' (the altar on earth, flame going up to heaven). The Chinese renders it as '從天上的祭壇' ('from the altar in heaven'), which changes the location of the altar from earth to heaven, altering the meaning."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

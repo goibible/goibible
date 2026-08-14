@@ -1,0 +1,18 @@
+{
+  "book": "NAM",
+  "chapter": 3,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'תִּשְׁכְּרִ֔י' means 'you will become drunk' (from שׁכר), not 'you will be employed/hired' (which would be from שׂכר). The Chinese '被雇用' (be employed) is a mistranslation of the verb, changing the meaning from drunkenness to employment."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ECC",
+  "chapter": 12,
+  "verse": 11,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew בַּעֲלֵי אֲסֻפּוֹת means 'masters of collections' (i.e., collections of sayings), not '主人在會集中' ('the master in the assembly'). The Chinese adds '主人' (master) and '會集' (assembly) which are not in the Hebrew; the phrase refers to the sayings being like nails driven by the masters of collections (or 'the masters of assemblies' as a possible reading, but '主人' is an unwarranted addition and '會集' misrenders אֲסֻפּוֹת as 'assembly' rather than 'collections')."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

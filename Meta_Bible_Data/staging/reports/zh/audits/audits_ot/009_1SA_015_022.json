@@ -1,0 +1,22 @@
+{
+  "book": "1SA",
+  "chapter": 15,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'הַחֵפֶץ לַֽיהוָה' means 'Does YHWH delight' (a rhetorical question), but the Chinese renders it as a statement '耶和華喜悅' without the interrogative force. This changes the verse from a rhetorical question to a declarative statement."
+        },
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '心意歸向祂' (heart turns to Him), which has no basis in the Hebrew text. The Hebrew only says 'Does YHWH delight in burnt offerings and sacrifices as in obeying the voice of YHWH?' The added phrase introduces a concept not present in the original."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

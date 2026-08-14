@@ -1,0 +1,18 @@
+{
+  "book": "1SA",
+  "chapter": 6,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew place name is בֵּית שֶׁמֶשׁ (Beth Shemesh), but the Chinese renders it as 別是梅沙城, which appears to be a different name (possibly confusing with Beersheba)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

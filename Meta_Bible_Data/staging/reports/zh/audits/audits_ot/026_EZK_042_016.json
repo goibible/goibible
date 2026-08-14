@@ -1,0 +1,18 @@
+{
+  "book": "EZK",
+  "chapter": 42,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'five cubits' (חֲמֵשׁ אמות) with the measuring reed, but the Chinese says '五百竿' (five hundred reeds), changing the number from five to five hundred."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

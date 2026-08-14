@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 1,
+  "verse": 50,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says Mehetabel was the daughter of Matred, daughter of Me-zahab (בַּת מַטְרֵד בַּת מֵי זָהָב). The Chinese renders '是米薩合的孫女、瑪特列的女兒' (granddaughter of Me-zahab, daughter of Matred), which reverses the genealogy: it makes her the granddaughter of Me-zahab and daughter of Matred, whereas the Hebrew states she is the daughter of Matred and granddaughter of Me-zahab. This swaps the generational order of the two names."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

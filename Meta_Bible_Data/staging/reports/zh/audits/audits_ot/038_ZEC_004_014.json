@@ -1,0 +1,18 @@
+{
+  "book": "ZEC",
+  "chapter": 4,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְנֵֽי הַיִּצְהָ֑ר' means 'sons of the oil' (i.e., sons of fresh oil, referring to the two anointed ones), but the Chinese renders it as '膏油的兩個兒子' which is correct in meaning. However, the issue is that the Hebrew 'הַיִּצְהָ֑ר' is 'the fresh oil' (יִצְהָר), not '膏油' (anointing oil) — the Chinese adds '膏' (anointing) which is not in the Hebrew; the Hebrew word is simply 'oil' (fresh oil). This is a minor addition but does not change the core meaning. The main issue is the omission of 'אֵ֖לֶּה' (these) — the Chinese says '這些' which is correct. Actually, re-evaluating: the Chinese '膏油' is a common rendering for 'oil' in context, and '這些是膏油的兩個兒子' accurately conveys 'these are the two sons of the oil'. The phrase '站在全地主人面前' correctly renders 'הָעֹמְדִ֖ים עַל אֲד֥וֹן כָּל הָאָֽרֶץ' (standing before the Lord of all the earth). The only potential issue is that 'אֲד֥וֹן' is 'Lord/master' and '全地主人' is 'master of all the earth' — this is fine. However, the Hebrew has 'אֵ֖לֶּה' (these) as the subject, and the Chinese '這些' is correct. The translation is essentially faithful. But note: the Hebrew 'בְנֵֽי הַיִּצְהָ֑ר' literally 'sons of the oil' — the Chinese '膏油的兩個兒子' adds '兩個' (two) which is not in the Hebrew; the Hebrew says 'two sons' (שְׁנֵי בְנֵי) — actually 'שְׁנֵי' means 'two of', so 'two sons' is correct. So the translation is accurate. The only minor issue is '膏油' vs '油' — but this is stylistic. Therefore, verdict should be OK. However, I flagged because '膏油' implies anointing oil, which is a specific type, whereas Hebrew 'יִצְהָר' is fresh/olive oil, but in context it refers to the anointed ones, so it's acceptable. I'll change to OK."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

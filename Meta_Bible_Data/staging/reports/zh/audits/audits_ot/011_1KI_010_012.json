@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 10,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew מִסְעָד (mis'ad) means 'a support/railing' or 'a step/terrace' (likely a balustrade or railing), but the Chinese renders it as 欄杆 ('railing'), which is acceptable. However, the Hebrew also mentions the almug wood was used for the house of YHWH and the house of the king, and for lyres and harps for the singers. The Chinese says '王用檀香木為耶和華殿和王宮做欄杆，又為歌唱者做琴瑟' — this is fine. The issue is the final clause: Hebrew 'לֹא בָא כֵן עֲצֵי אַלְמֻגִּים וְלֹא נִרְאָה עַד הַיּוֹם הַזֶּה' means 'such almug wood has not come, nor has it been seen, to this day' — i.e., no more such wood has arrived or been seen. The Chinese '這樣的檀香木直到今日沒有再來，也未曾見過' says 'such almug wood until today has not come again, nor has it been seen' — this is essentially correct. The main issue is that the Hebrew says the king made 'a support' (מִסְעָד) for the temple and palace, but the Chinese adds '欄杆' (railing) which is a plausible interpretation, not an error. However, the Hebrew also says 'וְכִנֹּרוֹת וּנְבָלִים לַשָּׁרִים' — 'and lyres and harps for the singers' — the Chinese renders '又為歌唱者做琴瑟' (also made lyres and harps for the singers), which is correct. The potential flag is that the Hebrew says 'the king made' (וַיַּעַשׂ הַמֶּלֶךְ) — the subject is the king, and the Chinese says '王用' (the king used), which is fine. Actually, re-reading, the Chinese seems accurate. The only possible issue is that 'מִסְעָד' is rendered as '欄杆' (railing) — this is a reasonable translation. The final clause is correct. So perhaps this should be OK. But the instruction says to flag only if a Chinese reader would believe something factually different. The Chinese is essentially faithful. However, the Hebrew says 'לֹא בָא כֵן עֲצֵי אַלְמֻגִּים' — 'such almug wood has not come' — the Chinese '沒有再來' adds '再' (again), implying it had come before and not come again, but the Hebrew just says 'has not come' (i.e., no such wood has come since). This is a minor nuance, not a factual difference. So I'll mark OK. But wait — the Hebrew says 'מִסְעָד' which is often translated as 'a support' or 'a railing' — the Chinese '欄杆' is fine. The verse is 1 Kings 10:12 (or 2 Chronicles 9:11). The Chinese is accurate. I'll mark OK."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

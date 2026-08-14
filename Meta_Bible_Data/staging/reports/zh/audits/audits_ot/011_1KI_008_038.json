@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 8,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew phrase 'אֲשֶׁ֤ר תִֽהְיֶה֙ לְכָל הָ֣אָדָ֔ם' ('which shall be for every man') is not explicitly rendered; the Chinese says '就是以色列百姓中每個人' ('that is, every person among the people of Israel'), which omits the general 'every man' (all mankind) and narrows it to Israel only, though the Hebrew includes both 'every man' and 'all your people Israel'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

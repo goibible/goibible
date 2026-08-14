@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 21,
+  "verse": 23,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּעֶצֶם תֻּמּוֹ' means 'in the very fullness/strength of his prosperity' (עֶצֶם = bone/strength/essence, תֻּמּוֹ = his completeness/prosperity), not 'in the completeness of his bones' (骸骨的完全). The Chinese renders 'עֶצֶם' as 'bones' (骸骨) rather than 'strength/essence', changing the meaning from dying in the midst of prosperity to dying in bodily completeness."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

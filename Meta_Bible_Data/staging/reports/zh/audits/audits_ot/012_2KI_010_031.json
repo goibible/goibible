@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 10,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לֹא שָׁמַר לָלֶכֶת בְּתוֹרַת יְהוָה... בְּכָל לְבָבוֹ' means 'did not take heed to walk in the law of the LORD... with all his heart.' The Chinese '全心偏離' ('with all his heart turned away') adds the concept of 'turning away' that is not in the Hebrew; the Hebrew says he did not walk with all his heart, not that he turned away with all his heart. This changes the claim."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "ISA",
+  "chapter": 49,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew phrase כָּעֲדִי (ka'adi, 'as an ornament/adornment') is rendered as '亞低般' (a transliteration that appears to be a name, 'Adi-ban'), which is not a proper name in the Hebrew. The correct meaning is 'as an ornament' or 'like a jewel/adornment,' not a personal name. This changes the sense from a simile of adornment to a misidentified entity."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

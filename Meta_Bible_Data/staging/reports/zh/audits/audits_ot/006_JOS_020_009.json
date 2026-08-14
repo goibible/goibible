@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 20,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'עָרֵי הַמּֽוּעָדָה' means 'cities of refuge' (designated refuge cities), not '節期城' (festival cities). The word 'מוּעָדָה' here is from the root 'יעד' meaning 'appointed/designated' (refuge), not 'festival' (which would be 'מוֹעֵד' in a different sense). This changes the meaning for a Chinese reader."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

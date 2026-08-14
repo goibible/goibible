@@ -1,0 +1,18 @@
+{
+  "book": "PSA",
+  "chapter": 26,
+  "verse": 2,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'בְּחָנֵנִי' (test me) is rendered as '求你恩待我' (please be gracious to me), which changes the meaning from testing/examining to showing favor. The correct rendering should be '求你考驗我' or '求你察驗我'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

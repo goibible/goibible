@@ -1,0 +1,22 @@
+{
+  "book": "NUM",
+  "chapter": 23,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew text does not mention Balaam (巴蘭) at all; it says 'he took him to the field of Zophim' (וַיִּקָּחֵהוּ שְׂדֵה צֹפִים). The Chinese adds '田野的巴蘭' (Balaam of the field), which is an addition of a name not present in the Hebrew. The subject of the verb is implicit ('he'), and the location is 'the field of Zophim' (שְׂדֵה צֹפִים), not 'the field of Balaam'."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'שְׂדֵה צֹפִים' means 'field of Zophim' (a place name), but the Chinese renders it as '田野的巴蘭' (the field of Balaam), which misidentifies the place name as a person's name and changes the meaning."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

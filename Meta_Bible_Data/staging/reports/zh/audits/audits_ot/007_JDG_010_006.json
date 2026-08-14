@@ -1,0 +1,22 @@
+{
+  "book": "JDG",
+  "chapter": 10,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיַּעַבְדוּ אֶת הַבְּעָלִים וְאֶת הָעַשְׁתָּרוֹת' means 'they served the Baals and the Ashtaroth' (the Canaanite deities Baal and Ashtoreth). The Chinese renders this as '事奉主人和阿實突女神廟' ('served the master and the temple of the goddess of Ashdod'), which misidentifies 'Baals' as '主人' (master) and 'Ashtaroth' as '阿實突女神廟' (temple of the goddess of Ashdod). This changes the proper names and adds 'temple' not in the Hebrew, altering the meaning."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וְאֵת אֱלֹהֵי בְנֵי עַמּוֹן' means 'and the gods of the sons of Ammon' (i.e., the Ammonites). The Chinese renders this as '亞捫人的兒子的神' ('the gods of the sons of the Ammonite people'), which reverses the construct relationship, making it 'sons of the Ammonites' instead of 'sons of Ammon' (Ammonites). This is a minor but factual shift in the proper name/construct chain."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

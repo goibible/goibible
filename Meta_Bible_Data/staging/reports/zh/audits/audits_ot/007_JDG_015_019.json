@@ -1,0 +1,13 @@
+{
+  "book": "JDG",
+  "chapter": 15,
+  "verse": 19,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "OK",
+      "issues": [],
+      "confidence": 5.0
+    }
+  }
+}

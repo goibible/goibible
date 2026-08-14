@@ -1,0 +1,18 @@
+{
+  "book": "NUM",
+  "chapter": 13,
+  "verse": 10,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'לְמַטֵּה זְבוּלֻן' means 'of the tribe of Zebulun' (a tribal/clan designation), but the Chinese renders '支派的杖' ('staff/rod of the tribe'), adding '杖' (staff/rod) which is not in the Hebrew and changes the meaning. The correct rendering should be '西布倫支派' or '屬西布倫支派'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

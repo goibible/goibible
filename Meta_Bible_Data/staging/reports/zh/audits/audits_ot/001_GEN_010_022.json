@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "verse": 22,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has אַרְפַּכְשַׁד (Arpachshad), but the Chinese renders it as 以法朔達, which appears to be a different name (possibly a transliteration of a different Hebrew name). The correct Chinese transliteration for Arpachshad should be 亞法撒 or similar."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 16,
+  "verse": 4,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew phrase 'הַמֵּת לְבַעְשָׁא' means 'the one who dies of Baasha' (i.e., belonging to Baasha, his people/followers), not '為巴沙而死的' ('those who die for Baasha'). The Chinese rendering implies dying on behalf of Baasha, whereas the Hebrew indicates those who die as Baasha's people (his household or followers). This changes the meaning of who is being referred to."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

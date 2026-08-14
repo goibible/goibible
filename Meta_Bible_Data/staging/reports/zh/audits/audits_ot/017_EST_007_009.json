@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 7,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says the tree is 50 cubits (חֲמִשִּׁים אַמָּה), but the Chinese renders it as 五十五肘 (55 cubits), changing the number."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

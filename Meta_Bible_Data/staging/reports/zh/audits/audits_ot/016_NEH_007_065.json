@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 7,
+  "verse": 65,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name 'הַתִּרְשָׁתָא' (the Tirshatha, a title for the governor) is rendered as '提斯他' (Tishta), which appears to be a transliteration error or name swap; the standard rendering should be '提斯哈他' or '省長' (governor)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

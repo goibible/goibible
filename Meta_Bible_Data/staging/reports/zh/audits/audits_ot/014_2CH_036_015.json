@@ -1,0 +1,22 @@
+{
+  "book": "2CH",
+  "chapter": 36,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וַיִּשְׁלַח ... עֲלֵיהֶם בְּיַד מַלְאָכָיו' means 'He sent [word] to them by His messengers' (i.e., He sent prophets/messengers to them), but the Chinese '藉著自己的天使屢次伸手差遣他們' renders '祂藉著自己的天使差遣他們' — making the messengers the agents who are sent, and '他們' (them) the object of sending, which reverses the direction: in Hebrew, the messengers are the means by which YHWH sends to the people (the people are the recipients, not the ones sent). This changes who is doing what to whom."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'הַשְׁכֵּם וְשָׁלוֹחַ' (literally 'rising early and sending') is an emphatic idiom meaning 'sending persistently/again and again'. The Chinese '屢次伸手差遣' captures the repetition but adds '伸手' (stretch out hand) which is not in the Hebrew, and the phrase 'עֲלֵיהֶם' ('upon/against them') is not explicitly rendered; the Chinese says '差遣他們' (send them) rather than 'send to them'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

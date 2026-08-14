@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 37,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "Hebrew 'בְּנֵי אִמֵּר' means 'sons of Immer' (a priestly family name), but Chinese renders it as '以末利的兒子' ('sons of Yimoli'), which swaps the name 'Immer' for a different name 'Yimoli' (以末利). The correct transliteration should be '音麥' or similar for 'Immer'."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

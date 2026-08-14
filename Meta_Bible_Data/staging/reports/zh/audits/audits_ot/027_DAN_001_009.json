@@ -1,0 +1,18 @@
+{
+  "book": "DAN",
+  "chapter": 1,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּֽלְרַחֲמִים' means 'and compassion/mercy', but the Chinese renders it as '肚腸' (intestines/bowels), which is a mistranslation of the concept of mercy/compassion."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

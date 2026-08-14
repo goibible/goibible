@@ -1,0 +1,18 @@
+{
+  "book": "2KI",
+  "chapter": 14,
+  "verse": 8,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says Jehoash son of Jehoahaz son of Jehu, but the Chinese says '約雅敬的兒子' (son of Jehoiakim), which is a different name (Jehoiakim instead of Jehoahaz)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

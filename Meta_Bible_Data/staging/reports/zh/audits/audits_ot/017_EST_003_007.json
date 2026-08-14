@@ -1,0 +1,18 @@
+{
+  "book": "EST",
+  "chapter": 3,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew states the lot was cast 'before Haman' (לִפְנֵי הָמָן), but the Chinese says '哈曼在面前抽籤' which could be read as 'Haman cast lots in front of [someone]' — the subject/object relationship is ambiguous and the phrase '在面前' lacks the explicit object 'Haman' as the one before whom the lot was cast. More importantly, the Hebrew says the lot was cast 'in the presence of Haman' (i.e., before Haman), not that Haman himself cast it. The Chinese rendering '哈曼在面前抽籤' makes Haman the subject who casts the lot, which reverses who is doing the action. This changes the meaning: in Hebrew, the lot is cast before Haman (likely by others or as a ritual), whereas the Chinese implies Haman is the one casting."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

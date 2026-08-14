@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 19,
+  "verse": 34,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'נַשְׁקֶנּוּ יַיִן' means 'let us make him drink wine' (give him wine to drink). The Chinese '用酒類使他喝醉' adds '使他喝醉' (make him drunk), which is an interpretive addition; the Hebrew only says 'make him drink wine' without explicitly stating the purpose of drunkenness in this clause."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

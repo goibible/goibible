@@ -1,0 +1,26 @@
+{
+  "book": "ISA",
+  "chapter": 30,
+  "verse": 16,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew subject is second-person plural ('you said'), but the Chinese renders it as third-person feminine plural ('她們卻說'). This changes who is speaking."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'נָנוּס' (we will flee) is first-person plural, but the Chinese renders it as second-person plural ('你們必騎馬逃竄'), changing the subject from 'we' to 'you'."
+        },
+        {
+          "kind": "number_person_tense",
+          "detail": "The Hebrew 'נִרְכָּב' (we will ride) is first-person plural, but the Chinese renders it as second-person plural ('你們必騎輕騎的馬'), again changing the subject."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

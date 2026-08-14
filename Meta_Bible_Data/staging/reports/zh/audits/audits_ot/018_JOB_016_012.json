@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 16,
+  "verse": 12,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וַיְקִימֵנִי לוֹ לְמַטָּרָה' means 'He set me up as His target' (i.e., a mark for His arrows), but the Chinese renders it as '祂為我設立監獄' ('He established a prison for me'), which introduces the concept of a prison not present in the Hebrew and omits the meaning of being set as a target."
+        }
+      ],
+      "confidence": 0.95
+    }
+  }
+}

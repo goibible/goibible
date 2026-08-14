@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 2,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew phrase 'בְּנֵי עֵילָם אַחֵר' means 'the sons of Elam, another' (i.e., another Elam, a different group), but the Chinese renders '以攔人的兒子亞設爾' which introduces the name '亞設爾' (Asher?) not present in the Hebrew, and misrepresents 'אַחֵר' (another) as a personal name."
+        }
+      ],
+      "confidence": 1.0
+    }
+  }
+}

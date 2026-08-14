@@ -1,0 +1,18 @@
+{
+  "book": "JOB",
+  "chapter": 27,
+  "verse": 6,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'מִיָּמָי' means 'from my days' i.e. 'in all my days' / 'all my life', but Chinese '從我日中' reads as 'from my days' literally, which is awkward; more importantly, the Hebrew 'לֹא יֶחֱרַף לְבָבִי' means 'my heart will not reproach/taunt me' (i.e. my heart will not condemn me), but Chinese '我的心必不從我日中蒙羞' renders it as 'my heart will not be put to shame from my days', changing the subject/action: Hebrew has the heart as the agent of reproach, Chinese makes the heart the object of shame. This alters who is doing what."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 41,
+  "verse": 9,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew says 'Gedaliah' (גְּדַלְיָהוּ), but the Chinese renders it as '耶大亞' (Yeda'ya), which is a different name. The correct transliteration should be '基大利' (Gedaliah)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

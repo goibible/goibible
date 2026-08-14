@@ -1,0 +1,18 @@
+{
+  "book": "EXO",
+  "chapter": 40,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '取水' (take water) which is not in the Hebrew; the Hebrew only says 'wash from it' (וְרָחֲצוּ מִמֶּנּוּ), meaning 'wash from it' (the basin), not 'take water from it'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

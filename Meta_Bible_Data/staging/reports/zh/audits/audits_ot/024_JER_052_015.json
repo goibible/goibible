@@ -1,0 +1,18 @@
+{
+  "book": "JER",
+  "chapter": 52,
+  "verse": 15,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew 'וְאֵת יֶתֶר הָאָמוֹן' means 'and the rest of the multitude/people' (הָאָמוֹן = the multitude/rabble), but Chinese renders it as '剩下的工匠' (the remaining craftsmen/artisans). 'אָמוֹן' does not mean 'craftsman' (that would be 'חָרָשׁ' or similar); it means a crowd/multitude. This changes the meaning of the verse."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

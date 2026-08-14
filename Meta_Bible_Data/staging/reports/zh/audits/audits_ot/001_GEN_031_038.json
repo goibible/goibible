@@ -1,0 +1,18 @@
+{
+  "book": "GEN",
+  "chapter": 31,
+  "verse": 38,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'רְחֵלֶיךָ' means 'your ewes' (female sheep), but the Chinese renders it as '你的拉結' (your Rachel), treating the common noun as the personal name Rachel. This changes the meaning from livestock to a person."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

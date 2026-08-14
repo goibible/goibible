@@ -1,0 +1,18 @@
+{
+  "book": "DEU",
+  "chapter": 1,
+  "verse": 20,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew says 'you have come to the hill country of the Amorites' (בָּאתֶם עַד הַר הָאֱמֹרִי), but the Chinese renders it as 'I will lead you to the hill country of the Amorites' (我要領你們到...), changing the subject and tense: the Hebrew states the people have already arrived, while the Chinese makes it a future action by the speaker."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 27,
+  "verse": 5,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "「一百塊銀子的餅」應為「一百他連得銀子」；「餅」是對「כִּכַּר」（他連得，重量單位）的誤譯，可能使讀者誤解為銀餅。"
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

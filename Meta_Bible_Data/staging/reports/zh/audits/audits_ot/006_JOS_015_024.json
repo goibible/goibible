@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 15,
+  "verse": 24,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew 'וּבְעָלֽוֹת' is 'and Bealoth' (a place name), but the Chinese renders it as '巴力他瑪' (Baal-tamar), which is a different name not present in the Hebrew."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

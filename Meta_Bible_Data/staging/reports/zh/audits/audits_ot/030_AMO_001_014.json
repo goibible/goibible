@@ -1,0 +1,18 @@
+{
+  "book": "AMO",
+  "chapter": 1,
+  "verse": 14,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "Hebrew בְּסַעַר בְּיוֹם סוּפָה means 'in a storm on the day of the whirlwind' (or 'in a tempest in the day of the storm-wind'); the Chinese renders it as '在風暴之日，隨著曠野的風暴' which adds '曠野的' (of the wilderness) not present in the Hebrew, and the phrase '隨著' (along with) misrepresents the preposition 'in/with' as accompaniment rather than the manner of the fire's destruction."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

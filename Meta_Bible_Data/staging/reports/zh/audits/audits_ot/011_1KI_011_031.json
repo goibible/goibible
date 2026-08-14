@@ -1,0 +1,18 @@
+{
+  "book": "1KI",
+  "chapter": 11,
+  "verse": 31,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'קְרָעִים' means 'pieces' or 'torn pieces' (of a garment), not '破布' (rags) or '杖' (staffs/rods). The Chinese renders the same word differently in two places ('破布' and '杖'), and '杖' is an addition/incorrect rendering not present in the Hebrew. The Hebrew says 'ten pieces' (of the garment), not 'ten staffs'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

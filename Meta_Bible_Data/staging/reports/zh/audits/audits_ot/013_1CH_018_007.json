@@ -1,0 +1,18 @@
+{
+  "book": "1CH",
+  "chapter": 18,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew name הֲדַדְעָזֶר (Hadadezer) is rendered as '大德謝爾' (Da-de-xie-er), which is a different name. The correct transliteration should be '哈大底謝' or similar, not '大德謝爾'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

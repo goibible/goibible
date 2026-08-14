@@ -1,0 +1,18 @@
+{
+  "book": "2CH",
+  "chapter": 24,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew has 'עֲתַלְיָהוּ' (Athaliah), but the Chinese renders it as '亞大利雅' (Yàdàlìyǎ), which is a different transliteration. The standard Chinese rendering for Athaliah is '亞她利雅' or '亞他利雅', not '亞大利雅'. This is a name swap/transliteration error."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

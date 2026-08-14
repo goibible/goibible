@@ -1,0 +1,18 @@
+{
+  "book": "NEH",
+  "chapter": 5,
+  "verse": 7,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'מַשָּׁא אִישׁ בְּאָחִיו אַתֶּם נֹשְׂאִים' means 'You are exacting interest, each man from his brother' (i.e., charging usury/interest from fellow Jews). The Chinese '你們各人向弟兄索取重利' correctly conveys this. However, the final clause 'וָאֶתֵּן עֲלֵיהֶם קְהִלָּה גְדוֹלָה' means 'And I held a great assembly against them' (i.e., I convened a large gathering to confront them). The Chinese '我將會眾大會設立在他們身上' renders this as 'I will set a great assembly upon them,' which changes the tense (Hebrew is past, Chinese '將' implies future) and the sense ('設立' = 'establish/set up' rather than 'held/convened against'). This alters who is doing what and when, making it read as a future action rather than a past confrontation."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

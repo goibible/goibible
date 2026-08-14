@@ -1,0 +1,26 @@
+{
+  "book": "EXO",
+  "chapter": 7,
+  "verse": 18,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "addition",
+          "detail": "The Chinese adds '溪水也必變為血' (the stream water will also become blood), which is not present in the Hebrew text. The Hebrew only states that the fish will die and the river will stink (וּבָאַשׁ הַיְאֹר), not that it becomes blood."
+        },
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּבָאַשׁ הַיְאֹר' means 'and the river stank' or 'became foul', but the Chinese renders it as '變為血' (became blood), which is a different concept not in this verse."
+        },
+        {
+          "kind": "omission",
+          "detail": "The Hebrew 'וְנִלְאוּ מִצְרַיִם לִשְׁתּוֹת מַיִם מִן הַיְאֹר' means 'and the Egyptians were weary/loathed to drink water from the river' — the Chinese says '因渴而無法' (because of thirst, unable), which adds the cause '因渴' (because of thirst) not in the Hebrew, and changes the nuance from 'loathed/weary' to 'unable'."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

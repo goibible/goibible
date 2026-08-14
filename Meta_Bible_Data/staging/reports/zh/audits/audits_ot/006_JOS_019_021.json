@@ -1,0 +1,18 @@
+{
+  "book": "JOS",
+  "chapter": 19,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "name_swap",
+          "detail": "The Hebrew lists four place names: רֶמֶת (Remet), עֵין גַּנִּים (En Gannim), עֵין חַדָּה (En Haddah), and בֵּית פַּצֵּץ (Beth Pazzez). The Chinese renders them as 勒麥特 (Remet), 以楠 (Enam? — this is not En Gannim; '以楠' corresponds to a different name, likely 'Enam' from elsewhere), 欣哈大 (En Haddah), and 巴次斯家宅 (Beth Pazzez). The second name עֵין גַּנִּים ('En Gannim' = 'spring of gardens') is mistranslated as 以楠, which is a different place name (עֵינָם, Enam, e.g., in Joshua 15:34). This is a name swap/omission of the actual name."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}

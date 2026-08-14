@@ -1,0 +1,18 @@
+{
+  "book": "EZR",
+  "chapter": 7,
+  "verse": 21,
+  "translation_fidelity": {
+    "ok": true,
+    "result": {
+      "verdict": "FLAG",
+      "issues": [
+        {
+          "kind": "mistranslation",
+          "detail": "The Hebrew 'וּמִנִּי אֲנָה אַרְתַּחְשַׁסְתְּא מַלְכָּא' means 'And from me, I, Artaxerxes the king' — the Chinese '我從何處得此王亞達薛西' incorrectly renders 'מִנִּי' as 'from where' (何處) and adds '得此' (obtained this), changing the meaning. It should be '我亞達薛西王' (I, King Artaxerxes)."
+        }
+      ],
+      "confidence": 0.9
+    }
+  }
+}
