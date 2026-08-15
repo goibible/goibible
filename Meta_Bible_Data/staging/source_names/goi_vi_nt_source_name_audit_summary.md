@@ -9,4 +9,4 @@ Exact-form first pass against canonical NT source-name occurrences.
 - no Vietnamese form available from profile: 0
 - missing Vietnamese verse files: 0
 
-CSV: `/home/albert/projects/bible/staging/source_names/goi_vi_nt_source_name_audit.csv`
+CSV: `/home/albert/projects/bible/Meta_Bible_Data/staging/source_names/goi_vi_nt_source_name_audit.csv`
