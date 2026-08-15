@@ -68,21 +68,24 @@ class BibleRepo(private val context: Context) {
                 "created_at INTEGER NOT NULL, " +
                 "UNIQUE (edition_id, conical, chapter, verse))"
         )
-        if (firstRun) {
-            BUNDLED.drop(1).forEach { asset ->
-                val tmp = File(context.cacheDir, asset)
-                context.assets.open(asset).use { input ->
-                    tmp.outputStream().use { input.copyTo(it) }
-                }
-                mergeFrom(tmp)
-                tmp.delete()
-            }
+        val assetsToMerge = if (firstRun) BUNDLED.drop(1) else BUNDLED
+        assetsToMerge.forEach { asset ->
+            mergeBundled(asset)
         }
     }
 
     companion object {
         /** Editions shipped in the APK; the first is the base database, the rest are merged in. */
-        private val BUNDLED = listOf("GOI_En.db", "GOI_Zh_Hant.db")
+        private val BUNDLED = listOf("GOI_En.db", "GOI_Zh_Hant.db", "GOI_Zh_Hans.db", "GOI_vi.db")
+    }
+
+    private fun mergeBundled(asset: String) {
+        val tmp = File(context.cacheDir, asset)
+        context.assets.open(asset).use { input ->
+            tmp.outputStream().use { input.copyTo(it) }
+        }
+        mergeFrom(tmp)
+        tmp.delete()
     }
 
     fun editions(): List<Edition> {

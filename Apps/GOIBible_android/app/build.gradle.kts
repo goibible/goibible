@@ -3,6 +3,17 @@ plugins {
     alias(libs.plugins.kotlin.compose)
 }
 
+val syncBundledBibleDbs by tasks.registering(Copy::class) {
+    from(rootProject.layout.projectDirectory.dir("../../Meta_Bible_Data/goi_db_download")) {
+        include("GOI_En.db", "GOI_Zh_Hant.db", "GOI_Zh_Hans.db", "GOI_vi.db")
+    }
+    into(layout.projectDirectory.dir("src/main/assets"))
+}
+
+tasks.matching { it.name == "preBuild" }.configureEach {
+    dependsOn(syncBundledBibleDbs)
+}
+
 android {
     namespace = "com.example.goibible"
     compileSdk {
@@ -15,8 +26,8 @@ android {
         applicationId = "com.example.goibible"
         minSdk = 28
         targetSdk = 36
-        versionCode = 4
-        versionName = "1.3"
+        versionCode = 5
+        versionName = "1.4"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
