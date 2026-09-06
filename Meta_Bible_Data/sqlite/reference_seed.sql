@@ -8,6 +8,7 @@ INSERT INTO editions VALUES('GOI_Zh_Hans','zh-Hans','zh','active','GOI Bible Sim
 INSERT INTO editions VALUES('GOI_vi','vi','vi','active','Tiếng Việt - Kinh Thánh GOI','Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix.');
 INSERT INTO editions VALUES('GOI_Es','es','es','active','GOI Bible Spanish','Spanish full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Es suffix.');
 INSERT INTO editions VALUES('GOI_Pt','pt','pt','active','GOI Bible Portuguese','Portuguese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Pt suffix.');
+INSERT INTO editions VALUES('GOI_Ko','ko','ko','pending','GOI Bible Korean','Korean translation scaffold; KORSYS 1911 public-domain reference is stored separately for QA and name work.');
 INSERT INTO books VALUES(1,'GEN','Genesis','OT');
 INSERT INTO books VALUES(2,'EXO','Exodus','OT');
 INSERT INTO books VALUES(3,'LEV','Leviticus','OT');

@@ -94,5 +94,16 @@
     "filename_suffix": "GOI_Pt",
     "template_edition": "GOI_En",
     "notes": "Portuguese full-Bible build scaffold. NT/OT should be generated from TR1550/WLC; Almeida 1911 Project Gutenberg reference (Reference_Bible/Portuguese_Bible_Almeida1911/One_Directory_Almeida1911_GOI, GOI/KJV-aligned) is public-domain reference/name QA only."
+  },
+  {
+    "edition_id": "GOI_Ko",
+    "bcp47_tag": "ko",
+    "language_subtag": "ko",
+    "display_name": "GOI Bible Korean",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_ko",
+    "filename_suffix": "GOI_Ko",
+    "template_edition": "GOI_En",
+    "notes": "Korean translation scaffold. First Korean Bible (1911, KORSYS) is retained as public-domain reference and name QA material at Reference_Bible/Korean_Bible_KORSYS1911; GOI translation should be generated from Hebrew WLC / Greek TR1550."
   }
 ]
