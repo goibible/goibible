@@ -1,0 +1,6193 @@
+{
+  "source": "eBible Korean Bible 1910 structured HTML export",
+  "source_url": "https://ebible.org/kor/kor_html.zip",
+  "spine": "KJV",
+  "chapters": {
+    "GEN 1": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "GEN 2": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "GEN 3": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "GEN 4": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "GEN 5": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "GEN 6": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "GEN 7": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "GEN 8": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "GEN 9": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "GEN 10": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "GEN 11": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "GEN 12": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "GEN 13": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "GEN 14": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "GEN 15": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "GEN 16": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "GEN 17": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "GEN 18": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "GEN 19": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "GEN 20": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "GEN 21": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "GEN 22": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "GEN 23": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "GEN 24": {
+      "expected_verses": 67,
+      "parsed_verses": 67,
+      "errors": []
+    },
+    "GEN 25": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "GEN 26": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "GEN 27": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "GEN 28": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "GEN 29": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "GEN 30": {
+      "expected_verses": 43,
+      "parsed_verses": 31,
+      "errors": [
+        "verse 32: marker missing",
+        "verse 33: marker missing",
+        "verse 34: marker missing",
+        "verse 35: marker missing",
+        "verse 36: marker missing",
+        "verse 37: marker missing",
+        "verse 38: marker missing",
+        "verse 39: marker missing",
+        "verse 40: marker missing",
+        "verse 41: marker missing",
+        "verse 42: marker missing",
+        "verse 43: marker missing"
+      ]
+    },
+    "GEN 31": {
+      "expected_verses": 55,
+      "parsed_verses": 55,
+      "errors": []
+    },
+    "GEN 32": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "GEN 33": {
+      "expected_verses": 20,
+      "parsed_verses": 19,
+      "errors": [
+        "verse 20: marker missing"
+      ]
+    },
+    "GEN 34": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "GEN 35": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "GEN 36": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "GEN 37": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "GEN 38": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "GEN 39": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "GEN 40": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "GEN 41": {
+      "expected_verses": 57,
+      "parsed_verses": 57,
+      "errors": []
+    },
+    "GEN 42": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "GEN 43": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "GEN 44": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "GEN 45": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "GEN 46": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "GEN 47": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "GEN 48": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "GEN 49": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "GEN 50": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "EXO 1": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EXO 2": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "EXO 3": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EXO 4": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EXO 5": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EXO 6": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "EXO 7": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "EXO 8": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EXO 9": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "EXO 10": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "EXO 11": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "EXO 12": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "EXO 13": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EXO 14": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EXO 15": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EXO 16": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "EXO 17": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "EXO 18": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EXO 19": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "EXO 20": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "EXO 21": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "EXO 22": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EXO 23": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "EXO 24": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "EXO 25": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "EXO 26": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "EXO 27": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "EXO 28": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "EXO 29": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "EXO 30": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "EXO 31": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "EXO 32": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "EXO 33": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EXO 34": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "EXO 35": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "EXO 36": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "EXO 37": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "EXO 38": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EXO 39": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "EXO 40": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "LEV 1": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "LEV 2": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "LEV 3": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "LEV 4": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "LEV 5": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "LEV 6": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "LEV 7": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "LEV 8": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "LEV 9": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "LEV 10": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "LEV 11": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "LEV 12": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "LEV 13": {
+      "expected_verses": 59,
+      "parsed_verses": 59,
+      "errors": []
+    },
+    "LEV 14": {
+      "expected_verses": 57,
+      "parsed_verses": 57,
+      "errors": []
+    },
+    "LEV 15": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "LEV 16": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "LEV 17": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "LEV 18": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "LEV 19": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "LEV 20": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "LEV 21": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "LEV 22": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "LEV 23": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "LEV 24": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "LEV 25": {
+      "expected_verses": 55,
+      "parsed_verses": 55,
+      "errors": []
+    },
+    "LEV 26": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "LEV 27": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "NUM 1": {
+      "expected_verses": 54,
+      "parsed_verses": 54,
+      "errors": []
+    },
+    "NUM 2": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "NUM 3": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "NUM 4": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "NUM 5": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "NUM 6": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "NUM 7": {
+      "expected_verses": 89,
+      "parsed_verses": 89,
+      "errors": []
+    },
+    "NUM 8": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "NUM 9": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "NUM 10": {
+      "expected_verses": 36,
+      "parsed_verses": 34,
+      "errors": [
+        "verse 35: marker missing",
+        "verse 36: marker missing"
+      ]
+    },
+    "NUM 11": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "NUM 12": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "NUM 13": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "NUM 14": {
+      "expected_verses": 45,
+      "parsed_verses": 45,
+      "errors": []
+    },
+    "NUM 15": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "NUM 16": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "NUM 17": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "NUM 18": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "NUM 19": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "NUM 20": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "NUM 21": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "NUM 22": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "NUM 23": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "NUM 24": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "NUM 25": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "NUM 26": {
+      "expected_verses": 65,
+      "parsed_verses": 65,
+      "errors": []
+    },
+    "NUM 27": {
+      "expected_verses": 23,
+      "parsed_verses": 22,
+      "errors": [
+        "verse 23: marker missing"
+      ]
+    },
+    "NUM 28": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "NUM 29": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "NUM 30": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "NUM 31": {
+      "expected_verses": 54,
+      "parsed_verses": 54,
+      "errors": []
+    },
+    "NUM 32": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "NUM 33": {
+      "expected_verses": 56,
+      "parsed_verses": 56,
+      "errors": []
+    },
+    "NUM 34": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "NUM 35": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "NUM 36": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "DEU 1": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "DEU 2": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "DEU 3": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "DEU 4": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "DEU 5": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "DEU 6": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "DEU 7": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "DEU 8": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "DEU 9": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "DEU 10": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "DEU 11": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "DEU 12": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "DEU 13": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "DEU 14": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "DEU 15": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "DEU 16": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "DEU 17": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "DEU 18": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "DEU 19": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "DEU 20": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "DEU 21": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "DEU 22": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "DEU 23": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "DEU 24": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "DEU 25": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "DEU 26": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "DEU 27": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "DEU 28": {
+      "expected_verses": 68,
+      "parsed_verses": 68,
+      "errors": []
+    },
+    "DEU 29": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "DEU 30": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "DEU 31": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "DEU 32": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "DEU 33": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "DEU 34": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "JOS 1": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JOS 2": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JOS 3": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JOS 4": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JOS 5": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "JOS 6": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JOS 7": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JOS 8": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "JOS 9": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JOS 10": {
+      "expected_verses": 43,
+      "parsed_verses": 41,
+      "errors": [
+        "verse 42: marker missing",
+        "verse 43: marker missing"
+      ]
+    },
+    "JOS 11": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "JOS 12": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JOS 13": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "JOS 14": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "JOS 15": {
+      "expected_verses": 63,
+      "parsed_verses": 62,
+      "errors": [
+        "verse 63: marker missing"
+      ]
+    },
+    "JOS 16": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "JOS 17": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JOS 18": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "JOS 19": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "JOS 20": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "JOS 21": {
+      "expected_verses": 45,
+      "parsed_verses": 45,
+      "errors": []
+    },
+    "JOS 22": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "JOS 23": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "JOS 24": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "JDG 1": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "JDG 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "JDG 3": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JDG 4": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JDG 5": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JDG 6": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JDG 7": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JDG 8": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "JDG 9": {
+      "expected_verses": 57,
+      "parsed_verses": 56,
+      "errors": [
+        "verse 57: marker missing"
+      ]
+    },
+    "JDG 10": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JDG 11": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JDG 12": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "JDG 13": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JDG 14": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "JDG 15": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "JDG 16": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JDG 17": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "JDG 18": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JDG 19": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JDG 20": {
+      "expected_verses": 48,
+      "parsed_verses": 48,
+      "errors": []
+    },
+    "JDG 21": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "RUT 1": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "RUT 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "RUT 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "RUT 4": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "1SA 1": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "1SA 2": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "1SA 3": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1SA 4": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "1SA 5": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "1SA 6": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1SA 7": {
+      "expected_verses": 17,
+      "parsed_verses": 16,
+      "errors": [
+        "verse 17: marker missing"
+      ]
+    },
+    "1SA 8": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "1SA 9": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "1SA 10": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "1SA 11": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "1SA 12": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1SA 13": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "1SA 14": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "1SA 15": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "1SA 16": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "1SA 17": {
+      "expected_verses": 58,
+      "parsed_verses": 57,
+      "errors": [
+        "verse 58: marker missing"
+      ]
+    },
+    "1SA 18": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "1SA 19": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "1SA 20": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "1SA 21": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "1SA 22": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "1SA 23": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "1SA 24": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "1SA 25": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "1SA 26": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1SA 27": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "1SA 28": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1SA 29": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "1SA 30": {
+      "expected_verses": 31,
+      "parsed_verses": 30,
+      "errors": [
+        "verse 31: marker missing"
+      ]
+    },
+    "1SA 31": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "2SA 1": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2SA 2": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "2SA 3": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "2SA 4": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "2SA 5": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "2SA 6": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "2SA 7": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "2SA 8": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2SA 9": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "2SA 10": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "2SA 11": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2SA 12": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "2SA 13": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "2SA 14": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2SA 15": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2SA 16": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "2SA 17": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "2SA 18": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2SA 19": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "2SA 20": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "2SA 21": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "2SA 22": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "2SA 23": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "2SA 24": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1KI 1": {
+      "expected_verses": 53,
+      "parsed_verses": 52,
+      "errors": [
+        "verse 53: marker missing"
+      ]
+    },
+    "1KI 2": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "1KI 3": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "1KI 4": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1KI 5": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "1KI 6": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "1KI 7": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "1KI 8": {
+      "expected_verses": 66,
+      "parsed_verses": 66,
+      "errors": []
+    },
+    "1KI 9": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "1KI 10": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "1KI 11": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "1KI 12": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "1KI 13": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1KI 14": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "1KI 15": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1KI 16": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1KI 17": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "1KI 18": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "1KI 19": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1KI 20": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "1KI 21": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "1KI 22": {
+      "expected_verses": 53,
+      "parsed_verses": 52,
+      "errors": [
+        "verse 53: marker missing"
+      ]
+    },
+    "2KI 1": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2KI 2": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "2KI 3": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2KI 4": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "2KI 5": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2KI 6": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2KI 7": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "2KI 8": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "2KI 9": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2KI 10": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "2KI 11": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2KI 12": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2KI 13": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "2KI 14": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "2KI 15": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "2KI 16": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "2KI 17": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "2KI 18": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2KI 19": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2KI 20": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2KI 21": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "2KI 22": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "2KI 23": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2KI 24": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "2KI 25": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "1CH 1": {
+      "expected_verses": 54,
+      "parsed_verses": 54,
+      "errors": []
+    },
+    "1CH 2": {
+      "expected_verses": 55,
+      "parsed_verses": 54,
+      "errors": [
+        "verse 55: marker missing"
+      ]
+    },
+    "1CH 3": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "1CH 4": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "1CH 5": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "1CH 6": {
+      "expected_verses": 81,
+      "parsed_verses": 81,
+      "errors": []
+    },
+    "1CH 7": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "1CH 8": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "1CH 9": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "1CH 10": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "1CH 11": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "1CH 12": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "1CH 13": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "1CH 14": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "1CH 15": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "1CH 16": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "1CH 17": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "1CH 18": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "1CH 19": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "1CH 20": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "1CH 21": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "1CH 22": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "1CH 23": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "1CH 24": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "1CH 25": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "1CH 26": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "1CH 27": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1CH 28": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1CH 29": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "2CH 1": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "2CH 2": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CH 3": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "2CH 4": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "2CH 5": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "2CH 6": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "2CH 7": {
+      "expected_verses": 22,
+      "parsed_verses": 21,
+      "errors": [
+        "verse 22: marker missing"
+      ]
+    },
+    "2CH 8": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CH 9": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "2CH 10": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "2CH 11": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "2CH 12": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "2CH 13": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "2CH 14": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "2CH 15": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "2CH 16": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "2CH 17": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "2CH 18": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "2CH 19": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "2CH 20": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "2CH 21": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "2CH 22": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "2CH 23": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2CH 24": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2CH 25": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "2CH 26": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "2CH 27": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "2CH 28": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2CH 29": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "2CH 30": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2CH 31": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2CH 32": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2CH 33": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "2CH 34": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2CH 35": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "2CH 36": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EZR 1": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "EZR 2": {
+      "expected_verses": 70,
+      "parsed_verses": 70,
+      "errors": []
+    },
+    "EZR 3": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "EZR 4": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "EZR 5": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "EZR 6": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EZR 7": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "EZR 8": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "EZR 9": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "EZR 10": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "NEH 1": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "NEH 2": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "NEH 3": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "NEH 4": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "NEH 5": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "NEH 6": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "NEH 7": {
+      "expected_verses": 73,
+      "parsed_verses": 73,
+      "errors": []
+    },
+    "NEH 8": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "NEH 9": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "NEH 10": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "NEH 11": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "NEH 12": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "NEH 13": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EST 1": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EST 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EST 3": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "EST 4": {
+      "expected_verses": 17,
+      "parsed_verses": 14,
+      "errors": [
+        "verse 15: marker missing",
+        "verse 16: marker missing",
+        "verse 17: marker missing"
+      ]
+    },
+    "EST 5": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "EST 6": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "EST 7": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "EST 8": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "EST 9": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EST 10": {
+      "expected_verses": 3,
+      "parsed_verses": 3,
+      "errors": []
+    },
+    "JOB 1": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 2": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "JOB 3": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JOB 4": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JOB 5": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JOB 6": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JOB 7": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JOB 8": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 9": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "JOB 10": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 11": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "JOB 12": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JOB 13": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "JOB 14": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 15": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "JOB 16": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 17": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "JOB 18": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JOB 19": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "JOB 20": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "JOB 21": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "JOB 22": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JOB 23": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JOB 24": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JOB 25": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "JOB 26": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "JOB 27": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "JOB 28": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "JOB 29": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JOB 30": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JOB 31": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JOB 32": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JOB 33": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "JOB 34": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "JOB 35": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "JOB 36": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "JOB 37": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JOB 38": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "JOB 39": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JOB 40": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JOB 41": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "JOB 42": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 1": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 2": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 3": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 4": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 5": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 6": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 7": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 8": {
+      "expected_verses": 9,
+      "parsed_verses": 8,
+      "errors": [
+        "verse 9: marker missing"
+      ]
+    },
+    "PSA 9": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "PSA 10": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PSA 11": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 12": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 13": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 14": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 15": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 16": {
+      "expected_verses": 11,
+      "parsed_verses": 9,
+      "errors": [
+        "verse 10: marker missing",
+        "verse 11: marker missing"
+      ]
+    },
+    "PSA 17": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "PSA 18": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "PSA 19": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "PSA 20": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 21": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 22": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "PSA 23": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 24": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 25": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "PSA 26": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 27": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "PSA 28": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 29": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 30": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 31": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "PSA 32": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 33": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "PSA 34": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "PSA 35": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PSA 36": {
+      "expected_verses": 12,
+      "parsed_verses": 11,
+      "errors": [
+        "verse 12: marker missing"
+      ]
+    },
+    "PSA 37": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "PSA 38": {
+      "expected_verses": 22,
+      "parsed_verses": 20,
+      "errors": [
+        "verse 21: marker missing",
+        "verse 22: marker missing"
+      ]
+    },
+    "PSA 39": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 40": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 41": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 42": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 43": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 44": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "PSA 45": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 46": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 47": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 48": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "PSA 49": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "PSA 50": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "PSA 51": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "PSA 52": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 53": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 54": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 55": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "PSA 56": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 57": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 58": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 59": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 60": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 61": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 62": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 63": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 64": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 65": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 66": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "PSA 67": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 68": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "PSA 69": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "PSA 70": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 71": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "PSA 72": {
+      "expected_verses": 20,
+      "parsed_verses": 19,
+      "errors": [
+        "verse 20: marker missing"
+      ]
+    },
+    "PSA 73": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PSA 74": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "PSA 75": {
+      "expected_verses": 10,
+      "parsed_verses": 9,
+      "errors": [
+        "verse 10: marker missing"
+      ]
+    },
+    "PSA 76": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 77": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "PSA 78": {
+      "expected_verses": 72,
+      "parsed_verses": 72,
+      "errors": []
+    },
+    "PSA 79": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 80": {
+      "expected_verses": 19,
+      "parsed_verses": 18,
+      "errors": [
+        "verse 19: marker missing"
+      ]
+    },
+    "PSA 81": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "PSA 82": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 83": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PSA 84": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 85": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 86": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 87": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 88": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PSA 89": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "PSA 90": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "PSA 91": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "PSA 92": {
+      "expected_verses": 15,
+      "parsed_verses": 13,
+      "errors": [
+        "verse 14: marker missing",
+        "verse 15: marker missing"
+      ]
+    },
+    "PSA 93": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 94": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "PSA 95": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "PSA 96": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 97": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 98": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 99": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 100": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 101": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 102": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PSA 103": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "PSA 104": {
+      "expected_verses": 35,
+      "parsed_verses": 34,
+      "errors": [
+        "verse 35: marker missing"
+      ]
+    },
+    "PSA 105": {
+      "expected_verses": 45,
+      "parsed_verses": 45,
+      "errors": []
+    },
+    "PSA 106": {
+      "expected_verses": 48,
+      "parsed_verses": 48,
+      "errors": []
+    },
+    "PSA 107": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "PSA 108": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 109": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "PSA 110": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 111": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 112": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 113": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 114": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 115": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PSA 116": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "PSA 117": {
+      "expected_verses": 2,
+      "parsed_verses": 2,
+      "errors": []
+    },
+    "PSA 118": {
+      "expected_verses": 29,
+      "parsed_verses": 9,
+      "errors": [
+        "verse 10: marker missing",
+        "verse 11: marker missing",
+        "verse 12: marker missing",
+        "verse 13: marker missing",
+        "verse 14: marker missing",
+        "verse 15: marker missing",
+        "verse 16: marker missing",
+        "verse 17: marker missing",
+        "verse 18: marker missing",
+        "verse 19: marker missing",
+        "verse 20: marker missing",
+        "verse 21: marker missing",
+        "verse 22: marker missing",
+        "verse 23: marker missing",
+        "verse 24: marker missing",
+        "verse 25: marker missing",
+        "verse 26: marker missing",
+        "verse 27: marker missing",
+        "verse 28: marker missing",
+        "verse 29: marker missing"
+      ]
+    },
+    "PSA 119": {
+      "expected_verses": 176,
+      "parsed_verses": 176,
+      "errors": []
+    },
+    "PSA 120": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 121": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 122": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 123": {
+      "expected_verses": 4,
+      "parsed_verses": 4,
+      "errors": []
+    },
+    "PSA 124": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 125": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 126": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 127": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "PSA 128": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PSA 129": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 130": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 131": {
+      "expected_verses": 3,
+      "parsed_verses": 3,
+      "errors": []
+    },
+    "PSA 132": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PSA 133": {
+      "expected_verses": 3,
+      "parsed_verses": 3,
+      "errors": []
+    },
+    "PSA 134": {
+      "expected_verses": 3,
+      "parsed_verses": 3,
+      "errors": []
+    },
+    "PSA 135": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "PSA 136": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "PSA 137": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 138": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "PSA 139": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "PSA 140": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "PSA 141": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 142": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "PSA 143": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "PSA 144": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "PSA 145": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "PSA 146": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "PSA 147": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "PSA 148": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "PSA 149": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "PSA 150": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "PRO 1": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "PRO 2": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "PRO 3": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "PRO 4": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "PRO 5": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "PRO 6": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "PRO 7": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "PRO 8": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "PRO 9": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "PRO 10": {
+      "expected_verses": 32,
+      "parsed_verses": 30,
+      "errors": [
+        "verse 31: marker missing",
+        "verse 32: marker missing"
+      ]
+    },
+    "PRO 11": {
+      "expected_verses": 31,
+      "parsed_verses": 30,
+      "errors": [
+        "verse 31: marker missing"
+      ]
+    },
+    "PRO 12": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PRO 13": {
+      "expected_verses": 25,
+      "parsed_verses": 24,
+      "errors": [
+        "verse 25: marker missing"
+      ]
+    },
+    "PRO 14": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "PRO 15": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "PRO 16": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "PRO 17": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PRO 18": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "PRO 19": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "PRO 20": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "PRO 21": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "PRO 22": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "PRO 23": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "PRO 24": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "PRO 25": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PRO 26": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PRO 27": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "PRO 28": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "PRO 29": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "PRO 30": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "PRO 31": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "ECC 1": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "ECC 2": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "ECC 3": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ECC 4": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "ECC 5": {
+      "expected_verses": 20,
+      "parsed_verses": 19,
+      "errors": [
+        "verse 20: marker missing"
+      ]
+    },
+    "ECC 6": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ECC 7": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "ECC 8": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ECC 9": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "ECC 10": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "ECC 11": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "ECC 12": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "SNG 1": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "SNG 2": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "SNG 3": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "SNG 4": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "SNG 5": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "SNG 6": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "SNG 7": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "SNG 8": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ISA 1": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "ISA 2": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 3": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "ISA 4": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "ISA 5": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "ISA 6": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "ISA 7": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 8": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 9": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ISA 10": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "ISA 11": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "ISA 12": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "ISA 13": {
+      "expected_verses": 22,
+      "parsed_verses": 21,
+      "errors": [
+        "verse 22: marker missing"
+      ]
+    },
+    "ISA 14": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "ISA 15": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "ISA 16": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ISA 17": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ISA 18": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "ISA 19": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 20": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "ISA 21": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ISA 22": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 23": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "ISA 24": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ISA 25": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ISA 26": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ISA 27": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "ISA 28": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "ISA 29": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "ISA 30": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "ISA 31": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "ISA 32": {
+      "expected_verses": 20,
+      "parsed_verses": 19,
+      "errors": [
+        "verse 20: marker missing"
+      ]
+    },
+    "ISA 33": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "ISA 34": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ISA 35": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "ISA 36": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 37": {
+      "expected_verses": 38,
+      "parsed_verses": 36,
+      "errors": [
+        "verse 37: marker missing",
+        "verse 38: marker missing"
+      ]
+    },
+    "ISA 38": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 39": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "ISA 40": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "ISA 41": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "ISA 42": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 43": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "ISA 44": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "ISA 45": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 46": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "ISA 47": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "ISA 48": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 49": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "ISA 50": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "ISA 51": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ISA 52": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "ISA 53": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ISA 54": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ISA 55": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "ISA 56": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ISA 57": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ISA 58": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ISA 59": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ISA 60": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "ISA 61": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "ISA 62": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ISA 63": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "ISA 64": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ISA 65": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ISA 66": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JER 1": {
+      "expected_verses": 19,
+      "parsed_verses": 18,
+      "errors": [
+        "verse 19: marker missing"
+      ]
+    },
+    "JER 2": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "JER 3": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JER 4": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JER 5": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JER 6": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JER 7": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "JER 8": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JER 9": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JER 10": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JER 11": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "JER 12": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JER 13": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JER 14": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JER 15": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JER 16": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JER 17": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JER 18": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "JER 19": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "JER 20": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JER 21": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "JER 22": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JER 23": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JER 24": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "JER 25": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "JER 26": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JER 27": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JER 28": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JER 29": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "JER 30": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "JER 31": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JER 32": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "JER 33": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JER 34": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JER 35": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "JER 36": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "JER 37": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JER 38": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "JER 39": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JER 40": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "JER 41": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JER 42": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "JER 43": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "JER 44": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "JER 45": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "JER 46": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "JER 47": {
+      "expected_verses": 7,
+      "parsed_verses": 7,
+      "errors": []
+    },
+    "JER 48": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "JER 49": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "JER 50": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "JER 51": {
+      "expected_verses": 64,
+      "parsed_verses": 63,
+      "errors": [
+        "verse 64: marker missing"
+      ]
+    },
+    "JER 52": {
+      "expected_verses": 34,
+      "parsed_verses": 33,
+      "errors": [
+        "verse 34: marker missing"
+      ]
+    },
+    "LAM 1": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "LAM 2": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "LAM 3": {
+      "expected_verses": 66,
+      "parsed_verses": 66,
+      "errors": []
+    },
+    "LAM 4": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "LAM 5": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EZK 1": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "EZK 2": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "EZK 3": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EZK 4": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "EZK 5": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "EZK 6": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "EZK 7": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EZK 8": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "EZK 9": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "EZK 10": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EZK 11": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "EZK 12": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "EZK 13": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EZK 14": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EZK 15": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "EZK 16": {
+      "expected_verses": 63,
+      "parsed_verses": 63,
+      "errors": []
+    },
+    "EZK 17": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "EZK 18": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EZK 19": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "EZK 20": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "EZK 21": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EZK 22": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EZK 23": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "EZK 24": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EZK 25": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "EZK 26": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "EZK 27": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "EZK 28": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "EZK 29": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "EZK 30": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "EZK 31": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "EZK 32": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EZK 33": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "EZK 34": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EZK 35": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "EZK 36": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "EZK 37": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "EZK 38": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EZK 39": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "EZK 40": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "EZK 41": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "EZK 42": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "EZK 43": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "EZK 44": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "EZK 45": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "EZK 46": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "EZK 47": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EZK 48": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "DAN 1": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "DAN 2": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "DAN 3": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "DAN 4": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "DAN 5": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "DAN 6": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "DAN 7": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "DAN 8": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "DAN 9": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "DAN 10": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "DAN 11": {
+      "expected_verses": 45,
+      "parsed_verses": 45,
+      "errors": []
+    },
+    "DAN 12": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "HOS 1": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "HOS 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "HOS 3": {
+      "expected_verses": 5,
+      "parsed_verses": 5,
+      "errors": []
+    },
+    "HOS 4": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "HOS 5": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "HOS 6": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "HOS 7": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "HOS 8": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "HOS 9": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "HOS 10": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "HOS 11": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "HOS 12": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "HOS 13": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "HOS 14": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "JOL 1": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "JOL 2": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "JOL 3": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "AMO 1": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "AMO 2": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "AMO 3": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "AMO 4": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "AMO 5": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "AMO 6": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "AMO 7": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "AMO 8": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "AMO 9": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "OBA 1": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "JON 1": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JON 2": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "JON 3": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "JON 4": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "MIC 1": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "MIC 2": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "MIC 3": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "MIC 4": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "MIC 5": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "MIC 6": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "MIC 7": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "NAM 1": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "NAM 2": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "NAM 3": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "HAB 1": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "HAB 2": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "HAB 3": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "ZEP 1": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "ZEP 2": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "ZEP 3": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "HAG 1": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "HAG 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ZEC 1": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ZEC 2": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "ZEC 3": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "ZEC 4": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ZEC 5": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "ZEC 6": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "ZEC 7": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ZEC 8": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ZEC 9": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ZEC 10": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "ZEC 11": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "ZEC 12": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ZEC 13": {
+      "expected_verses": 9,
+      "parsed_verses": 9,
+      "errors": []
+    },
+    "ZEC 14": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "MAL 1": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "MAL 2": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "MAL 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "MAL 4": {
+      "expected_verses": 6,
+      "parsed_verses": 6,
+      "errors": []
+    },
+    "MAT 1": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "MAT 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "MAT 3": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "MAT 4": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "MAT 5": {
+      "expected_verses": 48,
+      "parsed_verses": 48,
+      "errors": []
+    },
+    "MAT 6": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "MAT 7": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "MAT 8": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "MAT 9": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "MAT 10": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "MAT 11": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "MAT 12": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "MAT 13": {
+      "expected_verses": 58,
+      "parsed_verses": 58,
+      "errors": []
+    },
+    "MAT 14": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "MAT 15": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "MAT 16": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "MAT 17": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "MAT 18": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "MAT 19": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "MAT 20": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "MAT 21": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "MAT 22": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "MAT 23": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "MAT 24": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "MAT 25": {
+      "expected_verses": 46,
+      "parsed_verses": 46,
+      "errors": []
+    },
+    "MAT 26": {
+      "expected_verses": 75,
+      "parsed_verses": 75,
+      "errors": []
+    },
+    "MAT 27": {
+      "expected_verses": 66,
+      "parsed_verses": 66,
+      "errors": []
+    },
+    "MAT 28": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "MRK 1": {
+      "expected_verses": 45,
+      "parsed_verses": 45,
+      "errors": []
+    },
+    "MRK 2": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "MRK 3": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "MRK 4": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "MRK 5": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "MRK 6": {
+      "expected_verses": 56,
+      "parsed_verses": 56,
+      "errors": []
+    },
+    "MRK 7": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "MRK 8": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "MRK 9": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "MRK 10": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "MRK 11": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "MRK 12": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "MRK 13": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "MRK 14": {
+      "expected_verses": 72,
+      "parsed_verses": 72,
+      "errors": []
+    },
+    "MRK 15": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "MRK 16": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "LUK 1": {
+      "expected_verses": 80,
+      "parsed_verses": 80,
+      "errors": []
+    },
+    "LUK 2": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "LUK 3": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "LUK 4": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "LUK 5": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "LUK 6": {
+      "expected_verses": 49,
+      "parsed_verses": 49,
+      "errors": []
+    },
+    "LUK 7": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "LUK 8": {
+      "expected_verses": 56,
+      "parsed_verses": 56,
+      "errors": []
+    },
+    "LUK 9": {
+      "expected_verses": 62,
+      "parsed_verses": 62,
+      "errors": []
+    },
+    "LUK 10": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "LUK 11": {
+      "expected_verses": 54,
+      "parsed_verses": 54,
+      "errors": []
+    },
+    "LUK 12": {
+      "expected_verses": 59,
+      "parsed_verses": 59,
+      "errors": []
+    },
+    "LUK 13": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "LUK 14": {
+      "expected_verses": 35,
+      "parsed_verses": 35,
+      "errors": []
+    },
+    "LUK 15": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "LUK 16": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "LUK 17": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "LUK 18": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "LUK 19": {
+      "expected_verses": 48,
+      "parsed_verses": 48,
+      "errors": []
+    },
+    "LUK 20": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "LUK 21": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "LUK 22": {
+      "expected_verses": 71,
+      "parsed_verses": 71,
+      "errors": []
+    },
+    "LUK 23": {
+      "expected_verses": 56,
+      "parsed_verses": 56,
+      "errors": []
+    },
+    "LUK 24": {
+      "expected_verses": 53,
+      "parsed_verses": 53,
+      "errors": []
+    },
+    "JHN 1": {
+      "expected_verses": 51,
+      "parsed_verses": 51,
+      "errors": []
+    },
+    "JHN 2": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JHN 3": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "JHN 4": {
+      "expected_verses": 54,
+      "parsed_verses": 54,
+      "errors": []
+    },
+    "JHN 5": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "JHN 6": {
+      "expected_verses": 71,
+      "parsed_verses": 71,
+      "errors": []
+    },
+    "JHN 7": {
+      "expected_verses": 53,
+      "parsed_verses": 53,
+      "errors": []
+    },
+    "JHN 8": {
+      "expected_verses": 59,
+      "parsed_verses": 59,
+      "errors": []
+    },
+    "JHN 9": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "JHN 10": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "JHN 11": {
+      "expected_verses": 57,
+      "parsed_verses": 57,
+      "errors": []
+    },
+    "JHN 12": {
+      "expected_verses": 50,
+      "parsed_verses": 50,
+      "errors": []
+    },
+    "JHN 13": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "JHN 14": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JHN 15": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JHN 16": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "JHN 17": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JHN 18": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "JHN 19": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "JHN 20": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "JHN 21": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ACT 1": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "ACT 2": {
+      "expected_verses": 47,
+      "parsed_verses": 47,
+      "errors": []
+    },
+    "ACT 3": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "ACT 4": {
+      "expected_verses": 37,
+      "parsed_verses": 37,
+      "errors": []
+    },
+    "ACT 5": {
+      "expected_verses": 42,
+      "parsed_verses": 42,
+      "errors": []
+    },
+    "ACT 6": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "ACT 7": {
+      "expected_verses": 60,
+      "parsed_verses": 60,
+      "errors": []
+    },
+    "ACT 8": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "ACT 9": {
+      "expected_verses": 43,
+      "parsed_verses": 43,
+      "errors": []
+    },
+    "ACT 10": {
+      "expected_verses": 48,
+      "parsed_verses": 48,
+      "errors": []
+    },
+    "ACT 11": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "ACT 12": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ACT 13": {
+      "expected_verses": 52,
+      "parsed_verses": 52,
+      "errors": []
+    },
+    "ACT 14": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "ACT 15": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "ACT 16": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "ACT 17": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "ACT 18": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "ACT 19": {
+      "expected_verses": 41,
+      "parsed_verses": 41,
+      "errors": []
+    },
+    "ACT 20": {
+      "expected_verses": 38,
+      "parsed_verses": 38,
+      "errors": []
+    },
+    "ACT 21": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "ACT 22": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "ACT 23": {
+      "expected_verses": 35,
+      "parsed_verses": 34,
+      "errors": [
+        "verse 35: marker missing"
+      ]
+    },
+    "ACT 24": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "ACT 25": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "ACT 26": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "ACT 27": {
+      "expected_verses": 44,
+      "parsed_verses": 44,
+      "errors": []
+    },
+    "ACT 28": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "ROM 1": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "ROM 2": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "ROM 3": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "ROM 4": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ROM 5": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ROM 6": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ROM 7": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "ROM 8": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "ROM 9": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "ROM 10": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ROM 11": {
+      "expected_verses": 36,
+      "parsed_verses": 36,
+      "errors": []
+    },
+    "ROM 12": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "ROM 13": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "ROM 14": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "ROM 15": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "ROM 16": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "1CO 1": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "1CO 2": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "1CO 3": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "1CO 4": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1CO 5": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "1CO 6": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "1CO 7": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "1CO 8": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "1CO 9": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "1CO 10": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "1CO 11": {
+      "expected_verses": 34,
+      "parsed_verses": 34,
+      "errors": []
+    },
+    "1CO 12": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "1CO 13": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "1CO 14": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "1CO 15": {
+      "expected_verses": 58,
+      "parsed_verses": 58,
+      "errors": []
+    },
+    "1CO 16": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "2CO 1": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "2CO 2": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "2CO 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CO 4": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CO 5": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2CO 6": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CO 7": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "2CO 8": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "2CO 9": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "2CO 10": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2CO 11": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "2CO 12": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2CO 13": {
+      "expected_verses": 14,
+      "parsed_verses": 13,
+      "errors": [
+        "verse 14: marker missing"
+      ]
+    },
+    "GAL 1": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "GAL 2": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "GAL 3": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "GAL 4": {
+      "expected_verses": 31,
+      "parsed_verses": 31,
+      "errors": []
+    },
+    "GAL 5": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "GAL 6": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "EPH 1": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "EPH 2": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "EPH 3": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "EPH 4": {
+      "expected_verses": 32,
+      "parsed_verses": 32,
+      "errors": []
+    },
+    "EPH 5": {
+      "expected_verses": 33,
+      "parsed_verses": 33,
+      "errors": []
+    },
+    "EPH 6": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "PHP 1": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "PHP 2": {
+      "expected_verses": 30,
+      "parsed_verses": 30,
+      "errors": []
+    },
+    "PHP 3": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "PHP 4": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "COL 1": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "COL 2": {
+      "expected_verses": 23,
+      "parsed_verses": 23,
+      "errors": []
+    },
+    "COL 3": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "COL 4": {
+      "expected_verses": 18,
+      "parsed_verses": 9,
+      "errors": [
+        "verse 10: marker missing",
+        "verse 11: marker missing",
+        "verse 12: marker missing",
+        "verse 13: marker missing",
+        "verse 14: marker missing",
+        "verse 15: marker missing",
+        "verse 16: marker missing",
+        "verse 17: marker missing",
+        "verse 18: marker missing"
+      ]
+    },
+    "1TH 1": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "1TH 2": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "1TH 3": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "1TH 4": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "1TH 5": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "2TH 1": {
+      "expected_verses": 12,
+      "parsed_verses": 12,
+      "errors": []
+    },
+    "2TH 2": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "2TH 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "1TI 1": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "1TI 2": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "1TI 3": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "1TI 4": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "1TI 5": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1TI 6": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2TI 1": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "2TI 2": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "2TI 3": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "2TI 4": {
+      "expected_verses": 22,
+      "parsed_verses": 21,
+      "errors": [
+        "verse 22: marker missing"
+      ]
+    },
+    "TIT 1": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "TIT 2": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "TIT 3": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "PHM 1": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "HEB 1": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "HEB 2": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "HEB 3": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "HEB 4": {
+      "expected_verses": 16,
+      "parsed_verses": 16,
+      "errors": []
+    },
+    "HEB 5": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "HEB 6": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "HEB 7": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "HEB 8": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "HEB 9": {
+      "expected_verses": 28,
+      "parsed_verses": 28,
+      "errors": []
+    },
+    "HEB 10": {
+      "expected_verses": 39,
+      "parsed_verses": 39,
+      "errors": []
+    },
+    "HEB 11": {
+      "expected_verses": 40,
+      "parsed_verses": 40,
+      "errors": []
+    },
+    "HEB 12": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "HEB 13": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "JAS 1": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "JAS 2": {
+      "expected_verses": 26,
+      "parsed_verses": 26,
+      "errors": []
+    },
+    "JAS 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "JAS 4": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "JAS 5": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "1PE 1": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "1PE 2": {
+      "expected_verses": 25,
+      "parsed_verses": 22,
+      "errors": [
+        "verse 23: marker missing",
+        "verse 24: marker missing",
+        "verse 25: marker missing"
+      ]
+    },
+    "1PE 3": {
+      "expected_verses": 22,
+      "parsed_verses": 19,
+      "errors": [
+        "verse 20: marker missing",
+        "verse 21: marker missing",
+        "verse 22: marker missing"
+      ]
+    },
+    "1PE 4": {
+      "expected_verses": 19,
+      "parsed_verses": 14,
+      "errors": [
+        "verse 15: marker missing",
+        "verse 16: marker missing",
+        "verse 17: marker missing",
+        "verse 18: marker missing",
+        "verse 19: marker missing"
+      ]
+    },
+    "1PE 5": {
+      "expected_verses": 14,
+      "parsed_verses": 0,
+      "errors": [
+        "missing chapter member 1PE05.htm"
+      ]
+    },
+    "2PE 1": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2PE 2": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "2PE 3": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "1JN 1": {
+      "expected_verses": 10,
+      "parsed_verses": 10,
+      "errors": []
+    },
+    "1JN 2": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "1JN 3": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "1JN 4": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "1JN 5": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "2JN 1": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "3JN 1": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "JUD 1": {
+      "expected_verses": 25,
+      "parsed_verses": 25,
+      "errors": []
+    },
+    "REV 1": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "REV 2": {
+      "expected_verses": 29,
+      "parsed_verses": 29,
+      "errors": []
+    },
+    "REV 3": {
+      "expected_verses": 22,
+      "parsed_verses": 22,
+      "errors": []
+    },
+    "REV 4": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "REV 5": {
+      "expected_verses": 14,
+      "parsed_verses": 14,
+      "errors": []
+    },
+    "REV 6": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "REV 7": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "REV 8": {
+      "expected_verses": 13,
+      "parsed_verses": 13,
+      "errors": []
+    },
+    "REV 9": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "REV 10": {
+      "expected_verses": 11,
+      "parsed_verses": 11,
+      "errors": []
+    },
+    "REV 11": {
+      "expected_verses": 19,
+      "parsed_verses": 19,
+      "errors": []
+    },
+    "REV 12": {
+      "expected_verses": 17,
+      "parsed_verses": 17,
+      "errors": []
+    },
+    "REV 13": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "REV 14": {
+      "expected_verses": 20,
+      "parsed_verses": 20,
+      "errors": []
+    },
+    "REV 15": {
+      "expected_verses": 8,
+      "parsed_verses": 8,
+      "errors": []
+    },
+    "REV 16": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "REV 17": {
+      "expected_verses": 18,
+      "parsed_verses": 18,
+      "errors": []
+    },
+    "REV 18": {
+      "expected_verses": 24,
+      "parsed_verses": 24,
+      "errors": []
+    },
+    "REV 19": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    },
+    "REV 20": {
+      "expected_verses": 15,
+      "parsed_verses": 15,
+      "errors": []
+    },
+    "REV 21": {
+      "expected_verses": 27,
+      "parsed_verses": 27,
+      "errors": []
+    },
+    "REV 22": {
+      "expected_verses": 21,
+      "parsed_verses": 21,
+      "errors": []
+    }
+  },
+  "errors": [
+    "GEN 30: verse 32: marker missing",
+    "GEN 30: verse 33: marker missing",
+    "GEN 30: verse 34: marker missing",
+    "GEN 30: verse 35: marker missing",
+    "GEN 30: verse 36: marker missing",
+    "GEN 30: verse 37: marker missing",
+    "GEN 30: verse 38: marker missing",
+    "GEN 30: verse 39: marker missing",
+    "GEN 30: verse 40: marker missing",
+    "GEN 30: verse 41: marker missing",
+    "GEN 30: verse 42: marker missing",
+    "GEN 30: verse 43: marker missing",
+    "GEN 33: verse 20: marker missing",
+    "NUM 10: verse 35: marker missing",
+    "NUM 10: verse 36: marker missing",
+    "NUM 27: verse 23: marker missing",
+    "JOS 10: verse 42: marker missing",
+    "JOS 10: verse 43: marker missing",
+    "JOS 15: verse 63: marker missing",
+    "JDG 9: verse 57: marker missing",
+    "1SA 7: verse 17: marker missing",
+    "1SA 17: verse 58: marker missing",
+    "1SA 30: verse 31: marker missing",
+    "1KI 1: verse 53: marker missing",
+    "1KI 22: verse 53: marker missing",
+    "1CH 2: verse 55: marker missing",
+    "2CH 7: verse 22: marker missing",
+    "EST 4: verse 15: marker missing",
+    "EST 4: verse 16: marker missing",
+    "EST 4: verse 17: marker missing",
+    "PSA 8: verse 9: marker missing",
+    "PSA 16: verse 10: marker missing",
+    "PSA 16: verse 11: marker missing",
+    "PSA 36: verse 12: marker missing",
+    "PSA 38: verse 21: marker missing",
+    "PSA 38: verse 22: marker missing",
+    "PSA 72: verse 20: marker missing",
+    "PSA 75: verse 10: marker missing",
+    "PSA 80: verse 19: marker missing",
+    "PSA 92: verse 14: marker missing",
+    "PSA 92: verse 15: marker missing",
+    "PSA 104: verse 35: marker missing",
+    "PSA 118: verse 10: marker missing",
+    "PSA 118: verse 11: marker missing",
+    "PSA 118: verse 12: marker missing",
+    "PSA 118: verse 13: marker missing",
+    "PSA 118: verse 14: marker missing",
+    "PSA 118: verse 15: marker missing",
+    "PSA 118: verse 16: marker missing",
+    "PSA 118: verse 17: marker missing",
+    "PSA 118: verse 18: marker missing",
+    "PSA 118: verse 19: marker missing",
+    "PSA 118: verse 20: marker missing",
+    "PSA 118: verse 21: marker missing",
+    "PSA 118: verse 22: marker missing",
+    "PSA 118: verse 23: marker missing",
+    "PSA 118: verse 24: marker missing",
+    "PSA 118: verse 25: marker missing",
+    "PSA 118: verse 26: marker missing",
+    "PSA 118: verse 27: marker missing",
+    "PSA 118: verse 28: marker missing",
+    "PSA 118: verse 29: marker missing",
+    "PRO 10: verse 31: marker missing",
+    "PRO 10: verse 32: marker missing",
+    "PRO 11: verse 31: marker missing",
+    "PRO 13: verse 25: marker missing",
+    "ECC 5: verse 20: marker missing",
+    "ISA 13: verse 22: marker missing",
+    "ISA 32: verse 20: marker missing",
+    "ISA 37: verse 37: marker missing",
+    "ISA 37: verse 38: marker missing",
+    "JER 1: verse 19: marker missing",
+    "JER 51: verse 64: marker missing",
+    "JER 52: verse 34: marker missing",
+    "ACT 23: verse 35: marker missing",
+    "2CO 13: verse 14: marker missing",
+    "COL 4: verse 10: marker missing",
+    "COL 4: verse 11: marker missing",
+    "COL 4: verse 12: marker missing",
+    "COL 4: verse 13: marker missing",
+    "COL 4: verse 14: marker missing",
+    "COL 4: verse 15: marker missing",
+    "COL 4: verse 16: marker missing",
+    "COL 4: verse 17: marker missing",
+    "COL 4: verse 18: marker missing",
+    "2TI 4: verse 22: marker missing",
+    "1PE 2: verse 23: marker missing",
+    "1PE 2: verse 24: marker missing",
+    "1PE 2: verse 25: marker missing",
+    "1PE 3: verse 20: marker missing",
+    "1PE 3: verse 21: marker missing",
+    "1PE 3: verse 22: marker missing",
+    "1PE 4: verse 15: marker missing",
+    "1PE 4: verse 16: marker missing",
+    "1PE 4: verse 17: marker missing",
+    "1PE 4: verse 18: marker missing",
+    "1PE 4: verse 19: marker missing",
+    "1PE 5: missing chapter member 1PE05.htm"
+  ]
+}
