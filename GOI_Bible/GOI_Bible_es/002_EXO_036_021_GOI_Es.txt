@@ -1,0 +1,1 @@
+Diez codos era la longitud de cada tabla, y un codo y medio la anchura.

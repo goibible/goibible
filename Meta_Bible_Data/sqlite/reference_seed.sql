@@ -6,6 +6,7 @@ INSERT INTO editions VALUES('GOI_En','en','en','active','GOI Bible English','GOI
 INSERT INTO editions VALUES('GOI_Zh_Hant','zh-Hant','zh','active','GOI Bible Traditional Chinese','GOI Traditional Chinese corpus imported from GOI_Bible_Chinese_Hant; filename_key uses _GOI_Zh_Hant suffix.');
 INSERT INTO editions VALUES('GOI_Zh_Hans','zh-Hans','zh','active','GOI Bible Simplified Chinese','GOI Simplified Chinese corpus converted from GOI_Bible_Chinese_Hant using OpenCC t2s; filename_key uses _GOI_Zh_Hans suffix.');
 INSERT INTO editions VALUES('GOI_vi','vi','vi','active','Tiếng Việt - Kinh Thánh GOI','Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix.');
+INSERT INTO editions VALUES('GOI_Es','es','es','active','GOI Bible Spanish','Spanish full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Es suffix.');
 INSERT INTO books VALUES(1,'GEN','Genesis','OT');
 INSERT INTO books VALUES(2,'EXO','Exodus','OT');
 INSERT INTO books VALUES(3,'LEV','Leviticus','OT');

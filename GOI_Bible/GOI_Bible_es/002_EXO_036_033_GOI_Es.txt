@@ -1,0 +1,1 @@
+E hizo la barra del medio para que pasara por en medio de las tablas, de un extremo al otro.

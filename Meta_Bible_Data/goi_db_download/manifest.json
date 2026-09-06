@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-08-14T22:17:30+00:00",
+  "generated_at": "2026-09-06T03:16:43+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -15,6 +15,17 @@
       "file": "GOI_En.db",
       "size_bytes": 9039872,
       "sha256": "402a22ba7daf36e497214dbd118de129a076c70fa68c90198a31b04d39493c07",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Es",
+      "display_name": "GOI Bible Spanish",
+      "bcp47_tag": "es",
+      "language_subtag": "es",
+      "status": "active",
+      "file": "GOI_Es.db",
+      "size_bytes": 8970240,
+      "sha256": "603ba4b3913c416bccb972383cc6a5fdb6564eddf04d1b5fe88a6f22945118c1",
       "verse_count": 31102
     },
     {

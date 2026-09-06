@@ -1,0 +1,1 @@
+Diez codos será la longitud de cada tabla, y un codo y medio la anchura de cada tabla.

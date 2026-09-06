@@ -1,0 +1,1 @@
+Corredor correrá al encuentro de corredor, y mensajero al encuentro de mensajero, para anunciar al rey de Babilonia que su ciudad ha sido tomada por completo.

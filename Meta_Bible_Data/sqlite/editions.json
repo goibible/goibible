@@ -72,5 +72,27 @@
     "filename_suffix": "GOI_vi",
     "template_edition": "GOI_En",
     "notes": "Vietnamese full Bible generated from Hebrew/Greek source pipeline; VIE1934/KJV used for reference/name QA only."
+  },
+  {
+    "edition_id": "GOI_Es",
+    "bcp47_tag": "es",
+    "language_subtag": "es",
+    "display_name": "GOI Bible Spanish",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_es",
+    "filename_suffix": "GOI_Es",
+    "template_edition": "GOI_En",
+    "notes": "Spanish full Bible (66 books, 31,102 verses) generated from Hebrew WLC / Greek TR1550 source pipeline; RV1909 (Reference_Bible/Spanish_Bible_RV1909/One_Directory_RV1909_GOI, GOI-versification-aligned) used for reference/name QA only. QA complete: noun/name coverage, false-friend and negation/number checks (NT), full clause-completeness pass (OT), tú/vosotros register audit."
+  },
+  {
+    "edition_id": "GOI_Pt",
+    "bcp47_tag": "pt",
+    "language_subtag": "pt",
+    "display_name": "GOI Bible Portuguese",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_pt",
+    "filename_suffix": "GOI_Pt",
+    "template_edition": "GOI_En",
+    "notes": "Portuguese full-Bible build scaffold. NT/OT should be generated from TR1550/WLC; Almeida 1911 Project Gutenberg reference (Reference_Bible/Portuguese_Bible_Almeida1911/One_Directory_Almeida1911_GOI, GOI/KJV-aligned) is public-domain reference/name QA only."
   }
 ]

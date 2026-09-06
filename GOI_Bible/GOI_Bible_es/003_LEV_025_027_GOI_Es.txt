@@ -1,0 +1,1 @@
+Calculará los años de su venta, y devolverá el excedente al hombre a quien se la vendió, y volverá a su posesión.
