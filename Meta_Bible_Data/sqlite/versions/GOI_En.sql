@@ -30631,7 +30631,7 @@ INSERT INTO verses (goi, conical, edition_id, version, language_subtag, book, ch
 (30629, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 4, 'NT', 'For everyone born of God overcomes the world, and this is the victory that has overcome the world: our faith.'),
 (30630, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 5, 'NT', 'Who is the one who overcomes the world except the one who believes that Jesus is the Son of God?'),
 (30631, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 6, 'NT', 'This is the one who came by water and blood, Jesus Christ; not by the water only but by the water and the blood. And the Spirit is the one who testifies, because the Spirit is the truth.'),
-(30632, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 7, 'NT', 'For there are three who testify:'),
+(30632, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 7, 'NT', 'For there are three who testify in heaven: the Father, the Word, and the Holy Spirit; and these three are one.'),
 (30633, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 8, 'NT', 'the Spirit, the water, and the blood; and these three are in agreement.'),
 (30634, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 9, 'NT', 'If we take the testimony of men, the testimony of God is greater, because this is the testimony of God which he has testified concerning his Son.'),
 (30635, 62, 'GOI_En', 'GOI_En', 'en', '1JN', 5, 10, 'NT', 'The one who believes in the Son of God has the testimony in himself; the one who does not believe God has made him a liar, because he has not believed in the testimony that God has testified about his Son.'),
