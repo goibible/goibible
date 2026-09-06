@@ -1,0 +1,10 @@
+book,chapter,verse,severity,category,expected_name,observed_name,note
+GEN,15,2,orange,missing_expected_name,JEHOVAH,,Expected approved name 'JEHOVAH' from Almeida1911 occurrence.
+GEN,15,8,orange,missing_expected_name,JEHOVAH,,Expected approved name 'JEHOVAH' from Almeida1911 occurrence.
+GEN,18,9,orange,missing_expected_name,Eil-a,,Expected approved name 'Eil-a' from Almeida1911 occurrence.
+GEN,19,5,orange,missing_expected_name,Tral-os,,Expected approved name 'Tral-os' from Almeida1911 occurrence.
+GEN,19,14,orange,missing_expected_name,Levantae-vos,,Expected approved name 'Levantae-vos' from Almeida1911 occurrence.
+GEN,20,10,orange,missing_expected_name,Abraão,,Expected approved name 'Abraão' from Almeida1911 occurrence.
+GEN,22,5,orange,missing_expected_name,Ficae-vos,,Expected approved name 'Ficae-vos' from Almeida1911 occurrence.
+GEN,24,6,orange,missing_expected_name,Abraão,,Expected approved name 'Abraão' from Almeida1911 occurrence.
+GEN,24,54,orange,missing_expected_name,Deixae-me,,Expected approved name 'Deixae-me' from Almeida1911 occurrence.

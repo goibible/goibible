@@ -1,0 +1,43 @@
+{
+  "language": "pt",
+  "reference_dir": "Reference_Bible/Portuguese_Bible_Almeida1911/One_Directory_Almeida1911_GOI",
+  "reference_edition": "Almeida1911",
+  "target_dir": "GOI_Bible/GOI_Bible_pt",
+  "target_edition": "GOI_Pt",
+  "db": "Meta_Bible_Data/staging/ot_names/pt_ot_names.sqlite3",
+  "flags": "Meta_Bible_Data/staging/ot_names/pt_ot_name_flags.csv",
+  "confirm": "Meta_Bible_Data/staging/ot_names/pt_ot_name_confirm.csv",
+  "token_regex": "\\b(?:JEHOVAH|Jeov[áa]|[A-ZÁÉÍÓÚÂÊÔÃÕÇ][A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç]*(?:-[A-Za-zÁÉÍÓÚÂÊÔÃÕÇáéíóúâêôãõç]+)+|[A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç]{2,})\\b",
+  "stopwords": [
+    "A", "Ao", "Aos", "As", "Assim", "Bem", "Como", "Com", "Da", "Das",
+    "De", "Depois", "Deus", "Do", "Dos", "E", "Eis", "Ele", "Eles",
+    "Ela", "Elas", "Em", "Então", "Este", "Esta", "Estes", "Estas",
+    "Eu", "Filho", "Filhos", "Filha", "Filhas", "Foi", "Foram", "Há",
+    "Isto", "Mas", "Meu", "Minha", "Na", "Nas", "No", "Nos", "Não",
+    "O", "Os", "Ou", "Para", "Pai", "Pelo", "Pelos", "Por", "Porque",
+    "Quando", "Que", "Rei", "Reis", "Sacerdote", "Sacerdotes", "Se",
+    "Senhor", "Senhores", "Será", "Serão", "Seu", "Seus", "Sua", "Suas",
+    "Também", "Teu", "Teus", "Toda", "Todas", "Todo", "Todos", "Tu",
+    "Um", "Uma", "Vós"
+  ],
+  "always_names": [
+    "JEHOVAH", "Jeová", "Sião", "Jerusalém", "Egito", "Israel", "Abraão",
+    "Isaque", "Jacó", "Rúben", "José", "Raquel", "Lia", "Rebeca", "Faraó",
+    "Efraim", "Moisés", "Melquisedeque"
+  ],
+  "known_corrections": {
+    "Jehovah": "JEHOVAH",
+    "Jeová": "Jeová",
+    "Jerusalem": "Jerusalém",
+    "Sião": "Sião",
+    "Egypto": "Egito",
+    "Egipto": "Egito",
+    "Abrahão": "Abraão",
+    "Isaac": "Isaque",
+    "Jacob": "Jacó",
+    "Moysés": "Moisés",
+    "Melchisedec": "Melquisedeque",
+    "Ephraim": "Efraim"
+  },
+  "notes": "Portuguese OT name-QA profile for GOI_Pt. Almeida 1911 is the public-domain reference, but GOI output should use the chosen modern Portuguese name/style policy."
+}

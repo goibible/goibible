@@ -1,0 +1,1 @@
+Cada um permaneça no chamamento em que foi chamado.

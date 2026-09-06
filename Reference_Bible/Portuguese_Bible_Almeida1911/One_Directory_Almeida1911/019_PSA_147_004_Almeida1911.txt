@@ -1,0 +1,1 @@
+Conta o numero das estrellas, chama-as a todas pelos seus nomes.

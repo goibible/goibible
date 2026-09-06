@@ -1,0 +1,7 @@
+=== Coverage for 'pt' against GOI_Bible/GOI_Bible_pt ===
+noun positions checked: 28840
+  ok:      28840
+  missing: 0
+  (40 bracketed TR subscription positions skipped)
+  (9 textual-policy positions skipped)
+  coverage: 100.0%

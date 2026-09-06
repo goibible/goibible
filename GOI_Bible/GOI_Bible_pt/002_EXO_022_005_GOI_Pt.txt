@@ -1,0 +1,1 @@
+Se alguém fizer pastar um campo ou uma vinha, e soltar o seu animal para que ele paste no campo de outro, restituirá com o melhor do seu próprio campo e o melhor da sua própria vinha.
