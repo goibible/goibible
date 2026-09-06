@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-09-06T18:05:09+00:00",
+  "generated_at": "2026-09-06T18:22:59+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -25,7 +25,18 @@
       "status": "active",
       "file": "GOI_Es.db",
       "size_bytes": 8970240,
-      "sha256": "5a07f9d74d99264f5aa7e245c75603180959bf4f0e4adbf2456a919255c8f6a6",
+      "sha256": "8e06d0317f0ed3b98ceed3c9949a900d7182d128846d6b18744648781ebda012",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Pt",
+      "display_name": "GOI Bible Portuguese",
+      "bcp47_tag": "pt",
+      "language_subtag": "pt",
+      "status": "active",
+      "file": "GOI_Pt.db",
+      "size_bytes": 8949760,
+      "sha256": "1a20508d4efa9d73aeb33079544f2b9ab1e107c32edb92f4c74c9df46d2523de",
       "verse_count": 31102
     },
     {
