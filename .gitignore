@@ -21,7 +21,6 @@ __pycache__/
 # data but no Bible verse rows.
 !Meta_Bible_Data/sqlite/goi_bible_shell.db
 
-Meta_Bible_Data/sqlite/editions/
 goi_bible_downloads/
 Meta_Bible_Data/staging/tmp/
 
@@ -32,3 +31,32 @@ Meta_Bible_Data/staging/tmp/
 !Meta_Bible_Data/goi_db_download/*.json
 !Meta_Bible_Data/goi_db_download/*.md
 !Meta_Bible_Data/goi_db_download/*.py
+
+# Generated video and audio artifacts
+Apps/bible_video/output/
+Apps/bible_video/work/
+Apps/bible_video/*.log
+Apps/bible_video/vendor/kokoro/voice_samples/
+Apps/proverbs_video/output/
+Apps/proverbs_video/work/
+Apps/proverbs_video/*.log
+
+# Local run and translation logs
+/logs/
+
+# SQLite transient files and local build copies
+*.sqlite3-shm
+*.sqlite3-wal
+Meta_Bible_Data/local_backups/
+Meta_Bible_Data/sqlite/editions/
+Meta_Bible_Data/sqlite/shell.sqlite3
+Meta_Bible_Data/staging/**/*.sqlite3
+Meta_Bible_Data/archive/*.sqlite3
+Meta_Bible_Data/archive/BCP47/
+Meta_Bible_Data/sqlite/versions/*.sql.bak-*
+
+# Packaged archives and local mobile/desktop build artifacts
+/iphone_package.zip
+Apps/GOIBible_android/app/src/main/assets/*.db
+Apps/GOIBible_android/dist/
+Apps/GOIBible_desktop/**/resources/*.db

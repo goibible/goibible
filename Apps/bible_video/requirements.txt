@@ -1,0 +1,17 @@
+# Runtime requirements are provided by the user's GOI/Kokoro conda environment:
+#   /home/albert/miniconda3/envs/kokoro/bin/python
+#
+# Packages used (already present in that env):
+#   kokoro            (KPipeline — TTS)
+#   numpy             (audio arrays)
+#   soundfile         (WAV I/O)
+#   pillow            (frame rendering)
+#   pyloudnorm        (optional; loudness normalization)
+#
+# ffmpeg + ffprobe must be on PATH (v6.1.x confirmed).
+#
+# To run:
+#   cd Apps/bible_video
+#   /home/albert/miniconda3/envs/kokoro/bin/python run_all.py --book PRO --chapter 1
+#   /home/albert/miniconda3/envs/kokoro/bin/python run_all.py --book PRO   # one book
+#   /home/albert/miniconda3/envs/kokoro/bin/python run_all.py              # all 66 books
