@@ -105,5 +105,16 @@
     "filename_suffix": "GOI_Ko",
     "template_edition": "GOI_En",
     "notes": "Korean translation scaffold. First Korean Bible (1911, KORSYS) is retained as public-domain reference and name QA material at Reference_Bible/Korean_Bible_KORSYS1911; GOI translation should be generated from Hebrew WLC / Greek TR1550."
+  },
+  {
+    "edition_id": "GOI_Ja",
+    "bcp47_tag": "ja",
+    "language_subtag": "ja",
+    "display_name": "GOI Bible Japanese",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_ja",
+    "filename_suffix": "GOI_Ja",
+    "template_edition": "GOI_En",
+    "notes": "Japanese translation scaffold. Shinkaiyaku 1965 NT (public domain, copyright expired 2015) is retained as clean, 100% KJV-aligned NT reference/name QA material at Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI; Meiji Genyaku 1887 (public domain by age) is the only OT reference candidate found so far but its OCR is not yet usable -- see that directory's README. GOI translation should be generated from Hebrew WLC / Greek TR1550."
   }
 ]
