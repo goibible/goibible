@@ -64,8 +64,8 @@ BOOK_OVERRIDES: dict[str, dict[tuple[int, int], list[tuple[int, int]]]] = {
     "PRO": {(26, 17): [(26, 17), (26, 18), (26, 19)]},
     "JER": {(9, 24): [(9, 24), (9, 25), (9, 26)]},
 }
-# Not transcribed on Wikisource at all (no Meiji text exists to align);
-# translation falls back to KJV-only references for these verses.
+# Not transcribed on Wikisource at all (no Meiji text exists to align).
+# Not a reference gap for GOI_Ja: the sibling GOI editions cover every verse.
 # Numbers 2-36, and 1 Samuel 2:1-13:21 (the Wikisource page resumes at 13:22).
 def untranscribed(book: str, ch: int, vs: int) -> bool:
     if book == "NUM":
@@ -134,7 +134,7 @@ def main() -> int:
         extra = sorted(set(targets) - want)
         total_missing += len(missing); total_extra += len(extra)
         line = f"{num} {book}: native {len(verses)}, KJV {len(want)}, missing {len(missing)}, extra {len(extra)}"
-        if gaps: line += f", untranscribed on Wikisource {len(gaps)} (KJV-only reference fallback)"
+        if gaps: line += f", untranscribed on Wikisource {len(gaps)}"
         if missing: line += f"\n    missing: {missing[:25]}{' ...' if len(missing) > 25 else ''}"
         if extra: line += f"\n    extra:   {extra[:25]}{' ...' if len(extra) > 25 else ''}"
         report.append(line)
