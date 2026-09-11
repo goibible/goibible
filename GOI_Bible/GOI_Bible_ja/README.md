@@ -1,19 +1,23 @@
 # GOI Japanese Translation
 
-Reserved for the normalized, GOI-versification-aligned Japanese translation.
+Normalized, GOI/KJV-versification-aligned Japanese translation.
 
-Target filename format:
+Filename format: `NNN_BOOK_CCC_VVV_GOI_Ja.txt`
 
-`NNN_BOOK_CCC_VVV_GOI_Ja.txt`
+## Status
 
-Reference/name-QA material is preserved separately:
+- **New Testament: complete.** 27 books, 7,957 verses, translated from the
+  Greek TR1550; noun coverage 28,840/28,840 (100%).
+- **Old Testament: scaffolded, not yet translated.** To be translated from
+  the Hebrew WLC with `Meta_Bible_Data/Bible_Noun_Extraction/translate_ot_ja.py`,
+  noun anchors from `hebrew_ot_ja.sqlite3`, coverage checked with
+  `verify_ja_ot_coverage.py`.
+
+## Reference texts (secondary QA only — never copied here as the translation)
 
 - NT: `Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI/`
-  (public domain, clean, 100% KJV-aligned — ready to use for NT name QA)
-- OT: `Reference_Bible/Japanese_Bible_MeijiGenyaku1887/` (public domain by
-  age, but OCR quality is currently too poor to use — not yet atomized;
-  see that directory's README for status)
-
-Neither reference text should be copied here as if it were the GOI
-translation. The GOI Japanese Bible itself must be generated from the
-Hebrew WLC / Greek TR1550 sources, same as every other GOI edition.
+  (public domain, 100% KJV-aligned)
+- OT: `Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI/`
+  (public domain, Wikisource transcription; 21,645/23,145 verses — Numbers
+  2-36 and 1 Samuel 2:1-13:21 were never transcribed, so those verses get
+  the KJV alone as reference)

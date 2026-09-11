@@ -1,0 +1,41 @@
+001 GEN: native 1533, KJV 1533, missing 0, extra 0
+002 EXO: native 1212, KJV 1213, missing 0, extra 0
+003 LEV: native 859, KJV 859, missing 0, extra 0
+004 NUM: native 54, KJV 1288, missing 0, extra 0, untranscribed on Wikisource 1234 (KJV-only reference fallback)
+005 DEU: native 959, KJV 959, missing 0, extra 0
+006 JOS: native 658, KJV 658, missing 0, extra 0
+007 JDG: native 618, KJV 618, missing 0, extra 0
+008 RUT: native 85, KJV 85, missing 0, extra 0
+009 1SA: native 544, KJV 810, missing 0, extra 0, untranscribed on Wikisource 266 (KJV-only reference fallback)
+010 2SA: native 692, KJV 695, missing 0, extra 0
+011 1KI: native 816, KJV 816, missing 0, extra 0
+012 2KI: native 719, KJV 719, missing 0, extra 0
+013 1CH: native 939, KJV 942, missing 0, extra 0
+014 2CH: native 821, KJV 822, missing 0, extra 0
+015 EZR: native 280, KJV 280, missing 0, extra 0
+016 NEH: native 406, KJV 406, missing 0, extra 0
+017 EST: native 167, KJV 167, missing 0, extra 0
+018 JOB: native 1070, KJV 1070, missing 0, extra 0
+019 PSA: native 2449, KJV 2461, missing 0, extra 0
+020 PRO: native 913, KJV 915, missing 0, extra 0
+021 ECC: native 222, KJV 222, missing 0, extra 0
+022 SNG: native 117, KJV 117, missing 0, extra 0
+023 ISA: native 1292, KJV 1292, missing 0, extra 0
+024 JER: native 1362, KJV 1364, missing 0, extra 0
+025 LAM: native 154, KJV 154, missing 0, extra 0
+026 EZK: native 1273, KJV 1273, missing 0, extra 0
+027 DAN: native 357, KJV 357, missing 0, extra 0
+028 HOS: native 197, KJV 197, missing 0, extra 0
+029 JOL: native 73, KJV 73, missing 0, extra 0
+030 AMO: native 146, KJV 146, missing 0, extra 0
+031 OBA: native 21, KJV 21, missing 0, extra 0
+032 JON: native 48, KJV 48, missing 0, extra 0
+033 MIC: native 105, KJV 105, missing 0, extra 0
+034 NAM: native 47, KJV 47, missing 0, extra 0
+035 HAB: native 56, KJV 56, missing 0, extra 0
+036 ZEP: native 53, KJV 53, missing 0, extra 0
+037 HAG: native 38, KJV 38, missing 0, extra 0
+038 ZEC: native 211, KJV 211, missing 0, extra 0
+039 MAL: native 55, KJV 55, missing 0, extra 0
+
+TOTAL native 21621; GOI files 21645 of 23145 KJV OT keys; missing 0; extra 0

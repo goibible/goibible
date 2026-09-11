@@ -1,42 +1,46 @@
-# Meiji Genyaku Bible (明治元訳聖書, 1887)
+# Meiji Genyaku Bible (明治元訳聖書) — Old Testament reference
 
-Public-domain full Japanese Bible (OT+NT), preserved as a candidate GOI
-Japanese Old Testament reference/name-QA text. **Not yet usable** — see
-Status below.
+Public-domain Japanese Old Testament used as the GOI Japanese OT
+reference/name-QA text (the NT counterpart is
+`Reference_Bible/Japanese_Bible_Shinkaiyaku1965/`). It is a secondary
+reference only: GOI_Ja is translated from the Hebrew WLC.
 
-- Edition: Meiji Genyaku ("Meiji Original Translation") Bible, 1887 —
-  the first complete Bible translation into Japanese, published in 5
-  volumes by the National Bible Society of Scotland, Yokohama.
-- Language: Japanese (`ja`), historical/classical register (文語)
-- Rights: Public Domain (1887 publication; also cataloged under
-  archive.org's Folkscanomy collection as JPNKYZ "Public Domain" on
-  https://find.bible/bibles/JPNKYZ/)
-- Source records / downloads (5 volumes, archive.org, OCR'd djvu text
-  export):
-  - pt1 Genesis-Deuteronomy: https://archive.org/details/meijigenyaku-pt1-genesis-deuteronomy
-  - pt2 Joshua-Esther: https://archive.org/details/meijigenyaku-pt2-josh-esther
-  - pt3 Job-Song of Songs: https://archive.org/details/meijigenyaku-pt3-job-song
-  - pt4 Isaiah-Malachi: https://archive.org/details/meijigenyaku-pt4-isa-mal
-  - pt5 Matthew-Revelation (NT): https://archive.org/details/meijigenyaku-pt5-matt-rev
-  - Downloaded as `source/meijigenyaku-pt{1..5}-*.txt` (`_djvu.txt` OCR
-    text layer from each item)
+- Translation: Meiji Genyaku ("Meiji Original Translation"), the first
+  complete Japanese Bible; OT completed 1887. Classical (文語) register.
+- Rights: Public Domain (`{{PD-old}}` on Wikisource).
 
-## Status: OCR quality too poor to use as-is
+## Usable source: Wikisource transcription (`source_wikisource/`)
 
-Unlike the Shinkaiyaku 1965 NT (clean structured USFM), this text is an
-OCR export of a 19th-century vertical-print scan with historical kana
-orthography and furigana. The uploader's own notes say image processing
-"eaten away" characters, and spot-checking confirms the OCR text is not
-usable even as loose reading material — it is a scramble of kanji,
-katakana, and stray Latin/digit noise with no reliable verse markers
-surviving the OCR pass.
+Raw wikitext of all 39 books of 明治元訳旧約聖書 (文語訳) from
+ja.wikisource.org, hand-typed from the Japan Bible Society 舊新約聖書
+printing (1937/1953; the 1937 printing is NDL digital collection
+3456426). Fetched with `action=raw`; 16 book titles are redirects to a
+variant title with a space before the parenthesis, and those were
+followed.
 
-This directory is retained as source material and provenance record only.
-It is **not** atomized into GOI/KJV-aligned verse files (no
-`One_Directory_MeijiGenyaku1887*/` exists yet), and must not be used for
-name QA or any other purpose until someone either re-OCRs the underlying
-scans with a CJK-vertical-text-aware engine, or a cleaner public-domain
-Japanese OT source is found. The future `GOI_Ja` translation itself will
-still be generated directly from the Hebrew WLC / Greek TR1550 sources,
-same as every other GOI edition — this text is reference/QA material only,
-never a translation base.
+`atomize_and_align.py` handles both markup styles found on the pages
+(`{{verse|C|V}}` and `==== C:V ====`), strips ruby/links/templates,
+decodes HTML entities, and writes:
+
+- `One_Directory_Meiji1887/` — native verse numbering
+- `One_Directory_Meiji1887_GOI/` — KJV-keyed, 21,645 of 23,145 OT verses
+- `alignment_report.txt` — per-book result
+
+Alignment status: **0 misaligned, 0 extra.** 37 books match KJV
+exactly. The rest:
+
+- **Merged verses (20 places):** the Meiji text folds a KJV verse into a
+  neighbouring verse (e.g. Exodus 7:24 ends with 7:25's 七日たちぬ,
+  Proverbs 26:17 carries 26:18-19, Psalm superscriptions). Each was
+  confirmed by reading the Meiji text against the KJV; the merged text is
+  copied to every KJV verse it covers (`BOOK_OVERRIDES`).
+- **Not transcribed on Wikisource (1,500 verses):** Numbers 2-36 and
+  1 Samuel 2:1-13:21. No Meiji text exists for these; the OT translator
+  shows the KJV alone as the reference there.
+
+## Unusable source: archive.org OCR (`source/`)
+
+`source/meijigenyaku-pt{1..5}-*.txt` are the `_djvu.txt` OCR layers of
+the five-volume 1887 scan on archive.org. The OCR of the vertical,
+furigana-set print is unreadable (scrambled kanji/kana with stray
+Latin/digits). Kept only as a provenance record; do not use.
