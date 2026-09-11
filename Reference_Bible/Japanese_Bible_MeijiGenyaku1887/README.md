@@ -35,8 +35,11 @@ exactly. The rest:
   confirmed by reading the Meiji text against the KJV; the merged text is
   copied to every KJV verse it covers (`BOOK_OVERRIDES`).
 - **Not transcribed on Wikisource (1,500 verses):** Numbers 2-36 and
-  1 Samuel 2:1-13:21. No Meiji text exists for these; the OT translator
-  shows the KJV alone as the reference there.
+  1 Samuel 2:1-13:21. No Meiji text exists for these. This is not a
+  coverage gap for the translator: its main secondary references are the
+  sibling GOI editions (GOI_Zh_Hant and GOI_En), which share the Global
+  Ordinal Index and cover every verse; the Meiji text is a supplement
+  where it exists.
 
 ## Unusable source: archive.org OCR (`source/`)
 
