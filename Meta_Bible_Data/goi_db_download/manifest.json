@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-09-11T22:16:12+00:00",
+  "generated_at": "2026-09-12T01:22:34+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -47,7 +47,7 @@
       "status": "active",
       "file": "GOI_Zh_Hans.db",
       "size_bytes": 9355264,
-      "sha256": "82449d2e91a78ca5a593e74e2ad774ca414d62a747c1dfee8e692e14a8225148",
+      "sha256": "e879dab52c2f8004426ba71b9d368e2d4b20b5c3f75d3ca7fe4561b8d4c9d97e",
       "verse_count": 31102
     },
     {
@@ -58,7 +58,7 @@
       "status": "active",
       "file": "GOI_Zh_Hant.db",
       "size_bytes": 9355264,
-      "sha256": "16343e43cc79357aa93c04d65c330cb4442122bdbbce6f2d41799cd5ca79a8f3",
+      "sha256": "d39c8ccab78346fdcfde7d988e10aff065ab67dca6ad6ae28bf1b7e1cc91a2d6",
       "verse_count": 31102
     },
     {
