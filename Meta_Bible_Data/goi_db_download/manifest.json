@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-09-12T01:22:34+00:00",
+  "generated_at": "2026-09-13T02:37:19+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -14,7 +14,7 @@
       "status": "active",
       "file": "GOI_En.db",
       "size_bytes": 9039872,
-      "sha256": "04b1b19a673e72cca0b4eebf2acd7ad7bf00aa656504d0e2f57ae13f66264bb5",
+      "sha256": "3e755efab4eb00e180d054174df824e0dbdc4db9b40f30b5b88bae4780faa59e",
       "verse_count": 31102
     },
     {
@@ -25,7 +25,7 @@
       "status": "active",
       "file": "GOI_Es.db",
       "size_bytes": 8970240,
-      "sha256": "8e06d0317f0ed3b98ceed3c9949a900d7182d128846d6b18744648781ebda012",
+      "sha256": "65fd27bf7bb89334623009b8351d2e84ae4a2a9664c2b45729968bf7fc27a7a5",
       "verse_count": 31102
     },
     {
@@ -36,7 +36,7 @@
       "status": "active",
       "file": "GOI_Pt.db",
       "size_bytes": 8949760,
-      "sha256": "1a20508d4efa9d73aeb33079544f2b9ab1e107c32edb92f4c74c9df46d2523de",
+      "sha256": "c78ddc1b1126f97831e1ca44394aa9294e54971f7c6cd55f3abb2692dca38f66",
       "verse_count": 31102
     },
     {
@@ -47,7 +47,7 @@
       "status": "active",
       "file": "GOI_Zh_Hans.db",
       "size_bytes": 9355264,
-      "sha256": "e879dab52c2f8004426ba71b9d368e2d4b20b5c3f75d3ca7fe4561b8d4c9d97e",
+      "sha256": "60ebde03a1cbcb019bd4b1fdda777a27cbd295c8987ecef7e3da0143cfa28da1",
       "verse_count": 31102
     },
     {
@@ -58,7 +58,7 @@
       "status": "active",
       "file": "GOI_Zh_Hant.db",
       "size_bytes": 9355264,
-      "sha256": "d39c8ccab78346fdcfde7d988e10aff065ab67dca6ad6ae28bf1b7e1cc91a2d6",
+      "sha256": "29d175353f3951e0027aa06c03944bc137be78d623b19be0b4f7b98f52377f61",
       "verse_count": 31102
     },
     {
@@ -69,7 +69,7 @@
       "status": "active",
       "file": "GOI_vi.db",
       "size_bytes": 10559488,
-      "sha256": "7a19d77851ff8b687e16c37b59da59b0c0c55ac86e8541350adb44118856a6ac",
+      "sha256": "a6066e7e93c9e0a91ab62ce7d977dc1c5373794325baa83fd9c4c491167e3f7f",
       "verse_count": 31102
     },
     {
