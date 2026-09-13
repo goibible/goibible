@@ -58,6 +58,7 @@ EDITIONS = {
     "GOI_En":      ("en", "en", "GOI Bible English", "GOI English corpus imported from GOI_Bible_English; filename_key uses _GOI_En suffix."),
     "GOI_Zh_Hant": ("zh-Hant", "zh", "GOI Bible Traditional Chinese", "GOI Traditional Chinese corpus imported from GOI_Bible_Chinese_Hant; filename_key uses _GOI_Zh_Hant suffix."),
     "GOI_Zh_Hans": ("zh-Hans", "zh", "GOI Bible Simplified Chinese", "GOI Simplified Chinese corpus converted from GOI_Bible_Chinese_Hant using OpenCC t2s; filename_key uses _GOI_Zh_Hans suffix."),
+    "GOI_Ko":      ("ko", "ko", "GOI Bible Korean", "Korean full Bible (OT+NT) translated from Hebrew WLC and Greek TR1550; filename_key uses _GOI_Ko suffix."),
     "GOI_vi":      ("vi", "vi", "Tiếng Việt - Kinh Thánh GOI", "Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix."),
 }
 

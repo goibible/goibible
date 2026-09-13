@@ -89,7 +89,7 @@
     "bcp47_tag": "pt",
     "language_subtag": "pt",
     "display_name": "GOI Bible Portuguese",
-    "status": "pending",
+    "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_pt",
     "filename_suffix": "GOI_Pt",
     "template_edition": "GOI_En",
@@ -104,7 +104,7 @@
     "flatfile_dir": "GOI_Bible/GOI_Bible_ko",
     "filename_suffix": "GOI_Ko",
     "template_edition": "GOI_En",
-    "notes": "Korean translation scaffold. First Korean Bible (1911, KORSYS) is retained as public-domain reference and name QA material at Reference_Bible/Korean_Bible_KORSYS1911; GOI translation should be generated from Hebrew WLC / Greek TR1550."
+    "notes": "Korean full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. Korean 1911 (KORSYS) is retained solely as a public-domain reference and name-QA source. OT and NT noun coverage are both 100%."
   },
   {
     "edition_id": "GOI_Ja",

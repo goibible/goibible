@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-09-13T02:37:19+00:00",
+  "generated_at": "2026-09-13T18:58:02+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -26,6 +26,17 @@
       "file": "GOI_Es.db",
       "size_bytes": 8970240,
       "sha256": "65fd27bf7bb89334623009b8351d2e84ae4a2a9664c2b45729968bf7fc27a7a5",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Ko",
+      "display_name": "GOI Bible Korean",
+      "bcp47_tag": "ko",
+      "language_subtag": "ko",
+      "status": "active",
+      "file": "GOI_Ko.db",
+      "size_bytes": 10018816,
+      "sha256": "5a40cc24c8fb674bf933852f84f6e7d35111c9672632f221fa5c8dea97e735d8",
       "verse_count": 31102
     },
     {
@@ -58,7 +69,7 @@
       "status": "active",
       "file": "GOI_Zh_Hant.db",
       "size_bytes": 9355264,
-      "sha256": "29d175353f3951e0027aa06c03944bc137be78d623b19be0b4f7b98f52377f61",
+      "sha256": "b500b9d8ac6c04d93367292cfa8c3451019191c6a4c0cacfa8a679a4c8077460",
       "verse_count": 31102
     },
     {

@@ -8,7 +8,7 @@ INSERT INTO editions VALUES('GOI_Zh_Hans','zh-Hans','zh','active','GOI Bible Sim
 INSERT INTO editions VALUES('GOI_vi','vi','vi','active','Tiếng Việt - Kinh Thánh GOI','Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix.');
 INSERT INTO editions VALUES('GOI_Es','es','es','active','GOI Bible Spanish','Spanish full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Es suffix.');
 INSERT INTO editions VALUES('GOI_Pt','pt','pt','active','GOI Bible Portuguese','Portuguese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Pt suffix.');
-INSERT INTO editions VALUES('GOI_Ko','ko','ko','pending','GOI Bible Korean','Korean translation scaffold; KORSYS 1911 public-domain reference is stored separately for QA and name work.');
+INSERT INTO editions VALUES('GOI_Ko','ko','ko','active','GOI Bible Korean','Korean full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550; KORSYS 1911 retained solely as public-domain reference and name-QA source.');
 INSERT INTO editions VALUES('GOI_Ja','ja','ja','pending','GOI Bible Japanese','Japanese translation scaffold; Shinkaiyaku 1965 NT (public domain, 100% KJV-aligned) is the NT reference/name-QA source, Meiji Genyaku 1887 is a not-yet-usable OT reference candidate.');
 INSERT INTO books VALUES(1,'GEN','Genesis','OT');
 INSERT INTO books VALUES(2,'EXO','Exodus','OT');
