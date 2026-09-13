@@ -1,6 +1,7 @@
 # GOI Bible: Flatfile & Database Inventory
 
-Last verified: 2026-08-06, during the Vietnamese OT launch. Every location and
+Last verified: 2026-09-13, after the Korean full-Bible release and Chinese
+script cleanup. Every location and
 build command below was checked hands-on this session (not assumed from
 memory) — see "How this was verified" at the bottom for what that means in
 practice, and re-verify anything before trusting it if a lot of time has
@@ -26,6 +27,7 @@ named `<NNN>_<BOK>_<CCC>_<VVV>_<suffix>.txt`.
 | Directory | Language | Suffix | Verses |
 |---|---|---|---|
 | `GOI_Bible/GOI_Bible_English` | English | `_GOI_En.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_ko` | Korean | `_GOI_Ko.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_vi` | Vietnamese | `_GOI_vi.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_Chinese_Hant` | Chinese (Traditional) | `_GOI_Zh_Hant.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_Chinese_Hans` | Chinese (Simplified) | `_GOI_Zh_Hans.txt` | 31,102 (OT+NT) |
@@ -81,7 +83,7 @@ Meta_Bible_Data/goi_db_download/*.db   (git-tracked; apps + reader pull from her
 **Command to run after any flatfile edit**, from repo root:
 ```bash
 python3 tools/translation_pipeline/goi_language_pipeline.py stage <EDITION_ID>
-# e.g. stage GOI_vi, stage GOI_Zh_Hant, stage GOI_Zh_Hans, stage GOI_En
+# e.g. stage GOI_Ko, stage GOI_vi, stage GOI_Zh_Hant, stage GOI_Zh_Hans
 python3 tools/build_reader_db.py
 ```
 Then commit + push (§4) and rsync the reader DB to dsvx (§3).
@@ -93,19 +95,19 @@ Then commit + push (§4) and rsync the reader DB to dsvx (§3).
 | `Meta_Bible_Data/local_backups/GOI_bible.sqlite3` | The "main" registry DB `build_buffet.py` reads as a template/reference | No (`.gitignore`) | Rebuilt correctly this session (was the source of the stale-GOI_vi bug — see §5) |
 | `Meta_Bible_Data/sqlite/versions/<edition>.sql` | Per-edition SQL dump, intermediate | **Yes** | Current |
 | `Meta_Bible_Data/sqlite/goi_bible_shell.db` | Empty schema + reference seed, no verse rows | **Yes** (explicit `.gitignore` exception) | Current |
-| `Meta_Bible_Data/goi_db_download/*.db` (8 editions: `GOI_En`, `GOI_vi`, `GOI_Zh_Hant`, `GOI_Zh_Hans`, `KJV`, `WEBUS`, `TR1550`, `WLC`) | **The canonical distributable** — apps and the reader both ultimately source from these | **Yes** (explicit `.gitignore` exception) | Rebuilt and current as of this session |
-| `Meta_Bible_Data/goi_db_download/manifest.json` | Lists each edition's status (`active`/`pending`), checksum, size — Android/desktop apps fetch this **live from GitHub** to discover what's downloadable | **Yes** | Current; `GOI_vi` now `active` |
+| `Meta_Bible_Data/goi_db_download/*.db` (11 editions: `GOI_En`, `GOI_Es`, `GOI_Ko`, `GOI_Pt`, `GOI_vi`, `GOI_Zh_Hant`, `GOI_Zh_Hans`, `KJV`, `WEBUS`, `TR1550`, `WLC`) | **The canonical distributable** — apps and the reader both ultimately source from these | **Yes** (explicit `.gitignore` exception) | Rebuilt and current as of this session; Korean and corrected Traditional Chinese were rebuilt 2026-09-13 |
+| `Meta_Bible_Data/goi_db_download/manifest.json` | Lists each edition's status (`active`/`pending`), checksum, size — Android/desktop apps fetch this **live from GitHub** to discover what's downloadable | **Yes** | Current; all 11 editions are `active`, including `GOI_Ko` |
 | `Meta_Bible_Data/sqlite/editions/*.db` | **Stale/orphaned.** Written by `build_buffet.py`/`split_editions.sh`, but `build_downloads.py` does NOT read from here — this directory is not part of the live `stage` pipeline at all. Found `GOI_vi.db` here still at 7,957 (NT-only) rows. | No | **Dead weight — safe to delete, not part of any live path. Do not treat this directory as a source of truth for anything.** |
-| `/var/www/goibible.org/read/data/bible.sqlite3` | Powers **read.goibible.org**, the live public web reader (separate from the download/app path) | No (lives outside this repo, on the local machine + mirrored to dsvx) | Was stale for every edition and **completely missing Vietnamese** until this session; now rebuilt via `tools/build_reader_db.py` and synced to dsvx |
+| `/var/www/goibible.org/read/data/bible.sqlite3` | Powers **read.goibible.org**, the live public web reader (separate from the download/app path) | No (lives outside this repo, on the local machine + mirrored to dsvx) | Rebuilt via `tools/build_reader_db.py` and synced to dsvx; includes all current GOI editions, including Korean |
 | `/var/www/goibible.org/www/data/site_content.sqlite3` | Small CMS DB — homepage/nav copy per language, read by `index.php` | No | Vietnamese content upserted via `/var/www/goibible.org/tools/upsert_vietnamese_home.php`; synced to dsvx |
-| `Apps/GOIBible_android/app/src/main/assets/GOI_En.db`, `GOI_Zh_Hant.db` | Bundled-at-install editions for the Android app | **Yes**, but `Apps/` itself is currently **untracked** in this repo (see §4 note) | Only English + Traditional Chinese are pre-bundled; **the app fetches any other edition (Vietnamese, Simplified Chinese) on demand from the GitHub manifest** — confirmed by reading `BibleRepo.kt`/`SettingsScreen.kt`, no code change needed |
-| `Apps/GOIBible_desktop/goibible/resources/GOI_En.db`, `GOI_Zh_Hant.db` | Same pattern for the desktop app | Same as above | Same dynamic-fetch design, confirmed via `app.py` |
+| `Apps/GOIBible_android/app/src/main/assets/*.db` | Bundled-at-install editions for the Android app | **Yes**, but `Apps/` itself is currently **untracked** in this repo (see §4 note) | Additional editions, including Korean, are fetched on demand from the GitHub manifest. The client URL is `Meta_Bible_Data/goi_db_download/manifest.json`. |
+| `Apps/GOIBible_desktop/goibible/resources/` | Desktop resources (the Bible editions are fetched dynamically) | Same as above | Korean and other editions are fetched on demand from the same GitHub manifest path, confirmed in `app.py` |
 | `Apps/GOIBible_desktop/data/bible.db`, `Apps/GOIBible_desktop/dist/**/data/bible.db` | **User-local runtime cache** — the merged working DB the desktop app builds for itself at runtime after downloading editions | No | Not a source, ignore for update purposes |
 | `Meta_Bible_Data/archive/atomic_bible.sqlite3`, `Meta_Bible_Data/local_backups/goi_bible_downloads/*.db` | Old pre-migration snapshots | No | Historical only, not live |
 | `Apps/bible_verse_randomizer/**/randomizer.sqlite3` | Belongs to an unrelated sub-project (verse randomizer, not the main Bible reader/apps) | No | Out of scope for Bible-text updates |
 
 ### 2c. Things that do *not* need a separate update
-- **Android APK / desktop installer binaries** — confirmed this session that neither app bundles more than English + Traditional Chinese at install time; every other edition (including Vietnamese) is fetched dynamically from the GitHub-hosted `manifest.json` + `.db` files. **No app rebuild is needed when flatfiles/download-DBs change.**
+- **Android APK / desktop installer binaries** — editions available through the GitHub-hosted `Meta_Bible_Data/goi_db_download/manifest.json` and `.db` files, including Korean, are fetched dynamically. **No app rebuild is needed when flatfiles/download-DBs change.**
 - `/var/www/goibible.org/www/download/index.html` — lists the three platform installers only, has no per-language logic, nothing to update there for a translation change.
 
 ---
