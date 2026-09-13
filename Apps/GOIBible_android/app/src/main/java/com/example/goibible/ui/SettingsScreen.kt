@@ -50,9 +50,9 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 private const val DownloadManifestUrl =
-    "https://raw.githubusercontent.com/goibible/goibible/main/goi_db_download/manifest.json"
+    "https://raw.githubusercontent.com/goibible/goibible/main/Meta_Bible_Data/goi_db_download/manifest.json"
 private const val DownloadBaseUrl =
-    "https://raw.githubusercontent.com/goibible/goibible/main/goi_db_download/"
+    "https://raw.githubusercontent.com/goibible/goibible/main/Meta_Bible_Data/goi_db_download/"
 
 private data class DownloadEdition(
     val editionId: String,

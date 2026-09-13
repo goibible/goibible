@@ -39,8 +39,8 @@ from .repo import BibleRepo, Bookmark, RandomVerse, SearchHit
 from .state import AppState, PaneState
 
 
-DOWNLOAD_MANIFEST_URL = "https://raw.githubusercontent.com/goibible/goibible/main/goi_db_download/manifest.json"
-DOWNLOAD_BASE_URL = "https://raw.githubusercontent.com/goibible/goibible/main/goi_db_download/"
+DOWNLOAD_MANIFEST_URL = "https://raw.githubusercontent.com/goibible/goibible/main/Meta_Bible_Data/goi_db_download/manifest.json"
+DOWNLOAD_BASE_URL = "https://raw.githubusercontent.com/goibible/goibible/main/Meta_Bible_Data/goi_db_download/"
 
 
 def tool_button(text: str) -> QToolButton:
