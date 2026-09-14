@@ -24,5 +24,8 @@ jobs:
       - name: Require an audit entry for changed active translations
         if: github.event_name == 'pull_request'
         run: python3 tools/translation_pipeline/verify_changed_translation_audit.py --base "${{ github.event.pull_request.base.sha }}"
+      - name: Require an audit entry for active translations pushed to main
+        if: github.event_name == 'push' && github.event.before != '0000000000000000000000000000000000000000'
+        run: python3 tools/translation_pipeline/verify_changed_translation_audit.py --base "${{ github.event.before }}"
       - name: Verify flatfiles, download DBs, and manifest parity
         run: python3 tools/translation_pipeline/verify_release_integrity.py
