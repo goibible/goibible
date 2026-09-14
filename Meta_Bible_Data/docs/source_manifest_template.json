@@ -1,0 +1,16 @@
+{
+  "edition": "<Reference edition and version>",
+  "rights_status": "unresolved",
+  "rights_evidence_url": "<Permanent licence or public-domain evidence URL>",
+  "source_url": "<Permanent acquisition URL>",
+  "retrieved_on": "YYYY-MM-DD",
+  "normalizer": "<Tracked command/script and version, or manual procedure>",
+  "files": [
+    {
+      "path": "source/<preserved-file>",
+      "bytes": 0,
+      "sha256": "<64 lowercase hexadecimal characters>",
+      "kind": "raw"
+    }
+  ]
+}

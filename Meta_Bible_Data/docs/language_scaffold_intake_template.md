@@ -35,7 +35,7 @@ Do not import or publish source text while rights status is unresolved.
 
 | Role | Path | File count | Bytes | SHA-256 manifest | Status |
 |---|---|---:|---:|---|---|
-| Raw acquisition | `Reference_Bible/.../source/` | | | | |
+| Raw acquisition | `Reference_Bible/.../source/` + `SOURCE_MANIFEST.json` | | | | |
 | Normalized reference | `Reference_Bible/.../One_Directory_..._GOI/` | | | | |
 | Alignment ledger | `Reference_Bible/.../alignment_exceptions.csv` | | | | |
 | Target rendering ledger | `Meta_Bible_Data/Bible_Noun_Extraction/<lang>_noun_renderings.csv` | | | | |

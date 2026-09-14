@@ -9,6 +9,5 @@ app-facing downloads themselves.
 The public app download payload remains `goi_db_download/`. Build it with:
 
 ```bash
-python3 scripts/goi_language_pipeline.py stage GOI_vi
+python3 tools/translation_pipeline/goi_language_pipeline.py stage GOI_vi
 ```
-

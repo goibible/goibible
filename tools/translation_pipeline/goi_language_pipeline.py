@@ -51,6 +51,9 @@ def filename_suffix(config: dict[str, object]) -> str:
 
 
 def expected_count(config: dict[str, object]) -> int:
+    declared = config.get("expected_verse_count")
+    if isinstance(declared, int) and declared > 0:
+        return declared
     template = str(config.get("template_edition") or config["edition_id"])
     if template in {"TR1550", "GOI_vi"}:
         return 7957
@@ -93,7 +96,13 @@ def check_flatfiles(args: argparse.Namespace) -> None:
     suffix = filename_suffix(config)
     if len(files) != expected:
         raise SystemExit(f"{args.edition_id}: expected {expected} files, got {len(files)}")
-    empty = [path for path in files if path.stat().st_size == 0]
+    allowed_empty = set(config.get("allowed_empty_coordinates", []))
+    marker = f"_{suffix}.txt"
+    empty = [
+        path for path in files
+        if not path.read_text(encoding="utf-8").strip()
+        and path.name.removesuffix(marker) not in allowed_empty
+    ]
     if empty:
         raise SystemExit(f"{args.edition_id}: {len(empty)} zero-byte files")
     bad = [
@@ -164,6 +173,12 @@ def build_download(args: argparse.Namespace) -> None:
     run(["python3", "Meta_Bible_Data/goi_db_download/build_downloads.py", args.edition_id])
 
 
+def verify_release(_: argparse.Namespace) -> None:
+    run(["python3", "tools/translation_pipeline/verify_scaffold_manifests.py"])
+    run(["python3", "tools/translation_pipeline/verify_cross_language_audit.py"])
+    run(["python3", "tools/translation_pipeline/verify_release_integrity.py"])
+
+
 def stage(args: argparse.Namespace) -> None:
     check_flatfiles(args)
     normalize(args)
@@ -173,6 +188,7 @@ def stage(args: argparse.Namespace) -> None:
         coverage(args)
     build_sql(args)
     build_download(args)
+    verify_release(args)
     print(f"{args.edition_id}: staged SQL and download DB")
 
 
@@ -232,6 +248,9 @@ def main() -> None:
         p = sub.add_parser(name)
         p.add_argument("edition_id")
         p.set_defaults(func=func)
+
+    p = sub.add_parser("verify-release")
+    p.set_defaults(func=verify_release)
 
     p = sub.choices["coverage"]
     p.add_argument("--report")

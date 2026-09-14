@@ -40,7 +40,7 @@ GOI_Bible/GOI_Bible_<lang>/
 
 Reference_Bible/<Language>_Bible_<ReferenceEdition>/
   README.md                                  # provenance and normalisation rules
-  SOURCE_MANIFEST.md                         # licence evidence, hashes, inventory
+  SOURCE_MANIFEST.json                       # machine-verified licence evidence, hashes, inventory
   source/                                    # preserved acquisition files; never edited
   One_Directory_<ReferenceEdition>_GOI/      # one normalized reference verse per file
   alignment_exceptions.csv                   # every non-exact coordinate, never implicit
@@ -91,8 +91,9 @@ translation input. A reference edition is never copied into GOI output.
 ### 2. Preserve source and prove its integrity
 
 Commit raw acquisition files below `Reference_Bible/.../source/`, then make a
-manifest containing for every file: relative path, byte size, SHA-256, source
-URL, retrieval date, and whether it is raw or normalized. Check that all text
+  `SOURCE_MANIFEST.json` containing for every file: relative path, byte size,
+   SHA-256, source URL, retrieval date, and whether it is raw or normalized.
+   Check that all text
 and report files have a non-zero byte size. Record the normalizer command and
 its input/output hashes. The first commit should contain only the reference
 source, provenance files, and normalizer; this creates a clean recovery point.
@@ -183,7 +184,9 @@ in the same commit or an immediately following, explicitly linked commit.
 | Translation | Flatfile count; structural report; semantic review log | language activation |
 | Release | Flatfile-to-DB diff; manifest checksum; reader DB query; deployment rollback ID | GitHub/live publication |
 
-Every gate result is dated and committed. A pass must name the command,
+Every gate result is dated and committed. Run
+`tools/translation_pipeline/verify_scaffold_manifests.py` to validate every
+machine-readable source manifest. A pass must name the command,
 inputs, counts, commit ID, and output report path. A failure remains recorded;
 do not overwrite it with a later pass.
 

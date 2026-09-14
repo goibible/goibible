@@ -19,11 +19,13 @@ Then rsync the resulting file to the dsvx server (see docs/inventory.md).
 from __future__ import annotations
 
 import argparse
+import json
 import pathlib
 import sqlite3
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOWNLOAD_DIR = ROOT / "Meta_Bible_Data" / "goi_db_download"
+MANIFEST = DOWNLOAD_DIR / "manifest.json"
 DEFAULT_TARGET = pathlib.Path("/var/www/goibible.org/read/data/bible.sqlite3")
 
 # Vietnamese book long names, standard VIE1934/common Vietnamese Protestant
@@ -50,17 +52,15 @@ VI_BOOK_NAMES = {
     66: "Khải Huyền",
 }
 
-EDITIONS = {
-    "KJV":         ("en", "en", "King James Version", None),
-    "WEBUS":       ("en-US", "en", "World English Bible (US)", None),
-    "TR1550":      ("el", "el", "Textus Receptus 1550", "Partial corpus in current source"),
-    "WLC":         ("he", "he", "Westminster Leningrad Codex", "WLC OT corpus imported from Hebrew_Bible_WLC/One_Directory_WLC_KJV; filename_key uses _WLC suffix."),
-    "GOI_En":      ("en", "en", "GOI Bible English", "GOI English corpus imported from GOI_Bible_English; filename_key uses _GOI_En suffix."),
-    "GOI_Zh_Hant": ("zh-Hant", "zh", "GOI Bible Traditional Chinese", "GOI Traditional Chinese corpus imported from GOI_Bible_Chinese_Hant; filename_key uses _GOI_Zh_Hant suffix."),
-    "GOI_Zh_Hans": ("zh-Hans", "zh", "GOI Bible Simplified Chinese", "GOI Simplified Chinese corpus converted from GOI_Bible_Chinese_Hant using OpenCC t2s; filename_key uses _GOI_Zh_Hans suffix."),
-    "GOI_Ko":      ("ko", "ko", "GOI Bible Korean", "Korean full Bible (OT+NT) translated from Hebrew WLC and Greek TR1550; filename_key uses _GOI_Ko suffix."),
-    "GOI_vi":      ("vi", "vi", "Tiếng Việt - Kinh Thánh GOI", "Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix."),
-}
+def active_downloads() -> list[str]:
+    """Return the active edition IDs from the same manifest used by apps.
+
+    The reader must not have a second, hand-maintained subset of languages.
+    Metadata itself is copied from each edition DB below; this list only
+    decides which published editions belong in the reader.
+    """
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    return [entry["edition_id"] for entry in manifest["editions"] if entry.get("status") == "active"]
 
 
 def main() -> None:
@@ -72,15 +72,6 @@ def main() -> None:
     conn = sqlite3.connect(target)
     cur = conn.cursor()
 
-    for edition_id, (bcp47, subtag, display, notes) in EDITIONS.items():
-        cur.execute(
-            "INSERT INTO editions (edition_id, bcp47_tag, language_subtag, status, display_name, notes) "
-            "VALUES (?, ?, ?, 'active', ?, ?) "
-            "ON CONFLICT(edition_id) DO UPDATE SET bcp47_tag=excluded.bcp47_tag, "
-            "language_subtag=excluded.language_subtag, display_name=excluded.display_name, notes=excluded.notes",
-            (edition_id, bcp47, subtag, display, notes),
-        )
-
     for conical, name in VI_BOOK_NAMES.items():
         cur.execute(
             "INSERT INTO book_names (edition_id, conical, name) VALUES ('GOI_vi', ?, ?) "
@@ -88,12 +79,25 @@ def main() -> None:
             (conical, name),
         )
 
-    for edition_id in EDITIONS:
+    for edition_id in active_downloads():
         src_path = DOWNLOAD_DIR / f"{edition_id}.db"
         if not src_path.exists():
-            print(f"SKIP {edition_id}: {src_path} not found")
-            continue
+            raise FileNotFoundError(f"published manifest names missing DB: {src_path}")
         cur.execute("ATTACH DATABASE ? AS src", (str(src_path),))
+        metadata = cur.execute(
+            "SELECT bcp47_tag, language_subtag, status, display_name, notes FROM src.editions WHERE edition_id=?",
+            (edition_id,),
+        ).fetchone()
+        if metadata is None:
+            raise RuntimeError(f"{edition_id}: no edition metadata in {src_path}")
+        cur.execute(
+            "INSERT INTO editions (edition_id, bcp47_tag, language_subtag, status, display_name, notes) "
+            "VALUES (?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(edition_id) DO UPDATE SET bcp47_tag=excluded.bcp47_tag, "
+            "language_subtag=excluded.language_subtag, status=excluded.status, "
+            "display_name=excluded.display_name, notes=excluded.notes",
+            (edition_id, *metadata),
+        )
         cur.execute("DELETE FROM verses WHERE edition_id = ?", (edition_id,))
         cur.execute(
             "INSERT INTO verses (goi, conical, edition_id, version, language_subtag, book, chapter, verse, testament, verse_text) "

@@ -6,7 +6,8 @@
     "display_name": "King James Version",
     "status": "active",
     "flatfile_dir": "Reference_Bible/English_Bible_KJV/One_Directory_KJV",
-    "filename_suffix": "KJV"
+    "filename_suffix": "KJV",
+    "expected_verse_count": 31102
   },
   {
     "edition_id": "WEBUS",
@@ -15,7 +16,15 @@
     "display_name": "World English Bible (US)",
     "status": "active",
     "flatfile_dir": "Reference_Bible/English_Bible_WEBUS/One_Directory_WEBUS",
-    "filename_suffix": "WEBUS"
+    "filename_suffix": "WEBUS",
+    "expected_verse_count": 31102,
+    "allowed_empty_coordinates": [
+      "042_LUK_017_036",
+      "044_ACT_008_037",
+      "044_ACT_015_034",
+      "044_ACT_024_007"
+    ],
+    "notes": "WEBUS retains four intentionally absent disputed-text coordinates as empty canonical placeholders; see allowed_empty_coordinates."
   },
   {
     "edition_id": "TR1550",
@@ -24,7 +33,8 @@
     "display_name": "Textus Receptus 1550",
     "status": "active",
     "flatfile_dir": "Reference_Bible/Greek_Bible_TR1550/One_Directory_TR1550",
-    "filename_suffix": "TR1550"
+    "filename_suffix": "TR1550",
+    "expected_verse_count": 7957
   },
   {
     "edition_id": "WLC",
@@ -33,7 +43,8 @@
     "display_name": "Westminster Leningrad Codex",
     "status": "active",
     "flatfile_dir": "Reference_Bible/Hebrew_Bible_WLC/One_Directory_WLC_KJV",
-    "filename_suffix": "WLC"
+    "filename_suffix": "WLC",
+    "expected_verse_count": 23145
   },
   {
     "edition_id": "GOI_En",
@@ -42,7 +53,8 @@
     "display_name": "GOI Bible English",
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_English",
-    "filename_suffix": "GOI_En"
+    "filename_suffix": "GOI_En",
+    "expected_verse_count": 31102
   },
   {
     "edition_id": "GOI_Zh_Hant",
@@ -51,7 +63,8 @@
     "display_name": "GOI Bible Traditional Chinese",
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hant",
-    "filename_suffix": "GOI_Zh_Hant"
+    "filename_suffix": "GOI_Zh_Hant",
+    "expected_verse_count": 31102
   },
   {
     "edition_id": "GOI_Zh_Hans",
@@ -60,7 +73,8 @@
     "display_name": "GOI Bible Simplified Chinese",
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hans",
-    "filename_suffix": "GOI_Zh_Hans"
+    "filename_suffix": "GOI_Zh_Hans",
+    "expected_verse_count": 31102
   },
   {
     "edition_id": "GOI_vi",
@@ -70,6 +84,7 @@
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_vi",
     "filename_suffix": "GOI_vi",
+    "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Vietnamese full Bible generated from Hebrew/Greek source pipeline; VIE1934/KJV used for reference/name QA only."
   },
@@ -81,6 +96,7 @@
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_es",
     "filename_suffix": "GOI_Es",
+    "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Spanish full Bible (66 books, 31,102 verses) generated from Hebrew WLC / Greek TR1550 source pipeline; RV1909 (Reference_Bible/Spanish_Bible_RV1909/One_Directory_RV1909_GOI, GOI-versification-aligned) used for reference/name QA only. QA complete: noun/name coverage, false-friend and negation/number checks (NT), full clause-completeness pass (OT), tú/vosotros register audit."
   },
@@ -92,6 +108,7 @@
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_pt",
     "filename_suffix": "GOI_Pt",
+    "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Portuguese full-Bible build scaffold. NT/OT should be generated from TR1550/WLC; Almeida 1911 Project Gutenberg reference (Reference_Bible/Portuguese_Bible_Almeida1911/One_Directory_Almeida1911_GOI, GOI/KJV-aligned) is public-domain reference/name QA only."
   },
@@ -100,9 +117,10 @@
     "bcp47_tag": "ko",
     "language_subtag": "ko",
     "display_name": "GOI Bible Korean",
-    "status": "pending",
+    "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_ko",
     "filename_suffix": "GOI_Ko",
+    "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Korean full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. Korean 1911 (KORSYS) is retained solely as a public-domain reference and name-QA source. OT and NT noun coverage are both 100%."
   },
@@ -114,6 +132,7 @@
     "status": "pending",
     "flatfile_dir": "GOI_Bible/GOI_Bible_ja",
     "filename_suffix": "GOI_Ja",
+    "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Japanese GOI edition. NT complete (7,957 verses from Greek TR1550, noun coverage 100%). OT scaffolded, not yet translated: Hebrew WLC source, noun anchors in Meta_Bible_Data/Bible_Noun_Extraction/hebrew_ot_ja.sqlite3. References (QA only): Shinkaiyaku 1965 NT (public domain) at Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI; Meiji Genyaku 1887 OT (public domain, Wikisource transcription, 21,645/23,145 verses KJV-aligned) at Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI."
   }

@@ -1,0 +1,23 @@
+name: Bible integrity
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  canonical-release-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check tracked Python syntax
+        run: python3 -m py_compile tools/translation_pipeline/*.py tools/build_reader_db.py
+      - name: Verify preserved source manifests
+        run: python3 tools/translation_pipeline/verify_scaffold_manifests.py
+      - name: Require cross-language retro-check receipts
+        run: python3 tools/translation_pipeline/verify_cross_language_audit.py
+      - name: Verify flatfiles, download DBs, and manifest parity
+        run: python3 tools/translation_pipeline/verify_release_integrity.py
