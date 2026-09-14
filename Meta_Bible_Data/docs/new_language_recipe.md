@@ -22,6 +22,8 @@ complete.
    tracked `<lang>_noun_renderings.csv`, not only in SQLite.
 5. Run the scaffold, alignment, noun, and structural checks; append their
    reports to `Meta_Bible_Data/staging/reports/<lang>/`.
+   Complete `post_translation_checklist.md`, including the language-specific
+   Unicode script gate, before promoting the edition.
 
 ## 2. Add GOI metadata and canonical text
 

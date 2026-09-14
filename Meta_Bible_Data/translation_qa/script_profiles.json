@@ -1,0 +1,9 @@
+{
+  "GOI_En": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Es": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Ko": {"allowed": ["hangul", "common", "inherited"]},
+  "GOI_Pt": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Zh_Hans": {"allowed": ["han", "latin", "common", "inherited"]},
+  "GOI_Zh_Hant": {"allowed": ["han", "latin", "common", "inherited"]},
+  "GOI_vi": {"allowed": ["latin", "common", "inherited"]}
+}

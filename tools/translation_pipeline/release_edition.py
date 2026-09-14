@@ -25,6 +25,7 @@ def main() -> None:
     parser.add_argument("--reader-target", help="reader SQLite DB to rebuild; omit to skip reader rebuild")
     args = parser.parse_args()
     run("python3", "tools/translation_pipeline/goi_language_pipeline.py", "check-flatfiles", args.edition_id)
+    run("python3", "tools/translation_pipeline/verify_language_script.py", args.edition_id)
     run("python3", "tools/translation_pipeline/verify_scaffold_manifests.py")
     run("python3", "tools/translation_pipeline/verify_cross_language_audit.py")
     run("python3", "Meta_Bible_Data/sqlite/build_buffet.py", args.edition_id)
