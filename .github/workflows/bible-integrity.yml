@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -19,5 +21,8 @@ jobs:
         run: python3 tools/translation_pipeline/verify_scaffold_manifests.py
       - name: Require cross-language retro-check receipts
         run: python3 tools/translation_pipeline/verify_cross_language_audit.py
+      - name: Require an audit entry for changed active translations
+        if: github.event_name == 'pull_request'
+        run: python3 tools/translation_pipeline/verify_changed_translation_audit.py --base "${{ github.event.pull_request.base.sha }}"
       - name: Verify flatfiles, download DBs, and manifest parity
         run: python3 tools/translation_pipeline/verify_release_integrity.py

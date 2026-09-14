@@ -42,6 +42,9 @@ complete.
    python3 tools/translation_pipeline/show_cross_language_coordinate.py 001_GEN_001_001
    ```
 
+   CI rejects a changed verse in an active GOI language unless its coordinate
+   appears in this ledger, so enter the issue before committing the fix.
+
 ## 3. Promote and build every derived database
 
 After the corpus is complete and its audit reports pass, change the edition to
