@@ -82,6 +82,15 @@ work in an existing one:
 
 ## 2. Translation work
 
+- **Approved model/provider policy.** Automated translation and audit calls
+  use the project-approved **DeepSeek** model/provider only. Do not invoke a
+  legacy Qwen, Claude, OpenAI, or provider-generic script merely because it
+  remains in the repository; those are historical tooling until explicitly
+  migrated and approved. Every batch log records the provider, exact model
+  identifier, endpoint class (hosted/local), prompt version, temperature,
+  source commit, start/end time, request count, and input/output token totals.
+  This makes unexpected provider usage attributable instead of discoverable
+  only from an external billing dashboard.
 - **One verse, one file, always.** Never all-or-nothing batch generation
   (`pipeline.md` §Core Rules). Every generation step is incremental and
   resumable — skip existing non-empty files, retry only what failed.
@@ -159,6 +168,10 @@ defect, not clearing one; if a genuine scholarly quotation needs an
 exception, it goes in the scaffold record with a reason and a reviewer, not
 into the default allow-list (`docs/post_translation_checklist.md`).
 
+The active-corpus baseline is tracked in
+`staging/reports/script_gate_baseline_2026-09-14.md`. A baseline failure is
+release-blocking cleanup work, not a reason to loosen a language profile.
+
 
 ### 3.3 Duplicate / doubles checks
 
@@ -173,7 +186,7 @@ happened three times in `JapaneseMatcher` and fifteen times in
 now:
 
 ```bash
-python3 Bible_Noun_Extraction/verify_matchers_dedup.py
+python3 Meta_Bible_Data/Bible_Noun_Extraction/verify_matchers_dedup.py
 ```
 
 Walks the AST of `matchers.py` (not a line-range grep, which misses the
@@ -184,7 +197,7 @@ within the same dict literal. Run this after **any** edit to
 
 **(b) Duplicated/malformed verse files.** File-count, naming,
 single-line-per-verse, non-empty, and canonical-punctuation/NFC checks — see
-`validate.py` (English gate) and `validate_zh.py` (Chinese gate, which adds a
+`tools/validate.py` (English gate) and `tools/validate_zh.py` (Chinese gate, which adds a
 Traditional↔Simplified OpenCC t2s one-to-one mirror comparison). These catch
 concatenated verses, accidental duplicate writes, and drift between sibling
 editions that are supposed to be exact scripts of each other.
@@ -193,7 +206,7 @@ editions that are supposed to be exact scripts of each other.
 
 Where two editions of the same language exist (Traditional/Simplified
 Chinese), they should be an exact t2s/s2t mapping of each other except for
-genuine script differences — `validate_zh.py`'s MIRROR check. Where a
+genuine script differences — `tools/validate_zh.py`'s MIRROR check. Where a
 finished GOI edition exists in a related language, use it as a reference for
 another language's translation, the same way KJV/WEBUS are used for
 English — see `feedback-use-goi-sibling-editions` in project memory: a
@@ -277,8 +290,8 @@ document doesn't duplicate it, just points to it.
 | A concept from the source text is missing/mistranslated | Noun/Strong's coverage | 3.1 |
 | Wrong-language characters leaked into a corpus | `verify_language_script.py` | 3.2 |
 | A synonym fix "isn't working" | `verify_matchers_dedup.py` | 3.3a |
-| Duplicate/empty/malformed verse file | `validate.py` / `validate_zh.py` | 3.3b |
-| Traditional/Simplified drifted apart | `validate_zh.py` MIRROR | 3.4 |
+| Duplicate/empty/malformed verse file | `tools/validate.py` / `tools/validate_zh.py` | 3.3b |
+| Traditional/Simplified drifted apart | `tools/validate_zh.py` MIRROR | 3.4 |
 | Same bug shows up in another language later | `cross_language_regressions.csv` | 3.5 |
 | A MISSING verse's source text doesn't contain the flagged word at all | Versification seam | 3.6 |
 | A name and a common word share a Strong's number | Homograph bridging | 3.7 |
