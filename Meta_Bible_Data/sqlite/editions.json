@@ -134,6 +134,6 @@
     "filename_suffix": "GOI_Ja",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "Japanese GOI edition. NT complete (7,957 verses from Greek TR1550, noun coverage 100%). OT scaffolded, not yet translated: Hebrew WLC source, noun anchors in Meta_Bible_Data/Bible_Noun_Extraction/hebrew_ot_ja.sqlite3. References (QA only): Shinkaiyaku 1965 NT (public domain) at Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI; Meiji Genyaku 1887 OT (public domain, Wikisource transcription, 21,645/23,145 verses KJV-aligned) at Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI."
+    "notes": "Japanese GOI edition. NT complete (7,957 verses from Greek TR1550, noun coverage 100%). OT scaffolded, not yet translated: Hebrew WLC source, noun anchors in Meta_Bible_Data/Bible_Noun_Extraction/ja/hebrew_ot_ja.sqlite3. References (QA only): Shinkaiyaku 1965 NT (public domain) at Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI; Meiji Genyaku 1887 OT (public domain, Wikisource transcription, 21,645/23,145 verses KJV-aligned) at Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI."
   }
 ]

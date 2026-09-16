@@ -43,6 +43,30 @@ Keep that in mind when something looks like a translation bug: check
 alignment first, because a misaligned check will pass a bad translation and
 fail a good one with equal confidence.
 
+## 0a. Where things live on disk
+
+Structure follows the pipeline, not filename convention — open a folder,
+see what's done, don't grep for it.
+
+- **`GOI_Bible/<edition>/`** — the finished per-language translation, one
+  edition per folder (`GOI_Bible_English/`, `GOI_Bible_ja/`, etc.).
+- **`Reference_Bible/<edition>/`** — every public-domain cross-reference and
+  source-language text, one edition per folder, each self-contained: its own
+  atomize/align script, `SOURCE/`, `One_Directory_*/` output, `README.md`.
+- **`Bible_Noun_Extraction/`** — the Strong's/noun-extraction pipeline.
+  Shared, language-agnostic machinery (`matchers.py`, `llm_client.py`,
+  `verify_matchers_dedup.py`, the one shared NT DB `greek_noun.sqlite3`,
+  import/generation scripts used by every language) lives at this top
+  level. Everything specific to one language — its OT Strong's DB (if any),
+  its own scripts, its report CSVs — lives in a same-named subfolder:
+  `ja/`, `ko/`, `zh/`, `vi/`, `en/`, `es/`, `pt/`. **A language subfolder
+  with no `.sqlite3` in it means that language's OT hasn't started yet** —
+  that absence is itself the status signal, not a gap to fill in
+  speculatively. (Reorganized 2026-09-16, previously ~300 files flat in one
+  directory; see that commit for the full move — it also caught a mislabeled
+  DB, `hebrew_ot.sqlite3` renamed to `hebrew_ot_ko.sqlite3`, since it held
+  Korean OT data with no `ko` anywhere in the old name.)
+
 ---
 
 ## 1. Pre-translation work

@@ -99,7 +99,7 @@ apostolic text. Treat them as paratext.
   since been checked separately — see §3b. Verbs/adjectives/adverbs/particles
   outside the noun layer remain unverified beyond what clause-checking caught.
 
-Verification tooling: `Bible_Noun_Extraction/verify_noun_coverage.py`
+Verification tooling: `Bible_Noun_Extraction/en/verify_noun_coverage.py`
 (checks `strongs_nt … AND in_tr1550 = 1` against the English output).
 Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
 
@@ -274,7 +274,7 @@ Key tools:
 | `Bible_Noun_Extraction/matchers.py` | per-language "rendering appears in output" (refuses undefined langs) |
 | `Bible_Noun_Extraction/language_readiness.py` | what a language still needs before its numbers mean anything |
 | `Bible_Noun_Extraction/verify_coverage.py` | generic per-language noun coverage |
-| `Bible_Noun_Extraction/verify_noun_coverage.py` | English-specific, tuned coverage (the en authority) |
+| `Bible_Noun_Extraction/en/verify_noun_coverage.py` | English-specific, tuned coverage (the en authority) |
 | `Bible_Noun_Extraction/senses_worksheet.csv` + `import_sense_renderings.py` | the 16-sense per-language fill sheet + loader |
 
 Data model for adding a language (no schema change needed): default words go in
