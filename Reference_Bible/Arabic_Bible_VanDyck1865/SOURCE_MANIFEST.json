@@ -1,0 +1,16 @@
+{
+  "edition": "Arabic Van Dyck Bible (Syrian Mission, 1865; eBible arb-vd USFM distribution)",
+  "rights_status": "verified_public_domain",
+  "rights_evidence_url": "https://ftp.ebible.org/details.php?id=arb-vd",
+  "source_url": "https://eBible.org/Scriptures/arb-vd_usfm.zip",
+  "retrieved_on": "2026-09-16",
+  "normalizer": "Reference_Bible/Arabic_Bible_VanDyck1865/normalize_vandyck1865.py",
+  "files": [
+    {
+      "path": "source/arb-vd_usfm.zip",
+      "bytes": 1740174,
+      "sha256": "e4a2ab9491b2ac2ff799bb2a80ec9322203a7c36e78210b4506df84308c54948",
+      "kind": "raw"
+    }
+  ]
+}

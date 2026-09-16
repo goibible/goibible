@@ -1,0 +1,5 @@
+goi_ordinal,book,chapter,verse,reference_book,reference_chapter,reference_verse,relation,reason,reviewer,status
+29894,1TI,6,21,1TI,6,21,merged,Van Dyck divides the GOI/KJV final verse before the grace benediction,Codex,verified
+29894,1TI,6,21,1TI,6,22,merged,Van Dyck places the grace benediction in source verse 22; normalized with source verse 21,Codex,verified
+30625,3JN,1,14,3JN,1,14,merged,Van Dyck divides the GOI/KJV final verse before the peace greeting,Codex,verified
+30625,3JN,1,14,3JN,1,15,merged,Van Dyck places the peace greeting in source verse 15; normalized with source verse 14,Codex,verified

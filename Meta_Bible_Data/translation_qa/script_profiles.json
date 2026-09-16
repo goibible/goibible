@@ -1,5 +1,6 @@
 {
   "GOI_En": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Ar": {"allowed": ["arabic", "common", "inherited"]},
   "GOI_Es": {"allowed": ["latin", "common", "inherited"]},
   "GOI_Ja": {"allowed": ["han", "hiragana", "katakana", "common", "inherited"]},
   "GOI_Ko": {"allowed": ["hangul", "common", "inherited"]},

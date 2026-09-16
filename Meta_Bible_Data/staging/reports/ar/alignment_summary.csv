@@ -1,0 +1,4 @@
+relation,goi_coordinates,source_verse_markers,notes
+exact,31100,31100,Same book/chapter/verse coordinate in Van Dyck and GOI/KJV
+merged,2,4,Two pairs of Van Dyck final verses merge into two GOI coordinates
+total,31102,31104,All GOI coordinates accounted for; no duplicate target coordinate

@@ -135,5 +135,29 @@
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Japanese full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT and OT noun coverage are both 100% (OT: 146,502/146,502; NT: 28,840/28,840). Noun anchors in Meta_Bible_Data/Bible_Noun_Extraction/ja/hebrew_ot_ja.sqlite3 (OT) and greek_noun.sqlite3 (NT, shared). References (QA only): Shinkaiyaku 1965 NT (public domain) at Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI; Meiji Genyaku 1887 OT (public domain, Wikisource transcription, 21,645/23,145 verses KJV-aligned) at Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI."
+  },
+  {
+    "edition_id": "GOI_Ar",
+    "bcp47_tag": "ar",
+    "language_subtag": "ar",
+    "display_name": "GOI Bible Arabic",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_ar",
+    "filename_suffix": "GOI_Ar",
+    "expected_verse_count": 31102,
+    "template_edition": "GOI_En",
+    "notes": "Planned Arabic edition. Arabic Van Dyck 1865 is a public-domain comparison and noun-rendering reference only at Reference_Bible/Arabic_Bible_VanDyck1865; its two documented source-verse merges normalize to the full 31,102 GOI/KJV coordinate spine. No Arabic GOI flatfiles, database, or release artifacts exist."
+  },
+  {
+    "edition_id": "GOI_Ru",
+    "bcp47_tag": "ru",
+    "language_subtag": "ru",
+    "display_name": "GOI Bible Russian",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_ru",
+    "filename_suffix": "GOI_Ru",
+    "expected_verse_count": 31102,
+    "template_edition": "GOI_En",
+    "notes": "Planned Russian edition. Russian Synodal Bible (RUSSYN, eBible russyn_vpl export) is a public-domain comparison reference only at Reference_Bible/Russian_Bible_RUSSYN1876; it is NOT drop-in GOI-aligned (784 GOI addresses absent, 851 Russian-only addresses, 90%+ concentrated in Psalms versification differences) -- see alignment_report.json. 30,318/31,102 addresses match the spine directly; the rest await a formal Russian->GOI versification map before translation can start. NT noun matcher (RussianMatcher) registered in matchers.py; Strong's default renderings, sense renderings, and source-language noun anchors are all not started. No Russian GOI flatfiles, database, or release artifacts exist."
   }
 ]
