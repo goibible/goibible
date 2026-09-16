@@ -263,8 +263,10 @@ Remaining known work: other false-friend families not yet swept (e.g. σπλάγ
 ## 6. Pipeline tooling & multilingual plumbing
 
 This repo is the de-facto plumbing for translating TR1550 into further languages.
-The operational walkthrough for the next translator (human or AI) is
-**`TRANSLATION_GUIDE.md`**. Key tools:
+**Start with `Translation_Pipeline.md`** for the end-to-end map (pre-translation,
+translation, and every post-translation gotcha check); the operational
+walkthrough for onboarding a new NT language is **`TRANSLATION_GUIDE.md`**.
+Key tools:
 
 | Tool | Purpose |
 | --- | --- |

@@ -1,5 +1,11 @@
 # GOI Bible Translation Pipeline
 
+> **See `Translation_Pipeline.md` first** for the end-to-end map across all
+> languages and both testaments (pre-translation setup, translation rules,
+> and the full post-translation gotcha-check catalog). This file is the
+> detailed operational runbook for actually running the commands, written
+> NT/Vietnamese-first but generalizing to any language/testament.
+
 This file is the handoff runbook for generating, auditing, and packaging GOI
 Bible language editions. It is written so another inference engine can resume
 the work without relying on chat history.

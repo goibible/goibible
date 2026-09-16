@@ -58,7 +58,7 @@ work in an existing one:
   target verse range before any text goes in (`language_scaffold_playbook.md`
   §3). For OT books, check for known Hebrew/English versification seams
   (Psalms, Isaiah 63/64, Joel 2/3) before trusting any per-verse tooling — see
-  §5.6 below.
+  §3.6 below.
 - **Build the source-name / proper-noun layer.** `build_source_name_db.py`
   (NT, cross-testament) and `build_ot_name_db.py` (OT, per-language profile)
   give every proper name a canonical source entity independent of any one
@@ -117,7 +117,7 @@ work in an existing one:
   not a rewrite of the default. A global synonym changes what the coverage
   checker accepts *everywhere that key appears*; a per-verse override changes
   it only at that one coordinate. Prefer the narrower fix whenever the issue
-  is genuinely one-off. See §5.7 below for when a *global* fix (matcher
+  is genuinely one-off. See §3.7 below for when a *global* fix (matcher
   synonym or DB default correction) is instead the right call.
 - **Textual policy brackets are language-neutral.** `[]` conflicted-reading,
   `{}` supplemental-traditional. Decided once in `pipeline.md`'s NT Textual
