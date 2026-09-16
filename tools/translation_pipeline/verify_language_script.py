@@ -24,10 +24,16 @@ def script_of(ch: str) -> str:
     category = ud.category(ch)
     if ch.isspace() or category[0] in {"P", "S", "N"}:
         return "common"
+    if 0x3000 <= code <= 0x303F:
+        return "common"  # CJK symbols/punctuation, incl. U+3005 iteration mark (々)
     if 0xAC00 <= code <= 0xD7A3 or 0x1100 <= code <= 0x11FF or 0x3130 <= code <= 0x318F or 0xA960 <= code <= 0xA97F or 0xD7B0 <= code <= 0xD7FF:
         return "hangul"
     if 0x3400 <= code <= 0x4DBF or 0x4E00 <= code <= 0x9FFF or 0xF900 <= code <= 0xFAFF or 0x20000 <= code <= 0x2FA1F:
         return "han"
+    if 0x3040 <= code <= 0x309F:
+        return "hiragana"
+    if 0x30A0 <= code <= 0x30FF or 0x31F0 <= code <= 0x31FF or 0xFF66 <= code <= 0xFF9D:
+        return "katakana"
     if 0x0370 <= code <= 0x03FF or 0x1F00 <= code <= 0x1FFF:
         return "greek"
     if 0x0590 <= code <= 0x05FF or 0xFB1D <= code <= 0xFB4F:

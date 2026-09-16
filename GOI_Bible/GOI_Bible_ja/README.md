@@ -8,10 +8,10 @@ Filename format: `NNN_BOOK_CCC_VVV_GOI_Ja.txt`
 
 - **New Testament: complete.** 27 books, 7,957 verses, translated from the
   Greek TR1550; noun coverage 28,840/28,840 (100%).
-- **Old Testament: scaffolded, not yet translated.** To be translated from
-  the Hebrew WLC with `Meta_Bible_Data/Bible_Noun_Extraction/ja/translate_ot_ja.py`,
-  noun anchors from `hebrew_ot_ja.sqlite3`, coverage checked with
-  `verify_ja_ot_coverage.py`.
+- **Old Testament: complete.** 39 books, 23,145 verses, translated from the
+  Hebrew WLC with `Meta_Bible_Data/Bible_Noun_Extraction/ja/translate_ot_ja.py`;
+  noun coverage 146,502/146,502 (100%), checked with
+  `Meta_Bible_Data/Bible_Noun_Extraction/ja/verify_ja_ot_coverage.py`.
 
 ## Reference texts (secondary QA only — never copied here as the translation)
 
