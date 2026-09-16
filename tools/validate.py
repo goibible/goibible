@@ -113,8 +113,8 @@ def main():
 
     print("=== ENGLISH COVERAGE ===")
     if args.lang == "en":
-        out = subprocess.run([sys.executable, str(NIM/"verify_noun_coverage.py")],
-                             capture_output=True, text=True, cwd=NIM).stdout
+        out = subprocess.run([sys.executable, str(NIM/"en"/"verify_noun_coverage.py")],
+                             capture_output=True, text=True, cwd=NIM/"en").stdout
         m = re.search(r"missing:\s+(\d+)", out)
         check("noun coverage 0 missing", bool(m) and int(m.group(1)) == 0,
               f"{m.group(1) if m else '?'} missing")
