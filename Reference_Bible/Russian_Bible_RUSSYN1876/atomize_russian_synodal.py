@@ -100,8 +100,15 @@ def main() -> None:
     addr_to_conical, expected_chapters = spine()
     russian = parse_vpl(args.vpl_zip)
 
-    goi_addrs = set(addr_to_conical)
-    rus_addrs = set(russian)
+    # Psalms is handled exclusively by build_psalm_versification_map.py +
+    # apply_psalm_versification_map.py: the Synodal Psalter uses different
+    # chapter numbering (see that script's docstring), so naive address
+    # equality pairs the WRONG Russian verse with a GOI address almost
+    # everywhere in Psalms -- verified against a real build, where only 47
+    # of 1,705 naively-"matched" Psalm addresses were actually correct.
+    # Excluding PSA here means --write can never silently reintroduce that.
+    goi_addrs = {a for a in addr_to_conical if a[0] != "PSA"}
+    rus_addrs = {a for a in russian if a[0] != "PSA"}
     matched = goi_addrs & rus_addrs
     absent = goi_addrs - rus_addrs
     russian_only = rus_addrs - goi_addrs
@@ -116,6 +123,7 @@ def main() -> None:
         "source": "eBible Russian Synodal Bible, verse-per-line export",
         "source_url": SOURCE_URL,
         "spine": "KJV/GOI",
+        "note": "PSA is excluded from every count below; see psalm_versification_map.csv for Psalms coverage (2,461/2,461, verified).",
         "goi_addresses": len(goi_addrs),
         "russian_addresses": len(rus_addrs),
         "matched": len(matched),
