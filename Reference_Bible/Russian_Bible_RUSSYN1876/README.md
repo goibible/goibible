@@ -10,31 +10,65 @@ future GOI Russian translation pipeline.
 - Downloaded source: `source/russyn_vpl.zip` (verse-per-line export)
 - SHA-256: `1ac0035cbcbdfcd07a89d50c5e11e87822a74c61b85c18a892278ce4cd4b09a8`
 
-## Versification: this is a mapping project, not a missing-content problem
+## Versification: FULLY ALIGNED (100%), verified book by book, chapter by chapter
 
-Russian is a complete 66-book corpus (31,169 verse markers, no duplicates),
-but it is **not** drop-in GOI-aligned the way Arabic is. Comparing raw
-(book, chapter, verse) addresses against the GOI/KJV spine (31,102
-addresses) originally found 784 GOI addresses absent and 851 Russian-only
-addresses, 756/821 of them in Psalms. Psalms is now resolved (see below);
-the rest is a small residual scattered across Job, Daniel, Song of Songs,
-Romans, Samuel, Joshua, Proverbs, and a handful of others (28 absent / 30
-Russian-only addresses, per the current `alignment_report.json`).
+`One_Directory_RUSSYN1876/` covers all 31,102 GOI/KJV spine addresses
+exactly — 66/66 books, 1,189/1,189 chapters, 23,145 OT + 7,957 NT + 2,461
+Psalms verses, no missing, no extra, no duplicates. Verified two ways:
 
-`atomize_russian_synodal.py` parses the eBible verse-per-line export, maps
-its book codes onto this project's KJV spine codes (`1JO`->`1JN`, `EZE`->`EZK`,
-`JAM`->`JAS`, `JOE`->`JOL`, `JOH`->`JHN`, `MAR`->`MRK`, `NAH`->`NAM`,
-`PHI`->`PHP`, `SOL`->`SNG`, `2JO`->`2JN`, `3JO`->`3JN`), and writes every verse
-whose address matches the spine exactly into `One_Directory_RUSSYN1876/`.
-**It deliberately excludes PSA entirely** — see below. Everything else is
-recorded, per-book and by full address, in `alignment_report.json`; that's
-the input for resolving the small remaining non-Psalm gap the same way
-Psalms was resolved, not something this script guesses at.
+- `build_full_versification_audit.py` compares every chapter of the
+  Russian source directly against Hebrew WLC (OT) and Greek TR1550 (NT) —
+  not KJV as a proxy, the actual source-language spine trees this project
+  already has fully realigned onto GOI addresses. Output:
+  `full_versification_audit_summary.md` / `.csv`.
+- `verify_output_alignment.py` checks the actual written flatfiles in
+  `One_Directory_RUSSYN1876/` against the spine, per book and per chapter.
+  Output: `output_alignment_by_chapter.csv`. Current result: **1,189/1,189
+  chapters match exactly.**
 
-Rerun with:
+Getting there took three passes, because Russian is **not** drop-in
+GOI-aligned the way Arabic is:
+
+1. **Direct address matching** (`atomize_russian_synodal.py`) handles the
+   ~28,600 addresses where Russian's own chapter/verse numbers already
+   match the spine.
+2. **Psalms** (`build_psalm_versification_map.py` +
+   `apply_psalm_versification_map.py`) — the Synodal Psalter follows
+   Church-Slavonic/LXX numbering, not KJV/Masoretic. See the dedicated
+   section below.
+3. **16 more books** (`build_non_psalm_versification_map.py` +
+   `apply_non_psalm_versification_map.py`) — 1 Samuel, 2 Corinthians,
+   3 John, Acts, Daniel, Ecclesiastes, Hosea, Isaiah, Job, Jonah, Joshua,
+   Leviticus, Numbers, Proverbs, Romans, Song of Songs each have at least
+   one chapter where Russian's verse boundaries diverge from KJV's —
+   chapter-boundary shifts (Jonah 1:17/2:1, Hosea 13:16/14:1, Numbers
+   12:16/13:1 and 29:40/30:1, Song of Songs 6:13/7:1), verse merges (2
+   Corinthians 11 and 13, Leviticus 14, Acts 19, 3 John 14/15),
+   Job's three-chapter Behemoth/Leviathan re-division (39/40/41), a
+   relocated Romans 16:25-27 doxology (placed after 14:23 in the
+   Byzantine/Synodal tradition), and a handful of genuine Byzantine/LXX
+   textual additions with no KJV counterpart at all (Joshua 24:34-36,
+   Proverbs 4:28-29 and 13:14) — logged, not force-mapped, since they
+   have nothing to map to.
+
+Every one of these boundaries was confirmed by reading actual verse
+content on **both** sides at **both** endpoints of every shifted range
+before being encoded into a map — not inferred from verse counts alone.
+That matters: a within-chapter shift silently pairs the wrong Russian
+verse with a GOI address for every verse from the shift point to the end
+of the chapter under naive matching, not just the boundary verse. The
+first build of this directory hit exactly that bug — see below.
+
+`atomize_russian_synodal.py` **excludes all 17 versification-mapped
+books** (Psalms + the 16 above) from its naive address matcher, so
+running `--write` can never silently reintroduce wrong pairings for them.
+Full rebuild, in order:
 
 ```
 python3 atomize_russian_synodal.py --write
+python3 build_psalm_versification_map.py && python3 apply_psalm_versification_map.py
+python3 build_non_psalm_versification_map.py && python3 apply_non_psalm_versification_map.py
+python3 verify_output_alignment.py   # must print "100% MATCH"
 ```
 
 ### Psalms: resolved via a verified chapter/verse map, not address matching
@@ -57,9 +91,7 @@ verse-count arithmetic (every merge/split total matches exactly), and
 flatfiles. The map covers all 2,461 KJV/GOI Psalm addresses and was
 spot-verified against actual verse content at every merge and split
 boundary (Psalms 9/10, 114/115, 116, 147) plus a title-shifted chapter —
-all 8 checks matched. Full mapping in `psalm_versification_map.csv`
-(status `proposed`: structurally exhaustive and boundary-verified, not yet
-verse-by-verse content-checked across all 2,461 addresses).
+all 8 checks matched. Full mapping in `psalm_versification_map.csv`.
 
 Rebuild Psalms with:
 

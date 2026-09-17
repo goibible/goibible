@@ -100,15 +100,25 @@ def main() -> None:
     addr_to_conical, expected_chapters = spine()
     russian = parse_vpl(args.vpl_zip)
 
-    # Psalms is handled exclusively by build_psalm_versification_map.py +
-    # apply_psalm_versification_map.py: the Synodal Psalter uses different
-    # chapter numbering (see that script's docstring), so naive address
-    # equality pairs the WRONG Russian verse with a GOI address almost
-    # everywhere in Psalms -- verified against a real build, where only 47
-    # of 1,705 naively-"matched" Psalm addresses were actually correct.
-    # Excluding PSA here means --write can never silently reintroduce that.
-    goi_addrs = {a for a in addr_to_conical if a[0] != "PSA"}
-    rus_addrs = {a for a in russian if a[0] != "PSA"}
+    # Psalms plus 16 other books are handled exclusively by
+    # build_psalm_versification_map.py / build_non_psalm_versification_map.py
+    # + their apply_* scripts: each has at least one chapter where Russian
+    # verse numbering diverges from the KJV/GOI spine (title verses, merged
+    # or split chapters, a relocated Romans doxology -- see
+    # full_versification_audit_summary.md for the exhaustive, book-by-book,
+    # chapter-by-chapter count comparison against WLC/TR1550 that this list
+    # is drawn from). Naive address equality silently pairs the WRONG
+    # Russian verse with a GOI address for every verse from a shift point
+    # to the end of its chapter, not just the boundary verse -- verified
+    # against a real build, where this affected 1,658/1,705 Psalm files and
+    # thousands more across these 16 books. Excluding them here means
+    # --write can never silently reintroduce that.
+    VERSIFICATION_MAPPED_BOOKS = {
+        "PSA", "1SA", "2CO", "3JN", "ACT", "DAN", "ECC", "HOS", "ISA",
+        "JOB", "JON", "JOS", "LEV", "NUM", "PRO", "ROM", "SNG",
+    }
+    goi_addrs = {a for a in addr_to_conical if a[0] not in VERSIFICATION_MAPPED_BOOKS}
+    rus_addrs = {a for a in russian if a[0] not in VERSIFICATION_MAPPED_BOOKS}
     matched = goi_addrs & rus_addrs
     absent = goi_addrs - rus_addrs
     russian_only = rus_addrs - goi_addrs
@@ -123,7 +133,7 @@ def main() -> None:
         "source": "eBible Russian Synodal Bible, verse-per-line export",
         "source_url": SOURCE_URL,
         "spine": "KJV/GOI",
-        "note": "PSA is excluded from every count below; see psalm_versification_map.csv for Psalms coverage (2,461/2,461, verified).",
+        "note": "PSA + 16 other versification-mapped books are excluded from every count below; see psalm_versification_map.csv and non_psalm_versification_map.csv for their coverage, and full_versification_audit_summary.md for the exhaustive per-chapter audit.",
         "goi_addresses": len(goi_addrs),
         "russian_addresses": len(rus_addrs),
         "matched": len(matched),
