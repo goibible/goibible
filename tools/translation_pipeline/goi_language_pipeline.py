@@ -113,6 +113,7 @@ def check_flatfiles(args: argparse.Namespace) -> None:
     if bad:
         raise SystemExit(f"{args.edition_id}: {len(bad)} malformed filenames, first: {bad[0]}")
     print(f"{args.edition_id}: flatfiles OK ({len(files)} files)")
+    run(["python3", "tools/translation_pipeline/verify_language_script.py", args.edition_id])
 
 
 def normalize(args: argparse.Namespace) -> None:
