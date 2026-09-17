@@ -1,0 +1,16 @@
+{
+  "edition": "Russian Synodal Bible (Синодальный перевод; eBible russyn verse-per-line distribution)",
+  "rights_status": "verified_public_domain",
+  "rights_evidence_url": "https://ebible.org/find/details.php?id=russyn",
+  "source_url": "https://eBible.org/Scriptures/russyn_vpl.zip",
+  "retrieved_on": "2026-09-16",
+  "normalizer": "Reference_Bible/Russian_Bible_RUSSYN1876/atomize_russian_synodal.py",
+  "files": [
+    {
+      "path": "source/russyn_vpl.zip",
+      "bytes": 5063991,
+      "sha256": "1ac0035cbcbdfcd07a89d50c5e11e87822a74c61b85c18a892278ce4cd4b09a8",
+      "kind": "raw"
+    }
+  ]
+}

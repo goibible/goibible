@@ -5,6 +5,7 @@
   "GOI_Ja": {"allowed": ["han", "hiragana", "katakana", "common", "inherited"]},
   "GOI_Ko": {"allowed": ["hangul", "common", "inherited"]},
   "GOI_Pt": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Ru": {"allowed": ["cyrillic", "common", "inherited"]},
   "GOI_Zh_Hans": {"allowed": ["han", "latin", "common", "inherited"]},
   "GOI_Zh_Hant": {"allowed": ["han", "latin", "common", "inherited"]},
   "GOI_vi": {"allowed": ["latin", "common", "inherited"]}
