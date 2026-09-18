@@ -24,6 +24,11 @@ complete.
    reports to `Meta_Bible_Data/staging/reports/<lang>/`.
    Complete `post_translation_checklist.md`, including the language-specific
    Unicode script gate, before promoting the edition.
+6. Before the first production verse, prove the registered language matcher
+   can distinguish a required anchor from an unrelated word. Production
+   translation must use `translate_verses.py --require-noun-anchors` under a
+   resumable single-worker supervisor; a bare terminal command or heartbeat
+   is not an acceptable batch runner.
 
 ## 2. Add GOI metadata and canonical text
 
@@ -34,6 +39,8 @@ complete.
 3. Create canonical UTF-8 verse files below `GOI_Bible/GOI_Bible_<lang>/`.
    Each filename must use the GOI coordinate and edition suffix; no blank,
    duplicate, or shifted coordinate is permitted.
+   Do not retain a generated file that fails its per-verse noun gate; repair
+   it before it enters the canonical directory.
 4. For every discovered translation error, add an append-only row to
    `Meta_Bible_Data/staging/cross_language_regressions.csv`, then review the
    same coordinate/issue class in every active GOI language. Attach an

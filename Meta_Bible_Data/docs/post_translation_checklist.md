@@ -27,8 +27,20 @@ checks.
   every versification difference recorded in the alignment exception ledger.
 - [ ] **Noun/Strong's coverage:** Greek TR1550 NT and WLC/MorphHB OT anchors
   resolved or documented at each intentional grammatical divergence.
+- [ ] **Per-verse enforcement receipt:** production batch log proves the
+  runner used `--require-noun-anchors`; every output verse passed the
+  language matcher before it was written. A post-hoc partial coverage report
+  does not substitute for this gate.
+- [ ] **Supervised-batch receipt:** record the absolute Python interpreter,
+  DeepSeek model/provider, service tier, single-worker lock, start/end time,
+  restart/resume count, expected/final coordinate counts, and 20-minute
+  heartbeat entries. A heartbeat alone is not a supervisor; the runner must
+  resume after a worker/API failure.
 - [ ] **Native-language semantic review:** reviewer, scope, defects, and
   resolutions recorded.
+- [ ] **No partial pass:** noun coverage is 100% after documented exclusions
+  and contextual overrides. Any lower result blocks commit/promotion and
+  requires targeted repair plus re-check.
 - [ ] **Cross-language regression:** every discovered defect is entered in
   `cross_language_regressions.csv`, then checked in every active GOI language.
 

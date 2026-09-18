@@ -118,6 +118,21 @@ work in an existing one:
 - **One verse, one file, always.** Never all-or-nothing batch generation
   (`pipeline.md` §Core Rules). Every generation step is incremental and
   resumable — skip existing non-empty files, retry only what failed.
+- **A prompt is not a gate.** `translate_verses.py` must be invoked with
+  `--require-noun-anchors` for every production batch. The language matcher
+  checks every required source-noun anchor *before the verse is written*;
+  missing anchors trigger targeted rewrites and then a hard failure. A verse
+  that fails the gate is never counted as translated or silently retained in
+  the canonical directory.
+- **Production batches require supervision, not a terminal heartbeat.** A
+  production runner must use the project Python environment by absolute path,
+  hold a single-worker lock, write an append-only batch log, resume from
+  existing validated files, and restart from the first incomplete coordinate
+  after a process/API failure. A 20-minute heartbeat is an observability
+  receipt only; it does not satisfy the restart requirement. Before reporting
+  a batch as running, verify the actual child PID, interpreter, provider/model,
+  Flex tier when selected, and first output checkpoint. Before reporting it
+  complete, verify its expected coordinate count and all quality gates.
 - **Translate only from the original-language source.** Greek TR1550 for NT,
   Hebrew WLC/MorphHB for OT. Every other edition (KJV, WEBUS, sibling GOI
   editions, VIE1934, etc.) is reference-only, for noun/name/number/structure
@@ -174,6 +189,12 @@ catch a *future* real error landing on one of those now-permissive words.
 Prefer a **per-verse contextual override** over a **global synonym** whenever
 the issue is genuinely one-off (§2 above) — it fixes the same miss without
 this cumulative erosion.
+
+**Release threshold:** 100% coverage after documented textual-policy
+suppression and approved, narrow contextual overrides. A partial percentage
+is a failure report, never a completion metric. Do not broaden a matcher or
+add global synonyms merely to make the percentage pass; retain the failing
+coordinate and repair the rendering or the source-anchor data.
 
 ### 3.2 Script/character-set verification ("no Korean in the Chinese text")
 
