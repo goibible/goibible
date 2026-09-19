@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Status | scaffolded |
+| Status | scaffolded; Gospel machine draft failed noun-coverage gate |
 | GOI edition ID | `GOI_Ar` |
 | BCP-47 tag | `ar` |
 | Language name (native / English) | العربية / Arabic |
@@ -33,7 +33,8 @@
 | Normalized reference | `Reference_Bible/Arabic_Bible_VanDyck1865/One_Directory_VanDyck1865_GOI/` | 31,102 | GOI/KJV-coordinate aligned |
 | Alignment ledger | `Reference_Bible/Arabic_Bible_VanDyck1865/alignment_exceptions.csv` | 4 rows | verified |
 | Source noun anchors | `Meta_Bible_Data/Bible_Noun_Extraction/ar/source_anchor_occurrences/` | 173,844 occurrences | source-language anchors complete |
-| Target rendering ledger | `Meta_Bible_Data/Bible_Noun_Extraction/ar_noun_renderings.csv` | header only | not started |
+| Target rendering ledger | `Meta_Bible_Data/Bible_Noun_Extraction/ar_noun_renderings.csv` | header only | canonical review ledger not started |
+| Rejected Gospel draft | `GOI_Bible/GOI_Bible_ar/` | 3,779 uncommitted files | structural draft only; blocked from release |
 | Audit reports | `Meta_Bible_Data/staging/reports/ar/` | 4 | scaffold-only |
 
 ## GOI coordinate alignment
@@ -54,7 +55,12 @@
 |---|---|---|---|---|---|---|
 | 2026-09-16 | Source/alignment | `normalize_vandyck1865.py` | pass | source manifest, alignment ledger, readiness report | pending | Codex |
 | 2026-09-16 | Strong's source anchors | `build_ar_source_noun_anchors.py` and `verify_ar_noun_scaffold.py` | pass (renderings pending) | `Meta_Bible_Data/Bible_Noun_Extraction/ar/source_anchor_occurrences/` | pending | Codex |
+| 2026-09-18 | Gospel structural draft | sequential DeepSeek/Flex rendering, MAT/MRK/LUK/JHN | pass: 3,779/3,779 coordinates; no blank/duplicate/foreign-script files | uncommitted `GOI_Bible/GOI_Bible_ar/` | none | Codex |
+| 2026-09-18 | Gospel noun/Strong's coverage | `verify_coverage.py --lang ar --book MAT --book MRK --book LUK --book JHN` | **fail: 4,131/12,021 (34.4%)** | rejected draft; recovery plan | none | Codex |
+| 2026-09-18 | Automated noun repair | strict dictionary-form Arabic matcher | **stopped**: rejected valid inflected forms such as `أخ` → `إخوته`; no release claim | system journal + `/tmp/goi-arabic-gospels-noun-repair.log` | none | Codex |
 
 ## Release record
 
-Not applicable: Arabic has no GOI translation, database, or deployed edition.
+Not applicable: Arabic has no approved GOI translation, database, or deployed
+edition. The 2026-09-18 Gospel files are an uncommitted failed draft and must
+not be promoted, packaged, or used as an active edition.
