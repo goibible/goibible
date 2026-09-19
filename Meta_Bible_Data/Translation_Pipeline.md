@@ -102,6 +102,24 @@ work in an existing one:
   (`docs/TRANSLATION_GUIDE.md` Step 3) so high-polysemy Greek/Hebrew words
   resolve correctly by default instead of needing a per-verse fix later.
 
+### Mandatory four-stage rollout for every new language
+
+Do not invent a different rollout for a new language. The project sequence is:
+
+1. **NT pre-fill:** generate and review the noun/Strong's defaults, then
+   translate and clean up the **four Gospels** as the NT test corpus.
+2. **Finish NT:** only after the four-Gospel noun/Strong's, script,
+   coordinate, and duplicate gates pass, complete the remaining NT.
+3. **OT pre-fill:** generate and review the OT noun/Strong's defaults, then
+   translate and clean up the **Torah** as the OT test corpus.
+4. **Finish OT:** only after the Torah passes the same gates, complete the
+   remaining OT.
+
+At either test stage, use the established cleanup loop: measure strict
+coverage, repair the reported failures, re-measure, and stop only at 100% or
+at a documented human-review blocker. Do not jump to a whole testament, and
+do not replace the stated test corpus with an ad-hoc smaller pilot.
+
 ---
 
 ## 2. Translation work

@@ -8,9 +8,16 @@ duplicate-coordinate, and Arabic-script checks. It fails noun/Strong's
 coverage: 4,131 of 12,021 checked NT noun positions (34.4%). It is untracked
 and must not be committed, packaged, or deployed.
 
-No further Arabic model request is allowed until the preflight gates below
-pass. This avoids spending tokens repeatedly re-rendering a verse because a
-matcher mistakes a valid Arabic inflection for a missing noun.
+Arabic follows the project-wide four-stage rollout exactly:
+
+1. NT noun/Strong's pre-fill → four-Gospel test and cleanup.
+2. Four Gospels pass → finish NT.
+3. OT noun/Strong's pre-fill → Torah test and cleanup.
+4. Torah passes → finish OT.
+
+Arabic is currently at **stage 1: four-Gospel test and cleanup**. It must not
+advance to the remaining NT until that test is clean. Matthew 1 is a
+diagnostic sample within the Gospel test, not an extra rollout stage.
 
 ## What the Russian comparison does and does not show
 
@@ -31,7 +38,7 @@ that Arabic can skip Arabic-specific morphology and semantic QA.
 settings, and runner logs as audit inputs. Never overwrite them to make the
 failure disappear.
 
-### Gate B — Arabic matcher and vocabulary pilot (no Gospel-scale run)
+### Gate B — Arabic matcher and vocabulary cleanup (within the Gospel test)
 
 1. Build an Arabic matcher from reviewed observed forms, not from unconstrained
 root-prefix guesses. It must normalize vowel marks/tatweel and recognize
@@ -40,18 +47,21 @@ documented clitic, plural, dual, case, and possessive forms.
 `أخ` may match `أخوه`, `أخا`, `أخي`, `إخوة`, and `إخوته`; it must not accept
 unrelated words beginning with `اخ`.
 3. Add unit tests for every accepted form and a negative false-positive test.
-4. Run the matcher against a hand-reviewed pilot of Matthew 1. Every remaining
-miss is classified as one of: valid inflection, wrong default, needed
-contextual sense, source-anchor defect, or actual translation defect.
+4. Use Matthew 1 only to diagnose matcher/vocabulary defects quickly, then
+   run the strict cleanup loop across all four Gospels. Every remaining miss
+   is classified as one of: valid inflection, wrong default, needed contextual
+   sense, source-anchor defect, or actual translation defect.
 5. Add only reviewed forms to the matcher or a narrow contextual override. Do
 not bulk-add model guesses or weaken the matcher to increase a percentage.
 
-**Gate B exit:** all Matthew 1 noun positions have a documented disposition;
-the matcher has positive and negative tests; a reviewer signs the pilot report.
+**Gate B exit:** the four-Gospel cleanup loop reaches 100% coverage after
+documented exclusions; the matcher has positive and negative tests for every
+added form; a reviewer signs the Gospel test report.
 
-### Gate C — controlled generation pilot
+### Gate C — controlled four-Gospel generation and cleanup
 
-1. Re-render a small fixed scope (Matthew 1 only) with a saved batch receipt:
+1. Re-render only the reported failing verses in the four-Gospel test corpus
+   with a saved batch receipt:
 absolute Conda Python path, `use_model deepseek`, exact model, `flex`, one
 worker, lock path, prompt version, source commit, log path, and output count.
 2. Validate a candidate verse before it replaces a draft file. The validator
@@ -61,13 +71,13 @@ single-line, non-empty, and noun-anchor gates.
 anchors; it is never written as canonical output. Stop at a repeated same
 coordinate rather than retrying indefinitely.
 
-**Gate C exit:** Matthew 1 is 100% noun-covered under reviewed matcher rules;
-all structural gates pass; the report and defects are committed before scope
-expansion.
+**Gate C exit:** all four Gospels are 100% noun-covered under reviewed matcher
+rules; all structural gates pass; the report and defects are committed before
+the remaining NT is started.
 
-### Gate D — book-at-a-time recovery
+### Gate D — finish NT, then begin OT pre-fill
 
-Run Matthew, then Mark, Luke, and John. After each book:
+After the Gospel test passes, run the remaining NT. After each book:
 
 1. Require 100% coverage after documented textual-policy exclusions.
 2. Run Arabic script gate, coordinate comparison, duplicate check, and
@@ -77,12 +87,12 @@ the same issue class in every active language.
 4. Commit the passing book plus its reports; do not defer validation until all
 four books are generated.
 
-### Gate E — Gospel release candidate
+### Gate E — OT pre-fill, Torah test, then full OT
 
-Only after four book receipts pass: run full-Gospel coverage, script, GOI
-coordinate, duplicate, semantic-review, and release-integrity gates. A native
-Arabic reviewer must record scope, findings, and resolutions. Only then may
-the corpus be committed and later promoted through the new-language recipe.
+Pre-fill OT nouns/Strong's, then run the Torah test/cleanup loop under the
+same strict gates. Only after Torah passes may the remaining OT begin. A
+native Arabic reviewer must record scope, findings, and resolutions before
+the corpus is committed or promoted through the new-language recipe.
 
 ## Batch-runner requirements
 
