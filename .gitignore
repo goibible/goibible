@@ -51,6 +51,8 @@ Meta_Bible_Data/local_backups/
 Meta_Bible_Data/sqlite/editions/
 Meta_Bible_Data/sqlite/shell.sqlite3
 Meta_Bible_Data/staging/**/*.sqlite3
+Meta_Bible_Data/staging/reports/ar/rest_nt_run/
+Meta_Bible_Data/staging/reports/ar/recovery_2026-09-18/
 Meta_Bible_Data/archive/*.sqlite3
 Meta_Bible_Data/archive/BCP47/
 Meta_Bible_Data/sqlite/versions/*.sql.bak-*
