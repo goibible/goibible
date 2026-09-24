@@ -159,5 +159,17 @@
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100% (verify_coverage.py); OT triage 23,145/23,145 Green (ru/triage_ot.py). Wrong-sense sweeps closed to zero: OT 6,220 fixed / 948 kept, NT 429 fixed / 65 kept (ru/sense_fix_state.tsv, ru/sense_fix_state_nt.tsv). Noun anchors: Bible_Noun_Extraction/ru/hebrew_ot_ru.sqlite3 (OT), greek_noun.sqlite3 (NT, shared); decisions exported to ru_noun_renderings.csv. Russian Synodal 1876 (RUSSYN, public domain) at Reference_Bible/Russian_Bible_RUSSYN1876 retained solely as a 100%-versification-aligned reference/name-QA source. No native-speaker review has been performed (AI review only)."
+  },
+  {
+    "edition_id": "GOI_Fr",
+    "bcp47_tag": "fr",
+    "language_subtag": "fr",
+    "display_name": "GOI Bible French",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_fr",
+    "filename_suffix": "GOI_Fr",
+    "expected_verse_count": 31102,
+    "template_edition": "GOI_En",
+    "notes": "In-progress French edition, translated from Hebrew WLC / Greek TR1550. Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot."
   }
 ]

@@ -1,0 +1,81 @@
+DRAFT ONLY: cube lexeme-review gate explicitly waived; output must remain outside canonical corpus.
+JUD 1:1  wrote 065_JUD_001_001_GOI_Fr.txt
+JUD 1:2  wrote 065_JUD_001_002_GOI_Fr.txt
+JUD 1:3  wrote 065_JUD_001_003_GOI_Fr.txt
+JUD 1:4  wrote 065_JUD_001_004_GOI_Fr.txt
+JUD 1:5  wrote 065_JUD_001_005_GOI_Fr.txt
+JUD 1:6  wrote 065_JUD_001_006_GOI_Fr.txt
+JUD 1:7  wrote 065_JUD_001_007_GOI_Fr.txt
+JUD 1:8  wrote 065_JUD_001_008_GOI_Fr.txt
+JUD 1:9  wrote 065_JUD_001_009_GOI_Fr.txt
+JUD 1:10  wrote 065_JUD_001_010_GOI_Fr.txt
+JUD 1:11  wrote 065_JUD_001_011_GOI_Fr.txt
+JUD 1:12  wrote 065_JUD_001_012_GOI_Fr.txt
+Traceback (most recent call last):
+  File "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/translate_verses.py", line 593, in <module>
+    main()
+    ~~~~^^
+  File "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/translate_verses.py", line 569, in main
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: JUD 1:13: rejected before write; missing required noun anchors: ['errant']; candidate="des vagues sauvages de la mer, rejetant l'écume de leurs propres hontes ; des étoiles errantes, pour lesquelles les ténèbres des ténèbres sont réservées pour le siècle.\n"
+DRAFT ONLY: cube lexeme-review gate explicitly waived; output must remain outside canonical corpus.
+JUD 1:1  skipped (already exists)
+JUD 1:2  skipped (already exists)
+JUD 1:3  skipped (already exists)
+JUD 1:4  skipped (already exists)
+JUD 1:5  skipped (already exists)
+JUD 1:6  skipped (already exists)
+JUD 1:7  skipped (already exists)
+JUD 1:8  skipped (already exists)
+JUD 1:9  skipped (already exists)
+JUD 1:10  skipped (already exists)
+JUD 1:11  skipped (already exists)
+JUD 1:12  skipped (already exists)
+JUD 1:13  wrote 065_JUD_001_013_GOI_Fr.txt
+JUD 1:14  wrote 065_JUD_001_014_GOI_Fr.txt
+JUD 1:15  wrote 065_JUD_001_015_GOI_Fr.txt
+JUD 1:16  wrote 065_JUD_001_016_GOI_Fr.txt
+JUD 1:17  wrote 065_JUD_001_017_GOI_Fr.txt
+JUD 1:18  wrote 065_JUD_001_018_GOI_Fr.txt
+JUD 1:19  wrote 065_JUD_001_019_GOI_Fr.txt
+JUD 1:20  wrote 065_JUD_001_020_GOI_Fr.txt
+JUD 1:21  wrote 065_JUD_001_021_GOI_Fr.txt
+JUD 1:22  wrote 065_JUD_001_022_GOI_Fr.txt
+Traceback (most recent call last):
+  File "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/translate_verses.py", line 593, in <module>
+    main()
+    ~~~~^^
+  File "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/translate_verses.py", line 569, in main
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: JUD 1:23: rejected before write; missing required noun anchors: ['peur']; candidate='Mais sauvez-les avec crainte, les arrachant du feu, haïssant même la tunique souillée par la chair.\n'
+DRAFT ONLY: cube lexeme-review gate explicitly waived; output must remain outside canonical corpus.
+JUD 1:1  skipped (already exists)
+JUD 1:2  skipped (already exists)
+JUD 1:3  skipped (already exists)
+JUD 1:4  skipped (already exists)
+JUD 1:5  skipped (already exists)
+JUD 1:6  skipped (already exists)
+JUD 1:7  skipped (already exists)
+JUD 1:8  skipped (already exists)
+JUD 1:9  skipped (already exists)
+JUD 1:10  skipped (already exists)
+JUD 1:11  skipped (already exists)
+JUD 1:12  skipped (already exists)
+JUD 1:13  skipped (already exists)
+JUD 1:14  skipped (already exists)
+JUD 1:15  skipped (already exists)
+JUD 1:16  skipped (already exists)
+JUD 1:17  skipped (already exists)
+JUD 1:18  skipped (already exists)
+JUD 1:19  skipped (already exists)
+JUD 1:20  skipped (already exists)
+JUD 1:21  skipped (already exists)
+JUD 1:22  skipped (already exists)
+JUD 1:23  wrote 065_JUD_001_023_GOI_Fr.txt
+JUD 1:24  wrote 065_JUD_001_024_GOI_Fr.txt
+JUD 1:25  wrote 065_JUD_001_025_GOI_Fr.txt
+Done. Wrote 3 verse(s); skipped 22.
