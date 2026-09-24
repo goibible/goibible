@@ -34,10 +34,16 @@ def main() -> int:
     changed = subprocess.check_output(
         ["git", "diff", "--name-only", args.base, "HEAD", "--", "GOI_Bible"], cwd=ROOT, text=True
     ).splitlines()
+    # An edition whose directory did not exist at the base revision is a first release, not a change to
+    # published text: every file is an addition, and there is no prior verse to regress from.
+    existed_at_base = {
+        d for d in active_dirs
+        if subprocess.run(["git", "cat-file", "-e", f"{args.base}:{d}"], cwd=ROOT, capture_output=True).returncode == 0
+    }
     coordinates: set[str] = set()
     for changed_path in changed:
         path = Path(changed_path)
-        if str(path.parent) not in active_dirs:
+        if str(path.parent) not in active_dirs or str(path.parent) not in existed_at_base:
             continue
         match = COORD.match(path.name)
         if match:
