@@ -66,12 +66,19 @@
 | 2026-09-24 | Validation cube | `translation_cube/build_fr_cube.py build` (target text = aligned LSG) + `report_fr_lsg_validation.py` | 173,844 occurrences, 204,946 chunks; LSG agreement 71.9% | `staging/reports/fr/lsg_default_agreement.md` | 6dba81f (nested) | Claude |
 | 2026-09-24 | LSG default check | `fr/check_fr_defaults_lsg.py` + `--apply` | 764 judged: 336 ok, 248 wrong, 180 name spelling; 421 applied, 7 polysemous kept, 6 hand-set; agreement -> 73.9% (NT 80.6%) | `fr/lsg_default_check.tsv` | 7c42ddf (nested) | Claude |
 | 2026-09-24 | Dense index | `build_fr_cube.py embed` (Qwen3-Embedding-8B Q8_0, last-token pooling, first 1024 dims, L2) | **pass: 204,946/204,946 rows; shape (204946, 1024); finite; cube_built_at == cube metadata built_at; smoke test JHN 1:29 -> JHN 1:36 (Agneau de Dieu)** | `cubes/fr_lsg_semantic_qwen3_1024.*` (local, rebuildable) | | Claude |
+| 2026-09-24 | Jude pilot (A/B) | draft-only, LSG in prompt vs not | LSG in prompt raises copying (4-gram overlap 0.36 vs 0.25); 6 findings | `staging/reports/fr/jude_pilot_analysis.md` | 1ac98138df | Claude |
+| 2026-09-24 | Strict register review | `check_fr_defaults_lsg.py --strict` over every default below 25% LSG agreement or previously judged ok (2,952) + all 371 senses; `--apply` behind an LSG evidence gate (proposed word must appear in more of the noun's LSG verses than the default, and in >= 25%) | 1,775 default + 106 sense corrections applied; 335 + 23 rejected by the gate (kept); 6 senses hand-set | `fr/strict_check*.tsv`, `fr/sense_check*.tsv` | 7859c7b (nested) | Claude |
+| 2026-09-24 | Same-verse collisions | NT scan for two Greek nouns forced to one French word in a verse | 6 global fixes through the gate + 32 per-verse context senses (fureur/colère, seigneur/maître, moment/temps, ...); remaining shared words are natural (homme, parole, serviteur) | `fr/collision_fix*.tsv` | 7859c7b (nested) | Claude |
+| 2026-09-24 | Review gate, policy (a) | `build_fr_cube.py build` marks reviewed: LSG agreement >= 25% (7,492), LSG-judged (1,210), unreachable/no occurrence (155) | **pass: 0 pending**; LSG agreement 77.5% (OT 76.1%, NT 84.4%) | cube metadata `review_policy` | 7859c7b (nested) | Claude |
 
 ## Policy decisions (owner-confirmed)
 
 - 2026-09-24, owner: divine name follows LSG 1910 -- YHWH (H3068) -> «l'Éternel»; Adonai YHWH -> «le Seigneur,
   l'Éternel» (H136 Seigneur + H3069 Éternel); NT kyrios -> «Seigneur».
 - 2026-09-24, owner: translation starts with the NT, Jude first as the pilot, then analysis before scaling.
+- 2026-09-24, owner (after the Jude pilot): LSG is dropped from translator prompts (QA/cube only); policy (a): a
+  default counts as reviewed when LSG agreement >= 25% or the LSG judge ruled on it; approved fix list (Jude senses,
+  ζόφος -> obscurité, strict register re-judge, structural lint before promotion).
 
 ## Release record (complete only when active)
 
