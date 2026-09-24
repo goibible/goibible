@@ -153,11 +153,11 @@
     "bcp47_tag": "ru",
     "language_subtag": "ru",
     "display_name": "GOI Bible Russian",
-    "status": "pending",
+    "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_ru",
     "filename_suffix": "GOI_Ru",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "In-progress Russian edition. NT COMPLETE: all 27 NT books (7,957/7,957 verses) translated from Greek TR1550 into GOI_Bible/GOI_Bible_ru, verify_coverage.py 98.6% noun-anchor coverage, verify_matchers_dedup.py and verify_language_script.py clean, language_readiness.py --lang ru READY (all 2,369 NT noun defaults + 17 senses filled). OT not started -- no Hebrew noun-anchor pipeline for Russian yet (unlike ko/ja/ar). Russian Synodal Bible (RUSSYN, eBible russyn_vpl export) is a public-domain comparison reference at Reference_Bible/Russian_Bible_RUSSYN1876, 100% versification-aligned (66/66 books, 1,189/1,189 chapters, 31,102/31,102 verses, verified book-by-book and chapter-by-chapter against Hebrew WLC and Greek TR1550 via verify_output_alignment.py) -- see that directory's README for the full versification methodology (Psalms Church-Slavonic/LXX numbering + 16 other books with chapter-boundary shifts, all content-verified). RussianMatcher in matchers.py required an architecture fix (never stem the always-nominative rendering, only the output token, compare via length-guarded prefix match) after ~50 common words broke under the original stem-both-sides approach; see matchers.py class docstring."
+    "notes": "Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100% (verify_coverage.py); OT triage 23,145/23,145 Green (ru/triage_ot.py). Wrong-sense sweeps closed to zero: OT 6,220 fixed / 948 kept, NT 429 fixed / 65 kept (ru/sense_fix_state.tsv, ru/sense_fix_state_nt.tsv). Noun anchors: Bible_Noun_Extraction/ru/hebrew_ot_ru.sqlite3 (OT), greek_noun.sqlite3 (NT, shared); decisions exported to ru_noun_renderings.csv. Russian Synodal 1876 (RUSSYN, public domain) at Reference_Bible/Russian_Bible_RUSSYN1876 retained solely as a 100%-versification-aligned reference/name-QA source. No native-speaker review has been performed (AI review only)."
   }
 ]

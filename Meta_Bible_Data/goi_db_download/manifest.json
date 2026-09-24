@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-09-16T13:03:07+00:00",
+  "generated_at": "2026-09-24T04:48:22+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -59,6 +59,17 @@
       "file": "GOI_Pt.db",
       "size_bytes": 8949760,
       "sha256": "c78ddc1b1126f97831e1ca44394aa9294e54971f7c6cd55f3abb2692dca38f66",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Ru",
+      "display_name": "GOI Bible Russian",
+      "bcp47_tag": "ru",
+      "language_subtag": "ru",
+      "status": "active",
+      "file": "GOI_Ru.db",
+      "size_bytes": 11157504,
+      "sha256": "519f3f9ee4d1b43c25e62057ddfd680bc55197dc96b2be637313701513fd2618",
       "verse_count": 31102
     },
     {

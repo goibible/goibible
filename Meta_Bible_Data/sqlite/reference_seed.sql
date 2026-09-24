@@ -10,6 +10,7 @@ INSERT INTO editions VALUES('GOI_Es','es','es','active','GOI Bible Spanish','Spa
 INSERT INTO editions VALUES('GOI_Pt','pt','pt','active','GOI Bible Portuguese','Portuguese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Pt suffix.');
 INSERT INTO editions VALUES('GOI_Ko','ko','ko','active','GOI Bible Korean','Korean full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550; KORSYS 1911 retained solely as public-domain reference and name-QA source.');
 INSERT INTO editions VALUES('GOI_Ja','ja','ja','active','GOI Bible Japanese','Japanese full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT and OT noun coverage are both 100%. Shinkaiyaku 1965 NT and Meiji Genyaku 1887 OT (both public domain) retained solely as reference/name-QA sources.');
+INSERT INTO editions VALUES('GOI_Ru','ru','ru','active','GOI Bible Russian','Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100%; OT triage all Green; OT and NT wrong-sense sweeps closed to zero. Russian Synodal 1876 (public domain) retained solely as reference/name-QA source.');
 INSERT INTO books VALUES(1,'GEN','Genesis','OT');
 INSERT INTO books VALUES(2,'EXO','Exodus','OT');
 INSERT INTO books VALUES(3,'LEV','Leviticus','OT');
