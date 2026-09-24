@@ -86,8 +86,10 @@ in `Reference_Bible/Russian_Bible_RUSSYN1876/README.md`.
 ## Release record
 
 Status **active** (2026-09-23). Local release built and verified; manifest checksum `519f3f9ee4d1b43c25e62057ddfd680bc55197dc96b2be637313701513fd2618`.
-Not yet pushed to GitHub and not yet deployed to `dsvx` (awaiting owner go-ahead); record the rollback
-timestamp and remote query here when deployed.
+Published 2026-09-24 with owner go-ahead: pushed `8e345bbcaa..bc690c4620` to origin/main; reader deployed to
+`dsvx` after remote rollback copy `/var/www/goibible.org/.rollback/20260924-093119/`; remote query
+`GOI_Ru|active|31102`; reader DB sha256 `3c0049203d6c44b35851eb34c9aa55bf9e104de59624be326291859d5c6576b2`
+(local == remote); GitHub raw manifest shows GOI_Ru active, 31,102 verses; `GOI_Ru.db` download 200 (11,157,504 bytes).
 
 Unmet checklist items, stated plainly: no native-speaker semantic review (AI review only); the
 cross-language regression ledger was not used for these Russian-specific default fixes (same precedent

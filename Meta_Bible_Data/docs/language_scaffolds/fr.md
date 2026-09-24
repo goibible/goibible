@@ -67,10 +67,11 @@
 | 2026-09-24 | LSG default check | `fr/check_fr_defaults_lsg.py` + `--apply` | 764 judged: 336 ok, 248 wrong, 180 name spelling; 421 applied, 7 polysemous kept, 6 hand-set; agreement -> 73.9% (NT 80.6%) | `fr/lsg_default_check.tsv` | 7c42ddf (nested) | Claude |
 | 2026-09-24 | Dense index | `build_fr_cube.py embed` (Qwen3-Embedding-8B Q8_0, last-token pooling, first 1024 dims, L2) | **pass: 204,946/204,946 rows; shape (204946, 1024); finite; cube_built_at == cube metadata built_at; smoke test JHN 1:29 -> JHN 1:36 (Agneau de Dieu)** | `cubes/fr_lsg_semantic_qwen3_1024.*` (local, rebuildable) | | Claude |
 
-## Policy decisions awaiting owner confirmation
+## Policy decisions (owner-confirmed)
 
-- Divine name follows the reference (LSG 1910): YHWH (H3068/H3069) -> «l'Éternel», Adonai YHWH -> «le Seigneur,
-  l'Éternel», NT kyrios -> «Seigneur». Alternative: «Seigneur» throughout (as Russian followed the Synodal).
+- 2026-09-24, owner: divine name follows LSG 1910 -- YHWH (H3068) -> «l'Éternel»; Adonai YHWH -> «le Seigneur,
+  l'Éternel» (H136 Seigneur + H3069 Éternel); NT kyrios -> «Seigneur».
+- 2026-09-24, owner: translation starts with the NT, Jude first as the pilot, then analysis before scaling.
 
 ## Release record (complete only when active)
 
