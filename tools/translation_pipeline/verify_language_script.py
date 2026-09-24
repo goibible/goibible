@@ -58,11 +58,12 @@ def verify(config: dict[str, object], profile: dict[str, object]) -> int:
     edition_id = str(config["edition_id"])
     suffix = str(config.get("filename_suffix", edition_id))
     allowed = set(profile["allowed"])
+    forbidden = set(str(profile.get("forbidden_chars", "")))  # in-script letters of a sibling language (e.g. Ukrainian і/ї/є in Russian)
     bad: Counter[str] = Counter()
     examples: dict[str, list[tuple[str, str]]] = defaultdict(list)
     for path in sorted((ROOT / str(config["flatfile_dir"])).glob(f"*_{suffix}.txt")):
         for ch in path.read_text(encoding="utf-8"):
-            script = script_of(ch)
+            script = "forbidden" if ch in forbidden else script_of(ch)
             if script not in allowed:
                 bad[script] += 1
                 if len(examples[script]) < 5:
