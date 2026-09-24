@@ -48,6 +48,35 @@ CACHE = HERE / ".embed_cache.npz"
 ENDPOINT = "http://127.0.0.1:12025/v1/embeddings"
 DIM = 1024
 BAND = 12
+# Chapters with equal verse COUNTS but shifted CONTENT, found by the neighbour test on a first pass.
+EXTRA_CHAPTERS = {("PSA", 13)}
+# Verses LSG (following the critical text) presents in a different ORDER; an order-preserving alignment cannot
+# express a swap, so these are mapped explicitly (GOI coordinate -> LSG coordinate).
+REORDER = {("PHP", 1, 16): ("PHP", 1, 17), ("PHP", 1, 17): ("PHP", 1, 16)}
+# Flagged coordinates read by hand (French vs KJV) and judged correctly aligned; the flag came from free
+# paraphrase, a textual variant, or a partial boundary difference, not a misalignment.
+HAND_REVIEWED = {
+    **{k: "hand-reviewed: correct verse; low score from free paraphrase (poetry/lists)" for k in [
+        ("GEN", 36, 41), ("EXO", 21, 25), ("EXO", 27, 14), ("EXO", 35, 17), ("LEV", 11, 14), ("LEV", 14, 56),
+        ("LEV", 24, 12), ("NUM", 2, 26), ("DEU", 14, 13), ("JDG", 17, 11), ("2KI", 4, 11), ("1CH", 1, 52),
+        ("1CH", 9, 43), ("2CH", 4, 14), ("JOB", 3, 8), ("JOB", 6, 10), ("JOB", 6, 16), ("JOB", 6, 19),
+        ("JOB", 6, 21), ("JOB", 6, 22), ("JOB", 9, 21), ("JOB", 11, 10), ("JOB", 12, 5), ("JOB", 13, 9),
+        ("JOB", 16, 21), ("JOB", 17, 5), ("JOB", 18, 9), ("JOB", 18, 21), ("JOB", 19, 17), ("JOB", 21, 23),
+        ("JOB", 22, 20), ("JOB", 22, 21), ("JOB", 23, 6), ("JOB", 27, 12), ("JOB", 28, 4), ("JOB", 33, 16),
+        ("JOB", 33, 19), ("JOB", 34, 14), ("JOB", 34, 27), ("JOB", 35, 15), ("JOB", 36, 15), ("JOB", 36, 17),
+        ("JOB", 36, 19), ("JOB", 37, 13), ("JOB", 40, 24), ("JOB", 41, 13), ("JOB", 41, 22), ("PSA", 3, 2),
+        ("PSA", 55, 2), ("PSA", 58, 9), ("PSA", 64, 6), ("PSA", 73, 4), ("PSA", 73, 7), ("PSA", 74, 5),
+        ("PSA", 81, 15), ("PSA", 87, 7), ("PRO", 9, 4), ("PRO", 9, 16), ("PRO", 21, 4), ("PRO", 26, 10),
+        ("PRO", 30, 31), ("SNG", 6, 7), ("ISA", 3, 23), ("ISA", 19, 10), ("ISA", 27, 8), ("ISA", 29, 21),
+        ("ISA", 32, 8), ("ISA", 32, 12), ("JER", 25, 35), ("EZK", 24, 12), ("EZK", 27, 20), ("HOS", 5, 2),
+        ("JOL", 2, 8), ("HAB", 1, 7), ("HAB", 1, 11), ("ZEP", 2, 1), ("LUK", 21, 19), ("1CO", 15, 33),
+        ("2CO", 2, 5), ("1TI", 4, 2), ("HEB", 2, 16), ("JUD", 1, 19)]},
+    **{k: "hand-reviewed: correct verse; LSG verse boundary differs slightly (part of a neighbour verse moved)" for k in [
+        ("LEV", 13, 35), ("1KI", 18, 34), ("MAT", 14, 2), ("MAT", 26, 33), ("ACT", 3, 20), ("ACT", 15, 18),
+        ("ACT", 24, 3), ("ROM", 1, 31), ("2CO", 8, 13)]},
+    ("MRK", 9, 44): "hand-reviewed: textual variant -- LSG (critical text) has no 'worm' verse; its 9:44 is the end of KJV 9:43",
+    ("JUD", 1, 22): "hand-reviewed: textual variant -- LSG follows the critical text of Jude 22",
+}
 BOOK_CODE_MAP = {"1JO": "1JN", "2JO": "2JN", "3JO": "3JN", "EZE": "EZK", "JAM": "JAS", "JOE": "JOL",
                  "JOH": "JHN", "MAR": "MRK", "NAH": "NAM", "PHI": "PHP", "SOL": "SNG"}
 LINE = re.compile(r"^([1-3]?[A-Z]{2,3})\s+(\d+):(\d+)\s+(.*)$")
@@ -158,14 +187,25 @@ def main():
     lsg = load_lsg()
     kjv, prefix = load_kjv()
     order = sorted(kjv, key=lambda k: (prefix[k], k[1], k[2]))
+    book_rank = {}
+    for k in order:
+        book_rank.setdefault(k[0], len(book_rank))
     chap_fr, chap_en = defaultdict(set), defaultdict(set)
     for b, c, v in lsg:
         chap_fr[(b, c)].add(v)
     for b, c, v in kjv:
         chap_en[(b, c)].add(v)
-    differ = sorted({k for k in set(chap_en) | set(chap_fr) if chap_en.get(k) != chap_fr.get(k)})
+    differ = {k for k in set(chap_en) | set(chap_fr) if chap_en.get(k) != chap_fr.get(k)}
+    # pad by one chapter each side: a boundary shift can move material into a neighbour whose COUNT is unchanged
+    # (ISA 63:19 carries KJV 64:1). EXTRA_CHAPTERS holds chapters added by the neighbour test (PSA 13: same count,
+    # but LSG numbers the title as verse 1, so every verse was off by one).
+    padded = set(differ) | set(EXTRA_CHAPTERS)
+    for b, c in list(padded):
+        for d in (-1, 1):
+            if (b, c + d) in chap_en:
+                padded.add((b, c + d))
     blocks = []
-    for b, c in differ:
+    for b, c in sorted(padded, key=lambda k: (book_rank[k[0]], k[1])):
         if blocks and blocks[-1][0] == b and blocks[-1][1][-1] == c - 1:
             blocks[-1][1].append(c)
         else:
@@ -198,6 +238,9 @@ def main():
                 for ek in eks:
                     mapping[ek] = (fks, "split", s)
 
+    for goi, ref in REORDER.items():
+        mapping[goi] = ([ref], "reordered", float(E[lsg[ref]] @ E[kjv[goi]]))
+
     # neighbour test: does this French text match an adjacent KJV verse clearly better than its own?
     pos = {k: i for i, k in enumerate(order)}
     rows, flagged = [], 0
@@ -217,13 +260,17 @@ def main():
                         if ns > s + args.neighbour_margin:
                             why.append(f"neighbour {order[n][1]}:{order[n][2]} scores {ns:.3f} > own {s:.3f}")
         status = "review" if why else "resolved"
+        if why and k in HAND_REVIEWED:
+            why.append(HAND_REVIEWED[k])
+            status = "resolved"
         flagged += status == "review"
-        if rel == "exact" and status == "resolved":
+        if rel == "exact" and not why:
             continue
         reason = {"exact": "address match", "merged": "LSG numbers this material as separate verses (e.g. Psalm title); joined to one KJV verse",
                   "shifted": "chapter/verse boundary differs from KJV; content-aligned",
                   "split": "one LSG verse spans two KJV verses; text shared by both coordinates",
-                  "missing": "no LSG content aligned"}[rel]
+                  "missing": "no LSG content aligned",
+                  "reordered": "LSG (critical text) presents these verses in a different order; mapped explicitly"}[rel]
         if why:
             reason += " | " + "; ".join(why)
         ref = ";".join(f"{fc}:{fv}" for _, fc, fv in fks)
@@ -237,7 +284,7 @@ def main():
               "kjv_coordinates": len(kjv), "mapped": len(mapping), "missing": len(missing),
               "lsg_verses_unused": [f"{b} {c}:{v}" for b, c, v in unused],
               "differing_chapters": len(differ), "content_aligned_blocks": [f"{b} {r[0]}-{r[-1]}" for b, r in blocks],
-              "relations": {r: sum(1 for m in mapping.values() if m[1] == r) for r in ("exact", "shifted", "merged", "split")},
+              "relations": {r: sum(1 for m in mapping.values() if m[1] == r) for r in ("exact", "shifted", "merged", "split", "reordered")},
               "similarity": {"min": round(float(sims.min()), 3), "p01": round(float(np.percentile(sims, 1)), 3),
                              "median": round(float(np.median(sims)), 3)},
               "flagged_review": flagged}
