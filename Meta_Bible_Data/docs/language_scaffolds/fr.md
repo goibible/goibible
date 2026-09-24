@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Status | scaffolded (reference 100% content-aligned; noun fill in progress) |
+| Status | scaffolded: reference aligned, noun/Strong's fill complete, fr_lsg validation cube complete; translation not started |
 | GOI edition ID | `GOI_Fr` |
 | BCP-47 tag | `fr` |
 | Language name (native / English) | français / French |
@@ -65,7 +65,7 @@
 | 2026-09-24 | OT defaults | `fr/gen_fr_ot_renderings.py` (sample verse + unordered-gloss instruction) | 6,488/6,488 (1 hand-filled: H2298 un) | `fr/proposed_fr_ot_defaults.csv` | 7c42ddf (nested) | Claude |
 | 2026-09-24 | Validation cube | `translation_cube/build_fr_cube.py build` (target text = aligned LSG) + `report_fr_lsg_validation.py` | 173,844 occurrences, 204,946 chunks; LSG agreement 71.9% | `staging/reports/fr/lsg_default_agreement.md` | 6dba81f (nested) | Claude |
 | 2026-09-24 | LSG default check | `fr/check_fr_defaults_lsg.py` + `--apply` | 764 judged: 336 ok, 248 wrong, 180 name spelling; 421 applied, 7 polysemous kept, 6 hand-set; agreement -> 73.9% (NT 80.6%) | `fr/lsg_default_check.tsv` | 7c42ddf (nested) | Claude |
-| 2026-09-24 | Dense index | `build_fr_cube.py embed` (Qwen3-Embedding-8B, 1024-d) | running | `cubes/fr_lsg_semantic_qwen3_1024.*` (local) | | Claude |
+| 2026-09-24 | Dense index | `build_fr_cube.py embed` (Qwen3-Embedding-8B Q8_0, last-token pooling, first 1024 dims, L2) | **pass: 204,946/204,946 rows; shape (204946, 1024); finite; cube_built_at == cube metadata built_at; smoke test JHN 1:29 -> JHN 1:36 (Agneau de Dieu)** | `cubes/fr_lsg_semantic_qwen3_1024.*` (local, rebuildable) | | Claude |
 
 ## Policy decisions awaiting owner confirmation
 
