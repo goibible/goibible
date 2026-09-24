@@ -76,7 +76,20 @@ in `Reference_Bible/Russian_Bible_RUSSYN1876/README.md`.
 | 2026-09-16 | NT noun matcher | `matchers.py` self-test + `language_readiness.py --lang ru` | pass (matcher only; renderings/senses/anchors not started) | `Bible_Noun_Extraction/matchers.py`, `staging/reports/ru/scaffold_readiness.md` | 6965c84d49 | Claude |
 | 2026-09-16 | Psalms versification | `build_psalm_versification_map.py` + `apply_psalm_versification_map.py` | pass (2,461/2,461 addresses; 8/8 content spot checks) | `psalm_versification_map.csv`, corrected `One_Directory_RUSSYN1876/` | c28c93c145 | Claude |
 | 2026-09-16 | Full versification alignment | `build_full_versification_audit.py` + `build_non_psalm_versification_map.py` + `apply_non_psalm_versification_map.py` + `verify_output_alignment.py` | **pass: 100%, 1,189/1,189 chapters, 31,102/31,102 verses** | `full_versification_audit_summary.md`, `output_alignment_by_chapter.csv` | pending | Claude |
+| 2026-09-20 | OT translation | `ru/translate_ot_ru.py` (per-verse noun-anchor retry, single stream) | pass: 23,145/23,145 verses | `GOI_Bible/GOI_Bible_ru` | 832165458d | Claude |
+| 2026-09-23 | OT triage + wrong-sense | `ru/triage_ot.py`, `ru/check_defaults_ot.py`, `ru/sweep_senses_ot.py`, `ru/fix_senses_ot.py` + hand review | **pass: RED/ORANGE/YELLOW 0, GREEN 23,145; sense state 6,220 fixed / 948 kept / 0 open** | `staging/.../ru/reports/triage_ot_summary.md`, `ru/sense_fix_state.tsv` | 142d0e2 (nested) | Claude |
+| 2026-09-23 | NT coverage + wrong-sense | `verify_coverage.py --lang ru`, `ru/sweep_senses_nt.py`, `ru/check_defaults_nt.py`, `ru/fix_senses_nt.py` + hand review | **pass: coverage 100%; sense state 429 fixed / 65 kept / 0 open** | `ru/sense_fix_state_nt.tsv` | d522079 (nested) | Claude |
+| 2026-09-23 | Script gate | `verify_language_script.py GOI_Ru` (now with `forbidden_chars` і ї є ґ ў) | pass (ACT 15:23 had been Ukrainian; rewritten) | `translation_qa/script_profiles.json` | 81191076ce | Claude |
+| 2026-09-23 | Renderings ledger | export to `Bible_Noun_Extraction/ru_noun_renderings.csv` | 2,369 NT + 6,488 OT, 0 empty | `ru_noun_renderings.csv` | this release | Claude |
+| 2026-09-23 | Release (local) | `release_edition.py GOI_Ru --reader-target /var/www/goibible.org/read/data/bible.sqlite3` | pass: flatfiles 31,102; manifests OK; cross-language audit OK; RELEASE INTEGRITY OK (13 active) | `goi_db_download/GOI_Ru.db`, `manifest.json` | this release | Claude |
 
 ## Release record
 
-Not applicable: Russian has no GOI translation, database, or deployed edition.
+Status **active** (2026-09-23). Local release built and verified; manifest checksum `519f3f9ee4d1b43c25e62057ddfd680bc55197dc96b2be637313701513fd2618`.
+Not yet pushed to GitHub and not yet deployed to `dsvx` (awaiting owner go-ahead); record the rollback
+timestamp and remote query here when deployed.
+
+Unmet checklist items, stated plainly: no native-speaker semantic review (AI review only); the
+cross-language regression ledger was not used for these Russian-specific default fixes (same precedent
+as GOI_Ja/GOI_Ko). From activation on, any changed Russian verse must be entered in
+`staging/cross_language_regressions.csv` first.

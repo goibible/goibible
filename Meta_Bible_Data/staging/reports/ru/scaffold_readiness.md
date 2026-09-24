@@ -19,3 +19,16 @@ is now a sound, 100%-aligned reference for GOI-coordinate QA. What remains
 before translation can begin is lexicographic, not structural: source-language
 noun anchors and Russian Strong's renderings/senses (still at zero,
 intentionally not fabricated).
+
+## 2026-09-23 -- activation gates
+
+| Gate | Result | Evidence |
+|---|---|---|
+| Flatfiles | pass: 31,102 files, none empty | `goi_language_pipeline.py check-flatfiles GOI_Ru` |
+| Script | pass (Ukrainian letters now forbidden) | `verify_language_script.py GOI_Ru` |
+| NT noun coverage | pass: 100% | `verify_coverage.py --lang ru` |
+| OT triage | pass: 0/0/0/23,145 Green | `ru/triage_ot.py` |
+| Wrong-sense | pass: OT 6,220 fixed / 948 kept / 0 open; NT 429 fixed / 65 kept / 0 open | `ru/sense_fix_state*.tsv` |
+| Renderings ledger | pass: 8,857 rows, 0 empty | `Bible_Noun_Extraction/ru_noun_renderings.csv` |
+| Release integrity | pass: 13 active editions | `verify_release_integrity.py` |
+| Native review | **not done** (AI review only) | -- |
