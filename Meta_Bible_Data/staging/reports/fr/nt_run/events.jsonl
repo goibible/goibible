@@ -8377,3 +8377,724 @@
 {"kind": "promote", "book": "REV", "chapter": 22, "verse": 21, "at": "2026-09-29T09:35:56.429304+00:00"}
 {"kind": "book_done", "book": "REV", "promoted": 4028, "quarantined": 125, "at": "2026-09-29T09:35:56.429336+00:00"}
 {"kind": "done", "promoted": 4028, "quarantined": 125, "at": "2026-09-29T09:35:56.429450+00:00"}
+{"kind": "start", "books": "JUD,MAT,MRK,LUK,JHN,ACT,ROM,1CO,2CO,GAL,EPH,PHP,COL,1TH,2TH,1TI,2TI,TIT,PHM,HEB,JAS,1PE,2PE,1JN,2JN,3JN,REV", "model": "deepseek-ai/DeepSeek-V4-Flash-0731", "python": "/home/albert/miniconda3/bin/python3", "lock": "single_worker", "at": "2026-09-29T13:13:06.481101+00:00"}
+{"kind": "book_done", "book": "JUD", "promoted": 0, "quarantined": 0, "at": "2026-09-29T13:13:06.484507+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 1, "at": "2026-09-29T13:13:11.456812+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 2, "at": "2026-09-29T13:13:16.310937+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 3, "at": "2026-09-29T13:13:21.288023+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 2, "verse": 23, "reason": "anchor", "at": "2026-09-29T13:13:21.288176+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 1, "at": "2026-09-29T13:13:25.483801+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 2, "at": "2026-09-29T13:13:29.325423+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 3, "at": "2026-09-29T13:13:34.473711+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 3, "verse": 4, "reason": "anchor", "at": "2026-09-29T13:13:34.473811+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 9, "verse": 23, "at": "2026-09-29T13:13:38.190735+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 12, "verse": 4, "at": "2026-09-29T13:13:45.396104+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 12, "verse": 41, "at": "2026-09-29T13:13:45.396631+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 17, "verse": 5, "at": "2026-09-29T13:13:48.881456+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 18, "verse": 7, "at": "2026-09-29T13:13:53.770980+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 18, "verse": 28, "at": "2026-09-29T13:13:53.771372+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 18, "verse": 31, "at": "2026-09-29T13:13:53.771594+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 20, "verse": 7, "attempt": 1, "at": "2026-09-29T13:13:59.155088+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 20, "verse": 7, "attempt": 2, "at": "2026-09-29T13:14:07.701054+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 20, "verse": 7, "attempt": 3, "at": "2026-09-29T13:14:13.611974+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 20, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:14:13.612055+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 1, "at": "2026-09-29T13:14:21.379741+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 2, "at": "2026-09-29T13:14:28.549191+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 3, "at": "2026-09-29T13:14:39.437078+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 21, "verse": 2, "reason": "anchor", "at": "2026-09-29T13:14:39.437173+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 21, "verse": 12, "at": "2026-09-29T13:15:05.469905+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 21, "verse": 19, "at": "2026-09-29T13:15:05.470204+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 21, "verse": 42, "at": "2026-09-29T13:15:05.470622+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 24, "verse": 7, "at": "2026-09-29T13:15:10.438317+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 24, "verse": 49, "at": "2026-09-29T13:15:10.438876+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 26, "verse": 15, "at": "2026-09-29T13:15:15.244230+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 26, "verse": 52, "at": "2026-09-29T13:15:15.244767+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 27, "verse": 3, "at": "2026-09-29T13:15:25.526981+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 27, "verse": 5, "at": "2026-09-29T13:15:25.527203+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 27, "verse": 6, "at": "2026-09-29T13:15:25.527401+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 27, "verse": 9, "at": "2026-09-29T13:15:25.527629+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 27, "verse": 32, "at": "2026-09-29T13:15:25.528008+00:00"}
+{"kind": "book_done", "book": "MAT", "promoted": 19, "quarantined": 4, "at": "2026-09-29T13:15:25.540199+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 1, "at": "2026-09-29T13:15:31.665022+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 2, "at": "2026-09-29T13:15:37.069355+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 3, "at": "2026-09-29T13:15:43.056187+00:00"}
+{"kind": "quarantine", "book": "MRK", "chapter": 1, "verse": 6, "reason": "anchor", "at": "2026-09-29T13:15:43.056284+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 1, "verse": 5, "at": "2026-09-29T13:15:43.070769+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 2, "verse": 19, "at": "2026-09-29T13:15:48.550745+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 2, "verse": 26, "at": "2026-09-29T13:15:48.551170+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 5, "verse": 22, "at": "2026-09-29T13:15:53.466822+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 5, "verse": 42, "at": "2026-09-29T13:15:53.467194+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 1, "at": "2026-09-29T13:16:00.046910+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 2, "at": "2026-09-29T13:16:13.488373+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 3, "at": "2026-09-29T13:16:21.906944+00:00"}
+{"kind": "quarantine", "book": "MRK", "chapter": 6, "verse": 6, "reason": "anchor", "at": "2026-09-29T13:16:21.907046+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 7, "verse": 4, "at": "2026-09-29T13:16:32.887067+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 11, "verse": 14, "at": "2026-09-29T13:16:37.746983+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 11, "verse": 15, "at": "2026-09-29T13:16:37.747210+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 13, "verse": 8, "at": "2026-09-29T13:16:41.222340+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 15, "verse": 7, "at": "2026-09-29T13:16:48.148285+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 15, "verse": 19, "at": "2026-09-29T13:16:48.148595+00:00"}
+{"kind": "book_done", "book": "MRK", "promoted": 30, "quarantined": 6, "at": "2026-09-29T13:16:48.156762+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 2, "verse": 37, "at": "2026-09-29T13:16:52.523708+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 2, "verse": 42, "at": "2026-09-29T13:16:52.523964+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 3, "verse": 23, "at": "2026-09-29T13:16:56.081574+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 5, "verse": 8, "at": "2026-09-29T13:17:04.002474+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 5, "verse": 12, "at": "2026-09-29T13:17:04.002747+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 5, "verse": 17, "at": "2026-09-29T13:17:04.003030+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 5, "verse": 27, "at": "2026-09-29T13:17:04.003302+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 6, "verse": 4, "at": "2026-09-29T13:17:08.533843+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 1, "at": "2026-09-29T13:17:31.730206+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 2, "at": "2026-09-29T13:17:38.251765+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 3, "at": "2026-09-29T13:17:43.795780+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 7, "verse": 1, "reason": "anchor", "at": "2026-09-29T13:17:43.795885+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 8, "verse": 27, "at": "2026-09-29T13:17:54.398371+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 8, "verse": 41, "at": "2026-09-29T13:17:54.398705+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 8, "verse": 42, "at": "2026-09-29T13:17:54.398916+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 1, "at": "2026-09-29T13:18:01.073631+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 2, "at": "2026-09-29T13:18:05.334426+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 3, "at": "2026-09-29T13:18:10.090562+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 10, "verse": 42, "reason": "anchor", "at": "2026-09-29T13:18:10.090643+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 10, "verse": 38, "at": "2026-09-29T13:18:10.110725+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 11, "verse": 3, "attempt": 1, "at": "2026-09-29T13:18:14.841046+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 11, "verse": 3, "attempt": 2, "at": "2026-09-29T13:18:19.507873+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 11, "verse": 3, "attempt": 3, "at": "2026-09-29T13:18:23.990042+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 11, "verse": 3, "reason": "anchor", "at": "2026-09-29T13:18:23.990141+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 14, "verse": 9, "at": "2026-09-29T13:18:30.528917+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 14, "verse": 10, "at": "2026-09-29T13:18:30.529143+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 14, "verse": 22, "at": "2026-09-29T13:18:30.529434+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 16, "verse": 20, "at": "2026-09-29T13:18:33.159967+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 19, "verse": 2, "at": "2026-09-29T13:18:37.786187+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 21, "verse": 11, "at": "2026-09-29T13:18:41.685843+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 22, "verse": 41, "at": "2026-09-29T13:18:47.527019+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 22, "verse": 52, "at": "2026-09-29T13:18:47.527340+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 1, "at": "2026-09-29T13:18:58.446595+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 2, "at": "2026-09-29T13:19:07.662360+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 3, "at": "2026-09-29T13:19:16.083561+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 23, "verse": 34, "reason": "anchor", "at": "2026-09-29T13:19:16.083662+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 23, "verse": 50, "at": "2026-09-29T13:19:18.462295+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 24, "verse": 1, "attempt": 1, "at": "2026-09-29T13:19:24.351233+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 24, "verse": 1, "attempt": 2, "at": "2026-09-29T13:19:29.048972+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 24, "verse": 1, "attempt": 3, "at": "2026-09-29T13:19:35.448898+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 24, "verse": 1, "reason": "anchor", "at": "2026-09-29T13:19:35.448977+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 24, "verse": 18, "at": "2026-09-29T13:19:38.070604+00:00"}
+{"kind": "book_done", "book": "LUK", "promoted": 52, "quarantined": 11, "at": "2026-09-29T13:19:38.070979+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 2, "verse": 14, "at": "2026-09-29T13:19:42.261431+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 2, "verse": 15, "at": "2026-09-29T13:19:42.261682+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 3, "verse": 1, "at": "2026-09-29T13:19:45.098416+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 4, "verse": 14, "attempt": 1, "at": "2026-09-29T13:19:51.823089+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 4, "verse": 14, "attempt": 2, "at": "2026-09-29T13:19:59.240296+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 4, "verse": 14, "at": "2026-09-29T13:20:04.830771+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 5, "verse": 4, "at": "2026-09-29T13:20:10.441980+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 7, "verse": 25, "at": "2026-09-29T13:20:14.067621+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 1, "at": "2026-09-29T13:20:24.272249+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 2, "at": "2026-09-29T13:20:32.439245+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 3, "at": "2026-09-29T13:20:42.661260+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 8, "verse": 10, "reason": "anchor", "at": "2026-09-29T13:20:42.661364+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 10, "verse": 28, "attempt": 1, "at": "2026-09-29T13:20:48.516369+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 10, "verse": 28, "attempt": 2, "at": "2026-09-29T13:20:55.584972+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 10, "verse": 28, "attempt": 3, "at": "2026-09-29T13:21:00.141999+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 10, "verse": 28, "reason": "anchor", "at": "2026-09-29T13:21:00.142095+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 1, "at": "2026-09-29T13:21:06.871500+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 2, "at": "2026-09-29T13:21:12.078488+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 3, "at": "2026-09-29T13:21:20.690580+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 12, "verse": 15, "reason": "anchor", "at": "2026-09-29T13:21:20.690684+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 12, "verse": 34, "at": "2026-09-29T13:21:25.483245+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 13, "verse": 8, "attempt": 1, "at": "2026-09-29T13:21:34.764761+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 13, "verse": 8, "attempt": 2, "at": "2026-09-29T13:21:41.604862+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 13, "verse": 8, "attempt": 3, "at": "2026-09-29T13:21:47.572099+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 13, "verse": 8, "reason": "anchor", "at": "2026-09-29T13:21:47.572197+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 13, "verse": 38, "reason": "anchor", "at": "2026-09-29T13:22:05.269883+00:00"}
+{"kind": "lint_fail", "book": "JHN", "chapter": 13, "verse": 5, "why": ["commentary word"], "attempt": 0, "at": "2026-09-29T13:22:05.285807+00:00"}
+{"kind": "lint_fail", "book": "JHN", "chapter": 13, "verse": 5, "why": ["commentary word"], "attempt": 1, "at": "2026-09-29T13:22:07.889814+00:00"}
+{"kind": "lint_fail", "book": "JHN", "chapter": 13, "verse": 5, "why": ["commentary word"], "attempt": 2, "at": "2026-09-29T13:22:09.881838+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 13, "verse": 5, "reason": "lint", "at": "2026-09-29T13:22:09.881952+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 14, "verse": 9, "at": "2026-09-29T13:22:13.630383+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 15, "verse": 13, "at": "2026-09-29T13:22:17.363989+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 1, "at": "2026-09-29T13:22:23.875857+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 2, "at": "2026-09-29T13:22:28.947354+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 3, "at": "2026-09-29T13:22:36.165669+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 20, "verse": 1, "reason": "anchor", "at": "2026-09-29T13:22:36.165765+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 20, "verse": 19, "reason": "anchor", "at": "2026-09-29T13:22:51.124896+00:00"}
+{"kind": "book_done", "book": "JHN", "promoted": 61, "quarantined": 19, "at": "2026-09-29T13:22:51.151525+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 1, "at": "2026-09-29T13:22:55.653936+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 2, "at": "2026-09-29T13:23:02.450976+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 3, "at": "2026-09-29T13:23:07.843017+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 1, "verse": 1, "reason": "anchor", "at": "2026-09-29T13:23:07.843100+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 1, "verse": 11, "reason": "anchor", "at": "2026-09-29T13:23:45.471121+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 1, "verse": 26, "at": "2026-09-29T13:23:48.856103+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 1, "at": "2026-09-29T13:24:02.006747+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 2, "at": "2026-09-29T13:24:07.470613+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 3, "at": "2026-09-29T13:24:14.361897+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 4, "verse": 34, "reason": "anchor", "at": "2026-09-29T13:24:14.361990+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 4, "verse": 13, "at": "2026-09-29T13:24:14.378384+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 4, "verse": 22, "at": "2026-09-29T13:24:14.378691+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 7, "attempt": 1, "at": "2026-09-29T13:24:20.898950+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 7, "attempt": 2, "at": "2026-09-29T13:24:26.665052+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 7, "attempt": 3, "at": "2026-09-29T13:24:39.008642+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 5, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:24:39.008739+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 5, "verse": 28, "reason": "anchor", "at": "2026-09-29T13:24:59.022631+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 5, "verse": 1, "at": "2026-09-29T13:24:59.041446+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 5, "verse": 34, "at": "2026-09-29T13:24:59.042002+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 7, "verse": 60, "at": "2026-09-29T13:25:03.978750+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 9, "verse": 10, "at": "2026-09-29T13:25:12.874399+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 9, "verse": 33, "at": "2026-09-29T13:25:12.874866+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 9, "verse": 36, "at": "2026-09-29T13:25:12.875107+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 9, "verse": 40, "at": "2026-09-29T13:25:12.875355+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 10, "verse": 1, "at": "2026-09-29T13:25:16.272641+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 11, "verse": 28, "at": "2026-09-29T13:25:22.316921+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 12, "verse": 13, "at": "2026-09-29T13:25:24.830007+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 1, "at": "2026-09-29T13:25:30.707027+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 2, "at": "2026-09-29T13:25:36.341475+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 3, "at": "2026-09-29T13:25:43.518862+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 13, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:25:43.518969+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 13, "verse": 15, "at": "2026-09-29T13:25:52.411063+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 13, "verse": 20, "at": "2026-09-29T13:25:52.411311+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 1, "at": "2026-09-29T13:25:58.643093+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 2, "at": "2026-09-29T13:26:06.226553+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 3, "at": "2026-09-29T13:26:12.768243+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 15, "verse": 11, "reason": "anchor", "at": "2026-09-29T13:26:12.768343+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 16, "verse": 1, "at": "2026-09-29T13:26:18.780378+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 16, "verse": 14, "at": "2026-09-29T13:26:18.780719+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 1, "at": "2026-09-29T13:26:31.120569+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 2, "at": "2026-09-29T13:26:40.317026+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 3, "at": "2026-09-29T13:26:47.090845+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 17, "verse": 26, "reason": "anchor", "at": "2026-09-29T13:26:47.090930+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 17, "verse": 6, "at": "2026-09-29T13:26:48.903637+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 17, "verse": 8, "at": "2026-09-29T13:26:48.903864+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 17, "verse": 23, "at": "2026-09-29T13:26:48.904202+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 17, "verse": 34, "at": "2026-09-29T13:26:48.904479+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 18, "verse": 2, "at": "2026-09-29T13:26:57.229833+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 18, "verse": 7, "at": "2026-09-29T13:26:57.230171+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 18, "verse": 20, "at": "2026-09-29T13:26:57.230543+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 18, "verse": 24, "at": "2026-09-29T13:26:57.230832+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 19, "verse": 35, "attempt": 1, "at": "2026-09-29T13:27:09.584578+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 19, "verse": 35, "attempt": 2, "at": "2026-09-29T13:27:17.529939+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 19, "verse": 35, "attempt": 3, "at": "2026-09-29T13:27:24.584276+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 19, "verse": 35, "reason": "anchor", "at": "2026-09-29T13:27:24.584372+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 19, "verse": 24, "at": "2026-09-29T13:27:24.604708+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 19, "verse": 29, "at": "2026-09-29T13:27:24.605012+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 20, "verse": 4, "at": "2026-09-29T13:27:30.469963+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 20, "verse": 9, "at": "2026-09-29T13:27:30.470237+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 20, "verse": 36, "at": "2026-09-29T13:27:30.470647+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 21, "verse": 3, "attempt": 1, "at": "2026-09-29T13:27:37.338169+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 21, "verse": 3, "attempt": 2, "at": "2026-09-29T13:27:43.075183+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 21, "verse": 3, "attempt": 3, "at": "2026-09-29T13:27:51.912923+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 21, "verse": 3, "reason": "anchor", "at": "2026-09-29T13:27:51.913026+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 21, "verse": 30, "reason": "anchor", "at": "2026-09-29T13:28:19.818146+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 21, "verse": 40, "reason": "anchor", "at": "2026-09-29T13:28:24.990933+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 21, "verse": 5, "at": "2026-09-29T13:28:25.009117+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 21, "verse": 10, "at": "2026-09-29T13:28:25.009459+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 1, "at": "2026-09-29T13:28:30.148690+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 2, "at": "2026-09-29T13:28:35.030879+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 3, "at": "2026-09-29T13:28:38.781338+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 22, "verse": 2, "reason": "anchor", "at": "2026-09-29T13:28:38.781436+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 22, "verse": 4, "reason": "anchor", "at": "2026-09-29T13:29:03.685073+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 22, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:29:09.669061+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 26, "verse": 14, "attempt": 1, "at": "2026-09-29T13:29:18.548012+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 26, "verse": 14, "attempt": 2, "at": "2026-09-29T13:29:30.416161+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 26, "verse": 14, "attempt": 3, "at": "2026-09-29T13:29:37.244111+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 26, "verse": 14, "reason": "anchor", "at": "2026-09-29T13:29:37.244305+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 27, "verse": 13, "attempt": 1, "at": "2026-09-29T13:29:46.790596+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 27, "verse": 13, "attempt": 2, "at": "2026-09-29T13:29:53.333065+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 27, "verse": 13, "attempt": 3, "at": "2026-09-29T13:29:59.658413+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 27, "verse": 13, "reason": "anchor", "at": "2026-09-29T13:29:59.658513+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 27, "verse": 15, "reason": "anchor", "at": "2026-09-29T13:30:13.674691+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 27, "verse": 1, "at": "2026-09-29T13:30:13.694598+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 27, "verse": 10, "at": "2026-09-29T13:30:13.694903+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 28, "verse": 7, "at": "2026-09-29T13:30:17.275287+00:00"}
+{"kind": "book_done", "book": "ACT", "promoted": 96, "quarantined": 37, "at": "2026-09-29T13:30:17.275565+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 1, "at": "2026-09-29T13:30:24.654662+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 2, "at": "2026-09-29T13:30:32.337771+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 3, "at": "2026-09-29T13:30:39.453863+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 3, "verse": 12, "reason": "anchor", "at": "2026-09-29T13:30:39.453955+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 3, "verse": 25, "reason": "anchor", "at": "2026-09-29T13:30:58.610034+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 4, "verse": 9, "at": "2026-09-29T13:31:02.315360+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 1, "at": "2026-09-29T13:31:15.963755+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 2, "at": "2026-09-29T13:31:26.008659+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 3, "at": "2026-09-29T13:31:34.130695+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 7, "verse": 13, "reason": "anchor", "at": "2026-09-29T13:31:34.130794+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 7, "verse": 1, "at": "2026-09-29T13:31:34.137458+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 1, "at": "2026-09-29T13:31:41.420869+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 2, "at": "2026-09-29T13:31:51.365446+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 3, "at": "2026-09-29T13:31:57.729145+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 11, "verse": 25, "reason": "anchor", "at": "2026-09-29T13:31:57.729236+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 12, "verse": 19, "at": "2026-09-29T13:32:01.622991+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 1, "at": "2026-09-29T13:32:08.564983+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 2, "at": "2026-09-29T13:32:16.393582+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 3, "at": "2026-09-29T13:32:22.289627+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 13, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:32:22.289721+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 13, "verse": 5, "at": "2026-09-29T13:32:22.293378+00:00"}
+{"kind": "book_done", "book": "ROM", "promoted": 100, "quarantined": 42, "at": "2026-09-29T13:32:22.322602+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 4, "verse": 1, "at": "2026-09-29T13:32:25.188665+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 7, "verse": 39, "at": "2026-09-29T13:32:28.418798+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 8, "verse": 13, "attempt": 1, "at": "2026-09-29T13:32:32.370883+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 8, "verse": 13, "attempt": 2, "at": "2026-09-29T13:32:39.525289+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 8, "verse": 13, "attempt": 3, "at": "2026-09-29T13:32:43.411718+00:00"}
+{"kind": "quarantine", "book": "1CO", "chapter": 8, "verse": 13, "reason": "anchor", "at": "2026-09-29T13:32:43.411916+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 1, "at": "2026-09-29T13:32:48.342855+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 2, "at": "2026-09-29T13:32:54.187119+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 3, "at": "2026-09-29T13:32:59.656525+00:00"}
+{"kind": "quarantine", "book": "1CO", "chapter": 11, "verse": 28, "reason": "anchor", "at": "2026-09-29T13:32:59.656619+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 14, "verse": 16, "at": "2026-09-29T13:33:04.925324+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 14, "verse": 23, "at": "2026-09-29T13:33:04.925619+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 1, "at": "2026-09-29T13:33:09.806165+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 2, "at": "2026-09-29T13:33:14.460867+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 3, "at": "2026-09-29T13:33:20.574199+00:00"}
+{"kind": "quarantine", "book": "1CO", "chapter": 16, "verse": 7, "reason": "anchor", "at": "2026-09-29T13:33:20.574298+00:00"}
+{"kind": "book_done", "book": "1CO", "promoted": 104, "quarantined": 45, "at": "2026-09-29T13:33:20.580065+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 6, "verse": 8, "attempt": 1, "at": "2026-09-29T13:33:24.776494+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 6, "verse": 8, "attempt": 2, "at": "2026-09-29T13:33:29.999726+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 6, "verse": 8, "attempt": 3, "at": "2026-09-29T13:33:33.874650+00:00"}
+{"kind": "quarantine", "book": "2CO", "chapter": 6, "verse": 8, "reason": "anchor", "at": "2026-09-29T13:33:33.874732+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 1, "at": "2026-09-29T13:33:38.936037+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 2, "at": "2026-09-29T13:33:44.456781+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 3, "at": "2026-09-29T13:33:48.930127+00:00"}
+{"kind": "quarantine", "book": "2CO", "chapter": 8, "verse": 2, "reason": "anchor", "at": "2026-09-29T13:33:48.930219+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 10, "verse": 10, "attempt": 1, "at": "2026-09-29T13:33:54.770537+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 10, "verse": 10, "attempt": 2, "at": "2026-09-29T13:33:59.194669+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 10, "verse": 10, "attempt": 3, "at": "2026-09-29T13:34:04.591107+00:00"}
+{"kind": "quarantine", "book": "2CO", "chapter": 10, "verse": 10, "reason": "anchor", "at": "2026-09-29T13:34:04.591212+00:00"}
+{"kind": "promote", "book": "2CO", "chapter": 12, "verse": 2, "at": "2026-09-29T13:34:07.248278+00:00"}
+{"kind": "book_done", "book": "2CO", "promoted": 105, "quarantined": 48, "at": "2026-09-29T13:34:07.252330+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 1, "at": "2026-09-29T13:34:15.737011+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 2, "at": "2026-09-29T13:34:20.746434+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 3, "at": "2026-09-29T13:34:32.088381+00:00"}
+{"kind": "quarantine", "book": "GAL", "chapter": 1, "verse": 13, "reason": "anchor", "at": "2026-09-29T13:34:32.088462+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 1, "at": "2026-09-29T13:34:36.979699+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 2, "at": "2026-09-29T13:34:42.398758+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 3, "at": "2026-09-29T13:34:46.562937+00:00"}
+{"kind": "quarantine", "book": "GAL", "chapter": 2, "verse": 11, "reason": "anchor", "at": "2026-09-29T13:34:46.563032+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 4, "verse": 24, "attempt": 1, "at": "2026-09-29T13:34:57.809940+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 4, "verse": 24, "attempt": 2, "at": "2026-09-29T13:35:04.046763+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 4, "verse": 24, "attempt": 3, "at": "2026-09-29T13:35:11.332087+00:00"}
+{"kind": "quarantine", "book": "GAL", "chapter": 4, "verse": 24, "reason": "anchor", "at": "2026-09-29T13:35:11.332185+00:00"}
+{"kind": "promote", "book": "GAL", "chapter": 4, "verse": 1, "at": "2026-09-29T13:35:11.335626+00:00"}
+{"kind": "book_done", "book": "GAL", "promoted": 106, "quarantined": 51, "at": "2026-09-29T13:35:11.346781+00:00"}
+{"kind": "promote", "book": "EPH", "chapter": 2, "verse": 20, "at": "2026-09-29T13:35:14.067579+00:00"}
+{"kind": "promote", "book": "EPH", "chapter": 3, "verse": 14, "at": "2026-09-29T13:35:17.582170+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 1, "at": "2026-09-29T13:35:25.467417+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 2, "at": "2026-09-29T13:35:32.944717+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 3, "at": "2026-09-29T13:35:40.392711+00:00"}
+{"kind": "quarantine", "book": "EPH", "chapter": 4, "verse": 18, "reason": "anchor", "at": "2026-09-29T13:35:40.392812+00:00"}
+{"kind": "book_done", "book": "EPH", "promoted": 108, "quarantined": 52, "at": "2026-09-29T13:35:40.410652+00:00"}
+{"kind": "book_done", "book": "PHP", "promoted": 108, "quarantined": 52, "at": "2026-09-29T13:35:40.425799+00:00"}
+{"kind": "book_done", "book": "COL", "promoted": 108, "quarantined": 52, "at": "2026-09-29T13:35:40.439039+00:00"}
+{"kind": "promote", "book": "1TH", "chapter": 1, "verse": 1, "at": "2026-09-29T13:35:42.910177+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 1, "at": "2026-09-29T13:35:49.474891+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 2, "at": "2026-09-29T13:35:54.502717+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 3, "at": "2026-09-29T13:35:58.491194+00:00"}
+{"kind": "quarantine", "book": "1TH", "chapter": 5, "verse": 22, "reason": "anchor", "at": "2026-09-29T13:35:58.491286+00:00"}
+{"kind": "promote", "book": "1TH", "chapter": 5, "verse": 28, "at": "2026-09-29T13:36:01.040207+00:00"}
+{"kind": "book_done", "book": "1TH", "promoted": 110, "quarantined": 53, "at": "2026-09-29T13:36:01.040248+00:00"}
+{"kind": "promote", "book": "2TH", "chapter": 1, "verse": 1, "at": "2026-09-29T13:36:03.928587+00:00"}
+{"kind": "anchor_fail", "book": "2TH", "chapter": 3, "verse": 18, "attempt": 1, "at": "2026-09-29T13:36:07.461198+00:00"}
+{"kind": "promote", "book": "2TH", "chapter": 3, "verse": 18, "at": "2026-09-29T13:36:10.173336+00:00"}
+{"kind": "book_done", "book": "2TH", "promoted": 112, "quarantined": 53, "at": "2026-09-29T13:36:10.173376+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 1, "at": "2026-09-29T13:36:19.517129+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 2, "at": "2026-09-29T13:36:29.718800+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 3, "at": "2026-09-29T13:36:39.813768+00:00"}
+{"kind": "quarantine", "book": "1TI", "chapter": 1, "verse": 9, "reason": "anchor", "at": "2026-09-29T13:36:39.813890+00:00"}
+{"kind": "promote", "book": "1TI", "chapter": 1, "verse": 7, "at": "2026-09-29T13:36:39.815890+00:00"}
+{"kind": "promote", "book": "1TI", "chapter": 5, "verse": 9, "at": "2026-09-29T13:36:42.601396+00:00"}
+{"kind": "promote", "book": "1TI", "chapter": 6, "verse": 19, "at": "2026-09-29T13:36:45.104575+00:00"}
+{"kind": "book_done", "book": "1TI", "promoted": 115, "quarantined": 54, "at": "2026-09-29T13:36:45.104724+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 1, "at": "2026-09-29T13:36:50.718197+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 2, "at": "2026-09-29T13:36:56.942696+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 3, "at": "2026-09-29T13:37:05.206217+00:00"}
+{"kind": "quarantine", "book": "2TI", "chapter": 1, "verse": 6, "reason": "anchor", "at": "2026-09-29T13:37:05.206322+00:00"}
+{"kind": "promote", "book": "2TI", "chapter": 1, "verse": 12, "at": "2026-09-29T13:37:09.997437+00:00"}
+{"kind": "lint_fail", "book": "2TI", "chapter": 2, "verse": 17, "why": ["doubled space / line break", "commentary word"], "attempt": 0, "at": "2026-09-29T13:37:13.582564+00:00"}
+{"kind": "promote", "book": "2TI", "chapter": 2, "verse": 17, "at": "2026-09-29T13:37:16.888335+00:00"}
+{"kind": "promote", "book": "2TI", "chapter": 2, "verse": 19, "at": "2026-09-29T13:37:16.889023+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 1, "at": "2026-09-29T13:37:22.513225+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 2, "at": "2026-09-29T13:37:29.384175+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 3, "at": "2026-09-29T13:37:34.602860+00:00"}
+{"kind": "quarantine", "book": "2TI", "chapter": 3, "verse": 8, "reason": "anchor", "at": "2026-09-29T13:37:34.602946+00:00"}
+{"kind": "book_done", "book": "2TI", "promoted": 118, "quarantined": 56, "at": "2026-09-29T13:37:34.614310+00:00"}
+{"kind": "book_done", "book": "TIT", "promoted": 118, "quarantined": 56, "at": "2026-09-29T13:37:34.621298+00:00"}
+{"kind": "book_done", "book": "PHM", "promoted": 118, "quarantined": 56, "at": "2026-09-29T13:37:34.624778+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 1, "at": "2026-09-29T13:37:39.864023+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 2, "at": "2026-09-29T13:37:50.038763+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 3, "at": "2026-09-29T13:37:56.855158+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 2, "verse": 11, "reason": "anchor", "at": "2026-09-29T13:37:56.855249+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 3, "verse": 17, "at": "2026-09-29T13:38:00.142838+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 6, "verse": 1, "at": "2026-09-29T13:38:02.820324+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 7, "verse": 9, "attempt": 1, "at": "2026-09-29T13:38:08.702837+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 7, "verse": 9, "attempt": 2, "at": "2026-09-29T13:38:13.974073+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 7, "verse": 9, "attempt": 3, "at": "2026-09-29T13:38:18.853453+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 7, "verse": 9, "reason": "anchor", "at": "2026-09-29T13:38:18.853548+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 7, "verse": 24, "at": "2026-09-29T13:38:22.626842+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 7, "verse": 28, "at": "2026-09-29T13:38:22.627106+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 9, "verse": 16, "at": "2026-09-29T13:38:26.500833+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 9, "verse": 23, "at": "2026-09-29T13:38:26.503019+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 1, "at": "2026-09-29T13:38:31.881973+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 2, "at": "2026-09-29T13:38:36.064621+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 3, "at": "2026-09-29T13:38:41.875983+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 10, "verse": 24, "reason": "anchor", "at": "2026-09-29T13:38:41.876071+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 1, "at": "2026-09-29T13:38:47.554954+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 2, "at": "2026-09-29T13:38:54.746707+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 3, "at": "2026-09-29T13:39:04.197150+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 11, "verse": 12, "reason": "anchor", "at": "2026-09-29T13:39:04.197241+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 11, "verse": 37, "at": "2026-09-29T13:39:07.673997+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 12, "verse": 1, "at": "2026-09-29T13:39:11.753458+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 12, "verse": 12, "at": "2026-09-29T13:39:11.753920+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 1, "at": "2026-09-29T13:39:16.484103+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 2, "at": "2026-09-29T13:39:21.116752+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 3, "at": "2026-09-29T13:39:26.948330+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 13, "verse": 4, "reason": "anchor", "at": "2026-09-29T13:39:26.948428+00:00"}
+{"kind": "book_done", "book": "HEB", "promoted": 127, "quarantined": 61, "at": "2026-09-29T13:39:26.953474+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 8, "attempt": 1, "at": "2026-09-29T13:39:31.038767+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 8, "attempt": 2, "at": "2026-09-29T13:39:35.207094+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 8, "attempt": 3, "at": "2026-09-29T13:39:39.862398+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 1, "verse": 8, "reason": "anchor", "at": "2026-09-29T13:39:39.862493+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 1, "verse": 23, "reason": "anchor", "at": "2026-09-29T13:40:02.785740+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 1, "verse": 25, "reason": "anchor", "at": "2026-09-29T13:40:08.084737+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 1, "at": "2026-09-29T13:40:13.272810+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 2, "at": "2026-09-29T13:40:20.829366+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 3, "at": "2026-09-29T13:40:28.714386+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 3, "verse": 12, "reason": "anchor", "at": "2026-09-29T13:40:28.714492+00:00"}
+{"kind": "book_done", "book": "JAS", "promoted": 127, "quarantined": 65, "at": "2026-09-29T13:40:28.728523+00:00"}
+{"kind": "promote", "book": "1PE", "chapter": 1, "verse": 25, "at": "2026-09-29T13:40:32.140405+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 1, "at": "2026-09-29T13:40:37.048904+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 2, "at": "2026-09-29T13:40:42.053436+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 3, "at": "2026-09-29T13:40:46.779944+00:00"}
+{"kind": "quarantine", "book": "1PE", "chapter": 2, "verse": 18, "reason": "anchor", "at": "2026-09-29T13:40:46.780024+00:00"}
+{"kind": "book_done", "book": "1PE", "promoted": 128, "quarantined": 66, "at": "2026-09-29T13:40:46.795351+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 1, "at": "2026-09-29T13:41:00.386928+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 2, "at": "2026-09-29T13:41:04.389179+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 3, "at": "2026-09-29T13:41:09.491311+00:00"}
+{"kind": "quarantine", "book": "2PE", "chapter": 2, "verse": 22, "reason": "anchor", "at": "2026-09-29T13:41:09.491408+00:00"}
+{"kind": "promote", "book": "2PE", "chapter": 3, "verse": 18, "at": "2026-09-29T13:41:16.034664+00:00"}
+{"kind": "book_done", "book": "2PE", "promoted": 129, "quarantined": 67, "at": "2026-09-29T13:41:16.034721+00:00"}
+{"kind": "anchor_fail", "book": "1JN", "chapter": 3, "verse": 16, "attempt": 1, "at": "2026-09-29T13:41:22.967936+00:00"}
+{"kind": "anchor_fail", "book": "1JN", "chapter": 3, "verse": 16, "attempt": 2, "at": "2026-09-29T13:41:31.243768+00:00"}
+{"kind": "anchor_fail", "book": "1JN", "chapter": 3, "verse": 16, "attempt": 3, "at": "2026-09-29T13:41:52.282723+00:00"}
+{"kind": "quarantine", "book": "1JN", "chapter": 3, "verse": 16, "reason": "anchor", "at": "2026-09-29T13:41:52.282836+00:00"}
+{"kind": "book_done", "book": "1JN", "promoted": 129, "quarantined": 68, "at": "2026-09-29T13:41:52.297065+00:00"}
+{"kind": "book_done", "book": "2JN", "promoted": 129, "quarantined": 68, "at": "2026-09-29T13:41:52.298960+00:00"}
+{"kind": "book_done", "book": "3JN", "promoted": 129, "quarantined": 68, "at": "2026-09-29T13:41:52.300847+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 1, "verse": 7, "at": "2026-09-29T13:41:55.793277+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 5, "verse": 11, "attempt": 1, "at": "2026-09-29T13:42:00.958112+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 5, "verse": 11, "attempt": 2, "at": "2026-09-29T13:42:07.378074+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 5, "verse": 11, "attempt": 3, "at": "2026-09-29T13:42:14.380680+00:00"}
+{"kind": "quarantine", "book": "REV", "chapter": 5, "verse": 11, "reason": "anchor", "at": "2026-09-29T13:42:14.380779+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 6, "verse": 11, "at": "2026-09-29T13:42:17.466734+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 11, "verse": 12, "at": "2026-09-29T13:42:20.137022+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 1, "at": "2026-09-29T13:42:26.956547+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 2, "at": "2026-09-29T13:42:32.837563+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 3, "at": "2026-09-29T13:42:41.586078+00:00"}
+{"kind": "quarantine", "book": "REV", "chapter": 13, "verse": 12, "reason": "anchor", "at": "2026-09-29T13:42:41.586174+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 1, "at": "2026-09-29T13:42:56.624527+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 2, "at": "2026-09-29T13:43:04.482767+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 3, "at": "2026-09-29T13:43:12.247374+00:00"}
+{"kind": "quarantine", "book": "REV", "chapter": 14, "verse": 18, "reason": "anchor", "at": "2026-09-29T13:43:12.247472+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 14, "verse": 2, "at": "2026-09-29T13:43:12.253232+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 18, "verse": 22, "at": "2026-09-29T13:43:15.073797+00:00"}
+{"kind": "book_done", "book": "REV", "promoted": 134, "quarantined": 71, "at": "2026-09-29T13:43:15.099516+00:00"}
+{"kind": "done", "promoted": 134, "quarantined": 71, "at": "2026-09-29T13:43:15.099673+00:00"}
+{"kind": "start", "books": "JUD,MAT,MRK,LUK,JHN,ACT,ROM,1CO,2CO,GAL,EPH,PHP,COL,1TH,2TH,1TI,2TI,TIT,PHM,HEB,JAS,1PE,2PE,1JN,2JN,3JN,REV", "model": "deepseek-ai/DeepSeek-V4-Flash-0731", "python": "/home/albert/miniconda3/bin/python3", "lock": "single_worker", "at": "2026-09-29T14:35:54.125623+00:00"}
+{"kind": "book_done", "book": "JUD", "promoted": 0, "quarantined": 0, "at": "2026-09-29T14:35:54.128696+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 1, "at": "2026-09-29T14:36:00.548096+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 2, "at": "2026-09-29T14:36:05.610042+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 2, "verse": 23, "attempt": 3, "at": "2026-09-29T14:36:11.499734+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 2, "verse": 23, "reason": "anchor", "at": "2026-09-29T14:36:11.499855+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 1, "at": "2026-09-29T14:36:18.125008+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 2, "at": "2026-09-29T14:36:24.273093+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 3, "verse": 4, "attempt": 3, "at": "2026-09-29T14:36:30.309341+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 3, "verse": 4, "reason": "anchor", "at": "2026-09-29T14:36:30.309443+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 20, "verse": 7, "at": "2026-09-29T14:36:35.658192+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 1, "at": "2026-09-29T14:36:44.067237+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 2, "at": "2026-09-29T14:36:51.390122+00:00"}
+{"kind": "anchor_fail", "book": "MAT", "chapter": 21, "verse": 2, "attempt": 3, "at": "2026-09-29T14:36:59.846466+00:00"}
+{"kind": "quarantine", "book": "MAT", "chapter": 21, "verse": 2, "reason": "anchor", "at": "2026-09-29T14:36:59.846562+00:00"}
+{"kind": "book_done", "book": "MAT", "promoted": 1, "quarantined": 3, "at": "2026-09-29T14:37:00.060424+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 1, "at": "2026-09-29T14:37:07.862112+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 2, "at": "2026-09-29T14:37:13.557187+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 1, "verse": 6, "attempt": 3, "at": "2026-09-29T14:37:22.685037+00:00"}
+{"kind": "quarantine", "book": "MRK", "chapter": 1, "verse": 6, "reason": "anchor", "at": "2026-09-29T14:37:22.685134+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 1, "at": "2026-09-29T14:37:29.937619+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 2, "at": "2026-09-29T14:37:47.646080+00:00"}
+{"kind": "anchor_fail", "book": "MRK", "chapter": 6, "verse": 6, "attempt": 3, "at": "2026-09-29T14:37:59.529464+00:00"}
+{"kind": "quarantine", "book": "MRK", "chapter": 6, "verse": 6, "reason": "anchor", "at": "2026-09-29T14:37:59.529558+00:00"}
+{"kind": "book_done", "book": "MRK", "promoted": 1, "quarantined": 5, "at": "2026-09-29T14:37:59.709482+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 1, "at": "2026-09-29T14:38:07.532888+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 2, "at": "2026-09-29T14:38:13.471329+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 7, "verse": 1, "attempt": 3, "at": "2026-09-29T14:38:19.281860+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 7, "verse": 1, "reason": "anchor", "at": "2026-09-29T14:38:19.281981+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 1, "at": "2026-09-29T14:38:25.653319+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 2, "at": "2026-09-29T14:38:30.572423+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 10, "verse": 42, "attempt": 3, "at": "2026-09-29T14:38:42.912539+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 10, "verse": 42, "reason": "anchor", "at": "2026-09-29T14:38:42.912638+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 11, "verse": 3, "at": "2026-09-29T14:38:49.369606+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 1, "at": "2026-09-29T14:38:59.097842+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 2, "at": "2026-09-29T14:39:08.512598+00:00"}
+{"kind": "anchor_fail", "book": "LUK", "chapter": 23, "verse": 34, "attempt": 3, "at": "2026-09-29T14:39:18.706882+00:00"}
+{"kind": "quarantine", "book": "LUK", "chapter": 23, "verse": 34, "reason": "anchor", "at": "2026-09-29T14:39:18.706976+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 24, "verse": 1, "at": "2026-09-29T14:39:23.324723+00:00"}
+{"kind": "book_done", "book": "LUK", "promoted": 3, "quarantined": 8, "at": "2026-09-29T14:39:23.325237+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 1, "at": "2026-09-29T14:39:34.226386+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 2, "at": "2026-09-29T14:39:43.017521+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 8, "verse": 10, "attempt": 3, "at": "2026-09-29T14:39:54.658834+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 8, "verse": 10, "reason": "anchor", "at": "2026-09-29T14:39:54.658982+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 10, "verse": 28, "at": "2026-09-29T14:39:59.886439+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 1, "at": "2026-09-29T14:40:08.491021+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 2, "at": "2026-09-29T14:40:14.465511+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 12, "verse": 15, "attempt": 3, "at": "2026-09-29T14:40:20.084332+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 12, "verse": 15, "reason": "anchor", "at": "2026-09-29T14:40:20.084428+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 13, "verse": 5, "at": "2026-09-29T14:40:28.239511+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 13, "verse": 8, "at": "2026-09-29T14:40:28.239749+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 13, "verse": 38, "at": "2026-09-29T14:40:28.240250+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 1, "at": "2026-09-29T14:40:36.473620+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 2, "at": "2026-09-29T14:40:46.411025+00:00"}
+{"kind": "anchor_fail", "book": "JHN", "chapter": 20, "verse": 1, "attempt": 3, "at": "2026-09-29T14:40:56.404695+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 20, "verse": 1, "reason": "anchor", "at": "2026-09-29T14:40:56.404795+00:00"}
+{"kind": "quarantine", "book": "JHN", "chapter": 20, "verse": 19, "reason": "anchor", "at": "2026-09-29T14:41:22.053973+00:00"}
+{"kind": "book_done", "book": "JHN", "promoted": 7, "quarantined": 12, "at": "2026-09-29T14:41:22.080614+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 1, "at": "2026-09-29T14:41:27.810388+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 2, "at": "2026-09-29T14:41:33.141678+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 1, "verse": 1, "attempt": 3, "at": "2026-09-29T14:41:39.295716+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 1, "verse": 1, "reason": "anchor", "at": "2026-09-29T14:41:39.295811+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 1, "verse": 11, "reason": "anchor", "at": "2026-09-29T14:41:57.662087+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 1, "at": "2026-09-29T14:42:05.582403+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 2, "at": "2026-09-29T14:42:14.120054+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 4, "verse": 34, "attempt": 3, "at": "2026-09-29T14:42:26.349239+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 4, "verse": 34, "reason": "anchor", "at": "2026-09-29T14:42:26.349337+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 28, "attempt": 1, "at": "2026-09-29T14:42:41.103100+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 28, "attempt": 2, "at": "2026-09-29T14:42:48.059070+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 5, "verse": 28, "attempt": 3, "at": "2026-09-29T14:42:57.143779+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 5, "verse": 28, "reason": "anchor", "at": "2026-09-29T14:42:57.143909+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 5, "verse": 7, "at": "2026-09-29T14:42:57.162924+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 1, "at": "2026-09-29T14:43:07.142328+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 2, "at": "2026-09-29T14:43:15.931383+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 13, "verse": 7, "attempt": 3, "at": "2026-09-29T14:43:23.436401+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 13, "verse": 7, "reason": "anchor", "at": "2026-09-29T14:43:23.436496+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 1, "at": "2026-09-29T14:43:30.598071+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 2, "at": "2026-09-29T14:43:38.049697+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 15, "verse": 11, "attempt": 3, "at": "2026-09-29T14:43:44.506170+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 15, "verse": 11, "reason": "anchor", "at": "2026-09-29T14:43:44.506266+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 1, "at": "2026-09-29T14:43:51.054041+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 2, "at": "2026-09-29T14:43:56.514363+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 17, "verse": 26, "attempt": 3, "at": "2026-09-29T14:44:04.420866+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 17, "verse": 26, "reason": "anchor", "at": "2026-09-29T14:44:04.420960+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 19, "verse": 35, "at": "2026-09-29T14:44:13.712009+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 21, "verse": 3, "at": "2026-09-29T14:44:22.239386+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 21, "verse": 30, "at": "2026-09-29T14:44:22.239862+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 21, "verse": 40, "at": "2026-09-29T14:44:22.240157+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 1, "at": "2026-09-29T14:44:33.687776+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 2, "at": "2026-09-29T14:44:43.853417+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 22, "verse": 2, "attempt": 3, "at": "2026-09-29T14:44:50.955659+00:00"}
+{"kind": "quarantine", "book": "ACT", "chapter": 22, "verse": 2, "reason": "anchor", "at": "2026-09-29T14:44:50.955760+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 22, "verse": 4, "at": "2026-09-29T14:45:13.434632+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 22, "verse": 7, "at": "2026-09-29T14:45:13.434876+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 26, "verse": 14, "at": "2026-09-29T14:45:21.026866+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 27, "verse": 13, "attempt": 1, "at": "2026-09-29T14:45:27.655482+00:00"}
+{"kind": "anchor_fail", "book": "ACT", "chapter": 27, "verse": 13, "attempt": 2, "at": "2026-09-29T14:45:34.692245+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 27, "verse": 13, "at": "2026-09-29T14:45:41.220805+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 27, "verse": 15, "at": "2026-09-29T14:45:41.221042+00:00"}
+{"kind": "book_done", "book": "ACT", "promoted": 17, "quarantined": 20, "at": "2026-09-29T14:45:41.237207+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 1, "at": "2026-09-29T14:45:46.866372+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 2, "at": "2026-09-29T14:45:53.462363+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 3, "verse": 12, "attempt": 3, "at": "2026-09-29T14:45:59.354889+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 3, "verse": 12, "reason": "anchor", "at": "2026-09-29T14:45:59.355025+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 3, "verse": 25, "reason": "anchor", "at": "2026-09-29T14:46:14.602684+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 1, "at": "2026-09-29T14:46:22.481516+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 2, "at": "2026-09-29T14:46:30.647932+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 7, "verse": 13, "attempt": 3, "at": "2026-09-29T14:46:37.567582+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 7, "verse": 13, "reason": "anchor", "at": "2026-09-29T14:46:37.567685+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 1, "at": "2026-09-29T14:46:45.663594+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 2, "at": "2026-09-29T14:47:22.030023+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 11, "verse": 25, "attempt": 3, "at": "2026-09-29T14:47:38.251366+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 11, "verse": 25, "reason": "anchor", "at": "2026-09-29T14:47:38.251467+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 1, "at": "2026-09-29T14:47:45.391061+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 2, "at": "2026-09-29T14:47:52.835083+00:00"}
+{"kind": "anchor_fail", "book": "ROM", "chapter": 13, "verse": 7, "attempt": 3, "at": "2026-09-29T14:48:01.408611+00:00"}
+{"kind": "quarantine", "book": "ROM", "chapter": 13, "verse": 7, "reason": "anchor", "at": "2026-09-29T14:48:01.408708+00:00"}
+{"kind": "book_done", "book": "ROM", "promoted": 17, "quarantined": 25, "at": "2026-09-29T14:48:01.440625+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 8, "verse": 13, "at": "2026-09-29T14:48:03.696371+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 1, "at": "2026-09-29T14:48:10.069622+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 2, "at": "2026-09-29T14:48:16.334993+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 11, "verse": 28, "attempt": 3, "at": "2026-09-29T14:48:20.618396+00:00"}
+{"kind": "quarantine", "book": "1CO", "chapter": 11, "verse": 28, "reason": "anchor", "at": "2026-09-29T14:48:20.618487+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 1, "at": "2026-09-29T14:48:25.731351+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 2, "at": "2026-09-29T14:48:31.060213+00:00"}
+{"kind": "anchor_fail", "book": "1CO", "chapter": 16, "verse": 7, "attempt": 3, "at": "2026-09-29T14:48:35.105613+00:00"}
+{"kind": "quarantine", "book": "1CO", "chapter": 16, "verse": 7, "reason": "anchor", "at": "2026-09-29T14:48:35.105712+00:00"}
+{"kind": "book_done", "book": "1CO", "promoted": 18, "quarantined": 27, "at": "2026-09-29T14:48:35.111522+00:00"}
+{"kind": "promote", "book": "2CO", "chapter": 6, "verse": 8, "at": "2026-09-29T14:48:38.948287+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 1, "at": "2026-09-29T14:48:43.417091+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 2, "at": "2026-09-29T14:48:48.760987+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 8, "verse": 2, "attempt": 3, "at": "2026-09-29T14:48:53.598882+00:00"}
+{"kind": "quarantine", "book": "2CO", "chapter": 8, "verse": 2, "reason": "anchor", "at": "2026-09-29T14:48:53.598979+00:00"}
+{"kind": "anchor_fail", "book": "2CO", "chapter": 10, "verse": 10, "attempt": 1, "at": "2026-09-29T14:48:59.021159+00:00"}
+{"kind": "promote", "book": "2CO", "chapter": 10, "verse": 10, "at": "2026-09-29T14:49:02.147496+00:00"}
+{"kind": "book_done", "book": "2CO", "promoted": 20, "quarantined": 28, "at": "2026-09-29T14:49:02.165500+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 1, "at": "2026-09-29T14:49:09.592776+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 2, "at": "2026-09-29T14:49:16.499242+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 1, "verse": 13, "attempt": 3, "at": "2026-09-29T14:49:24.190994+00:00"}
+{"kind": "quarantine", "book": "GAL", "chapter": 1, "verse": 13, "reason": "anchor", "at": "2026-09-29T14:49:24.191097+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 1, "at": "2026-09-29T14:49:28.664020+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 2, "at": "2026-09-29T14:49:33.538796+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 2, "verse": 11, "attempt": 3, "at": "2026-09-29T14:49:37.749738+00:00"}
+{"kind": "quarantine", "book": "GAL", "chapter": 2, "verse": 11, "reason": "anchor", "at": "2026-09-29T14:49:37.749857+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 4, "verse": 24, "attempt": 1, "at": "2026-09-29T14:49:42.933221+00:00"}
+{"kind": "anchor_fail", "book": "GAL", "chapter": 4, "verse": 24, "attempt": 2, "at": "2026-09-29T14:49:52.942605+00:00"}
+{"kind": "promote", "book": "GAL", "chapter": 4, "verse": 24, "at": "2026-09-29T14:49:57.812202+00:00"}
+{"kind": "book_done", "book": "GAL", "promoted": 21, "quarantined": 30, "at": "2026-09-29T14:49:57.822724+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 1, "at": "2026-09-29T14:50:04.168068+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 2, "at": "2026-09-29T14:50:09.493166+00:00"}
+{"kind": "anchor_fail", "book": "EPH", "chapter": 4, "verse": 18, "attempt": 3, "at": "2026-09-29T14:50:14.839012+00:00"}
+{"kind": "quarantine", "book": "EPH", "chapter": 4, "verse": 18, "reason": "anchor", "at": "2026-09-29T14:50:14.839119+00:00"}
+{"kind": "book_done", "book": "EPH", "promoted": 21, "quarantined": 31, "at": "2026-09-29T14:50:14.856138+00:00"}
+{"kind": "book_done", "book": "PHP", "promoted": 21, "quarantined": 31, "at": "2026-09-29T14:50:14.872078+00:00"}
+{"kind": "book_done", "book": "COL", "promoted": 21, "quarantined": 31, "at": "2026-09-29T14:50:14.887098+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 1, "at": "2026-09-29T14:50:18.728032+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 2, "at": "2026-09-29T14:50:22.393317+00:00"}
+{"kind": "anchor_fail", "book": "1TH", "chapter": 5, "verse": 22, "attempt": 3, "at": "2026-09-29T14:50:26.219779+00:00"}
+{"kind": "quarantine", "book": "1TH", "chapter": 5, "verse": 22, "reason": "anchor", "at": "2026-09-29T14:50:26.219879+00:00"}
+{"kind": "book_done", "book": "1TH", "promoted": 21, "quarantined": 32, "at": "2026-09-29T14:50:26.222512+00:00"}
+{"kind": "book_done", "book": "2TH", "promoted": 21, "quarantined": 32, "at": "2026-09-29T14:50:26.233188+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 1, "at": "2026-09-29T14:50:35.037763+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 2, "at": "2026-09-29T14:50:41.691612+00:00"}
+{"kind": "anchor_fail", "book": "1TI", "chapter": 1, "verse": 9, "attempt": 3, "at": "2026-09-29T14:50:50.842279+00:00"}
+{"kind": "quarantine", "book": "1TI", "chapter": 1, "verse": 9, "reason": "anchor", "at": "2026-09-29T14:50:50.842377+00:00"}
+{"kind": "book_done", "book": "1TI", "promoted": 21, "quarantined": 33, "at": "2026-09-29T14:50:50.860026+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 1, "at": "2026-09-29T14:50:58.220592+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 2, "at": "2026-09-29T14:51:05.232879+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 1, "verse": 6, "attempt": 3, "at": "2026-09-29T14:51:11.299494+00:00"}
+{"kind": "quarantine", "book": "2TI", "chapter": 1, "verse": 6, "reason": "anchor", "at": "2026-09-29T14:51:11.299595+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 1, "at": "2026-09-29T14:51:16.337629+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 2, "at": "2026-09-29T14:51:20.947000+00:00"}
+{"kind": "anchor_fail", "book": "2TI", "chapter": 3, "verse": 8, "attempt": 3, "at": "2026-09-29T14:51:27.375559+00:00"}
+{"kind": "quarantine", "book": "2TI", "chapter": 3, "verse": 8, "reason": "anchor", "at": "2026-09-29T14:51:27.375655+00:00"}
+{"kind": "book_done", "book": "2TI", "promoted": 21, "quarantined": 35, "at": "2026-09-29T14:51:27.386483+00:00"}
+{"kind": "book_done", "book": "TIT", "promoted": 21, "quarantined": 35, "at": "2026-09-29T14:51:27.394507+00:00"}
+{"kind": "book_done", "book": "PHM", "promoted": 21, "quarantined": 35, "at": "2026-09-29T14:51:27.397455+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 1, "at": "2026-09-29T14:51:31.498793+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 2, "at": "2026-09-29T14:51:37.012010+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 2, "verse": 11, "attempt": 3, "at": "2026-09-29T14:51:41.548690+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 2, "verse": 11, "reason": "anchor", "at": "2026-09-29T14:51:41.548782+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 7, "verse": 9, "at": "2026-09-29T14:51:47.602218+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 1, "at": "2026-09-29T14:51:56.570228+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 2, "at": "2026-09-29T14:52:01.249262+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 10, "verse": 24, "attempt": 3, "at": "2026-09-29T14:52:06.683874+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 10, "verse": 24, "reason": "anchor", "at": "2026-09-29T14:52:06.683971+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 1, "at": "2026-09-29T14:52:17.118710+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 2, "at": "2026-09-29T14:52:26.057241+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 11, "verse": 12, "attempt": 3, "at": "2026-09-29T14:52:36.309250+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 11, "verse": 12, "reason": "anchor", "at": "2026-09-29T14:52:36.309343+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 1, "at": "2026-09-29T14:52:40.759452+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 2, "at": "2026-09-29T14:52:45.509150+00:00"}
+{"kind": "anchor_fail", "book": "HEB", "chapter": 13, "verse": 4, "attempt": 3, "at": "2026-09-29T14:52:51.495310+00:00"}
+{"kind": "quarantine", "book": "HEB", "chapter": 13, "verse": 4, "reason": "anchor", "at": "2026-09-29T14:52:51.495415+00:00"}
+{"kind": "book_done", "book": "HEB", "promoted": 22, "quarantined": 39, "at": "2026-09-29T14:52:51.500980+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 23, "attempt": 1, "at": "2026-09-29T14:52:57.088562+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 23, "attempt": 2, "at": "2026-09-29T14:53:01.528024+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 1, "verse": 23, "attempt": 3, "at": "2026-09-29T14:53:05.856328+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 1, "verse": 23, "reason": "anchor", "at": "2026-09-29T14:53:05.856420+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 1, "verse": 25, "reason": "anchor", "at": "2026-09-29T14:53:29.403630+00:00"}
+{"kind": "promote", "book": "JAS", "chapter": 1, "verse": 8, "at": "2026-09-29T14:53:29.410609+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 1, "at": "2026-09-29T14:53:35.256050+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 2, "at": "2026-09-29T14:53:40.333896+00:00"}
+{"kind": "anchor_fail", "book": "JAS", "chapter": 3, "verse": 12, "attempt": 3, "at": "2026-09-29T14:53:45.734258+00:00"}
+{"kind": "quarantine", "book": "JAS", "chapter": 3, "verse": 12, "reason": "anchor", "at": "2026-09-29T14:53:45.734353+00:00"}
+{"kind": "book_done", "book": "JAS", "promoted": 23, "quarantined": 42, "at": "2026-09-29T14:53:45.742595+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 1, "at": "2026-09-29T14:53:53.239605+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 2, "at": "2026-09-29T14:53:59.186432+00:00"}
+{"kind": "anchor_fail", "book": "1PE", "chapter": 2, "verse": 18, "attempt": 3, "at": "2026-09-29T14:54:08.640681+00:00"}
+{"kind": "quarantine", "book": "1PE", "chapter": 2, "verse": 18, "reason": "anchor", "at": "2026-09-29T14:54:08.640778+00:00"}
+{"kind": "book_done", "book": "1PE", "promoted": 23, "quarantined": 43, "at": "2026-09-29T14:54:08.656935+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 1, "at": "2026-09-29T14:54:15.856103+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 2, "at": "2026-09-29T14:54:28.488869+00:00"}
+{"kind": "anchor_fail", "book": "2PE", "chapter": 2, "verse": 22, "attempt": 3, "at": "2026-09-29T14:54:36.125894+00:00"}
+{"kind": "quarantine", "book": "2PE", "chapter": 2, "verse": 22, "reason": "anchor", "at": "2026-09-29T14:54:36.125986+00:00"}
+{"kind": "book_done", "book": "2PE", "promoted": 23, "quarantined": 44, "at": "2026-09-29T14:54:36.135561+00:00"}
+{"kind": "promote", "book": "1JN", "chapter": 3, "verse": 16, "at": "2026-09-29T14:54:38.704664+00:00"}
+{"kind": "book_done", "book": "1JN", "promoted": 24, "quarantined": 44, "at": "2026-09-29T14:54:38.714954+00:00"}
+{"kind": "book_done", "book": "2JN", "promoted": 24, "quarantined": 44, "at": "2026-09-29T14:54:38.716529+00:00"}
+{"kind": "book_done", "book": "3JN", "promoted": 24, "quarantined": 44, "at": "2026-09-29T14:54:38.718597+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 5, "verse": 11, "at": "2026-09-29T14:54:42.244146+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 1, "at": "2026-09-29T14:54:49.968603+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 2, "at": "2026-09-29T14:54:55.715743+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 13, "verse": 12, "attempt": 3, "at": "2026-09-29T14:55:02.007199+00:00"}
+{"kind": "quarantine", "book": "REV", "chapter": 13, "verse": 12, "reason": "anchor", "at": "2026-09-29T14:55:02.007287+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 1, "at": "2026-09-29T14:55:07.167502+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 2, "at": "2026-09-29T14:55:12.960673+00:00"}
+{"kind": "anchor_fail", "book": "REV", "chapter": 14, "verse": 18, "attempt": 3, "at": "2026-09-29T14:55:29.528962+00:00"}
+{"kind": "quarantine", "book": "REV", "chapter": 14, "verse": 18, "reason": "anchor", "at": "2026-09-29T14:55:29.529063+00:00"}
+{"kind": "book_done", "book": "REV", "promoted": 25, "quarantined": 46, "at": "2026-09-29T14:55:29.578938+00:00"}
+{"kind": "done", "promoted": 25, "quarantined": 46, "at": "2026-09-29T14:55:29.579073+00:00"}
+{"kind": "start", "books": "JUD,MAT,MRK,LUK,JHN,ACT,ROM,1CO,2CO,GAL,EPH,PHP,COL,1TH,2TH,1TI,2TI,TIT,PHM,HEB,JAS,1PE,2PE,1JN,2JN,3JN,REV", "model": "deepseek-ai/DeepSeek-V4-Flash-0731", "python": "/home/albert/miniconda3/bin/python3", "lock": "single_worker", "at": "2026-09-29T18:35:49.424413+00:00"}
+{"kind": "book_done", "book": "JUD", "promoted": 0, "quarantined": 0, "at": "2026-09-29T18:35:49.428057+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 2, "verse": 23, "at": "2026-09-29T18:35:49.477330+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 3, "verse": 4, "at": "2026-09-29T18:35:49.487618+00:00"}
+{"kind": "promote", "book": "MAT", "chapter": 21, "verse": 2, "at": "2026-09-29T18:35:49.865241+00:00"}
+{"kind": "book_done", "book": "MAT", "promoted": 3, "quarantined": 0, "at": "2026-09-29T18:35:50.056187+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 1, "verse": 6, "at": "2026-09-29T18:35:50.073784+00:00"}
+{"kind": "promote", "book": "MRK", "chapter": 6, "verse": 6, "at": "2026-09-29T18:35:50.152242+00:00"}
+{"kind": "book_done", "book": "MRK", "promoted": 5, "quarantined": 0, "at": "2026-09-29T18:35:50.315723+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 7, "verse": 1, "at": "2026-09-29T18:35:50.521352+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 10, "verse": 42, "at": "2026-09-29T18:35:50.615586+00:00"}
+{"kind": "promote", "book": "LUK", "chapter": 23, "verse": 34, "at": "2026-09-29T18:35:50.959970+00:00"}
+{"kind": "book_done", "book": "LUK", "promoted": 8, "quarantined": 0, "at": "2026-09-29T18:35:50.992785+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 8, "verse": 10, "at": "2026-09-29T18:35:51.182484+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 12, "verse": 15, "at": "2026-09-29T18:35:51.278315+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 20, "verse": 1, "at": "2026-09-29T18:35:51.406041+00:00"}
+{"kind": "promote", "book": "JHN", "chapter": 20, "verse": 19, "at": "2026-09-29T18:35:51.406416+00:00"}
+{"kind": "book_done", "book": "JHN", "promoted": 12, "quarantined": 0, "at": "2026-09-29T18:35:51.418476+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 1, "verse": 1, "at": "2026-09-29T18:35:51.432830+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 1, "verse": 11, "at": "2026-09-29T18:35:51.433131+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 4, "verse": 34, "at": "2026-09-29T18:35:51.490764+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 5, "verse": 28, "at": "2026-09-29T18:35:51.513411+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 13, "verse": 7, "at": "2026-09-29T18:35:51.676537+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 15, "verse": 11, "at": "2026-09-29T18:35:51.712798+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 17, "verse": 26, "at": "2026-09-29T18:35:51.751859+00:00"}
+{"kind": "promote", "book": "ACT", "chapter": 22, "verse": 2, "at": "2026-09-29T18:35:51.844864+00:00"}
+{"kind": "book_done", "book": "ACT", "promoted": 20, "quarantined": 0, "at": "2026-09-29T18:35:51.946485+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 3, "verse": 12, "at": "2026-09-29T18:35:51.972583+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 3, "verse": 25, "at": "2026-09-29T18:35:51.972920+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 7, "verse": 13, "at": "2026-09-29T18:35:52.001519+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 11, "verse": 25, "at": "2026-09-29T18:35:52.038726+00:00"}
+{"kind": "promote", "book": "ROM", "chapter": 13, "verse": 7, "at": "2026-09-29T18:35:52.049085+00:00"}
+{"kind": "book_done", "book": "ROM", "promoted": 25, "quarantined": 0, "at": "2026-09-29T18:35:52.072389+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 11, "verse": 28, "at": "2026-09-29T18:35:52.150379+00:00"}
+{"kind": "promote", "book": "1CO", "chapter": 16, "verse": 7, "at": "2026-09-29T18:35:52.196358+00:00"}
+{"kind": "book_done", "book": "1CO", "promoted": 27, "quarantined": 0, "at": "2026-09-29T18:35:52.196558+00:00"}
+{"kind": "promote", "book": "2CO", "chapter": 8, "verse": 2, "at": "2026-09-29T18:35:52.230856+00:00"}
+{"kind": "book_done", "book": "2CO", "promoted": 28, "quarantined": 0, "at": "2026-09-29T18:35:52.253370+00:00"}
+{"kind": "promote", "book": "GAL", "chapter": 1, "verse": 13, "at": "2026-09-29T18:35:52.257511+00:00"}
+{"kind": "promote", "book": "GAL", "chapter": 2, "verse": 11, "at": "2026-09-29T18:35:52.261339+00:00"}
+{"kind": "book_done", "book": "GAL", "promoted": 30, "quarantined": 0, "at": "2026-09-29T18:35:52.278617+00:00"}
+{"kind": "promote", "book": "EPH", "chapter": 4, "verse": 18, "at": "2026-09-29T18:35:52.295136+00:00"}
+{"kind": "book_done", "book": "EPH", "promoted": 31, "quarantined": 0, "at": "2026-09-29T18:35:52.304831+00:00"}
+{"kind": "book_done", "book": "PHP", "promoted": 31, "quarantined": 0, "at": "2026-09-29T18:35:52.320127+00:00"}
+{"kind": "book_done", "book": "COL", "promoted": 31, "quarantined": 0, "at": "2026-09-29T18:35:52.333850+00:00"}
+{"kind": "promote", "book": "1TH", "chapter": 5, "verse": 22, "at": "2026-09-29T18:35:52.346998+00:00"}
+{"kind": "book_done", "book": "1TH", "promoted": 32, "quarantined": 0, "at": "2026-09-29T18:35:52.347117+00:00"}
+{"kind": "book_done", "book": "2TH", "promoted": 32, "quarantined": 0, "at": "2026-09-29T18:35:52.353282+00:00"}
+{"kind": "promote", "book": "1TI", "chapter": 1, "verse": 9, "at": "2026-09-29T18:35:52.356583+00:00"}
+{"kind": "book_done", "book": "1TI", "promoted": 33, "quarantined": 0, "at": "2026-09-29T18:35:52.371168+00:00"}
+{"kind": "promote", "book": "2TI", "chapter": 1, "verse": 6, "at": "2026-09-29T18:35:52.373923+00:00"}
+{"kind": "promote", "book": "2TI", "chapter": 3, "verse": 8, "at": "2026-09-29T18:35:52.380078+00:00"}
+{"kind": "book_done", "book": "2TI", "promoted": 35, "quarantined": 0, "at": "2026-09-29T18:35:52.383154+00:00"}
+{"kind": "book_done", "book": "TIT", "promoted": 35, "quarantined": 0, "at": "2026-09-29T18:35:52.389053+00:00"}
+{"kind": "book_done", "book": "PHM", "promoted": 35, "quarantined": 0, "at": "2026-09-29T18:35:52.391913+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 2, "verse": 11, "at": "2026-09-29T18:35:52.399900+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 10, "verse": 24, "at": "2026-09-29T18:35:52.441155+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 11, "verse": 12, "at": "2026-09-29T18:35:52.450594+00:00"}
+{"kind": "promote", "book": "HEB", "chapter": 13, "verse": 4, "at": "2026-09-29T18:35:52.465846+00:00"}
+{"kind": "book_done", "book": "HEB", "promoted": 39, "quarantined": 0, "at": "2026-09-29T18:35:52.466082+00:00"}
+{"kind": "promote", "book": "JAS", "chapter": 1, "verse": 23, "at": "2026-09-29T18:35:52.471177+00:00"}
+{"kind": "promote", "book": "JAS", "chapter": 1, "verse": 25, "at": "2026-09-29T18:35:52.471458+00:00"}
+{"kind": "promote", "book": "JAS", "chapter": 3, "verse": 12, "at": "2026-09-29T18:35:52.478522+00:00"}
+{"kind": "book_done", "book": "JAS", "promoted": 42, "quarantined": 0, "at": "2026-09-29T18:35:52.484180+00:00"}
+{"kind": "promote", "book": "1PE", "chapter": 2, "verse": 18, "at": "2026-09-29T18:35:52.492028+00:00"}
+{"kind": "book_done", "book": "1PE", "promoted": 43, "quarantined": 0, "at": "2026-09-29T18:35:52.500366+00:00"}
+{"kind": "promote", "book": "2PE", "chapter": 2, "verse": 22, "at": "2026-09-29T18:35:52.506005+00:00"}
+{"kind": "book_done", "book": "2PE", "promoted": 44, "quarantined": 0, "at": "2026-09-29T18:35:52.508329+00:00"}
+{"kind": "book_done", "book": "1JN", "promoted": 44, "quarantined": 0, "at": "2026-09-29T18:35:52.523636+00:00"}
+{"kind": "book_done", "book": "2JN", "promoted": 44, "quarantined": 0, "at": "2026-09-29T18:35:52.525235+00:00"}
+{"kind": "book_done", "book": "3JN", "promoted": 44, "quarantined": 0, "at": "2026-09-29T18:35:52.526835+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 13, "verse": 12, "at": "2026-09-29T18:35:52.591498+00:00"}
+{"kind": "promote", "book": "REV", "chapter": 14, "verse": 18, "at": "2026-09-29T18:35:52.597349+00:00"}
+{"kind": "book_done", "book": "REV", "promoted": 46, "quarantined": 0, "at": "2026-09-29T18:35:52.639931+00:00"}
+{"kind": "done", "promoted": 46, "quarantined": 0, "at": "2026-09-29T18:35:52.640065+00:00"}
