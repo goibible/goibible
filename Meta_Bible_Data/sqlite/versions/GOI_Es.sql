@@ -10294,7 +10294,7 @@ INSERT INTO verses (goi, conical, edition_id, version, language_subtag, book, ch
 (10292, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 39, 'OT', 'Y los hijos de Lotán: Hori y Homam; y la hermana de Lotán: Timna.'),
 (10293, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 40, 'OT', 'Los hijos de Sobal: Alian, Manahat, Ebal, Sefi y Onam. Los hijos de Zibeón: Aía y Aná.'),
 (10294, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 41, 'OT', 'Los hijos de Ana: Disón. Y los hijos de Disón: Hamrán, Eshbán, Ithrán y Kerán.'),
-(10295, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 42, 'OT', 'Los hijos de Eser: Bilán, Zaaván, y Jaacán. Los hijos de Disán: Uz y Arán.'),
+(10295, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 42, 'OT', 'Los hijos de Eser: Bilán, Zaaván, y Jaacán. Los hijos de Disón: Uz y Arán.'),
 (10296, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 43, 'OT', 'Y estos son los reyes que reinaron en la tierra de Edom antes de que reinara rey sobre los hijos de Israel: Bela hijo de Beor, y el nombre de su ciudad era Dinhaba.'),
 (10297, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 44, 'OT', 'Y murió Bela, y reinó en su lugar Jobab hijo de Zera, de Bosra.'),
 (10298, 13, 'GOI_Es', 'GOI_Es', 'es', '1CH', 1, 45, 'OT', 'Y murió Jobab, y reinó en su lugar Husam, de la tierra de los temanitas.'),
