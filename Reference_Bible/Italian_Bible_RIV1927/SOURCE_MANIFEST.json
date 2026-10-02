@@ -1,0 +1,23 @@
+{
+  "edition": "Riveduta 1927 (Luzzi revision; eBible ita1927 / ITARIV verse-per-line distribution)",
+  "rights_status": "verified_public_domain",
+  "rights_evidence_url": "https://ebible.org/find/details.php?id=itaRIV",
+  "rights_evidence_quote": "The Holy Bible in Italian, Riveduta 1927 — Public Domain (eBible.org; ID: ITARIV or ita1927 — public domain)",
+  "source_url": "https://ebible.org/Scriptures/ita1927_vpl.zip",
+  "retrieved_on": "2026-10-02",
+  "normalizer": "Reference_Bible/Italian_Bible_RIV1927/align_riv1927.py",
+  "files": [
+    {
+      "path": "source/ebible_itaRIV_details_2026-10-02.html",
+      "bytes": 5110,
+      "sha256": "2a238e6ff250a5bfbeeb25325af7d264a894376e7131714968e62520609df30a",
+      "kind": "rights_evidence"
+    },
+    {
+      "path": "source/ita1927_vpl.zip",
+      "bytes": 4662532,
+      "sha256": "53832e54a6a265f3f49551f095cb6592a235d91319548b1769b66e1c7e9b08d3",
+      "kind": "raw"
+    }
+  ]
+}

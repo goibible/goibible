@@ -1,0 +1,1 @@
+Egli conta il numero delle stelle, le chiama tutte per nome.
