@@ -1,0 +1,1 @@
+Il compte le nombre des étoiles, à toutes elles il donne des noms.

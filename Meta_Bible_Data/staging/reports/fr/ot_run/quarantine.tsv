@@ -1,8 +1,894 @@
 book	chapter	verse	reason	detail	at
-JON	1	7	anchor	missing: homme, ami	2026-09-30T00:54:44.912860+00:00
-RUT	1	9	anchor	missing: femme	2026-09-30T00:54:55.565173+00:00
-RUT	3	8	anchor	missing: moitié	2026-09-30T00:55:18.318157+00:00
-RUT	4	7	anchor	missing: face	2026-09-30T00:55:25.893062+00:00
-JOL	1	12	anchor	missing: grenade, pomme	2026-09-30T00:55:40.419513+00:00
-NAM	3	10	anchor	missing: dehors	2026-09-30T00:56:06.618251+00:00
-HAB	1	6	anchor	missing: large	2026-09-30T00:56:19.940215+00:00
+GEN	1	28	anchor	missing: vie	2026-10-01T04:08:20.270595+00:00
+GEN	1	30	anchor	missing: vie	2026-10-01T04:08:32.786374+00:00
+GEN	2	19	anchor	missing: âme	2026-10-01T04:08:50.623830+00:00
+GEN	4	3	anchor	missing: jour	2026-10-01T04:09:04.426494+00:00
+GEN	5	32	anchor	missing: fils	2026-10-01T04:09:13.524609+00:00
+GEN	6	4	anchor	missing: nom	2026-10-01T04:09:23.072997+00:00
+GEN	7	13	anchor	missing: os	2026-10-01T04:09:34.370256+00:00
+GEN	8	1	anchor	missing: vie	2026-10-01T04:09:45.442355+00:00
+GEN	8	17	anchor	missing: vie	2026-10-01T04:10:03.935213+00:00
+GEN	8	19	anchor	missing: vie	2026-10-01T04:10:13.276053+00:00
+GEN	9	5	anchor	missing: vie	2026-10-01T04:10:26.541536+00:00
+GEN	11	3	anchor	missing: homme, ami	2026-10-01T04:12:24.941534+00:00
+GEN	13	11	anchor	missing: talent	2026-10-01T04:16:37.813431+00:00
+GEN	14	23	anchor	missing: corde	2026-10-01T04:18:32.193699+00:00
+GEN	15	10	anchor	missing: homme	2026-10-01T04:19:05.561626+00:00
+GEN	16	7	anchor	missing: œil, œil	2026-10-01T04:19:47.035196+00:00
+GEN	16	16	anchor	missing: fils	2026-10-01T04:20:15.282081+00:00
+GEN	17	1	anchor	missing: fils	2026-10-01T04:20:19.914779+00:00
+GEN	17	23	anchor	missing: os	2026-10-01T04:21:08.780930+00:00
+GEN	17	26	anchor	missing: os	2026-10-01T04:21:17.372306+00:00
+GEN	18	14	anchor	missing: assignation	2026-10-01T04:21:55.831347+00:00
+GEN	19	25	anchor	missing: talent	2026-10-01T04:25:57.578257+00:00
+GEN	19	29	anchor	missing: talent	2026-10-01T04:26:28.668653+00:00
+GEN	21	2	anchor	missing: assignation	2026-10-01T04:27:27.455914+00:00
+GEN	21	15	anchor	missing: eaux	2026-10-01T04:28:03.415323+00:00
+GEN	22	17	anchor	missing: lèvre	2026-10-01T04:30:09.773314+00:00
+GEN	24	45	anchor	missing: œil	2026-10-01T04:34:21.053379+00:00
+GEN	24	55	anchor	missing: dixième	2026-10-01T04:34:59.504468+00:00
+GEN	25	20	anchor	missing: fils	2026-10-01T04:36:56.840463+00:00
+GEN	26	1	anchor	missing: seul	2026-10-01T04:37:35.061948+00:00
+GEN	26	32	anchor	missing: cause	2026-10-01T04:38:41.312269+00:00
+GEN	27	46	anchor	missing: face	2026-10-01T04:40:11.297435+00:00
+GEN	29	26	anchor	missing: face	2026-10-01T04:41:23.472910+00:00
+GEN	31	18	anchor	missing: troupeaux, troupeaux	2026-10-01T04:43:52.088717+00:00
+GEN	32	6	anchor	missing: ange	2026-10-01T04:45:02.238983+00:00
+GEN	32	16	anchor	missing: seul	2026-10-01T04:45:24.569730+00:00
+GEN	33	14	anchor	missing: pied, pied	2026-10-01T04:46:13.187829+00:00
+GEN	34	26	anchor	missing: bouche	2026-10-01T04:47:12.516737+00:00
+GEN	40	10	anchor	missing: épervier	2026-10-01T04:52:03.457668+00:00
+GEN	41	10	anchor	missing: garde du corps	2026-10-01T04:52:40.686052+00:00
+GEN	42	21	anchor	missing: homme	2026-10-01T04:55:00.190100+00:00
+GEN	43	7	anchor	missing: bouche	2026-10-01T04:55:43.101931+00:00
+GEN	43	12	anchor	missing: second	2026-10-01T04:55:56.351218+00:00
+GEN	43	32	anchor	missing: seul, seul, seul	2026-10-01T04:56:41.379301+00:00
+GEN	45	23	anchor	missing: bonté	2026-10-01T04:58:11.738941+00:00
+GEN	46	26	anchor	missing: seul	2026-10-01T04:59:01.872135+00:00
+GEN	47	13	anchor	missing: face	2026-10-01T04:59:52.477365+00:00
+GEN	49	10	anchor	missing: tribu	2026-10-01T05:01:12.791914+00:00
+GEN	49	14	anchor	missing: os	2026-10-01T05:01:20.042480+00:00
+GEN	50	16	anchor	missing: face	2026-10-01T05:02:29.549837+00:00
+EXO	6	5	anchor	missing: Égypte	2026-10-01T05:06:24.599923+00:00
+EXO	8	17	anchor	missing: tribu	2026-10-01T05:08:05.671506+00:00
+EXO	9	6	anchor	missing: troupeaux, troupeaux	2026-10-01T05:08:36.961931+00:00
+EXO	11	4	anchor	missing: minuit	2026-10-01T05:10:10.689204+00:00
+EXO	12	15	anchor	missing: tout	2026-10-01T05:10:48.536365+00:00
+EXO	12	19	anchor	missing: tout	2026-10-01T05:10:59.688633+00:00
+EXO	12	29	anchor	missing: captivité	2026-10-01T05:11:22.954097+00:00
+EXO	12	35	anchor	missing: Égypte	2026-10-01T05:11:40.140097+00:00
+EXO	12	41	anchor	missing: os	2026-10-01T05:11:56.729328+00:00
+EXO	12	51	anchor	missing: os	2026-10-01T05:12:13.548626+00:00
+EXO	13	3	anchor	missing: serviteur	2026-10-01T05:12:21.223181+00:00
+EXO	16	22	anchor	missing: second	2026-10-01T05:15:16.995539+00:00
+EXO	20	4	anchor	missing: tout	2026-10-01T05:18:37.877985+00:00
+EXO	20	10	anchor	missing: tout	2026-10-01T05:18:53.718277+00:00
+EXO	20	16	anchor	missing: témoin	2026-10-01T05:19:03.224156+00:00
+EXO	21	6	anchor	missing: seigneur, seigneur	2026-10-01T05:19:28.726119+00:00
+EXO	22	19	anchor	missing: tout	2026-10-01T05:20:45.908793+00:00
+EXO	22	22	anchor	missing: tout	2026-10-01T05:20:51.752750+00:00
+EXO	22	31	anchor	missing: bête déchirée	2026-10-01T05:21:07.179940+00:00
+EXO	23	26	anchor	missing: terre	2026-10-01T05:21:52.362428+00:00
+EXO	25	10	anchor	missing: moitié, moitié, moitié	2026-10-01T05:22:49.850086+00:00
+EXO	25	13	anchor	missing: seul	2026-10-01T05:23:00.477075+00:00
+EXO	25	15	anchor	missing: seul	2026-10-01T05:23:07.372193+00:00
+EXO	25	23	anchor	missing: moitié	2026-10-01T05:23:31.402088+00:00
+EXO	25	28	anchor	missing: seul	2026-10-01T05:23:41.657321+00:00
+EXO	26	9	anchor	missing: seul, seul	2026-10-01T05:24:13.736273+00:00
+EXO	26	17	anchor	missing: femme	2026-10-01T05:24:26.178344+00:00
+EXO	27	6	anchor	missing: seul, seul	2026-10-01T05:25:12.394124+00:00
+EXO	27	7	anchor	missing: seul, seul	2026-10-01T05:25:15.333461+00:00
+EXO	28	32	anchor	missing: bouche, bouche, bouche	2026-10-01T05:26:38.027879+00:00
+EXO	29	2	anchor	missing: pains sans levain, pains sans levain, pains sans levain	2026-10-01T05:27:09.285443+00:00
+EXO	29	40	anchor	missing: côté	2026-10-01T05:28:24.561824+00:00
+EXO	30	13	anchor	missing: saint	2026-10-01T05:29:20.584633+00:00
+EXO	30	14	anchor	missing: fils	2026-10-01T05:29:28.205401+00:00
+EXO	30	24	anchor	missing: saint	2026-10-01T05:29:44.935403+00:00
+EXO	30	25	anchor	missing: composition	2026-10-01T05:29:48.744951+00:00
+EXO	34	19	anchor	missing: troupeaux	2026-10-01T05:33:14.391042+00:00
+EXO	35	12	anchor	missing: seul	2026-10-01T05:33:50.246132+00:00
+EXO	35	13	anchor	missing: seul	2026-10-01T05:33:54.062676+00:00
+EXO	35	15	anchor	missing: seul	2026-10-01T05:34:04.397994+00:00
+EXO	35	16	anchor	missing: seul	2026-10-01T05:34:14.267401+00:00
+EXO	36	4	anchor	missing: saint	2026-10-01T05:34:54.379399+00:00
+EXO	37	4	anchor	missing: seul	2026-10-01T05:35:48.532261+00:00
+EXO	37	5	anchor	missing: seul	2026-10-01T05:35:58.526049+00:00
+EXO	37	10	anchor	missing: moitié	2026-10-01T05:36:15.058825+00:00
+EXO	37	14	anchor	missing: seul	2026-10-01T05:36:25.356580+00:00
+EXO	37	15	anchor	missing: seul	2026-10-01T05:36:33.416433+00:00
+EXO	38	6	anchor	missing: seul	2026-10-01T05:37:18.043259+00:00
+EXO	38	7	anchor	missing: seul	2026-10-01T05:37:23.249091+00:00
+EXO	38	25	anchor	missing: saint	2026-10-01T05:37:59.487499+00:00
+EXO	38	27	anchor	missing: saint	2026-10-01T05:38:06.277025+00:00
+EXO	39	23	anchor	missing: bouche, bouche, bouche	2026-10-01T05:38:53.418197+00:00
+EXO	39	35	anchor	missing: seul	2026-10-01T05:39:17.657656+00:00
+EXO	39	39	anchor	missing: seul	2026-10-01T05:39:31.141344+00:00
+EXO	40	20	anchor	missing: seul	2026-10-01T05:40:08.694475+00:00
+LEV	1	5	anchor	missing: alentour	2026-10-01T05:40:51.286739+00:00
+LEV	2	2	anchor	missing: contenu	2026-10-01T05:41:18.824215+00:00
+LEV	2	3	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:41:23.884650+00:00
+LEV	2	10	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:41:45.555250+00:00
+LEV	4	22	anchor	missing: commandement	2026-10-01T05:43:08.019625+00:00
+LEV	6	18	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:45:12.327926+00:00
+LEV	7	13	anchor	missing: levain	2026-10-01T05:45:51.543462+00:00
+LEV	7	14	anchor	missing: tout	2026-10-01T05:45:57.301186+00:00
+LEV	7	25	anchor	missing: tout	2026-10-01T05:46:15.443037+00:00
+LEV	7	30	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:46:23.313848+00:00
+LEV	7	35	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:46:37.541236+00:00
+LEV	10	12	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:48:36.089398+00:00
+LEV	10	13	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:48:40.725044+00:00
+LEV	10	15	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:48:48.635648+00:00
+LEV	11	20	anchor	missing: oiseau	2026-10-01T05:49:32.596179+00:00
+LEV	11	21	anchor	missing: oiseau	2026-10-01T05:49:37.924118+00:00
+LEV	12	4	anchor	missing: tout	2026-10-01T05:50:20.425346+00:00
+LEV	12	8	anchor	missing: suffisance	2026-10-01T05:50:32.153104+00:00
+LEV	15	21	anchor	missing: tout	2026-10-01T05:54:17.684889+00:00
+LEV	16	2	anchor	missing: maison	2026-10-01T05:54:43.781013+00:00
+LEV	16	27	anchor	missing: dehors	2026-10-01T05:55:33.326537+00:00
+LEV	16	29	anchor	missing: tout	2026-10-01T05:55:41.108445+00:00
+LEV	18	6	anchor	missing: tout	2026-10-01T05:56:23.113303+00:00
+LEV	18	9	anchor	missing: naissance, naissance	2026-10-01T05:56:29.652090+00:00
+LEV	18	11	anchor	missing: naissance	2026-10-01T05:56:34.719431+00:00
+LEV	18	22	anchor	missing: lit	2026-10-01T05:56:59.838511+00:00
+LEV	20	13	anchor	missing: lit	2026-10-01T05:58:35.162994+00:00
+LEV	21	6	anchor	missing: sacrifice consumé par le feu	2026-10-01T05:59:17.212090+00:00
+LEV	21	11	anchor	missing: tout	2026-10-01T05:59:34.584197+00:00
+LEV	21	21	anchor	missing: sacrifice consumé par le feu	2026-10-01T06:00:16.202838+00:00
+LEV	22	10	anchor	missing: tout	2026-10-01T06:02:21.202170+00:00
+LEV	22	21	anchor	missing: bienveillance	2026-10-01T06:02:57.483135+00:00
+LEV	23	7	anchor	missing: tout	2026-10-01T06:03:22.137867+00:00
+LEV	23	8	anchor	missing: tout	2026-10-01T06:03:29.354835+00:00
+LEV	23	14	anchor	missing: os	2026-10-01T06:03:45.532218+00:00
+LEV	23	21	anchor	missing: os	2026-10-01T06:04:10.125545+00:00
+LEV	23	25	anchor	missing: tout	2026-10-01T06:04:17.799580+00:00
+LEV	23	28	anchor	missing: tout, os	2026-10-01T06:04:28.843765+00:00
+LEV	23	29	anchor	missing: os	2026-10-01T06:04:34.490959+00:00
+LEV	23	30	anchor	missing: os	2026-10-01T06:04:39.127983+00:00
+LEV	23	35	anchor	missing: tout	2026-10-01T06:04:46.610245+00:00
+LEV	23	36	anchor	missing: tout	2026-10-01T06:04:56.079934+00:00
+LEV	23	38	anchor	missing: seul, seul, seul, seul	2026-10-01T06:05:03.019184+00:00
+LEV	23	40	anchor	missing: main	2026-10-01T06:05:10.755021+00:00
+LEV	24	9	anchor	missing: sacrifice consumé par le feu	2026-10-01T06:05:39.865068+00:00
+LEV	25	25	anchor	missing: vente	2026-10-01T06:06:45.684702+00:00
+LEV	25	44	anchor	missing: alentour	2026-10-01T06:07:16.006420+00:00
+LEV	25	52	anchor	missing: bouche	2026-10-01T06:07:30.464008+00:00
+LEV	26	5	anchor	missing: dai	2026-10-01T06:07:48.043394+00:00
+LEV	26	26	anchor	missing: tribu	2026-10-01T06:08:24.640827+00:00
+LEV	27	8	anchor	missing: bouche	2026-10-01T06:09:24.677711+00:00
+LEV	27	25	anchor	missing: saint	2026-10-01T06:09:55.790197+00:00
+NUM	1	2	anchor	missing: nombre	2026-10-01T06:10:21.049944+00:00
+NUM	1	3	anchor	missing: fils	2026-10-01T06:10:29.848831+00:00
+NUM	1	18	anchor	missing: fils	2026-10-01T06:10:52.838102+00:00
+NUM	3	25	anchor	missing: observance	2026-10-01T06:14:01.313414+00:00
+NUM	3	33	anchor	missing: Muschi	2026-10-01T06:14:13.876687+00:00
+NUM	3	39	anchor	missing: bouche, fils	2026-10-01T06:14:26.962929+00:00
+NUM	3	46	anchor	missing: premier-né	2026-10-01T06:14:42.863951+00:00
+NUM	3	47	anchor	missing: saint	2026-10-01T06:14:47.456072+00:00
+NUM	3	50	anchor	missing: premier-né	2026-10-01T06:14:55.037117+00:00
+NUM	4	3	anchor	missing: fils, fils	2026-10-01T06:15:08.588684+00:00
+NUM	4	23	anchor	missing: fils, fils	2026-10-01T06:15:53.665670+00:00
+NUM	4	30	anchor	missing: fils, fils	2026-10-01T06:16:38.815299+00:00
+NUM	4	35	anchor	missing: fils, fils	2026-10-01T06:16:56.960568+00:00
+NUM	4	37	anchor	missing: bouche	2026-10-01T06:17:03.045311+00:00
+NUM	4	39	anchor	missing: fils, fils	2026-10-01T06:17:09.772681+00:00
+NUM	4	43	anchor	missing: fils, fils	2026-10-01T06:17:24.019074+00:00
+NUM	4	45	anchor	missing: bouche	2026-10-01T06:17:31.755179+00:00
+NUM	4	47	anchor	missing: fils, fils	2026-10-01T06:17:39.877819+00:00
+NUM	5	8	anchor	missing: seul	2026-10-01T06:18:00.164460+00:00
+NUM	6	21	anchor	missing: seul	2026-10-01T06:19:48.502438+00:00
+NUM	7	22	anchor	missing: chèvre	2026-10-01T06:20:37.592615+00:00
+NUM	7	61	anchor	missing: saint	2026-10-01T06:22:39.059885+00:00
+NUM	7	73	anchor	missing: saint	2026-10-01T06:23:03.960855+00:00
+NUM	7	82	anchor	missing: chèvre	2026-10-01T06:23:20.722075+00:00
+NUM	7	86	anchor	missing: main, main, saint, main	2026-10-01T06:23:34.750023+00:00
+NUM	8	25	anchor	missing: fils	2026-10-01T06:24:28.117892+00:00
+NUM	11	24	anchor	missing: alentour	2026-10-01T06:26:54.995904+00:00
+NUM	11	31	anchor	missing: alentour	2026-10-01T06:27:10.876464+00:00
+NUM	12	1	anchor	missing: Marie, cause	2026-10-01T06:27:23.271512+00:00
+NUM	12	15	anchor	missing: Marie, Marie	2026-10-01T06:27:55.653105+00:00
+NUM	14	29	anchor	missing: fils	2026-10-01T06:29:42.836520+00:00
+NUM	15	25	anchor	missing: involontairement, involontairement	2026-10-01T06:30:48.405906+00:00
+NUM	16	49	anchor	missing: seul	2026-10-01T06:32:28.622820+00:00
+NUM	18	12	anchor	missing: graisse, graisse	2026-10-01T06:33:13.736129+00:00
+NUM	18	16	anchor	missing: fils, saint	2026-10-01T06:33:22.201771+00:00
+NUM	19	13	anchor	missing: tout, homme	2026-10-01T06:34:20.115352+00:00
+NUM	21	1	anchor	missing: captivité	2026-10-01T06:35:30.428686+00:00
+NUM	21	24	anchor	missing: bouche	2026-10-01T06:36:07.602428+00:00
+NUM	22	32	anchor	missing: pied	2026-10-01T06:37:41.809673+00:00
+NUM	22	33	anchor	missing: pied	2026-10-01T06:37:48.250422+00:00
+NUM	22	38	anchor	missing: rien	2026-10-01T06:38:05.220695+00:00
+NUM	24	18	anchor	missing: se rendre maître, se rendre maître	2026-10-01T06:39:43.787320+00:00
+NUM	27	11	anchor	missing: chair	2026-10-01T06:42:41.670541+00:00
+NUM	28	11	anchor	missing: tête	2026-10-01T06:43:19.635289+00:00
+NUM	28	23	anchor	missing: seul	2026-10-01T06:43:38.978301+00:00
+NUM	28	25	anchor	missing: tout	2026-10-01T06:43:42.367171+00:00
+NUM	28	26	anchor	missing: tout	2026-10-01T06:43:46.106987+00:00
+NUM	28	31	anchor	missing: seul	2026-10-01T06:43:58.796350+00:00
+NUM	29	6	anchor	missing: seul	2026-10-01T06:44:13.625082+00:00
+NUM	29	7	anchor	missing: tout	2026-10-01T06:44:22.656191+00:00
+NUM	29	11	anchor	missing: chèvre	2026-10-01T06:44:31.926434+00:00
+NUM	29	12	anchor	missing: tout	2026-10-01T06:44:39.231826+00:00
+NUM	29	16	anchor	missing: chèvre	2026-10-01T06:44:50.122538+00:00
+NUM	29	19	anchor	missing: chèvre	2026-10-01T06:45:02.231345+00:00
+NUM	29	22	anchor	missing: seul	2026-10-01T06:45:10.674540+00:00
+NUM	29	25	anchor	missing: chèvre	2026-10-01T06:45:19.171781+00:00
+NUM	29	26	anchor	missing: fils	2026-10-01T06:45:23.746349+00:00
+NUM	29	28	anchor	missing: seul	2026-10-01T06:45:29.577769+00:00
+NUM	29	31	anchor	missing: seul	2026-10-01T06:45:39.384078+00:00
+NUM	29	34	anchor	missing: seul	2026-10-01T06:45:46.662441+00:00
+NUM	29	35	anchor	missing: tout	2026-10-01T06:45:50.101509+00:00
+NUM	29	38	anchor	missing: seul	2026-10-01T06:45:59.637864+00:00
+NUM	29	39	anchor	missing: seul	2026-10-01T06:46:05.392326+00:00
+NUM	30	11	anchor	missing: homme	2026-10-01T06:46:30.002037+00:00
+NUM	30	12	anchor	missing: homme, homme	2026-10-01T06:46:36.669964+00:00
+NUM	32	36	anchor	missing: forteresse	2026-10-01T06:49:32.077688+00:00
+NUM	33	9	anchor	missing: œil	2026-10-01T06:49:59.556813+00:00
+NUM	34	8	anchor	missing: montagne	2026-10-01T06:51:19.332087+00:00
+DEU	1	23	anchor	missing: parole	2026-10-01T06:53:49.668416+00:00
+DEU	2	5	anchor	missing: main	2026-10-01T06:54:47.410073+00:00
+DEU	2	6	anchor	missing: eaux	2026-10-01T06:54:57.319360+00:00
+DEU	2	10	anchor	missing: face	2026-10-01T06:55:09.222795+00:00
+DEU	3	5	anchor	missing: seul	2026-10-01T06:56:38.492757+00:00
+DEU	4	15	anchor	missing: tout	2026-10-01T06:57:32.967263+00:00
+DEU	4	32	anchor	missing: face	2026-10-01T06:58:01.400649+00:00
+DEU	5	20	anchor	missing: témoin	2026-10-01T06:58:57.389151+00:00
+DEU	6	12	anchor	missing: serviteur	2026-10-01T06:59:39.916825+00:00
+DEU	7	7	anchor	missing: peu	2026-10-01T07:00:47.008777+00:00
+DEU	8	9	anchor	missing: tout	2026-10-01T07:02:07.431712+00:00
+DEU	8	15	anchor	missing: séraphin	2026-10-01T07:02:20.027010+00:00
+DEU	10	18	anchor	missing: jugement	2026-10-01T07:04:06.350790+00:00
+DEU	11	24	anchor	missing: main	2026-10-01T07:04:51.826948+00:00
+DEU	13	15	anchor	missing: bouche, bouche	2026-10-01T07:06:37.155312+00:00
+DEU	14	3	anchor	missing: tout	2026-10-01T07:06:53.541010+00:00
+DEU	14	7	anchor	missing: cud, cud	2026-10-01T07:07:05.954904+00:00
+DEU	14	21	anchor	missing: tout	2026-10-01T07:07:43.811160+00:00
+DEU	15	8	anchor	missing: suffisance	2026-10-01T07:08:17.211191+00:00
+DEU	15	18	anchor	missing: second	2026-10-01T07:08:37.657262+00:00
+DEU	16	21	anchor	missing: tout	2026-10-01T07:09:21.347442+00:00
+DEU	17	10	anchor	missing: bouche	2026-10-01T07:09:46.563543+00:00
+DEU	17	14	anchor	missing: alentour	2026-10-01T07:09:55.535574+00:00
+DEU	18	1	anchor	missing: sacrifice consumé par le feu	2026-10-01T07:10:15.645392+00:00
+DEU	20	3	anchor	missing: guerre	2026-10-01T07:11:43.521034+00:00
+DEU	20	13	anchor	missing: bouche	2026-10-01T07:11:58.815310+00:00
+DEU	20	16	anchor	missing: tout	2026-10-01T07:12:06.557524+00:00
+DEU	21	13	anchor	missing: captifs	2026-10-01T07:12:42.945460+00:00
+DEU	21	17	anchor	missing: bouche	2026-10-01T07:13:19.387509+00:00
+DEU	22	20	anchor	missing: vérité	2026-10-01T07:14:16.359995+00:00
+DEU	22	24	anchor	missing: parole, parole	2026-10-01T07:14:27.696644+00:00
+DEU	23	10	anchor	missing: nuit	2026-10-01T07:14:56.833140+00:00
+DEU	23	12	anchor	missing: main	2026-10-01T07:15:02.328153+00:00
+DEU	23	18	anchor	missing: tout	2026-10-01T07:15:17.689598+00:00
+DEU	24	5	anchor	missing: tout	2026-10-01T07:15:39.966936+00:00
+DEU	24	10	anchor	missing: rien	2026-10-01T07:15:55.229459+00:00
+DEU	25	2	anchor	missing: fils	2026-10-01T07:16:29.479075+00:00
+DEU	25	15	anchor	missing: justice, justice	2026-10-01T07:16:49.976967+00:00
+DEU	28	35	anchor	missing: main	2026-10-01T07:19:04.200876+00:00
+DEU	28	56	anchor	missing: main	2026-10-01T07:19:36.825433+00:00
+DEU	28	62	anchor	missing: peu	2026-10-01T07:19:50.941708+00:00
+DEU	28	65	anchor	missing: main	2026-10-01T07:19:59.337441+00:00
+DEU	29	1	anchor	missing: seul	2026-10-01T07:20:09.244167+00:00
+DEU	30	6	anchor	missing: vie	2026-10-01T07:21:04.204522+00:00
+DEU	32	48	anchor	missing: os	2026-10-01T07:23:22.324679+00:00
+DEU	33	29	anchor	missing: bienheureux	2026-10-01T07:24:32.474354+00:00
+JOS	1	3	anchor	missing: main	2026-10-01T07:24:55.983442+00:00
+JOS	3	13	anchor	missing: main	2026-10-01T07:26:33.408984+00:00
+JOS	4	18	anchor	missing: main	2026-10-01T07:27:16.219435+00:00
+JOS	7	22	anchor	missing: ange	2026-10-01T07:29:37.432613+00:00
+JOS	8	24	anchor	missing: bouche, bouche	2026-10-01T07:30:30.278930+00:00
+JOS	9	24	anchor	missing: terre, terre	2026-10-01T07:31:38.399413+00:00
+JOS	10	13	anchor	missing: moitié	2026-10-01T07:32:06.351982+00:00
+JOS	10	18	anchor	missing: bouche	2026-10-01T07:32:16.156007+00:00
+JOS	10	28	anchor	missing: bouche	2026-10-01T07:32:38.722031+00:00
+JOS	10	30	anchor	missing: bouche	2026-10-01T07:32:47.361811+00:00
+JOS	10	35	anchor	missing: bouche	2026-10-01T07:33:01.701764+00:00
+JOS	10	37	anchor	missing: bouche	2026-10-01T07:33:10.356186+00:00
+JOS	10	39	anchor	missing: bouche	2026-10-01T07:33:18.953658+00:00
+JOS	11	4	anchor	missing: lèvre	2026-10-01T07:33:40.548651+00:00
+JOS	11	12	anchor	missing: bouche	2026-10-01T07:34:11.473856+00:00
+JOS	11	14	anchor	missing: bouche	2026-10-01T07:34:18.763425+00:00
+JOS	13	14	anchor	missing: sacrifice consumé par le feu	2026-10-01T07:35:54.009195+00:00
+JOS	13	20	anchor	missing: pied	2026-10-01T07:36:01.822902+00:00
+JOS	14	15	anchor	missing: face	2026-10-01T07:36:48.479383+00:00
+JOS	15	5	anchor	missing: sel	2026-10-01T07:36:56.845852+00:00
+JOS	15	12	anchor	missing: alentour	2026-10-01T07:37:10.758012+00:00
+JOS	17	5	anchor	missing: seul	2026-10-01T07:38:34.122921+00:00
+JOS	19	9	anchor	missing: lien	2026-10-01T07:40:10.636807+00:00
+JOS	19	35	anchor	missing: forteresse	2026-10-01T07:40:52.785060+00:00
+JOS	19	47	anchor	missing: bouche	2026-10-01T07:41:11.681818+00:00
+JOS	21	42	anchor	missing: alentour	2026-10-01T07:42:42.569754+00:00
+JOS	21	43	anchor	missing: terre	2026-10-01T07:42:47.086796+00:00
+JOS	22	29	anchor	missing: seul	2026-10-01T07:44:04.792861+00:00
+JOS	24	17	anchor	missing: serviteur	2026-10-01T07:45:13.017157+00:00
+JDG	1	8	anchor	missing: bouche	2026-10-01T07:45:48.644476+00:00
+JDG	1	10	anchor	missing: face	2026-10-01T07:45:59.500023+00:00
+JDG	1	11	anchor	missing: face	2026-10-01T07:46:03.077519+00:00
+JDG	1	23	anchor	missing: face	2026-10-01T07:46:28.456707+00:00
+JDG	1	25	anchor	missing: bouche	2026-10-01T07:46:35.819830+00:00
+JDG	2	12	anchor	missing: alentour	2026-10-01T07:47:13.524769+00:00
+JDG	3	2	anchor	missing: face	2026-10-01T07:47:31.991932+00:00
+JDG	3	16	anchor	missing: droite	2026-10-01T07:48:05.518127+00:00
+JDG	3	21	anchor	missing: droite	2026-10-01T07:48:13.312073+00:00
+JDG	4	9	anchor	missing: extrémités	2026-10-01T07:48:51.725120+00:00
+JDG	4	15	anchor	missing: bouche	2026-10-01T07:49:05.132172+00:00
+JDG	4	16	anchor	missing: bouche	2026-10-01T07:49:13.185966+00:00
+JDG	5	11	anchor	missing: voix	2026-10-01T07:49:44.579506+00:00
+JDG	6	35	anchor	missing: ange, ange	2026-10-01T07:51:36.202405+00:00
+JDG	8	26	anchor	missing: seul, seul	2026-10-01T07:53:35.543923+00:00
+JDG	9	53	anchor	missing: char	2026-10-01T07:55:12.889281+00:00
+JDG	13	4	anchor	missing: tout	2026-10-01T07:57:15.234612+00:00
+JDG	13	7	anchor	missing: tout	2026-10-01T07:57:23.417192+00:00
+JDG	16	7	anchor	missing: reste	2026-10-01T07:58:58.851549+00:00
+JDG	16	8	anchor	missing: reste	2026-10-01T07:59:02.842377+00:00
+JDG	18	2	anchor	missing: force	2026-10-01T08:00:11.673967+00:00
+JDG	18	27	anchor	missing: bouche	2026-10-01T08:01:26.681060+00:00
+JDG	19	19	anchor	missing: tout	2026-10-01T08:02:29.940073+00:00
+JDG	20	15	anchor	missing: seul	2026-10-01T08:03:44.305341+00:00
+JDG	20	48	anchor	missing: bouche, chair	2026-10-01T08:04:40.464634+00:00
+JDG	21	19	anchor	missing: jour, jour	2026-10-01T08:05:20.713815+00:00
+RUT	3	8	anchor	missing: moitié	2026-10-01T08:05:39.122835+00:00
+RUT	4	7	anchor	missing: face	2026-10-01T08:05:44.299443+00:00
+1SA	1	6	anchor	missing: irritation	2026-10-01T08:06:11.074074+00:00
+1SA	1	20	anchor	missing: jour	2026-10-01T08:06:53.096690+00:00
+1SA	2	28	anchor	missing: sacrifice consumé par le feu	2026-10-01T08:07:50.868568+00:00
+1SA	3	11	anchor	missing: tout	2026-10-01T08:08:28.243516+00:00
+1SA	4	13	anchor	missing: main	2026-10-01T08:09:07.303473+00:00
+1SA	6	18	anchor	missing: forteresse, rançon	2026-10-01T08:10:23.233920+00:00
+1SA	6	21	anchor	missing: ange	2026-10-01T08:10:31.197663+00:00
+1SA	9	1	anchor	missing: droite	2026-10-01T08:11:33.073455+00:00
+1SA	9	8	anchor	missing: côté	2026-10-01T08:11:55.900000+00:00
+1SA	9	9	anchor	missing: face, face	2026-10-01T08:12:01.872734+00:00
+1SA	10	14	anchor	missing: bien-aimé	2026-10-01T08:13:02.232746+00:00
+1SA	10	15	anchor	missing: bien-aimé	2026-10-01T08:13:07.590773+00:00
+1SA	11	2	anchor	missing: droite	2026-10-01T08:13:37.364031+00:00
+1SA	11	4	anchor	missing: ange	2026-10-01T08:13:52.807094+00:00
+1SA	13	3	anchor	missing: terre	2026-10-01T08:15:29.905989+00:00
+1SA	13	5	anchor	missing: lèvre	2026-10-01T08:15:38.737984+00:00
+1SA	13	19	anchor	missing: terre	2026-10-01T08:16:08.253906+00:00
+1SA	14	2	anchor	missing: grenade	2026-10-01T08:16:19.939002+00:00
+1SA	14	25	anchor	missing: terre	2026-10-01T08:17:09.622548+00:00
+1SA	14	40	anchor	missing: au-delà, au-delà	2026-10-01T08:17:39.581632+00:00
+1SA	16	18	anchor	missing: force	2026-10-01T08:19:38.543754+00:00
+1SA	17	7	anchor	missing: bois	2026-10-01T08:20:01.078683+00:00
+1SA	17	8	anchor	missing: Philistins	2026-10-01T08:20:06.487982+00:00
+1SA	17	10	anchor	missing: Philistins	2026-10-01T08:20:12.421059+00:00
+1SA	17	11	anchor	missing: Philistins	2026-10-01T08:20:16.876969+00:00
+1SA	17	16	anchor	missing: Philistins	2026-10-01T08:20:26.349556+00:00
+1SA	17	26	anchor	missing: Philistins, Philistins	2026-10-01T08:21:03.590445+00:00
+1SA	17	32	anchor	missing: Philistins	2026-10-01T08:21:22.352834+00:00
+1SA	17	33	anchor	missing: Philistins	2026-10-01T08:21:25.663368+00:00
+1SA	17	36	anchor	missing: Philistins	2026-10-01T08:21:33.536930+00:00
+1SA	17	37	anchor	missing: Philistins	2026-10-01T08:21:40.348070+00:00
+1SA	17	40	anchor	missing: Philistins	2026-10-01T08:21:48.595574+00:00
+1SA	17	41	anchor	missing: Philistins	2026-10-01T08:21:52.907037+00:00
+1SA	17	42	anchor	missing: Philistins	2026-10-01T08:21:56.338449+00:00
+1SA	17	43	anchor	missing: Philistins, Philistins	2026-10-01T08:22:00.408863+00:00
+1SA	17	44	anchor	missing: Philistins	2026-10-01T08:22:03.335927+00:00
+1SA	17	45	anchor	missing: Philistins	2026-10-01T08:22:09.011047+00:00
+1SA	17	48	anchor	missing: Philistins, Philistins	2026-10-01T08:22:16.980309+00:00
+1SA	17	49	anchor	missing: Philistins	2026-10-01T08:22:22.885583+00:00
+1SA	17	50	anchor	missing: Philistins, Philistins	2026-10-01T08:22:27.658275+00:00
+1SA	17	51	anchor	missing: rasoir	2026-10-01T08:22:35.873490+00:00
+1SA	17	54	anchor	missing: Philistins	2026-10-01T08:22:43.831743+00:00
+1SA	17	55	anchor	missing: Philistins	2026-10-01T08:22:48.256206+00:00
+1SA	17	57	anchor	missing: Philistins, Philistins	2026-10-01T08:22:52.332906+00:00
+1SA	18	22	anchor	missing: enchantement	2026-10-01T08:23:27.586171+00:00
+1SA	19	5	anchor	missing: Philistins	2026-10-01T08:23:55.965963+00:00
+1SA	19	16	anchor	missing: ange	2026-10-01T08:24:16.492999+00:00
+1SA	20	5	anchor	missing: mois	2026-10-01T08:24:48.076595+00:00
+1SA	20	31	anchor	missing: jour	2026-10-01T08:25:42.321483+00:00
+1SA	20	41	anchor	missing: colère	2026-10-01T08:26:02.419514+00:00
+1SA	21	6	anchor	missing: chaleur	2026-10-01T08:26:16.446145+00:00
+1SA	21	9	anchor	missing: Philistins	2026-10-01T08:26:26.098951+00:00
+1SA	22	10	anchor	missing: Philistins	2026-10-01T08:26:55.263785+00:00
+1SA	24	11	anchor	missing: aile, aile	2026-10-01T08:28:34.030463+00:00
+1SA	25	18	anchor	missing: luth	2026-10-01T08:29:24.449636+00:00
+1SA	25	20	anchor	missing: âne	2026-10-01T08:29:31.230535+00:00
+1SA	25	25	anchor	missing: cœur	2026-10-01T08:29:48.321694+00:00
+1SA	25	41	anchor	missing: colère	2026-10-01T08:30:45.409257+00:00
+1SA	28	3	anchor	missing: terre	2026-10-01T08:31:58.775308+00:00
+1SA	28	20	anchor	missing: contenu	2026-10-01T08:32:27.442889+00:00
+1SA	30	20	anchor	missing: troupeaux	2026-10-01T08:33:25.443330+00:00
+2SA	3	14	anchor	missing: ange	2026-10-01T08:35:50.064910+00:00
+2SA	3	15	anchor	missing: Laïs	2026-10-01T08:35:52.924525+00:00
+2SA	3	35	anchor	missing: face, rien	2026-10-01T08:36:32.923572+00:00
+2SA	5	24	anchor	missing: voix	2026-10-01T08:37:24.989989+00:00
+2SA	9	3	anchor	missing: extrémités	2026-10-01T08:39:24.864134+00:00
+2SA	10	6	anchor	missing: Syrie, Syrie	2026-10-01T08:39:57.213850+00:00
+2SA	10	9	anchor	missing: arrière	2026-10-01T08:40:05.104606+00:00
+2SA	11	23	anchor	missing: ange	2026-10-01T08:41:13.712450+00:00
+2SA	13	37	anchor	missing: Ammihur	2026-10-01T08:43:03.604634+00:00
+2SA	14	25	anchor	missing: main	2026-10-01T08:43:48.532839+00:00
+2SA	14	33	anchor	missing: colère	2026-10-01T08:44:04.593549+00:00
+2SA	15	2	anchor	missing: main	2026-10-01T08:44:11.614188+00:00
+2SA	16	12	anchor	missing: œil	2026-10-01T08:45:32.672197+00:00
+2SA	18	18	anchor	missing: vie, vie	2026-10-01T08:47:12.629325+00:00
+2SA	18	23	anchor	missing: talent	2026-10-01T08:47:25.925400+00:00
+2SA	18	28	anchor	missing: colère	2026-10-01T08:47:38.782359+00:00
+2SA	19	43	anchor	missing: main	2026-10-01T08:49:01.717417+00:00
+2SA	20	8	anchor	missing: rasoir	2026-10-01T08:49:22.122200+00:00
+2SA	20	25	anchor	missing: Scheva	2026-10-01T08:49:51.259366+00:00
+2SA	20	26	anchor	missing: Jaïr	2026-10-01T08:49:54.169732+00:00
+2SA	21	7	anchor	missing: honte	2026-10-01T08:50:13.257335+00:00
+2SA	21	17	anchor	missing: Philistins	2026-10-01T08:50:33.688309+00:00
+2SA	21	21	anchor	missing: Schimea	2026-10-01T08:50:41.984512+00:00
+2SA	22	12	anchor	missing: alentour	2026-10-01T08:50:56.578739+00:00
+2SA	23	1	anchor	missing: Très-Haut	2026-10-01T08:51:48.771400+00:00
+2SA	23	11	anchor	missing: Harar	2026-10-01T08:52:09.423803+00:00
+2SA	23	21	anchor	missing: tribu	2026-10-01T08:52:34.163165+00:00
+2SA	23	26	anchor	missing: Péleth	2026-10-01T08:52:42.740684+00:00
+2SA	23	32	anchor	missing: Schaalbon	2026-10-01T08:52:50.422134+00:00
+2SA	23	36	anchor	missing: Gadites	2026-10-01T08:52:58.972775+00:00
+1KI	1	31	anchor	missing: colère	2026-10-01T08:54:41.185615+00:00
+1KI	4	23	anchor	missing: seul	2026-10-01T08:57:43.125368+00:00
+1KI	4	29	anchor	missing: lèvre	2026-10-01T08:57:54.277003+00:00
+1KI	5	3	anchor	missing: face, main	2026-10-01T08:58:08.294150+00:00
+1KI	6	7	anchor	missing: tout	2026-10-01T08:58:50.809793+00:00
+1KI	7	18	anchor	missing: alentour	2026-10-01T09:00:02.713090+00:00
+1KI	7	23	anchor	missing: second mois	2026-10-01T09:00:19.135607+00:00
+1KI	7	31	anchor	missing: maison, moitié	2026-10-01T09:00:40.412322+00:00
+1KI	7	39	anchor	missing: droite	2026-10-01T09:00:55.724486+00:00
+1KI	7	46	anchor	missing: talent	2026-10-01T09:01:11.299332+00:00
+1KI	8	7	anchor	missing: seul	2026-10-01T09:01:41.878318+00:00
+1KI	8	8	anchor	missing: seul, seul	2026-10-01T09:01:48.980641+00:00
+1KI	9	18	anchor	missing: Thadmor	2026-10-01T09:03:51.591184+00:00
+1KI	10	13	anchor	missing: seul	2026-10-01T09:05:07.774580+00:00
+1KI	12	10	anchor	missing: enfant	2026-10-01T09:06:57.518824+00:00
+1KI	12	33	anchor	missing: seul	2026-10-01T09:07:42.166633+00:00
+1KI	15	12	anchor	missing: terre	2026-10-01T09:09:37.997134+00:00
+1KI	20	5	anchor	missing: ange	2026-10-01T09:13:28.368175+00:00
+1KI	20	34	anchor	missing: dehors	2026-10-01T09:14:27.057829+00:00
+1KI	22	22	anchor	missing: face	2026-10-01T09:16:27.241262+00:00
+1KI	22	34	anchor	missing: intégrité	2026-10-01T09:16:48.465564+00:00
+1KI	22	39	anchor	missing: dent	2026-10-01T09:16:57.639213+00:00
+2KI	1	5	anchor	missing: ange	2026-10-01T09:17:32.461136+00:00
+2KI	5	12	anchor	missing: Amana	2026-10-01T09:20:40.669279+00:00
+2KI	6	9	anchor	missing: Syrie	2026-10-01T09:21:29.518351+00:00
+2KI	8	9	anchor	missing: bonté	2026-10-01T09:23:08.646523+00:00
+2KI	8	26	anchor	missing: fils	2026-10-01T09:23:31.796714+00:00
+2KI	10	2	anchor	missing: livre, forteresse	2026-10-01T09:25:07.076411+00:00
+2KI	10	6	anchor	missing: livre	2026-10-01T09:25:15.777191+00:00
+2KI	10	8	anchor	missing: ange	2026-10-01T09:25:27.355599+00:00
+2KI	10	13	anchor	missing: paix	2026-10-01T09:25:38.374836+00:00
+2KI	10	25	anchor	missing: homme	2026-10-01T09:26:10.733696+00:00
+2KI	11	21	anchor	missing: fils	2026-10-01T09:27:01.155056+00:00
+2KI	14	2	anchor	missing: fils	2026-10-01T09:28:20.836562+00:00
+2KI	14	21	anchor	missing: fils	2026-10-01T09:28:52.711283+00:00
+2KI	15	2	anchor	missing: fils	2026-10-01T09:29:12.102265+00:00
+2KI	15	33	anchor	missing: fils	2026-10-01T09:29:58.248346+00:00
+2KI	16	2	anchor	missing: fils	2026-10-01T09:30:10.696475+00:00
+2KI	17	5	anchor	missing: terre	2026-10-01T09:30:48.888915+00:00
+2KI	17	9	anchor	missing: forteresse	2026-10-01T09:31:02.406684+00:00
+2KI	17	15	anchor	missing: alentour	2026-10-01T09:31:16.786679+00:00
+2KI	18	8	anchor	missing: forteresse	2026-10-01T09:32:12.260113+00:00
+2KI	19	23	anchor	missing: ange	2026-10-01T09:33:52.415903+00:00
+2KI	19	24	anchor	missing: main, fois	2026-10-01T09:33:56.920338+00:00
+2KI	21	16	anchor	missing: seul	2026-10-01T09:35:18.493729+00:00
+2KI	21	19	anchor	missing: fils	2026-10-01T09:35:28.913150+00:00
+2KI	23	18	anchor	missing: homme	2026-10-01T09:37:15.521540+00:00
+2KI	23	25	anchor	missing: face	2026-10-01T09:37:31.332664+00:00
+2KI	24	15	anchor	missing: bélier	2026-10-01T09:38:23.442020+00:00
+2KI	24	18	anchor	missing: fils	2026-10-01T09:38:35.475283+00:00
+1CH	1	43	anchor	missing: face	2026-10-01T09:40:05.131961+00:00
+1CH	3	9	anchor	missing: seul	2026-10-01T09:41:35.720852+00:00
+1CH	7	5	anchor	missing: force	2026-10-01T09:45:28.760867+00:00
+1CH	8	40	anchor	missing: force	2026-10-01T09:46:59.987250+00:00
+1CH	9	4	anchor	missing: Benjamin	2026-10-01T09:47:09.879456+00:00
+1CH	9	29	anchor	missing: saint	2026-10-01T09:47:46.493559+00:00
+1CH	9	31	anchor	missing: Korhites	2026-10-01T09:47:53.071644+00:00
+1CH	11	27	anchor	missing: Haror	2026-10-01T09:49:34.824074+00:00
+1CH	11	35	anchor	missing: Harar	2026-10-01T09:49:49.967941+00:00
+1CH	12	3	anchor	missing: Guibea	2026-10-01T09:50:17.571529+00:00
+1CH	12	4	anchor	missing: Gabaonites	2026-10-01T09:50:22.228258+00:00
+1CH	12	21	anchor	missing: force	2026-10-01T09:50:55.379001+00:00
+1CH	12	30	anchor	missing: nom	2026-10-01T09:51:12.733322+00:00
+1CH	13	4	anchor	missing: assemblée	2026-10-01T09:51:40.806847+00:00
+1CH	14	15	anchor	missing: voix, tête	2026-10-01T09:52:19.317803+00:00
+1CH	23	3	anchor	missing: fils	2026-10-01T09:57:31.636625+00:00
+1CH	24	5	anchor	missing: saint	2026-10-01T09:58:12.802968+00:00
+1CH	27	17	anchor	missing: Lévite	2026-10-01T10:01:02.108285+00:00
+1CH	27	23	anchor	missing: fils	2026-10-01T10:01:19.167808+00:00
+1CH	27	27	anchor	missing: Schepham	2026-10-01T10:01:28.892434+00:00
+2CH	4	17	anchor	missing: talent	2026-10-01T10:04:52.483520+00:00
+2CH	5	8	anchor	missing: seul	2026-10-01T10:05:21.007275+00:00
+2CH	5	9	anchor	missing: seul, seul	2026-10-01T10:05:25.529884+00:00
+2CH	7	3	anchor	missing: fils, colère	2026-10-01T10:06:44.782717+00:00
+2CH	9	10	anchor	missing: Huram	2026-10-01T10:08:18.948958+00:00
+2CH	9	12	anchor	missing: seul	2026-10-01T10:08:27.319105+00:00
+2CH	9	17	anchor	missing: dent	2026-10-01T10:08:37.195765+00:00
+2CH	9	20	anchor	missing: échanson	2026-10-01T10:08:47.325610+00:00
+2CH	10	10	anchor	missing: enfant	2026-10-01T10:09:20.630567+00:00
+2CH	11	23	anchor	missing: ville forte	2026-10-01T10:10:13.714092+00:00
+2CH	13	14	anchor	missing: arrière	2026-10-01T10:11:11.980197+00:00
+2CH	17	16	anchor	missing: force	2026-10-01T10:13:18.712781+00:00
+2CH	17	19	anchor	missing: seul, forteresse	2026-10-01T10:13:29.235661+00:00
+2CH	18	33	anchor	missing: intégrité	2026-10-01T10:14:32.499197+00:00
+2CH	21	5	anchor	missing: fils	2026-10-01T10:16:07.798559+00:00
+2CH	22	2	anchor	missing: fils	2026-10-01T10:16:36.509642+00:00
+2CH	23	19	anchor	missing: tout	2026-10-01T10:17:41.198312+00:00
+2CH	24	1	anchor	missing: fils	2026-10-01T10:17:55.636874+00:00
+2CH	24	24	anchor	missing: multitude	2026-10-01T10:18:39.287742+00:00
+2CH	25	1	anchor	missing: fils	2026-10-01T10:18:49.846142+00:00
+2CH	25	5	anchor	missing: fils	2026-10-01T10:19:02.323432+00:00
+2CH	25	6	anchor	missing: force	2026-10-01T10:19:06.244404+00:00
+2CH	26	1	anchor	missing: fils	2026-10-01T10:19:45.532019+00:00
+2CH	26	3	anchor	missing: fils	2026-10-01T10:19:51.764806+00:00
+2CH	26	20	anchor	missing: tête	2026-10-01T10:20:26.249041+00:00
+2CH	27	1	anchor	missing: fils	2026-10-01T10:20:34.896539+00:00
+2CH	28	1	anchor	missing: fils	2026-10-01T10:20:49.831017+00:00
+2CH	29	1	anchor	missing: fils	2026-10-01T10:21:33.843286+00:00
+2CH	31	16	anchor	missing: seul, fils	2026-10-01T10:23:46.410894+00:00
+2CH	32	3	anchor	missing: œil, dehors	2026-10-01T10:24:01.975758+00:00
+2CH	32	15	anchor	missing: tout, tout	2026-10-01T10:24:28.604211+00:00
+2CH	32	31	anchor	missing: prodiges	2026-10-01T10:25:11.599745+00:00
+2CH	33	21	anchor	missing: fils	2026-10-01T10:26:02.666166+00:00
+2CH	34	6	anchor	missing: alentour	2026-10-01T10:26:26.363663+00:00
+2CH	35	21	anchor	missing: ange	2026-10-01T10:27:50.571197+00:00
+2CH	36	2	anchor	missing: fils	2026-10-01T10:28:09.417985+00:00
+2CH	36	5	anchor	missing: fils	2026-10-01T10:28:18.638435+00:00
+EZR	4	9	anchor	missing: Arpharsathac	2026-10-01T10:31:13.298367+00:00
+EZR	4	24	anchor	missing: an	2026-10-01T10:31:46.588765+00:00
+EZR	5	8	anchor	missing: grosse pierre	2026-10-01T10:32:09.013999+00:00
+EZR	5	11	anchor	missing: an	2026-10-01T10:32:17.047751+00:00
+EZR	5	12	anchor	missing: peuples	2026-10-01T10:32:24.662266+00:00
+EZR	6	3	anchor	missing: an	2026-10-01T10:32:42.256447+00:00
+EZR	6	6	anchor	missing: Arpharsathac	2026-10-01T10:32:53.202543+00:00
+EZR	6	15	anchor	missing: an	2026-10-01T10:33:18.580429+00:00
+EZR	7	25	anchor	missing: peuples	2026-10-01T10:34:13.910848+00:00
+EZR	8	14	anchor	missing: Zaccur	2026-10-01T10:34:41.590407+00:00
+NEH	2	6	anchor	missing: face	2026-10-01T10:37:57.136893+00:00
+NEH	2	12	anchor	missing: peu	2026-10-01T10:38:24.090510+00:00
+NEH	3	2	anchor	missing: main, main	2026-10-01T10:38:45.707016+00:00
+NEH	3	7	anchor	missing: main, Gabaonites	2026-10-01T10:38:58.644515+00:00
+NEH	3	10	anchor	missing: main, main	2026-10-01T10:39:10.558200+00:00
+NEH	3	12	anchor	missing: main	2026-10-01T10:39:16.390952+00:00
+NEH	3	15	anchor	missing: œil	2026-10-01T10:39:26.652155+00:00
+NEH	3	20	anchor	missing: Zaccaï	2026-10-01T10:39:40.338299+00:00
+NEH	5	5	anchor	missing: Dieu	2026-10-01T10:40:51.927492+00:00
+NEH	6	16	anchor	missing: alentour	2026-10-01T10:42:01.758481+00:00
+NEH	7	52	anchor	missing: Nephusim	2026-10-01T10:43:08.362901+00:00
+NEH	7	67	anchor	missing: seul	2026-10-01T10:43:29.874070+00:00
+NEH	7	71	anchor	missing: dix mille	2026-10-01T10:43:38.808093+00:00
+NEH	8	3	anchor	missing: rue	2026-10-01T10:43:50.316188+00:00
+NEH	8	6	anchor	missing: élévation	2026-10-01T10:43:59.148326+00:00
+NEH	9	12	anchor	missing: pilier, pilier	2026-10-01T10:44:49.414138+00:00
+NEH	10	36	anchor	missing: premier-né, premier-né	2026-10-01T10:46:27.379494+00:00
+EST	2	11	anchor	missing: tout	2026-10-01T10:50:22.613132+00:00
+EST	2	16	anchor	missing: royaume, royaume	2026-10-01T10:50:37.499041+00:00
+EST	6	6	anchor	missing: avantage	2026-10-01T10:52:27.617671+00:00
+EST	6	7	anchor	missing: honneur	2026-10-01T10:52:36.417052+00:00
+EST	6	9	anchor	missing: honneur, honneur	2026-10-01T10:52:44.755580+00:00
+EST	6	11	anchor	missing: rue, honneur	2026-10-01T10:52:54.155319+00:00
+EST	7	6	anchor	missing: ennemis	2026-10-01T10:53:11.686579+00:00
+JOB	1	14	anchor	missing: main	2026-10-01T10:55:28.736639+00:00
+JOB	1	17	anchor	missing: bouche	2026-10-01T10:55:42.717481+00:00
+JOB	2	7	anchor	missing: main	2026-10-01T10:56:03.596992+00:00
+JOB	11	9	anchor	missing: vêtement	2026-10-01T11:01:13.766770+00:00
+JOB	16	3	anchor	missing: esprit	2026-10-01T11:03:57.692897+00:00
+JOB	17	16	anchor	missing: seul	2026-10-01T11:04:45.874232+00:00
+JOB	21	23	anchor	missing: os	2026-10-01T11:07:03.890344+00:00
+JOB	22	5	anchor	missing: mal	2026-10-01T11:07:28.756802+00:00
+JOB	22	10	anchor	missing: alentour	2026-10-01T11:07:36.860160+00:00
+JOB	23	6	anchor	missing: chef	2026-10-01T11:08:18.273554+00:00
+JOB	26	3	anchor	missing: multitude	2026-10-01T11:09:35.034541+00:00
+JOB	26	13	anchor	missing: sérénité	2026-10-01T11:09:52.826190+00:00
+JOB	34	20	anchor	missing: nuit	2026-10-01T11:14:53.131914+00:00
+JOB	39	16	anchor	missing: vanité	2026-10-01T11:18:45.911334+00:00
+JOB	41	27	anchor	missing: pourriture	2026-10-01T11:20:21.503493+00:00
+JOB	42	11	anchor	missing: face	2026-10-01T11:21:01.100382+00:00
+PSA	6	6	anchor	missing: tout	2026-10-01T11:22:31.790397+00:00
+PSA	7	11	anchor	missing: tout	2026-10-01T11:22:59.968121+00:00
+PSA	27	6	anchor	missing: alentour	2026-10-01T11:29:26.285423+00:00
+PSA	28	2	anchor	missing: saint	2026-10-01T11:29:44.564501+00:00
+PSA	33	2	anchor	missing: dixième	2026-10-01T11:31:09.272954+00:00
+PSA	34	10	anchor	missing: tout	2026-10-01T11:31:45.103863+00:00
+PSA	35	5	anchor	missing: esprit	2026-10-01T11:32:08.279126+00:00
+PSA	39	3	anchor	missing: milieu	2026-10-01T11:34:57.029551+00:00
+PSA	44	10	anchor	missing: arrière	2026-10-01T11:36:39.160599+00:00
+PSA	44	13	anchor	missing: alentour	2026-10-01T11:36:43.898629+00:00
+PSA	45	8	anchor	missing: dent	2026-10-01T11:37:19.146705+00:00
+PSA	45	13	anchor	missing: bagages	2026-10-01T11:37:32.528165+00:00
+PSA	47	8	anchor	missing: saint	2026-10-01T11:38:24.312921+00:00
+PSA	50	3	anchor	missing: alentour	2026-10-01T11:39:17.130782+00:00
+PSA	50	4	anchor	missing: Très-Haut	2026-10-01T11:39:21.567052+00:00
+PSA	57	6	anchor	missing: fois	2026-10-01T11:41:36.732497+00:00
+PSA	63	10	anchor	missing: main	2026-10-01T11:43:14.969137+00:00
+PSA	66	6	anchor	missing: sec	2026-10-01T11:44:02.850117+00:00
+PSA	67	4	anchor	missing: plaine	2026-10-01T11:44:24.624587+00:00
+PSA	69	15	anchor	missing: épi	2026-10-01T11:45:40.840483+00:00
+PSA	71	7	anchor	missing: prodiges	2026-10-01T11:46:38.828954+00:00
+PSA	72	14	anchor	missing: âme	2026-10-01T11:47:19.191568+00:00
+PSA	73	13	anchor	missing: vanité	2026-10-01T11:47:47.341331+00:00
+PSA	74	3	anchor	missing: fois	2026-10-01T11:48:18.803644+00:00
+PSA	74	8	anchor	missing: violence	2026-10-01T11:48:27.560894+00:00
+PSA	74	10	anchor	missing: ennemis	2026-10-01T11:48:34.568774+00:00
+PSA	76	11	anchor	missing: alentour	2026-10-01T11:49:28.789415+00:00
+PSA	77	7	anchor	missing: Seigneur	2026-10-01T11:49:40.784991+00:00
+PSA	78	31	anchor	missing: graisse	2026-10-01T11:50:56.433475+00:00
+PSA	78	66	anchor	missing: arrière	2026-10-01T11:51:54.487408+00:00
+PSA	79	4	anchor	missing: alentour	2026-10-01T11:52:11.270932+00:00
+PSA	85	13	anchor	missing: fois	2026-10-01T11:53:58.978899+00:00
+PSA	88	9	anchor	missing: tout	2026-10-01T11:54:38.725883+00:00
+PSA	89	35	anchor	missing: saint	2026-10-01T11:55:39.508836+00:00
+PSA	90	8	anchor	missing: luminaire	2026-10-01T11:56:09.810300+00:00
+PSA	94	17	anchor	missing: peu	2026-10-01T11:57:29.818890+00:00
+PSA	99	7	anchor	missing: pilier	2026-10-01T11:58:46.045120+00:00
+PSA	102	25	anchor	missing: face	2026-10-01T11:59:34.812847+00:00
+PSA	105	12	anchor	missing: hommes	2026-10-01T12:01:23.805205+00:00
+PSA	105	45	anchor	missing: à cause de	2026-10-01T12:02:33.903094+00:00
+PSA	108	10	anchor	missing: forteresse	2026-10-01T12:05:33.618880+00:00
+PSA	119	62	anchor	missing: nuit	2026-10-01T12:10:27.222868+00:00
+PSA	119	133	anchor	missing: fois, tout	2026-10-01T12:11:48.789940+00:00
+PSA	126	6	anchor	missing: postérité	2026-10-01T12:13:51.829945+00:00
+PSA	128	3	anchor	missing: alentour	2026-10-01T12:14:10.368589+00:00
+PSA	133	2	anchor	missing: bouche, mesure	2026-10-01T12:15:11.405119+00:00
+PSA	134	2	anchor	missing: saint	2026-10-01T12:15:23.460791+00:00
+PSA	135	7	anchor	missing: prince	2026-10-01T12:15:38.094858+00:00
+PSA	135	8	anchor	missing: premier-né	2026-10-01T12:15:41.676043+00:00
+PSA	136	10	anchor	missing: premier-né	2026-10-01T12:16:23.119126+00:00
+PSA	138	6	anchor	missing: lointain	2026-10-01T12:17:08.193917+00:00
+PSA	139	5	anchor	missing: arrière, orient	2026-10-01T12:17:19.945050+00:00
+PSA	139	22	anchor	missing: perfection	2026-10-01T12:17:59.108712+00:00
+PSA	140	4	anchor	missing: fois	2026-10-01T12:18:10.300778+00:00
+PSA	140	5	anchor	missing: main	2026-10-01T12:18:16.859306+00:00
+PSA	143	2	anchor	missing: tout	2026-10-01T12:19:08.584614+00:00
+PSA	144	7	anchor	missing: hauteur	2026-10-01T12:19:35.595459+00:00
+PSA	144	9	anchor	missing: dixième	2026-10-01T12:19:41.511670+00:00
+PSA	145	2	anchor	missing: tout	2026-10-01T12:19:55.999770+00:00
+PSA	145	13	anchor	missing: toujours	2026-10-01T12:20:15.311457+00:00
+PSA	146	7	anchor	missing: jugement	2026-10-01T12:20:36.165784+00:00
+PRO	1	27	anchor	missing: frayeur	2026-10-01T12:22:44.756857+00:00
+PRO	3	27	anchor	missing: Dieu	2026-10-01T12:24:05.273410+00:00
+PRO	6	29	anchor	missing: tout	2026-10-01T12:26:28.831445+00:00
+PRO	7	12	anchor	missing: fois, fois	2026-10-01T12:26:50.152939+00:00
+PRO	10	4	anchor	missing: tromperie	2026-10-01T12:28:43.043258+00:00
+PRO	10	15	anchor	missing: force	2026-10-01T12:29:09.160954+00:00
+PRO	11	1	anchor	missing: fraude	2026-10-01T12:29:41.751471+00:00
+PRO	12	21	anchor	missing: tout	2026-10-01T12:31:01.748416+00:00
+PRO	12	22	anchor	missing: mensonge	2026-10-01T12:31:05.770174+00:00
+PRO	13	17	anchor	missing: douleur	2026-10-01T12:31:47.249669+00:00
+PRO	14	26	anchor	missing: force	2026-10-01T12:33:01.700333+00:00
+PRO	15	4	anchor	missing: guérison	2026-10-01T12:33:42.623499+00:00
+PRO	15	14	anchor	missing: bouche	2026-10-01T12:34:04.964781+00:00
+PRO	15	30	anchor	missing: luminaire	2026-10-01T12:34:29.529530+00:00
+PRO	18	11	anchor	missing: force	2026-10-01T12:37:19.734231+00:00
+PRO	18	19	anchor	missing: force, dispute	2026-10-01T12:37:34.295175+00:00
+PRO	19	19	anchor	missing: colère	2026-10-01T12:38:15.808171+00:00
+PRO	23	29	anchor	missing: dispute	2026-10-01T12:42:15.248708+00:00
+PRO	23	31	anchor	missing: sac, œil	2026-10-01T12:42:21.321025+00:00
+PRO	25	14	anchor	missing: prince, esprit	2026-10-01T12:44:02.466118+00:00
+PRO	25	24	anchor	missing: querelle, dispute	2026-10-01T12:44:22.804096+00:00
+PRO	26	20	anchor	missing: extrémités	2026-10-01T12:45:00.303179+00:00
+PRO	26	21	anchor	missing: querelle, dispute	2026-10-01T12:45:05.488015+00:00
+PRO	27	15	anchor	missing: querelle	2026-10-01T12:45:49.895487+00:00
+PRO	27	16	anchor	missing: esprit	2026-10-01T12:45:54.221131+00:00
+PRO	29	5	anchor	missing: fois	2026-10-01T12:46:51.388999+00:00
+PRO	30	30	anchor	missing: tout	2026-10-01T12:48:01.098013+00:00
+PRO	31	23	anchor	missing: maître	2026-10-01T12:48:28.849025+00:00
+ECC	1	9	anchor	missing: tout	2026-10-01T12:48:50.865918+00:00
+ECC	2	15	anchor	missing: avantage	2026-10-01T12:49:35.338695+00:00
+ECC	5	8	anchor	missing: plaisir	2026-10-01T12:50:54.177409+00:00
+ECC	5	16	anchor	missing: près de	2026-10-01T12:51:08.459055+00:00
+ECC	7	2	anchor	missing: vie	2026-10-01T12:51:34.888580+00:00
+ECC	12	12	anchor	missing: avantage	2026-10-01T12:54:09.125858+00:00
+SNG	2	3	anchor	missing: pomme	2026-10-01T12:55:00.115995+00:00
+SNG	4	3	anchor	missing: corde, désert	2026-10-01T12:55:44.201946+00:00
+SNG	7	1	anchor	missing: fois	2026-10-01T12:56:44.446170+00:00
+SNG	7	4	anchor	missing: dent	2026-10-01T12:56:55.550087+00:00
+SNG	8	5	anchor	missing: pomme	2026-10-01T12:57:20.139597+00:00
+ISA	1	6	anchor	missing: main, chair	2026-10-01T12:57:48.668720+00:00
+ISA	2	20	anchor	missing: chauve-souris	2026-10-01T12:58:48.402301+00:00
+ISA	5	28	anchor	missing: corne du pied, ennemis	2026-10-01T13:01:16.465154+00:00
+ISA	10	33	anchor	missing: hauteur	2026-10-01T13:07:15.887257+00:00
+ISA	11	4	anchor	missing: plaine	2026-10-01T13:07:49.419715+00:00
+ISA	11	7	anchor	missing: enfant	2026-10-01T13:07:59.015007+00:00
+ISA	14	30	anchor	missing: premier-né	2026-10-01T13:09:51.981382+00:00
+ISA	15	5	anchor	missing: tiers	2026-10-01T13:10:27.948864+00:00
+ISA	17	9	anchor	missing: forteresse	2026-10-01T13:11:18.436519+00:00
+ISA	17	11	anchor	missing: plant	2026-10-01T13:11:25.571446+00:00
+ISA	18	2	anchor	missing: douleur	2026-10-01T13:11:41.111097+00:00
+ISA	18	5	anchor	missing: face	2026-10-01T13:11:49.663211+00:00
+ISA	20	6	anchor	missing: îles	2026-10-01T13:12:59.004980+00:00
+ISA	21	2	anchor	missing: pacte	2026-10-01T13:13:08.105837+00:00
+ISA	23	8	anchor	missing: Canaan	2026-10-01T13:14:39.404395+00:00
+ISA	25	6	anchor	missing: huile, lie, huile, lie	2026-10-01T13:15:49.597834+00:00
+ISA	26	2	anchor	missing: fidèle	2026-10-01T13:16:04.469156+00:00
+ISA	26	4	anchor	missing: éternité	2026-10-01T13:16:11.640892+00:00
+ISA	26	6	anchor	missing: fois	2026-10-01T13:16:19.234662+00:00
+ISA	26	9	anchor	missing: milieu	2026-10-01T13:16:26.357030+00:00
+ISA	28	4	anchor	missing: gazelle, huile	2026-10-01T13:17:16.012422+00:00
+ISA	28	16	anchor	missing: angle	2026-10-01T13:17:42.093004+00:00
+ISA	29	11	anchor	missing: pacte	2026-10-01T13:18:29.041807+00:00
+ISA	30	9	anchor	missing: rébellion	2026-10-01T13:19:24.018904+00:00
+ISA	30	27	anchor	missing: lointain	2026-10-01T13:20:12.270812+00:00
+ISA	30	32	anchor	missing: fondement	2026-10-01T13:20:39.387346+00:00
+ISA	32	10	anchor	missing: jour	2026-10-01T13:21:16.737104+00:00
+ISA	32	15	anchor	missing: hauteur	2026-10-01T13:21:28.161128+00:00
+ISA	33	3	anchor	missing: voix	2026-10-01T13:21:43.607623+00:00
+ISA	37	6	anchor	missing: face	2026-10-01T13:23:57.777798+00:00
+ISA	37	25	anchor	missing: main, fois	2026-10-01T13:24:22.306856+00:00
+ISA	40	16	anchor	missing: suffisance, suffisance	2026-10-01T13:25:51.659001+00:00
+ISA	40	21	anchor	missing: tête	2026-10-01T13:25:58.780577+00:00
+ISA	40	26	anchor	missing: hauteur	2026-10-01T13:26:09.761675+00:00
+ISA	41	4	anchor	missing: tête	2026-10-01T13:26:22.204167+00:00
+ISA	41	7	anchor	missing: fois	2026-10-01T13:26:31.472654+00:00
+ISA	41	23	anchor	missing: arrière	2026-10-01T13:26:59.914896+00:00
+ISA	42	24	anchor	missing: butin	2026-10-01T13:27:53.067376+00:00
+ISA	44	24	anchor	missing: eaux	2026-10-01T13:29:21.397477+00:00
+ISA	44	25	anchor	missing: mensonge	2026-10-01T13:29:25.977744+00:00
+ISA	48	7	anchor	missing: face	2026-10-01T13:31:25.662074+00:00
+ISA	48	16	anchor	missing: tête	2026-10-01T13:31:41.013861+00:00
+ISA	51	13	anchor	missing: face	2026-10-01T13:33:37.865067+00:00
+ISA	51	20	anchor	missing: dehors	2026-10-01T13:33:50.553101+00:00
+ISA	55	8	anchor	missing: déclaration	2026-10-01T13:35:26.673659+00:00
+ISA	56	3	anchor	missing: fils	2026-10-01T13:35:44.152657+00:00
+ISA	60	14	anchor	missing: main	2026-10-01T13:38:20.742688+00:00
+ISA	63	15	anchor	missing: saint	2026-10-01T13:39:42.625560+00:00
+ISA	65	23	anchor	missing: vanité	2026-10-01T13:41:01.463881+00:00
+ISA	66	4	anchor	missing: enfant	2026-10-01T13:41:21.437193+00:00
+JER	1	18	anchor	missing: forteresse, terre, terre	2026-10-01T13:42:39.649803+00:00
+JER	2	25	anchor	missing: aire	2026-10-01T13:43:29.390030+00:00
+JER	2	30	anchor	missing: vanité	2026-10-01T13:43:44.147885+00:00
+JER	4	5	anchor	missing: forteresse	2026-10-01T13:44:51.249044+00:00
+JER	4	27	anchor	missing: terre	2026-10-01T13:45:33.961281+00:00
+JER	4	29	anchor	missing: voix	2026-10-01T13:45:48.689717+00:00
+JER	5	17	anchor	missing: forteresse	2026-10-01T13:46:32.887034+00:00
+JER	6	11	anchor	missing: dehors	2026-10-01T13:47:24.020143+00:00
+JER	6	29	anchor	missing: vanité	2026-10-01T13:48:25.734285+00:00
+JER	10	13	anchor	missing: prince	2026-10-01T13:52:12.323938+00:00
+JER	13	7	anchor	missing: tout	2026-10-01T13:54:27.459090+00:00
+JER	13	17	anchor	missing: face	2026-10-01T13:54:53.365819+00:00
+JER	15	17	anchor	missing: face	2026-10-01T13:57:13.746827+00:00
+JER	17	22	anchor	missing: tout	2026-10-01T13:59:23.607425+00:00
+JER	17	24	anchor	missing: tout	2026-10-01T13:59:40.660091+00:00
+JER	18	16	anchor	missing: bêlement	2026-10-01T14:00:20.223980+00:00
+JER	18	18	anchor	missing: tout	2026-10-01T14:00:34.843426+00:00
+JER	19	3	anchor	missing: tout	2026-10-01T14:01:30.018167+00:00
+JER	23	23	anchor	missing: déclaration	2026-10-01T14:07:08.048098+00:00
+JER	24	2	anchor	missing: figuier, figuier, figuier	2026-10-01T14:07:56.582210+00:00
+JER	24	5	anchor	missing: figuier	2026-10-01T14:08:09.148538+00:00
+JER	29	2	anchor	missing: prison	2026-10-01T14:12:24.697037+00:00
+JER	29	10	anchor	missing: bouche	2026-10-01T14:12:43.309695+00:00
+JER	32	17	anchor	missing: tout	2026-10-01T14:16:50.801495+00:00
+JER	32	24	anchor	missing: face	2026-10-01T14:17:08.585754+00:00
+JER	35	2	anchor	missing: Réca	2026-10-01T14:20:00.359297+00:00
+JER	35	3	anchor	missing: Réca	2026-10-01T14:20:06.638616+00:00
+JER	35	18	anchor	missing: Réca	2026-10-01T14:21:04.237202+00:00
+JER	36	26	anchor	missing: Mélec	2026-10-01T14:22:09.864754+00:00
+JER	38	16	anchor	missing: secret	2026-10-01T14:24:10.311505+00:00
+JER	39	12	anchor	missing: rien	2026-10-01T14:25:13.886692+00:00
+JER	40	15	anchor	missing: secret	2026-10-01T14:26:29.178724+00:00
+JER	44	3	anchor	missing: face	2026-10-01T14:29:51.080183+00:00
+JER	46	3	anchor	missing: guerre	2026-10-01T14:31:54.025973+00:00
+JER	46	11	anchor	missing: vanité	2026-10-01T14:32:29.349345+00:00
+JER	47	3	anchor	missing: voix	2026-10-01T14:33:38.343301+00:00
+JER	48	34	anchor	missing: tiers	2026-10-01T14:35:19.891708+00:00
+JER	50	32	anchor	missing: alentour	2026-10-01T14:38:52.484577+00:00
+JER	50	46	anchor	missing: voix	2026-10-01T14:39:43.580254+00:00
+JER	51	1	anchor	missing: lever	2026-10-01T14:39:49.056308+00:00
+JER	51	16	anchor	missing: prince	2026-10-01T14:40:13.450991+00:00
+JER	51	43	anchor	missing: tout	2026-10-01T14:41:14.344192+00:00
+JER	51	64	anchor	missing: face	2026-10-01T14:42:12.276353+00:00
+LAM	1	10	anchor	missing: ennemis	2026-10-01T14:44:39.718201+00:00
+LAM	1	17	anchor	missing: alentour	2026-10-01T14:45:12.542595+00:00
+LAM	1	20	anchor	missing: milieu	2026-10-01T14:45:38.814026+00:00
+LAM	1	22	anchor	missing: mal	2026-10-01T14:45:47.995303+00:00
+LAM	2	4	anchor	missing: ennemis	2026-10-01T14:46:10.987450+00:00
+LAM	2	21	anchor	missing: dehors	2026-10-01T14:47:31.215506+00:00
+LAM	4	1	anchor	missing: dehors	2026-10-01T14:50:22.542335+00:00
+LAM	4	12	anchor	missing: ennemis	2026-10-01T14:50:54.220756+00:00
+LAM	5	9	anchor	missing: face	2026-10-01T14:51:53.185061+00:00
+EZK	1	4	anchor	missing: alentour	2026-10-01T14:52:51.054689+00:00
+EZK	1	5	anchor	missing: vie	2026-10-01T14:52:59.256388+00:00
+EZK	1	13	anchor	missing: vie, vie	2026-10-01T14:53:34.603552+00:00
+EZK	1	14	anchor	missing: vie	2026-10-01T14:53:42.582854+00:00
+EZK	1	15	anchor	missing: vie, vie	2026-10-01T14:53:49.344447+00:00
+EZK	1	19	anchor	missing: vie, vie	2026-10-01T14:54:07.416438+00:00
+EZK	1	23	anchor	missing: femme	2026-10-01T14:54:54.047323+00:00
+EZK	3	13	anchor	missing: vie	2026-10-01T14:56:53.011197+00:00
+EZK	3	15	anchor	missing: captivité	2026-10-01T14:57:14.310980+00:00
+EZK	5	2	anchor	missing: alentour	2026-10-01T14:59:57.112238+00:00
+EZK	5	15	anchor	missing: alentour	2026-10-01T15:01:14.490882+00:00
+EZK	6	5	anchor	missing: alentour	2026-10-01T15:01:54.132174+00:00
+EZK	10	15	anchor	missing: vie	2026-10-01T15:07:36.189125+00:00
+EZK	10	20	anchor	missing: vie	2026-10-01T15:07:57.999377+00:00
+EZK	11	12	anchor	missing: alentour	2026-10-01T15:08:42.959915+00:00
+EZK	12	14	anchor	missing: alentour	2026-10-01T15:10:13.626517+00:00
+EZK	12	24	anchor	missing: tout	2026-10-01T15:10:47.794711+00:00
+EZK	12	28	anchor	missing: tout	2026-10-01T15:11:07.853373+00:00
+EZK	16	22	anchor	missing: nudité	2026-10-01T15:15:40.538039+00:00
+EZK	16	63	anchor	missing: face	2026-10-01T15:18:23.640921+00:00
+EZK	17	6	anchor	missing: seul	2026-10-01T15:18:44.684279+00:00
+EZK	17	7	anchor	missing: plume	2026-10-01T15:18:52.153596+00:00
+EZK	17	8	anchor	missing: manteau	2026-10-01T15:19:01.327437+00:00
+EZK	17	21	anchor	missing: esprit	2026-10-01T15:20:12.497492+00:00
+EZK	19	14	anchor	missing: seul	2026-10-01T15:25:25.367491+00:00
+EZK	23	5	anchor	missing: Assyrie	2026-10-01T15:39:17.029997+00:00
+EZK	23	20	anchor	missing: concubine	2026-10-01T15:40:28.524633+00:00
+EZK	24	2	anchor	missing: os, os	2026-10-01T15:43:58.040684+00:00
+EZK	24	24	anchor	missing: prodiges	2026-10-01T15:45:38.669762+00:00
+EZK	24	27	anchor	missing: prodiges	2026-10-01T15:45:54.073152+00:00
+EZK	25	7	anchor	missing: butin	2026-10-01T15:46:41.038463+00:00
+EZK	26	5	anchor	missing: interdit	2026-10-01T15:48:04.641129+00:00
+EZK	26	11	anchor	missing: corne du pied	2026-10-01T15:48:57.814896+00:00
+EZK	27	18	anchor	missing: blanc	2026-10-01T15:52:37.179587+00:00
+EZK	27	22	anchor	missing: tête	2026-10-01T15:52:53.723857+00:00
+EZK	27	27	anchor	missing: réparation	2026-10-01T15:53:24.491879+00:00
+EZK	27	28	anchor	missing: voix	2026-10-01T15:53:34.654291+00:00
+EZK	27	32	anchor	missing: lamentation	2026-10-01T15:53:56.302942+00:00
+EZK	28	24	anchor	missing: alentour	2026-10-01T15:56:04.785006+00:00
+EZK	29	7	anchor	missing: côté	2026-10-01T15:57:15.600821+00:00
+EZK	31	3	anchor	missing: hauteur	2026-10-01T16:02:17.314807+00:00
+EZK	31	4	anchor	missing: alentour	2026-10-01T16:03:06.709237+00:00
+EZK	31	8	anchor	missing: tout	2026-10-01T16:04:15.212092+00:00
+EZK	31	14	anchor	missing: bélier	2026-10-01T16:05:39.740952+00:00
+EZK	31	16	anchor	missing: voix	2026-10-01T16:06:33.700564+00:00
+EZK	32	22	anchor	missing: alentour	2026-10-01T16:08:34.155797+00:00
+EZK	32	23	anchor	missing: alentour	2026-10-01T16:08:45.092829+00:00
+EZK	32	25	anchor	missing: alentour	2026-10-01T16:09:10.100060+00:00
+EZK	32	26	anchor	missing: alentour	2026-10-01T16:09:24.689564+00:00
+EZK	33	22	anchor	missing: face	2026-10-01T16:12:36.460547+00:00
+EZK	33	31	anchor	missing: chanteur agréable	2026-10-01T16:14:06.925433+00:00
+EZK	34	5	anchor	missing: sans	2026-10-01T16:15:02.951055+00:00
+EZK	36	7	anchor	missing: alentour	2026-10-01T16:20:18.346865+00:00
+EZK	36	36	anchor	missing: alentour	2026-10-01T16:22:44.177686+00:00
+EZK	37	22	anchor	missing: terre	2026-10-01T16:24:33.668498+00:00
+EZK	40	1	anchor	missing: tête, os	2026-10-01T16:30:04.257655+00:00
+EZK	40	34	anchor	missing: bélier, bélier	2026-10-01T16:33:13.911413+00:00
+EZK	40	37	anchor	missing: bélier, bélier, bélier, bélier	2026-10-01T16:33:38.509213+00:00
+EZK	40	42	anchor	missing: moitié, moitié	2026-10-01T16:33:59.598054+00:00
+EZK	42	17	anchor	missing: esprit	2026-10-01T16:38:50.188502+00:00
+EZK	42	18	anchor	missing: esprit	2026-10-01T16:39:11.837235+00:00
+EZK	43	7	anchor	missing: main	2026-10-01T16:40:37.698958+00:00
+EZK	43	22	anchor	missing: chèvre	2026-10-01T16:41:41.884659+00:00
+EZK	44	11	anchor	missing: châtiment	2026-10-01T16:42:50.356769+00:00
+EZK	44	19	anchor	missing: saint	2026-10-01T16:43:33.339632+00:00
+EZK	45	21	anchor	missing: semaine	2026-10-01T16:46:43.178351+00:00
+EZK	45	23	anchor	missing: chèvre	2026-10-01T16:47:24.738582+00:00
+EZK	46	13	anchor	missing: fils	2026-10-01T16:49:20.076759+00:00
+EZK	46	22	anchor	missing: voûtées	2026-10-01T16:49:58.715998+00:00
+EZK	47	10	anchor	missing: interdit	2026-10-01T16:50:56.792240+00:00
+DAN	1	15	anchor	missing: extrémité	2026-10-01T16:56:13.544754+00:00
+DAN	2	39	anchor	missing: place	2026-10-01T17:00:02.668031+00:00
+DAN	2	44	anchor	missing: peuples	2026-10-01T17:00:58.356145+00:00
+DAN	3	28	anchor	missing: tout	2026-10-01T17:05:30.600072+00:00
+DAN	3	29	anchor	missing: peuples	2026-10-01T17:05:52.915231+00:00
+DAN	6	5	anchor	missing: tout	2026-10-01T17:11:43.022396+00:00
+DAN	6	20	anchor	missing: son	2026-10-01T17:13:01.749931+00:00
+DAN	6	23	anchor	missing: tout	2026-10-01T17:13:19.238382+00:00
+DAN	7	25	anchor	missing: côté	2026-10-01T17:15:08.939415+00:00
+DAN	7	27	anchor	missing: peuples	2026-10-01T17:15:23.040573+00:00
+DAN	8	9	anchor	missing: reste	2026-10-01T17:16:07.685460+00:00
+DAN	8	25	anchor	missing: extrémités	2026-10-01T17:16:49.816425+00:00
+DAN	9	16	anchor	missing: alentour	2026-10-01T17:18:00.070284+00:00
+DAN	10	1	anchor	missing: vérité	2026-10-01T17:18:43.233579+00:00
+DAN	11	15	anchor	missing: forteresse	2026-10-01T17:20:17.964678+00:00
+DAN	11	29	anchor	missing: assignation	2026-10-01T17:20:53.976892+00:00
+DAN	11	45	anchor	missing: gazelle	2026-10-01T17:21:38.312874+00:00
+DAN	12	3	anchor	missing: éternité	2026-10-01T17:21:55.728249+00:00
+DAN	12	10	anchor	missing: tout	2026-10-01T17:22:10.704562+00:00
+HOS	4	6	anchor	missing: sans	2026-10-01T17:24:37.000305+00:00
+HOS	9	4	anchor	missing: iniquité	2026-10-01T17:28:31.893338+00:00
+JOL	1	12	anchor	missing: pomme	2026-10-01T17:33:07.173721+00:00
+AMO	1	5	anchor	missing: tribu	2026-10-01T17:33:27.097316+00:00
+AMO	2	15	anchor	missing: arc	2026-10-01T17:34:54.867834+00:00
+AMO	3	15	anchor	missing: dent	2026-10-01T17:35:39.893317+00:00
+AMO	4	2	anchor	missing: saint	2026-10-01T17:35:59.869113+00:00
+AMO	6	4	anchor	missing: dent	2026-10-01T17:38:15.808347+00:00
+AMO	7	17	anchor	missing: lien	2026-10-01T17:39:16.699825+00:00
+AMO	9	7	anchor	missing: déclaration	2026-10-01T17:40:26.211602+00:00
+JON	1	7	anchor	missing: homme, ami	2026-10-01T17:41:08.756863+00:00
+MIC	4	5	anchor	missing: éternité	2026-10-01T17:43:49.614070+00:00
+MIC	6	8	anchor	missing: amour	2026-10-01T17:45:35.306446+00:00
+MIC	7	18	anchor	missing: éternité	2026-10-01T17:47:50.137816+00:00
+NAM	3	10	anchor	missing: dehors	2026-10-01T17:48:16.663662+00:00
+HAB	1	6	anchor	missing: large	2026-10-01T17:48:28.522380+00:00
+ZEC	1	21	anchor	missing: bouche	2026-10-01T17:49:59.137431+00:00
+ZEC	8	6	anchor	missing: déclaration	2026-10-01T17:54:12.913925+00:00
+ZEC	8	10	anchor	missing: face	2026-10-01T17:54:32.189802+00:00
+ZEC	11	17	anchor	missing: droite, droite	2026-10-01T17:58:35.440089+00:00
+ZEC	12	12	anchor	missing: seul, seul, seul, seul, seul	2026-10-01T17:59:37.338709+00:00
+ZEC	12	14	anchor	missing: seul, seul	2026-10-01T17:59:43.521550+00:00
+ZEC	13	8	anchor	missing: bouche	2026-10-01T18:00:19.301390+00:00
+ZEC	14	10	anchor	missing: terre	2026-10-01T18:02:04.308450+00:00
+MAL	3	14	anchor	missing: vanité	2026-10-01T18:06:42.007116+00:00
+MAL	4	3	anchor	missing: main	2026-10-01T18:07:17.349805+00:00
