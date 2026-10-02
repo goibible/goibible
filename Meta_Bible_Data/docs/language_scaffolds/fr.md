@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Status | scaffolded: reference aligned, noun/Strong's fill complete, fr_lsg validation cube complete; translation not started |
+| Status | translated and verified: 31,102/31,102 (NT 7,957 + OT 23,145); NT gate + fr/verify_fr_nt.py 0 undocumented, OT fr/verify_fr_ot.py 0 undocumented, script gate OK; edition still `pending` (not released); no native-speaker review yet |
 | GOI edition ID | `GOI_Fr` |
 | BCP-47 tag | `fr` |
 | Language name (native / English) | français / French |
@@ -71,6 +71,7 @@
 | 2026-09-24 | Same-verse collisions | NT scan for two Greek nouns forced to one French word in a verse | 6 global fixes through the gate + 32 per-verse context senses (fureur/colère, seigneur/maître, moment/temps, ...); remaining shared words are natural (homme, parole, serviteur) | `fr/collision_fix*.tsv` | 7859c7b (nested) | Claude |
 | 2026-09-24 | Review gate, policy (a) | `build_fr_cube.py build` marks reviewed: LSG agreement >= 25% (7,492), LSG-judged (1,210), unreachable/no occurrence (155) | **pass: 0 pending**; LSG agreement 77.5% (OT 76.1%, NT 84.4%) | cube metadata `review_policy` | 7859c7b (nested) | Claude |
 | 2026-09-30 | NT verification (independent of the run gates) | `fr/verify_fr_nt.py` (verify_coverage.py minus documented exceptions), `verify_language_script.py GOI_Fr`, structure/leak/duplicate/punctuation scan, `verify_scaffold_manifests.py`, `verify_cross_language_audit.py` | **7,957/7,957 coordinates, 0 missing/extra; script gate OK; 46 anchors missing = the 46 reviewed-accepts in `fr/anchor_review_accept.tsv`, 0 undocumented**; 10 further apparent misses traced to Arabic sense-key renames in the shared DB (French sense renderings orphaned), fixed by `fr/sense_key_remap_fr.sql`; 4 (bientôt/promptement) accepted as synonyms. No native-language review yet. | `fr/verify_fr_nt.py` | aae0957 (nested) | Claude |
+| 2026-10-02 | OT run + verification | `fr/run_fr_ot.py` (single DeepSeek worker); 893 anchor quarantines -> `fr/triage_ot_quarantine.py` traffic-light triage -> `fr/ot_review_accept.tsv` (550 accept / 268 green / 75 fix); `fr/verify_fr_ot.py` + content scans -> `fr/ot_post_verify_fixes.tsv` (156 edits: invented divine name JOB 31:15, English 'cud'/'frontlets', markup, ~125 Hebraisms) | **pass: 23,145/23,145; 146,502 anchors, 0 undocumented misses; YHWH/Adonai rules 0 violations; 0 lint/markup/English/Hebraism hits OT+NT** | `fr/verify_fr_ot.py`, `fr/verify_fr_nt.py` | df02ec3470 | Claude |
 
 ## Policy decisions (owner-confirmed)
 
