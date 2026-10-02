@@ -1,0 +1,22 @@
+{
+ "source": "eBible fraLSG (Louis Segond 1910) VPL",
+ "lsg_verses": 31170,
+ "kjv_coordinates": 31102,
+ "mapped": 31102,
+ "missing": 0,
+ "lsg_verses_unused": [],
+ "differing_chapters": 106,
+ "relations": {
+  "exact": 29679,
+  "shifted": 1342,
+  "merged": 69,
+  "split": 10,
+  "reordered": 2
+ },
+ "similarity": {
+  "min": 0.321,
+  "p01": 0.594,
+  "median": 0.776
+ },
+ "flagged_review": 0
+}
