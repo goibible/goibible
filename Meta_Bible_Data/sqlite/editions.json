@@ -171,5 +171,17 @@
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
     "notes": "In-progress French edition, translated from Hebrew WLC / Greek TR1550. Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot."
+  },
+  {
+    "edition_id": "GOI_It",
+    "bcp47_tag": "it",
+    "language_subtag": "it",
+    "display_name": "GOI Bible Italian",
+    "status": "pending",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_it",
+    "filename_suffix": "GOI_It",
+    "expected_verse_count": 31102,
+    "template_edition": "GOI_En",
+    "notes": "In-progress Italian edition, to be translated from Hebrew WLC / Greek TR1550. Scaffolding 2026-10-02: Riveduta 1927 (public domain) content-aligned reference at Reference_Bible/Italian_Bible_RIV1927 (comparison/name-QA only), noun renderings for all NT/OT Strong's, it_riv validation cube. Divine name placeholder YHWH l'Eterno (owner to confirm). Translation not started."
   }
 ]
