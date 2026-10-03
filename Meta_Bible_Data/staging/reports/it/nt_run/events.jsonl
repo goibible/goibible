@@ -1,0 +1,28 @@
+{"kind": "start", "books": "JUD", "model": "deepseek-ai/DeepSeek-V4-Flash-0731", "python": "/home/albert/miniconda3/bin/python3", "lock": "single_worker", "at": "2026-10-03T04:01:37.698073+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 1, "at": "2026-10-03T04:02:25.492665+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 2, "at": "2026-10-03T04:02:25.492867+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 3, "at": "2026-10-03T04:02:25.493084+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 4, "at": "2026-10-03T04:02:25.493302+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 5, "at": "2026-10-03T04:02:25.493499+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 6, "at": "2026-10-03T04:02:25.493711+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 7, "at": "2026-10-03T04:02:25.493912+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 8, "at": "2026-10-03T04:02:25.494089+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 9, "at": "2026-10-03T04:02:25.494283+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 10, "at": "2026-10-03T04:02:25.494470+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 11, "at": "2026-10-03T04:02:25.494668+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 12, "at": "2026-10-03T04:02:25.494865+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 13, "at": "2026-10-03T04:02:25.495040+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 14, "at": "2026-10-03T04:02:25.495212+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 15, "at": "2026-10-03T04:02:25.495406+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 16, "at": "2026-10-03T04:02:25.495599+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 17, "at": "2026-10-03T04:02:25.495768+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 18, "at": "2026-10-03T04:02:25.495940+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 19, "at": "2026-10-03T04:02:25.496103+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 20, "at": "2026-10-03T04:02:25.496269+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 21, "at": "2026-10-03T04:02:25.496436+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 22, "at": "2026-10-03T04:02:25.496602+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 23, "at": "2026-10-03T04:02:25.496769+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 24, "at": "2026-10-03T04:02:25.496942+00:00"}
+{"kind": "promote", "book": "JUD", "chapter": 1, "verse": 25, "at": "2026-10-03T04:02:25.497116+00:00"}
+{"kind": "book_done", "book": "JUD", "promoted": 25, "quarantined": 0, "at": "2026-10-03T04:02:25.497151+00:00"}
+{"kind": "done", "promoted": 25, "quarantined": 0, "at": "2026-10-03T04:02:25.497277+00:00"}
