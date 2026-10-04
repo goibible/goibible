@@ -600,3 +600,47 @@ RUT	4	14	anchor	missing: giorno	2026-10-04T05:00:18.458404+00:00
 2SA	15	11	anchor	missing: tutto	2026-10-04T06:11:54.019983+00:00
 2SA	15	18	anchor	missing: mano	2026-10-04T06:13:14.074110+00:00
 2SA	15	20	anchor	missing: giorno	2026-10-04T06:13:20.928612+00:00
+2SA	16	3	anchor	missing: giorno	2026-10-04T06:14:10.108597+00:00
+2SA	16	12	anchor	missing: occhio	2026-10-04T06:14:44.290462+00:00
+2SA	17	18	anchor	missing: velocità	2026-10-04T06:16:23.264091+00:00
+2SA	17	21	anchor	missing: velocità	2026-10-04T06:16:34.712819+00:00
+2SA	17	22	anchor	missing: mattina	2026-10-04T06:16:40.266909+00:00
+2SA	18	28	anchor	missing: ira	2026-10-04T06:18:33.894917+00:00
+2SA	18	31	anchor	missing: giorno	2026-10-04T06:18:45.762629+00:00
+2SA	19	5	anchor	missing: giorno, giorno	2026-10-04T06:19:14.999672+00:00
+2SA	19	6	anchor	missing: giorno, giorno, giorno	2026-10-04T06:19:32.707883+00:00
+2SA	19	20	anchor	missing: giorno	2026-10-04T06:20:11.577136+00:00
+2SA	19	22	anchor	missing: giorno, giorno, giorno	2026-10-04T06:20:24.951021+00:00
+2SA	19	35	anchor	missing: giorno	2026-10-04T06:21:00.269836+00:00
+2SA	23	4	anchor	missing: mattina, mattina	2026-10-04T06:26:02.542822+00:00
+2SA	23	5	anchor	missing: eternità	2026-10-04T06:26:09.345619+00:00
+2SA	23	11	anchor	missing: Arar	2026-10-04T06:26:25.338304+00:00
+2SA	23	20	anchor	missing: esercito	2026-10-04T06:27:31.234616+00:00
+2SA	23	31	anchor	missing: Barhum	2026-10-04T06:28:02.504263+00:00
+2SA	23	33	anchor	missing: Arar, Arar	2026-10-04T06:28:11.728201+00:00
+2SA	24	11	anchor	missing: mattina	2026-10-04T06:29:11.646547+00:00
+2SA	24	16	anchor	missing: Gebusei	2026-10-04T06:29:42.592685+00:00
+2SA	24	18	anchor	missing: Gebusei	2026-10-04T06:29:50.069831+00:00
+1KI	1	25	anchor	missing: giorno	2026-10-04T06:32:36.980474+00:00
+1KI	1	48	anchor	missing: giorno	2026-10-04T06:34:17.275981+00:00
+1KI	1	51	anchor	missing: giorno	2026-10-04T06:34:28.510058+00:00
+1KI	2	24	anchor	missing: giorno	2026-10-04T06:35:59.090365+00:00
+1KI	3	12	anchor	missing: volto	2026-10-04T06:37:43.713321+00:00
+1KI	3	21	anchor	missing: mattina, mattina	2026-10-04T06:38:42.851467+00:00
+1KI	4	23	anchor	missing: solo	2026-10-04T06:40:09.103241+00:00
+1KI	5	3	anchor	missing: mano	2026-10-04T06:40:35.200106+00:00
+1KI	5	16	anchor	missing: solo	2026-10-04T06:41:06.170090+00:00
+1KI	6	6	anchor	missing: strada	2026-10-04T06:41:52.814088+00:00
+1KI	6	15	anchor	missing: lato, lato	2026-10-04T06:43:04.840545+00:00
+1KI	6	29	anchor	missing: muro	2026-10-04T06:43:31.122124+00:00
+1KI	7	16	anchor	missing: capo	2026-10-04T06:44:18.210400+00:00
+1KI	7	31	anchor	missing: metà	2026-10-04T06:44:58.029230+00:00
+1KI	8	6	anchor	missing: santo, santo	2026-10-04T06:45:54.663686+00:00
+1KI	9	8	anchor	missing: tutto	2026-10-04T06:47:42.933624+00:00
+1KI	9	11	anchor	missing: albero, albero	2026-10-04T06:47:52.929050+00:00
+1KI	9	18	anchor	missing: Tadmor	2026-10-04T06:48:02.443697+00:00
+1KI	10	6	anchor	missing: verità	2026-10-04T06:48:28.404429+00:00
+1KI	10	8	anchor	missing: continuo	2026-10-04T06:48:37.567181+00:00
+1KI	10	10	anchor	missing: moltitudine	2026-10-04T06:48:48.813569+00:00
+1KI	10	13	anchor	missing: solo	2026-10-04T06:48:54.825602+00:00
+1KI	11	19	anchor	missing: donna, donna	2026-10-04T06:53:27.704560+00:00
