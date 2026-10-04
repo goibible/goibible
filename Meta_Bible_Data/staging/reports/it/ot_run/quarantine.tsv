@@ -523,3 +523,80 @@ RUT	4	14	anchor	missing: giorno	2026-10-04T05:00:18.458404+00:00
 1SA	12	17	anchor	missing: giorno	2026-10-04T05:12:31.005740+00:00
 1SA	14	2	anchor	missing: melagrana	2026-10-04T05:13:44.904448+00:00
 1SA	14	7	anchor	missing: vaso	2026-10-04T05:13:57.624078+00:00
+1SA	14	25	anchor	missing: terra, volto	2026-10-04T05:14:50.040493+00:00
+1SA	14	28	anchor	missing: giorno	2026-10-04T05:15:10.499266+00:00
+1SA	14	30	anchor	missing: giorno	2026-10-04T05:15:15.359901+00:00
+1SA	14	33	anchor	missing: giorno	2026-10-04T05:15:33.434349+00:00
+1SA	14	36	anchor	missing: mattina	2026-10-04T05:15:59.029361+00:00
+1SA	14	38	anchor	missing: giorno	2026-10-04T05:16:10.065359+00:00
+1SA	15	8	anchor	missing: bocca	2026-10-04T05:19:19.200561+00:00
+1SA	15	12	anchor	missing: mattina, mano	2026-10-04T05:20:05.735167+00:00
+1SA	15	28	anchor	missing: giorno	2026-10-04T05:20:47.248434+00:00
+1SA	17	7	anchor	missing: albero	2026-10-04T05:22:19.089320+00:00
+1SA	17	23	anchor	missing: uomo, esercito	2026-10-04T05:22:48.246509+00:00
+1SA	18	10	anchor	missing: indomani	2026-10-04T05:29:32.389517+00:00
+1SA	18	17	anchor	missing: esercito	2026-10-04T05:30:41.455472+00:00
+1SA	18	19	anchor	missing: donna	2026-10-04T05:30:53.566156+00:00
+1SA	18	21	anchor	missing: giorno	2026-10-04T05:30:59.373447+00:00
+1SA	18	30	anchor	missing: sufficienza	2026-10-04T05:31:38.826254+00:00
+1SA	19	2	anchor	missing: mattina	2026-10-04T05:31:45.440238+00:00
+1SA	19	11	anchor	missing: mattina	2026-10-04T05:32:37.968436+00:00
+1SA	20	41	anchor	missing: ira	2026-10-04T05:36:32.232186+00:00
+1SA	21	5	anchor	missing: giorno	2026-10-04T05:36:50.976736+00:00
+1SA	21	6	anchor	missing: calore	2026-10-04T05:36:55.361039+00:00
+1SA	22	15	anchor	missing: giorno	2026-10-04T05:37:50.288188+00:00
+1SA	22	19	anchor	missing: bocca, bocca	2026-10-04T05:38:04.341440+00:00
+1SA	24	18	anchor	missing: giorno	2026-10-04T05:39:53.149315+00:00
+1SA	25	7	anchor	missing: giorno	2026-10-04T05:40:26.402771+00:00
+1SA	25	10	anchor	missing: giorno	2026-10-04T05:40:33.910877+00:00
+1SA	25	18	anchor	missing: saltèro	2026-10-04T05:40:48.703814+00:00
+1SA	25	33	anchor	missing: giorno	2026-10-04T05:41:24.758165+00:00
+1SA	25	34	anchor	missing: mattina	2026-10-04T05:41:40.213726+00:00
+1SA	25	37	anchor	missing: mattina, mezzo	2026-10-04T05:41:56.427114+00:00
+1SA	26	3	anchor	missing: volto	2026-10-04T05:42:17.375970+00:00
+1SA	26	8	anchor	missing: giorno	2026-10-04T05:42:30.514991+00:00
+1SA	26	19	anchor	missing: giorno	2026-10-04T05:42:56.646694+00:00
+1SA	26	23	anchor	missing: giorno	2026-10-04T05:43:08.057520+00:00
+1SA	26	24	anchor	missing: giorno	2026-10-04T05:43:17.025105+00:00
+1SA	27	10	anchor	missing: giorno	2026-10-04T05:43:56.239028+00:00
+1SA	28	1	anchor	missing: esercito	2026-10-04T05:44:03.726310+00:00
+1SA	28	20	anchor	missing: pienezza	2026-10-04T05:44:41.136058+00:00
+1SA	29	10	anchor	missing: mattina, mattina	2026-10-04T05:45:19.926944+00:00
+1SA	29	11	anchor	missing: mattina	2026-10-04T05:45:24.303421+00:00
+1SA	31	4	anchor	missing: vaso, vaso	2026-10-04T05:46:44.017162+00:00
+1SA	31	5	anchor	missing: vaso	2026-10-04T05:46:50.727726+00:00
+1SA	31	6	anchor	missing: vaso	2026-10-04T05:47:12.742662+00:00
+1SA	31	8	anchor	missing: indomani	2026-10-04T05:47:24.388532+00:00
+1SA	31	12	anchor	missing: esercito	2026-10-04T05:47:39.501354+00:00
+2SA	1	22	anchor	missing: dietro	2026-10-04T05:48:56.606159+00:00
+2SA	2	31	anchor	missing: Beniamino	2026-10-04T05:50:17.522530+00:00
+2SA	3	8	anchor	missing: giorno, giorno	2026-10-04T05:51:30.939693+00:00
+2SA	3	33	anchor	missing: morte	2026-10-04T05:53:04.920688+00:00
+2SA	3	35	anchor	missing: nulla	2026-10-04T05:53:20.226112+00:00
+2SA	3	38	anchor	missing: giorno	2026-10-04T05:53:26.108744+00:00
+2SA	3	39	anchor	missing: giorno	2026-10-04T05:53:38.419175+00:00
+2SA	4	8	anchor	missing: giorno	2026-10-04T05:54:04.182100+00:00
+2SA	5	6	anchor	missing: Gebusei	2026-10-04T05:54:25.412802+00:00
+2SA	5	8	anchor	missing: tutto, Gebusei	2026-10-04T05:54:34.321729+00:00
+2SA	5	24	anchor	missing: capo	2026-10-04T05:55:40.554961+00:00
+2SA	6	20	anchor	missing: giorno, giorno	2026-10-04T05:57:03.188297+00:00
+2SA	9	3	anchor	missing: estremità, uomo	2026-10-04T05:59:22.244385+00:00
+2SA	9	7	anchor	missing: continuo	2026-10-04T05:59:32.049402+00:00
+2SA	9	10	anchor	missing: continuo	2026-10-04T05:59:41.398927+00:00
+2SA	9	13	anchor	missing: continuo	2026-10-04T05:59:55.990806+00:00
+2SA	10	2	anchor	missing: mano	2026-10-04T06:00:06.886663+00:00
+2SA	10	6	anchor	missing: Aram, Aram	2026-10-04T06:00:30.532456+00:00
+2SA	10	8	anchor	missing: guerra	2026-10-04T06:00:41.775275+00:00
+2SA	10	9	anchor	missing: guerra	2026-10-04T06:00:51.961656+00:00
+2SA	11	1	anchor	missing: risposta	2026-10-04T06:01:21.967160+00:00
+2SA	12	3	anchor	missing: tutto	2026-10-04T06:05:12.702743+00:00
+2SA	12	14	anchor	missing: estremità	2026-10-04T06:05:50.898341+00:00
+2SA	13	18	anchor	missing: manto	2026-10-04T06:07:17.092616+00:00
+2SA	13	19	anchor	missing: veste variopinta	2026-10-04T06:07:23.880422+00:00
+2SA	13	37	anchor	missing: Ammiur	2026-10-04T06:08:21.099165+00:00
+2SA	14	22	anchor	missing: giorno	2026-10-04T06:10:26.649586+00:00
+2SA	14	25	anchor	missing: mano	2026-10-04T06:10:35.850387+00:00
+2SA	14	28	anchor	missing: giorno	2026-10-04T06:10:51.363386+00:00
+2SA	15	11	anchor	missing: tutto	2026-10-04T06:11:54.019983+00:00
+2SA	15	18	anchor	missing: mano	2026-10-04T06:13:14.074110+00:00
+2SA	15	20	anchor	missing: giorno	2026-10-04T06:13:20.928612+00:00

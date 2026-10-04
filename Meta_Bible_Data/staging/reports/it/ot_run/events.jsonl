@@ -10296,3 +10296,1282 @@
 {"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 7, "attempt": 3, "missing": ["vaso"], "at": "2026-10-04T05:13:56.325166+00:00"}
 {"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 7, "attempt": 4, "missing": ["vaso"], "at": "2026-10-04T05:13:57.623947+00:00"}
 {"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 7, "reason": "anchor", "detail": "missing: vaso", "at": "2026-10-04T05:13:57.624208+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 8, "at": "2026-10-04T05:14:03.747646+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 9, "at": "2026-10-04T05:14:06.938362+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 10, "at": "2026-10-04T05:14:09.148707+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 11, "at": "2026-10-04T05:14:11.072443+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 12, "at": "2026-10-04T05:14:13.674793+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 13, "at": "2026-10-04T05:14:15.432240+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 14, "at": "2026-10-04T05:14:17.524103+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 15, "at": "2026-10-04T05:14:18.511656+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 16, "at": "2026-10-04T05:14:19.562045+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 17, "at": "2026-10-04T05:14:22.445551+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 18, "at": "2026-10-04T05:14:23.349628+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 19, "at": "2026-10-04T05:14:25.420071+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 20, "at": "2026-10-04T05:14:29.816113+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 21, "at": "2026-10-04T05:14:32.399647+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 22, "at": "2026-10-04T05:14:35.150616+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 23, "at": "2026-10-04T05:14:38.100950+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 24, "at": "2026-10-04T05:14:45.500922+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 25, "attempt": 1, "missing": ["terra", "volto"], "at": "2026-10-04T05:14:46.547726+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 25, "attempt": 2, "missing": ["terra", "volto"], "at": "2026-10-04T05:14:47.627200+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 25, "attempt": 3, "missing": ["terra", "volto"], "at": "2026-10-04T05:14:48.400558+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 25, "attempt": 4, "missing": ["terra", "volto"], "at": "2026-10-04T05:14:50.040386+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 25, "reason": "anchor", "detail": "missing: terra, volto", "at": "2026-10-04T05:14:50.040623+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 26, "at": "2026-10-04T05:14:52.541246+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 27, "at": "2026-10-04T05:14:55.506988+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 28, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:14:59.454357+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 28, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:15:03.642029+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 28, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:15:07.991078+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 28, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:15:10.499141+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 28, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:15:10.499386+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 29, "at": "2026-10-04T05:15:11.325734+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 30, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:15:12.313534+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 30, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:15:13.114233+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 30, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:15:14.656389+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 30, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:15:15.359783+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 30, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:15:15.360025+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 31, "at": "2026-10-04T05:15:19.658580+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 32, "at": "2026-10-04T05:15:22.536122+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 33, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:15:27.077122+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 33, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:15:30.716174+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 33, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:15:31.772753+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 33, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:15:33.434238+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 33, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:15:33.434462+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 34, "attempt": 1, "missing": ["uomo", "uomo", "uomo"], "at": "2026-10-04T05:15:35.484596+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 34, "at": "2026-10-04T05:15:38.160591+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 35, "at": "2026-10-04T05:15:38.837302+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 36, "attempt": 1, "missing": ["mattina"], "at": "2026-10-04T05:15:44.048734+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 36, "attempt": 2, "missing": ["mattina"], "at": "2026-10-04T05:15:47.674010+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 36, "attempt": 3, "missing": ["mattina"], "at": "2026-10-04T05:15:49.989207+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 36, "attempt": 4, "missing": ["mattina"], "at": "2026-10-04T05:15:59.029223+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 36, "reason": "anchor", "detail": "missing: mattina", "at": "2026-10-04T05:15:59.029483+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 37, "at": "2026-10-04T05:16:02.188531+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 38, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:16:04.567045+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 38, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:16:07.939196+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 38, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:16:09.109352+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 38, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:16:10.065229+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 14, "verse": 38, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:16:10.065492+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 39, "at": "2026-10-04T05:16:13.288075+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 40, "at": "2026-10-04T05:16:29.451086+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 41, "at": "2026-10-04T05:16:32.010476+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 42, "at": "2026-10-04T05:16:33.712383+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 43, "at": "2026-10-04T05:16:36.033845+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 44, "at": "2026-10-04T05:16:38.763562+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 45, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:16:40.550510+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 45, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:16:43.698557+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 45, "at": "2026-10-04T05:16:46.063352+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 46, "at": "2026-10-04T05:16:48.668379+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 47, "at": "2026-10-04T05:16:50.873821+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 48, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T05:16:52.993893+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 48, "attempt": 2, "missing": ["esercito"], "at": "2026-10-04T05:16:54.197072+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 14, "verse": 48, "attempt": 3, "missing": ["esercito"], "at": "2026-10-04T05:16:56.171404+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 48, "at": "2026-10-04T05:16:58.838062+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 49, "at": "2026-10-04T05:17:00.819707+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 50, "at": "2026-10-04T05:17:05.243908+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 51, "at": "2026-10-04T05:17:07.866191+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 14, "verse": 52, "at": "2026-10-04T05:17:11.269920+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 1, "at": "2026-10-04T05:17:16.619306+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 2, "at": "2026-10-04T05:17:48.384752+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 3, "at": "2026-10-04T05:17:52.854300+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 4, "at": "2026-10-04T05:17:58.984148+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 5, "at": "2026-10-04T05:18:01.577144+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 6, "at": "2026-10-04T05:18:04.880644+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 7, "attempt": 1, "missing": ["volto"], "at": "2026-10-04T05:18:25.608292+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 7, "at": "2026-10-04T05:19:07.508883+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 8, "attempt": 1, "missing": ["bocca"], "at": "2026-10-04T05:19:11.869550+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 8, "attempt": 2, "missing": ["bocca"], "at": "2026-10-04T05:19:14.360719+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 8, "attempt": 3, "missing": ["bocca"], "at": "2026-10-04T05:19:16.615997+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 8, "attempt": 4, "missing": ["bocca"], "at": "2026-10-04T05:19:19.200430+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 15, "verse": 8, "reason": "anchor", "detail": "missing: bocca", "at": "2026-10-04T05:19:19.200687+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 9, "at": "2026-10-04T05:19:50.541595+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 10, "at": "2026-10-04T05:19:51.257955+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 11, "at": "2026-10-04T05:19:52.896174+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 12, "attempt": 1, "missing": ["mattina", "mano"], "at": "2026-10-04T05:19:55.893161+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 12, "attempt": 2, "missing": ["mattina", "mano"], "at": "2026-10-04T05:19:58.398638+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 12, "attempt": 3, "missing": ["mattina", "mano"], "at": "2026-10-04T05:20:01.698421+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 12, "attempt": 4, "missing": ["mattina", "mano"], "at": "2026-10-04T05:20:05.735047+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 15, "verse": 12, "reason": "anchor", "detail": "missing: mattina, mano", "at": "2026-10-04T05:20:05.735285+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 13, "at": "2026-10-04T05:20:08.854360+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 14, "at": "2026-10-04T05:20:11.538075+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 15, "at": "2026-10-04T05:20:16.591403+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 16, "at": "2026-10-04T05:20:21.617791+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 17, "at": "2026-10-04T05:20:28.926665+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 18, "at": "2026-10-04T05:20:31.142812+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 19, "at": "2026-10-04T05:20:31.958496+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 20, "at": "2026-10-04T05:20:33.408443+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 21, "at": "2026-10-04T05:20:34.264018+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 22, "at": "2026-10-04T05:20:35.514098+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 23, "at": "2026-10-04T05:20:37.979841+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 24, "at": "2026-10-04T05:20:39.764209+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 25, "at": "2026-10-04T05:20:41.208923+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 26, "at": "2026-10-04T05:20:42.802219+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 27, "at": "2026-10-04T05:20:43.704968+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 28, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:20:44.492337+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 28, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:20:45.316021+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 28, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:20:46.244784+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 15, "verse": 28, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:20:47.248330+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 15, "verse": 28, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:20:47.248552+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 29, "at": "2026-10-04T05:20:47.986552+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 30, "at": "2026-10-04T05:20:49.105760+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 31, "at": "2026-10-04T05:20:49.871385+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 32, "at": "2026-10-04T05:20:52.104351+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 33, "at": "2026-10-04T05:20:53.245573+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 34, "at": "2026-10-04T05:20:54.892359+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 15, "verse": 35, "at": "2026-10-04T05:20:56.527420+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 1, "at": "2026-10-04T05:20:58.005350+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 2, "at": "2026-10-04T05:21:00.160654+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 3, "at": "2026-10-04T05:21:01.570012+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 4, "at": "2026-10-04T05:21:03.471685+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 5, "at": "2026-10-04T05:21:05.330293+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 6, "at": "2026-10-04T05:21:06.703984+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 7, "at": "2026-10-04T05:21:08.224112+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 8, "at": "2026-10-04T05:21:09.287843+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 9, "at": "2026-10-04T05:21:10.314762+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 10, "at": "2026-10-04T05:21:10.979089+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 11, "at": "2026-10-04T05:21:12.727445+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 12, "at": "2026-10-04T05:21:14.018181+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 13, "at": "2026-10-04T05:21:14.981969+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 14, "at": "2026-10-04T05:21:16.128006+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 15, "at": "2026-10-04T05:21:17.011433+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 16, "at": "2026-10-04T05:21:19.763556+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 17, "at": "2026-10-04T05:21:21.271721+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 16, "verse": 18, "attempt": 1, "missing": ["esercito", "parola"], "at": "2026-10-04T05:21:23.161401+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 18, "at": "2026-10-04T05:21:24.487629+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 19, "at": "2026-10-04T05:21:28.093610+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 20, "at": "2026-10-04T05:21:31.686280+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 21, "at": "2026-10-04T05:22:02.461255+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 22, "at": "2026-10-04T05:22:07.011828+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 16, "verse": 23, "at": "2026-10-04T05:22:08.132201+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 1, "at": "2026-10-04T05:22:09.323186+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 2, "at": "2026-10-04T05:22:10.187912+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 3, "at": "2026-10-04T05:22:11.100585+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 4, "at": "2026-10-04T05:22:11.861718+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 5, "at": "2026-10-04T05:22:13.255989+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 6, "attempt": 1, "missing": ["piede"], "at": "2026-10-04T05:22:13.798551+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 6, "at": "2026-10-04T05:22:14.479186+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 7, "attempt": 1, "missing": ["freccia", "albero"], "at": "2026-10-04T05:22:16.169239+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 7, "attempt": 2, "missing": ["freccia", "albero"], "at": "2026-10-04T05:22:17.120981+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 7, "attempt": 3, "missing": ["albero"], "at": "2026-10-04T05:22:18.275822+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 7, "attempt": 4, "missing": ["freccia", "albero"], "at": "2026-10-04T05:22:19.089204+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 17, "verse": 7, "reason": "anchor", "detail": "missing: albero", "at": "2026-10-04T05:22:19.089430+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 8, "at": "2026-10-04T05:22:21.574874+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 9, "at": "2026-10-04T05:22:24.753158+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 10, "at": "2026-10-04T05:22:27.251740+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 11, "at": "2026-10-04T05:22:29.106417+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 12, "at": "2026-10-04T05:22:29.994917+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 13, "at": "2026-10-04T05:22:31.152211+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 14, "at": "2026-10-04T05:22:31.586987+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 15, "at": "2026-10-04T05:22:32.138679+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 16, "at": "2026-10-04T05:22:32.661693+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 17, "at": "2026-10-04T05:22:33.822158+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 18, "at": "2026-10-04T05:22:34.930243+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 19, "at": "2026-10-04T05:22:36.253956+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 20, "at": "2026-10-04T05:22:37.622670+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 21, "at": "2026-10-04T05:22:38.601421+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 22, "at": "2026-10-04T05:22:39.880959+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 23, "attempt": 1, "missing": ["uomo", "nome", "esercito"], "at": "2026-10-04T05:22:40.720371+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 23, "attempt": 2, "missing": ["uomo", "esercito"], "at": "2026-10-04T05:22:44.189689+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 23, "attempt": 3, "missing": ["uomo", "esercito"], "at": "2026-10-04T05:22:45.914387+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 23, "attempt": 4, "missing": ["uomo", "esercito"], "at": "2026-10-04T05:22:48.246387+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 17, "verse": 23, "reason": "anchor", "detail": "missing: uomo, esercito", "at": "2026-10-04T05:22:48.246633+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 24, "at": "2026-10-04T05:22:49.675949+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 25, "at": "2026-10-04T05:22:53.038390+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 26, "at": "2026-10-04T05:22:55.052066+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 27, "at": "2026-10-04T05:22:55.945409+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 28, "at": "2026-10-04T05:22:58.207372+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 29, "at": "2026-10-04T05:23:00.226102+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 30, "at": "2026-10-04T05:23:01.103693+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 31, "at": "2026-10-04T05:23:01.806771+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 32, "at": "2026-10-04T05:23:02.792951+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 33, "at": "2026-10-04T05:23:04.764378+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 34, "at": "2026-10-04T05:23:06.451985+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 35, "at": "2026-10-04T05:23:07.816285+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 36, "at": "2026-10-04T05:23:09.774792+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 37, "at": "2026-10-04T05:23:13.372602+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 38, "at": "2026-10-04T05:23:13.955543+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 39, "at": "2026-10-04T05:23:15.910061+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 40, "at": "2026-10-04T05:23:18.271831+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 41, "at": "2026-10-04T05:23:19.688760+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 42, "at": "2026-10-04T05:23:24.710368+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 43, "at": "2026-10-04T05:23:29.238900+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 44, "at": "2026-10-04T05:23:31.210750+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 45, "at": "2026-10-04T05:23:34.565870+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 46, "at": "2026-10-04T05:23:40.665824+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 47, "at": "2026-10-04T05:23:44.506051+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 48, "at": "2026-10-04T05:24:42.254638+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 49, "at": "2026-10-04T05:24:44.137424+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 50, "at": "2026-10-04T05:24:45.290027+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 17, "verse": 51, "attempt": 1, "missing": ["Davide"], "at": "2026-10-04T05:25:25.576426+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 51, "at": "2026-10-04T05:26:50.781179+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 52, "at": "2026-10-04T05:26:52.221150+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 53, "at": "2026-10-04T05:26:52.862185+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 54, "at": "2026-10-04T05:26:56.451613+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 55, "at": "2026-10-04T05:26:58.255608+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 56, "at": "2026-10-04T05:26:59.253243+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 57, "at": "2026-10-04T05:27:02.616872+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 17, "verse": 58, "at": "2026-10-04T05:27:07.316735+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 1, "at": "2026-10-04T05:28:21.258875+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 2, "at": "2026-10-04T05:29:06.857723+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 3, "at": "2026-10-04T05:29:08.130004+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 4, "at": "2026-10-04T05:29:09.672585+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 5, "at": "2026-10-04T05:29:11.472872+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 6, "attempt": 1, "missing": ["capitano"], "at": "2026-10-04T05:29:13.733140+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 6, "at": "2026-10-04T05:29:17.105279+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 7, "at": "2026-10-04T05:29:18.760883+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 8, "at": "2026-10-04T05:29:21.857361+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 9, "at": "2026-10-04T05:29:27.838834+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 10, "attempt": 1, "missing": ["indomani"], "at": "2026-10-04T05:29:29.109485+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 10, "attempt": 2, "missing": ["indomani"], "at": "2026-10-04T05:29:29.896614+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 10, "attempt": 3, "missing": ["indomani"], "at": "2026-10-04T05:29:31.212425+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 10, "attempt": 4, "missing": ["indomani"], "at": "2026-10-04T05:29:32.389386+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 18, "verse": 10, "reason": "anchor", "detail": "missing: indomani", "at": "2026-10-04T05:29:32.389650+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 11, "at": "2026-10-04T05:29:33.473637+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 12, "attempt": 1, "missing": ["volto"], "at": "2026-10-04T05:29:40.539744+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 12, "at": "2026-10-04T05:29:46.194863+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 13, "at": "2026-10-04T05:30:12.641995+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 14, "at": "2026-10-04T05:30:33.193208+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 15, "at": "2026-10-04T05:30:34.039044+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 16, "at": "2026-10-04T05:30:35.122259+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 17, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T05:30:37.492603+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 17, "attempt": 2, "missing": ["donna", "esercito"], "at": "2026-10-04T05:30:39.213716+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 17, "attempt": 3, "missing": ["esercito"], "at": "2026-10-04T05:30:40.331373+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 17, "attempt": 4, "missing": ["esercito"], "at": "2026-10-04T05:30:41.455366+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 18, "verse": 17, "reason": "anchor", "detail": "missing: esercito", "at": "2026-10-04T05:30:41.455597+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 18, "at": "2026-10-04T05:30:44.054142+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 19, "attempt": 1, "missing": ["donna"], "at": "2026-10-04T05:30:45.376995+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 19, "attempt": 2, "missing": ["donna"], "at": "2026-10-04T05:30:47.156885+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 19, "attempt": 3, "missing": ["donna"], "at": "2026-10-04T05:30:49.934321+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 19, "attempt": 4, "missing": ["donna"], "at": "2026-10-04T05:30:53.566041+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 18, "verse": 19, "reason": "anchor", "detail": "missing: donna", "at": "2026-10-04T05:30:53.566267+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 20, "at": "2026-10-04T05:30:54.612737+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 21, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:30:55.710195+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 21, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:30:57.085516+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 21, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:30:58.263028+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 21, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:30:59.373329+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 18, "verse": 21, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:30:59.373610+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 22, "attempt": 1, "missing": ["arti occulte"], "at": "2026-10-04T05:31:02.003033+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 22, "attempt": 2, "missing": ["arti occulte"], "at": "2026-10-04T05:31:03.742141+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 22, "attempt": 3, "missing": ["arti occulte"], "at": "2026-10-04T05:31:04.796734+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 22, "at": "2026-10-04T05:31:06.073574+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 23, "at": "2026-10-04T05:31:15.558858+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 24, "at": "2026-10-04T05:31:17.149876+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 25, "at": "2026-10-04T05:31:20.900441+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 26, "at": "2026-10-04T05:31:28.145403+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 27, "at": "2026-10-04T05:31:30.792936+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 28, "at": "2026-10-04T05:31:31.778176+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 18, "verse": 29, "at": "2026-10-04T05:31:33.103473+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 30, "attempt": 1, "missing": ["sufficienza"], "at": "2026-10-04T05:31:34.619077+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 30, "attempt": 2, "missing": ["sufficienza"], "at": "2026-10-04T05:31:36.288436+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 30, "attempt": 3, "missing": ["sufficienza"], "at": "2026-10-04T05:31:37.719205+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 18, "verse": 30, "attempt": 4, "missing": ["sufficienza"], "at": "2026-10-04T05:31:38.826147+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 18, "verse": 30, "reason": "anchor", "detail": "missing: sufficienza", "at": "2026-10-04T05:31:38.826355+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 1, "at": "2026-10-04T05:31:40.034672+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 2, "attempt": 1, "missing": ["mattina"], "at": "2026-10-04T05:31:41.469528+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 2, "attempt": 2, "missing": ["mattina"], "at": "2026-10-04T05:31:42.433215+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 2, "attempt": 3, "missing": ["mattina"], "at": "2026-10-04T05:31:44.045885+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 2, "attempt": 4, "missing": ["mattina"], "at": "2026-10-04T05:31:45.440098+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 19, "verse": 2, "reason": "anchor", "detail": "missing: mattina", "at": "2026-10-04T05:31:45.440372+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 3, "at": "2026-10-04T05:31:47.738932+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 4, "at": "2026-10-04T05:31:51.221284+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 5, "at": "2026-10-04T05:31:53.598917+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 6, "at": "2026-10-04T05:31:54.918586+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 7, "at": "2026-10-04T05:31:57.291932+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 8, "at": "2026-10-04T05:32:00.039413+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 9, "at": "2026-10-04T05:32:05.437468+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 10, "at": "2026-10-04T05:32:14.993479+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 11, "attempt": 1, "missing": ["mattina", "donna"], "at": "2026-10-04T05:32:18.875202+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 11, "attempt": 2, "missing": ["mattina", "donna"], "at": "2026-10-04T05:32:29.438100+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 11, "attempt": 3, "missing": ["mattina"], "at": "2026-10-04T05:32:33.288143+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 19, "verse": 11, "attempt": 4, "missing": ["mattina"], "at": "2026-10-04T05:32:37.968291+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 19, "verse": 11, "reason": "anchor", "detail": "missing: mattina", "at": "2026-10-04T05:32:37.968579+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 12, "at": "2026-10-04T05:33:16.800122+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 13, "at": "2026-10-04T05:33:18.725991+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 14, "at": "2026-10-04T05:33:28.284646+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 15, "at": "2026-10-04T05:33:37.026873+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 16, "at": "2026-10-04T05:33:38.293500+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 17, "at": "2026-10-04T05:33:40.785363+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 18, "at": "2026-10-04T05:33:44.019247+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 19, "at": "2026-10-04T05:33:44.577286+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 20, "at": "2026-10-04T05:33:47.886818+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 21, "at": "2026-10-04T05:33:49.757375+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 22, "at": "2026-10-04T05:34:05.143294+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 23, "at": "2026-10-04T05:34:09.725451+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 19, "verse": 24, "at": "2026-10-04T05:34:13.507438+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 1, "at": "2026-10-04T05:34:14.622312+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 2, "at": "2026-10-04T05:34:24.902626+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 3, "at": "2026-10-04T05:34:31.432856+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 4, "at": "2026-10-04T05:34:32.566223+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 5, "at": "2026-10-04T05:34:37.489653+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 6, "at": "2026-10-04T05:34:39.161449+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 7, "at": "2026-10-04T05:34:39.846135+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 8, "at": "2026-10-04T05:34:41.280788+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 9, "at": "2026-10-04T05:34:44.903880+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 10, "at": "2026-10-04T05:34:45.993440+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 11, "at": "2026-10-04T05:35:00.517931+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 12, "at": "2026-10-04T05:35:01.789417+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 13, "at": "2026-10-04T05:35:07.565270+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 14, "at": "2026-10-04T05:35:09.770463+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 15, "at": "2026-10-04T05:35:12.839418+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 16, "at": "2026-10-04T05:35:15.647757+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 17, "at": "2026-10-04T05:35:17.980295+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 18, "at": "2026-10-04T05:35:19.423790+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 19, "at": "2026-10-04T05:35:20.703184+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 20, "at": "2026-10-04T05:35:21.686122+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 21, "at": "2026-10-04T05:35:23.134292+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 22, "at": "2026-10-04T05:35:30.171629+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 23, "at": "2026-10-04T05:35:36.222453+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 24, "at": "2026-10-04T05:35:39.761965+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 25, "at": "2026-10-04T05:35:42.061693+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 26, "at": "2026-10-04T05:35:45.808556+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 27, "attempt": 1, "missing": ["pane"], "at": "2026-10-04T05:35:47.457379+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 27, "attempt": 2, "missing": ["indomani"], "at": "2026-10-04T05:35:48.834041+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 27, "at": "2026-10-04T05:35:49.770721+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 28, "at": "2026-10-04T05:35:51.146485+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 29, "at": "2026-10-04T05:35:53.560310+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 30, "at": "2026-10-04T05:35:55.999669+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 31, "at": "2026-10-04T05:35:58.097650+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 32, "at": "2026-10-04T05:35:58.854684+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 33, "at": "2026-10-04T05:36:02.830278+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 34, "at": "2026-10-04T05:36:07.233808+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 35, "at": "2026-10-04T05:36:07.949181+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 36, "at": "2026-10-04T05:36:09.847638+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 37, "at": "2026-10-04T05:36:13.403371+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 38, "at": "2026-10-04T05:36:16.978098+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 39, "at": "2026-10-04T05:36:20.254187+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 40, "at": "2026-10-04T05:36:21.913399+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 41, "attempt": 1, "missing": ["ira", "uomo", "prossimo", "uomo", "prossimo"], "at": "2026-10-04T05:36:26.523109+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 41, "attempt": 2, "missing": ["ira"], "at": "2026-10-04T05:36:29.882015+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 41, "attempt": 3, "missing": ["uomo", "prossimo", "uomo", "prossimo"], "at": "2026-10-04T05:36:30.805850+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 20, "verse": 41, "attempt": 4, "missing": ["ira"], "at": "2026-10-04T05:36:32.232060+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 20, "verse": 41, "reason": "anchor", "detail": "missing: ira", "at": "2026-10-04T05:36:32.232308+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 20, "verse": 42, "at": "2026-10-04T05:36:33.892968+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 1, "at": "2026-10-04T05:36:37.769730+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 2, "at": "2026-10-04T05:36:42.124422+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 3, "at": "2026-10-04T05:36:43.707799+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 4, "at": "2026-10-04T05:36:45.238703+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 5, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:36:46.727583+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 5, "attempt": 2, "missing": ["tempo passato"], "at": "2026-10-04T05:36:48.012553+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 5, "attempt": 3, "missing": ["tempo passato"], "at": "2026-10-04T05:36:50.058432+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 5, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:36:50.976622+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 21, "verse": 5, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:36:50.976849+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 6, "attempt": 1, "missing": ["calore"], "at": "2026-10-04T05:36:52.067078+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 6, "attempt": 2, "missing": ["calore"], "at": "2026-10-04T05:36:52.972366+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 6, "attempt": 3, "missing": ["calore"], "at": "2026-10-04T05:36:54.475463+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 21, "verse": 6, "attempt": 4, "missing": ["calore"], "at": "2026-10-04T05:36:55.360918+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 21, "verse": 6, "reason": "anchor", "detail": "missing: calore", "at": "2026-10-04T05:36:55.361168+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 7, "at": "2026-10-04T05:36:58.073540+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 8, "at": "2026-10-04T05:37:00.079157+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 9, "at": "2026-10-04T05:37:03.341006+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 10, "at": "2026-10-04T05:37:05.555319+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 11, "at": "2026-10-04T05:37:07.220775+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 12, "at": "2026-10-04T05:37:13.000055+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 13, "at": "2026-10-04T05:37:15.020160+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 14, "at": "2026-10-04T05:37:15.730676+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 21, "verse": 15, "at": "2026-10-04T05:37:16.756136+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 1, "at": "2026-10-04T05:37:17.976300+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 2, "at": "2026-10-04T05:37:19.940343+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 3, "at": "2026-10-04T05:37:21.208065+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 4, "at": "2026-10-04T05:37:22.417733+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 5, "at": "2026-10-04T05:37:23.866080+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 6, "at": "2026-10-04T05:37:24.680434+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 7, "attempt": 1, "missing": ["destra"], "at": "2026-10-04T05:37:28.315202+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 7, "at": "2026-10-04T05:37:31.194214+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 8, "at": "2026-10-04T05:37:37.244700+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 9, "at": "2026-10-04T05:37:39.109396+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 10, "at": "2026-10-04T05:37:41.391324+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 11, "at": "2026-10-04T05:37:42.496158+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 12, "at": "2026-10-04T05:37:43.502939+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 13, "at": "2026-10-04T05:37:44.432609+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 14, "at": "2026-10-04T05:37:45.620632+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 15, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:37:46.715918+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 15, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:37:47.723655+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 15, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:37:49.175314+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 15, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:37:50.288026+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 22, "verse": 15, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:37:50.288330+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 16, "at": "2026-10-04T05:37:51.031576+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 17, "at": "2026-10-04T05:37:55.817916+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 18, "at": "2026-10-04T05:37:59.417308+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 19, "attempt": 1, "missing": ["bocca", "bocca"], "at": "2026-10-04T05:38:00.372983+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 19, "attempt": 2, "missing": ["bocca", "bocca"], "at": "2026-10-04T05:38:01.295361+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 19, "attempt": 3, "missing": ["bocca", "bocca"], "at": "2026-10-04T05:38:03.173008+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 22, "verse": 19, "attempt": 4, "missing": ["bocca", "bocca"], "at": "2026-10-04T05:38:04.341323+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 22, "verse": 19, "reason": "anchor", "detail": "missing: bocca, bocca", "at": "2026-10-04T05:38:04.341565+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 20, "at": "2026-10-04T05:38:07.175339+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 21, "at": "2026-10-04T05:38:10.540926+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 22, "at": "2026-10-04T05:38:14.974395+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 22, "verse": 23, "at": "2026-10-04T05:38:15.803618+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 1, "at": "2026-10-04T05:38:18.962222+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 2, "at": "2026-10-04T05:38:19.969076+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 3, "at": "2026-10-04T05:38:24.983097+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 4, "at": "2026-10-04T05:38:27.787885+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 5, "at": "2026-10-04T05:38:29.062194+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 6, "at": "2026-10-04T05:38:30.567477+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 7, "at": "2026-10-04T05:38:33.001279+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 8, "at": "2026-10-04T05:38:33.607389+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 9, "at": "2026-10-04T05:38:34.596167+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 10, "at": "2026-10-04T05:38:35.712097+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 11, "at": "2026-10-04T05:38:36.978080+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 12, "at": "2026-10-04T05:38:42.571382+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 13, "at": "2026-10-04T05:38:46.289847+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 14, "at": "2026-10-04T05:38:50.295827+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 15, "at": "2026-10-04T05:38:53.064687+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 16, "at": "2026-10-04T05:38:53.554145+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 17, "at": "2026-10-04T05:38:57.698183+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 18, "at": "2026-10-04T05:39:00.390731+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 19, "at": "2026-10-04T05:39:01.209538+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 20, "at": "2026-10-04T05:39:03.076805+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 21, "at": "2026-10-04T05:39:04.976644+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 22, "at": "2026-10-04T05:39:06.798995+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 23, "at": "2026-10-04T05:39:08.671758+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 24, "at": "2026-10-04T05:39:10.057525+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 25, "at": "2026-10-04T05:39:13.300788+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 26, "at": "2026-10-04T05:39:15.245603+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 27, "at": "2026-10-04T05:39:16.421263+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 28, "at": "2026-10-04T05:39:17.866789+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 23, "verse": 29, "at": "2026-10-04T05:39:18.875386+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 1, "at": "2026-10-04T05:39:20.867042+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 2, "at": "2026-10-04T05:39:22.514799+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 3, "at": "2026-10-04T05:39:23.712281+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 4, "at": "2026-10-04T05:39:26.426288+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 5, "at": "2026-10-04T05:39:27.746430+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 6, "at": "2026-10-04T05:39:29.788403+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 7, "at": "2026-10-04T05:39:31.578777+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 8, "at": "2026-10-04T05:39:33.854551+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 9, "at": "2026-10-04T05:39:35.156662+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 10, "at": "2026-10-04T05:39:37.529761+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 24, "verse": 11, "attempt": 1, "missing": ["ala", "ala"], "at": "2026-10-04T05:39:40.019069+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 11, "at": "2026-10-04T05:39:43.712299+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 12, "at": "2026-10-04T05:39:44.537440+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 13, "at": "2026-10-04T05:39:45.162457+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 14, "at": "2026-10-04T05:39:45.846796+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 15, "at": "2026-10-04T05:39:46.633952+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 16, "at": "2026-10-04T05:39:47.620077+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 17, "at": "2026-10-04T05:39:48.351191+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 24, "verse": 18, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:39:49.052369+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 24, "verse": 18, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:39:50.290463+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 24, "verse": 18, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:39:51.843587+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 24, "verse": 18, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:39:53.149182+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 24, "verse": 18, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:39:53.149442+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 19, "at": "2026-10-04T05:39:55.608015+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 20, "at": "2026-10-04T05:39:56.291471+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 21, "at": "2026-10-04T05:40:00.906240+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 24, "verse": 22, "at": "2026-10-04T05:40:02.542441+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 1, "at": "2026-10-04T05:40:03.959582+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 2, "at": "2026-10-04T05:40:05.922991+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 3, "at": "2026-10-04T05:40:08.395647+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 4, "at": "2026-10-04T05:40:09.828051+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 5, "at": "2026-10-04T05:40:11.058953+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 6, "at": "2026-10-04T05:40:14.047851+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 7, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:40:16.381430+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 7, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:40:18.234732+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 7, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:40:22.211123+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 7, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:40:26.402651+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 7, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:40:26.402896+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 8, "at": "2026-10-04T05:40:28.044229+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 9, "at": "2026-10-04T05:40:30.204288+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 10, "attempt": 1, "missing": ["giorno", "uomo"], "at": "2026-10-04T05:40:31.122287+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 10, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:40:32.289812+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 10, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:40:32.905794+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 10, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:40:33.910753+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 10, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:40:33.911004+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 11, "at": "2026-10-04T05:40:34.783736+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 12, "at": "2026-10-04T05:40:35.708317+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 13, "at": "2026-10-04T05:40:37.045366+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 14, "at": "2026-10-04T05:40:38.644479+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 15, "at": "2026-10-04T05:40:39.799581+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 16, "at": "2026-10-04T05:40:40.702209+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 17, "at": "2026-10-04T05:40:41.730987+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 18, "attempt": 1, "missing": ["saltèro"], "at": "2026-10-04T05:40:43.625936+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 18, "attempt": 2, "missing": ["saltèro"], "at": "2026-10-04T05:40:44.991275+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 18, "attempt": 3, "missing": ["saltèro"], "at": "2026-10-04T05:40:47.116651+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 18, "attempt": 4, "missing": ["saltèro"], "at": "2026-10-04T05:40:48.703682+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 18, "reason": "anchor", "detail": "missing: saltèro", "at": "2026-10-04T05:40:48.703943+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 19, "at": "2026-10-04T05:40:49.408983+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 20, "at": "2026-10-04T05:40:50.974961+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 21, "at": "2026-10-04T05:40:53.144233+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 22, "at": "2026-10-04T05:40:55.160404+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 23, "attempt": 1, "missing": ["ira"], "at": "2026-10-04T05:40:56.338261+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 23, "at": "2026-10-04T05:40:57.777573+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 24, "at": "2026-10-04T05:41:01.158209+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 25, "at": "2026-10-04T05:41:03.498541+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 26, "at": "2026-10-04T05:41:08.529396+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 27, "at": "2026-10-04T05:41:11.123380+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 28, "at": "2026-10-04T05:41:14.051076+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 29, "at": "2026-10-04T05:41:16.197847+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 30, "at": "2026-10-04T05:41:17.632321+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 31, "at": "2026-10-04T05:41:19.136179+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 32, "at": "2026-10-04T05:41:19.886339+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 33, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:41:20.804332+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 33, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:41:21.821005+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 33, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:41:23.970791+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 33, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:41:24.758031+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 33, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:41:24.758304+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 34, "attempt": 1, "missing": ["mattina"], "at": "2026-10-04T05:41:29.132747+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 34, "attempt": 2, "missing": ["mattina"], "at": "2026-10-04T05:41:34.581109+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 34, "attempt": 3, "missing": ["mattina"], "at": "2026-10-04T05:41:36.713463+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 34, "attempt": 4, "missing": ["mattina"], "at": "2026-10-04T05:41:40.213604+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 34, "reason": "anchor", "detail": "missing: mattina", "at": "2026-10-04T05:41:40.213841+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 35, "at": "2026-10-04T05:41:43.035730+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 36, "attempt": 1, "missing": ["mattina"], "at": "2026-10-04T05:41:44.857930+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 36, "attempt": 2, "missing": ["mattina"], "at": "2026-10-04T05:41:47.384067+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 36, "at": "2026-10-04T05:41:49.318835+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 37, "attempt": 1, "missing": ["mattina", "donna", "mezzo"], "at": "2026-10-04T05:41:52.651127+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 37, "attempt": 2, "missing": ["mattina", "donna", "mezzo"], "at": "2026-10-04T05:41:53.959267+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 37, "attempt": 3, "missing": ["mattina", "mezzo"], "at": "2026-10-04T05:41:54.984655+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 37, "attempt": 4, "missing": ["mattina", "donna", "mezzo"], "at": "2026-10-04T05:41:56.426994+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 25, "verse": 37, "reason": "anchor", "detail": "missing: mattina, mezzo", "at": "2026-10-04T05:41:56.427223+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 38, "at": "2026-10-04T05:41:58.615577+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 39, "at": "2026-10-04T05:42:01.032605+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 40, "at": "2026-10-04T05:42:02.353324+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 25, "verse": 41, "attempt": 1, "missing": ["ira"], "at": "2026-10-04T05:42:03.537860+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 41, "at": "2026-10-04T05:42:04.494387+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 42, "at": "2026-10-04T05:42:05.937522+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 43, "at": "2026-10-04T05:42:06.626364+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 25, "verse": 44, "at": "2026-10-04T05:42:07.311704+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 1, "attempt": 1, "missing": ["volto"], "at": "2026-10-04T05:42:08.104826+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 1, "at": "2026-10-04T05:42:08.778287+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 2, "at": "2026-10-04T05:42:09.576567+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 3, "attempt": 1, "missing": ["volto"], "at": "2026-10-04T05:42:11.567534+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 3, "attempt": 2, "missing": ["volto"], "at": "2026-10-04T05:42:14.395342+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 3, "attempt": 3, "missing": ["volto"], "at": "2026-10-04T05:42:15.820622+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 3, "attempt": 4, "missing": ["volto"], "at": "2026-10-04T05:42:17.375854+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 26, "verse": 3, "reason": "anchor", "detail": "missing: volto", "at": "2026-10-04T05:42:17.376089+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 4, "at": "2026-10-04T05:42:18.902164+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 5, "at": "2026-10-04T05:42:20.759519+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 6, "at": "2026-10-04T05:42:21.750051+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 7, "at": "2026-10-04T05:42:23.640550+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 8, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:42:25.224830+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 8, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:42:26.831695+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 8, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:42:28.810250+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 8, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:42:30.514876+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 26, "verse": 8, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:42:30.515102+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 9, "at": "2026-10-04T05:42:33.627983+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 10, "at": "2026-10-04T05:42:35.469997+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 11, "at": "2026-10-04T05:42:37.040525+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 12, "at": "2026-10-04T05:42:38.690315+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 13, "at": "2026-10-04T05:42:39.741894+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 14, "at": "2026-10-04T05:42:40.983943+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 15, "at": "2026-10-04T05:42:43.927807+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 16, "at": "2026-10-04T05:42:45.692390+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 17, "at": "2026-10-04T05:42:47.734612+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 18, "at": "2026-10-04T05:42:49.302204+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 19, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:42:52.111030+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 19, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:42:53.842391+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 19, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:42:55.069812+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 19, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:42:56.646578+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 26, "verse": 19, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:42:56.646812+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 20, "at": "2026-10-04T05:42:58.207990+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 21, "at": "2026-10-04T05:43:00.705676+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 22, "at": "2026-10-04T05:43:02.110874+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 23, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:43:04.629179+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 23, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:43:06.530427+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 23, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:43:07.198442+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 23, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:43:08.057404+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 26, "verse": 23, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:43:08.057627+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 24, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:43:11.143062+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 24, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:43:13.355446+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 24, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:43:15.337050+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 26, "verse": 24, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:43:17.024988+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 26, "verse": 24, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:43:17.025205+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 26, "verse": 25, "at": "2026-10-04T05:43:18.919212+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 1, "at": "2026-10-04T05:43:20.645835+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 2, "at": "2026-10-04T05:43:22.199924+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 3, "at": "2026-10-04T05:43:24.100657+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 4, "at": "2026-10-04T05:43:24.742082+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 5, "at": "2026-10-04T05:43:28.650019+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 6, "at": "2026-10-04T05:43:30.280496+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 7, "at": "2026-10-04T05:43:31.418317+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 8, "attempt": 1, "missing": ["eternità"], "at": "2026-10-04T05:43:35.458490+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 8, "attempt": 2, "missing": ["eternità"], "at": "2026-10-04T05:43:39.831078+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 8, "attempt": 3, "missing": ["eternità"], "at": "2026-10-04T05:43:42.433254+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 8, "at": "2026-10-04T05:43:45.789138+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 9, "at": "2026-10-04T05:43:50.373396+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 10, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:43:51.376765+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 10, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:43:53.392380+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 10, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:43:54.303412+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 27, "verse": 10, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:43:56.238906+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 27, "verse": 10, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:43:56.239164+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 11, "at": "2026-10-04T05:43:57.842791+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 27, "verse": 12, "at": "2026-10-04T05:43:58.945405+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 1, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T05:43:59.958559+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 1, "attempt": 2, "missing": ["esercito"], "at": "2026-10-04T05:44:01.157348+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 1, "attempt": 3, "missing": ["esercito"], "at": "2026-10-04T05:44:02.609001+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 1, "attempt": 4, "missing": ["esercito"], "at": "2026-10-04T05:44:03.726200+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 28, "verse": 1, "reason": "anchor", "detail": "missing: esercito", "at": "2026-10-04T05:44:03.726424+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 2, "at": "2026-10-04T05:44:04.626123+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 3, "at": "2026-10-04T05:44:05.637216+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 4, "at": "2026-10-04T05:44:06.715602+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 5, "at": "2026-10-04T05:44:07.621075+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 6, "at": "2026-10-04T05:44:08.306573+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 7, "at": "2026-10-04T05:44:09.824201+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 8, "at": "2026-10-04T05:44:10.959955+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 9, "at": "2026-10-04T05:44:12.008775+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 10, "at": "2026-10-04T05:44:12.818305+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 11, "at": "2026-10-04T05:44:14.267569+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 12, "at": "2026-10-04T05:44:15.580880+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 13, "at": "2026-10-04T05:44:16.984166+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 14, "at": "2026-10-04T05:44:19.684744+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 15, "at": "2026-10-04T05:44:28.714558+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 16, "at": "2026-10-04T05:44:29.542627+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 17, "at": "2026-10-04T05:44:30.688605+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 18, "at": "2026-10-04T05:44:32.962193+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 19, "at": "2026-10-04T05:44:34.735032+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 20, "attempt": 1, "missing": ["pienezza"], "at": "2026-10-04T05:44:36.244924+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 20, "attempt": 2, "missing": ["pienezza"], "at": "2026-10-04T05:44:39.097035+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 20, "attempt": 3, "missing": ["pienezza"], "at": "2026-10-04T05:44:40.196355+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 28, "verse": 20, "attempt": 4, "missing": ["pienezza"], "at": "2026-10-04T05:44:41.135942+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 28, "verse": 20, "reason": "anchor", "detail": "missing: pienezza", "at": "2026-10-04T05:44:41.136179+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 21, "at": "2026-10-04T05:44:42.807957+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 22, "at": "2026-10-04T05:44:45.220753+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 23, "at": "2026-10-04T05:44:46.243570+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 24, "at": "2026-10-04T05:44:47.898901+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 28, "verse": 25, "at": "2026-10-04T05:44:49.731678+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 1, "attempt": 1, "missing": ["occhio"], "at": "2026-10-04T05:44:50.463732+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 1, "at": "2026-10-04T05:44:51.018190+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 2, "at": "2026-10-04T05:44:51.967194+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 3, "at": "2026-10-04T05:44:54.439998+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 4, "at": "2026-10-04T05:44:56.487493+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 5, "at": "2026-10-04T05:44:57.664381+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 6, "at": "2026-10-04T05:44:58.946862+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 7, "at": "2026-10-04T05:45:02.772265+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 8, "at": "2026-10-04T05:45:04.597668+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 29, "verse": 9, "at": "2026-10-04T05:45:06.065778+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 10, "attempt": 1, "missing": ["mattina", "mattina"], "at": "2026-10-04T05:45:10.807999+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 10, "attempt": 2, "missing": ["mattina", "mattina"], "at": "2026-10-04T05:45:14.207649+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 10, "attempt": 3, "missing": ["mattina", "mattina"], "at": "2026-10-04T05:45:16.997618+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 10, "attempt": 4, "missing": ["mattina", "mattina"], "at": "2026-10-04T05:45:19.926819+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 29, "verse": 10, "reason": "anchor", "detail": "missing: mattina, mattina", "at": "2026-10-04T05:45:19.927064+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 11, "attempt": 1, "missing": ["mattina"], "at": "2026-10-04T05:45:20.977113+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 11, "attempt": 2, "missing": ["mattina"], "at": "2026-10-04T05:45:22.032409+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 11, "attempt": 3, "missing": ["mattina"], "at": "2026-10-04T05:45:23.167730+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 29, "verse": 11, "attempt": 4, "missing": ["mattina"], "at": "2026-10-04T05:45:24.303316+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 29, "verse": 11, "reason": "anchor", "detail": "missing: mattina", "at": "2026-10-04T05:45:24.303543+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 1, "at": "2026-10-04T05:45:25.878398+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 2, "at": "2026-10-04T05:45:26.933442+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 3, "at": "2026-10-04T05:45:28.873405+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 4, "at": "2026-10-04T05:45:30.054783+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 5, "at": "2026-10-04T05:45:31.122701+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 6, "at": "2026-10-04T05:45:33.635871+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 7, "at": "2026-10-04T05:45:34.945977+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 8, "at": "2026-10-04T05:45:36.092392+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 9, "at": "2026-10-04T05:45:37.083026+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 10, "at": "2026-10-04T05:45:38.570234+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 11, "at": "2026-10-04T05:45:39.496394+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 12, "at": "2026-10-04T05:45:41.704170+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 13, "at": "2026-10-04T05:45:42.761916+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 14, "at": "2026-10-04T05:45:44.636472+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 15, "at": "2026-10-04T05:45:46.522768+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 16, "at": "2026-10-04T05:45:48.033947+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 17, "at": "2026-10-04T05:45:49.872106+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 18, "at": "2026-10-04T05:45:51.325223+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 19, "at": "2026-10-04T05:45:52.377732+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 20, "at": "2026-10-04T05:45:53.266179+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 21, "at": "2026-10-04T05:45:54.862678+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 22, "at": "2026-10-04T05:45:56.570564+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 23, "at": "2026-10-04T05:45:57.842297+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 24, "at": "2026-10-04T05:45:58.826369+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 25, "at": "2026-10-04T05:45:59.348557+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 26, "at": "2026-10-04T05:46:05.142490+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 27, "at": "2026-10-04T05:46:07.464120+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 28, "at": "2026-10-04T05:46:08.591296+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 29, "at": "2026-10-04T05:46:10.450568+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 30, "at": "2026-10-04T05:46:11.040304+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 30, "verse": 31, "at": "2026-10-04T05:46:11.844430+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 1, "at": "2026-10-04T05:46:17.558268+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 2, "at": "2026-10-04T05:46:20.452542+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 3, "at": "2026-10-04T05:46:25.047622+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 4, "attempt": 1, "missing": ["vaso", "vaso"], "at": "2026-10-04T05:46:30.607206+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 4, "attempt": 2, "missing": ["vaso", "vaso"], "at": "2026-10-04T05:46:34.792359+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 4, "attempt": 3, "missing": ["vaso", "vaso"], "at": "2026-10-04T05:46:41.852043+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 4, "attempt": 4, "missing": ["vaso", "vaso"], "at": "2026-10-04T05:46:44.017039+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 31, "verse": 4, "reason": "anchor", "detail": "missing: vaso, vaso", "at": "2026-10-04T05:46:44.017291+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 5, "attempt": 1, "missing": ["vaso"], "at": "2026-10-04T05:46:45.722114+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 5, "attempt": 2, "missing": ["vaso"], "at": "2026-10-04T05:46:48.537223+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 5, "attempt": 3, "missing": ["vaso"], "at": "2026-10-04T05:46:49.413442+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 5, "attempt": 4, "missing": ["vaso"], "at": "2026-10-04T05:46:50.727605+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 31, "verse": 5, "reason": "anchor", "detail": "missing: vaso", "at": "2026-10-04T05:46:50.727852+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 6, "attempt": 1, "missing": ["vaso"], "at": "2026-10-04T05:46:54.275055+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 6, "attempt": 2, "missing": ["vaso"], "at": "2026-10-04T05:47:05.723603+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 6, "attempt": 3, "missing": ["vaso"], "at": "2026-10-04T05:47:08.577880+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 6, "attempt": 4, "missing": ["vaso"], "at": "2026-10-04T05:47:12.742474+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 31, "verse": 6, "reason": "anchor", "detail": "missing: vaso", "at": "2026-10-04T05:47:12.742805+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 7, "at": "2026-10-04T05:47:15.478901+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 8, "attempt": 1, "missing": ["indomani"], "at": "2026-10-04T05:47:16.971667+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 8, "attempt": 2, "missing": ["indomani"], "at": "2026-10-04T05:47:20.988908+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 8, "attempt": 3, "missing": ["indomani"], "at": "2026-10-04T05:47:23.422222+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 8, "attempt": 4, "missing": ["indomani"], "at": "2026-10-04T05:47:24.388400+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 31, "verse": 8, "reason": "anchor", "detail": "missing: indomani", "at": "2026-10-04T05:47:24.388664+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 9, "at": "2026-10-04T05:47:30.154295+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 10, "at": "2026-10-04T05:47:31.246010+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 11, "at": "2026-10-04T05:47:32.204152+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 12, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T05:47:34.885143+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 12, "attempt": 2, "missing": ["esercito"], "at": "2026-10-04T05:47:36.735383+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 12, "attempt": 3, "missing": ["esercito"], "at": "2026-10-04T05:47:37.599772+00:00"}
+{"kind": "anchor_fail", "book": "1SA", "chapter": 31, "verse": 12, "attempt": 4, "missing": ["esercito"], "at": "2026-10-04T05:47:39.501240+00:00"}
+{"kind": "quarantine", "book": "1SA", "chapter": 31, "verse": 12, "reason": "anchor", "detail": "missing: esercito", "at": "2026-10-04T05:47:39.501465+00:00"}
+{"kind": "promote", "book": "1SA", "chapter": 31, "verse": 13, "at": "2026-10-04T05:47:50.229731+00:00"}
+{"kind": "book_done", "book": "1SA", "promoted": 1998, "quarantined": 173, "at": "2026-10-04T05:47:50.229782+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 1, "at": "2026-10-04T05:47:52.939192+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 2, "at": "2026-10-04T05:47:56.519908+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 3, "at": "2026-10-04T05:47:57.533973+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 1, "verse": 4, "attempt": 1, "missing": ["parola"], "at": "2026-10-04T05:47:59.312706+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 4, "at": "2026-10-04T05:48:00.756547+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 5, "at": "2026-10-04T05:48:01.908373+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 6, "at": "2026-10-04T05:48:03.582112+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 7, "at": "2026-10-04T05:48:04.635534+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 8, "at": "2026-10-04T05:48:06.082667+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 9, "at": "2026-10-04T05:48:08.463114+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 10, "at": "2026-10-04T05:48:12.203449+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 11, "at": "2026-10-04T05:48:14.594525+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 12, "at": "2026-10-04T05:48:19.691157+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 13, "at": "2026-10-04T05:48:34.682909+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 14, "at": "2026-10-04T05:48:37.469239+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 15, "at": "2026-10-04T05:48:41.606770+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 16, "at": "2026-10-04T05:48:42.650911+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 17, "at": "2026-10-04T05:48:43.374473+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 18, "at": "2026-10-04T05:48:44.039783+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 19, "at": "2026-10-04T05:48:44.955606+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 20, "at": "2026-10-04T05:48:46.554927+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 21, "at": "2026-10-04T05:48:48.822583+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 1, "verse": 22, "attempt": 1, "missing": ["dietro"], "at": "2026-10-04T05:48:50.240163+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 1, "verse": 22, "attempt": 2, "missing": ["dietro"], "at": "2026-10-04T05:48:51.358055+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 1, "verse": 22, "attempt": 3, "missing": ["dietro"], "at": "2026-10-04T05:48:55.292521+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 1, "verse": 22, "attempt": 4, "missing": ["dietro"], "at": "2026-10-04T05:48:56.606042+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 1, "verse": 22, "reason": "anchor", "detail": "missing: dietro", "at": "2026-10-04T05:48:56.606286+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 23, "at": "2026-10-04T05:48:57.750669+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 24, "at": "2026-10-04T05:48:59.164668+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 25, "at": "2026-10-04T05:49:00.231548+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 26, "at": "2026-10-04T05:49:05.078276+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 1, "verse": 27, "at": "2026-10-04T05:49:06.810499+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 1, "at": "2026-10-04T05:49:13.104560+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 2, "at": "2026-10-04T05:49:14.192961+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 3, "at": "2026-10-04T05:49:15.358369+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 4, "at": "2026-10-04T05:49:17.295419+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 5, "at": "2026-10-04T05:49:18.678128+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 6, "at": "2026-10-04T05:49:19.685025+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 7, "at": "2026-10-04T05:49:21.461367+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 8, "at": "2026-10-04T05:49:22.617642+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 9, "at": "2026-10-04T05:49:23.463250+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 10, "at": "2026-10-04T05:49:26.525238+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 11, "at": "2026-10-04T05:49:28.613218+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 12, "at": "2026-10-04T05:49:31.400047+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 13, "at": "2026-10-04T05:49:33.144223+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 14, "at": "2026-10-04T05:49:34.781299+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 15, "at": "2026-10-04T05:49:35.674567+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 16, "at": "2026-10-04T05:49:36.942403+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 17, "at": "2026-10-04T05:49:38.207348+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 18, "at": "2026-10-04T05:49:39.946535+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 19, "at": "2026-10-04T05:49:41.030537+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 20, "at": "2026-10-04T05:49:42.122719+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 21, "at": "2026-10-04T05:49:43.706469+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 22, "at": "2026-10-04T05:49:45.198789+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 23, "at": "2026-10-04T05:49:46.793313+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 24, "attempt": 1, "missing": ["volto"], "at": "2026-10-04T05:49:48.225223+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 24, "at": "2026-10-04T05:49:49.450310+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 25, "at": "2026-10-04T05:49:52.366162+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 26, "at": "2026-10-04T05:49:57.454728+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 27, "attempt": 1, "missing": ["mattina", "uomo"], "at": "2026-10-04T05:49:58.539828+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 27, "at": "2026-10-04T05:49:59.560104+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 28, "at": "2026-10-04T05:50:00.444846+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 29, "at": "2026-10-04T05:50:04.249630+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 30, "at": "2026-10-04T05:50:12.025098+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 31, "attempt": 1, "missing": ["Beniamino"], "at": "2026-10-04T05:50:14.223231+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 31, "attempt": 2, "missing": ["Beniamino"], "at": "2026-10-04T05:50:15.045498+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 31, "attempt": 3, "missing": ["Beniamino"], "at": "2026-10-04T05:50:16.820092+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 2, "verse": 31, "attempt": 4, "missing": ["Beniamino"], "at": "2026-10-04T05:50:17.522408+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 2, "verse": 31, "reason": "anchor", "detail": "missing: Beniamino", "at": "2026-10-04T05:50:17.522646+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 2, "verse": 32, "at": "2026-10-04T05:51:01.378243+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 1, "at": "2026-10-04T05:51:02.100212+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 2, "at": "2026-10-04T05:51:09.097952+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 3, "at": "2026-10-04T05:51:16.559515+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 4, "at": "2026-10-04T05:51:18.537484+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 5, "at": "2026-10-04T05:51:22.111868+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 6, "at": "2026-10-04T05:51:23.091064+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 7, "at": "2026-10-04T05:51:24.028495+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 8, "attempt": 1, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:51:26.141584+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 8, "attempt": 2, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:51:28.013177+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 8, "attempt": 3, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:51:29.412566+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 8, "attempt": 4, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:51:30.939560+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 3, "verse": 8, "reason": "anchor", "detail": "missing: giorno, giorno", "at": "2026-10-04T05:51:30.939824+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 9, "at": "2026-10-04T05:51:31.607000+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 10, "at": "2026-10-04T05:51:32.674130+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 11, "at": "2026-10-04T05:51:33.456142+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 12, "at": "2026-10-04T05:51:34.689350+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 13, "at": "2026-10-04T05:51:36.024497+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 14, "attempt": 1, "missing": ["donna"], "at": "2026-10-04T05:51:38.181839+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 14, "at": "2026-10-04T05:51:40.196230+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 15, "at": "2026-10-04T05:51:44.706962+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 16, "at": "2026-10-04T05:51:45.457138+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 17, "at": "2026-10-04T05:51:48.735120+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 18, "at": "2026-10-04T05:51:51.456373+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 19, "at": "2026-10-04T05:51:52.472633+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 20, "at": "2026-10-04T05:51:53.465237+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 21, "at": "2026-10-04T05:51:55.080693+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 22, "at": "2026-10-04T05:51:56.642875+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 23, "at": "2026-10-04T05:51:58.292696+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 24, "at": "2026-10-04T05:52:01.137709+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 25, "at": "2026-10-04T05:52:02.169590+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 26, "at": "2026-10-04T05:52:04.533024+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 27, "at": "2026-10-04T05:52:06.090904+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 28, "attempt": 1, "missing": ["eternità"], "at": "2026-10-04T05:52:09.827408+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 28, "at": "2026-10-04T05:52:10.812138+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 29, "at": "2026-10-04T05:52:15.236606+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 30, "at": "2026-10-04T05:52:18.881641+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 31, "at": "2026-10-04T05:52:23.233580+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 32, "at": "2026-10-04T05:52:59.477667+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 33, "attempt": 1, "missing": ["morte"], "at": "2026-10-04T05:53:00.684761+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 33, "attempt": 2, "missing": ["morte"], "at": "2026-10-04T05:53:01.918120+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 33, "attempt": 3, "missing": ["morte"], "at": "2026-10-04T05:53:03.674354+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 33, "attempt": 4, "missing": ["morte"], "at": "2026-10-04T05:53:04.920564+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 3, "verse": 33, "reason": "anchor", "detail": "missing: morte", "at": "2026-10-04T05:53:04.920817+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 34, "at": "2026-10-04T05:53:07.474694+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 35, "attempt": 1, "missing": ["nulla"], "at": "2026-10-04T05:53:11.408752+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 35, "attempt": 2, "missing": ["nulla"], "at": "2026-10-04T05:53:15.357890+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 35, "attempt": 3, "missing": ["nulla"], "at": "2026-10-04T05:53:18.587112+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 35, "attempt": 4, "missing": ["nulla"], "at": "2026-10-04T05:53:20.226006+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 3, "verse": 35, "reason": "anchor", "detail": "missing: nulla", "at": "2026-10-04T05:53:20.226224+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 36, "at": "2026-10-04T05:53:21.374944+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 3, "verse": 37, "at": "2026-10-04T05:53:22.627719+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 38, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:53:23.702080+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 38, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:53:24.126622+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 38, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:53:24.953586+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 38, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:53:26.108627+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 3, "verse": 38, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:53:26.108864+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 39, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:53:30.629173+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 39, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:53:33.986740+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 39, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:53:35.312989+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 3, "verse": 39, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:53:38.419059+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 3, "verse": 39, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:53:38.419286+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 1, "at": "2026-10-04T05:53:39.678065+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 2, "at": "2026-10-04T05:53:41.774028+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 3, "at": "2026-10-04T05:53:42.381457+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 4, "at": "2026-10-04T05:53:44.772463+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 5, "at": "2026-10-04T05:53:46.796362+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 6, "at": "2026-10-04T05:53:50.154911+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 7, "at": "2026-10-04T05:53:56.169312+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 4, "verse": 8, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T05:53:59.429192+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 4, "verse": 8, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T05:54:00.647001+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 4, "verse": 8, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T05:54:01.810362+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 4, "verse": 8, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T05:54:04.181976+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 4, "verse": 8, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T05:54:04.182227+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 9, "at": "2026-10-04T05:54:05.324176+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 10, "at": "2026-10-04T05:54:06.884661+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 11, "at": "2026-10-04T05:54:08.339081+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 4, "verse": 12, "at": "2026-10-04T05:54:10.252172+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 1, "at": "2026-10-04T05:54:11.270213+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 2, "at": "2026-10-04T05:54:13.482761+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 3, "at": "2026-10-04T05:54:15.922351+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 4, "attempt": 1, "missing": ["figlio"], "at": "2026-10-04T05:54:17.095007+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 4, "at": "2026-10-04T05:54:17.525296+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 5, "at": "2026-10-04T05:54:19.434629+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 6, "attempt": 1, "missing": ["Gebusei"], "at": "2026-10-04T05:54:21.573726+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 6, "attempt": 2, "missing": ["Gebusei"], "at": "2026-10-04T05:54:22.777001+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 6, "attempt": 3, "missing": ["Gebusei"], "at": "2026-10-04T05:54:24.016208+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 6, "attempt": 4, "missing": ["Gebusei"], "at": "2026-10-04T05:54:25.412665+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 5, "verse": 6, "reason": "anchor", "detail": "missing: Gebusei", "at": "2026-10-04T05:54:25.412945+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 7, "at": "2026-10-04T05:54:26.113135+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 8, "attempt": 1, "missing": ["tutto", "Gebusei"], "at": "2026-10-04T05:54:30.411294+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 8, "attempt": 2, "missing": ["tutto", "Gebusei"], "at": "2026-10-04T05:54:32.287277+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 8, "attempt": 3, "missing": ["tutto", "Gebusei"], "at": "2026-10-04T05:54:33.186488+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 8, "attempt": 4, "missing": ["tutto", "Gebusei"], "at": "2026-10-04T05:54:34.321617+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 5, "verse": 8, "reason": "anchor", "detail": "missing: tutto, Gebusei", "at": "2026-10-04T05:54:34.321841+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 9, "at": "2026-10-04T05:55:12.964159+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 10, "at": "2026-10-04T05:55:15.160905+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 11, "at": "2026-10-04T05:55:16.366962+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 12, "at": "2026-10-04T05:55:18.191074+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 13, "at": "2026-10-04T05:55:20.165599+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 14, "at": "2026-10-04T05:55:21.429631+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 15, "at": "2026-10-04T05:55:22.471180+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 16, "at": "2026-10-04T05:55:23.677695+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 17, "at": "2026-10-04T05:55:25.680613+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 18, "at": "2026-10-04T05:55:26.647485+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 19, "at": "2026-10-04T05:55:28.031750+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 20, "at": "2026-10-04T05:55:30.956673+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 21, "at": "2026-10-04T05:55:31.795666+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 22, "at": "2026-10-04T05:55:32.994103+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 23, "at": "2026-10-04T05:55:34.402142+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 24, "attempt": 1, "missing": ["voce", "capo"], "at": "2026-10-04T05:55:36.701831+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 24, "attempt": 2, "missing": ["voce", "capo"], "at": "2026-10-04T05:55:37.706103+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 24, "attempt": 3, "missing": ["capo"], "at": "2026-10-04T05:55:38.749111+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 5, "verse": 24, "attempt": 4, "missing": ["voce", "capo"], "at": "2026-10-04T05:55:40.554845+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 5, "verse": 24, "reason": "anchor", "detail": "missing: capo", "at": "2026-10-04T05:55:40.555083+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 5, "verse": 25, "at": "2026-10-04T05:55:42.475242+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 1, "at": "2026-10-04T05:55:43.485726+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 2, "at": "2026-10-04T05:56:25.120733+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 3, "at": "2026-10-04T05:56:27.791266+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 4, "at": "2026-10-04T05:56:31.624979+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 5, "at": "2026-10-04T05:56:32.624800+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 6, "at": "2026-10-04T05:56:35.736786+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 7, "at": "2026-10-04T05:56:38.408351+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 8, "at": "2026-10-04T05:56:39.114315+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 9, "at": "2026-10-04T05:56:41.845329+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 10, "at": "2026-10-04T05:56:42.955060+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 11, "at": "2026-10-04T05:56:47.125868+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 12, "at": "2026-10-04T05:56:48.614254+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 13, "at": "2026-10-04T05:56:49.624904+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 14, "at": "2026-10-04T05:56:50.254197+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 15, "at": "2026-10-04T05:56:50.994738+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 16, "at": "2026-10-04T05:56:52.173202+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 17, "at": "2026-10-04T05:56:53.430193+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 18, "at": "2026-10-04T05:56:54.157115+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 19, "at": "2026-10-04T05:56:55.777907+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 6, "verse": 20, "attempt": 1, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:56:58.336090+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 6, "verse": 20, "attempt": 2, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:57:00.318864+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 6, "verse": 20, "attempt": 3, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:57:02.023309+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 6, "verse": 20, "attempt": 4, "missing": ["giorno", "giorno"], "at": "2026-10-04T05:57:03.188184+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 6, "verse": 20, "reason": "anchor", "detail": "missing: giorno, giorno", "at": "2026-10-04T05:57:03.188426+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 21, "at": "2026-10-04T05:57:05.361231+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 22, "at": "2026-10-04T05:57:07.012225+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 6, "verse": 23, "at": "2026-10-04T05:57:10.340644+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 1, "at": "2026-10-04T05:57:11.248367+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 2, "at": "2026-10-04T05:57:14.604183+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 3, "at": "2026-10-04T05:57:15.808822+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 4, "at": "2026-10-04T05:57:16.654960+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 5, "at": "2026-10-04T05:57:18.747208+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 6, "at": "2026-10-04T05:57:19.867252+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 7, "at": "2026-10-04T05:57:21.539337+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 8, "at": "2026-10-04T05:57:23.340496+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 9, "at": "2026-10-04T05:57:24.824687+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 10, "at": "2026-10-04T05:57:26.759522+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 11, "at": "2026-10-04T05:57:28.287716+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 12, "at": "2026-10-04T05:57:30.936884+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 13, "at": "2026-10-04T05:57:32.290585+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 14, "at": "2026-10-04T05:57:35.938215+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 15, "at": "2026-10-04T05:57:36.495954+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 16, "at": "2026-10-04T05:57:38.147289+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 17, "at": "2026-10-04T05:57:41.416025+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 18, "at": "2026-10-04T05:57:42.617037+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 19, "at": "2026-10-04T05:57:46.181646+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 20, "at": "2026-10-04T05:57:54.052264+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 21, "at": "2026-10-04T05:57:57.674606+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 22, "at": "2026-10-04T05:58:00.480572+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 7, "verse": 23, "attempt": 1, "missing": ["maestà"], "at": "2026-10-04T05:58:01.868516+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 23, "at": "2026-10-04T05:58:03.386429+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 24, "at": "2026-10-04T05:58:05.498656+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 25, "at": "2026-10-04T05:58:09.296363+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 7, "verse": 26, "attempt": 1, "missing": ["eternità"], "at": "2026-10-04T05:58:13.127321+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 26, "at": "2026-10-04T05:58:16.587895+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 27, "at": "2026-10-04T05:58:18.184618+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 28, "at": "2026-10-04T05:58:19.625290+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 7, "verse": 29, "at": "2026-10-04T05:58:22.227164+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 1, "at": "2026-10-04T05:58:23.892946+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 2, "at": "2026-10-04T05:58:26.962362+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 3, "at": "2026-10-04T05:58:27.900477+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 4, "at": "2026-10-04T05:58:29.482493+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 5, "at": "2026-10-04T05:58:31.024327+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 6, "at": "2026-10-04T05:58:32.626034+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 7, "at": "2026-10-04T05:58:33.494783+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 8, "at": "2026-10-04T05:58:40.159190+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 9, "at": "2026-10-04T05:58:41.064266+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 10, "at": "2026-10-04T05:58:43.805538+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 11, "at": "2026-10-04T05:58:45.082334+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 12, "at": "2026-10-04T05:58:45.937544+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 13, "at": "2026-10-04T05:58:46.931177+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 14, "at": "2026-10-04T05:59:01.850471+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 15, "at": "2026-10-04T05:59:02.694281+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 16, "at": "2026-10-04T05:59:03.804458+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 17, "at": "2026-10-04T05:59:04.936593+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 8, "verse": 18, "at": "2026-10-04T05:59:06.273666+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 1, "at": "2026-10-04T05:59:06.996406+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 2, "at": "2026-10-04T05:59:07.756174+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 3, "attempt": 1, "missing": ["estremità", "uomo"], "at": "2026-10-04T05:59:09.681047+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 3, "attempt": 2, "missing": ["estremità", "uomo"], "at": "2026-10-04T05:59:15.823821+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 3, "attempt": 3, "missing": ["estremità", "uomo"], "at": "2026-10-04T05:59:19.560147+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 3, "attempt": 4, "missing": ["estremità", "uomo"], "at": "2026-10-04T05:59:22.244267+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 9, "verse": 3, "reason": "anchor", "detail": "missing: estremità, uomo", "at": "2026-10-04T05:59:22.244518+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 4, "at": "2026-10-04T05:59:23.275820+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 5, "at": "2026-10-04T05:59:24.329450+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 6, "at": "2026-10-04T05:59:26.447062+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 7, "attempt": 1, "missing": ["continuo"], "at": "2026-10-04T05:59:28.889368+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 7, "attempt": 2, "missing": ["continuo"], "at": "2026-10-04T05:59:30.285902+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 7, "attempt": 3, "missing": ["continuo"], "at": "2026-10-04T05:59:31.325765+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 7, "attempt": 4, "missing": ["continuo"], "at": "2026-10-04T05:59:32.049297+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 9, "verse": 7, "reason": "anchor", "detail": "missing: continuo", "at": "2026-10-04T05:59:32.049522+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 8, "at": "2026-10-04T05:59:33.814571+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 9, "at": "2026-10-04T05:59:35.465621+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 10, "attempt": 1, "missing": ["continuo"], "at": "2026-10-04T05:59:36.940031+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 10, "attempt": 2, "missing": ["continuo"], "at": "2026-10-04T05:59:38.207474+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 10, "attempt": 3, "missing": ["continuo"], "at": "2026-10-04T05:59:39.370049+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 10, "attempt": 4, "missing": ["continuo"], "at": "2026-10-04T05:59:41.398819+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 9, "verse": 10, "reason": "anchor", "detail": "missing: continuo", "at": "2026-10-04T05:59:41.399040+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 11, "at": "2026-10-04T05:59:45.591480+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 9, "verse": 12, "at": "2026-10-04T05:59:50.433122+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 13, "attempt": 1, "missing": ["continuo"], "at": "2026-10-04T05:59:52.026908+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 13, "attempt": 2, "missing": ["continuo"], "at": "2026-10-04T05:59:53.336363+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 13, "attempt": 3, "missing": ["continuo"], "at": "2026-10-04T05:59:55.022094+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 9, "verse": 13, "attempt": 4, "missing": ["continuo"], "at": "2026-10-04T05:59:55.990688+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 9, "verse": 13, "reason": "anchor", "detail": "missing: continuo", "at": "2026-10-04T05:59:55.990933+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 1, "at": "2026-10-04T05:59:56.719020+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 2, "attempt": 1, "missing": ["mano"], "at": "2026-10-04T05:59:59.905658+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 2, "attempt": 2, "missing": ["mano"], "at": "2026-10-04T06:00:04.618512+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 2, "attempt": 3, "missing": ["mano"], "at": "2026-10-04T06:00:05.773323+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 2, "attempt": 4, "missing": ["mano"], "at": "2026-10-04T06:00:06.886522+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 10, "verse": 2, "reason": "anchor", "detail": "missing: mano", "at": "2026-10-04T06:00:06.886775+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 3, "at": "2026-10-04T06:00:13.569216+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 4, "at": "2026-10-04T06:00:14.414537+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 5, "at": "2026-10-04T06:00:15.329903+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 6, "attempt": 1, "missing": ["Aram", "Aram"], "at": "2026-10-04T06:00:19.789818+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 6, "attempt": 2, "missing": ["Aram", "Aram"], "at": "2026-10-04T06:00:24.901157+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 6, "attempt": 3, "missing": ["Aram", "Aram"], "at": "2026-10-04T06:00:28.425146+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 6, "attempt": 4, "missing": ["Aram", "Aram"], "at": "2026-10-04T06:00:30.532328+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 10, "verse": 6, "reason": "anchor", "detail": "missing: Aram, Aram", "at": "2026-10-04T06:00:30.532590+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 7, "at": "2026-10-04T06:00:34.773082+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 8, "attempt": 1, "missing": ["guerra"], "at": "2026-10-04T06:00:36.607385+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 8, "attempt": 2, "missing": ["guerra"], "at": "2026-10-04T06:00:37.724622+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 8, "attempt": 3, "missing": ["guerra"], "at": "2026-10-04T06:00:40.036814+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 8, "attempt": 4, "missing": ["guerra"], "at": "2026-10-04T06:00:41.775145+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 10, "verse": 8, "reason": "anchor", "detail": "missing: guerra", "at": "2026-10-04T06:00:41.775407+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 9, "attempt": 1, "missing": ["volto", "volto"], "at": "2026-10-04T06:00:43.037461+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 9, "attempt": 2, "missing": ["guerra"], "at": "2026-10-04T06:00:48.622167+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 9, "attempt": 3, "missing": ["volto", "volto"], "at": "2026-10-04T06:00:50.218950+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 9, "attempt": 4, "missing": ["volto", "guerra", "volto"], "at": "2026-10-04T06:00:51.961539+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 10, "verse": 9, "reason": "anchor", "detail": "missing: guerra", "at": "2026-10-04T06:00:51.961766+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 10, "at": "2026-10-04T06:00:53.594975+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 11, "at": "2026-10-04T06:00:55.817279+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 12, "at": "2026-10-04T06:00:56.800544+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 13, "at": "2026-10-04T06:00:58.522904+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 14, "at": "2026-10-04T06:01:00.629894+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 15, "at": "2026-10-04T06:01:02.005413+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 10, "verse": 16, "attempt": 1, "missing": ["Aram", "lato", "volto"], "at": "2026-10-04T06:01:03.289736+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 16, "at": "2026-10-04T06:01:05.517961+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 17, "at": "2026-10-04T06:01:06.612299+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 18, "at": "2026-10-04T06:01:08.045431+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 10, "verse": 19, "at": "2026-10-04T06:01:10.311347+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 1, "attempt": 1, "missing": ["risposta"], "at": "2026-10-04T06:01:14.498436+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 1, "attempt": 2, "missing": ["risposta"], "at": "2026-10-04T06:01:17.831236+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 1, "attempt": 3, "missing": ["risposta"], "at": "2026-10-04T06:01:20.457541+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 1, "attempt": 4, "missing": ["risposta"], "at": "2026-10-04T06:01:21.967039+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 11, "verse": 1, "reason": "anchor", "detail": "missing: risposta", "at": "2026-10-04T06:01:21.967277+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 2, "at": "2026-10-04T06:01:25.181378+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 3, "at": "2026-10-04T06:01:29.716183+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 4, "at": "2026-10-04T06:01:35.260023+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 5, "at": "2026-10-04T06:01:38.285975+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 6, "at": "2026-10-04T06:01:44.588713+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 7, "at": "2026-10-04T06:01:48.310515+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 8, "at": "2026-10-04T06:01:53.110607+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 9, "at": "2026-10-04T06:01:55.564239+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 10, "at": "2026-10-04T06:03:06.790716+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 11, "at": "2026-10-04T06:03:10.133402+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 12, "at": "2026-10-04T06:03:11.041692+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 13, "at": "2026-10-04T06:03:12.543331+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 14, "at": "2026-10-04T06:03:13.972814+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 15, "at": "2026-10-04T06:03:14.940038+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 16, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T06:03:16.078576+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 16, "at": "2026-10-04T06:03:17.777066+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 17, "at": "2026-10-04T06:03:18.885056+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 18, "at": "2026-10-04T06:03:19.872841+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 19, "at": "2026-10-04T06:03:20.861550+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 20, "at": "2026-10-04T06:03:23.780604+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 21, "attempt": 1, "missing": ["carro"], "at": "2026-10-04T06:03:26.818921+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 21, "at": "2026-10-04T06:03:34.718744+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 22, "at": "2026-10-04T06:03:36.355566+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 23, "at": "2026-10-04T06:03:43.014629+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 24, "at": "2026-10-04T06:03:46.723760+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 11, "verse": 25, "attempt": 1, "missing": ["occhio", "parola"], "at": "2026-10-04T06:03:50.883227+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 25, "at": "2026-10-04T06:03:52.490740+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 26, "at": "2026-10-04T06:03:53.534003+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 11, "verse": 27, "at": "2026-10-04T06:03:58.072928+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 1, "at": "2026-10-04T06:05:03.380304+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 2, "at": "2026-10-04T06:05:04.010546+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 3, "attempt": 1, "missing": ["tutto"], "at": "2026-10-04T06:05:06.117101+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 3, "attempt": 2, "missing": ["tutto"], "at": "2026-10-04T06:05:07.629874+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 3, "attempt": 3, "missing": ["tutto"], "at": "2026-10-04T06:05:09.250357+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 3, "attempt": 4, "missing": ["tutto"], "at": "2026-10-04T06:05:12.702618+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 12, "verse": 3, "reason": "anchor", "detail": "missing: tutto", "at": "2026-10-04T06:05:12.702856+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 4, "at": "2026-10-04T06:05:15.721682+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 5, "at": "2026-10-04T06:05:19.566156+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 6, "at": "2026-10-04T06:05:22.943726+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 7, "at": "2026-10-04T06:05:24.503465+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 8, "at": "2026-10-04T06:05:27.335195+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 9, "at": "2026-10-04T06:05:29.445564+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 10, "at": "2026-10-04T06:05:30.703912+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 11, "at": "2026-10-04T06:05:35.931099+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 12, "at": "2026-10-04T06:05:37.861901+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 13, "at": "2026-10-04T06:05:44.583012+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 14, "attempt": 1, "missing": ["estremità"], "at": "2026-10-04T06:05:45.662590+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 14, "attempt": 2, "missing": ["estremità"], "at": "2026-10-04T06:05:48.016717+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 14, "attempt": 3, "missing": ["estremità"], "at": "2026-10-04T06:05:49.755072+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 14, "attempt": 4, "missing": ["estremità"], "at": "2026-10-04T06:05:50.898221+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 12, "verse": 14, "reason": "anchor", "detail": "missing: estremità", "at": "2026-10-04T06:05:50.898469+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 15, "at": "2026-10-04T06:05:52.167495+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 16, "at": "2026-10-04T06:05:53.425545+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 17, "at": "2026-10-04T06:05:54.534708+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 18, "at": "2026-10-04T06:05:55.999848+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 19, "at": "2026-10-04T06:05:57.657732+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 12, "verse": 20, "attempt": 1, "missing": ["vestito", "vestito"], "at": "2026-10-04T06:06:11.178467+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 20, "at": "2026-10-04T06:06:12.648661+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 21, "at": "2026-10-04T06:06:14.568235+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 22, "at": "2026-10-04T06:06:16.394682+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 23, "at": "2026-10-04T06:06:18.606228+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 24, "at": "2026-10-04T06:06:20.061094+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 25, "at": "2026-10-04T06:06:21.734204+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 26, "at": "2026-10-04T06:06:22.895766+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 27, "at": "2026-10-04T06:06:24.010430+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 28, "at": "2026-10-04T06:06:28.083431+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 29, "at": "2026-10-04T06:06:29.602917+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 30, "at": "2026-10-04T06:06:31.177376+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 12, "verse": 31, "at": "2026-10-04T06:06:32.685520+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 1, "at": "2026-10-04T06:06:37.007349+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 2, "at": "2026-10-04T06:06:39.009536+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 3, "at": "2026-10-04T06:06:42.349475+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 4, "at": "2026-10-04T06:06:46.441705+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 5, "at": "2026-10-04T06:06:48.833083+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 6, "at": "2026-10-04T06:06:52.996987+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 7, "at": "2026-10-04T06:06:53.814965+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 8, "at": "2026-10-04T06:06:55.778999+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 9, "at": "2026-10-04T06:06:57.619089+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 10, "at": "2026-10-04T06:06:59.154224+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 11, "at": "2026-10-04T06:07:00.594762+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 12, "at": "2026-10-04T06:07:01.819518+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 13, "at": "2026-10-04T06:07:03.671787+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 14, "at": "2026-10-04T06:07:06.545256+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 15, "at": "2026-10-04T06:07:08.476435+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 16, "at": "2026-10-04T06:07:09.530171+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 17, "at": "2026-10-04T06:07:10.412264+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 18, "attempt": 1, "missing": ["manto"], "at": "2026-10-04T06:07:11.927579+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 18, "attempt": 2, "missing": ["veste variopinta", "manto"], "at": "2026-10-04T06:07:13.395752+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 18, "attempt": 3, "missing": ["veste variopinta", "manto"], "at": "2026-10-04T06:07:15.209021+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 18, "attempt": 4, "missing": ["manto"], "at": "2026-10-04T06:07:17.092509+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 13, "verse": 18, "reason": "anchor", "detail": "missing: manto", "at": "2026-10-04T06:07:17.092720+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 19, "attempt": 1, "missing": ["veste variopinta"], "at": "2026-10-04T06:07:18.897936+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 19, "attempt": 2, "missing": ["veste variopinta"], "at": "2026-10-04T06:07:20.568626+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 19, "attempt": 3, "missing": ["veste variopinta"], "at": "2026-10-04T06:07:22.820239+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 19, "attempt": 4, "missing": ["veste variopinta"], "at": "2026-10-04T06:07:23.880303+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 13, "verse": 19, "reason": "anchor", "detail": "missing: veste variopinta", "at": "2026-10-04T06:07:23.880554+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 20, "at": "2026-10-04T06:07:26.151884+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 21, "at": "2026-10-04T06:07:27.160302+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 22, "at": "2026-10-04T06:07:31.492601+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 23, "at": "2026-10-04T06:07:33.976139+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 24, "at": "2026-10-04T06:07:38.286157+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 25, "at": "2026-10-04T06:07:39.441422+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 26, "at": "2026-10-04T06:07:40.186970+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 27, "at": "2026-10-04T06:07:40.653600+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 28, "attempt": 1, "missing": ["esercito"], "at": "2026-10-04T06:07:43.283558+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 28, "at": "2026-10-04T06:07:45.344228+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 29, "attempt": 1, "missing": ["uomo"], "at": "2026-10-04T06:07:49.518514+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 29, "attempt": 2, "missing": ["giovane"], "at": "2026-10-04T06:07:53.723215+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 29, "attempt": 3, "missing": ["giovane"], "at": "2026-10-04T06:07:57.482116+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 29, "at": "2026-10-04T06:08:01.406922+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 30, "at": "2026-10-04T06:08:02.711874+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 31, "at": "2026-10-04T06:08:04.752629+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 32, "at": "2026-10-04T06:08:07.125918+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 33, "at": "2026-10-04T06:08:07.928784+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 34, "at": "2026-10-04T06:08:09.347258+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 35, "at": "2026-10-04T06:08:10.439106+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 36, "at": "2026-10-04T06:08:11.940216+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 37, "attempt": 1, "missing": ["Ammiur"], "at": "2026-10-04T06:08:14.336283+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 37, "attempt": 2, "missing": ["Ammiud"], "at": "2026-10-04T06:08:17.388825+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 37, "attempt": 3, "missing": ["Ammiur"], "at": "2026-10-04T06:08:19.645473+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 13, "verse": 37, "attempt": 4, "missing": ["Ammiud"], "at": "2026-10-04T06:08:21.099057+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 13, "verse": 37, "reason": "anchor", "detail": "missing: Ammiur", "at": "2026-10-04T06:08:21.099280+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 38, "at": "2026-10-04T06:08:21.877451+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 13, "verse": 39, "at": "2026-10-04T06:08:23.186939+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 1, "at": "2026-10-04T06:08:24.775162+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 2, "at": "2026-10-04T06:08:26.679610+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 3, "at": "2026-10-04T06:08:27.882337+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 4, "attempt": 1, "missing": ["ira"], "at": "2026-10-04T06:08:29.163829+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 4, "at": "2026-10-04T06:08:31.467082+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 5, "at": "2026-10-04T06:08:33.089171+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 6, "at": "2026-10-04T06:08:37.427140+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 7, "at": "2026-10-04T06:08:40.206752+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 8, "at": "2026-10-04T06:08:42.274980+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 9, "attempt": 1, "missing": ["Tecoi"], "at": "2026-10-04T06:09:11.331040+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 9, "at": "2026-10-04T06:09:11.963415+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 10, "at": "2026-10-04T06:09:16.953845+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 11, "at": "2026-10-04T06:09:19.374716+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 12, "at": "2026-10-04T06:09:22.884574+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 13, "at": "2026-10-04T06:09:24.229896+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 14, "at": "2026-10-04T06:09:26.623415+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 15, "at": "2026-10-04T06:09:28.477794+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 16, "at": "2026-10-04T06:09:30.515518+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 17, "at": "2026-10-04T06:09:35.563762+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 18, "at": "2026-10-04T06:10:08.191882+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 19, "at": "2026-10-04T06:10:11.644097+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 20, "at": "2026-10-04T06:10:12.779274+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 21, "at": "2026-10-04T06:10:14.161437+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 22, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T06:10:16.435335+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 22, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T06:10:19.023854+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 22, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T06:10:23.477745+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 22, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T06:10:26.649444+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 14, "verse": 22, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T06:10:26.649708+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 23, "at": "2026-10-04T06:10:27.772625+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 24, "at": "2026-10-04T06:10:29.190645+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 25, "attempt": 1, "missing": ["mano"], "at": "2026-10-04T06:10:30.556528+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 25, "attempt": 2, "missing": ["mano"], "at": "2026-10-04T06:10:31.944565+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 25, "attempt": 3, "missing": ["mano"], "at": "2026-10-04T06:10:33.164984+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 25, "attempt": 4, "missing": ["mano"], "at": "2026-10-04T06:10:35.850269+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 14, "verse": 25, "reason": "anchor", "detail": "missing: mano", "at": "2026-10-04T06:10:35.850499+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 26, "attempt": 1, "missing": ["pelo"], "at": "2026-10-04T06:10:37.594811+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 26, "at": "2026-10-04T06:10:39.881939+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 27, "at": "2026-10-04T06:10:43.217214+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 28, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T06:10:46.587307+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 28, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T06:10:48.043784+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 28, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T06:10:49.807225+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 28, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T06:10:51.363272+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 14, "verse": 28, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T06:10:51.363512+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 29, "at": "2026-10-04T06:10:53.714058+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 30, "at": "2026-10-04T06:10:55.019209+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 31, "attempt": 1, "missing": ["fuoco"], "at": "2026-10-04T06:10:59.125009+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 31, "attempt": 2, "missing": ["fuoco"], "at": "2026-10-04T06:11:01.564176+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 31, "attempt": 3, "missing": ["fuoco"], "at": "2026-10-04T06:11:06.549604+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 31, "at": "2026-10-04T06:11:11.324499+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 32, "at": "2026-10-04T06:11:14.582895+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 33, "attempt": 1, "missing": ["ira"], "at": "2026-10-04T06:11:17.298275+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 33, "attempt": 2, "missing": ["ira"], "at": "2026-10-04T06:11:18.689369+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 14, "verse": 33, "attempt": 3, "missing": ["ira"], "at": "2026-10-04T06:11:19.600534+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 14, "verse": 33, "at": "2026-10-04T06:11:20.534469+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 1, "at": "2026-10-04T06:11:23.974226+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 2, "at": "2026-10-04T06:11:27.771155+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 3, "at": "2026-10-04T06:11:29.115918+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 4, "at": "2026-10-04T06:11:30.915451+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 5, "at": "2026-10-04T06:11:32.119918+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 6, "at": "2026-10-04T06:11:33.847499+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 7, "at": "2026-10-04T06:11:37.627646+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 8, "at": "2026-10-04T06:11:39.132179+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 9, "at": "2026-10-04T06:11:40.274156+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 10, "attempt": 1, "missing": ["voce"], "at": "2026-10-04T06:11:42.336308+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 10, "at": "2026-10-04T06:11:43.789592+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 11, "attempt": 1, "missing": ["tutto"], "at": "2026-10-04T06:11:49.730934+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 11, "attempt": 2, "missing": ["tutto"], "at": "2026-10-04T06:11:51.619154+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 11, "attempt": 3, "missing": ["tutto"], "at": "2026-10-04T06:11:52.969799+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 11, "attempt": 4, "missing": ["tutto"], "at": "2026-10-04T06:11:54.019874+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 15, "verse": 11, "reason": "anchor", "detail": "missing: tutto", "at": "2026-10-04T06:11:54.020097+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 12, "at": "2026-10-04T06:11:55.382367+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 13, "at": "2026-10-04T06:12:00.899640+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 14, "at": "2026-10-04T06:12:03.305176+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 15, "at": "2026-10-04T06:12:07.032231+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 16, "at": "2026-10-04T06:12:16.923444+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 17, "at": "2026-10-04T06:13:03.073035+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 18, "attempt": 1, "missing": ["mano"], "at": "2026-10-04T06:13:06.673120+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 18, "attempt": 2, "missing": ["mano"], "at": "2026-10-04T06:13:08.771099+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 18, "attempt": 3, "missing": ["mano"], "at": "2026-10-04T06:13:11.077818+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 18, "attempt": 4, "missing": ["mano"], "at": "2026-10-04T06:13:14.073960+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 15, "verse": 18, "reason": "anchor", "detail": "missing: mano", "at": "2026-10-04T06:13:14.074245+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 19, "at": "2026-10-04T06:13:15.234680+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 20, "attempt": 1, "missing": ["giorno"], "at": "2026-10-04T06:13:17.946161+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 20, "attempt": 2, "missing": ["giorno"], "at": "2026-10-04T06:13:19.260118+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 20, "attempt": 3, "missing": ["giorno"], "at": "2026-10-04T06:13:20.015083+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 20, "attempt": 4, "missing": ["giorno"], "at": "2026-10-04T06:13:20.928486+00:00"}
+{"kind": "quarantine", "book": "2SA", "chapter": 15, "verse": 20, "reason": "anchor", "detail": "missing: giorno", "at": "2026-10-04T06:13:20.928727+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 21, "at": "2026-10-04T06:13:22.864640+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 22, "at": "2026-10-04T06:13:24.879826+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 23, "at": "2026-10-04T06:13:27.291625+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 24, "at": "2026-10-04T06:13:28.950665+00:00"}
+{"kind": "lint_fail", "book": "2SA", "chapter": 15, "verse": 25, "why": ["non-straight quote marks"], "attempt": 1, "at": "2026-10-04T06:13:30.794779+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 25, "at": "2026-10-04T06:13:32.323392+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 26, "at": "2026-10-04T06:13:33.372561+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 27, "at": "2026-10-04T06:13:34.862466+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 28, "at": "2026-10-04T06:13:35.791841+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 29, "at": "2026-10-04T06:13:36.938217+00:00"}
+{"kind": "anchor_fail", "book": "2SA", "chapter": 15, "verse": 30, "attempt": 1, "missing": ["uomo"], "at": "2026-10-04T06:13:38.218630+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 30, "at": "2026-10-04T06:13:39.349534+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 31, "at": "2026-10-04T06:13:40.506335+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 32, "at": "2026-10-04T06:13:42.417912+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 33, "at": "2026-10-04T06:13:43.706490+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 34, "at": "2026-10-04T06:13:46.085364+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 35, "at": "2026-10-04T06:13:47.252706+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 36, "at": "2026-10-04T06:13:49.225589+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 15, "verse": 37, "at": "2026-10-04T06:13:50.902588+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 16, "verse": 1, "at": "2026-10-04T06:13:58.887120+00:00"}
+{"kind": "promote", "book": "2SA", "chapter": 16, "verse": 2, "at": "2026-10-04T06:14:03.257005+00:00"}
