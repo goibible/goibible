@@ -1,7 +1,9 @@
 {
- "done": true,
- "promoted": 5370,
- "quarantined": 392,
- "at": "2026-10-03T23:07:35.965609+00:00",
- "pid": 2310098
+ "book": "JOS",
+ "chapter": 7,
+ "verse": 12,
+ "promoted": 123,
+ "quarantined": 13,
+ "at": "2026-10-04T04:14:05.088590+00:00",
+ "pid": 3064598
 }
