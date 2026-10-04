@@ -165,12 +165,12 @@
     "bcp47_tag": "fr",
     "language_subtag": "fr",
     "display_name": "GOI Bible French",
-    "status": "pending",
+    "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_fr",
     "filename_suffix": "GOI_Fr",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "In-progress French edition, translated from Hebrew WLC / Greek TR1550. Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot."
+    "notes": "French full Bible (66 books, 31,102 verses), translated from Hebrew WLC / Greek TR1550; NT 7,957 and OT 23,145 complete, OT quarantine/triage closed to zero (2026-10-02). No native-speaker review has been performed (AI review only). Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot."
   },
   {
     "edition_id": "GOI_It",

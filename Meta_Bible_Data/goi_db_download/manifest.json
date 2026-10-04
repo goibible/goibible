@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-10-01T03:18:02+00:00",
+  "generated_at": "2026-10-04T22:15:00+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -14,7 +14,7 @@
       "status": "active",
       "file": "GOI_En.db",
       "size_bytes": 9039872,
-      "sha256": "dc6c4f4f9e11c97a8080546d27e930f8b1d46c1a9b10789f3a4c9cbf1ccabd2c",
+      "sha256": "b380f855441e38c39afa49d65b09f5c59eb51cc30a8e8ffbd6693ab2d603b0e9",
       "verse_count": 31102
     },
     {
@@ -25,7 +25,18 @@
       "status": "active",
       "file": "GOI_Es.db",
       "size_bytes": 8970240,
-      "sha256": "dd8bb18ad4eded6a75e287f0ad1ed5e683d712093794da194c1d35ade81d938f",
+      "sha256": "531506691981f2d514abba45bc47eae65009a87174145a6bcfcfb301d9ac2660",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Fr",
+      "display_name": "GOI Bible French",
+      "bcp47_tag": "fr",
+      "language_subtag": "fr",
+      "status": "active",
+      "file": "GOI_Fr.db",
+      "size_bytes": 9367552,
+      "sha256": "2b765dc9c2fcbb79b699a054bd7b2e4253b18b594d4e396bbb23a41e09cf2c2f",
       "verse_count": 31102
     },
     {
@@ -36,7 +47,7 @@
       "status": "active",
       "file": "GOI_Ja.db",
       "size_bytes": 10420224,
-      "sha256": "0b2ce6963ccb5b8e6de177f85464cdf34f22d4fc4c314af6bc3feb649443a206",
+      "sha256": "1fb75ba7189bfe5cf0f3424a0db9d45cb3eb0cb911b0a21be760227052b4d5a7",
       "verse_count": 31102
     },
     {
@@ -47,7 +58,7 @@
       "status": "active",
       "file": "GOI_Ko.db",
       "size_bytes": 10018816,
-      "sha256": "e18d269b38fb2ca6d1c857f207016670c2a43d90230ab4e9d2d69a66bbbc9264",
+      "sha256": "c3f9e64c271bf85b264f71d41a86853df4a4775a0b4a590f2264cbc1f23aac39",
       "verse_count": 31102
     },
     {
@@ -58,7 +69,7 @@
       "status": "active",
       "file": "GOI_Pt.db",
       "size_bytes": 8945664,
-      "sha256": "1e4e43ec5e805fa188b700fa037a11918a87aa291c43eb32e735953720108859",
+      "sha256": "47347173b7e0b00702b5685f1e33414c3f0687fd143aa86cb64921c0b91ee0a6",
       "verse_count": 31102
     },
     {
@@ -69,7 +80,7 @@
       "status": "active",
       "file": "GOI_Ru.db",
       "size_bytes": 11157504,
-      "sha256": "67b17f3ee8aa5e033b97121704ac488537b13b5b3281bc37caafd393e71f3323",
+      "sha256": "e0007b884824cd6065b8ec8b79e8267c241b158746470639b6d8cc69e08b7b1a",
       "verse_count": 31102
     },
     {
@@ -80,7 +91,7 @@
       "status": "active",
       "file": "GOI_Zh_Hans.db",
       "size_bytes": 9355264,
-      "sha256": "2042bf80fefba5e91ccae720d5fcdf553a668c9e6cc81e0e39ca2f032888f6be",
+      "sha256": "5b2924e8d427b76ee32ee5a38d3253658bd5ac6887c83e99d5f9254235ba1da4",
       "verse_count": 31102
     },
     {
@@ -91,7 +102,7 @@
       "status": "active",
       "file": "GOI_Zh_Hant.db",
       "size_bytes": 9355264,
-      "sha256": "b0a1255b5002eca8a487b7a665e998be1ddd555f6935a1e5fb962c22a88c8b4f",
+      "sha256": "f2936b0bf5a7ab4e124adbc7e9a051fe29f925cb81ae68bc52431543660b395f",
       "verse_count": 31102
     },
     {
@@ -102,7 +113,7 @@
       "status": "active",
       "file": "GOI_vi.db",
       "size_bytes": 10559488,
-      "sha256": "29b26ff25ebea6ea70f2cfc784fb3c5dab98a7f94743c692b7687d21254d3fe5",
+      "sha256": "589e4eb245390dbacbab1cad878cf633155b7fc1bad1995323f13e1614f20968",
       "verse_count": 31102
     },
     {
@@ -113,7 +124,7 @@
       "status": "active",
       "file": "KJV.db",
       "size_bytes": 8740864,
-      "sha256": "ec223ff290d5b16d26a68332cdf46c311f7411cef4e73d2628aa64a43cb7646d",
+      "sha256": "ee456f04a8893065c88dc886920530dbb7188a1ac9771ad93e4c90e421125d7a",
       "verse_count": 31102
     },
     {
@@ -124,7 +135,7 @@
       "status": "active",
       "file": "TR1550.db",
       "size_bytes": 3149824,
-      "sha256": "24c9adf39c4c73474254a0a93d2cf472add575f063b9085f11ae66b565a74235",
+      "sha256": "a8ff4c4c1e738f89db16550ebf2b3240dbd17c0a4e224b256fbc85477d7614ed",
       "verse_count": 7957
     },
     {
@@ -135,7 +146,7 @@
       "status": "active",
       "file": "WEBUS.db",
       "size_bytes": 8892416,
-      "sha256": "3a7d5c1c5756084338edcb783ae5da12232a00ee95e30954d9098bbe3d9260ab",
+      "sha256": "5bf7f4539f888fe3a69ebf2f6167e2769f80bb78a52f54d1c5a303dbf83d462e",
       "verse_count": 31102
     },
     {
@@ -146,7 +157,7 @@
       "status": "active",
       "file": "WLC.db",
       "size_bytes": 8904704,
-      "sha256": "c90a85349de7b482d16436d3008b07068e6f8775020ede4fe6dd95256d01c9d1",
+      "sha256": "335a2c82aed9dafac79cb2337dda2f5a8757e48265fac173de5a88849264eb47",
       "verse_count": 23145
     }
   ]
