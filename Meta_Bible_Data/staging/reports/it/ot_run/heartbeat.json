@@ -1,9 +1,7 @@
 {
- "book": "DAN",
- "chapter": 12,
- "verse": 2,
- "promoted": 15424,
- "quarantined": 807,
- "at": "2026-10-04T12:53:57.188685+00:00",
+ "done": true,
+ "promoted": 16438,
+ "quarantined": 855,
+ "at": "2026-10-04T13:29:27.228256+00:00",
  "pid": 3064598
 }
