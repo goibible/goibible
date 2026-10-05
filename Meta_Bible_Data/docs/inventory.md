@@ -31,6 +31,11 @@ named `<NNN>_<BOK>_<CCC>_<VVV>_<suffix>.txt`.
 | `GOI_Bible/GOI_Bible_vi` | Vietnamese | `_GOI_vi.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_Chinese_Hant` | Chinese (Traditional) | `_GOI_Zh_Hant.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_Chinese_Hans` | Chinese (Simplified) | `_GOI_Zh_Hans.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_es` | Spanish | `_GOI_Es.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_fr` | French | `_GOI_Fr.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_pt` | Portuguese | `_GOI_Pt.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_ru` | Russian | `_GOI_Ru.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_ja` | Japanese | `_GOI_Ja.txt` | 31,102 (OT+NT) |
 
 **Every fix to Hant must be mirrored to Hans by hand** (and vice versa) —
 there is no automated conversion step in the live pipeline; Hans was
@@ -95,7 +100,7 @@ Then commit + push (§4) and rsync the reader DB to dsvx (§3).
 | `Meta_Bible_Data/local_backups/GOI_bible.sqlite3` | The "main" registry DB `build_buffet.py` reads as a template/reference | No (`.gitignore`) | Rebuilt correctly this session (was the source of the stale-GOI_vi bug — see §5) |
 | `Meta_Bible_Data/sqlite/versions/<edition>.sql` | Per-edition SQL dump, intermediate | **Yes** | Current |
 | `Meta_Bible_Data/sqlite/goi_bible_shell.db` | Empty schema + reference seed, no verse rows | **Yes** (explicit `.gitignore` exception) | Current |
-| `Meta_Bible_Data/goi_db_download/*.db` (11 editions: `GOI_En`, `GOI_Es`, `GOI_Ko`, `GOI_Pt`, `GOI_vi`, `GOI_Zh_Hant`, `GOI_Zh_Hans`, `KJV`, `WEBUS`, `TR1550`, `WLC`) | **The canonical distributable** — apps and the reader both ultimately source from these | **Yes** (explicit `.gitignore` exception) | Rebuilt and current as of this session; Korean and corrected Traditional Chinese were rebuilt 2026-09-13 |
+| `Meta_Bible_Data/goi_db_download/*.db` (14 editions: `GOI_En`, `GOI_Es`, `GOI_Fr`, `GOI_Ja`, `GOI_Ko`, `GOI_Pt`, `GOI_Ru`, `GOI_vi`, `GOI_Zh_Hant`, `GOI_Zh_Hans`, `KJV`, `WEBUS`, `TR1550`, `WLC`; rebuilt and verified 2026-10-04, all GOI ordinals 1..31,102) | **The canonical distributable** — apps and the reader both ultimately source from these | **Yes** (explicit `.gitignore` exception) | Rebuilt and current as of this session; Korean and corrected Traditional Chinese were rebuilt 2026-09-13 |
 | `Meta_Bible_Data/goi_db_download/manifest.json` | Lists each edition's status (`active`/`pending`), checksum, size — Android/desktop apps fetch this **live from GitHub** to discover what's downloadable | **Yes** | Current; all 11 editions are `active`, including `GOI_Ko` |
 | `Meta_Bible_Data/sqlite/editions/*.db` | **Stale/orphaned.** Written by `build_buffet.py`/`split_editions.sh`, but `build_downloads.py` does NOT read from here — this directory is not part of the live `stage` pipeline at all. Found `GOI_vi.db` here still at 7,957 (NT-only) rows. | No | **Dead weight — safe to delete, not part of any live path. Do not treat this directory as a source of truth for anything.** |
 | `/var/www/goibible.org/read/data/bible.sqlite3` | Powers **read.goibible.org**, the live public web reader (separate from the download/app path) | No (lives outside this repo, on the local machine + mirrored to dsvx) | Rebuilt via `tools/build_reader_db.py` and synced to dsvx; includes all current GOI editions, including Korean |
@@ -217,3 +222,5 @@ Nothing here is inferred from commit messages or prior session summaries
 alone. If you're reading this much later, re-run the `find`/`du`/query
 commands above rather than trusting the tables blindly — treat this as a
 map that was accurate on the date at the top, not a live status page.
+
+- EPUBs: `epub/*.epub` (built by `tools/build_epub.py`, all 10 GOI editions) are copied to `/var/www/goibible.org/www/download/epub/` and linked from the site's download page; deployed to dsvx 2026-10-04 (rollback `.rollback/20261004-204504/`). Reader DB now has 14 editions including GOI_Fr.

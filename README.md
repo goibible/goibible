@@ -1,7 +1,7 @@
 # GOI Bible
 
-Full-Bible GOI editions in English, Simplified Chinese, and Traditional
-Chinese, plus a diffable SQLite distribution. Each GOI edition contains 31,102
+Full-Bible GOI editions in English, Spanish, French, Portuguese, Russian,
+Japanese, Korean, Vietnamese, Simplified Chinese, and Traditional Chinese, plus a diffable SQLite distribution. Each GOI edition contains 31,102
 verse files covering Genesis through Revelation.
 
 Project site: <https://goibible.org>
@@ -50,7 +50,8 @@ This repo is meant to be useful in three ways:
 ## Top-level layout
 | Path | What |
 | --- | --- |
-| `GOI_Bible_English/`, `GOI_Bible_Chinese_Hans/`, `GOI_Bible_Chinese_Hant/` | finished full-Bible editions (31,102 verse files each) |
+| `GOI_Bible/GOI_Bible_<lang>/` (en, es, fr, pt, ru, ja, ko, vi, Chinese_Hans, Chinese_Hant) | finished full-Bible editions (31,102 verse files each) |
+| `epub/` | Kindle-ready EPUB per finished edition (`tools/build_epub.py`) |
 | `full_bible/` | consolidated single-markdown-file exports of each GOI edition + the generator script |
 | `README_GOI.md` | provenance, verification, and copyright notes for the GOI editions |
 | `sqlite/` | SQLite schema, reference seed data, import-ready shell DB, and one SQL import file per edition |
