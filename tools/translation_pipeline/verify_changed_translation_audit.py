@@ -34,12 +34,24 @@ def main() -> int:
     changed = subprocess.check_output(
         ["git", "diff", "--name-only", args.base, "HEAD", "--", "GOI_Bible"], cwd=ROOT, text=True
     ).splitlines()
-    # An edition whose directory did not exist at the base revision is a first release, not a change to
-    # published text: every file is an addition, and there is no prior verse to regress from.
-    existed_at_base = {
-        d for d in active_dirs
-        if subprocess.run(["git", "cat-file", "-e", f"{args.base}:{d}"], cwd=ROOT, capture_output=True).returncode == 0
-    }
+    # An edition that was not published (status "active") at the base revision is a first release, not a change to
+    # published text: every file is an addition, and there is no prior verse to regress from. Judge that from the catalog
+    # AT THE BASE, not from directory existence: a pending edition's scaffold directory already exists (GOI_Fr was a
+    # 22k-file scaffold when it was promoted to active), and its verses are not published text until the release.
+    base_catalog = subprocess.run(
+        ["git", "show", f"{args.base}:Meta_Bible_Data/sqlite/editions.json"], cwd=ROOT, capture_output=True, text=True
+    )
+    if base_catalog.returncode == 0:
+        existed_at_base = {
+            str(item["flatfile_dir"])
+            for item in json.loads(base_catalog.stdout)
+            if str(item["edition_id"]).startswith("GOI_") and item.get("status") == "active"
+        } & active_dirs
+    else:  # catalog absent at the base revision (very old history): fall back to directory existence
+        existed_at_base = {
+            d for d in active_dirs
+            if subprocess.run(["git", "cat-file", "-e", f"{args.base}:{d}"], cwd=ROOT, capture_output=True).returncode == 0
+        }
     coordinates: set[str] = set()
     for changed_path in changed:
         path = Path(changed_path)
