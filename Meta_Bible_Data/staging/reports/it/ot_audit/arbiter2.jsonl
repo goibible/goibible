@@ -46,3 +46,75 @@
 {"ref": "EZK 42:12", "pick": "new", "why": "Verso oriente correctly indicates direction east."}
 {"ref": "EZK 7:7", "pick": "new", "why": "Mattino and eco align with Hebrew morning and echo."}
 {"ref": "AMO 2:8", "pick": "new", "why": "Puniti matches Hebrew for punished ones."}
+{"ref": "ISA 64:2", "pick": "new", "why": "Fusione is wrong; legna secca is correct."}
+{"ref": "ISA 41:21", "pick": "old", "why": "Argomenti forti has wrong article le with masculine plural."}
+{"ref": "EZK 40:43", "pick": "new", "why": "Vasi is more accurate than uncini."}
+{"ref": "2KI 10:27", "pick": "new", "why": "Come latrina and colonna are correct."}
+{"ref": "2CH 4:3", "pick": "old", "why": "Fusione is feminine; nel suo is wrong."}
+{"ref": "EXO 1:16", "pick": "old", "why": "Sgabelli is masculine; sulle is wrong."}
+{"ref": "AMO 3:9", "pick": "new", "why": "Oppressi matches Hebrew meaning."}
+{"ref": "ISA 49:10", "pick": "new", "why": "Calore is more faithful than miraggio."}
+{"ref": "JDG 5:16", "pick": "new", "why": "Fixes wrong word 'fischi' to correct 'belati'."}
+{"ref": "ISA 5:17", "pick": "new", "why": "More accurate 'luoghi desolati' for desolate places."}
+{"ref": "EZK 8:11", "pick": "new", "why": "Corrects 'come supplicante' to 'densa' for thick cloud."}
+{"ref": "ZEC 11:13", "pick": "new", "why": "Replaces wrong 'veste d'onore' with 'prezzo magnifico'."}
+{"ref": "DAN 3:2", "pick": "new", "why": "Fixes duplicate 'consiglieri' to 'giudici'."}
+{"ref": "HOS 8:9", "pick": "new", "why": "Changes abstract 'amori' to concrete 'amanti'."}
+{"ref": "EXO 26:24", "pick": "new", "why": "Corrects 'gemelli' to 'accoppiati' for coupled."}
+{"ref": "EXO 36:29", "pick": "new", "why": "Same correction as item 7, 'accoppiati'."}
+{"ref": "ISA 41:19", "pick": "new", "why": "Corrects tree and location to match Hebrew."}
+{"ref": "ISA 60:13", "pick": "new", "why": "Replaces wrong tree with pine as per Hebrew."}
+{"ref": "PSA 149:6", "pick": "new", "why": "Fixes idiom to double-edged sword."}
+{"ref": "2KI 16:18", "pick": "new", "why": "Improves translation of covered way and phrase."}
+{"ref": "NEH 4:8", "pick": "new", "why": "Uses proper word for harm instead of disorder."}
+{"ref": "ISA 32:6", "pick": "old", "why": "New introduces redundant repetition, ungrammatical."}
+{"ref": "EZK 23:12", "pick": "new", "why": "Better renders 'all sorts' of garments."}
+{"ref": "EZK 38:4", "pick": "new", "why": "Accurate 'full armor' instead of pomp."}
+{"ref": "LEV 11:16", "pick": "new", "why": "Corrects bird names to match English, more faithful."}
+{"ref": "DEU 14:15", "pick": "new", "why": "Same correction as item 1, improves accuracy."}
+{"ref": "ISA 3:6", "pick": "new", "why": "Replaces 'stumbling stone' with 'ruin' as per English."}
+{"ref": "ZEP 1:3", "pick": "old", "why": "NEW changes meaning; 'stumbling-blocks' is correct."}
+{"ref": "DAN 5:5", "pick": "old", "why": "NEW says 'palm' but English says 'hand'; not faithful."}
+{"ref": "DAN 5:24", "pick": "old", "why": "NEW 'palm' not in English; 'part' is acceptable."}
+{"ref": "PRO 1:6", "pick": "new", "why": "NEW 'interpretation' matches English better than 'allegory'."}
+{"ref": "DAN 4:11", "pick": "new", "why": "NEW 'aspetto' fits 'sight' better than 'visione'."}
+{"ref": "DAN 4:20", "pick": "new", "why": "Aspetto is more accurate for sight/appearance."}
+{"ref": "HAB 3:14", "pick": "new", "why": "Lance and banda correct the mistranslations."}
+{"ref": "2KI 9:20", "pick": "new", "why": "Condotta and furia are more faithful."}
+{"ref": "DEU 32:42", "pick": "new", "why": "Capi, condottieri corrects vendette."}
+{"ref": "NUM 6:5", "pick": "new", "why": "Consacrazione and ciocche are correct."}
+{"ref": "NAM 3:1", "pick": "new", "why": "Rapina replaces erroneous bivio."}
+{"ref": "DAN 5:25", "pick": "new", "why": "Tekel is the proper term."}
+{"ref": "DAN 5:27", "pick": "new", "why": "Tekel matches the Hebrew."}
+{"ref": "1KI 7:50", "pick": "old", "why": "NEW duplicates 'coppe' and introduces error."}
+{"ref": "JOB 41:26", "pick": "new", "why": "Corrects 'pietra da cava' to 'dardo'."}
+{"ref": "PSA 35:16", "pick": "new", "why": "Corrects 'torta' to 'banchetto'."}
+{"ref": "1KI 7:36", "pick": "new", "why": "Corrects 'nudità' to 'spazio'."}
+{"ref": "JOB 36:29", "pick": "new", "why": "More natural 'distesa' for clouds."}
+{"ref": "1CH 9:27", "pick": "new", "why": "Corrects 'apertura' to 'custodia delle porte'."}
+{"ref": "ISA 49:22", "pick": "new", "why": "Corrects 'nel grembo' to 'in braccio'."}
+{"ref": "EZK 25:5", "pick": "new", "why": "Corrects 'tana' to 'luogo di riposo'."}
+{"ref": "ISA 41:9", "pick": "new", "why": "Nobili is more faithful to Hebrew nobles than eletti."}
+{"ref": "JOB 37:8", "pick": "new", "why": "Bestia and tana correctly render living creature and den."}
+{"ref": "JER 17:1", "pick": "old", "why": "New has gender error: punizione requires scritta, not scritto."}
+{"ref": "LEV 13:23", "pick": "new", "why": "Infiammazione matches Hebrew inflammation of the boil."}
+{"ref": "LEV 13:28", "pick": "new", "why": "Infiammazione correctly translates inflammation of the burning."}
+{"ref": "ECC 7:29", "pick": "new", "why": "Invenzioni is the proper Italian for inventions."}
+{"ref": "LEV 22:25", "pick": "new", "why": "Corruzione accurately conveys corruption in this context."}
+{"ref": "ISA 52:14", "pick": "new", "why": "Sfiguramento is more natural for marred appearance."}
+{"ref": "ISA 44:19", "pick": "new", "why": "Ceppo is correct for tree stock, pastura is wrong."}
+{"ref": "JOB 39:20", "pick": "new", "why": "Sbuffo is natural for snorting, narici is literal."}
+{"ref": "PSA 52:4", "pick": "new", "why": "Divoratore matches devourer, distruzione is wrong."}
+{"ref": "JER 51:44", "pick": "old", "why": "Ingoiato is awkward, not natural Italian."}
+{"ref": "JOB 31:3", "pick": "new", "why": "Strana sorte is faithful to strange fate."}
+{"ref": "PSA 55:14", "pick": "new", "why": "Fervore matches Hebrew, folla is less accurate."}
+{"ref": "EST 4:14", "pick": "new", "why": "Sollievo means relief, spazio is wrong."}
+{"ref": "JOB 6:6", "pick": "new", "why": "Sapore nell'albume is correct and natural."}
+{"ref": "2CH 32:21", "pick": "new", "why": "«i suoi stessi figli» is clearer and natural."}
+{"ref": "GEN 32:32", "pick": "new", "why": "«nervo» and «incavo» are accurate."}
+{"ref": "AMO 6:11", "pick": "new", "why": "«brecce» corrects mistranslation."}
+{"ref": "ISA 30:14", "pick": "new", "why": "«vaso», «coccio», «cisterna» are correct."}
+{"ref": "JOB 28:15", "pick": "new", "why": "«oro» is the correct meaning."}
+{"ref": "PSA 42:10", "pick": "new", "why": "«spada» is the correct meaning."}
+{"ref": "1SA 19:13", "pick": "new", "why": "«cuscino» is the correct meaning."}
+{"ref": "1SA 19:16", "pick": "new", "why": "«cuscino» is the correct meaning."}
