@@ -32,11 +32,16 @@ EDITIONS = {
     "GOI_Zh_Hans": ("GOI_Bible_Chinese_Hans",     "GOI_Zh_Hans", "GOI Bible - 简体中文"),
     "GOI_vi":      ("GOI_Bible_vi",               "GOI_vi",      "GOI Bible - Tiếng Việt"),
     "GOI_Pt":      ("GOI_Bible_pt",               "GOI_Pt",      "GOI Bible - Português"),
+    "GOI_Ja":      ("GOI_Bible_ja",               "GOI_Ja",      "GOI Bible - 日本語"),
+    "GOI_Ko":      ("GOI_Bible_ko",               "GOI_Ko",      "GOI Bible - 한국어"),
+    "GOI_Ru":      ("GOI_Bible_ru",               "GOI_Ru",      "GOI Bible - Русский"),
+    "GOI_Fr":      ("GOI_Bible_fr",               "GOI_Fr",      "GOI Bible - Français"),
 }
 
 LANG_TAG = {
     "GOI_En": "en", "GOI_Es": "es", "GOI_Zh_Hant": "zh-Hant",
     "GOI_Zh_Hans": "zh-Hans", "GOI_vi": "vi", "GOI_Pt": "pt",
+    "GOI_Ja": "ja", "GOI_Ko": "ko", "GOI_Ru": "ru", "GOI_Fr": "fr",
 }
 
 FNAME_RE = re.compile(r"^(\d{3})_([0-9A-Z]+)_(\d{3})_(\d{3})_.+\.txt$")

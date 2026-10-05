@@ -183,6 +183,79 @@ do not replace the stated test corpus with an ad-hoc smaller pilot.
 
 ---
 
+## 2a. Grammar-aware translation: plurality, gender, and the language cube
+
+Added 2026-10-04. Translation is no longer "prompt + noun defaults + anchor
+gate" alone. Every target language gets a **language cube** that carries
+grammar explicitly, and the translator reads it per verse.
+
+### The cube (`Bible_Noun_Extraction/translation_cube/`, spec in `CUBE_SPEC.md`)
+
+- **Order is fixed: Hebrew OT cube -> Greek NT cube -> target cube.** Source
+  cubes are 168,100 (Hebrew) + 36,846 (Greek) = **204,946 vectors**. A full
+  target cube (en, fr_lsg, it_riv, zh) is that same 204,946 rows: one row per
+  source noun occurrence/chunk, in stable `vector_rows` order. (The 254k
+  figure that gets quoted is wrong: 204,946 per target; Arabic is 181,985
+  because its OT target layer is `not_started`.) All seven profiles together:
+  1,206,715 rows; 83.0% embedded at the 2026-10-04 heartbeat (`zh` dense index
+  still pending).
+- **Two indexes per cube, SQL is authoritative.** Sparse: deterministic
+  4,096-dim signed feature hash (exact Strong's, morphology, gender, number,
+  case). Dense: Qwen3-Embedding-8B, native 4,096 -> first 1,024 Matryoshka
+  dims -> L2-normalize -> float16. Dense similarity is retrieval evidence only;
+  it never overrides SQL grammar, Strong's mapping or review state.
+- **Gate:** `translate_verses.py --translation-cube <cube>` runs
+  `preflight.require_translation_cube_ready()` before any model request. A
+  missing, partial or stale dense index stops the run. Rebuilding a cube
+  invalidates its dense index until `embed_cubes.py` finishes again.
+- **Reference-text cubes first.** Build the reference cube (`fr_lsg`, `it_riv`)
+  BEFORE translating; it measures whether each default appears in a real
+  public-domain translation and caught 421 bad French defaults pre-translation.
+
+### Plurality (number)
+
+- Per-noun fields in the cube: `citation_number`, `plural_forms_json` (reviewed
+  plural/irregular forms), `target_observed_number`, plus `source_number`
+  (Greek: exact from the morph tag; Hebrew: from the surface ending, with
+  closed-class exceptions such as אביו "his father", and plural-of-majesty
+  אלהים). Source `D` (dual) is its own value.
+- The prompt receives source number + reviewed plural forms; the model is told
+  to render *meaning*, not mechanically copy form (a source-plural can be a
+  target singular, e.g. "water", "face").
+- Prefer **singular defaults** in the lexicon and let the matcher derive the
+  plural; plural-only defaults ("Philistins", "ennemis") caused false
+  quarantines in French.
+- Check: `plurality_ngram.py --lang <code>` builds the source-number vs
+  target-number confusion matrix; off-diagonal cells are candidate flips,
+  `ambiguous` and `no-match` are separate columns, never guesses. A target
+  classifier is implemented only for `ru`; es/pt/fr/it/en still need one.
+- Languages that don't mark number (vi, zh, ja, ko) are checked for the
+  classifier/particle, not a singular<->plural flip (`language_properties.py`).
+
+### Gender
+
+- Source gender and target gender are **not expected to match** (Hebrew/Greek
+  grammatical gender is formal, not something to preserve). The cube stores
+  `source_gender`, `lexical_gender` (target noun gender, `M/F/N/B/U`) and agreement is
+  checked **inside the target language** (article/adjective/participle vs. its own noun).
+- Human referents are the exception that matters: a human messenger is
+  `messager`, not `ange` (342 fixes), and `ruach` as wind vs. spirit (158), are
+  sense errors, not gender errors; sweep them separately.
+- `gender_ngram.py` screens adjacent agreement cues but is NOT a defect rate:
+  free word order and participles governing the noun inflate off-diagonals
+  (~40% on Russian). Treat output as a candidate list for review. Romance
+  languages (es, pt, fr, it) are the high-risk set and have no checker yet.
+- Register every language in `language_properties.py` (number / gender / case /
+  dual / classifiers) in the same commit as its `matchers.py` entry.
+
+### Per-language ledger columns (import before building the target cube)
+
+Reviewed rendering, gender, number, plural forms, accepted forms, confidence,
+provenance. Same-verse collisions (two source nouns -> one target word) and
+English leaking into the lexicon are scanned **before** the run.
+
+---
+
 ## 3. Post-translation "gotcha" checks
 
 Run these after generating or editing any verse text, before calling a book
@@ -359,6 +432,8 @@ document doesn't duplicate it, just points to it.
 | A MISSING verse's source text doesn't contain the flagged word at all | Versification seam | 3.6 |
 | A name and a common word share a Strong's number | Homograph bridging | 3.7 |
 | One Strong's number is wrong almost everywhere it's used | DB default correction | 3.7 |
+| Source-singular rendered plural (or reverse) | `plurality_ngram.py --lang` | 2a |
+| Article/adjective gender disagreement (target-internal) | `gender_ngram.py` (candidates only) | 2a |
 | Ready to ship | `docs/post_translation_checklist.md` | 3.8 |
 
 ---
