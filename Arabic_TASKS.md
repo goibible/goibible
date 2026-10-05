@@ -5,7 +5,7 @@
 ## Established draft facts (not release passes)
 
 - [x] All expected verse files exist: 23,145 OT + 7,957 NT = 31,102. Existing one-line/Arabic-script/populated-anchor draft checks passed. Recheck on the final corpus.
-- [x] Current number screens exist: OT 4,926 plural-form + 2,162 singular-form candidates after the lexical pilot; NT 719 plural-form + 1,006 singular-form candidates. These are review candidates, not verified errors.
+- [x] Current number screens exist: OT 4,939 plural-form + 2,163 singular-form candidates after the latest corrections; NT 719 plural-form + 1,006 singular-form candidates. These are review candidates, not verified errors.
 - [x] The starting reviewed OT anchor ledger was counted: 81,173 of 144,955 source noun occurrences lacked a rendering (54,391 number-marked; 26,782 uninflected/proper). This was a ledger gap, not proof that words were absent from translated verses. Current remainder is tracked below.
 - [x] The Arabic cube is known to be stale for release: built before later OT edits, with 8,141 translated verse chunks in its metadata. An internal `ready` preflight is not a current-corpus pass.
 
@@ -18,7 +18,7 @@
 
 ### 2. Nouns, Strong's, and sense alignment
 
-- [x] Run an occurrence **diagnostic** over 144,955 OT and 28,889 NT noun anchors. Evidence: [alignment report](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_occurrence_alignment_diagnostic.json) and OT/NT review queues beside it. The latest completed run recorded 64,318 OT blank renderings, 20,297 repeated-ID cases, and 810 multiple matches. NT had 3,505 repeated-ID cases and 421 multiple matches; 40 subscription and 9 textual-policy occurrences are explicitly excluded. Further verse and ledger edits require a refresh. Surface matches alone do not pass this gate.
+- [x] Run an occurrence **diagnostic** over 144,955 OT and 28,889 NT noun anchors. Evidence: [alignment report](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_occurrence_alignment_diagnostic.json) and OT/NT review queues beside it. The latest completed run recorded 64,286 OT blank renderings, 20,297 repeated-ID cases, and 810 multiple matches. NT had 3,505 repeated-ID cases and 421 multiple matches; 40 subscription and 9 textual-policy occurrences are explicitly excluded. Surface matches alone do not pass this gate.
 - [x] Screen the 5,972 remaining OT machine-draft default IDs for visible Arabic forms without promoting them. Evidence: [candidate screen](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_ot_machine_default_screen.csv). Seven IDs have surface misses; 5,965 have a visible draft form in every corresponding verse, which does **not** establish correct sense or reviewed status.
 - [x] Review and add 23 OT proper-name defaults. Their 9,787 current source occurrences have a bounded Arabic name match. Evidence: [reviewed defaults](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_reviewed_defaults.tsv) and [reproducible lexical pilot receipt](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_ot_lexical_pilot.json). This proves a base citation and visible match, not unique source-position alignment.
 - [x] Review and add five common OT noun defaults (fire, war, king, prophet, servant). Their 4,330 formerly blank occurrences have a bounded Arabic form match; 13 prophet occurrences retain existing contextual plural overrides. The same [lexical pilot receipt](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_ot_lexical_pilot.json) verifies 14,130 total occurrences across the 28 selected IDs with zero missing forms. This does not certify contextual sense or number.
@@ -27,7 +27,7 @@
 - [x] Remove fixed nominative endings from the reviewed Enosh, Kenan, and Mahalalel defaults after direct Hebrew review exposed reversed parent/child roles. The lexical pilot now checks 16,873 visible citation occurrences across 68 IDs with zero missing forms; exact alignment and sense remain open. Five other case-marked proper-name defaults were also made case-neutral and rechecked.
 - [x] Correct eight occurrence-specific Strong's renderings discovered during direct-source duplicate review: Diphath, Rodanim, two instances each of “thing,” “heron,” and “strength.” Their ten edited verses passed the current per-verse anchor validator; see [direct-source corrections](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_direct_source_corrections_2026_10_04.tsv).
 - [x] Correct 2CH 8:14 (daily requirement, not a spoken word) and 2CH 23:14 (army officers, not wealth officials); add occurrence-specific H1697 and H2428 renderings. Both edited verses pass validation for all currently nonblank anchors. Their other blank anchors remain open.
-- [ ] OT: review the remaining blank noun-anchor occurrences (64,318 at the latest completed diagnostic, with later edits pending refresh), including proper names; populate reviewed defaults/occurrence senses or record justified textual-policy exemptions.
+- [ ] OT: review the remaining 64,286 blank noun-anchor occurrences, including proper names; populate reviewed defaults/occurrence senses or record justified textual-policy exemptions.
 - [ ] OT: align every source noun occurrence and Strong's ID to the final Arabic word/phrase span or approved exemption; resolve repeated IDs and ambiguous/missing matches.
 - [ ] NT: rerun full occurrence-level Strong's/sense alignment against the final 7,957 verses and resolve every missing/ambiguous match or approved exemption.
 - [ ] Produce current OT and NT coverage receipts showing zero unexplained gaps. Rerun verse validation after each accepted correction.
@@ -35,7 +35,7 @@
 ### 3. Number, plurals, duals, and gender
 
 - [x] Rerun a **diagnostic** gender screen on the current draft with effective OT defaults/overrides and Arabic NT occurrence renderings. Evidence: [OT matrix](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_gender_matrix_ot.md) (31 candidates after the lexical pilot) and [NT matrix](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_gender_matrix_nt.md) (25 candidates), generated 2026-10-04. These are unadjudicated; rerun after final text changes.
-- [ ] OT: adjudicate 7,088 current number-screen candidates and the repeated-ID, phrase, and inconclusive occurrences against Hebrew context and Arabic spans.
+- [ ] OT: adjudicate 7,102 current number-screen candidates and the repeated-ID, phrase, and inconclusive occurrences against Hebrew context and Arabic spans.
 - [ ] NT: adjudicate 1,725 number-screen candidates and the repeated-ID, phrase, and inconclusive occurrences against Greek context and Arabic spans.
 - [ ] Verify Arabic singular/plural/dual and numeral meaning in context, including broken plurals, collectives, counted nouns, and accepted exceptions; record source-position decisions.
 - [ ] Refresh OT and NT gender screens against final text. The September reports do not certify either testament.
@@ -64,7 +64,7 @@
 ### 6. Final integrity and GTG decision
 
 - [x] Run current-corpus coordinate, nonempty, one-line, newline, whitespace, and Arabic-script integrity checks on all 31,102 verses. Evidence: [integrity validator](Meta_Bible_Data/Bible_Noun_Extraction/ar/audit_ar_integrity.py) and [gate receipt](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/integrity.json): zero findings on the current baseline. This gate passes individually, but overall release does not.
-- [x] Generate a current exact-normalized duplicate diagnostic with source context. Evidence: [duplicate report](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_exact_duplicate_diagnostic.json) and review queue. After the ten direct-source corrections, it has 181 groups involving 528 verses; 102 groups have identical normalized source text and 79 differ. The rest are not fully adjudicated, and near duplicates remain unscreened.
+- [x] Generate a current exact-normalized duplicate diagnostic with source context. Evidence: [duplicate report](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/release/ar_exact_duplicate_diagnostic.json) and review queue. After the latest corrections, it has 182 groups involving 530 verses; 102 groups have identical normalized source text and 80 differ. The rest are not fully adjudicated, and near duplicates remain unscreened.
 - [ ] Rerun exact coordinate, nonempty, one-line, Arabic-script, duplicate/near-duplicate, noun/Strong's, morphology, semantic, and cube checks on the **same frozen corpus hash**.
 - [ ] Adjudicate duplicate findings, including legitimate parallel verses and refrains; confirm no failed or quarantined candidate is packaged.
 - [ ] Issue a single dated release receipt listing each gate and its evidence. Mark Arabic **GTG** only when all required items above pass.
