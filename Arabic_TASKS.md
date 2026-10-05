@@ -42,11 +42,12 @@
 
 ### 4. Full semantic review
 
+- [x] Calibrate DeepSeek V4 Flash 0731 with clean, reversed-negation, dropped-clause, wrong-number, and omitted-star cases; all five single-verse probes passed. Three four-verse probes also passed. A locked, checkpointed 100-verse OT pilot completed with one candidate, directly adjudicated in [the finding ledger](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_deepseek_findings_adjudicated.tsv). These are model-screen diagnostics, not semantic release certification.
 - [ ] Review all 23,145 OT verses against Hebrew with a verse-level ledger and direct-source evidence.
 - [ ] Review all 7,957 NT verses against Greek with a verse-level ledger and direct-source evidence.
 - [ ] Check omissions, additions, negation, agency, names, divine titles, numerical values, chronology, contextual senses, and clause relationships; correct and re-review affected verses.
 - [ ] Resolve every material semantic finding. Model screening may suggest cases but cannot certify a verse unattended; the pilot missed injected errors.
-- [x] Correct ten material OT verses exposed by comparing exact Arabic duplicates with their Hebrew sources: two names, two counts, two “thing” senses, two bird names, and two “strength” senses. The [direct-source correction ledger](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_direct_source_corrections_2026_10_04.tsv) records each change. This is a limited reviewed subset, not a full semantic pass.
+- [x] Correct ten material OT verses exposed by comparing exact Arabic duplicates with their Hebrew sources: two names, two counts, two “thing” senses, two bird names, and two “strength” senses. The [direct-source correction ledger](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_direct_source_corrections_2026_10_04.tsv) records each change. A separate DeepSeek candidate led to a Genesis 1:17 vowel correction. This is a limited reviewed subset, not a full semantic pass.
 - [ ] Produce a 31,102-verse reviewed ledger with zero unresolved material findings.
 
 ### 5. Current language cube and vectors
