@@ -28,8 +28,8 @@
   },
   {
     "edition_id": "TR1550",
-    "bcp47_tag": "el",
-    "language_subtag": "el",
+    "bcp47_tag": "grc",
+    "language_subtag": "grc",
     "display_name": "Textus Receptus 1550",
     "status": "active",
     "flatfile_dir": "Reference_Bible/Greek_Bible_TR1550/One_Directory_TR1550",
@@ -38,8 +38,8 @@
   },
   {
     "edition_id": "WLC",
-    "bcp47_tag": "he",
-    "language_subtag": "he",
+    "bcp47_tag": "hbo",
+    "language_subtag": "hbo",
     "display_name": "Westminster Leningrad Codex",
     "status": "active",
     "flatfile_dir": "Reference_Bible/Hebrew_Bible_WLC/One_Directory_WLC_KJV",

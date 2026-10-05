@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-10-04T22:15:00+00:00",
+  "generated_at": "2026-10-05T18:35:25+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -130,12 +130,12 @@
     {
       "edition_id": "TR1550",
       "display_name": "Textus Receptus 1550",
-      "bcp47_tag": "el",
-      "language_subtag": "el",
+      "bcp47_tag": "grc",
+      "language_subtag": "grc",
       "status": "active",
       "file": "TR1550.db",
-      "size_bytes": 3149824,
-      "sha256": "a8ff4c4c1e738f89db16550ebf2b3240dbd17c0a4e224b256fbc85477d7614ed",
+      "size_bytes": 3170304,
+      "sha256": "97df459f3c0e6a177e76dc11d24e4c8ca7151a59d41a04aa23669c9078c8a05e",
       "verse_count": 7957
     },
     {
@@ -152,12 +152,12 @@
     {
       "edition_id": "WLC",
       "display_name": "Westminster Leningrad Codex",
-      "bcp47_tag": "he",
-      "language_subtag": "he",
+      "bcp47_tag": "hbo",
+      "language_subtag": "hbo",
       "status": "active",
       "file": "WLC.db",
-      "size_bytes": 8904704,
-      "sha256": "335a2c82aed9dafac79cb2337dda2f5a8757e48265fac173de5a88849264eb47",
+      "size_bytes": 8962048,
+      "sha256": "8996d1d032c4f8c34c795015d1f51df33c5ddf226fe3ea9e885524d3431caa85",
       "verse_count": 23145
     }
   ]

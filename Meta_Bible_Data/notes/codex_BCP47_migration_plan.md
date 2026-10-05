@@ -22,8 +22,8 @@
 - `CUV -> zh`
 - `KJV -> en`
 - `WEBUS -> en-US` (base language: `en`)
-- `TR1550 -> el`
-- `WLC -> he`
+- `TR1550 -> grc`  (changed from `el` on 2026-10-05: TR1550 is Ancient/Byzantine Greek; `el` is Modern Greek)
+- `WLC -> hbo`  (changed from `he` on 2026-10-05: WLC is Biblical Hebrew; `he` is Modern Hebrew)
 
 ## Build Steps
 1. Remove any stale target database:

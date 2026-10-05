@@ -15,7 +15,7 @@ Rules that follow from this:
 2. **Exactly three roles exist.** `source` = the two texts above. `reference` = historical translations used only for corroboration, never copied (KJV, WEBUS, LSG1910, RV1909, RIV1927, VanDyck, CUV, and so on). `target` = every generated GOI edition (`GOI_Bible/GOI_Bible_*`). Nothing generated is ever a source.
 3. **No other source-like text is to be added.** No Greek OT (Septuagint), no Hebrew NT, no modern Hebrew or modern Greek Bible may be placed under `Reference_Bible/` or presented as a spine. If one is ever added it is a `target` edition (or a clearly labelled `reference` with its own role), and only on the owner's explicit decision. Owner decision 2026-10-05: hold off on all of these.
 4. **Never promote a generated or reference text to source**, and never "fix" the source to match a translation. Source texts are read-only.
-5. **Language tags matter.** Biblical Hebrew is `hbo` and Ancient Greek is `grc`; Modern Hebrew is `he` and Modern Greek is `el`. KNOWN MISMATCH: `Meta_Bible_Data/sqlite/editions.json` currently tags WLC as `he` and TR1550 as `el`. Do not rely on those tags to tell a source from a modern edition; use the role above. Change the tags only after checking `verify_editions.py` and CI.
+5. **Language tags matter.** Biblical Hebrew is `hbo` and Ancient Greek is `grc`; Modern Hebrew is `he` and Modern Greek is `el`. Since 2026-10-05 `editions.json` tags WLC as `hbo` and TR1550 as `grc` (they were `he`/`el`, which name the *modern* languages). `he` and `el` are reserved for future *target* editions (`GOI_He`, `GOI_El`), if the owner ever approves them. English is `en` (a code; "English" is only its display name).
 
 ## TWO SPINES — never confuse them
 
