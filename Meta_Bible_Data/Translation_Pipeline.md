@@ -43,6 +43,40 @@ Keep that in mind when something looks like a translation bug: check
 alignment first, because a misaligned check will pass a bad translation and
 fail a good one with equal confidence.
 
+## 0b. Two spines, and the rule that every check is a view over them
+
+Every number in this project must come from one of two fixed reference sets. Name them exactly so docs, scripts
+and public pages never mix them up.
+
+1. **The coordinate spine** (a.k.a. GOI/KJV spine): the 31,102 verse positions (23,145 OT + 7,957 NT, 1,189
+   chapters, 66 books). Answers "is every verse present, once, in the right place?"
+2. **The source-anchor spine** (the Greek/Hebrew spine): every noun occurrence in the source texts,
+   **28,889 Greek NT anchors + 144,955 Hebrew OT anchors = 173,844**, each with Strong's id, lemma, surface,
+   morphology, and the source **number** (S/P/D, Hebrew dual is its own value), **gender** and **case** read from the
+   TR1550 / MorphHB tags. Stored as `source_noun` (one row per anchor) and `source_lemma` (one row per Strong's
+   number) in `Bible_Noun_Extraction/grammar_tables.sqlite3`; rebuilt from the two source cubes by
+   `python3 grammar_tables.py source`; summarized in `grammar_reports/source_greek_nt.md` and
+   `source_hebrew_ot.md`. Answers "how many anchors are there, and what is each one?"
+
+Rules (binding for every language, every verifier, every public number):
+
+- **The anchor spine is the denominator.** A coverage, plurality, gender or agreement result is only valid if it
+  reports **anchor accounting**: every one of the 28,889 / 144,955 anchors is assigned to exactly one status
+  (e.g. proper name, no rendering in this language, no verse text, policy-suppressed, checked) and the statuses sum
+  to the spine totals. A report whose counts do not reconcile to the spine is not a result.
+- **Proper names are counted, not hidden.** They are excluded from number/gender checks but appear in the
+  accounting (744 NT, 33,855 OT).
+- **A missing noun table is stated, not skipped.** If a language has no per-language Hebrew (or Greek) noun table, the
+  OT (or NT) accounting shows every anchor as "no rendering" and the report says NOT VERIFIABLE.
+- **Referent number, not form.** A plural-in-form noun with a singular referent (water, face, life, God) counts as
+  singular for number checks; the form number stays in `source_noun.number`.
+- **Target tables are views.** `noun_grammar` (target gender, number, plural form) and the per-language reports are
+  joined to the spine; nothing recomputes its own anchor list.
+- **Public numbers are generated.** Homepage, methodology, README and release notes quote counts produced from the
+  spine/ledgers, never typed by hand; a number that cannot be reproduced from the data is not published.
+- **Two tools, two answers is a defect.** If two verifiers disagree (e.g. the legacy `en/verify_noun_coverage.py`
+  vs. `verify_coverage.py`), one is retired or marked legacy before any result is quoted.
+
 ## 0a. Where things live on disk
 
 Structure follows the pipeline, not filename convention — open a folder,

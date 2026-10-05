@@ -38,6 +38,14 @@ checks.
   resume after a worker/API failure.
 - [ ] **Native-language semantic review:** reviewer, scope, defects, and
   resolutions recorded.
+- [ ] **Anchor accounting reconciles to the spine:** `grammar_tables.py plural --lang <L>` (and `gender`) report
+  every one of the 28,889 NT and 144,955 OT anchors in exactly one status and the statuses sum to those totals;
+  any "NOT VERIFIABLE" corpus (no per-language noun table) is listed as an open gap, never counted as a pass.
+- [ ] **Plurality and gender tables:** `noun_grammar` has an entry for every rendering the language uses; the
+  plurality verification table and (for gendered languages) the gender table are generated and their candidate
+  lists reviewed or explicitly closed.
+- [ ] **Coverage is reported in separate buckets:** exact, synonym/override, accepted by documented review, missing.
+  A bare "100%" that folds reviewed-accepts into covered is not published.
 - [ ] **No partial pass:** noun coverage is 100% after documented exclusions
   and contextual overrides. Any lower result blocks commit/promotion and
   requires targeted repair plus re-check.

@@ -20,6 +20,9 @@ complete.
 4. Build Greek TR1550 NT and WLC/MorphHB OT noun occurrence anchors with
    Strong's numbers and positions. Save language rendering decisions in a
    tracked `<lang>_noun_renderings.csv`, not only in SQLite.
+   The anchor spine (28,889 NT + 144,955 OT anchors, with source number, gender, case) is language-independent and
+   already built; confirm it with `python3 Meta_Bible_Data/Bible_Noun_Extraction/grammar_tables.py source`. Every
+   later check for this language must reconcile to those totals (see `Translation_Pipeline.md` §0b).
 5. Run the scaffold, alignment, noun, and structural checks; append their
    reports to `Meta_Bible_Data/staging/reports/<lang>/`.
    Complete `post_translation_checklist.md`, including the language-specific
