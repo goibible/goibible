@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-10-08T03:16:30+00:00",
+  "generated_at": "2026-10-08T03:18:27+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -69,7 +69,7 @@
       "status": "active",
       "file": "GOI_Ko.db",
       "size_bytes": 10018816,
-      "sha256": "c3f9e64c271bf85b264f71d41a86853df4a4775a0b4a590f2264cbc1f23aac39",
+      "sha256": "13856906d08a64c1e5827c4136ebff4b55f10fe0945fbc5267e1cb205b2f700c",
       "verse_count": 31102
     },
     {
