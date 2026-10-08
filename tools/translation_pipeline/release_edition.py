@@ -26,7 +26,7 @@ def main() -> None:
     args = parser.parse_args()
     run("python3", "tools/translation_pipeline/goi_language_pipeline.py", "check-flatfiles", args.edition_id)
     run("python3", "tools/translation_pipeline/verify_language_script.py", args.edition_id)
-    run("python3", "tools/translation_pipeline/verify_scaffold_manifests.py")
+    run("python3", "tools/translation_pipeline/verify_scaffold_manifests.py", "--edition", args.edition_id)
     run("python3", "tools/translation_pipeline/verify_cross_language_audit.py", "--edition", args.edition_id)
     run("python3", "Meta_Bible_Data/sqlite/build_buffet.py", args.edition_id)
     run("bash", "Meta_Bible_Data/sqlite/build_shell.sh")

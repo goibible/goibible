@@ -146,7 +146,10 @@
     "filename_suffix": "GOI_Ar",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "Planned Arabic edition. Arabic Van Dyck 1865 is a public-domain comparison and noun-rendering reference only at Reference_Bible/Arabic_Bible_VanDyck1865; its two documented source-verse merges normalize to the full 31,102 GOI/KJV coordinate spine. No Arabic GOI flatfiles, database, or release artifacts exist."
+    "notes": "Planned Arabic edition. Arabic Van Dyck 1865 is a public-domain comparison and noun-rendering reference only at Reference_Bible/Arabic_Bible_VanDyck1865; its two documented source-verse merges normalize to the full 31,102 GOI/KJV coordinate spine. No Arabic GOI flatfiles, database, or release artifacts exist.",
+    "reference_scaffold": [
+      "Reference_Bible/Arabic_Bible_VanDyck1865"
+    ]
   },
   {
     "edition_id": "GOI_Ru",
@@ -158,7 +161,10 @@
     "filename_suffix": "GOI_Ru",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100% (verify_coverage.py); OT triage 23,145/23,145 Green (ru/triage_ot.py). Wrong-sense sweeps closed to zero: OT 6,220 fixed / 948 kept, NT 429 fixed / 65 kept (ru/sense_fix_state.tsv, ru/sense_fix_state_nt.tsv). Noun anchors: Bible_Noun_Extraction/ru/hebrew_ot_ru.sqlite3 (OT), greek_noun.sqlite3 (NT, shared); decisions exported to ru_noun_renderings.csv. Russian Synodal 1876 (RUSSYN, public domain) at Reference_Bible/Russian_Bible_RUSSYN1876 retained solely as a 100%-versification-aligned reference/name-QA source. No native-speaker review has been performed (AI review only)."
+    "notes": "Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100% (verify_coverage.py); OT triage 23,145/23,145 Green (ru/triage_ot.py). Wrong-sense sweeps closed to zero: OT 6,220 fixed / 948 kept, NT 429 fixed / 65 kept (ru/sense_fix_state.tsv, ru/sense_fix_state_nt.tsv). Noun anchors: Bible_Noun_Extraction/ru/hebrew_ot_ru.sqlite3 (OT), greek_noun.sqlite3 (NT, shared); decisions exported to ru_noun_renderings.csv. Russian Synodal 1876 (RUSSYN, public domain) at Reference_Bible/Russian_Bible_RUSSYN1876 retained solely as a 100%-versification-aligned reference/name-QA source. No native-speaker review has been performed (AI review only).",
+    "reference_scaffold": [
+      "Reference_Bible/Russian_Bible_RUSSYN1876"
+    ]
   },
   {
     "edition_id": "GOI_Fr",
@@ -170,7 +176,10 @@
     "filename_suffix": "GOI_Fr",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "French full Bible (66 books, 31,102 verses), translated from Hebrew WLC / Greek TR1550; NT 7,957 and OT 23,145 complete, OT quarantine/triage closed to zero (2026-10-02). No native-speaker review has been performed (AI review only). Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot."
+    "notes": "French full Bible (66 books, 31,102 verses), translated from Hebrew WLC / Greek TR1550; NT 7,957 and OT 23,145 complete, OT quarantine/triage closed to zero (2026-10-02). No native-speaker review has been performed (AI review only). Scaffold complete 2026-09-24: Louis Segond 1910 (public domain) content-aligned reference at Reference_Bible/French_Bible_LSG1910 (comparison/name-QA only), noun renderings for all NT/OT Strong's (fr_noun_renderings.csv), fr_lsg validation cube. Divine name per owner: YHWH l'Éternel. Translation: NT first, Jude pilot.",
+    "reference_scaffold": [
+      "Reference_Bible/French_Bible_LSG1910"
+    ]
   },
   {
     "edition_id": "GOI_It",
@@ -182,6 +191,9 @@
     "filename_suffix": "GOI_It",
     "expected_verse_count": 31102,
     "template_edition": "GOI_En",
-    "notes": "In-progress Italian edition, to be translated from Hebrew WLC / Greek TR1550. Scaffolding 2026-10-02: Riveduta 1927 (public domain) content-aligned reference at Reference_Bible/Italian_Bible_RIV1927 (comparison/name-QA only), noun renderings for all NT/OT Strong's, it_riv validation cube. Divine name placeholder YHWH l'Eterno (owner to confirm). Translation not started."
+    "notes": "In-progress Italian edition, to be translated from Hebrew WLC / Greek TR1550. Scaffolding 2026-10-02: Riveduta 1927 (public domain) content-aligned reference at Reference_Bible/Italian_Bible_RIV1927 (comparison/name-QA only), noun renderings for all NT/OT Strong's, it_riv validation cube. Divine name placeholder YHWH l'Eterno (owner to confirm). Translation not started.",
+    "reference_scaffold": [
+      "Reference_Bible/Italian_Bible_RIV1927"
+    ]
   }
 ]

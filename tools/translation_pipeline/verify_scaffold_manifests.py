@@ -7,6 +7,7 @@ not claim readiness until this verifier passes for its manifest.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import sys
@@ -24,7 +25,14 @@ def sha256(path: Path) -> str:
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description="--edition E checks only the manifests listed in E's editions.json `reference_scaffold` key (none = nothing to check), so one edition's release never waits on another language's scaffold; no flag = every manifest (CI).")
+    ap.add_argument("--edition")
+    args = ap.parse_args()
     manifests = sorted((ROOT / "Reference_Bible").glob("**/SOURCE_MANIFEST.json"))
+    if args.edition:
+        catalog = json.loads((ROOT / "Meta_Bible_Data/sqlite/editions.json").read_text(encoding="utf-8"))
+        own = {str(ROOT / d) for e in catalog if e["edition_id"] == args.edition for d in e.get("reference_scaffold", [])}
+        manifests = [m for m in manifests if str(m.parent) in own]
     errors: list[str] = []
     for manifest in manifests:
         try:

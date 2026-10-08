@@ -175,7 +175,7 @@ def build_download(args: argparse.Namespace) -> None:
 
 
 def verify_release(_: argparse.Namespace) -> None:
-    run(["python3", "tools/translation_pipeline/verify_scaffold_manifests.py"])
+    run(["python3", "tools/translation_pipeline/verify_scaffold_manifests.py"] + (["--edition", args.edition_id] if getattr(args, "edition_id", None) else []))
     run(["python3", "tools/translation_pipeline/verify_cross_language_audit.py"] + (["--edition", args.edition_id] if getattr(args, "edition_id", None) else []))
     run(["python3", "tools/translation_pipeline/verify_release_integrity.py"])
 
