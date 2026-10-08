@@ -8,6 +8,7 @@ its downloadable SQLite database.
 """
 from __future__ import annotations
 
+import argparse
 import hashlib
 import json
 import re
@@ -77,13 +78,16 @@ def database_verses(path: Path, edition_id: str) -> dict[tuple[int, str, int, in
 
 
 def main() -> int:
+    ap = argparse.ArgumentParser(description="--edition E checks only E, so one edition's release never waits on another edition's work in progress; no flag = every active edition (CI).")
+    ap.add_argument("--edition")
+    args = ap.parse_args()
     catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     entries = {entry["edition_id"]: entry for entry in manifest["editions"]}
     failures: list[str] = []
     checked = 0
     for config in catalog:
-        if config.get("status") != "active":
+        if config.get("status") != "active" or (args.edition and config["edition_id"] != args.edition):
             continue
         edition_id = str(config["edition_id"])
         try:
