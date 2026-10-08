@@ -451,6 +451,54 @@ and `pipeline.md`'s Packaging + Clean Release Checklist sections. The
 authoritative gate list lives in `docs/post_translation_checklist.md` — this
 document doesn't duplicate it, just points to it.
 
+### 3.9 Per-language verified inventory and coverage review (added 2026-10-07, from the Spanish run)
+
+**One command states where a language stands, from the files, never from memory:**
+
+```bash
+python3 Meta_Bible_Data/Bible_Noun_Extraction/verify_language.py --lang es
+```
+
+It recomputes the spine, Strong's coverage (every Greek and Hebrew lemma has a rendering), the noun and
+gender/number table (complete, no leftovers, part of speech), the gender and plurality gates with their candidate
+reviews, the cube scaffolding (tables, anchor and chunk counts, staleness against the noun table), the text (31,102
+non-empty verse files) and OT/NT coverage in **separate buckets**, and ends PASS / FAIL / STALE. A language is done
+when it reads `ALL PASS`.
+
+**Coverage buckets (never a bare percentage).** Every anchor lands in exactly one: *exact* (the table rendering is
+in the verse), *mined synonym* (a form the verse really uses AND the public-domain reference verse also uses,
+per Strong's number, function words excluded), *accepted by review* (`coverage_review`: a judge or hand verdict
+tied to that verse, valid only while the verse still contains the accepted word), *policy-pending* (Psalm
+superscriptions, Ketiv/Qere: owner decisions), *repaired* (the verse was fixed and now matches), or *missing*.
+
+**Workflow for the misses (OT: `triage_ot_existing.py`; NT: the canonical `verify_coverage.py --missing-only`):**
+
+1. Fix what is systematic first: plural/singular defaults, multi-word head plurals (`SpanishMatcher`,
+   `PortugueseMatcher`), name spellings (`mine_accepted_forms.py --names`), then mine accepted forms
+   (`mine_accepted_forms.py`, extraction by a local model, accepted only with the reference witness).
+2. Judge the rest with `judge_coverage.py`: a FAST pass over everything (verdict + word, no explanation, ~6x
+   cheaper), then a REASONING recheck of every flagged verdict plus a random sample of the approvals
+   (`--recheck --sample-pct N --shard i/n`). Measured on Spanish: the fast tier's approvals were 25 of 25
+   sound on a hand read; its "omitted" and "wrong" flags are only candidates (most "omitted" cases are idiom:
+   age formulas, `lifnei` as a preposition, `nadie` for `ish`), so **every flag is hand-read before any verse is
+   touched**.
+3. Repair by minimal edit (`repair_omissions.py` proposes; a person reads each; only approved edits are
+   applied), log every correction as an append-only row in `staging/cross_language_regressions.csv`
+   with a receipt for each language, and re-run the verifier.
+4. Never accept an LLM's reasoning as a verdict: hand-read samples, record the sample size and result in the
+   review ledger, and say "judge-approved, not hand-read" in the ledger where that is what it is.
+
+**Rules learned the hard way:**
+- A check that scans a 31,000-file directory per verse (`glob`) is ~50x slower than an indexed lookup; index once.
+- A table, report or cube older than the data it was built from is STALE, not passing: the verifier compares
+  timestamps.
+- Several judges writing one SQLite file need a long `busy_timeout`.
+- The sense layer (`senses` / `sense_renderings`) must exist in every language: without it a language silently falls
+  back to its default exactly where the default is known to be wrong. Spanish had 18 of 491 sense renderings and
+  its NT coverage read 100%; completing the layer exposed 71 real wrong-sense verses (παῖς "child" rendered
+  "servant", θεραπεία "household" rendered "healing", an English word left in Acts 18:14).
+- English-style name spellings (`Sh-`) leak into Romance-language text; scan for them.
+
 ---
 
 ## 4. Quick reference: which check catches what
