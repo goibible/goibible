@@ -11,11 +11,20 @@
 - **Process hazard found and contained (2026-10-09):** `ar/reports/ar_ot_top150_reviewed_defaults.tsv` (144 blanket defaults, marked "draft approved after gloss check", no occurrence review) matched the `ar_*_reviewed_defaults.tsv` glob used by `run_ar_torah.py`, `ar_torah_heartbeat.py` and `release_gate.py`. It was treated as approved and filled 18,221 blank OT occurrences in the diagnostic (for example H1697 "word" across 1,412 occurrences where the source also covers "thing/matter"). It is now at `ar/reports/unreviewed_candidates/ar_ot_top150_candidate_defaults.tsv`, outside the glob. Its blanket defaults are not approved; each needs occurrence-level review before promotion.
 - Verse text: no GOI_Ar verse changed since 2026-10-05. Blanket defaults have not been written into verses.
 
+## Ambiguous IDs — 2026-10-09 (overrides `af7a260`, verse queue `2f6a1d1`)
+
+- **H1697 דָּבָר** (1,455 occurrences): 43 existing reviewed rows kept. 547 singular cases hand-labelled by Hebrew context and KJV sense; plurals and suffix forms by rule. Two rows left blank as likely H1698 (pestilence): 1CH 21:12, 2SA 24:13.
+- **H1471 גּוֹי** (566): singular → أمة, plural → أمم. Matches verse usage.
+- **H8269 שַׂר** (342 new rows): singular → رئيس, plural → رؤساء. This is the project's term across captain, prince, and chief senses; the verses use it throughout.
+- **Verse mismatch:** 338 OT rows show `no_surface_match` (325 H1697, 13 H1471). In nearly all of them the Arabic verse says كَلِمَة where the Hebrew is thing, matter, or business (أَمْر). Queue: `Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_verse_queue_ambiguous_ids_2026-10-09.tsv`. **Verse text not yet changed; needs approval.**
+- Blank OT renderings: 64,286 → 61,968.
+
 ## Next steps (in order)
 
-1. Occurrence-level review of the 144 candidate Strong's defaults before any promotion. Ambiguous IDs (e.g., H1697, H1471, H8269) need per-occurrence senses, not a single default.
-2. Work the 64,286 blank OT renderings, grouped by Strong's frequency, against Hebrew context.
-3. Freeze and rebuild the cube after OT text stops changing; re-run `ar/release_gate.py check`.
+1. Approve or reject the verse-text edits for the 338-row queue. Each edit changes Arabic scripture text and needs a new corpus snapshot.
+2. Hand-review the 144 candidate Strong's defaults before any promotion.
+3. Work the remaining blank OT renderings, grouped by Strong's frequency, against Hebrew context. H1697, H1471 and H8269 are done.
+4. Freeze and rebuild the cube after OT text stops changing; re-run `ar/release_gate.py check`.
 
 ## Established draft facts (not release passes)
 
