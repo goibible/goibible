@@ -1,6 +1,21 @@
 # Arabic tasks — OT + NT
 
-**Status: NOT GTG.** Last audited 2026-10-04. This file is the live checklist for Arabic. Check a release task only after its exit evidence is recorded against the final corpus; a verse edit invalidates affected checks. Keep unverified work unchecked. The detailed baseline is in [the Arabic release-gate plan](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_release_gate_plan.md).
+**Status: NOT GTG.** Last audited 2026-10-09. This file is the live checklist for Arabic. Check a release task only after its exit evidence is recorded against the final corpus; a verse edit invalidates affected checks. Keep unverified work unchecked. The detailed baseline is in [the Arabic release-gate plan](Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_release_gate_plan.md).
+
+## Current state — 2026-10-09
+
+- **Release receipt** (`ar/reports/release/ar_release_receipt.json`, re-checked 2026-10-09): NOT_GTG. Only `integrity` passes. Failure: `cube_freshness` (cube lexical fingerprint stale). All noun, number, gender, semantic, cube, and duplicate gates are missing.
+- **Corpus hash** unchanged since 2026-10-05 (`33a29…8092`). New baseline snapshot taken 2026-10-09 (`ar_baseline.json`).
+- **Alignment diagnostic** (2026-10-09 rerun): OT 144,955 occurrences — 59,562 unique surface match, 20,297 repeated Strong's, 810 multiple matches, **64,286 blank renderings**, 2,029 no surface match (the blank count is the committed figure). NT 28,889 — 24,914 unique surface match, 3,505 repeated, 421 multiple, 49 approved exclusions. Surface matches are not sense or position certification.
+- **Semantic screen**: 584 OT verses input-current, 5,597 batches missing, 44 stale. No screen process running. Not certification.
+- **Process hazard found and contained (2026-10-09):** `ar/reports/ar_ot_top150_reviewed_defaults.tsv` (144 blanket defaults, marked "draft approved after gloss check", no occurrence review) matched the `ar_*_reviewed_defaults.tsv` glob used by `run_ar_torah.py`, `ar_torah_heartbeat.py` and `release_gate.py`. It was treated as approved and filled 18,221 blank OT occurrences in the diagnostic (for example H1697 "word" across 1,412 occurrences where the source also covers "thing/matter"). It is now at `ar/reports/unreviewed_candidates/ar_ot_top150_candidate_defaults.tsv`, outside the glob. Its blanket defaults are not approved; each needs occurrence-level review before promotion.
+- Verse text: no GOI_Ar verse changed since 2026-10-05. Blanket defaults have not been written into verses.
+
+## Next steps (in order)
+
+1. Occurrence-level review of the 144 candidate Strong's defaults before any promotion. Ambiguous IDs (e.g., H1697, H1471, H8269) need per-occurrence senses, not a single default.
+2. Work the 64,286 blank OT renderings, grouped by Strong's frequency, against Hebrew context.
+3. Freeze and rebuild the cube after OT text stops changing; re-run `ar/release_gate.py check`.
 
 ## Established draft facts (not release passes)
 
