@@ -1,5 +1,9 @@
 # Arabic Resurrection Handoff — 2026-09-20
 
+**Historical checkpoint.** The [September 28 reconciliation and cube refresh](../../Bible_Noun_Extraction/ar/reports/ar_gospel_reconciliation_2026-09-28.md)
+supersedes the counts and unresolved-anchor queue below. Read that checkpoint
+for current Gospel gates, Acts 12:10 sense corrections, and vector readiness.
+
 This file is the complete restart point for Arabic work after a reboot or a
 fresh agent session.  Read it before starting any Arabic model request.
 
