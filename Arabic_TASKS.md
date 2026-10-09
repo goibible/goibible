@@ -16,12 +16,14 @@
 - **H1697 דָּבָר** (1,455 occurrences): 43 existing reviewed rows kept. 547 singular cases hand-labelled by Hebrew context and KJV sense; plurals and suffix forms by rule. Two rows left blank as likely H1698 (pestilence): 1CH 21:12, 2SA 24:13.
 - **H1471 גּוֹי** (566): singular → أمة, plural → أمم. Matches verse usage.
 - **H8269 שַׂר** (342 new rows): singular → رئيس, plural → رؤساء. This is the project's term across captain, prince, and chief senses; the verses use it throughout.
-- **Verse mismatch:** 338 OT rows show `no_surface_match` (325 H1697, 13 H1471). In nearly all of them the Arabic verse says كَلِمَة where the Hebrew is thing, matter, or business (أَمْر). Queue: `Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_verse_queue_ambiguous_ids_2026-10-09.tsv`. **Verse text not yet changed; needs approval.**
+- **Verse mismatch — resolved 2026-10-09 (verse-by-verse, by hand):** the 338 `no_surface_match` rows (325 H1697, 13 H1471) are now 0. The verse text said كَلِمَة where Hebrew meant thing, matter, speech, report, cause, or plural. 280 verse files changed (single-line format kept; integrity PASS, 31,102 verses). Where the verse was already right, the override was corrected instead. Queue: `Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_verse_queue_ambiguous_ids_2026-10-09.tsv`.
+- **Phantom anchor rows removed:** GEN 25:23 pos3 and EZK 36:14 pos3 (H1471). The WLC has no goy word at those positions. The anchor table has other phantom rows; these are unchecked.
+- New corpus baseline snapshot 2026-10-09 (`corpus_sha256` `abb653af…`). Release receipt: NOT_GTG, failing only `cube_freshness` (the cube must be rebuilt from the edited corpus).
 - Blank OT renderings: 64,286 → 61,968.
 
 ## Next steps (in order)
 
-1. Approve or reject the verse-text edits for the 338-row queue. Each edit changes Arabic scripture text and needs a new corpus snapshot.
+1. Read the 280 changed verses in the git diff (sample reads passed; every change is one-for-one and reversible). Check the phantom anchor rows in the anchor table, which the audit cannot detect on its own.
 2. Hand-review the 144 candidate Strong's defaults before any promotion.
 3. Work the remaining blank OT renderings, grouped by Strong's frequency, against Hebrew context. H1697, H1471 and H8269 are done.
 4. Freeze and rebuild the cube after OT text stops changing; re-run `ar/release_gate.py check`.
