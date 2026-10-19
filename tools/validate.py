@@ -62,7 +62,8 @@ def main():
     check("canonical punctuation/NFC", issues['noncanonical'] == 0, f"{issues['noncanonical']} need normalize")
 
     print("=== GREEK SOURCE ===")
-    conn = sqlite3.connect(DB); cur = conn.cursor()
+    sys.path.insert(0, str(NIM)); import greek_sense
+    conn = greek_sense.connect(args.lang, ro=True); cur = conn.cursor()
     verses = cur.execute(
         "SELECT DISTINCT book_id,chapter,verse FROM strongs_nt WHERE book_id <= 27 ORDER BY 1,2,3"
     ).fetchall()
@@ -70,7 +71,8 @@ def main():
     check("every verse has TR1550 source", missing_raw == 0, f"{missing_raw} missing")
 
     print("=== DB INTEGRITY ===")
-    check("foreign keys", not cur.execute("PRAGMA foreign_key_check").fetchall())
+    check("foreign keys", not cur.execute("PRAGMA foreign_key_check").fetchall()
+          and not cur.execute("PRAGMA sense.foreign_key_check").fetchall())
     check("override positions valid", cur.execute("""SELECT COUNT(*) FROM verse_rendering_overrides v
         LEFT JOIN strongs_nt s ON s.book_id=v.book_id AND s.chapter=v.chapter AND s.verse=v.verse
         AND s.word_pos=v.word_pos AND s.strongs_num=v.strongs_num WHERE s.id IS NULL""").fetchone()[0] == 0)

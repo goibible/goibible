@@ -114,7 +114,8 @@ def validate_variant(label, goi_dir, filename_suffix):
     check("every verse has CJK chars",    issues['no_cjk'] == 0,      f"{issues['no_cjk']} verses missing CJK")
 
     print(f"=== GREEK SOURCE: {label} ===")
-    conn = sqlite3.connect(DB)
+    sys.path.insert(0, str(NIM)); import greek_sense
+    conn = greek_sense.connect('zh', ro=True)
     cur  = conn.cursor()
     verses = cur.execute(
         "SELECT DISTINCT book_id,chapter,verse FROM strongs_nt WHERE book_id <= 27 ORDER BY 1,2,3"
@@ -127,7 +128,8 @@ def validate_variant(label, goi_dir, filename_suffix):
 
     print(f"=== DB INTEGRITY: {label} ===")
     check("foreign keys",
-          not cur.execute("PRAGMA foreign_key_check").fetchall())
+          not cur.execute("PRAGMA foreign_key_check").fetchall()
+          and not cur.execute("PRAGMA sense.foreign_key_check").fetchall())
     check("override positions valid",
           cur.execute("""
               SELECT COUNT(*) FROM verse_rendering_overrides v
