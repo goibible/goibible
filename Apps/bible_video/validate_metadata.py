@@ -17,8 +17,8 @@ import books
 HERE = Path(__file__).resolve().parent
 DB_PATH = HERE / "bible_video.sqlite3"
 VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
-OUTPUT_DIR = Path("output")
-PATH_RE = re.compile(r"^output/(\d{3})_([A-Za-z0-9_]+)/(\d{3})_([A-Za-z0-9_]+)\.mp4$")
+OUTPUT_DIR = books.OUTPUT_DIR
+PATH_RE = re.compile(r"^(\d{3})_([A-Za-z0-9_]+)/(\d{3})_([A-Za-z0-9_]+)\.mp4$")  # relative to OUTPUT_DIR
 
 
 def issue(message: str, issues: list[str]) -> None:
@@ -96,7 +96,7 @@ def check_schema(db_path: Path, issues: list[str]) -> None:
 def check_paths_and_samples(sample_probe_limit: int, issues: list[str]) -> None:
     outputs = sorted(OUTPUT_DIR.glob("*/*.mp4"))
     for path in outputs:
-        rel = path.as_posix()
+        rel = path.relative_to(OUTPUT_DIR).as_posix()
         match = PATH_RE.match(rel)
         if not match:
             issue(f"unexpected mp4 path convention: {rel}", issues)
@@ -108,7 +108,7 @@ def check_paths_and_samples(sample_probe_limit: int, issues: list[str]) -> None:
         if osis is None:
             issue(f"unknown book number in path: {rel}", issues)
             continue
-        expected_rel = (OUTPUT_DIR / books.book_dir_name(osis) / books.chapter_file_name(osis, int(chapter_num))).as_posix()
+        expected_rel = f"{books.book_dir_name(osis)}/{books.chapter_file_name(osis, int(chapter_num))}"
         if rel != expected_rel:
             issue(f"path should be {expected_rel}, found {rel}", issues)
 

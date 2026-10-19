@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS media_assets (
     UNIQUE (chapter_id),
     CHECK (relative_path NOT LIKE '/%'),
     CHECK (relative_path NOT LIKE '%/../%' AND relative_path NOT LIKE '../%'),
-    CHECK (relative_path LIKE 'output/%')
+    CHECK (relative_path GLOB '[0-9][0-9][0-9]_*/[0-9][0-9][0-9]_*.mp4')  -- relative to books.OUTPUT_DIR (~/projects/bible/youtube)
 );
 
 CREATE TABLE IF NOT EXISTS youtube_distribution (

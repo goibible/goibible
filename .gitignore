@@ -62,3 +62,4 @@ Meta_Bible_Data/sqlite/versions/*.sql.bak-*
 Apps/GOIBible_android/app/src/main/assets/*.db
 Apps/GOIBible_android/dist/
 Apps/GOIBible_desktop/**/resources/*.db
+/youtube/

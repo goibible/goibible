@@ -48,7 +48,7 @@ from benchmark_kokoro_voices import (  # noqa: E402
 VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
 VOICE_FILE = KOKORO_REPO / "reading_voice_choice.txt"
 
-WORK_DIR = Path("work")
+WORK_DIR = books.WORK_DIR
 INTER_VERSE_GAP = 0.35  # seconds of silence between verses
 
 

@@ -14,8 +14,10 @@ proven pipeline as the Proverbs videos.
   built-in length check on every chapter).
 
 ## Output layout (unix-friendly, capitalized names)
+Videos go to `~/projects/bible/youtube/` (`books.OUTPUT_DIR`; override with `BIBLE_VIDEO_OUTPUT_DIR`).
+Intermediate audio/frames go to `Apps/bible_video/work/` (`books.WORK_DIR`). Both are gitignored.
 ```
-output/
+youtube/
 └── <nnn>_<Name>/            e.g. 020_Proverbs, 022_Song_of_Solomon, 001_Genesis
     └── <ccc>_<Name>.mp4     e.g. 001_Proverbs.mp4, 031_Proverbs.mp4
 ```
@@ -48,4 +50,6 @@ cd Apps/bible_video
 ## Verification
 Each produced mp4 self-checks: `video ≈ audio ≈ expected` (≤0.05 s) or the run
 fails fast with `DURATION MISMATCH`. `--resume` reuses finished work and only
-rebuilds what changed.
+rebuilds what changed: verse audio is keyed by the verse text hash, and frames and the mp4
+are keyed by the chapter timeline signature (`frames/signature.txt`, `video_signature.txt`),
+so a text edit anywhere in a chapter re-renders that chapter.

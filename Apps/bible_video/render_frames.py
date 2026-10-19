@@ -10,7 +10,7 @@ differ only by a small scroll offset, so playback reads as smooth scrolling.
 Frame i is shown for exactly verse i's audio window (see render_video.py), so the
 highlighted verse always matches the verse being spoken.
 
-Output: work/<nnn>_<Book>/<ccc>/frames/<cc>_<vv>.png
+Output: work/<nnn>_<Book>/<ccc>/frames/<cc>_<vv>.png (+ frames/signature.txt: the timeline they were drawn from)
 """
 
 from __future__ import annotations
@@ -174,7 +174,7 @@ def main() -> None:
     if osis not in books.BOOK_NAMES:
         raise SystemExit(f"Unknown book code '{osis}'")
 
-    work = Path("work") / books.book_dir_name(osis) / f"{args.chapter:03d}"
+    work = books.WORK_DIR / books.book_dir_name(osis) / f"{args.chapter:03d}"
     timeline = json.loads((work / "timeline.json").read_text(encoding="utf-8"))
     verses = timeline["verses"]
     if not verses:
@@ -183,16 +183,24 @@ def main() -> None:
     rows, _ypos, total_h = build_rows(verses, timeline["book_display"])
     frame_dir = work / "frames"
     frame_dir.mkdir(parents=True, exist_ok=True)
+    # Every frame shows the whole scrolling chapter, so any text/timing change invalidates all of them.
+    sig_path = frame_dir / "signature.txt"
+    sig = books.timeline_signature(timeline)
+    reuse = args.resume and sig_path.exists() and sig_path.read_text().strip() == sig
+    if args.resume and not reuse:
+        print("timeline changed since frames were drawn -> redrawing all", flush=True)
+    sig_path.unlink(missing_ok=True)
 
     for v in verses:
         vv = v["verse"]
         frame_path = frame_dir / f"{args.chapter:02d}_{vv:03d}.png"
-        if args.resume and frame_path.exists():
+        if reuse and frame_path.exists():
             print(f"[{vv:03d}] reusing frame", flush=True)
         else:
             render_frame(rows, total_h, vv, frame_path)
             print(f"[{vv:03d}] frame written", flush=True)
 
+    sig_path.write_text(sig + "\n")
     print(f"{timeline['book_display']} ch {args.chapter}: {len(verses)} frames -> {frame_dir}", flush=True)
 
 

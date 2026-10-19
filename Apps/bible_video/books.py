@@ -13,7 +13,20 @@ every output path is unix-friendly (no spaces).
 
 from __future__ import annotations
 
+import hashlib
+import json
+import os
 from pathlib import Path
+
+# Shared locations for every stage (absolute, so the scripts work from any cwd).
+APP_DIR = Path(__file__).resolve().parent
+WORK_DIR = APP_DIR / "work"  # per-verse audio, timelines, frames, segments (gitignored)
+OUTPUT_DIR = Path(os.environ.get("BIBLE_VIDEO_OUTPUT_DIR", "/home/albert/projects/bible/youtube"))  # one mp4 per chapter
+
+
+def timeline_signature(timeline: dict) -> str:
+    """Hash of everything a chapter's frames and mp4 are drawn from (text, timings, title)."""
+    return hashlib.sha256(json.dumps(timeline, sort_keys=True, ensure_ascii=False).encode("utf-8")).hexdigest()[:16]
 
 # OSIS code -> canonical, capitalized long name (Protestant 66-book order).
 BOOK_NAMES: dict[str, str] = {

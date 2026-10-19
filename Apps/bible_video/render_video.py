@@ -13,7 +13,8 @@ untouched. This replaces the unreliable concat-demuxer image-duration path.
 
 The script verifies its own length/sync and fails fast on any mismatch.
 
-Output: output/<nnn>_<Book>/<ccc>_<Book>.mp4
+Output: $BIBLE_VIDEO_OUTPUT_DIR (default ~/projects/bible/youtube)/<nnn>_<Book>/<ccc>_<Book>.mp4
+(+ work/<nnn>_<Book>/<ccc>/video_signature.txt: the timeline the mp4 was built from)
 """
 
 from __future__ import annotations
@@ -27,9 +28,9 @@ from pathlib import Path
 
 import books
 
-WORK_DIR = Path("work")
-OUTPUT_DIR = Path("output")
-SEG_DIR = Path("work") / "_segments"
+WORK_DIR = books.WORK_DIR
+OUTPUT_DIR = books.OUTPUT_DIR
+SEG_DIR = books.WORK_DIR / "_segments"
 
 FPS = 30
 VIDEO_ENCODE = ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20"]
@@ -111,7 +112,7 @@ def main() -> None:
     parser.add_argument("--book", required=True, help="Book name, number, or OSIS code, e.g. Genesis, 01, GEN, Jude")
     parser.add_argument("--chapter", type=int, required=True)
     parser.add_argument("--resume", action="store_true",
-                        help="Skip an existing mp4 when its length/sync check already passes.")
+                        help="Skip an existing mp4 built from the same timeline whose length/sync check passes.")
     args = parser.parse_args()
 
     osis = books.resolve_book(args.book)
@@ -135,7 +136,12 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_mp4 = out_dir / books.chapter_file_name(osis, args.chapter)
 
-    if args.resume and out_mp4.exists() and out_mp4.stat().st_size > 0:
+    sig_path = wd / "video_signature.txt"
+    sig = books.timeline_signature(timeline)
+    same_text = sig_path.exists() and sig_path.read_text().strip() == sig
+    if args.resume and out_mp4.exists() and out_mp4.stat().st_size > 0 and not same_text:
+        print(f"Existing {out_mp4} was built from a different timeline; regenerating.", flush=True)
+    elif args.resume and out_mp4.exists() and out_mp4.stat().st_size > 0:
         print(f"Checking existing {out_mp4}", flush=True)
         ok, _fmt_dur, _vid_dur, _aud_dur = length_report(out_mp4, expected)
         if ok:
@@ -185,6 +191,7 @@ def main() -> None:
         raise SystemExit(f"DURATION MISMATCH for {osis} ch {args.chapter}: video {vid_dur:.3f}s "
                          f"/ audio {aud_dur:.3f}s vs expected {expected:.3f}s")
     os.replace(tmp_mp4, out_mp4)
+    sig_path.write_text(sig + "\n")
     print(f"Finalized {out_mp4}", flush=True)
 
 

@@ -7,7 +7,8 @@ Usage:
   /home/albert/miniconda3/envs/kokoro/bin/python run_all.py --book Genesis --chapter 1
   ... --resume                                                               # skip finished work
 
-Each chapter produces output/<nnn>_<Name>/<ccc>_<Name>.mp4. Every chapter passes
+Each chapter produces <OUTPUT_DIR>/<nnn>_<Name>/<ccc>_<Name>.mp4 (books.OUTPUT_DIR, default
+~/projects/bible/youtube; override with BIBLE_VIDEO_OUTPUT_DIR). Every chapter passes
 the built-in length/sync check before the run proceeds; a failing chapter aborts.
 """
 
@@ -59,7 +60,7 @@ def main() -> None:
             total += len(chapters)
             chapter_list = ", ".join(str(chapter) for chapter in chapters)
             print(f"DRY RUN: {books.book_dir_name(osis)} chapter(s): {chapter_list}", flush=True)
-        print(f"DRY RUN: {total} chapter video(s) would be processed; no files changed.", flush=True)
+        print(f"DRY RUN: {total} chapter video(s) would be written under {books.OUTPUT_DIR}; no files changed.", flush=True)
         return
 
     started = time.perf_counter()
