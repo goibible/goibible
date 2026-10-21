@@ -1,0 +1,14 @@
+Welcome to the GOI Bible.
+GOI stands for Global Ordinal Index. Every verse from Genesis to Revelation gets one whole number in reading order. Genesis 1:1 is verse 1. John 3:16 is verse 26,137. Revelation 22:21 is verse 31,102.
+Why a number? Book, chapter and verse are three keys, and Bibles do not always agree on them. One shared integer means the same verse in every edition, in every language, with nothing to line up by hand.
+That turns the Bible into data. Every verse is one row in a SQLite database, keyed by its GOI number. Ask for verse 26,137 and you get John 3:16 in every translation at once.
+With many translations on one key, you can read any two languages side by side, verse for verse. You can set a translation beside the Hebrew and Greek it came from, or beside the King James and the World English Bible.
+The key also keeps the editions honest. A missing or doubled verse shows up as a gap in the numbers. And because each verse is its own plain text file, every correction shows up as a visible change that anyone can review.
+The Old Testament is translated from the Hebrew of the Westminster Leningrad Codex. The New Testament is translated from the Greek Textus Receptus, Stephanus edition of 1550. Both source texts are in the public domain.
+The translation is AI-assisted, and checked with repeatable passes against the Hebrew and Greek, word by word and clause by clause. Where the Hebrew writes the personal name of God, this translation reads Yahweh.
+Current translations: English, Spanish, French, Portuguese, Russian, Japanese, Korean, Vietnamese, Simplified Chinese and Traditional Chinese, and more to come.
+It is free to read, copy, and share, under the MIT license, and the whole database fits offline on a laptop, a phone, or a USB stick.
+This channel will carry the whole Bible in every GOI translation: one video for each of the 1,189 chapters, read aloud in order, with each verse highlighted as it is spoken. The narration is a synthetic voice.
+English comes first. Chinese, Vietnamese, and the other languages will follow, each as its own series, chapter for chapter.
+The full text, the database, apps, and downloads are at goibible.org.
+The English series begins now, with Genesis, chapter one.

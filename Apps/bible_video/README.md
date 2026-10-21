@@ -53,3 +53,10 @@ fails fast with `DURATION MISMATCH`. `--resume` reuses finished work and only
 rebuilds what changed: verse audio is keyed by the verse text hash, and frames and the mp4
 are keyed by the chapter timeline signature (`frames/signature.txt`, `video_signature.txt`),
 so a text edit anywhere in a chapter re-renders that chapter.
+
+## Intro video and YouTube sidecars
+- `make_intro.py` renders `youtube/000_Intro_to_GOI_Bible.mp4` from `intro.txt` (one paragraph per line, highlighted like verses; `SPOKEN` rewrites words for the voice only, e.g. GOI -> "G O I"). It sits at the top level, outside the book folders, and belongs to no playlist.
+- Every mp4 gets a `.json` sidecar next to it, shaped as a YouTube Data API `videos.insert` body (`snippet` + `status`, private, synthetic media declared) plus `playlist` (one per book; null for the intro).
+  - `make_intro.py --sidecar-only` rewrites the intro's.
+  - `python3 make_sidecars.py [--book Psalms]` rewrites the chapters'. It skips (and reports) any chapter whose mp4 was not built from its current timeline.
+- Previous/next links need YouTube video IDs, so they come in a pass after upload.

@@ -77,22 +77,25 @@ def wrap(text: str, font: ImageFont.FreeTypeFont, max_w: int) -> list[str]:
     return lines
 
 
-def build_rows(verses: list[dict], book_display: str) -> list[dict]:
-    """Rows for the whole chapter column (heading + attribution + verse lines)."""
+def build_rows(verses: list[dict], book_display: str, attribution: str | None = None,
+               chapter_headings: bool = True, numbered: bool = True) -> list[dict]:
+    """Rows for the whole chapter column (heading + attribution + verse lines).
+
+    The defaults draw a Bible chapter; make_intro.py turns off the chapter heading and verse numbers."""
     verse_font = load_font(VERSE_SIZE)
 
     rows: list[dict] = [
         {"kind": "heading", "verse": None, "text": book_display},
-        {"kind": "attribution", "verse": None, "text": f"GOI Bible · English · {book_display}"},
+        {"kind": "attribution", "verse": None, "text": attribution or f"GOI Bible · English · {book_display}"},
     ]
 
     for v in verses:
-        if v.get("verse") == 1:
+        if chapter_headings and v.get("verse") == 1:
             rows.append({"kind": "heading", "verse": None, "text": f"Chapter {v['chapter']}"})
         wrapped = wrap(v["text"], verse_font, TEXT_W - VERSE_REF_W)
         for i, line in enumerate(wrapped):
             kind = "verse_start" if i == 0 else "verse_cont"
-            rows.append({"kind": kind, "verse": v["verse"], "text": line})
+            rows.append({"kind": kind, "verse": v["verse"], "text": line, "label": str(v["verse"]) if numbered else ""})
 
     y_positions: list[int] = []
     y = 0
@@ -147,7 +150,7 @@ def render_frame(rows: list[dict], total_h: int, active_verse: int, out_path: Pa
                 band_bottom = y + LINE_H
                 draw.rectangle([MARGIN_L - 14, y - 4, FRAME_W - MARGIN_R + 14, band_bottom + 2],
                                fill=HIGHLIGHT_BG)
-            draw.text((x, y), str(row["verse"]), font=ref_font, fill=HIGHLIGHT_INK if is_active else VERSE_REF)
+            draw.text((x, y), row["label"], font=ref_font, fill=HIGHLIGHT_INK if is_active else VERSE_REF)
             draw.text((x + VERSE_REF_W - 10, y), row["text"], font=verse_font,
                       fill=HIGHLIGHT_INK if is_active else INK)
         elif row["kind"] == "verse_cont":
