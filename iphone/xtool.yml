@@ -1,0 +1,5 @@
+version: 1
+bundleID: org.goibible.reader
+product: GOIBible
+infoPath: Info.plist
+iconPath: Resources/AppIcon.png

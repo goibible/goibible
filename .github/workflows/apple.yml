@@ -1,0 +1,40 @@
+name: apple
+
+# Builds the shared SwiftUI app (iphone/) for iOS (iPhone + iPad) and macOS.
+# Unsigned outputs: GOIBible.ipa (sideload/sign later) and GOIBible-macOS.zip.
+on:
+  push:
+    paths: ["iphone/**", ".github/workflows/apple.yml"]
+  pull_request:
+    paths: ["iphone/**", ".github/workflows/apple.yml"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    defaults:
+      run:
+        working-directory: iphone
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./sync-resources.sh
+      - run: brew install xcodegen && xcodegen generate
+      - name: iOS (iPhone + iPad), unsigned
+        run: |
+          xcodebuild -project GOIBible.xcodeproj -scheme GOIBible_iOS -configuration Release \
+            -sdk iphoneos -destination 'generic/platform=iOS' -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO build
+          mkdir -p Payload && cp -R build/Build/Products/Release-iphoneos/GOIBible.app Payload/
+          zip -qr GOIBible.ipa Payload
+      - name: macOS, ad-hoc signed
+        run: |
+          xcodebuild -project GOIBible.xcodeproj -scheme GOIBible_macOS -configuration Release \
+            -destination 'generic/platform=macOS' -derivedDataPath build \
+            CODE_SIGN_IDENTITY=- build
+          ditto -c -k --keepParent "build/Build/Products/Release/GOIBible.app" GOIBible-macOS.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: goibible-apple
+          path: |
+            iphone/GOIBible.ipa
+            iphone/GOIBible-macOS.zip

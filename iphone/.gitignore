@@ -1,0 +1,8 @@
+.build/
+xtool/
+.xcodegen/
+*.xcodeproj/
+Sources/GOIBible/Resources/
+Resources/Assets.xcassets/
+build/
+*.ipa
