@@ -7,6 +7,7 @@
   "GOI_Pt": {"allowed": ["latin", "common", "inherited"]},
   "GOI_Fr": {"allowed": ["latin", "common", "inherited"]},
   "GOI_It": {"allowed": ["latin", "common", "inherited"]},
+  "GOI_Is": {"allowed": ["latin", "common", "inherited"]},
   "GOI_Ru": {"allowed": ["cyrillic", "common", "inherited"], "forbidden_chars": "іїєґІЇЄҐўЎ"},
   "GOI_zh-Hans": {"allowed": ["han", "latin", "common", "inherited"]},
   "GOI_zh-Hant": {"allowed": ["han", "latin", "common", "inherited"]},
