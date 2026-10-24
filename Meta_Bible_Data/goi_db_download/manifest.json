@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-10-08T02:29:35+00:00",
+  "generated_at": "2026-10-24T15:38:46+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -37,6 +37,17 @@
       "file": "GOI_Fr.db",
       "size_bytes": 9367552,
       "sha256": "2b765dc9c2fcbb79b699a054bd7b2e4253b18b594d4e396bbb23a41e09cf2c2f",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_It",
+      "display_name": "GOI Bible Italian",
+      "bcp47_tag": "it",
+      "language_subtag": "it",
+      "status": "active",
+      "file": "GOI_It.db",
+      "size_bytes": 9035776,
+      "sha256": "373dc5a841163a0dd08a887e7ea85b7fcb4fac19bb355811dfba3b89996c3d7b",
       "verse_count": 31102
     },
     {
