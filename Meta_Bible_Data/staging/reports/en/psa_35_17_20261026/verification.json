@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "verse": "PSA 35:17",
+  "edition": "GOI_En",
+  "current_sqlite_databases": 16,
+  "current_app_verse_rows": 15,
+  "cube_chunks_and_sparse_rows": 5,
+  "randomizer_score": 82,
+  "source_unchanged": true,
+  "all_current_copies_equal_canonical": true,
+  "historical_snapshots_preserved": 7,
+  "cube_scope": "Affected verse/chunks/index rows synchronized; no whole-corpus freshness certification."
+}

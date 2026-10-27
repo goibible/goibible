@@ -1,0 +1,197 @@
+{
+  "status": "SYNCED",
+  "databases_inventoried": 133,
+  "active_databases_updated": 16,
+  "verse_rows_updated": 15,
+  "cube_chunks_updated": 5,
+  "sparse_rows_updated": 5,
+  "historical_snapshots_preserved": [
+    "Apps/GOIBible_desktop/dist/.GOIBible-win-before-zh-20261021/GOIBible/data/bible.db",
+    "Apps/GOIBible_desktop/dist/.GOIBible-win-before-zh-20261021/GOIBible/_internal/goibible/resources/GOI_En.db",
+    "Meta_Bible_Data/local_backups/GOI_bible.sqlite3",
+    "Meta_Bible_Data/staging/deploy/random_20261012/public_randomizer.sqlite3",
+    "Meta_Bible_Data/staging/deploy/random_20261012/randomizer.sqlite3",
+    "Meta_Bible_Data/staging/deploy/random_20261012/randomizer.before.sqlite3",
+    "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/en_before_rebuild_20261005.sqlite3"
+  ],
+  "updates": [
+    {
+      "database": "Apps/bible_verse_randomizer/randomizer.sqlite3",
+      "table": "verse_journalability",
+      "rowid": 45526,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": 82,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/bible_verse_randomizer/android_app/android/app/src/main/assets/public/randomizer.sqlite3",
+      "table": "verse_journalability",
+      "rowid": 45526,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": 82,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/bible_verse_randomizer/android_app/android/app/build/intermediates/assets/debug/public/randomizer.sqlite3",
+      "table": "verse_journalability",
+      "rowid": 45526,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": 82,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/bible_verse_randomizer/android_app/www/randomizer.sqlite3",
+      "table": "verse_journalability",
+      "rowid": 45526,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": 82,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_android/app/src/main/assets/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_android/app/build/intermediates/assets/release/mergeReleaseAssets/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_android/app/build/intermediates/assets/debug/mergeDebugAssets/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_desktop/dist/GOIBible/data/bible.db",
+      "table": "verses",
+      "rowid": 325448,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_desktop/dist/GOIBible/_internal/goibible/resources/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_desktop/dist/GOIBible-win/GOIBible/data/bible.db",
+      "table": "verses",
+      "rowid": 45530,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_desktop/dist/GOIBible-win/GOIBible/_internal/goibible/resources/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Apps/GOIBible_desktop/data/bible.db",
+      "table": "verses",
+      "rowid": 45530,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "iphone/Sources/GOIBible/Resources/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "iphone_package/data/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    },
+    {
+      "database": "Meta_Bible_Data/goi_db_download/GOI_En.db",
+      "table": "verses",
+      "rowid": 14428,
+      "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "score_preserved": null,
+      "edition": "GOI_En"
+    }
+  ],
+  "cube_updates": [
+    {
+      "id": 186959,
+      "row_index": 186958,
+      "before_text": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+      "after_text": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+      "feature_text": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions. __strong_h136 __gender_M __number_P __case_U __strong_h5315 __gender_B __number_S __case_U __strong_h7722 __gender_M __number_P __case_U __strong_h3715 __gender_M __number_P __case_U",
+      "content_sha256": "bf847541ea745b9eaf602a5099e277e7e90abf21cfb73653d97948641f576bef"
+    },
+    {
+      "id": 186960,
+      "row_index": 186959,
+      "before_text": "my) Lord how long will you look",
+      "after_text": "Lord, how long will you look",
+      "feature_text": "Lord, how long will you look Lord __strong_h136 __gender_M __number_P __case_U __target_gender_U __target_number_S",
+      "content_sha256": "5f857ae7da0a1e1f338c2658dbce7393f0a956d569e93c0d245e263fab1e362d"
+    },
+    {
+      "id": 186961,
+      "row_index": 186960,
+      "before_text": "you look on? rescue my soul from their destructions, from (young",
+      "after_text": "you look on? Rescue my soul from their destructions, my precious",
+      "feature_text": "you look on? Rescue my soul from their destructions, my precious soul __strong_h5315 __gender_B __number_S __case_U __target_gender_U __target_number_S",
+      "content_sha256": "27f8fdb85fb4ed7b6dd1ff9910ae1d8122976ca4dfcc992f93d33b213c6873e6"
+    },
+    {
+      "id": 186962,
+      "row_index": 186961,
+      "before_text": "rescue my soul from their destructions, from (young) lions my self",
+      "after_text": "Rescue my soul from their destructions, my precious life from the",
+      "feature_text": "Rescue my soul from their destructions, my precious life from the destruction __strong_h7722 __gender_M __number_P __case_U __target_gender_U __target_number_P",
+      "content_sha256": "949a592ec09e663d9aa438a61b791edd0757cf25768b2cc0defd987fd4d8ea21"
+    },
+    {
+      "id": 186963,
+      "row_index": 186962,
+      "before_text": "from their destructions, from (young) lions my self",
+      "after_text": "precious life from the young lions",
+      "feature_text": "precious life from the young lions lion __strong_h3715 __gender_M __number_P __case_U __target_gender_U __target_number_P",
+      "content_sha256": "e2cc050b51864a18a354e13280581fcb8a339494a270d1246143a6e12cece6d2"
+    }
+  ],
+  "source_and_reference_texts_changed": false
+}

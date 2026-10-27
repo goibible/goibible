@@ -1,0 +1,37 @@
+{
+  "verse": "PSA 35:17",
+  "edition": "GOI_En",
+  "before": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self.",
+  "after": "Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.",
+  "source": "אֲדֹנָי֮ כַּמָּ֪ה תִּ֫רְאֶ֥ה הָשִׁ֣יבָה נַ֭פְשִׁי מִשֹּׁאֵיהֶ֑ם מִ֝כְּפִירִ֗ים יְחִידָתִֽי",
+  "reason": "Owner-confirmed correction: sentence-initial Rescue; grammatical parallel my precious life from the young lions for Hebrew יחידתי / מכפירים; remove bracketed glosses and add vocative punctuation.",
+  "noun_anchor_checks": [
+    {
+      "strongs": "H136",
+      "surface": "אֲדֹנָי֮",
+      "rendering": "Lord",
+      "present": true
+    },
+    {
+      "strongs": "H5315",
+      "surface": "נַ֭פְשִׁי",
+      "rendering": "soul",
+      "present": true
+    },
+    {
+      "strongs": "H7722",
+      "surface": "מִשֹּׁאֵיהֶ֑ם",
+      "rendering": "destruction",
+      "present": true
+    },
+    {
+      "strongs": "H3715",
+      "surface": "מִ֝כְּפִירִ֗ים",
+      "rendering": "lion",
+      "present": true
+    }
+  ],
+  "format_pass": true,
+  "sha256_before": "355056cb82c3db520c706411a4e2f4f21c63270d78d1151a66d0549cb49b3968",
+  "sha256_after": "71fbefe8bece6e5410818eeab43ce5c82f11d7f36e51f3a57fe404535bbb4047"
+}

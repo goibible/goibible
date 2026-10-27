@@ -1,0 +1,783 @@
+{
+  "databases_scanned": 133,
+  "databases": [
+    {
+      "path": "greek_noun.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Apps/bible_video/bible_video.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Apps/bible_verse_randomizer/randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/bible_verse_randomizer/android_app/android/app/src/main/assets/public/randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/bible_verse_randomizer/android_app/android/app/build/intermediates/assets/debug/public/randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/bible_verse_randomizer/android_app/www/randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_android/app/src/main/assets/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_android/app/src/main/assets/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/src/main/assets/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/src/main/assets/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/release/mergeReleaseAssets/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/release/mergeReleaseAssets/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/release/mergeReleaseAssets/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/release/mergeReleaseAssets/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/debug/mergeDebugAssets/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/debug/mergeDebugAssets/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/debug/mergeDebugAssets/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_android/app/build/intermediates/assets/debug/mergeDebugAssets/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/.GOIBible-win-before-zh-20261021/GOIBible/data/bible.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 45530,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/.GOIBible-win-before-zh-20261021/GOIBible/_internal/goibible/resources/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/.GOIBible-win-before-zh-20261021/GOIBible/_internal/goibible/resources/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible/data/bible.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 325448,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible/_internal/goibible/resources/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible/_internal/goibible/resources/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible-win/GOIBible/data/bible.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 45530,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible-win/GOIBible/_internal/goibible/resources/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Apps/GOIBible_desktop/dist/GOIBible-win/GOIBible/_internal/goibible/resources/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Apps/GOIBible_desktop/data/bible.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 45530,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "youtube/youtube_upload.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "iphone/Sources/GOIBible/Resources/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "iphone/Sources/GOIBible/Resources/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "iphone/Sources/GOIBible/Resources/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "iphone/Sources/GOIBible/Resources/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "iphone_package/data/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "iphone_package/data/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "iphone_package/data/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "iphone_package/data/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/local_backups/GOI_bible.sqlite3",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Ko.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_En.db",
+      "matches": [
+        {
+          "table": "verses",
+          "column": "verse_text",
+          "rowid": 14428,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Fr.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/WEBUS.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Ja.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Es.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_vi.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Ru.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/KJV.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_It.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Zh_Hans.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/TR1550.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Zh_Hant.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/GOI_Pt.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/goi_db_download/WLC.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reviews/en_deepinfra_20261015/decisions.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reports/ar/cleanup_20261021/greek_sense_ar_before_act19_assembly_overrides.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reports/ar/cleanup_20261021/greek_sense_ar_before_act7_5_bema_override.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reports/zh/cleanup_20261020/database_backups/grammar_tables.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reports/zh/cleanup_20261020/database_backups/hebrew_ot_zh.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/reports/zh/cleanup_20261020/database_backups/zh.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/deploy/random_20261012/public_randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/staging/deploy/random_20261012/randomizer.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/staging/deploy/random_20261012/randomizer.before.sqlite3",
+      "matches": [
+        {
+          "table": "verse_journalability",
+          "column": "verse_text",
+          "rowid": 45526,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/staging/source_names/biblical_source_names.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/ot_names/vi_ot_names.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/ot_names/ot_names.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/staging/ot_names/pt_ot_names.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/archive/atomic_bible.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_noun.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/grammar_tables.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/hebrew_ot_fr.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/bible_noun.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/vi/hebrew_ot_vi.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/source_grammar/hebrew_ot_grammar.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/source_grammar/greek_nt_grammar.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/it/hebrew_ot_it.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/hebrew_ot_ar.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/*.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_sense_ar_before_mat24_43_override.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_rest_nt_repairs_2026-09-29.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_acts_12_18_2026-09-29.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_sense_ar_before_luk12_38_override.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_hebrew_ot_ar_before_machine_review_20261023.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_default_adjudications.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_occurrence_senses.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_revelation_repair_2026-09-29.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_partial_adjudications.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/greek_noun_before_ar_act_sense_adjudications.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/gospel_reconciliation_2026-09-28_originals/greek_noun.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/ru_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/is_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/vi_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/ja_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/fr_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/greek_nt_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/it_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/pt_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/hebrew_ot_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/zh_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/en_cube.sqlite3",
+      "matches": [
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186959,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186962,
+          "value": "rescue my soul from their destructions, from (young) lions my self"
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186963,
+          "value": "from their destructions, from (young) lions my self"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186959,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destructions, from (young) lions my self. __strong_h136 __gender_M __number_P __case_U __strong_h5315 __gender_B __number_S __case_U __strong_h7722 __gender_M __number_P __case_U __strong_h3715 __gender_M __number_P __case_U"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186962,
+          "value": "rescue my soul from their destructions, from (young) lions my self destruction __strong_h7722 __gender_M __number_P __case_U __target_gender_U __target_number_P"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186963,
+          "value": "from their destructions, from (young) lions my self lion __strong_h3715 __gender_M __number_P __case_U __target_gender_U __target_number_P"
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/ko_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/es_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/it_riv_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/fr_lsg_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/en_before_rebuild_20261005.sqlite3",
+      "matches": [
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186959,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186960,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186961,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186962,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "text",
+          "rowid": 186963,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self."
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186959,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self. __strong_h136 __gender_M __number_P __case_U __strong_h5315 __gender_B __number_S __case_U __strong_h7722 __gender_M __number_P __case_U __strong_h3715 __gender_M __number_P __case_U"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186960,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.  __strong_h136 __gender_M __number_P __case_U __target_gender_U __target_number_U"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186961,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.  __strong_h5315 __gender_B __number_S __case_U __target_gender_U __target_number_U"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186962,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.  __strong_h7722 __gender_M __number_P __case_U __target_gender_U __target_number_U"
+        },
+        {
+          "table": "chunks",
+          "column": "feature_text",
+          "rowid": 186963,
+          "value": "(my) Lord how long will you look on? rescue my soul from their destruction, from (young) lions my self.  __strong_h3715 __gender_M __number_P __case_U __target_gender_U __target_number_U"
+        }
+      ]
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/arabic_before_rebuild_20261005/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/arabic_before_genesis5_completion_20261001/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/arabic_before_genesis6_completion_20261001/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/arabic_before_genesis7_completion_20261001/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/arabic_pre_lexical_20260923/arabic_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/translation_cube/cubes/archive/greek_nt_before_lexicon_fix_20260923/greek_nt_cube.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/ja.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/vi.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/ko.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/is.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/pt.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/fr.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/ru.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/it.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/zh.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/ar.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/en.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/greek_sense/es.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/is/hebrew_ot_is.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/zh/hebrew_ot_zh.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ru/hebrew_ot_ru.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ko/hebrew_ot_ko.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/en/hebrew_ot_en.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/ja/hebrew_ot_ja.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/es/hebrew_ot_es.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/fr/hebrew_ot_fr.sqlite3",
+      "matches": []
+    },
+    {
+      "path": "Meta_Bible_Data/Bible_Noun_Extraction/pt/hebrew_ot_pt.sqlite3",
+      "matches": []
+    }
+  ],
+  "errors": []
+}
