@@ -71,3 +71,5 @@ Apps/GOIBible_desktop/**/resources/*.db
 
 # Private nested repo (no public remote); see Meta_Bible_Data/no_copy_github_repo.md
 /Meta_Bible_Data/Bible_Noun_Extraction/
+# Private nested repo with no public remote
+/Apps/bible_verse_randomizer/

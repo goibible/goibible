@@ -1,0 +1,9 @@
+[submodule "Meta_Bible_Data/sources/greektext-textus-receptus"]
+	path = Meta_Bible_Data/sources/greektext-textus-receptus
+	url = https://github.com/byztxt/greektext-textus-receptus
+[submodule "Meta_Bible_Data/sources/morphhb"]
+	path = Meta_Bible_Data/sources/morphhb
+	url = https://github.com/openscriptures/morphhb
+[submodule "Meta_Bible_Data/sources/strongs"]
+	path = Meta_Bible_Data/sources/strongs
+	url = https://github.com/openscriptures/strongs
