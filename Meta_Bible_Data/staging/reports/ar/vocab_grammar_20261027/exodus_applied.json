@@ -1,0 +1,37 @@
+{
+  "status": "APPLIED",
+  "reviewed": [
+    {
+      "book": "EXO",
+      "chapter": 16,
+      "verse": 33,
+      "word_position": 3,
+      "strongs_num": 6803,
+      "rendering": "إِنَاء",
+      "sense_key": "H6803.AR_CONTEXT_EXO_16_33",
+      "reason": "Hebrew צנצנת is the container for manna; Arabic إناء renders the container.",
+      "source_surface": "צִנְצֶ֣נֶת",
+      "target_span": "إِنَاءً",
+      "target_start": 32,
+      "source_sha256": "41a635727440da69df0ddaae0d91f818cb2fd0432ef95e1c9d026793eb933ceb",
+      "target_sha256": "97c83f04b094152965734783d375d9ff772a8beb9629957d4f97bc7286513d0e"
+    },
+    {
+      "book": "EXO",
+      "chapter": 21,
+      "verse": 6,
+      "word_position": 7,
+      "strongs_num": 4836,
+      "rendering": "مِثْقَب",
+      "sense_key": "H4836.AR_CONTEXT_EXO_21_6",
+      "reason": "Hebrew מרצע is the awl used to pierce the ear; Arabic المثقب renders the piercing tool.",
+      "source_surface": "בַּמַּרְצֵ֔עַ",
+      "target_span": "بِالْمِثْقَبِ",
+      "target_start": 129,
+      "source_sha256": "ff4def46c07a6eda8e624b494e8b6c2902b2a797cccd2752df33c162a534de4e",
+      "target_sha256": "75c076b7be11e2ec0e24b8a010e0056985be48f91ef5df4fe19136c7589283bf"
+    }
+  ],
+  "before_sha256": "b67bd5d6f92ea54ff7bfcd4eae6032dc4e3d7826b90a01442ebb995ca5b5b751",
+  "after_sha256": "c7161cf6d492e09133e30b2d677d3ac0d3130c2c7a97b612b59b4243bcdeab08"
+}

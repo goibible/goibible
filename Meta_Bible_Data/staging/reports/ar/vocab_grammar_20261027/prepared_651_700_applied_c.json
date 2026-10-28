@@ -1,0 +1,597 @@
+{
+  "status": "APPLIED",
+  "rows": [
+    {
+      "row": 652,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 25,
+      "word_position": 2,
+      "strongs_num": 2520,
+      "source_surface": "חֶלְקַ֥ת",
+      "rendering": "حَلْقَة",
+      "sense_key": "H2520.AR_CONTEXT_JOS_19_25",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "حَلْقَةَ",
+      "target_start": 22,
+      "target_end": 30,
+      "source_sha256": "efde4ea82ee2da05b79aeb5930748e2f474b84ab4a79a10b639ff628d2501dc2",
+      "target_sha256": "221f1d4dccc054913c02d2aeaa5220fe8168107b323b7698cdac711fba83df95",
+      "existing_grammar": null
+    },
+    {
+      "row": 656,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 26,
+      "word_position": 2,
+      "strongs_num": 6008,
+      "source_surface": "וְעַמְעָ֖ד",
+      "rendering": "عَمْعَاد",
+      "sense_key": "H6008.AR_CONTEXT_JOS_19_26",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "عَمْعَادُ",
+      "target_start": 17,
+      "target_end": 26,
+      "source_sha256": "bff88820321224bd79a26a7b7f170bdfb9dfc90faf237fbf1219276212704d37",
+      "target_sha256": "d6bf42c70360bc64124ddb8fcabd2182d8ecc11b8c0f4d8bf7340d3297c722d6",
+      "existing_grammar": null
+    },
+    {
+      "row": 658,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 26,
+      "word_position": 6,
+      "strongs_num": 7884,
+      "source_surface": "וּבְשִׁיח֖וֹר",
+      "rendering": "شيحور لبنة",
+      "sense_key": "H7884.AR_CONTEXT_JOS_19_26",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "شِيحُورِ لِبْنَةَ",
+      "target_start": 91,
+      "target_end": 108,
+      "source_sha256": "bff88820321224bd79a26a7b7f170bdfb9dfc90faf237fbf1219276212704d37",
+      "target_sha256": "d6bf42c70360bc64124ddb8fcabd2182d8ecc11b8c0f4d8bf7340d3297c722d6",
+      "existing_grammar": null
+    },
+    {
+      "row": 659,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 26,
+      "word_position": 7,
+      "strongs_num": 7884,
+      "source_surface": "לִבְנָֽת",
+      "rendering": "شيحور لبنة",
+      "sense_key": "H7884.AR_CONTEXT_JOS_19_26",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "شِيحُورِ لِبْنَةَ",
+      "target_start": 91,
+      "target_end": 108,
+      "source_sha256": "bff88820321224bd79a26a7b7f170bdfb9dfc90faf237fbf1219276212704d37",
+      "target_sha256": "d6bf42c70360bc64124ddb8fcabd2182d8ecc11b8c0f4d8bf7340d3297c722d6",
+      "existing_grammar": null
+    },
+    {
+      "row": 661,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 27,
+      "word_position": 13,
+      "strongs_num": 3521,
+      "source_surface": "כָּב֖וּל",
+      "rendering": "كَابُول",
+      "sense_key": "H3521.AR_CONTEXT_JOS_19_27",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "كَابُولَ",
+      "target_start": 173,
+      "target_end": 181,
+      "source_sha256": "4dda39450ed75b074629b0a09a98c0b90fcf99f9f779deb4066cbf41ad7e34c5",
+      "target_sha256": "1efe8fb532361ffdbfc580fbde7d4b4febc2a5bb5f1969f7723b1dfa64a52968",
+      "existing_grammar": null
+    },
+    {
+      "row": 663,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 28,
+      "word_position": 3,
+      "strongs_num": 2540,
+      "source_surface": "וְחַמּ֣וֹן",
+      "rendering": "حَمُّون",
+      "sense_key": "H2540.AR_CONTEXT_JOS_19_28",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "حَمُّونُ",
+      "target_start": 24,
+      "target_end": 32,
+      "source_sha256": "209ec7e778684fd9a36508d571057e6d58f00b25c9473d73bc5f6cd66cbb1ec4",
+      "target_sha256": "7aeb02b122a2b532295355c296b6068c09d067def6359b4fa4b42d4b29ed1c0f",
+      "existing_grammar": null
+    },
+    {
+      "row": 665,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 33,
+      "word_position": 2,
+      "strongs_num": 2501,
+      "source_surface": "מֵחֵ֨לֶף",
+      "rendering": "حَالَف",
+      "sense_key": "H2501.AR_CONTEXT_JOS_19_33",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "حَالَفَ",
+      "target_start": 27,
+      "target_end": 34,
+      "source_sha256": "34ebc3a0f6cb65a217799d205dfb96dbd3e5b2b47cd2a69d426463d984a39ffc",
+      "target_sha256": "fdad88b2664932716327e096c9ae8250c2de2e715fce558b852317dc1e584bfb",
+      "existing_grammar": null
+    },
+    {
+      "row": 668,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 33,
+      "word_position": 7,
+      "strongs_num": 2995,
+      "source_surface": "וְיַבְנְאֵ֖ל",
+      "rendering": "يَبْنِئِيل",
+      "sense_key": "H2995.AR_CONTEXT_JOS_19_33",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "يَبْنِئِيلَ",
+      "target_start": 88,
+      "target_end": 99,
+      "source_sha256": "34ebc3a0f6cb65a217799d205dfb96dbd3e5b2b47cd2a69d426463d984a39ffc",
+      "target_sha256": "fdad88b2664932716327e096c9ae8250c2de2e715fce558b852317dc1e584bfb",
+      "existing_grammar": null
+    },
+    {
+      "row": 669,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 33,
+      "word_position": 8,
+      "strongs_num": 3946,
+      "source_surface": "לַקּ֑וּם",
+      "rendering": "لَقُّوم",
+      "sense_key": "H3946.AR_CONTEXT_JOS_19_33",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "لَقُّومَ",
+      "target_start": 106,
+      "target_end": 114,
+      "source_sha256": "34ebc3a0f6cb65a217799d205dfb96dbd3e5b2b47cd2a69d426463d984a39ffc",
+      "target_sha256": "fdad88b2664932716327e096c9ae8250c2de2e715fce558b852317dc1e584bfb",
+      "existing_grammar": null
+    },
+    {
+      "row": 671,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 35,
+      "word_position": 3,
+      "strongs_num": 6661,
+      "source_surface": "הַצִּדִּ֣ים",
+      "rendering": "الصِّدِّيم",
+      "sense_key": "H6661.AR_CONTEXT_JOS_19_35",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "الصِّدِّيمُ",
+      "target_start": 19,
+      "target_end": 30,
+      "source_sha256": "a64abe1360f830013fda47ebccd625493204a7d7452344dd166d43e2a05c0b3a",
+      "target_sha256": "d8fb8600991a75c8998caa0210faf88e7e5c84c2290d09109a39b08d7e7e77df",
+      "existing_grammar": null
+    },
+    {
+      "row": 672,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 35,
+      "word_position": 4,
+      "strongs_num": 6863,
+      "source_surface": "צֵ֔ר",
+      "rendering": "صَيْر",
+      "sense_key": "H6863.AR_CONTEXT_JOS_19_35",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "صَيْرُ",
+      "target_start": 32,
+      "target_end": 38,
+      "source_sha256": "a64abe1360f830013fda47ebccd625493204a7d7452344dd166d43e2a05c0b3a",
+      "target_sha256": "d8fb8600991a75c8998caa0210faf88e7e5c84c2290d09109a39b08d7e7e77df",
+      "existing_grammar": null
+    },
+    {
+      "row": 673,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 35,
+      "word_position": 5,
+      "strongs_num": 2575,
+      "source_surface": "וְחַמַּ֖ת",
+      "rendering": "حَمَّة",
+      "sense_key": "H2575.AR_CONTEXT_JOS_19_35",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "حَمَّةُ",
+      "target_start": 41,
+      "target_end": 48,
+      "source_sha256": "a64abe1360f830013fda47ebccd625493204a7d7452344dd166d43e2a05c0b3a",
+      "target_sha256": "d8fb8600991a75c8998caa0210faf88e7e5c84c2290d09109a39b08d7e7e77df",
+      "existing_grammar": null
+    },
+    {
+      "row": 676,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 37,
+      "word_position": 3,
+      "strongs_num": 5877,
+      "source_surface": "וְעֵ֥ין",
+      "rendering": "عين حاصور",
+      "sense_key": "H5877.AR_CONTEXT_JOS_19_37",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "عَيْنَ حَاصُورَ",
+      "target_start": 24,
+      "target_end": 39,
+      "source_sha256": "8e2eb3aa42ce4dbf0bd64c7d1c9f32cc98d471bacdd5fa62a94f237e451c112d",
+      "target_sha256": "3c8f8f260f4dbc0f1bcd212d6a0c7fbbf29ee5e97b3f987ae58fb0863e4a707f",
+      "existing_grammar": null
+    },
+    {
+      "row": 677,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 37,
+      "word_position": 4,
+      "strongs_num": 5877,
+      "source_surface": "חָצֽוֹר",
+      "rendering": "عين حاصور",
+      "sense_key": "H5877.AR_CONTEXT_JOS_19_37",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "عَيْنَ حَاصُورَ",
+      "target_start": 24,
+      "target_end": 39,
+      "source_sha256": "8e2eb3aa42ce4dbf0bd64c7d1c9f32cc98d471bacdd5fa62a94f237e451c112d",
+      "target_sha256": "3c8f8f260f4dbc0f1bcd212d6a0c7fbbf29ee5e97b3f987ae58fb0863e4a707f",
+      "existing_grammar": null
+    },
+    {
+      "row": 682,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 41,
+      "word_position": 5,
+      "strongs_num": 5905,
+      "source_surface": "וְעִ֥יר",
+      "rendering": "عير شمس",
+      "sense_key": "H5905.AR_CONTEXT_JOS_19_41",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "عِيرَ شَمْسٍ",
+      "target_start": 54,
+      "target_end": 66,
+      "source_sha256": "3484f54314e089802d8c87a08a7b3ca462ee8ce7a58e5b9aa1ed890015d2f46a",
+      "target_sha256": "c87f9b4383d0a3e94bf576ea2b8c5d29ad06eee349c2eed29852f19f78f38a49",
+      "existing_grammar": null
+    },
+    {
+      "row": 683,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 41,
+      "word_position": 6,
+      "strongs_num": 5905,
+      "source_surface": "שָֽׁמֶשׁ",
+      "rendering": "عير شمس",
+      "sense_key": "H5905.AR_CONTEXT_JOS_19_41",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "عِيرَ شَمْسٍ",
+      "target_start": 54,
+      "target_end": 66,
+      "source_sha256": "3484f54314e089802d8c87a08a7b3ca462ee8ce7a58e5b9aa1ed890015d2f46a",
+      "target_sha256": "c87f9b4383d0a3e94bf576ea2b8c5d29ad06eee349c2eed29852f19f78f38a49",
+      "existing_grammar": null
+    },
+    {
+      "row": 684,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 42,
+      "word_position": 3,
+      "strongs_num": 3494,
+      "source_surface": "וְיִתְלָֽה",
+      "rendering": "يِتْلَة",
+      "sense_key": "H3494.AR_CONTEXT_JOS_19_42",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "يِتْلَةَ",
+      "target_start": 31,
+      "target_end": 39,
+      "source_sha256": "da96724d24e30c796fb2d69576f041103ab171dfa3ad82d92439081596c24df6",
+      "target_sha256": "f65653484fdf4343722c87894d188ae33eaad3b30b339e14b1910d47cc7e05f7",
+      "existing_grammar": null
+    },
+    {
+      "row": 685,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 45,
+      "word_position": 1,
+      "strongs_num": 3055,
+      "source_surface": "וִיהֻ֥ד",
+      "rendering": "يَهُود",
+      "sense_key": "H3055.AR_CONTEXT_JOS_19_45",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "يَهُودَ",
+      "target_start": 0,
+      "target_end": 7,
+      "source_sha256": "9e6e6c5b0b2fe49230df0f8f936445afb4a06bfd9f1c4550c0d55cb550ac6cf5",
+      "target_sha256": "4d70bda05c6a5e6250a99fd3b7625c4aab9db92d8061b91a8d7a6cf4b58b88a0",
+      "existing_grammar": null
+    },
+    {
+      "row": 686,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 46,
+      "word_position": 1,
+      "strongs_num": 4313,
+      "source_surface": "וּמֵ֥י",
+      "rendering": "مياه اليرقون",
+      "sense_key": "H4313.AR_CONTEXT_JOS_19_46",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "مِيَاهَ الْيَرْقُونَ",
+      "target_start": 2,
+      "target_end": 22,
+      "source_sha256": "aec77a51f9b234c7ae79683c0d428ff13d0511ac7233fd615a8e6ba1c87c5ff8",
+      "target_sha256": "6999cbe5aec684932fd9c8a3ace77a346ee82dcfa7e4ce00cc67274c5faa801d",
+      "existing_grammar": null
+    },
+    {
+      "row": 687,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 46,
+      "word_position": 2,
+      "strongs_num": 4313,
+      "source_surface": "הַיַּרְק֖וֹן",
+      "rendering": "مياه اليرقون",
+      "sense_key": "H4313.AR_CONTEXT_JOS_19_46",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "مِيَاهَ الْيَرْقُونَ",
+      "target_start": 2,
+      "target_end": 22,
+      "source_sha256": "aec77a51f9b234c7ae79683c0d428ff13d0511ac7233fd615a8e6ba1c87c5ff8",
+      "target_sha256": "6999cbe5aec684932fd9c8a3ace77a346ee82dcfa7e4ce00cc67274c5faa801d",
+      "existing_grammar": null
+    },
+    {
+      "row": 688,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 46,
+      "word_position": 3,
+      "strongs_num": 7542,
+      "source_surface": "וְהָֽרַקּ֑וֹן",
+      "rendering": "رَقُون",
+      "sense_key": "H7542.AR_CONTEXT_JOS_19_46",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "رَقُونَ",
+      "target_start": 25,
+      "target_end": 32,
+      "source_sha256": "aec77a51f9b234c7ae79683c0d428ff13d0511ac7233fd615a8e6ba1c87c5ff8",
+      "target_sha256": "6999cbe5aec684932fd9c8a3ace77a346ee82dcfa7e4ce00cc67274c5faa801d",
+      "existing_grammar": null
+    },
+    {
+      "row": 689,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 47,
+      "word_position": 6,
+      "strongs_num": 3959,
+      "source_surface": "לֶ֜שֶׁם",
+      "rendering": "لَشَم",
+      "sense_key": "H3959.AR_CONTEXT_JOS_19_47",
+      "reason": "Hebrew first and second references to Leshem correspond to first and second Arabic occurrences respectively.",
+      "target_span": "لَشَمَ",
+      "target_start": 74,
+      "target_end": 80,
+      "source_sha256": "8370e9c3bc63cbff5115ed4678101bd830e03891be27676117280ef268e1d4e7",
+      "target_sha256": "b1807280e6db1765d609b2af38efc19c09af31e59fb700c621f959194bddd32b",
+      "existing_grammar": null
+    },
+    {
+      "row": 690,
+      "book": "JOS",
+      "chapter": 19,
+      "verse": 47,
+      "word_position": 9,
+      "strongs_num": 3959,
+      "source_surface": "לְלֶ֨שֶׁם֙",
+      "rendering": "لَشَم",
+      "sense_key": "H3959.AR_CONTEXT_JOS_19_47",
+      "reason": "Hebrew first and second references to Leshem correspond to first and second Arabic occurrences respectively. Corrects prior proposal to the second target occurrence.",
+      "target_span": "لَشَمَ",
+      "target_start": 173,
+      "target_end": 179,
+      "source_sha256": "8370e9c3bc63cbff5115ed4678101bd830e03891be27676117280ef268e1d4e7",
+      "target_sha256": "b1807280e6db1765d609b2af38efc19c09af31e59fb700c621f959194bddd32b",
+      "existing_grammar": null
+    },
+    {
+      "row": 695,
+      "book": "JOS",
+      "chapter": 21,
+      "verse": 24,
+      "word_position": 3,
+      "strongs_num": 1667,
+      "source_surface": "גַּת",
+      "rendering": "جت رمون",
+      "sense_key": "H1667.AR_CONTEXT_JOS_21_24",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "جَتَّ رِمُّونَ",
+      "target_start": 27,
+      "target_end": 41,
+      "source_sha256": "ac048b6441210f2700d1f56662898f1671d113dfff27682d8c353a6a0d9705b3",
+      "target_sha256": "ffdb3e18ee793f823caf51cd7edca6ee69e6cf1e852c566de6fdf9d37c9dbcbc",
+      "existing_grammar": null
+    },
+    {
+      "row": 696,
+      "book": "JOS",
+      "chapter": 21,
+      "verse": 24,
+      "word_position": 4,
+      "strongs_num": 1667,
+      "source_surface": "רִמּ֖וֹן",
+      "rendering": "جت رمون",
+      "sense_key": "H1667.AR_CONTEXT_JOS_21_24",
+      "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences.",
+      "target_span": "جَتَّ رِمُّونَ",
+      "target_start": 27,
+      "target_end": 41,
+      "source_sha256": "ac048b6441210f2700d1f56662898f1671d113dfff27682d8c353a6a0d9705b3",
+      "target_sha256": "ffdb3e18ee793f823caf51cd7edca6ee69e6cf1e852c566de6fdf9d37c9dbcbc",
+      "existing_grammar": null
+    },
+    {
+      "row": 700,
+      "book": "JOS",
+      "chapter": 21,
+      "verse": 31,
+      "word_position": 1,
+      "strongs_num": 2520,
+      "source_surface": "חֶלְקָת֙",
+      "rendering": "حَلْقَة",
+      "sense_key": "H2520.AR_CONTEXT_JOS_21_31",
+      "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate.",
+      "target_span": "حَلْقَةَ",
+      "target_start": 0,
+      "target_end": 8,
+      "source_sha256": "86e41938aa5e41e05dc0c0932d0852be7fbe7560343f1fa04569ff13f895c9f0",
+      "target_sha256": "a296ce2a30b3baa1feb19f110d10fd45aed2822d9678bd6a11a2829c363f0341",
+      "existing_grammar": null
+    }
+  ],
+  "held": [
+    {
+      "row": 651,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 653,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 654,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 655,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 657,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 660,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 662,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 666,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 667,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 674,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 675,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 691,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 693,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 694,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 697,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 699,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 664,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِنَاء"
+      ]
+    },
+    {
+      "row": 670,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مشرق;شَمْس"
+      ]
+    },
+    {
+      "row": 678,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِنَاء"
+      ]
+    },
+    {
+      "row": 679,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِنَاء"
+      ]
+    },
+    {
+      "row": 680,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِنَاء"
+      ]
+    },
+    {
+      "row": 681,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِنَاء"
+      ]
+    },
+    {
+      "row": 692,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مَسَارِح;مَسَارِح;مَسَارِح;قَضِيب"
+      ]
+    },
+    {
+      "row": 698,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:عَصَا"
+      ]
+    }
+  ],
+  "before_hash": "6d1da80a46fcd36585407f06974481185789d1823e984fedcb6a98442768678c",
+  "after_hash": "806d5269d87d19920582f41127422000b6d72eb67fadd2bd0038d9ad509e1943"
+}

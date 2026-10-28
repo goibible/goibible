@@ -1,0 +1,136 @@
+{
+  "status": "APPLIED",
+  "reviewed": [
+    {
+      "book": "EXO",
+      "chapter": 12,
+      "verse": 4,
+      "word_position": 4,
+      "strongs_num": 4373,
+      "source_surface": "בְּמִכְסַ֣ת",
+      "old": "",
+      "new": "عَدَد",
+      "target_span": "بِعَدَدِ",
+      "target_start": 133,
+      "target_end": 141,
+      "context_phrase": null,
+      "citation_grammar": {
+        "gender": "M",
+        "citation_number": "S",
+        "plural_form": "أَعْدَاد",
+        "pos": "N"
+      },
+      "occurrence_form_only": false,
+      "reason": "Number of persons determines lamb allocation."
+    },
+    {
+      "book": "EXO",
+      "chapter": 12,
+      "verse": 4,
+      "word_position": 8,
+      "strongs_num": 400,
+      "source_surface": "אָכְל֔וֹ",
+      "old": "طَعَام",
+      "new": "يَأْكُلُ",
+      "target_span": "يَأْكُلُ",
+      "target_start": 167,
+      "target_end": 175,
+      "context_phrase": "بِحَسَبِ مَا يَأْكُلُ",
+      "citation_grammar": null,
+      "occurrence_form_only": true,
+      "reason": "Source consumption is expressed by an Arabic finite verb, not a food noun."
+    },
+    {
+      "book": "EXO",
+      "chapter": 14,
+      "verse": 25,
+      "word_position": 3,
+      "strongs_num": 3517,
+      "source_surface": "בִּכְבֵדֻ֑ת",
+      "old": "",
+      "new": "مَشَقَّة",
+      "target_span": "بِمَشَقَّةٍ",
+      "target_start": 63,
+      "target_end": 74,
+      "context_phrase": null,
+      "citation_grammar": {
+        "gender": "F",
+        "citation_number": "S",
+        "plural_form": "مَشَقَّات",
+        "pos": "N"
+      },
+      "occurrence_form_only": false,
+      "reason": "WLC driving with heaviness is rendered with difficulty."
+    },
+    {
+      "book": "EXO",
+      "chapter": 14,
+      "verse": 25,
+      "word_position": 4,
+      "strongs_num": 4714,
+      "source_surface": "מִצְרַ֗יִם",
+      "old": "مِصْرَايِم",
+      "new": "الْمِصْرِيُّونَ",
+      "target_span": "الْمِصْرِيُّونَ",
+      "target_start": 84,
+      "target_end": 99,
+      "context_phrase": null,
+      "citation_grammar": null,
+      "occurrence_form_only": true,
+      "reason": "Collective Egypt speaks; target explicitly names the Egyptians."
+    },
+    {
+      "book": "EXO",
+      "chapter": 14,
+      "verse": 25,
+      "word_position": 8,
+      "strongs_num": 4714,
+      "source_surface": "בְּמִצְרָֽיִם",
+      "old": "مِصْرَايِم",
+      "new": "الْمِصْرِيِّينَ",
+      "target_span": "الْمِصْرِيِّينَ",
+      "target_start": 179,
+      "target_end": 194,
+      "context_phrase": null,
+      "citation_grammar": null,
+      "occurrence_form_only": true,
+      "reason": "Yahweh fights against Egypt, rendered as the Egyptians in the target."
+    }
+  ],
+  "verses": {
+    "12:4": {
+      "source_sha256": "7b48a55dd7607c382a21d725fbe52cd7142c4cce24f7df633fe3ae215779fdfa",
+      "target_sha256": "fdc5f9876a1a223600e189a0526333dc9de8e8fcd4ca18c20bdff004bc429431"
+    },
+    "14:25": {
+      "source_sha256": "bb3397e581be56fc05efb5e4f91e60920331d7351f34282afbf8ecd9840d868e",
+      "target_sha256": "36cd4cd612471ca3b5c85b19107368bc1de8aaaabbec51ed8352464ab6ff275f"
+    }
+  },
+  "override_before_sha256": "7d8c6b568632b72f386872e7ae98dead2cf05d7fe39d314dd614707add198b66",
+  "override_after_sha256": "6d1da80a46fcd36585407f06974481185789d1823e984fedcb6a98442768678c",
+  "grammar_citations_checked_readonly": [
+    {
+      "citation": "عَدَد",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "أَعْدَاد",
+      "pos": "N"
+    },
+    {
+      "citation": "مَشَقَّة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "مَشَقَّات",
+      "pos": "N"
+    }
+  ],
+  "grammar_mutations": 0,
+  "full_anchor_validation": "passed",
+  "matcher_tests": 7,
+  "limitations": [
+    "Matcher is lexical; it does not detect negation or prove semantic adequacy.",
+    "Source and target verse files remain unchanged.",
+    "Inflected verb and demonym forms are occurrence renderings, not noun-grammar citations."
+  ]
+}

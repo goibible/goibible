@@ -1,0 +1,37 @@
+{
+  "status": "APPLIED",
+  "reviewed": [
+    {
+      "book": "EXO",
+      "chapter": 29,
+      "verse": 40,
+      "word_position": 4,
+      "strongs_num": 7253,
+      "rendering": "رُبْع",
+      "sense_key": "H7253.AR_CONTEXT_EXO_29_40",
+      "reason": "First Hebrew quarter is the quarter measure of oil; this is the first Arabic ربع, distinct from the later wine measure.",
+      "source_surface": "רֶ֣בַע",
+      "target_span": "بِرُبْعِ",
+      "target_start": 43,
+      "source_sha256": "e41973e445617d20b46b8e8bd552b5b720188b09922110c35b4bcc329d7e042f",
+      "target_sha256": "49fd6f1f38cb7af4f3c286a920a2b905719503b34e55ad764130104f038573de"
+    },
+    {
+      "book": "EXO",
+      "chapter": 30,
+      "verse": 16,
+      "word_position": 2,
+      "strongs_num": 3722,
+      "rendering": "كَفَّارَة",
+      "sense_key": "H3722.AR_CONTEXT_EXO_30_16",
+      "reason": "Hebrew הכפרים identifies the atonement money; Arabic الكفارات expresses atonements.",
+      "source_surface": "הַכִּפֻּרִ֗ים",
+      "target_span": "الْكَفَّارَاتِ",
+      "target_start": 19,
+      "source_sha256": "d2b4b444ce8e63175ba98fbb6930e86d08fc9c2e93697aaa72d16f22b77af6a2",
+      "target_sha256": "1c9e161a98723b38f8fba2bca69e70cd725d489e5b4336d223ced72295606f38"
+    }
+  ],
+  "before_sha256": "e22e387d8a7c1320ded4deec35f82abd1b82a1a21923a4b0edc69a42b42bece0",
+  "after_sha256": "84a366e7ed734267099262d211eaa7f330d7b83876cfe882682d9d013c2e70e2"
+}

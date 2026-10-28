@@ -1,0 +1,3196 @@
+{
+  "description": "Session occurrence-override changes relative to the preserved pre-session snapshot; grammar records are current values and may predate this session.",
+  "changes": [
+    {
+      "before": null,
+      "after": {
+        "book": "GEN",
+        "chapter": "31",
+        "verse": "41",
+        "word_position": "8",
+        "strongs_num": "4489",
+        "rendering": "مرة",
+        "sense_key": "H4489.AR_CONTEXT_GEN_31_41",
+        "reason": "Ten occasions: Hebrew מנים corresponds to Arabic مرات."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "GEN",
+        "chapter": "32",
+        "verse": "16",
+        "word_position": "8",
+        "strongs_num": "7305",
+        "rendering": "فسحة",
+        "sense_key": "H7305.AR_CONTEXT_GEN_32_16",
+        "reason": "Hebrew רווח is the space placed between the herds."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "GEN",
+        "chapter": "35",
+        "verse": "5",
+        "word_position": "1",
+        "strongs_num": "2847",
+        "rendering": "خوف",
+        "sense_key": "H2847.AR_CONTEXT_GEN_35_5",
+        "reason": "Hebrew חתת אלהים is fear/terror of God, Arabic خوف الله."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "16",
+        "verse": "33",
+        "word_position": "3",
+        "strongs_num": "6803",
+        "rendering": "إِنَاء",
+        "sense_key": "H6803.AR_CONTEXT_EXO_16_33",
+        "reason": "Hebrew צנצנת is the container for manna; Arabic إناء renders the container."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "21",
+        "verse": "6",
+        "word_position": "7",
+        "strongs_num": "4836",
+        "rendering": "مِثْقَب",
+        "sense_key": "H4836.AR_CONTEXT_EXO_21_6",
+        "reason": "Hebrew מרצע is the awl used to pierce the ear; Arabic المثقب renders the piercing tool."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "24",
+        "word_position": "2",
+        "strongs_num": "2928",
+        "rendering": "طالم",
+        "sense_key": "H2928.AR_CONTEXT_JOS_15_24",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "25",
+        "word_position": "2",
+        "strongs_num": "2675",
+        "rendering": "حاصور حدتة",
+        "sense_key": "H2675.AR_CONTEXT_JOS_15_25",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "26",
+        "word_position": "1",
+        "strongs_num": "538",
+        "rendering": "أمام",
+        "sense_key": "H538.AR_CONTEXT_JOS_15_26",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "26",
+        "word_position": "2",
+        "strongs_num": "8090",
+        "rendering": "شماع",
+        "sense_key": "H8090.AR_CONTEXT_JOS_15_26",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "27",
+        "word_position": "1",
+        "strongs_num": "2693",
+        "rendering": "حصر جدة",
+        "sense_key": "H2693.AR_CONTEXT_JOS_15_27",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "27",
+        "word_position": "2",
+        "strongs_num": "2693",
+        "rendering": "حصر جدة",
+        "sense_key": "H2693.AR_CONTEXT_JOS_15_27",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "27",
+        "word_position": "3",
+        "strongs_num": "2829",
+        "rendering": "حشمون",
+        "sense_key": "H2829.AR_CONTEXT_JOS_15_27",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "28",
+        "word_position": "4",
+        "strongs_num": "964",
+        "rendering": "بزيوتية",
+        "sense_key": "H964.AR_CONTEXT_JOS_15_28",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "29",
+        "word_position": "2",
+        "strongs_num": "5864",
+        "rendering": "عييم",
+        "sense_key": "H5864.AR_CONTEXT_JOS_15_29",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "30",
+        "word_position": "2",
+        "strongs_num": "3686",
+        "rendering": "كسيل",
+        "sense_key": "H3686.AR_CONTEXT_JOS_15_30",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "31",
+        "word_position": "2",
+        "strongs_num": "4089",
+        "rendering": "مدمنة",
+        "sense_key": "H4089.AR_CONTEXT_JOS_15_31",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "31",
+        "word_position": "3",
+        "strongs_num": "5578",
+        "rendering": "سنسنة",
+        "sense_key": "H5578.AR_CONTEXT_JOS_15_31",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "37",
+        "word_position": "1",
+        "strongs_num": "6799",
+        "rendering": "صنان",
+        "sense_key": "H6799.AR_CONTEXT_JOS_15_37",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "37",
+        "word_position": "2",
+        "strongs_num": "2322",
+        "rendering": "حداشة",
+        "sense_key": "H2322.AR_CONTEXT_JOS_15_37",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "37",
+        "word_position": "3",
+        "strongs_num": "4028",
+        "rendering": "مجدل جاد",
+        "sense_key": "H4028.AR_CONTEXT_JOS_15_37",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "37",
+        "word_position": "4",
+        "strongs_num": "4028",
+        "rendering": "مجدل جاد",
+        "sense_key": "H4028.AR_CONTEXT_JOS_15_37",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "38",
+        "word_position": "1",
+        "strongs_num": "1810",
+        "rendering": "دلعان",
+        "sense_key": "H1810.AR_CONTEXT_JOS_15_38",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "38",
+        "word_position": "3",
+        "strongs_num": "3371",
+        "rendering": "يقتئيل",
+        "sense_key": "H3371.AR_CONTEXT_JOS_15_38",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "40",
+        "word_position": "1",
+        "strongs_num": "3522",
+        "rendering": "كبون",
+        "sense_key": "H3522.AR_CONTEXT_JOS_15_40",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "40",
+        "word_position": "2",
+        "strongs_num": "3903",
+        "rendering": "لحماس",
+        "sense_key": "H3903.AR_CONTEXT_JOS_15_40",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "40",
+        "word_position": "3",
+        "strongs_num": "3798",
+        "rendering": "كتليش",
+        "sense_key": "H3798.AR_CONTEXT_JOS_15_40",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "42",
+        "word_position": "2",
+        "strongs_num": "6281",
+        "rendering": "عاتر",
+        "sense_key": "H6281.AR_CONTEXT_JOS_15_42",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "43",
+        "word_position": "3",
+        "strongs_num": "5334",
+        "rendering": "نصيب",
+        "sense_key": "H5334.AR_CONTEXT_JOS_15_43",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "50",
+        "word_position": "3",
+        "strongs_num": "6044",
+        "rendering": "عانيم",
+        "sense_key": "H6044.AR_CONTEXT_JOS_15_50",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "52",
+        "word_position": "1",
+        "strongs_num": "694",
+        "rendering": "أراب",
+        "sense_key": "H694.AR_CONTEXT_JOS_15_52",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "52",
+        "word_position": "3",
+        "strongs_num": "824",
+        "rendering": "أشعان",
+        "sense_key": "H824.AR_CONTEXT_JOS_15_52",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "53",
+        "word_position": "5",
+        "strongs_num": "664",
+        "rendering": "أفيقة",
+        "sense_key": "H664.AR_CONTEXT_JOS_15_53",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "56",
+        "word_position": "2",
+        "strongs_num": "3347",
+        "rendering": "يقدعام",
+        "sense_key": "H3347.AR_CONTEXT_JOS_15_56",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "58",
+        "word_position": "1",
+        "strongs_num": "2478",
+        "rendering": "حلحول",
+        "sense_key": "H2478.AR_CONTEXT_JOS_15_58",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "61",
+        "word_position": "5",
+        "strongs_num": "5527",
+        "rendering": "سكاكة",
+        "sense_key": "H5527.AR_CONTEXT_JOS_15_61",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "7",
+        "verse": "5",
+        "word_position": "6",
+        "strongs_num": "7671",
+        "rendering": "شباريم",
+        "sense_key": "H7671.AR_CONTEXT_JOS_7_5",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "10",
+        "verse": "3",
+        "word_position": "5",
+        "strongs_num": "1944",
+        "rendering": "هوهام",
+        "sense_key": "H1944.AR_CONTEXT_JOS_10_3",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "10",
+        "verse": "3",
+        "word_position": "8",
+        "strongs_num": "6502",
+        "rendering": "فرآم",
+        "sense_key": "H6502.AR_CONTEXT_JOS_10_3",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "11",
+        "verse": "1",
+        "word_position": "6",
+        "strongs_num": "4068",
+        "rendering": "مادون",
+        "sense_key": "H4068.AR_CONTEXT_JOS_11_1",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "12",
+        "verse": "13",
+        "word_position": "4",
+        "strongs_num": "1445",
+        "rendering": "جادر",
+        "sense_key": "H1445.AR_CONTEXT_JOS_12_13",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "12",
+        "verse": "19",
+        "word_position": "2",
+        "strongs_num": "4068",
+        "rendering": "مادون",
+        "sense_key": "H4068.AR_CONTEXT_JOS_12_19",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "12",
+        "verse": "20",
+        "word_position": "2",
+        "strongs_num": "8112",
+        "rendering": "شمرون مرأون",
+        "sense_key": "H8112.AR_CONTEXT_JOS_12_20",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "12",
+        "verse": "20",
+        "word_position": "3",
+        "strongs_num": "8112",
+        "rendering": "شمرون مرأون",
+        "sense_key": "H8112.AR_CONTEXT_JOS_12_20",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "13",
+        "verse": "26",
+        "word_position": "2",
+        "strongs_num": "7434",
+        "rendering": "رامة المصفاة",
+        "sense_key": "H7434.AR_CONTEXT_JOS_13_26",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "13",
+        "verse": "26",
+        "word_position": "3",
+        "strongs_num": "7434",
+        "rendering": "رامة المصفاة",
+        "sense_key": "H7434.AR_CONTEXT_JOS_13_26",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "13",
+        "verse": "26",
+        "word_position": "4",
+        "strongs_num": "993",
+        "rendering": "بطونيم",
+        "sense_key": "H993.AR_CONTEXT_JOS_13_26",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "13",
+        "verse": "27",
+        "word_position": "7",
+        "strongs_num": "6829",
+        "rendering": "صافون",
+        "sense_key": "H6829.AR_CONTEXT_JOS_13_27",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "3",
+        "word_position": "10",
+        "strongs_num": "7173",
+        "rendering": "قرقع",
+        "sense_key": "H7173.AR_CONTEXT_JOS_15_3",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "9",
+        "word_position": "6",
+        "strongs_num": "5318",
+        "rendering": "نفتوح",
+        "sense_key": "H5318.AR_CONTEXT_JOS_15_9",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "11",
+        "word_position": "6",
+        "strongs_num": "7942",
+        "rendering": "شكرون",
+        "sense_key": "H7942.AR_CONTEXT_JOS_15_11",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "11",
+        "word_position": "9",
+        "strongs_num": "2995",
+        "rendering": "يبنئيل",
+        "sense_key": "H2995.AR_CONTEXT_JOS_15_11",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "22",
+        "word_position": "1",
+        "strongs_num": "7016",
+        "rendering": "قينة",
+        "sense_key": "H7016.AR_CONTEXT_JOS_15_22",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "22",
+        "word_position": "2",
+        "strongs_num": "1776",
+        "rendering": "ديمونة",
+        "sense_key": "H1776.AR_CONTEXT_JOS_15_22",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "22",
+        "word_position": "3",
+        "strongs_num": "5735",
+        "rendering": "عدعدة",
+        "sense_key": "H5735.AR_CONTEXT_JOS_15_22",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "23",
+        "word_position": "3",
+        "strongs_num": "3497",
+        "rendering": "يثنان",
+        "sense_key": "H3497.AR_CONTEXT_JOS_15_23",
+        "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "29",
+        "verse": "40",
+        "word_position": "4",
+        "strongs_num": "7253",
+        "rendering": "رُبْع",
+        "sense_key": "H7253.AR_CONTEXT_EXO_29_40",
+        "reason": "First Hebrew quarter is the quarter measure of oil; this is the first Arabic ربع, distinct from the later wine measure."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "30",
+        "verse": "16",
+        "word_position": "2",
+        "strongs_num": "3722",
+        "rendering": "كَفَّارَة",
+        "sense_key": "H3722.AR_CONTEXT_EXO_30_16",
+        "reason": "Hebrew הכפרים identifies the atonement money; Arabic الكفارات expresses atonements."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "32",
+        "word_position": "7",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهَا",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_32",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "32",
+        "word_position": "1",
+        "strongs_num": "3822",
+        "rendering": "لباوت",
+        "sense_key": "H3822.AR_CONTEXT_JOS_15_32",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "32",
+        "word_position": "2",
+        "strongs_num": "7978",
+        "rendering": "شلحيم",
+        "sense_key": "H7978.AR_CONTEXT_JOS_15_32",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "36",
+        "word_position": "6",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهَا",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_36",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "36",
+        "word_position": "2",
+        "strongs_num": "5723",
+        "rendering": "عديتايم",
+        "sense_key": "H5723.AR_CONTEXT_JOS_15_36",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "36",
+        "word_position": "3",
+        "strongs_num": "1449",
+        "rendering": "الجديرة",
+        "sense_key": "H1449.AR_CONTEXT_JOS_15_36",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "36",
+        "word_position": "4",
+        "strongs_num": "1453",
+        "rendering": "جديروتايم",
+        "sense_key": "H1453.AR_CONTEXT_JOS_15_36",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "51",
+        "word_position": "5",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهُنَّ",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_51",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "51",
+        "word_position": "3",
+        "strongs_num": "1542",
+        "rendering": "جيلوه",
+        "sense_key": "H1542.AR_CONTEXT_JOS_15_51",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "54",
+        "word_position": "6",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهُنَّ",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_54",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "54",
+        "word_position": "1",
+        "strongs_num": "2547",
+        "rendering": "حمطة",
+        "sense_key": "H2547.AR_CONTEXT_JOS_15_54",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "54",
+        "word_position": "4",
+        "strongs_num": "6730",
+        "rendering": "صيعور",
+        "sense_key": "H6730.AR_CONTEXT_JOS_15_54",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "59",
+        "word_position": "6",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهُنَّ",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_59",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "59",
+        "word_position": "1",
+        "strongs_num": "4638",
+        "rendering": "معارة",
+        "sense_key": "H4638.AR_CONTEXT_JOS_15_59",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "59",
+        "word_position": "4",
+        "strongs_num": "515",
+        "rendering": "ألتقون",
+        "sense_key": "H515.AR_CONTEXT_JOS_15_59",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "62",
+        "word_position": "7",
+        "strongs_num": "2691",
+        "rendering": "قُرَاهُنَّ",
+        "sense_key": "H2691.AR_CONTEXT_JOS_15_62",
+        "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "15",
+        "verse": "62",
+        "word_position": "1",
+        "strongs_num": "5044",
+        "rendering": "نبشان",
+        "sense_key": "H5044.AR_CONTEXT_JOS_15_62",
+        "reason": "WLC name and Arabic name independently reviewed in town-list context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "12",
+        "verse": "4",
+        "word_position": "4",
+        "strongs_num": "4373",
+        "rendering": "عَدَد",
+        "sense_key": "H4373.AR_CONTEXT_EXO_12_4_4",
+        "reason": "Number of persons determines lamb allocation."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "12",
+        "verse": "4",
+        "word_position": "8",
+        "strongs_num": "400",
+        "rendering": "يَأْكُلُ",
+        "sense_key": "H400.AR_CONTEXT_EXO_12_4_8",
+        "reason": "Source consumption is expressed by an Arabic finite verb, not a food noun."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "14",
+        "verse": "25",
+        "word_position": "3",
+        "strongs_num": "3517",
+        "rendering": "مَشَقَّة",
+        "sense_key": "H3517.AR_CONTEXT_EXO_14_25_3",
+        "reason": "WLC driving with heaviness is rendered with difficulty."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "14",
+        "verse": "25",
+        "word_position": "4",
+        "strongs_num": "4714",
+        "rendering": "الْمِصْرِيُّونَ",
+        "sense_key": "H4714.AR_CONTEXT_EXO_14_25_4",
+        "reason": "Collective Egypt speaks; target explicitly names the Egyptians."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "EXO",
+        "chapter": "14",
+        "verse": "25",
+        "word_position": "8",
+        "strongs_num": "4714",
+        "rendering": "الْمِصْرِيِّينَ",
+        "sense_key": "H4714.AR_CONTEXT_EXO_14_25_8",
+        "reason": "Yahweh fights against Egypt, rendered as the Egyptians in the target."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "25",
+        "word_position": "2",
+        "strongs_num": "2520",
+        "rendering": "حَلْقَة",
+        "sense_key": "H2520.AR_CONTEXT_JOS_19_25",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "26",
+        "word_position": "2",
+        "strongs_num": "6008",
+        "rendering": "عَمْعَاد",
+        "sense_key": "H6008.AR_CONTEXT_JOS_19_26",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "26",
+        "word_position": "6",
+        "strongs_num": "7884",
+        "rendering": "شيحور لبنة",
+        "sense_key": "H7884.AR_CONTEXT_JOS_19_26",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "26",
+        "word_position": "7",
+        "strongs_num": "7884",
+        "rendering": "شيحور لبنة",
+        "sense_key": "H7884.AR_CONTEXT_JOS_19_26",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "27",
+        "word_position": "13",
+        "strongs_num": "3521",
+        "rendering": "كَابُول",
+        "sense_key": "H3521.AR_CONTEXT_JOS_19_27",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "28",
+        "word_position": "3",
+        "strongs_num": "2540",
+        "rendering": "حَمُّون",
+        "sense_key": "H2540.AR_CONTEXT_JOS_19_28",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "33",
+        "word_position": "2",
+        "strongs_num": "2501",
+        "rendering": "حَالَف",
+        "sense_key": "H2501.AR_CONTEXT_JOS_19_33",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "33",
+        "word_position": "7",
+        "strongs_num": "2995",
+        "rendering": "يَبْنِئِيل",
+        "sense_key": "H2995.AR_CONTEXT_JOS_19_33",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "33",
+        "word_position": "8",
+        "strongs_num": "3946",
+        "rendering": "لَقُّوم",
+        "sense_key": "H3946.AR_CONTEXT_JOS_19_33",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "35",
+        "word_position": "3",
+        "strongs_num": "6661",
+        "rendering": "الصِّدِّيم",
+        "sense_key": "H6661.AR_CONTEXT_JOS_19_35",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "35",
+        "word_position": "4",
+        "strongs_num": "6863",
+        "rendering": "صَيْر",
+        "sense_key": "H6863.AR_CONTEXT_JOS_19_35",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "35",
+        "word_position": "5",
+        "strongs_num": "2575",
+        "rendering": "حَمَّة",
+        "sense_key": "H2575.AR_CONTEXT_JOS_19_35",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "37",
+        "word_position": "3",
+        "strongs_num": "5877",
+        "rendering": "عين حاصور",
+        "sense_key": "H5877.AR_CONTEXT_JOS_19_37",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "37",
+        "word_position": "4",
+        "strongs_num": "5877",
+        "rendering": "عين حاصور",
+        "sense_key": "H5877.AR_CONTEXT_JOS_19_37",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "41",
+        "word_position": "5",
+        "strongs_num": "5905",
+        "rendering": "عير شمس",
+        "sense_key": "H5905.AR_CONTEXT_JOS_19_41",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "41",
+        "word_position": "6",
+        "strongs_num": "5905",
+        "rendering": "عير شمس",
+        "sense_key": "H5905.AR_CONTEXT_JOS_19_41",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "42",
+        "word_position": "3",
+        "strongs_num": "3494",
+        "rendering": "يِتْلَة",
+        "sense_key": "H3494.AR_CONTEXT_JOS_19_42",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "45",
+        "word_position": "1",
+        "strongs_num": "3055",
+        "rendering": "يَهُود",
+        "sense_key": "H3055.AR_CONTEXT_JOS_19_45",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "46",
+        "word_position": "1",
+        "strongs_num": "4313",
+        "rendering": "مياه اليرقون",
+        "sense_key": "H4313.AR_CONTEXT_JOS_19_46",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "46",
+        "word_position": "2",
+        "strongs_num": "4313",
+        "rendering": "مياه اليرقون",
+        "sense_key": "H4313.AR_CONTEXT_JOS_19_46",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "46",
+        "word_position": "3",
+        "strongs_num": "7542",
+        "rendering": "رَقُون",
+        "sense_key": "H7542.AR_CONTEXT_JOS_19_46",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "47",
+        "word_position": "6",
+        "strongs_num": "3959",
+        "rendering": "لَشَم",
+        "sense_key": "H3959.AR_CONTEXT_JOS_19_47",
+        "reason": "Hebrew first and second references to Leshem correspond to first and second Arabic occurrences respectively."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "19",
+        "verse": "47",
+        "word_position": "9",
+        "strongs_num": "3959",
+        "rendering": "لَشَم",
+        "sense_key": "H3959.AR_CONTEXT_JOS_19_47",
+        "reason": "Hebrew first and second references to Leshem correspond to first and second Arabic occurrences respectively. Corrects prior proposal to the second target occurrence."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "21",
+        "verse": "24",
+        "word_position": "3",
+        "strongs_num": "1667",
+        "rendering": "جت رمون",
+        "sense_key": "H1667.AR_CONTEXT_JOS_21_24",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "21",
+        "verse": "24",
+        "word_position": "4",
+        "strongs_num": "1667",
+        "rendering": "جت رمون",
+        "sense_key": "H1667.AR_CONTEXT_JOS_21_24",
+        "reason": "Both Hebrew elements form one location name; whole Arabic compound is shared between anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "21",
+        "verse": "31",
+        "word_position": "1",
+        "strongs_num": "2520",
+        "rendering": "حَلْقَة",
+        "sense_key": "H2520.AR_CONTEXT_JOS_21_31",
+        "reason": "WLC location and Arabic name match in the same boundary or city-list position; proper name grammar is contextually appropriate."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1CH",
+        "chapter": "4",
+        "verse": "12",
+        "word_position": "7",
+        "strongs_num": "5904",
+        "rendering": "عِير نَاحَاش",
+        "sense_key": "H5904.AR_CONTEXT_1CH_4_12_7",
+        "reason": "Two WLC noun anchors are components of one Ir-nahash name; map each to the same verified full target phrase."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1CH",
+        "chapter": "4",
+        "verse": "12",
+        "word_position": "8",
+        "strongs_num": "5904",
+        "rendering": "عِير نَاحَاش",
+        "sense_key": "H5904.AR_CONTEXT_1CH_4_12_8",
+        "reason": "Two WLC noun anchors are components of one Ir-nahash name; map each to the same verified full target phrase."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JOS",
+        "chapter": "21",
+        "verse": "35",
+        "word_position": "1",
+        "strongs_num": "1829",
+        "rendering": "دمنة",
+        "sense_key": "H1829.AR_CONTEXT_JOS_21_35",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "1",
+        "verse": "17",
+        "word_position": "5",
+        "strongs_num": "6857",
+        "rendering": "صفاة",
+        "sense_key": "H6857.AR_CONTEXT_JDG_1_17",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "1",
+        "verse": "31",
+        "word_position": "2",
+        "strongs_num": "5910",
+        "rendering": "عكو",
+        "sense_key": "H5910.AR_CONTEXT_JDG_1_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "1",
+        "verse": "31",
+        "word_position": "4",
+        "strongs_num": "303",
+        "rendering": "أحلب",
+        "sense_key": "H303.AR_CONTEXT_JDG_1_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "1",
+        "verse": "31",
+        "word_position": "6",
+        "strongs_num": "2462",
+        "rendering": "حلبة",
+        "sense_key": "H2462.AR_CONTEXT_JDG_1_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "3",
+        "verse": "31",
+        "word_position": "1",
+        "strongs_num": "8044",
+        "rendering": "شمجر",
+        "sense_key": "H8044.AR_CONTEXT_JDG_3_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "3",
+        "verse": "31",
+        "word_position": "3",
+        "strongs_num": "6067",
+        "rendering": "عناة",
+        "sense_key": "H6067.AR_CONTEXT_JDG_3_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "3",
+        "verse": "31",
+        "word_position": "6",
+        "strongs_num": "4451",
+        "rendering": "مِهْمَاز",
+        "sense_key": "H4451.AR_CONTEXT_JDG_3_31",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "4",
+        "verse": "4",
+        "word_position": "5",
+        "strongs_num": "3941",
+        "rendering": "لفيدوت",
+        "sense_key": "H3941.AR_CONTEXT_JDG_4_4",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "4",
+        "verse": "11",
+        "word_position": "5",
+        "strongs_num": "2246",
+        "rendering": "حوباب",
+        "sense_key": "H2246.AR_CONTEXT_JDG_4_11",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "5",
+        "verse": "23",
+        "word_position": "1",
+        "strongs_num": "4789",
+        "rendering": "ميروز",
+        "sense_key": "H4789.AR_CONTEXT_JDG_5_23",
+        "reason": "WLC term and Arabic span share the same referent or role in this clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "8",
+        "verse": "11",
+        "word_position": "6",
+        "strongs_num": "3011",
+        "rendering": "يجبهة",
+        "sense_key": "H3011.AR_CONTEXT_JDG_8_11_6",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "9",
+        "verse": "37",
+        "word_position": "3",
+        "strongs_num": "2872",
+        "rendering": "سرة",
+        "sense_key": "H2872.AR_CONTEXT_JDG_9_37_3",
+        "reason": "Troops descend from the central height or navel of land."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "9",
+        "verse": "41",
+        "word_position": "2",
+        "strongs_num": "725",
+        "rendering": "أرومة",
+        "sense_key": "H725.AR_CONTEXT_JDG_9_41_2",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "9",
+        "verse": "48",
+        "word_position": "9",
+        "strongs_num": "7754",
+        "rendering": "غصن",
+        "sense_key": "H7754.AR_CONTEXT_JDG_9_48_9",
+        "reason": "Abimelech cuts a tree branch."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "9",
+        "verse": "49",
+        "word_position": "4",
+        "strongs_num": "7754",
+        "rendering": "غصن",
+        "sense_key": "H7754.AR_CONTEXT_JDG_9_49_4",
+        "reason": "People cut branches following Abimelech."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "10",
+        "verse": "5",
+        "word_position": "2",
+        "strongs_num": "7056",
+        "rendering": "قامون",
+        "sense_key": "H7056.AR_CONTEXT_JDG_10_5_2",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "12",
+        "verse": "13",
+        "word_position": "4",
+        "strongs_num": "1985",
+        "rendering": "هليل",
+        "sense_key": "H1985.AR_CONTEXT_JDG_12_13_4",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "12",
+        "verse": "15",
+        "word_position": "3",
+        "strongs_num": "1985",
+        "rendering": "هليل",
+        "sense_key": "H1985.AR_CONTEXT_JDG_12_15_3",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "12",
+        "verse": "15",
+        "word_position": "5",
+        "strongs_num": "6552",
+        "rendering": "فرعتون",
+        "sense_key": "H6552.AR_CONTEXT_JDG_12_15_5",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "15",
+        "verse": "17",
+        "word_position": "4",
+        "strongs_num": "7437",
+        "rendering": "رمة الفك",
+        "sense_key": "H7437.AR_CONTEXT_JDG_15_17_4",
+        "reason": "Two distinct source elements form one name; both anchors intentionally share the complete Arabic name span."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "15",
+        "verse": "17",
+        "word_position": "5",
+        "strongs_num": "7437",
+        "rendering": "رمة الفك",
+        "sense_key": "H7437.AR_CONTEXT_JDG_15_17_5",
+        "reason": "Two distinct source elements form one name; both anchors intentionally share the complete Arabic name span."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "16",
+        "verse": "4",
+        "word_position": "3",
+        "strongs_num": "7796",
+        "rendering": "سورق",
+        "sense_key": "H7796.AR_CONTEXT_JDG_16_4_3",
+        "reason": "Proper name in the corresponding WLC person, place, or named spring context."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "16",
+        "verse": "13",
+        "word_position": "4",
+        "strongs_num": "4253",
+        "rendering": "خصلة",
+        "sense_key": "H4253.AR_CONTEXT_JDG_16_13_4",
+        "reason": "Seven locks of Samson’s hair."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "18",
+        "verse": "12",
+        "word_position": "5",
+        "strongs_num": "4265",
+        "rendering": "محلة دان",
+        "sense_key": "H4265.AR_CONTEXT_JDG_18_12",
+        "reason": "Two Hebrew elements form one location name; entire Arabic compound is shared by both anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "JDG",
+        "chapter": "18",
+        "verse": "12",
+        "word_position": "6",
+        "strongs_num": "4265",
+        "rendering": "محلة دان",
+        "sense_key": "H4265.AR_CONTEXT_JDG_18_12",
+        "reason": "Two Hebrew elements form one location name; entire Arabic compound is shared by both anchors, not two target occurrences."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "RUT",
+        "chapter": "1",
+        "verse": "4",
+        "word_position": "4",
+        "strongs_num": "6204",
+        "rendering": "عرفة",
+        "sense_key": "H6204.AR_CONTEXT_RUT_1_4",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "RUT",
+        "chapter": "1",
+        "verse": "14",
+        "word_position": "2",
+        "strongs_num": "6204",
+        "rendering": "عرفة",
+        "sense_key": "H6204.AR_CONTEXT_RUT_1_14",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "RUT",
+        "chapter": "4",
+        "verse": "20",
+        "word_position": "4",
+        "strongs_num": "8009",
+        "rendering": "سلمون",
+        "sense_key": "H8009.AR_CONTEXT_RUT_4_20",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "RUT",
+        "chapter": "4",
+        "verse": "21",
+        "word_position": "1",
+        "strongs_num": "8012",
+        "rendering": "سلمون",
+        "sense_key": "H8012.AR_CONTEXT_RUT_4_21",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1SA",
+        "chapter": "7",
+        "verse": "12",
+        "word_position": "4",
+        "strongs_num": "8129",
+        "rendering": "السن",
+        "sense_key": "H8129.AR_CONTEXT_1SA_7_12",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1SA",
+        "chapter": "10",
+        "verse": "2",
+        "word_position": "7",
+        "strongs_num": "6766",
+        "rendering": "صلصح",
+        "sense_key": "H6766.AR_CONTEXT_1SA_10_2",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1SA",
+        "chapter": "14",
+        "verse": "2",
+        "word_position": "5",
+        "strongs_num": "4051",
+        "rendering": "مغرون",
+        "sense_key": "H4051.AR_CONTEXT_1SA_14_2",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    },
+    {
+      "before": null,
+      "after": {
+        "book": "1SA",
+        "chapter": "15",
+        "verse": "4",
+        "word_position": "3",
+        "strongs_num": "2923",
+        "rendering": "طلايم",
+        "sense_key": "H2923.AR_CONTEXT_1SA_15_4",
+        "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause."
+      }
+    }
+  ],
+  "current_grammar_records": [
+    {
+      "lang": "ar",
+      "rendering": "أحلب",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550132+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "أراب",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "أرومة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781829+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "أشعان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "أفيقة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "ألتقون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "أمام",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "إِنَاء",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "آنية",
+      "method": "arabic_cube",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T12:49:05",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "الجديرة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "السن",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920760+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "الصِّدِّيم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366972+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "بزيوتية",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "بطونيم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "جادر",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "جت رمون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367099+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "جديروتايم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "جيلوه",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حاصور حدتة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حداشة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حشمون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حصر جدة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حلبة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550158+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حلحول",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حمطة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حوباب",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550231+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حَالَف",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366920+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حَلْقَة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366679+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حَمَّة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367003+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "حَمُّون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366911+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "خصلة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "خصلات",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.782072+00:00",
+      "pos": "N",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "خوف",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "أخواف",
+      "method": "arabic_cube",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T12:49:05",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "دلعان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "دمنة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.549925+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "ديمونة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "رامة المصفاة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:23:39",
+      "pos": "PN",
+      "pos_method": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "lang": "ar",
+      "rendering": "رمة الفك",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.782018+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "رَقُون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367077+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "رُبْع",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "أَرْبَاع",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:24:25",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "سرة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "سرر",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781760+00:00",
+      "pos": "N",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "سكاكة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "سلمون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920741+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "سنسنة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "سورق",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.782061+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شباريم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شكرون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شلحيم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شماع",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شمجر",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550181+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شمرون مرأون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "شيحور لبنة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366871+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صافون",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:28:07",
+      "pos": "PN",
+      "pos_method": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صفاة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550079+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صلصح",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920773+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صنان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صيعور",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "صَيْر",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366987+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "طالم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "طلايم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920797+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عاتر",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عانيم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عدعدة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عديتايم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عرفة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920720+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عكو",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550105+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عناة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550194+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عير شمس",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367028+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عين حاصور",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367010+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عييم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عَدَد",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "أَعْدَاد",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:30:30",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "عَمْعَاد",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366844+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "عِير نَاحَاش",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_review",
+      "created_at": "2026-10-28T17:31:01.450982+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "غصن",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "أغصان",
+      "method": "arabic_cube",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T12:49:05",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "فرآم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "فرعتون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781978+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "فسحة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "فُسَح",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:33:02",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "قامون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781893+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "قرقع",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "قينة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "كبون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "كتليش",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "كسيل",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "كَابُول",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366896+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "كَفَّارَة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "كفارات",
+      "method": "arabic_cube",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T12:49:05",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "لباوت",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "لحماس",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "لفيدوت",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550220+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "لَشَم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367087+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "لَقُّوم",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366955+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مادون",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:36:13",
+      "pos": "PN",
+      "pos_method": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مجدل جاد",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "محلة دان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920576+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مدمنة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مرة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "مرات",
+      "method": "source_review",
+      "model": "codex+luna",
+      "created_at": "2026-10-27T01:37:54.547107+00:00",
+      "pos": "N",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "معارة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مغرون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:33:44.920791+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مياه اليرقون",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367055+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "ميروز",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550251+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "مَشَقَّة",
+      "gender": "F",
+      "citation_number": "S",
+      "plural_form": "مَشَقَّات",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:38:09",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "مِثْقَب",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "مَثَاقِب",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:39:56",
+      "pos": "N",
+      "pos_method": ""
+    },
+    {
+      "lang": "ar",
+      "rendering": "مِهْمَاز",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:32:27.550208+00:00",
+      "pos": "N",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "نبشان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:27:24.810237+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "نصيب",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:24:45.930419+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "نفتوح",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "هليل",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781934+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "هوهام",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يبنئيل",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يثنان",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:25:37.067203+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يجبهة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex_independent_audit",
+      "created_at": "2026-10-28T17:33:22.781266+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يقتئيل",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:44:34",
+      "pos": "PN",
+      "pos_method": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يقدعام",
+      "gender": "M",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "llm",
+      "model": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "created_at": "2026-10-05T13:44:34",
+      "pos": "PN",
+      "pos_method": "deepseek-ai/DeepSeek-V4-Flash-0731"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يَبْنِئِيل",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.366937+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يَهُود",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367050+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    },
+    {
+      "lang": "ar",
+      "rendering": "يِتْلَة",
+      "gender": "U",
+      "citation_number": "S",
+      "plural_form": "",
+      "method": "source_review",
+      "model": "codex+independent_review",
+      "created_at": "2026-10-28T17:30:49.367040+00:00",
+      "pos": "PN",
+      "pos_method": "source_review"
+    }
+  ]
+}

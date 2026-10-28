@@ -1,0 +1,770 @@
+{
+  "status": "APPLIED",
+  "audit_sha256": "88d17e535fe6010f04059a6b70c8af47a2f85780e975f18c6305b3ba6e1628d3",
+  "applied": [
+    {
+      "queue_row": 763,
+      "stem": "007_JDG_008_011",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "8",
+        "verse": "11",
+        "word_position": "6",
+        "source_word_position": "",
+        "strongs_num": "3011",
+        "lemma": "c/3011",
+        "morphology": "HC/Np",
+        "source_surface": "וְיָגְבֳּהָ֑ה",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "fd9fb4f745d2a630ccd84c81e9d104571774abf1f93e914ffa7a71dbc56bce51",
+      "frozen_target_sha256": "c09a4639a64a2264978fcf5a14f5d1f55acb8b5507dbe1029adcf49774faa4db",
+      "current_source_sha256": "fd9fb4f745d2a630ccd84c81e9d104571774abf1f93e914ffa7a71dbc56bce51",
+      "current_target_sha256": "c09a4639a64a2264978fcf5a14f5d1f55acb8b5507dbe1029adcf49774faa4db",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "يُجْبَهَةَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "يُجْبَهَةَ",
+      "target_start": 72,
+      "target_end": 82,
+      "citation": "يجبهة",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 769,
+      "stem": "007_JDG_009_037",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "9",
+        "verse": "37",
+        "word_position": "3",
+        "source_word_position": "",
+        "strongs_num": "2872",
+        "lemma": "2872",
+        "morphology": "HNcmsc",
+        "source_surface": "טַבּ֣וּר",
+        "is_proper_name": "0"
+      },
+      "frozen_source_sha256": "31c3863b4ec138ec6c638615f1b3256ddbdd003dc8a3be6fa0bc2873bba82edb",
+      "frozen_target_sha256": "765213c629b67e333d9e8c7b548cce55f59182dc3b1e42619fcfc0ae2c5120a0",
+      "current_source_sha256": "31c3863b4ec138ec6c638615f1b3256ddbdd003dc8a3be6fa0bc2873bba82edb",
+      "current_target_sha256": "765213c629b67e333d9e8c7b548cce55f59182dc3b1e42619fcfc0ae2c5120a0",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "سُرَّةِ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "سُرَّةِ",
+      "target_start": 71,
+      "target_end": 78,
+      "citation": "سرة",
+      "grammar": {
+        "pos": "N",
+        "gender": "F",
+        "citation_number": "S",
+        "plural_form": "سرر"
+      },
+      "source_context": "Troops descend from the central height or navel of land.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 770,
+      "stem": "007_JDG_009_041",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "9",
+        "verse": "41",
+        "word_position": "2",
+        "source_word_position": "",
+        "strongs_num": "725",
+        "lemma": "b/725",
+        "morphology": "HR/Np",
+        "source_surface": "בָּארוּמָ֑ה",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "76baa618d6bb7da5ffd2a9159207cd7341e1398750e9867fe5d531a330dbf635",
+      "frozen_target_sha256": "1b66feead4d1b5fc1868360f91d65d4f297ace185d0866fd522555e540b79f5d",
+      "current_source_sha256": "76baa618d6bb7da5ffd2a9159207cd7341e1398750e9867fe5d531a330dbf635",
+      "current_target_sha256": "1b66feead4d1b5fc1868360f91d65d4f297ace185d0866fd522555e540b79f5d",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "أَرُومَةَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "أَرُومَةَ",
+      "target_start": 27,
+      "target_end": 36,
+      "citation": "أرومة",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 772,
+      "stem": "007_JDG_009_048",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "9",
+        "verse": "48",
+        "word_position": "9",
+        "source_word_position": "",
+        "strongs_num": "7754",
+        "lemma": "7754 b",
+        "morphology": "HNcfsc",
+        "source_surface": "שׂוֹכַ֣ת",
+        "is_proper_name": "0"
+      },
+      "frozen_source_sha256": "95309efee4470c874e8509a00917a27945d4ba2ec4e53c28bb2fee66a10ac76a",
+      "frozen_target_sha256": "228b234b3943d052f6897fc81430460b7a53d5be1ccb063dd8414fd9234ce467",
+      "current_source_sha256": "95309efee4470c874e8509a00917a27945d4ba2ec4e53c28bb2fee66a10ac76a",
+      "current_target_sha256": "228b234b3943d052f6897fc81430460b7a53d5be1ccb063dd8414fd9234ce467",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "غُصْنَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "غُصْنَ",
+      "target_start": 134,
+      "target_end": 140,
+      "citation": "غصن",
+      "grammar": {
+        "pos": "N",
+        "gender": "M",
+        "citation_number": "S",
+        "plural_form": "أغصان"
+      },
+      "source_context": "Abimelech cuts a tree branch.",
+      "grammar_existing": {
+        "gender": "M",
+        "citation_number": "S",
+        "plural_form": "أغصان",
+        "pos": "N"
+      }
+    },
+    {
+      "queue_row": 773,
+      "stem": "007_JDG_009_049",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "9",
+        "verse": "49",
+        "word_position": "4",
+        "source_word_position": "",
+        "strongs_num": "7754",
+        "lemma": "7754 a",
+        "morphology": "HNcmsc/Sp3ms",
+        "source_surface": "שׂוֹכֹ֗ה",
+        "is_proper_name": "0"
+      },
+      "frozen_source_sha256": "698e6f32a04d7560255cd71659c80a48e4fd68d7b3963ff61a4d911d0c8cf75e",
+      "frozen_target_sha256": "b4a89dbe74941e9d02c5ee2519ba73f57842f28ba3439f078378f7a6db75898e",
+      "current_source_sha256": "698e6f32a04d7560255cd71659c80a48e4fd68d7b3963ff61a4d911d0c8cf75e",
+      "current_target_sha256": "b4a89dbe74941e9d02c5ee2519ba73f57842f28ba3439f078378f7a6db75898e",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "غصن",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "غصن",
+      "target_start": 25,
+      "target_end": 28,
+      "citation": "غصن",
+      "grammar": {
+        "pos": "N",
+        "gender": "M",
+        "citation_number": "S",
+        "plural_form": "أغصان"
+      },
+      "source_context": "People cut branches following Abimelech.",
+      "grammar_existing": {
+        "gender": "M",
+        "citation_number": "S",
+        "plural_form": "أغصان",
+        "pos": "N"
+      }
+    },
+    {
+      "queue_row": 774,
+      "stem": "007_JDG_010_005",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "10",
+        "verse": "5",
+        "word_position": "2",
+        "source_word_position": "",
+        "strongs_num": "7056",
+        "lemma": "b/7056",
+        "morphology": "HR/Np",
+        "source_surface": "בְּקָמֽוֹן",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "d055fee75e6c7be9988d3d0ee2f3728bca1cc6353cbdab561f78700a4c30e2cd",
+      "frozen_target_sha256": "d9fca182035493e9e0f340bb3de27d587baf6ac0c5e6bf9867351882bdcee80f",
+      "current_source_sha256": "d055fee75e6c7be9988d3d0ee2f3728bca1cc6353cbdab561f78700a4c30e2cd",
+      "current_target_sha256": "d9fca182035493e9e0f340bb3de27d587baf6ac0c5e6bf9867351882bdcee80f",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "قَامُون",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "قَامُون",
+      "target_start": 30,
+      "target_end": 37,
+      "citation": "قامون",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 777,
+      "stem": "007_JDG_012_013",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "12",
+        "verse": "13",
+        "word_position": "4",
+        "source_word_position": "",
+        "strongs_num": "1985",
+        "lemma": "1985",
+        "morphology": "HNp",
+        "source_surface": "הִלֵּ֖ל",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "7bcf192d87d86534bfbb524d9f4347ff42d7902e787e16aeffa31ec47dc37ca8",
+      "frozen_target_sha256": "549b41ea4682f627870e29465cb9d91ff7e6cb0ea07d7a6d77a4e395c9d745f0",
+      "current_source_sha256": "7bcf192d87d86534bfbb524d9f4347ff42d7902e787e16aeffa31ec47dc37ca8",
+      "current_target_sha256": "549b41ea4682f627870e29465cb9d91ff7e6cb0ea07d7a6d77a4e395c9d745f0",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "هِلِّيلَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "هِلِّيلَ",
+      "target_start": 23,
+      "target_end": 31,
+      "citation": "هليل",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 778,
+      "stem": "007_JDG_012_015",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "12",
+        "verse": "15",
+        "word_position": "3",
+        "source_word_position": "",
+        "strongs_num": "1985",
+        "lemma": "1985",
+        "morphology": "HNp",
+        "source_surface": "הִלֵּ֖ל",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "175958ab316dfbca67d22705664923746229f0b16d5287b9acfa99c91a777351",
+      "frozen_target_sha256": "06a5fa1dcbaff3a27a7869f4156818dd284068824360c886b62113542d18c3ef",
+      "current_source_sha256": "175958ab316dfbca67d22705664923746229f0b16d5287b9acfa99c91a777351",
+      "current_target_sha256": "06a5fa1dcbaff3a27a7869f4156818dd284068824360c886b62113542d18c3ef",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "هِلِّيلَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "هِلِّيلَ",
+      "target_start": 24,
+      "target_end": 32,
+      "citation": "هليل",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 779,
+      "stem": "007_JDG_012_015",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "12",
+        "verse": "15",
+        "word_position": "5",
+        "source_word_position": "",
+        "strongs_num": "6552",
+        "lemma": "b/6552",
+        "morphology": "HR/Np",
+        "source_surface": "בְּפִרְעָתוֹן֙",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "175958ab316dfbca67d22705664923746229f0b16d5287b9acfa99c91a777351",
+      "frozen_target_sha256": "06a5fa1dcbaff3a27a7869f4156818dd284068824360c886b62113542d18c3ef",
+      "current_source_sha256": "175958ab316dfbca67d22705664923746229f0b16d5287b9acfa99c91a777351",
+      "current_target_sha256": "06a5fa1dcbaff3a27a7869f4156818dd284068824360c886b62113542d18c3ef",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "فِرْعَتُونَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "فِرْعَتُونَ",
+      "target_start": 65,
+      "target_end": 76,
+      "citation": "فرعتون",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 785,
+      "stem": "007_JDG_015_017",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "15",
+        "verse": "17",
+        "word_position": "4",
+        "source_word_position": "",
+        "strongs_num": "7437",
+        "lemma": "7437+",
+        "morphology": "HNp",
+        "source_surface": "רָ֥מַת",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "fdbc8495fc78916a9514e09bb52e6a4cc87717ee9069722d533eebdec6cb0d8e",
+      "frozen_target_sha256": "f239e576b3ddeac5e9efdeb3648349d146014194a5b00eaa07a6c78505bc9c25",
+      "current_source_sha256": "fdbc8495fc78916a9514e09bb52e6a4cc87717ee9069722d533eebdec6cb0d8e",
+      "current_target_sha256": "f239e576b3ddeac5e9efdeb3648349d146014194a5b00eaa07a6c78505bc9c25",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "رَمَةَ الْفَكِّ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "رَمَةَ الْفَكِّ",
+      "target_start": 89,
+      "target_end": 104,
+      "citation": "رمة الفك",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Two distinct source elements form one name; both anchors intentionally share the complete Arabic name span.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 786,
+      "stem": "007_JDG_015_017",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "15",
+        "verse": "17",
+        "word_position": "5",
+        "source_word_position": "",
+        "strongs_num": "7437",
+        "lemma": "7437",
+        "morphology": "HNp",
+        "source_surface": "לֶֽחִי",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "fdbc8495fc78916a9514e09bb52e6a4cc87717ee9069722d533eebdec6cb0d8e",
+      "frozen_target_sha256": "f239e576b3ddeac5e9efdeb3648349d146014194a5b00eaa07a6c78505bc9c25",
+      "current_source_sha256": "fdbc8495fc78916a9514e09bb52e6a4cc87717ee9069722d533eebdec6cb0d8e",
+      "current_target_sha256": "f239e576b3ddeac5e9efdeb3648349d146014194a5b00eaa07a6c78505bc9c25",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "رَمَةَ الْفَكِّ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "رَمَةَ الْفَكِّ",
+      "target_start": 89,
+      "target_end": 104,
+      "citation": "رمة الفك",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Two distinct source elements form one name; both anchors intentionally share the complete Arabic name span.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 791,
+      "stem": "007_JDG_016_004",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "16",
+        "verse": "4",
+        "word_position": "3",
+        "source_word_position": "",
+        "strongs_num": "7796",
+        "lemma": "7796",
+        "morphology": "HNp",
+        "source_surface": "שֹׂרֵ֑ק",
+        "is_proper_name": "1"
+      },
+      "frozen_source_sha256": "a4ad60721ef26ee83f891aa9e92656cc0f4349cc08986bcf61a70b3bbe48f4b0",
+      "frozen_target_sha256": "10cdc55d7a19c1fd1f73c7fbd1010546692cee97b3840d961e140503d5611a04",
+      "current_source_sha256": "a4ad60721ef26ee83f891aa9e92656cc0f4349cc08986bcf61a70b3bbe48f4b0",
+      "current_target_sha256": "10cdc55d7a19c1fd1f73c7fbd1010546692cee97b3840d961e140503d5611a04",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "سُورَقَ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "سُورَقَ",
+      "target_start": 59,
+      "target_end": 66,
+      "citation": "سورق",
+      "grammar": {
+        "pos": "PN",
+        "gender": "U",
+        "citation_number": "S",
+        "plural_form": ""
+      },
+      "source_context": "Proper name in the corresponding WLC person, place, or named spring context.",
+      "grammar_existing": null
+    },
+    {
+      "queue_row": 795,
+      "stem": "007_JDG_016_013",
+      "anchor": {
+        "book_code": "JDG",
+        "chapter": "16",
+        "verse": "13",
+        "word_position": "4",
+        "source_word_position": "",
+        "strongs_num": "4253",
+        "lemma": "4253",
+        "morphology": "HNcfpc",
+        "source_surface": "מַחְלְפ֥וֹת",
+        "is_proper_name": "0"
+      },
+      "frozen_source_sha256": "af63ae45751fd8a8171d40c929865957d85837737949bd2057a53d141ea83256",
+      "frozen_target_sha256": "e55149cda42f713ba3aa06eac74f41cb077219f73c291ed2ed871b2c0e1c96ed",
+      "current_source_sha256": "af63ae45751fd8a8171d40c929865957d85837737949bd2057a53d141ea83256",
+      "current_target_sha256": "e55149cda42f713ba3aa06eac74f41cb077219f73c291ed2ed871b2c0e1c96ed",
+      "source_hash_matches": true,
+      "target_hash_matches": true,
+      "candidate_span": "خُصَلَاتِ",
+      "decision": "APPROVED_ALIGNMENT",
+      "target_span": "خُصَلَاتِ",
+      "target_start": 164,
+      "target_end": 173,
+      "citation": "خصلة",
+      "grammar": {
+        "pos": "N",
+        "gender": "F",
+        "citation_number": "S",
+        "plural_form": "خصلات"
+      },
+      "source_context": "Seven locks of Samson’s hair.",
+      "grammar_existing": null
+    }
+  ],
+  "held": [
+    {
+      "queue_row": 751,
+      "reason": "audit UNRESOLVED",
+      "detail": "WLC עֲמֵלִים denotes workers; Arabic العمل denotes work, not workers. Do not claim identical noun sense."
+    },
+    {
+      "queue_row": 758,
+      "reason": "audit UNRESOLVED",
+      "detail": "Unpointed ketiv and pointed qere are alternative representations of one source occurrence; avoid treating this as an independent loaf."
+    },
+    {
+      "queue_row": 759,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Round barley loaf rolls through Midianite camp; written/read source variant handled separately."
+    },
+    {
+      "queue_row": 760,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Proper name in the corresponding WLC person, place, or named spring context."
+    },
+    {
+      "queue_row": 764,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Crescent ornaments on camels’ necks."
+    },
+    {
+      "queue_row": 765,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Crescent ornaments listed separately from purple garments."
+    },
+    {
+      "queue_row": 766,
+      "reason": "audit UNRESOLVED",
+      "detail": "Hebrew pendant/drop ornament is less specific than the Arabic necklaces; type and correspondence need review."
+    },
+    {
+      "queue_row": 767,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Fig tree declines to abandon its sweetness."
+    },
+    {
+      "queue_row": 768,
+      "reason": "audit UNRESOLVED",
+      "detail": "Hebrew harvest festivity is not clearly equivalent to Arabic religious glorification; distinguish celebration from praise."
+    },
+    {
+      "queue_row": 782,
+      "reason": "audit UNRESOLVED",
+      "detail": "The Timnite is a gentilic substantive, not a place-name proper noun; gender/number and exact contextual identity require grammar review."
+    },
+    {
+      "queue_row": 783,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "One heap in the wordplay on the jaw of a donkey."
+    },
+    {
+      "queue_row": 784,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Two heaps, dual in both source and target."
+    },
+    {
+      "queue_row": 790,
+      "reason": "audit UNRESOLVED",
+      "detail": "The Gazites is a plural gentilic, not an uninflected place-name; needs dedicated grammar/lemma review."
+    },
+    {
+      "queue_row": 792,
+      "reason": "audit UNRESOLVED",
+      "detail": "Hebrew tow/flax refuse is not necessarily identical to the target flax thread; distinguish fibers from thread."
+    },
+    {
+      "queue_row": 793,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Delilah accuses Samson of speaking lies."
+    },
+    {
+      "queue_row": 794,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Delilah repeats her accusation of lying."
+    },
+    {
+      "queue_row": 796,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Samson’s hair woven with the warp."
+    },
+    {
+      "queue_row": 797,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Samson pulls out the loom pin and warp."
+    },
+    {
+      "queue_row": 798,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Proper name in the corresponding WLC person, place, or named spring context."
+    },
+    {
+      "queue_row": 799,
+      "reason": "audit HOLD_GRAMMAR_CONFLICT",
+      "detail": "Proper name in the corresponding WLC person, place, or named spring context."
+    },
+    {
+      "queue_row": 800,
+      "reason": "audit UNRESOLVED",
+      "detail": "Source עצר relates to possession/authority in a difficult clause; the target reading is uncertain and no exact counterpart is defensible."
+    },
+    {
+      "queue_row": 752,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:رَحْمَة;صِبْغ;صِبْغ;رِقْمَة;صِبْغ;رِقْمَة;عنق"
+      ]
+    },
+    {
+      "queue_row": 753,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:جُمْهُور"
+      ]
+    },
+    {
+      "queue_row": 754,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:أَكَمَة"
+      ]
+    },
+    {
+      "queue_row": 755,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:أَكَمَة"
+      ]
+    },
+    {
+      "queue_row": 756,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:جَيْش"
+      ]
+    },
+    {
+      "queue_row": 757,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:جَيْش;جَيْش"
+      ]
+    },
+    {
+      "queue_row": 761,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:شَفَة"
+      ]
+    },
+    {
+      "queue_row": 762,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:جَيْش;جَيْش"
+      ]
+    },
+    {
+      "queue_row": 771,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:إِلَه"
+      ]
+    },
+    {
+      "queue_row": 775,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:ضَرْبَات"
+      ]
+    },
+    {
+      "queue_row": 776,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:سُنْبُلَة"
+      ]
+    },
+    {
+      "queue_row": 780,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فِلِسْطِينِيّ;فِلِسْطِينِيّ"
+      ]
+    },
+    {
+      "queue_row": 781,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:تَغْيِير"
+      ]
+    },
+    {
+      "queue_row": 787,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فَكّ"
+      ]
+    },
+    {
+      "queue_row": 788,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فَكّ"
+      ]
+    },
+    {
+      "queue_row": 789,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:فَكّ"
+      ]
+    }
+  ],
+  "verse_checks": {
+    "JDG:8:11": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 9
+    },
+    "JDG:9:37": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 7
+    },
+    "JDG:9:41": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 6
+    },
+    "JDG:9:48": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 12
+    },
+    "JDG:9:49": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 14
+    },
+    "JDG:10:5": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 2
+    },
+    "JDG:12:13": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 5
+    },
+    "JDG:12:15": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 9
+    },
+    "JDG:15:17": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 5
+    },
+    "JDG:16:4": {
+      "remaining_blank_positions": [],
+      "populated_anchor_count": 5
+    },
+    "JDG:16:13": {
+      "remaining_blank_positions": [
+        3,
+        6
+      ],
+      "populated_anchor_count": 4
+    }
+  },
+  "grammar_inserted": [
+    "يجبهة",
+    "سرة",
+    "أرومة",
+    "قامون",
+    "هليل",
+    "فرعتون",
+    "رمة الفك",
+    "سورق",
+    "خصلة"
+  ],
+  "override_before_sha256": "bf13fa5bed73ac380ffc648dcdf5f3a1e66bfba63ef9533fd9cba1012fe23e02",
+  "override_after_sha256": "477834e6260c5ad4b28d22b8fcb88db0a2eaa3264f07297b9efe9d033bd07ea8",
+  "limitations": [
+    "Validation checks populated anchors only; remaining blank positions are listed.",
+    "Lexical matcher cannot prove semantics, negation, or repeated occurrence multiplicity.",
+    "Shared compound-name components intentionally use the same full span."
+  ]
+}

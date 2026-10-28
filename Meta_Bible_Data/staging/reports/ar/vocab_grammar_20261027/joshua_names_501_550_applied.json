@@ -1,0 +1,510 @@
+{
+  "status": "APPLIED",
+  "reviewed": [
+    {
+      "row": 514,
+      "book": "JOS",
+      "chapter": 7,
+      "verse": 5,
+      "word_position": 6,
+      "strongs_num": 7671,
+      "source_surface": "הַשְּׁבָרִ֔ים",
+      "rendering": "شباريم",
+      "sense_key": "H7671.AR_CONTEXT_JOS_7_5",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "شَبَارِيمَ",
+      "target_start": 111,
+      "source_sha256": "2d1ed948b01912f911934cacb8dfcb77e89df6620a53a783a5b83011916b38cb",
+      "target_sha256": "d5fafbb128d7bfe216f6b0025d0b77dd94fedf08ddcc390ef94e3f1acdc7f7f9",
+      "existing_grammar": null
+    },
+    {
+      "row": 515,
+      "book": "JOS",
+      "chapter": 10,
+      "verse": 3,
+      "word_position": 5,
+      "strongs_num": 1944,
+      "source_surface": "הוֹהָ֣ם",
+      "rendering": "هوهام",
+      "sense_key": "H1944.AR_CONTEXT_JOS_10_3",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "هُوهَامَ",
+      "target_start": 54,
+      "source_sha256": "ec5789a59e55ae2e96754a54fdb2a5218ebc7ec34d37e6620ebce08512eb2d91",
+      "target_sha256": "173d6e4c98348ee14ad136dddc902a55512231fd03385eb517b79bfe879e05f3",
+      "existing_grammar": null
+    },
+    {
+      "row": 516,
+      "book": "JOS",
+      "chapter": 10,
+      "verse": 3,
+      "word_position": 8,
+      "strongs_num": 6502,
+      "source_surface": "פִּרְאָ֨ם",
+      "rendering": "فرآم",
+      "sense_key": "H6502.AR_CONTEXT_JOS_10_3",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "فِرْآمَ",
+      "target_start": 88,
+      "source_sha256": "ec5789a59e55ae2e96754a54fdb2a5218ebc7ec34d37e6620ebce08512eb2d91",
+      "target_sha256": "173d6e4c98348ee14ad136dddc902a55512231fd03385eb517b79bfe879e05f3",
+      "existing_grammar": null
+    },
+    {
+      "row": 518,
+      "book": "JOS",
+      "chapter": 11,
+      "verse": 1,
+      "word_position": 6,
+      "strongs_num": 4068,
+      "source_surface": "מָד֔וֹן",
+      "rendering": "مادون",
+      "sense_key": "H4068.AR_CONTEXT_JOS_11_1",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "مَادُونَ",
+      "target_start": 78,
+      "source_sha256": "e30c1401458f2630d7061a886e9f6c724a8cf417165b893febfbf8fab3bcdf08",
+      "target_sha256": "753812cd742eb6eeb221fd1e71e6222c25db89e1fa4a74f2a10f81f03a092a4d",
+      "existing_grammar": [
+        "M",
+        "S",
+        "",
+        "PN"
+      ]
+    },
+    {
+      "row": 524,
+      "book": "JOS",
+      "chapter": 12,
+      "verse": 13,
+      "word_position": 4,
+      "strongs_num": 1445,
+      "source_surface": "גֶּ֖דֶר",
+      "rendering": "جادر",
+      "sense_key": "H1445.AR_CONTEXT_JOS_12_13",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "جَادَرَ",
+      "target_start": 31,
+      "source_sha256": "0a61ea53f97c894b79e63751a3c26db654ea00c42b0c17c592c065113773a118",
+      "target_sha256": "a05b16c1e79b71dbdaf3876a596fecd5434752724427661e47e168909b5aeb70",
+      "existing_grammar": null
+    },
+    {
+      "row": 525,
+      "book": "JOS",
+      "chapter": 12,
+      "verse": 19,
+      "word_position": 2,
+      "strongs_num": 4068,
+      "source_surface": "מָדוֹן֙",
+      "rendering": "مادون",
+      "sense_key": "H4068.AR_CONTEXT_JOS_12_19",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "مَادُونَ",
+      "target_start": 7,
+      "source_sha256": "36189e562d061334cd3c5380a3cbc575a9520d4806bb304943204a64578be577",
+      "target_sha256": "82a2fea321295b54de52b6c9852ee2cb3de915a0a1c9f10c30ad0bd703d4cd7f",
+      "existing_grammar": [
+        "M",
+        "S",
+        "",
+        "PN"
+      ]
+    },
+    {
+      "row": 526,
+      "book": "JOS",
+      "chapter": 12,
+      "verse": 20,
+      "word_position": 2,
+      "strongs_num": 8112,
+      "source_surface": "שִׁמְר֤וֹן",
+      "rendering": "شمرون مرأون",
+      "sense_key": "H8112.AR_CONTEXT_JOS_12_20",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "شِمْرُونَ مَرَأُونَ",
+      "target_start": 7,
+      "source_sha256": "9b5dda83e38829a915a80ddfc83fc6ac977bd39f37b75bb7ce1dae2a15fdcff1",
+      "target_sha256": "7b9d0a65a7332901e1b16aba50dcd3be9a33e7767f4e10bb344ce60279e1071c",
+      "existing_grammar": null
+    },
+    {
+      "row": 527,
+      "book": "JOS",
+      "chapter": 12,
+      "verse": 20,
+      "word_position": 3,
+      "strongs_num": 8112,
+      "source_surface": "מְראוֹן֙",
+      "rendering": "شمرون مرأون",
+      "sense_key": "H8112.AR_CONTEXT_JOS_12_20",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "شِمْرُونَ مَرَأُونَ",
+      "target_start": 7,
+      "source_sha256": "9b5dda83e38829a915a80ddfc83fc6ac977bd39f37b75bb7ce1dae2a15fdcff1",
+      "target_sha256": "7b9d0a65a7332901e1b16aba50dcd3be9a33e7767f4e10bb344ce60279e1071c",
+      "existing_grammar": null
+    },
+    {
+      "row": 536,
+      "book": "JOS",
+      "chapter": 13,
+      "verse": 26,
+      "word_position": 2,
+      "strongs_num": 7434,
+      "source_surface": "רָמַ֥ת",
+      "rendering": "رامة المصفاة",
+      "sense_key": "H7434.AR_CONTEXT_JOS_13_26",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "رَامَةِ الْمِصْفَاةِ",
+      "target_start": 23,
+      "source_sha256": "38cd73512c9daa130f94d96517a5759dae5795dd4f01c19bdb59f08e218dfe05",
+      "target_sha256": "819fda8224c5ea825bd1f43445ff660343ca517de2000d0a30ca054d84027261",
+      "existing_grammar": [
+        "F",
+        "S",
+        "",
+        "PN"
+      ]
+    },
+    {
+      "row": 537,
+      "book": "JOS",
+      "chapter": 13,
+      "verse": 26,
+      "word_position": 3,
+      "strongs_num": 7434,
+      "source_surface": "הַמִּצְפֶּ֖ה",
+      "rendering": "رامة المصفاة",
+      "sense_key": "H7434.AR_CONTEXT_JOS_13_26",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "رَامَةِ الْمِصْفَاةِ",
+      "target_start": 23,
+      "source_sha256": "38cd73512c9daa130f94d96517a5759dae5795dd4f01c19bdb59f08e218dfe05",
+      "target_sha256": "819fda8224c5ea825bd1f43445ff660343ca517de2000d0a30ca054d84027261",
+      "existing_grammar": [
+        "F",
+        "S",
+        "",
+        "PN"
+      ]
+    },
+    {
+      "row": 538,
+      "book": "JOS",
+      "chapter": 13,
+      "verse": 26,
+      "word_position": 4,
+      "strongs_num": 993,
+      "source_surface": "וּבְטֹנִ֑ים",
+      "rendering": "بطونيم",
+      "sense_key": "H993.AR_CONTEXT_JOS_13_26",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "بُطُونِيمَ",
+      "target_start": 46,
+      "source_sha256": "38cd73512c9daa130f94d96517a5759dae5795dd4f01c19bdb59f08e218dfe05",
+      "target_sha256": "819fda8224c5ea825bd1f43445ff660343ca517de2000d0a30ca054d84027261",
+      "existing_grammar": null
+    },
+    {
+      "row": 539,
+      "book": "JOS",
+      "chapter": 13,
+      "verse": 27,
+      "word_position": 7,
+      "strongs_num": 6829,
+      "source_surface": "וְצָפ֗וֹן",
+      "rendering": "صافون",
+      "sense_key": "H6829.AR_CONTEXT_JOS_13_27",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "صَافُونَ",
+      "target_start": 63,
+      "source_sha256": "73d10ce3ecad152460e0919bc0e370c80a81357803e7d8af31d5b6f8531f7525",
+      "target_sha256": "db6040217ca9248dd73121a2c64e19b0cc271f83257ef66408230940ad79b537",
+      "existing_grammar": [
+        "M",
+        "S",
+        "",
+        "PN"
+      ]
+    },
+    {
+      "row": 540,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 3,
+      "word_position": 10,
+      "strongs_num": 7173,
+      "source_surface": "הַקַּרְקָֽעָה",
+      "rendering": "قرقع",
+      "sense_key": "H7173.AR_CONTEXT_JOS_15_3",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "قَرْقَعَ",
+      "target_start": 199,
+      "source_sha256": "879947bfb5896826b7ec90e3d558fd1b9df7d6d6db4d52b16a68bfa27fd69fbd",
+      "target_sha256": "bd231404246e8f0b029068863da6bf86c85b60033eade5c4c5d0a0e201c0b296",
+      "existing_grammar": null
+    },
+    {
+      "row": 541,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 9,
+      "word_position": 6,
+      "strongs_num": 5318,
+      "source_surface": "נֶפְתּ֔וֹחַ",
+      "rendering": "نفتوح",
+      "sense_key": "H5318.AR_CONTEXT_JOS_15_9",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "نَفْتُوحَ",
+      "target_start": 67,
+      "source_sha256": "17e4f7b15d2228d829c754c497cbf8386af5d9bafa0419fc1608a9f4e3cadb76",
+      "target_sha256": "3b5aae49c1763e716c31a735bf46472932cdf62a24b46013a7708da58348cc1e",
+      "existing_grammar": null
+    },
+    {
+      "row": 544,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 11,
+      "word_position": 6,
+      "strongs_num": 7942,
+      "source_surface": "שִׁכְּר֔וֹנָה",
+      "rendering": "شكرون",
+      "sense_key": "H7942.AR_CONTEXT_JOS_15_11",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "شَكْرُونَ",
+      "target_start": 82,
+      "source_sha256": "a6bd5865d892bef64ca9e548a2f4bf8b7dbd90371bb39539b724628b5dbf8863",
+      "target_sha256": "53b2301bf9821a2ea2f8cf134bbf62b7ebbe8e9b0b8250e4f9c79cfc6c9a8379",
+      "existing_grammar": null
+    },
+    {
+      "row": 545,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 11,
+      "word_position": 9,
+      "strongs_num": 2995,
+      "source_surface": "יַבְנְאֵ֑ל",
+      "rendering": "يبنئيل",
+      "sense_key": "H2995.AR_CONTEXT_JOS_15_11",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "يَبْنِئِيلَ",
+      "target_start": 134,
+      "source_sha256": "a6bd5865d892bef64ca9e548a2f4bf8b7dbd90371bb39539b724628b5dbf8863",
+      "target_sha256": "53b2301bf9821a2ea2f8cf134bbf62b7ebbe8e9b0b8250e4f9c79cfc6c9a8379",
+      "existing_grammar": null
+    },
+    {
+      "row": 547,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 22,
+      "word_position": 1,
+      "strongs_num": 7016,
+      "source_surface": "וְקִינָ֥ה",
+      "rendering": "قينة",
+      "sense_key": "H7016.AR_CONTEXT_JOS_15_22",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "قَيْنَةَ",
+      "target_start": 2,
+      "source_sha256": "8e81482bfd0887b70bec4cde5e2f4ba7658a72d4ad0c75c7faeb711777fdc0bf",
+      "target_sha256": "bc66cc4e32b44246939a7bbdba5ac4458fa39a69dc7a6f3e30eab3da77bd96f7",
+      "existing_grammar": null
+    },
+    {
+      "row": 548,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 22,
+      "word_position": 2,
+      "strongs_num": 1776,
+      "source_surface": "וְדִֽימוֹנָ֖ה",
+      "rendering": "ديمونة",
+      "sense_key": "H1776.AR_CONTEXT_JOS_15_22",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "دِيمُونَةَ",
+      "target_start": 13,
+      "source_sha256": "8e81482bfd0887b70bec4cde5e2f4ba7658a72d4ad0c75c7faeb711777fdc0bf",
+      "target_sha256": "bc66cc4e32b44246939a7bbdba5ac4458fa39a69dc7a6f3e30eab3da77bd96f7",
+      "existing_grammar": null
+    },
+    {
+      "row": 549,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 22,
+      "word_position": 3,
+      "strongs_num": 5735,
+      "source_surface": "וְעַדְעָדָֽה",
+      "rendering": "عدعدة",
+      "sense_key": "H5735.AR_CONTEXT_JOS_15_22",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "عَدْعَدَةَ",
+      "target_start": 26,
+      "source_sha256": "8e81482bfd0887b70bec4cde5e2f4ba7658a72d4ad0c75c7faeb711777fdc0bf",
+      "target_sha256": "bc66cc4e32b44246939a7bbdba5ac4458fa39a69dc7a6f3e30eab3da77bd96f7",
+      "existing_grammar": null
+    },
+    {
+      "row": 550,
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 23,
+      "word_position": 3,
+      "strongs_num": 3497,
+      "source_surface": "וְיִתְנָֽן",
+      "rendering": "يثنان",
+      "sense_key": "H3497.AR_CONTEXT_JOS_15_23",
+      "reason": "WLC place name in Joshua list; exact Arabic name checked against independent source-context review.",
+      "target_span": "يِثْنَانَ",
+      "target_start": 23,
+      "source_sha256": "756bc897168c9622ac30889ae55646a19a620dbf601f0e0a2a92328bc4138ee5",
+      "target_sha256": "6f30d7c69b64466a41046ce7daad6e7236b0abcba1bed79e3246f7fdf62cd984",
+      "existing_grammar": null
+    }
+  ],
+  "skipped": [
+    {
+      "row": 501,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 502,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 503,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 504,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 505,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 506,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 507,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 508,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 509,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 510,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 511,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 512,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 513,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 519,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 520,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 521,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 522,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 523,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 528,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 529,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 530,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 532,
+      "reason": "not independently approved as a proper name"
+    },
+    {
+      "row": 535,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 542,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 546,
+      "reason": "existing citation grammar is not a proper name"
+    },
+    {
+      "row": 517,
+      "reason": "verse anchor validation",
+      "failures": [
+        "missing_nouns:بَقِيَّة"
+      ]
+    },
+    {
+      "row": 531,
+      "reason": "verse anchor validation",
+      "failures": [
+        "missing_nouns:مِصْرَايِم;فِلِسْطِينِيّ"
+      ]
+    },
+    {
+      "row": 533,
+      "reason": "verse anchor validation",
+      "failures": [
+        "missing_nouns:وَادٍ"
+      ]
+    },
+    {
+      "row": 534,
+      "reason": "verse anchor validation",
+      "failures": [
+        "missing_nouns:وَادٍ"
+      ]
+    },
+    {
+      "row": 543,
+      "reason": "verse anchor validation",
+      "failures": [
+        "missing_nouns:تُخُوم;جانب"
+      ]
+    }
+  ],
+  "count": 20,
+  "override_before_sha256": "963a83872a1d21a732b529a69c46678cd6cc67d7cc994fcbc984d8a3c6659f5c",
+  "override_after_sha256": "e22e387d8a7c1320ded4deec35f82abd1b82a1a21923a4b0edc69a42b42bece0"
+}

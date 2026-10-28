@@ -1,0 +1,42 @@
+{
+  "coordinate": "1CH 4:12",
+  "queue_row": 1308,
+  "anchor": {
+    "word_position": 5,
+    "strongs_num": "8468",
+    "source_surface": "תְּחִנָּ֖ה",
+    "source_morphology": "HNp"
+  },
+  "source_sha256": "0347e99125debcb2ed5a339628ea16a1a000e11436ff57da3dfcddaeec512ecf",
+  "target_sha256": "10f5cf453cd85792c517ea73ece3572a61a5882925390c6c67562f0532bfc7bf",
+  "source_context": "WLC genealogy identifies Tehinnah after Paseah as father of Ir-nahash.",
+  "target_context": "Arabic lists تَحِنَّةَ in the corresponding genealogical position before father of Ir-nahash.",
+  "target_span": "تَحِنَّةَ",
+  "target_start": 44,
+  "target_end": 53,
+  "citation": "تَحِنَّة",
+  "proposed_grammar": {
+    "pos": "PN",
+    "gender": "U",
+    "citation_number": "S",
+    "plural_form": ""
+  },
+  "current_grammar": {
+    "gender": "F",
+    "citation_number": "S",
+    "plural_form": "تَحِنَّاتُ",
+    "pos": "N"
+  },
+  "decision": "ALIGNED_GRAMMAR_CONFLICT_HOLD",
+  "reason": "Existing same-key grammar is a feminine common noun with plural, not a proper name. A new occurrence override must not silently reuse or overwrite that grammar; the single-key table cannot represent both senses under identical citation. Resolve representation before applying.",
+  "current_rendering": "",
+  "other_blank_positions": [],
+  "populated_anchor_validation_with_proposal": [],
+  "tests": {
+    "exact_target_span_unique": true,
+    "matcher_positive": true,
+    "unrelated_name_negative": true,
+    "vowel_variant_matches_due_to_normalization": true,
+    "limitation": "Matcher removes vocalization and cannot distinguish these marked vowel variants; exact target-span and source-context checks remain required."
+  }
+}

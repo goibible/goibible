@@ -1,0 +1,607 @@
+{
+  "status": "DRY_RUN",
+  "rows": [
+    {
+      "row": 905,
+      "book": "2SA",
+      "chapter": 3,
+      "verse": 5,
+      "word_position": 1,
+      "strongs_num": 3507,
+      "source_surface": "יִתְרְעָ֔ם",
+      "rendering": "يثرعام",
+      "sense_key": "H3507.AR_CONTEXT_2SA_3_5",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "يَثْرَعَامُ",
+      "target_start": 13,
+      "target_end": 24,
+      "source_sha256": "cb0a4a7be7a9c959bc279d031e4ffc08958e93c49bef9b96d3233e63dc9e93da",
+      "target_sha256": "b5ca18aa98a6662338b45e5761f577aa166d9479d24044e3609369416ed5c715",
+      "existing_grammar": null
+    },
+    {
+      "row": 907,
+      "book": "2SA",
+      "chapter": 3,
+      "verse": 15,
+      "word_position": 4,
+      "strongs_num": 6409,
+      "source_surface": "פַּלְטִיאֵ֥ל",
+      "rendering": "فلطيئيل",
+      "sense_key": "H6409.AR_CONTEXT_2SA_3_15",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "فَلْطِيئِيلَ",
+      "target_start": 71,
+      "target_end": 83,
+      "source_sha256": "600914767823bee6df939f6b5d10747b33ff45f3d988b5abc7a711fcae4d830b",
+      "target_sha256": "64ccc2641fe1c72f57eb6d695eaefc00efb23b2248c8558b7f924c0ddd174f08",
+      "existing_grammar": null
+    },
+    {
+      "row": 911,
+      "book": "2SA",
+      "chapter": 3,
+      "verse": 26,
+      "word_position": 6,
+      "strongs_num": 5626,
+      "source_surface": "הַסִּרָ֑ה",
+      "rendering": "السيرة",
+      "sense_key": "H5626.AR_CONTEXT_2SA_3_26",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "السِّيرَة",
+      "target_start": 73,
+      "target_end": 82,
+      "source_sha256": "97098d2920902b903deb23a431499579430492bfbe9a4ae7f52f7883b4048df9",
+      "target_sha256": "663a189a82816180ffd407c23c7a3afd53193df5884acfa4b1483e43a8495410",
+      "existing_grammar": null
+    },
+    {
+      "row": 913,
+      "book": "2SA",
+      "chapter": 4,
+      "verse": 3,
+      "word_position": 2,
+      "strongs_num": 1664,
+      "source_surface": "גִּתָּ֑יְמָה",
+      "rendering": "جتايم",
+      "sense_key": "H1664.AR_CONTEXT_2SA_4_3",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "جَتَّايِمَ",
+      "target_start": 35,
+      "target_end": 45,
+      "source_sha256": "a0afde334a8b57b7456e242e7793b656dd3f0a47ec0fbadb4a698044b000c45a",
+      "target_sha256": "7c8355f0264e0af7b3ecafc650bb9291ade2bc3020096220eb15e5d451bf50c2",
+      "existing_grammar": null
+    },
+    {
+      "row": 921,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 4,
+      "word_position": 6,
+      "strongs_num": 4063,
+      "source_surface": "מַדְוֵיהֶ֛ם",
+      "rendering": "ثَوْب",
+      "sense_key": "H4063.AR_CONTEXT_2SA_10_4",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "M",
+        "S",
+        "ثياب",
+        "N"
+      ],
+      "target_span": "ثِيَابَهُمْ",
+      "target_start": 70,
+      "target_end": 81,
+      "source_sha256": "71b5434b517ae60b4614989d5a730394dd80ad9473997641054022ab1796aca4",
+      "target_sha256": "7457502dc84ee41d56a4207fad986488ce72a46b5d1a2d9193ec002260279001",
+      "existing_grammar": [
+        "M",
+        "S",
+        "ثياب",
+        "N"
+      ]
+    },
+    {
+      "row": 922,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 4,
+      "word_position": 8,
+      "strongs_num": 8357,
+      "source_surface": "שְׁתֽוֹתֵיהֶ֑ם",
+      "rendering": "اسْت",
+      "sense_key": "H8357.AR_CONTEXT_2SA_10_4",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "F",
+        "S",
+        "أستاه",
+        "N"
+      ],
+      "target_span": "أَسْتَاهِهِمْ",
+      "target_start": 103,
+      "target_end": 116,
+      "source_sha256": "71b5434b517ae60b4614989d5a730394dd80ad9473997641054022ab1796aca4",
+      "target_sha256": "7457502dc84ee41d56a4207fad986488ce72a46b5d1a2d9193ec002260279001",
+      "existing_grammar": null
+    },
+    {
+      "row": 924,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 16,
+      "word_position": 5,
+      "strongs_num": 2431,
+      "source_surface": "חֵילָ֑ם",
+      "rendering": "حيلام",
+      "sense_key": "H2431.AR_CONTEXT_2SA_10_16",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "حِيلَامَ",
+      "target_start": 91,
+      "target_end": 99,
+      "source_sha256": "8442f94b0d39146bff2a233b24341a86330f8418f3538d57d9b56f4dbd569c25",
+      "target_sha256": "a6610d535230cedf91058fb1f0c998fdfa7729d20163ec0f703e6574edbab192",
+      "existing_grammar": null
+    },
+    {
+      "row": 925,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 16,
+      "word_position": 6,
+      "strongs_num": 7731,
+      "source_surface": "וְשׁוֹבַ֛ךְ",
+      "rendering": "شوبك",
+      "sense_key": "H7731.AR_CONTEXT_2SA_10_16",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "شُوبَكُ",
+      "target_start": 103,
+      "target_end": 110,
+      "source_sha256": "8442f94b0d39146bff2a233b24341a86330f8418f3538d57d9b56f4dbd569c25",
+      "target_sha256": "a6610d535230cedf91058fb1f0c998fdfa7729d20163ec0f703e6574edbab192",
+      "existing_grammar": null
+    },
+    {
+      "row": 926,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 17,
+      "word_position": 5,
+      "strongs_num": 2431,
+      "source_surface": "חֵלָ֑אמָה",
+      "rendering": "حيلام",
+      "sense_key": "H2431.AR_CONTEXT_2SA_10_17",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "حِيلَامَ",
+      "target_start": 84,
+      "target_end": 92,
+      "source_sha256": "06772039b18404bd7a8b8391018c12946104b53d7e9f90b2a4d6c2eee264ca30",
+      "target_sha256": "3ff4b5d9ddbb26d82745ebaffa67f80e40d91c2e8b9f4fdd23f30d229bee8fa1",
+      "existing_grammar": null
+    },
+    {
+      "row": 927,
+      "book": "2SA",
+      "chapter": 10,
+      "verse": 18,
+      "word_position": 8,
+      "strongs_num": 7731,
+      "source_surface": "שׁוֹבַ֧ךְ",
+      "rendering": "شوبك",
+      "sense_key": "H7731.AR_CONTEXT_2SA_10_18",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "شُوبَكَ",
+      "target_start": 138,
+      "target_end": 145,
+      "source_sha256": "851ce8e1d158041df9dc6ad19bed7e2753e5961b0c0ac1978f8821fcd7986659",
+      "target_sha256": "27955f9a380ea552cf588054be01da588434257717ac7842c323c8c5733132f1",
+      "existing_grammar": null
+    },
+    {
+      "row": 930,
+      "book": "2SA",
+      "chapter": 12,
+      "verse": 25,
+      "word_position": 5,
+      "strongs_num": 3041,
+      "source_surface": "יְדִ֣ידְיָ֑הּ",
+      "rendering": "يديديا",
+      "sense_key": "H3041.AR_CONTEXT_2SA_12_25",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "يَدِيدِيَّا",
+      "target_start": 55,
+      "target_end": 66,
+      "source_sha256": "7701e729b7c9de4ed66c968f85075c45238eac4f99b635952a95ea48307a90aa",
+      "target_sha256": "06de5038b77d18e581bf68d542800e5a3589411c3a2e9f3a5a2bbaee634654e8",
+      "existing_grammar": null
+    },
+    {
+      "row": 931,
+      "book": "2SA",
+      "chapter": 13,
+      "verse": 3,
+      "word_position": 6,
+      "strongs_num": 8093,
+      "source_surface": "שִׁמְעָ֖ה",
+      "rendering": "شمعى",
+      "sense_key": "H8093.AR_CONTEXT_2SA_13_3",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "شِمْعَى",
+      "target_start": 54,
+      "target_end": 61,
+      "source_sha256": "33fcfee4f8b806b2d134d3e5f32bb1e2b2698f7e4fe2bf7b7ce28896401a61db",
+      "target_sha256": "9e51da8c8ba4e2177510bbae186cf9251e4633186deee30d64adb4d9b5c5b579",
+      "existing_grammar": null
+    },
+    {
+      "row": 940,
+      "book": "2SA",
+      "chapter": 17,
+      "verse": 25,
+      "word_position": 9,
+      "strongs_num": 3501,
+      "source_surface": "יִתְרָ֣א",
+      "rendering": "يثرا",
+      "sense_key": "H3501.AR_CONTEXT_2SA_17_25",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "يِثْرَا",
+      "target_start": 95,
+      "target_end": 102,
+      "source_sha256": "21125ca6d5c248eb7d561e4fe341aae02544ffbf1200503c2bd626e073340aef",
+      "target_sha256": "168b8797eb0a1989ef95968858df185c23370ad9e84d27a7ebb90c23915c54d1",
+      "existing_grammar": null
+    },
+    {
+      "row": 942,
+      "book": "2SA",
+      "chapter": 17,
+      "verse": 27,
+      "word_position": 3,
+      "strongs_num": 7629,
+      "source_surface": "וְשֹׁבִ֨י",
+      "rendering": "شوبي",
+      "sense_key": "H7629.AR_CONTEXT_2SA_17_27",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "شُوبِيَ",
+      "target_start": 49,
+      "target_end": 56,
+      "source_sha256": "81e61f65027a96d77436e82684136cae9ed537b5eb4c34a0ba08a9849233dcf3",
+      "target_sha256": "ab0ecc0fe3f0d23b635a447165cf703ff433baaa162a1a14a74202d237af176a",
+      "existing_grammar": null
+    },
+    {
+      "row": 943,
+      "book": "2SA",
+      "chapter": 17,
+      "verse": 27,
+      "word_position": 16,
+      "strongs_num": 7274,
+      "source_surface": "מֵרֹגְלִֽים",
+      "rendering": "روجليم",
+      "sense_key": "H7274.AR_CONTEXT_2SA_17_27",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "رُوجَلِيمَ",
+      "target_start": 181,
+      "target_end": 191,
+      "source_sha256": "81e61f65027a96d77436e82684136cae9ed537b5eb4c34a0ba08a9849233dcf3",
+      "target_sha256": "ab0ecc0fe3f0d23b635a447165cf703ff433baaa162a1a14a74202d237af176a",
+      "existing_grammar": null
+    },
+    {
+      "row": 946,
+      "book": "2SA",
+      "chapter": 18,
+      "verse": 9,
+      "word_position": 8,
+      "strongs_num": 7730,
+      "source_surface": "שׂוֹבֶךְ֩",
+      "rendering": "غُصْن",
+      "sense_key": "H7730.AR_CONTEXT_2SA_18_9",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "M",
+        "S",
+        "أغصان",
+        "N"
+      ],
+      "target_span": "أَغْصَانِ",
+      "target_start": 120,
+      "target_end": 129,
+      "source_sha256": "ff8b4865178a01070361dede79e9065ed33ce9b5d342f1949ebc63e8b794eb53",
+      "target_sha256": "fc303a05f40176a91ee6e8e8853adef4ea7e87796fe35fda610b030081ac3651",
+      "existing_grammar": [
+        "M",
+        "S",
+        "أغصان",
+        "N"
+      ]
+    },
+    {
+      "row": 948,
+      "book": "2SA",
+      "chapter": 19,
+      "verse": 31,
+      "word_position": 3,
+      "strongs_num": 7274,
+      "source_surface": "מֵרֹגְלִ֑ים",
+      "rendering": "روجليم",
+      "sense_key": "H7274.AR_CONTEXT_2SA_19_31",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "U",
+        "S",
+        "",
+        "PN"
+      ],
+      "target_span": "رُوجَلِيمَ",
+      "target_start": 43,
+      "target_end": 53,
+      "source_sha256": "c375661ad4d54286085cc7b61807608dcea02208d669e2f9ba5ca0c8dccc5437",
+      "target_sha256": "dce1047968366767b2efca10d094550ab78a4954b0c4ba9270488bb502e85ae6",
+      "existing_grammar": null
+    },
+    {
+      "row": 949,
+      "book": "2SA",
+      "chapter": 19,
+      "verse": 32,
+      "word_position": 5,
+      "strongs_num": 7871,
+      "source_surface": "בְּשִׁיבָת֣וֹ",
+      "rendering": "إِقَامَة",
+      "sense_key": "H7871.AR_CONTEXT_2SA_19_32",
+      "reason": "WLC and Arabic have the same named entity or nominal role in the source clause.",
+      "grammar_wanted": [
+        "F",
+        "S",
+        "إقامات",
+        "N"
+      ],
+      "target_span": "إِقَامَتِهِ",
+      "target_start": 106,
+      "target_end": 117,
+      "source_sha256": "2f408df14fb36151445c67099da91bd2b7c2fc4db8a0ee9755b35ecc134f04c7",
+      "target_sha256": "64e49ce43bee8b17c26d35c410e3d509ab7e0c8ce107334a037d7f4a6563d105",
+      "existing_grammar": null
+    }
+  ],
+  "held": [
+    {
+      "row": 901,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 902,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 903,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 904,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:ثَانٍ"
+      ]
+    },
+    {
+      "row": 906,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 908,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 909,
+      "reason": "written/read alternatives require shared-occurrence adjudication"
+    },
+    {
+      "row": 910,
+      "reason": "written/read alternatives require shared-occurrence adjudication"
+    },
+    {
+      "row": 912,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 914,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 915,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 916,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 917,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 918,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 919,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 920,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 923,
+      "reason": "citation grammar or POS not established"
+    },
+    {
+      "row": 928,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مَرْكَبَة"
+      ]
+    },
+    {
+      "row": 929,
+      "reason": "citation grammar or POS not established"
+    },
+    {
+      "row": 932,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 933,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:غُلَام"
+      ]
+    },
+    {
+      "row": 934,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 935,
+      "reason": "citation grammar or POS not established"
+    },
+    {
+      "row": 936,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مُؤَامَرَة"
+      ]
+    },
+    {
+      "row": 937,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 938,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 939,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 941,
+      "reason": "citation grammar or POS not established"
+    },
+    {
+      "row": 944,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 945,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 947,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 950,
+      "reason": "citation grammar or POS not established"
+    }
+  ],
+  "pinned_hashes": {
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_torah_occurrence_overrides.tsv": "7ad2997ad7bb77073fe01a16ae0cac2e61c0054fcbf2333163833163a0dd1a5f",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/grammar_tables.sqlite3": "b24f1906916de1affb2b5664dd857b760e4d05c4b4185b7bd077fa501c701eaf",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/source_anchor_occurrences/ar_ot_source_noun_occurrences.csv": "c7b761e3dd681d8ded0b5651a074babd4ce996aa06be595af8076afba060d144",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/independent_audit_901_950_c.jsonl": "76dd584bbf6e2dd76be9305ac1bd960d29d302240f23db6e1865b86088da6f4f",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/blank_occurrence_queue.jsonl": "9320d8f36b8a395f712f0afbb325bc755ce7d5ad6fc9454bab57e5dcd82315d7",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/prepare_apply_901_950_c.py": "21fad9fb38749abd982d94db2d2f3f71d2d7d4a364a51b017b225e697d300d1a",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_1_reviewed_defaults.tsv": "f388a873ab41a1b78ee155e09d539456692e0733f824d6ed5e18a6fd1d7859a4",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_2_reviewed_defaults.tsv": "66dac117a18884e1c8735f1d48488c20ad5d0945e0c3e7aa9da7c038a440ecaa",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_3_reviewed_defaults.tsv": "0ce73fdb5830bb9734c3705910d7671f86697e3506d2268f680b3a6888c8a1bf",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_4_reviewed_defaults.tsv": "0b4320e3445306395a2178f7eda3b30fc8bc64ea4dac835ed00be0a18f9146fc",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_5_reviewed_defaults.tsv": "39b69019095176219d6355aa93ec6d9630dc9f276048235d7e0e0ab6cca6a0f9",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_6_reviewed_defaults.tsv": "dad03cfc8e5ff69e77202da411c3cdf1c279e948e136c0b6902f1f43af528739",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_7_reviewed_defaults.tsv": "774e668cec22a6a81ed126e655b6b9e6ec762f7122cee48ff5bd32984bf36b51",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_8_reviewed_defaults.tsv": "38c54b383a212ab5899599b12e6cd7d3ba58d4307a359e0cd24539eb294b5a11",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_machine_reviewed_defaults.tsv": "e4f901b5e4abddcf81e2786efd9e718fac9f3afef7ba36496eb6c39b29f79c67",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_reviewed_defaults.tsv": "f8d05f34a86b037a992493682a5d0585fadfbf6c39128da456e85835cf76dfc0"
+  }
+}

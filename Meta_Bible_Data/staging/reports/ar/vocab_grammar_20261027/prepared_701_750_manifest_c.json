@@ -1,0 +1,26 @@
+{
+  "pinned_hashes": {
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_torah_occurrence_overrides.tsv": "31e20bd1c78b569850e5652bed498a4eec412dc7140f122a4fc7b5762f14e30f",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/grammar_tables.sqlite3": "217d69bf0cd4b5604ae5def0f7d4699a95bc7046532f1677672d2a6ac163576f",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/source_anchor_occurrences/ar_ot_source_noun_occurrences.csv": "c7b761e3dd681d8ded0b5651a074babd4ce996aa06be595af8076afba060d144",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/independent_audit_701_750_c.jsonl": "c9b63a476ae8d46fbf4fec50967d7819c52ea8a76e4370fd454619b1fbbbea71",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/blank_occurrence_queue.jsonl": "9320d8f36b8a395f712f0afbb325bc755ce7d5ad6fc9454bab57e5dcd82315d7",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/prepare_apply_701_750_c.py": "f37ace9d9df1a5d0048a556bc5dbc52953ddfa75ee10b656ebd04cc54f391175",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_1_reviewed_defaults.tsv": "f388a873ab41a1b78ee155e09d539456692e0733f824d6ed5e18a6fd1d7859a4",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_2_reviewed_defaults.tsv": "66dac117a18884e1c8735f1d48488c20ad5d0945e0c3e7aa9da7c038a440ecaa",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_3_reviewed_defaults.tsv": "0ce73fdb5830bb9734c3705910d7671f86697e3506d2268f680b3a6888c8a1bf",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_4_reviewed_defaults.tsv": "0b4320e3445306395a2178f7eda3b30fc8bc64ea4dac835ed00be0a18f9146fc",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_5_reviewed_defaults.tsv": "39b69019095176219d6355aa93ec6d9630dc9f276048235d7e0e0ab6cca6a0f9",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_6_reviewed_defaults.tsv": "dad03cfc8e5ff69e77202da411c3cdf1c279e948e136c0b6902f1f43af528739",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_7_reviewed_defaults.tsv": "774e668cec22a6a81ed126e655b6b9e6ec762f7122cee48ff5bd32984bf36b51",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_8_reviewed_defaults.tsv": "38c54b383a212ab5899599b12e6cd7d3ba58d4307a359e0cd24539eb294b5a11",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_machine_reviewed_defaults.tsv": "e4f901b5e4abddcf81e2786efd9e718fac9f3afef7ba36496eb6c39b29f79c67",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_reviewed_defaults.tsv": "f8d05f34a86b037a992493682a5d0585fadfbf6c39128da456e85835cf76dfc0"
+  },
+  "snapshot_directory": "/tmp/ar_701_750_snapshot_c",
+  "snapshot_sha256": {
+    "override": "31e20bd1c78b569850e5652bed498a4eec412dc7140f122a4fc7b5762f14e30f",
+    "database": "ec1f48d6f87960ca115d9087a45c3f07bc077d38a39cb70320816c779541ea7d"
+  },
+  "database_integrity": "ok"
+}

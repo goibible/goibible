@@ -1,0 +1,1924 @@
+[
+  {
+    "stem": "006_JOS_016_003",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 3220,
+        "surface": "יָ֜מָּה",
+        "rendering": "بحر",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1366,
+        "surface": "גְּב֣וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 3311,
+        "surface": "הַיַּפְלֵטִ֗י",
+        "rendering": "يَفْلَطِيّ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1366,
+        "surface": "גְּב֧וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1032,
+        "surface": "בֵּית",
+        "rendering": "بَيْتِ حُورُونَ",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1032,
+        "surface": "חוֹרֹ֛ן",
+        "rendering": "بَيْتِ حُورُونَ",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 1507,
+        "surface": "גָּ֑זֶר",
+        "rendering": "جَازَر",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 8444,
+        "surface": "תצאתו",
+        "rendering": "مَخَارِج",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 8444,
+        "surface": "תֹצְאֹתָ֖יו",
+        "rendering": "مَخَارِج",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 3220,
+        "surface": "יָֽמָּה",
+        "rendering": "بحر",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_016_006",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "הַגְּב֜וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3220,
+        "surface": "הַיָּ֗מָּה",
+        "rendering": "بحر",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 4366,
+        "surface": "הַֽמִּכְמְתָת֙",
+        "rendering": "مَكْمَتَة",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 6828,
+        "surface": "מִצָּפ֔וֹן",
+        "rendering": "شِمَال",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1366,
+        "surface": "הַגְּב֛וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 4217,
+        "surface": "מִזְרָ֖חָה",
+        "rendering": "مشرق",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 8387,
+        "surface": "תַּאֲנַ֣ת",
+        "rendering": "تَآنَةِ شِيلُو",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 8387,
+        "surface": "שִׁלֹ֑ה",
+        "rendering": "تَآنَةِ شِيلُو",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 4217,
+        "surface": "מִמִּזְרַ֖ח",
+        "rendering": "مشرق",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 3239,
+        "surface": "יָנֽוֹחָה",
+        "rendering": "يَنُوحَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_016_009",
+    "anchor_count": 11,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 5892,
+        "surface": "וְהֶעָרִ֗ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3995,
+        "surface": "הַמִּבְדָּלוֹת֙",
+        "rendering": "مُفْرَز",
+        "found": false
+      },
+      {
+        "position": 3,
+        "strongs": 1121,
+        "surface": "לִבְנֵ֣י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 669,
+        "surface": "אֶפְרַ֔יִם",
+        "rendering": "أفرايم",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 8432,
+        "surface": "בְּת֖וֹךְ",
+        "rendering": "وسط",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 5159,
+        "surface": "נַחֲלַ֣ת",
+        "rendering": "مِيرَاث",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 1121,
+        "surface": "בְּנֵֽי",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 4519,
+        "surface": "מְנַשֶּׁ֑ה",
+        "rendering": "منسى",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 3605,
+        "surface": "כָּֽל",
+        "rendering": "كل",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 5892,
+        "surface": "הֶעָרִ֖ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 11,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:مُفْرَز;فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_017_002",
+    "anchor_count": 21,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1121,
+        "surface": "לִבְנֵ֨י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 4519,
+        "surface": "מְנַשֶּׁ֥ה",
+        "rendering": "منسى",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 4940,
+        "surface": "לְמִשְׁפְּחֹתָם֒",
+        "rendering": "عائلة",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1121,
+        "surface": "לִבְנֵ֨י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 44,
+        "surface": "אֲבִיעֶ֜זֶר",
+        "rendering": "أبيعزر",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1121,
+        "surface": "וְלִבְנֵי",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 2507,
+        "surface": "חֵ֗לֶק",
+        "rendering": "حَالَق",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 1121,
+        "surface": "וְלִבְנֵ֤י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 844,
+        "surface": "אַשְׂרִיאֵל֙",
+        "rendering": "أَسْرِيئِيل",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 1121,
+        "surface": "וְלִבְנֵי",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 11,
+        "strongs": 7928,
+        "surface": "שֶׁ֔כֶם",
+        "rendering": "شَكَم",
+        "found": true
+      },
+      {
+        "position": 12,
+        "strongs": 1121,
+        "surface": "וְלִבְנֵי",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 13,
+        "strongs": 2660,
+        "surface": "חֵ֖פֶר",
+        "rendering": "حَافَر",
+        "found": true
+      },
+      {
+        "position": 14,
+        "strongs": 1121,
+        "surface": "וְלִבְנֵ֣י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 15,
+        "strongs": 8061,
+        "surface": "שְׁמִידָ֑ע",
+        "rendering": "شَمِيدَاع",
+        "found": true
+      },
+      {
+        "position": 16,
+        "strongs": 1121,
+        "surface": "בְּנֵ֨י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 17,
+        "strongs": 4519,
+        "surface": "מְנַשֶּׁ֧ה",
+        "rendering": "منسى",
+        "found": true
+      },
+      {
+        "position": 18,
+        "strongs": 1121,
+        "surface": "בֶּן",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 19,
+        "strongs": 3130,
+        "surface": "יוֹסֵ֛ף",
+        "rendering": "يوسف",
+        "found": true
+      },
+      {
+        "position": 20,
+        "strongs": 2145,
+        "surface": "הַזְּכָרִ֖ים",
+        "rendering": "ذَكَر",
+        "found": true
+      },
+      {
+        "position": 21,
+        "strongs": 4940,
+        "surface": "לְמִשְׁפְּחֹתָֽם",
+        "rendering": "عائلة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_017_007",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "גְבוּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 4519,
+        "surface": "מְנַשֶּׁה֙",
+        "rendering": "منسى",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 836,
+        "surface": "מֵֽאָשֵׁ֔ר",
+        "rendering": "أَشِير",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 4366,
+        "surface": "הַֽמִּכְמְתָ֔ת",
+        "rendering": "مَكْمَتَة",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 6440,
+        "surface": "פְּנֵ֣י",
+        "rendering": "وجه",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 7927,
+        "surface": "שְׁכֶ֑ם",
+        "rendering": "شَكِيم",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 1366,
+        "surface": "הַגְּבוּל֙",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 3225,
+        "surface": "הַיָּמִ֔ין",
+        "rendering": "يَمِين",
+        "found": false
+      },
+      {
+        "position": 9,
+        "strongs": 5887,
+        "surface": "עֵ֥ין",
+        "rendering": "عَيْنِ تَفُّوحَ",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 5887,
+        "surface": "תַּפּֽוּחַ",
+        "rendering": "عَيْنِ تَفُّوحَ",
+        "found": true
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:يَمِين"
+    ]
+  },
+  {
+    "stem": "006_JOS_017_011",
+    "anchor_count": 18,
+    "blank_positions": [
+      18
+    ],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 4519,
+        "surface": "לִמְנַשֶּׁ֜ה",
+        "rendering": "منسى",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3485,
+        "surface": "בְּיִשָּׂשכָ֣ר",
+        "rendering": "يَسَّاكَر",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 836,
+        "surface": "וּבְאָשֵׁ֗ר",
+        "rendering": "أَشِير",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1052,
+        "surface": "בֵּית",
+        "rendering": "بيت شان",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1052,
+        "surface": "שְׁאָ֣ן",
+        "rendering": "بيت شان",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1323,
+        "surface": "וּ֠בְנוֹתֶיהָ",
+        "rendering": "بِنْت",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 2991,
+        "surface": "וְיִבְלְעָ֨ם",
+        "rendering": "يِبْلَعَام",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 1323,
+        "surface": "וּבְנוֹתֶ֜יהָ",
+        "rendering": "بِنْت",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 1756,
+        "surface": "דֹ֣אר",
+        "rendering": "دُور",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 1323,
+        "surface": "וּבְנוֹתֶ֗יהָ",
+        "rendering": "بِنْت",
+        "found": true
+      },
+      {
+        "position": 11,
+        "strongs": 5874,
+        "surface": "עֵֽין",
+        "rendering": "عين دور",
+        "found": true
+      },
+      {
+        "position": 12,
+        "strongs": 5874,
+        "surface": "דֹּר֙",
+        "rendering": "عين دور",
+        "found": true
+      },
+      {
+        "position": 13,
+        "strongs": 1323,
+        "surface": "וּבְנֹתֶ֔יהָ",
+        "rendering": "بِنْت",
+        "found": true
+      },
+      {
+        "position": 14,
+        "strongs": 8590,
+        "surface": "תַעְנַךְ֙",
+        "rendering": "تَعْنَكَ",
+        "found": true
+      },
+      {
+        "position": 15,
+        "strongs": 1323,
+        "surface": "וּבְנֹתֶ֔יהָ",
+        "rendering": "بِنْت",
+        "found": true
+      },
+      {
+        "position": 16,
+        "strongs": 4023,
+        "surface": "מְגִדּ֖וֹ",
+        "rendering": "مَجِدُّو",
+        "found": true
+      },
+      {
+        "position": 17,
+        "strongs": 1323,
+        "surface": "וּבְנוֹתֶ֑יהָ",
+        "rendering": "بِنْت",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_015",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 6285,
+        "surface": "וּפְאַת",
+        "rendering": "زَاوِيَة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 5045,
+        "surface": "נֶ֕גְבָּה",
+        "rendering": "جَنُوب",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 7097,
+        "surface": "מִקְצֵ֖ה",
+        "rendering": "طرف",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 7157,
+        "surface": "קִרְיַ֣ת",
+        "rendering": "قَرْيَةُ يَعَارِيمَ",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 7157,
+        "surface": "יְעָרִ֑ים",
+        "rendering": "قَرْيَةُ يَعَارِيمَ",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1366,
+        "surface": "הַגְּבוּל֙",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 3220,
+        "surface": "יָ֔מָּה",
+        "rendering": "بحر",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 4599,
+        "surface": "מַעְיַ֖ן",
+        "rendering": "ينبوع",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 4325,
+        "surface": "מֵ֥י",
+        "rendering": "ماء",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 5318,
+        "surface": "נֶפְתּֽוֹחַ",
+        "rendering": "نَفْتُوح",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_017",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 6828,
+        "surface": "מִצָּפ֗וֹן",
+        "rendering": "شِمَال",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 5885,
+        "surface": "עֵ֣ין",
+        "rendering": "عَيْن شَمْس",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 5885,
+        "surface": "שֶׁ֔מֶשׁ",
+        "rendering": "عَيْن شَمْس",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1553,
+        "surface": "גְּלִיל֔וֹת",
+        "rendering": "جَلِيلُوت",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 4608,
+        "surface": "מַעֲלֵ֣ה",
+        "rendering": "مَصْعَد",
+        "found": false
+      },
+      {
+        "position": 6,
+        "strongs": 131,
+        "surface": "אֲדֻמִּ֑ים",
+        "rendering": "أَدُمِّيم",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 68,
+        "surface": "אֶ֥בֶן",
+        "rendering": "حجر",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 932,
+        "surface": "בֹּ֖הַן",
+        "rendering": "بُوهَن",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 1121,
+        "surface": "בֶּן",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 7205,
+        "surface": "רְאוּבֵֽן",
+        "rendering": "رأوبين",
+        "found": true
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:مَصْعَد"
+    ]
+  },
+  {
+    "stem": "006_JOS_018_021",
+    "anchor_count": 10,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 5892,
+        "surface": "הֶֽעָרִ֗ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 4294,
+        "surface": "לְמַטֵּ֛ה",
+        "rendering": "عَصَا",
+        "found": false
+      },
+      {
+        "position": 3,
+        "strongs": 1121,
+        "surface": "בְּנֵ֥י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1144,
+        "surface": "בִנְיָמִ֖ן",
+        "rendering": "بنيامين",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 4940,
+        "surface": "לְמִשְׁפְּחֽוֹתֵיהֶ֑ם",
+        "rendering": "عائلة",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 3405,
+        "surface": "יְרִיח֥וֹ",
+        "rendering": "أَرِيحَا",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 1031,
+        "surface": "וּבֵית",
+        "rendering": "بَيْتُ حَجْلَة",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 1031,
+        "surface": "חָגְלָ֖ה",
+        "rendering": "بَيْتُ حَجْلَة",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 6010,
+        "surface": "וְעֵ֥מֶק",
+        "rendering": "وَادٍ",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 7104,
+        "surface": "קְצִֽיץ",
+        "rendering": "قَصِيص",
+        "found": true
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:عَصَا"
+    ]
+  },
+  {
+    "stem": "006_JOS_018_022",
+    "anchor_count": 5,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1026,
+        "surface": "וּבֵ֧ית",
+        "rendering": "بَيْتُ الْعَرَبَة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1026,
+        "surface": "הָֽעֲרָבָ֛ה",
+        "rendering": "بَيْتُ الْعَرَبَة",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 6787,
+        "surface": "וּצְמָרַ֖יִם",
+        "rendering": "صَمَارَايِم",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1008,
+        "surface": "וּבֵֽית",
+        "rendering": "بيت إيل",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1008,
+        "surface": "אֵֽל",
+        "rendering": "بيت إيل",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_023",
+    "anchor_count": 3,
+    "blank_positions": [
+      1
+    ],
+    "all_populated_anchor_checks": [
+      {
+        "position": 2,
+        "strongs": 6511,
+        "surface": "וְהַפָּרָ֖ה",
+        "rendering": "فَارَة",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 6084,
+        "surface": "וְעָפְרָֽה",
+        "rendering": "عَفْرَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_024",
+    "anchor_count": 7,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 3726,
+        "surface": "וּכְפַ֧ר",
+        "rendering": "كَفْرُ الْعَمُّونِيِّ",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3726,
+        "surface": "העמני",
+        "rendering": "كَفْرُ الْعَمُّونِيِّ",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 3726,
+        "surface": "הָֽעַמֹּנָ֛ה",
+        "rendering": "كَفْرُ الْعَمُّونِيِّ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 6078,
+        "surface": "וְהָֽעָפְנִ֖י",
+        "rendering": "عُفْنِي",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1387,
+        "surface": "וָגָ֑בַע",
+        "rendering": "جَبَع",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_018_026",
+    "anchor_count": 3,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 4708,
+        "surface": "וְהַמִּצְפֶּ֥ה",
+        "rendering": "مِصْفَاة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3716,
+        "surface": "וְהַכְּפִירָ֖ה",
+        "rendering": "الْكَفِيرَة",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 4681,
+        "surface": "וְהַמֹּצָֽה",
+        "rendering": "مُوصَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_027",
+    "anchor_count": 3,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 7552,
+        "surface": "וְרֶ֥קֶם",
+        "rendering": "رَاقِم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3416,
+        "surface": "וְיִרְפְּאֵ֖ל",
+        "rendering": "يَرَفْئِيل",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 8634,
+        "surface": "וְתַרְאֲלָֽה",
+        "rendering": "تَرَالَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_018_028",
+    "anchor_count": 12,
+    "blank_positions": [
+      5
+    ],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 6762,
+        "surface": "וְצֵלַ֡ע",
+        "rendering": "صَيْلَع",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 507,
+        "surface": "הָאֶ֜לֶף",
+        "rendering": "آلِف",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 2983,
+        "surface": "וְהַיְבוּסִ֨י",
+        "rendering": "يَبُوسِيّ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 3389,
+        "surface": "יְרֽוּשָׁלִַ֨ם֙",
+        "rendering": "أورشليم",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 7157,
+        "surface": "קִרְיַ֔ת",
+        "rendering": "قَرْيَةُ يَعَارِيمَ",
+        "found": false
+      },
+      {
+        "position": 7,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶ֑ן",
+        "rendering": "فِنَاء",
+        "found": false
+      },
+      {
+        "position": 9,
+        "strongs": 5159,
+        "surface": "נַֽחֲלַ֥ת",
+        "rendering": "مِيرَاث",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 1121,
+        "surface": "בְּנֵֽי",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 11,
+        "strongs": 1144,
+        "surface": "בִנְיָמִ֖ן",
+        "rendering": "بنيامين",
+        "found": true
+      },
+      {
+        "position": 12,
+        "strongs": 4940,
+        "surface": "לְמִשְׁפְּחֹתָֽם",
+        "rendering": "عائلة",
+        "found": true
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:قَرْيَةُ يَعَارِيمَ;فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_019_003",
+    "anchor_count": 4,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 2705,
+        "surface": "וַחֲצַ֥ר",
+        "rendering": "حَصَر شُوعَال",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 2705,
+        "surface": "שׁוּעָ֛ל",
+        "rendering": "حَصَر شُوعَال",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 1088,
+        "surface": "וּבָלָ֖ה",
+        "rendering": "بَالَة",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 6107,
+        "surface": "וָעָֽצֶם",
+        "rendering": "عَاصَمُ",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_004",
+    "anchor_count": 3,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 513,
+        "surface": "וְאֶלְתּוֹלַ֥ד",
+        "rendering": "أَلْتُولَد",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1329,
+        "surface": "וּבְת֖וּל",
+        "rendering": "بَتُول",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 2767,
+        "surface": "וְחָרְמָֽה",
+        "rendering": "حُرْمَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_005",
+    "anchor_count": 5,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 6860,
+        "surface": "וְצִֽקְלַ֥ג",
+        "rendering": "صِقْلَغُ",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1024,
+        "surface": "וּבֵית",
+        "rendering": "بَيْتُ الْمَرْكَبُوتِ",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 1024,
+        "surface": "הַמַּרְכָּב֖וֹת",
+        "rendering": "بَيْتُ الْمَرْكَبُوتِ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 2701,
+        "surface": "וַחֲצַ֥ר",
+        "rendering": "حَصَرُ سُوسَةَ",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 2701,
+        "surface": "סוּסָֽה",
+        "rendering": "حَصَرُ سُوسَةَ",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_006",
+    "anchor_count": 5,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1034,
+        "surface": "וּבֵ֥ית",
+        "rendering": "بَيْت لَبَاوُت",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1034,
+        "surface": "לְבָא֖וֹת",
+        "rendering": "بَيْت لَبَاوُت",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 8287,
+        "surface": "וְשָֽׁרוּחֶ֑ן",
+        "rendering": "شَارُوحَيْن",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_019_007",
+    "anchor_count": 6,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 5871,
+        "surface": "עַ֥יִן",
+        "rendering": "عَيْن",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 7417,
+        "surface": "רִמּ֖וֹן",
+        "rendering": "رِمُّون",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 6281,
+        "surface": "וָעֶ֣תֶר",
+        "rendering": "عَاتَر",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 6228,
+        "surface": "וְעָשָׁ֑ן",
+        "rendering": "عَاشَان",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_019_010",
+    "anchor_count": 7,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1486,
+        "surface": "הַגּוֹרָ֣ל",
+        "rendering": "قُرْعَة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 1121,
+        "surface": "לִבְנֵ֥י",
+        "rendering": "ابن",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 2074,
+        "surface": "זְבוּלֻ֖ן",
+        "rendering": "زَبُولُونَ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 4940,
+        "surface": "לְמִשְׁפְּחֹתָ֑ם",
+        "rendering": "عائلة",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1366,
+        "surface": "גְּב֥וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 5159,
+        "surface": "נַחֲלָתָ֖ם",
+        "rendering": "مِيرَاث",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 8301,
+        "surface": "שָׂרִֽיד",
+        "rendering": "سَارِيد",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_011",
+    "anchor_count": 7,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "גְבוּלָ֧ם",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3220,
+        "surface": "לַיָּ֛מָּה",
+        "rendering": "بحر",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 4831,
+        "surface": "וּמַרְעֲלָ֖ה",
+        "rendering": "مَرْعَلَة",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1708,
+        "surface": "בְּדַבָּ֑שֶׁת",
+        "rendering": "دَبَّاشَة",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 5158,
+        "surface": "הַנַּ֔חַל",
+        "rendering": "وَادٍ",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 6440,
+        "surface": "פְּנֵ֥י",
+        "rendering": "وجه",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 3362,
+        "surface": "יָקְנְעָֽם",
+        "rendering": "يَقْنَعَام",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_012",
+    "anchor_count": 9,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 8301,
+        "surface": "מִשָּׂרִ֗יד",
+        "rendering": "سَارِيد",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 6924,
+        "surface": "קֵ֚דְמָה",
+        "rendering": "شرق",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 4217,
+        "surface": "מִזְרַ֣ח",
+        "rendering": "مشرق",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 8121,
+        "surface": "הַשֶּׁ֔מֶשׁ",
+        "rendering": "شَمْس",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1366,
+        "surface": "גְּב֥וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 3696,
+        "surface": "כִּסְלֹ֖ת",
+        "rendering": "كِسْلُوتِ تَابُورَ",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 3696,
+        "surface": "תָּבֹ֑ר",
+        "rendering": "كِسْلُوتِ تَابُورَ",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 1705,
+        "surface": "הַדָּֽבְרַ֖ת",
+        "rendering": "دَبْرَة",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 3309,
+        "surface": "יָפִֽיעַ",
+        "rendering": "يَافِيعَ",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_013",
+    "anchor_count": 8,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 6924,
+        "surface": "קֵ֣דְמָה",
+        "rendering": "شرق",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 4217,
+        "surface": "מִזְרָ֔חָה",
+        "rendering": "مشرق",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 1662,
+        "surface": "גִּתָּ֥ה",
+        "rendering": "جَتَّ حَافَر",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 1662,
+        "surface": "חֵ֖פֶר",
+        "rendering": "جَتَّ حَافَر",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 6278,
+        "surface": "עִתָּ֣ה",
+        "rendering": "وعت قاصين",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 6278,
+        "surface": "קָצִ֑ין",
+        "rendering": "وعت قاصين",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 7417,
+        "surface": "רִמּ֥וֹן",
+        "rendering": "رِمُّون",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 5269,
+        "surface": "הַנֵּעָֽה",
+        "rendering": "نَيْعَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_014",
+    "anchor_count": 7,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "הַגְּב֔וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 6828,
+        "surface": "מִצְּפ֖וֹן",
+        "rendering": "شِمَال",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 2615,
+        "surface": "חַנָּתֹ֑ן",
+        "rendering": "حَنَّاتُون",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 8444,
+        "surface": "תֹּֽצְאֹתָ֔יו",
+        "rendering": "مَخَارِج",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1516,
+        "surface": "גֵּ֖י",
+        "rendering": "جواء",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 3317,
+        "surface": "יִפְתַּח",
+        "rendering": "يَفْتَحْئِيل",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 3317,
+        "surface": "אֵֽל",
+        "rendering": "يَفْتَحْئِيل",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_015",
+    "anchor_count": 8,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 7005,
+        "surface": "וְקַטָּ֤ת",
+        "rendering": "قَطَّة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 5096,
+        "surface": "וְנַֽהֲלָל֙",
+        "rendering": "نَهْلَال",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 8110,
+        "surface": "וְשִׁמְר֔וֹן",
+        "rendering": "شِمْرُون",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 3030,
+        "surface": "וְיִדְאֲלָ֖ה",
+        "rendering": "يَدَالَة",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1035,
+        "surface": "וּבֵ֣ית",
+        "rendering": "بَيْت لَحْم",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1035,
+        "surface": "לָ֑חֶם",
+        "rendering": "بَيْت لَحْم",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 8,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:فِنَاء"
+    ]
+  },
+  {
+    "stem": "006_JOS_019_018",
+    "anchor_count": 4,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "גְּבוּלָ֑ם",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 3157,
+        "surface": "יִזְרְעֶ֥אלָה",
+        "rendering": "يزرعيل",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 3694,
+        "surface": "וְהַכְּסוּלֹ֖ת",
+        "rendering": "كِسْلُوت",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 7766,
+        "surface": "וְשׁוּנֵֽם",
+        "rendering": "شُونَم",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_019",
+    "anchor_count": 3,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 2663,
+        "surface": "וַחֲפָרַ֥יִם",
+        "rendering": "حَفَارَايِم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 7866,
+        "surface": "וְשִׁיאֹ֖ן",
+        "rendering": "شِيئُون",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 588,
+        "surface": "וַאֲנָחֲרַֽת",
+        "rendering": "أَنَاحَرَة",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_020",
+    "anchor_count": 3,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 7245,
+        "surface": "וְהָֽרַבִּ֥ית",
+        "rendering": "ربية",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 7191,
+        "surface": "וְקִשְׁי֖וֹן",
+        "rendering": "قشيون",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 77,
+        "surface": "וָאָֽבֶץ",
+        "rendering": "آبَص",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_021",
+    "anchor_count": 7,
+    "blank_positions": [],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 7432,
+        "surface": "וְרֶ֧מֶת",
+        "rendering": "رِمَّة",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 5873,
+        "surface": "וְעֵין",
+        "rendering": "عَيْنُ جَنِّيمَ",
+        "found": true
+      },
+      {
+        "position": 3,
+        "strongs": 5873,
+        "surface": "גַּנִּ֛ים",
+        "rendering": "عَيْنُ جَنِّيمَ",
+        "found": true
+      },
+      {
+        "position": 4,
+        "strongs": 5876,
+        "surface": "וְעֵ֥ין",
+        "rendering": "عَيْنُ حَدَّةَ",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 5876,
+        "surface": "חַדָּ֖ה",
+        "rendering": "عَيْنُ حَدَّةَ",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1048,
+        "surface": "וּבֵ֥ית",
+        "rendering": "بَيْت فَصَّيْص",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 1048,
+        "surface": "פַּצֵּֽץ",
+        "rendering": "بَيْت فَصَّيْص",
+        "found": true
+      }
+    ],
+    "validator_failures": []
+  },
+  {
+    "stem": "006_JOS_019_022",
+    "anchor_count": 11,
+    "blank_positions": [
+      3,
+      4
+    ],
+    "all_populated_anchor_checks": [
+      {
+        "position": 1,
+        "strongs": 1366,
+        "surface": "הַגְּב֨וּל",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 2,
+        "strongs": 8396,
+        "surface": "בְּתָב֤וֹר",
+        "rendering": "تَابُور",
+        "found": true
+      },
+      {
+        "position": 5,
+        "strongs": 1053,
+        "surface": "וּבֵ֣ית",
+        "rendering": "بيت شمس",
+        "found": true
+      },
+      {
+        "position": 6,
+        "strongs": 1053,
+        "surface": "שֶׁ֔מֶשׁ",
+        "rendering": "بيت شمس",
+        "found": true
+      },
+      {
+        "position": 7,
+        "strongs": 8444,
+        "surface": "תֹּצְא֥וֹת",
+        "rendering": "مَخَارِج",
+        "found": false
+      },
+      {
+        "position": 8,
+        "strongs": 1366,
+        "surface": "גְּבוּלָ֖ם",
+        "rendering": "تُخُوم",
+        "found": true
+      },
+      {
+        "position": 9,
+        "strongs": 3383,
+        "surface": "הַיַּרְדֵּ֑ן",
+        "rendering": "أردن",
+        "found": true
+      },
+      {
+        "position": 10,
+        "strongs": 5892,
+        "surface": "עָרִ֥ים",
+        "rendering": "مدينة",
+        "found": true
+      },
+      {
+        "position": 11,
+        "strongs": 2691,
+        "surface": "וְחַצְרֵיהֶֽן",
+        "rendering": "فِنَاء",
+        "found": false
+      }
+    ],
+    "validator_failures": [
+      "missing_nouns:مَخَارِج;فِنَاء"
+    ]
+  }
+]

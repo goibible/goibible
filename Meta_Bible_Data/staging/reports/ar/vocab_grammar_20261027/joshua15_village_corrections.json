@@ -1,0 +1,285 @@
+{
+  "status": "PROPOSED_NOT_APPLIED",
+  "global_matcher_changed": false,
+  "records": [
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 32,
+      "source_sha256": "d8245109cc6618dba4ecd4018676639d189a57a79cb3d75f2e1a29616fe62884",
+      "target_sha256": "888f87a85139381bb3baaa6dd6284e8ebefcc62fd8be6bef177670bfa06a9011",
+      "source": "וּלְבָא֥וֹת וְשִׁלְחִ֖ים וְעַ֣יִן וְרִמּ֑וֹן כָּל עָרִ֛ים עֶשְׂרִ֥ים וָתֵ֖שַׁע וְחַצְרֵיהֶֽן",
+      "arabic": "وَلَبَاوُتَ وَشِلْحِيمَ وَعَيْنَ وَرِمُّونَ؛ وَكُلُّ الْمُدُنِ تِسْعٌ وَعِشْرُونَ وَقُرَاهَا.",
+      "position": 7,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهَا",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 564,
+          "position": 1,
+          "strongs_num": 3822,
+          "hebrew": "וּלְבָא֥וֹת",
+          "target_span": "لَبَاوُتَ",
+          "proposed_rendering": "لباوت",
+          "matcher_found": true
+        },
+        {
+          "queue_row": 565,
+          "position": 2,
+          "strongs_num": 7978,
+          "hebrew": "וְשִׁלְחִ֖ים",
+          "target_span": "شِلْحِيمَ",
+          "proposed_rendering": "شلحيم",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 0
+    },
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 36,
+      "source_sha256": "4c6865a529830921b2a4e86b1bc065134c9cf0c12822b54c4b0163daf3658972",
+      "target_sha256": "b5bc3c1941455245b65afbf897f0daaae26a2e9891b74b09c0f85dc49227e1bf",
+      "source": "וְשַׁעֲרַ֨יִם֙ וַעֲדִיתַ֔יִם וְהַגְּדֵרָ֖ה וּגְדֵרֹתָ֑יִם עָרִ֥ים אַרְבַּֽע עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן",
+      "arabic": "وَشَعَرَايِمَ وَعَدِيتَايِمَ وَالْجَدِيرَةَ وَجَدِيرُوتَايِمَ؛ أَرْبَعَ عَشْرَةَ مَدِينَةً وَقُرَاهَا.",
+      "position": 6,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهَا",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 566,
+          "position": 2,
+          "strongs_num": 5723,
+          "hebrew": "וַעֲדִיתַ֔יִם",
+          "target_span": "عَدِيتَايِمَ",
+          "proposed_rendering": "عديتايم",
+          "matcher_found": true
+        },
+        {
+          "queue_row": 567,
+          "position": 3,
+          "strongs_num": 1449,
+          "hebrew": "וְהַגְּדֵרָ֖ה",
+          "target_span": "الْجَدِيرَةَ",
+          "proposed_rendering": "الجديرة",
+          "matcher_found": true
+        },
+        {
+          "queue_row": 568,
+          "position": 4,
+          "strongs_num": 1453,
+          "hebrew": "וּגְדֵרֹתָ֑יִם",
+          "target_span": "جَدِيرُوتَايِمَ",
+          "proposed_rendering": "جديروتايم",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 0
+    },
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 51,
+      "source_sha256": "656ba732151eb0dd48aa9003df6e791e0173bffa6abb964b8157fe06785d800a",
+      "target_sha256": "4d722f17e31cc4f239560141f5de9513431ff7d95d2a69027ed04cea08c323a3",
+      "source": "וְגֹ֥שֶׁן וְחֹלֹ֖ן וְגִלֹ֑ה עָרִ֥ים אַֽחַת עֶשְׂרֵ֖ה וְחַצְרֵיהֶֽן",
+      "arabic": "وَجَاسَانَ وَحُولُونَ وَجِيلُوهَ، مُدُنٌ إِحْدَى عَشْرَةَ مَعَ قُرَاهُنَّ.",
+      "position": 5,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهُنَّ",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 583,
+          "position": 3,
+          "strongs_num": 1542,
+          "hebrew": "וְגִלֹ֑ה",
+          "target_span": "جِيلُوهَ",
+          "proposed_rendering": "جيلوه",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 0
+    },
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 54,
+      "source_sha256": "7aee3d897aa06bddc0e9460d17d419a19561a995ae56738c1a60f3ee3fd8c78f",
+      "target_sha256": "11574e6a29ee3d1518cf56746a4bedbe78643b08875a17da3f4f693fdc488f97",
+      "source": "וְחֻמְטָ֗ה וְקִרְיַ֥ת אַרְבַּ֛ע הִ֥יא חֶבְר֖וֹן וְצִיעֹ֑ר עָרִ֥ים תֵּ֖שַׁע וְחַצְרֵיהֶֽן",
+      "arabic": "وَحُمْطَةُ وَقَرْيَةُ أَرْبَعَ هِيَ حَبْرُونُ وَصِيعُورُ، مُدُنٌ تِسْعٌ وَقُرَاهُنَّ.",
+      "position": 6,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهُنَّ",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 589,
+          "position": 1,
+          "strongs_num": 2547,
+          "hebrew": "וְחֻמְטָ֗ה",
+          "target_span": "حُمْطَةُ",
+          "proposed_rendering": "حمطة",
+          "matcher_found": true
+        },
+        {
+          "queue_row": 590,
+          "position": 4,
+          "strongs_num": 6730,
+          "hebrew": "וְצִיעֹ֑ר",
+          "target_span": "صِيعُورُ",
+          "proposed_rendering": "صيعور",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 0
+    },
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 59,
+      "source_sha256": "60e81083a95a28c318eae5771fdbf0647020dca51695e3245dad8d79a09eb525",
+      "target_sha256": "c51e0c91042e682073ff2fd619f72881ace1e876a06ca8e33cf5c3911507fd41",
+      "source": "וּמַעֲרָ֥ת וּבֵית עֲנ֖וֹת וְאֶלְתְּקֹ֑ן עָרִ֥ים שֵׁ֖שׁ וְחַצְרֵיהֶֽן",
+      "arabic": "وَمَعَارَةُ وَبَيْتُ عَنُوتَ وَأَلْتَقُونُ، مُدُنٌ سِتٌّ وَقُرَاهُنَّ.",
+      "position": 6,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهُنَّ",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 594,
+          "position": 1,
+          "strongs_num": 4638,
+          "hebrew": "וּמַעֲרָ֥ת",
+          "target_span": "مَعَارَةُ",
+          "proposed_rendering": "معارة",
+          "matcher_found": true
+        },
+        {
+          "queue_row": 595,
+          "position": 4,
+          "strongs_num": 515,
+          "hebrew": "וְאֶלְתְּקֹ֑ן",
+          "target_span": "أَلْتَقُونُ",
+          "proposed_rendering": "ألتقون",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 0
+    },
+    {
+      "book": "JOS",
+      "chapter": 15,
+      "verse": 62,
+      "source_sha256": "9ddbb16200dd561af3b6f51e57f8c322b0e381e5a0d539b92d8fb09b21a8ccbc",
+      "target_sha256": "9691d0d57f5ad7a61591c92b0574e758197a10cb10ee1e1f7229e852eeb22d5b",
+      "source": "וְהַנִּבְשָׁ֥ן וְעִיר הַמֶּ֖לַח וְעֵ֣ין גֶּ֑דִי עָרִ֥ים שֵׁ֖שׁ וְחַצְרֵיהֶֽן",
+      "arabic": "وَنِبْشَانَ وَمَدِينَةَ الْمِلْحِ وَعَيْنَ جَدْيٍ، مُدُنٌ سِتٌّ وَقُرَاهُنَّ.",
+      "position": 7,
+      "strongs_num": 2691,
+      "hebrew": "וְחַצְרֵיהֶֽן",
+      "old_rendering": "فِنَاء",
+      "proposed_occurrence_rendering": "قُرَاهُنَّ",
+      "arabic_citation": "قَرْيَة",
+      "grammar": {
+        "pos": "noun",
+        "gender": "feminine",
+        "number": "broken plural with third-person feminine plural possessive suffix",
+        "plural": "قُرًى"
+      },
+      "reason": "WLC חצרים in a town-list context means dependent settlements/villages; Arabic قراها/قراهن explicitly denotes their villages. Existing فناء denotes a courtyard and is absent. The exact occurrence form avoids a global matcher change.",
+      "before_failures": [
+        "missing_nouns:فِنَاء"
+      ],
+      "after_village_only_failures": [],
+      "additional_names": [
+        {
+          "queue_row": 598,
+          "position": 1,
+          "strongs_num": 5044,
+          "hebrew": "וְהַנִּבְשָׁ֥ן",
+          "target_span": "نِبْشَانَ",
+          "proposed_rendering": "نبشان",
+          "matcher_found": true
+        }
+      ],
+      "after_village_and_names_failures": [],
+      "unpopulated_anchor_count": 2
+    }
+  ]
+}

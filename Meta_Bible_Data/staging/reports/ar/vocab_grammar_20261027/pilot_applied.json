@@ -1,0 +1,49 @@
+{
+  "status": "APPLIED",
+  "reviewed": [
+    {
+      "book": "GEN",
+      "chapter": 31,
+      "verse": 41,
+      "word_position": 8,
+      "strongs_num": 4489,
+      "rendering": "مرة",
+      "source_surface": "מֹנִֽים",
+      "target_span": "مَرَّاتٍ",
+      "target_start": 150,
+      "source_sha256": "69fdfa5ce52e93c890c414ff619fd9f4b05f7e3ceb727e496fadd61065ba14ad",
+      "target_sha256": "27940b70e414c3e1ac96643aa657873b723086d98caf7f877a421a64e16fe4b2",
+      "reason": "Ten occasions: Hebrew מנים corresponds to Arabic مرات."
+    },
+    {
+      "book": "GEN",
+      "chapter": 32,
+      "verse": 16,
+      "word_position": 8,
+      "strongs_num": 7305,
+      "rendering": "فسحة",
+      "source_surface": "וְרֶ֣וַח",
+      "target_span": "فُسْحَةً",
+      "target_start": 108,
+      "source_sha256": "25dc7a5dab5c431bca5d79e59d94035f3942826b39d0e27fa285a0aaa877f721",
+      "target_sha256": "19c8b4c757217c3ba38a5a2392dae7125bd46c37865f7c4d38e8ef5973740203",
+      "reason": "Hebrew רווח is the space placed between the herds."
+    },
+    {
+      "book": "GEN",
+      "chapter": 35,
+      "verse": 5,
+      "word_position": 1,
+      "strongs_num": 2847,
+      "rendering": "خوف",
+      "source_surface": "חִתַּ֣ת",
+      "target_span": "خوف",
+      "target_start": 15,
+      "source_sha256": "bb318ffb3f56f168fe63ef8c5a513190e2afb40a482e6e35e1606979f4380894",
+      "target_sha256": "264f40feb7de16a1c27fefbbecdc3c277e4f7a0f390e89f2d05acaba8143fa6c",
+      "reason": "Hebrew חתת אלהים is fear/terror of God, Arabic خوف الله."
+    }
+  ],
+  "before_sha256": "ab8b3845ce0de9caa1a62bb1d3d8f79336f2ebde680fcbdccbed788f2f51155b",
+  "after_sha256": "b67bd5d6f92ea54ff7bfcd4eae6032dc4e3d7826b90a01442ebb995ca5b5b751"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "APPLIED",
+  "coordinate": "1CH 4:12",
+  "source_sha256": "0347e99125debcb2ed5a339628ea16a1a000e11436ff57da3dfcddaeec512ecf",
+  "corrected_target_sha256": "10f5cf453cd85792c517ea73ece3572a61a5882925390c6c67562f0532bfc7bf",
+  "target_span": "عِيرِ نَاحَاشَ",
+  "target_start": 59,
+  "target_end": 73,
+  "citation": "عِير نَاحَاش",
+  "grammar": {
+    "part_of_speech": "PN",
+    "gender": "U",
+    "citation_number": "S",
+    "plural_form": ""
+  },
+  "source_occurrences": [
+    {
+      "position": 7,
+      "strongs": "H5904",
+      "lemma": "5904+",
+      "source_surface": "עִ֣יר"
+    },
+    {
+      "position": 8,
+      "strongs": "H5904",
+      "lemma": "5904",
+      "source_surface": "נָחָ֑שׁ"
+    }
+  ],
+  "remaining_blank_positions": [
+    5
+  ],
+  "populated_anchor_validation": "passed; lexical matcher only",
+  "matcher_probes": 4,
+  "grammar_inserted": true,
+  "override_before_sha256": "806d5269d87d19920582f41127422000b6d72eb67fadd2bd0038d9ad509e1943",
+  "override_after_sha256": "31e20bd1c78b569850e5652bed498a4eec412dc7140f122a4fc7b5762f14e30f",
+  "limitations": [
+    "The two anchor mappings intentionally share one compound target span.",
+    "Position 5 remains blank and is not certified.",
+    "Matcher does not establish semantic adequacy or occurrence multiplicity."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "coordinate": "1CH 4:12",
+  "source": "עִיר נָחָשׁ",
+  "before": "وَأَشْتُون وَلَدَ بَيْتَ رَافَا وَفَاسِحَ وَتَحِنَّةَ أَبَ نَاحَاشَ، هَؤُلَاءِ رِجَالُ رَيْكَةَ.\n",
+  "after": "وَأَشْتُون وَلَدَ بَيْتَ رَافَا وَفَاسِحَ وَتَحِنَّةَ أَبَ عِيرِ نَاحَاشَ، هَؤُلَاءِ رِجَالُ رَيْكَةَ.\n",
+  "reason": "Restore the first component of the WLC compound name Ir-nahash.",
+  "before_sha256": "fac9369fba8086a2088914d5df386747cc3c7e898a188d491463bd39589aadb8",
+  "after_sha256": "10f5cf453cd85792c517ea73ece3572a61a5882925390c6c67562f0532bfc7bf",
+  "populated_anchor_validation": "PASS"
+}

@@ -1,0 +1,404 @@
+{
+  "status": "DRY_RUN",
+  "rows": [
+    {
+      "row": 801,
+      "book": "JDG",
+      "chapter": 18,
+      "verse": 12,
+      "word_position": 5,
+      "strongs_num": 4265,
+      "source_surface": "מַחֲנֵה",
+      "rendering": "محلة دان",
+      "sense_key": "H4265.AR_CONTEXT_JDG_18_12",
+      "reason": "Two Hebrew elements form one location name; entire Arabic compound is shared by both anchors, not two target occurrences.",
+      "target_span": "مَحَلَّةَ دَانٍ",
+      "target_start": 95,
+      "target_end": 110,
+      "source_sha256": "40c148026ec5b6584ccdf262d54065c348d2face6804187dcc964e89a55541a6",
+      "target_sha256": "4eeca0ab0d41766d871b1fe11b4ed453c3522fb681da48f2e57a2ba50d938c5b",
+      "existing_grammar": null
+    },
+    {
+      "row": 802,
+      "book": "JDG",
+      "chapter": 18,
+      "verse": 12,
+      "word_position": 6,
+      "strongs_num": 4265,
+      "source_surface": "דָ֗ן",
+      "rendering": "محلة دان",
+      "sense_key": "H4265.AR_CONTEXT_JDG_18_12",
+      "reason": "Two Hebrew elements form one location name; entire Arabic compound is shared by both anchors, not two target occurrences.",
+      "target_span": "مَحَلَّةَ دَانٍ",
+      "target_start": 95,
+      "target_end": 110,
+      "source_sha256": "40c148026ec5b6584ccdf262d54065c348d2face6804187dcc964e89a55541a6",
+      "target_sha256": "4eeca0ab0d41766d871b1fe11b4ed453c3522fb681da48f2e57a2ba50d938c5b",
+      "existing_grammar": null
+    },
+    {
+      "row": 806,
+      "book": "RUT",
+      "chapter": 1,
+      "verse": 4,
+      "word_position": 4,
+      "strongs_num": 6204,
+      "source_surface": "עָרְפָּ֔ה",
+      "rendering": "عرفة",
+      "sense_key": "H6204.AR_CONTEXT_RUT_1_4",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "عُرْفَةُ",
+      "target_start": 58,
+      "target_end": 66,
+      "source_sha256": "395ad9f7c2784943381a2de87a5fb3bf0ca76a45c03a98a593984be9edd9e290",
+      "target_sha256": "ec4bbd73fc797bbf0c50cc938418065a19175173c9fc97b9cf2c309588f678e4",
+      "existing_grammar": null
+    },
+    {
+      "row": 807,
+      "book": "RUT",
+      "chapter": 1,
+      "verse": 14,
+      "word_position": 2,
+      "strongs_num": 6204,
+      "source_surface": "עָרְפָּה֙",
+      "rendering": "عرفة",
+      "sense_key": "H6204.AR_CONTEXT_RUT_1_14",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "عُرْفَةُ",
+      "target_start": 58,
+      "target_end": 66,
+      "source_sha256": "86a4d57a90872de7d29852d6fff3f7754f4662028ba9e73a6672b2f94148d1f7",
+      "target_sha256": "f4cb81b38c9417d651d1ec68fb338530e02e9b9c9afcc4481974cf6f83a2e52b",
+      "existing_grammar": null
+    },
+    {
+      "row": 813,
+      "book": "RUT",
+      "chapter": 4,
+      "verse": 20,
+      "word_position": 4,
+      "strongs_num": 8009,
+      "source_surface": "שַׂלְמָֽה",
+      "rendering": "سلمون",
+      "sense_key": "H8009.AR_CONTEXT_RUT_4_20",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "سَلْمُونَ",
+      "target_start": 54,
+      "target_end": 63,
+      "source_sha256": "a0cbee469a705e7facc6b0a212279bf4c8b160d3f5f5b96df448d8b075806030",
+      "target_sha256": "a3014f3311210695e43b2fde18fde6d4d4e04ed08ad25b8b83eec5902d952c24",
+      "existing_grammar": null
+    },
+    {
+      "row": 814,
+      "book": "RUT",
+      "chapter": 4,
+      "verse": 21,
+      "word_position": 1,
+      "strongs_num": 8012,
+      "source_surface": "וְשַׂלְמוֹן֙",
+      "rendering": "سلمون",
+      "sense_key": "H8012.AR_CONTEXT_RUT_4_21",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "سَلْمُون",
+      "target_start": 2,
+      "target_end": 10,
+      "source_sha256": "4aa012711e1bc9be84c2efa1a0be97d19ceb48f467440e3356a7ec72611f1659",
+      "target_sha256": "0b7197ca098621d2d99f931088478abc09ab8e2c590a48b091f65f7bcfb9c2b5",
+      "existing_grammar": null
+    },
+    {
+      "row": 825,
+      "book": "1SA",
+      "chapter": 7,
+      "verse": 12,
+      "word_position": 4,
+      "strongs_num": 8129,
+      "source_surface": "הַשֵּׁ֔ן",
+      "rendering": "السن",
+      "sense_key": "H8129.AR_CONTEXT_1SA_7_12",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "السِّنِّ",
+      "target_start": 77,
+      "target_end": 85,
+      "source_sha256": "0f5b744d1bb998177af10ea9481454b79e076fa188a7c224724b6ca37fc71654",
+      "target_sha256": "32ee50450db6047551bc47ed7aca02c11873ce4430c94de6326d1c4551b82164",
+      "existing_grammar": null
+    },
+    {
+      "row": 834,
+      "book": "1SA",
+      "chapter": 10,
+      "verse": 2,
+      "word_position": 7,
+      "strongs_num": 6766,
+      "source_surface": "בְּצֶלְצַ֑ח",
+      "rendering": "صلصح",
+      "sense_key": "H6766.AR_CONTEXT_1SA_10_2",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "صَلْصَحَ",
+      "target_start": 111,
+      "target_end": 119,
+      "source_sha256": "70b8c54462d0754ba4d1c69f461562a676a2690b37daf8c1092b991be7db6d8a",
+      "target_sha256": "86f05d24e0d335230c4e599873363c6867a61bc1b0bf267628fed4c290997e0f",
+      "existing_grammar": null
+    },
+    {
+      "row": 842,
+      "book": "1SA",
+      "chapter": 14,
+      "verse": 2,
+      "word_position": 5,
+      "strongs_num": 4051,
+      "source_surface": "בְּמִגְר֑וֹן",
+      "rendering": "مغرون",
+      "sense_key": "H4051.AR_CONTEXT_1SA_14_2",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "مِغْرُونٍ",
+      "target_start": 69,
+      "target_end": 78,
+      "source_sha256": "9c0839054227c0cce46b77916750c0e1637a5c06464f34afea07af7b059ad72e",
+      "target_sha256": "7640469bac9efafb13b1e729b60963e6b196cf272ae9df6be3740f5986e6258c",
+      "existing_grammar": null
+    },
+    {
+      "row": 850,
+      "book": "1SA",
+      "chapter": 15,
+      "verse": 4,
+      "word_position": 3,
+      "strongs_num": 2923,
+      "source_surface": "בַּטְּלָאִ֔ים",
+      "rendering": "طلايم",
+      "sense_key": "H2923.AR_CONTEXT_1SA_15_4",
+      "reason": "Hebrew and Arabic express the same named entity or nominal role in the same source clause.",
+      "target_span": "طَلَايِمَ",
+      "target_start": 42,
+      "target_end": 51,
+      "source_sha256": "674b5749e92891a6fae36c7c9e4df23f377dbb76c81c378810c79a8e2cc1cc16",
+      "target_sha256": "c567badcf5becf0f3f8da6ad02eaf49e8a5269fcf34c228a5b453bd96a6e043b",
+      "existing_grammar": null
+    }
+  ],
+  "held": [
+    {
+      "row": 803,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 804,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 805,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مشرق;شَمْس;سِكَّة"
+      ]
+    },
+    {
+      "row": 808,
+      "reason": "existing citation grammar conflicts"
+    },
+    {
+      "row": 809,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 810,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 811,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 812,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 815,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:أَفْرَايِمِيّ"
+      ]
+    },
+    {
+      "row": 816,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:أَفْرَايِمِيّ"
+      ]
+    },
+    {
+      "row": 817,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:أَفْرَايِمِيّ"
+      ]
+    },
+    {
+      "row": 818,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 819,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 820,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 821,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 822,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 823,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 824,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 826,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 827,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 828,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:قُوَّة"
+      ]
+    },
+    {
+      "row": 829,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:قُوَّة"
+      ]
+    },
+    {
+      "row": 830,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:بَنْيَامِينِيّ"
+      ]
+    },
+    {
+      "row": 831,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:بَنْيَامِينِيّ"
+      ]
+    },
+    {
+      "row": 832,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 833,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 835,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:قَضِيب"
+      ]
+    },
+    {
+      "row": 836,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:مُهْلِك;جَيْش"
+      ]
+    },
+    {
+      "row": 837,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:تُخُوم;جواء"
+      ]
+    },
+    {
+      "row": 838,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 839,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 840,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 841,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 843,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:يُونَاثَان;فِلِسْطِينِيّ"
+      ]
+    },
+    {
+      "row": 844,
+      "reason": "full populated-anchor validation failed",
+      "failures": [
+        "missing_nouns:يُونَاثَان;فِلِسْطِينِيّ"
+      ]
+    },
+    {
+      "row": 845,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 846,
+      "reason": "independent review uncertain"
+    },
+    {
+      "row": 847,
+      "reason": "proper name grammar not established"
+    },
+    {
+      "row": 848,
+      "reason": "exact offset or citation matcher failed"
+    },
+    {
+      "row": 849,
+      "reason": "independent review uncertain"
+    }
+  ],
+  "pinned_hashes": {
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_torah_occurrence_overrides.tsv": "477834e6260c5ad4b28d22b8fcb88db0a2eaa3264f07297b9efe9d033bd07ea8",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/grammar_tables.sqlite3": "2f640a5a054f2caa7cef069746d5a273f82f99bdf341030e0f95cc95e4e9881f",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/source_anchor_occurrences/ar_ot_source_noun_occurrences.csv": "c7b761e3dd681d8ded0b5651a074babd4ce996aa06be595af8076afba060d144",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/independent_audit_b_801_850_c.jsonl": "6b88d294360be9330bf1b5e64856a0e0427e3580465d8c21b0600c94ea5ebaa6",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/blank_occurrence_queue.jsonl": "9320d8f36b8a395f712f0afbb325bc755ce7d5ad6fc9454bab57e5dcd82315d7",
+    "/home/albert/projects/bible/Meta_Bible_Data/staging/reports/ar/vocab_grammar_20261027/prepare_apply_801_850_c.py": "73637252e8246a243ede9867cc6bb625453897ec64b69b1b8c7f70db9e28809b",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_1_reviewed_defaults.tsv": "f388a873ab41a1b78ee155e09d539456692e0733f824d6ed5e18a6fd1d7859a4",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_2_reviewed_defaults.tsv": "66dac117a18884e1c8735f1d48488c20ad5d0945e0c3e7aa9da7c038a440ecaa",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_3_reviewed_defaults.tsv": "0ce73fdb5830bb9734c3705910d7671f86697e3506d2268f680b3a6888c8a1bf",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_4_reviewed_defaults.tsv": "0b4320e3445306395a2178f7eda3b30fc8bc64ea4dac835ed00be0a18f9146fc",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_5_reviewed_defaults.tsv": "39b69019095176219d6355aa93ec6d9630dc9f276048235d7e0e0ab6cca6a0f9",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_6_reviewed_defaults.tsv": "dad03cfc8e5ff69e77202da411c3cdf1c279e948e136c0b6902f1f43af528739",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_7_reviewed_defaults.tsv": "774e668cec22a6a81ed126e655b6b9e6ec762f7122cee48ff5bd32984bf36b51",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_genesis_8_reviewed_defaults.tsv": "38c54b383a212ab5899599b12e6cd7d3ba58d4307a359e0cd24539eb294b5a11",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_machine_reviewed_defaults.tsv": "e4f901b5e4abddcf81e2786efd9e718fac9f3afef7ba36496eb6c39b29f79c67",
+    "/home/albert/projects/bible/Meta_Bible_Data/Bible_Noun_Extraction/ar/reports/ar_ot_reviewed_defaults.tsv": "f8d05f34a86b037a992493682a5d0585fadfbf6c39128da456e85835cf76dfc0"
+  }
+}
