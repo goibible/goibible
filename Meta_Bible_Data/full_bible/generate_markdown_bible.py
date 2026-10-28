@@ -5,8 +5,8 @@ The exporter uses `GOI_bible.sqlite3` for canonical ordering and edition
 metadata, then reads verse text from the existing flatfile corpora:
 
   - GOI_En -> GOI_Bible_en/
-  - GOI_Zh_Hant -> GOI_Bible_zh-Hant/
-  - GOI_Zh_Hans -> GOI_Bible_zh-Hans/
+  - GOI_zh-Hant -> GOI_Bible_zh-Hant/
+  - GOI_zh-Hans -> GOI_Bible_zh-Hans/
 
 Markdown format:
 
@@ -37,14 +37,14 @@ OUTPUT_DIR = META / "full_bible"
 
 SUPPORTED_EDITIONS = {
     "goi_en": "GOI_En",
-    "goi_zh_hant": "GOI_Zh_Hant",
-    "goi_zh_hans": "GOI_Zh_Hans",
+    "goi_zh_hant": "GOI_zh-Hant",
+    "goi_zh_hans": "GOI_zh-Hans",
 }
 
 SOURCE_DIRS = {
     "GOI_En": ROOT / "GOI_Bible" / "GOI_Bible_en",
-    "GOI_Zh_Hant": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant",
-    "GOI_Zh_Hans": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans",
+    "GOI_zh-Hant": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant",
+    "GOI_zh-Hans": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans",
 }
 
 # Standard book names by OSIS code, for editions whose book titles must not
@@ -90,8 +90,8 @@ BOOK_NAMES_ZH_HANS = {
 }
 
 BOOK_NAME_OVERRIDES_BY_EDITION = {
-    "GOI_Zh_Hant": BOOK_NAMES_ZH_HANT,
-    "GOI_Zh_Hans": BOOK_NAMES_ZH_HANS,
+    "GOI_zh-Hant": BOOK_NAMES_ZH_HANT,
+    "GOI_zh-Hans": BOOK_NAMES_ZH_HANS,
 }
 
 

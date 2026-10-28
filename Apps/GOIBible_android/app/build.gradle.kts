@@ -5,7 +5,7 @@ plugins {
 
 val syncBundledBibleDbs by tasks.registering(Copy::class) {
     from(rootProject.layout.projectDirectory.dir("../../Meta_Bible_Data/goi_db_download")) {
-        include("GOI_En.db", "GOI_Zh_Hant.db", "GOI_Zh_Hans.db", "GOI_vi.db")
+        include("GOI_En.db", "GOI_zh-Hant.db", "GOI_zh-Hans.db", "GOI_vi.db")
     }
     into(layout.projectDirectory.dir("src/main/assets"))
 }

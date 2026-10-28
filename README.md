@@ -50,7 +50,7 @@ This repo is meant to be useful in three ways:
 ## Top-level layout
 | Path | What |
 | --- | --- |
-| `GOI_Bible/GOI_Bible_<lang>/` (en, es, fr, pt, ru, ja, ko, vi, Chinese_Hans, Chinese_Hant) | finished full-Bible editions (31,102 verse files each) |
+| `GOI_Bible/GOI_Bible_<lang>/` (en, es, fr, pt, ru, ja, ko, vi, zh-Hans, zh-Hant) | finished full-Bible editions (31,102 verse files each) |
 | `epub/` | Kindle-ready EPUB per finished edition (`tools/build_epub.py`) |
 | `full_bible/` | consolidated single-markdown-file exports of each GOI edition + the generator script |
 | `README_GOI.md` | provenance, verification, and copyright notes for the GOI editions |
@@ -68,7 +68,7 @@ Git tracks the diffable SQL source, not generated release databases.
 - `sqlite/goi_bible_shell.db` is a small import-ready SQLite database with the
   schema and reference tables already loaded, but zero verse rows.
 - `sqlite/versions/<edition>.sql` files are plain-text imports for each edition:
-  `GOI_En`, `GOI_Zh_Hans`, `GOI_Zh_Hant`, `KJV`, `WEBUS`, `TR1550`, and `WLC`.
+  `GOI_En`, `GOI_zh-Hans`, `GOI_zh-Hant`, `KJV`, `WEBUS`, `TR1550`, and `WLC`.
 - Generated `.db`, `.sqlite3`, and app binaries belong in GitHub Releases or a
   download bucket, not normal Git history.
 

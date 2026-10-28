@@ -14,7 +14,7 @@
       "status": "active",
       "file": "GOI_En.db",
       "size_bytes": 9039872,
-      "sha256": "771ae2481354ebc719a04a1f03fb34b7cd6c4206abce612e98d9a3f92b4a5706",
+      "sha256": "88b92238d8c5bed343fd664a67150fe7184a6851d236906cb54359e8faa09cf6",
       "verse_count": 31102
     },
     {
@@ -95,25 +95,25 @@
       "verse_count": 31102
     },
     {
-      "edition_id": "GOI_Zh_Hans",
+      "edition_id": "GOI_zh-Hans",
       "display_name": "GOI Bible Simplified Chinese",
       "bcp47_tag": "zh-Hans",
       "language_subtag": "zh",
       "status": "active",
-      "file": "GOI_Zh_Hans.db",
+      "file": "GOI_zh-Hans.db",
       "size_bytes": 9355264,
-      "sha256": "c176175ce493e5f336c49664b51aa62604d5a2b1e701ceaddfe3a33ba92e7591",
+      "sha256": "52d4292dc80ac8cd46205cd27caafcfcf83901483fdb9259674eab8f109e374b",
       "verse_count": 31102
     },
     {
-      "edition_id": "GOI_Zh_Hant",
+      "edition_id": "GOI_zh-Hant",
       "display_name": "GOI Bible Traditional Chinese",
       "bcp47_tag": "zh-Hant",
       "language_subtag": "zh",
       "status": "active",
-      "file": "GOI_Zh_Hant.db",
+      "file": "GOI_zh-Hant.db",
       "size_bytes": 9355264,
-      "sha256": "e020b61b6e18a7b7ae4a2a73bcb2667f998b55d78db3d3662346d0717b200506",
+      "sha256": "c851716316f878e0ad7ed92481f0bd5a69ad5bb0ee6a493fa0288cca80a77ec5",
       "verse_count": 31102
     },
     {

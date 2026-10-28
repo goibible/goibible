@@ -8,7 +8,7 @@
   "GOI_Fr": {"allowed": ["latin", "common", "inherited"]},
   "GOI_It": {"allowed": ["latin", "common", "inherited"]},
   "GOI_Ru": {"allowed": ["cyrillic", "common", "inherited"], "forbidden_chars": "іїєґІЇЄҐўЎ"},
-  "GOI_Zh_Hans": {"allowed": ["han", "latin", "common", "inherited"]},
-  "GOI_Zh_Hant": {"allowed": ["han", "latin", "common", "inherited"]},
+  "GOI_zh-Hans": {"allowed": ["han", "latin", "common", "inherited"]},
+  "GOI_zh-Hant": {"allowed": ["han", "latin", "common", "inherited"]},
   "GOI_vi": {"allowed": ["latin", "common", "inherited"]}
 }

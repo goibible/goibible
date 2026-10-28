@@ -6,6 +6,9 @@ from pathlib import Path
 
 from .repo import BibleRepo, Edition
 
+# Edition IDs renamed to BCP 47 tags (2026-10-28); saved state may still hold the old ones.
+LEGACY_EDITION_IDS = {"GOI_Zh_Hans": "GOI_zh-Hans", "GOI_Zh_Hant": "GOI_zh-Hant"}
+
 
 @dataclass
 class PaneState:
@@ -46,8 +49,9 @@ class AppState:
             return {}
 
     def _pane_from_dict(self, data: dict, default_edition: str) -> PaneState:
+        edition_id = str(data.get("edition_id", default_edition))
         return PaneState(
-            edition_id=str(data.get("edition_id", default_edition)),
+            edition_id=LEGACY_EDITION_IDS.get(edition_id, edition_id),
             conical=int(data.get("conical", 1)),
             chapter=int(data.get("chapter", 1)),
         )

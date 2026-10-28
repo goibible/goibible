@@ -31,8 +31,8 @@ BOOK = {1:('MAT','040'),2:('MRK','041'),3:('LUK','042'),4:('JHN','043'),5:('ACT'
 COVERAGE_THRESHOLD = 95.0  # percent
 
 VARIANTS = {
-    "hant": ("Traditional Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant", "GOI_Zh_Hant"),
-    "hans": ("Simplified Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans", "GOI_Zh_Hans"),
+    "hant": ("Traditional Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant", "GOI_zh-Hant"),
+    "hans": ("Simplified Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans", "GOI_zh-Hans"),
 }
 
 results = []
@@ -59,7 +59,7 @@ def validate_hans_mirror():
     extra = set(p.name for p in hans_dir.glob("*.txt"))
 
     for hant_path in sorted(hant_dir.glob("*.txt")):
-        hans_name = hant_path.name.replace("_GOI_Zh_Hant.txt", "_GOI_Zh_Hans.txt")
+        hans_name = hant_path.name.replace("_GOI_zh-Hant.txt", "_GOI_zh-Hans.txt")
         extra.discard(hans_name)
         hans_path = hans_dir / hans_name
         if not hans_path.exists():

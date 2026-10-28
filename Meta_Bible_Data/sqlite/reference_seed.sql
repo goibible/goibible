@@ -3,8 +3,8 @@ INSERT INTO editions VALUES('WEBUS','en-US','en','active','World English Bible (
 INSERT INTO editions VALUES('TR1550','grc','grc','active','Textus Receptus 1550','Partial corpus in current source');
 INSERT INTO editions VALUES('WLC','hbo','hbo','active','Westminster Leningrad Codex','WLC OT corpus imported from Hebrew_Bible_WLC/One_Directory_WLC_KJV; filename_key uses _WLC suffix.');
 INSERT INTO editions VALUES('GOI_En','en','en','active','GOI Bible English','GOI English corpus imported from GOI_Bible_en; filename_key uses _GOI_En suffix.');
-INSERT INTO editions VALUES('GOI_Zh_Hant','zh-Hant','zh','active','GOI Bible Traditional Chinese','GOI Traditional Chinese corpus imported from GOI_Bible_zh-Hant; filename_key uses _GOI_Zh_Hant suffix.');
-INSERT INTO editions VALUES('GOI_Zh_Hans','zh-Hans','zh','active','GOI Bible Simplified Chinese','GOI Simplified Chinese corpus converted from GOI_Bible_zh-Hant using OpenCC t2s; filename_key uses _GOI_Zh_Hans suffix.');
+INSERT INTO editions VALUES('GOI_zh-Hant','zh-Hant','zh','active','GOI Bible Traditional Chinese','GOI Traditional Chinese corpus imported from GOI_Bible_zh-Hant; filename_key uses _GOI_zh-Hant suffix.');
+INSERT INTO editions VALUES('GOI_zh-Hans','zh-Hans','zh','active','GOI Bible Simplified Chinese','GOI Simplified Chinese corpus converted from GOI_Bible_zh-Hant using OpenCC t2s; filename_key uses _GOI_zh-Hans suffix.');
 INSERT INTO editions VALUES('GOI_vi','vi','vi','active','Tiếng Việt - Kinh Thánh GOI','Vietnamese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_vi suffix.');
 INSERT INTO editions VALUES('GOI_Es','es','es','active','GOI Bible Spanish','Spanish full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Es suffix.');
 INSERT INTO editions VALUES('GOI_Pt','pt','pt','active','GOI Bible Portuguese','Portuguese full Bible (OT+NT) generated from Hebrew/Greek noun-anchored pipeline; filename_key uses _GOI_Pt suffix.');

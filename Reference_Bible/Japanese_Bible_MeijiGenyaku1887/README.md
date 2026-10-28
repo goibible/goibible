@@ -37,7 +37,7 @@ exactly. The rest:
 - **Not transcribed on Wikisource (1,500 verses):** Numbers 2-36 and
   1 Samuel 2:1-13:21. No Meiji text exists for these. This is not a
   coverage gap for the translator: its main secondary references are the
-  sibling GOI editions (GOI_Zh_Hant and GOI_En), which share the Global
+  sibling GOI editions (GOI_zh-Hant and GOI_En), which share the Global
   Ordinal Index and cover every verse; the Meiji text is a supplement
   where it exists.
 

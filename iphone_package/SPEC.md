@@ -11,7 +11,7 @@ inventing new behavior.
 - Offline, multilingual Bible reader. No network calls, no accounts, no backend — everything
   runs against a local SQLite database.
 - Ships with 4 bundled editions (see `data/`): English (`GOI_En`), Vietnamese (`GOI_vi`),
-  Chinese Simplified (`GOI_Zh_Hans`), Chinese Traditional (`GOI_Zh_Hant`).
+  Chinese Simplified (`GOI_zh-Hans`), Chinese Traditional (`GOI_zh-Hant`).
 - Not in scope: no audio/TTS/read-along video features. (There's a separate, unrelated
   narrated-video pipeline elsewhere in the source repo — ignore it, it's a different product.)
 

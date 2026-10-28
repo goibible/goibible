@@ -100,11 +100,11 @@ def cuv_text(book: str, chapter: int, verse: int) -> str:
 
 
 def hant_path(book: str, chapter: int, verse: int) -> pathlib.Path:
-    return HANT_DIR / f"{BOOK_NUM[book]}_{book}_{chapter:03d}_{verse:03d}_GOI_Zh_Hant.txt"
+    return HANT_DIR / f"{BOOK_NUM[book]}_{book}_{chapter:03d}_{verse:03d}_GOI_zh-Hant.txt"
 
 
 def hans_path_for(hant: pathlib.Path) -> pathlib.Path:
-    return HANS_DIR / hant.name.replace("_GOI_Zh_Hant.txt", "_GOI_Zh_Hans.txt")
+    return HANS_DIR / hant.name.replace("_GOI_zh-Hant.txt", "_GOI_zh-Hans.txt")
 
 
 def normalize_revision(text: str) -> str:

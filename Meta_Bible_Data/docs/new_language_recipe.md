@@ -39,7 +39,7 @@ complete.
    output directory, suffix, template edition, `expected_verse_count`, notes,
    and initial `pending` status.
 2. Add matching metadata to `Meta_Bible_Data/sqlite/reference_seed.sql`.
-3. Create canonical UTF-8 verse files below `GOI_Bible/GOI_Bible_<lang>/`.
+3. Create canonical UTF-8 verse files below `GOI_Bible/GOI_Bible_<bcp47_tag>/` (see `docs/bcp47_naming.md`).
    Each filename must use the GOI coordinate and edition suffix; no blank,
    duplicate, or shifted coordinate is permitted.
    Do not retain a generated file that fails its per-verse noun gate; repair

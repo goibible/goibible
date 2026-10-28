@@ -76,7 +76,7 @@ class BibleRepo(private val context: Context) {
 
     companion object {
         /** Editions shipped in the APK; the first is the base database, the rest are merged in. */
-        private val BUNDLED = listOf("GOI_En.db", "GOI_Zh_Hant.db", "GOI_Zh_Hans.db", "GOI_vi.db")
+        private val BUNDLED = listOf("GOI_En.db", "GOI_zh-Hant.db", "GOI_zh-Hans.db", "GOI_vi.db")
     }
 
     private fun mergeBundled(asset: String) {

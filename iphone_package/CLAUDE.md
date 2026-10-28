@@ -12,7 +12,7 @@ truth, ported directly from the original app's source, not paraphrased from memo
   ("movie transport" pattern with split-screen + sync-lock), every screen, theming.
 - `schema.md` — exact SQLite table/column shapes for the bundled databases, plus the exact
   search query (LIKE-based, with escaping) to replicate.
-- `data/GOI_En.db`, `GOI_vi.db`, `GOI_Zh_Hans.db`, `GOI_Zh_Hant.db` — the four bundled Bible
+- `data/GOI_En.db`, `GOI_vi.db`, `GOI_zh-Hans.db`, `GOI_zh-Hant.db` — the four bundled Bible
   editions (English, Vietnamese, Chinese Simplified, Chinese Traditional). Bundle all four as
   app resources.
 - `branding/literata.ttf` — the app's primary reading font. Use it as the default typeface, not

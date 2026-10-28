@@ -6,6 +6,9 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import com.example.goibible.data.BibleRepo
 
+// Edition IDs renamed to BCP 47 tags (2026-10-28); saved prefs may still hold the old ones.
+private val LEGACY_EDITION_IDS = mapOf("GOI_Zh_Hans" to "GOI_zh-Hans", "GOI_Zh_Hant" to "GOI_zh-Hant")
+
 class PaneState(editionId: String, conical: Int, chapter: Int) {
     var editionId by mutableStateOf(editionId)
     var conical by mutableStateOf(conical)
@@ -49,7 +52,7 @@ class AppState(val repo: BibleRepo, private val prefs: SharedPreferences) {
         val defaultEdition = editions.firstOrNull { it.id == "GOI_En" }?.id
             ?: editions.first().id
         return PaneState(
-            prefs.getString("p${i}_edition", defaultEdition)!!,
+            prefs.getString("p${i}_edition", defaultEdition)!!.let { LEGACY_EDITION_IDS[it] ?: it },
             prefs.getInt("p${i}_conical", 1),
             prefs.getInt("p${i}_chapter", 1)
         )

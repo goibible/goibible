@@ -28,8 +28,8 @@ OUT_DIR = ROOT / "epub"
 EDITIONS = {
     "GOI_En":      ("GOI_Bible_en",        "GOI_En",      "GOI Bible - English"),
     "GOI_Es":      ("GOI_Bible_es",              "GOI_Es",      "GOI Bible - Español"),
-    "GOI_Zh_Hant": ("GOI_Bible_zh-Hant",     "GOI_Zh_Hant", "GOI Bible - 繁體中文"),
-    "GOI_Zh_Hans": ("GOI_Bible_zh-Hans",     "GOI_Zh_Hans", "GOI Bible - 简体中文"),
+    "GOI_zh-Hant": ("GOI_Bible_zh-Hant",     "GOI_zh-Hant", "GOI Bible - 繁體中文"),
+    "GOI_zh-Hans": ("GOI_Bible_zh-Hans",     "GOI_zh-Hans", "GOI Bible - 简体中文"),
     "GOI_vi":      ("GOI_Bible_vi",               "GOI_vi",      "GOI Bible - Tiếng Việt"),
     "GOI_Pt":      ("GOI_Bible_pt",               "GOI_Pt",      "GOI Bible - Português"),
     "GOI_Ja":      ("GOI_Bible_ja",               "GOI_Ja",      "GOI Bible - 日本語"),
@@ -39,8 +39,8 @@ EDITIONS = {
 }
 
 LANG_TAG = {
-    "GOI_En": "en", "GOI_Es": "es", "GOI_Zh_Hant": "zh-Hant",
-    "GOI_Zh_Hans": "zh-Hans", "GOI_vi": "vi", "GOI_Pt": "pt",
+    "GOI_En": "en", "GOI_Es": "es", "GOI_zh-Hant": "zh-Hant",
+    "GOI_zh-Hans": "zh-Hans", "GOI_vi": "vi", "GOI_Pt": "pt",
     "GOI_Ja": "ja", "GOI_Ko": "ko", "GOI_Ru": "ru", "GOI_Fr": "fr",
 }
 

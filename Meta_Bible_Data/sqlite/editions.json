@@ -57,23 +57,23 @@
     "expected_verse_count": 31102
   },
   {
-    "edition_id": "GOI_Zh_Hant",
+    "edition_id": "GOI_zh-Hant",
     "bcp47_tag": "zh-Hant",
     "language_subtag": "zh",
     "display_name": "GOI Bible Traditional Chinese",
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_zh-Hant",
-    "filename_suffix": "GOI_Zh_Hant",
+    "filename_suffix": "GOI_zh-Hant",
     "expected_verse_count": 31102
   },
   {
-    "edition_id": "GOI_Zh_Hans",
+    "edition_id": "GOI_zh-Hans",
     "bcp47_tag": "zh-Hans",
     "language_subtag": "zh",
     "display_name": "GOI Bible Simplified Chinese",
     "status": "active",
     "flatfile_dir": "GOI_Bible/GOI_Bible_zh-Hans",
-    "filename_suffix": "GOI_Zh_Hans",
+    "filename_suffix": "GOI_zh-Hans",
     "expected_verse_count": 31102
   },
   {

@@ -45,7 +45,7 @@ the single source of truth):
   `books`/OSIS, `iso_languages`/`iso_scripts`/`iso_regions`), **zero verses**.
   Small (~400KB), safe to use directly.
 - `sqlite/versions/<edition>.sql` — one plain-text `INSERT` script per edition
-  (`KJV`, `WEBUS`, `TR1550`, `WLC`, `GOI_En`, `GOI_Zh_Hant`, `GOI_Zh_Hans`).
+  (`KJV`, `WEBUS`, `TR1550`, `WLC`, `GOI_En`, `GOI_zh-Hant`, `GOI_zh-Hans`).
 
 To get a full working database:
 ```

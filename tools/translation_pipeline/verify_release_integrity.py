@@ -92,8 +92,15 @@ def main() -> int:
         edition_id = str(config["edition_id"])
         try:
             flatfile_dir = str(config["flatfile_dir"])
-            if flatfile_dir.startswith("GOI_Bible/") and flatfile_dir != f"GOI_Bible/GOI_Bible_{config['bcp47_tag']}":
-                raise ValueError(f"flatfile_dir {flatfile_dir!r} is not GOI_Bible/GOI_Bible_<bcp47_tag> ({config['bcp47_tag']})")
+            if flatfile_dir.startswith("GOI_Bible/"):
+                tag = str(config["bcp47_tag"])
+                if flatfile_dir != f"GOI_Bible/GOI_Bible_{tag}":
+                    raise ValueError(f"flatfile_dir {flatfile_dir!r} is not GOI_Bible/GOI_Bible_<bcp47_tag> ({tag})")
+                # BCP 47 tags are case-insensitive, so GOI_En passes for 'en'; GOI_Zh_Hans would not for 'zh-Hans'
+                for field in ("edition_id", "filename_suffix"):
+                    value = str(config.get(field, edition_id))
+                    if value.lower() != f"goi_{tag}".lower():
+                        raise ValueError(f"{field} {value!r} is not GOI_<bcp47_tag> ({tag})")
             flat = corpus(config)
             entry = entries.get(edition_id)
             if entry is None:

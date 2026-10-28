@@ -1,6 +1,6 @@
 # SQLite schema — GOI Bible edition databases
 
-Each bundled `.db` file in `data/` (`GOI_En.db`, `GOI_vi.db`, `GOI_Zh_Hans.db`, `GOI_Zh_Hant.db`)
+Each bundled `.db` file in `data/` (`GOI_En.db`, `GOI_vi.db`, `GOI_zh-Hans.db`, `GOI_zh-Hant.db`)
 carries one Bible edition and shares this schema. Pulled directly from the SQL used against them
 in the Android app's `BibleRepo.kt` — not guessed.
 
