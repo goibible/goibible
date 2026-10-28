@@ -7,7 +7,7 @@ proven pipeline as the Proverbs videos.
 - **Voice**: Kokoro via your conda env (`/home/albert/miniconda3/envs/kokoro/bin/python`),
   using the localized wrapper and voice choice in `vendor/kokoro/` (default `am_onyx`).
   Set `BIBLE_VIDEO_KOKORO_REPO` only when intentionally pointing at a different Kokoro wrapper.
-- **Text**: `GOI_Bible/GOI_Bible_English/` (GOI English edition).
+- **Text**: `GOI_Bible/GOI_Bible_en/` (GOI English edition).
 - **Sync**: every verse is read as a scrolling text column; the verse being spoken
   is highlighted and kept centered. Audio timeline and video timing both derive
   from the same per-verse onsets, so highlight↔voice cannot drift (verified by the

@@ -23,8 +23,8 @@ database and reviewable like source code.
 - **Provenance, verification, and copyright notes:** `README_GOI.md`
   in the public GitHub repo, or `docs/README_GOI.md` in the full working
   source tree.
-- **Flat files:** one UTF-8 text file per verse in `GOI_Bible_English/`,
-  `GOI_Bible_Chinese_Hans/`, and `GOI_Bible_Chinese_Hant/`
+- **Flat files:** one UTF-8 text file per verse in `GOI_Bible_en/`,
+  `GOI_Bible_zh-Hans/`, and `GOI_Bible_zh-Hant/`
 - **Single-file reading copies:** `full_bible/GOI_English_Bible.md`,
   `GOI_Simplified_Chinese_Bible.md`, `GOI_Traditional_Chinese_Bible.md`
 - **SQLite database:** `sqlite/goi_bible_shell.db` plus

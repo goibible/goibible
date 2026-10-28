@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 META = ROOT / "Meta_Bible_Data"
 SOURCE_DB = META / "staging" / "source_names" / "biblical_source_names.sqlite3"
-EN_DIR = ROOT / "GOI_Bible" / "GOI_Bible_English"
+EN_DIR = ROOT / "GOI_Bible" / "GOI_Bible_en"
 OUT_CSV = META / "staging" / "source_names" / "goi_en_source_name_audit.csv"
 SUMMARY = META / "staging" / "source_names" / "goi_en_source_name_audit_summary.md"
 REALIGNMENT_MAP = META / "logs" / "2026-06-09_goi_english_ot_kjv_realign_map.csv"

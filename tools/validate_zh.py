@@ -31,8 +31,8 @@ BOOK = {1:('MAT','040'),2:('MRK','041'),3:('LUK','042'),4:('JHN','043'),5:('ACT'
 COVERAGE_THRESHOLD = 95.0  # percent
 
 VARIANTS = {
-    "hant": ("Traditional Chinese", ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant", "GOI_Zh_Hant"),
-    "hans": ("Simplified Chinese", ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hans", "GOI_Zh_Hans"),
+    "hant": ("Traditional Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant", "GOI_Zh_Hant"),
+    "hans": ("Simplified Chinese", ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans", "GOI_Zh_Hans"),
 }
 
 results = []

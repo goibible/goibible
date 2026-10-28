@@ -27,4 +27,4 @@ Rules that follow from this:
 ## Related rules
 
 - Translation execution guardrails: `Meta_Bible_Data/Bible_Noun_Extraction/AGENTS.md`.
-- Divine-name policy for English (YHWH = Yahweh, Adonai = Lord, Yah = LORD, set by the owner 2026-10-05): see `FIXED` in `Meta_Bible_Data/Bible_Noun_Extraction/en/gen_en_ot_renderings.py` and the ledger `en/yahweh_rewrite.tsv`; applied in `GOI_Bible/GOI_Bible_English`.
+- Divine-name policy for English (YHWH = Yahweh, Adonai = Lord, Yah = LORD, set by the owner 2026-10-05): see `FIXED` in `Meta_Bible_Data/Bible_Noun_Extraction/en/gen_en_ot_renderings.py` and the ledger `en/yahweh_rewrite.tsv`; applied in `GOI_Bible/GOI_Bible_en`.

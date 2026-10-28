@@ -16,7 +16,7 @@ import books
 
 HERE = Path(__file__).resolve().parent
 DB_PATH = HERE / "bible_video.sqlite3"
-VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
+VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_en"
 OUTPUT_DIR = books.OUTPUT_DIR
 PATH_RE = re.compile(r"^(\d{3})_([A-Za-z0-9_]+)/(\d{3})_([A-Za-z0-9_]+)\.mp4$")  # relative to OUTPUT_DIR
 

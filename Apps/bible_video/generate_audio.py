@@ -45,7 +45,7 @@ from benchmark_kokoro_voices import (  # noqa: E402
 )
 
 # GOI English source in the bible repo.
-VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
+VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_en"
 VOICE_FILE = KOKORO_REPO / "reading_voice_choice.txt"
 
 WORK_DIR = books.WORK_DIR

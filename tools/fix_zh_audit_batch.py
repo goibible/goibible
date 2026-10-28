@@ -24,8 +24,8 @@ from opencc import OpenCC
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 AUDIT_DIR = ROOT / "Meta_Bible_Data" / "staging" / "reports" / "zh" / "audits"
-HANT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant"
-HANS_DIR = ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hans"
+HANT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant"
+HANS_DIR = ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans"
 STATE_DIR = ROOT / "state"
 HEBREW_DIR = ROOT / "Reference_Bible" / "Hebrew_Bible_WLC" / "One_Directory_WLC_KJV"
 GREEK_DIR = ROOT / "Reference_Bible" / "Greek_Bible_TR1550" / "One_Directory_TR1550"

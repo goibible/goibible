@@ -19,7 +19,7 @@ Canonical form:
 Idempotent. Run again any time; a clean corpus reports 0 changes.
 
 Usage:
-  python3 tools/normalize_corpus.py [--dir GOI_Bible/GOI_Bible_English] [--check]
+  python3 tools/normalize_corpus.py [--dir GOI_Bible/GOI_Bible_en] [--check]
     --check : report violations and exit 1 if any (no writes) — for CI/validate.
 """
 import argparse, pathlib, re, sys, unicodedata
@@ -40,7 +40,7 @@ def normalize(text: str) -> str:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dir", default="GOI_Bible/GOI_Bible_English")
+    ap.add_argument("--dir", default="GOI_Bible/GOI_Bible_en")
     ap.add_argument("--check", action="store_true", help="report only; exit 1 on any violation")
     args = ap.parse_args()
     d = pathlib.Path(args.dir)

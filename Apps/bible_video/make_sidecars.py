@@ -20,7 +20,7 @@ from pathlib import Path
 
 import books
 
-VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
+VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_en"
 FPS = 30  # = render_video.FPS (kept local so this script runs with plain python3)
 QUOTE_MAX = 300
 

@@ -26,11 +26,11 @@ named `<NNN>_<BOK>_<CCC>_<VVV>_<suffix>.txt`.
 ### Translations (`GOI_Bible/`)
 | Directory | Language | Suffix | Verses |
 |---|---|---|---|
-| `GOI_Bible/GOI_Bible_English` | English | `_GOI_En.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_en` | English | `_GOI_En.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_ko` | Korean | `_GOI_Ko.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_vi` | Vietnamese | `_GOI_vi.txt` | 31,102 (OT+NT) |
-| `GOI_Bible/GOI_Bible_Chinese_Hant` | Chinese (Traditional) | `_GOI_Zh_Hant.txt` | 31,102 (OT+NT) |
-| `GOI_Bible/GOI_Bible_Chinese_Hans` | Chinese (Simplified) | `_GOI_Zh_Hans.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_zh-Hant` | Chinese (Traditional) | `_GOI_Zh_Hant.txt` | 31,102 (OT+NT) |
+| `GOI_Bible/GOI_Bible_zh-Hans` | Chinese (Simplified) | `_GOI_Zh_Hans.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_es` | Spanish | `_GOI_Es.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_fr` | French | `_GOI_Fr.txt` | 31,102 (OT+NT) |
 | `GOI_Bible/GOI_Bible_pt` | Portuguese | `_GOI_Pt.txt` | 31,102 (OT+NT) |

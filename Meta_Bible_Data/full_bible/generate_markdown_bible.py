@@ -4,9 +4,9 @@
 The exporter uses `GOI_bible.sqlite3` for canonical ordering and edition
 metadata, then reads verse text from the existing flatfile corpora:
 
-  - GOI_En -> GOI_Bible_English/
-  - GOI_Zh_Hant -> GOI_Bible_Chinese_Hant/
-  - GOI_Zh_Hans -> GOI_Bible_Chinese_Hans/
+  - GOI_En -> GOI_Bible_en/
+  - GOI_Zh_Hant -> GOI_Bible_zh-Hant/
+  - GOI_Zh_Hans -> GOI_Bible_zh-Hans/
 
 Markdown format:
 
@@ -42,9 +42,9 @@ SUPPORTED_EDITIONS = {
 }
 
 SOURCE_DIRS = {
-    "GOI_En": ROOT / "GOI_Bible" / "GOI_Bible_English",
-    "GOI_Zh_Hant": ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant",
-    "GOI_Zh_Hans": ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hans",
+    "GOI_En": ROOT / "GOI_Bible" / "GOI_Bible_en",
+    "GOI_Zh_Hant": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant",
+    "GOI_Zh_Hans": ROOT / "GOI_Bible" / "GOI_Bible_zh-Hans",
 }
 
 # Standard book names by OSIS code, for editions whose book titles must not

@@ -18,7 +18,7 @@ import argparse, pathlib, re, sqlite3, subprocess, sys, unicodedata
 from collections import Counter
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-GOI  = ROOT / "GOI_Bible" / "GOI_Bible_English"
+GOI  = ROOT / "GOI_Bible" / "GOI_Bible_en"
 NIM  = ROOT / "Meta_Bible_Data" / "Bible_Noun_Extraction"
 DB   = NIM / "greek_noun.sqlite3"
 RAW  = ROOT / "Reference_Bible" / "Greek_Bible_TR1550" / "One_Directory_TR1550"

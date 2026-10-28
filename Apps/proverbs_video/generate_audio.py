@@ -39,7 +39,7 @@ from benchmark_kokoro_voices import (  # noqa: E402
 
 # GOI English Proverbs source in the bible repo.
 BIBLE_REPO = Path("/home/albert/projects/bible")
-VERSE_GLOB = "GOI_Bible/GOI_Bible_English/020_PRO_{cc:03d}_{vv:03d}_GOI_En.txt"
+VERSE_GLOB = "GOI_Bible/GOI_Bible_en/020_PRO_{cc:03d}_{vv:03d}_GOI_En.txt"
 VOICE_FILE = KOKORO_REPO / "reading_voice_choice.txt"
 
 WORK_DIR = Path("work")
@@ -68,7 +68,7 @@ def parse_verse_path(path: Path):
 
 
 def verse_files_for(chapter: int) -> list[Path]:
-    files = sorted(BIBLE_REPO.glob(f"GOI_Bible/GOI_Bible_English/020_PRO_{chapter:03d}_*_GOI_En.txt"))
+    files = sorted(BIBLE_REPO.glob(f"GOI_Bible/GOI_Bible_en/020_PRO_{chapter:03d}_*_GOI_En.txt"))
     if not files:
         raise FileNotFoundError(f"No GOI English Proverbs verses found for chapter {chapter}")
     return files

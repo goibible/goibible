@@ -17,7 +17,7 @@ Filename format: `NNN_BOOK_CCC_VVV_GOI_Ja.txt`
 
 - NT: `Reference_Bible/Japanese_Bible_Shinkaiyaku1965/One_Directory_Shinkaiyaku1965_GOI/`
   (public domain, 100% KJV-aligned)
-- OT: sibling GOI editions `GOI_Bible_Chinese_Hant/` and `GOI_Bible_English/`
+- OT: sibling GOI editions `GOI_Bible_zh-Hant/` and `GOI_Bible_en/`
   for every verse (same Global Ordinal Index, so verse-for-verse with no
   alignment; both translated from the same Hebrew). Supplemented by
   `Reference_Bible/Japanese_Bible_MeijiGenyaku1887/One_Directory_Meiji1887_GOI/`

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic scan for likely wrong-sense noun renderings in GOI_Bible_English (OT).
+"""Deterministic scan for likely wrong-sense noun renderings in GOI_Bible_en (OT).
 
 Mirrors the project's established approach (per CLAUDE.md / prior sessions):
 "shove it into sqlite and SELECT where mismatch" rather than spot-checking
@@ -27,7 +27,7 @@ import sqlite3
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "Meta_Bible_Data" / "Bible_Noun_Extraction" / "bible_noun.sqlite3"
-ENGLISH_DIR = ROOT / "GOI_Bible" / "GOI_Bible_English"
+ENGLISH_DIR = ROOT / "GOI_Bible" / "GOI_Bible_en"
 REPORT_PATH = ROOT / "Meta_Bible_Data" / "logs" / "ot_sense_mismatch_flags.csv"
 
 # category_code -> (acceptable words/phrases, suspect words/phrases, note)

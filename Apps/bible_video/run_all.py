@@ -24,7 +24,7 @@ import books
 
 
 HERE = Path(__file__).resolve().parent
-VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_English"
+VERSE_DIR = Path("/home/albert/projects/bible") / "GOI_Bible" / "GOI_Bible_en"
 
 
 def run_stage(stage: str, osis: str, chapter: int, resume: bool, quiet: bool = False) -> None:

@@ -17,7 +17,7 @@ This is the inventory of paths that are intentionally left out of the public sta
 - `logs/`
 - `backup/`
 - `archive/`
-- `GOI_Bible_English_prefix-backups/`
+- `GOI_Bible_en_prefix-backups/`
 
 ## Private Or Reproducible Source Trees
 
@@ -48,9 +48,9 @@ The staging script copies only:
 - `README_GOI.md`
 - `.gitignore`
 - `GOI_bible.sqlite3`
-- `GOI_Bible_English/`
-- `GOI_Bible_Chinese_Hant/`
-- `GOI_Bible_Chinese_Hans/`
+- `GOI_Bible_en/`
+- `GOI_Bible_zh-Hant/`
+- `GOI_Bible_zh-Hans/`
 
 ## Website Tree
 

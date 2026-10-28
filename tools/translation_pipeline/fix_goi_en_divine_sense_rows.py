@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-EN_DIR = ROOT / "GOI_Bible" / "GOI_Bible_English"
+EN_DIR = ROOT / "GOI_Bible" / "GOI_Bible_en"
 
 
 BOOK_NUM = {

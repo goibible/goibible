@@ -3,7 +3,7 @@
 You are an AI about to translate the New Testament into a new target language
 using this repository's pipeline. Read this once, top to bottom, before touching
 anything. It tells you the mental model, the exact steps, the tools, and the
-traps. The English edition (`GOI_Bible_English/`) is the worked reference — when
+traps. The English edition (`GOI_Bible_en/`) is the worked reference — when
 in doubt, look at how English did it.
 
 ---
@@ -47,7 +47,7 @@ Greek coordinates. They transfer to your language unchanged. You only supply the
 | --- | --- |
 | `Bible_Noun_Extraction/One_Directory_TR1550/` | the raw Greek source, one file per verse (`NNN_BOOK_CCC_VVV_TR1550.txt`) — **frozen, never edit** |
 | `Bible_Noun_Extraction/bible_noun.sqlite3` | the database (morphology, renderings, senses, overrides) |
-| `GOI_Bible_English/` | the finished English edition — your worked example |
+| `GOI_Bible_en/` | the finished English edition — your worked example |
 | `GOI_Bible_<BCP47>/` | **you create this** — your translated output, using the BCP 47 language tag suffix |
 | `docs/README_GOI.md` | provenance, what's verified, copyright posture |
 | `docs/TRANSLATION_GUIDE.md` | this file |
@@ -142,7 +142,7 @@ Close every `GAP` it reports. When it says `READY ✓`, proceed.
 ### Step 5 — Translate the verses
 
 Create `GOI_Bible_<BCP47>/` with one file per verse (same filenames as
-`GOI_Bible_English/`). Translate **from the Greek** (`One_Directory_TR1550/`),
+`GOI_Bible_en/`). Translate **from the Greek** (`One_Directory_TR1550/`),
 using `translate_verses.py` or an equivalent harness, with:
 - `strongs_lang_renderings` + `sense_renderings` as your controlled vocabulary
   for nouns (query `bible_noun.sqlite3`),
@@ -269,7 +269,7 @@ python3 Bible_Noun_Extraction/import_sense_renderings.py \
 python3 Bible_Noun_Extraction/translate_verses.py \
         --lang L --language-name "<LANGUAGE>" \
         --output-dir GOI_Bible_<BCP47> --book MAT --chapter-start 1 --chapter-end 1 \
-        --reference-dir GOI_Bible_English
+        --reference-dir GOI_Bible_en
 
 # canonicalize my output punctuation
 python3 normalize_corpus.py --dir GOI_Bible_<BCP47>

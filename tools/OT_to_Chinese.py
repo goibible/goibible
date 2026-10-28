@@ -2,7 +2,7 @@
 """Translate KJV-addressed WLC Hebrew OT verses into Traditional Chinese.
 
 Mirrors OT_to_English.py, but writes one Traditional Chinese verse per file to
-GOI_Bible_Chinese_Hant/ and anchors Hebrew nouns via noun_translations(zho).
+GOI_Bible_zh-Hant/ and anchors Hebrew nouns via noun_translations(zho).
 
 This is a REAL inference-driven translator — there is no deterministic mapping
 from Hebrew morphology to fluent Traditional Chinese prose. An LLM call happens
@@ -49,7 +49,7 @@ from build_wlc_kjv_source import build_grouped_segments
 
 DB_PATH = NIM / "bible_noun.sqlite3"
 SOURCE_DIR = ROOT / "Reference_Bible" / "Hebrew_Bible_WLC" / "One_Directory_WLC_KJV"
-OUTPUT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant"
+OUTPUT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant"
 
 BOOK_NUM = {
     "GEN": "001", "EXO": "002", "LEV": "003", "NUM": "004", "DEU": "005",

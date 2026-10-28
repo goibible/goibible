@@ -83,7 +83,7 @@ Structure follows the pipeline, not filename convention — open a folder,
 see what's done, don't grep for it.
 
 - **`GOI_Bible/<edition>/`** — the finished per-language translation, one
-  edition per folder (`GOI_Bible_English/`, `GOI_Bible_ja/`, etc.).
+  edition per folder (`GOI_Bible_en/`, `GOI_Bible_ja/`, etc.).
 - **`Reference_Bible/<edition>/`** — every public-domain cross-reference and
   source-language text, one edition per folder, each self-contained: its own
   atomize/align script, `SOURCE/`, `One_Directory_*/` output, `README.md`.

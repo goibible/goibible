@@ -5,7 +5,7 @@ generated, QA'd, and staged — `editions.json` flipped to `active`,
 `sqlite/versions/GOI_Es.sql` and `goi_db_download/GOI_Es.db` built via
 `goi_language_pipeline.py stage GOI_Es`. See §5 below for the closing QA log.
 This document originally started as a readiness audit + staged gameplan,
-mirroring the Chinese (`GOI_Bible_Chinese_Hant`) and Vietnamese (`GOI_Bible_vi`)
+mirroring the Chinese (`GOI_Bible_zh-Hant`) and Vietnamese (`GOI_Bible_vi`)
 builds; all stages it laid out are now complete.
 
 Target: a **full 66-book Bible** (NT from Greek TR1550, OT from Hebrew WLC),

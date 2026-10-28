@@ -26,10 +26,10 @@ OUT_DIR = ROOT / "epub"
 
 # edition_id -> (flatfile dir name under GOI_Bible/, filename suffix, display title)
 EDITIONS = {
-    "GOI_En":      ("GOI_Bible_English",        "GOI_En",      "GOI Bible - English"),
+    "GOI_En":      ("GOI_Bible_en",        "GOI_En",      "GOI Bible - English"),
     "GOI_Es":      ("GOI_Bible_es",              "GOI_Es",      "GOI Bible - Español"),
-    "GOI_Zh_Hant": ("GOI_Bible_Chinese_Hant",     "GOI_Zh_Hant", "GOI Bible - 繁體中文"),
-    "GOI_Zh_Hans": ("GOI_Bible_Chinese_Hans",     "GOI_Zh_Hans", "GOI Bible - 简体中文"),
+    "GOI_Zh_Hant": ("GOI_Bible_zh-Hant",     "GOI_Zh_Hant", "GOI Bible - 繁體中文"),
+    "GOI_Zh_Hans": ("GOI_Bible_zh-Hans",     "GOI_Zh_Hans", "GOI Bible - 简体中文"),
     "GOI_vi":      ("GOI_Bible_vi",               "GOI_vi",      "GOI Bible - Tiếng Việt"),
     "GOI_Pt":      ("GOI_Bible_pt",               "GOI_Pt",      "GOI Bible - Português"),
     "GOI_Ja":      ("GOI_Bible_ja",               "GOI_Ja",      "GOI Bible - 日本語"),

@@ -1,13 +1,13 @@
 # Greek TR1550 → Traditional Chinese (繁體中文) — Staged Translation Gameplan
 
-**Purpose:** The English NT (GOI_Bible_English) was a deliberate test run — a language
+**Purpose:** The English NT (GOI_Bible_en) was a deliberate test run — a language
 we know, with two PD reference editions, specifically to shake out every class of error
 before tackling other languages. This document is the result: everything we learned,
 translated into a staged operational plan for Greek → Traditional Chinese. Hand this to
 a fresh AI translator as its primary briefing.
 
-**Target output:** `GOI_Bible_Chinese_Hant/` — 7,957 verse files, same naming as
-`GOI_Bible_English/`, Traditional Chinese, one verse per file, single line, UTF-8 NFC.
+**Target output:** `GOI_Bible_zh-Hant/` — 7,957 verse files, same naming as
+`GOI_Bible_en/`, Traditional Chinese, one verse per file, single line, UTF-8 NFC.
 
 ---
 

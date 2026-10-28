@@ -1,7 +1,7 @@
 """Canonical GOI English Bible book metadata and unix-friendly naming.
 
 Book numbers and canonical order come from the GOI English data itself
-(GOI_Bible/GOI_Bible_English/001_GEN_* ... 066_REV_*). Full English names are the
+(GOI_Bible/GOI_Bible_en/001_GEN_* ... 066_REV_*). Full English names are the
 standard Protestant-canon names, capitalized. Whole-Bible naming conventions:
 
   book folder : <nnn>_<Name>        e.g. 020_Proverbs, 022_Song_of_Solomon

@@ -52,7 +52,7 @@ bible/
 │   └── 2026-06-03_gptaudit.md    audit + correction record
 ├── validate.py                   integrity gate (13 invariants)   ── run from repo root
 ├── normalize_corpus.py           punctuation/whitespace canonicalizer
-├── GOI_Bible_English/            finished English edition (7,957 verse files) — worked example
+├── GOI_Bible_en/            finished English edition (7,957 verse files) — worked example
 ├── GOI_Bible_<BCP47>/            YOU CREATE THIS — your output, same filenames
 ├── English_Bible_KJV/, English_Bible_WEBUS/, Chinese_Bible_CUV/   public-domain reference editions
 ├── Greek_Bible_TR1550/, Hebrew_Bible_WLC/, sources/               source corpora
@@ -362,7 +362,7 @@ python3 Bible_Noun_Extraction/language_readiness.py --lang $L
 python3 Bible_Noun_Extraction/translate_verses.py \
   --lang $L --language-name "$LANGUAGE" --output-dir GOI_Bible_$BCP47 \
   --book MAT --chapter-start 1 --chapter-end 1 \
-  --reference-dir GOI_Bible_English
+  --reference-dir GOI_Bible_en
 
 # 5. normalize output
 python3 normalize_corpus.py --dir GOI_Bible_$BCP47
@@ -386,7 +386,7 @@ sqlite3 Bible_Noun_Extraction/bible_noun.sqlite3 "
   SELECT * FROM v_effective_rendering WHERE lang='$L' LIMIT 20;"
 
 # look at how English rendered any verse (your structural reference)
-cat GOI_Bible_English/044_ACT_009_029.txt
+cat GOI_Bible_en/044_ACT_009_029.txt
 cat Bible_Noun_Extraction/One_Directory_TR1550/044_ACT_009_029_TR1550.txt
 ```
 
@@ -394,7 +394,7 @@ cat Bible_Noun_Extraction/One_Directory_TR1550/044_ACT_009_029_TR1550.txt
 
 ## 11. Status of the English reference edition
 
-English (`GOI_Bible_English/`) is the worked, verified example:
+English (`GOI_Bible_en/`) is the worked, verified example:
 - Noun count **canonical to raw TR1550** — 28,889 nouns, every one present in its
   raw verse; `validate.py` green (13/13).
 - Noun **coverage 0 missing / 99.7%**.

@@ -3,7 +3,7 @@
 
 Mirrors the proven NT pipeline (Bible_Noun_Extraction/translate_verses.py):
 read Hebrew source text, resolve noun anchors from the DB, prompt an LLM for
-exactly one verse of English, normalize, write to GOI_Bible_English/.
+exactly one verse of English, normalize, write to GOI_Bible_en/.
 
 This is a REAL inference-driven translator — there is no deterministic mapping
 from Hebrew morphology to fluent English prose. An LLM call happens per verse.
@@ -48,7 +48,7 @@ from build_wlc_kjv_source import build_grouped_segments
 
 DB_PATH = NIM / "bible_noun.sqlite3"
 SOURCE_DIR = ROOT / "Reference_Bible" / "Hebrew_Bible_WLC" / "One_Directory_WLC_KJV"
-OUTPUT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_English"
+OUTPUT_DIR = ROOT / "GOI_Bible" / "GOI_Bible_en"
 
 # Canon-order numeric prefix, matching the KJV-addressed WLC filenames exactly —
 # this is the "tautological filename structure" the output must follow:

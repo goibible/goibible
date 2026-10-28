@@ -52,7 +52,7 @@
     "language_subtag": "en",
     "display_name": "GOI Bible English",
     "status": "active",
-    "flatfile_dir": "GOI_Bible/GOI_Bible_English",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_en",
     "filename_suffix": "GOI_En",
     "expected_verse_count": 31102
   },
@@ -62,7 +62,7 @@
     "language_subtag": "zh",
     "display_name": "GOI Bible Traditional Chinese",
     "status": "active",
-    "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hant",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_zh-Hant",
     "filename_suffix": "GOI_Zh_Hant",
     "expected_verse_count": 31102
   },
@@ -72,7 +72,7 @@
     "language_subtag": "zh",
     "display_name": "GOI Bible Simplified Chinese",
     "status": "active",
-    "flatfile_dir": "GOI_Bible/GOI_Bible_Chinese_Hans",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_zh-Hans",
     "filename_suffix": "GOI_Zh_Hans",
     "expected_verse_count": 31102
   },

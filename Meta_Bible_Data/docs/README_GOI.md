@@ -1,7 +1,7 @@
 # README — GOI Bible editions
 
-A briefing for any human or AI reading the `GOI_Bible_English/`,
-`GOI_Bible_Chinese_Hans/`, and `GOI_Bible_Chinese_Hant/` corpora.
+A briefing for any human or AI reading the `GOI_Bible_en/`,
+`GOI_Bible_zh-Hans/`, and `GOI_Bible_zh-Hant/` corpora.
 
 ---
 
@@ -108,8 +108,8 @@ Canonical rebuild: `rebuild_noun_occurrences_from_strongs.py`.
 
 The noun-coverage rigor in §3 is NT-English-specific. The OT (both languages)
 and the Chinese editions were verified separately, via clause-checking against
-the source text rather than a noun-occurrence DB. **`GOI_Bible_Chinese_Hans`
-is a script-converted (simplified-character) mirror of `GOI_Bible_Chinese_Hant`**
+the source text rather than a noun-occurrence DB. **`GOI_Bible_zh-Hans`
+is a script-converted (simplified-character) mirror of `GOI_Bible_zh-Hant`**
 — same translation, same wording, different character set — so a fix or
 verification finding in one applies to both.
 
