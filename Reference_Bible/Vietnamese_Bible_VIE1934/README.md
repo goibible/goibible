@@ -53,7 +53,7 @@ That command checks flatfile count and names, normalizes the corpus, runs
 Vietnamese noun readiness and coverage, builds `sqlite/versions/GOI_vi.sql`,
 rebuilds the shell DB metadata, creates `goi_db_download/GOI_vi.db`, and refreshes
 `goi_db_download/manifest.json`.
-- Markdown export: `full_bible/GOI_Vietnamese_Bible.md`
+- Markdown export: `full_bible/GOI_vi_Bible.md`
 
 Use VIE1934 for public-domain Vietnamese book names, reading-flow comparison,
 and QA checks. Do not use its eBible file naming for GOI output.

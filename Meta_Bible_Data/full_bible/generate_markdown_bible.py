@@ -99,6 +99,7 @@ BOOK_NAME_OVERRIDES_BY_EDITION = {
 class Edition:
     edition_id: str
     display_name: str
+    bcp47_tag: str
     source_dir: pathlib.Path
 
 
@@ -118,12 +119,12 @@ def canonical_edition_id(raw: str) -> str:
 
 def load_edition(conn: sqlite3.Connection, edition_id: str) -> Edition:
     row = conn.execute(
-        "SELECT edition_id, display_name, status FROM editions WHERE edition_id = ?",
+        "SELECT edition_id, display_name, status, bcp47_tag FROM editions WHERE edition_id = ?",
         (edition_id,),
     ).fetchone()
     if row is None:
         raise SystemExit(f"Edition not found in GOI_bible.sqlite3: {edition_id}")
-    db_edition_id, display_name, status = row
+    db_edition_id, display_name, status, bcp47_tag = row
     if status != "active":
         raise SystemExit(f"Edition is not active: {edition_id} ({status})")
     source_dir = SOURCE_DIRS.get(db_edition_id)
@@ -131,21 +132,17 @@ def load_edition(conn: sqlite3.Connection, edition_id: str) -> Edition:
         raise SystemExit(f"No flatfile source directory configured for edition: {edition_id}")
     if not source_dir.exists():
         raise SystemExit(f"Source directory does not exist: {source_dir}")
-    return Edition(db_edition_id, display_name, source_dir)
+    return Edition(db_edition_id, display_name, bcp47_tag, source_dir)
 
 
-def output_name_for(display_name: str, edition_id: str) -> str:
-    prefix = "GOI Bible "
-    if display_name.startswith(prefix):
-        suffix = display_name[len(prefix) :].strip()
-        if suffix:
-            return f"GOI_{suffix.replace(' ', '_')}_Bible.md"
-    return f"{edition_id}.md"
+def output_name_for(bcp47_tag: str) -> str:
+    # named by BCP 47 tag, like the flatfile dirs (docs/bcp47_naming.md)
+    return f"GOI_{bcp47_tag}_Bible.md"
 
 
 def export_markdown(conn: sqlite3.Connection, edition: Edition, output_dir: pathlib.Path, overwrite: bool) -> pathlib.Path:
     output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / output_name_for(edition.display_name, edition.edition_id)
+    output_path = output_dir / output_name_for(edition.bcp47_tag)
     if output_path.exists() and not overwrite:
         raise SystemExit(f"Refusing to overwrite existing file: {output_path}")
 

@@ -1,6 +1,6 @@
 # Strong's `kjv_def` Suffix-Notation Leak — Scan + Fix: `GOI_Bible_en/`
 
-**Status: FIXED.** Scanned all 31,102 per-verse files in `GOI_Bible_en/`. Found **47 verses** / **54 artifact tokens** matching `word(-suffix)`, traced each to its Strong's source, applied a single-word resolution, and re-synced `full_bible/GOI_English_Bible.md`.
+**Status: FIXED.** Scanned all 31,102 per-verse files in `GOI_Bible_en/`. Found **47 verses** / **54 artifact tokens** matching `word(-suffix)`, traced each to its Strong's source, applied a single-word resolution, and re-synced `full_bible/GOI_en_Bible.md`.
 
 **Root cause:** Strong's Hebrew dictionary's `kjv_def` field lists every KJV rendering of a Hebrew root using shorthand notation, e.g. `H2496` (חַלָּמִישׁ) → `"kjv_def": "flint(-y), rock."` meaning *the KJV renders this root as either flint or flinty, or as rock*. That raw lexicon string leaked verbatim into GOI English verse text instead of being resolved to a single word.
 
@@ -11,7 +11,7 @@
 
 **Fixed in:**
 - `GOI_Bible_en/*.txt` — 47 files edited (one extra occurrence in `024_JER_033_007_GOI_En.txt`, which had the artifact twice).
-- `full_bible/GOI_English_Bible.md` — same 47 lines re-synced to match.
+- `full_bible/GOI_en_Bible.md` — same 47 lines re-synced to match.
 
 Fix policy: resolved each artifact to the single word the KJV/WEBUS reference text actually uses in that verse (verified per-verse against KJV), not a blind pick from `kjv_def`. A few needed judgment calls — noted inline below.
 
@@ -83,14 +83,14 @@ Fix policy: resolved each artifact to the single word the KJV/WEBUS reference te
 
 ```
 grep -lE "[A-Za-z]+\(-[^)]*\)" GOI_Bible_en/*.txt   # 0 results
-grep -cE "[A-Za-z]+\(-[^)]*\)" full_bible/GOI_English_Bible.md   # 0
+grep -cE "[A-Za-z]+\(-[^)]*\)" full_bible/GOI_en_Bible.md   # 0
 ```
 
 ## Part 2 — companion leak: prefix-style `(prefix-)word` (same root cause)
 
 After fixing the suffix-style leak above, a broader sweep found the mirror-image bug: Strong's `kjv_def` entries that put the bracketed alternative on the *front* of the word instead of the back, e.g. `H3915` (לַיְלָה, "night") → `"kjv_def": "(mid-)night (season)."`. This leaked into GOI text as literal `(mid-)night` 24 times (the dominant case), plus one-off leaks like `(fish-)pool`, `(fore-)father`, `(frank-)incense`, `(en-)sign`, `(well-)beloved`, `(U-) pharsin`, `(an-) other`, `(high-) way`, `(home-)born`, `(bond-) servants/maids`, `(man-) servant`, `(shew-) bread`, and one double-bracket compound (`PSA 92:3`: `(instrument of) ten (strings, -th)`).
 
-**38 verses, 43 tokens total. Status: FIXED** in both `GOI_Bible_en/*.txt` and `full_bible/GOI_English_Bible.md`.
+**38 verses, 43 tokens total. Status: FIXED** in both `GOI_Bible_en/*.txt` and `full_bible/GOI_en_Bible.md`.
 
 | # | Ref | File | Artifact (before) | Strong's # | Hebrew lemma | kjv_def (raw, source of the leak) | Fix (applied) |
 |---|-----|------|--------------------|-----------|--------------|-------------------------------------|----------------|
@@ -149,7 +149,7 @@ Checked all 8 `.sqlite3` files in the repo (`GOI_bible.sqlite3`, `archive/atomic
 ## Final verification (run after both parts)
 
 ```
-grep -cE "\([A-Za-z][A-Za-z, -]*-[A-Za-z, -]*\)" GOI_Bible_en/*.txt full_bible/GOI_English_Bible.md | grep -v ':0'
+grep -cE "\([A-Za-z][A-Za-z, -]*-[A-Za-z, -]*\)" GOI_Bible_en/*.txt full_bible/GOI_en_Bible.md | grep -v ':0'
 # (no output = clean)
 ```
 
@@ -174,6 +174,6 @@ After Parts 1–2, a simple grep for the bare `-` character across all 31,102 fl
 - **2KI 2:20**: the `salt-pit` precedent (DEU 29:23) describes *terrain* ("brimstone and salt-pit, a burning"); 2KI 2:20 is about a *substance* poured into a small cruse ("put salt there... cast the salt in") — a pit cannot go in a cruse. Kept as `salt`.
 - **2SA 17:28**: the `bed-chamber(s)` precedent (2KI 1:4, PSA 4:4) means a private *room* ("upon your bed-chambers"); 2SA 17:28 lists *portable items brought* to David (beds, basins, pottery, food) — a room can't be carried. Kept as `beds`, matching KJV's "brought beds, and basons..." exactly.
 
-Applied to both `GOI_Bible_en/*.txt` and `full_bible/GOI_English_Bible.md`; cross-checked line-for-line afterward — all 18 corrected verses match exactly between flat file and markdown.
+Applied to both `GOI_Bible_en/*.txt` and `full_bible/GOI_en_Bible.md`; cross-checked line-for-line afterward — all 18 corrected verses match exactly between flat file and markdown.
 
 **Lesson for any future pass:** the bracket-pattern regexes (Parts 1–2) only catch the leak while it's still wrapped in literal parentheses. Once a leak gets flattened to a real-looking hyphenated compound, only a plain grep for `-` across the corpus (then cross-referencing repeated compounds against their Strong's number) surfaces it. Recommend doing that broader sweep *first* in any similar audit, rather than last.

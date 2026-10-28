@@ -25,8 +25,8 @@ database and reviewable like source code.
   source tree.
 - **Flat files:** one UTF-8 text file per verse in `GOI_Bible_en/`,
   `GOI_Bible_zh-Hans/`, and `GOI_Bible_zh-Hant/`
-- **Single-file reading copies:** `full_bible/GOI_English_Bible.md`,
-  `GOI_Simplified_Chinese_Bible.md`, `GOI_Traditional_Chinese_Bible.md`
+- **Single-file reading copies:** `full_bible/GOI_en_Bible.md`,
+  `GOI_zh-Hans_Bible.md`, `GOI_zh-Hant_Bible.md`
 - **SQLite database:** `sqlite/goi_bible_shell.db` plus
   `sqlite/versions/*.sql`
 
