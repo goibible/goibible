@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Run a Python script with the BCP 47 path tripwire active (no install). usage: tools/py-tripwire script.py [args]
+hook="$(cd "$(dirname "$0")" && pwd)/bcp47_tripwire.py"
+exec "${PYTHON:-python3}" -c "import runpy, sys; exec(compile(open('$hook').read(), '$hook', 'exec')); sys.argv = sys.argv[1:]; runpy.run_path(sys.argv[0], run_name='__main__')" "$@"

@@ -56,6 +56,28 @@ were in use when those files were written.
 - `Meta_Bible_Data/full_bible/generate_markdown_bible.py` (accepts `goi_zh_hant` and similar)
 - the goibible.org reader on dsvx, once it is deployed (old `?edition=GOI_Zh_Hant` links)
 
+## Trapping names that grep cannot see
+
+A plain grep only finds names written out in full. These cases slip past it:
+
+- **Assembled names:** `'GOI_Zh_' + ed`, `f"GOI_Bible_{lang.capitalize()}"`, `"GOI_%s_%s" % (lang, script)`, `tag.replace('-', '_')`.
+- **Decomposed names:** `suffix != ['GOI', 'Zh', ed]` after `split('_')`, or a part-count check.
+- **Probes that skip what they don't find:** `exists()` on a guessed path. A glob of a missing directory returns 0 files, and the script still passes.
+
+Two traps cover these.
+
+1. **Static: `tools/bcp47_composite_scan.py`** (runs in CI and blocks). It parses each Python file and folds every string-building expression into a template, with unknown parts shown as `{}` and case/replace transforms recorded. It then flags old-name shapes, case transforms on tags, two-part `_` joins after `GOI_`, decomposed suffix lists, part-count checks, and comparisons against old fragments. Shell, PHP, Kotlin, Swift and JS get a token scan. Its self-test cases are in the docstring examples. Reviewed exceptions go in `ALLOW` and `REVIEWED`.
+2. **Runtime: `tools/bcp47_tripwire.py`.** It hooks `open`, `listdir`, `scandir`, `glob`, pathlib globs and `stat` (which covers `exists()` and `is_file()`). It sees the final path however it was built, and reports each call site once on stderr and in `~/.cache/goi_bcp47_tripwire.log`. Use it on any script with `tools/py-tripwire script.py [args]`. Set `GOI_BCP47_TRIPWIRE=raise` to turn hits into errors.
+   - `tools/install_bcp47_tripwire.sh` can make it always-on for an interpreter (one `.pth` line; `--remove` undoes it). That is the owner's call, so it is not installed by default.
+
+What the traps found on 2026-10-28:
+
+- `gender_ngram.py` and `plurality_ngram.py` guessed `GOI_{lang.capitalize()}`. That matched 0 Vietnamese files (the suffix is `GOI_vi`). They now ask `goi_catalog.py`, which reads `editions.json`.
+- `zh/verify_current_artifacts.py` decomposed the suffix as `['GOI','Zh',ed]`, so it would have rejected all 62,204 Chinese verses.
+- `verify_coverage.py --filename-suffix GOI_Zh_Hant` reports `coverage: 0.0%` without failing. The tripwire now names the probe at line 117.
+
+**Rule:** never assemble a GOI directory or suffix from a language code. Use `goi_catalog.flatfile_dir(tag)` and `goi_catalog.suffix(tag)` in `Bible_Noun_Extraction`, or read `editions.json`.
+
 ## Adding a new edition
 
 1. Pick the BCP 47 tag first, e.g. `pt-BR`.

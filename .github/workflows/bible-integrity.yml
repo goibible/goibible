@@ -17,6 +17,8 @@ jobs:
           python-version: '3.11'
       - name: Check tracked Python syntax
         run: python3 -m py_compile tools/translation_pipeline/*.py tools/build_reader_db.py
+      - name: BCP 47 naming (no old or assembled edition names; Meta_Bible_Data/docs/bcp47_naming.md)
+        run: python3 tools/bcp47_composite_scan.py
       - name: Work out which editions this change touches
         id: eds
         run: |
