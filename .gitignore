@@ -68,3 +68,6 @@ Apps/GOIBible_desktop/**/resources/*.db
 .obsidian/
 .pi/
 *.log
+
+# Private nested repo (no public remote); see Meta_Bible_Data/no_copy_github_repo.md
+/Meta_Bible_Data/Bible_Noun_Extraction/
