@@ -10,6 +10,8 @@ from pathlib import Path
 
 APP_NAME = "GOIBible"
 BUNDLE_SYNC_VERSION = 2
+# Edition IDs renamed to BCP 47 tags (2026-10-28); saved state and older data/bible.db files may still hold the old ones.
+LEGACY_EDITION_IDS = {"GOI_Zh_Hans": "GOI_zh-Hans", "GOI_Zh_Hant": "GOI_zh-Hant"}
 
 
 def app_root() -> Path:
@@ -43,8 +45,31 @@ def working_db() -> Path:
     target = data_root() / "bible.db"
     if not target.exists():
         shutil.copy2(bundled_db(), target)
+    migrate_legacy_edition_ids(target)
     merge_bundled_databases(target)
     return target
+
+
+def migrate_legacy_edition_ids(target: Path) -> None:
+    # Rename old-ID rows in place so imported editions survive; if the new ID is already there, drop the old copy
+    # so the edition is not listed twice.
+    conn = sqlite3.connect(str(target))
+    try:
+        tables = [t for t in ("verses", "book_names", "editions") if source_has_table(conn, "main", t)]
+        with conn:
+            for old, new in LEGACY_EDITION_IDS.items():
+                if not conn.execute("SELECT 1 FROM editions WHERE edition_id = ?", (old,)).fetchone():
+                    continue
+                if conn.execute("SELECT 1 FROM editions WHERE edition_id = ?", (new,)).fetchone():
+                    for table in tables:
+                        conn.execute(f"DELETE FROM {table} WHERE edition_id = ?", (old,))
+                    continue
+                conn.execute("PRAGMA defer_foreign_keys = ON")
+                for table in tables:
+                    conn.execute(f"UPDATE {table} SET edition_id = ? WHERE edition_id = ?", (new, old))
+                conn.execute("UPDATE verses SET version = ? WHERE version = ?", (new, old))
+    finally:
+        conn.close()
 
 
 def applied_bundles_file() -> Path:

@@ -4,10 +4,8 @@ import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from .paths import LEGACY_EDITION_IDS
 from .repo import BibleRepo, Edition
-
-# Edition IDs renamed to BCP 47 tags (2026-10-28); saved state may still hold the old ones.
-LEGACY_EDITION_IDS = {"GOI_Zh_Hans": "GOI_zh-Hans", "GOI_Zh_Hant": "GOI_zh-Hant"}
 
 
 @dataclass
