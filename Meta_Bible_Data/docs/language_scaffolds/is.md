@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Status | NT 7,957/7,957 drafted (Claude, no native review); OT lexicon + 463 batches ready, pilot ot_001 only; 1912 OCR aligned to the spine as reference |
+| Status | full Bible drafted 31,102/31,102 (Claude, no native review); NT hand-revised 2026-10-27; OT coverage review in progress |
 | GOI edition ID | `GOI_Is` (registered, status pending) |
 | BCP-47 tag | `is` |
 | Language name (native / English) | íslenska / Icelandic |
@@ -54,8 +54,8 @@ This is the **1912** printing, not the 1908 printing or the 1914 revision. The a
 
 | Testament | Source | Occurrences | Distinct Strong's | Rendering coverage | Missing | Duplicate anchors | Report / commit |
 |---|---|---:|---:|---:|---:|---:|---|
-| NT | Greek TR1550 | 28,889 | see verify_language | 100% (824 hand-reviewed synonyms/compounds, 2 text fixes) | 0 | 0 | `python3 -I verify_language.py --lang is` |
-| OT | WLC + MorphHB | 144,955 | 6,333 | renderings for all lemmas (machine draft, needs_review); no OT text yet | n/a | 0 | `is/hebrew_ot_is.sqlite3` |
+| NT | Greek TR1550 | 28,889 | see verify_language | re-opened by the 2026-10-27 text revision; hand stems `is/judge_nt_coverage.py` + LLM judge | see verify_language | 0 | `python3 -I verify_language.py --lang is` |
+| OT | WLC + MorphHB | 144,955 | 6,333 | see `staging/reports/is/ot_triage/summary.md` (hand stems `is/judge_ot_coverage.py`, then LLM judge `is/run_to_zero.sh`) | see report | 0 | `is/hebrew_ot_is.sqlite3` |
 
 ## Gate history (append only)
 
@@ -68,6 +68,10 @@ This is the **1912** printing, not the 1908 printing or the 1914 revision. The a
 | 2026-10-09 | Page continuity | `python3 Reference_Bible/Icelandic_Bible_B20A1912/audit_ocr_archive.py` | pass for 1,318-page sequence; OCR verse completeness not established | `Reference_Bible/Icelandic_Bible_B20A1912/ocr_archive_audit.json` | | |
 | 2026-10-24 | NT draft | translated from TR1550, spine OK 7,957 | 0 hard validator problems | `is/translation/` | ab5a8499d4 | |
 | 2026-10-24 | Plural/sense review | 397 plural candidates, 97 senses | 8 fixes, rest closed | `is/translation/text_fixes.tsv` | | |
+| 2026-10-26 | OT draft | 463 batches from WLC, validated 0 problems | 23,145 verses | `is/translation_ot/` | inner f332e3e | |
+| 2026-10-27 | NT hand revision | every NT verse read against TR1550 | 5,290 text fixes | `is/translation/text_fixes.tsv` | inner 0ff128c | |
+| 2026-10-27 | OT assembly | `is/translation_ot/assemble_ot.py` | 31,102 verse files; Móses name split normalized (109 verses) | `GOI_Bible/GOI_Bible_is/` | | |
+| 2026-10-27 | OT triage | `triage_ot_existing.py --lang is` (reference: 1912 OCR candidates, corroboration only) | 26,959 misses before review | `staging/reports/is/ot_triage/` | | |
 | 2026-10-26 | Scaffold completion | OT table, grammar OT import, plural verdicts, NT coverage verdicts, matcher compound head | see verify_language | `is/README.md` | | |
 
 ## Release record (complete only when active)

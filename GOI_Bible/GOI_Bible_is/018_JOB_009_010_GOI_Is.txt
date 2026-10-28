@@ -1,0 +1,1 @@
+sem gerir stórvirki sem ekki verða rannsökuð, og dásemdarverk án tölu.
