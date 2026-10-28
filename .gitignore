@@ -63,3 +63,8 @@ Apps/GOIBible_android/app/src/main/assets/*.db
 Apps/GOIBible_android/dist/
 Apps/GOIBible_desktop/**/resources/*.db
 /youtube/
+
+# Local tool state and run logs never belong in the public repo (Meta_Bible_Data/no_copy_github_repo.md)
+.obsidian/
+.pi/
+*.log
