@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKIP_DIRS = {".git", "__pycache__", ".venv", "node_modules", "build", "dist", ".gradle", "logs", "staging",
              "plans", "reports_archive", "sweep_history", "legacy_backup", "archive", "local_backups"}
 # Deliberate alias tables mapping old IDs to new ones; their literals are expected.
-ALLOW = {"Apps/GOIBible_desktop/goibible/state.py", "Apps/GOIBible_android/app/src/main/java/com/example/goibible/AppState.kt",
+ALLOW = {"Apps/GOIBible_desktop/goibible/state.py", "Apps/GOIBible_android/app/src/main/java/com/example/goibible/data/BibleRepo.kt",
          "Meta_Bible_Data/full_bible/generate_markdown_bible.py", "tools/bcp47_composite_scan.py", "tools/bcp47_tripwire.py"}
 # Files whose standalone fragments ('Hans', 'English', ...) were read by hand on 2026-10-28: display names,
 # substring tests on the suffix, or loops over the new GOI_zh-{ed} form. Re-review if they change.

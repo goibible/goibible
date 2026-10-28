@@ -68,6 +68,7 @@ class BibleRepo(private val context: Context) {
                 "created_at INTEGER NOT NULL, " +
                 "UNIQUE (edition_id, conical, chapter, verse))"
         )
+        migrateLegacyEditionIds()
         val assetsToMerge = if (firstRun) BUNDLED.drop(1) else BUNDLED
         assetsToMerge.forEach { asset ->
             mergeBundled(asset)
@@ -77,6 +78,34 @@ class BibleRepo(private val context: Context) {
     companion object {
         /** Editions shipped in the APK; the first is the base database, the rest are merged in. */
         private val BUNDLED = listOf("GOI_En.db", "GOI_zh-Hant.db", "GOI_zh-Hans.db", "GOI_vi.db")
+
+        /** Edition IDs renamed to BCP 47 tags on 2026-10-28 (old -> new). */
+        val LEGACY_EDITION_IDS = mapOf("GOI_Zh_Hans" to "GOI_zh-Hans", "GOI_Zh_Hant" to "GOI_zh-Hant")
+    }
+
+    /**
+     * Drop editions stored under a pre-BCP-47 ID so the bundled copy merges fresh under the new ID
+     * (otherwise both show). Bookmarks and a "removed" choice carry over to the new ID.
+     */
+    private fun migrateLegacyEditionIds() {
+        val prefs = context.getSharedPreferences("bible_installations", Context.MODE_PRIVATE)
+        LEGACY_EDITION_IDS.forEach { (old, new) ->
+            db.beginTransaction()
+            try {
+                db.execSQL("UPDATE OR IGNORE bookmarks SET edition_id = ? WHERE edition_id = ?", arrayOf(new, old))
+                db.execSQL("DELETE FROM bookmarks WHERE edition_id = ?", arrayOf(old))
+                db.execSQL("DELETE FROM verses WHERE edition_id = ?", arrayOf(old))
+                db.execSQL("DELETE FROM book_names WHERE edition_id = ?", arrayOf(old))
+                db.execSQL("DELETE FROM editions WHERE edition_id = ?", arrayOf(old))
+                db.setTransactionSuccessful()
+            } finally {
+                db.endTransaction()
+            }
+            val removed = prefs.getStringSet("removed_bundled", emptySet())!!
+            if ("$old.db" in removed) {
+                prefs.edit().putStringSet("removed_bundled", removed - "$old.db" + "$new.db").commit()
+            }
+        }
     }
 
     private fun mergeBundled(asset: String) {

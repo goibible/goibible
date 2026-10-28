@@ -52,7 +52,7 @@ were in use when those files were written.
 **Legacy aliases** keep saved state from older builds working:
 
 - `Apps/GOIBible_desktop/goibible/state.py` and
-  `Apps/GOIBible_android/.../AppState.kt` (`LEGACY_EDITION_IDS`)
+  `Apps/GOIBible_android/.../data/BibleRepo.kt` (`LEGACY_EDITION_IDS`; on upgrade it also drops the old-ID copy of each edition so it is not listed twice)
 - `Meta_Bible_Data/full_bible/generate_markdown_bible.py` (accepts `goi_zh_hant` and similar)
 - the goibible.org reader on dsvx, once it is deployed (old `?edition=GOI_Zh_Hant` links)
 
