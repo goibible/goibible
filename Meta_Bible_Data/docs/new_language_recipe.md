@@ -35,7 +35,8 @@ complete.
 
 ## 2. Add GOI metadata and canonical text
 
-1. Add the edition to `Meta_Bible_Data/sqlite/editions.json` with BCP-47 tag,
+1. Add the edition to `Meta_Bible_Data/sqlite/editions.json` with its BCP-47 tag
+   **in all lowercase** (`pt-br`; ID and suffix `GOI_pt-br`, see `docs/bcp47_naming.md`),
    output directory, suffix, template edition, `expected_verse_count`, notes,
    and initial `pending` status.
 2. Add matching metadata to `Meta_Bible_Data/sqlite/reference_seed.sql`.

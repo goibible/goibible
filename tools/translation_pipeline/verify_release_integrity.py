@@ -20,6 +20,9 @@ ROOT = Path(__file__).resolve().parents[2]
 CATALOG_PATH = ROOT / "Meta_Bible_Data/sqlite/editions.json"
 MANIFEST_PATH = ROOT / "Meta_Bible_Data/goi_db_download/manifest.json"
 DOWNLOAD_DIR = MANIFEST_PATH.parent
+# Editions created before the all-lowercase rule (Meta_Bible_Data/docs/bcp47_naming.md); do not add to this set.
+MIXED_CASE_EDITIONS = {"GOI_En", "GOI_Es", "GOI_Pt", "GOI_Ko", "GOI_Ja", "GOI_Ru", "GOI_Fr", "GOI_It",
+                       "GOI_Ar", "GOI_Is", "GOI_zh-Hans", "GOI_zh-Hant"}
 
 
 def digest(path: Path) -> str:
@@ -101,6 +104,11 @@ def main() -> int:
                     value = str(config.get(field, edition_id))
                     if value.lower() != f"goi_{tag}".lower():
                         raise ValueError(f"{field} {value!r} is not GOI_<bcp47_tag> ({tag})")
+                    # house style from 2026-10-28: new editions are all lowercase (GOI_pt-br); existing IDs keep their case
+                    if edition_id not in MIXED_CASE_EDITIONS and value != f"GOI_{tag}":
+                        raise ValueError(f"{field} {value!r} must be exactly GOI_<bcp47_tag> ({tag})")
+                if edition_id not in MIXED_CASE_EDITIONS and tag != tag.lower():
+                    raise ValueError(f"bcp47_tag {tag!r} must be all lowercase for new editions (e.g. 'pt-br')")
             flat = corpus(config)
             entry = entries.get(edition_id)
             if entry is None:

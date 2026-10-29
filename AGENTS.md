@@ -26,6 +26,6 @@ Rules that follow from this:
 
 ## Related rules
 
-- **Naming is BCP 47** (2026-10-28): edition dirs are `GOI_Bible/GOI_Bible_<bcp47_tag>` (`GOI_Bible_en`, `GOI_Bible_zh-Hans`, `GOI_Bible_zh-Hant`), edition IDs/suffixes `GOI_<tag>` (`GOI_zh-Hant`), internal keys `zh-Hant`/`zh-Hans`. The old names `GOI_Bible_English`, `GOI_Bible_Chinese_*`, `GOI_Zh_*` and `zh_hant` are gone. See `Meta_Bible_Data/docs/bcp47_naming.md`; enforced by `verify_release_integrity.py`.
+- **Naming is BCP 47** (2026-10-28): edition dirs are `GOI_Bible/GOI_Bible_<bcp47_tag>` (`GOI_Bible_en`, `GOI_Bible_zh-Hans`, `GOI_Bible_zh-Hant`), edition IDs/suffixes `GOI_<tag>` (`GOI_zh-Hant`), internal keys `zh-Hant`/`zh-Hans`. The old names `GOI_Bible_English`, `GOI_Bible_Chinese_*`, `GOI_Zh_*` and `zh_hant` are gone. **New editions are all lowercase** (owner, 2026-10-28): tag `pt-br`, dir `GOI_Bible_pt-br`, ID and suffix `GOI_pt-br`, never `pt-BR`/`GOI_Pt`. Existing mixed-case IDs (`GOI_En`, `GOI_zh-Hant`, ...) stay as they are; do not rename them and do not add to `MIXED_CASE_EDITIONS`. See `Meta_Bible_Data/docs/bcp47_naming.md`; enforced by `verify_release_integrity.py`.
 - Translation execution guardrails: `Meta_Bible_Data/Bible_Noun_Extraction/AGENTS.md`.
 - Divine-name policy for English (YHWH = Yahweh, Adonai = Lord, Yah = LORD, set by the owner 2026-10-05): see `FIXED` in `Meta_Bible_Data/Bible_Noun_Extraction/en/gen_en_ot_renderings.py` and the ledger `en/yahweh_rewrite.tsv`; applied in `GOI_Bible/GOI_Bible_en`.

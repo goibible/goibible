@@ -16,7 +16,14 @@ For every GOI edition with `bcp47_tag` = `<tag>`:
 
 Subtags are joined with a hyphen, never an underscore (`zh-Hant`, not `zh_Hant`).
 BCP 47 tags are case-insensitive, so the existing `GOI_En`, `GOI_Es` and so on
-are valid. Write new editions in canonical case (`GOI_en`, `GOI_pt-BR`).
+are valid and keep their case.
+
+**House style for new editions: all lowercase** (owner decision, 2026-10-28). The tag, directory,
+`edition_id` and `filename_suffix` are all lowercase and match exactly: `pt-br`, `GOI_Bible_pt-br`,
+`GOI_pt-br`, `001_GEN_001_001_GOI_pt-br.txt`. Not `pt-BR` or `GOI_Pt`. All-lowercase is valid BCP 47
+because tags are case-insensitive. The editions created before this rule are listed in
+`MIXED_CASE_EDITIONS` in `verify_release_integrity.py`. They are not renamed (that would break saved
+links and installed app data for no reader-visible gain), and nothing new is added to that set.
 
 The same applies to internal edition keys in `Bible_Noun_Extraction`
 (`verify_editions.EDITIONS`, `apply_edition_fixes.py`, `edition_fixes_log.csv`):
@@ -80,7 +87,7 @@ What the traps found on 2026-10-28:
 
 ## Adding a new edition
 
-1. Pick the BCP 47 tag first, e.g. `pt-BR`.
-2. Create `GOI_Bible/GOI_Bible_pt-BR/` with files `NNN_BOOK_CCC_VVV_GOI_pt-BR.txt`.
-3. Set `edition_id` and `filename_suffix` to `GOI_pt-BR` in `editions.json`.
-4. Run `python3 tools/translation_pipeline/verify_release_integrity.py --edition GOI_pt-BR`.
+1. Pick the BCP 47 tag first and write it all lowercase, e.g. `pt-br`.
+2. Create `GOI_Bible/GOI_Bible_pt-br/` with files `NNN_BOOK_CCC_VVV_GOI_pt-br.txt`.
+3. Set `bcp47_tag` to `pt-br`, and `edition_id` and `filename_suffix` to `GOI_pt-br`, in `editions.json`.
+4. Run `python3 tools/translation_pipeline/verify_release_integrity.py --edition GOI_pt-br`.
