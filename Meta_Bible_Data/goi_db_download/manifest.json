@@ -170,6 +170,17 @@
       "size_bytes": 8962048,
       "sha256": "8996d1d032c4f8c34c795015d1f51df33c5ddf226fe3ea9e885524d3431caa85",
       "verse_count": 23145
+    },
+    {
+      "edition_id": "GOI_Is",
+      "display_name": "GOI Bible Icelandic",
+      "bcp47_tag": "is",
+      "language_subtag": "is",
+      "status": "active",
+      "file": "GOI_Is.db",
+      "size_bytes": 9117696,
+      "sha256": "9eba49f1963516323e20bca162d8212a13d994e0c0ff8d4fde9c7be37a395e0d",
+      "verse_count": 31102
     }
   ]
 }

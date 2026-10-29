@@ -195,5 +195,20 @@
     "reference_scaffold": [
       "Reference_Bible/Italian_Bible_RIV1927"
     ]
+  },
+  {
+    "edition_id": "GOI_Is",
+    "bcp47_tag": "is",
+    "language_subtag": "is",
+    "display_name": "GOI Bible Icelandic",
+    "status": "active",
+    "flatfile_dir": "GOI_Bible/GOI_Bible_is",
+    "filename_suffix": "GOI_Is",
+    "expected_verse_count": 31102,
+    "template_edition": "GOI_En",
+    "notes": "Icelandic full Bible (66 books, 31,102 verses), translated from Hebrew WLC / Greek TR1550; verify_language is ALL PASS; promoted to active 2026-10-29. NT hand-revised; OT coverage, plurality and gender closed to zero (LLM judge DeepSeek-V4.1-Flash-1017 + hand review), but the OT has not had a full hand revision. No native-speaker review has been performed (AI review only). Biblían 1912 (public domain, OCR) at Reference_Bible/Icelandic_Bible_B20A1912 is reference only (comparison/name-QA, never a text source). Divine names per owner: YHWH Jahve, Adonai Drottinn, Elohim Guð.",
+    "reference_scaffold": [
+      "Reference_Bible/Icelandic_Bible_B20A1912"
+    ]
   }
 ]

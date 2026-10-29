@@ -13,6 +13,7 @@ INSERT INTO editions VALUES('GOI_Ja','ja','ja','active','GOI Bible Japanese','Ja
 INSERT INTO editions VALUES('GOI_Ru','ru','ru','active','GOI Bible Russian','Russian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT noun coverage 100%; OT triage all Green; OT and NT wrong-sense sweeps closed to zero. Russian Synodal 1876 (public domain) retained solely as reference/name-QA source.');
 INSERT INTO editions VALUES('GOI_Fr','fr','fr','active','GOI Bible French','French full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT and OT complete, triage closed to zero. Louis Segond 1910 (public domain) retained solely as reference/name-QA source.');
 INSERT INTO editions VALUES('GOI_It','it','it','active','GOI Bible Italian','Italian full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT and OT complete, verify ALL PASS. Riveduta 1927 (public domain) retained solely as reference/name-QA source.');
+INSERT INTO editions VALUES('GOI_Is','is','is','active','GOI Bible Icelandic','Icelandic full Bible (66 books, 31,102 verses), translated from Hebrew WLC and Greek TR1550. NT and OT complete, verify ALL PASS. Biblían 1912 (public domain) retained solely as reference/name-QA source.');
 INSERT INTO books VALUES(1,'GEN','Genesis','OT');
 INSERT INTO books VALUES(2,'EXO','Exodus','OT');
 INSERT INTO books VALUES(3,'LEV','Leviticus','OT');
