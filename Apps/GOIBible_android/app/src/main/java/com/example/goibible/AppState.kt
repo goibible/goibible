@@ -89,7 +89,16 @@ class AppState(val repo: BibleRepo, private val prefs: SharedPreferences) {
         editions = repo.editions()
         // If a removed edition was showing, fall back to the first remaining one.
         panes.forEach { p ->
-            if (editions.none { it.id == p.editionId }) p.editionId = editions.first().id
+            if (editions.none { it.id == p.editionId }) {
+                p.editionId = editions.first().id
+                val books = repo.books(p.editionId)
+                if (books.none { it.conical == p.conical }) {
+                    p.conical = books.firstOrNull()?.conical ?: 1
+                    p.chapter = 1
+                }
+                p.chapter = p.chapter.coerceIn(1, repo.chapterCount(p.editionId, p.conical).coerceAtLeast(1))
+                p.pendingVerse = null
+            }
         }
         save()
     }

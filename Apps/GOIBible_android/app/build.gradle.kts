@@ -26,8 +26,8 @@ android {
         applicationId = "com.example.goibible"
         minSdk = 28
         targetSdk = 36
-        versionCode = 5
-        versionName = "1.4"
+        versionCode = 7
+        versionName = "1.6"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

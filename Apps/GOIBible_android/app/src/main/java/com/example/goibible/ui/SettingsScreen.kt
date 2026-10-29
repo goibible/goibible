@@ -16,6 +16,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
@@ -41,6 +42,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.goibible.AppState
 import com.example.goibible.R
+import com.example.goibible.data.Edition
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -75,6 +77,9 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
     var url by remember { mutableStateOf("") }
     var downloadChoices by remember { mutableStateOf<List<DownloadEdition>>(emptyList()) }
     var showDownloadPicker by remember { mutableStateOf(false) }
+
+    var showRemovePicker by remember { mutableStateOf(false) }
+    var removeTarget by remember { mutableStateOf<Edition?>(null) }
 
     fun mergeFile(file: File, cleanup: Boolean) {
         scope.launch {
@@ -118,8 +123,8 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
     fun download(targetUrl: String, label: String = "download") {
         val target = targetUrl.trim()
         if (target.isEmpty()) return
+        busy = true
         scope.launch {
-            busy = true
             status = "Downloading $label…"
             val tmp = withContext(Dispatchers.IO) {
                 try {
@@ -137,8 +142,17 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
                     null
                 }
             }
+            if (tmp != null) {
+                status = "Installing $label…"
+                val result = withContext(Dispatchers.IO) {
+                    try { state.repo.mergeFrom(tmp) } finally { tmp.delete() }
+                }
+                result.fold(
+                    onSuccess = { state.refreshEditions(); status = "Added: $it" },
+                    onFailure = { status = "Install failed: ${it.message}" },
+                )
+            }
             busy = false
-            if (tmp != null) mergeFile(tmp, cleanup = true)
         }
     }
 
@@ -181,7 +195,7 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
             onDismissRequest = { showDownloadPicker = false },
             title = { Text("Download .db") },
             text = {
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                     downloadChoices.forEach { edition ->
                         Column(
                             modifier = Modifier
@@ -206,6 +220,66 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
             dismissButton = {
                 TextButton(onClick = { showDownloadPicker = false }) { Text("Cancel") }
             },
+        )
+    }
+
+    if (busy || status.isNotEmpty() && status != "Choose a download.") {
+        AlertDialog(
+            onDismissRequest = { if (!busy) status = "" },
+            title = { Text(if (busy) "Bible translation" else "Translation result") },
+            text = {
+                Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    if (busy) CircularProgressIndicator()
+                    Text(status)
+                }
+            },
+            confirmButton = {
+                if (!busy) TextButton(onClick = { status = "" }) { Text("OK") }
+            },
+        )
+    }
+
+    if (showRemovePicker) {
+        AlertDialog(
+            onDismissRequest = { showRemovePicker = false },
+            title = { Text("Remove a Bible translation") },
+            text = {
+                Column(Modifier.verticalScroll(rememberScrollState())) {
+                    state.editions.forEach { edition ->
+                        TextButton(onClick = {
+                            showRemovePicker = false
+                            removeTarget = edition
+                        }) { Text(edition.displayName) }
+                    }
+                }
+            },
+            confirmButton = {},
+            dismissButton = { TextButton(onClick = { showRemovePicker = false }) { Text("Cancel") } },
+        )
+    }
+    removeTarget?.let { edition ->
+        AlertDialog(
+            onDismissRequest = { removeTarget = null },
+            title = { Text("Remove ${edition.displayName}?") },
+            text = { Text("This removes the translation and its bookmarks from this device. You can download it again later.") },
+            confirmButton = {
+                TextButton(onClick = {
+                    removeTarget = null
+                    busy = true
+                    status = "Removing ${edition.displayName}…"
+                    scope.launch {
+                        val result = withContext(Dispatchers.IO) {
+                            runCatching { state.repo.removeEdition(edition.id) }
+                        }
+                        result.fold(
+                            onSuccess = { state.refreshEditions(); status = "Removed ${edition.displayName}" },
+                            onFailure = { status = "Remove failed: ${it.message}" },
+                        )
+                        busy = false
+                    }
+                }) { Text("Remove") }
+            },
+            dismissButton = { TextButton(onClick = { removeTarget = null }) { Text("Cancel") } },
         )
     }
 
@@ -273,6 +347,13 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
 
         Text("Editions", style = MaterialTheme.typography.titleMedium)
 
+        OutlinedButton(
+            onClick = { showRemovePicker = true },
+            enabled = !busy && state.editions.size > 1,
+            modifier = Modifier.fillMaxWidth(),
+        ) { Text("Remove a Bible translation") }
+        if (state.editions.size == 1) Text("Keep at least one Bible translation installed.")
+
         state.editions.forEach { e ->
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -289,11 +370,7 @@ fun SettingsScreen(state: AppState, onClose: () -> Unit) {
                 }
                 IconButton(
                     onClick = {
-                        scope.launch {
-                            withContext(Dispatchers.IO) { state.repo.removeEdition(e.id) }
-                            state.refreshEditions()
-                            status = "Removed ${e.displayName}"
-                        }
+                        removeTarget = e
                     },
                     enabled = state.editions.size > 1 && !busy,
                 ) {

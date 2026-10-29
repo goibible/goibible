@@ -71,7 +71,9 @@ class BibleRepo(private val context: Context) {
         migrateLegacyEditionIds()
         val assetsToMerge = if (firstRun) BUNDLED.drop(1) else BUNDLED
         assetsToMerge.forEach { asset ->
-            mergeBundled(asset)
+            if (asset !in removedBundled() && editions().none { it.id + ".db" == asset }) {
+                mergeBundled(asset)
+            }
         }
     }
 
@@ -107,6 +109,10 @@ class BibleRepo(private val context: Context) {
             }
         }
     }
+
+    private fun removedBundled(): Set<String> =
+        context.getSharedPreferences("bible_installations", Context.MODE_PRIVATE)
+            .getStringSet("removed_bundled", emptySet())!!.toSet()
 
     private fun mergeBundled(asset: String) {
         val tmp = File(context.cacheDir, asset)
@@ -317,6 +323,11 @@ class BibleRepo(private val context: Context) {
                 } finally {
                     db.endTransaction()
                 }
+                val installedAssets = db.rawQuery("SELECT edition_id FROM src.editions", null).use { c ->
+                    buildSet { while (c.moveToNext()) add(c.getString(0) + ".db") }
+                }
+                context.getSharedPreferences("bible_installations", Context.MODE_PRIVATE).edit()
+                    .putStringSet("removed_bundled", removedBundled() - installedAssets).commit()
                 Result.success(names.joinToString(", "))
             } finally {
                 db.execSQL("DETACH DATABASE src")
@@ -329,10 +340,13 @@ class BibleRepo(private val context: Context) {
     fun removeEdition(id: String) {
         db.beginTransaction()
         try {
+            check(editions().size > 1) { "Keep at least one Bible translation installed" }
             db.execSQL("DELETE FROM bookmarks WHERE edition_id = ?", arrayOf(id))
             db.execSQL("DELETE FROM verses WHERE edition_id = ?", arrayOf(id))
             db.execSQL("DELETE FROM book_names WHERE edition_id = ?", arrayOf(id))
             db.execSQL("DELETE FROM editions WHERE edition_id = ?", arrayOf(id))
+            context.getSharedPreferences("bible_installations", Context.MODE_PRIVATE).edit()
+                .putStringSet("removed_bundled", removedBundled() + (id + ".db")).commit()
             db.setTransactionSuccessful()
         } finally {
             db.endTransaction()
