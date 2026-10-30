@@ -27,20 +27,20 @@ INFO  gender candidates 0; verdicts {}
 PASS  plurality report exists=True and is newer than this language's last table write
 PASS  NT accounting: 28889 anchors = proper 744 + no-rendering 0 + non-noun 8 + no-text 0 + checked 28137
 PASS  OT accounting: 144955 anchors = proper 33855 + no-rendering 0 + non-noun 8041 + no-text 0 + checked 103059
-INFO  plural candidates 3273; verdicts {'error_fixed': 20, 'ok_hand': 406, 'ok_judged': 936, 'ok_latitude': 244, 'ok_shared_choice': 1438}
-PASS  plural candidates: 2899 distinct (verse, Strong's) keys; reviewed 2899; UNREVIEWED 0; judged errors awaiting repair 0; unresolved 0
+INFO  plural candidates 3275; verdicts {'error_fixed': 20, 'ok_hand': 408, 'ok_judged': 936, 'ok_latitude': 244, 'ok_shared_choice': 1438}
+PASS  plural candidates: 2901 distinct (verse, Strong's) keys; reviewed 2901; UNREVIEWED 0; judged errors awaiting repair 0; unresolved 0
 
 [F] Cube scaffolding
 PASS  tables present 8/8 []
 PASS  cube anchors 173844 == spine 173844
 PASS  target observations 173844 == anchors 173844
 PASS  cube is lexemes 9348, distinct renderings 5678 vs table universe 5670 (missing from cube 0); anchors with NO rendering in cube 0
-PASS  cube built 10-29 05:48 vs OT table 10-29 01:53
+PASS  cube built 10-29 22:47 vs OT table 10-29 01:53
 PASS  vector_rows 204946 == chunks 204946
 PASS  sparse index present=True
 INFO  dense index absent (optional)
 PASS  foreign key violations 0
-INFO  cube target observations with a known gender 165775, with a known observed number 57214
+INFO  cube target observations with a known gender 165775, with a known observed number 57212
 
 [G] Text
 PASS  verse files 31102 (expected 31102); empty 0
@@ -48,8 +48,8 @@ PASS  verse files 31102 (expected 31102); empty 0
 [H] OT noun coverage (existing text vs the OT noun table, WLC base)
 PASS  triage report newer than the OT table / accepted forms: True
 PASS  OT anchors missing 0 (0.0%); verses with a miss 0; RED 0 / ORANGE 0 / YELLOW 0
-PASS  NT anchors (TR1550 nouns): 28840 checked (measured by verify_coverage.py); exact 25316; accepted by review 3524; STILL MISSING (no accepted verdict) 0; no rendering 0
-PASS  proper-name anchors (name_check.py): ok 34240; accepted variant 0; accepted by review 359; STILL MISSING 0 in 0 (Strong's, rendering) groups; no rendering 0
+PASS  NT anchors (TR1550 nouns): 28840 checked (measured by verify_coverage.py); exact 25309; accepted by review 3531; STILL MISSING (no accepted verdict) 0; no rendering 0
+PASS  proper-name anchors (name_check.py): ok 34265; accepted variant 0; accepted by review 334; STILL MISSING 0 in 0 (Strong's, rendering) groups; no rendering 0
 INFO  NT excluded by project-wide rule, not reviewed: 40 bracketed TR subscription positions + 9 textual-policy positions (shorter critical text: ROM 12:11, 1TI 3:16, 1JN 5:7-8, GAL 3:1, REV 1:11); Chinese uses the full TR1550 readings; other language policy unchanged
 
 RESULT: ALL PASS
