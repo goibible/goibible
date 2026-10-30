@@ -55,6 +55,7 @@ What changed:
 `reports_archive/`, `sweep_history/`, dated docs, and
 `docs/greek_to_chinese_gameplan.md`. Read old names there as the names that
 were in use when those files were written.
+Scripts there are still scanned (`staging/`, `plans/`), since they can be rerun; they use the new names.
 
 **Legacy aliases** keep saved state from older builds working:
 

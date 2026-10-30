@@ -5,7 +5,7 @@ HERE=Path(__file__).parent;ROOT=HERE.resolve().parents[4];NIM=ROOT/'Meta_Bible_D
 from scipy import sparse
 from build_cube import vectorize,WINDOW
 from target_adapters import TargetAdapter
-NEW=(ROOT/'GOI_Bible/GOI_Bible_English/019_PSA_035_017_GOI_En.txt').read_text().strip()
+NEW=(ROOT/'GOI_Bible/GOI_Bible_en/019_PSA_035_017_GOI_En.txt').read_text().strip()
 assert NEW=='Lord, how long will you look on? Rescue my soul from their destructions, my precious life from the young lions.'
 inventory=json.loads((HERE/'sqlite_inventory.json').read_text());records=[];historical=[]
 def archive(path):return '/archive/' in path or '/local_backups/' in path or '/staging/deploy/' in path or '/.GOIBible-win-before-' in path

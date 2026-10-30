@@ -47,8 +47,8 @@ CLIENT_KWARGS = dict(base_url=os.environ["OPENAI_BASE_URL"], api_key=os.environ[
                       timeout=180.0, max_retries=0)
 
 HEBREW = REPO_ROOT / "Reference_Bible" / "Hebrew_Bible_WLC" / "One_Directory_WLC_KJV"
-ZH_DIR = REPO_ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant"
-ZH_EDITION_SUFFIX = "_GOI_Zh_Hant.txt"
+ZH_DIR = REPO_ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant"
+ZH_EDITION_SUFFIX = "_GOI_zh-Hant.txt"
 AUDITS = ROOT / "audits_ot"
 PRIORITY_CSV = ROOT / "audit_priority_ot.csv"
 
@@ -212,7 +212,7 @@ def main() -> None:
     verses = list(iter_verses(args.book))
     total = len(verses)
     if total == 0:
-        sys.exit("No matching verses found (check --book and that GOI_Zh_Hant/WLC files exist).")
+        sys.exit("No matching verses found (check --book and that GOI_zh-Hant/WLC files exist).")
 
     done_verses = errors = 0
     for i, (stem, code, ch, vs, hf, zf) in enumerate(verses, 1):

@@ -47,8 +47,8 @@ CLIENT_KWARGS = dict(base_url=os.environ["OPENAI_BASE_URL"], api_key=os.environ[
 
 GREEK = REPO_ROOT / "Reference_Bible" / "Greek_Bible_TR1550" / "One_Directory_TR1550"
 DB = META_ROOT / "Bible_Noun_Extraction" / "greek_noun.sqlite3"
-ZH_DIR = REPO_ROOT / "GOI_Bible" / "GOI_Bible_Chinese_Hant"
-ZH_EDITION_SUFFIX = "_GOI_Zh_Hant.txt"
+ZH_DIR = REPO_ROOT / "GOI_Bible" / "GOI_Bible_zh-Hant"
+ZH_EDITION_SUFFIX = "_GOI_zh-Hant.txt"
 AUDITS = ROOT / "audits"
 PRIORITY_CSV = ROOT / "audit_priority.csv"
 
@@ -392,7 +392,7 @@ def main() -> None:
     verses = list(iter_verses(args.book))
     total = len(verses)
     if total == 0:
-        sys.exit("No matching verses found (check --book and that GOI_Zh_Hant files exist).")
+        sys.exit("No matching verses found (check --book and that GOI_zh-Hant files exist).")
 
     done_verses = errors = 0
     for i, (stem, code, ch, vs, gf, zf) in enumerate(verses, 1):

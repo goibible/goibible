@@ -3,7 +3,7 @@ import sys,sqlite3,json,hashlib
 HERE=Path(__file__).parent;ROOT=HERE.resolve().parents[4];NIM=ROOT/'Meta_Bible_Data/Bible_Noun_Extraction';sys.path.insert(0,str(NIM));sys.path.insert(0,str(NIM/'translation_cube'))
 from scipy import sparse
 from build_cube import vectorize
-r=json.loads((HERE/'sqlite_updates.json').read_text());new=(ROOT/'GOI_Bible/GOI_Bible_English/019_PSA_035_017_GOI_En.txt').read_text().strip()
+r=json.loads((HERE/'sqlite_updates.json').read_text());new=(ROOT/'GOI_Bible/GOI_Bible_en/019_PSA_035_017_GOI_En.txt').read_text().strip()
 for u in r['updates']:
  c=sqlite3.connect((ROOT/u['database']).as_uri()+'?mode=ro',uri=True);c.row_factory=sqlite3.Row;row=c.execute('SELECT * FROM '+u['table']+' WHERE rowid=?',(u['rowid'],)).fetchone();assert row['verse_text']==new
  if u['score_preserved'] is not None:assert row['score']==u['score_preserved']==82
