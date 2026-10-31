@@ -1,0 +1,228 @@
+verse	sha	verdict	note
+001_GEN_014_024	f33cbdc0f5a7	FLAG	Adds 'I do not seek anything' before 'except'; source has only 'except'.
+001_GEN_050_016	2451c7bd900c	FLAG	Hebrew 'they commanded Joseph' rendered as 'they sent to Joseph'; the commanding idea is lost.
+002_EXO_005_019	29f0422522f1	FLAG	'Saying' is rendered as passive 'it was said to them,' changing the speaker.
+002_EXO_010_005	7133830f1cf5	FLAG	Changes subject: source says the locust will not be able to see the land; Arabic says 'no one can see the land'.
+002_EXO_018_011	ffd381ea605c	FLAG	Adds 'he showed his greatness' not in the source, which states only that they dealt arrogantly.
+002_EXO_020_013	74df0ae70f49	FLAG	Adds 'unjustly' (ظلماً), a qualifier not in the source's absolute prohibition.
+002_EXO_021_016	6dc8126bfd25	FLAG	Hebrew has 'and he is found in his hand' (conjunction); Arabic renders it 'or is found', changing the condition to an alternative.
+002_EXO_022_011	d21dca76e20a	FLAG	Adds that the owner accepts the oath; source says the owner shall take the animal, and adds 'the keeper' as subject.
+002_EXO_028_035	311f0dc63486	FLAG	Pronoun shift: 'its sound' (the robe's) instead of 'his voice' (Aaron's).
+003_LEV_013_055	a8c97c890a7f	FLAG	Renders 'in his baldness or in his forehead' as 'in the back of the garment or its front'—wrong idea, omits baldness/forehead.
+003_LEV_017_014	6d88c0fd049c	FLAG	Adds clause 'and its blood is bound to its life' not in the source.
+004_NUM_004_020	09663da9ea7e	FLAG	Adds 'even for a moment' (ولو لحظة) not in source; omits the idea of the holy thing 'being swallowed' (כבלע).
+004_NUM_010_021	6ea9acef442c	FLAG	Adds 'the others' as subject of setting up the tabernacle; source does not specify who set it up.
+004_NUM_011_008	ffb5a6b2ab33	FLAG	Adds 'qataif' pastry; source compares taste to fresh oil, not oil cakes.
+004_NUM_023_004	cf914ae55e97	FLAG	Arabic makes Balaam the speaker ('Balaam said to him'), whereas source has God speaking to Balaam.
+004_NUM_023_020	2042464a9ff6	FLAG	Renders 'I will not turn it back' as 'I cannot turn back his blessing,' adding inability.
+005_DEU_033_003	1e59dced934a	FLAG	'prostrate at your feet' rendered 'sit at your feet'; singular 'he accepts/bears from your words' made plural 'they carry'
+006_JOS_021_009	8af240cbab76	FLAG	Source singular 'he called them by name' rendered as plural 'they called' (person change).
+006_JOS_022_023	4cb7a0c9adbe	FLAG	Statement 'Yahweh is the one who will require' changed to jussive wish 'let the Lord himself hold us accountable'
+006_JOS_022_033	f9f0b400c796	FLAG	Adds 'no longer/again' (لم يعودوا) not in source's 'they did not say'.
+007_JDG_003_002	5710a97a4fd0	FLAG	Adds 'he left them' (أبقاهم), which is not in the source.
+007_JDG_005_013	151673f69d95	FLAG	Second clause changes subject: 'Yahweh descended' rendered as 'the people of the Lord descended.'
+007_JDG_005_014	f5c47035112b	FLAG	'their root is in Amalek' changed to 'their root came from Amalek' (adds 'came', changes 'in' to 'from')
+007_JDG_008_025	0212c0cfcd4a	FLAG	Adds 'willingly' and object 'it to him' not in the source's 'we will surely give'.
+007_JDG_013_005	b3781ab7aa31	FLAG	Razor is mistranslated as 'Moses' (موسى), adding Moses and omitting the razor.
+007_JDG_015_018	9d2c2510e8e8	FLAG	Statement 'I will die of thirst' turned into a rhetorical question ('shall I die...?').
+007_JDG_020_010	42b41d419c2d	FLAG	Adds 'recompense' and 'to her'; changes 'when they come' to 'let us go'.
+007_JDG_020_030	ebaffdb50f81	FLAG	Adds 'the two previous times'; source says only 'as at other times/as before'.
+007_JDG_021_022	395272150f7b	FLAG	Reverses final clause to 'you are not guilty'; also renders 'grant them to us' as 'be gentle with them'.
+008_RUT_001_017	1fbb182c20ba	FLAG	Reverses meaning: source says death WILL separate me and you; Arabic says 'if anything other than death separates'.
+009_1SA_001_011	6b6ad5262dbf	FLAG	'Razor' (מוֹרָה) is mistranslated as 'Moses' (موسى), so the razor not touching his head is lost.
+009_1SA_013_018	f5443e742caf	FLAG	Adds 'the third band' where source says 'one band'.
+009_1SA_018_021	18360e6ce333	FLAG	Hebrew 'with two' rendered as 'with one of the two,' changing the number/meaning
+009_1SA_019_003	bc668cced333	FLAG	Renders 'what he says' as 'what happens', changing the idea.
+009_1SA_020_012	98572b3d7fce	FLAG	Reverses negation: 'I will not send and inform you' becomes rhetorical 'will I not send?'; omits the 'but if not, I will tell you' clause.
+009_1SA_025_011	b09a89fe934d	FLAG	Hebrew is a statement ('I will take... and give'), Arabic turns it into a rhetorical question ('Shall I take...?').
+009_1SA_026_004	e2af9d09395a	FLAG	Omits the place name Nachon ('to Nachon'); says only that Saul had indeed arrived.
+010_2SA_012_014	abdfed1b6fb7	FLAG	Source says David rejected/spurned the enemies of Yahweh; Arabic says he made them blaspheme against him, adding a new idea and reversing the agent.
+010_2SA_014_015	2a6dc2ad45ca	FLAG	Renders 'the people will see me' as 'the people frightened me' (different idea)
+010_2SA_018_003	2f9b8f9652f7	FLAG	Changes 'we are like ten thousand' to 'you equal ten thousand of us' — subject/person shifted from we to you.
+010_2SA_022_033	7d736fd15c6e	FLAG	Arabic says 'my way' where source has 'his way'.
+011_1KI_001_027	32c6065f81c3	FLAG	Renders singular 'your servant' as plural 'your servants' (عبيدك).
+011_1KI_003_019	ff6c17796b0f	FLAG	Arabic adds causal 'because she lay upon him' instead of 'the night on which she lay upon him'.
+011_1KI_006_001	3216f7477aca	FLAG	'Of Solomon's reign' attached to 'second month' instead of 'fourth year'; fourth year of reign not stated
+011_1KI_006_034	f82d337e6229	FLAG	Second door's 'two hangings/curtains' (קלעים) rendered as 'two boards', losing distinction from first door's side-panels.
+011_1KI_011_018	3b442592ac76	FLAG	Omits 'and he spoke to him' (אָמַר לוֹ) between giving bread and giving land.
+011_1KI_019_001	311bac707980	FLAG	Adds 'of Baal' to 'all the prophets', a specification not in the source.
+014_2CH_001_013	7eed0538a7db	FLAG	Source says Solomon came TO the high place in Gibeon; Arabic says he came FROM the high place to Jerusalem, reversing direction.
+014_2CH_003_002	f5bbea8775aa	FLAG	Adds 'the house of the LORD' as object of building, not in source.
+014_2CH_031_010	ed20d96a5a45	FLAG	Person change: 'we ate and were satisfied' instead of 'the people ate and were satisfied'.
+015_EZR_004_009	d050134cb167	FLAG	Adds 'from' as sender and omits 'then' at the start.
+015_EZR_004_010	5156da005a8b	FLAG	Renders 'and so forth' as 'and at that time', adding a temporal idea not in the source.
+015_EZR_004_018	a4a2c682e9f4	FLAG	Adds 'translated' (مترجمة), which is not in the source's 'plainly read'.
+015_EZR_007_007	4f3381492403	FLAG	Adds 'with him,' which is not in the source.
+016_NEH_003_008	219fee094de6	FLAG	Last clause says the people of Jerusalem left the city to the Broad Wall, instead of they fortified/restored Jerusalem as far as the wall.
+016_NEH_005_004	3b73945684a6	FLAG	Adds that the fields and vineyards are pledged; the source only names them.
+016_NEH_005_011	7dc624b21a02	FLAG	Adds 'part of' to the hundred of silver, changing the amount; also omits the entreaty 'we pray'.
+016_NEH_006_009	6dc89f0034ba	FLAG	Adds the vocative 'O God' not present in the source.
+016_NEH_006_013	d3cc3606ebec	FLAG	Arabic changes plural 'them/they' to dual 'them two/they two', adding a dual referent not in source.
+016_NEH_007_003	2c1b11f52365	FLAG	Adds 'the guards' as subject and uses dual 'to them' instead of plural.
+016_NEH_011_036	21aa79f63dca	FLAG	Adds 'dwelling' and renders 'in Judah and in Benjamin' as 'from Judah in Benjamin'.
+016_NEH_013_015	8d9ebeb76176	FLAG	Adds 'wheat' to 'heaps'; source says only heaps.
+018_JOB_003_003	4840ea76d7d1	FLAG	Source has the night personified as speaker ('the night that said'); Arabic renders it passively 'in which it was said,' changing the speaker.
+018_JOB_003_011	ba16f8b949f7	FLAG	Source says 'come forth from the belly and perish'; Arabic negates it: 'I came out... and did not die,' reversing the meaning.
+018_JOB_004_006	3f3ba7d88f12	FLAG	Changes 'your fear is your confidence' to 'your reliance is on your fear' and links hope to integrity of ways.
+018_JOB_004_019	ddaf286c06ba	FLAG	Adds 'how much more' (فكم بالحري); source says 'even'.
+018_JOB_006_021	0d49d3f19c44	FLAG	Reverses negation: source says 'you did not see calamity,' Arabic says 'you saw the blow'
+018_JOB_009_020	7a1decf9c436	FLAG	Turns 'I am blameless' into a conditional 'if I were perfect'.
+018_JOB_009_029	94daacb7a1c0	FLAG	Arabic makes 'I am wicked' conditional ('if I am guilty'), changing assertion to hypothesis.
+018_JOB_010_009	320d4da18427	FLAG	Changes the statement 'to dust you will return me' into a question.
+018_JOB_010_017	2cc8a1556067	FLAG	Renders 'host with me' as 'host against me' and adds 'circumstances change'.
+018_JOB_010_020	00983852911b	FLAG	Changes imperative 'cease' to third-person 'let him cease' and renders 'take comfort' as 'endure/be patient'.
+018_JOB_012_003	5220fbc0d807	FLAG	Arabic says 'who does not know such things' instead of 'who does not have such things'.
+018_JOB_014_006	7a3638ca50c1	FLAG	Renders 'until he fulfills his day' as 'until he is happy in his day,' changing the predicate's meaning.
+018_JOB_015_002	337069b360bd	FLAG	Statements turned into rhetorical questions ('Does the wise answer...? Does he fill...?')
+018_JOB_015_012	b69dee1e44b4	FLAG	Question word changed from 'what' to 'why' in both clauses.
+018_JOB_016_005	0244cca8ddfd	FLAG	'Moving of my lips will restrain' changed to 'consolation of my lips will lighten from you'—adds consolation/lighten, omits moving/restrain.
+018_JOB_016_007	0bb0258eb00b	FLAG	Source question 'have you destroyed' rendered as a statement 'you have destroyed'.
+018_JOB_016_010	32d7a627b5d2	FLAG	Final clause 'together they will be filled against me' is rendered 'they gathered against me'; 'filled' omitted.
+018_JOB_019_003	e575a2d021df	FLAG	Renders 'you shall treat me as a stranger' as 'be arrogant against me', changing the idea.
+018_JOB_019_004	75543dc8bad6	FLAG	Source asserts 'indeed/surely I have erred'; Arabic makes it conditional 'if I have erred'.
+018_JOB_019_028	aa91f78c216d	FLAG	Passive 'why is he pursued' changed to active 'how do we pursue him' (different subject/voice).
+018_JOB_020_028	dbaf24dc6ff1	FLAG	Adds 'floods' as agent not in source; source says his increase shall be carried/flow away.
+018_JOB_021_018	313770fff155	FLAG	Statement 'They are like stubble' turned into a question 'Will they be...?'
+018_JOB_022_020	e163f53ab83f	FLAG	Negation reversed: 'our substance is not cut down' becomes affirmative 'our resisters have perished'.
+018_JOB_022_025	73b9122ac6a7	FLAG	Calls the Almighty 'your gold' instead of 'your defense'; adds gold and omits defense.
+018_JOB_023_006	da56881a85df	FLAG	"""he would put [strength] in me"" rendered as ""he listens to me"" — different idea."
+018_JOB_026_010	2b03baa694a9	FLAG	"""until the end of light with darkness"" changed to ""a boundary between light and darkness"" — idea altered."
+018_JOB_027_022	8be18fdc4c8f	FLAG	Pronoun/gender changed: Arabic has feminine 'she/it casts him' and 'from her hand' instead of masculine 'he... his hand'.
+018_JOB_027_023	73839c3029d4	FLAG	Arabic changes plural 'they clap their hands' to feminine singular 'she claps with her hands'.
+018_JOB_029_016	bb14bb19c21a	FLAG	Arabic says 'claim of one I did not know' instead of 'controversy I did not know'; adds a person and shifts the object.
+018_JOB_030_003	d1c3996d7bd7	FLAG	Adds 'forsaken' and 'their place was' not in the source; the wilderness-desolation image is recast.
+018_JOB_031_031	0f2b36290555	FLAG	Changes 'Who will give of his flesh? We are not satisfied' into 'who finds one not satisfied with his flesh'.
+018_JOB_032_009	bb8593797f47	FLAG	Adds 'always' (دائمًا) to elders understanding judgment.
+018_JOB_033_013	d62d5913ef3c	FLAG	Source says 'all his words'; Arabic says 'all his actions/deeds'.
+018_JOB_033_016	a143b865ede0	FLAG	Changes 'by their instruction he seals' to 'he seals their instruction,' omitting the means idea.
+018_JOB_033_027	1f0ec66f3d2f	FLAG	'it does not profit me' changed to 'he did not repay me for that' — different subject and idea
+018_JOB_034_006	b6276dcfd06b	FLAG	Omits 'my arrow' and applies 'without transgression' to the speaker rather than the arrow.
+018_JOB_035_003	e9f2d264e8bf	FLAG	Adds 'more' and changes 'from my sin' to 'more than my sin.'
+018_JOB_036_014	00ab35346c40	FLAG	Adds 'effeminate' (الْمُخَنَّثِينَ) not present in the source's 'consecrated.'
+018_JOB_036_019	408011b2a429	FLAG	Replaces 'Will he esteem your cry? No, not gold' with 'Will your wealth save you from distress' — different subject and predicate.
+018_JOB_036_020	2c05b6173f63	FLAG	Source 'in their place' (תחתם) rendered as 'from their places', changing the sense.
+018_JOB_036_030	0f1939e6d8ab	FLAG	Renders 'upon it' as 'around him'; changes preposition and pronoun.
+018_JOB_037_017	88812eb7073f	FLAG	Adds interrogative 'Are you...?' and question mark; source is a relative statement.
+018_JOB_037_020	a3d1f1fac4c8	FLAG	Second clause changed from statement ('he will be swallowed up') to question ('will he be swallowed?').
+018_JOB_037_021	902c5debf85b	FLAG	Object pronoun changed: 'cleared them' is rendered 'purifies it'.
+018_JOB_038_008	615b869e61ef	FLAG	Statement ('He shut the sea') changed into a question ('Who shut...?').
+018_JOB_038_014	dd31a932accb	FLAG	Changes 'they will stand as a garment' to 'it appears as if wearing a garment'; adds 'wearing', omits 'stand'.
+018_JOB_038_021	a07469eced73	FLAG	Source is a statement 'You know'; Arabic turns it into a question 'Do you know?'
+018_JOB_038_027	6b347195d3de	FLAG	Adds 'land' as object and 'vegetation' not present in source.
+018_JOB_041_025	40dd8b3753cb	FLAG	Source 'they purify themselves' rendered as 'they retreat/withdraw', a different idea.
+018_JOB_042_006	376ac6cf95ed	FLAG	Adds 'my words' (كلامي) as object of despising, not present in the source.
+019_PSA_005_009	eba426a81043	FLAG	Source says 'his mouth' (singular); Arabic has 'their mouth' (plural).
+019_PSA_016_002	623730857960	FLAG	Source says 'You said' (2nd person); Arabic reads 'I said' (قُلْتُ), reversing the speaker.
+019_PSA_017_010	ac0b49038a24	FLAG	Adds 'their hearts' as object; source says they closed their fat, not hearts.
+019_PSA_018_044	5ee5cba12afe	FLAG	Renders 'will submit to me' as 'flatter me,' changing the predicate/idea.
+019_PSA_024_004	fb4c69330886	FLAG	Hebrew 'my soul' (נַפְשִׁי) rendered as 'his soul' (نفسه), a person shift.
+019_PSA_026_004	186364da1b20	FLAG	Hebrew 'those who conceal/hide' rendered as 'those who show off/pretend' — opposite idea.
+019_PSA_049_014	19257866906e	FLAG	Last clause reversed: source says their form is consumed away from their dwelling; Arabic says Sheol will be their dwelling.
+019_PSA_056_007	a84d9a055791	FLAG	Imperative 'deliver them' changed into a rhetorical question 'Will they escape by iniquity?'
+019_PSA_058_009	fac7c2819d27	FLAG	Replaces 'like the living, like the fierce wrath' with 'whether green or burnt'; changes subject 'he' to 'the storm'.
+019_PSA_059_010	9012e43904f5	FLAG	Source says 'his steadfast love'; Arabic says 'my mercy' (pronoun changed).
+019_PSA_060_008	a7ed60d1c703	FLAG	'Over me' (עָלַי) is replaced by 'at my victory' (بانتصاري), adding 'my victory' and losing 'over me'.
+019_PSA_064_005	055443a0c1d5	FLAG	Changes 'Who will see them?' to 'Who sees us?' — person/referent altered.
+019_PSA_064_007	c902a5917d68	FLAG	Adds 'upon them' to 'their wounds were,' which is not in the source.
+019_PSA_064_008	27db9becf3a0	FLAG	Agent/object reversed: Hebrew 'they made him stumble', Arabic 'their tongue made them fall'.
+019_PSA_066_011	9d549ec3ecbf	FLAG	Source's question 'Have you brought us into the snare?' rendered as a statement
+019_PSA_069_006	760b6d4bd590	FLAG	Omits 'Yahweh' in 'Lord Yahweh of hosts'.
+019_PSA_073_020	76c2ee3cc35e	FLAG	Omits 'in the city'; adds 'at your awakening'.
+019_PSA_074_003	4f5330c0b820	FLAG	'All the harm' becomes 'all the sanctuary'; scope of 'all' shifted.
+019_PSA_080_018	6853daf5732e	FLAG	Passive 'in your name we are called' changed to active 'we call upon your name'.
+019_PSA_091_009	84ef2718ebd9	FLAG	Adds 'you said' and quotation, turning the statement 'you are my refuge' into God's speech; changes speaker.
+019_PSA_094_010	572de911b82d	FLAG	Second question's verb 'discern' (יוכיח/יבין) is missing; 'teacher of man knowledge' left without predicate.
+019_PSA_104_004	e77aff7cbf64	FLAG	Reverses the metaphor: makes the winds his messengers, instead of making his messengers winds
+019_PSA_105_015	8b353a903417	FLAG	Adds 'saying' (قَائِلًا) not in the source verse.
+019_PSA_109_010	f2496c43b485	FLAG	Adds 'bread' (خبزًا) as the object of seeking, which is not in the source.
+019_PSA_116_001	0499973b96fa	FLAG	Adds 'the Lord' as explicit object of love; source has no object.
+019_PSA_119_085	8ed2fbd1d8c8	FLAG	Relative clause refers to the proud rather than the pits, saying the people are not according to your law.
+019_PSA_139_019	ff21d6b91764	FLAG	Indicative 'surely you will slay' rendered as optative wish 'I wish you would kill' (ليتك تقتل)
+019_PSA_141_005	5fdc78d7cf18	FLAG	'ضد شرورهم' (against their evils) changes 'in their adversities' to a different idea.
+019_PSA_141_010	df4d71aadf69	FLAG	Adds 'in peace' (بسلام) and 'so that' not in source; 'together' attached to the wicked rather than 'I'.
+020_PRO_003_012	82da7bc40ab8	FLAG	Second clause omits 'reproves': Arabic has only 'as a father delights in his son', dropping the verb applied to the son.
+020_PRO_005_006	c9a609187153	FLAG	Adds 'you do not know' to the first clause and renders 'ponder' as 'incline'.
+020_PRO_010_003	124fbaeacf81	FLAG	Hebrew 'calamity (הַוַּת) of the wicked' is rendered 'desire/lust of the wicked' — a different idea
+020_PRO_010_006	515d4d13f928	FLAG	Subject/object reversed: Arabic says violence covers the wicked's mouth, not the mouth covers violence.
+020_PRO_010_011	1876891fd403	FLAG	Reverses subject/object: source says the wicked's mouth covers violence; Arabic says violence covers it
+020_PRO_011_006	f013991e61ea	FLAG	Hebrew 'their calamity/destruction' rendered as 'their lust' — different idea.
+020_PRO_011_024	1164015be87f	FLAG	Renders 'withholds from uprightness' as 'withholds more than is proper', adding a comparative idea not in source.
+020_PRO_013_015	3ff30ed0bb3e	FLAG	'Enduring/permanent' (איתן) replaced by 'rough/rugged' (وعر), a different idea
+020_PRO_017_010	63a465a8e8de	FLAG	Predicate 'is better' replaced by 'penetrates to the heart'; the comparison 'better than' is lost.
+020_PRO_018_001	facd02246f5f	FLAG	Second clause says 'quarrels with all sound wisdom' instead of 'will be overthrown in every enterprise'.
+020_PRO_022_020	44579f3cca12	FLAG	Omits 'formerly' (שלשום) and adds 'excellent things' (variant reading שלישים).
+021_ECC_003_018	a5e830c834b9	FLAG	Arabic says God tests them to show them, omitting that they may see; changes subject of seeing.
+021_ECC_007_018	2d75dc9f9fb5	FLAG	Adds 'safe' and changes 'all of them' to 'both'.
+022_SNG_005_013	8d0ccbfb98cc	FLAG	'Towers of perfume' is rendered as 'buds/sleeves of perfume'; the 'towers' image is omitted.
+023_ISA_003_005	688beccc7947	FLAG	Passive 'the people are oppressed' rendered as active 'the people dominate/tyrannize', reversing agent and meaning.
+023_ISA_010_004	765fb55d17a9	FLAG	Negation 'without bowing' (בלתי כרע) rendered as 'except that they fall' (إلا أن يخروا), reversing the sense.
+023_ISA_010_010	4813e09f31a9	FLAG	Adds comparison 'their images were more than those of Jerusalem and Samaria', changing 'from Jerusalem and Samaria' into a comparison.
+023_ISA_010_013	1c81761ab253	FLAG	Adds 'from their thrones' and renders 'inhabitants' as 'the mighty'; extra idea not in source.
+023_ISA_010_033	7d39d3c39eac	FLAG	Renders passive 'brought low' as reflexive 'humble themselves' (يتواضعون), adding self-humbling.
+023_ISA_017_012	f4a298667e86	FLAG	Omits the final clause 'they will be driven away' (יִשָּׁאוּן).
+023_ISA_018_002	dea208684e90	FLAG	Adds second-person 'You who send'; replaces 'meted out and trodden under foot' with 'strong, victorious'.
+023_ISA_027_008	0c0f6c7cc654	FLAG	Second-person 'you contended with her' changed to third person 'he contends'; 'he restrained/moaned' rendered 'he removed her'.
+023_ISA_028_028	d2d6d0bcc532	FLAG	Arabic negates the cart wheel's action ('wheel and horses do not crush'), losing the positive clause about the wheel.
+023_ISA_030_001	287b7d54b5d7	FLAG	'Pour out a molten image' replaced by 'weave a covenant/league', adding an idea not in the source and dropping the molten image.
+023_ISA_030_008	884c7f2662de	FLAG	"Adds ""as a witness"" (شاهدًا), an idea not in the source."
+023_ISA_030_027	8085a8406778	FLAG	Hebrew 'heavy burden' rendered as 'the smoke is much'—adds smoke, omits heavy burden.
+023_ISA_034_012	223c76bfb79e	FLAG	Reverses clause: says 'no one calls to a king' instead of 'they shall call to the kingdom, but none shall be there'.
+023_ISA_034_016	b763e50cb228	FLAG	Source 'my mouth commanded' rendered as 'his mouth commanded' — person changed.
+023_ISA_037_026	1f2fc92674f7	FLAG	Omits 'from afar' (מרחוק); only 'from ancient times' is kept.
+023_ISA_044_007	26b798ec447e	FLAG	Omits 'to them' (לָמוֹ) as recipients of the declared signs.
+023_ISA_048_015	319e227ff271	FLAG	Subject of 'make his way prosper' changed from 'he' to 'I' (God).
+023_ISA_053_009	415844f9a059	FLAG	Subject changed: Hebrew 'he gave his grave' becomes plural 'they made his grave'.
+023_ISA_053_010	a85611b9a6c0	FLAG	Hebrew 'if you make his soul a guilt offering' (2ms) changed to 'if he makes himself' (3rd person).
+023_ISA_057_004	973ad8343218	FLAG	Hebrew 'delight yourselves' rendered as 'mock', adding an idea not in the source
+023_ISA_057_008	b871c5913b4e	FLAG	Adds 'you left me' and limits covenant partners to 'some of them'; source says 'from me you uncovered' and 'with them.'
+024_JER_003_001	01a156cb4201	FLAG	Imperative 'return to me' turned into a question 'do you then return to me?'
+024_JER_006_007	b8865d9c31ca	FLAG	Adds 'pure' (نقية) and 'flowing' (نابعًا) not in the source
+024_JER_008_018	1d350407bd9e	FLAG	Omits the clause 'I would comfort myself' concerning sorrow.
+024_JER_013_018	636590405a75	FLAG	Omits 'your principalities have fallen' (מַרְאֲשׁוֹתֵיכֶם); only the crown of majesty is mentioned.
+024_JER_031_002	462ff005f828	FLAG	Changed 'going to give him rest' (God giving rest) into 'Israel going to his rest'—agent of resting altered.
+024_JER_031_003	c70b4c59b5cb	FLAG	'I have drawn you with kindness' rendered as 'I prolonged mercy for you'—the idea of drawing is replaced.
+024_JER_031_005	903ff7161b57	FLAG	Hebrew 'וְחִלֵּלוּ' (they will defile/profane) rendered as 'they will enjoy its fruit' — meaning changed.
+024_JER_032_035	6346192dae66	FLAG	Adds 'in the fire' to the Molech offering, not in source.
+024_JER_044_008	c9ff837c4d24	FLAG	Source 'in order to cut you off' (God's action) rendered as 'you destroy yourselves,' changing the agent.
+024_JER_044_015	ebf7c39cc5b6	FLAG	Reverses subject: Arabic says Jeremiah answered all the men, instead of the men answering Jeremiah.
+024_JER_046_011	2576ec0b0f3e	FLAG	Person reversed: source 'I have multiplied medicines' (God speaking) becomes 'you multiplied your medicines'.
+024_JER_046_020	a936564c4ba4	FLAG	'Destruction from the north' is rendered as 'a disc/bite from the north'; the idea of destruction is missing.
+024_JER_048_012	03dea7597fb4	FLAG	'Wanderers who cause him to wander' rendered as 'emptiers who empty him', losing the staggering/wandering idea.
+024_JER_048_015	4546a8ef45c7	FLAG	Arabic omits the predicate 'her cities have gone up'; it only names the cities.
+024_JER_049_021	51ca52652f8b	FLAG	Omits the final clause 'the sound of her voice' (her voice), changing it to 'their cry'.
+024_JER_050_045	00fa36f6f7a9	FLAG	Last clause rendered 'he will terrify the pasture because of them' instead of 'he will make desolate their dwelling place'.
+024_JER_051_001	3e3dfecaea04	FLAG	Replaces 'the inhabitants of the midst of those who rise up against me' with 'the inhabitants of the heart of the land of the Chaldeans'.
+024_JER_051_003	586e8e16aea2	FLAG	Negation reversed: source says 'do not let the archer bend his bow / not lift himself up,' Arabic says 'let him bend... let him rise.'
+026_EZK_007_011	1d07401ba12a	FLAG	Renders 'not from them' as 'none of them remains', adding a 'remain' predicate not in the source.
+026_EZK_008_017	e0cf3a389d75	FLAG	'before their nose' rendered 'to my nose' — changes the possessor from their to my
+026_EZK_011_003	c584cf3f6b28	FLAG	Source says 'It is not near; let us build houses,' but Arabic turns it into a question 'Is not building houses near?' — negation reversed.
+026_EZK_013_019	f2655486ff15	FLAG	Source 'they profaned me' (3rd person) rendered as 'you profaned me' (2nd person).
+026_EZK_016_021	4a46f5c01168	FLAG	Adds 'in the fire' (في النار), which is not in the source.
+026_EZK_016_052	1ebcd8b8fe37	FLAG	'Pleading the case for your sisters' rendered as 'judging against your sisters' — direction reversed.
+026_EZK_017_007	890066053b3b	FLAG	'one eagle' (אחד) rendered as 'another eagle' (آخر), changing the meaning.
+026_EZK_017_015	60ac04a7b915	FLAG	Turns 'he has broken the covenant; will he escape?' into 'will he escape from breaking the covenant?'—loses the statement of breaking.
+026_EZK_020_026	1fab6af0c627	FLAG	Adds 'بالنار' (through fire), not present in the source's 'causing every firstling of the womb to pass'.
+026_EZK_021_019	08201a8040bf	FLAG	Adds 'your hand' and 'at the fork/crossroads' (عند المفترق), not in the source.
+026_EZK_024_012	687b499aacbd	FLAG	Final clause changed from 'her scum is in the fire' to 'let the fire devour her scum.'
+026_EZK_032_006	ec22e47a4174	FLAG	Arabic omits the modifier 'your swimming/overflowing' attached to the land in the source.
+026_EZK_032_020	72ff840154f3	FLAG	Adds 'Egypt' as object of 'draw' ('draw Egypt'), not in source, which says 'draw it' (the sword).
+026_EZK_041_003	657fef726747	FLAG	Arabic has dual 'two posts' where source reads singular 'the post of the entrance'.
+026_EZK_047_013	a7c8668d82fc	FLAG	Adds 'two portions' (نصيبان) where source says simply 'portions' (חבלים).
+027_DAN_003_007	71a0a58a2708	FLAG	The hearing clause omits 'nations and languages'; only 'all peoples' hear the sound.
+027_DAN_004_029	566e0fc806bf	FLAG	Adds 'on the roof' (على سطح); source says in the royal palace.
+027_DAN_005_026	b782bf4e6d46	FLAG	Adds 'days' (أيام) to 'your kingdom'; source has only 'your kingdom.'
+027_DAN_011_008	b039620ce282	FLAG	Last clause says 'remain years far from the king of the north' instead of 'stand more years than the king of the north'.
+028_HOS_004_016	19bd48e76853	FLAG	Statement ('Yahweh will pasture them') turned into a rhetorical question ('Will Yahweh pasture them?')
+030_AMO_005_007	9ed4206eadb2	FLAG	Source is third person 'They turn justice...', Arabic renders as second person 'You who turn...'
+030_AMO_005_025	4cdcd4775fde	FLAG	Source is a statement ('you brought me'), Arabic turns it into a question ('هل قدمتم').
+033_MIC_002_008	ec60e3a86274	FLAG	Omits the phrase 'from before the garment' (מִמּוּל שַׂלְמָה) modifying the stripping of the robe.
+038_ZEC_005_003	fc9c67b7a923	FLAG	Adds 'as it is written in it' twice and 'false' (كاذب) for the one who swears, not in source.
+038_ZEC_007_013	1418f3935316	FLAG	Reverses speaker: Hebrew 'when I called, they did not hear'; Arabic 'as they called, they did not hear'.
+043_JHN_007_035	295ad6a37b3f	FLAG	Rhetorical question reversed: Greek expects 'no' ('he is not going... is he?'), Arabic 'أليس' expects 'yes'.
+044_ACT_005_024	86776f10828e	FLAG	Adds 'who is the head of the temple' (وهو رئيس الهيكل), not in the source.
+044_ACT_013_027	f5648b6f2b54	FLAG	Omission: 'not knowing ... the voices of the prophets' — Arabic says they did not know 'this' only, then makes the prophets' voices the thing fulfilled.
+044_ACT_025_004	0d54cdffddd2	FLAG	Adds 'to it' (Caesarea): Festus was about to depart shortly, not go to Caesarea.
+047_2CO_012_010	64a54e699f28	FLAG	Adds 'the harm resulting from' insults, an idea not in the source.
+054_1TI_006_021	b1bda4eadb21	FLAG	Omits the closing subscription about being written from Laodicea.
+058_HEB_004_005	f9c002766687	FLAG	Adds 'it was said' (قيل), a speech introduction not in the source.
+066_REV_019_008	073943c08a1e	FLAG	Parenthetical 'فريضة القديسين' (ordinance of the saints) adds an idea not in the source; 'of the holy ones' is altered.
