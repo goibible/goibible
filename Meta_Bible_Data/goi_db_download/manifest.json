@@ -1,6 +1,6 @@
 {
   "format": "goi-sqlite-edition-db",
-  "generated_at": "2026-10-24T16:10:06+00:00",
+  "generated_at": "2026-11-01T04:13:18+00:00",
   "source": {
     "shell_db": "Meta_Bible_Data/sqlite/goi_bible_shell.db",
     "sql_dir": "Meta_Bible_Data/sqlite/versions"
@@ -14,7 +14,7 @@
       "status": "active",
       "file": "GOI_En.db",
       "size_bytes": 9039872,
-      "sha256": "88b92238d8c5bed343fd664a67150fe7184a6851d236906cb54359e8faa09cf6",
+      "sha256": "8f86bfacf9f458d4799319082f6efac518389dc32abbafee6318a56fd3034293",
       "verse_count": 31102
     },
     {
@@ -25,7 +25,7 @@
       "status": "active",
       "file": "GOI_Es.db",
       "size_bytes": 8970240,
-      "sha256": "42c0839f7062d50c1446860b402396c5db8c2e9fa6375c8906cedd65471d3be6",
+      "sha256": "b35ec83c498b3cc4f3e552e52970078de698a8d16af8d5523300cf8fdb92e5e9",
       "verse_count": 31102
     },
     {
@@ -37,6 +37,17 @@
       "file": "GOI_Fr.db",
       "size_bytes": 9363456,
       "sha256": "91a32b7ba643980b9e5cc7d609ba79b6f9832e6522e7bd7bb626b5c3ef719bbc",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_Is",
+      "display_name": "GOI Bible Icelandic",
+      "bcp47_tag": "is",
+      "language_subtag": "is",
+      "status": "active",
+      "file": "GOI_Is.db",
+      "size_bytes": 9117696,
+      "sha256": "8767101c7ed47ff1f477c4039161b157262f8fdb5565e2d27d158b0e0dd6a8fc",
       "verse_count": 31102
     },
     {
@@ -57,8 +68,8 @@
       "language_subtag": "ja",
       "status": "active",
       "file": "GOI_Ja.db",
-      "size_bytes": 10420224,
-      "sha256": "ff449e29e1e214ca425c89281ac08bead51e01a9383d36afe2835e7fbcb5e7b8",
+      "size_bytes": 10424320,
+      "sha256": "d6382635370543ffdf2ec69b239c20e85d00d85990d16cce4fdd1cd66eb306cf",
       "verse_count": 31102
     },
     {
@@ -68,8 +79,8 @@
       "language_subtag": "ko",
       "status": "active",
       "file": "GOI_Ko.db",
-      "size_bytes": 10018816,
-      "sha256": "3056187247578dee3b3f0dba4a1159687dcf605077b52d2ac85662051c0334e9",
+      "size_bytes": 10022912,
+      "sha256": "40ff9e47209f30401f10dbdfb9241e0ac09132c38a24b5c55fe796546db6bfd5",
       "verse_count": 31102
     },
     {
@@ -79,8 +90,8 @@
       "language_subtag": "pt",
       "status": "active",
       "file": "GOI_Pt.db",
-      "size_bytes": 8949760,
-      "sha256": "53911051580867f2313306e03d0fccc4b72538fd621a6e5e5ef9dd7ca96e9057",
+      "size_bytes": 8953856,
+      "sha256": "b34802d58f634ea0db2885736b69a33cfcc4a8381dd0d28f1ad72828a9b9eca9",
       "verse_count": 31102
     },
     {
@@ -91,29 +102,7 @@
       "status": "active",
       "file": "GOI_Ru.db",
       "size_bytes": 11157504,
-      "sha256": "91d86d9ce94e2e2011d2e57d56e788ee90d1d55dc218d1517deae130e6821361",
-      "verse_count": 31102
-    },
-    {
-      "edition_id": "GOI_zh-Hans",
-      "display_name": "GOI Bible Simplified Chinese",
-      "bcp47_tag": "zh-Hans",
-      "language_subtag": "zh",
-      "status": "active",
-      "file": "GOI_zh-Hans.db",
-      "size_bytes": 9355264,
-      "sha256": "52d4292dc80ac8cd46205cd27caafcfcf83901483fdb9259674eab8f109e374b",
-      "verse_count": 31102
-    },
-    {
-      "edition_id": "GOI_zh-Hant",
-      "display_name": "GOI Bible Traditional Chinese",
-      "bcp47_tag": "zh-Hant",
-      "language_subtag": "zh",
-      "status": "active",
-      "file": "GOI_zh-Hant.db",
-      "size_bytes": 9355264,
-      "sha256": "c851716316f878e0ad7ed92481f0bd5a69ad5bb0ee6a493fa0288cca80a77ec5",
+      "sha256": "cfcafe1602ba9b9fa8ac0d28720c4e9ea47a1328499b22279a7cfc8668b6c573",
       "verse_count": 31102
     },
     {
@@ -124,7 +113,29 @@
       "status": "active",
       "file": "GOI_vi.db",
       "size_bytes": 10563584,
-      "sha256": "63d1034272799847cfacb9e7a07e865a8ff314e7d7105756217b0e53ac624d1c",
+      "sha256": "603bf508d94bc6023dff74d8eb197fe5576e052902cc37d7d2293b0e5a6d45d0",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_zh-Hans",
+      "display_name": "GOI Bible Simplified Chinese",
+      "bcp47_tag": "zh-Hans",
+      "language_subtag": "zh",
+      "status": "active",
+      "file": "GOI_zh-Hans.db",
+      "size_bytes": 9355264,
+      "sha256": "8c08899a70fe942d8f9ac5818c3e59865fdf8294437cc544015bef48a0756325",
+      "verse_count": 31102
+    },
+    {
+      "edition_id": "GOI_zh-Hant",
+      "display_name": "GOI Bible Traditional Chinese",
+      "bcp47_tag": "zh-Hant",
+      "language_subtag": "zh",
+      "status": "active",
+      "file": "GOI_zh-Hant.db",
+      "size_bytes": 9355264,
+      "sha256": "d1d5483927b2da4128e497e38ee5d6b44ee2d19a67bc17248b5dff062e00b430",
       "verse_count": 31102
     },
     {
@@ -170,17 +181,6 @@
       "size_bytes": 8962048,
       "sha256": "8996d1d032c4f8c34c795015d1f51df33c5ddf226fe3ea9e885524d3431caa85",
       "verse_count": 23145
-    },
-    {
-      "edition_id": "GOI_Is",
-      "display_name": "GOI Bible Icelandic",
-      "bcp47_tag": "is",
-      "language_subtag": "is",
-      "status": "active",
-      "file": "GOI_Is.db",
-      "size_bytes": 9117696,
-      "sha256": "77408ed944751e0354ba13be6c92d3c74e7c2730c2e0272246d97b861f86bad9",
-      "verse_count": 31102
     }
   ]
 }
